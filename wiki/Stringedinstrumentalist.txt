@@ -1,0 +1,15 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill
+| color      = 3:0
+| skill      = Stringed Instrumentalist
+| profession = 
+| job name   = 
+| tasks      = 
+| attributes =
+}}
+{{av}}
+
+'''Stringed Instrumentalist''' is the [[performance]] skill used to play stringed [[instruments]].
+
+{{Skills}}

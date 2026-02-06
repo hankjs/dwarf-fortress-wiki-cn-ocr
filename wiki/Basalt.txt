@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{layerlookup/0
+|graphic=basalt_sprite.png}}
+{{av}}
+
+'''Basalt''' is a [[magma-safe]] [[igneous extrusive layer|igneous extrusive]] [[stone]], which can form whole [[stone layers|layers]] and is the only [[igneous extrusive layer|igneous extrusive]] [[stone]] to contain [[Sunstone]].
+
+<gallery>
+File:Basalt.jpg
+</gallery>
+
+{{gamedata}}
+{{stones}}
