@@ -1,1 +1,0 @@
-#redirect [[How do I stop miners from falling in channels as they dig them]]

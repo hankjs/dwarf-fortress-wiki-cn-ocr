@@ -1,1 +1,0 @@
-#REDIRECT: [[info.txt file]]

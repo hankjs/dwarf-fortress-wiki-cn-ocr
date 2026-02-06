@@ -1,7 +1,0 @@
-{{Quality|Fine}}
-{{av}}
-'''Conversationalist''' is a [[social skill]] used by dwarves while making friends. Dwarves that are particularly good at this tend to make friends easily and will often rise to [[mayor|mayoral]] positions. 
-
-To train this skill, let dwarves idle and chatter amongst themselves. Dwarves who [[personality facet#GREGARIOUSNESS|prefer to be alone]] and [[personality facet#BASHFUL|bashful]] dwarves used to never gain [[experience]] in this skill (but this does not seem to apply in this version, as a bashful dwarf at embark, with 0 exp in that skill, did gain 92 exp in conversationalist within 13 years, without any override applying, and - for reference - the dwarf did only gain 364 exp in the other learnable social skills). Apparently talking to a new acquaintance, who gets then added to the relationships due to the conversation, does give a bashful (and possibly also a loner) dwarf experience in this skill, but it seems that the new acquaintance needs to be a fortress citizen (ie. talking to a visiting outpost liaison did not give exp in this skill) or some other condition needs to be also meet. Additionally, dwarves who [[personality facet#FRIENDSHIP|are put off by friendship]] and dwarves who [[personality facet#LEISURE_TIME|are offended by leisure time]] may be unable to gain experience in conversing.{{verify}} 
-
-{{skills}}

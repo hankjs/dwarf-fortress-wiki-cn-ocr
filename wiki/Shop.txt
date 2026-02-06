@@ -1,8 +1,0 @@
-{{av}}
-{{removed feature}}
-
-'''Shops''' were a building related to the [[economy]], and are not present in the current version.
-
-
-{{buildings}}
-{{Workshops}}

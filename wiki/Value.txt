@@ -1,6 +1,0 @@
-{{disambig}}'''Value''' can refer to many things in the game. Here's a few of them:
-
-* The ideals that a citizen holds, or their [[Personality value|values]] (e.g. craftsdwarfship, law, loyalty, family, honesty)
-* [[Item value]]
-* [[Zone#Quality and value|Zone Value]] (formerly known as ''Room Value'')
-[[ru:Value]]

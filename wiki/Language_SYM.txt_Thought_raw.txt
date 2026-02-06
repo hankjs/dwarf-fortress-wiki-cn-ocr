@@ -1,3 +1,0 @@
-
-
-<noinclude>{{raw header|symbol|THOUGHT}}</noinclude>{{raw|v50:language_SYM.txt|SYMBOL|THOUGHT}}<noinclude>{{raw footer|symbol|THOUGHT}}</noinclude>
