@@ -1,0 +1,23 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill
+| color      = 3:0
+| skill      = Optics engineer
+| profession = Scholar
+| job name   = 
+| tasks      = 
+* Ponder
+* Discuss
+* Research
+| attributes =
+*Unknown
+}}
+{{av}}
+
+'''Optics engineer''' is a [[scholar]] skill, used by scholars when thinking about engineering [[topics]], specifically under the Optics division.
+
+{{DF2014:topic/table/engineering}}
+
+
+{{Skills}}
+{{Category|Scholarship}}
