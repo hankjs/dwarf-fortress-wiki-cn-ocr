@@ -23,9 +23,9 @@ import xml.sax.handler
 def sanitize_filename(title: str) -> str:
     """Convert a wiki page title to a safe filename."""
     # Replace characters not allowed in Windows filenames
-    name = re.sub(r'[<>:"/\\|?*]', "_", title)
+    name = re.sub(r'[<>:"/\\|?*]', "", title)
     # Replace whitespace runs with underscore
-    name = re.sub(r"\s+", "_", name)
+    name = re.sub(r"\s+", "", name)
     # Trim dots/spaces from ends (Windows restriction)
     name = name.strip(". ")
     # Limit length (leave room for .txt extension)
@@ -111,7 +111,7 @@ class WikiPageHandler(xml.sax.handler.ContentHandler):
         # Use namespace subdirectory for non-main namespace pages
         ns = self._ns.strip()
         if ns and ns != "0":
-            subdir = os.path.join(self.output_dir, f"ns_{ns}")
+            subdir = os.path.join(self.output_dir, f"ns{ns}")
         else:
             subdir = self.output_dir
 
@@ -124,7 +124,7 @@ class WikiPageHandler(xml.sax.handler.ContentHandler):
             base = os.path.join(subdir, safe_name)
             counter = 2
             while os.path.exists(filepath):
-                filepath = f"{base}_{counter}.txt"
+                filepath = f"{base}{counter}.txt"
                 counter += 1
 
         with open(filepath, "w", encoding="utf-8") as f:
