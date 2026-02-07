@@ -19,7 +19,11 @@
       "Bash(python:*)",
       "Bash(timeout 5 tail:*)",
       "Bash(taskkill:*)",
-      "Bash(TASKKILL //F //IM python.exe:*)"
+      "Bash(TASKKILL //F //IM python.exe:*)",
+      "Bash(if [ -f \"wiki_cn/Place-CN.txt\" ])",
+      "Bash(then echo \"文件存在\")",
+      "Bash(else echo \"文件不存在\")",
+      "Bash(fi)"
     ]
   }
 }

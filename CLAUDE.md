@@ -4,9 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Dwarf Fortress Wiki OCR Tool - A PyQt5 desktop application that helps Chinese players understand in-game English text by performing OCR on screenshots and displaying matching Dwarf Fortress Wiki entries with bilingual support (EN/CN). Also includes English dictionary support via ECDICT for general vocabulary lookup.
+Dwarf Fortress Wiki OCR Tool - A PyQt5 desktop application that helps Chinese players understand in-game English text by performing OCR on screenshots and displaying matching Dwarf Fortress Wiki entries with bilingual support (EN/CN). Features include:
+- **Sentence Translation**: MyMemory API-powered translation for multi-word OCR text
+- **Dictionary Lookup**: ECDICT-based English dictionary (150万+ words)
+- **Wiki Matching**: Fuzzy matching against 5000+ Dwarf Fortress wiki entries
 
-**Tech Stack:** Python 3, PyQt5, Tesseract OCR, Pillow, ECDICT (SQLite)
+**Tech Stack:** Python 3, PyQt5, Tesseract OCR, Pillow, ECDICT (SQLite), MyMemory Translation API
 
 ## Common Commands
 
@@ -46,9 +49,20 @@ python scripts/split_wiki.py Dwarf+Fortress+Wiki-20260206192244.xml wiki
 
 ## Architecture Overview
 
-### Three-Layer Translation System
+### Four-Layer Translation System
 
-The application uses a cascading translation strategy with three priority layers:
+The application uses a cascading translation strategy with four independent components:
+
+**A. Sentence Translation (MyMemory API)**
+   - Real-time translation of OCR text when multiple words detected
+   - Uses MyMemory Translation API (500 free requests/day)
+   - Game terminology pre-replaced before translation
+   - Displayed in "🈯 翻译" tab in EntryListWidget
+   - Asynchronous execution via QThread (non-blocking)
+
+**B. Wiki Entry Translation System** (Three Priority Layers)
+
+The app uses a cascading translation strategy for wiki entries:
 
 1. **Human Translation Layer** (Highest Priority)
    - Complete manual translations in `wiki_cn/` directory
@@ -72,19 +86,27 @@ The application uses a cascading translation strategy with three priority layers
 User clicks screenshot → ScreenshotWindow (region selection)
   → OCR via Tesseract → Text normalization
   → Parallel query:
+     ├─ Sentence translation (if multi-word) → Argos Translate + term protection
      ├─ Wiki entry matching (fuzzy + exact) → Load from wiki/wiki_cn
      └─ Dictionary lookup (ECDICT) with lemmatization
   → wiki_to_html conversion for wiki entries
-  → Display in ResultDialog:
-     - Wiki entries (📖) with CN/EN toggle
-     - Dictionary words (📚) with bilingual definitions
+  → Display in MainWindow:
+     EntryListWidget (left sidebar):
+       - 🈯 Translation (if multi-word OCR text)
+       - 📚 Dictionary words
+       - 📖 Wiki entries
+     ContentDisplayWidget (right panel):
+       - Click any entry → Display content with CN/EN toggle
 ```
 
 ### Critical Components
 
-**`src/ocr_tool.py`** - Main application module (317 lines)
+**`src/ocr_tool.py`** - Main application module (550+ lines)
+- `TranslationWorker`: QThread for async translation (non-blocking)
 - `MainWindow`: Entry point with screenshot button and wiki index building
 - Handles OCR processing, wiki entry matching, and redirect resolution
+- `_start_translation()`: Launches background translation thread
+- `_on_translation_finished()`: Updates UI when translation completes
 
 **`src/result_dialog.py`** - Result display module (496 lines)
 - `ResultDialog`: Wiki content viewer with CN/EN toggle
@@ -106,6 +128,29 @@ User clicks screenshot → ScreenshotWindow (region selection)
 - `format_entry_as_html()`: Formats dictionary entries as HTML with phonetic, definition, etymology, etc.
 - Supports fuzzy search and batch lookup
 - Global singleton: `get_dictionary_manager()`
+
+**`src/sentence_translator.py`** - Sentence translation module (180+ lines)
+- `SentenceTranslator`: MyMemory API client with term protection
+- `should_translate()`: Checks if text has multiple words (single words use dictionary)
+- `translate()`: Translates text after pre-replacing game terminology
+- `_preprocess_replace_terms()`: Replaces EN terms with CN before translation
+- `_call_mymemory_api()`: Calls MyMemory Translation API
+- Global singleton: `get_sentence_translator()`
+- No installation needed, works with network connection
+
+**`src/entry_list_widget.py`** - Search result list widget (200+ lines)
+- `EntryListWidget`: Displays translation/dict/wiki results in three sections
+- `set_entries()`: Populates lists with translation_entry, dict_entries, wiki_entries
+- `select_first()`: Auto-selects first result (priority: translation > wiki > dict)
+- Emits `entry_selected(index, type)` signal where type is "translation", "dict", or "wiki"
+
+**`src/content_display_widget.py`** - Content display widget (250+ lines)
+- `ContentDisplayWidget`: Right panel for displaying selected entry content
+- `show_translation()`: Displays sentence translation with original/translated text
+- `show_dict_entry()`: Displays dictionary entry with formatted HTML
+- `show_wiki_entry()`: Displays wiki entry with CN/EN toggle support
+- `toggle_language()`: Switches between EN/CN for wiki and translation entries
+- `can_toggle_language()`: Returns True for translation and wiki entries
 
 **`src/wiki_to_html.py`** - Wiki markup parser (417 lines)
 - `wiki_to_html(content)`: Converts MediaWiki syntax to HTML

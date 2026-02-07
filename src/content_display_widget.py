@@ -24,7 +24,7 @@ class ContentDisplayWidget(QWidget):
         super().__init__(parent)
 
         # 内部状态
-        self._current_type = None  # 'dict' 或 'wiki'
+        self._current_type = None  # 'translation', 'dict' 或 'wiki'
         self._current_lang = "en"  # 'en' 或 'cn'
         self._current_data = None  # 缓存当前显示数据
 
@@ -49,6 +49,47 @@ class ContentDisplayWidget(QWidget):
 
         layout.addWidget(self.browser)
         self.setLayout(layout)
+
+    def show_translation(self, original: str, translated: str):
+        """
+        显示整句翻译
+
+        Args:
+            original: 原文
+            translated: 译文
+        """
+        self._current_type = "translation"
+        self._current_lang = "cn"  # 翻译默认显示中文
+        self._current_data = {"original": original, "translated": translated}
+
+        # 格式化HTML
+        html = f"""
+        <div style="padding: 20px;">
+            <h2 style="color: #cc6600; border-bottom: 2px solid #cc6600; padding-bottom: 5px;">
+                🈯 句子翻译
+            </h2>
+            <div style="margin-top: 20px;">
+                <h3 style="color: #666;">原文：</h3>
+                <p style="font-size: 14px; line-height: 1.6; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #ccc;">
+                    {original}
+                </p>
+            </div>
+            <div style="margin-top: 20px;">
+                <h3 style="color: #666;">译文：</h3>
+                <p style="font-size: 16px; line-height: 1.8; padding: 10px; background-color: #fff8f0; border-left: 3px solid #cc6600;">
+                    {translated}
+                </p>
+            </div>
+            <div style="margin-top: 20px; padding: 10px; background-color: #e3f2fd; border: 1px solid #90caf9; border-radius: 4px;">
+                <p style="font-size: 12px; color: #1565c0; margin: 0; line-height: 1.6;">
+                    💡 翻译由 <strong>MyMemory API</strong> 提供（免费额度：500次/天）<br>
+                    🔖 游戏术语已自动替换为标准译名
+                </p>
+            </div>
+        </div>
+        """
+
+        self.browser.setHtml(html)
 
     def show_dict_entry(self, word: str, dict_entry: dict):
         """
@@ -97,13 +138,17 @@ class ContentDisplayWidget(QWidget):
         # 确定显示语言
         if lang:
             self._current_lang = lang
-        # 如果没有中文内容，强制显示英文
-        if not cn_content and not self.vocab_map:
+        # 如果没有真正的中文翻译且没有词汇表，强制显示英文
+        has_real_cn_translation = cn_content and cn_content != content
+        if not has_real_cn_translation and not self.vocab_map:
             self._current_lang = "en"
 
         # 选择内容
+        # 检查 cn_content 是否真的是中文翻译（而不是英文 fallback）
+        has_real_cn_translation = cn_content and cn_content != content
+
         if self._current_lang == "cn":
-            if cn_content:
+            if has_real_cn_translation:
                 display_content = cn_content
                 warning = ""
             elif self.vocab_map:
@@ -131,7 +176,56 @@ class ContentDisplayWidget(QWidget):
         self.browser.setHtml(full_html)
 
     def toggle_language(self):
-        """切换中英文（仅对Wiki词条有效）"""
+        """切换中英文（仅对Wiki词条和翻译有效）"""
+        if self._current_type == "translation":
+            # 翻译类型：切换原文/译文显示
+            self._current_lang = "cn" if self._current_lang == "en" else "en"
+            data = self._current_data
+
+            if self._current_lang == "en":
+                # 显示原文
+                html = f"""
+                <div style="padding: 20px;">
+                    <h2 style="color: #cc6600; border-bottom: 2px solid #cc6600; padding-bottom: 5px;">
+                        🈯 句子翻译 - 原文
+                    </h2>
+                    <div style="margin-top: 20px;">
+                        <p style="font-size: 16px; line-height: 1.8; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #ccc;">
+                            {data["original"]}
+                        </p>
+                    </div>
+                </div>
+                """
+            else:
+                # 显示译文（完整视图）
+                html = f"""
+                <div style="padding: 20px;">
+                    <h2 style="color: #cc6600; border-bottom: 2px solid #cc6600; padding-bottom: 5px;">
+                        🈯 句子翻译
+                    </h2>
+                    <div style="margin-top: 15px; padding: 10px; background-color: #e3f2fd; border-left: 4px solid #2196f3;">
+                        <p style="font-size: 12px; color: #1565c0; margin: 0;">
+                            💡 翻译由 MyMemory API 提供，已保护游戏术语
+                        </p>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h3 style="color: #666;">原文：</h3>
+                        <p style="font-size: 14px; line-height: 1.6; padding: 10px; background-color: #f9f9f9; border-left: 3px solid #ccc;">
+                            {data["original"]}
+                        </p>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <h3 style="color: #666;">译文：</h3>
+                        <p style="font-size: 16px; line-height: 1.8; padding: 10px; background-color: #fff8f0; border-left: 3px solid #cc6600;">
+                            {data["translated"]}
+                        </p>
+                    </div>
+                </div>
+                """
+
+            self.browser.setHtml(html)
+            return
+
         if self._current_type != "wiki":
             return
 
@@ -152,15 +246,21 @@ class ContentDisplayWidget(QWidget):
         return self._current_lang
 
     def can_toggle_language(self) -> bool:
-        """是否可以切换语言（仅Wiki且有中文内容或vocab_map）"""
+        """是否可以切换语言（翻译和Wiki都支持）"""
+        if self._current_type == "translation":
+            return True
+
         if self._current_type != "wiki":
             return False
 
         data = self._current_data
-        has_cn = data.get("cn_content") is not None
-        has_vocab = self.vocab_map is not None
+        # 检查是否有真正的中文翻译（而不是英文 fallback）
+        cn_content = data.get("cn_content")
+        en_content = data.get("content")
+        has_real_cn = cn_content and cn_content != en_content
+        has_vocab = self.vocab_map is not None and len(self.vocab_map) > 0
 
-        return has_cn or has_vocab
+        return has_real_cn or has_vocab
 
     def clear(self):
         """清空显示"""

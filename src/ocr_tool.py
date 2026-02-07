@@ -9,7 +9,7 @@ import sys
 
 import pytesseract
 from PIL import Image
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QThread, pyqtSignal
 from PyQt5.QtWidgets import (
     QApplication,
     QHBoxLayout,
@@ -28,6 +28,28 @@ from dictionary import get_dictionary_manager
 from entry_list_widget import EntryListWidget
 from content_display_widget import ContentDisplayWidget
 from translation import load_translation_map
+from sentence_translator import get_sentence_translator
+
+
+class TranslationWorker(QThread):
+    """后台翻译线程"""
+
+    # 信号：翻译完成 (原文, 译文)
+    translation_finished = pyqtSignal(str, str)
+
+    def __init__(self, text, translator):
+        super().__init__()
+        self.text = text
+        self.translator = translator
+
+    def run(self):
+        """在后台线程执行翻译"""
+        try:
+            translated = self.translator.translate(self.text)
+            if translated:
+                self.translation_finished.emit(self.text, translated)
+        except Exception as e:
+            print(f"翻译线程错误: {e}")
 
 
 class MainWindow(QMainWindow):
@@ -48,8 +70,15 @@ class MainWindow(QMainWindow):
         self.translation_map = translation_data.get("title_map", {})
         self.vocab_map = translation_data.get("vocabulary_map", {})
 
+        # 初始化句子翻译器（使用词汇表作为术语字典）
+        self.sentence_translator = get_sentence_translator(self.vocab_map)
+
         # 初始化词典管理器
         self.dict_manager = get_dictionary_manager()
+
+        # 翻译线程
+        self._translation_worker = None
+        self._pending_ocr_data = None  # 等待翻译完成的 OCR 数据
 
         # 缓存查询结果（用于词条切换和弹窗）
         self._last_query_result = None
@@ -377,7 +406,13 @@ class MainWindow(QMainWindow):
                 else:
                     wiki_cn_entries.append((entry_name, content))
 
-        # 2. 查询英语词典
+        # 2. 启动异步翻译（仅当是多个单词时）
+        should_translate = (
+            self.sentence_translator.is_ready()
+            and self.sentence_translator.should_translate(query_text)
+        )
+
+        # 3. 查询英语词典
         dict_entries = []
         if self.dict_manager.is_available():
             # 提取查询文本中的单词
@@ -394,39 +429,46 @@ class MainWindow(QMainWindow):
                 if entry:
                     dict_entries.append((word, entry))
 
-        # 3. 显示结果
+        # 4. 先显示 Wiki 和字典结果（不等翻译）
         wiki_count = len(wiki_entries)
         dict_count = len(dict_entries)
 
-        if wiki_count == 0 and dict_count == 0:
+        if not should_translate and wiki_count == 0 and dict_count == 0:
             self.status_label.setText("未找到匹配结果")
             return
 
-        # 3.1 缓存结果（必须在 select_first() 之前，因为信号处理需要这个数据）
+        # 4.1 缓存结果（翻译稍后异步添加）
         self._last_query_result = {
             "query": query_text,
+            "translation_entry": None,  # 翻译完成后更新
             "dict_entries": dict_entries,
             "wiki_entries": wiki_entries,
             "wiki_cn_entries": wiki_cn_entries,
         }
 
-        # 3.2 注入中文内容到 ContentDisplayWidget
+        # 4.2 注入中文内容到 ContentDisplayWidget
         self.content_display.wiki_cn_entries = wiki_cn_entries
 
-        # 3.3 填充左侧列表并自动选中第一项
-        self.entry_list.set_entries(dict_entries, wiki_entries)
+        # 4.3 填充左侧列表（暂不包含翻译）
+        self.entry_list.set_entries(None, dict_entries, wiki_entries)
         self.entry_list.select_first()
 
-        # 3.4 显示"弹窗"按钮
+        # 4.4 显示"弹窗"按钮
         self.reopen_btn.show()
 
-        # 3.5 更新状态标签
+        # 4.5 更新状态标签
         status_parts = []
+        if should_translate:
+            status_parts.append("翻译中...")
         if wiki_count > 0:
             status_parts.append(f"{wiki_count} 条 Wiki")
         if dict_count > 0:
             status_parts.append(f"{dict_count} 个单词")
-        self.status_label.setText(f"找到 {' + '.join(status_parts)}!")
+        self.status_label.setText(f"找到 {' + '.join(status_parts)}")
+
+        # 4.6 启动后台翻译
+        if should_translate:
+            self._start_translation(query_text)
 
     def on_entry_selected(self, index: int, entry_type: str):
         """词条选中事件"""
@@ -434,7 +476,17 @@ class MainWindow(QMainWindow):
             return
 
         try:
-            if entry_type == "dict":
+            if entry_type == "translation":
+                # 显示翻译
+                translation_entry = self._last_query_result.get("translation_entry")
+                if not translation_entry:
+                    return
+
+                original, translated = translation_entry
+                self.content_display.show_translation(original, translated)
+                self.lang_btn.setEnabled(True)  # 翻译支持切换原文/译文
+
+            elif entry_type == "dict":
                 # 显示词典词条
                 dict_entries = self._last_query_result["dict_entries"]
                 if index >= len(dict_entries):
@@ -469,6 +521,50 @@ class MainWindow(QMainWindow):
     def toggle_language(self):
         """切换中英文"""
         self.content_display.toggle_language()
+
+    def _start_translation(self, text: str):
+        """启动后台翻译"""
+        # 停止之前的翻译线程
+        if self._translation_worker and self._translation_worker.isRunning():
+            self._translation_worker.quit()
+            self._translation_worker.wait()
+
+        # 创建新的翻译线程
+        self._translation_worker = TranslationWorker(text, self.sentence_translator)
+        self._translation_worker.translation_finished.connect(self._on_translation_finished)
+        self._translation_worker.start()
+
+    def _on_translation_finished(self, original: str, translated: str):
+        """翻译完成回调"""
+        # 检查是否还是当前查询
+        if not self._last_query_result or self._last_query_result["query"] != original:
+            return
+
+        # 更新翻译结果
+        translation_entry = (original, translated)
+        self._last_query_result["translation_entry"] = translation_entry
+
+        # 获取当前的词典和 Wiki 结果
+        dict_entries = self._last_query_result.get("dict_entries", [])
+        wiki_entries = self._last_query_result.get("wiki_entries", [])
+
+        # 更新左侧列表（添加翻译）
+        self.entry_list.set_entries(translation_entry, dict_entries, wiki_entries)
+
+        # 如果当前没有选中任何条目，自动选中翻译
+        # （优先显示刚完成的翻译）
+        if self.entry_list._translation_entry:
+            self.entry_list.select_first()
+
+        # 更新状态标签
+        status_parts = ["整句翻译"]
+        wiki_count = len(wiki_entries)
+        dict_count = len(dict_entries)
+        if wiki_count > 0:
+            status_parts.append(f"{wiki_count} 条 Wiki")
+        if dict_count > 0:
+            status_parts.append(f"{dict_count} 个单词")
+        self.status_label.setText(f"识别到 {' + '.join(status_parts)}!")
 
     def on_wiki_link_clicked(self, target: str):
         """Wiki内链点击处理（弹出ResultDialog）"""
@@ -555,10 +651,18 @@ class MainWindow(QMainWindow):
             text = pytesseract.image_to_string(pil_image, lang="eng")
             text = text.strip()
 
-            # 如果文本包含点号，只保留第一个点号之前的内容
-            # 例如: "WeMustDigDeeper.txt" => "WeMustDigDeeper"
+            # 智能处理点号：
+            # - 单个单词（如 "Fortress.txt"）→ 删除 . 后面（文件名）
+            # - 多个单词（如 "He strikes. He wins."）→ 保留完整（句子）
             if "." in text:
-                text = text.split(".")[0].strip()
+                # 获取第一个点号前的文本
+                before_dot = text.split(".")[0].strip()
+                # 统计点号前有多少个单词
+                words = re.findall(r'\b[a-zA-Z]+\b', before_dot)
+                if len(words) == 1:
+                    # 只有一个单词，是文件名，删除点号后面的内容
+                    text = before_dot
+                # 否则是句子，保留完整文本
 
             if not text:
                 self.status_label.setText("未识别到文字")
@@ -592,7 +696,13 @@ class MainWindow(QMainWindow):
                     else:
                         wiki_cn_entries.append((entry_name, content))
 
-            # 2. 查询英语词典
+            # 2. 启动异步翻译（仅当是多个单词时）
+            should_translate = (
+                self.sentence_translator.is_ready()
+                and self.sentence_translator.should_translate(text)
+            )
+
+            # 3. 查询英语词典
             dict_entries = []
             if self.dict_manager.is_available():
                 # 提取OCR文本中的单词
@@ -609,39 +719,46 @@ class MainWindow(QMainWindow):
                     if entry:
                         dict_entries.append((word, entry))
 
-            # 3. 显示结果
+            # 4. 先显示 Wiki 和字典结果（不等翻译）
             wiki_count = len(wiki_entries)
             dict_count = len(dict_entries)
 
-            if wiki_count == 0 and dict_count == 0:
+            if not should_translate and wiki_count == 0 and dict_count == 0:
                 self.status_label.setText(f"识别成功「{text}」，但未找到匹配词条")
                 return
 
-            # 3.1 缓存结果（必须在 select_first() 之前，因为信号处理需要这个数据）
+            # 4.1 缓存结果（翻译稍后异步添加）
             self._last_query_result = {
                 "query": text,
+                "translation_entry": None,  # 翻译完成后更新
                 "dict_entries": dict_entries,
                 "wiki_entries": wiki_entries,
                 "wiki_cn_entries": wiki_cn_entries,
             }
 
-            # 3.2 注入中文内容到 ContentDisplayWidget
+            # 4.2 注入中文内容到 ContentDisplayWidget
             self.content_display.wiki_cn_entries = wiki_cn_entries
 
-            # 3.3 填充左侧列表并自动选中第一项
-            self.entry_list.set_entries(dict_entries, wiki_entries)
+            # 4.3 填充左侧列表（暂不包含翻译）
+            self.entry_list.set_entries(None, dict_entries, wiki_entries)
             self.entry_list.select_first()
 
-            # 3.4 显示"弹窗"按钮
+            # 4.4 显示"弹窗"按钮
             self.reopen_btn.show()
 
-            # 3.5 更新状态标签
+            # 4.5 更新状态标签
             status_parts = []
+            if should_translate:
+                status_parts.append("翻译中...")
             if wiki_count > 0:
                 status_parts.append(f"{wiki_count} 条 Wiki")
             if dict_count > 0:
                 status_parts.append(f"{dict_count} 个单词")
             self.status_label.setText(f"识别到 {' + '.join(status_parts)}!")
+
+            # 4.6 启动后台翻译
+            if should_translate:
+                self._start_translation(text)
 
         except Exception as e:
             self.status_label.setText(f"Error: {str(e)}")
