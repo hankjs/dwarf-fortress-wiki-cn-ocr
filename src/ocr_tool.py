@@ -23,6 +23,7 @@ from PyQt5.QtWidgets import (
 
 from result_dialog import ResultDialog
 from screenshot import ScreenshotWindow
+from dictionary import get_dictionary_manager
 
 
 class MainWindow(QMainWindow):
@@ -37,6 +38,9 @@ class MainWindow(QMainWindow):
 
         # 构建wiki索引
         self.build_wiki_index()
+
+        # 初始化词典管理器
+        self.dict_manager = get_dictionary_manager()
 
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
@@ -276,7 +280,7 @@ class MainWindow(QMainWindow):
         self.show()
 
     def search_wiki(self):
-        """从输入框搜索wiki词条"""
+        """从输入框搜索wiki词条和英语单词"""
         query_text = self.search_input.text().strip()
         if not query_text:
             self.status_label.setText("请输入搜索内容")
@@ -285,12 +289,13 @@ class MainWindow(QMainWindow):
         self.status_label.setText("搜索中...")
         QApplication.processEvents()
 
-        # 匹配wiki词条
+        # 1. 匹配wiki词条
         matches = self.match_wiki_entries(query_text)
+        wiki_entries = []
+        wiki_cn_entries = []
+
         if matches:
             # 读取匹配到的wiki内容（按词条名去重）
-            wiki_entries = []
-            wiki_cn_entries = []
             seen_names = set()
             for display_name, file_path in matches:
                 redirected_name, content = self.read_wiki_content(file_path)
@@ -312,21 +317,54 @@ class MainWindow(QMainWindow):
                 else:
                     wiki_cn_entries.append((entry_name, content))
 
-            self.status_label.setText(f"找到 {len(wiki_entries)} 条 wiki!")
-            dialog = ResultDialog(
-                query_text,
-                self,
-                wiki_entries=wiki_entries,
-                wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
-                wiki_index=self.wiki_index,
-                wiki_cn_index=self.wiki_cn_index,
-                read_wiki_func=self.read_wiki_content,
-            )
-            self._result_dialog = dialog
-            self.reopen_btn.show()
-            dialog.show()
-        else:
-            self.status_label.setText("未找到匹配的wiki词条")
+        # 2. 查询英语词典
+        dict_entries = []
+        if self.dict_manager.is_available():
+            # 提取查询文本中的单词
+            words = re.findall(r'\b[a-zA-Z]+\b', query_text)
+            seen_words = set()
+            for word in words:
+                word_lower = word.lower()
+                if word_lower in seen_words or len(word_lower) < 2:
+                    continue
+                seen_words.add(word_lower)
+
+                # 尝试查询（支持词形还原）
+                entry = self.dict_manager.lookup_with_lemma(word)
+                if entry:
+                    dict_entries.append((word, entry))
+
+        # 3. 显示结果
+        wiki_count = len(wiki_entries)
+        dict_count = len(dict_entries)
+
+        if wiki_count == 0 and dict_count == 0:
+            self.status_label.setText("未找到匹配结果")
+            return
+
+        # 构建状态信息
+        status_parts = []
+        if wiki_count > 0:
+            status_parts.append(f"{wiki_count} 条 Wiki")
+        if dict_count > 0:
+            status_parts.append(f"{dict_count} 个单词")
+        self.status_label.setText(f"找到 {' + '.join(status_parts)}!")
+
+        # 打开结果对话框
+        dialog = ResultDialog(
+            query_text,
+            self,
+            wiki_entries=wiki_entries,
+            wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
+            dict_entries=dict_entries,
+            wiki_index=self.wiki_index,
+            wiki_cn_index=self.wiki_cn_index,
+            read_wiki_func=self.read_wiki_content,
+            dict_manager=self.dict_manager,
+        )
+        self._result_dialog = dialog
+        self.reopen_btn.show()
+        dialog.show()
 
     def reopen_result(self):
         if hasattr(self, "_result_dialog") and self._result_dialog:

@@ -8,7 +8,12 @@
       "Bash(wc:*)",
       "Bash(python -m pytest tests/ -v)",
       "Bash(python tests/test_translation.py:*)",
-      "Bash(python tests/test_wiki_to_html.py:*)"
+      "Bash(python tests/test_wiki_to_html.py:*)",
+      "Bash(dir:*)",
+      "Bash(python test_dict_quick.py:*)",
+      "Bash(chcp:*)",
+      "Bash(python -X utf8:*)",
+      "Bash(del E:projectshankdf-ocrtest_*.py E:projectshankdf-ocrdebug_instructions.md)"
     ]
   }
 }

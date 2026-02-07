@@ -204,6 +204,8 @@ class ResultDialog(QDialog):
         read_wiki_func=None,
         wiki_cn_entries=None,
         wiki_cn_index=None,
+        dict_entries=None,
+        dict_manager=None,
     ):
         super().__init__(parent)
         self.setMinimumSize(600, 500)
@@ -212,9 +214,11 @@ class ResultDialog(QDialog):
         self.ocr_text = text
         self.wiki_entries = wiki_entries or []
         self.wiki_cn_entries = wiki_cn_entries or []
+        self.dict_entries = dict_entries or []  # [(word, dict_entry), ...]
         self.wiki_index = wiki_index or {}
         self.wiki_cn_index = wiki_cn_index or {}
         self.read_wiki_func = read_wiki_func
+        self.dict_manager = dict_manager
         self.current_entry_index = 0
         self.entry_buttons = []
         self._child_dialogs = []
@@ -266,8 +270,17 @@ class ResultDialog(QDialog):
 
         layout.addLayout(top_layout)
 
-        if self.wiki_entries:
-            self.setWindowTitle(f"Wiki Match ({len(self.wiki_entries)} entries)")
+        # 合并所有词条（wiki + 词典）
+        total_entries = len(self.wiki_entries) + len(self.dict_entries)
+        if total_entries > 0:
+            wiki_count = len(self.wiki_entries)
+            dict_count = len(self.dict_entries)
+            title_parts = []
+            if wiki_count > 0:
+                title_parts.append(f"{wiki_count} Wiki")
+            if dict_count > 0:
+                title_parts.append(f"{dict_count} 词典")
+            self.setWindowTitle(f"匹配结果 ({' + '.join(title_parts)})")
 
             # 顶部词条按钮列表（可滚动）
             scroll = QScrollArea()
@@ -279,13 +292,29 @@ class ResultDialog(QDialog):
             self.entry_btn_layout = QHBoxLayout(btn_container)
             self.entry_btn_layout.setContentsMargins(2, 2, 2, 2)
             self.entry_btn_layout.setSpacing(4)
+
+            # 添加wiki词条按钮
             for i, (entry_name, _content) in enumerate(self.wiki_entries):
-                btn = QPushButton(entry_name.replace("_", " "))
+                btn = QPushButton("📖 " + entry_name.replace("_", " "))
                 btn.setCursor(Qt.PointingHandCursor)
-                btn.setStyleSheet(self._entry_btn_style(selected=(i == 0)))
+                btn.setStyleSheet(self._entry_btn_style(selected=(i == 0), is_dict=False))
                 btn.clicked.connect(lambda checked, idx=i: self.switch_entry(idx))
                 self.entry_btn_layout.addWidget(btn)
                 self.entry_buttons.append(btn)
+
+            # 添加词典单词按钮
+            wiki_count = len(self.wiki_entries)
+            for i, (word, _entry) in enumerate(self.dict_entries):
+                btn = QPushButton("📚 " + word)
+                btn.setCursor(Qt.PointingHandCursor)
+                btn.setStyleSheet(self._entry_btn_style(
+                    selected=(wiki_count == 0 and i == 0),
+                    is_dict=True
+                ))
+                btn.clicked.connect(lambda checked, idx=wiki_count+i: self.switch_entry(idx))
+                self.entry_btn_layout.addWidget(btn)
+                self.entry_buttons.append(btn)
+
             self.entry_btn_layout.addStretch()
             scroll.setWidget(btn_container)
             layout.addWidget(scroll)
@@ -304,7 +333,8 @@ class ResultDialog(QDialog):
         """)
         layout.addWidget(self.text_browser)
 
-        if self.wiki_entries:
+        # 如果有任何词条（wiki或词典），显示第一个
+        if self.wiki_entries or self.dict_entries:
             self._show_entry(0)
         else:
             self.setWindowTitle("识别结果")
@@ -344,14 +374,16 @@ class ResultDialog(QDialog):
         layout.addLayout(btn_layout)
 
     @staticmethod
-    def _entry_btn_style(selected=False):
+    def _entry_btn_style(selected=False, is_dict=False):
         if selected:
-            return """
-                QPushButton {
+            # 选中状态：词典用蓝色，wiki用绿色
+            bg_color = "#2196F3" if is_dict else "#4CAF50"
+            return f"""
+                QPushButton {{
                     font-size: 12px; padding: 4px 10px;
-                    background-color: #4CAF50; color: white;
+                    background-color: {bg_color}; color: white;
                     border: none; border-radius: 3px;
-                }
+                }}
             """
         return """
             QPushButton {
@@ -365,7 +397,9 @@ class ResultDialog(QDialog):
 
     def _has_cn_content(self, index):
         """判断指定索引的词条是否有中文内容（有翻译文件或可进行临时翻译）"""
-        if not self.wiki_entries or index >= len(self.wiki_entries):
+        # 只对wiki词条判断，词典单词直接返回False
+        wiki_count = len(self.wiki_entries)
+        if index >= wiki_count or not self.wiki_entries:
             return False
 
         # 检查是否有翻译文件
@@ -380,44 +414,68 @@ class ResultDialog(QDialog):
         return bool(self.vocab_map)
 
     def _show_entry(self, index):
-        # 语言切换按钮始终显示（只要有词条）
-        has_cn = self._has_cn_content(index)
-        self.lang_btn.setVisible(bool(self.wiki_entries))
+        wiki_count = len(self.wiki_entries)
 
-        # 如果当前是中文模式但没有中文内容，自动切回英文
-        if self.current_lang == "cn" and not has_cn:
-            self.current_lang = "en"
+        # 判断是wiki词条还是词典单词
+        if index < wiki_count:
+            # Wiki词条
+            has_cn = self._has_cn_content(index)
+            self.lang_btn.setVisible(True)
 
-        entry_name, content = self.wiki_entries[index]
+            # 如果当前是中文模式但没有中文内容，自动切回英文
+            if self.current_lang == "cn" and not has_cn:
+                self.current_lang = "en"
 
-        if self.current_lang == "cn":
-            # 优先使用翻译文件
-            has_translation_file = (
-                self.wiki_cn_entries
-                and index < len(self.wiki_cn_entries)
-                and self.wiki_cn_entries[index][1] != content
-            )
+            entry_name, content = self.wiki_entries[index]
 
-            if has_translation_file:
-                # 使用现有的翻译文件
-                entry_name, content = self.wiki_cn_entries[index]
-            else:
-                # 使用词汇映射表进行临时翻译
-                content = translate_content_by_vocab(content, self.vocab_map)
-                # 添加临时翻译提示
-                content = "⚠️ [临时翻译]\n\n" + content
+            if self.current_lang == "cn":
+                # 优先使用翻译文件
+                has_translation_file = (
+                    self.wiki_cn_entries
+                    and index < len(self.wiki_cn_entries)
+                    and self.wiki_cn_entries[index][1] != content
+                )
 
-        html_content, url_to_filename = wiki_to_html(content)
-        # 将 URL 映射传递给 text_browser，用于 404 后解析真实 URL
-        self.text_browser._url_to_filename = url_to_filename
-        self.text_browser.setHtml(html_content)
-        self.text_browser.moveCursor(self.text_browser.textCursor().Start)
-        self.setWindowTitle(f"Wiki: {entry_name.replace('_', ' ')}")
+                if has_translation_file:
+                    # 使用现有的翻译文件
+                    entry_name, content = self.wiki_cn_entries[index]
+                else:
+                    # 使用词汇映射表进行临时翻译
+                    content = translate_content_by_vocab(content, self.vocab_map)
+                    # 添加临时翻译提示
+                    content = "⚠️ [临时翻译]\n\n" + content
+
+            html_content, url_to_filename = wiki_to_html(content)
+            # 将 URL 映射传递给 text_browser，用于 404 后解析真实 URL
+            self.text_browser._url_to_filename = url_to_filename
+            self.text_browser.setHtml(html_content)
+            self.text_browser.moveCursor(self.text_browser.textCursor().Start)
+            self.setWindowTitle(f"Wiki: {entry_name.replace('_', ' ')}")
+        else:
+            # 词典单词
+            dict_index = index - wiki_count
+            if dict_index < len(self.dict_entries):
+                word, dict_entry = self.dict_entries[dict_index]
+
+                # 词典内容不支持语言切换（已经是中英双语）
+                self.lang_btn.setVisible(False)
+
+                # 格式化为HTML
+                if self.dict_manager:
+                    html_content = self.dict_manager.format_entry_as_html(dict_entry, word)
+                else:
+                    html_content = f"<h2>{word}</h2><p>词典不可用</p>"
+
+                self.text_browser.setHtml(html_content)
+                self.text_browser.moveCursor(self.text_browser.textCursor().Start)
+                self.setWindowTitle(f"词典: {word}")
 
     def switch_entry(self, index):
         # 更新按钮样式
+        wiki_count = len(self.wiki_entries)
         for i, btn in enumerate(self.entry_buttons):
-            btn.setStyleSheet(self._entry_btn_style(selected=(i == index)))
+            is_dict = i >= wiki_count
+            btn.setStyleSheet(self._entry_btn_style(selected=(i == index), is_dict=is_dict))
         self.current_entry_index = index
         self._show_entry(index)
 

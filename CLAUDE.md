@@ -4,9 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Dwarf Fortress Wiki OCR Tool - A PyQt5 desktop application that helps Chinese players understand in-game English text by performing OCR on screenshots and displaying matching Dwarf Fortress Wiki entries with bilingual support (EN/CN).
+Dwarf Fortress Wiki OCR Tool - A PyQt5 desktop application that helps Chinese players understand in-game English text by performing OCR on screenshots and displaying matching Dwarf Fortress Wiki entries with bilingual support (EN/CN). Also includes English dictionary support via ECDICT for general vocabulary lookup.
 
-**Tech Stack:** Python 3, PyQt5, Tesseract OCR, Pillow
+**Tech Stack:** Python 3, PyQt5, Tesseract OCR, Pillow, ECDICT (SQLite)
 
 ## Common Commands
 
@@ -14,6 +14,9 @@ Dwarf Fortress Wiki OCR Tool - A PyQt5 desktop application that helps Chinese pl
 ```bash
 # Install dependencies
 pip install -r requirements.txt
+
+# Download ECDICT English dictionary database (optional, for dictionary support)
+python scripts/download_ecdict.py
 
 # Run the main application
 python src/ocr_tool.py
@@ -68,10 +71,13 @@ The application uses a cascading translation strategy with three priority layers
 ```
 User clicks screenshot → ScreenshotWindow (region selection)
   → OCR via Tesseract → Text normalization
-  → Wiki entry matching (fuzzy + exact)
-  → Load content from wiki/wiki_cn
-  → wiki_to_html conversion
-  → Display in ResultDialog with language toggle
+  → Parallel query:
+     ├─ Wiki entry matching (fuzzy + exact) → Load from wiki/wiki_cn
+     └─ Dictionary lookup (ECDICT) with lemmatization
+  → wiki_to_html conversion for wiki entries
+  → Display in ResultDialog:
+     - Wiki entries (📖) with CN/EN toggle
+     - Dictionary words (📚) with bilingual definitions
 ```
 
 ### Critical Components
@@ -93,6 +99,13 @@ User clicks screenshot → ScreenshotWindow (region selection)
 **`src/translation.py`** - Translation utilities (82 lines)
 - `load_translation_map()`: Loads translation_map.json
 - `translate_content_by_vocab()`: Word-by-word translation with wiki syntax protection
+
+**`src/dictionary.py`** - English dictionary module (300+ lines)
+- `DictionaryManager`: ECDICT SQLite database interface
+- `lookup_with_lemma()`: Word lookup with automatic lemmatization (running→run)
+- `format_entry_as_html()`: Formats dictionary entries as HTML with phonetic, definition, etymology, etc.
+- Supports fuzzy search and batch lookup
+- Global singleton: `get_dictionary_manager()`
 
 **`src/wiki_to_html.py`** - Wiki markup parser (417 lines)
 - `wiki_to_html(content)`: Converts MediaWiki syntax to HTML
@@ -239,6 +252,10 @@ When translating wiki files, preserve ALL wiki markup:
 - The `wiki/` directory has ~5136 files; `wiki_cn/` has ~838 files
 - Translation progress tracked in `TranTodo.md` (checkbox format)
 - Remaining untranslated files listed in `todo_remaining.txt`
+- **ECDICT dictionary**: Optional feature, download with `python scripts/download_ecdict.py`
+  - File size: ~450MB (uncompressed SQLite database)
+  - Location: `ecdict.db` in project root
+  - Application works without it (wiki-only mode)
 
 ## Common Gotchas
 
