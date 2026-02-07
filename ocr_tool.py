@@ -556,6 +556,27 @@ class ResultDialog(QDialog):
         for placeholder, img_html in file_placeholders.items():
             content = content.replace(placeholder, img_html)
 
+        # [http://... 显示文本] 或 [http://...] 外部链接格式
+        # 先提取外部链接，保护起来
+        external_link_placeholders = {}
+        el_id = 0
+
+        def replace_external_link(m):
+            nonlocal el_id
+            url = m.group(1)
+            text = m.group(2) if m.group(2) else url
+            placeholder = f"__EXT_LINK_{el_id}__"
+            el_id += 1
+            external_link_placeholders[placeholder] = f'<a href="{url}" target="_blank" style="color:#1a73e8;text-decoration:none;">{text}</a>'
+            return placeholder
+
+        # 匹配 [http://...] 或 [http://... 显示文本]
+        content = re.sub(
+            r"\[(https?://[^\s\]]+)(?:\s+([^\]]+))?\]",
+            replace_external_link,
+            content,
+        )
+
         # [[display|link]] 格式
         content = re.sub(
             r"\[\[([^\]|]+)\|([^\]]+)\]\]",
@@ -572,6 +593,9 @@ class ResultDialog(QDialog):
         content = re.sub(
             r"&#x27;&#x27;&#x27;(.+?)&#x27;&#x27;&#x27;", r"<b>\1</b>", content
         )
+        # 还原外部链接占位符
+        for placeholder, link_html in external_link_placeholders.items():
+            content = content.replace(placeholder, link_html)
         # 保留换行
         content = content.replace("\n", "<br>")
         return content, url_to_filename
@@ -650,11 +674,19 @@ class ResultDialog(QDialog):
         self.show()
 
     def on_wiki_link_clicked(self, url):
-        """点击wiki内链时弹出新窗口展示对应词条"""
+        """点击链接时的处理：wiki内链弹出新窗口，外部链接用浏览器打开"""
         scheme = url.scheme()
+        url_str = url.toString()
+        
+        # 处理外部链接 http:// 或 https://
+        if scheme in ("http", "https"):
+            webbrowser.open(url_str)
+            return
+        
+        # 处理 wiki: 内链
         if scheme != "wiki":
             return
-        target = url.path() or url.toString().replace("wiki:", "", 1)
+        target = url.path() or url_str.replace("wiki:", "", 1)
         normalized = re.sub(r"[^a-zA-Z0-9]", "", target).lower()
         if normalized not in self.wiki_index:
             return
