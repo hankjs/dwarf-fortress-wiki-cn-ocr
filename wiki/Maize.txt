@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=maize_shrub_sprite.png
-|seedimage=maize_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=maize_shrub_sprite.png|seedimage=maize_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Flour]]
-}}
+*[[Flour]]}}
 {{av}}
 
 '''Maize plants''', or corn, are an [[aboveground]] [[crop]] that can either be [[milling|milled]] into [[flour|maize flour]] or [[brewing|brewed]] into <strike> moonshine ethanol </strike>  [[alcohol|maize beer]].

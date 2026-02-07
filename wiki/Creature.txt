@@ -15,8 +15,7 @@ Nearly all creatures in the game, including [[Megabeast|very]] [[Giant sperm wha
 For example, [[deer]] have a <tt>[POPULATION_NUMBER:15:30]</tt>, meaning that if you kill between 15-30 deer, no more deer will ever visit your fortress.
 
 ==Reading the Table==
-{{v50_creaturecurrent table head}}
-|}
+{{v50_creaturecurrent table head}}|}
 The above columns indicate, in order:
 * '''Graphic:''' The sprite assigned to the creature. Seen only in the [[premium version]].
 * '''Tile:''' The tile assigned to the creature, how you will see it without a graphic set.
@@ -41,8 +40,7 @@ These are intelligent creatures that form the dominant [[civilisation|civilized]
 {{v50_creaturecurrent table row|name=Elf|symbol=e|color=3:0:0|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=60,000|value=Not tameable|biome=[[Forest retreat]]s|note=Trading race}}
 {{v50_creaturecurrent table row|name=Human|symbol=U|color=3:0:0|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=70,000|value=Not tameable|biome=[[Town]]s and [[hamlet]]s|note=Trading race}}
 {{v50_creaturecurrent table row|name=Goblin|symbol=g|color=7:0:0|playable=Adv|hostile=Usually<sup>1</sup>|food=No|size=60,000|value=Not tameable|biome=[[Dark fortress]]es and [[dark pit]]s|note=Snatchers<sup>2</sup>}}
-{{v50_creaturecurrent table row|name=Kobold|symbol=k|color=6:0:0|playable=Adv|hostile=Usually<sup>1</sup>|food=No|size=20,000|value=Not tameable|biome=[[Cave]]s|note=Skulking race}}
-|}
+{{v50_creaturecurrent table row|name=Kobold|symbol=k|color=6:0:0|playable=Adv|hostile=Usually<sup>1</sup>|food=No|size=20,000|value=Not tameable|biome=[[Cave]]s|note=Skulking race}}|}
 :<small>1. Whether or not you are hostile with select civilized races depends on the history of your game world, and its length. Shorter histories mean less ongoing wars and general hostility, good for a newer player to learn the basics.</small>
 :<small>2. Snatchers try to snatch children of other civilizations. Snatched individuals become part of the Snatcher's civilization.</small>
 
@@ -58,8 +56,7 @@ Intelligent [[animal people]] that form crude civilizations underground, but wil
 {{v50_creaturecurrent_table_row|name=Olm man|symbol=o|color=7:0:1|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=35,100|value=Not tameable|biome=Underground|note=Amphibious}}
 {{v50_creaturecurrent_table_row|name=Reptile man|symbol=r|color=2:0:0|playable=No|hostile=Variable<sup>1</sup>|food=No|size=50,000|value=Not tameable|biome=Underground|note=Amphibious}}
 {{v50_creaturecurrent_table_row|name=Rodent man|symbol=r|color=0:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=40,000|value=Not tameable|biome=Underground|note=}}
-{{v50_creaturecurrent_table_row|name=Serpent man|symbol=s|color=7:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=50,000|value=Not tameable|biome=Underground|note=Amphibious; Causes [[Syndrome]]}}
-|}
+{{v50_creaturecurrent_table_row|name=Serpent man|symbol=s|color=7:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=50,000|value=Not tameable|biome=Underground|note=Amphibious; Causes [[Syndrome]]}}|}
 :<small>1. Animal person civilizations initially encountered in the caverns will never be hostile, even if the game states otherwise. Those encountered in ambushes, however, will be aggressive.</small>
 :<small>2. Ant-men body sizes depend on their caste.</small>
 
@@ -94,8 +91,7 @@ Blue peafowl|symbol=p|color=1:0:1|food=Yes|playable=No|hostile=No|size=4,000|val
 {{v50_creaturecurrent table row|name=Two-humped camel|symbol=C|color=6:0:0|food=Yes|playable=No|hostile=No|size=500,000|value=500|biome=Any desert|note=Domestic, milkable, pack animal}}
 {{v50_creaturecurrent table row|graphic=[[File:wagon_sprite.png|x40px]]|name=Wagon|symbol=W|color=6:0:0|food=No|playable=No|hostile=No|size=12,000|value=Not tameable|biome=|note=A special "creature" - see [[wagon|article]]}}
 {{v50_creaturecurrent table row|name=Water buffalo|symbol=W|color=0:0:1|food=Yes|playable=No|hostile=No|size=1,000,000|value=200|biome=Tropical wetland|note=Domestic, milkable, wagon puller, pack animal}}
-{{v50_creaturecurrent table row|name=Yak|symbol=Y|color=6:0:0|food=Yes|playable=No|hostile=No|size=700,000|value=200|biome=Mountains|note=Domestic, milkable, wagon puller, pack animal}}
-|}
+{{v50_creaturecurrent table row|name=Yak|symbol=Y|color=6:0:0|food=Yes|playable=No|hostile=No|size=700,000|value=200|biome=Mountains|note=Domestic, milkable, wagon puller, pack animal}}|}
 
 ===Beasts and Monsters===
 All kinds of monstrous creatures that roam the land and underground caverns, including: [[semi-megabeast]]s, [[megabeast]]s, and randomly generated ones that can take any form. all very powerful and can easily be game-ending.
@@ -107,8 +103,7 @@ All kinds of monstrous creatures that roam the land and underground caverns, inc
 {{v50_creaturecurrent table row|name=Cyclops|symbol=C|color=4:0:1|food=No|playable=No|hostile=Yes|size=8,000,000|value=Not tameable|biome=All land|note=One eyed}}
 {{v50_creaturecurrent table row|name=Ettin|symbol=E|color=6:0:1|food=No|playable=No|hostile=Yes|size=8,000,000|value=Not tameable|biome=All land|note=Has two heads}}
 {{v50_creaturecurrent table row|name=Giant|symbol=G|color=3:0:0|food=No|playable=No|hostile=Yes|size=9,000,000|value=Not tameable|biome=All land|note=}}
-{{v50_creaturecurrent table row|name=Minotaur|symbol=M|color=6:0:0|food=No|playable=No|hostile=Yes|size=220,000|value=Not tameable|biome=All land|note=Starts with combat skill}}
-|}
+{{v50_creaturecurrent table row|name=Minotaur|symbol=M|color=6:0:0|food=No|playable=No|hostile=Yes|size=220,000|value=Not tameable|biome=All land|note=Starts with combat skill}}|}
 
 ====Megabeasts====
 <!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
@@ -118,16 +113,14 @@ All kinds of monstrous creatures that roam the land and underground caverns, inc
 Bronze colossus|symbol=C|color=6:0:0|food=No|playable=No|hostile=Yes|size=20,000,000|value=Not tameable|biome=All land|note=Made of bronze, fairly hard to kill, drops masterwork [[bronze]] [[statue]] on death}}
 {{v50_creaturecurrent table row|name=Dragon|symbol=D|color=2:0:0|food=Yes|playable=No|hostile=Yes|size=25,000,000|value=10000|biome=All land|note=Breathes fire, trainable}}
 {{v50_creaturecurrent table row|name=Hydra|symbol=H|color=4:0:1|food=Yes|playable=No|hostile=Yes|size=8,000,000|value=10000|biome=All land|note=Has seven heads}}
-{{v50_creaturecurrent table row|name=Roc|symbol=R|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=20,000,000|value=10000|biome=All land|note=Can fly, trainable}}
-|}
+{{v50_creaturecurrent table row|name=Roc|symbol=R|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=20,000,000|value=10000|biome=All land|note=Can fly, trainable}}|}
 
 ====Procedurally generated====
 These creatures are procedurally generated, and different for every savefile. Their raws may be extracted from the world.dat file in uncompressed save folders. Their sprite will appear as the closest resemblance to their randomly generated appearance, including their colors and design, such as having wings, trunks, tusks, etc. The animated sprites below are just a few possible sprites without custom colors added.
 
 {{v50_creaturecurrent table head}}
 {{v50_creaturecurrent table row|graphic=[[File:beast_sprites_preview_anim.gif]]|name=Forgotten beast|symbol=<span style="font-size:80%;">Any</span>|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=10,000,000|value=Not tameable|biome=All underground|note=See article for more information}}
-{{v50_creaturecurrent table row|graphic=[[File:beast_sprites_preview_anim.gif]]|name=Titan|symbol=<span style="font-size:80%;">Any</span>|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=10,000,000|value=Not tameable|biome=All above-ground|note=See article for more information}}
-|}
+{{v50_creaturecurrent table row|graphic=[[File:beast_sprites_preview_anim.gif]]|name=Titan|symbol=<span style="font-size:80%;">Any</span>|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=10,000,000|value=Not tameable|biome=All above-ground|note=See article for more information}}|}
 
 === Wild Animals ===
 This section includes wild [[animals]], as well as their giant and humanoid counterparts. Wild animals are mostly found roaming the wilderness. Many of them are predators, while others are benign, and will not attack unless being attacked first. Some will be drawn to your stockpiles to steal [[steals drink|drink]], [[Steals food|food]] or [[Steals items|something shiny]]. Some can be easily overcome, and yet others can be significant threats, like the dreaded [[elephant]].
@@ -578,8 +571,7 @@ Disruption of the environment in a [[savage]] biome, such as [[woodcutting]] or 
 {{v50_creaturecurrent table row|name=Worm man|symbol=w|color=7:0:0|food=No|playable=Adv|hostile=Yes|size=35,050|value=n/a|biome=Forest taiga, any temperate, any tropical|note=Animal person}}
 {{v50_creaturecurrent table row|name=Wren man|symbol=w|color=6:0:0|food=No|playable=Adv|hostile=No|size=35,020|value=30|biome=Any forest, any grassland, any savanna, any shrubland, any wetland, any desert|note=Animal person, Lays eggs, Benign}}
 {{v50_creaturecurrent table row|name=Yak|symbol=Y|color=6:0:0|food=Yes|playable=No|hostile=No|size=700,000|value=200|biome=Mountain|note=Domestic, milkable, wagon puller, pack animal}}
-{{v50_creaturecurrent table row|name=Yeti|symbol=Y|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=300,000|value=n/a|biome=Mountain, glacier, tundra|note=}}
-|}
+{{v50_creaturecurrent table row|name=Yeti|symbol=Y|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=300,000|value=n/a|biome=Mountain, glacier, tundra|note=}}|}
 
 ====Subterranean====
 <!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
@@ -631,8 +623,7 @@ Disruption of the environment in a [[savage]] biome, such as [[woodcutting]] or 
 {{v50_creaturecurrent table row|name=Rutherer|symbol=R|color=7:0:0|food=Yes|playable=No|hostile=No|size=3,000,000|value=600|biome=Caverns (2,3)|note=Exotic Mount}}
 {{v50_creaturecurrent table row|name=Troglodyte|symbol=t|color=6:0:0|food=No|playable=No|hostile=Yes|size=60,000|value=Not tameable|biome=Caverns (1,2)|note=}}
 {{v50_creaturecurrent table row|name=Troll|symbol=T|color=0:0:1|food=Yes|playable=No|hostile=Yes|size=250,000|value=Not tameable|biome=Caverns (1,2,3)|note=Forms civilizations}}
-{{v50_creaturecurrent table row|name=Voracious cave crawler|symbol=C|color=1:0:0|food=Yes|playable=No|hostile=Yes|size=900,000|value=1000|biome=Caverns (2,3)|note=}}
-|}
+{{v50_creaturecurrent table row|name=Voracious cave crawler|symbol=C|color=1:0:0|food=Yes|playable=No|hostile=Yes|size=900,000|value=1000|biome=Caverns (2,3)|note=}}|}
 
 ====Aquatic====
 Note: This does not include subterranean sea creatures.
@@ -796,8 +787,7 @@ Note: This does not include subterranean sea creatures.
 {{v50_creaturecurrent table row|name=Walrus|symbol=W|color=6:0:0|food=Yes|playable=No|hostile=No|size=1,500,000|value=400|biome=Arctic ocean|note=}}
 {{v50_creaturecurrent table row|name=Walrus man|symbol=W|color=6:0:0|food=No|playable=Adv|hostile=Yes|size=785,000|value=n/a|biome=Arctic ocean|note=Animal person}}
 {{v50_creaturecurrent table row|name=Whale shark|symbol=W|color=6:0:0|food=Yes|playable=No|hostile=No|size=20,000,000|value=1000|biome=Any ocean|note=}}
-{{v50_creaturecurrent table row|name=Whitetip reef shark|symbol=s|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=15,000|value=200|biome=Any ocean|note=}}
-|}
+{{v50_creaturecurrent table row|name=Whitetip reef shark|symbol=s|color=7:0:1|food=Yes|playable=No|hostile=Yes|size=15,000|value=200|biome=Any ocean|note=}}|}
 
 == [[Night creature|Night Creatures]] / Other ==
 <!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
@@ -816,8 +806,7 @@ These creatures are either vicious creatures that attack in the night, or are cr
 {{v50_creaturecurrent_table_row|graphic=[[File:night_troll_sprite.png]]|name=Night troll|symbol=Ñ|color=2:0:0|food=No|playable=No|hostile=Yes|size=70,000 to 150,000|value=Not tameable|biome=All above-ground|note=A stalker troll that kidnaps and mates with victims, turning them into troll spouses.}}
 {{v50_creaturecurrent_table_row|graphic=[[File:moon_sprite.png]]|name=Nightmare|symbol=Ñ|color=0:0:1|food=No|playable=No|hostile=Yes|size=100,000 to 1,100,000|value=Not tameable|biome=N/A|note=Unspeakably horrifying and grotesque creatures summoned by supernatural forces.}} 
 {{v50_creaturecurrent_table_row|name=Vampire|symbol=Ñ|color=4:0:0|food=No|playable=Adv<sup>4</sup>|hostile=Yes|size=Unchanged|value=Not tameable|biome=All above-ground|note=Immortal beings who feed on blood and can appear in migrant waves while disguised.}}
-{{v50_creaturecurrent_table_row|name=Werebeast|symbol=Ñ|color=6:0:0|food=No|playable=No|hostile=Yes|size=80,000 to 90,000|value=Not tameable|biome=All above-ground|note=Sapient creatures cursed to transform into a cross of themselves and an animal on a full moon.}}
-|}
+{{v50_creaturecurrent_table_row|name=Werebeast|symbol=Ñ|color=6:0:0|food=No|playable=No|hostile=Yes|size=80,000 to 90,000|value=Not tameable|biome=All above-ground|note=Sapient creatures cursed to transform into a cross of themselves and an animal on a full moon.}}|}
 :<small>1. In some worlds, intelligent experiments escape their creators and join normal civilizations. They will then be playable in adventurer mode.</small><br />
 :<small>2. The player cannot normally start out as an intelligent undead, but can [[unretire]] a former adventurer that has been resurrected. This can also be done (without unretiring) by using [[adventurer party|adventurer parties]].</small><br />
 :<small>3. The player cannot start out as a necromancer, but can gain necromancer powers by reading a slab or book containing the secrets of life and death.</small><br />
@@ -829,8 +818,7 @@ These creatures are either vicious creatures that attack in the night, or are cr
 {{v50_creaturecurrent table head}}
 {{v50_creaturecurrent_table_row|graphic=[[File:beast_sprites_preview_anim.gif]]|name=Demon|symbol=&|color=7:0:1|food=No|playable=No|hostile=Yes|size=400,000 to 10,000,000|value=Not tameable|biome=[[Underworld]]|note=See article for more information}}
 {{v50_creaturecurrent_table_row|graphic=[[File:beast_sprites_preview_anim.gif]]|name=Angel|symbol=Ä|color=7:0:1|food=No|playable=No†|hostile=Yes|size=Varies|value=Not tameable|biome=[[Vault]]s|note=See article for more information}}
-{{v50_creaturecurrent_table_row|graphic=[[File:Blind_cave_bear_sprite.png]]&nbsp;[[File:guardian_sprite.png]]|name=Dungeon guardian|symbol=ÿ|color=5:0:1|food=No|playable=No|hostile=Yes|size=Unchanged|value=Not tameable|biome=[[Mysterious dungeon|Mysterious sites]]|note=Immortal figures that have been changed to relentlessly guard [[mysterious dungeon]]s.}}
-|}
+{{v50_creaturecurrent_table_row|graphic=[[File:Blind_cave_bear_sprite.png]]&nbsp;[[File:guardian_sprite.png]]|name=Dungeon guardian|symbol=ÿ|color=5:0:1|food=No|playable=No|hostile=Yes|size=Unchanged|value=Not tameable|biome=[[Mysterious dungeon|Mysterious sites]]|note=Immortal figures that have been changed to relentlessly guard [[mysterious dungeon]]s.}}|}
 
 †except in a few [http://www.bay12forums.com/smf/index.php?topic=172326.msg7869456#msg7869456 special cases]
 
@@ -839,8 +827,7 @@ These creatures are either vicious creatures that attack in the night, or are cr
 {{v50_creaturecurrent table head}}
 {{v50_creaturecurrent_table_row|name=Centaur|symbol=C|graphic=[[File:statue_covered_sprite.png]]|color=6:0:0|food=N/A|size=N/A|value=N/A|playable=No|hostile=N/A|biome=Nowhere|note=Only found in engravings}}
 {{v50_creaturecurrent_table_row|name=Chimera|symbol=C|graphic=[[File:statue_covered_sprite.png]]|color=2:0:1|food=N/A|size=N/A|value=N/A|playable=No|hostile=N/A|biome=Nowhere|note=Only found in engravings}}
-{{v50_creaturecurrent_table_row|name=Griffon|symbol=G|graphic=[[File:statue_covered_sprite.png]]|color=7:0:1|food=N/A|size=N/A|value=N/A|playable=No|hostile=N/A|biome=Nowhere|note=Only found in engravings}}
-|}
+{{v50_creaturecurrent_table_row|name=Griffon|symbol=G|graphic=[[File:statue_covered_sprite.png]]|color=7:0:1|food=N/A|size=N/A|value=N/A|playable=No|hostile=N/A|biome=Nowhere|note=Only found in engravings}}|}
 
 ==Trivia==
 *[[File:placeholder_sprite.png|right|thumb|The debug creature.]]If the game does not recognize a creature and/or cannot find the [[Graphics#Creature_Graphics|sprite associated for it]], the sprite will default to a blue, round, blob-like face with stubby legs.
@@ -861,12 +848,7 @@ These creatures are either vicious creatures that attack in the night, or are cr
 ** [https://bay12games.com/dwarves/notebook/notebook_14.jpg Page 14]: Stilt plucker.
 
 
-{{Translation
-| dwarven = mes
-| elvish  = amu
-| goblin  = los
-| human   = mos
-}}
+{{Translation| dwarven = mes| elvish  = amu| goblin  = los| human   = mos}}
 {{Creatures}}
 {{Category|Creatures| }}
 [[ru:Creature]]

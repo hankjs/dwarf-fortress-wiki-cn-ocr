@@ -1,17 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=gray_gibbon_sprites.png
-|portrait=gray_gibbon_portrait.png
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=gray_gibbon_sprites.png|portrait=gray_gibbon_portrait.png|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -413,8 +413,7 @@ This strategy should '''not''' be attempted on titans which are naturally withou
 	[GAIT:CLIMB:Climb:900:NO_BUILD_UP:0]
 	[GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
 	[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
-	[DESCRIPTION:A gigantic hairy scorpion. It has a knobby trunk and it squirms and fidgets. Its gold hair is very curly. Beware its poisonous sting!]
-}}
+	[DESCRIPTION:A gigantic hairy scorpion. It has a knobby trunk and it squirms and fidgets. Its gold hair is very curly. Beware its poisonous sting!]}}
 {{Scriptdata}}
 {{Creatures}}
 {{Category|Building destroyer}}

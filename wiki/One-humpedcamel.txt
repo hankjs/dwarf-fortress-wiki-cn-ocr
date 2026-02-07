@@ -1,25 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=one_humped_camel_sprites.png
-|portrait=one_humped_camel_portrait_anim.gif
-|wiki=Dromedary
-|contrib=no
-|bone=17
-|meat=up to 25
-|fat=16
-|eye=2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=one_humped_camel_sprites.png|portrait=one_humped_camel_portrait_anim.gif|wiki=Dromedary|contrib=no|bone=17|meat=up to 25|fat=16|eye=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

@@ -50,38 +50,7 @@ Its motto is ''"Beyond Quality."''
 
 ==Games==
 {| class = "wikitable sortable"
-!Title !! Year !! Platform !! Genre(s)
-|-
-|''[[Dwarf Fortress]]''
-|2006
-|Windows, Mac OS X, Linux
-|Construction and management simulation, roguelike
-|-
-|''[http://www.bay12games.com/games/ Kobold Quest]''
-|2006
-|Windows, Mac OS X
-|
-|-
-|''[http://www.bay12games.com/games/ Squiggles]''
-|2005
-|
-|
-|-
-|''[http://www.bay12games.com/ww1medic/ WWI Medic]''
-|2004
-|Windows
-|
-|-
-|''[http://www.bay12games.com/lcs/ Liberal Crime Squad]''
-|2002
-|Windows, Linux
-|Roguelike political satire
-|-
-|''[http://www.bay12games.com/armok/ Slaves to Armok: God of Blood]''
-|2000
-|Windows
-|Single-player fantasy RPG
-|}
+!Title !! Year !! Platform !! Genre(s)|-|''[[Dwarf Fortress]]''|2006|Windows, Mac OS X, Linux|Construction and management simulation, roguelike|-|''[http://www.bay12games.com/games/ Kobold Quest]''|2006|Windows, Mac OS X||-|''[http://www.bay12games.com/games/ Squiggles]''|2005|||-|''[http://www.bay12games.com/ww1medic/ WWI Medic]''|2004|Windows||-|''[http://www.bay12games.com/lcs/ Liberal Crime Squad]''|2002|Windows, Linux|Roguelike political satire|-|''[http://www.bay12games.com/armok/ Slaves to Armok: God of Blood]''|2000|Windows|Single-player fantasy RPG|}
 
 ==See also==
 * [[Bay 12 Forums]]

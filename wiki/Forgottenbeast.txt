@@ -578,7 +578,6 @@ View a [[Forgotten beast/gallery|gallery]] of artwork from the [http://www.bay12
 	[GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
 	[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
 	[DESCRIPTION:A great humanoid composed of flame.  It has two short tails and it squirms and fidgets.]
-
 }}
 {{Scriptdata}}
 {{Creatures}}

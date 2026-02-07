@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=celery_shrub_sprite.png
-|seedimage=celery_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=celery_shrub_sprite.png|seedimage=celery_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Celery''' is an [[aboveground]] [[crop|garden vegetable]]. It can be planted in all seasons and is edible raw or [[cooking|cooked]].

@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Treelookup/0
-|graphic=tower-cap_trunk_sprite.png
-|sapling=Tower-cap_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=tower-cap_trunk_sprite.png|sapling=Tower-cap_sapling.png|wiki=no}}
 {{av}}
 
 '''Tower-caps''' are a type of mushroom-like [[underground|subterranean]] [[tree]]. Once fully grown, they can be designated for [[wood cutting]] and produce tower-cap [[Wood|logs]]. Tower-caps will grow on thick subterranean [[soil]] or [[mud|muddied]] [[rock]]. They may be found already growing on muddied rock in an [[Caverns|underground cavern]]. Tower-caps are white and produce white logs, and the resulting products are white or light grey - as a result, they are sometimes used in combination with other white [[stone]]s to create entirely white areas. Tower-caps produce large amounts of logs per tree due to them having a solid circular cap instead of branches, each tile of which can drop a log.

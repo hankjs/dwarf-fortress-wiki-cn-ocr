@@ -1,29 +1,18 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_item
-|graphic=<div style="margin-top:6px;">[[File:thread_sprite_preview.png]]</div>
-|name=Thread
-|tile=φ
-|materials=<span></span>
+{{V50_item|graphic=<div style="margin-top:6px;">[[File:thread_sprite_preview.png]]</div>|name=Thread|tile=φ|materials=<span></span>
 * [[Web]]
 * [[Hair]]
-* [[Plant fiber]]
-|workshops=<span></span>
+* [[Plant fiber]]|workshops=<span></span>
 * [[Loom]]
-* [[Farmer's workshop]]
-|labors=<span></span>
+* [[Farmer's workshop]]|labors=<span></span>
 * [[Weaver]]
 * [[Spinner]]
-* [[Thresher]]
-|used for=
+* [[Thresher]]|used for=
 * [[Cloth]]
 * [[Textile industry]]
 * [[Suturer|Sutures]]
-* [[Bookbinding]]
-|value=6
-|size=1-300
-|dimension=1-15000[[Thread#Uses|*]]
-}}
+* [[Bookbinding]]|value=6|size=1-300|dimension=1-15000[[Thread#Uses|*]]}}
 
 [[Plant fiber]]s, [[wool]], and [[web]]s can be turned into weavable '''thread'''. Such thread can then be [[weaver|woven]] into '''[[cloth]]''', which can be used to create a variety of textile products such as [[bag]]s, [[clothing]], [[rope]] or [[craft]]s. ''(For a full discussion of the process and possibilities, see [[textile industry]].)'' An entire spool of thread contains 15,000 inches/units of use.
 

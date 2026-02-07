@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=peach_faced_lovebird_man_sprite.png
-|portrait=peach_faced_lovebird_man_portrait.png
-|wiki=no}}
+{{Creaturelookup/0|image=peach_faced_lovebird_man_sprite.png|portrait=peach_faced_lovebird_man_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

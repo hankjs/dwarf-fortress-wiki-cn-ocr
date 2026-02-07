@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=beetle_sprite.png
-|portrait=beetle_portrait.png}}
+{{verminlookup/0|image=beetle_sprite.png|portrait=beetle_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -13,12 +11,7 @@ Some dwarves [[Preferences|like]] beetles for their ''protective shells''.
 Some other dwarves like beetles for their ''music'' and their ''cheapness''.
 [[File:Vermin-Beetle(red).jpg|thumb|center|400px|Admired for its ''protective shells''.]]
 
-{{Translation
-| dwarven = ngárak
-| elvish  = pama
-| goblin  = strog
-| human   = agthreb
-}}
+{{Translation| dwarven = ngárak| elvish  = pama| goblin  = strog| human   = agthreb}}
 
 {{gamedata}}
 {{vermin}}

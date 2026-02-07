@@ -31,26 +31,7 @@ As stated above, only {{token|IMPACT_STRAIN_AT_YIELD|md}} has been observed to a
 
 {| class="wikitable"
 ! Material
-! Strain at yield
-|-
-|[[Stone]], [[Bone]], [[Tooth]], [[Horn]], [[Hoof]], [[Pearl]], [[Shell]], [[Soap]], [[Tallow]], [[Chitin]], most frozen liquids
-|100
-|-
-|[[Metal]] template, [[Wood]] template, [[Plant]] template, [[Seed]] template, most [[Powder|powders]]
-|1000
-|-
-|[[Nail]]
-|5000
-|-
-|[[Cartilage]]
-|25000
-|-
-|[[Skin]], [[Fat]], Muscle, Sinew, Nerve, [[Organ]] template, [[Leather]], [[Cheese]], [[Quarry bush|Leaf]]<br>
-Minimum for [[Armor token#STRUCTURAL_ELASTICITY_CHAIN_METAL|structurally elastic]] [[armor]] ([[clothing]], mail)
-|50000
-|-
-|[[Hair]], Feather, [[Scale]], [[Silk]], [[Thread]]
-|100000
-|}
+! Strain at yield|-|[[Stone]], [[Bone]], [[Tooth]], [[Horn]], [[Hoof]], [[Pearl]], [[Shell]], [[Soap]], [[Tallow]], [[Chitin]], most frozen liquids|100|-|[[Metal]] template, [[Wood]] template, [[Plant]] template, [[Seed]] template, most [[Powder|powders]]|1000|-|[[Nail]]|5000|-|[[Cartilage]]|25000|-|[[Skin]], [[Fat]], Muscle, Sinew, Nerve, [[Organ]] template, [[Leather]], [[Cheese]], [[Quarry bush|Leaf]]<br>
+Minimum for [[Armor token#STRUCTURAL_ELASTICITY_CHAIN_METAL|structurally elastic]] [[armor]] ([[clothing]], mail)|50000|-|[[Hair]], Feather, [[Scale]], [[Silk]], [[Thread]]|100000|}
 
 {{Category|Materials|*}}

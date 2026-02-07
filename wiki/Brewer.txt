@@ -1,21 +1,11 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Brewer
-| profession = [[Farmer]]
-| job name   = [[Brewing]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Brewer| profession = [[Farmer]]| job name   = [[Brewing]]| tasks      =
 * Brew [[alcohol|Drink]] from Plant
 * Brew [[alcohol|Drink]] from Fruit
-* Make Mead
-| workshop = [[Still]]
-| attributes =
+* Make Mead| workshop = [[Still]]| attributes =
 * Strength
 * Agility
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 Every [[dwarf]]'s best friend, and indeed the equivalent of rock stars in the fortress! '''Brewers''' brew various [[crop|plants]] and [[honey]] into [[alcohol|alcoholic]] beverages, such as ale, beer and mead. 

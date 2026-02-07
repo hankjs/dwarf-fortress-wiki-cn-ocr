@@ -1,24 +1,10 @@
 {{Quality|Superior}}
-{{Noble
-| noble= Count
-| office= Throne Room
-| quarters= Great Bedroom
-| dining= Great Dining Room
-| tomb= Mausoleum
-| chests=3
-| cabinets=2
-| racks=2
-| stands=2
-| mandates=2
-| demands=3
-| arrival=
+{{Noble| noble= Count| office= Throne Room| quarters= Great Bedroom| dining= Great Dining Room| tomb= Mausoleum| chests=3| cabinets=2| racks=2| stands=2| mandates=2| demands=3| arrival=
 * 20 Population
 * 200 000☼ Produced [[wealth]]
-* 20 000☼ Exported [[wealth]]
-| function=
+* 20 000☼ Exported [[wealth]]| function=
 * Promote [[fortress]] to County
-* Appoints a [[Champion]]
-}}{{av}}
+* Appoints a [[Champion]]}}{{av}}
 
 The position of '''count''' is the next step up from [[baron]]; once a player achieves certain requirements the [[outpost liaison]] will announce the elevation to a county, and when the liaison leaves the map the promotion will become official. In other words, lands must be a barony before they can be a county. Unlike with the barony offering, the upgrade to county is automatic and cannot be declined (though, should an [[unfortunate accident]] befall the liaison then the promotion will be deferred).  A count will upgrade to a [[duke]] under proper conditions.
 

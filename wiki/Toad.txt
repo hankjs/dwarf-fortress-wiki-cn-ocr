@@ -1,19 +1,12 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=toad_sprite.png
-|portrait=toad_portrait.png}}
+{{verminlookup/0|image=toad_sprite.png|portrait=toad_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Toads''' are a species of [[hateable]] [[amphibious]] [[vermin]] found in any [[pool]], but not during winter. [[Dwarf|Dwarves]] who "absolutely detest toads" will experience an unhappy [[thought]] upon encountering one.
 
 Some dwarves [[Preferences|like]] toads for their ''beauty''.
 
-{{Translation
-| dwarven = nod
-| elvish  = imadu
-| goblin  = ngusnog
-| human   = budok
-}}
+{{Translation| dwarven = nod| elvish  = imadu| goblin  = ngusnog| human   = budok}}
 [[File:Vermin-Toad.JPG|thumb|center|400px|Admired for its ''beauty''.]]
 
 ==Trivia==

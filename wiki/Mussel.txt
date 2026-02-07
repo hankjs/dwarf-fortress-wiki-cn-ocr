@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=mussel_sprite.png
-|portrait=mussel_portrait.png}}
+{{verminlookup/0|image=mussel_sprite.png|portrait=mussel_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

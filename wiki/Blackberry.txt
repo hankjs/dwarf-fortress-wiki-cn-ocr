@@ -1,11 +1,7 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=blackberry_shrub_sprite.png
-|seedimage=blackberry_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=blackberry_shrub_sprite.png|seedimage=blackberry_seeds_sprite.png|uses=
 * [[Food]]
-* [[Alcohol]]
-}}
+* [[Alcohol]]}}
 {{av}}
 
 '''Blackberries''' are an [[aboveground]] [[crop|garden fruit]]. They can be planted in all seasons, the fruit is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|blackberry wine]] or processed in a [[dyer's shop]] into lavender [[dye]].

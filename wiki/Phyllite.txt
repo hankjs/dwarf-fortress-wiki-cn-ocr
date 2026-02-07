@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=phyllite_sprite.png}}
+{{stonelookup/0|graphic=phyllite_sprite.png}}
 {{av}}
 
 '''Phyllite''' is an unremarkable [[metamorphic]] [[stone]].

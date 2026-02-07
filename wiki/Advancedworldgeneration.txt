@@ -122,125 +122,68 @@ The parameters are described below in the order that they appear in the list in 
 
 === Parameter set title ===
 This sets the name of the parameter set itself, as used in the list of sets (this has nothing to do with the name of the generated world).
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[TITLE:<name>]</nowiki></tt>
-| <tt><nowiki>[TITLE:MEDIUM ISLAND]</nowiki></tt>
-| Required
-|}
+! Notes|-| <tt><nowiki>[TITLE:<name>]</nowiki></tt>| <tt><nowiki>[TITLE:MEDIUM ISLAND]</nowiki></tt>| Required|}
 
 === World dimensions ===
 The size of the map for the current set can be changed by changing the Width and Height values at the top next to the set title. You will need to confirm this, since changing the dimensions of the world will change other parameters, because many of them have different defaults depending on the surface area available.
 
 Larger maps usually take longer to generate and may reduce [[Frames per second|FPS]] in-game, though this is really a matter of larger worlds usually having more civilizations, sites, historical figures, and events; restricting the number of those can speed up the process. Non-square maps may result in crashes{{bug|2928}}.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[DIM:<width>:<height>]</nowiki></tt>
-| <tt><nowiki>[DIM:257:257]</nowiki></tt>
-| Valid values are 17, 33, 65, 129, and 257, other values will use one of those. Changing the size in the file without adjusting other parameters can cause many rejections.
-|}
+! Notes|-| <tt><nowiki>[DIM:<width>:<height>]</nowiki></tt>| <tt><nowiki>[DIM:257:257]</nowiki></tt>| Valid values are 17, 33, 65, 129, and 257, other values will use one of those. Changing the size in the file without adjusting other parameters can cause many rejections.|}
 
 === Seed values ===
 Enables the use of, and specifies seed values for, different parts of the world generation process. Just entering a specific seed does not enable it, that must be done separately, although using the box at the top to set all the seeds to the same value does enable them all. Enabling a seed puts the token in using what ever is in the text box below. If you enable a seed, but do not enter a seed, the string "Seed text" will be used (<tt><nowiki>[SEED:Seed text]</nowiki></tt>). Trying to use a <tt><nowiki>]</nowiki></tt> in the string in the file will end the seed there, since it closes the token, any text after that will be ignored. Normally, just leave these set to Random, unless trying to reproduce the results of a previous world generation. See also the [[Advanced_world_generation#Seed_notes|seed notes section]] above.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[SEED:31337]</nowiki></tt>
-| rowspan="4" |
-For each of these not in the config file, a random seed will be used, and the first seed is not used to generate the others. The seeds used are output to [[gamelog.txt]] when world generation starts.
-|-
-| <tt><nowiki>[HISTORY_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[HISTORY_SEED:31337]</nowiki></tt>
-|-
-| <tt><nowiki>[NAME_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[NAME_SEED:31337]</nowiki></tt>
-|-
-| <tt><nowiki>[CREATURE_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[CREATURE_SEED:31337]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[SEED:<text>]</nowiki></tt>| <tt><nowiki>[SEED:31337]</nowiki></tt>| rowspan="4" |
+For each of these not in the config file, a random seed will be used, and the first seed is not used to generate the others. The seeds used are output to [[gamelog.txt]] when world generation starts.|-| <tt><nowiki>[HISTORY_SEED:<text>]</nowiki></tt>| <tt><nowiki>[HISTORY_SEED:31337]</nowiki></tt>|-| <tt><nowiki>[NAME_SEED:<text>]</nowiki></tt>| <tt><nowiki>[NAME_SEED:31337]</nowiki></tt>|-| <tt><nowiki>[CREATURE_SEED:<text>]</nowiki></tt>| <tt><nowiki>[CREATURE_SEED:31337]</nowiki></tt>|}
 
 === World name ===
 As previously mentioned, the title of the parameter set doesn't affect the name of the world. You can specify a particular name for your world, or leave the value blank for a random one. (The [[DFHack]] utility adds an option to rename the world using the in-game languages.)
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CUSTOM_NAME:<name>]</nowiki></tt>
-| <tt><nowiki>[CUSTOM_NAME:Realm of Cheese Engravings]</nowiki></tt>
-| For a random name, simply don't use this token.
-|}
+! Notes|-| <tt><nowiki>[CUSTOM_NAME:<name>]</nowiki></tt>| <tt><nowiki>[CUSTOM_NAME:Realm of Cheese Engravings]</nowiki></tt>| For a random name, simply don't use this token.|}
 
 === Embark Points ===
 The number of points for equipment and animals when embarking in fortress mode (there is no equivalent setting for adventure mode). Normally, the default of 1504 is fine, but can be increased for various purposes like experimentation or to help dwarves survive in a particularly evil world, or reduced for certain [[challenges]].
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[EMBARK_POINTS:<number>]</nowiki></tt>
-| <tt><nowiki>[EMBARK_POINTS:1504]</nowiki></tt>
-| 0 to 10,000
-|}
+! Notes|-| <tt><nowiki>[EMBARK_POINTS:<number>]</nowiki></tt>| <tt><nowiki>[EMBARK_POINTS:1504]</nowiki></tt>| 0 to 10,000|}
 
 === End year ===
 The maximum number of years generated for the world, although generation can be paused and the world used as is any time after the second year; the same as the [[World_generation#History|History]] parameter in basic world gen, except that you can enter an exact value. A too-short history can limit the materials available to civilizations, and [[Chosen|certain adventure mode features]] are only available after certain site events, while too long a history often leads to civilizations dying.
 
 For more information on the history aspect of the game, see [[Legends]] and [[Calendar#Ages|Ages]].
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[END_YEAR:<number>]</nowiki></tt>
-| <tt><nowiki>[END_YEAR:250]</nowiki></tt>
-| 2 to 10,000
-|}
+! Notes|-| <tt><nowiki>[END_YEAR:<number>]</nowiki></tt>| <tt><nowiki>[END_YEAR:250]</nowiki></tt>| 2 to 10,000|}
 
 === Population cap after civ creation ===
 A soft limit to the total number of [[historical figure]]s alive at the same time during generation across all civilizations, only preventing the birth of new historical figures.{{cite forum|140544/5701667}} Each civilization is allotted a percentage of the total by the percentage of sites they control.{{cite forum|159164/7553641}} Civilizations also have non-historical populations, and there is no setting to limit those (in early versions, all civilization members were historical figures, this is also why the name of this setting is misleading). Each [[entity]] also has limits from their raws, see the [[Entity_token#Population|population]] entity tokens, and setting this to unlimited will not remove those.
 
 Huge historical figure populations can slow generation and the game in general.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[TOTAL_CIV_POPULATION:<number>]</nowiki></tt>
-| <tt><nowiki>[TOTAL_CIV_POPULATION:15000]</nowiki></tt>
-| -1 to 100,000, -1 is no limit
-|}
+! Notes|-| <tt><nowiki>[TOTAL_CIV_POPULATION:<number>]</nowiki></tt>| <tt><nowiki>[TOTAL_CIV_POPULATION:15000]</nowiki></tt>| -1 to 100,000, -1 is no limit|}
 
 === Site cap after civ creation ===
 Total number of [[site]]s that can be directly created by all civilizations combined like [[hillocks]], [[hamlet]]s, [[dark pits]], [[forest retreat]]s, etc. Does not prevent the placement of initial civilization sites, though they will then be counted for the limit. Does not affect creature sites like [[cave]]s or [[lair]]s, group sites like [[castle]]s, [[monastery|monasteries]], [[tower_(necromancy)|tower]]s, [[fort]]s, or [[camp]]s, or unpopulated sites like [[tomb]]s. After this limit is reached, no civilization will be able to place new sites. See the [[Entity_token#Placement|placement]] entity tokens for other ways that civilization site placement can be limited.
 
 Increasing this will slow generation down and reduce the available places for player sites. Since the {{token|MAX_SITE_POP_NUMBER|entity}} entity token limits the historical figure population per site, this site cap can also limit the total historical figure population of all civilizations combined, and some expand faster than others getting more sites before the limit is reached.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SITE_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[SITE_CAP:1500]</nowiki></tt>
-| -1 to 100,000, -1 is no limit
-|}
+! Notes|-| <tt><nowiki>[SITE_CAP:<number>]</nowiki></tt>| <tt><nowiki>[SITE_CAP:1500]</nowiki></tt>| -1 to 100,000, -1 is no limit|}
 
 === Beast control ===
 
@@ -261,16 +204,10 @@ The percentage of dead [[megabeast]]s and [[titan]]s for stoppage will not be ch
 
 If the number of living [[megabeast]]s and [[titan]]s starts at or drops to less than four, then world generation will always stop if the current year is equal to or greater than the Year to Begin Checking Megabeast Percentage ''regardless'' of how many [[megabeast]]s and [[titan]]s are dead — Percentage of Megabeasts and Titans Dead for Stoppage is ignored. The number of megabeasts and titans at the start of the world is set by the sum of the [[Advanced_world_generation#Max_Megabeasts_Caves|Max Megabeasts Caves]] and [[Advanced_world_generation#Titan_Parameters|Titan Number]] parameters.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[BEAST_END_YEAR:<year>:<percentage or -1>]</nowiki></tt>
-| <tt><nowiki>[BEAST_END_YEAR:200:80]</nowiki></tt>
-| Use -1 as percentage to disable. Year must still be at least 2.
-|}
+! Notes|-| <tt><nowiki>[BEAST_END_YEAR:<year>:<percentage or -1>]</nowiki></tt>| <tt><nowiki>[BEAST_END_YEAR:200:80]</nowiki></tt>| Use -1 as percentage to disable. Year must still be at least 2.|}
 
 === Cull Unimportant Historical Figures ===
 {{main|Historical figure}}
@@ -278,31 +215,19 @@ Whether to remove unimportant dead historical figures after history generation; 
 
 Exactly what is considered important is not clear. A member of an abstract group killing a named creature is not. Creating an artifact is not, even if that artifact had important history.<!--52.05, silver war hammer created and claimed as family heirloom by an unknown creature in a dwarven fortress that later breached, named demon killed 55 with it, including 9 histfigs. If it were just a normal war hammer that got named, it would say that, not created and claimed.--> Unculled historical figures can have parentage described as "The identity of" that parent "has been lost to time", so just having children is not, though having living direct relations seems to prevent culling.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:<0 or 1>]</nowiki></tt>
-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:0]</nowiki></tt>
-| 0 = No, 1 = Yes
-|}
+! Notes|-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:<0 or 1>]</nowiki></tt>| <tt><nowiki>[CULL_HISTORICAL_FIGURES:0]</nowiki></tt>| 0 = No, 1 = Yes|}
 
 === Reveal All Historical Events ===
 
 Setting this to Yes will allow access to most information about the history of the world in [[Legends mode]]. All events will be revealed, but some [[historical figure]]s, [[site]]s, [[region]]s, and [[civilization]]s and other entities may not be, possibly because they are not known to any civilization. If set to No, then you will have to discover historical information in [[adventure mode]] or by instructing dwarves to make engravings.{{Verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[REVEAL_ALL_HISTORY:<0 or 1>]</nowiki></tt>
-| <tt><nowiki>[REVEAL_ALL_HISTORY::1]</nowiki></tt>
-| 0 = No, 1 = Yes
-|}
+! Notes|-| <tt><nowiki>[REVEAL_ALL_HISTORY:<0 or 1>]</nowiki></tt>| <tt><nowiki>[REVEAL_ALL_HISTORY::1]</nowiki></tt>| 0 = No, 1 = Yes|}
 
 === Terrain Parameters ===
 
@@ -356,36 +281,10 @@ Setting the minimum to a high value is not a good way to produce multiple volcan
 These parameters control the level of [[Surroundings#Savage|savagery]] on the map. Raising the minimum savagery too high may make it impossible for certain races to exist, and similarly lowering the maximum too far can make it impossible for certain creatures to exist. The largest chance of having unusable maps comes from a too-high savagery value.
 
 ==== Configuration Tokens ====
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ELEVATION:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION:1:400:401:401]</nowiki></tt>
-| Range: 0 to 400<br/>Maximum of 400 required for mountain peaks.<br/>Variance range: 0-3200
-|-
-| <tt><nowiki>[RAINFALL:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[RAINFALL:0:100:200:200]</nowiki></tt>
-| Range: 0 to 100 <br/>Variance range: 0-3200
-|-
-| <tt><nowiki>[TEMPERATURE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[TEMPERATURE:25:75:200:200]</nowiki></tt>
-| Range: -1000 to 1000 <br/>Variance range: 0-3200
-|-
-| <tt><nowiki>[DRAINAGE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE:0:100:200:200]</nowiki></tt>
-| Range: 0 to 100 <br/>Variance range: 0-3200
-|-
-| <tt><nowiki>[VOLCANISM:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM:1:100:200:200]</nowiki></tt>
-| Range: 0 to 100<br/>Maximum of 100 required for volcanoes. <br/>Variance range: 0-3200
-|-
-| <tt><nowiki>[SAVAGERY:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY:1:100:200:200]</nowiki></tt>
-| Range: 0 to 100 <br/>Variance range: 0-3200
-|}
+! Notes|-| <tt><nowiki>[ELEVATION:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[ELEVATION:1:400:401:401]</nowiki></tt>| Range: 0 to 400<br/>Maximum of 400 required for mountain peaks.<br/>Variance range: 0-3200|-| <tt><nowiki>[RAINFALL:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[RAINFALL:0:100:200:200]</nowiki></tt>| Range: 0 to 100 <br/>Variance range: 0-3200|-| <tt><nowiki>[TEMPERATURE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[TEMPERATURE:25:75:200:200]</nowiki></tt>| Range: -1000 to 1000 <br/>Variance range: 0-3200|-| <tt><nowiki>[DRAINAGE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[DRAINAGE:0:100:200:200]</nowiki></tt>| Range: 0 to 100 <br/>Variance range: 0-3200|-| <tt><nowiki>[VOLCANISM:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[VOLCANISM:1:100:200:200]</nowiki></tt>| Range: 0 to 100<br/>Maximum of 100 required for volcanoes. <br/>Variance range: 0-3200|-| <tt><nowiki>[SAVAGERY:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[SAVAGERY:1:100:200:200]</nowiki></tt>| Range: 0 to 100 <br/>Variance range: 0-3200|}
 
 === Terrain Mesh Sizes and Weights ===
 
@@ -421,15 +320,10 @@ Also see this [http://www.bay12forums.com/smf/index.php?topic=139916.0 forum pos
 
 ==== Configuration Tokens ====
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ELEVATION_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION_FREQUENCY:2:1:2:3:4:5]</nowiki></tt>
-| rowspan="6" | Valid mesh values:
+! Notes|-| <tt><nowiki>[ELEVATION_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[ELEVATION_FREQUENCY:2:1:2:3:4:5]</nowiki></tt>| rowspan="6" | Valid mesh values:
 
 1 = Ignore
 
@@ -443,38 +337,16 @@ Also see this [http://www.bay12forums.com/smf/index.php?topic=139916.0 forum pos
 
 6 = 32x32
 
-(limited by world size)
-|-
-| <tt><nowiki>[RAIN_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[RAIN_FREQUENCY:3:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[DRAINAGE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE_FREQUENCY:4:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[TEMPERATURE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[TEMPERATURE_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
-|-
-| <tt><nowiki>[SAVAGERY_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY_FREQUENCY:5:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[VOLCANISM_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
-|}
+(limited by world size)|-| <tt><nowiki>[RAIN_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[RAIN_FREQUENCY:3:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[DRAINAGE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[DRAINAGE_FREQUENCY:4:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[TEMPERATURE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[TEMPERATURE_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>|-| <tt><nowiki>[SAVAGERY_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[SAVAGERY_FREQUENCY:5:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[VOLCANISM_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[VOLCANISM_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>|}
 
 === Poles ===
 
 With this, you can influence how polar regions are added. The poles can be on the north or south edge, and the equator will be on the opposite edge, or in the middle if there are two poles. If poles are set to NONE, then there will be no seasonal changes in the weather (e.g. no winter snow in temperate biomes).
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[POLE:<placement>]</nowiki></tt>
-| <tt><nowiki>[POLE:NORTH]</nowiki></tt>
-| Viable options: NONE, NORTH_OR_SOUTH, NORTH_AND_OR_SOUTH, NORTH, SOUTH, NORTH_AND_SOUTH
-|}
+! Notes|-| <tt><nowiki>[POLE:<placement>]</nowiki></tt>| <tt><nowiki>[POLE:NORTH]</nowiki></tt>| Viable options: NONE, NORTH_OR_SOUTH, NORTH_AND_OR_SOUTH, NORTH, SOUTH, NORTH_AND_SOUTH|}
 
 === Minimum Mountain Peak Number ===
 
@@ -482,31 +354,19 @@ This will cause the world to be rejected if fewer than this many peaks (based on
 
 You may need to adjust elevation parameters, such as the highest weighted range, in order to get the desired number of elevation-400 squares needed for larger numbers of peaks. Like volcanoes, mountain peaks can make embark zones more interesting, but other than that, they don't appear to "do" anything special. Reportedly, they do increase the highest Z-level above ground in all embark zones in the same region, even if the selected embark zone does not include the peak.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[PEAK_NUMBER_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[PEAK_NUMBER_MIN:20]</nowiki></tt>
-| Elevations of 400 must occur for peaks to form.
-|}
+! Notes|-| <tt><nowiki>[PEAK_NUMBER_MIN:<number>]</nowiki></tt>| <tt><nowiki>[PEAK_NUMBER_MIN:20]</nowiki></tt>| Elevations of 400 must occur for peaks to form.|}
 
 === Minimum Partial Edge Oceans ===
 
 This will cause a world to be rejected unless there are at least this many oceans touching an edge of the map. If set to zero then worlds will not be rejected based on this criterion. Setting both this parameter and Minimum Complete Edge Oceans to values that total more than 4 when added together may cause all worlds to be rejected as you can't have both a partial and complete edge ocean on a given edge.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:2]</nowiki></tt>
-| Maximum of 4
-|}
+! Notes|-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:2]</nowiki></tt>| Maximum of 4|}
 
 === Minimum Complete Edge Oceans ===
 
@@ -524,31 +384,19 @@ Unfortunately, there's no easy way to control which oceans end up on which edges
 
 Edge oceans will take up part of the other edges too. For example, a full edge ocean on the east side will have part of the north and south sides underwater, but that does ''not'' add to the ''partial'' edge oceans count.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:0]</nowiki></tt>
-| Maximum of 4
-|}
+! Notes|-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:0]</nowiki></tt>| Maximum of 4|}
 
 === Minimum Volcano Number ===
 
 The game will attempt to place this many volcanoes, but there must be at least this many squares with a volcanism of 100, if there are not the world will be rejected. Therefore, [[Advanced_world_generation#Volcanism|maximum volcanism]] above must be set to 100, and adjusting the [[Advanced_world_generation#Configuration_Tokens_2|volcanism weighted range]] above for 80-100 to a higher value can increase the number of those squares.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[VOLCANO_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[VOLCANO_MIN:15]</nowiki></tt>
-| Volcanoes require a volcanism of 100 to occur.
-|}
+! Notes|-| <tt><nowiki>[VOLCANO_MIN:<number>]</nowiki></tt>| <tt><nowiki>[VOLCANO_MIN:15]</nowiki></tt>| Volcanoes require a volcanism of 100 to occur.|}
 
 === Mineral Scarcity ===
 Controls the frequency at which minerals occur; setting this value higher will decrease both the number of different types and amounts of ore and gems present on a map. The default value will result in many metal ores, while the old default of ''sparse'' would be only a few ores, which may be limiting until other metals can be requested and traded for.
@@ -560,16 +408,10 @@ According to [http://www.bay12forums.com/smf/index.php?topic=79018.msg2063804#ms
 [[File:MineralSetting_v25_limit10k.png]]
 
 This is for the same 8x8 embark region in a world which is otherwise the same, except for the mineral scarcity parameter (although most of the detailed information comes from experiments with previous versions). (The chart legend has an error, the first "Pot.(Types)" should read "Pot.(Amount)".)
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[MINERAL_SCARCITY:<number>]</nowiki></tt>
-| <tt><nowiki>[MINERAL_SCARCITY:100]</nowiki></tt>
-| Range: 100 to 100,000
-|}
+! Notes|-| <tt><nowiki>[MINERAL_SCARCITY:<number>]</nowiki></tt>| <tt><nowiki>[MINERAL_SCARCITY:100]</nowiki></tt>| Range: 100 to 100,000|}
 
 === Max Megabeast Caves ===
 
@@ -577,31 +419,19 @@ This is the number of [[megabeast]]s placed at the beginning of history. Megabea
 
 Increasing this value can lead to early extinction of civilizations.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[MEGABEAST_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[MEGABEAST_CAP:75]</nowiki></tt>
-| Megabeasts count towards BEAST_END_YEAR calculation.
-|}
+! Notes|-| <tt><nowiki>[MEGABEAST_CAP:<number>]</nowiki></tt>| <tt><nowiki>[MEGABEAST_CAP:75]</nowiki></tt>| Megabeasts count towards BEAST_END_YEAR calculation.|}
 
 === Max Semi-Megabeast Caves ===
 
 This is the number of [[semi-megabeast]]s placed at the beginning of history. Semimegabeasts are [[giant]]s, [[ettin]]s, [[minotaur]]s, and [[cyclops]], which are placed in equal proportions [http://www.bay12forums.com/smf/index.php?topic=112465.msg3415188#msg3415188 <sup>data</sup>].
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SEMIMEGABEAST_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[SEMIMEGABEAST_CAP:150]</nowiki></tt>
-| Semimegabeasts do not count towards the BEAST_END_YEAR calculation.
-|}
+! Notes|-| <tt><nowiki>[SEMIMEGABEAST_CAP:<number>]</nowiki></tt>| <tt><nowiki>[SEMIMEGABEAST_CAP:150]</nowiki></tt>| Semimegabeasts do not count towards the BEAST_END_YEAR calculation.|}
 
 === Titan Parameters ===
 
@@ -609,16 +439,10 @@ This is the number of [[semi-megabeast]]s placed at the beginning of history. Se
 
 This controls the number of [[titan]]s that exist at the beginning of history[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415203#msg3415203 <sup>data</sup>]. The number of forgotten beasts is unaffected by this parameter [http://www.bay12forums.com/smf/index.php?topic=112465.msg3415155#msg3415155 <sup>data</sup>].
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[TITAN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[TITAN_NUMBER:33]</nowiki></tt>
-| Titans count towards BEAST_END_YEAR calculation.
-|}
+! Notes|-| <tt><nowiki>[TITAN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[TITAN_NUMBER:33]</nowiki></tt>| Titans count towards BEAST_END_YEAR calculation.|}
 
 ==== Attack Population Requirement ====
 
@@ -634,89 +458,53 @@ Titans will begin to attack your fort once you have exported at least this many 
 
 Titans will begin to attack your fort once the fort's total wealth has reached this many [[Currency|dwarfbucks]] in value. This happens regardless of whether any of the other criteria, such as population, have been met; therefore, even with 1 dwarf, a fort could be attacked if the fort were worth at least this value.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:80:0:100000]</nowiki></tt>
-| 0 = None (disabled). Only one requirement must be met for an attack.
-|}
+! Notes|-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>| <tt><nowiki>[TITAN_ATTACK_TRIGGER:80:0:100000]</nowiki></tt>| 0 = None (disabled). Only one requirement must be met for an attack.|}
 
 === Number of Demon Types ===
 
 [[Demon]]s are similar to [[titan]]s and [[forgotten beast]]s, in that they are procedurally generated, but most are not unique. Thus, many different types of demons can exist in the world, but there will also be many individuals of most types. Thanks to [[Underworld spire|certain fun things]], fewer demon types also means fewer goblin civilizations.{{cite forum|112465/7392706}} You need at least 2 demon types, or else goblin civilizations won't exist initially, though if dwarves breach the underworld during world generation, at least one will be generated then.<!-- May be 1 per underworld region? -->
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[DEMON_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[DEMON_NUMBER:52]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[DEMON_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[DEMON_NUMBER:52]</nowiki></tt>| 0 to 1000|}
 
 === Number of Night Troll Types ===
 
 The number of different [[night troll]]s, also procedurally generated, that will exist in the world. Setting this to zero means that the world will have no night trolls, custom or otherwise.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[NIGHT_TROLL_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[NIGHT_TROLL_NUMBER:77]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[NIGHT_TROLL_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[NIGHT_TROLL_NUMBER:77]</nowiki></tt>| 0 to 1000|}
 
 === Number of Bogeyman Types ===
 The number of different [[bogeyman]] forms that will exist in the world. Bogeymen are procedurally generated, though their forms do not vary by much. Setting this to zero means that the world will have no bogeymen, custom or otherwise.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[BOGEYMAN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[BOGEYMAN_NUMBER:27]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[BOGEYMAN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[BOGEYMAN_NUMBER:27]</nowiki></tt>| 0 to 1000|}
 
 === Number of Nightmare Types ===
 The number of different [[nightmare]] forms that will exist in the world. Nightmares are procedurally generated. Setting this to zero means that the world will have no nightmares, custom or otherwise.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[NIGHTMARE_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[NIGHTMARE_NUMBER:27]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[NIGHTMARE_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[NIGHTMARE_NUMBER:27]</nowiki></tt>| 0 to 1000|}
 
 === Number of Vampire Curse Types ===
 
 The number of different types of [[Vampire|vampires]] that will exist in the world. Although they are generated at the start of a new world, they aren't different from each other. Setting this to zero means no vampires will exist.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[VAMPIRE_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[VAMPIRE_NUMBER:72]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[VAMPIRE_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[VAMPIRE_NUMBER:72]</nowiki></tt>| 0 to 1000|}
 
 === Werebeast Parameters ===
 
@@ -726,16 +514,10 @@ The number of different types of [[werebeast]]s that can exist in the world. It 
 
 In vanilla, there are only 82 possible unique werebeast species. Any further species will generate as wereblobs.{{bug|13308}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[WEREBEAST_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[WEREBEAST_NUMBER:58]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[WEREBEAST_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[WEREBEAST_NUMBER:58]</nowiki></tt>| 0 to 1000|}
 
 ==== Attack Population Requirement ====
 
@@ -748,16 +530,10 @@ Werebeasts will begin to attack your fort once you have exported at least this m
 
 Werebeasts will begin to attack your fort once the fort's total wealth has reached this many [[Currency|dwarfbucks]] in value. This happens regardless of whether any of the other criteria, such as population, have been met; therefore, even with 1 dwarf, a fort could be attacked if the fort were worth at least this value.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:50:5000:50000]</nowiki></tt>
-| 0 = None (disabled). Only one requirement must be met for an attack.
-|}
+! Notes|-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:50:5000:50000]</nowiki></tt>| 0 = None (disabled). Only one requirement must be met for an attack.|}
 
 === Number of Secret Types ===
 
@@ -766,146 +542,72 @@ Non-necromancer towers can still appear (extremely rarely) with zero secrets, co
 The primary difference between having 1 or 1000 secrets is the chance of your world having any necromancer towers at all. With 1, this chance is low. With the default number, it's seemingly guaranteed.
 Even with 1 secret, if you have any necromancer towers at all, it is likely a great number will quickly appear in world generation (though this isn't guaranteed).
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SECRET_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[SECRET_NUMBER:52]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[SECRET_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[SECRET_NUMBER:52]</nowiki></tt>| 0 to 1000|}
 
 === Number of Regional Interaction Types ===
 
 The number of interactions that can be caused in regions, which may incorporate evil rain and cloud types. Currently, only evil region interactions are generated this way.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:20]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:20]</nowiki></tt>| 0 to 1000|}
 
 === Number of Disturbance Interaction Types ===
 The number of different [[Mummy|disturbed dead]] that can exist in the world. Setting this to zero should prevent any mummy from appearing{{verify}}, but it will not prevent the creation of [[tomb]]s.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:10]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:10]</nowiki></tt>| 0 to 1000|}
 
 === Number of Evil Cloud / Evil Rain Types ===
 
 This number specifies how many [[Weather#Evil weather|various face-melting, eye-boiling, and zombifyingly-fun]] clouds of pure evil may appear in your world. Setting this to zero means you no longer will ever have to deal with encroaching dust walls of doom in that world. It is generally advised to keep this value low...
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[EVIL_CLOUD_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[EVIL_CLOUD_NUMBER:45]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[EVIL_CLOUD_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[EVIL_CLOUD_NUMBER:45]</nowiki></tt>| 0 to 1000|}
 
 The latter number states how many different types of green-ooze drenchers, disconcerting blood-showers, and sickly yellow slime-baths can occur in your world. Compared to evil clouds though, this one hardly is worth stressing out about, usually.... Setting this to zero means the only semi-solid to fully-liquid fluids to fall from the sky will be pure H2O.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[EVIL_RAIN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[EVIL_RAIN_NUMBER:352]</nowiki></tt>
-| 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[EVIL_RAIN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[EVIL_RAIN_NUMBER:352]</nowiki></tt>| 0 to 1000|}
 
 === Generate Divine Materials ===
 This turns the generation of [[Divine_metal|divine metals]] on or off. It does not influence the creation of [[vault]]s. Probably determines whenever or not using divination dice spawns weapons.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Generate Mythical Materials ===
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Allow Mythical Healing ===
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Allow Divination, Experiments, and Necromancy types ===
 These allow or disallow [[die|divination]], demon or necromancer [[experiment]]s, and the more advanced [[necromancer]] abilities.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ALLOW_DIVINATION:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_DIVINATION:1]</nowiki></tt>
-| 1/0 = Yes/No
-|-
-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[ALLOW_DIVINATION:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_DIVINATION:1]</nowiki></tt>| 1/0 = Yes/No|-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:1]</nowiki></tt>| 1/0 = Yes/No|-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:1]</nowiki></tt>| 1/0 = Yes/No|-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:1]</nowiki></tt>| 1/0 = Yes/No|-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:1]</nowiki></tt>| 1/0 = Yes/No|-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Desired Good/Evil Square Counts ===
 
@@ -917,19 +619,10 @@ The counts used here will always be restricted to regions of the given size, no 
 
 Note that the "evilness" of evil biomes is also impacted by savagery. Certain civilizations cannot exist in good and/or evil squares, so too many of one or the other may limit the size of certain types of civilizations - dwarves, for example, need non-aligned biomes. Creating too many evil biomes seems to lead to the danger of many civilizations' early extinction.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[GOOD_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
-| <tt><nowiki>[GOOD_SQ_COUNTS:100:1000:2000]</nowiki></tt>
-| rowspan="2" | Set count to zero to disable for that region size.
-|-
-| <tt><nowiki>[EVIL_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
-| <tt><nowiki>[EVIL_SQ_COUNTS:100:1000:2000]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[GOOD_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>| <tt><nowiki>[GOOD_SQ_COUNTS:100:1000:2000]</nowiki></tt>| rowspan="2" | Set count to zero to disable for that region size.|-| <tt><nowiki>[EVIL_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>| <tt><nowiki>[EVIL_SQ_COUNTS:100:1000:2000]</nowiki></tt>|}
 
 === Minimum Biome Square Counts ===
 
@@ -947,70 +640,13 @@ These parameters often result in infinite world rejection problems. See [[World 
 
 Terrain requirements for various biomes are described below.{{Verify}} Note that some of the exact ranges are unknown.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! rowspan="2" | Biome
-! colspan="4" | Terrain Requirement
-|-
+! colspan="4" | Terrain Requirement|-
 ! Elevation
 ! Rainfall
 ! Temperature
-! Drainage
-|-
-| Swamp/Marsh
-| 100-299
-| 33-100
-| Non-Freezing
-| 0-32
-|-
-| Desert/Badland
-| 100-299
-| 0-9
-| non-freezing
-| note<sup>1</sup>
-|-
-| Forest
-| 100-299
-| 66-100
-| non-freezing
-| 66-100
-|-
-| Mountains
-| 300-400
-| N/A
-| N/A
-| N/A
-|-
-| Ocean
-| 0-99
-| N/A
-| N/A
-| N/A
-|-
-| Glacier
-| 100-299
-| N/A
-| Freezing
-| 80(?)-100
-|-
-| Tundra
-| 100-299
-| N/A
-| Freezing
-| 0-66
-|-
-| Grassland
-| 100-299
-| 0-66
-| Non-Freezing
-| 0-66
-|-
-| Hills
-| 100-299
-| 0-66
-| Non-Freezing
-| 66-100
-|}
+! Drainage|-| Swamp/Marsh| 100-299| 33-100| Non-Freezing| 0-32|-| Desert/Badland| 100-299| 0-9| non-freezing| note<sup>1</sup>|-| Forest| 100-299| 66-100| non-freezing| 66-100|-| Mountains| 300-400| N/A| N/A| N/A|-| Ocean| 0-99| N/A| N/A| N/A|-| Glacier| 100-299| N/A| Freezing| 80(?)-100|-| Tundra| 100-299| N/A| Freezing| 0-66|-| Grassland| 100-299| 0-66| Non-Freezing| 0-66|-| Hills| 100-299| 0-66| Non-Freezing| 66-100|}
 note<sup>1</sup> drainage: 00-32 sand desert, 33-49 rocky wasteland, 50-65 rocky wasteland but different characters/appearance, 66-100 badlands
 
 ==== Minimum Initial Square Count ====
@@ -1021,26 +657,9 @@ This is the minimum number of squares of the given biome that must exist before 
 
 To determine the number of squares on a map, just multiply the dimensions. In practice these parameters will need to sum to lower than the maximum because some space is needed for "slack".
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Map Size
-! Number of Squares
-|-
-| 17×17
-| 289
-|-
-| 33×33
-| 1089
-|-
-| 65×65
-| 4225
-|-
-| 129×129
-| 16614
-|-
-| 257×257
-| 66049
-|}
+! Number of Squares|-| 17×17| 289|-| 33×33| 1089|-| 65×65| 4225|-| 129×129| 16614|-| 257×257| 66049|}
 
 ==== Minimum Initial Region Count ====
 
@@ -1050,53 +669,18 @@ This is the minimum number of regions of contiguous biome squares that must exis
 
 This many regions of the given biome must exist after erosion and similar phases of generation have been completed.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
-! Example
-|-
-| <tt><nowiki>[REGION_COUNTS:SWAMP:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:SWAMP:1032:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:DESERT:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:DESERT:1032:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:FOREST:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:FOREST:4128:13:12]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:8256:9:9]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:OCEAN:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:OCEAN:8256:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:GLACIER:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:GLACIER:0:0:0]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:TUNDRA:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:TUNDRA:0:0:0]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:8256:13:12]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:HILLS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:HILLS:8256:13:12]</nowiki></tt>
-|}
+! Example|-| <tt><nowiki>[REGION_COUNTS:SWAMP:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:SWAMP:1032:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:DESERT:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:DESERT:1032:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:FOREST:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:FOREST:4128:13:12]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:8256:9:9]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:OCEAN:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:OCEAN:8256:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:GLACIER:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:GLACIER:0:0:0]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:TUNDRA:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:TUNDRA:0:0:0]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:GRASSLAND:8256:13:12]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:HILLS:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:HILLS:8256:13:12]</nowiki></tt>|}
 
 === Erosion Cycle Count ===
 
 Tells the world generator how long the world has to erode its tall peaks down to mountainsides during the 'running rivers...' stage of world creation. The higher this number, the less jagged the world will be, and the more wide the major rivers will be. If you use the maximum number, your mountains will dissolve before your eyes into plains which can lead to rejections if there aren't enough mountains to use for river start points and dwarven civilization origin points.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[EROSION_CYCLE_COUNT:<number>]</nowiki></tt>
-| <tt><nowiki>[EROSION_CYCLE_COUNT:250]</nowiki></tt>
-| Range: 0 to 1000
-|}
+! Notes|-| <tt><nowiki>[EROSION_CYCLE_COUNT:<number>]</nowiki></tt>| <tt><nowiki>[EROSION_CYCLE_COUNT:250]</nowiki></tt>| Range: 0 to 1000|}
 
 === Minimum/Desired River Start Locations ===
 
@@ -1104,16 +688,10 @@ This is the minimum number of riverheads that must exist before and after erosio
 
 Extremely high pre-erosion values speed erosion greatly, while low post erosion values are useful for limiting rejects due to lack of river origin points. One can try the 800 value to get more lakes.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[RIVER_MINS:<min pre-erosion>:<des post-erosion>]</nowiki></tt>
-| <tt><nowiki>[RIVER_MINS:200:400]</nowiki></tt>
-| Range: 0 to 800
-|}
+! Notes|-| <tt><nowiki>[RIVER_MINS:<min pre-erosion>:<des post-erosion>]</nowiki></tt>| <tt><nowiki>[RIVER_MINS:200:400]</nowiki></tt>| Range: 0 to 800|}
 
 === Periodically Erode Extreme Cliffs ===
 
@@ -1121,16 +699,10 @@ If enabled, makes every impassable rock wall into a series of ramps. Some prefer
 
 Normally this is set to Yes (1).
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:<1 or 0>]</nowiki></tt>| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Do Orographic Precipitation and Rain Shadows ===
 
@@ -1140,16 +712,10 @@ Turning this on should create a tendency for more extreme rainfall in regions, c
 
 This should be disabled if you're importing a map or using a preset map file that has weather.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:<1 or 0>]</nowiki></tt>| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Maximum Number of Subregions ===
 
@@ -1161,32 +727,20 @@ Increasing the value of this tag is often a must when generating "patchwork" wor
 
 It is also interesting to note that the maximum subregions is 5000 which is more than the total number of squares for a pocket or small map. However, for a medium or large map (16641 or 66049 squares) it quickly becomes a mere fraction of the total number of possible subregions. In fact it would be quite easy on a large map to end up with far too many subregions and get endless rejections of this type.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SUBREGION_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[SUBREGION_MAX:2750]</nowiki></tt>
-| Range: 1 to 5000
-|}
+! Notes|-| <tt><nowiki>[SUBREGION_MAX:<number>]</nowiki></tt>| <tt><nowiki>[SUBREGION_MAX:2750]</nowiki></tt>| Range: 1 to 5000|}
 
 === Cavern Parameters ===
 [[Caverns]] are the hollow areas underground, which dwarves tend to encounter when they're digging around. The '''Cavern Layer Number''' parameter determines how many cavern systems will be generated, not including the magma layer or the Bottom layer. Defaults to three - setting it to lower values could help FPS.  Setting it to 2 will merge cavern 3 species into the 2nd cavern, and setting it to 1 will merge all into one cavern. However, disabling them entirely by setting it to 0 will make it impossible to grow any underground plants, as none will exist for your civilization to cultivate, nor will they be available on embark.
 
 *Setting caverns to a sub-3 number (Spoiler, highlight to view) <span style='color:#f8f8f8;'>erases about one-third of HFS spires{{Bug|10267}} and prevents dig deep disasters.</span> Additionally, random plant or animal species can be more frequently absent.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CAVERN_LAYER_COUNT:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_COUNT:3]</nowiki></tt>
-| Range: 0 to 3
-|}
+! Notes|-| <tt><nowiki>[CAVERN_LAYER_COUNT:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_COUNT:3]</nowiki></tt>| Range: 0 to 3|}
 
 ==== Cavern Layout Parameters ====
 
@@ -1207,19 +761,10 @@ File:Open50Density50.jpg|Cavern slice with Openness of 50 and Density of 50
 
 Dictates the size of cavern passages. When Passage Density (see below) is set to minimum (0), caverns will be open expanses. Raising the maximum will increase the size of the caverns.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:0]</nowiki></tt>
-| rowspan="2" | Range: 0 to 100
-|-
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:100]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:0]</nowiki></tt>| rowspan="2" | Range: 0 to 100|-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:100]</nowiki></tt>|}
 
 ===== Layer Passage Density min/max =====
 
@@ -1227,19 +772,10 @@ Determines how many passages form the cavern. If openness (see above) is set to 
 
 Caverns will be large, open spaces at 0, and comprised of many small vertical shafts of rock at 100. Setting both values to be the same results in a uniform look for the caverns.{{Verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:0]</nowiki></tt>
-| rowspan="2" | Range: 0 to 100
-|-
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:100]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:0]</nowiki></tt>| rowspan="2" | Range: 0 to 100|-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:100]</nowiki></tt>|}
 
 ===== Layer Water min/max =====
 
@@ -1247,19 +783,10 @@ Determines the minimum and maximum percentage of water each cavern can contain.
 
 Caverns with a water level of 10 or higher can support creatures and plants from the "Subterranean Water" biome, and caverns with a water level of 90 or lower can support the "Subterranean Chasm" biome; levels of 10-90 support ''both'' biomes, while levels below 10 or above 90 support only one.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:0]</nowiki></tt>
-| rowspan="2" | Range: 0 to 100
-|-
-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:100]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:0]</nowiki></tt>| rowspan="2" | Range: 0 to 100|-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:100]</nowiki></tt>|}
 
 ==== Magma Layer ====
 
@@ -1267,14 +794,9 @@ This parameter controls whether the [[magma sea]] exists.
 
 Setting 1/Yes causes the magma layer to exist, value 0/No prevents it. Appears not to have any impact on volcanoes nor volcanism, so even if 0/No, there will still be embark locations with magma. If a [[volcano]] exists, it appears to always tap the magma sea, but the magma sea will not be revealed by revealing the volcano.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
-! Example
-|-
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:1]</nowiki></tt>
-|}
+! Example|-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:<1 or 0>]</nowiki></tt>| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:1]</nowiki></tt>|}
 
 ==== Bottom Layer ====
 
@@ -1282,14 +804,9 @@ Determines if the space below the magma sea exists. If Yes the "HFS" layer is al
 
 If enabled, this will force the magma layer above it.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
-! Example
-|-
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:1]</nowiki></tt>
-|}
+! Example|-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:<1 or 0>]</nowiki></tt>| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:1]</nowiki></tt>|}
 
 === Z Levels (Depth) Settings ===
 
@@ -1297,41 +814,11 @@ These parameters control the "thickness" of various "layers" on the map. Note th
 
 The following table assumes that you have 3 cavern layers. (out of a minimum of 0-3) The Levels Above Layer settings control how many Z-Levels are above each layer. A layer may itself consist of multiple Z-Levels (and almost always does).
 
-{|style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable"
-|-style="background:#F2F2F2;text-align:center;"
+{|style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable"|-style="background:#F2F2F2;text-align:center;"
 !style="border:1px #AAA solid;padding:0.2em;" width="120"|Setting Name
 !style="border:1px #AAA solid;padding:0.2em;" width="200"|Token
-!style="border:1px #AAA solid;padding:0.2em;"| Description
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above Ground
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_GROUND:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| The number of Z-levels of air above the highest surface level.<br />Has no impact on how many Z-levels deep the surface layer is.
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above layer 1
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_1:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of stone above the first cavern layer. Making this higher will guarantee ''at least'' that many levels to build your fortress, but will have no impact on how many z-levels thick the surface layer is. Also, the top of a cavern may be higher than the rest of a cavern, so in practice there will be more "solid" levels than this above the cavern.
-As of version 0.31.25 this setting is inaccurate. The actual number of z-levels may vary in a range of approx. ±5, which may result in non-existence of any solid z-levels between a surface layer and first cavern layer.
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 2
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_2:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very top of the second cavern and the very bottom of the first cavern.
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 3
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_3:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very top of the third cavern and the very bottom of the second cavern.
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 4
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_4:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very highest magma and the very bottom of the third cavern.<br />Spoiler Hidden (select invisible text to read): <span style='color:#eee;'>Making this high will give a large area for HFS veins, so that it never touches caverns, giving more to mine '''if''' it was impacting the cavern previously.</span>
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 5
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_5:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Uncertain. May control the number of levels of "Semi Molten Rock" between HFS and Magma, may control number of levels of magma, may impact both.<br />In experimentation, the overall depth of all magma sea and semi-molten rock levels appears to increase, but not consistent enough to say for certain.<br />Only valid if Magma Layer present.<br />Spoiler Hidden:<span style='color:#eee;'>Often the HFS vein will only extend as high as the highest magma, making this the only guaranteed way to increase amount of HFS to mine, but unfortunately also creating enormous useless semi-molten z-levels</span>
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| At Bottom
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_AT_BOTTOM:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| Appears to be number of levels of HFS chamber. Only valid if Bottom Layer present, often having no impact. Values larger than default result in strange things.
-|}
+!style="border:1px #AAA solid;padding:0.2em;"| Description|-|style="border:1px #AAA solid;padding:0.2em;"| Above Ground|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_GROUND:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| The number of Z-levels of air above the highest surface level.<br />Has no impact on how many Z-levels deep the surface layer is.|-|style="border:1px #AAA solid;padding:0.2em;"| Above layer 1|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_1:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of stone above the first cavern layer. Making this higher will guarantee ''at least'' that many levels to build your fortress, but will have no impact on how many z-levels thick the surface layer is. Also, the top of a cavern may be higher than the rest of a cavern, so in practice there will be more "solid" levels than this above the cavern.
+As of version 0.31.25 this setting is inaccurate. The actual number of z-levels may vary in a range of approx. ±5, which may result in non-existence of any solid z-levels between a surface layer and first cavern layer.|-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 2|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_2:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very top of the second cavern and the very bottom of the first cavern.|-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 3|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_3:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very top of the third cavern and the very bottom of the second cavern.|-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 4|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_4:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Z-levels of earth between the very highest magma and the very bottom of the third cavern.<br />Spoiler Hidden (select invisible text to read): <span style='color:#eee;'>Making this high will give a large area for HFS veins, so that it never touches caverns, giving more to mine '''if''' it was impacting the cavern previously.</span>|-|style="border:1px #AAA solid;padding:0.2em;"| Above Layer 5|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_5:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Uncertain. May control the number of levels of "Semi Molten Rock" between HFS and Magma, may control number of levels of magma, may impact both.<br />In experimentation, the overall depth of all magma sea and semi-molten rock levels appears to increase, but not consistent enough to say for certain.<br />Only valid if Magma Layer present.<br />Spoiler Hidden:<span style='color:#eee;'>Often the HFS vein will only extend as high as the highest magma, making this the only guaranteed way to increase amount of HFS to mine, but unfortunately also creating enormous useless semi-molten z-levels</span>|-|style="border:1px #AAA solid;padding:0.2em;"| At Bottom|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_AT_BOTTOM:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| Appears to be number of levels of HFS chamber. Only valid if Bottom Layer present, often having no impact. Values larger than default result in strange things.|}
 
 Some implications:
 * The number of surface layers (e.g. soil), at this time, cannot be controlled. For example, on a map with 1 layer of peat, then a layer of silt, then a layer of obsidian, there is no control to let you increase either one to be, say, 20 z-levels. (though you may get lucky with the obsidian).
@@ -1345,77 +832,41 @@ Some implications:
 === Minimum/Maximum Natural Cave Size ===
 It's not clear what effect these currently have, other than changing them can change the location of caves somewhat.{{verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[CAVE_MIN_SIZE:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVE_MIN_SIZE:5]</nowiki></tt>
-| rowspan="2" | Range: 1 to 500
-|-
-| <tt><nowiki>[CAVE_MAX_SIZE:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVE_MAX_SIZE:25]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[CAVE_MIN_SIZE:<number>]</nowiki></tt>| <tt><nowiki>[CAVE_MIN_SIZE:5]</nowiki></tt>| rowspan="2" | Range: 1 to 500|-| <tt><nowiki>[CAVE_MAX_SIZE:<number>]</nowiki></tt>| <tt><nowiki>[CAVE_MAX_SIZE:25]</nowiki></tt>|}
 
 === Number of Caves ===
 The number of caves generated in mountainous and non-mountainous regions, mountain caves will always be generated on the edge of mountain ranges next to non-mountainous regions. Lurking [[kobold]]s set up shop in caves, and store their stolen items there - a setting of 0 in both will stop kobold civilizations from appearing. Special note: a cave is not initially a [[lair]], although beasts can later use them as their lair.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:100]</nowiki></tt>
-| rowspan="2" | Range: 0 to 800
-|-
-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:200]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[MOUNTAIN_CAVE_MIN:100]</nowiki></tt>| rowspan="2" | Range: 0 to 800|-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:200]</nowiki></tt>|}
 
 === Number of Mythical Sites ===
 The number of [[mysterious dungeon|mysterious sites]] generated around the world. The extended effects of setting this to 0 has not been determined{{verify|is chosen still available? is quest still given? etc.}}.
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[MYTHICAL_SITE_NUM:<number>]</nowiki></tt>
-| <tt><nowiki>[MYTHICAL_SITE_NUM:200]</nowiki></tt>
-| rowspan="2" | Range: 0 to 800
-|}
+! Notes|-| <tt><nowiki>[MYTHICAL_SITE_NUM:<number>]</nowiki></tt>| <tt><nowiki>[MYTHICAL_SITE_NUM:200]</nowiki></tt>| rowspan="2" | Range: 0 to 800|}
 
 === Make Caves Visible ===
 If set to no (default) then the location of caves will not be marked on the map. If set to yes, caves will appear on the map so that they may be sought out or avoided as desired.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ALL_CAVES_VISIBLE:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALL_CAVES_VISIBLE:0]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[ALL_CAVES_VISIBLE:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALL_CAVES_VISIBLE:0]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Allow Init Options to Show Tunnels ===
 
 If enabled, you will be able to see the underground tunnels often built by dwarves on the world map, and they will appear as black lines, similar to roads.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:<0-2>]</nowiki></tt>
-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:2]</nowiki></tt>
-| 0 = No<br/>1 = Only in Finder<br/>2 = Always
-|}
+! Notes|-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:<0-2>]</nowiki></tt>| <tt><nowiki>[SHOW_EMBARK_TUNNEL:2]</nowiki></tt>| 0 = No<br/>1 = Only in Finder<br/>2 = Always|}
 
 === Number of Civilizations ===
 
@@ -1423,16 +874,10 @@ This number of [[civilization]]s will be placed on the map before history genera
 
 Note that a high value here can cause lots of map rejections, particularly on smaller maps as there simply isn't enough room or regions to put them all in.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[TOTAL_CIV_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[TOTAL_CIV_NUMBER:40]</nowiki></tt>
-| Range: 0 to 300
-|}
+! Notes|-| <tt><nowiki>[TOTAL_CIV_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[TOTAL_CIV_NUMBER:40]</nowiki></tt>| Range: 0 to 300|}
 
 === Playable Civilization Required ===
 
@@ -1440,16 +885,10 @@ If this is set to yes (default) then worlds will be rejected if no civilization 
 
 If set to no, the result may be a world that cannot be played in Fortress Mode.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:1]</nowiki></tt>
-| 1/0 = Yes/No
-|}
+! Notes|-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:<1 or 0>]</nowiki></tt>| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:1]</nowiki></tt>| 1/0 = Yes/No|}
 
 === Minimum Number of Mid/Low/High Characteristic Squares ===
 
@@ -1457,29 +896,11 @@ Sets the minimum possible number of squares of certain ranges of each of the reg
 
 These values will cause worlds to be rejected unless at least the given number of squares of the given type are randomly generated. Setting these values too high could result in worlds always being rejected if other parameters such as the maximum/minimums for elevation, etc., don't allow enough of those squares to get generated.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Example
-! Notes
-|-
-| <tt><nowiki>[ELEVATION_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION_RANGES:8256:16512:8256]</nowiki></tt>
-| rowspan="5" | Minimum number of squares that must have low, medium, and high amounts of the given attribute.<br/>
-0 = No minimum
-|-
-| <tt><nowiki>[RAIN_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[RAIN_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[DRAINAGE_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[SAVAGERY_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[VOLCANISM_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM_RANGES:8256:16512:8256]</nowiki></tt>
-|}
+! Notes|-| <tt><nowiki>[ELEVATION_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[ELEVATION_RANGES:8256:16512:8256]</nowiki></tt>| rowspan="5" | Minimum number of squares that must have low, medium, and high amounts of the given attribute.<br/>
+0 = No minimum|-| <tt><nowiki>[RAIN_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[RAIN_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[DRAINAGE_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[DRAINAGE_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[SAVAGERY_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[SAVAGERY_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[VOLCANISM_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[VOLCANISM_RANGES:8256:16512:8256]</nowiki></tt>|}
 
 ==World rejection==
 

@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_adder_sprite.png
-|portrait=adder_portrait_anim.gif
-|contrib=no
-|bone=9-10
-|tooth=2
-|meat=8-9
-|fat=3
-|skull=1
-|lung=2
-|intestine=1-2
-|spleen=1
-|kidney=2
-|eye=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=scale}}
+{{Creaturelookup/0|image=giant_adder_sprite.png|portrait=adder_portrait_anim.gif|contrib=no|bone=9-10|tooth=2|meat=8-9|fat=3|skull=1|lung=2|intestine=1-2|spleen=1|kidney=2|eye=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=scale}}
 {{av}}
 {{creaturedesc}}
 

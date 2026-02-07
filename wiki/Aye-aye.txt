@@ -1,14 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=aye_aye_sprite.png
-|portrait=aye_aye_portrait_anim.gif
-|contrib=no
-|bone=4
-|meat=6
-|fat=6
-|skull=1
-|skin=hide
-|wiki=yes}}
+{{creaturelookup/0|image=aye_aye_sprite.png|portrait=aye_aye_portrait_anim.gif|contrib=no|bone=4|meat=6|fat=6|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

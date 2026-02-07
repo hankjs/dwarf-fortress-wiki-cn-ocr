@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_prase_sprite.png
-|graphic2=rough_prase_sprite.png}}
+{{gemlookup/0|graphic=cut_prase_sprite.png|graphic2=rough_prase_sprite.png}}
 {{av}}
 
 '''Prases''' are unremarkable, low-value, dark green [[gem]]s that can be found just about anywhere.

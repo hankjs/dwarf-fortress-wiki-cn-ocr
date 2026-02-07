@@ -9,16 +9,9 @@ Honey jugs will be stored either in a [[finished goods]] stockpile allowing the 
 
 [[File:honey.jpeg|thumb|300px|center|Delicious!]]
 
-{{Translation
-| dwarven = stetár
-| elvish  = arifè
-| goblin  = stoz
-| human   = someg
-}}
+{{Translation| dwarven = stetár| elvish  = arifè| goblin  = stoz| human   = someg}}
 
-{{gamedata
-|title=[[Honey bee/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:HONEY:CREATURE_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Honey bee/raw|Raws]]|[USE_MATERIAL_TEMPLATE:HONEY:CREATURE_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen honey bee honey]
 	[STATE_NAME_ADJ:LIQUID:honey bee honey]
 	[STATE_NAME_ADJ:GAS:boiling honey bee honey]
@@ -28,8 +21,7 @@ Honey jugs will be stored either in a [[finished goods]] stockpile allowing the 
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
 	[EDIBLE_RAW]
-	[MATERIAL_REACTION_PRODUCT:DRINK_MAT:LOCAL_CREATURE_MAT:MEAD]
-}}
+	[MATERIAL_REACTION_PRODUCT:DRINK_MAT:LOCAL_CREATURE_MAT:MEAD]}}
 {{materials}}
 
 {{Category|Brewable}}

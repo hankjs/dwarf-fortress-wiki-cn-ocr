@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=lorikeet_sprite.png
-|portrait=lorikeet_portrait.png}}
+{{verminlookup/0|image=lorikeet_sprite.png|portrait=lorikeet_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

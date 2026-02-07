@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=rainbow_trout_sprite.png
-|portrait=rainbow_trout_portrait.png}}
+{{verminlookup/0|image=rainbow_trout_sprite.png|portrait=rainbow_trout_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

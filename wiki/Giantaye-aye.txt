@@ -1,21 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_aye_aye_sprite.png
-|contrib=no
-|bone=18
-|meat=14
-|fat=13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide}}
+{{Creaturelookup/0|image=giant_aye_aye_sprite.png|contrib=no|bone=18|meat=14|fat=13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 '''Giant aye-ayes''' are the [[Giant animal|super-sized]] counterpart to the common [[aye-aye]] found in tropical broadleaf forests. Giant aye-ayes are a little larger than [[grizzly bear]]s, but not as aggressive as those, instead fleeing any conflict. Only appearing rarely in a small subset of biomes, giant aye-ayes are among the more elusive animals in ''Dwarf Fortress''.

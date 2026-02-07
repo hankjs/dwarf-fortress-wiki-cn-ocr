@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=magma_crab_sprite.png
-|portrait=magma_crab_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=magma_crab_sprite.png|portrait=magma_crab_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 A '''magma crab''' is a small [[magma]]-dwelling [[creature]] that has the unique ability to [[spit]] globs of liquid [[basalt]] in small quantities. It does so at a very fast rate when at range, but if confronted in close quarters, they can only defend themselves with a weak [[push]] attack. The basalt spit is a very small and incredibly hot glob of the stuff and as such only burns areas it hits, generally melting off the fat of that body part. It should be noted however that this can be exceptionally deadly, especially to smaller [[dwarves]] if they're struck multiple times, as they rapidly bleed until all the fat on the hit parts is melted away. Alternatively, the magma crab's spit may hit some [[cave moss]] and set it alight, causing a cavern-wide [[fire]] which is certainly deadly to dwarves.

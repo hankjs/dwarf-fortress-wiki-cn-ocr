@@ -55,105 +55,16 @@ If a fortress is abandoned during [[unhappy]], [[insanity|stark raving mad]] tim
 A different message for migrant arrivals will be triggered depending on your fortress' dangerousness & happiness. That number is not actually a death count, but some sort of composite "fear" value determined by adding up a bunch of sources and dividing them by various amounts. It is currently not exactly known what those sources are, but at least one of them is a death count. 0-9 is normal, 10+ is "danger" or "dangerous", and 50+ is "cursed death trap" or "tomb".
 
 {| class=wikitable style="display: inline-table;"
-! Messages (Some migrants arrival)
-|-
-|''Some migrants have arrived.
-|-
-|''Some migrants have arrived, despite the danger.
-|-
-|''Some migrants have arrived at this unhappy place.
-|-
-|''Some migrants have arrived at this unhappy place, despite the danger.
-|-
-|''Some migrants have arrived at this miserable place.
-|-
-|''Some migrants have arrived at this miserable place, despite the danger.
-|-
-|''Some migrants have decided to brave this terrifying place, knowing it may be their tomb.
-|-
-|''Some migrants have decided to brave this terrifying unhappy place, knowing it may be their tomb.
-|-
-|''Some migrants have decided to brave this terrifying place, knowing it may be their miserable tomb.
-|}
+! Messages (Some migrants arrival)|-|''Some migrants have arrived.|-|''Some migrants have arrived, despite the danger.|-|''Some migrants have arrived at this unhappy place.|-|''Some migrants have arrived at this unhappy place, despite the danger.|-|''Some migrants have arrived at this miserable place.|-|''Some migrants have arrived at this miserable place, despite the danger.|-|''Some migrants have decided to brave this terrifying place, knowing it may be their tomb.|-|''Some migrants have decided to brave this terrifying unhappy place, knowing it may be their tomb.|-|''Some migrants have decided to brave this terrifying place, knowing it may be their miserable tomb.|}
 
 {| class=wikitable style="display: inline-table;"
-! Messages (One migrant arrival)
-|-
-|''A migrant has arrived at this miserable place, despite the danger.
-|-
-|''A migrant has arrived at this miserable place.
-|-
-|''A migrant has arrived at this unhappy place, despite the danger.
-|-
-|''A migrant has arrived at this unhappy place.
-|-
-|''A migrant has arrived, despite the danger.
-|-
-|''A migrant has decided to brave this terrifying miserable place.
-|-
-|''A migrant has decided to brave this terrifying place.
-|-
-|''A migrant has decided to brave this terrifying unhappy place.
-|-
-|}
+! Messages (One migrant arrival)|-|''A migrant has arrived at this miserable place, despite the danger.|-|''A migrant has arrived at this miserable place.|-|''A migrant has arrived at this unhappy place, despite the danger.|-|''A migrant has arrived at this unhappy place.|-|''A migrant has arrived, despite the danger.|-|''A migrant has decided to brave this terrifying miserable place.|-|''A migrant has decided to brave this terrifying place.|-|''A migrant has decided to brave this terrifying unhappy place.|-|}
 
 {| class=wikitable style="display: inline-table;"
-! Messages  (Migrant Refusal)
-|-
-|''No one else even considered making the journey to this cursed death-trap.
-|-
-|''No one else even considered making the journey to this cursed miserable death-trap.
-|-
-|''No one else even considered making the journey to this cursed unhappy death-trap.
-|-
-|''No one else even considered making the journey to this miserable hellhole.
-|-
-|''No one even considered making the journey to such a cursed death-trap this season.
-|-
-|''No one even considered making the journey to such a cursed miserable death-trap this season.
-|-
-|''No one even considered making the journey to such a cursed unhappy death-trap this season.
-|-
-|''No one even considered making the journey to such a miserable hellhole this season.
-|}
+! Messages  (Migrant Refusal)|-|''No one else even considered making the journey to this cursed death-trap.|-|''No one else even considered making the journey to this cursed miserable death-trap.|-|''No one else even considered making the journey to this cursed unhappy death-trap.|-|''No one else even considered making the journey to this miserable hellhole.|-|''No one even considered making the journey to such a cursed death-trap this season.|-|''No one even considered making the journey to such a cursed miserable death-trap this season.|-|''No one even considered making the journey to such a cursed unhappy death-trap this season.|-|''No one even considered making the journey to such a miserable hellhole this season.|}
 
 {| class=wikitable style="display: inline-table;"
-! Messages (Migrants Refusal)
-|-
-|''The fortress attracted no migrants this season.
-|-
-|''Migrants refused to journey to such a dangerous and miserable fortress this season.
-|-
-|''Migrants refused to journey to such a dangerous and unhappy fortress this season.
-|-
-|''Migrants refused to journey to such a dangerous fortress this season.
-|-
-|''Migrants refused to journey to this unhappy fortress this season.
-|-
-|''Migrants were too nervous to make the journey this season to this miserable fortress.
-|-
-|''Migrants were too nervous to make the journey this season to this unhappy fortress.
-|-
-|''Migrants were too nervous to make the journey this season.
-|-
-|''Migrants were too wary to make the journey this season.
-|-
-|''Others refused to journey to this dangerous and miserable fortress.
-|-
-|''Others refused to journey to this dangerous and unhappy fortress.
-|-
-|''Others refused to journey to this dangerous fortress.
-|-
-|''Others refused to journey to this unhappy fortress.
-|-
-|''Others were too nervous to make the journey to this miserable fortress.
-|-
-|''Others were too nervous to make the journey to this unhappy fortress.
-|-
-|''Others were too nervous to make the journey.
-|-
-|''Others were too wary to make the journey.
-|}
+! Messages (Migrants Refusal)|-|''The fortress attracted no migrants this season.|-|''Migrants refused to journey to such a dangerous and miserable fortress this season.|-|''Migrants refused to journey to such a dangerous and unhappy fortress this season.|-|''Migrants refused to journey to such a dangerous fortress this season.|-|''Migrants refused to journey to this unhappy fortress this season.|-|''Migrants were too nervous to make the journey this season to this miserable fortress.|-|''Migrants were too nervous to make the journey this season to this unhappy fortress.|-|''Migrants were too nervous to make the journey this season.|-|''Migrants were too wary to make the journey this season.|-|''Others refused to journey to this dangerous and miserable fortress.|-|''Others refused to journey to this dangerous and unhappy fortress.|-|''Others refused to journey to this dangerous fortress.|-|''Others refused to journey to this unhappy fortress.|-|''Others were too nervous to make the journey to this miserable fortress.|-|''Others were too nervous to make the journey to this unhappy fortress.|-|''Others were too nervous to make the journey.|-|''Others were too wary to make the journey.|}
 
 ==Expelling migrants==
 Undesirable migrants can be selected for "[[emigration]]" from their individual preferences screen. To do this: Select the dwarf through the citizen list, view their Preferences, and press e to Expel. You will be prompted to confirm, and they will leave the fortress.

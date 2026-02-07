@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=spinach_shrub_sprite.png
-|seedimage=spinach_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=spinach_shrub_sprite.png|seedimage=spinach_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Spinach''' is an [[aboveground]] [[crop|garden vegetable]]. It can be planted in all seasons, and its leaves are edible raw or [[cooking|cooked]]. Leaves also can be processed in a [[dyer's shop]] into leaf green	[[dye]].

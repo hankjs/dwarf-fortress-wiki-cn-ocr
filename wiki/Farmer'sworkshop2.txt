@@ -1,20 +1,16 @@
-{{Quality|Superior}}{{v50 workshop|name=Farmer's workshop|key=f|key2=f|image=Farmer's_workshop|job=[[Thresher|Plant processing]], [[Milker|Milking]], [[Cheese maker|Cheese making]], [[Shearer]], [[Spinner]], [[Papermaker]]|icon=[[File:Farmer's_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{Quality|Superior}}{{v50 workshop|name=Farmer's workshop|key=f|key2=f|image=Farmer's_workshop|job=[[Thresher|Plant processing]], [[Milker|Milking]], [[Cheese maker|Cheese making]], [[Shearer]], [[Spinner]], [[Papermaker]]|icon=[[File:Farmer's_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 Any Workshop Farming:
 * [[Thresher|Plant processing]]
 * [[Milker|Milking]]
 * [[Cheese maker|Cheese making]]
 * [[Spinning]]
 * [[Shearing]]
-* [[Papermaking]]
-|use=
+* [[Papermaking]]|use=
 * Various [[crop]]s
 * [[Bag]]s, [[barrel]]s and [[vial]]s for their respective tasks
 * Various animals and [[milk]]
-* [[Wool]]/[[Hair]]
-|production=
+* [[Wool]]/[[Hair]]|production=
 * Plant [[thread]]s (process plants)
 * [[Quarry bush]] leaves and [[rock nut]]s (process plants to [[bag]])
 * [[Dwarven syrup]] and [[sweet pod]] seeds (process plants to [[barrel]])
@@ -24,8 +20,7 @@ Any Workshop Farming:
 * [[Wool]]
 * [[Yarn]]
 * [[Hair]] [[thread]]s
-* [[Sheet]]
-}}{{av}}
+* [[Sheet]]}}{{av}}
 
 The '''Farmer's workshop''' is the [[workshop]] used for any [[job]]s involving processing [[plant]]s or [[animal]] products. It is built from any construction material, and must be built by a [[dwarf]] with the [[Thresher|Plant processing]], [[Milker|Milking]], [[Shearer]], [[Spinner]], or [[Cheese maker|Cheese making]] [[labor]]s enabled.  [[Gelding]] also occurs at a farmer's workshop.  This is not a selectable menu option: instead, any animals that are designated to be gelded will automatically be assigned a gelding job at a farmer's workshop.
 

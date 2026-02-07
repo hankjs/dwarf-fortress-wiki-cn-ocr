@@ -1,20 +1,12 @@
 {{Quality|Fine}}
-{{Skill
-| color      = 3:0
-| skill      = Wound Dresser
-| specialty  = Peasant
-| profession = None
-| job name   = [[Dressing wounds]]
-| tasks      =
+{{Skill| color      = 3:0| skill      = Wound Dresser| specialty  = Peasant| profession = None| job name   = [[Dressing wounds]]| tasks      =
 * Applying bandages and casts{{verify}}
 * Bathing bedridden dwarves{{verify}}
-* Washing wounds with soap and water{{verify}}
-| attributes =
+* Washing wounds with soap and water{{verify}}| attributes =
 * Agility
 * Spatial Sense
 * Kinesthetic Sense
-* Empathy
-}}
+* Empathy}}
 {{av}}
 '''Wound dresser''' is the skill associated with the dressing wounds [[labor]] in [[healthcare]]. Wound dressers are responsible for cleaning wounds and applying bandages after they have been sutured, for which they need clean water, soap and [[cloth]] (any kind of cloth will do).
 

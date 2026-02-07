@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_raven_sprite.png
-|portrait=raven_portrait_anim.gif
-|contrib=no
-|bone=24
-|meat=17
-|fat=11
-|lung=2
-|heart=1
-|intestine=1
-|feather=1
-|gizzard=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|nervous tissue=1
-|skin=hide|}}
+{{Creaturelookup/0|image=giant_raven_sprite.png|portrait=raven_portrait_anim.gif|contrib=no|bone=24|meat=17|fat=11|lung=2|heart=1|intestine=1|feather=1|gizzard=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|nervous tissue=1|skin=hide|}}
 {{av}}
 {{creaturedesc}}
 The '''giant raven''' is the giant variety of the [[raven]]. It is much bigger than a regular raven, nearly 174&times; as big, in fact.

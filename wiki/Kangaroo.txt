@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=kangaroo_sprites.png
-|portrait=kangaroo_portrait_anim.gif
-|bone=10-22
-|meat=14-17
-|fat=11-16
-|skull=1
-|lung=2
-|intestine=0-1
-|spleen=0-1
-|kidney=0-2
-|brain=1
-|heart=0-1
-|liver=1
-|tripe=1
-|sweetbread=0-1
-|skin=hide
-|hair=0-1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=kangaroo_sprites.png|portrait=kangaroo_portrait_anim.gif|bone=10-22|meat=14-17|fat=11-16|skull=1|lung=2|intestine=0-1|spleen=0-1|kidney=0-2|brain=1|heart=0-1|liver=1|tripe=1|sweetbread=0-1|skin=hide|hair=0-1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=flying_squirrel_man_sprite.png
-|portrait=flying_squirrel_man_portrait.png}}
+{{Creaturelookup/0|image=flying_squirrel_man_sprite.png|portrait=flying_squirrel_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Flying squirrel men''' are [[animal people]] variants of the common [[flying squirrel]], who can be found in [[savage]] [[temperate]] [[forest]]s, spawn in groups of 3-5 individuals, and are generally content to keep to themselves. In terms of size, they are a little over half the weight of the average [[dwarf]]. They are born with Legendary [[skill]] in [[climbing]].

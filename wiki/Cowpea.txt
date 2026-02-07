@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=cowpea_shrub_sprite.png
-|seedimage=cowpea_seeds_sprite.png
-|uses=
-*[[Food]]
-}}
+{{plantlookup|graphic=cowpea_shrub_sprite.png|seedimage=cowpea_seeds_sprite.png|uses=
+*[[Food]]}}
 {{av}}
 
 '''Cowpeas''' are an [[aboveground]] [[crop|garden plant]]. They can be planted in all seasons and only the seeds are edible when [[cooking|cooked]].

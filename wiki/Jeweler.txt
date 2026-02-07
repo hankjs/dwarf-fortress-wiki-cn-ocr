@@ -8,8 +8,7 @@ The two Jeweler skills are:
 
 {{Skill Box|Jeweler|2:1|2:1|
 * [[Gem cutter]]
-* [[Gem setter]]
-}}
+* [[Gem setter]]}}
 
 {{Skills}}
 

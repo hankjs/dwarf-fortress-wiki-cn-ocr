@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=marlin_sprites.png
-|portrait=marlin_portrait.png
-|contrib=no
-|eye=2
-|heart=1
-|intestine=5-6
-|liver=2
-|tripe=2
-|sweetbread=1
-|spleen=1
-|kidney=2
-|fat=8
-|brain=2
-|skull=1
-|meat=24-38
-|bone=12
-|skin=scale
-|wiki=yes
-}}
+{{Creaturelookup/0|image=marlin_sprites.png|portrait=marlin_portrait.png|contrib=no|eye=2|heart=1|intestine=5-6|liver=2|tripe=2|sweetbread=1|spleen=1|kidney=2|fat=8|brain=2|skull=1|meat=24-38|bone=12|skin=scale|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

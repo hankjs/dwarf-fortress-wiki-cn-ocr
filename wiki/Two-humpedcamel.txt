@@ -1,25 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=two_humped_camel_sprites.png
-|portrait=two_humped_camel_portrait_anim.gif
-|contrib=no
-|wiki=Bactrian camel
-|bone=17
-|meat=16
-|fat=15
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|eye=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=two_humped_camel_sprites.png|portrait=two_humped_camel_portrait_anim.gif|contrib=no|wiki=Bactrian camel|bone=17|meat=16|fat=15|skull=1|lung=2|intestine=1|spleen=1|kidney=2|eye=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=whip_vine_shrub_sprite.png
-|seedimage=whip_vine_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=whip_vine_shrub_sprite.png|seedimage=whip_vine_seeds_sprite.png|uses=
 * [[Alcohol]]
 * [[Flour]]|wiki=Flagellaria_indica}}
 {{av}}

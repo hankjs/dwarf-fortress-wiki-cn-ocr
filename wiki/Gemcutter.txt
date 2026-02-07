@@ -1,20 +1,10 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 2:1
-| graphic    = [[File:jewel_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Gem Cutter
-| profession = [[Jeweler]]
-| job name   = [[Gem cutting]]
-| tasks      =
-* Cut ''gem name''
-| workshop   = [[Jeweler's workshop]]
-| attributes =
+{{v50_skill| color      = 2:1| graphic    = [[File:jewel_sprite_icon.png]]| graphicmargin = 106px| skill      = Gem Cutter| profession = [[Jeweler]]| job name   = [[Gem cutting]]| tasks      =
+* Cut ''gem name''| workshop   = [[Jeweler's workshop]]| attributes =
 * Agility
 * Analytical Ability
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 A '''gem cutter''' is the profession of a dwarf whose highest skill is in gem cutting. Performed at a [[Jeweler's workshop]], gem cutting is the basis of the [[gem industry]], turning mildly valuable [[gem]] clusters you find as you [[mining|mine]] away rock into valuable [[decoration]]s for [[furniture]] and [[Finished goods|trade good]]s. It is the counterpart to [[gem setting]]; together, the two belong to the category profession of the [[Jeweler]], and indeed if a dwarf has a relatively balanced skill level in both, they will be known as a Jeweler. (More often than not, migrants who are skilled in gem cutting will also be similarly skilled in gem setting.)

@@ -1,10 +1,7 @@
 {{Quality|Exceptional}}
 {{plantlookup|uses=
 * [[Food]]
-* [[Alcohol]]
-|graphic=plump_helmet_shrub_sprite.png
-|seedimage=plump_helmet_seeds_sprite.png
-|wiki=no}}
+* [[Alcohol]]|graphic=plump_helmet_shrub_sprite.png|seedimage=plump_helmet_seeds_sprite.png|wiki=no}}
 {{av}}
 '''Plump helmets''' are the most basic, resilient, and versatile of the six underground [[crop|plant]]s for [[Dwarf|dwarves]] to [[grower|grow]]. They appear as large mushrooms with a purple cap, and have burgundy-colored spores. They are one of the fastest growing plants and can be [[cooking|cooked]], [[brewing|brewed]] into dwarven wine, and even eaten raw. They require an underground [[farm plot]], which requires [[soil]] or muddy ground. They are the only plant food-item that can be purchased at [[embark]].
 

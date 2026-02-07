@@ -59,71 +59,23 @@ Wrestling moves are special: '''breaking bones''' uses [BENDING_*] values, '''pi
 ===Contact Area===
 Attack contact area is the minimum of weapon contact area and armor/layer contact area.
 Body parts have areas dependent on their size, as with non-weapon items; part size is <u>creature size</u> '''times''' <u>relative size of the part in proportion to whole body</u>.
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Body part
 ! Relative size (human)
 ! [[Kobold]]
 ! [[Elf]]/[[Goblin]] <!-- NOT dwarf, dwarves have proportionally bigger upper bodies -->
 ! [[Human]]
-! [[Troll]]
-|-
-|| Total || 100% || 20000 || 60000 || 70000 || 250000
-|-
-|| Upper body || 18% || 3599 || 10818 || 12621 || 43133
-|-
-|| Lower body || 18% || 3599 || 10818 || 12621 || 43133
-|-
-|| Neck || 1.8% || 359 || 1081 || 1262 || 4313
-|-
-|| Head || 5.4% || 1079 || 3245 || 3786 || 12939
-|-
-|| Upper arm || 3.6% || 719 || 2163 || 2524 || 8626
-|-
-|| Lower arm || 3.6% || 719 || 2163 || 2524 || 8626
-|-
-|| Hand || 1.4% || 287 || 865 || 1009 || 3450
-|-
-|| Upper leg || 9.0% || 1799 || 5409 || 6310 || 21566
-|-
-|| Lower leg || 7.2% || 1439 || 4327 || 5048 || 17253
-|-
-|| Foot || 2.2% || 431 || 1298 || 1514 || 5175
-|}
+! [[Troll]]|-|| Total || 100% || 20000 || 60000 || 70000 || 250000|-|| Upper body || 18% || 3599 || 10818 || 12621 || 43133|-|| Lower body || 18% || 3599 || 10818 || 12621 || 43133|-|| Neck || 1.8% || 359 || 1081 || 1262 || 4313|-|| Head || 5.4% || 1079 || 3245 || 3786 || 12939|-|| Upper arm || 3.6% || 719 || 2163 || 2524 || 8626|-|| Lower arm || 3.6% || 719 || 2163 || 2524 || 8626|-|| Hand || 1.4% || 287 || 865 || 1009 || 3450|-|| Upper leg || 9.0% || 1799 || 5409 || 6310 || 21566|-|| Lower leg || 7.2% || 1439 || 4327 || 5048 || 17253|-|| Foot || 2.2% || 431 || 1298 || 1514 || 5175|}
 
 Armor size is calculated as <u>underlying body part size</u> '''times''' <u>size multiplier</u>, where <u>size multiplier</u> is calculated as <u>coverage/100%</u> '''times''' <u>[[Armor_token#LAYER_SIZE|Layer_Size]]/100</u> '''times''' <u>(1+([[Armor#Coverage|UPSTEP+UBSTEP+LBSTEP]])/4)</u>; "MAX" counts as "3" in the last sum.
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Item
 ! Size multiplier
 ! Body part
 ! [[Dwarf]]
 ! [[Human]]
 ! Extra body parts covered (humanoid)
-! Notes
-|-
-|| Cap || 0.05 || Head || 162 || 189 || none || Cloth
-|-
-|| Mask || 0.1 || Head || 324 || 378 || none || Cloth
-|-
-|| Helm || 0.3 || Head || 973 || 1135 || none ||
-|-
-|| Leather armor || 0.3 || Upper body || 3245 || 3786 || Lower body, neck, upper arms, upper legs || leather
-|-
-|| Mail shirt || 0.225 || Upper body || 2434 || 2839 || Lower body, neck, upper arms, upper legs || Chain
-|-
-|| Breastplate || 0.2 || Upper body || 2163 || 2524 || Lower body ||
-|-
-|| Gauntlets || 0.25 || Hands || 216 || 252 || Lower arms, fingers ||
-|-
-|| Leggings || 0.2625 || Lower body || 2839 || 3313 || Upper legs, lower legs, toes || Chain
-|-
-|| Greaves || 0.2625 || Lower body || 2839 || 3313 || Upper legs, lower legs, toes ||
-|-
-|| Low boots || 0.25 || Feet || 324 || 378 || Toes ||
-|-
-|| High boots || 0.3125 || Feet || 405 || 473 || Lower legs, toes ||
-|}
+! Notes|-|| Cap || 0.05 || Head || 162 || 189 || none || Cloth|-|| Mask || 0.1 || Head || 324 || 378 || none || Cloth|-|| Helm || 0.3 || Head || 973 || 1135 || none |||-|| Leather armor || 0.3 || Upper body || 3245 || 3786 || Lower body, neck, upper arms, upper legs || leather|-|| Mail shirt || 0.225 || Upper body || 2434 || 2839 || Lower body, neck, upper arms, upper legs || Chain|-|| Breastplate || 0.2 || Upper body || 2163 || 2524 || Lower body |||-|| Gauntlets || 0.25 || Hands || 216 || 252 || Lower arms, fingers |||-|| Leggings || 0.2625 || Lower body || 2839 || 3313 || Upper legs, lower legs, toes || Chain|-|| Greaves || 0.2625 || Lower body || 2839 || 3313 || Upper legs, lower legs, toes |||-|| Low boots || 0.25 || Feet || 324 || 378 || Toes |||-|| High boots || 0.3125 || Feet || 405 || 473 || Lower legs, toes |||}
 
 ===Attack Momentum===
 DF uses momentum-based combat physics, so the momentum plays a central role in calculations.
@@ -165,8 +117,7 @@ M = 0.06 * Str * Vel / (1 + i_Size/(w_density*w_size) )
 
 There are 28 possible sizes for your dwarves from 33750 to 93750; strength can vary from 0 to 5000 with an average of 1250; velocity can vary from 1 (pommel strikes) to 5 (whip lashes); weapon size can vary from 100 (whips) to 1300 (great axes, which are unwieldable by dwarves; the largest wieldable weapon is size 800, in the form of battle axes and maces).
 
-{| class="wikitable" border="border"
-|+ Momenta for dwarves of strength 1250 hacking (velocity 1.25) with battle axes (size 800), rounded to 3 decimal places
+{| class="wikitable" border="border"|+ Momenta for dwarves of strength 1250 hacking (velocity 1.25) with battle axes (size 800), rounded to 3 decimal places
 ! Dwarf Size
 ! Adamantine
 ! Divine metal
@@ -175,64 +126,7 @@ There are 28 possible sizes for your dwarves from 33750 to 93750; strength can v
 ! Bismuth bronze
 ! Bronze
 ! Copper
-! Silver
-|-
-| 33750 || 77.4194 || 89.9550 || 93.2489 || 93.2489 || 93.2730 || 93.2730 || 93.3092 || 93.3745
-|-
-| 42750 || 73.9827 || 88.9944 || 93.1161 || 93.1161 || 93.1467 || 93.1467 || 93.1923 || 93.2748
-|-
-| 44100 || 73.4934 || 88.8520 || 93.0963 || 93.0963 || 93.1277 || 93.1277 || 93.1748 || 93.2599
-|-
-| 45000 || 73.1707 || 88.7574 || 93.0830 || 93.0830 || 93.1151 || 93.1151 || 93.1632 || 93.2500
-|-
-| 45900 || 72.8509 || 88.6630 || 93.0698 || 93.0698 || 93.1025 || 93.1025 || 93.1515 || 93.2400
-|-
-| 47250 || 72.3764 || 88.5217 || 93.0499 || 93.0499 || 93.0836 || 93.0836 || 93.1340 || 93.2251
-|-
-| 54150 || 70.0444 || 87.8066 || 92.9485 || 92.9485 || 92.9871 || 92.9871 || 93.0447 || 93.1489
-|-
-| 55860 || 69.4895 || 87.6312 || 92.9235 || 92.9235 || 92.9632 || 92.9632 || 93.0226 || 93.1301
-|-
-| 56250 || 69.3642 || 87.5912 || 92.9177 || 92.9177 || 92.9577 || 92.9577 || 93.0176 || 93.1258
-|-
-| 57000 || 69.1244 || 87.5146 || 92.9067 || 92.9067 || 92.9473 || 92.9473 || 93.0079 || 93.1175
-|-
-| 57624 || 68.9262 || 87.4509 || 92.8976 || 92.8976 || 92.9386 || 92.9386 || 92.9999 || 93.1107
-|-
-| 58140 || 68.7632 || 87.3983 || 92.8900 || 92.8900 || 92.9314 || 92.9314 || 92.9932 || 93.1050
-|-
-| 58800 || 68.5558 || 87.3312 || 92.8804 || 92.8804 || 92.9221 || 92.9221 || 92.9847 || 93.0977
-|-
-| 59850 || 68.2283 || 87.2245 || 92.8650 || 92.8650 || 92.9075 || 92.9075 || 92.9711 || 93.0861
-|-
-| 59976 || 68.1893 || 87.2117 || 92.8631 || 92.8631 || 92.9057 || 92.9057 || 92.9695 || 93.0847
-|-
-| 60000 || 68.1818 || 87.2093 || 92.8628 || 92.8628 || 92.9054 || 92.9054 || 92.9692 || 93.0845
-|-
-| 61200 || 67.8119 || 87.0878 || 92.8452 || 92.8452 || 92.8887 || 92.8887 || 92.9537 || 93.0713
-|-
-| 61740 || 67.6468 || 87.0332 || 92.8373 || 92.8373 || 92.8811 || 92.8811 || 92.9467 || 93.0653
-|-
-| 62424 || 67.4388 || 86.9642 || 92.8273 || 92.8273 || 92.8716 || 92.8716 || 92.9379 || 93.0578
-|-
-| 63000 || 67.2646 || 86.9061 || 92.8189 || 92.8189 || 92.8636 || 92.8636 || 92.9305 || 93.0514
-|-
-| 64260 || 66.8866 || 86.7794 || 92.8004 || 92.8004 || 92.8460 || 92.8460 || 92.9142 || 93.0376
-|-
-| 66150 || 66.3277 || 86.5901 || 92.7728 || 92.7728 || 92.8197 || 92.8197 || 92.8899 || 93.0168
-|-
-| 71250 || 64.8649 || 86.0832 || 92.6983 || 92.6983 || 92.7487 || 92.7487 || 92.8242 || 92.9607
-|-
-| 73500 || 64.2398 || 85.8615 || 92.6655 || 92.6655 || 92.7175 || 92.7175 || 92.7953 || 92.9360
-|-
-| 75000 || 63.8298 || 85.7143 || 92.6436 || 92.6436 || 92.6966 || 92.6966 || 92.7760 || 92.9196
-|-
-| 76500 || 63.4249 || 85.5676 || 92.6217 || 92.6217 || 92.6758 || 92.6758 || 92.7567 || 92.9031
-|-
-| 78750 || 62.8272 || 85.3485 || 92.5890 || 92.5890 || 92.6446 || 92.6446 || 92.7278 || 92.8784
-|-
-| 93750 || 59.1133 || 83.9161 || 92.3711 || 92.3711 || 92.4370 || 92.4370 || 92.5357 || 92.7143
-|}
+! Silver|-| 33750 || 77.4194 || 89.9550 || 93.2489 || 93.2489 || 93.2730 || 93.2730 || 93.3092 || 93.3745|-| 42750 || 73.9827 || 88.9944 || 93.1161 || 93.1161 || 93.1467 || 93.1467 || 93.1923 || 93.2748|-| 44100 || 73.4934 || 88.8520 || 93.0963 || 93.0963 || 93.1277 || 93.1277 || 93.1748 || 93.2599|-| 45000 || 73.1707 || 88.7574 || 93.0830 || 93.0830 || 93.1151 || 93.1151 || 93.1632 || 93.2500|-| 45900 || 72.8509 || 88.6630 || 93.0698 || 93.0698 || 93.1025 || 93.1025 || 93.1515 || 93.2400|-| 47250 || 72.3764 || 88.5217 || 93.0499 || 93.0499 || 93.0836 || 93.0836 || 93.1340 || 93.2251|-| 54150 || 70.0444 || 87.8066 || 92.9485 || 92.9485 || 92.9871 || 92.9871 || 93.0447 || 93.1489|-| 55860 || 69.4895 || 87.6312 || 92.9235 || 92.9235 || 92.9632 || 92.9632 || 93.0226 || 93.1301|-| 56250 || 69.3642 || 87.5912 || 92.9177 || 92.9177 || 92.9577 || 92.9577 || 93.0176 || 93.1258|-| 57000 || 69.1244 || 87.5146 || 92.9067 || 92.9067 || 92.9473 || 92.9473 || 93.0079 || 93.1175|-| 57624 || 68.9262 || 87.4509 || 92.8976 || 92.8976 || 92.9386 || 92.9386 || 92.9999 || 93.1107|-| 58140 || 68.7632 || 87.3983 || 92.8900 || 92.8900 || 92.9314 || 92.9314 || 92.9932 || 93.1050|-| 58800 || 68.5558 || 87.3312 || 92.8804 || 92.8804 || 92.9221 || 92.9221 || 92.9847 || 93.0977|-| 59850 || 68.2283 || 87.2245 || 92.8650 || 92.8650 || 92.9075 || 92.9075 || 92.9711 || 93.0861|-| 59976 || 68.1893 || 87.2117 || 92.8631 || 92.8631 || 92.9057 || 92.9057 || 92.9695 || 93.0847|-| 60000 || 68.1818 || 87.2093 || 92.8628 || 92.8628 || 92.9054 || 92.9054 || 92.9692 || 93.0845|-| 61200 || 67.8119 || 87.0878 || 92.8452 || 92.8452 || 92.8887 || 92.8887 || 92.9537 || 93.0713|-| 61740 || 67.6468 || 87.0332 || 92.8373 || 92.8373 || 92.8811 || 92.8811 || 92.9467 || 93.0653|-| 62424 || 67.4388 || 86.9642 || 92.8273 || 92.8273 || 92.8716 || 92.8716 || 92.9379 || 93.0578|-| 63000 || 67.2646 || 86.9061 || 92.8189 || 92.8189 || 92.8636 || 92.8636 || 92.9305 || 93.0514|-| 64260 || 66.8866 || 86.7794 || 92.8004 || 92.8004 || 92.8460 || 92.8460 || 92.9142 || 93.0376|-| 66150 || 66.3277 || 86.5901 || 92.7728 || 92.7728 || 92.8197 || 92.8197 || 92.8899 || 93.0168|-| 71250 || 64.8649 || 86.0832 || 92.6983 || 92.6983 || 92.7487 || 92.7487 || 92.8242 || 92.9607|-| 73500 || 64.2398 || 85.8615 || 92.6655 || 92.6655 || 92.7175 || 92.7175 || 92.7953 || 92.9360|-| 75000 || 63.8298 || 85.7143 || 92.6436 || 92.6436 || 92.6966 || 92.6966 || 92.7760 || 92.9196|-| 76500 || 63.4249 || 85.5676 || 92.6217 || 92.6217 || 92.6758 || 92.6758 || 92.7567 || 92.9031|-| 78750 || 62.8272 || 85.3485 || 92.5890 || 92.5890 || 92.6446 || 92.6446 || 92.7278 || 92.8784|-| 93750 || 59.1133 || 83.9161 || 92.3711 || 92.3711 || 92.4370 || 92.4370 || 92.5357 || 92.7143|}
 
 There is also a hard velocity limit (10000) that might skew these calculations, but it's actually impossible to reach in unmodded game. (Well, okay, if you're a zombie adventurer with maxed out strength you ''might'' reach the limit using an adamantine whip -- but [[stupid dwarf trick|why]]?)
 
@@ -245,18 +139,12 @@ For example:
 
 ====Ranged Attacks====
 Attacks from missile launchers are entirely dependent on the launcher's [SHOOT_FORCE] and [SHOOT_MAXVEL] tags:
-{| border="1" style="border-collapse: collapse;"
-|-
+{| border="1" style="border-collapse: collapse;"|-
 ! 
 ! SHOOT_FORCE 
 ! SHOOT_MAXVEL
 ! Maximum Velocity
-! Magic Density / Constant Momentum
-|-
-| Bows and Crossbows || 1000 || 200 || 20 || 1666 / 50
-|-
-| Blowguns || 100 || 1000 || 100 || 250 / 5
-|}
+! Magic Density / Constant Momentum|-| Bows and Crossbows || 1000 || 200 || 20 || 1666 / 50|-| Blowguns || 100 || 1000 || 100 || 250 / 5|}
 
 Specifically, as long as projectile is heavy enough, it is fired with a momentum of SHOOT_FORCE/20; if this would make its speed exceed SHOOT_MAXVEL/10, it is capped at this value instead. (As usual, momentum = velocity times weight.)  This gives the launcher a magic density above which momentum becomes a constant and velocity decays, shown in the table; below this density, velocity is constant (SHOOT_MAXVEL/10), and momentum decays.
 
@@ -333,8 +221,7 @@ As can be seen from above, importance of different material/item properties grea
 
 With that in mind, here are some numbers for vanilla weapon/armor materials:{{Verify|I could not reproduce the right-hand side of this table}}
 
-{| class="sortable wikitable"
-|-
+{| class="sortable wikitable"|-
 ! Material
 ! Density
 ! Impact Yield
@@ -348,40 +235,7 @@ With that in mind, here are some numbers for vanilla weapon/armor materials:{{Ve
 ! Sword
 ! adj.
 ! Mace
-! min M
-|-
-|| Adamantine || 0.20 || 5.00 || 5.00 || 5.00 || 0 || 10 |||| 6 || 300 || 9 || 450 || 31 || 200
-|-
-|| Bone/Shell	||	0.50 || 0.20 || 0.20 || 0.13 || <1% || 0.1	|||| 15 || 0.20 || 19 || 0.25 || 60 || 8
-|-
-|| Bronze	||	8.25 || 0.60 || 1.08 || 0.24 || <=1% || 1	|||| 49 || 12 || 75 || 18 || 138 || 43
-|-
-|| Copper	||	8.93 || 0.25 || 1.30 || 0.22 || <1% || 1	|||| 49 || 11 || 77 || 17 || 138 || 52
-|-
-|| Divine metal || 1.00 || 1.00 || 3.00 || 2.00 || 0 || 1.2 |||| 30 || 72 || 31 || 74 || 86 || 120
-|-
-|| Glass	||	2.6	|| 1.00 || 1.00 || 0.04 || 4%/<1% || 1.5 |||| -- || -- || 53 || 3.2 || 116 || 40
-|-
-|| Iron || 7.85 || 0.54 || 1.62 || 0.31 || <1% || 1 |||| 49 || 15 || 75 || 23 || 137 || 65
-|-
-|| Leather	||	0.50 || 0.01 || 0.01 || 0.03 || 100% || --	|||| -- || -- || -- || -- || -- || 0.4
-|-
-|| Obsidian	|| 2.67 || 1.00 || 1.00 || 0.04 || 4%/<1% || 2	|||| -- || -- || 54 || 4.3 || 117 || 40
-|-
-|| Plant Thread	||	1.52 || 0.01 || 0.01 || 0.6 || 100% || --	|||| -- || -- || -- || -- || -- || --
-|-
-|| Platinum	||	21.4 || 0.35 || 1.05 || 0.20 || <1% || 1	|||| -- || -- || 86 || 17 || 145 || 42
-|-
-|| Silk	||	0.50 || 0.01 || 0.01 || 1.2 || 100% || --	|||| -- || -- || -- || -- || -- || --
-|-
-|| Silver	|| 10.49 || 0.35 || 0.84 || 0.17 || <1% || 1	|||| 49 || 8.3 || 79 || 13 || 140 || 34
-|-
-|| Slade || 200 || 4.00 || 6.00 || 5.00 || <1% || 0.1 |||| -- || -- || 93 || 46 || 149 || 240
-|-
-|| Steel || 7.85 || 1.51 || 3.54 || 0.72 || 2%/<1% || 1 |||| 49 || 35 || 75 || 54 || 137 || 142
-|-
-|| Wood	|| 0.50 || 0.01 || 0.01 || 0.04 || 2% || 0.1	|||| 15 || 0.06 || 19 || 0.076 || 60 || 0.4
-|}
+! min M|-|| Adamantine || 0.20 || 5.00 || 5.00 || 5.00 || 0 || 10 |||| 6 || 300 || 9 || 450 || 31 || 200|-|| Bone/Shell	||	0.50 || 0.20 || 0.20 || 0.13 || <1% || 0.1	|||| 15 || 0.20 || 19 || 0.25 || 60 || 8|-|| Bronze	||	8.25 || 0.60 || 1.08 || 0.24 || <=1% || 1	|||| 49 || 12 || 75 || 18 || 138 || 43|-|| Copper	||	8.93 || 0.25 || 1.30 || 0.22 || <1% || 1	|||| 49 || 11 || 77 || 17 || 138 || 52|-|| Divine metal || 1.00 || 1.00 || 3.00 || 2.00 || 0 || 1.2 |||| 30 || 72 || 31 || 74 || 86 || 120|-|| Glass	||	2.6	|| 1.00 || 1.00 || 0.04 || 4%/<1% || 1.5 |||| -- || -- || 53 || 3.2 || 116 || 40|-|| Iron || 7.85 || 0.54 || 1.62 || 0.31 || <1% || 1 |||| 49 || 15 || 75 || 23 || 137 || 65|-|| Leather	||	0.50 || 0.01 || 0.01 || 0.03 || 100% || --	|||| -- || -- || -- || -- || -- || 0.4|-|| Obsidian	|| 2.67 || 1.00 || 1.00 || 0.04 || 4%/<1% || 2	|||| -- || -- || 54 || 4.3 || 117 || 40|-|| Plant Thread	||	1.52 || 0.01 || 0.01 || 0.6 || 100% || --	|||| -- || -- || -- || -- || -- || --|-|| Platinum	||	21.4 || 0.35 || 1.05 || 0.20 || <1% || 1	|||| -- || -- || 86 || 17 || 145 || 42|-|| Silk	||	0.50 || 0.01 || 0.01 || 1.2 || 100% || --	|||| -- || -- || -- || -- || -- || --|-|| Silver	|| 10.49 || 0.35 || 0.84 || 0.17 || <1% || 1	|||| 49 || 8.3 || 79 || 13 || 140 || 34|-|| Slade || 200 || 4.00 || 6.00 || 5.00 || <1% || 0.1 |||| -- || -- || 93 || 46 || 149 || 240|-|| Steel || 7.85 || 1.51 || 3.54 || 0.72 || 2%/<1% || 1 |||| 49 || 35 || 75 || 54 || 137 || 142|-|| Wood	|| 0.50 || 0.01 || 0.01 || 0.04 || 2% || 0.1	|||| 15 || 0.06 || 19 || 0.076 || 60 || 0.4|}
 Clarifications:
 
 On the left side of the table there are some raw values. Density and impact yield are important for a blunt weapon; 4th column is adjusted impact fracture that appears in the formula for blunt defense. Shear fracture is important for edged attacks and defense. Elasticity is in %s of 100000; as you can see, it is universally low.

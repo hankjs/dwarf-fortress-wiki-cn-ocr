@@ -38,9 +38,7 @@ You can set the global ``debug_level`` variable to print some debug info. It's a
 
 Unit tests are functions that return a table, containing ``good``, which, if truthy, is considered passed, and ``info``, which is a string that contains information on said pass or fail. These unit tests should have no side effects, i.e. they shouldn't muck with global state any. Here's an example unit test shipped with the generators:
 
-{{Scriptdata
-|title=unittests.get_random_creature
-|script=
+{{Scriptdata|title=unittests.get_random_creature|script=
     get_random_creature=function()
         local cr=world.creature.get_random_creature()
         local res={}
@@ -82,9 +80,7 @@ Languages are special, though; as can be seen in the [[Divine language/script]] 
 ==Creatures==
 Creatures have a lot more to them than other procedural objects. Forgotten beasts are, in a sense, the simplest of them:
 
-{{Scriptdata
-|title=creatures.fb.default
-|script=
+{{Scriptdata|title=creatures.fb.default|script=
 creatures.fb.default=function(layer_type,tok)
     local tbl={}
     local options={
@@ -137,9 +133,7 @@ Then, it gets a random creature profile using ``get_random_creature_profile()`` 
 {{main|Random creature profile}}
 A random creature profile is a type of "thing" a generated creature can be. For example:
 
-{{Scriptdata
-|title=random_creature_types.GENERAL_QUADRUPED
-|script=
+{{Scriptdata|title=random_creature_types.GENERAL_QUADRUPED|script=
 	GENERAL_QUADRUPED={
 		name_string="quadruped",
 		tile='Q',
@@ -155,16 +149,13 @@ Of these, only ``cannot_have_get_more_legs`` is optional. ``build_procgen_creatu
 
 ``body_base`` points to a key in ``body_base_fun``, which is used to set creature options (walking and [[Procedural graphics layer|PCG layering]] are set this way) and returns a list of [[body token]]s. Quadrupeds use a special function to vary the sprite, so here's the body base function for a humanoid.
 
-{{Scriptdata
-|title=body_base_fun.HUMANOID
-|script=
+{{Scriptdata|title=body_base_fun.HUMANOID|script=
 	HUMANOID=function(rcp,options)
 		options.pcg_layering_base="BEAST_HUMANOID"
 		options.walk_var="STANDARD_BIPED_GAITS"
 		options.walk_speed=900
 		return {"RCP_UPPER_BODY","RCP_LOWER_BODY","RCP_NECK","RCP_HEAD","RCP_TWO_PART_ARMS","RCP_TWO_PART_LEGS"}
-	end
-}}
+	end}}
 
 ``c_class`` also refers to another determines the kind of tissue layers the creature has. "FLESHY", "MAMMAL", "CHITIN_EXO", etc imply a biological creature with sinew, blood, different organs, nerves, and so on. "UNIFORM" describes a creature made of a single material, the choice influenced by its options. The ``random_creature_class`` and ``random_creature_material`` tables store the info for these traits.
 
@@ -187,9 +178,7 @@ Color picker functions can give more fitting [[color]] choices based on the opti
 
 If the creature matches ``cond`` and a given [[Descriptor color token|descriptor color]] matches ``color``, then it is added to the list of candidates. Colors have {{Tooltip|h,s,v|Hue, saturation, value}} and {{Tooltip|r,g,b|Red, green, blue}} values ranging from 0-1 (except hue, which ranges 0-360 degrees).
 
-{{Scriptdata
-|title=color_picker_functions
-|script=color_picker_functions={
+{{Scriptdata|title=color_picker_functions|script=color_picker_functions={
     death_misery={
         cond=function(options)
             return options.spheres.DEATH or options.spheres.MISERY
@@ -218,20 +207,16 @@ If the creature matches ``cond`` and a given [[Descriptor color token|descriptor
             return color.h>=30 and color.h<=48 and color.b<=0.15 and color.v<=0.75 and color.v > 0
         end
     }
-}
-}}
+}}}
 
 ``options.blood_color`` works like a color picker function. If any colors match its function, then its [[blood]] will be colored like one of them. [[Bogeymen]] and [[nightmare]]s have a function that gives them magenta blood, for example, but you can create your own blood color functions.
 
 Creatures with other blood types, such as ichor, are unaffected.
 
-{{Scriptdata
-|title=options.blood_color (Bogeyman)
-|script=blood_color=function(cl)
+{{Scriptdata|title=options.blood_color (Bogeyman)|script=blood_color=function(cl)
             -- DARKER MAGENTA COLORS
             return cl.h>=260 and cl.h <= 340 and cl.v <= 0.5 and cl.v >= 0.1
-        end
-}}
+        end}}
 
 [[Category:Modding]]
 [[Category:Lua|S]]

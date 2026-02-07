@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|product=lime_sprite.png
-|sapling=lime_sapling.png
-|wiki=Key_lime}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=lime_sprite.png|sapling=lime_sapling.png|wiki=Key_lime}}
 {{av}}
 ''For information regarding [[material]]s known as lime, see [[calcium carbonate]] and [[quicklime]].''
 
@@ -18,12 +14,7 @@ Some [[Dwarf|dwarves]] [[Preferences|like]] lime trees for their ''fruit''.
 
 [[File:Starr 080610-8303 Citrus aurantiifolia.jpg|thumb|center|300px|Admired for its ''fruit''.]]
 
-{{Translation
-| dwarven = rômab
-| elvish  = quidole
-| goblin  = xar
-| human   = vuli
-}}
+{{Translation| dwarven = rômab| elvish  = quidole| goblin  = xar| human   = vuli}}
 
 {{gamedata}}
 {{Plants}}

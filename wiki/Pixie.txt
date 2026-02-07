@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=pixie_sprite.png
-|portrait=pixie_portrait.png}}
+{{verminlookup/0|image=pixie_sprite.png|portrait=pixie_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

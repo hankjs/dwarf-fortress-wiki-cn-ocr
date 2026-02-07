@@ -1,16 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_tick_sprite.png
-|meat=25
-|fat=22
-|eye=2
-|intestine=8
-|brain=2
-|heart=1
-|skin=chitin
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=giant_tick_sprite.png|meat=25|fat=22|eye=2|intestine=8|brain=2|heart=1|skin=chitin|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

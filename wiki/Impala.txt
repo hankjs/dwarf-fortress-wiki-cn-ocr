@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=impala_sprites.png
-|portrait=impala_portrait_anim.gif
-|bone=8-12
-|meat=8
-|skin=hide
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|fat=8
-|skull=1
-|hoof=4
-|wiki=yes
-|contrib=no
-}}
+{{creaturelookup/0|image=impala_sprites.png|portrait=impala_portrait_anim.gif|bone=8-12|meat=8|skin=hide|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|fat=8|skull=1|hoof=4|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

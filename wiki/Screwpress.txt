@@ -1,11 +1,7 @@
 {{Quality|Fine}}
-{{V50 workshop|name=Screw press|key=R|job=[[Presser]], [[Papermaker]]
-|icon=[[File:screw_press_icon.png]]
-|construction=
-* 2 [[Mechanism]]s
-|construction_job=
-* [[Mechanic]]
-|use=
+{{V50 workshop|name=Screw press|key=R|job=[[Presser]], [[Papermaker]]|icon=[[File:screw_press_icon.png]]|construction=
+* 2 [[Mechanism]]s|construction_job=
+* [[Mechanic]]|use=
 * [[Quarry bush|Rock nut paste]]
 * [[Cotton|Cottonseed paste]]
 * [[Flax|Linseed paste]]
@@ -14,14 +10,12 @@
 * [[Olive]]
 * [[Honeycomb]]
 * [[jug|Empty jugs]]
-* [[Slurry]]
-|production=
+* [[Slurry]]|production=
 * [[Oil]]
 * [[Press cake]]
 * [[Honey|Honey bee honey]]
 * [[Wax|Honey bee wax cake]]
-* [[Sheet]]
-}}{{av}}
+* [[Sheet]]}}{{av}}
 
 A '''screw press''' is a special workshop used to press liquids out of various substances and to press [[slurry]] into [[sheets]] of [[paper]]. 
 

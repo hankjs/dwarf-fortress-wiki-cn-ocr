@@ -1,25 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_item|
-|graphic = [[File:bag_sprite.png]]
-|name=Bag
-|tile=♂|col=6:0:0
-|wood=n
-|stone=n
-|metal=n
-|glass=n
-|cloth=y
-|leather=y
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* Storage
-|value=10
-|size=1,000
-|capacity=60,000}}
+{{v50_item||graphic = [[File:bag_sprite.png]]|name=Bag|tile=♂|col=6:0:0|wood=n|stone=n|metal=n|glass=n|cloth=y|leather=y|ceramic=n|bone=n|shell=n|gem=n|wax=n|used for=
+* Storage|value=10|size=1,000|capacity=60,000}}
 '''Bags''' are [[Storage|storage]] items that, like [[Barrel|barrels]] and [[Bin|bins]], conserve stockpile space by containing up to 100 seeds of the same type, as well as allowing for the collection and storage of quarry bush leaves and edible and inedible powders: flour, sugar, dye, gypsum plaster, quicklime, and sand.  Bags can be made at a [[Clothier's shop]] out of 1 plant, silk, or yarn cloth; or they can be made at a [[Leather works]] out of 1 leather.  They can also accept all types of decorations.
 
 Bags containing plant-derived items and powders (seeds, quarry bush leaves, flour, sugar, and dye) are stored in Food stockpiles, and in fact cannot be prevented from being used there so long as the items contained in the bag are permitted.  Dwarves will always store seeds in bags whenever possible.  If the Food stockpile also allows barrels, then bags containing plant-derived items may then also be stored in barrels, saving even more space.  

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=cave_lobster_sprite.png
-|portrait=cave_lobster_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=cave_lobster_sprite.png|portrait=cave_lobster_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,19 +1,9 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 1:0
-| graphic    = [[File:fish_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Fish Cleaner
-| profession = [[Fishery worker]]
-| job name   = [[Fish cleaning]]
-| tasks      =
-* Prepare a raw fish
-| workshop = [[Fishery]]
-| attributes =
+{{v50_skill| color      = 1:0| graphic    = [[File:fish_sprite_icon.png]]| graphicmargin = 106px| skill      = Fish Cleaner| profession = [[Fishery worker]]| job name   = [[Fish cleaning]]| tasks      =
+* Prepare a raw fish| workshop = [[Fishery]]| attributes =
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''Fish cleaner''' is the skill associated with the fish cleaning [[labor]]. Fish cleaners process [[raw fish]] at the [[fishery]].
 

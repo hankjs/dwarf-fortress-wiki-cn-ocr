@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=rhesus_macaque_sprites.png
-|portrait=rhesus_macaque_portrait_anim.gif
-|contrib=no
-|bone=4
-|meat=6
-|fat=6
-|intestine=1
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=rhesus_macaque_sprites.png|portrait=rhesus_macaque_portrait_anim.gif|contrib=no|bone=4|meat=6|fat=6|intestine=1|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

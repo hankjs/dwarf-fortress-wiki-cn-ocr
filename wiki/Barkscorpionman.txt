@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=bark_scorpion_man_sprite.png
-|portrait=bark_scorpion_man_portrait.png}}
+{{Creaturelookup/0|image=bark_scorpion_man_sprite.png|portrait=bark_scorpion_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

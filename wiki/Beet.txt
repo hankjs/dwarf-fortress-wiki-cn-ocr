@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=beet_shrub_sprite.png
-|seedimage=beet_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=beet_shrub_sprite.png|seedimage=beet_seeds_sprite.png|uses=
 * [[Food]]
-* [[Alcohol]]
-}}
+* [[Alcohol]]}}
 {{av}}
 
 '''Beets''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons, is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|beetroot wine]].

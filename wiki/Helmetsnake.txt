@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=helmet_snake_sprite.png
-|portrait=helmet_snake_portrait.png
-|wiki=no
-|contrib=no
-|bone=4
-|skull=1
-|meat=4
-|skin=scale
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|fat=4
-}}
+{{Creaturelookup/0|image=helmet_snake_sprite.png|portrait=helmet_snake_portrait.png|wiki=no|contrib=no|bone=4|skull=1|meat=4|skin=scale|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|fat=4}}
 {{av}}
 {{creaturedesc}}
 

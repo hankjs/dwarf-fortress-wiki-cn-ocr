@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{layerlookup/0
-|graphic=claystone_sprite.png}}
+{{layerlookup/0|graphic=claystone_sprite.png}}
 {{av}}
 
 '''Claystone''' is an unremarkable [[sedimentary]] [[stone]]. Similar to [[clay]], it will not sustain an [[aquifer]]. Unlike clay, claystone cannot be used for [[ceramic industry|ceramics]].

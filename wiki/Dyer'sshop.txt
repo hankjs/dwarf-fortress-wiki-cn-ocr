@@ -1,21 +1,12 @@
-{{Quality|Exceptional}}{{v50 workshop|name=Dyer's shop
-|key1=l
-|key2=y
-|job=[[Dyer|Dyeing]]
-|icon=[[File:dyers_shop_icon.png]]
-|construction=
+{{Quality|Exceptional}}{{v50 workshop|name=Dyer's shop|key1=l|key2=y|job=[[Dyer|Dyeing]]|icon=[[File:dyers_shop_icon.png]]|construction=
 * [[Barrel]] (empty)
-* [[Bucket]] (lye/milk-free)
-|construction_job=
-* [[Dyer]]
-|use=
+* [[Bucket]] (lye/milk-free)|construction_job=
+* [[Dyer]]|use=
 * [[Dye]] [[powder]]s
 * [[Thread]], [[cloth]], [[leather]]
-* [[Dye]]-producing [[plant]]s and [[logs|bark]]
-|production=
+* [[Dye]]-producing [[plant]]s and [[logs|bark]]|production=
 * Plant [[dye]]s
-* Dyed goods
-}}{{av}}
+* Dyed goods}}{{av}}
 
 The '''Dyer's shop''' is the [[workshop]] used to [[dye]] [[thread]], [[cloth]], and [[leather]]. It requires a [[barrel]] and a [[bucket]] to build, and must be built by a [[dwarf]] with the [[Dyer|Dyeing]] [[labor]] enabled. Dyeing increases the [[value]] of the dyed material, which can be useful for [[trading]]. The products that dyes can't be applied to, however, are finished goods, such as [[clothing]], [[bag]]s, or [[crafts]].
 

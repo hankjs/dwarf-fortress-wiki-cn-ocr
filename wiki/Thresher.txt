@@ -1,25 +1,15 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Thresher
-| profession = [[Farmer]]
-| job name   = [[Plant processing]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Thresher| profession = [[Farmer]]| job name   = [[Plant processing]]| tasks      =
 * Process plants
 * Process plants (to Bag)
 * Process plants (to Barrel)
-* Process plants (to Vial)
-| workshop = 
+* Process plants (to Vial)| workshop = 
 * [[Farmer's workshop]]
-* [[Dyer's shop]]
-| attributes =
+* [[Dyer's shop]]| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Thresher''' is the skill that [[dwarves]] use when given the '''plant processing''' [[labor]]. Not all plants can be "processed", only those that have a useful by-product. If a [[stack]] of plants is processed, that's it, it cannot then also be [[cook]]ed, [[brew]]ed or otherwise prepared, however the seeds may be planted or (if appropriate) processed.  

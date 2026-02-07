@@ -1,23 +1,13 @@
 {{Quality|Masterwork}}
-{{v50_skill
-| color      = 6:1
-| graphic    = [[File:woodcutter_sprite_preview.png]]
-| skill      = Wood Cutter
-| specialty  = Woodcutter
-| profession = [[Woodworker]]
-| job name   = Wood Cutting
-| tasks      =
-* Chop down trees
-| workshop   =
-* None, but needs [[axe]]
-| attributes =
+{{v50_skill| color      = 6:1| graphic    = [[File:woodcutter_sprite_preview.png]]| skill      = Wood Cutter| specialty  = Woodcutter| profession = [[Woodworker]]| job name   = Wood Cutting| tasks      =
+* Chop down trees| workshop   =
+* None, but needs [[axe]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Willpower
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 <!-- To prevent confusion:
  - "Wood Cutter" - title case, name of skill

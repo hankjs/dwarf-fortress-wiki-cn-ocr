@@ -11,12 +11,7 @@ Aside from serving no utility whatsoever in [[fortress mode]], they can impede t
 == Adventure mode ==
 In [[adventure mode]], a boulder cannot be interacted with, and acts like any other open ground.
 
-{{Translation
-| dwarven = etur
-| elvish  = saro
-| goblin  = stob
-| human   = mudi
-}}
+{{Translation| dwarven = etur| elvish  = saro| goblin  = stob| human   = mudi}}
 
 {{Category|Map tiles}}
 [[ru:Boulder]]

@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=adder_sprites.png
-|portrait=adder_portrait_anim.gif
-|wiki=Vipera_berus
-|skull=1
-|contrib=no
-}}
+{{Creaturelookup/0|image=adder_sprites.png|portrait=adder_portrait_anim.gif|wiki=Vipera_berus|skull=1|contrib=no}}
 {{av}}
 :''For logical designs related to the addition of numbers, see [[Adder (Computing)]].''
 {{creaturedesc}}

@@ -1,9 +1,6 @@
 {{Quality|Superior}}
 {{av}}
-{{Noble|noble=Chief Medical Dwarf
-|function=Enable use of a [[hospital]].
-|arrival=Appointed on the [[nobles screen]].
-}}
+{{Noble|noble=Chief Medical Dwarf|function=Enable use of a [[hospital]].|arrival=Appointed on the [[nobles screen]].}}
 
 The '''chief medical dwarf''' is an appointed [[noble]] position in charge of the [[healthcare]] of the [[fortress]]. They are in charge of the hospital, which cannot function without this position assigned.
 

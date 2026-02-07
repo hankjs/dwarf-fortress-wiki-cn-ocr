@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=knuckle_worm_sprite.png
-|portrait=knuckle_worm_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=knuckle_worm_sprite.png|portrait=knuckle_worm_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''Knuckle worms''' are a species of [[above ground]] [[vermin]] found in any [[evil]] areas that are not [[biome|freezing]], and may cause nearby [[food]] to [[rot]]. They are tied with the [[fox squirrel]] as the [[List of creatures by pet value|most valuable]] of all vermin. They can be captured by [[trapper]]s and turned into [[pet]]s.

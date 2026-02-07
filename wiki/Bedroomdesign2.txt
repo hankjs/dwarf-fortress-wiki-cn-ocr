@@ -68,28 +68,10 @@ You may also, at your discretion, knock out the statues and cages near the stair
 
 This fractal-inspired design combines space efficiency with wider access hallways to alleviate traffic jams.  Stairs are placed in the middle, and the design can expand indefinitely.  To decrease the size, remove the outermost perimeter hallway, and all connected bedrooms.  To increase the size, use the picture as a guide and follow the same radial pattern.
 
-{| class="wikitable" style="padding:"
-|-
+{| class="wikitable" style="padding:"|-
 ! style="text-align:left;" | Size
 ! style="text-align:left;" | Capacity
-! style="text-align:left;" | Max walk distance from center
-|-
-| style="padding-right:26px;" | 29×29 tiles
-| style="padding-right:26px;" | 48 dwarves
-| style="padding-right:26px;" | 23 steps
-|-
-| style="padding-right:26px;" | 45×45 tiles
-| style="padding-right:26px;" | 120 dwarves
-| style="padding-right:26px;" | 39 steps
-|-
-| style="padding-right:26px;" | 61×61 tiles
-| style="padding-right:26px;" | 224 dwarves
-| style="padding-right:26px;" | 55 steps
-|-
-| style="padding-right:26px;" | 77×77 tiles
-| style="padding-right:26px;" | 360 dwarves
-| style="padding-right:26px;" | 71 steps
-|}
+! style="text-align:left;" | Max walk distance from center|-| style="padding-right:26px;" | 29×29 tiles| style="padding-right:26px;" | 48 dwarves| style="padding-right:26px;" | 23 steps|-| style="padding-right:26px;" | 45×45 tiles| style="padding-right:26px;" | 120 dwarves| style="padding-right:26px;" | 39 steps|-| style="padding-right:26px;" | 61×61 tiles| style="padding-right:26px;" | 224 dwarves| style="padding-right:26px;" | 55 steps|-| style="padding-right:26px;" | 77×77 tiles| style="padding-right:26px;" | 360 dwarves| style="padding-right:26px;" | 71 steps|}
 
 <br style="clear:both" />
 

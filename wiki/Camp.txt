@@ -27,12 +27,7 @@ If you make a zone inside your camp several levels down, assign hearthpeople to 
 
 This behavior can be exploited – by having 2 or more adventuring party members, you could tell one of them to wait and move enough distance to unload them off the game field, then walk back to where they would be and hit the tab button to switch over to them; the game will transport the camera over to the waiting adventurer on the surface, thus permitting escape as you can then fast travel or wait to recover the remaining units that would otherwise be trapped down below. You can also build structures in the Underworld while on the surface this way.
 
-{{Translation
-| dwarven = ogîk
-| elvish  = imené
-| goblin  = ustthut
-| human   = muthe
-}}
+{{Translation| dwarven = ogîk| elvish  = imené| goblin  = ustthut| human   = muthe}}
 
 {{World}}
 

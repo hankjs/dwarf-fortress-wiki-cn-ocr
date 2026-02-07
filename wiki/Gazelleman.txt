@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=gazelle_man_sprite.png
-|portrait=gazelle_man_portrait.png}}
+{{Creaturelookup/0|image=gazelle_man_sprite.png|portrait=gazelle_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

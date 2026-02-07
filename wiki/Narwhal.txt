@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=narwhal_sprites.png
-|portrait=narwhal_portrait.png
-|bone=12
-|tusk=2-3
-|meat=30-37
-|skin=hide
-|skull=1
-|brain=2-3
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=2-3
-|liver=2-3
-|intestine=7-9
-|heart=1
-|lung=4 or 6
-|eye=2
-|fat=8
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=narwhal_sprites.png|portrait=narwhal_portrait.png|bone=12|tusk=2-3|meat=30-37|skin=hide|skull=1|brain=2-3|kidney=2|spleen=1|sweetbread=1|tripe=2-3|liver=2-3|intestine=7-9|heart=1|lung=4 or 6|eye=2|fat=8|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

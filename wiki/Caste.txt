@@ -13,17 +13,7 @@ The entire skeleton (that is, the <code>BODY:</code> tag) and tissue structure o
 Some bugs are possible through modding, such as creating "fractal bodies" by defining the  {{token|BODY|c}} tag in the creature level, and then creating a new caste-level definition of the creature.  This generates duplicate body parts, which increase in number the further away they are from the Upper Body part, with six upper arms, eight lower arms, and ten hands.  Please mod responsibly.
 
 ;Selecting Castes:
-{|
-|<code>[CASTE:<CASTE_NAME>]</code> ||defines a caste called <CASTE_NAME>. Tags following this affect only this caste.
-|-
-|<code>[SELECT_CASTE:ALL]</code>   ||state the following tags affect all Castes
-|-
-|<code>[SELECT_CASTE:<CASTE_1>]</code>||...
-|-
-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_2>]</code>||...
-|-
-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_3>]</code>||, etc., is used to specify that tags affect a subset of Castes
-|}
+{||<code>[CASTE:<CASTE_NAME>]</code> ||defines a caste called <CASTE_NAME>. Tags following this affect only this caste.|-|<code>[SELECT_CASTE:ALL]</code>   ||state the following tags affect all Castes|-|<code>[SELECT_CASTE:<CASTE_1>]</code>||...|-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_2>]</code>||...|-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_3>]</code>||, etc., is used to specify that tags affect a subset of Castes|}
 
 {{Category|Game mechanics}}
 [[ru:Caste]]

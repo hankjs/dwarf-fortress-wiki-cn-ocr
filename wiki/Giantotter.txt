@@ -1,25 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_otter_sprite.png
-|portrait=sea_otter_portrait_anim.gif
-|vary=[[River otter]] - [[Otter man]] - [[Giant otter]]
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|hair=1
-|fat=12
-|skin=hide
-|meat=13
-|tooth=2
-|bone=18
-|contrib=no}}
+{{Creaturelookup/0|image=giant_otter_sprite.png|portrait=sea_otter_portrait_anim.gif|vary=[[River otter]] - [[Otter man]] - [[Giant otter]]|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|hair=1|fat=12|skin=hide|meat=13|tooth=2|bone=18|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

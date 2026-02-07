@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=great_white_shark_sprites.png
-|portrait=great_white_shark_portrait.png
-|contrib=no
-|heart=2
-|intestine=14-17
-|liver=4-5
-|tripe=4-5
-|sweetbread=2
-|spleen=2
-|kidney=4
-|skin=hide
-|skull=1
-|meat=26-122
-|fat=8-21
-|brain=4-5
-|tooth=1
-|eye=2
-|wiki=yes
-}}
+{{Creaturelookup/0|image=great_white_shark_sprites.png|portrait=great_white_shark_portrait.png|contrib=no|heart=2|intestine=14-17|liver=4-5|tripe=4-5|sweetbread=2|spleen=2|kidney=4|skin=hide|skull=1|meat=26-122|fat=8-21|brain=4-5|tooth=1|eye=2|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Great white sharks''' are massive [[Cartilage|cartilaginous]] [[Creature#Aquatic|fish]] that can be found in [[temperate]] and [[tropical]] [[ocean]]s. At two tons, adult great whites are huge creatures, and as such will provide a great amount of returns if [[butcher]]ed. As fully-sized creatures, they can't be fished by [[Fisherdwarf|fisherdwarves]], but can be caught with a [[drowning chamber]]. An infant great white shark is called a ''great white shark pup''.

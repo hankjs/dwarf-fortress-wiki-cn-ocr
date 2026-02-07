@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=mosquito_man_sprite.png
-|portrait=mosquito_man_portrait.png}}
+{{Creaturelookup/0|image=mosquito_man_sprite.png|portrait=mosquito_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

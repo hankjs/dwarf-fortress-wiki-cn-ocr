@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=red-winged_blackbird_sprite.png
-|portrait=red_winged_blackbird_portrait.png}}
+{{verminlookup/0|image=red-winged_blackbird_sprite.png|portrait=red_winged_blackbird_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,10 +1,5 @@
 {{D for Dwarf}}
-{{Translation
-| english = Pelt Apebalded, the Immortal Onslaught
-| dwarven = Rodem Izegroder Kudarmothdast
-| goblin  = Uxo Ozsebor Ostsnotutu
-| human   = Therset Tunemrostfen Athrigencesh
-}}
+{{Translation| english = Pelt Apebalded, the Immortal Onslaught| dwarven = Rodem Izegroder Kudarmothdast| goblin  = Uxo Ozsebor Ostsnotutu| human   = Therset Tunemrostfen Athrigencesh}}
 [[File:Cacame Fault elfking.jpg|200px|thumb|right|"The Glorious Elf King" by Fault]]
 The [[Elf]] King of the [[Dwarves]], '''Cacame Awemedinade Monípalóthi''' ([[wikipedia:english|English]]: ''Cacame Apebalded, the Immortal Onslaught'') is the world's <s>most</s> only badass elf.
 

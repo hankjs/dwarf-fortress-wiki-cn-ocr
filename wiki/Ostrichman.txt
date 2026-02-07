@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=ostrich_man_sprite_anim.gif
-|portrait=ostrich_man_portrait_anim.gif}}
+{{Creaturelookup/0|image=ostrich_man_sprite_anim.gif|portrait=ostrich_man_portrait_anim.gif}}
 {{av}}
 {{creaturedesc}}
 

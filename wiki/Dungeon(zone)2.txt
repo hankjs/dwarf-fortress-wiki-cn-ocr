@@ -41,11 +41,7 @@ Eventually, save with the greatest of care and micromanagement, one or another o
 === Alternatively... ===
 You may decide that providing luxurious accommodations, jewel-encrusted chains, and fine dining to criminals, while haulers sleep on the dining room floor, does not meet your standards of dwarven justice. In such circumstances, chaining a dwarf atop a tower exposed to the elements will provide a useful lookout post. Dwarves chained in narrow hallways can also help detect ambushers, while those locked up in your dining hall make for excellent examples to the others. Should you desire to enforce capital punishment from time to time, place your prison chains inside small rooms with doors and a hole in the ceiling accessed by other dwarves. This will allow bucket-by-bucket water torture and drowning executions of any murderers or prisoners with elves in their preferences. Alternately, just lock them in a hideous dungeon to eat rats and drink from mud holes until a giant cave spider comes along and covers them in precious, precious silk.
 
-{| style="border-collapse: collapse; background: #f0f0f0; border: 1px solid #aaa; border-left: 10px solid #666666; max-width:75%; margin-top: 0px; margin-bottom: 10px; margin-left:auto; margin-right:auto"
-|-
-| style="padding: 0.5em 1em 0.5em 0.5em; text-align: center;" | [[File:D4Dwarf.png|50px|link=:Category:D for Dwarf]]
-| style="padding: 0.5em 0.5em; width: 100%;" | This article or section has been rated '''D for Dwarf'''.  It may include witty humour, not-so-witty humour, bad humour, in-jokes, pop culture references, and references to the [http://www.bay12forums.com/smf  Bay12 forums].  Don't believe everything you read, and if you miss some of the references, don't worry. It was inevitable.
-|}
+{| style="border-collapse: collapse; background: #f0f0f0; border: 1px solid #aaa; border-left: 10px solid #666666; max-width:75%; margin-top: 0px; margin-bottom: 10px; margin-left:auto; margin-right:auto"|-| style="padding: 0.5em 1em 0.5em 0.5em; text-align: center;" | [[File:D4Dwarf.png|50px|link=:Category:D for Dwarf]]| style="padding: 0.5em 0.5em; width: 100%;" | This article or section has been rated '''D for Dwarf'''.  It may include witty humour, not-so-witty humour, bad humour, in-jokes, pop culture references, and references to the [http://www.bay12forums.com/smf  Bay12 forums].  Don't believe everything you read, and if you miss some of the references, don't worry. It was inevitable.|}
 <includeonly>
 [[Category: D for Dwarf]]
 </includeonly>
@@ -54,12 +50,7 @@ You may decide that providing luxurious accommodations, jewel-encrusted chains, 
 
 Incidents have been reported where a falsely imprisoned [[human]] had escaped after being taught by an [[Priest|abbot]] to be a [[scholar]] and, soon after finding a [[ruin]] with lots of [[gold]], was appointed as a [[count]] and set out to take [[Intrigue|revenge]] on the [[bookkeeper]] he used to work under and the [[human]] that had him locked up. Interestingly, they were said to be the [[count]] of an [[island]], despite boats not existing. It is theorized that he [[Swimming|swam]] to this island and [[Freezing|waited for the sea to freeze]] before he came back with the treasure. In some versions of the tale, the son of his [[nemesis]] was actually his son.
 
-{{Translation
-| dwarven = teskom
-| elvish  = lezitha
-| goblin  = ax
-| human   = cudal
-}}
+{{Translation| dwarven = teskom| elvish  = lezitha| goblin  = ax| human   = cudal}}
 
 {{Zones}}
 {{Category|Zones}}

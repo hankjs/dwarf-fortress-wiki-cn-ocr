@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=chipmunk_sprite.png
-|portrait=chipmunk_portrait.png}}
+{{verminlookup/0|image=chipmunk_sprite.png|portrait=chipmunk_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

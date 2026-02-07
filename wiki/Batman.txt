@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=bat_man_sprite.png
-|portrait=bat_man_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=bat_man_sprite.png|portrait=bat_man_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 
@@ -44,8 +38,7 @@ Urist McGordon: Because we have to chase him.
 
 Urist McGordon Jr.: He didn't do anything wrong.
 
-Urist McGordon: Because he's the hero our Fortress deserves, but not the one it needs right now. So we'll hunt him. Because he can take it. Because he's not our hero. He's a silent guardian, a watchful protector. A dark [[champion]].
-}}
+Urist McGordon: Because he's the hero our Fortress deserves, but not the one it needs right now. So we'll hunt him. Because he can take it. Because he's not our hero. He's a silent guardian, a watchful protector. A dark [[champion]].}}
 
 Now you will know why you fear the night. 
 

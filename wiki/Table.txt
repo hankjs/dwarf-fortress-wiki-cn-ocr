@@ -1,21 +1,9 @@
 {{Quality|Superior}}
 {{av}}
 
-{{V50_furniture
-|graphic=[[File:Table_Premium.png]]
-|name=Table
-|tile=╤
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|rooms=
+{{V50_furniture|graphic=[[File:Table_Premium.png]]|name=Table|tile=╤|wood=y|stonecarve=y|metal=y|bars=3|glass=y|rooms=
 * [[dining room|Dining Room]]
-* [[meeting hall|Meeting Hall]]
-|value=10
-|size=30,000
-}}
+* [[meeting hall|Meeting Hall]]|value=10|size=30,000}}
 
 A '''table''' is a piece of [[furniture]] necessary for [[dwarf|dwarves]] to eat [[food]] in comfort. A table is also needed to define a [[dining room]] and serve as an operating surface in a [[hospital]]. Tables are also a component to build [[traction bench]]es. Dwarves dislike eating at a [[chair]] without a table and can't share their table or chair with others. 
 

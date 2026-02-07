@@ -2,26 +2,12 @@
 {{av}}
 {{Move|Box}}
 
-{{V50_furniture|name=Container
-|graphic=[[File:Chest_Premium.png]]
-|tile=Æ
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|cloth=n
-|leather=n
-|rooms=
+{{V50_furniture|name=Container|graphic=[[File:Chest_Premium.png]]|tile=Æ|wood=y|stonecarve=y|metal=y|bars=3|glass=y|cloth=n|leather=n|rooms=
 * [[Barracks]]
 * [[Hospital]]
 * [[Library]]
 * [[Tavern]]
-* [[Temple]]
-|value=10
-|size=20,000
-|capacity=60,000
-}}
+* [[Temple]]|value=10|size=20,000|capacity=60,000}}
 {{Translation| dwarven = etost | elvish = thale | goblin = ustêx | human = puti}}
 :''This article is about buildable containers, for all types of storage items that "contain" other items, see: [[storage]]''.
 
@@ -33,20 +19,7 @@ Containers are listed under "tools" in some menus.
 
 ;Container names by material type:
 {| class = "wikitable unsortable"
-! Name !! Material !! Required materials
-|-
-|'''Box'''
-|[[Glass]]
-| 1 bag of sand (+ pearlash if crafting clear glass), or 1 uncut rock crystal gem + 1 pearlash
-|-
-|'''Coffer'''
-|[[Stone]]
-| 1 rock
-|-
-|'''Chest'''
-|[[Wood]], [[Metal]]
-| 1 log or 3 bars of metal
-|}
+! Name !! Material !! Required materials|-|'''Box'''|[[Glass]]| 1 bag of sand (+ pearlash if crafting clear glass), or 1 uncut rock crystal gem + 1 pearlash|-|'''Coffer'''|[[Stone]]| 1 rock|-|'''Chest'''|[[Wood]], [[Metal]]| 1 log or 3 bars of metal|}
 
 ==See also==
 * [[Storage]]

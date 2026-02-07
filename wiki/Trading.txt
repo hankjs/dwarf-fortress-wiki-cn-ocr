@@ -15,12 +15,7 @@ Graphically, merchants will always appear in white clothing.
 
 == Trade depot ==
 
-{{Dual image
-|premium=File:DFwikiGraphicalTradeDepot.png
-|classic=File:DFwikiASCIITradeDepot.png
-|width=150px
-|caption=A Trade Depot
-}}
+{{Dual image|premium=File:DFwikiGraphicalTradeDepot.png|classic=File:DFwikiASCIITradeDepot.png|width=150px|caption=A Trade Depot}}
 
 {{Main|Trade depot}}
 Building a [[trade depot]] is a prerequisite for trade with caravans that arrive at your fortress. If traders can't access your trade depot when they show up, their caravans will simply bypass your fortress that year. While it may be convenient to build a depot outside at first, it is usually a good idea to move it inside, or secure it with [[wall]]s, [[bridge]]s and other fortifications, to protect incoming caravans and your goods from [[steals drink|thirsty animals]], [[thief|thieves]], and [[goblin]]s.
@@ -32,12 +27,7 @@ Everything that is on your map belongs to you, except:
 
 == Trading ==
 [[File:merchant_v50_preview.png|right]]
-{{Dual image
-|premium=File:DFwikiTradeScreen.png
-|classic=File:DFwikiASCITradeScreen.png
-|width=300px
-|caption=Trading screen
-}}
+{{Dual image|premium=File:DFwikiTradeScreen.png|classic=File:DFwikiASCITradeScreen.png|width=300px|caption=Trading screen}}
 
 Before you can begin trading, you need to designate what goods to trade and have the fortress's representative trader located at the [[trade depot]]. Select the trade depot and then click either "Broker requested at depot" or "Anyone requested at depot" if you have no [[broker]] [[noble]] assigned. Be aware that without an assigned [[broker]], it's likely a random, probably unskilled dwarf will volunteer to conduct the trade. Next click "Move goods to/from depot" to be presented with a list of all items in your fortress that belong to you. Mark the goods you want to sell --insert clever advice--, and your dwarves will begin moving them to the depot. If you are unsure about which goods are in which containers, clicking the bin or barrel within the menu will show every item that is stored inside, along with its perceived value (using your broker's [[Appraisal]] skill). However, individual items cannot be marked if they are in a container. Note that during this step, we are just moving the goods physically to the trade depot, and that containers like [[barrels]] and [[bins]] must be moved with all of their contents (although for bins you will have an opportunity to specify which contained items you wish to trade).
 
@@ -56,21 +46,11 @@ Note: If at the time of departure the caravan somehow ended up with a weight exc
 
 === Items cue colors ===
 {| class="wikitable" 
-! {{DFtext|Brown|6:0}}
-| Items have been created (or modified) by your fortress. They can be traded away or offered as a gift.
-|-
-! {{DFtext|Gray|7:0}}
-| Items were created by another source. They can be traded, but if one of these items has been selected, the entire selection cannot be offered as a gift.
-|-
-! {{DFtext|Purple|5:0}}
-| Items are under a no-export mandate.  If they are traded away it will result in disciplinary action (see [[justice]]) against the dwarf that brought the item to the depot.
-|-
-! {{DFtext|Green|2:0}}
-| Items have just been gifted to the caravan and they will not trade it back.
-|-
-! {{DFtext|Red|4:0}}
-| Items have been seized from another caravan and cannot be traded as is; you will need to decorate them or turn them into other items for them to become "valid" trading items.
-|}
+! {{DFtext|Brown|6:0}}| Items have been created (or modified) by your fortress. They can be traded away or offered as a gift.|-
+! {{DFtext|Gray|7:0}}| Items were created by another source. They can be traded, but if one of these items has been selected, the entire selection cannot be offered as a gift.|-
+! {{DFtext|Purple|5:0}}| Items are under a no-export mandate.  If they are traded away it will result in disciplinary action (see [[justice]]) against the dwarf that brought the item to the depot.|-
+! {{DFtext|Green|2:0}}| Items have just been gifted to the caravan and they will not trade it back.|-
+! {{DFtext|Red|4:0}}| Items have been seized from another caravan and cannot be traded as is; you will need to decorate them or turn them into other items for them to become "valid" trading items.|}
 
 Note that containers (barrels, bins, etc.) will be displayed according to the origin of the ''container'', not the contents. So a foreign barrel holding locally-produced beer will display as foreign (white). Once you {{k|v}}iew the container, the locally-made contents are displayed as local (brown).
 

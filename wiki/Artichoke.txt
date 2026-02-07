@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=artichoke_shrub_sprite.png
-|seedimage=artichoke_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=artichoke_shrub_sprite.png|seedimage=artichoke_seeds_sprite.png|uses=
 * [[Food]]
-* [[Alcohol]]
-}}
+* [[Alcohol]]}}
 {{av}}
 
 '''Artichokes''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons and grow a purple flower, leaves, and an artichoke heart. The artichoke heart is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|artichoke wine]].  [[Seed]]s can only retrieved from brewing, not from eating raw hearts.

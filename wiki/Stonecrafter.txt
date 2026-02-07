@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:stonecrafter_sprite_icon.png]]
-| graphicmargin = 105px
-| skill      = Stone crafter
-| specialty  = Stonecrafter
-| profession = [[Craftsdwarf]]
-| job name   = [[Stonecrafting]]
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:stonecrafter_sprite_icon.png]]| graphicmargin = 105px| skill      = Stone crafter| specialty  = Stonecrafter| profession = [[Craftsdwarf]]| job name   = [[Stonecrafting]]| tasks      =
 * make rock [[large pot]]
 * make rock [[craft]]s
 * make rock [[toy]]s
@@ -16,15 +8,12 @@
 * make rock [[short sword]]
 * make rock [[nest box]]
 * make rock [[jug]]
-* make rock [[hive]]
-| workshop   = 
-* [[Craftsdwarf's workshop]]
-| attributes =
+* make rock [[hive]]| workshop   = 
+* [[Craftsdwarf's workshop]]| attributes =
 * Agility
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Stone crafter''' is the skill associated with the '''stonecrafting''' [[labor]]. Stonecrafters create [[finished goods|goods]] such as [[mug]]s, [[craft]]s, [[instrument]]s, and [[toy]]s as well as [[short sword]]s, [[jug]]s, [[pot]]s, [[nest box]]es and [[hive]]s from loose [[stone]] at a [[craftsdwarf's workshop]].  On maps with an [[obsidian]] layer, embarking with a Proficient stonecrafter can produce more valuable [[obsidian]] trade goods for your early exchanges with the [[caravan]]s and also provide short swords for your military and any weapon traps you choose to build.

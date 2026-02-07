@@ -5,26 +5,8 @@
 
 The following plants qualify as plant fiber, having {{token|THREAD|plant}} in their [[raws]]:
 
-{| class="wikitable sortable"
-|-
-! Type !! '''Graphic''' !! '''Value''' !! '''Weight''' !! '''Grows''' !! '''Growable''' !! '''Brewable''' !! '''Millable''' !! '''Cookable'''
-|-
-| [[rope reed|rope reeds]] || style="text-align:center;" | [[File:rope_reed_item_sprite.png]] || 2☼ || 1Γ || Any Season (Wet) || Surface || Yes || Slurry || Yes (Seeds)
-|-
-| [[pig tail|pig tails]] || style="text-align:center;" | [[File:pig_tail_item_sprite.png]] || 2☼ || 1Γ || Summer/Autumn ||Below Ground || Yes || Slurry || Yes (Seeds)
-|-
-| [[hemp]] || style="text-align:center;" | [[File:hemp_item_sprite.png]] || 2☼ || 1Γ || Any Season (Wet) || Surface || No || Slurry/Flour || Yes
-|-
-| [[cotton]] || style="text-align:center;" | [[File:cotton_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || Yes (Seeds)
-|-
-| [[ramie]] || style="text-align:center;" | [[File:ramie_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || No
-|-
-| [[flax]] || style="text-align:center;" | [[File:flax_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry/Flour || Yes (Seeds)
-|-
-| [[jute]] || style="text-align:center;" | [[File:jute_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || No
-|-
-| [[kenaf]] || style="text-align:center;" | [[File:hemp_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry)  || Surface || No || Slurry || Yes (Seeds) 
-|}
+{| class="wikitable sortable"|-
+! Type !! '''Graphic''' !! '''Value''' !! '''Weight''' !! '''Grows''' !! '''Growable''' !! '''Brewable''' !! '''Millable''' !! '''Cookable'''|-| [[rope reed|rope reeds]] || style="text-align:center;" | [[File:rope_reed_item_sprite.png]] || 2☼ || 1Γ || Any Season (Wet) || Surface || Yes || Slurry || Yes (Seeds)|-| [[pig tail|pig tails]] || style="text-align:center;" | [[File:pig_tail_item_sprite.png]] || 2☼ || 1Γ || Summer/Autumn ||Below Ground || Yes || Slurry || Yes (Seeds)|-| [[hemp]] || style="text-align:center;" | [[File:hemp_item_sprite.png]] || 2☼ || 1Γ || Any Season (Wet) || Surface || No || Slurry/Flour || Yes|-| [[cotton]] || style="text-align:center;" | [[File:cotton_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || Yes (Seeds)|-| [[ramie]] || style="text-align:center;" | [[File:ramie_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || No|-| [[flax]] || style="text-align:center;" | [[File:flax_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry/Flour || Yes (Seeds)|-| [[jute]] || style="text-align:center;" | [[File:jute_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry) || Surface || No || Slurry || No|-| [[kenaf]] || style="text-align:center;" | [[File:hemp_item_sprite.png]] || 2☼ || 1Γ || Any Season (Dry)  || Surface || No || Slurry || Yes (Seeds) |}
 
 Ensure that at least one dwarf has the [[plant processing]] labor, then designating plants to be gathered with {{menu icon|g}} gather plants option, before designating a rectangular area to harvest by a dwarf with the Plant Gathering labor
 

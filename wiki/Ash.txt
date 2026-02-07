@@ -23,12 +23,7 @@ Ash is one of the [[Hardcoded_material|hardcoded materials]].
 
 [[File:ash_preview.jpg|thumb|260px|center|Step 1 - Just add fire to anything.]]
 
-{{Translation
-| dwarven = ibruk
-| elvish  = imeri
-| goblin  = usmdas
-| human   = cish
-}}
+{{Translation| dwarven = ibruk| elvish  = imeri| goblin  = usmdas| human   = cish}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|ASH}}}}
 {{materials}}

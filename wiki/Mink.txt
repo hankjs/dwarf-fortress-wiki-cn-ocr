@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=mink_sprites.png
-|portrait=mink_portrait_anim.gif
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=mink_sprites.png|portrait=mink_portrait_anim.gif|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

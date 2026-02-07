@@ -34,45 +34,10 @@ http://www.bay12forums.com/smf/index.php?topic=113639.msg3467517#msg3467517
 ==Equipping soldiers==
 ===Accessing the Equip screen===
 In the squad menu, select one or more squads by clicking the checkbox next to their name, then click "'''Equip'''" to view a summary of their assigned equipment. The following icons are used:
-{| class="wikitable"
-|+ Types of equipment
-|-
-| '''Icon''' 
-|| [[File:squad_weapon_icon.png|center]]
-|| [[File:squad_shield_equipped.png|center]]
-|| [[File:squad_upper_body_icon.png|center]]
-|| [[File:squad_lower_body_icon.png|center]]
-|| [[File:squad_head_icon.png|center]]
-|| [[File:squad_hands_icon.png|center]]
-|| [[File:squad_feet_icon.png|center]]
-|| [[File:squad_backpack_icon.png|center]]
-|| [[File:squad_flask_icon.png|center]]
-|-
-| '''Tile'''
-| style="text-align: center" |  {{Tile|/|2:1}}
-| style="text-align: center" |  {{Tile|]|2:1}}
-| style="text-align: center" |  {{Tile|[|2:1}}
-| style="text-align: center" |  {{Tile|π|2:1}}
-| style="text-align: center" |  {{Tile|⌂|2:1}}
-| style="text-align: center" |  {{Tile|╒|2:1}}
-| style="text-align: center" |  {{Tile|∟|2:1}}
-| style="text-align: center" |  {{Tile|Æ|2:1}}
-| style="text-align: center" |  {{Tile|¡|2:1}}
-|-
-| '''Meaning''' || Weapon || Shield || Upper body || Lower body || Head || Gauntlets || Boots || Backpack || Flask
-|}
+{| class="wikitable"|+ Types of equipment|-| '''Icon''' || [[File:squad_weapon_icon.png|center]]|| [[File:squad_shield_equipped.png|center]]|| [[File:squad_upper_body_icon.png|center]]|| [[File:squad_lower_body_icon.png|center]]|| [[File:squad_head_icon.png|center]]|| [[File:squad_hands_icon.png|center]]|| [[File:squad_feet_icon.png|center]]|| [[File:squad_backpack_icon.png|center]]|| [[File:squad_flask_icon.png|center]]|-| '''Tile'''| style="text-align: center" |  {{Tile|/|2:1}}| style="text-align: center" |  {{Tile|]|2:1}}| style="text-align: center" |  {{Tile|[|2:1}}| style="text-align: center" |  {{Tile|π|2:1}}| style="text-align: center" |  {{Tile|⌂|2:1}}| style="text-align: center" |  {{Tile|╒|2:1}}| style="text-align: center" |  {{Tile|∟|2:1}}| style="text-align: center" |  {{Tile|Æ|2:1}}| style="text-align: center" |  {{Tile|¡|2:1}}|-| '''Meaning''' || Weapon || Shield || Upper body || Lower body || Head || Gauntlets || Boots || Backpack || Flask|}
 Equipment icons will change colors and display a symbol depending on the equipment's status. Using the shield icon as an example:
-{| class="wikitable"
-|+ Equipment status
-|-
-! Symbol !! Meaning !! Probable cause
-|-
-| style="text-align: center" | [[File:squad_shield_equipped.png]] {{Raw tile|]√|2:1}} || The dwarf has a shield assigned, and currently has it equipped. || N/A
-|-
-| style="text-align: center" |  [[File:squad_shield_pending.png]] {{Raw tile|]!|6:1}} || The dwarf has a shield assigned, but doesn't have it equipped right now. || The dwarf's activity does not require this equipment, the dwarf physically cannot wear the item, the item's slot is already full (due to e.g. excessive layers of clothing), or the dwarf cannot access the assigned item.
-|-
-| style="text-align: center" |   [[File:squad_shield_unable.png]] {{Raw tile|]-|4:1}} || The dwarf does not have a shield assigned or equipped. || The fortress does not have enough pieces of equipment for every dwarf in the squad.
-|}
+{| class="wikitable"|+ Equipment status|-
+! Symbol !! Meaning !! Probable cause|-| style="text-align: center" | [[File:squad_shield_equipped.png]] {{Raw tile|]√|2:1}} || The dwarf has a shield assigned, and currently has it equipped. || N/A|-| style="text-align: center" |  [[File:squad_shield_pending.png]] {{Raw tile|]!|6:1}} || The dwarf has a shield assigned, but doesn't have it equipped right now. || The dwarf's activity does not require this equipment, the dwarf physically cannot wear the item, the item's slot is already full (due to e.g. excessive layers of clothing), or the dwarf cannot access the assigned item.|-| style="text-align: center" |   [[File:squad_shield_unable.png]] {{Raw tile|]-|4:1}} || The dwarf does not have a shield assigned or equipped. || The fortress does not have enough pieces of equipment for every dwarf in the squad.|}
 Pressing "'''Details'''" lets you see ''precisely'' what items an individual dwarf has been assigned.
 
 ===Creating and assigning uniforms===

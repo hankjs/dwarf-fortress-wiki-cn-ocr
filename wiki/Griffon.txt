@@ -1,22 +1,12 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|biome=None
-|death=nobutcher
-|contrib=no
-|wiki=Griffin
-}}
+{{Creaturelookup/0|biome=None|death=nobutcher|contrib=no|wiki=Griffin}}
 {{av}}
 
 '''Griffons''' are [[fanciful]] [[creature]]s which are merely the stuff of [[legends]]. They do not actually exist, appearing only in [[engraving]]s as the fancy of artists.
 
 Some [[Dwarf|dwarves]] [[Preferences|like]] griffons for their ''strength''.
 
-{{Translation
-| dwarven = sumun
-| elvish  = sinaru
-| goblin  = oxdu
-| human   = kajeth
-}}
+{{Translation| dwarven = sumun| elvish  = sinaru| goblin  = oxdu| human   = kajeth}}
 
 [[File:Griffin of Perugia.jpg|thumb|300px|center|Admired for its ''strength''.]]
 

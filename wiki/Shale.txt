@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{layerlookup/0
-|graphic=shale_sprite.png}}
+{{layerlookup/0|graphic=shale_sprite.png}}
 {{av}}
 
 '''Shale''' is a [[sedimentary]] [[stone]] that can contain [[vein]]s of [[cinnabar]].

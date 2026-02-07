@@ -11,29 +11,8 @@ There are two versions of these gates here.<br clear="all"/>
 
 <div style="position:relative; float:none;">
 '''AND'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#A00|X|#444}}
-|{{RTL|#0A0|X|#444}}
-|{{RTL|#00A|^|#DDD}}
-|{{RTL|#222|·|#BBB}}
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#A00|X|#444}}|{{RTL|#0A0|X|#444}}|{{RTL|#00A|^|#DDD}}|{{RTL|#222|·|#BBB}}|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|}|}
 </div>
 An AND gate is simply created by putting two floodgates ''in a row'', each one connected to one of the input triggers: {{Raw Tile|X|#A00|#444}}{{Raw Tile|X|#0A0|#444}}. When both floodgates receive an on signal, they will open and let the water from the left side pass. The [[pressure plate]] behind the floodgates has to be constructed to react on 4-7 water.
 * If you use two 1x1 raising bridges, you'll get a NOR operation instead.
@@ -45,36 +24,8 @@ An AND gate is simply created by putting two floodgates ''in a row'', each one c
 
 <div style="position:relative; float:none;">
 '''OR'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#A00|X|#444}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#222}}
-|{{RTL|#00A|^|#DDD}}
-|{{RTL|#222|·|#BBB}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#0A0|X|#444}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#A00|X|#444}}|{{RTL|#DDD}}|{{RTL|#222}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#222}}|{{RTL|#00A|^|#DDD}}|{{RTL|#222|·|#BBB}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#0A0|X|#444}}|{{RTL|#DDD}}|{{RTL|#222}}|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|}|}
 </div>
 An OR gate is simply created by putting two floodgates in ''parallel'', each one connected to one of the input triggers: {{Raw Tile|X|#A00|#444}}{{Raw Tile|X|#0A0|#444}}. When one of the floodgates receives an on signal, it will open and let the water from the left side pass. The pressure plate behind the floodgates has to be constructed to react on 4-7 water.
 * If you use two 1x1 raising bridges, you'll get a NAND operation instead.
@@ -84,41 +35,8 @@ An OR gate is simply created by putting two floodgates in ''parallel'', each one
 
 <div style="position:relative; float:none;">
 '''XOR'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#A00|X|#444}}
-|{{RTL|#0A0|╬|#444}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#00A|^|#DDD}}
-|{{RTL|#222|·|#BBB}}
-|-
-|{{RTL|#00A|≈|#DDD}}
-|{{RTL|#A00|╬|#444}}
-|{{RTL|#0A0|X|#444}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#A00|X|#444}}|{{RTL|#0A0|╬|#444}}|{{RTL|#DDD}}|{{RTL|#222}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#00A|^|#DDD}}|{{RTL|#222|·|#BBB}}|-|{{RTL|#00A|≈|#DDD}}|{{RTL|#A00|╬|#444}}|{{RTL|#0A0|X|#444}}|{{RTL|#DDD}}|{{RTL|#222}}|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|}|}
 </div>
 A XOR gate is created by putting 1x1 raising bridges and floodgates together. The red bridge and floodgate {{Raw Tile|X|#A00|#444}}{{Raw Tile|╬|#A00|#444}} are linked to the same input and the green bridge and floodgate {{Raw Tile|X|#0A0|#444}}{{Raw Tile|╬|#0A0|#444}} are both linked to the other input. When one of the inputs sends an on signal, the bridge will raise/close and the appropriate door will be opened. Only when the floodgate and the bridge at one passage are open, what happens when exactly one input signal is on, the water will flow to the right. The pressure plate behind the bridges has to be constructed to react on 4-7 water.
 * If you exchange bridge and floodgate for one of the two inputs, you'll get a XNOR operation instead.
@@ -142,27 +60,7 @@ This type of logic uses the different behaviour of raising bridges and floodgate
 ===Basic Design===
 Let's say we want to evaluate the logical expression ''f''. It can be a simple '''AND''' or '''OR''' gate, or anything more complicated. Follow the following scheme:
 
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RTF|A}}
-|{{RTF|╔}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RTF|B}}
-|{{RTF|║}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RTF|A}}|{{RTF|╔}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RTF|║}}|-|{{RTF|║}}|{{RTF|B}}|{{RTF|║}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|}
 
 Here, {{Tile|A|#FFF|#000}} is a set of floodgates and/or drawbridges that let water flow exactly when ''f'' evaluates to true, {{Tile|B|#FFF|#000}} is the same except that it lets water flow when ''f'' evaluates to false, {{Tile|^|#808|#000}} is a pressure plate set to activate on a sufficient water level. Notably, a drain is not needed.
 
@@ -170,27 +68,7 @@ Here, {{Tile|A|#FFF|#000}} is a set of floodgates and/or drawbridges that let wa
 In the following examples, {{Tile|X|#000|#888}} is a floodgate, and {{Tile|╬|#FFF|#000}} is a drawbridge. Red ones are connected to input A and green ones to input B.
 
 ====NOT====
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|╬|#F00|#000}}
-|{{RTF|╔}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT|X|#FFF|#800}}
-|{{RTF|║}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|╬|#F00|#000}}|{{RTF|╔}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RTF|║}}|-|{{RTF|║}}|{{RT|X|#FFF|#800}}|{{RTF|║}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|}
 
 The pressure plate must activate on a water level of 5-7. When input turns off, the drawbridge lowers and the floodgate closes. Water can flow onto the pressure plate and fills the tile completely, turning output on. 
 
@@ -199,68 +77,10 @@ When input turns on, the bridge raises and cuts off incoming water, while the fl
 Siphoning the water off into a drain is unnecessary: the spread of water into opened tiles is sufficient to reliably produce a measurably different liquid level. This holds for all binary logic gates under this doctrine.
 
 ====AND====
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|X|#FFF|#800}}
-|{{RTF|╔}}
-|{{RTF|═}}
-|-
-|{{RTF|║}}
-|{{RT|X|#FFF|#080}}
-|{{RTF|╚}}
-|{{RTF|╗}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RT|╬|#F00|#000}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT|╬|#0F0|#000}}
-|{{RTF|╔}}
-|{{RTF|╝}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|X|#FFF|#800}}|{{RTF|╔}}|{{RTF|═}}|-|{{RTF|║}}|{{RT|X|#FFF|#080}}|{{RTF|╚}}|{{RTF|╗}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RT|╬|#F00|#000}}|{{RTF|║}}|-|{{RTF|║}}|{{RT|╬|#0F0|#000}}|{{RTF|╔}}|{{RTF|╝}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|}
 
 ====OR====
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|╬|#F00|#000}}
-|{{RTF|╔}}
-|{{RTF|═}}
-|-
-|{{RTF|║}}
-|{{RT|╬|#0F0|#000}}
-|{{RTF|╚}}
-|{{RTF|╗}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RT|X|#FFF|#080}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT|X|#FFF|#800}}
-|{{RTF|╔}}
-|{{RTF|╝}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|╬|#F00|#000}}|{{RTF|╔}}|{{RTF|═}}|-|{{RTF|║}}|{{RT|╬|#0F0|#000}}|{{RTF|╚}}|{{RTF|╗}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RT|X|#FFF|#080}}|{{RTF|║}}|-|{{RTF|║}}|{{RT|X|#FFF|#800}}|{{RTF|╔}}|{{RTF|╝}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|}
 
 For the AND gate, the pressure plate should respond to 6-7 or 7-7 water. Since the OR gate is in effect a NOR gate with inverted output, the plate must respond to "low" water, 0-5 is recommended.
 
@@ -270,38 +90,7 @@ This is not as straightforward as the previous ones. The ''true'' expression is 
 
 So the gates look like the following:
 
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|X|#FFF|#800}}
-|{{RT|X|#FFF|#080}}
-|{{RTF|╔}}
-|-
-|{{RTF|║}}
-|{{RT|╬|#0F0|#000}}
-|{{RT|╬|#F00|#000}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{000}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT|X|#FFF|#800}}
-|{{RT|X|#FFF|#080}}
-|{{RTF|║}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|-
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|X|#FFF|#800}}|{{RT|X|#FFF|#080}}|{{RTF|╔}}|-|{{RTF|║}}|{{RT|╬|#0F0|#000}}|{{RT|╬|#F00|#000}}|{{RTF|║}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{000}}|{{RTF|║}}|-|{{RTF|║}}|{{RT|X|#FFF|#800}}|{{RT|X|#FFF|#080}}|{{RTF|║}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╝}}|-|}
 
 If both inputs have the same value (both on or off), the two closed floodgates or raised bridges will form an impassable wall, blocking inflow of water. The second row of floodgates "behind" the pressure plate ensures that when the gate is deactivated by an "on" signal raising bridges, there is still space opened for water to spread into and lower fluid level. Either combination of one "on" with one "off" input opens a direct path for water to enter. The pressure plate must be set to react to 7/7 fluid, anything less can result in false positives.
 
@@ -318,91 +107,7 @@ Another factor is the flowing speed of the water. It can be improved. First, the
 ==Edge Detector==
 In some situations, it is beneficial to have logic that triggers during a state ''transition'' rather than based on steady states - for example, turning a lever "on" could trigger one brief event while turning the lever "off" would trigger a different event (or possibly the same event).
 
-{| style="border-spacing: 0"
-|colspan="7"| Z+0
-|-
-|{{H2O}}
-|{{RTF|╠}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╗}}
-|{{000}}
-|-
-|{{H2O}}
-|{{RT|X|#FFF|#800}}
-|{{000}}
-|{{RT|╬|#800}}
-|{{000}}
-|{{RTF|║}}
-|{{000}}
-|-
-|{{H2O}}
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╦}}
-|{{RTF|═}}
-|{{RTF|╣}}
-|{{000}}
-|-
-|{{H2O}}
-|{{RT|╬|#800}}
-|{{H2O}}
-|{{RT|X|#FFF|#800}}
-|{{000}}
-|{{RTF|║}}
-|{{000}}
-|-
-|{{H2O}}
-|{{RTF|╔}}
-|{{RTF|═}}
-|{{RTF|╩}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|{{000}}
-|-
-|colspan="7"| Z=-1
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{RTF|╔}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╗}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{RTF|║}}
-|{{RT|^|5:1}}
-|{{RTF|#}}
-|{{RTF|║}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{RTF|╠}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╣}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{RTF|║}}
-|{{RT|^|5:1}}
-|{{RTF|#}}
-|{{RTF|║}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|colspan="7"| Z+0|-|{{H2O}}|{{RTF|╠}}|{{RTF|═}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╗}}|{{000}}|-|{{H2O}}|{{RT|X|#FFF|#800}}|{{000}}|{{RT|╬|#800}}|{{000}}|{{RTF|║}}|{{000}}|-|{{H2O}}|{{RTF|╚}}|{{RTF|═}}|{{RTF|╦}}|{{RTF|═}}|{{RTF|╣}}|{{000}}|-|{{H2O}}|{{RT|╬|#800}}|{{H2O}}|{{RT|X|#FFF|#800}}|{{000}}|{{RTF|║}}|{{000}}|-|{{H2O}}|{{RTF|╔}}|{{RTF|═}}|{{RTF|╩}}|{{RTF|═}}|{{RTF|╝}}|{{000}}|-|colspan="7"| Z=-1|-|{{000}}|{{000}}|{{000}}|{{RTF|╔}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╗}}|-|{{000}}|{{000}}|{{000}}|{{RTF|║}}|{{RT|^|5:1}}|{{RTF|#}}|{{RTF|║}}|-|{{000}}|{{000}}|{{000}}|{{RTF|╠}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╣}}|-|{{000}}|{{000}}|{{000}}|{{RTF|║}}|{{RT|^|5:1}}|{{RTF|#}}|{{RTF|║}}|-|{{000}}|{{000}}|{{000}}|{{RTF|╚}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╝}}|}
 
 Both pressure plates should trigger on depth 2-6. Link the bottom pressure plate to machines you wish to activate on ''positive'' transitions (e.g. stepping onto a pressure plate, or pulling a lever) and the upper pressure plate to machines you wish to activate on ''negative'' transitions (e.g. stepping off of the pressure plate, or pulling the lever again), then link the trigger itself (a lever or pressure plate) to both floodgates and both raising bridges.
 
@@ -410,30 +115,7 @@ Each time the input trigger is toggled, the appropriate pressure plate will acti
 
 An edge detector can be realized very space efficient in advanced complementary fluid logic (as long as both pressure plates are linked to a single item). Input goes to floodgate and bridge, the pressure plates are working on 0-5 and 6-7, respectively. 
 
-{| style="border-spacing: 0"
-|colspan="5"|
-|-
-|{{H2O}}
-|{{RTF|╔}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╗}}
-|-
-|{{H2O}}
-|{{RT|X|#FFF|#800}}
-|{{RT|^|5:1}}
-|{{RT|^|#808}}
-|{{RT|╬|#800}}
-|{{RTF|║}}
-|-
-|{{H2O}}
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|}
+{| style="border-spacing: 0"|colspan="5"||-|{{H2O}}|{{RTF|╔}}|{{RTF|═}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╗}}|-|{{H2O}}|{{RT|X|#FFF|#800}}|{{RT|^|5:1}}|{{RT|^|#808}}|{{RT|╬|#800}}|{{RTF|║}}|-|{{H2O}}|{{RTF|╚}}|{{RTF|═}}|{{RTF|═}}|{{RTF|═}}|{{RTF|╝}}|}
 
 ==Memory Cells==
 
@@ -441,26 +123,7 @@ Fluid logic offers options for comparatively small [[Memory_(computing)|memory]]
 
 ====S/R Latch====
 
-{| style="border-spacing: 0"
-|-
-|{{888}}
-|{{888}}
-|{{888}}
-|{{888}}
-|{{888}}
-|-
-|{{H2O}}
-|{{RT0|┼|#0F0}}
-|{{RT0|^|#F0F}}
-|{{RT0|┼|#F00}}
-|{{888}}
-|-
-|{{888}}
-|{{888}}
-|{{888}}
-|{{888}}
-|{{888}}
-|}
+{| style="border-spacing: 0"|-|{{888}}|{{888}}|{{888}}|{{888}}|{{888}}|-|{{H2O}}|{{RT0|┼|#0F0}}|{{RT0|^|#F0F}}|{{RT0|┼|#F00}}|{{888}}|-|{{888}}|{{888}}|{{888}}|{{888}}|{{888}}|}
 
 Design by [[User:Hussell/SetResetLatch|Hussell]].
 
@@ -471,28 +134,7 @@ As usual in real-world set/reset latches, the inputs should not both be "on" at 
 
 ====D-Latch====
 
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|┼|#FFF|#800}}
-|{{RTF|╔}}
-|-
-|{{RTF|║}}
-|{{RT|┼|#FFF|#080}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RTF|║}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|-
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|┼|#FFF|#800}}|{{RTF|╔}}|-|{{RTF|║}}|{{RT|┼|#FFF|#080}}|{{RTF|║}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RTF|║}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|-|}
 
 This cell "tests" the state of the "Data" (hence D ) input controlling the door {{Tile|┼|#FFF|#800}} and the pressure plate (set to trigger on 5-7 liquid) will take on that input's state when the "enable" input opens door {{Tile|┼|#FFF|#080}}: if the data input is on, water can pass from the source to the pressure plate and fills the cell. If the data input is off, water will spread from the plate to the door's tile and lower liquid depth over the plate. 
 
@@ -500,28 +142,7 @@ This cell will turn "on" whenever both data and enable input are on, but will on
 
 ====Toggle Flipflop====
 
-{| style="border-spacing: 0"
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RTF|╗}}
-|{{RT|╬|#FFF|#800}}
-|{{RTF|╔}}
-|-
-|{{RTF|║}}
-|{{RT|┼|#FFF|#080}}
-|{{RTF|║}}
-|-
-|{{RTF|║}}
-|{{RT0|^|#808}}
-|{{RTF|║}}
-|-
-|{{RTF|╚}}
-|{{RTF|═}}
-|{{RTF|╝}}
-|-
-|}
+{| style="border-spacing: 0"|{{H2O}}|{{H2O}}|{{H2O}}|-|{{RTF|╗}}|{{RT|╬|#FFF|#800}}|{{RTF|╔}}|-|{{RTF|║}}|{{RT|┼|#FFF|#080}}|{{RTF|║}}|-|{{RTF|║}}|{{RT0|^|#808}}|{{RTF|║}}|-|{{RTF|╚}}|{{RTF|═}}|{{RTF|╝}}|-|}
 
 This is a cell which changes state to the opposite whenever its "control" input switches from off to on. The door {{Tile|┼|#FFF|#080}} is activated by the control input, and both the door and the bridge {{Tile|╬|#FFF|#800}} are linked to the pressure plate (triggering on 5-7 water). 
 

@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=red_squirrel_sprite.png
-|portrait=red_squirrel_portrait.png}}
+{{verminlookup/0|image=red_squirrel_sprite.png|portrait=red_squirrel_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

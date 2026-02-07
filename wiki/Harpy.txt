@@ -1,9 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=harpy_sprite.png
-|portrait=harpy_portrait.png
-|wiki=yes
-}}
+{{Creaturelookup/0|image=harpy_sprite.png|portrait=harpy_portrait.png|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,25 +1,14 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Armorsmith
-| specialty  = Armorer
-| profession = [[Metalsmith]]
-| job name   = [[Armoring]]
-| tasks      =
-* Forge [[armor]]
-| workshop   =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Armorsmith| specialty  = Armorer| profession = [[Metalsmith]]| job name   = [[Armoring]]| tasks      =
+* Forge [[armor]]| workshop   =
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-| attributes =
+* [[Magma forge]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 The '''armorsmith''' skill is used to make all [[metal]] [[armor]] and [[shield]]s at a [[metalsmith's forge]] (or [[magma forge]]).  The corresponding [[labor]] is [[armoring]].  The construction of [[leather]] armor is done by a [[leatherworker]].

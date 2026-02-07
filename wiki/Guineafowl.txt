@@ -1,13 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=guineafowl_sprites.png
-|portrait=guineafowl_portrait_anim.gif
-|meat=0-2
-|fat=0-2
-|skull=1
-|skin=Raw hide (occasional)
-|contrib=no
-|wiki=Domesticated guineafowl}}
+{{Creaturelookup/0|image=guineafowl_sprites.png|portrait=guineafowl_portrait_anim.gif|meat=0-2|fat=0-2|skull=1|skin=Raw hide (occasional)|contrib=no|wiki=Domesticated guineafowl}}
 {{av}}
 {{creaturedesc}}
 

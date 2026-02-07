@@ -6,11 +6,6 @@ This skill can be trained by letting dwarves idle and chatter amongst themselves
 
 In [[Adventure mode]], this skill (along with [[judge of intent]]) is trained any time you state your values in conversation and, having encountered disagreement, press the argument. Note that it is ''only'' raised when the other party disagrees with your belief. At a sufficiently high experience level, others (aside from particularly close-minded NPCs) will be swayed by your initial statement of values alone - so powerful is this ability that [[elf|elves]] can be convinced of the worthlessness of nature, and [[goblin|goblins]] of the value of harmony. If you're looking to raise this skill quickly, find an NPC who, in idle chatter, says "I'm not going to change my mind." Once found, you can convince them of one value, only to convince them of the opposite value once they've finally changed their mind, and repeat.
 
-{{Translation
-| dwarven = fimshel
-| elvish  = theveme
-| goblin  = gerthu
-| human   = thudu
-}}
+{{Translation| dwarven = fimshel| elvish  = theveme| goblin  = gerthu| human   = thudu}}
 
 {{skills}}

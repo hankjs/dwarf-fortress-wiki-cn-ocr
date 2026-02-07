@@ -1,19 +1,11 @@
 {{Quality|Superior}}
-{{Alloy|name=Electrum
-|sample=
-[[File:ElectrumSample.png|256px|center|frameless]]
-|graphic=electrum_bar_sprite.png
-|color=6:6:1
-|color1=7:7:1
-|color2=6:6:1
-|uses=* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+{{Alloy|name=Electrum|sample=
+[[File:ElectrumSample.png|256px|center|frameless]]|graphic=electrum_bar_sprite.png|color=6:6:1|color1=7:7:1|color2=6:6:1|uses=* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 1 [[Silver]] [[bar]]
 * 1 [[Gold]] [[bar]]
 - or -
 * 1 [[Silver]] [[ore]]
-* 1 [[Native gold]]
-|properties=
+* 1 [[Native gold]]|properties=
 * [[Material value]] 20☼
 * [[Material science|Impact strength]] 350 MPa
 * [[Material science|Shear strength]] 100 MPa
@@ -24,8 +16,7 @@
 * [[Solid density]] 14905 kg/m³
 * Liquid [[density]] 13000 kg/m³
 * [[Specific heat]] 180 J/kg·K
-* [[Color]] ochre
-}}{{av}}
+* [[Color]] ochre}}{{av}}
 
 '''Electrum''' is an [[alloy]] of equal parts [[gold]] and [[silver]]. Electrum [[bar]]s can be made at a [[smelter]] by a dwarf with the [[furnace operating]] labor activated. Electrum is useful for high-value [[crafts]], [[furniture]], and [[decoration]]s.
 

@@ -15,36 +15,8 @@ Graphically, sprites of intelligent undead will show as humanoids with light blu
 ==Powers==
 Similarly to zombies, they get a boost to strength and toughness and many immunities, but do not get the speed reduction. Additionally, each type of intelligent undead has a set of 1-5 [[magic]]al powers, with the possibility of acquiring more if they are raised multiple times by different necromancers. Undead may target themselves with their own powers, which has niche applications. The following powers have been reported:
 
-{| class="wikitable"
-|-
-! Icon !! Power !! Description
-|-
-| [[File:icon_blisters.png]] || '''Blisters''' || Causes the target to grow blisters all over their bodies. Does not hamper fighting ability, making it mostly useless in a fight.
-|-
-| [[File:icon_dizziness.png]] || '''Dizziness''' || The target is affected by dizziness, possibly inconveniencing them in combat.
-|-
-| [[File:icon_pain.png]] || '''Pain''' || The target is afflicted with pain, to the point of being stunned by it.
-|-
-| [[File:icon_suffocate.png]] || '''Suffocate''' || Causes the target to become winded. Does not last long enough to kill by suffocation, but will make the target take longer to take actions.
-|-
-| [[File:icon_bleeding.png]] || '''Bleeding''' || The target suffers [[blood]] damage across the body. Can stack, leading to death by blood loss if multiple undead use it on the same target.
-|-
-| [[File:icon_sicken_anim.gif]] || '''Sicken''' || The target coughs blood, [[vomit]]s blood and/or feels nauseous, leaving them vulnerable.
-|-
-| [[File:icon_blind.png]] || '''Blind''' || The undead deprives its victim of sight temporarily, making them appear as if blind. In adventurer mode, it appears to have a typo, giving the message "You your sight is fading!"{{bug|11858}} Creatures with {{token|EXTRAVISION}} are immune to this power.
-|-
-| [[File:icon_rot.png]] || '''Rot''' || A random body part of the target will suffer minor necrosis. Can lead to extreme [[fun]] if the body part ends up being a dwarf's/your adventurer's eyes.
-|-
-| [[File:icon_paralyze.png]] || '''Paralysis''' || The target is completely paralyzed. Generally leads to near-instant death in most creatures, as paralysis of the diaphragm leads to suffocation.
-|-
-| [[File:icon_raise_fog.png]] || '''Raise Fog''' || The undead changes the weather to create a temporary fog, limiting vision.
-|-
-| [[File:icon_ice_bolt.png]] || '''Ice Bolt''' || The undead launches a sharpened bolt of [[ice]] at the target, causing varying physical harm.
-|-
-| [[File:icon_vanish.png]] || '''Vanish''' || The undead immediately enters stealth, becoming invisible. Players are unable to retaliate, block, or dodge against the undead's attacks, due to not being able to target them, but may hit them with [[Thrower|thrown]] items. Creatures with {{token|EXTRAVISION}} can see the undead normally, negating the power.
-|-
-| [[File:icon_propel_away.png]] || '''Propel Away''' || The undead blasts the target with force, launching them away from it. Effect varies on the foe's weight; smaller creatures can be seriously injured if they impact with a surface, while heavier targets can resist or flat-out shrug off the blow. Can be used to free the undead from a grapple.
-|}
+{| class="wikitable"|-
+! Icon !! Power !! Description|-| [[File:icon_blisters.png]] || '''Blisters''' || Causes the target to grow blisters all over their bodies. Does not hamper fighting ability, making it mostly useless in a fight.|-| [[File:icon_dizziness.png]] || '''Dizziness''' || The target is affected by dizziness, possibly inconveniencing them in combat.|-| [[File:icon_pain.png]] || '''Pain''' || The target is afflicted with pain, to the point of being stunned by it.|-| [[File:icon_suffocate.png]] || '''Suffocate''' || Causes the target to become winded. Does not last long enough to kill by suffocation, but will make the target take longer to take actions.|-| [[File:icon_bleeding.png]] || '''Bleeding''' || The target suffers [[blood]] damage across the body. Can stack, leading to death by blood loss if multiple undead use it on the same target.|-| [[File:icon_sicken_anim.gif]] || '''Sicken''' || The target coughs blood, [[vomit]]s blood and/or feels nauseous, leaving them vulnerable.|-| [[File:icon_blind.png]] || '''Blind''' || The undead deprives its victim of sight temporarily, making them appear as if blind. In adventurer mode, it appears to have a typo, giving the message "You your sight is fading!"{{bug|11858}} Creatures with {{token|EXTRAVISION}} are immune to this power.|-| [[File:icon_rot.png]] || '''Rot''' || A random body part of the target will suffer minor necrosis. Can lead to extreme [[fun]] if the body part ends up being a dwarf's/your adventurer's eyes.|-| [[File:icon_paralyze.png]] || '''Paralysis''' || The target is completely paralyzed. Generally leads to near-instant death in most creatures, as paralysis of the diaphragm leads to suffocation.|-| [[File:icon_raise_fog.png]] || '''Raise Fog''' || The undead changes the weather to create a temporary fog, limiting vision.|-| [[File:icon_ice_bolt.png]] || '''Ice Bolt''' || The undead launches a sharpened bolt of [[ice]] at the target, causing varying physical harm.|-| [[File:icon_vanish.png]] || '''Vanish''' || The undead immediately enters stealth, becoming invisible. Players are unable to retaliate, block, or dodge against the undead's attacks, due to not being able to target them, but may hit them with [[Thrower|thrown]] items. Creatures with {{token|EXTRAVISION}} can see the undead normally, negating the power.|-| [[File:icon_propel_away.png]] || '''Propel Away''' || The undead blasts the target with force, launching them away from it. Effect varies on the foe's weight; smaller creatures can be seriously injured if they impact with a surface, while heavier targets can resist or flat-out shrug off the blow. Can be used to free the undead from a grapple.|}
 
 == Getting intelligent undead citizens ==
 {{imagefix|[[File:intelundead_portrait_anim.gif|left]]|8|0}}If you happen to have a [[necromancer]] among your citizens, they may very well revive some of your recently fallen dwarves as intelligent undead if they are nearby and involved in combat. Unlike run-of-the-mill zombies, they will not be hostile and will eventually re-petition for citizenship in your fortress. Intelligent undead are impervious to stress and emotions – any event in their Thoughts and Preferences screen will cause them to "not feel anything". However, they inevitably become [[Need#Focus|Distracted]] due to unmet needs, despite performing most of the jobs (Worship, Socialize, Read etc.) that should fulfill those needs. Intelligent undead children are immune to this distraction. 
@@ -272,7 +244,6 @@ Necromancers may also raise invaders as intelligent undead. They may be hostile,
 		[IE_IMMEDIATE]
 		[SYNDROME]
 			[SYN_CONCENTRATION_ADDED:1000:0]
-			[CE_NAUSEA:SEV:500:PROB:100:START:0:PEAK:0:END:3:RESISTABLE]
-}}
+			[CE_NAUSEA:SEV:500:PROB:100:START:0:PEAK:0:END:3:RESISTABLE]}}
 {{Creatures}}
 [[ru:Intelligent undead]]

@@ -1,10 +1,6 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=blueberry_shrub_sprite.png
-|seedimage=blueberry_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=blueberry_shrub_sprite.png|seedimage=blueberry_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Blueberries''' are an [[aboveground]] [[crop|garden vegetable]] that grows in [[tundra]] environments. They can be planted in all seasons, the fruit is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|blueberry wine]] or processed in a [[dyer's shop]] into lavender [[dye]].

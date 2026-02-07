@@ -12,8 +12,7 @@ The engineering skills are:
 * [[Mechanic]]
 * [[Pump operator]]
 * [[Siege engineer]]
-* [[Siege operator]]
-}}
+* [[Siege operator]]}}
 
 The [[optics engineer]]ing and [[fluid engineer]]ing skills don't count as engineering skills, but contribute to the Engineer title regardless and are taught in the respective guildhall alongside [[Student]] skill.
 

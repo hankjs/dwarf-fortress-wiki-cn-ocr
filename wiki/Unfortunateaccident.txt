@@ -1,12 +1,7 @@
 {{av}}
 {{Quality|Exceptional}}
 {{D for Dwarf}}
-{{Translation
-| dwarven = nasakam kuthdéng
-| elvish  = seno-favane matirè
-| goblin  = rotsnuna smaxa
-| human   = ob-jalew kepfu
-}}
+{{Translation| dwarven = nasakam kuthdéng| elvish  = seno-favane matirè| goblin  = rotsnuna smaxa| human   = ob-jalew kepfu}}
 [[Noble]]s are particularly fragile, delicate, put-upon dwarves, burdened with responsibilities which are far more taxing than any lowly commoner could ever hope to wrap their [[Alcohol|booze]]-soaked brains around. However, your dear friends at Happy Fun Surprises Incorporated (Stock Exchange Symbol: "HFS") have prepared a wide variety of [[Losing|Fun]] activities to help your administrators unwind.
 
 ==Lever of mystery==

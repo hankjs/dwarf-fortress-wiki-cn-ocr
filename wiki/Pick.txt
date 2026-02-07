@@ -16,12 +16,7 @@ Note that military dwarves will never select a pick as a weapon if allowed "indi
 * When a non-adamantine metal pick is [[melt|melted down]], it will return '''1.2''' metal bars, for an '''efficiency of 120%'''.
 * When an adamantine pick is melted down, it will produce '''1.2''' wafers, for an '''efficiency of 30%'''.
 
-{{Translation
-| dwarven = tekkud
-| elvish  = mubara
-| goblin  = otez
-| human   = tekud
-}}
+{{Translation| dwarven = tekkud| elvish  = mubara| goblin  = otez| human   = tekud}}
 
 {{gamedata}}
 {{Weapons}}

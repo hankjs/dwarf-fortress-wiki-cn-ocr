@@ -20,19 +20,8 @@ Regions must be the same or similar types of [[biome]]s with any degree of surro
 ! Tundra
 ! Glacier
 ! Ocean
-! Mountains
-|-
-! Biome(s)
-| [[Swamp]], [[marsh]]
-| [[Broadleaf forest]], [[coniferous forest]], [[taiga]]
-| colspan="2" | [[Grassland]], [[savanna]], [[shrubland]]
-| [[Badlands]], [[rocky wasteland]], [[sand desert]]
-| [[Lake]]
-| [[Tundra]]
-| [[Glacier]]
-| [[Ocean]]
-| [[Mountain]]
-|}
+! Mountains|-
+! Biome(s)| [[Swamp]], [[marsh]]| [[Broadleaf forest]], [[coniferous forest]], [[taiga]]| colspan="2" | [[Grassland]], [[savanna]], [[shrubland]]| [[Badlands]], [[rocky wasteland]], [[sand desert]]| [[Lake]]| [[Tundra]]| [[Glacier]]| [[Ocean]]| [[Mountain]]|}
 
 == Temperature, elevation and volcanism ==
 

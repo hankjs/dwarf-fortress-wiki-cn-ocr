@@ -1,19 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=spider_monkey_sprites.png
-|portrait=spider_monkey_portrait_anim.gif
-|meat=7
-|fat=7
-|skin=hide
-|bone=4 <!-- yes, this is the order in 0.34.11 -->
-|skull=1
-|brain=0-1
-|tripe=0-1
-|liver=0-1
-|intestine=1
-|lung=0-2
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=spider_monkey_sprites.png|portrait=spider_monkey_portrait_anim.gif|meat=7|fat=7|skin=hide|bone=4 <!-- yes, this is the order in 0.34.11 -->|skull=1|brain=0-1|tripe=0-1|liver=0-1|intestine=1|lung=0-2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

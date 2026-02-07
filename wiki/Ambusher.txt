@@ -1,14 +1,6 @@
 {{Quality|Exceptional|14:15, 12 February 2023 (CST)}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:hunter_sprite.png]]
-| skill      = Ambusher
-| specialty  = Hunter
-| profession = [[Ranger]]
-| job name   = [[Hunting]]
-| tasks      =
-* Hunt
-| attributes =
+{{v50_skill| color      = 2:0| graphic    = [[File:hunter_sprite.png]]| skill      = Ambusher| specialty  = Hunter| profession = [[Ranger]]| job name   = [[Hunting]]| tasks      =
+* Hunt| attributes =
 * Agility
 * Focus
 * Spatial Sense

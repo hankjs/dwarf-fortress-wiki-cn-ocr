@@ -1,19 +1,11 @@
 {{Quality|Exceptional}}
-{{Alloy|name=Fine pewter
-|sample=
-[[File:FinePewterSample.png|center|frameless]]
-|graphic=generic_grey_bar_sprite.png
-|color=7:7:1
-|color1=7:3:0
-|color2=6:4:0
-|uses=* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+{{Alloy|name=Fine pewter|sample=
+[[File:FinePewterSample.png|center|frameless]]|graphic=generic_grey_bar_sprite.png|color=7:7:1|color1=7:3:0|color2=6:4:0|uses=* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 3 [[Tin]] [[bar]]s
 * 1 [[Copper]] [[bar]]
 - or -
 * 3 [[Cassiterite]]
-* 1 [[Copper]] [[ore]]
-|properties=
+* 1 [[Copper]] [[ore]]|properties=
 * [[Material value]] 5☼
 * [[Material science|Impact strength]] 350 MPa
 * [[Material science|Shear strength]] 100 MPa
@@ -24,8 +16,7 @@
 * [[Solid density]] 7280 kg/m³
 * Liquid [[density]] 6990 kg/m³
 * [[Specific heat]] 210 J/kg·K
-* [[Color]] silver
-}}{{av}}
+* [[Color]] silver}}{{av}}
 
 '''Fine pewter''' is an [[alloy]] of [[tin]] and [[copper]].
 

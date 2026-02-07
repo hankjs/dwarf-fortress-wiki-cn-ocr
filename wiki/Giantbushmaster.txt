@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_bushmaster_sprite.png
-|portrait=bushmaster_portrait_anim.gif
-|contrib=no
-|bone=9-10
-|tooth=2
-|meat=6-8
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|liver=1
-|tripe=1
-|intestine=1
-|heart=1
-|lung=2
-|eye=2
-|fat=3
-|skin=scale
-|wiki=no}}
+{{Creaturelookup/0|image=giant_bushmaster_sprite.png|portrait=bushmaster_portrait_anim.gif|contrib=no|bone=9-10|tooth=2|meat=6-8|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|liver=1|tripe=1|intestine=1|heart=1|lung=2|eye=2|fat=3|skin=scale|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

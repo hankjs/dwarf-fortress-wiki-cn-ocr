@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=kiwi_man_sprite.png
-|portrait=kiwi_man_portrait.png}}
+{{Creaturelookup/0|image=kiwi_man_sprite.png|portrait=kiwi_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

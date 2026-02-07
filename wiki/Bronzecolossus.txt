@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=bronze_colossus_sprite.png
-|portrait=bronze_colossus_portrait.png
-|death=item
-|item=☼[[bronze]] [[statue]]☼ (worth 280☼)
-|contrib=no
-|wiki=Colossus
-}}
+{{Creaturelookup/0|image=bronze_colossus_sprite.png|portrait=bronze_colossus_portrait.png|death=item|item=☼[[bronze]] [[statue]]☼ (worth 280☼)|contrib=no|wiki=Colossus}}
 {{av}}
 {{creaturedesc}}
 

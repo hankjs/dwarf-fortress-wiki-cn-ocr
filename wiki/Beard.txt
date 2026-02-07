@@ -3,55 +3,13 @@
 [[File:beard_sprites_preview.png|right]]Many creatures in the game, including [[dwarf|dwarves]], [[human]]s, [[gnome]]s, and contrary to their current sprites and portraits, [[elf|elves]] and [[goblins]], have a group of tissues which are together known as a '''beard'''. The most common type of beard a player will encounter is the [[dwarf]] beard.
 
 ==Dwarven beards==
-{{Translation
-| dwarven = durad
-| elvish  = eslome
-| goblin  = xubngesp
-| human   = resmi}}A dwarven 'beard' consists of both cheek whiskers and chin whiskers, and is specific to males. (Code to enable female beards is in [[raws|creature_standard.txt]], but commented out by default.) The game keeps track of a hidden 'length' attribute for each tissue. At birth, a male baby dwarf has a beard of length zero. After that, they gain 1 length every day until they have 1000 length.
+{{Translation| dwarven = durad| elvish  = eslome| goblin  = xubngesp| human   = resmi}}A dwarven 'beard' consists of both cheek whiskers and chin whiskers, and is specific to males. (Code to enable female beards is in [[raws|creature_standard.txt]], but commented out by default.) The game keeps track of a hidden 'length' attribute for each tissue. At birth, a male baby dwarf has a beard of length zero. After that, they gain 1 length every day until they have 1000 length.
 
 The beard has little effect on anything other than the description, as it can only be affected by blunt attacks, and it's material properties are too poor to provide any meaningful defense. Interestingly, different dwarven, elven, and human [[civilization]]s tend to have different cultural hairstyles, including beard styles.
 
 ===Beards around the world===
-{| class="wikitable sortable"
-|-
-! Creature !! Facial Hair !! Beard Name !! Civ Beard !! Other Beard
-|-
-| [[Dwarf]] || style="background-color:#cfc"|  Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.31.01}} || Beard prefstring{{version|0.21.93.19a}}
-|-
-| [[Human]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.50.12}} || No
-|-
-| [[Elf]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || Yes{{version|0.50.12}} || No
-|-
-| [[Goblin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || No || No
-|-
-| [[Satyr]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No
-|-
-| [[Giant]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No
-|-
-| [[Cyclops]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No
-|-
-| [[Ettin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No
-|-
-| [[Fairy]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No
-|-
-| [[Pixie]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No
-|-
-| [[Merperson]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No
-|-
-| [[Gorlak]]{{version|0.31.01}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No
-|-
-| [[Goat]]{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || n/a || Beard in description{{version|0.31.19}}
-|-
-| [[Mountain goat|Mountain Goat]]{{version|0.27.169.32a}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.27.169.32a}}
-|-
-| [[Mountain gnome|Mountain Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No
-|-
-| [[Dark gnome|Dark Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No
-|-
-| [[Giant mountain goat|Giant Mountain Goat]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}
-|-
-| [[Mountain goat man|Mountain Goat Man]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}
-|}
+{| class="wikitable sortable"|-
+! Creature !! Facial Hair !! Beard Name !! Civ Beard !! Other Beard|-| [[Dwarf]] || style="background-color:#cfc"|  Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.31.01}} || Beard prefstring{{version|0.21.93.19a}}|-| [[Human]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.50.12}} || No|-| [[Elf]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || Yes{{version|0.50.12}} || No|-| [[Goblin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || No || No|-| [[Satyr]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Giant]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Cyclops]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Ettin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Fairy]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Pixie]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Merperson]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Gorlak]]{{version|0.31.01}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Goat]]{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || n/a || Beard in description{{version|0.31.19}}|-| [[Mountain goat|Mountain Goat]]{{version|0.27.169.32a}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.27.169.32a}}|-| [[Mountain gnome|Mountain Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Dark gnome|Dark Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Giant mountain goat|Giant Mountain Goat]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}|-| [[Mountain goat man|Mountain Goat Man]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}|}
 
 Legend:
 
@@ -105,8 +63,7 @@ Elf 2: IT'S THE BEEAARRDSS!!!
 
 Elf 2: *Runs to the highest tree in the forest* IT'S THE BEEEEEAAAARRRDSS!!!!!!!!
 
-Elf 2: Ready the troops! Tonight, we siege!! Not against their fortress... but against. their. CHINS.
-}}
+Elf 2: Ready the troops! Tonight, we siege!! Not against their fortress... but against. their. CHINS.}}
 
 [[ru:Beard]]
 {{Category|Body parts}}

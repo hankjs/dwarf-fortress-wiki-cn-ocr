@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{creaturelookup/0
-|image=crab_sprites.png
-|portrait=crab_portrait_anim.gif
-|meat=10
-|fat=10
-|brain=1
-|skin=chitin
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=crab_sprites.png|portrait=crab_portrait_anim.gif|meat=10|fat=10|brain=1|skin=chitin|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -25,12 +17,7 @@ Some [[dwarves]] [[Preferences|like]] crabs for their ''pincers'' and their ''si
 <!-- Reference: Crab Rave -->
 Crabs have been known to gather in droves at beaches and perform a fast-paced swaying dance of some kind, with their claws raised as if celebrating something.
 
-{{Translation
-| dwarven = ozsit
-| elvish  = ditari
-| goblin  = slalsto
-| human   = julosm
-}}
+{{Translation| dwarven = ozsit| elvish  = ditari| goblin  = slalsto| human   = julosm}}
 
 {{gamedata}}
 {{creatures}}

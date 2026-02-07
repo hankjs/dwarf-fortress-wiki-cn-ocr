@@ -34,8 +34,7 @@
 {{Gem table row|rarity=Semi-Precious|name=[[pinfire opal]]|value=20|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|fwhere=All [[stone]]|fhow=Small clusters}}
 {{Gem table row|rarity=Semi-Precious|name=[[precious fire opal]]|value=20|color={{Raw Tile|☼|4:7:1}}{{Raw Tile|♦|4:1}}<span style="display:none">4:1</span>|fwhere=All [[stone]]|fhow=Small clusters}}
 {{Gem table row|rarity=Semi-Precious|name=[[red flash opal]]|value=20|color={{Raw Tile|☼|4:7:1}}{{Raw Tile|♦|4:1}}<span style="display:none">4:1</span>|fwhere=All [[stone]]|fhow=Small clusters}}
-{{Gem table row|rarity=Semi-Precious|name=[[white opal]]|value=20|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|fwhere=All [[stone]]|fhow=Small clusters}}
-|}
+{{Gem table row|rarity=Semi-Precious|name=[[white opal]]|value=20|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|fwhere=All [[stone]]|fhow=Small clusters}}|}
 
 {{Category|Materials}}
 {{Category|Gems}}

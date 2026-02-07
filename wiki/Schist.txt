@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{layerlookup/0
-|graphic=schist_sprite.png}}
+{{layerlookup/0|graphic=schist_sprite.png}}
 {{av}}
 
 '''Schist''' is a [[metamorphic layer|metamorphic]] [[stone]]. It contains a wide variety of [[gem]]s.

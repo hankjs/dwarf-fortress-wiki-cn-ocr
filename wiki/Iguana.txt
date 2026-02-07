@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=iguana_sprites.png
-|portrait=iguana_portrait_anim.gif
-|bone=4
-|meat=6
-|skin=scale
-|fat=6
-|skull=1
-|intestine=1
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=iguana_sprites.png|portrait=iguana_portrait_anim.gif|bone=4|meat=6|skin=scale|fat=6|skull=1|intestine=1|contrib=no|wiki=yes}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

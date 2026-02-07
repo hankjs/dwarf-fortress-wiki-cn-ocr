@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:indigo_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Wood Crafter
-| specialty  = Woodcrafter
-| profession = [[Craftsdwarf]]
-| job name   = [[Woodcrafting]]
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Wood Crafter| specialty  = Woodcrafter| profession = [[Craftsdwarf]]| job name   = [[Woodcrafting]]| tasks      =
 * Make Wooden [[Craft]]s
 * Make Wooden [[Toy]]*
 * Make Wooden [[Instrument]]*
@@ -16,14 +8,11 @@
 * Make Wooden [[Nest box]]
 * Make Wooden [[Jug]]
 * Make Wooden [[Pot]]
-* Make Wooden [[Hive]]
-| workshop = [[Craftsdwarf's workshop]]
-| attributes =
+* Make Wooden [[Hive]]| workshop = [[Craftsdwarf's workshop]]| attributes =
 * Agility
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Wood crafter''' is the skill associated with the '''woodcrafting''' [[labor]]. Woodcrafters make [[wood]]en [[crafts]], [[bolt]]s, [[nest box]]es, [[jug]]s, [[pot]]s and [[hive]]s at a [[craftsdwarf's workshop]].  Some [[instrument]] and instrument parts may require wood crafting, depending on the particular world. As with other crafting skills, higher skill means faster performance and higher [[item quality]]. 

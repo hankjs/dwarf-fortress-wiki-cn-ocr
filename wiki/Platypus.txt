@@ -1,13 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=platypus_sprites.png
-|portrait=platypus_portrait_anim.gif
-|fat=2
-|meat=2
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=platypus_sprites.png|portrait=platypus_portrait_anim.gif|fat=2|meat=2|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

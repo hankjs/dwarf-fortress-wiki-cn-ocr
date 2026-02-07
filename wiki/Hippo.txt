@@ -1,26 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=hippo_sprites.png
-|portrait=hippo_portrait_anim.gif
-|contrib=no
-|bone=21-29
-|meat=14-54
-|fat=13-19
-|lung=2-4
-|heart=1
-|ivory=2-3
-|intestine=4-6
-|liver=1-2
-|tripe=1-2
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|eye=2
-|wiki=yes
-}}
+{{Creaturelookup/0|image=hippo_sprites.png|portrait=hippo_portrait_anim.gif|contrib=no|bone=21-29|meat=14-54|fat=13-19|lung=2-4|heart=1|ivory=2-3|intestine=4-6|liver=1-2|tripe=1-2|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|eye=2|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

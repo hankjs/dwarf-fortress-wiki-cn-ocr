@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=wren_sprite.png
-|portrait=wren_portrait.png}}
+{{verminlookup/0|image=wren_sprite.png|portrait=wren_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

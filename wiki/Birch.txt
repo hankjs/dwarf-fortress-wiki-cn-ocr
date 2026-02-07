@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{Treelookup/0
-|graphic=birch_trunk_sprite.png
-|sapling=birch_sapling.png}}
+{{Treelookup/0|graphic=birch_trunk_sprite.png|sapling=birch_sapling.png}}
 {{av}}
 
 '''Birch''' is a [[tree]] found in temperate broadleaf forests. They are the second [[Highwood|tallest tree]] in the game. In classic display mode, birch trees have the special quality of being the only normal tree in the game with a trunk color other than brown – specifically, white. Unfortunately, the logs that they produce are still brown (burnt umber, as described in the raws). With premium graphics, the trunks, wood, and products all use the burnt umber color. Logs can be processed in a [[dyer's shop]] into beige [[dye]].

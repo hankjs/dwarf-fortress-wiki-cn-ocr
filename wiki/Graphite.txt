@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=graphite_sprite.png}}
+{{stonelookup/0|graphic=graphite_sprite.png}}
 {{av}}
 
 '''Graphite''' is a [[stone]] found within certain [[metamorphic layer]]s.  Graphite is flammable on contact with [[magma]], but will never ''melt'', meaning burning graphite makes an excellent long-burning flame - a single boulder will burn for about nine and a half months before being consumed. This quality has applications in some fire-based [[trap design|traps]].

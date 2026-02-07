@@ -1,12 +1,8 @@
 {{migrated article}}
-{{Quality|Unrated}}{{Building|name=Wagon|key=(N/A)
-|construction=
-* 3 [[log]]s
-|construction_job=
-* [[Carpentry]]
-|purpose=
-Item storage during embark
-}}{{av}}
+{{Quality|Unrated}}{{Building|name=Wagon|key=(N/A)|construction=
+* 3 [[log]]s|construction_job=
+* [[Carpentry]]|purpose=
+Item storage during embark}}{{av}}
 {{For/see|further information on wagon "creatures" used by caravans|[[Wagon]]}}
 
 In [[fortress mode]], you usually start with a single ''immobile'' '''wagon''' that represents the transportation vehicle for all your supplies. An embark wagon is not a [[wagon|real vehicle]], and never moves - it simply sits there at the start of the game, representing where your dwarves decided to stop.  It contains any and all supplies that you selected at [[embark]] and bought with points; supplies cannot be bought later, but your dwarves can (try to) [[trade]] for whatever the seasonal [[caravan]]s bring.  Embarking with a large enough quantity of supplies can potentially result in receiving multiple wagons.

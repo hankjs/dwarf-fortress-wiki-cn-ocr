@@ -1,20 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=bugbat_sprite.png
-|portrait=bugbat_portrait.png
-|bone=8-12
-|meat=10-13
-|fat=10-13
-|skull=1
-|lung=2
-|intestine=1
-|liver=1
-|tripe=1
-|brain=1
-|skin=hide
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=bugbat_sprite.png|portrait=bugbat_portrait.png|bone=8-12|meat=10-13|fat=10-13|skull=1|lung=2|intestine=1|liver=1|tripe=1|brain=1|skin=hide|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

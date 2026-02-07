@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_rubicelle_sprite.png
-|graphic2=rough_rubicelle_sprite.png
-|wiki=Spinel}}{{av}}
+{{gemlookup/0|graphic=cut_rubicelle_sprite.png|graphic2=rough_rubicelle_sprite.png|wiki=Spinel}}{{av}}
 
 '''Rubicelle''', also known as yellow spinel, is a [[gem#value|semi-precious]] [[gem]] found in [[metamorphic]], [[diorite]], and [[gabbro]] [[stone layers]].
 

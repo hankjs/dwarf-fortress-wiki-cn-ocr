@@ -1,16 +1,9 @@
 {{Quality|Superior}}
-{{Metal
-|name=Lead
-|graphic=lead_bar_sprite.png
-|sample=
-[[File:LeadSample.png|256px|center|frameless]]
-|color=0:7:1
-|uses=
+{{Metal|name=Lead|graphic=lead_bar_sprite.png|sample=
+[[File:LeadSample.png|256px|center|frameless]]|color=0:7:1|uses=
 * Make [[lay pewter]] at [[smelter]]
-* [[Metalsmith's forge|Metal crafting]]
-|ore=
-* [[File:ore_silvery_sprite.png]] [[Galena]]
-|properties=
+* [[Metalsmith's forge|Metal crafting]]|ore=
+* [[File:ore_silvery_sprite.png]] [[Galena]]|properties=
 * [[Material value]] 2☼
 * [[Material science|Impact strength]] 42 MPa
 * [[Material science|Shear strength]] 12 MPa
@@ -21,8 +14,7 @@
 * [[Solid density]] 11340 kg/m³
 * Liquid [[density]] 10660 kg/m³
 * [[Specific heat]] 130 J/kg·K
-* [[Color]] taupe gray
-}}{{av}}
+* [[Color]] taupe gray}}{{av}}
 
 '''Lead''' is a heavy, low-value [[metal]] available only from [[galena]] [[ore]]. Unlike in real life, lead is '''not''' a biological toxin.  Lead is not magma-safe or even fire-safe –  it will melt in a grass fire.
 

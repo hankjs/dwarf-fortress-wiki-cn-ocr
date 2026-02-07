@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=sparrow_sprite.png
-|portrait=sparrow_portrait.png}}
+{{verminlookup/0|image=sparrow_sprite.png|portrait=sparrow_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

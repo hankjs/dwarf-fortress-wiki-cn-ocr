@@ -8,13 +8,7 @@
 
 Graphically, if revealed to be a vampire, dwarves and [[human]]s will have light green skin. [[Elves]], [[goblin]]s and [[kobold]]s on the other hand, will have blue skin. [[Animal people]] will appear as they are, with no color palette changes.
 ==Description==
-{{Translation
-| term = blood sucker
-| dwarven = nazush-eb
-| elvish  = cameda-pelese
-| goblin  = ogom-oson
-| human   = cadem-engo
-}}
+{{Translation| term = blood sucker| dwarven = nazush-eb| elvish  = cameda-pelese| goblin  = ogom-oson| human   = cadem-engo}}
 {{imagefix|[[File:df_vampire_portrait.png|left]]|8|0}}Vampires, like other night creatures, are created during world generation. The amount of vampires created during world generation is closely related to world size, population, and history, and it can be directly controlled with [[advanced world generation]]—a world generating with "{{tt|Number of Vampire Curse Types}}" set to {{tt|0}} in advanced world generation will not have any vampires in it. Every once in a while, a deity will curse a worshipper who desecrates their temple or otherwise offends them, cursing them to become either a vampire or [[werebeast]]. Any creature with blood, capable of learning, and not already a werebeast or undead, can, theoretically, become a vampire, but most vampires will be human or dwarven. However, since [[civilization]]s can have members not of their founding race, the occasional vampiric goblin, elf, or even [[Animal people|animal person]] will also occur.
 
 Vampires are much more powerful than normal humanoids, possessing enhanced speed, strength, [[No Exert|stamina]], and [[No Pain|pain resistance]] in combat, don't need [[food]], or need to breathe (and thus, cannot drown), and never get [[sleep|drowsy]]. They do, however, get thirsty, albeit not in the normal way; vampires thirst for warm, fresh blood, and will suck [[unconscious]] [[creature]]s (usually others of their own kind) dry given the chance, usually killing them. In the rare case that the victims survive and recover, they will not remember what happened to them, and may very well fall victim once more. It appears that when a vampire feeds successfully, they receive a large happiness boost.

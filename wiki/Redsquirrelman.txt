@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=red_squirrel_man_sprite.png
-|portrait=red_squirrel_man_portrait.png
-|contrib=no
-}}
+{{Creaturelookup/0|image=red_squirrel_man_sprite.png|portrait=red_squirrel_man_portrait.png|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

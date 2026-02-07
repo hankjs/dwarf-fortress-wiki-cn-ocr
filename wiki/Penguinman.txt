@@ -1,10 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=penguin_man_sprite.png
-|portrait=penguin_man_portrait.png
-|contrib=no
-|death=nobutcher
-|wiki=no}}
+{{Creaturelookup/0|image=penguin_man_sprite.png|portrait=penguin_man_portrait.png|contrib=no|death=nobutcher|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

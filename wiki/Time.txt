@@ -9,44 +9,8 @@
 
 Every tick causes the in-game clock to advance by a specific quantity of time that varies depending on the game mode. In adventurer mode, 1 tick moves time forward by 0.5 seconds, whereas in fortress mode this causes 72 seconds to pass by. Thus, the simulation of time runs 144 times faster in fortress mode on a per-tick basis [http://www.bay12forums.com/smf/index.php?topic=169696.msg8185557#msg8185557]. This disparity is a game design choice, with the faster pacing enabling fortress mode players to more easily observe their fort over the years, witnessing events that'd take an immense amount of real-life time to unfold if the adventurer mode scale were to be used instead.
 
-{| style="width:300px; float:left; border-right:1px dotted black;margin:0px 10px;"
-|+ '''Calendar time in fortress mode'''
-|-
-|1 second ||= {{frac|1|72}} tick ||
-|-
-|1 minute ||= 60 seconds||= {{frac|5|6}} tick
-|-
-|1 hour   ||= 60 minutes||= 50 ticks
-|-
-|1 day    ||= 24 hours  ||= 1200 ticks
-|-
-|1 week   ||= 7 days    ||= 8400 ticks
-|-
-|1 month  ||= 4 weeks   ||= 33600 ticks
-|-
-|1 season ||= 3 months  ||= 100800 ticks
-|-
-|1 year   ||= 4 seasons ||= 403200 ticks
-|}
-{| style="width:300px; float:left;"
-|+ '''Calendar time in adventurer mode'''
-|-
-|1 second ||= 2 ticks   ||
-|-
-|1 minute ||= 60 seconds||= 120 ticks
-|-
-|1 hour   ||= 60 minutes||= 7200 ticks
-|-
-|1 day    ||= 24 hours  ||= 172800 ticks
-|-
-|1 week   ||= 7 days    ||= 1209600 ticks
-|-
-|1 month  ||= 4 weeks   ||= 4838400 ticks
-|-
-|1 season ||= 3 months  ||=  14515200 ticks
-|-
-|1 year   ||= 4 seasons ||= 58060800 ticks
-|}{{Clear}}
+{| style="width:300px; float:left; border-right:1px dotted black;margin:0px 10px;"|+ '''Calendar time in fortress mode'''|-|1 second ||= {{frac|1|72}} tick |||-|1 minute ||= 60 seconds||= {{frac|5|6}} tick|-|1 hour   ||= 60 minutes||= 50 ticks|-|1 day    ||= 24 hours  ||= 1200 ticks|-|1 week   ||= 7 days    ||= 8400 ticks|-|1 month  ||= 4 weeks   ||= 33600 ticks|-|1 season ||= 3 months  ||= 100800 ticks|-|1 year   ||= 4 seasons ||= 403200 ticks|}
+{| style="width:300px; float:left;"|+ '''Calendar time in adventurer mode'''|-|1 second ||= 2 ticks   |||-|1 minute ||= 60 seconds||= 120 ticks|-|1 hour   ||= 60 minutes||= 7200 ticks|-|1 day    ||= 24 hours  ||= 172800 ticks|-|1 week   ||= 7 days    ||= 1209600 ticks|-|1 month  ||= 4 weeks   ||= 4838400 ticks|-|1 season ||= 3 months  ||=  14515200 ticks|-|1 year   ||= 4 seasons ||= 58060800 ticks|}{{Clear}}
 
 ====Framerate====
 
@@ -105,12 +69,7 @@ Additionally, plant growths such as leaves, flowers, and fruits express their ti
 == Clocks ==
 Based on the fact that [[pressure plate]]s take 100 ticks to reset, some people have built various time-keeping devices to do various things around the fort, like flooding a trap once a month, or just for fun.
 
-{{Translation
-| dwarven = ashok
-| elvish  = nela
-| goblin  = aspsa
-| human   = atir
-}}
+{{Translation| dwarven = ashok| elvish  = nela| goblin  = aspsa| human   = atir}}
 
 {{Category|Physics}}
 [[ru:Time]]

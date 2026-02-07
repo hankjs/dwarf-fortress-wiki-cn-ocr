@@ -1,17 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_mosquito_sprite.png
-|portrait=mosquito_portrait.png
-|contrib=no
-|wiki=no
-|meat=40-64
-|fat=15-17
-|eye=2
-|heart=1
-|intestine=8
-|brain=2
-|skin=chitin
-}}
+{{Creaturelookup/0|image=giant_mosquito_sprite.png|portrait=mosquito_portrait.png|contrib=no|wiki=no|meat=40-64|fat=15-17|eye=2|heart=1|intestine=8|brain=2|skin=chitin}}
 {{av}}
 {{creaturedesc}}
 

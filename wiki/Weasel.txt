@@ -1,9 +1,5 @@
 {{Quality|Superior|01:06, 16 February 2023}}
-{{creaturelookup/0
-|image=weasel_sprites.png
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=weasel_sprites.png|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -14,11 +10,7 @@ Weasels may be captured in [[cage]] [[trap]]s and [[Animal trainer|trained]] int
 Some [[Dwarf|dwarves]] [[Preferences|like]] weasels for their ''long bodies'' and their ''short legs''.
 ==Trivia==
 *Weasels share the same sprites as [[stoat]]s.
-{{Translation
-| dwarven = bamgûs
-| elvish  = lethina
-| goblin  = balu
-| human   = lussum}}
+{{Translation| dwarven = bamgûs| elvish  = lethina| goblin  = balu| human   = lussum}}
 [[File:Mustela nivalis -British Wildlife Centre-4.jpg|thumb|center|400px|Admired for its ''short legs''.]]
 
 {{gamedata}}

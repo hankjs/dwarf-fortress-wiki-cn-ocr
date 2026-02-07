@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=honey_badger_man_sprite.png
-|portrait=honey_badger_man_portrait.png}}
+{{Creaturelookup/0|image=honey_badger_man_sprite.png|portrait=honey_badger_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

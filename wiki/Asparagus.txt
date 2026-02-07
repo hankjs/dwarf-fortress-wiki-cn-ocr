@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=asparagus_shrub_sprite.png
-|seedimage=asparagus_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=asparagus_shrub_sprite.png|seedimage=asparagus_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Asparagus''' is an [[aboveground]] [[crop|garden vegetable]]. It can be planted in all seasons, and is edible raw or [[cooking|cooked]].

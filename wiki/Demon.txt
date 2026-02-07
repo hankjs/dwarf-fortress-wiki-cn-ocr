@@ -215,8 +215,7 @@ Little do demons know that though their claws and fire cannot pierce the [[adama
 [GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
 [GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
 [DESCRIPTION:A towering slug composed of salt.  It has wings and it has a gaunt appearance.]
-[PREFSTRING:horrifying features]
-}}
+[PREFSTRING:horrifying features]}}
 
 {{gamedata|title=Example [UNIQUE_DEMON] raws (as extracted from world.sav)|[OBJECT:CREATURE]
 
@@ -414,8 +413,7 @@ Little do demons know that though their claws and fire cannot pierce the [[adama
 [GAIT:CLIMB:Climb:900:NO_BUILD_UP:0]
 [GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
 [GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
-[DESCRIPTION:A gigantic eyeless chameleon twisted into humanoid form.  It squirms and fidgets.  Its clear scales are large and set far apart.  Beware its noxious secretions!]
-}}
+[DESCRIPTION:A gigantic eyeless chameleon twisted into humanoid form.  It squirms and fidgets.  Its clear scales are large and set far apart.  Beware its noxious secretions!]}}
 
 {{Creatures}}
 {{Category|Amphibious}}
@@ -429,9 +427,4 @@ Little do demons know that though their claws and fire cannot pierce the [[adama
 {{Category|No Stun}}
 [[ru:Demon]]
 
-{{Translation
-| dwarven = uthgúr
-| elvish  = slevina
-| goblin  = arstruk
-| human   = rohir
-}}
+{{Translation| dwarven = uthgúr| elvish  = slevina| goblin  = arstruk| human   = rohir}}

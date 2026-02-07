@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{Treelookup/0
-|graphic=apple_trunk_sprite.png
-|product=apple_sprite.png
-|sapling=apple_sapling.png}}
+{{Treelookup/0|graphic=apple_trunk_sprite.png|product=apple_sprite.png|sapling=apple_sapling.png}}
 {{av}}
 
 '''Apple''' is one of the many genera of [[tree]]s found above ground. Like most trees, apple [[wood]] is brown and produces brown products.
@@ -16,12 +13,7 @@ Some [[Dwarf|dwarves]] [[Preferences|like]] apple trees for their ''fruit''.
 
 [[File:Apfelbaum Winterrambour Hochstamm.jpg|thumb|center|300px|Admired for its ''fruit''.]]
 
-{{Translation
-| dwarven = bemòng
-| elvish  = fena
-| goblin  = slusna
-| human   = ramet
-}}
+{{Translation| dwarven = bemòng| elvish  = fena| goblin  = slusna| human   = ramet}}
 
 
 {{D for Dwarf}}

@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = shed
-| elvish  = cadame
-| goblin  = spakmuz
-| human   = kor
-}}
+{{Translation| dwarven = shed| elvish  = cadame| goblin  = spakmuz| human   = kor}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of discipline, laws, oaths, or order will have words from this symbol in their name.

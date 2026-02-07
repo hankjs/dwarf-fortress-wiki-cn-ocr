@@ -1,23 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=Basking Shark premium.png
-|portrait=basking_shark_portrait.png
-|contrib=no
-|meat=400-550
-|eye=2
-|heart=19
-|intestine=100-140
-|liver=39
-|tripe=39
-|sweetbread=19
-|spleen=19
-|kidney=36-44
-|fat=90-120
-|brain=34-46
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=Basking Shark premium.png|portrait=basking_shark_portrait.png|contrib=no|meat=400-550|eye=2|heart=19|intestine=100-140|liver=39|tripe=39|sweetbread=19|spleen=19|kidney=36-44|fat=90-120|brain=34-46|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

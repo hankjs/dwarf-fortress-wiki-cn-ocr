@@ -1,24 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_leopard_gecko_sprite.png
-|portrait=gecko_leopard_portrait.png
-|bone=18
-|meat=13
-|scale=yes
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|cartilage=0-1
-|fat=12
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_leopard_gecko_sprite.png|portrait=gecko_leopard_portrait.png|bone=18|meat=13|scale=yes|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|cartilage=0-1|fat=12|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=parakeet_sprite.png
-|portrait=parakeet_portrait.png}}
+{{verminlookup/0|image=parakeet_sprite.png|portrait=parakeet_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

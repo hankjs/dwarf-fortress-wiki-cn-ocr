@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=radish_shrub_sprite.png
-|seedimage=radish_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=radish_shrub_sprite.png|seedimage=radish_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Food]]
-}}
+*[[Food]]}}
 {{av}}
 
 '''Radishes''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons, is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|radish wine]] or processed in a [[dyer's shop]] into pale pink [[dye]].

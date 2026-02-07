@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=microcline_sprite.png}}
+{{stonelookup/0|graphic=microcline_sprite.png}}
 {{av}}
 :''You have struck microcline!''
 

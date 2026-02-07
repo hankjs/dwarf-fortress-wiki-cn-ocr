@@ -1,14 +1,11 @@
 
 {{Quality|Exceptional}}
 {{av}}
-{{Noble
-| noble=Broker
-| function=
+{{Noble| noble=Broker| function=
 * Valuation of items at depot
 * Visibility of item [[value]]s
 * Display of fortress [[wealth]] on<br> [[status]] popup
-* Reports [[wealth]] to attract [[Immigration|migrants]] 
-|arrival=Appointed on the [[nobles screen]].}}
+* Reports [[wealth]] to attract [[Immigration|migrants]] |arrival=Appointed on the [[nobles screen]].}}
 The '''broker''' is a useful [[noble]] with no [[demand]]s or [[Noble#Needs|requirements]]. A broker has several duties in the running of an organized fortress.
 
 After you appoint a broker with the [[appraiser]] skill through the {{menu icon|n}} Noble screen, you can see fortress [[wealth]] and trade information in a [[status]] popup by hovering your mouse over your civilization name in the top left of the Fortress UI. (The exactness with which this can be seen is determined by the duties of the [[bookkeeper]].) Your broker's appraiser skill is also used to determine whether to display item values, in general and in the [[trade depot]].
@@ -22,22 +19,7 @@ At the [[trade depot]], you can specify that only the broker may [[trade]] with 
 
 ==Relevant skills==
 Of the social skills, those in bold change the effectiveness of a Broker (and are trained by trading), the others do not:
-{| class="wikitable"
-| '''[[Judge of intent]]''' 
-| '''[[Liar]]'''
-| Conversationalist
-| '''[[Intimidator]]'''
-|-
-| '''[[Appraiser]]'''
-| '''[[Comedian]]'''
-| '''[[Persuader]]'''
-| Pacifier
-|-
-| '''[[Negotiator]]'''
-| '''[[Flatterer]]'''
-| Consoler
-|
-|}
+{| class="wikitable"| '''[[Judge of intent]]''' | '''[[Liar]]'''| Conversationalist| '''[[Intimidator]]'''|-| '''[[Appraiser]]'''| '''[[Comedian]]'''| '''[[Persuader]]'''| Pacifier|-| '''[[Negotiator]]'''| '''[[Flatterer]]'''| Consoler||}
 
 When selecting a broker, all of the above skills will appear as relevant, but not all are. The skills in bold change the way that the merchants respond to your actions, eg. making a counter-offer or accepting an offer, while the profit margin is not yet green.
 

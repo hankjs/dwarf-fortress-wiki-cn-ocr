@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = ngutug
-| elvish  = mori
-| goblin  = snuto
-| human   = sogul
-}}
+{{Translation| dwarven = ngutug| elvish  = mori| goblin  = snuto| human   = sogul}}
 ==Usage==
 [[Historical figure|Legendary beings]], such as a [[bogeyman]] or a [[nightmare]], associated with the [[sphere]] of misery will have words from this symbol in their name.
 

@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=pearl_millet_shrub_sprite.png
-|seedimage=pearl_millet_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=pearl_millet_shrub_sprite.png|seedimage=pearl_millet_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Flour]]
-}}
+*[[Flour]]}}
 {{av}}
 
 '''Pearl millet''' is an [[aboveground]] [[crop]]. It can either be [[milling|milled]] into [[flour|pearl millet flour]] or [[brewing|brewed]] into [[alcohol|pearl millet beer]].

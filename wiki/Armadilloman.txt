@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0|image=armadillo_man_sprite.png
-|portrait=armadillo_man_portrait.png}}
+{{Creaturelookup/0|image=armadillo_man_sprite.png|portrait=armadillo_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

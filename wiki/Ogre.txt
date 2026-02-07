@@ -1,9 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=ogre_sprites.png
-|portrait=ogre_portrait.png
-|wiki=yes
-}}
+{{Creaturelookup/0|image=ogre_sprites.png|portrait=ogre_portrait.png|wiki=yes}}
 {{av}}
 {{Distinguish|Blind cave ogre}}
 {{creaturedesc}}

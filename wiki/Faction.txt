@@ -8,202 +8,19 @@ In the [[object testing arena]], each creature created can be tied to a faction 
 
 The table below shows the behavior of different factions when confronted:
 
-{| class="wikitable"
-|- bgcolor="#dddddd"
-|
-| '''[[Dwarf|Dwarves]]'''
-| '''[[Elf|Elves]]'''
-| '''[[Human]]s'''
-| '''[[Goblin]]s'''
-| '''[[Kobold]]s'''
-| '''[[Necromancer]]s'''
-| '''[[Undead]]'''
-| '''[[Surroundings|Wildlife]]'''
-| '''[[Animal people|Cave civs]]'''<sup>2</sup>
-| '''[[Semi-megabeast|(Semi-)]][[Megabeast]]s'''
-| '''[[Demon|HFS]]'''
-| '''[[Werebeast]]s'''<sup>3</sup>
-
-|-
-| '''Dwarves'''
-|style="background-color:#cfc"| Friendly
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Elves'''
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#cfc"| Friendly
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Humans'''
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#cfc"| Friendly<sup>1</sup>
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile<sup>4</sup>
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Goblins'''
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#fcc"| Hostile<sup>1</sup>
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile<sup>4</sup>
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Kobolds'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Necromancers'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Undead'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Wildlife'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-| Variable<sup>5</sup>
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|- 
-| '''Cave civs'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''(Semi-)Megabeasts'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''HFS'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#cfc"| Friendly
-|style="background-color:#fcc"| Hostile
-
-|-
-| '''Werebeasts'''
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-|style="background-color:#fcc"| Hostile
-| Variable<sup>3</sup>
-|}
+{| class="wikitable"|- bgcolor="#dddddd"|| '''[[Dwarf|Dwarves]]'''| '''[[Elf|Elves]]'''| '''[[Human]]s'''| '''[[Goblin]]s'''| '''[[Kobold]]s'''| '''[[Necromancer]]s'''| '''[[Undead]]'''| '''[[Surroundings|Wildlife]]'''| '''[[Animal people|Cave civs]]'''<sup>2</sup>| '''[[Semi-megabeast|(Semi-)]][[Megabeast]]s'''| '''[[Demon|HFS]]'''| '''[[Werebeast]]s'''<sup>3</sup>
+|-| '''Dwarves'''|style="background-color:#cfc"| Friendly|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''Elves'''|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#cfc"| Friendly|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''Humans'''|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#cfc"| Friendly<sup>1</sup>|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile<sup>4</sup>|style="background-color:#fcc"| Hostile
+|-| '''Goblins'''|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#fcc"| Hostile<sup>1</sup>|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile<sup>4</sup>|style="background-color:#fcc"| Hostile
+|-| '''Kobolds'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''Necromancers'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''Undead'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''Wildlife'''|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile| Variable<sup>5</sup>|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|- | '''Cave civs'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''(Semi-)Megabeasts'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile
+|-| '''HFS'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#cfc"| Friendly|style="background-color:#fcc"| Hostile
+|-| '''Werebeasts'''|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile|style="background-color:#fcc"| Hostile| Variable<sup>3</sup>|}
 
 <sup>1</sup><small>Advanced civilizations are subject to the mechanisms of [[diplomat|diplomacy]] and may routinely go to [[war]] or conclude peace treaties depending on [[World generation|worldgen]] and according to each civilization's [[ethics]]. On the one hand, war against elves or humans is not that uncommon; on the other hand, goblins will almost always be hostile toward everyone else.</small>
 
@@ -291,12 +108,7 @@ Interestingly, the offspring of such creatures do ''not'' count as enemies of yo
 If for some reason a demon is given a nobility title, they will turn neutral to creatures from the same faction. If they are given a [[religion|religious]] title, they will slaughter everyone with a different religion. Bestowing nobility titles can be a way to turn normally hostile creatures like [[night troll]]s or even [[bogeymen]] into becoming friendly to the parent civ the nobility relates to.
 
 ==Loyalty cascade==
-{{Translation
-| dwarven = uzlir
-| elvish  = anoni
-| goblin  = osmrur
-| human   = ozo
-}}
+{{Translation| dwarven = uzlir| elvish  = anoni| goblin  = osmrur| human   = ozo}}
 Loyalty cascades are the result of entity members attacking each other. The conflict will escalate into a full civil war (hence Toady One referring to it as the "civil war bug") and won't resolve until one side of the conflict is wiped out. Loyalty cascades can be triggered in both fortress and adventure mode.
 
 ===Attacking [[Trade|merchants]] from your mountainhome===

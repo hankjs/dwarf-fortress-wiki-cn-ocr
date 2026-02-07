@@ -1,13 +1,8 @@
 {{Quality|Exceptional}}
 {{av}}
-{{V50 machine|name=Floodgate|key=f
-|icon=[[File:floodgate_icon.png]]
-|construction=
-* 1 '''Floodgate'''
-|construction_job=
-* [[Mechanics]]
-|power=Uses 0 power.
-}}
+{{V50 machine|name=Floodgate|key=f|icon=[[File:floodgate_icon.png]]|construction=
+* 1 '''Floodgate'''|construction_job=
+* [[Mechanics]]|power=Uses 0 power.}}
 
 A '''floodgate''' is a gate which allows control of the flow of liquids, such as [[water]] or [[magma]]. They are operated by [[mechanism]]s, such as [[lever]]s or [[pressure plate]]s, which open and close them. When closed, they behave like walls, but when opened, allow liquids, objects, and [[creatures]] to pass over them.
 Closed floodgates are shown in-game as "X" symbols.

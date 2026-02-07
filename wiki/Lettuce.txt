@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=lettuce_shrub_sprite.png
-|seedimage=lettuce_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=lettuce_shrub_sprite.png|seedimage=lettuce_seeds_sprite.png|uses=
 * [[Food]]}}
 {{av}}
 

@@ -1,14 +1,9 @@
 {{Quality|Superior}}
-{{v50_workshop|name=Magma kiln|key=u|key2=K
-|job=
+{{v50_workshop|name=Magma kiln|key=u|key2=K|job=
 *[[Furnace operator]]
 *[[Potter]]
-*[[Glazer]]
-|construction=
-* [[Magma-safe]] [[building material]] (non-[[economic]])
-|icon=[[File:kiln_icon.png]]
-|construction_job={{Material-specific building labors|stone,metal}}
-|use=
+*[[Glazer]]|construction=
+* [[Magma-safe]] [[building material]] (non-[[economic]])|icon=[[File:kiln_icon.png]]|construction_job={{Material-specific building labors|stone,metal}}|use=
 * [[Potash]]
 * [[Gypsum]]
 * [[Alabaster]]
@@ -21,8 +16,7 @@
 * [[Clay loam]]
 * [[Fire clay]]
 * [[Ash]]
-* [[Cassiterite]]
-|production=
+* [[Cassiterite]]|production=
 * [[Pearlash]]
 * [[Gypsum plaster]]
 * [[Ceramic]] [[Jug]]
@@ -34,8 +28,7 @@
 * [[Ceramic]] [[Hive]]
 * [[Quicklime]]{{version|0.42.01}}
 * [[Instruments]]{{version|0.42.01}}
-* [[Instrument piece|Instrument pieces]]{{version|0.42.01}}
-}}
+* [[Instrument piece|Instrument pieces]]{{version|0.42.01}}}}
 {{av}}
 
 A '''magma kiln''' behaves the same as a [[kiln]], differing only by the fact that it uses the heat from [[magma]] instead of requiring [[fuel]]. Like all magma furnaces, it must be built out of magma-safe materials, and one of the edge tiles must be directly above a tile of magma at least 4/7 deep.

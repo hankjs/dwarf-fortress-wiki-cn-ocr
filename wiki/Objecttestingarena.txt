@@ -104,64 +104,17 @@ The layouts of the default arena zones are stored in <code>data/init/arena.txt</
 
 The arena is composed of 9 [[z-level]]s (including Z=0, from Z=-4 to Z=4) of 144 x 144 tiles; the contents of each tile are specified by a single character:
 
-{| class="wikitable pre-table"
-|- bgcolor="#ddd"
+{| class="wikitable pre-table"|- bgcolor="#ddd"
 ! Character
 ! Description
-
-|-
-| <pre>#</pre>
-| [[Open space|Empty tile]] <sup>[1]</sup>
-|-
-| <pre>C</pre>
-| [[Chasm]]
-
-|-
-| <pre>.</pre>
-| [[Block]] [[floor]]
-
-|-
-| <pre>P</pre>
-| [[Block]] [[wall|pillar/wall]]
-
-|-
-| <pre>R</pre>
-| [[Block]] [[ramp]]
-
-|-
-| <pre>F</pre>
-| [[Block]] [[fortification]]
-
-|-
-| <pre>+</pre>
-| [[Water]] source <sup>[1] [2]</sup>
-|-
-| <pre>W</pre>
-| 7/7 [[water]] <sup>[1]</sup>
-|-
-| <pre>w</pre>
-| 7/7 [[water]] + upward [[ramp]]
-
-|-
-| <pre>L</pre>
-| 7/7 [[magma|magma/lava]] <sup>[1]</sup>
-|-
-| <pre>l</pre>
-| 7/7 [[magma|magma/lava]] + upward [[ramp]]
-
-|-
-| <pre>g</pre>
-| [[Grass]] <sup>[3]</sup>
-|-
-| <pre>T</pre>
-| [[Tree]] <sup>[3]</sup>
-|-
-| <pre>~</pre>
-| [[Sand]] <sup>[3]</sup>
-|-
-| <pre>,</pre>
-| [[Soil]] <sup>[3]</sup>
-
+|-| <pre>#</pre>| [[Open space|Empty tile]] <sup>[1]</sup>|-| <pre>C</pre>| [[Chasm]]
+|-| <pre>.</pre>| [[Block]] [[floor]]
+|-| <pre>P</pre>| [[Block]] [[wall|pillar/wall]]
+|-| <pre>R</pre>| [[Block]] [[ramp]]
+|-| <pre>F</pre>| [[Block]] [[fortification]]
+|-| <pre>+</pre>| [[Water]] source <sup>[1] [2]</sup>|-| <pre>W</pre>| 7/7 [[water]] <sup>[1]</sup>|-| <pre>w</pre>| 7/7 [[water]] + upward [[ramp]]
+|-| <pre>L</pre>| 7/7 [[magma|magma/lava]] <sup>[1]</sup>|-| <pre>l</pre>| 7/7 [[magma|magma/lava]] + upward [[ramp]]
+|-| <pre>g</pre>| [[Grass]] <sup>[3]</sup>|-| <pre>T</pre>| [[Tree]] <sup>[3]</sup>|-| <pre>~</pre>| [[Sand]] <sup>[3]</sup>|-| <pre>,</pre>| [[Soil]] <sup>[3]</sup>
 |}
 <small>
 # Tile will have no floor unless a pillar/wall is constructed on the z-level below.

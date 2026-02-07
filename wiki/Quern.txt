@@ -1,25 +1,18 @@
 {{Quality|Fine}}
 {{av}} 
-{{v50 workshop|name=Quern|key=f|key2=q
-|icon=[[File:quern_icon.png]]
-|job=
+{{v50 workshop|name=Quern|key=f|key2=q|icon=[[File:quern_icon.png]]|job=
 * [[Milling]]
-* [[Papermaking]]
-|construction=
-* [[Furniture|Quern]]
-|construction_job=
-* [[Milling]]
-|use=
+* [[Papermaking]]|construction=
+* [[Furniture|Quern]]|construction_job=
+* [[Milling]]|use=
 * [[:Category:Millable|Millable plants]]
 * [[Oil]]-[[:Category:Pressable|bearing]] [[seed]]s
-* [[Plant fiber]]s
-|production=
+* [[Plant fiber]]s|production=
 * [[Flour]]
 * [[Dwarven sugar]]
 * [[Dye]]
 * [[Glob#Paste|Paste]]
-* [[Slurry]]
-}}
+* [[Slurry]]}}
 
 A '''quern''' is a single-square [[workshop]] used to grind certain [[plant]]s into [[sugar]], [[flour]], [[dye]], and [[slurry]]. Each milling job requires an empty [[bag]], as the process will also produce [[seed]]s from plants being milled. Unlike a [[millstone]], the quern is powered by the dwarf using it to perform the labor. A quern item must be created at a [[Stoneworker's workshop]] by a [[stone carver]] before it can be built as a workshop.
 

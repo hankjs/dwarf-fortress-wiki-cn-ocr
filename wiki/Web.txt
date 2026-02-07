@@ -19,12 +19,7 @@ Webs are delicate, and can be destroyed by contact with any creature (except a d
 == Adventurer mode ==
 When you're stuck and can't get up, press {{k|.}} to advance time; you automatically get free. When enemies are near you should press {{k|,}} for shorter ticks.  Furthermore, you are unaffected by webs while [[Climber|climbing]]. You can also [[jump]] onto the webbed tile. [[Animal_people|Spider people]] can just walk onto the tile. While sharing a tile with the web, you can pick it up, and if you have an empty hand the web will be gathered as thread, but if you don't, the web will be gathered and placed in your backpack as web. Such web can be placed by dropping or throwing it. Any webs may disappear if the area is unloaded (such as by sleeping, waiting, traveling, etc) while web in your inventory will become thread. Also, new webs may appear when an area is reloaded.
 [[File:web_preview.jpg|thumb|300px|center|Urist likes webs for their ability to ''catch obnoxious flies''.]]
-{{Translation
-| dwarven = orshar
-| elvish  = ilu
-| goblin  = ngostong
-| human   = mete
-}}
+{{Translation| dwarven = orshar| elvish  = ilu| goblin  = ngostong| human   = mete}}
 
 {{Category|Items}}
 {{Category|Creature attributes}}

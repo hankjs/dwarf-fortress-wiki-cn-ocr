@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=snowy_owl_man_sprite.png
-|portrait=snowy_owl_man_portrait.png}}
+{{Creaturelookup/0|image=snowy_owl_man_sprite.png|portrait=snowy_owl_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

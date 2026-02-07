@@ -1,7 +1,5 @@
 {{Quality|Masterwork}}
-{{stonelookup/0
-|graphic=raw_adamantine_sprite.png
-|wiki=Adamant}}
+{{stonelookup/0|graphic=raw_adamantine_sprite.png|wiki=Adamant}}
 {{av}}
 {{minorspoiler}}
 

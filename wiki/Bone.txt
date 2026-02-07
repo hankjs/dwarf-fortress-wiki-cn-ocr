@@ -47,12 +47,7 @@ Adventurers will come across bones every time they butcher the corpse of a creat
 
 So long as you're successfully hunting animals, this will net you a significant amount of wealth to trade, especially once the PC's [[bone carving]] skill rises and they start producing higher-quality items. If you have enough strength to handle a little extra weight, the jewelry is also worthwhile, acting as a very minor form of armor and potentially deflecting enemy attacks. It is not currently possible to produce ''actual'' bone armor in adventure mode, however.
 
-{{Translation
-| dwarven = osod
-| elvish = one
-| goblin = mudo
-| human = sut
-}}
+{{Translation| dwarven = osod| elvish = one| goblin = mudo| human = sut}}
 
 {{gamedata}}
 {{materials}}

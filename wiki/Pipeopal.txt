@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_pipe_opal_sprite.png
-|graphic2=rough_pipe_opal_sprite.png
-|wiki=Opal}}
+{{gemlookup/0|graphic=cut_pipe_opal_sprite.png|graphic2=rough_pipe_opal_sprite.png|wiki=Opal}}
 {{av}}
 
 '''Pipe opals''' are moderately valuable white or ivory [[gem]]s, that can be found in small clusters in any type of stone.

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=leopard_gecko_man_sprite.png
-|portrait=leopard_gecko_man_portrait.png}}
+{{Creaturelookup/0|image=leopard_gecko_man_sprite.png|portrait=leopard_gecko_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_cardinal_sprite.png
-|portrait=cardinal_portrait.png
-|bone=24-26
-|meat=19-21
-|skin=hide
-|fat=12-14
-|skull=1
-|brain=1
-|feather=1
-|gizzard=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_cardinal_sprite.png|portrait=cardinal_portrait.png|bone=24-26|meat=19-21|skin=hide|fat=12-14|skull=1|brain=1|feather=1|gizzard=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant cardinals''' are [[giant animal]] variants of the common [[cardinal]], found in a number of [[savage]] [[temperate]] [[biome]]s. They spawn in flocks of anywhere between 5 and 10 individuals. Being three times the size of the average [[dwarf]], these birds may pose a threat if provoked, but will generally leave a fortress alone save for potential job cancellations or scaring livestock out of [[pasture]]s.

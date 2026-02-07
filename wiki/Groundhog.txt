@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=groundhog_sprites.png
-|portrait=groundhog_portrait_anim.gif
-|contrib=no
-|bone=4
-|meat=6
-|fat=6
-|skin=hide
-|skull=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=groundhog_sprites.png|portrait=groundhog_portrait_anim.gif|contrib=no|bone=4|meat=6|fat=6|skin=hide|skull=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

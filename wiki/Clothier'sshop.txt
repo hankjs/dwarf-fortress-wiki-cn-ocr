@@ -1,23 +1,14 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{v50 workshop|name=Clothier's shop
-|key1=l
-|key2=k
-|job=[[Clothier|Clothesmaking]]
-|icon=[[File:clothiers_shop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Clothier|Clothesmaking]]
-|use=
+{{v50 workshop|name=Clothier's shop|key1=l|key2=k|job=[[Clothier|Clothesmaking]]|icon=[[File:clothiers_shop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Clothier|Clothesmaking]]|use=
 * [[Cloth]]
 * Wool cloth (called [[Yarn]] in the job menu)
-* [[Silk]]
-|production=
+* [[Silk]]|production=
 * [[Bag]]
 * [[Clothing]] (cap, cloak, coat, glove, hood, loincloth, mitten, robe, shirt, shoe, sock, trousers, tunic and vest)
-* [[Rope]]
-}}{{av}}
+* [[Rope]]}}{{av}}
 
 The '''Clothier's shop''' is a [[workshop]] used by a [[Clothier]] to make [[clothes]], [[rope]]s and [[bag]]s. It can use [[cloth]] made from plant fibers, wool cloth made from [[yarn]] or [[silk]] cloth made from collected spider webs as raw materials. It can also be used to [[decoration|sew images]] onto [[finished goods]]. Cloth and silk must be either bought from [[trading|caravans]] or [[weaver|woven]] at a [[loom]].
 

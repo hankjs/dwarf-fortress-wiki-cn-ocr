@@ -1,13 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=fire_man_sprite.png
-|portrait=fire_man_portrait.png
-|vary=no
-|wiki=no
-|contrib=no
-|death=item
-|item=[[Ash]]
-}}
+{{Creaturelookup/0|image=fire_man_sprite.png|portrait=fire_man_portrait.png|vary=no|wiki=no|contrib=no|death=item|item=[[Ash]]}}
 {{av}}
 {{creaturedesc}}
 '''Fire men''' are exceptionally rare [[construct creature]]s made of [[fire]], found in the [[magma sea]]. They stand at the size of a [[human]], feel no emotion, [[No Exert|no exertion]], don't need to breathe, are [[No Pain|immune to pain]] and [[No Stun|cannot be stunned]]. When a fire man is killed, it leaves behind a [[bar]] of [[ash]] which can be made into [[lye]] or [[potash]]. Because they live in the magma sea and are [[building destroyer]]s, one should be cautious when setting up [[magma forge]]s in the event one of them actually shows up. Despite being made of fire, they can be safely captured and stored in wooden [[cage]]s and are unharmed by touching [[water]]. Fire men are immortal and only die from violence.

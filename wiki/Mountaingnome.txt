@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=mountain_gnome_sprites.png
-|portrait=mountain_gnome_portrait.png
-|death=nobutcher
-|contrib=no
-|wiki=Gnome
-}}
+{{Creaturelookup/0|image=mountain_gnome_sprites.png|portrait=mountain_gnome_portrait.png|death=nobutcher|contrib=no|wiki=Gnome}}
 {{av}}
 {{creaturedesc}}
 

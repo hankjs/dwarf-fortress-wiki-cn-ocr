@@ -1,18 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_mantis_sprite.png
-|portrait=mantis_portrait.png
-|vary=[[Mantis]]  - [[Mantis man]] - [[Giant mantis]]
-|contrib=no
-|wiki=no
-|fat=19
-|eye=2
-|heart=1
-|intestine=8
-|brain=2
-|meat=40
-|skin=chitin
-}}
+{{Creaturelookup/0|image=giant_mantis_sprite.png|portrait=mantis_portrait.png|vary=[[Mantis]]  - [[Mantis man]] - [[Giant mantis]]|contrib=no|wiki=no|fat=19|eye=2|heart=1|intestine=8|brain=2|meat=40|skin=chitin}}
 {{av}}
 {{creaturedesc}}
 '''Giant mantises''' are large (size 200000, like most [[Giant animal|giant]] arthropods) fliers that enter your map alone, and spend most of the time flying all around the map. They are not aggressive if left alone, but they have the unique ability of being able to latch on flesh with their forearms, making them quite good fighters if pressed.

@@ -1,19 +1,11 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 7:1
-| graphic    = <div style="margin-left:9px;">[[File:engraver_sprite.png]]</div>
-| skill      = Engraver
-| profession = [[Stoneworker]]
-| job name   = [[Stone engraving]]
-| tasks      =
+{{v50_skill| color      = 7:1| graphic    = <div style="margin-left:9px;">[[File:engraver_sprite.png]]</div>| skill      = Engraver| profession = [[Stoneworker]]| job name   = [[Stone engraving]]| tasks      =
 * [[Engrave stone]]
-* [[Engrave memorial slab]]
-| attributes =
+* [[Engrave memorial slab]]| attributes =
 * [[Agility]]
 * [[Creativity]]
 * [[Spatial Sense]]
-* [[Kinesthetic Sense]]
-}}
+* [[Kinesthetic Sense]]}}
 {{av}}
 '''Engraver''' is the skill used for [[engraving]] walls and floors and engraving memorial [[slabs]].
 

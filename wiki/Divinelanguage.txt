@@ -6,24 +6,14 @@
 ==Orthography==
 Each divine language draws from pools of randomly-chosen consonants and vowels for its words, covering the entire ISO basic Latin alphabet. Unlike the other four predefined languages, divine languages never use letters with diacritics. Furthermore, the letters "h" and "y" can be used as both consonants and vowels, and the letters "ng" can also be used together as a single consonant sound.
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 !rowspan=2| Consonants
 !colspan=12| Common
-!colspan=10| Uncommon
-|-
-| b || p || g || k || c || z || s || d || t || m || n || ng
-| v || f || w || h || j || l || r || q || x || y
-|}
-{| class="wikitable"
-|-
+!colspan=10| Uncommon|-| b || p || g || k || c || z || s || d || t || m || n || ng| v || f || w || h || j || l || r || q || x || y|}
+{| class="wikitable"|-
 !rowspan=2| Vowels
 !colspan=5| Monophthongs
-!colspan=30| Diphthongs
-|-
-| a || e || i || o || u
-| ae || ai || ao || au || ea || ei || eo || eu || ia || ie || io || iu || oa || oe || oi || ou || ua || ue || ui || uo || ah || eh || ih || oh || uh || ay || ey || iy || oy || uy
-|}
+!colspan=30| Diphthongs|-| a || e || i || o || u| ae || ai || ao || au || ea || ei || eo || eu || ia || ie || io || iu || oa || oe || oi || ou || ua || ue || ui || uo || ah || eh || ih || oh || uh || ay || ey || iy || oy || uy|}
 
 Each divine language uses 4 sets of letters:
 * A short list of 5 randomly-selected consonants, 80% of which are restricted to the "Common" set

@@ -1,11 +1,6 @@
 [[File:Tarn Adams.jpg|thumb|Toady at PAX 2013]]
 
-{{Translation
-| dwarven = nod-lod
-| elvish  = imadu-ena
-| goblin  = ngusnog-toxu
-| human   = budok-sive
-}}
+{{Translation| dwarven = nod-lod| elvish  = imadu-ena| goblin  = ngusnog-toxu| human   = budok-sive}}
 '''Toady One''' (or just '''Toady''') is the nickname used by '''Tarn Adams''', co-designer and programmer of ''[[Dwarf Fortress]]''. He can be reached at [http://www.bay12games.com/about.html About Bay 12 Games] or the [http://www.bay12forums.com/smf/ Bay 12 Games Forum].
 
 Tarn Adams has a Ph.D in Mathematics from Stanford University. His dissertation was entitled ''[http://searchworks.stanford.edu/view/6058597 Flat Chains in Banach Spaces]''.
@@ -45,8 +40,7 @@ The other designer is Zach Adams ([[ThreeToe]]), his older brother.
 	[LAYERING:10]
 	[MALE]
 	[SPEECH_MALE:human_male.txt]
-	[MUNDANE]
-}}
+	[MUNDANE]}}
 
 [[Category:Game development]]
 [[ru:Toady One]]

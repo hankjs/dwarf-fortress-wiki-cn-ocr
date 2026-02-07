@@ -7,46 +7,15 @@ Dwarves (''and humans, of course'') are omnivores; having meat to eat is not com
 Like most types of [[food]], meat will [[rot]] if not [[stockpile]]d appropriately, becoming unfit for consumption and emitting [[miasma]] over time if left [[underground]].
 
 ==List of meats==
-{| class="wikitable sortable"
-|-
-! Material !! Meat name !! Sprite
-|-
-| Muscle || Meat || style="text-align:center;" | [[File:meat_sprite.png]]
-|-
-| Eye || Prepared eye || style="text-align:center;" | [[File:eye_sprite.png]]
-|-
-| Brain || Prepared brain || style="text-align:center;" | [[File:brain_sprite.png]] 
-|-
-| Lung || Prepared lung || style="text-align:center;" | [[File:lungs_sprite.png]] 
-|-
-| Heart || Prepared heart || style="text-align:center;" | [[File:heart_sprite.png]] 
-|-
-| Liver || Chopped liver || style="text-align:center;" | [[File:liver_sprite.png]] 
-|-
-| Gut || Prepared intestines || style="text-align:center;" | [[File:intestines_sprite.png]] 
-|-
-| Stomach || Prepared tripe || style="text-align:center;" | [[File:tripe_sprite.png]] 
-|-
-| [[Gizzard]] || Prepared gizzard || style="text-align:center;" | [[File:gizzard_sprite.png]] 
-|-
-| Pancreas || Sweetbread || style="text-align:center;" | [[File:sweetbread_sprite.png]] 
-|-
-| Spleen || Prepared spleen || style="text-align:center;" | [[File:spleen_sprite.png]] 
-|-
-| Kidney || Prepared kidney || style="text-align:center;" | [[File:kidney_sprite.png]] 
-|}
+{| class="wikitable sortable"|-
+! Material !! Meat name !! Sprite|-| Muscle || Meat || style="text-align:center;" | [[File:meat_sprite.png]]|-| Eye || Prepared eye || style="text-align:center;" | [[File:eye_sprite.png]]|-| Brain || Prepared brain || style="text-align:center;" | [[File:brain_sprite.png]] |-| Lung || Prepared lung || style="text-align:center;" | [[File:lungs_sprite.png]] |-| Heart || Prepared heart || style="text-align:center;" | [[File:heart_sprite.png]] |-| Liver || Chopped liver || style="text-align:center;" | [[File:liver_sprite.png]] |-| Gut || Prepared intestines || style="text-align:center;" | [[File:intestines_sprite.png]] |-| Stomach || Prepared tripe || style="text-align:center;" | [[File:tripe_sprite.png]] |-| [[Gizzard]] || Prepared gizzard || style="text-align:center;" | [[File:gizzard_sprite.png]] |-| Pancreas || Sweetbread || style="text-align:center;" | [[File:sweetbread_sprite.png]] |-| Spleen || Prepared spleen || style="text-align:center;" | [[File:spleen_sprite.png]] |-| Kidney || Prepared kidney || style="text-align:center;" | [[File:kidney_sprite.png]] |}
 
 ==See also==
 *[[Body parts]]
 *[[Meat industry]]
 *[[Fish]]
 
-{{Translation
-| dwarven = igril
-| elvish  = lethiro
-| goblin  = smozû
-| human   = átu
-}}
+{{Translation| dwarven = igril| elvish  = lethiro| goblin  = smozû| human   = átu}}
 
 {{gamedata|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|MUSCLE_TEMPLATE}}}}
 {{materials}}

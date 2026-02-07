@@ -12,9 +12,7 @@ There is a work around to apply it (from the forums):
 # Seal the room and pull the lever.
 # Watch the gnomes walk around in the pool of gnomeblight and slowly dissolve.
 
-{{gamedata
-|title=[[Kobold bulb/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Kobold bulb/raw|Raws]]|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen gnomeblight]
 	[STATE_NAME_ADJ:LIQUID:gnomeblight]
 	[STATE_NAME_ADJ:GAS:boiling gnomeblight]
@@ -31,8 +29,7 @@ There is a work around to apply it (from the forums):
 		[SYN_INHALED]
 		[SYN_INJECTED]
 		[SYN_INGESTED]
-		[CE_NECROSIS:SEV:100:PROB:100:BP:BY_CATEGORY:ALL:ALL:START:0:PEAK:30:END:1200]
-}}
+		[CE_NECROSIS:SEV:100:PROB:100:BP:BY_CATEGORY:ALL:ALL:START:0:PEAK:30:END:1200]}}
 {{materials}}
 {{Category|Extracts}}
 [[ru:Gnomeblight]]

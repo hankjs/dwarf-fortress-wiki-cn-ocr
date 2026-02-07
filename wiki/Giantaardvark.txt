@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_aardvark_sprite.png
-|portrait=aardvark_portrait_anim.gif
-|bone=22
-|hair=1
-|nail=1
-|cartilage=1
-|meat=19
-|fat=16
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|eye=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|contrib=no}}
+{{Creaturelookup/0|image=giant_aardvark_sprite.png|portrait=aardvark_portrait_anim.gif|bone=22|hair=1|nail=1|cartilage=1|meat=19|fat=16|skull=1|lung=2|intestine=1|spleen=1|kidney=2|eye=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

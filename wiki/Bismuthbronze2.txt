@@ -1,24 +1,15 @@
 {{Quality|Superior}}
-{{Alloy3|name=Bismuth bronze
-|sample=
-[[File:BismuthBronzeSample.png|center|frameless]]
-|graphic=bismuth_bronze_bar_sprite.png
-|color=6:6:1
-|color1=7:3:0
-|color2=6:4:0
-|color3=5:5:1
-|recipe=
+{{Alloy3|name=Bismuth bronze|sample=
+[[File:BismuthBronzeSample.png|center|frameless]]|graphic=bismuth_bronze_bar_sprite.png|color=6:6:1|color1=7:3:0|color2=6:4:0|color3=5:5:1|recipe=
 * 1 [[Tin]]
 * 2 [[Copper]]
-* 1 [[Bismuth]]
-|uses=
+* 1 [[Bismuth]]|uses=
 * [[weapon|Melee Weapons]]
 * [[Crossbow]]s
 * [[Bolt]]s
 * [[Pick]]s
 * [[Armor]]
-* [[Metalsmith's forge|Metal crafting]]
-|properties=
+* [[Metalsmith's forge|Metal crafting]]|properties=
 * [[Material value]] 6☼
 * [[Material science|Impact strength]] 843.5 MPa
 * [[Material science|Shear strength]] 241 MPa
@@ -29,8 +20,7 @@
 * [[Solid density]] 8250 kg/m³
 * Liquid [[density]] 8020 kg/m³
 * [[Specific heat]] 435 J/kg·K
-* [[Color]] tan
-}}{{av}}
+* [[Color]] tan}}{{av}}
 
 '''Bismuth bronze''' is an alloy of [[copper]], [[tin]] and [[bismuth]], with exactly the same [[weapon]] and [[armor]] properties as regular [[bronze]]. However, it is slightly more valuable (×6 vs ×5) than regular bronze.
 

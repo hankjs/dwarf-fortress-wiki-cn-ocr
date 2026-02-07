@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=snapping_turtle_man_sprite.png
-|portrait=snapping_turtle_man_portrait.png
-|vary= [[Common snapping turtle]] - [[Snapping turtle man]] - [[Giant snapping turtle]]
-}}
+{{Creaturelookup/0|image=snapping_turtle_man_sprite.png|portrait=snapping_turtle_man_portrait.png|vary= [[Common snapping turtle]] - [[Snapping turtle man]] - [[Giant snapping turtle]]}}
 {{av}}
 {{creaturedesc}}
 '''Snapping turtle men''' are [[animal people]] variants of the [[common snapping turtle]], who can be found in [[savage]] [[temperate]] [[lake]]s and [[river]]s. They spawn in groups of 1-5 individuals and are possibly aggressive, attacking [[Dwarf|dwarves]] who attempt to provoke them. In terms of size, they are only a little smaller than a dwarf, which makes them potentially dangerous if confronted by unarmed civilians.

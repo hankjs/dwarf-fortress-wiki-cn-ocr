@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=leek_shrub_sprite.png
-|seedimage=leek_seeds_sprite.png
-|uses=
-*[[Food]]
-}}
+{{plantlookup|graphic=leek_shrub_sprite.png|seedimage=leek_seeds_sprite.png|uses=
+*[[Food]]}}
 {{av}}
 
 '''Leeks''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons and are edible raw or [[cooking|cooked]].

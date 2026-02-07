@@ -1,17 +1,6 @@
 {{Quality|Exceptional}}
 <!--
-{{Creaturelookup/0
-|image=giant_desert_scorpion_sprite.png
-|contrib=no
-|wiki=no
-|vary=no
-|meat=21-22
-|fat=21
-|heart=1
-|intestine=1
-|brain=1
-|skin=chitin
-}}
+{{Creaturelookup/0|image=giant_desert_scorpion_sprite.png|contrib=no|wiki=no|vary=no|meat=21-22|fat=21|heart=1|intestine=1|brain=1|skin=chitin}}
 -->
 {{av}}
 {{removed feature}}

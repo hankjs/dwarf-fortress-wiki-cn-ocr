@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|sapling=willow_sapling.png}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|sapling=willow_sapling.png}}
 {{av}}
 
 The '''willow''' is a type of [[above ground]] [[tree]] that is found in nearly any [[biome]] that has trees; but only near rivers, pools or other water.  Like the overwhelming majority of overland trees, willow [[wood]] is [[Wood#Types|brown]] and produces brown [[carpenter|products]]. Logs and leaves can be processed in a [[dyer's shop]] into yellow [[dye]].

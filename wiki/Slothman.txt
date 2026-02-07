@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=sloth_man_sprite.png
-|portrait=sloth_man_portrait.png}}
+{{Creaturelookup/0|image=sloth_man_sprite.png|portrait=sloth_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Sloth men''' are [[animal people]] variants of the common [[sloth]], appearing in [[savage]] [[tropical]] [[forest]]s, in groups of 1-5 individuals. Like other sloth-based creatures, sloth men are quite [[gait|slow]], being about half as fast as a dwarf. They are not particularly dangerous, and generally avoid confrontations.

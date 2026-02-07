@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=hydra_sprites.png
-|portrait=hydra_portrait.png
-|bone=61-67
-|tooth=21
-|meat=130-474
-|fat=49-104
-|eye=14
-|lung=8-10
-|heart=2-4
-|intestine=12-16
-|liver=4-5
-|tripe=4-5
-|sweetbread=1-2
-|spleen=2
-|kidney=4
-|brain=28-35
-|skull=7
-|contrib=no
-|wiki=Lernaean Hydra
-}}
+{{Creaturelookup/0|image=hydra_sprites.png|portrait=hydra_portrait.png|bone=61-67|tooth=21|meat=130-474|fat=49-104|eye=14|lung=8-10|heart=2-4|intestine=12-16|liver=4-5|tripe=4-5|sweetbread=1-2|spleen=2|kidney=4|brain=28-35|skull=7|contrib=no|wiki=Lernaean Hydra}}
 {{av}}
 {{creaturedesc}}
 

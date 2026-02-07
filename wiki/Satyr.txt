@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=satyr_sprite.png
-|portrait=satyr_portrait.png
-|wiki=yes}}
+{{Creaturelookup/0|image=satyr_sprite.png|portrait=satyr_portrait.png|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Satyrs''' are [[fanciful]], intelligent [[creature]]s found in certain [[good]]-aligned [[forest]]s. Standing at the size of a [[dwarf]], these goat-legged creatures spawn rarely, in groups of 3-5 individuals who will do little else but wander the area aimlessly. If approached by a fortress' inhabitants, satyrs will flee rather than pose any threat unless cornered, in which case they will fight with punches, kicks, scratches, bites and by goring the enemy with their horns. They are a male-only race - no female satyrs exist - and are also [[Immortality|immortal]], only dying to violence.

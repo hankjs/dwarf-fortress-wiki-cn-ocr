@@ -105,12 +105,7 @@ Libraries have an effect in world gen, based on the original and copied books th
 
 See also: https://www.reddit.com/r/dwarffortress/comments/zoj727/how_to_create_a_library_fortress/
 
-{{Translation
-| dwarven = koshosh
-| elvish  = dethara
-| goblin  = ruspdo
-| human   = adith
-}}
+{{Translation| dwarven = koshosh| elvish  = dethara| goblin  = ruspdo| human   = adith}}
 
 {{World}}
 

@@ -27,49 +27,27 @@ Once built as furniture, their contents can be viewed by clicking on them with t
 
 == Quick reference ==
 {{storage table head}}
-{{storage table row|container=[[Animal trap]]|stockpile=Animals|furniture=y|solidcap=30000|liquidcap=|stores=Vermin, Bait|graphic=[[File:animal_trap_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Armor stand]]|stockpile=Furniture > Type > Armor Stands|furniture=y|solidcap=60000|liquidcap=|stores=Armor|graphic=[[File:armor_stand_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Equipment#Backpacks|Backpack]]|stockpile=Finished Goods > Type > Backpacks|furniture=n|solidcap=30000|liquidcap=|stores=Food|graphic=[[File:backpack_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n|sup_cloth=3
-}}
-{{storage table row|container=[[Bag]]|stockpile=Furniture > Type > Bag|furniture=n|solidcap=60000|liquidcap=|stores=Seeds, Leaves, Powders|graphic=[[File:bag_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n
-}}
-{{storage table row|container=[[Box]]<br/>Chest<br/>Coffer|stockpile=Furniture > Type > Boxes|furniture=y|solidcap=60000|liquidcap=|stores=Bags: Seeds, Leaves, Powders<br/>Others: Owned items|graphic=[[File:chest_sprite.png]]|stone=Coffer|wood=Chest|glass=Box|metal=Chest|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Barrel]]|stockpile=Furniture > Type > Barrels|furniture=n|solidcap=60000|liquidcap=60000|stores=Food, Alcohol, Extracts, Milk, Lye, Bags|graphic=[[File:barrel_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Bin]]|stockpile=Furniture > Type > Bins|furniture=n|solidcap=60000|liquidcap=|stores=Items, Jugs, Flasks|graphic=[[File:bin_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Bucket]]|stockpile=Furniture > Type > Buckets|furniture=n|solidcap=|liquidcap=6000|stores=Milk, Lye, Water<sup>2</sup>|graphic=[[File:bucket_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Cabinet]]|stockpile=Furniture > Type > Cabinets|furniture=y|solidcap=60000|liquidcap=|stores=Owned clothing|graphic=[[File:cabinet_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Cage]]<br/>Aquarium<br/>Terrarium|stockpile=Animals|furniture=y|solidcap=60000|liquidcap=60000|stores=Creatures, Vermin<br/>Aquarium: Water|graphic=[[File:cage_sprite.png]]|stone=n|wood=Cage|glass=Terrarium<br/>Aquarium|metal=Cage|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Coffin]]<br/>Casket<br/>Sarcophagus|stockpile=Furniture > Type > Coffins|furniture=y|solidcap=60000|liquidcap=|stores=Creature/Vermin Corpses/Remains|graphic=[[File:coffin_sprite.png]]|stone=Coffin|wood=Casket|glass=Coffin|metal=Sarcophagus|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Flask]]<br/>Vial<br/>Waterskin|stockpile=Finished Goods > Type > Flasks|furniture=n|solidcap=|liquidcap=1800|stores=Alcohol, Water<br/>Vials: Extracts|graphic=[[File:flask_collection_sprite.png]]|stone=n|wood=n|glass=Vial|metal=Flask|cloth=n|leather=Waterskin|ceramic=n
-}}
-{{storage table row|container=[[Hive]]|stockpile=Finished Goods > Type > Tools|furniture=y|solidcap=5000|liquidcap=5000|stores=Honey Bees, Royal Jelly, Honeycomb|graphic=[[File:hive.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4
-}}
-{{storage table row|container=[[Jug]]|stockpile=Finished Goods > Type > Tools|furniture=n|solidcap=|liquidcap=10000|stores=Royal Jelly, Honey, Rock Nut Oil|graphic=[[File:jug_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4
-}}
-{{storage table row|container=[[Large pot]]|stockpile=Finished Goods > Type > Large pots/food storage|furniture=n|solidcap=60000|liquidcap=60000|stores=Food, Alcohol, Bags|graphic=[[File:large_pot_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4
-}}
-{{storage table row|container=[[Minecart]]|stockpile=Furniture > Type > Minecarts|furniture=n|sup_furn=5|solidcap=500000|liquidcap=500000|stores=Hauled items;<br/>[[Minecart#Loading_liquids|scooped]], but not loaded: Water, Magma|graphic=[[File:minecart_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Nest box]]|stockpile=Finished Goods > Type > Tools|furniture=y|solidcap=2000|liquidcap=|stores=Eggs|graphic=[[File:nest_box_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n|sup_stonewood=4
-}}
-{{storage table row|container=Pouch|stockpile=Finished Goods > Type > Tools{{verify}}|furniture=n|solidcap=1000|liquidcap=|stores=Coins (in [[adventurer mode]])|graphic=[[File:pouch_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n
-}}
-{{storage table row|container=[[Equipment#Quiver|Quiver]]|stockpile=Finished Goods > Type > Quivers|furniture=n|solidcap=12000|liquidcap=|stores=Ammunition|graphic=[[File:quiver_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n|sup_cloth=3
-}}
-{{storage table row|container=[[Weapon rack]]|stockpile=Furniture > Type > Weapon Racks|furniture=y|solidcap=60000|liquidcap=|stores=Weapons|graphic=[[File:weapon_rack_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n
-}}
-{{storage table row|container=[[Wheelbarrow]]|stockpile=Furniture > Type > Wheelbarrows|furniture=n|solidcap=100000|liquidcap=|stores=Hauled items|graphic=[[File:wheelbarrow_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n
-}}
-|}
+{{storage table row|container=[[Animal trap]]|stockpile=Animals|furniture=y|solidcap=30000|liquidcap=|stores=Vermin, Bait|graphic=[[File:animal_trap_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Armor stand]]|stockpile=Furniture > Type > Armor Stands|furniture=y|solidcap=60000|liquidcap=|stores=Armor|graphic=[[File:armor_stand_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Equipment#Backpacks|Backpack]]|stockpile=Finished Goods > Type > Backpacks|furniture=n|solidcap=30000|liquidcap=|stores=Food|graphic=[[File:backpack_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n|sup_cloth=3}}
+{{storage table row|container=[[Bag]]|stockpile=Furniture > Type > Bag|furniture=n|solidcap=60000|liquidcap=|stores=Seeds, Leaves, Powders|graphic=[[File:bag_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n}}
+{{storage table row|container=[[Box]]<br/>Chest<br/>Coffer|stockpile=Furniture > Type > Boxes|furniture=y|solidcap=60000|liquidcap=|stores=Bags: Seeds, Leaves, Powders<br/>Others: Owned items|graphic=[[File:chest_sprite.png]]|stone=Coffer|wood=Chest|glass=Box|metal=Chest|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Barrel]]|stockpile=Furniture > Type > Barrels|furniture=n|solidcap=60000|liquidcap=60000|stores=Food, Alcohol, Extracts, Milk, Lye, Bags|graphic=[[File:barrel_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Bin]]|stockpile=Furniture > Type > Bins|furniture=n|solidcap=60000|liquidcap=|stores=Items, Jugs, Flasks|graphic=[[File:bin_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Bucket]]|stockpile=Furniture > Type > Buckets|furniture=n|solidcap=|liquidcap=6000|stores=Milk, Lye, Water<sup>2</sup>|graphic=[[File:bucket_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Cabinet]]|stockpile=Furniture > Type > Cabinets|furniture=y|solidcap=60000|liquidcap=|stores=Owned clothing|graphic=[[File:cabinet_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Cage]]<br/>Aquarium<br/>Terrarium|stockpile=Animals|furniture=y|solidcap=60000|liquidcap=60000|stores=Creatures, Vermin<br/>Aquarium: Water|graphic=[[File:cage_sprite.png]]|stone=n|wood=Cage|glass=Terrarium<br/>Aquarium|metal=Cage|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Coffin]]<br/>Casket<br/>Sarcophagus|stockpile=Furniture > Type > Coffins|furniture=y|solidcap=60000|liquidcap=|stores=Creature/Vermin Corpses/Remains|graphic=[[File:coffin_sprite.png]]|stone=Coffin|wood=Casket|glass=Coffin|metal=Sarcophagus|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Flask]]<br/>Vial<br/>Waterskin|stockpile=Finished Goods > Type > Flasks|furniture=n|solidcap=|liquidcap=1800|stores=Alcohol, Water<br/>Vials: Extracts|graphic=[[File:flask_collection_sprite.png]]|stone=n|wood=n|glass=Vial|metal=Flask|cloth=n|leather=Waterskin|ceramic=n}}
+{{storage table row|container=[[Hive]]|stockpile=Finished Goods > Type > Tools|furniture=y|solidcap=5000|liquidcap=5000|stores=Honey Bees, Royal Jelly, Honeycomb|graphic=[[File:hive.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4}}
+{{storage table row|container=[[Jug]]|stockpile=Finished Goods > Type > Tools|furniture=n|solidcap=|liquidcap=10000|stores=Royal Jelly, Honey, Rock Nut Oil|graphic=[[File:jug_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4}}
+{{storage table row|container=[[Large pot]]|stockpile=Finished Goods > Type > Large pots/food storage|furniture=n|solidcap=60000|liquidcap=60000|stores=Food, Alcohol, Bags|graphic=[[File:large_pot_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=y|sup_stonewood=4}}
+{{storage table row|container=[[Minecart]]|stockpile=Furniture > Type > Minecarts|furniture=n|sup_furn=5|solidcap=500000|liquidcap=500000|stores=Hauled items;<br/>[[Minecart#Loading_liquids|scooped]], but not loaded: Water, Magma|graphic=[[File:minecart_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Nest box]]|stockpile=Finished Goods > Type > Tools|furniture=y|solidcap=2000|liquidcap=|stores=Eggs|graphic=[[File:nest_box_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n|sup_stonewood=4}}
+{{storage table row|container=Pouch|stockpile=Finished Goods > Type > Tools{{verify}}|furniture=n|solidcap=1000|liquidcap=|stores=Coins (in [[adventurer mode]])|graphic=[[File:pouch_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n}}
+{{storage table row|container=[[Equipment#Quiver|Quiver]]|stockpile=Finished Goods > Type > Quivers|furniture=n|solidcap=12000|liquidcap=|stores=Ammunition|graphic=[[File:quiver_sprite.png]]|stone=n|wood=n|glass=n|metal=n|cloth=y|leather=y|ceramic=n|sup_cloth=3}}
+{{storage table row|container=[[Weapon rack]]|stockpile=Furniture > Type > Weapon Racks|furniture=y|solidcap=60000|liquidcap=|stores=Weapons|graphic=[[File:weapon_rack_sprite.png]]|stone=y|wood=y|glass=y|metal=y|cloth=n|leather=n|ceramic=n}}
+{{storage table row|container=[[Wheelbarrow]]|stockpile=Furniture > Type > Wheelbarrows|furniture=n|solidcap=100000|liquidcap=|stores=Hauled items|graphic=[[File:wheelbarrow_sprite.png]]|stone=n|wood=y|glass=n|metal=y|cloth=n|leather=n|ceramic=n}}|}
 :<sup>1</sup> - Large Pots can be made from any hard material, including wood and metal
 :<sup>2</sup> - Used to carry water, can store Milk and Lye but will be emptied into Barrels
 :<sup>3</sup> - Backpacks and quivers can only be made from Adamantine cloth, though ones made from other cloth can be purchased from caravans

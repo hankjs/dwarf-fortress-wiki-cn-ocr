@@ -70,29 +70,15 @@ When the condition {{token|DEFAULT|g}} is used, this graphic will be displayed f
 :'''Basic Conditions'''
 Different graphics can be defined for the same creature based on some properties about it. Below is a list of the most common creature conditions tokens. 
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Condition
 ! Accepts<br>Secondary
-! Description
-|-
-| {{token|DEFAULT|g}} || No || The default condition that will be displayed unless overwritten by a more specific one below.
-
-|-
-| {{token|CHILD|g}} || Yes || Will only be displayed if the creature is a {{token|CHILD|c}} or {{token|BABY|c}} and is younger than one of those ages.
-
-|-
-| {{token|ANIMATED|g}} || Yes || Displayed if the creature is raised from the dead, although it is not known how this is decided. Raised status is not related to having a syndrome with the class from {{token|CONDITION_SYN_CLASS|g}} or from having {{token|NOT_LIVING|c}}/{{token|OPPOSED_TO_LIFE|c}}.
-
-|-
-| {{token|CORPSE|g}} || Yes || Displayed as soon as the creature dies.
-
-|-
-| {{token|LIST_ICON|g}} || Yes || Displayed in menus. Useful for large images that would extend beyond the menu boxes otherwise.
-
-|-
-| {{token|CDI_LIST_ICON|g}} || Yes || Displayed in interaction menus in Adventure Mode, overrides LIST_ICON when specified in a creature [[Creature token#CAN_DO_INTERACTION|CAN_DO_INTERACTION]] using [[Interaction token#TOKEN|CDI:TOKEN]]:''token_name''.  Accepts referenced ''token_name'' before standard secondaries{{verify}}.
-
+! Description|-| {{token|DEFAULT|g}} || No || The default condition that will be displayed unless overwritten by a more specific one below.
+|-| {{token|CHILD|g}} || Yes || Will only be displayed if the creature is a {{token|CHILD|c}} or {{token|BABY|c}} and is younger than one of those ages.
+|-| {{token|ANIMATED|g}} || Yes || Displayed if the creature is raised from the dead, although it is not known how this is decided. Raised status is not related to having a syndrome with the class from {{token|CONDITION_SYN_CLASS|g}} or from having {{token|NOT_LIVING|c}}/{{token|OPPOSED_TO_LIFE|c}}.
+|-| {{token|CORPSE|g}} || Yes || Displayed as soon as the creature dies.
+|-| {{token|LIST_ICON|g}} || Yes || Displayed in menus. Useful for large images that would extend beyond the menu boxes otherwise.
+|-| {{token|CDI_LIST_ICON|g}} || Yes || Displayed in interaction menus in Adventure Mode, overrides LIST_ICON when specified in a creature [[Creature token#CAN_DO_INTERACTION|CAN_DO_INTERACTION]] using [[Interaction token#TOKEN|CDI:TOKEN]]:''token_name''.  Accepts referenced ''token_name'' before standard secondaries{{verify}}.
 |}
 
 === Caste Graphics ===
@@ -247,153 +233,17 @@ Each row of the vanilla palettes.png file is a palette. The PALETTE_DEFAULT row 
 Below is a set of color ramps used for vanilla graphics. The colors in the '''Metal''' and '''Wood''' columns will be replaced by the palette corresponding to the object's [[Material definition token#STATE_COLOR|material color]], and all other colors are off-palette and will not be colorized. '''Fake Metal''' is used for metallic details on non-metal objects, like the gray trim of a wooden buckler, and other ramps are used for workshop overlays. '''Handle''' is used throughout the game to represent brown materials, and wooden weapons are an example of how to convert it into the main palette.
 
 <center>'''PALETTE_DEFAULT source colors'''</center>
-{| style="margin: 0 auto; border-spacing: 0"
-|-
-| style="vertical-align: top; padding: 0" |
+{| style="margin: 0 auto; border-spacing: 0"|-| style="vertical-align: top; padding: 0" |
 
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 0px solid black"
-|- style="background: #fff"
-| '''Metal'''
-|- style="color: black; background: #ffffff"
-| #FFFFFF
-|- style="color: black; background: #C7C4B4"
-| #C7C4B4
-|- style="color: black; background: #A5A6A5"
-| #A5A6A5
-|- style="color: black; background: #8A9091"
-| #8A9091
-|- style="color: white; background: #6B7076"
-| #6B7076
-|- style="color: white; background: #5A5E65"
-| #5A5E65
-|- style="color: white; background: #494C54"
-| #494C54
-|- style="color: white; background: #3C3E46"
-| #3C3E46
-|- style="color: white; background: #2F3038"
-| #2F3038
-|}
-| style="vertical-align: top; padding: 0" |
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 1px solid black"
-|- style="background: #fff"
-| '''Wood'''
-|- style="color: black; background: #D7D3D2"
-| #D7D3D2
-|- style="color: black; background: #B3A59E"
-| #B3A59E
-|- style="color: black; background: #94877E"
-| #94877E
-|- style="color: black; background: #746A63"
-| #746A63
-|- style="color: white; background: #605852"
-| #605852
-|- style="color: white; background: #564F49"
-| #564F49
-|- style="color: white; background: #4E4743"
-| #4E4743
-|- style="color: white; background: #463E3D"
-| #463E3D
-|- style="color: white; background: #2F3038"
-| #2F3038
-|}
-|}
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 0px solid black"|- style="background: #fff"| '''Metal'''|- style="color: black; background: #ffffff"| #FFFFFF|- style="color: black; background: #C7C4B4"| #C7C4B4|- style="color: black; background: #A5A6A5"| #A5A6A5|- style="color: black; background: #8A9091"| #8A9091|- style="color: white; background: #6B7076"| #6B7076|- style="color: white; background: #5A5E65"| #5A5E65|- style="color: white; background: #494C54"| #494C54|- style="color: white; background: #3C3E46"| #3C3E46|- style="color: white; background: #2F3038"| #2F3038|}| style="vertical-align: top; padding: 0" |
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 1px solid black"|- style="background: #fff"| '''Wood'''|- style="color: black; background: #D7D3D2"| #D7D3D2|- style="color: black; background: #B3A59E"| #B3A59E|- style="color: black; background: #94877E"| #94877E|- style="color: black; background: #746A63"| #746A63|- style="color: white; background: #605852"| #605852|- style="color: white; background: #564F49"| #564F49|- style="color: white; background: #4E4743"| #4E4743|- style="color: white; background: #463E3D"| #463E3D|- style="color: white; background: #2F3038"| #2F3038|}|}
 
 <center>'''Off-palette color ramps'''</center>
-{| style="margin: 0 auto; border-spacing: 0"
-|-
-| style="vertical-align: top; padding: 0" |
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 1px solid black"
-|- style="background: #fff"
-| '''Fake Metal'''
-|- style="color: black; background: #FFFEFF"
-| #FFFEFF
-|- style="color: black; background: #CECAB9"
-| #CECAB9
-|- style="color: black; background: #A9AAA9"
-| #A9AAA9
-|- style="color: black; background: #8B9293"
-| #8B9293
-|- style="color: white; background: #696F75"
-| #696F75
-|- style="color: white; background: #565B62"
-| #565B62
-|- style="color: white; background: #464951"
-| #464951
-|- style="color: white; background: #3F434C"
-| #3F434C
-|- style="color: white; background: #393B44"
-| #393B44
-|}
-| style="vertical-align: top; padding: 0" |
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"
-|- style="background: #fff"
-| '''Fake Wood'''
-|- style="color: black; background: #D8B796"
-| #D8B796
-|- style="color: black; background: #B7926C"
-| #B7926C
-|- style="color: black; background: #A57D5E"
-| #A57D5E
-|- style="color: black; background: #936850"
-| #936850
-|- style="color: white; background: #815E50"
-| #815E50
-|- style="color: white; background: #6F5450"
-| #6F5450
-|- style="color: white; background: #5B4749"
-| #5B4749
-|- style="color: white; background: #473941"
-| #473941
-|- style="color: white; background: #2F3038"
-| #2F3038
-|}
-| style="vertical-align: top; padding: 0" |
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"
-|- style="background: #fff"
-| '''Handle'''
-|- style="color: black; background: #E1CEAF"
-| #E1CEAF
-|- style="color: black; background: #CDAC85"
-| #CDAC85
-|- style="color: black; background: #B98B5B"
-| #B98B5B
-|- style="color: black; background: #9E674A"
-| #9E674A
-|- style="color: white; background: #775653"
-| #775653
-|- style="color: white; background: #60474B"
-| #60474B
-|- style="color: black; background: white"
-| n/a
-|- style="color: white; background: #483743"
-| #483743
-|- style="color: white; background: #2E2A38"
-| #2E2A38
-|}
-| style="vertical-align: top; padding: 0" |
-{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"
-|- style="background: #fff"
-| '''Still'''
-|- style="color: black; background: #E5B076"
-| #E5B076
-|- style="color: black; background: #D1894A"
-| #D1894A
-|- style="color: black; background: #BF703C"
-| #BF703C
-|- style="color: black; background: #A35D3A"
-| #A35D3A
-|- style="color: white; background: #85534B"
-| #85534B
-|- style="color: white; background: #644249"
-| #644249
-|- style="color: white; background: #4B4047"
-| #4B4047
-|- style="color: white; background: #293945"
-| #293945
-|- style="color: white; background: #2F3038"
-| #2F3038
-|}
-|}
+{| style="margin: 0 auto; border-spacing: 0"|-| style="vertical-align: top; padding: 0" |
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 1px solid black; border-right: 1px solid black"|- style="background: #fff"| '''Fake Metal'''|- style="color: black; background: #FFFEFF"| #FFFEFF|- style="color: black; background: #CECAB9"| #CECAB9|- style="color: black; background: #A9AAA9"| #A9AAA9|- style="color: black; background: #8B9293"| #8B9293|- style="color: white; background: #696F75"| #696F75|- style="color: white; background: #565B62"| #565B62|- style="color: white; background: #464951"| #464951|- style="color: white; background: #3F434C"| #3F434C|- style="color: white; background: #393B44"| #393B44|}| style="vertical-align: top; padding: 0" |
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"|- style="background: #fff"| '''Fake Wood'''|- style="color: black; background: #D8B796"| #D8B796|- style="color: black; background: #B7926C"| #B7926C|- style="color: black; background: #A57D5E"| #A57D5E|- style="color: black; background: #936850"| #936850|- style="color: white; background: #815E50"| #815E50|- style="color: white; background: #6F5450"| #6F5450|- style="color: white; background: #5B4749"| #5B4749|- style="color: white; background: #473941"| #473941|- style="color: white; background: #2F3038"| #2F3038|}| style="vertical-align: top; padding: 0" |
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"|- style="background: #fff"| '''Handle'''|- style="color: black; background: #E1CEAF"| #E1CEAF|- style="color: black; background: #CDAC85"| #CDAC85|- style="color: black; background: #B98B5B"| #B98B5B|- style="color: black; background: #9E674A"| #9E674A|- style="color: white; background: #775653"| #775653|- style="color: white; background: #60474B"| #60474B|- style="color: black; background: white"| n/a|- style="color: white; background: #483743"| #483743|- style="color: white; background: #2E2A38"| #2E2A38|}| style="vertical-align: top; padding: 0" |
+{| style="text-align: center; border-spacing: 0 1px; margin: 0 auto; background: black; border-left: 0px solid black; border-right: 1px solid black"|- style="background: #fff"| '''Still'''|- style="color: black; background: #E5B076"| #E5B076|- style="color: black; background: #D1894A"| #D1894A|- style="color: black; background: #BF703C"| #BF703C|- style="color: black; background: #A35D3A"| #A35D3A|- style="color: white; background: #85534B"| #85534B|- style="color: white; background: #644249"| #644249|- style="color: white; background: #4B4047"| #4B4047|- style="color: white; background: #293945"| #293945|- style="color: white; background: #2F3038"| #2F3038|}|}
 
 = Classic Graphics =
 {{old}}

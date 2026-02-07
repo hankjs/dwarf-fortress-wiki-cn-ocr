@@ -21,9 +21,7 @@ Now that, that is out of the way.
 
 == Custom Build & Reaction ==
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Your first custom reaction and building!
-|- style="text-align: left; display:table-cell; "
-|'''You may not see the .txt, but don't worry, they should still be text files.'''
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Your first custom reaction and building!|- style="text-align: left; display:table-cell; "|'''You may not see the .txt, but don't worry, they should still be text files.'''
 '''This is the guide to make a custom reaction and custom building.'''
 
 '''-To start open up your dwarf fortress folder.'''
@@ -205,15 +203,11 @@ Now that, that is out of the way.
 
 '''-Mind you this workshop is going to look like a soap makers workshop, but we want to keep things easy!'''
 
-'''-If you want to change the appearance of your workshop, use this utility: http://dffd.wimbli.com/file.php?id=2068'''
-|-
-|}
+'''-If you want to change the appearance of your workshop, use this utility: http://dffd.wimbli.com/file.php?id=2068'''|-|}
 
 == Various Reactions and Information ==
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Current List of Products
-|- style="text-align: left; display:table-cell; "
-|[PRODUCT:100:1:SEEDS:NONE:PLANT_MAT:POD_SWEET:SEED]<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Current List of Products|- style="text-align: left; display:table-cell; "|[PRODUCT:100:1:SEEDS:NONE:PLANT_MAT:POD_SWEET:SEED]<br />
 <br />
 [REAGENT:A:1:BARREL:NONE:NONE:NONE][EMPTY][PRESERVE_REAGENT]<br />
 [PRODUCT:100:1:DRINK:NONE:PLANT_MAT:POD_SWEET:DRINK][PRODUCT_TO_CONTAINER:A]<br />
@@ -390,13 +384,9 @@ Now that, that is out of the way.
 <br />
 [PRODUCT:100:1:SIEGEAMMO:ITEM_SIEGEAMMO_BALLISTA:METAL:STEEL]<br />
 <br />
-[PRODUCT:100:1:BALLISTAPARTS:NO_SUBTYPE:METAL:STEEL]
-|-
-|}
+[PRODUCT:100:1:BALLISTAPARTS:NO_SUBTYPE:METAL:STEEL]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Most Creature Specific Products
-|- style="text-align: left; display:table-cell; "
-|Please see full creature list to fill in CCC.<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Most Creature Specific Products|- style="text-align: left; display:table-cell; "|Please see full creature list to fill in CCC.<br />
 <br />
 [PRODUCT:100:1:MEAT:NONE:CREATURE_MAT:CCC:MUSCLE]<br />
 <br />
@@ -424,13 +414,9 @@ Now that, that is out of the way.
 <br />
 [PRODUCT:100:1:FISH:NONE:FISH_CAVE:MALE]<br />
 <br />
-[PRODUCT:100:1:FISH:NONE:FISH_CAVE:FEMALE]
-|-
-|}
+[PRODUCT:100:1:FISH:NONE:FISH_CAVE:FEMALE]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Skills List
-|- style="text-align: left; display:table-cell; "
-|MINING<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Skills List|- style="text-align: left; display:table-cell; "|MINING<br />
 WOODCUTTING<br />
 CARPENTRY<br />
 DETAILSTONE<br />
@@ -506,13 +492,9 @@ WRESTLING<br />
 BITE<br />
 GRASP_STRIKE (one of the few that don't seem to be used by dwarves)<br />
 STANCE_STRIKE (one of the few that don't seem to be used by dwarves)<br />
-DODGING
-|-
-|}
+DODGING|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Creature List
-|- style="text-align: left; display:table-cell; "
-|TOAD<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Creature List|- style="text-align: left; display:table-cell; "|TOAD<br />
 WORM<br />
 BIRD_BLUEJAY<br />
 BIRD_CARDINAL<br />
@@ -774,21 +756,15 @@ BIRD_SWALLOW_CAVE_GIANT<br />
 AMPHIBIAN_MAN<br />
 REPTILE_MAN<br />
 SERPENT_MAN<br />
-ANT_MAN
-|-
-|}
+ANT_MAN|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Basic Body Modification
-|- style="text-align: left; display:table-cell; "
-|This section has some basic body modifications to change your dwarves in a subtle  way.
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Basic Body Modification|- style="text-align: left; display:table-cell; "|This section has some basic body modifications to change your dwarves in a subtle  way.
 <br />
 <br />
 '''Just copy from the points indicated by bold to the matching points in the creature_standard.txt and paste over any of the information that is in-between the 2 bold points of the original'''<br />
 <br />
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Skin & Bones
-|- style="text-align: left; display:table-cell; "
-|'''Next we use body detail plans (which have their own raw file) to streamline the addition of some of the common materials, tissues and their relationships with each other.'''<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Skin & Bones|- style="text-align: left; display:table-cell; "|'''Next we use body detail plans (which have their own raw file) to streamline the addition of some of the common materials, tissues and their relationships with each other.'''<br />
 <br />
 [BODY_DETAIL_PLAN:STANDARD_MATERIALS]<br />
 [BODY_DETAIL_PLAN:STANDARD_TISSUES]<br />
@@ -840,13 +816,9 @@ ANT_MAN
 <br />
 <br />
 <br />
-'''Eyebrows and eyelashes are manually added here.'''<br />
-|-
-|}
+'''Eyebrows and eyelashes are manually added here.'''<br />|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Tendons and Ligaments
-|- style="text-align: left; display:table-cell; "
-|'''Tendons and ligaments are currently very abstract, but adding these flags will let wounds occur that damage them.  The number afterward is the healing rate.  Lower is faster.'''<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Tendons and Ligaments|- style="text-align: left; display:table-cell; "|'''Tendons and ligaments are currently very abstract, but adding these flags will let wounds occur that damage them.  The number afterward is the healing rate.  Lower is faster.'''<br />
 <br />
 <br />
 <br />
@@ -864,13 +836,9 @@ ANT_MAN
 [TL_HEALING_RATE:1]<br />
 [TISSUE_SHAPE:LAYER]<br />
 <br />
-'''This makes the creature susceptible to severed nerves when muscles are torn in limb, grasp and stance parts.'''<br />
-|-
-|}
+'''This makes the creature susceptible to severed nerves when muscles are torn in limb, grasp and stance parts.'''<br />|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Skin Colors
-|- style="text-align: left; display:table-cell; "
-|==''This is very important to have, as it prevents the whole thing from not working and or spamming the error log with messages''==<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Obsidian Skin Colors|- style="text-align: left; display:table-cell; "|==''This is very important to have, as it prevents the whole thing from not working and or spamming the error log with messages''==<br />
 <br />
 '''Here all of the skin is selected and various colors are listed.'''<br />
 <br />
@@ -883,18 +851,12 @@ ANT_MAN
 [APP_MOD_NOUN:skin:SINGULAR]<br />
 [APP_MOD_DESC_RANGE:0:0:0:1:25:50]<br />
 <br />
-'''Now we do the eyes, using the somewhat clunky eye color patterns.'''<br />
-|-
-|}
-|-
-|}
+'''Now we do the eyes, using the somewhat clunky eye color patterns.'''<br />|-|}|-|}
 
 == Finished Reactions/Buildings ==
 === SKILLS ===
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Skill Training
-|- style="text-align: left; display:table-cell; "
-|'''How to train your dwarf'''<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Skill Training|- style="text-align: left; display:table-cell; "|'''How to train your dwarf'''<br />
 <br />
 '''What is here...'''<br />
 '''87 reactions... that will train your dwarf in near every skill imaginable (I excluded some for the sake that dwarves don't really use them.)'''<br />
@@ -903,9 +865,7 @@ ANT_MAN
 <br />
 '''All of what is contained here is required to have a custom building and custom reaction. Please remember that you MUST generate a new world when you ADD new reactions or buildings.'''
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_skills.txt
-|- style="text-align: left; display:table-cell; "
-|reaction_cheats_skill<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_skills.txt|- style="text-align: left; display:table-cell; "|reaction_cheats_skill<br />
 <br />
 [OBJECT:REACTION]<br />
 <br />
@@ -1342,13 +1302,9 @@ ANT_MAN
 [REACTION:TRAIN_C_075]<br />
 [NAME:Train Student]<br />
 [BUILDING:TRAINING_BOOTH_CIVILIAN:NONE]<br />
-[SKILL:KNOWLEDGE_ACQUISITION]
-|-
-|}
+[SKILL:KNOWLEDGE_ACQUISITION]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt
-|- style="text-align: left; display:table-cell; "
-|building_cheats<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt|- style="text-align: left; display:table-cell; "|building_cheats<br />
 <br />
 [OBJECT:BUILDING]<br />
 <br />
@@ -1422,13 +1378,9 @@ ANT_MAN
 [COLOR:3:1:4:0:1:4:0:1:4:0:1]<br />
 [COLOR:3:2:4:0:1:4:0:1:4:0:1]<br />
 [COLOR:3:3:4:0:1:4:0:1:4:0:1]<br />
-[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]
-|-
-|}
+[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt
-|- style="text-align: left; display:table-cell; "
-|[PERMITTED_BUILDING:TRAINING_BOOTH_CIVILIAN]<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt|- style="text-align: left; display:table-cell; "|[PERMITTED_BUILDING:TRAINING_BOOTH_CIVILIAN]<br />
 [PERMITTED_BUILDING:TRAINING_BOOTH_MILITARY]<br />
 [PERMITTED_REACTION:TRAIN_M_001]<br />
 [PERMITTED_REACTION:TRAIN_M_002]<br />
@@ -1516,17 +1468,11 @@ ANT_MAN
 [PERMITTED_REACTION:TRAIN_C_072]<br />
 [PERMITTED_REACTION:TRAIN_C_073]<br />
 [PERMITTED_REACTION:TRAIN_C_074]<br />
-[PERMITTED_REACTION:TRAIN_C_075]
-|-
-|}
-|-
-|}
+[PERMITTED_REACTION:TRAIN_C_075]|-|}|-|}
 
 === TREES & PLANTS ===
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Trees & Plants
-|- style="text-align: left; display:table-cell; "
-|'''''For food in bed'''''<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Trees & Plants|- style="text-align: left; display:table-cell; "|'''''For food in bed'''''<br />
 <br />
 '''What is in this post...'''<br />
 '''52 reactions... will give you access to all plants and trees.'''<br />
@@ -1535,9 +1481,7 @@ ANT_MAN
 <br />
 '''All of what is contained here is required to have a custom building and custom reaction. Please remember that you MUST generate a new world when you ADD new reactions or buildings.'''
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_trees_plants.txt
-|- style="text-align: left; display:table-cell; "
-|reaction_cheats_trees_plants<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_trees_plants.txt|- style="text-align: left; display:table-cell; "|reaction_cheats_trees_plants<br />
 <br />
 [OBJECT:REACTION]<br />
 <br />
@@ -1799,13 +1743,9 @@ ANT_MAN
 [REACTION:CHEAT_PLANT_021]<br />
 [NAME:Free Whip Vine]<br />
 [BUILDING:CHEAT_FREE_PLANT:NONE]<br />
-[PRODUCT:100:20:PLANT:NO_SUBTYPE:PLANT_MAT:VINE_WHIP:PLANT]
-|-
-|}
+[PRODUCT:100:20:PLANT:NO_SUBTYPE:PLANT_MAT:VINE_WHIP:PLANT]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt
-|- style="text-align: left; display:table-cell; "
-|building_cheats
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt|- style="text-align: left; display:table-cell; "|building_cheats
 <br />
 [BUILDING_WORKSHOP:CHEAT_FREE_TREE]<br />
 [NAME:Cheat Free Tree]<br />
@@ -1877,13 +1817,9 @@ ANT_MAN
 [COLOR:3:1:2:2:1:0:2:0:2:2:1]<br />
 [COLOR:3:2:0:2:0:0:2:0:0:2:0]<br />
 [COLOR:3:3:2:2:1:0:2:0:2:2:1]<br />
-[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]
-|-
-|}
+[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt
-|- style="text-align: left; display:table-cell; "
-|[PERMITTED_BUILDING:CHEAT_FREE_PLANT]<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt|- style="text-align: left; display:table-cell; "|[PERMITTED_BUILDING:CHEAT_FREE_PLANT]<br />
 [PERMITTED_BUILDING:CHEAT_FREE_TREE]<br />
 [PERMITTED_REACTION:CHEAT_TREE_001]<br />
 [PERMITTED_REACTION:CHEAT_TREE_002]<br />
@@ -1936,17 +1872,11 @@ ANT_MAN
 [PERMITTED_REACTION:CHEAT_PLANT_018]<br />
 [PERMITTED_REACTION:CHEAT_PLANT_019]<br />
 [PERMITTED_REACTION:CHEAT_PLANT_020]<br />
-[PERMITTED_REACTION:CHEAT_PLANT_021]
-|-
-|}
-|-
-|}
+[PERMITTED_REACTION:CHEAT_PLANT_021]|-|}|-|}
 
 === MINERALS, STONES, METALS, GEMS ===
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Minerals, Stones, Metals, Gems
-|- style="text-align: left; display:table-cell; "
-|'''''That crap you stand on and has walled you in... plus shinies!'''''<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | Minerals, Stones, Metals, Gems|- style="text-align: left; display:table-cell; "|'''''That crap you stand on and has walled you in... plus shinies!'''''<br />
 <br />
 '''What is here...'''<br />
 '''236 reactions... every mineral, stone, metal and gems that you could ask for... literally, all of them.'''<br />
@@ -1958,9 +1888,7 @@ ANT_MAN
 '''File = reaction_cheats_mineral --- below is a reaction for every mineral.'''<br />
 '''reaction_cheats_mineral'''
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_stones.txt
-|- style="text-align: left; display:table-cell; "
-|reaction_cheats_stones
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | reaction_cheats_stones.txt|- style="text-align: left; display:table-cell; "|reaction_cheats_stones
 <br />
 [OBJECT:REACTION]<br />
 <br />
@@ -3142,13 +3070,9 @@ ANT_MAN
 [REACTION:CHEAT_GEM_127]<br />
 [NAME:Free Gem Star Ruby]<br />
 [BUILDING:CHEAT_FREE_GEM:NONE]<br />
-[PRODUCT:100:1:ROUGH:NO_SUBTYPE:INORGANIC:RUBY_STAR]
-|-
-|}
+[PRODUCT:100:1:ROUGH:NO_SUBTYPE:INORGANIC:RUBY_STAR]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt
-|- style="text-align: left; display:table-cell; "
-|building_cheats<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | building_cheats.txt|- style="text-align: left; display:table-cell; "|building_cheats<br />
 <br />
 [BUILDING_WORKSHOP:CHEAT_FREE_MINERAL]<br />
 [NAME:Cheat Free Mineral]<br />
@@ -3292,13 +3216,9 @@ ANT_MAN
 [COLOR:3:1:2:0:1:7:0:0:2:0:1]<br />
 [COLOR:3:2:7:0:0:7:0:0:7:0:0]<br />
 [COLOR:3:3:2:0:1:7:0:0:2:0:1]<br />
-[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]
-|-
-|}
+[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]|-|}
 {| class="collapsible collapsed infobox" style="background-color: white; border: 1px solid darkgrey; font-size: 100%; padding: 2px; text-align: center; width: 100%;"
-! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt
-|- style="text-align: left; display:table-cell; "
-|[PERMITTED_BUILDING:CHEAT_FREE_MINERAL]<br />
+! colspan="2" style="border: 1px solid darkgrey; font-weight: bold; background-color: lightblue; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell;" | entity_default.txt|- style="text-align: left; display:table-cell; "|[PERMITTED_BUILDING:CHEAT_FREE_MINERAL]<br />
 [PERMITTED_BUILDING:CHEAT_FREE_STONE]<br />
 [PERMITTED_BUILDING:CHEAT_FREE_METAL]<br />
 [PERMITTED_BUILDING:CHEAT_FREE_GEM]<br />
@@ -3537,9 +3457,5 @@ ANT_MAN
 [PERMITTED_REACTION:CHEAT_GEM_124]<br />
 [PERMITTED_REACTION:CHEAT_GEM_125]<br />
 [PERMITTED_REACTION:CHEAT_GEM_126]<br />
-[PERMITTED_REACTION:CHEAT_GEM_127]<br />
-|-
-|}
-|-
-|}
+[PERMITTED_REACTION:CHEAT_GEM_127]<br />|-|}|-|}
 [[Category:v0.31:Modding]]

@@ -1,23 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|contrib=no
-|image=cod_sprites.png
-|portrait=cod_portrait.png
-|skin=scale
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|skull=1
-|meat=8-9
-|fat=7-8
-|brain=1
-|bone=12
-|wiki=yes
-}}
+{{Creaturelookup/0|contrib=no|image=cod_sprites.png|portrait=cod_portrait.png|skin=scale|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|skull=1|meat=8-9|fat=7-8|brain=1|bone=12|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_cuttlefish_sprite.png
-|portrait=cuttlefish_portrait.png
-|skin=Raw hide & Chitin
-|meat=15
-|fat=10
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_cuttlefish_sprite.png|portrait=cuttlefish_portrait.png|skin=Raw hide & Chitin|meat=15|fat=10|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant cuttlefish''' are the [[giant animal]] counterparts of the standard [[cuttlefish]], over four times heavier than the average [[dwarf]]. They are [[aquatic]] creatures that will rarely interact with land-dwelling dwarves, however they may squirt ink if threatened.

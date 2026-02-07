@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = lathon
-| elvish  = moÿo
-| goblin  = angstur
-| human   = xem
-}}
+{{Translation| dwarven = lathon| elvish  = moÿo| goblin  = angstur| human   = xem}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[sphere]] of fate will have words from this symbol in their name.

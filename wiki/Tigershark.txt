@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=tiger_shark_sprites.png
-|portrait=tiger_shark_portrait.png
-|fat=7
-|eye=2
-|heart=1
-|intestine=3
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|meat=16
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=tiger_shark_sprites.png|portrait=tiger_shark_portrait.png|fat=7|eye=2|heart=1|intestine=3|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|meat=16|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=purple_yam_shrub_sprite.png
-|seedimage=purple_yam_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=purple_yam_shrub_sprite.png|seedimage=purple_yam_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Purple yams''' are an [[aboveground]] [[crop|garden plant]]. They can be planted in all seasons and are edible when [[cooking|cooked]].

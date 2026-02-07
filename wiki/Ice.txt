@@ -1,11 +1,8 @@
 {{Quality|Superior}}
-{{Mineral|name=Ice|tile=█|icon=•|color=3:0:1
-|uses=
-* [[Construction]]
-|location=
+{{Mineral|name=Ice|tile=█|icon=•|color=3:0:1|uses=
+* [[Construction]]|location=
 * [[Glacier]]
-* Frozen bodies of [[water]]
-|properties={{Stonelookup/aux2|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|WATER}}}}}}
+* Frozen bodies of [[water]]|properties={{Stonelookup/aux2|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|WATER}}}}}}
 {{av}}
 
 '''Ice''' is [[water]] that has been frozen by cold seasons. Any water that is [[above ground]] will freeze during the cold time, but it will stay wet if it is on [[subterranean]] tiles.
@@ -87,12 +84,7 @@ You can also obtain a drinkable water supply from melting snow in the same fashi
 == See also ==
 *[[Glacier]]
 
-{{Translation
-| dwarven = ushil
-| elvish  = ocima
-| goblin  = uslang
-| human   = isdi
-}}
+{{Translation| dwarven = ushil| elvish  = ocima| goblin  = uslang| human   = isdi}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|WATER}}}}
 {{materials}}

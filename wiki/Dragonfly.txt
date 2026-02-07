@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=dragonfly_sprite.png
-|portrait=dragonfly_portrait.png}}
+{{verminlookup/0|image=dragonfly_sprite.png|portrait=dragonfly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

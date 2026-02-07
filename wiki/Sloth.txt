@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=sloth_sprites.png
-|portrait=sloth_portrait_anim.gif
-|meat=6-7
-|fat=6-7
-|skin=hide
-|bone=4
-|skull=1
-|intestine=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=sloth_sprites.png|portrait=sloth_portrait_anim.gif|meat=6-7|fat=6-7|skin=hide|bone=4|skull=1|intestine=1|contrib=no|wiki=yes}}
 {{av}}
 :''Not to be confused with [[sloth bear]]s.''
 {{creaturedesc}}
@@ -20,12 +10,7 @@ Sloths can be captured in [[cage]] [[trap]]s and [[Animal trainer|trained]] into
 
 Some dwarves [[Preferences|like]] sloths for their ''slow movement''.
 
-{{Translation
-| dwarven = gäzot
-| elvish  = timeba
-| goblin  = ongo
-| human   = thruque
-}}
+{{Translation| dwarven = gäzot| elvish  = timeba| goblin  = ongo| human   = thruque}}
 [[Image:Bradypus.jpg|thumb|center|400px|Admired for its ''slow movement''.]]
 
 {{gamedata}}

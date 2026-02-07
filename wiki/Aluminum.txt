@@ -1,15 +1,8 @@
 {{Quality|Fine}}
-{{Metal
-|name=Aluminum
-|graphic=aluminum_bar_sprite.png
-|sample=
-[[File:AluminumSample.png|256px|center|frameless]]
-|color=7:7:1 
-|uses=
-* [[Metalsmith's forge|Metal crafting]]
-|ore=
-* [[File:ore_dullgrey_sprite.png]] [[Native aluminum]]
-|properties=
+{{Metal|name=Aluminum|graphic=aluminum_bar_sprite.png|sample=
+[[File:AluminumSample.png|256px|center|frameless]]|color=7:7:1 |uses=
+* [[Metalsmith's forge|Metal crafting]]|ore=
+* [[File:ore_dullgrey_sprite.png]] [[Native aluminum]]|properties=
 * [[Material value]] 40☼
 * [[Material science|Impact strength]] 175 MPa
 * [[Material science|Shear strength]] 50 MPa
@@ -20,8 +13,7 @@
 * [[Solid density]] 2700 kg/m³
 * Liquid [[density]] 2375 kg/m³
 * [[Specific heat]] 900 J/kg·K
-* [[Color]] white
-}}{{av}}
+* [[Color]] white}}{{av}}
 
 
 '''Aluminum''' is a high-value decorative metal used to create [[furniture]] and other objects, but not forgable into [[weapon]]ry or [[armor]].

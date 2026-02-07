@@ -2,9 +2,7 @@
 {{av}}
 These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were looking for a [[Adventure mode quick start|quick start]], instead?'').
 ==Key Bindings==
-{| class="wikitable"
-|-
-| valign='top' style="width: 50%; padding: 0 1em" |
+{| class="wikitable"|-| valign='top' style="width: 50%; padding: 0 1em" |
 {{KReference|Movement|
 *{{k|8|2|4|6|7|9|1|3|↑|↓|←|→}} - Move
 *{{k|Alt}}+(movement key) - Move carefully or enter dangerous terrain
@@ -19,8 +17,7 @@ These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were lo
 *{{Adv menu icon|s}} - Stand or lie down*
 *{{Adv menu icon|S}} - Sneak
 *{{Adv menu icon|T}} - Fast Travel
-*{{Adv menu icon|m}} - Open movement preferences interface
-}}
+*{{Adv menu icon|m}} - Open movement preferences interface}}
 <nowiki>*</nowiki>Use {{k|s}} to lay down, and then crawl past NPCs blocking your way.
 
 {{KReference|Combat|
@@ -30,8 +27,7 @@ These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were lo
 *{{Adv menu icon|f}} - Fire a projectile
 *{{k|t}} - Throw an item
 *{{Adv menu icon|X}} - Use ability (pet an animal, spit at someone...)
-*{{Adv menu icon|C}} - Open combat preferences interface
-}}
+*{{Adv menu icon|C}} - Open combat preferences interface}}
 
 {{KReference|Environment|
 *{{k|l}} - Look around
@@ -45,9 +41,7 @@ These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were lo
 *{{k|o}} - Describe [[Smell|odor]].
 *{{k|O}} - Show strongest odor.
 *{{k|u}} - Interact with lever, building, furniture, or mechanism.
-*{{Adv menu icon|y}} - Assume or abandon a submissive position (yield).
-}}
-| valign='top' |
+*{{Adv menu icon|y}} - Assume or abandon a submissive position (yield).}}| valign='top' |
 {{KReference|Items|
 *{{Adv menu icon|i}} - Inventory
 *{{Adv menu icon|d}} - Drop an item
@@ -58,21 +52,18 @@ These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were lo
 *{{Adv menu icon|I}} - Interact with an object in inventory (unstick a weapon, refill waterskin etc)
 *{{Adv menu icon|x}} - Craft (butcher, create item)
 *{{Adv menu icon|b}} - Found a site and build
-*{{Adv menu icon|q}} - Sheathe your weapon
-}}
+*{{Adv menu icon|q}} - Sheathe your weapon}}
 <nowiki>*</nowiki>If you want to get a specific item from your backpack to your hand (wield weapon), {{k|p}}ut current item into the backpack, and {{k|r}}emove the other item from the backpack.
 
 {{KReference|Information|
 *{{Adv menu icon|z}} - Status
 *{{k|Space}} - Advance/Clear Messages
 *{{Menu icon|a}} - View Announcements
-*{{Adv menu icon|Q}} - Adventure log (tasks, map, et cetera...)
-}}
+*{{Adv menu icon|Q}} - Adventure log (tasks, map, et cetera...)}}
 
 {{KReference|Food/Sleep|
 *{{Adv menu icon|Z}} - Sleep
-*{{Adv menu icon|e}} - Eat or drink something
-}}
+*{{Adv menu icon|e}} - Eat or drink something}}
 
 {{KReference|Travel Keys|
 *{{k|8|2|4|6|7|9|1|3|↑|↓|←|→}} - Move.
@@ -84,9 +75,7 @@ These are the [[controls]] used in [[Adventurer mode]] (''or perhaps you were lo
 *{{Adv menu icon|S}} - Sneak.
 *{{Adv menu icon|T|K|num=1}} - Display all nearby tracks and strongest odor.
 *{{Adv menu icon|Q}} - Adventure log/information.
-*{{Adv menu icon|T|Z|num=1}} - Sleep/wait.
-}}
-
+*{{Adv menu icon|T|Z|num=1}} - Sleep/wait.}}
 |}
 {{Getting Started}}
 {{Category|Guides}}

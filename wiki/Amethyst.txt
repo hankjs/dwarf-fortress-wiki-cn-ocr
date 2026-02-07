@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_amethyst_sprite.png
-|graphic2=rough_amethyst_sprite.png}}
+{{gemlookup/0|graphic=cut_amethyst_sprite.png|graphic2=rough_amethyst_sprite.png}}
 {{av}}
 
 '''Amethysts''' are semi-precious purple quartz [[gem|crystals]] found everywhere as small clusters, that also have the distinction of being dropped by [[amethyst man|amethyst men]] upon death.
@@ -17,12 +15,7 @@ File:Amethyst_3.jpg|Raw Amethyst
 File:Amethyst_4.jpg|Polished Amethyst
 </gallery>
 
-{{Translation
-| dwarven = alron
-| elvish  = fece
-| goblin  = exost
-| human   = zebna
-}}
+{{Translation| dwarven = alron| elvish  = fece| goblin  = exost| human   = zebna}}
 
 {{gamedata}}
 {{gems}}

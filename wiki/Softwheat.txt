@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=generic_wheat_shrub_sprite.png
-|seedimage=generic_wheat_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=generic_wheat_shrub_sprite.png|seedimage=generic_wheat_seeds_sprite.png|uses=
 * [[Alcohol]]
-* [[Flour]]
-}}
+* [[Flour]]}}
 {{av}}
 
 '''Soft wheat''' is an [[aboveground]] [[crop]]. It can either be [[Mill|milled]] into [[Flour|soft wheat flour]] or [[Still|brewed]] into [[Alcohol|soft wheat beer]].

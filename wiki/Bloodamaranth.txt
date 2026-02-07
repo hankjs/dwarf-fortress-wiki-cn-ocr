@@ -1,12 +1,8 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=blood_amaranth_shrub_sprite.png
-|seedimage=blood_amaranth_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=blood_amaranth_shrub_sprite.png|seedimage=blood_amaranth_seeds_sprite.png|uses=
 *[[Alcohol]]
 *[[Flour]]
-*[[Food]]
-}}
+*[[Food]]}}
 {{av}}
 
 '''Blood amaranth''' is an [[aboveground]] [[crop]]. It can either be [[milling|milled]] into [[flour|blood amaranth flour]] or [[brewing|brewed]] into [[alcohol|blood amaranth beer]]. Its leaves are edible raw or [[cooking|cooked]].

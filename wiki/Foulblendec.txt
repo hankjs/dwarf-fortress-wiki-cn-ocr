@@ -1,10 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=foul_blendec_sprite.png
-|portrait=foul_blendec_portrait.png
-|contrib=no
-|death=nobutcher
-|wiki=no}}
+{{Creaturelookup/0|image=foul_blendec_sprite.png|portrait=foul_blendec_portrait.png|contrib=no|death=nobutcher|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''Foul blendecs''' are [[fanciful]], intelligent [[creature]]s found in certain [[evil]]-aligned [[forest]]s. Standing as the size of a [[dwarf]], these skull-headed creatures spawn rarely, in groups of 3 to 5 individuals who will menace everything smaller than themselves. They will attack dwarves who provoke them and may cause great injury unless countered by a [[military]] squad. They are a male-only race - no female foul blendecs exist - and are also immortal, only dying to violence and disease.

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=serpentine_sprite.png
-|wiki=serpentine group}}
+{{stonelookup/0|graphic=serpentine_sprite.png|wiki=serpentine group}}
 {{av}}
 
 '''Serpentine''' is a non-economic green [[stone]] found within clusters of [[olivine]]. Unlike olivine, it is not fire- or [[magma-safe]].

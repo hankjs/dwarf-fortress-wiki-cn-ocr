@@ -7,12 +7,7 @@ Creatures with horns and hooves can be very formidable in combat, especially sin
 == Adventure mode ==
 Unlike ordinary [[bone]], horns or hooves cannot be used in adventurer bone carving, although they're still produced by butchering.
 
-{{Translation
-| dwarven = sheget
-| elvish  = ílime
-| goblin  = era
-| human   = iskak
-}}
+{{Translation| dwarven = sheget| elvish  = ílime| goblin  = era| human   = iskak}}
 
 {{gamedata}}
 {{materials}}

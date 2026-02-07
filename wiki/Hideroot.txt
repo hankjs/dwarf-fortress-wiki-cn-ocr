@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=hide_root_shrub_sprite.png
-|seedimage=hide_root_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=hide_root_shrub_sprite.png|seedimage=hide_root_seeds_sprite.png|uses=
 * [[Dye]]|wiki=no}}
 {{av}}
 

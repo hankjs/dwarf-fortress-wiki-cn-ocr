@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{verminlookup/0
-|image=oyster_sprite.png
-|portrait=oyster_portrait.png}}
+{{verminlookup/0|image=oyster_sprite.png|portrait=oyster_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

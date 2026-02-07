@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=one_humped_camel_man_sprite.png
-|portrait=one_humped_camel_man_portrait.png}}
+{{Creaturelookup/0|image=one_humped_camel_man_sprite.png|portrait=one_humped_camel_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

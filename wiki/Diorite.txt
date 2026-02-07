@@ -1,6 +1,5 @@
 {{Quality|SUperior}}
-{{layerlookup/0
-|graphic=diorite_sprite.png}}
+{{layerlookup/0|graphic=diorite_sprite.png}}
 {{av}}
 
 '''Diorite''' is an [[igneous intrusive layer|igneous intrusive]], non-[[magma-safe]] [[stone]] which can form whole [[stone layers|layers]].

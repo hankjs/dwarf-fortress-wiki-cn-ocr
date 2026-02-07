@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{layerlookup/0
-|graphic=quartzite_sprite.png}}
+{{layerlookup/0|graphic=quartzite_sprite.png}}
 {{av}}
 
 '''Quartzite''' is a type of [[metamorphic]], [[magma-safe]] [[stone]], which forms entire layers. 

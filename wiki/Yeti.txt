@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=yeti_sprites.png
-|portrait=yeti_portrait.png
-|meat=31-34
-|fat=18
-|lung=2
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|intestine=1
-|sweetbread=1
-|eye=2
-|bone=32-33
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=yeti_sprites.png|portrait=yeti_portrait.png|meat=31-34|fat=18|lung=2|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|intestine=1|sweetbread=1|eye=2|bone=32-33|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Yetis''' are large, [[fanciful]], dangerous [[creature]]s found only in [[savage]] [[mountain]]s, [[tundra]]s and [[glacier]]s. They are fully capable of massacring dozens of unarmed dwarves due to their large size, and their disposition to [[building_destroyer#Dangerous_Fun_Variety|destroy buildings]] will draw them into contact with fortresses, where they will topple [[furniture]] and wreck [[workshop]]s in their path. Yetis can equip items and open unlocked [[door]]s, though the former is not typically seen in normal play and the latter is normally ignored, as the yeti will simply destroy the whole door instead of opening it.

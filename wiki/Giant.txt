@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_sprites.png
-|portrait=giant_portrait.png
-|wiki=Giant (mythology)
-|vary=no}}
+{{Creaturelookup/0|image=giant_sprites.png|portrait=giant_portrait.png|wiki=Giant (mythology)|vary=no}}
 {{av}}
 {{creaturedesc}}
 

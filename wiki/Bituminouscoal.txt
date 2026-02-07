@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=bituminous_coal_sprite.png
-|uses=
+{{stonelookup/0|graphic=bituminous_coal_sprite.png|uses=
 * Create 9 [[fuel#Coke, from bituminous coal or lignite|coke]] at [[smelter]]}}
 {{av}}
 

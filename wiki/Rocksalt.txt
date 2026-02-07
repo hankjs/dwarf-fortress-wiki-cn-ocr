@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=rock_salt_sprite.png}}
+{{stonelookup/0|graphic=rock_salt_sprite.png}}
 {{av}}
 
 '''Rock salt''' is a [[sedimentary]] [[stone]]. It can contain [[vein|clusters]] of [[sylvite]] and [[borax]].

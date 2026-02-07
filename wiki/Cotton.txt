@@ -1,12 +1,7 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=cotton_shrub_sprite.png
-|seedimage=cotton_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=cotton_shrub_sprite.png|seedimage=cotton_seeds_sprite.png|uses=
 *[[Oil]]
-*[[Thread]]
-|wp=Gossypium hirsutum
-}}
+*[[Thread]]|wp=Gossypium hirsutum}}
 {{av}}
 
 '''Cotton''' is an [[aboveground]] [[crop]].  Once harvested, cotton plants may be [[plant processing|processed]] at a [[farmer's workshop]] to produce cotton plant fiber [[thread]].
@@ -20,12 +15,7 @@ Some [[dwarves]] [[Preferences|like]] cotton plants for their ''flowers''.
 
 [[File:Cotton plant, Ware County, GA, US.jpg|thumb|center|300px|Admired for its ''flowers''.]]
 
-{{Translation
-| dwarven = îkeng
-| elvish  = ethe
-| goblin  = ongu
-| human   = thixil
-}}
+{{Translation| dwarven = îkeng| elvish  = ethe| goblin  = ongu| human   = thixil}}
 
 {{gamedata}}
 {{Plants}}

@@ -1,22 +1,10 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| graphic    = <div style="margin-left:8px;">[[File:herbalist_sprite_preview.png]]</div>
-| color      = 6:0
-| skill      = Herbalist
-| profession = [[Farmer]]
-| job name   = [[Plant gathering]]
-| tasks      =
-* Gather plants
-| workshop   = 
-* [[Still]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| graphic    = <div style="margin-left:8px;">[[File:herbalist_sprite_preview.png]]</div>| color      = 6:0| skill      = Herbalist| profession = [[Farmer]]| job name   = [[Plant gathering]]| tasks      =
+* Gather plants| workshop   = 
+* [[Still]]| attributes =
 * Agility
 * Memory
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 The '''herbalist''' skill is used by dwarves with the '''plant gathering''' [[labor]] to gather [[plant]]s and plant growths, as well as fruits and nuts from certain [[tree]]s.

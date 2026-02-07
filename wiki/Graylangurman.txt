@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=gray_langur_man_sprite.png
-|portrait=gray_langur_man_portrait.png}}
+{{creaturelookup/0|image=gray_langur_man_sprite.png|portrait=gray_langur_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

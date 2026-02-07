@@ -53,44 +53,7 @@ Large gems currently have little use beyond trade. Some dwarves (with a preferen
 ==Materials==
 Most materials can be used to make trade goods - on occasion, a [[dwarf]] in a [[strange mood]] will make a trade good out of a material not normally suited for it (e. g., a bone toy).
 
-{| class="wikitable"
-| align="center" style="background:#f0f0f0;"|'''Material'''
-| align="center" style="background:#f0f0f0;"|'''Labor'''
-| align="center" style="background:#f0f0f0;"|'''Workshop'''
-| align="center" style="background:#f0f0f0;"|'''Crafts'''
-| align="center" style="background:#f0f0f0;"|'''Goblets'''
-| align="center" style="background:#f0f0f0;"|'''Toys'''
-| align="center" style="background:#f0f0f0;"|'''Large Gems'''
-| align="center" style="background:#f0f0f0;"|'''Instruments'''
-|-
-| [[Stone]]||[[Stone crafter|Stonecrafting]]||[[Craftsdwarf's workshop]]||Y||Y||Y||Y||Y<sup>1</sup>
-|-
-| [[Wood]]||[[Wood crafter|Woodcrafting]]||[[Craftsdwarf's workshop]]||Y||Y||Y<sup>2</sup>||Y||Y<sup>1</sup>
-|-
-| [[Leather]]||[[Leatherworker|Leatherworking]]||[[Craftsdwarf's workshop]]||Y<sup>4</sup>||N||N||N||Y<sup>1</sup>
-|-
-| [[Cloth]]<sup>3</sup>||[[Clothier|Clothesmaking]]||[[Craftsdwarf's workshop]]||Y<sup>4</sup>||N||N||N||N
-|-
-| [[Bone]]<sup>5</sup>||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>
-|-
-| [[Shell]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>
-|-
-| [[Horn]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>
-|-
-| [[Ivory]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||N
-|-
-| [[Pearl]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||N
-|-
-| [[Ceramic]]||[[Potter|Pottery]]||[[Kiln]] or [[Magma kiln]]||Y||N||N||N||Y<sup>1</sup>
-|-
-| [[Wax]]||[[Wax worker|Wax working]]||[[Craftsdwarf's workshop]]||Y||N||N||N||N
-|-
-| [[Metal]]||[[Metalcrafting]]||[[Metalsmith's forge]] or [[Magma forge]]||Y||Y||Y||Y||Y<sup>1</sup>
-|-
-| [[Glass]]||[[Glassmaker|Glassmaking]]||[[Glass furnace]] or [[Magma glass furnace]]||Y<sup>6</sup>||Y||Y||Y<sup>6</sup>||Y<sup>1</sup>
-|-
-| [[Gem|Gems]]||[[Gem cutting]]||[[Jeweler's workshop]]||Y<sup>6</sup>||N||N||Y<sup>6</sup>||N
-|}
+{| class="wikitable"| align="center" style="background:#f0f0f0;"|'''Material'''| align="center" style="background:#f0f0f0;"|'''Labor'''| align="center" style="background:#f0f0f0;"|'''Workshop'''| align="center" style="background:#f0f0f0;"|'''Crafts'''| align="center" style="background:#f0f0f0;"|'''Goblets'''| align="center" style="background:#f0f0f0;"|'''Toys'''| align="center" style="background:#f0f0f0;"|'''Large Gems'''| align="center" style="background:#f0f0f0;"|'''Instruments'''|-| [[Stone]]||[[Stone crafter|Stonecrafting]]||[[Craftsdwarf's workshop]]||Y||Y||Y||Y||Y<sup>1</sup>|-| [[Wood]]||[[Wood crafter|Woodcrafting]]||[[Craftsdwarf's workshop]]||Y||Y||Y<sup>2</sup>||Y||Y<sup>1</sup>|-| [[Leather]]||[[Leatherworker|Leatherworking]]||[[Craftsdwarf's workshop]]||Y<sup>4</sup>||N||N||N||Y<sup>1</sup>|-| [[Cloth]]<sup>3</sup>||[[Clothier|Clothesmaking]]||[[Craftsdwarf's workshop]]||Y<sup>4</sup>||N||N||N||N|-| [[Bone]]<sup>5</sup>||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Shell]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Horn]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Ivory]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||N|-| [[Pearl]]||[[Bone carving]]||[[Craftsdwarf's workshop]]||Y||N||N||Y||N|-| [[Ceramic]]||[[Potter|Pottery]]||[[Kiln]] or [[Magma kiln]]||Y||N||N||N||Y<sup>1</sup>|-| [[Wax]]||[[Wax worker|Wax working]]||[[Craftsdwarf's workshop]]||Y||N||N||N||N|-| [[Metal]]||[[Metalcrafting]]||[[Metalsmith's forge]] or [[Magma forge]]||Y||Y||Y||Y||Y<sup>1</sup>|-| [[Glass]]||[[Glassmaker|Glassmaking]]||[[Glass furnace]] or [[Magma glass furnace]]||Y<sup>6</sup>||Y||Y||Y<sup>6</sup>||Y<sup>1</sup>|-| [[Gem|Gems]]||[[Gem cutting]]||[[Jeweler's workshop]]||Y<sup>6</sup>||N||N||Y<sup>6</sup>||N|}
 <sup>1</sup> Instruments and their components are procedurally generated items; the materials they can be made from depend on the particular world.
 
 <sup>2</sup> Wooden toys can only be made using the job [[manager]], as the craftsdwarf's workshop interface does not permit selecting them. {{bug|3119}}

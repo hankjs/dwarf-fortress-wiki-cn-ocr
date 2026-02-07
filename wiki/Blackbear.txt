@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=black_bear_sprites.png
-|portrait=black_bear_portrait_anim.gif
-|bone=17
-|meat=14
-|fat=13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|tooth=2
-|skin=hide
-|contrib=no
-|wiki=American black bear
-}}
+{{Creaturelookup/0|image=black_bear_sprites.png|portrait=black_bear_portrait_anim.gif|bone=17|meat=14|fat=13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|tooth=2|skin=hide|contrib=no|wiki=American black bear}}
 {{av}}
 {{creaturedesc}}
 

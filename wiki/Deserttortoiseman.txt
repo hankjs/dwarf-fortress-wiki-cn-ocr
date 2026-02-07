@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=desert_tortoise_man_sprite.png
-|portrait=desert_tortoise_man_portrait.png}}
+{{Creaturelookup/0|image=desert_tortoise_man_sprite.png|portrait=desert_tortoise_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

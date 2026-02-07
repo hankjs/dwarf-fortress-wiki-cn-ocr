@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=king_cobra_man_sprite.png
-|portrait=king_cobra_man_portrait.png}}
+{{Creaturelookup/0|image=king_cobra_man_sprite.png|portrait=king_cobra_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''King cobra men''' are [[animal people]] variants of the common [[king cobra]] who inhabit [[tropical]] [[forest]]s. They spawn in groups of 1-5 individuals and are generally content to keep to themselves. In terms of size, they are a little over half the weight of the average [[dwarf]].

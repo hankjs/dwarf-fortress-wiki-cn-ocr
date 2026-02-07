@@ -73,8 +73,7 @@ z -1:░░░░░░░░░
 ⌂ : forbidden minecart
 ╬ : fortification
 _ : floor grate connected to the pressure plate
-᎔ : hatch cover connected to the pressure plate
-}}
+᎔ : hatch cover connected to the pressure plate}}
 
 The minecart containing cages should either be pushed down 18 ramps or pushed through 18 [[Minecart#Impulse_ramps|impulse ramps]] to get enough speed. When the minecart hits the forbidden one, the cages will be injected through the first fortification into chamber A-1. After that, the cages will hit the right wall and the creatures will be injected through the second fortification into chamber B-1. The chambers A and B can be extended downwards to get the cages and creatures to a lower z-level. Dwarves getting hit by cages while they are retrieving previous cages at A-0 can be avoided by using an appropriately long delay to the minecart push.
 

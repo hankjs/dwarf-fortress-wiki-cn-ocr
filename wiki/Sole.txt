@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=sole_sprite.png
-|portrait=sole_portrait.png
-|wiki=Sole_(fish)}}
+{{verminlookup/0|image=sole_sprite.png|portrait=sole_portrait.png|wiki=Sole_(fish)}}
 {{av}}
 {{creaturedesc}}
 

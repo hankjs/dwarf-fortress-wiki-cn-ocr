@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=peach_trunk_sprite.png
-|product=walnut_sprite.png
-|sapling=walnut_sapling.png
-|wiki=Juglans regia}}
+{{Treelookup/0|graphic=peach_trunk_sprite.png|product=walnut_sprite.png|sapling=walnut_sapling.png|wiki=Juglans regia}}
 {{av}}
 
 '''Walnut trees''' are one of the many genera of [[tree]]s found above ground. Like the vast majority of above ground trees, walnut [[wood]] is brown and produces brown products.

@@ -27,29 +27,7 @@ There are four skilled [[doctor]]ing labors and two unskilled supporting hauling
 
 {| Class=wikitable
 ! Labor
-! Use
-|-
-| [[Diagnostician]]
-| Determines what procedures (of the other four) are necessary. Bad diagnosers might miss [[syndrome|syndromes]] others won't.
-|-
-| [[Surgeon]]
-| Repair internal organ damage, excise necrotic tissue or serious injuries to muscle, bones. Good surgeons cause less bleeding in their operations.
-|-
-| [[Bone doctor]]
-| Sets simple breaks for healing
-|-
-| [[Suturer]]
-| Stops serious bleeding. Part of the default '''orderly''' work detail.
-|-
-| [[Wound dresser]]
-| Finalizes closed wounds for healing. Part of the default '''orderly''' work detail.
-|- style="background-color:#eaeaea;"
-| [[Labor|Recovering wounded]]
-| Hauls wounded units to the hospital. Part of the default '''orderly''' work detail.
-|- style="background-color:#eaeaea;"
-| Feed patients/prisoners
-| Gives food/water to patients/prisoners. Part of the default '''orderly''' work detail.
-|}
+! Use|-| [[Diagnostician]]| Determines what procedures (of the other four) are necessary. Bad diagnosers might miss [[syndrome|syndromes]] others won't.|-| [[Surgeon]]| Repair internal organ damage, excise necrotic tissue or serious injuries to muscle, bones. Good surgeons cause less bleeding in their operations.|-| [[Bone doctor]]| Sets simple breaks for healing|-| [[Suturer]]| Stops serious bleeding. Part of the default '''orderly''' work detail.|-| [[Wound dresser]]| Finalizes closed wounds for healing. Part of the default '''orderly''' work detail.|- style="background-color:#eaeaea;"| [[Labor|Recovering wounded]]| Hauls wounded units to the hospital. Part of the default '''orderly''' work detail.|- style="background-color:#eaeaea;"| Feed patients/prisoners| Gives food/water to patients/prisoners. Part of the default '''orderly''' work detail.|}
 
 Those with the '''recover wounded''' labor will attempt to carry an injured dwarf to a hospital zone, or, lacking one, to the nearest unoccupied bed. Dwarves are not light, especially ones in full armor, so these laborers should not have low strength [[attribute]]s. Note that recovering wounded appears to be an extremely low priority task, and since immobile patients will need to be carried to a hospital before diagnosis, it may be necessary to temporarily disable all other labors on dwarves with this labor to get the wounded moved quickly.
 

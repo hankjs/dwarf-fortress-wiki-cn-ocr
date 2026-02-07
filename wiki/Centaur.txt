@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|biome=None
-|death=nobutcher
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|biome=None|death=nobutcher|contrib=no|wiki=yes}}
 {{av}}
 '''Centaurs''' are [[fanciful]] [[creature]]s which are merely the stuff of [[legends]]. They do not actually exist, appearing only in [[engraving]]s as the fancy of artists. A female centaur is known as a ''centauress''.
 
@@ -23,8 +19,7 @@ Though [[creature]]s like [[Merperson|merpeople]] and [[satyr]]s are conceptuall
 Some [[Troll|trolls]] like centaurs for their
 {{#splitrand:
 [[milk]]
-[[Strength|STRENGTH]]
-}}.
+[[Strength|STRENGTH]]}}.
 [[File:Brooklyn Museum - Centauress - John La Farge - overall.jpg|thumb|center|300px|Admired for its ''strength''.]]
 
 ==See Also==

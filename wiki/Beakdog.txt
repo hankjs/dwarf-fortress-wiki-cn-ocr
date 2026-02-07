@@ -1,25 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=beak_dog_sprites.png
-|portrait=beak_dog_portrait.png
-|bone=16
-|meat=11-13
-|fat=11
-|lung=2|
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|gizzard_stone=1
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=beak_dog_sprites.png|portrait=beak_dog_portrait.png|bone=16|meat=11-13|fat=11|lung=2||heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|gizzard_stone=1|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Beak dogs''' are a freakish [[Creature|species]] of [[gorilla]]-sized, bird-like pack hunters found in [[surroundings#evil|evil]] [[Wetland|swamplands]]. They appear in groups of three to seven and occupy the same ecological niche that [[Wolf|wolves]] do in more normal [[surroundings]]. In the fortress-embarking flavor screen, you are sometimes warned to strike the earth quickly "ere the wolves get hungry", but in the actual game, wolves are too small to opportunistically attack [[dwarves]], preferring to predate on smaller creatures instead. Beak dogs, by contrast, are not held back by such a deficiency: they are close to four times as large as a wolf (two and a half times the [[size]] of an average dwarf), and the {{token|LARGE_PREDATOR}} [[creature token|token]] in their [[raw file]]s that they share with wolves means that they will snack on any dwarves that appear before them, given the chance. This obviously makes them very dangerous.

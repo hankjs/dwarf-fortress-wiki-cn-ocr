@@ -1,16 +1,9 @@
 {{migrated article}}
 {{Quality|Exceptional}}
 {{av}}
-{{Skill
-| color      = 3:0
-| skill      = Swimmer
-| specialty  = Peasant
-| profession = None
-| job name   = None
-| tasks      =
+{{Skill| color      = 3:0| skill      = Swimmer| specialty  = Peasant| profession = None| job name   = None| tasks      =
 * Getting in and out of water
-* Staying calm underwater
-| attributes =
+* Staying calm underwater| attributes =
 * Strength
 * Agility
 * Endurance
@@ -63,26 +56,7 @@ The scores are based on the following table, using the dwarven average:
 {| class=wikitable style="width:600px;"
 ! Endurance
 ! Toughness
-! Drowning Ticks
-|-
-| absolutely inexhaustible || basically unbreakable || 1262-2700
-|-
-| indefatigable || incredibly tough || 1137-1262
-|-
-| very slow to tire || quite durable || 1012-1137
-|-
-| slow to tire || tough || 887-1012
-|-
-| (no description) || (no description) || 638-887
-|-
-| quick to tire || flimsy || 513-637
-|-
-| very quick to tire || very flimsy || 388-512
-|-
-| extremely quick to tire || remarkably flimsy || 263-387
-|-
-| truly quick to tire || shockingly fragile || 200-262
-|}
+! Drowning Ticks|-| absolutely inexhaustible || basically unbreakable || 1262-2700|-| indefatigable || incredibly tough || 1137-1262|-| very slow to tire || quite durable || 1012-1137|-| slow to tire || tough || 887-1012|-| (no description) || (no description) || 638-887|-| quick to tire || flimsy || 513-637|-| very quick to tire || very flimsy || 388-512|-| extremely quick to tire || remarkably flimsy || 263-387|-| truly quick to tire || shockingly fragile || 200-262|}
 
 Example: a dwarf with an average score of endurance and toughness will have 762 ticks to get out of the water, or drown.
 

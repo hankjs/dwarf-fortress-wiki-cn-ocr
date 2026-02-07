@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{verminlookup/0
-|image=fluffy_wambler_sprite.png
-|portrait=fluffy_wambler_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=fluffy_wambler_sprite.png|portrait=fluffy_wambler_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

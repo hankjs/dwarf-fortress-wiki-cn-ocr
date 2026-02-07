@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=watermelon_shrub_sprite.png
-|seedimage=watermelon_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=watermelon_shrub_sprite.png|seedimage=watermelon_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Watermelons''' are an [[aboveground]] [[crop|garden fruit]]. They can be planted in all seasons and the fruit is edible raw or [[cooking|cooked]]. Fruits also can be processed in a [[dyer's shop]] into orchid pink [[dye]].

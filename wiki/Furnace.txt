@@ -56,12 +56,7 @@ Used to fire [[clay]] into items, and to glaze some types of clay items. It also
 :*''Shortcut:'' {{menu icon|b|o|u|K}}
 Functions just like a regular kiln, but uses magma instead of [[fuel]].
 
-{{Translation
-| dwarven = sarvesh
-| elvish  = lethari
-| goblin  = usmza
-| human   = nganiz
-}}
+{{Translation| dwarven = sarvesh| elvish  = lethari| goblin  = usmza| human   = nganiz}}
 
 {{Workshops}}
 {{Buildings}}

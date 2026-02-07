@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = egom
-| elvish  = amala
-| goblin  = busm
-| human   = evhol
-}}
+{{Translation| dwarven = egom| elvish  = amala| goblin  = busm| human   = evhol}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[roc]] or a [[force]], associated with the [[Sphere|spheres]] of agriculture, animals, fish, fishing, hunting, nature, plants, seasons, or trees will have words from this symbol in their name.

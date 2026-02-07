@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_clear_zircon_sprite.png
-|graphic2=rough_clear_zircon_sprite.png
-|wiki=zircon}}{{av}}
+{{gemlookup/0|graphic=cut_clear_zircon_sprite.png|graphic2=rough_clear_zircon_sprite.png|wiki=zircon}}{{av}}
 
 '''Clear zircons''' are semi-precious [[gems]] found in small clusters in all [[igneous]] and [[metamorphic]] stone layers. At 25, it has the highest [[material value]] of any type of zircon - all types of colored zircon, while still semi-precious, have a material value of only 20.
 

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=lungfish_sprite.png
-|portrait=lungfish_portrait.png}}
+{{verminlookup/0|image=lungfish_sprite.png|portrait=lungfish_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

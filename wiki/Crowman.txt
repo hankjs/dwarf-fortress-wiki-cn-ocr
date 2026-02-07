@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=crow_man_sprite.png
-|portrait=crow_man_portrait.png}}
+{{Creaturelookup/0|image=crow_man_sprite.png|portrait=crow_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

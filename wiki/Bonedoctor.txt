@@ -1,19 +1,11 @@
 {{Quality|Exceptional}}
-{{Skill
-| color      = 5:0
-| graphic    = [[File:doctor_sprite_icon.png]]
-| graphicmargin = 106px
-| profession = Doctor
-| job name   = Setting bones
-| tasks      =
-* Fixing bone injuries
-| attributes =
+{{Skill| color      = 5:0| graphic    = [[File:doctor_sprite_icon.png]]| graphicmargin = 106px| profession = Doctor| job name   = Setting bones| tasks      =
+* Fixing bone injuries| attributes =
 * Strength
 * Agility
 * Focus
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 {{buggy}}
 '''Bone Doctor''' is the skill associated with the "setting bones" [[labor]] used in [[healthcare]], as well as the hospital [[occupation]] associated with it. Bone doctors set fractured and broken bones, then use [[splint]]s and [[plaster cast]]s to immobilize the injured body part and keep the bone in place until it fully heals. Overlapping fracture injuries require the use of [[traction bench]]es at a [[hospital]].

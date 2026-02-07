@@ -40,12 +40,7 @@ A dwarf catching fire is not an automatic death sentence - dwarves have been obs
 
 [[File:dwarf_fire_preview.png|thumb|289px|center|!!Punctuation marks have never been so painful!!<br><small>''Art by Locus''</small>]]
 
-{{Translation
-| dwarven = ziril
-| elvish  = inira
-| goblin  = zedan
-| human   = usmok
-}}
+{{Translation| dwarven = ziril| elvish  = inira| goblin  = zedan| human   = usmok}}
 
 {{Category|Physics}}
 [[ru:Fire]]

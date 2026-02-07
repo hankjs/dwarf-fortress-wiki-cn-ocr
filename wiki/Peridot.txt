@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_peridot_sprite.png
-|graphic2=rough_peridot_sprite.png}}
+{{gemlookup/0|graphic=cut_peridot_sprite.png|graphic2=rough_peridot_sprite.png}}
 {{av}}
 
 '''Peridot''' is a semi-precious [[gem]]-quality form of [[olivine]], and is found in [[gabbro]] layers. 

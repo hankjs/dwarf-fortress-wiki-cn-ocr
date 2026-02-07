@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=pitchblende_sprite.png}}
+{{stonelookup/0|graphic=pitchblende_sprite.png}}
 {{av}}
 
 '''Pitchblende''' is a [[magma-safe]] stone which occurs in small quantities within [[granite]]. It is green with [[premium]] graphics or purple with [[classic]] graphics.

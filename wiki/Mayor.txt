@@ -1,20 +1,8 @@
 {{Quality|Superior}}
 {{av}}
-{{Noble
-| noble= Mayor
-| office= Decent Office
-| quarters= Decent Quarters
-| dining= Decent Dining Room
-| chests=2
-| cabinets=1
-| racks=1
-| stands=1
-| mandates=1
-| demands=2
-| arrival=
+{{Noble| noble= Mayor| office= Decent Office| quarters= Decent Quarters| dining= Decent Dining Room| chests=2| cabinets=1| racks=1| stands=1| mandates=1| demands=2| arrival=
 * 50 population
-* Elected
-| function=
+* Elected| function=
 * Meet with foreign dignitaries
 * Talk with unhappy citizens}}
 The '''mayor''' is a [[noble]] whose job it is to speak with unhappy citizens, and (until a [[baron]] is appointed) entertain foreign [[diplomat]]s. They are automatically elected from the most social [[dwarf]], most likely the [[expedition leader]], once the population reaches 50. A new mayor may be elected from time to time as your dwarves' social skills change.

@@ -37,41 +37,28 @@ Floors should '''always''' be removed in multiple steps, starting at the furthes
 
 ===Examples===
 Key:
-{|
-|-
-|{{RT|+|red}}||Support - either a wall below or a staircase
-|-
-|{{RT|+|#ccc}}||Unsupported floor, unable to be safely removed
-|-
-|{{RT|+|#0f0}}||Floor able to be safely removed
-|-
-|{{RT|.|#ccc}}||Previous site of (removed) floor
-|}
+{||-|{{RT|+|red}}||Support - either a wall below or a staircase|-|{{RT|+|#ccc}}||Unsupported floor, unable to be safely removed|-|{{RT|+|#0f0}}||Floor able to be safely removed|-|{{RT|.|#ccc}}||Previous site of (removed) floor|}
 
 ====3×3 floor, supported in middle====
 This example usually has a staircase in the middle supporting it, instead of a wall below (in that case, there would need to be another access point for dwarves to remove the floor, which would make this example much more complicated).
 {{diagram|
 +++
 +[#f00]++
-+++
-}}
++++}}
 =====Removing corners first=====
 {{ltr steps|
 {{diagram|
 [#0f0]++[#0f0]+
 +[#f00]++
-[#0f0]++[#0f0]+
-}}|
+[#0f0]++[#0f0]+}}|
 {{diagram|
 .[#0f0]+.
 [#0f0]+[#f00]+[#0f0]+
-.[#0f0]+. 
-}}|
+.[#0f0]+. }}|
 {{diagram|
 ...
 .[#f00]+.
-...
-}}}}
+...}}}}
 
 Floors are '''not''' supported diagonally, so removing all floor tiles [[orthogonal]] to another floor will result in a [[cave-in]].
 
@@ -80,18 +67,15 @@ Floors are '''not''' supported diagonally, so removing all floor tiles [[orthogo
 {{diagram|
 [#0f0]++[#0f0]+
 [#0f0]+[#f00]+[#0f0]+
-[#0f0]++[#0f0]+
-}}|
+[#0f0]++[#0f0]+}}|
 {{diagram|
 .[#0f0]+.
 .[#f00]+.
-.[#0f0]+. 
-}}|
+.[#0f0]+. }}|
 {{diagram|
 ...
 .[#f00]+.
-...
-}}}}
+...}}}}
 Dwarves can stand on the red or grey tiles to remove floors. Dwarves will not remove floors that another dwarf is standing on, so if a dwarf decides to stand on a green floor, the removal job could be canceled.
 
 ==Bugs==
@@ -104,12 +88,7 @@ Dwarves can stand on the red or grey tiles to remove floors. Dwarves will not re
 
 *Sometimes when removing flooring, 1/7 deep magma ''may'' appear in its place.
 
-{{Translation
-| dwarven = dakost
-| elvish  = mere
-| goblin  = ublu
-| human   = dolak
-}}
+{{Translation| dwarven = dakost| elvish  = mere| goblin  = ublu| human   = dolak}}
 
 {{Buildings}}
 {{Category|Buildings}}

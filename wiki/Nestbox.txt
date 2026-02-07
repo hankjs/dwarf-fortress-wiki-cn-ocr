@@ -1,23 +1,18 @@
 {{migrated article}}
 {{Quality|Unrated}}
 {{av}}{{Buggy}}
-{{Building|name=Nest box|key=o|key2=f|key3=n|job=[[Food hauling]]
-|construction=
+{{Building|name=Nest box|key=o|key2=f|key3=n|job=[[Food hauling]]|construction=
 * Wood
 * Metal
 * Stone
-* Glass
-|construction_job=
+* Glass|construction_job=
 * [[Woodcrafter]]
 * [[Metalcrafter]]
 * [[Stonecrafter]]
-* [[Glassmaker]]
-|use=
-* [[Nest box]]
-|purpose=
+* [[Glassmaker]]|use=
+* [[Nest box]]|purpose=
 * Producing [[egg]]s
-* Producing [[Domestic_animal#Comparison_of_domestic_poultry|poultry]] (with male present)
-}}
+* Producing [[Domestic_animal#Comparison_of_domestic_poultry|poultry]] (with male present)}}
 
 A '''nest box''' is a 1×1 building that a tame [[egg]]-laying creature will claim and use to lay eggs in, once created and placed.
 

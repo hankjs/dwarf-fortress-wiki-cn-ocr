@@ -6,12 +6,7 @@
 
 '''Leader''' is a miscellaneous [[skill]]. [[Main:Toady One|Toady One]] stated in a Fortress talk that it is used when a dwarf tries to teach another dwarf a skill through a lecture.{{verify}} It is currently only used to train [[weapon]] skills. All squad leaders ([[militia commander]], [[militia captain]]s, the [[captain of the guard]] and the [[hammerer]]) will learn it slowly.
 
-{{Translation
-| dwarven = erar
-| elvish  = raneci
-| goblin  = öla
-| human   = sacath
-}}
+{{Translation| dwarven = erar| elvish  = raneci| goblin  = öla| human   = sacath}}
 
 {{Skills}}
 {{Category|Skills}}

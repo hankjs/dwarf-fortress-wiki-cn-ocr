@@ -1,12 +1,5 @@
 {{Quality|Fine}}
-{{v50_furniture|name=Book Binding
-|tile=
-|graphic=[[File:bookbinding.gif]]
-|wood=y
-|stone=y
-|metal=y
-|glass=y
-}}
+{{v50_furniture|name=Book Binding|tile=|graphic=[[File:bookbinding.gif]]|wood=y|stone=y|metal=y|glass=y}}
 {{av}}
 {{for/see|the skill and labor|[[Bookbinder]]}}
 

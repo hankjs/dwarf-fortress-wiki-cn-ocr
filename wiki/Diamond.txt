@@ -10,8 +10,7 @@
 {{Gem table row|rarity=Rare|name=[[clear diamond]]|value=60|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|graphic=[[File:rough_clear_diamond_sprite.png]] [[File:cut_clear_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
 {{Gem table row|rarity=Rare|name=[[green diamond]]|value=60|color={{Raw Tile|☼|2:7:0}}{{Raw Tile|♦|2:0}}<span style="display:none">2:0</span>|graphic=[[File:rough_green_diamond_sprite.png]] [[File:cut_green_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
 {{Gem table row|rarity=Rare|name=[[red diamond]]|value=60|color={{Raw Tile|☼|4:7:0}}{{Raw Tile|♦|4:0}}<span style="display:none">4:0</span>|graphic=[[File:rough_red_diamond_sprite.png]] [[File:cut_red_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
-{{Gem table row|rarity=Rare|name=[[yellow diamond]]|value=60|color={{Raw Tile|☼|6:7:1}}{{Raw Tile|♦|6:1}}<span style="display:none">6:1</span>|graphic=[[File:rough_yellow_diamond_sprite.png]] [[File:cut_yellow_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
-|}
+{{Gem table row|rarity=Rare|name=[[yellow diamond]]|value=60|color={{Raw Tile|☼|6:7:1}}{{Raw Tile|♦|6:1}}<span style="display:none">6:1</span>|graphic=[[File:rough_yellow_diamond_sprite.png]] [[File:cut_yellow_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}|}
 
 For a complete list of gems, see [[Gem]]s.
 
@@ -21,12 +20,7 @@ Historically, diamonds were ranked among the five cardinal gems. The others incl
 
 [[File:diamonds_many_colors.jpg|thumb|300px|center|Urist (and [[humans]]) love diamonds for their mind-numbingly beautiful shimmering.]]
 
-{{Translation
-| dwarven = doren
-| elvish  = akera
-| goblin  = tusnung
-| human   = palath
-}}
+{{Translation| dwarven = doren| elvish  = akera| goblin  = tusnung| human   = palath}}
 
 {{Gems}}
 {{Category|Diamond| }}

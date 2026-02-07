@@ -32,12 +32,7 @@ Not all embark locations have sand available. While this may prevent the establi
 
 It is wise to always keep several bags of sand on hand, in order to deal with [[strange mood]]s requiring glass. 
 
-{{Translation
-| dwarven = cuggán
-| elvish  = polefa
-| goblin  = anga
-| human   = zar
-}}
+{{Translation| dwarven = cuggán| elvish  = polefa| goblin  = anga| human   = zar}}
 
 {{D for Dwarf}}
 

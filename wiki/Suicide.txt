@@ -8,11 +8,6 @@ There are several situations in which a dwarf will commit actual '''suicide'''. 
 Another, less obvious, case of suicide is the husband or wife that suspiciously dies at the same time as the partner. A dwarf who dies of old age will be announced as such: "died of old age" but the spouse will silently go "missing" - a sure sign that something is fishy.
 
  
-{{Translation
-| dwarven = moshnún
-| elvish  = parida
-| goblin  = slexu
-| human   = kur
-}}
+{{Translation| dwarven = moshnún| elvish  = parida| goblin  = slexu| human   = kur}}
 {{Category|Dwarves}}
 [[ru:Suicide]]

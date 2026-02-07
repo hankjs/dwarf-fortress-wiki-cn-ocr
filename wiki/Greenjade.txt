@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_green_jade_sprite.png
-|graphic2=rough_green_jade_sprite.png
-|wiki=Jade}}
+{{gemlookup/0|graphic=cut_green_jade_sprite.png|graphic2=rough_green_jade_sprite.png|wiki=Jade}}
 {{av}}
 
 '''Green jades''' are semi-precious [[gem]]s that only appear in [[alluvial layer]]s.

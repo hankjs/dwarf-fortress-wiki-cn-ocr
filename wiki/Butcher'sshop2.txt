@@ -1,20 +1,12 @@
 {{Quality|Superior}}
-{{V50 workshop
-|name=Butcher's shop
-|icon=[[File:butchers_shop_icon.png]]
-|key=f|key2=b
-|job=*[[Butcher|Butchery]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Butcher's shop|icon=[[File:butchers_shop_icon.png]]|key=f|key2=b|job=*[[Butcher|Butchery]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 *[[Butchery]]
 *[[Small animal dissection]]
-*[[Trapping]]
-|use=
+*[[Trapping]]|use=
 * [[Tame animals]]
-* Corpses of untamed non-sentient animals
-|production=
+* Corpses of untamed non-sentient animals|production=
 * [[Skin]]
 * [[Fat]]
 * [[Meat]]
@@ -26,8 +18,7 @@
 * [[Ivory]]
 * [[Tooth]]
 * [[Hair]]
-* [[Wool]]
-}}{{av}}
+* [[Wool]]}}{{av}}
 
 The '''butcher's shop''' is used to [[Butcher#Slaughtering|slaughter]] [[Tame animals|tame animals]], or to [[butcher]] the corpses or skeletons of slain wild animals.  A tame animal can be designated for slaughter in the {{k|u}} [[Unit_list|Creatures]] menu under the Pets/Livestock tab.
 
@@ -40,44 +31,7 @@ A butchered animal results into various items with different uses:
 
 {| {{prettytable}}
 !Item
-!Uses
-|-
-|[[Meat]] and [[prepared organs]]
-|Eaten raw or [[kitchen|cooked]]
-|-
-|[[Fat]]
-|[[kitchen|Cooked]] to [[tallow]]
-|-
-|[[Skull]]s
-|Crafting skull [[totem]]s
-|-
-|[[Bone]]s
-|Crafting bone [[armor]], bone [[bolt]]s, bone [[crafts]], bone [[decoration]]s, and [[strange mood]]s
-|-
-|[[Hoof|Hooves]], [[Horn]]s,  [[Tooth|Teeth]]
-|[[crafts]] and [[decoration]]s
-|-
-|[[Shell]]s
-|Crafting shell [[armor]], shell [[crafts]], shell [[decoration]]s, and [[strange mood]]s
-|-
-|[[Skin]]
-|Tanned into [[Leather]]
-|-
-|[[Wool]]
-|Spun into [[Yarn]]
-|-
-|[[Hair]] 
-|Spun into [[thread]], but not woven into [[cloth]]
-|-
-|[[Cartilage]]
-|Currently no uses.
-|-
-|[[Nervous tissue]]
-|Currently no uses.
-|-
-|[[Feather]], [[Scale]], [[Chitin]], and [[Nail]]
-|Currently no uses.
-|}
+!Uses|-|[[Meat]] and [[prepared organs]]|Eaten raw or [[kitchen|cooked]]|-|[[Fat]]|[[kitchen|Cooked]] to [[tallow]]|-|[[Skull]]s|Crafting skull [[totem]]s|-|[[Bone]]s|Crafting bone [[armor]], bone [[bolt]]s, bone [[crafts]], bone [[decoration]]s, and [[strange mood]]s|-|[[Hoof|Hooves]], [[Horn]]s,  [[Tooth|Teeth]]|[[crafts]] and [[decoration]]s|-|[[Shell]]s|Crafting shell [[armor]], shell [[crafts]], shell [[decoration]]s, and [[strange mood]]s|-|[[Skin]]|Tanned into [[Leather]]|-|[[Wool]]|Spun into [[Yarn]]|-|[[Hair]] |Spun into [[thread]], but not woven into [[cloth]]|-|[[Cartilage]]|Currently no uses.|-|[[Nervous tissue]]|Currently no uses.|-|[[Feather]], [[Scale]], [[Chitin]], and [[Nail]]|Currently no uses.|}
 
 == Tasks ==
 

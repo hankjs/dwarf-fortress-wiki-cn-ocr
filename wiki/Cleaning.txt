@@ -1,10 +1,7 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Labor
-| labor = Cleaning
-| tasks =
-* Clean
-}}
+{{Labor| labor = Cleaning| tasks =
+* Clean}}
 {{av}}
 {{buggy}}
 '''Cleaning''' is a type of [[labor]] used by [[dwarves]] in order to clean tiles. In order for dwarves to perform this task, it must be enabled inside the labor menu's Other Jobs tab. Dwarves clean a 3x3 tile area at a time, removing contaminants such as [[vomit]], [[blood]], and broken [[arrow]]s. Cleaning is enabled by default in all dwarves.

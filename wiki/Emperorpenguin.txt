@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=emperor_penguin_sprites.png
-|portrait=emperor_penguin_portrait_anim.gif
-|kidney=2
-|fat=11
-|lung=2
-|heart=1
-|intestines=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|gizzard=1
-|brain=1
-|skull=1
-|skin=hide
-|meat=13
-|bone=13
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=emperor_penguin_sprites.png|portrait=emperor_penguin_portrait_anim.gif|kidney=2|fat=11|lung=2|heart=1|intestines=1|liver=1|tripe=1|sweetbread=1|spleen=1|gizzard=1|brain=1|skull=1|skin=hide|meat=13|bone=13|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

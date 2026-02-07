@@ -1,12 +1,7 @@
 {{Quality|Fine}}
 {{av}}
 [[File:Compendium about magic; c. 1775 Wellcome L0025197.jpg|thumb|220px|right|Compendium about magic; c. 1775 Wellcome L0025197]]'''Magic''' currently exists in limited form in ''Dwarf Fortress''. With [[Modding guide|modding]], it is also one of the many ways that [[Interaction token|interaction]]s can be manifested.
-{{Translation
-| dwarven = aroth
-| elvish  = isila
-| goblin  = slöl
-| human   = eri
-}}
+{{Translation| dwarven = aroth| elvish  = isila| goblin  = slöl| human   = eri}}
 There seems to be some code present that has to do with magic, but there is nothing that uses that code or activates it. For example, the {{token|MAGICAL|c}} creature token being recognized as a valid token (i.e. the game does not give an error when it is found). A fully working and [[Lua scripting|procedurally-generated]] magic system is currently in the works according to [[Main:Toady One|Toady One]]'s development log, with [[Primordial remnant|recent changes]] to adventure mode as of v51 containing parts of the framework for it.
 
 ==Known magic==

@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=wild_boar_sprites.png
-|portrait=wild_boar_portrait_anim.gif
-|bone=12-14
-|meat=8-9
-|fat=8-9
-|ivory=2
-|skull=1
-|hoof=4
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=wild_boar_sprites.png|portrait=wild_boar_portrait_anim.gif|bone=12-14|meat=8-9|fat=8-9|ivory=2|skull=1|hoof=4|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,11 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=jute_shrub_sprite.png
-|seedimage=jute_seeds_sprite.png
-|uses=
-*[[Thread]]
-|wp=Corchorus
-}}
+{{plantlookup|graphic=jute_shrub_sprite.png|seedimage=jute_seeds_sprite.png|uses=
+*[[Thread]]|wp=Corchorus}}
 {{av}}
 
 '''Jute''' is an [[aboveground]] [[crop]]. The plant may be [[plant processing|processed]] at a [[farmer's workshop]] to produce jute [[plant fiber]] [[thread]], which can then be woven into jute [[cloth]]. It can also be mashed into a [[slurry]] and [[Presser|pressed]] to produce jute [[paper]].

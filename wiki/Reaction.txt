@@ -101,24 +101,12 @@ Categories will be displayed in alphabetical order, first off the file name and 
 
 Each category needs to be defined within a reaction, usually one which should appear within its menu. Categories only need to be defined once.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Arguments
-! Description
-|-
-| style="vertical-align: top"| CATEGORY || style="vertical-align: top"| Category ID || The category ID is a unique identifier for the category. It is only used in the raws, and will not appear in the game.
+! Description|-| style="vertical-align: top"| CATEGORY || style="vertical-align: top"| Category ID || The category ID is a unique identifier for the category. It is only used in the raws, and will not appear in the game.
 
-If you're defining multiple categories within the same reaction - for example, if you intend the reaction to be nested two deep, and haven't yet defined the super-category - the ''last'' CATEGORY token within the reaction definition is the one that the reaction will appear in.
-|-
-| style="vertical-align: top"| CATEGORY_NAME || style="vertical-align: top"| String || The name of the category as displayed in-game.
-|-
-| style="vertical-align: top"| CATEGORY_DESCRIPTION || style="vertical-align: top"| String || Optional. If present, when the category is highlighted in a building menu, this string will be displayed in the Helpful Hint box.
-|-
-| style="vertical-align: top"| CATEGORY_PARENT || style="vertical-align: top"| Category ID || Optional. If present, this category will be a submenu of the indicated category, rather than a submenu of the reaction's building.
-|-
-| style="vertical-align: top"| CATEGORY_KEY || style="vertical-align: top"| Hotkey token || Optional. If present, this category can be selected from its parent menu (whether a building or a parent category) using the given hotkey.  Uses the same format as the BUILDING KEY described above.
-|}
+If you're defining multiple categories within the same reaction - for example, if you intend the reaction to be nested two deep, and haven't yet defined the super-category - the ''last'' CATEGORY token within the reaction definition is the one that the reaction will appear in.|-| style="vertical-align: top"| CATEGORY_NAME || style="vertical-align: top"| String || The name of the category as displayed in-game.|-| style="vertical-align: top"| CATEGORY_DESCRIPTION || style="vertical-align: top"| String || Optional. If present, when the category is highlighted in a building menu, this string will be displayed in the Helpful Hint box.|-| style="vertical-align: top"| CATEGORY_PARENT || style="vertical-align: top"| Category ID || Optional. If present, this category will be a submenu of the indicated category, rather than a submenu of the reaction's building.|-| style="vertical-align: top"| CATEGORY_KEY || style="vertical-align: top"| Hotkey token || Optional. If present, this category can be selected from its parent menu (whether a building or a parent category) using the given hotkey.  Uses the same format as the BUILDING KEY described above.|}
 
 ==== Adding reactions to an existing category ====
 
@@ -168,18 +156,10 @@ When no item type is specified (as in NONE:NONE), workers will not be able to fi
 [[Material token]]s come in several forms. For most reagents, this will typically be INORGANIC:MATERIAL_ID or NONE:NONE (to allow multiple materials using other modifier tokens).
 
 Some reactions will allow the player to select specific materials after creating the job (or in [[Reaction#material_token_2|some cases]], armor size from the product), by clicking on [[File:Mag glass icon.png]] next to the job in the workshop queue.  To permit this behaviour in your reaction, the reagent materials must be specified as follows:
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Item Type
 ! Material
-! Notes
-|-
-| style="vertical-align: top"| BAR<br>BLOCKS<br>BOULDER<br>ROUGH<br>SMALLGEM || style="vertical-align: top"| INORGANIC:NONE || style="vertical-align: top"| These all appear as "stone" in the material selection menu, and list all inorganic materials regardless of any material modifier tokens, eg. [ITEMS_METAL]. BAR and BLOCKS made of organic materials, and BOULDER made of clay, are excluded.
-|-
-| style="vertical-align: top"| SKIN_TANNED or WOOD || style="vertical-align: top"| NONE:NONE || 
-|-
-| style="vertical-align: top"| Other Item Types || style="vertical-align: top"| NONE:NONE || style="vertical-align: top"| These will appear if a material modifier token other than [ANY_LEATHER_MATERIAL] is included. 
-|}
+! Notes|-| style="vertical-align: top"| BAR<br>BLOCKS<br>BOULDER<br>ROUGH<br>SMALLGEM || style="vertical-align: top"| INORGANIC:NONE || style="vertical-align: top"| These all appear as "stone" in the material selection menu, and list all inorganic materials regardless of any material modifier tokens, eg. [ITEMS_METAL]. BAR and BLOCKS made of organic materials, and BOULDER made of clay, are excluded.|-| style="vertical-align: top"| SKIN_TANNED or WOOD || style="vertical-align: top"| NONE:NONE || |-| style="vertical-align: top"| Other Item Types || style="vertical-align: top"| NONE:NONE || style="vertical-align: top"| These will appear if a material modifier token other than [ANY_LEATHER_MATERIAL] is included. |}
 
 ==== Modifiers ====
 
@@ -189,227 +169,17 @@ Generally speaking, if you set a field in a reagent to NONE, the reaction won't 
 
 The following is a list of all known reagent modifiers:
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Arguments
-! Description
-|-
-| style="vertical-align: top"| ANY_BONE_MATERIAL
-|
-| Reagent material must have the [BONE] token.
-|-
-| style="vertical-align: top"| ANY_GEM_MATERIAL
-|
-| Reagent material must have the [IS_GEM] token.
-|-
-| style="vertical-align: top"| ANY_HORN_MATERIAL
-|
-| Reagent material must have the [HORN] token.
-|-
-| style="vertical-align: top"| ANY_LEATHER_MATERIAL
-|
-| Reagent material must have the [LEATHER] token.
-|-
-| style="vertical-align: top"| ANY_PEARL_MATERIAL
-|
-| Reagent material must have the [PEARL] token.
-|-
-| style="vertical-align: top"| ANY_PLANT_MATERIAL
-|
-| Reagent material must be subordinate to a PLANT object.
-|-
-| style="vertical-align: top"| ANY_SHELL_MATERIAL
-|
-| Reagent material must have the [SHELL] token.
-|-
-| style="vertical-align: top"| ANY_SILK_MATERIAL
-|
-| Reagent material must have the [SILK] token.
-|-
-| style="vertical-align: top"| ANY_SOAP_MATERIAL
-|
-| Reagent material must have the [SOAP] token.
-|-
-| style="vertical-align: top"| ANY_STONE_MATERIAL
-|
-| Reagent material must have the [IS_STONE] token.
-|-
-| style="vertical-align: top"| ANY_STRAND_TISSUE
-|
-| Reagent is made of a tissue having TISSUE_SHAPE:STRANDS, intended for matching hair and wool. Must be used with USE_BODY_COMPONENT.
-|-
-| style="vertical-align: top"| ANY_TOOTH_MATERIAL
-|
-| Reagent material must have the [TOOTH] token.
-|-
-| style="vertical-align: top"| ANY_WOOD_MATERIAL
-|
-| Reagent material must have the [WOOD] token.
-|-
-| style="vertical-align: top"| ANY_YARN_MATERIAL
-|
-| Reagent material must have the [YARN] token.
-|-
-| style="vertical-align: top"| BUILDMAT
-|
-| Reagent must be a general [[building material]] - BAR, BLOCKS, BOULDER, or WOOD.
-|-
-| style="vertical-align: top"| CAN_USE_ARTIFACT
-|
-| Reagent can be an Artifact. Using [PRESERVE_REAGENT] with this is strongly advised.
-|-
-| style="vertical-align: top"| CONTAINS
-| style="vertical-align: top"|
-* [[#Reagent name|Reagent name]]
-| Reagent is a container that holds the specified reagent (where ''Reagent name'' is the locally-defined name of the reagent).
-|-
-| style="vertical-align: top"| CONTAINS_LYE
-|
-| Reagent must be a BARREL or TOOL which contains at least one item of type LIQUID_MISC made of LYE. Use of this token is discouraged, as it does not work with buckets (instead, use [CONTAINS:lye] &mdash; note the colon &mdash; and a corresponding lye reagent [REAGENT:lye:150:LIQUID_MISC:NONE:LYE]).
-|-
-| style="vertical-align: top"| DOES_NOT_ABSORB
-|
-| Reagent material must have ABSORPTION:0
-|-
-| style="vertical-align: top"| DOES_NOT_DETERMINE_PRODUCT_AMOUNT
-|
-| Reagent quantity is ignored for the purposes of producing extra outputs. Typically used for containers so that [[stack]]s of reagents will correctly produce additional outputs.
-|-
-| style="vertical-align: top"| EMPTY
-|
-| If the reagent is a container, it must be empty.
-|-
-| style="vertical-align: top"| FIRE_BUILD_SAFE
-|
-| Reagent material must be solid and stable at temperatures approaching 11000. Only works with items of type BAR, BLOCKS, BOULDER, WOOD, and ANVIL - all others are considered unsafe.
-|-
-| style="vertical-align: top"| FOOD_STORAGE_CONTAINER
-|
-| Reagent is either a BARREL or a TOOL with the FOOD_STORAGE use.
-|-
-| style="vertical-align: top"| GLASS_MATERIAL
-|
-| Reagent material must have the IS_GLASS token. All 3 types of [[glass]] have this token hardcoded.
-|-
-| style="vertical-align: top"| HARD_ITEM_MATERIAL
-|
-| Reagent material must have the [ITEMS_HARD] token.
-|-
-| style="vertical-align: top"| HAS_EDGE
-|
-| Reagent must have an edge.
-|-
-| style="vertical-align: top"| HAS_ITEM_REACTION_PRODUCT
-| style="vertical-align: top"|
-* PRODUCT_ID
-| Reagent material must have the item reaction product specified by PRODUCT_ID - [[Reaction#Item_reaction_products|see below]] for more details. This can be used interchangeably with HAS_MATERIAL_REACTION_PRODUCT.
-|-
-| style="vertical-align: top"| HAS_MATERIAL_REACTION_PRODUCT
-| style="vertical-align: top"|
-* PRODUCT_ID
-| Reagent material must have the material reaction product specified by PRODUCT_ID - [[Reaction#Material_reaction_products|see below]] for more details.
-|-
-| style="vertical-align: top"| HAS_TOOL_USE
-| style="vertical-align: top"|
-* [[Tool token#TOOL_USE|TOOL_USE]] value
-| Reagent must be a [[tool]] with the specific TOOL_USE value. The reagent's item type must be TOOL:NONE for this to make any sense.
-|-
-| style="vertical-align: top"| IS_CRAFTED_ARTIFACT{{verify}}
-|
-| Reagent item must be an artifact.
-|-
-| style="vertical-align: top"| IS_DIVINE_MATERIAL
-|
-| Reagent material must have the [DIVINE] token.
-|-
-| style="vertical-align: top"| IS_SAND_MATERIAL
-|
-| Reagent material must have the [SOIL_SAND] token.
-|-
-| style="vertical-align: top"| MAGMA_BUILD_SAFE
-|
-| Reagent material must be solid and stable at temperatures approaching 12000. Only works with items of type BAR, BLOCKS, BOULDER, WOOD, and ANVIL - all others are considered unsafe.
-|-
-| style="vertical-align: top"| METAL_ITEM_MATERIAL
-|
-| Reagent material must have the [ITEMS_METAL] token.
-|-
-| style="vertical-align: top"| METAL_ORE
-| style="vertical-align: top"|
-* Metal ID
-| Reagent material must be an ore of the specified metal.
-|-
-| style="vertical-align: top"| MIN_DIMENSION
-| style="vertical-align: top"|
-* Integer
-| Reagent's item size must be at least as large as ''Integer''. The reagent's item type must be BAR, POWDER_MISC, LIQUID_MISC, DRINK, THREAD, CLOTH, or GLOB for this to work.  See [[Reaction#PRODUCT_DIMENSION|PRODUCT_DIMENSION]] below.
-|-
-| style="vertical-align: top"| NO_EDGE_ALLOWED
-|
-| Reagent must not have an edge, so must be blunt. Sharp stones (produced using knapping) and most types of weapon/ammo can not be used with this token.
-|-
-| style="vertical-align: top"| NOT_ARTIFACT{{verify}}
-|
-| Reagent item must not be an artifact.
-|-
-| style="vertical-align: top"| NOT_CONTAIN_BARREL_ITEM
-|
-| If the reagent is a container, it must not contain [[lye]] or [[milk]]. Not necessary if specifying [EMPTY].
-|-
-| style="vertical-align: top"| NOT_ENGRAVED
-|
-| Reagent can not be engraved. For example, a memorial slab can not be engraved.
-|-
-| style="vertical-align: top"| NOT_IMPROVED
-|
-| Reagent has not been decorated.
-|-
-| style="vertical-align: top"| NOT_PRESSED
-|
-| Reagent must not be in the SOLID_PRESSED state.
-|-
-| style="vertical-align: top"| NOT_WEB
-|
-| Reagent must be collected (to distinguish silk thread from webs). Only makes sense for items of type THREAD.
-|-
-| style="vertical-align: top"| ON_GROUND
-|
-| Reagent must be on the ground. Grabs from stockpiles. Does not grab from inventories (workshops, wagon) and causes infinite gathering for reactions in workshop.
-|-
-| style="vertical-align: top"| POTASHABLE (Deprecated)
-|
-| Alias for [CONTAINS_LYE].
-|-
-| style="vertical-align: top"| PRESERVE_REAGENT
-|
-| Reagent is not destroyed, which is the normal effect, at the completion of the reaction. Typically used for containers.
-|-
-| style="vertical-align: top"| REACTION_CLASS
-| style="vertical-align: top"|
-* CLASS_ID
-| Reagent material must have the reaction class specified by CLASS_ID - [[Reaction#Reaction_classes|see below]] for more details.
-|-
-| style="vertical-align: top"| UNROTTEN
-|
-| Reagent must not be rotten, mainly for organic materials.
-|-
-| style="vertical-align: top"| USE_BODY_COMPONENT
-|
-| Reagent must be a body part (CORPSE or CORPSEPIECE). Must be used even if your reagent item type is CORPSE or CORPSEPIECE, otherwise it will match any item.
-|-
-| style="vertical-align: top"| WEB_ONLY
-|
-| Reagent must be undisturbed (to distinguish silk thread from webs). Only makes sense for items of type THREAD.
-|-
-| style="vertical-align: top"| WORTHLESS_STONE_ONLY
-|
-| Reagent material must be non-[[economic]].
-|-
-| style="vertical-align: top"| WOVEN_ITEM
-|
-| Reagent must be a clothing item made of a woven material, ie. plant, silk, or yarn cloth.
-|}
+! Description|-| style="vertical-align: top"| ANY_BONE_MATERIAL|| Reagent material must have the [BONE] token.|-| style="vertical-align: top"| ANY_GEM_MATERIAL|| Reagent material must have the [IS_GEM] token.|-| style="vertical-align: top"| ANY_HORN_MATERIAL|| Reagent material must have the [HORN] token.|-| style="vertical-align: top"| ANY_LEATHER_MATERIAL|| Reagent material must have the [LEATHER] token.|-| style="vertical-align: top"| ANY_PEARL_MATERIAL|| Reagent material must have the [PEARL] token.|-| style="vertical-align: top"| ANY_PLANT_MATERIAL|| Reagent material must be subordinate to a PLANT object.|-| style="vertical-align: top"| ANY_SHELL_MATERIAL|| Reagent material must have the [SHELL] token.|-| style="vertical-align: top"| ANY_SILK_MATERIAL|| Reagent material must have the [SILK] token.|-| style="vertical-align: top"| ANY_SOAP_MATERIAL|| Reagent material must have the [SOAP] token.|-| style="vertical-align: top"| ANY_STONE_MATERIAL|| Reagent material must have the [IS_STONE] token.|-| style="vertical-align: top"| ANY_STRAND_TISSUE|| Reagent is made of a tissue having TISSUE_SHAPE:STRANDS, intended for matching hair and wool. Must be used with USE_BODY_COMPONENT.|-| style="vertical-align: top"| ANY_TOOTH_MATERIAL|| Reagent material must have the [TOOTH] token.|-| style="vertical-align: top"| ANY_WOOD_MATERIAL|| Reagent material must have the [WOOD] token.|-| style="vertical-align: top"| ANY_YARN_MATERIAL|| Reagent material must have the [YARN] token.|-| style="vertical-align: top"| BUILDMAT|| Reagent must be a general [[building material]] - BAR, BLOCKS, BOULDER, or WOOD.|-| style="vertical-align: top"| CAN_USE_ARTIFACT|| Reagent can be an Artifact. Using [PRESERVE_REAGENT] with this is strongly advised.|-| style="vertical-align: top"| CONTAINS| style="vertical-align: top"|
+* [[#Reagent name|Reagent name]]| Reagent is a container that holds the specified reagent (where ''Reagent name'' is the locally-defined name of the reagent).|-| style="vertical-align: top"| CONTAINS_LYE|| Reagent must be a BARREL or TOOL which contains at least one item of type LIQUID_MISC made of LYE. Use of this token is discouraged, as it does not work with buckets (instead, use [CONTAINS:lye] &mdash; note the colon &mdash; and a corresponding lye reagent [REAGENT:lye:150:LIQUID_MISC:NONE:LYE]).|-| style="vertical-align: top"| DOES_NOT_ABSORB|| Reagent material must have ABSORPTION:0|-| style="vertical-align: top"| DOES_NOT_DETERMINE_PRODUCT_AMOUNT|| Reagent quantity is ignored for the purposes of producing extra outputs. Typically used for containers so that [[stack]]s of reagents will correctly produce additional outputs.|-| style="vertical-align: top"| EMPTY|| If the reagent is a container, it must be empty.|-| style="vertical-align: top"| FIRE_BUILD_SAFE|| Reagent material must be solid and stable at temperatures approaching 11000. Only works with items of type BAR, BLOCKS, BOULDER, WOOD, and ANVIL - all others are considered unsafe.|-| style="vertical-align: top"| FOOD_STORAGE_CONTAINER|| Reagent is either a BARREL or a TOOL with the FOOD_STORAGE use.|-| style="vertical-align: top"| GLASS_MATERIAL|| Reagent material must have the IS_GLASS token. All 3 types of [[glass]] have this token hardcoded.|-| style="vertical-align: top"| HARD_ITEM_MATERIAL|| Reagent material must have the [ITEMS_HARD] token.|-| style="vertical-align: top"| HAS_EDGE|| Reagent must have an edge.|-| style="vertical-align: top"| HAS_ITEM_REACTION_PRODUCT| style="vertical-align: top"|
+* PRODUCT_ID| Reagent material must have the item reaction product specified by PRODUCT_ID - [[Reaction#Item_reaction_products|see below]] for more details. This can be used interchangeably with HAS_MATERIAL_REACTION_PRODUCT.|-| style="vertical-align: top"| HAS_MATERIAL_REACTION_PRODUCT| style="vertical-align: top"|
+* PRODUCT_ID| Reagent material must have the material reaction product specified by PRODUCT_ID - [[Reaction#Material_reaction_products|see below]] for more details.|-| style="vertical-align: top"| HAS_TOOL_USE| style="vertical-align: top"|
+* [[Tool token#TOOL_USE|TOOL_USE]] value| Reagent must be a [[tool]] with the specific TOOL_USE value. The reagent's item type must be TOOL:NONE for this to make any sense.|-| style="vertical-align: top"| IS_CRAFTED_ARTIFACT{{verify}}|| Reagent item must be an artifact.|-| style="vertical-align: top"| IS_DIVINE_MATERIAL|| Reagent material must have the [DIVINE] token.|-| style="vertical-align: top"| IS_SAND_MATERIAL|| Reagent material must have the [SOIL_SAND] token.|-| style="vertical-align: top"| MAGMA_BUILD_SAFE|| Reagent material must be solid and stable at temperatures approaching 12000. Only works with items of type BAR, BLOCKS, BOULDER, WOOD, and ANVIL - all others are considered unsafe.|-| style="vertical-align: top"| METAL_ITEM_MATERIAL|| Reagent material must have the [ITEMS_METAL] token.|-| style="vertical-align: top"| METAL_ORE| style="vertical-align: top"|
+* Metal ID| Reagent material must be an ore of the specified metal.|-| style="vertical-align: top"| MIN_DIMENSION| style="vertical-align: top"|
+* Integer| Reagent's item size must be at least as large as ''Integer''. The reagent's item type must be BAR, POWDER_MISC, LIQUID_MISC, DRINK, THREAD, CLOTH, or GLOB for this to work.  See [[Reaction#PRODUCT_DIMENSION|PRODUCT_DIMENSION]] below.|-| style="vertical-align: top"| NO_EDGE_ALLOWED|| Reagent must not have an edge, so must be blunt. Sharp stones (produced using knapping) and most types of weapon/ammo can not be used with this token.|-| style="vertical-align: top"| NOT_ARTIFACT{{verify}}|| Reagent item must not be an artifact.|-| style="vertical-align: top"| NOT_CONTAIN_BARREL_ITEM|| If the reagent is a container, it must not contain [[lye]] or [[milk]]. Not necessary if specifying [EMPTY].|-| style="vertical-align: top"| NOT_ENGRAVED|| Reagent can not be engraved. For example, a memorial slab can not be engraved.|-| style="vertical-align: top"| NOT_IMPROVED|| Reagent has not been decorated.|-| style="vertical-align: top"| NOT_PRESSED|| Reagent must not be in the SOLID_PRESSED state.|-| style="vertical-align: top"| NOT_WEB|| Reagent must be collected (to distinguish silk thread from webs). Only makes sense for items of type THREAD.|-| style="vertical-align: top"| ON_GROUND|| Reagent must be on the ground. Grabs from stockpiles. Does not grab from inventories (workshops, wagon) and causes infinite gathering for reactions in workshop.|-| style="vertical-align: top"| POTASHABLE (Deprecated)|| Alias for [CONTAINS_LYE].|-| style="vertical-align: top"| PRESERVE_REAGENT|| Reagent is not destroyed, which is the normal effect, at the completion of the reaction. Typically used for containers.|-| style="vertical-align: top"| REACTION_CLASS| style="vertical-align: top"|
+* CLASS_ID| Reagent material must have the reaction class specified by CLASS_ID - [[Reaction#Reaction_classes|see below]] for more details.|-| style="vertical-align: top"| UNROTTEN|| Reagent must not be rotten, mainly for organic materials.|-| style="vertical-align: top"| USE_BODY_COMPONENT|| Reagent must be a body part (CORPSE or CORPSEPIECE). Must be used even if your reagent item type is CORPSE or CORPSEPIECE, otherwise it will match any item.|-| style="vertical-align: top"| WEB_ONLY|| Reagent must be undisturbed (to distinguish silk thread from webs). Only makes sense for items of type THREAD.|-| style="vertical-align: top"| WORTHLESS_STONE_ONLY|| Reagent material must be non-[[economic]].|-| style="vertical-align: top"| WOVEN_ITEM|| Reagent must be a clothing item made of a woven material, ie. plant, silk, or yarn cloth.|}
 
 === Products ===
 
@@ -452,43 +222,13 @@ Similarly to choosing material types for a reagent, if the item product is armor
 
 Zero or more tokens which further set the properties or disposition of the resulting product item.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Arguments
-! Description
-|-
-| style="vertical-align: top"| FORCE_EDGE
-|
-| Product is given a sharp edge. Used for knapping.
-|-
-| style="vertical-align: top"| PRODUCT_PASTE
-|
-| Product is created in the SOLID_PASTE state.
-|-
-| style="vertical-align: top"| PRODUCT_PRESSED
-|
-| Product is created in the SOLID_PRESSED state.
-|-
-| style="vertical-align: top"| PRODUCT_DIMENSION
-| style="vertical-align: top"|
-* Integer
-| Specifies the dimension of the product for those items that use dimensions. For items of type BAR, DRINK, GLOB, LIQUID_MISC, and POWDER_MISC, one item is dimension 150; one item of CLOTH or SHEET is dimension 10000; and one item of THREAD is dimension 15000. Has no effect on any other item types. Note: this is not the actual [[storage]] volume of the product, which is hard-coded by the item token. 
-|-
-| style="vertical-align: top"| PRODUCT_TO_CONTAINER
-| style="vertical-align: top"|
-* [[#Reagent name|Name]]
-| Places the product in a container; ''Name'' must be the name of a reagent with the [PRESERVE_REAGENT] token and a container item type.
-|-
-| style="vertical-align: top"| PRODUCT_TOKEN
-| style="vertical-align: top"| 
-* [[#Reagent name|Name]]
-| Allows the product to be referred to by the given name for the purpose of being passed down as and argument in other tokens, in the same fashion as reagent names.
-|-
-| style="vertical-align: top"| TRANSFER_ARTIFACT_STATUS
-| 
-| style="vertical-align: top"| Transfers artifact status from the reagent to the product.
-|}
+! Description|-| style="vertical-align: top"| FORCE_EDGE|| Product is given a sharp edge. Used for knapping.|-| style="vertical-align: top"| PRODUCT_PASTE|| Product is created in the SOLID_PASTE state.|-| style="vertical-align: top"| PRODUCT_PRESSED|| Product is created in the SOLID_PRESSED state.|-| style="vertical-align: top"| PRODUCT_DIMENSION| style="vertical-align: top"|
+* Integer| Specifies the dimension of the product for those items that use dimensions. For items of type BAR, DRINK, GLOB, LIQUID_MISC, and POWDER_MISC, one item is dimension 150; one item of CLOTH or SHEET is dimension 10000; and one item of THREAD is dimension 15000. Has no effect on any other item types. Note: this is not the actual [[storage]] volume of the product, which is hard-coded by the item token. |-| style="vertical-align: top"| PRODUCT_TO_CONTAINER| style="vertical-align: top"|
+* [[#Reagent name|Name]]| Places the product in a container; ''Name'' must be the name of a reagent with the [PRESERVE_REAGENT] token and a container item type.|-| style="vertical-align: top"| PRODUCT_TOKEN| style="vertical-align: top"| 
+* [[#Reagent name|Name]]| Allows the product to be referred to by the given name for the purpose of being passed down as and argument in other tokens, in the same fashion as reagent names.|-| style="vertical-align: top"| TRANSFER_ARTIFACT_STATUS| | style="vertical-align: top"| Transfers artifact status from the reagent to the product.|}
 
 === Improvements ===
 
@@ -506,32 +246,9 @@ The [[#Reagent name|name]] of the reagent that will be improved. In order to be 
 ==== Improvement type ====
 The following improvement types can be used:
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
-! Description
-|-
-| COVERED
-| Item is encrusted/studded/decorated with <material>.
-|-
-| GLAZED
-| Item is glazed with <material>.
-|-
-| RINGS_HANGING
-| Item is adorned with hanging rings of <material>.
-|-
-| BANDS
-| Item is encircled with bands of <material>.
-|-
-| SPIKES
-| Item menaces with spikes of <material>.
-|-
-| PAGES
-| Adds pages to a [[book]].
-|-
-| SPECIFIC
-| With subtype ROLLERS, adds rollers of <material> to a [[scroll]]; with subtype HANDLE, adds a handle of <material> to an item; with subtype TRACTION_BENCH_CHAIN or TRACTION_BENCH_ROPE adds a chain or rope of <material> to an item.
-|}
+! Description|-| COVERED| Item is encrusted/studded/decorated with <material>.|-| GLAZED| Item is glazed with <material>.|-| RINGS_HANGING| Item is adorned with hanging rings of <material>.|-| BANDS| Item is encircled with bands of <material>.|-| SPIKES| Item menaces with spikes of <material>.|-| PAGES| Adds pages to a [[book]].|-| SPECIFIC| With subtype ROLLERS, adds rollers of <material> to a [[scroll]]; with subtype HANDLE, adds a handle of <material> to an item; with subtype TRACTION_BENCH_CHAIN or TRACTION_BENCH_ROPE adds a chain or rope of <material> to an item.|}
 
 All other item improvement tokens (ART_IMAGE, ITEMSPECIFIC, THREAD, CLOTH, SEWN_IMAGE, and ILLUSTRATION) are ignored.
 
@@ -551,35 +268,17 @@ The FUEL token means that the reaction requires coke or charcoal to be performed
 
 The [[Skill token|skill tokens]] determine what skill the reaction requires and trains; also how quickly skill is gained, how quickly those skill gains raise attributes, and how skill level affects the quality of the reaction product.
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Arguments
-! Description
-|-
-| style="vertical-align: top"| SKILL
-| style="vertical-align: top"| 
-* [[Skill token]] 
-| (Optional) This identifies the skill required to carry out the reaction and is trained when the reaction is performed.  Only one skill may be specified; if multiple skill tokens are defined only the last will be used.  A reaction with no product will yield no experience gain.  A reaction with no SKILL token will complete in a default amount of time.
-|-
-| style="vertical-align: top"| SKILL_IP
-| style="vertical-align: top"|
-* Integer
-| (Optional, requires SKILL token)  This adjusts the amount of skill gained each time the reaction is carried out.  The default value is 30; higher values increase the amount of skill gain.
-|-
-| style="vertical-align: top"| ATTRIBUTE_IP
-| style="vertical-align: top"|
-* Integer
-| (Optional, requires SKILL token)  This adjusts the amount of [[Attribute|attribute]] gain that skill gain from this reaction results in.  The default value is 10; higher values increase the amount of attribute gain.
-|-
-| style="vertical-align: top"| SKILL_ROLL_RANGE
-| style="vertical-align: top"|
+! Description|-| style="vertical-align: top"| SKILL| style="vertical-align: top"| 
+* [[Skill token]] | (Optional) This identifies the skill required to carry out the reaction and is trained when the reaction is performed.  Only one skill may be specified; if multiple skill tokens are defined only the last will be used.  A reaction with no product will yield no experience gain.  A reaction with no SKILL token will complete in a default amount of time.|-| style="vertical-align: top"| SKILL_IP| style="vertical-align: top"|
+* Integer| (Optional, requires SKILL token)  This adjusts the amount of skill gained each time the reaction is carried out.  The default value is 30; higher values increase the amount of skill gain.|-| style="vertical-align: top"| ATTRIBUTE_IP| style="vertical-align: top"|
+* Integer| (Optional, requires SKILL token)  This adjusts the amount of [[Attribute|attribute]] gain that skill gain from this reaction results in.  The default value is 10; higher values increase the amount of attribute gain.|-| style="vertical-align: top"| SKILL_ROLL_RANGE| style="vertical-align: top"|
 * Range
-* Multiplier
-| (Optional, requires SKILL token)  This changes how much skill level affects the quality of the reaction product.  The default is [SKILL_ROLL_RANGE:11:5]. The ''range'' is the base "die roll" and the ''multiplier'' determines how much the dwarf's skill can affect the reaction; the skill roll is random(range) + random((skill level * multipler)/2 + 1) + random((skill level * multipler)/2 + 1), where random(x) gives a random number from 0 to x-1, inclusive (which also means that the minimum for the range is 1). The higher result on the roll, the better. Both numbers can be lowered to make the skill check harder. For example, with the default values a dwarf who is proficient in a skill has a skill level of 5; their roll will be random(11)+random(13)+random(13), meaning this dwarf can roll anywhere from 0 to 34; similarly, unskilled dwarves can roll 0 to 10 while legendary+0 (skill 15) dwarves can roll 0 to 84. If this is changed to [SKILL_ROLL_RANGE:1:8], then instead a proficient dwarf will have random(1)+random(21)+random(21), giving a roll of 0 to 40, with unskilled dwarves always rolling 0 and legendary dwarves going all the way up to 120.
+* Multiplier| (Optional, requires SKILL token)  This changes how much skill level affects the quality of the reaction product.  The default is [SKILL_ROLL_RANGE:11:5]. The ''range'' is the base "die roll" and the ''multiplier'' determines how much the dwarf's skill can affect the reaction; the skill roll is random(range) + random((skill level * multipler)/2 + 1) + random((skill level * multipler)/2 + 1), where random(x) gives a random number from 0 to x-1, inclusive (which also means that the minimum for the range is 1). The higher result on the roll, the better. Both numbers can be lowered to make the skill check harder. For example, with the default values a dwarf who is proficient in a skill has a skill level of 5; their roll will be random(11)+random(13)+random(13), meaning this dwarf can roll anywhere from 0 to 34; similarly, unskilled dwarves can roll 0 to 10 while legendary+0 (skill 15) dwarves can roll 0 to 84. If this is changed to [SKILL_ROLL_RANGE:1:8], then instead a proficient dwarf will have random(1)+random(21)+random(21), giving a roll of 0 to 40, with unskilled dwarves always rolling 0 and legendary dwarves going all the way up to 120.
 
-As a consequence, increasing the multiplier will always make legendary dwarves more effective, even if base roll is reduced to its minimum of 1, with the default going up to 84 for default and 90 for [SKILL_ROLL_RANGE:1:6].
-|}
+As a consequence, increasing the multiplier will always make legendary dwarves more effective, even if base roll is reduced to its minimum of 1, with the default going up to 84 for default and 90 for [SKILL_ROLL_RANGE:1:6].|}
 
 ==== Max multiplier ====
 
@@ -595,20 +294,9 @@ This token only works with jobs performed at a [[kiln]], [[smelter]], [[tanner's
 
 Some reaction tokens enable a reaction to be used by everyone in a certain mode. These tokens are not exclusive relations; for example, you can assign an {{token|ADVENTURE_MODE_ENABLED|reaction}} reaction with a building to an entity and their citizens can then perform it at that building in [[fortress mode]].
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
-! Description
-|-
-| ADVENTURE_MODE_ENABLED
-| Available to all [[adventurer]]s, regardless of origin civilization. Required for adventurers to craft anything, as they do not use the recipes available to their origin civilization.
-|-
-| FORTRESS_MODE_ENABLED
-| Available to all [[fortress mode]] games. Without {{token|PERMITTED_REACTION|entity}} on a specific entity, materials produced by it will not normally be added to their civilization resources.
-|-
-| WORLDGEN_ENABLED
-| If possible, reaction's output will be added to all civilizations during worldgen, allowing the civilization to trade or embark with them.
-|}
+! Description|-| ADVENTURE_MODE_ENABLED| Available to all [[adventurer]]s, regardless of origin civilization. Required for adventurers to craft anything, as they do not use the recipes available to their origin civilization.|-| FORTRESS_MODE_ENABLED| Available to all [[fortress mode]] games. Without {{token|PERMITTED_REACTION|entity}} on a specific entity, materials produced by it will not normally be added to their civilization resources.|-| WORLDGEN_ENABLED| If possible, reaction's output will be added to all civilizations during worldgen, allowing the civilization to trade or embark with them.|}
 
 ==== Description ====
 
@@ -757,544 +445,132 @@ There are several things to keep in mind when you're adding reactions to a game 
 
 For the sake of convenience and readability, this is a complete compilation of the previously listed reaction tokens in alphabetical order:
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! Token
 ! Arguments
 ! Type
 ! Description
-
-|-
-| style="vertical-align: top"| {{text anchor|ADVENTURE_MODE_ENABLED}}
-|
-|
-| style="vertical-align: top"| This version of the reaction can be used by the wanderers of Adventure Mode without needing to also give the dwarves at home in a fortress access to it.  When using this token, it will be allowed for adventurers of any race, without editing entity files. This token does not prevent Fortress Mode usage if assigned to a workshop and the civilization has access.
-
-|-
-| style="vertical-align: top"| {{text anchor|FORTRESS_MODE_ENABLED}}{{version|Lua beta}}
-|
-|
-| style="vertical-align: top"| This reaction can be accessed when playing as any civilization in [[Fortress mode]], regardless of {{token|PERMITTED_REACTION|e}}. Particularly useful for compatibility or [[Lua scripting]].
-
-|-
-| style="vertical-align: top"| {{text anchor|WORLDGEN_ENABLED}}{{version|Lua beta}}
-|
-|
-| style="vertical-align: top"| Adds the materials provided by the reaction to all civilizations, regardless of {{token|PERMITTED_REACTION|e}}.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_BONE_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [BONE] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_GEM_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [IS_GEM] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_HORN_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [HORN] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_LEATHER_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [LEATHER] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_PEARL_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [PEARL] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_PLANT_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must be subordinate to a PLANT object.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_SHELL_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [SHELL] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_SILK_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [SILK] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_SOAP_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [SOAP] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_STONE_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [IS_STONE] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_STRAND_TISSUE}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent is made of a tissue having [TISSUE_SHAPE:STRANDS], intended for matching hair and wool. Must be used with [USE_BODY_COMPONENT].
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_TOOTH_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [TOOTH] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_WOOD_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [WOOD] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ANY_YARN_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [YARN] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|ATTRIBUTE_IP}}
-| style="vertical-align: top"| 
-* Integer
-| style="vertical-align: top"| Skill modifier
-| style="vertical-align: top"| Amount of attribute gain given per skill improvement. Default is 10.
-
-|-
-| style="vertical-align: top"| {{text anchor|AUTOMATIC}}
-|
-|
-| style="vertical-align: top"| The reaction will be queued automatically if the reaction reagents are all present.
-
-|-
-| style="vertical-align: top"| {{text anchor|BAG}} (Deprecated)
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent has to be a bag. Intended to be used with an item type of BOX, to prevent chests, coffers, and other containers from being used instead. Deprecated as of Version 0.50.01 in favor of BAG:NONE [[item token]].
-
-|-
-| style="vertical-align: top"| {{text anchor|BUILDING}}
-| style="vertical-align: top"| 
+|-| style="vertical-align: top"| {{text anchor|ADVENTURE_MODE_ENABLED}}||| style="vertical-align: top"| This version of the reaction can be used by the wanderers of Adventure Mode without needing to also give the dwarves at home in a fortress access to it.  When using this token, it will be allowed for adventurers of any race, without editing entity files. This token does not prevent Fortress Mode usage if assigned to a workshop and the civilization has access.
+|-| style="vertical-align: top"| {{text anchor|FORTRESS_MODE_ENABLED}}{{version|Lua beta}}||| style="vertical-align: top"| This reaction can be accessed when playing as any civilization in [[Fortress mode]], regardless of {{token|PERMITTED_REACTION|e}}. Particularly useful for compatibility or [[Lua scripting]].
+|-| style="vertical-align: top"| {{text anchor|WORLDGEN_ENABLED}}{{version|Lua beta}}||| style="vertical-align: top"| Adds the materials provided by the reaction to all civilizations, regardless of {{token|PERMITTED_REACTION|e}}.
+|-| style="vertical-align: top"| {{text anchor|ANY_BONE_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [BONE] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_GEM_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [IS_GEM] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_HORN_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [HORN] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_LEATHER_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [LEATHER] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_PEARL_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [PEARL] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_PLANT_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must be subordinate to a PLANT object.
+|-| style="vertical-align: top"| {{text anchor|ANY_SHELL_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [SHELL] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_SILK_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [SILK] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_SOAP_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [SOAP] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_STONE_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [IS_STONE] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_STRAND_TISSUE}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent is made of a tissue having [TISSUE_SHAPE:STRANDS], intended for matching hair and wool. Must be used with [USE_BODY_COMPONENT].
+|-| style="vertical-align: top"| {{text anchor|ANY_TOOTH_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [TOOTH] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_WOOD_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [WOOD] token.
+|-| style="vertical-align: top"| {{text anchor|ANY_YARN_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [YARN] token.
+|-| style="vertical-align: top"| {{text anchor|ATTRIBUTE_IP}}| style="vertical-align: top"| 
+* Integer| style="vertical-align: top"| Skill modifier| style="vertical-align: top"| Amount of attribute gain given per skill improvement. Default is 10.
+|-| style="vertical-align: top"| {{text anchor|AUTOMATIC}}||| style="vertical-align: top"| The reaction will be queued automatically if the reaction reagents are all present.
+|-| style="vertical-align: top"| {{text anchor|BAG}} (Deprecated)|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent has to be a bag. Intended to be used with an item type of BOX, to prevent chests, coffers, and other containers from being used instead. Deprecated as of Version 0.50.01 in favor of BAG:NONE [[item token]].
+|-| style="vertical-align: top"| {{text anchor|BUILDING}}| style="vertical-align: top"| 
 * [[#building name|Building name]]
-* [[#building key|In-building reaction hotkey]]
-|
-| style="vertical-align: top"| Sets the building that the reaction will be performed in, and the button used to queue the reaction once that building's menu is accessed in-game.
-
-|-
-| style="vertical-align: top"| {{text anchor|BUILDMAT}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent is able to be used to build structures (Boulders, Wood, Blocks, Bars).
-
-|-
-| style="vertical-align: top"| {{text anchor|CAN_USE_ARTIFACT}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent can be an Artifact.  Using [PRESERVE_REAGENT] with this is strongly advised.
-
-|-
-| style="vertical-align: top"| {{text anchor|CAN_USE_HOSPITAL_RESERVED}}
-| 
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Allows the reagent to be an item that is otherwise reserved for use by a [[healthcare|hospital]].
-
-|-
-| style="vertical-align: top"| {{text anchor|CAN_USE_LOCATION_RESERVED}}
-| 
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Allows the reagent to be an item that is otherwise reserved for use by a [[location]].
-
-|-
-| style="vertical-align: top"| {{text anchor|CATEGORY}}
-| style="vertical-align: top"| 
-* Category ID 
-|
-| style="vertical-align: top"| Puts the reaction in a category. Categories are custom submenus for reaction menus. The category ID is a unique identifier for the category. It is only used in the raws, and will not appear in the game.
+* [[#building key|In-building reaction hotkey]]|| style="vertical-align: top"| Sets the building that the reaction will be performed in, and the button used to queue the reaction once that building's menu is accessed in-game.
+|-| style="vertical-align: top"| {{text anchor|BUILDMAT}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent is able to be used to build structures (Boulders, Wood, Blocks, Bars).
+|-| style="vertical-align: top"| {{text anchor|CAN_USE_ARTIFACT}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent can be an Artifact.  Using [PRESERVE_REAGENT] with this is strongly advised.
+|-| style="vertical-align: top"| {{text anchor|CAN_USE_HOSPITAL_RESERVED}}| | style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Allows the reagent to be an item that is otherwise reserved for use by a [[healthcare|hospital]].
+|-| style="vertical-align: top"| {{text anchor|CAN_USE_LOCATION_RESERVED}}| | style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Allows the reagent to be an item that is otherwise reserved for use by a [[location]].
+|-| style="vertical-align: top"| {{text anchor|CATEGORY}}| style="vertical-align: top"| 
+* Category ID || style="vertical-align: top"| Puts the reaction in a category. Categories are custom submenus for reaction menus. The category ID is a unique identifier for the category. It is only used in the raws, and will not appear in the game.
 
 If you're defining multiple categories within the same reaction - for example, if you intend the reaction to be nested two deep, and haven't yet defined the super-category - the ''last'' CATEGORY token within the reaction definition is the one that the reaction will appear in.
-
-|-
-| style="vertical-align: top"| {{text anchor|CATEGORY_NAME}}
-| style="vertical-align: top"| 
-* String 
-| style="vertical-align: top"| Category
-| style="vertical-align: top"| The name of the category as displayed in-game.
-
-|-
-| style="vertical-align: top"| {{text anchor|CATEGORY_DESCRIPTION}}
-| style="vertical-align: top"| 
-* String 
-| style="vertical-align: top"| Category
-| style="vertical-align: top"| If present, when the category is highlighted in a building menu, this string will be displayed in the Helpful Hint box.
-
-|-
-| style="vertical-align: top"| {{text anchor|CATEGORY_PARENT}}
-| style="vertical-align: top"| 
-* Category ID 
-| style="vertical-align: top"| Category
-| style="vertical-align: top"| If present, this category will be a submenu of the indicated category, rather than a submenu of the reaction's building.
-
-|-
-| style="vertical-align: top"| {{text anchor|CATEGORY_KEY}}
-| style="vertical-align: top"| 
-* Hotkey
-| style="vertical-align: top"| Category
-| style="vertical-align: top"| If present, this category can be selected from its parent menu (whether a building or a parent category) using the given hotkey while playing in Classic mode.
-
-|-
-| style="vertical-align: top"| {{text anchor|CONTAINS}}
-| style="vertical-align: top"| 
-* [[#Reagent name|Reagent name]]
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent is a container that holds the specified reagent.
-
-|-
-| style="vertical-align: top"| {{text anchor|CONTAINS_LYE}} (Deprecated)
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| If the reagent is a container, it must contain LYE. No longer used - instead, use one reagent for the LYE itself and another reagent with [CONTAINS:lye_reagent].
-
-|-
-| style="vertical-align: top"| {{text anchor|DESCRIPTION}}
-| style="vertical-align: top"| 
-* String
-|
-| style="vertical-align: top"| A description of the reaction that appears when it is highlighted in the building UI.  ''String'' can also be replaced with a reference to existing DESCRIPTION tokens in tools (using USE_TOOL:<tool_id>) or musical instruments (using USE_TOOL:<instrument_id>).
-
-|-
-| style="vertical-align: top"| {{text anchor|DOES_NOT_ABSORB}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have [ABSORPTION:0].
-
-|-
-| style="vertical-align: top"| {{text anchor|DOES_NOT_DETERMINE_PRODUCT_AMOUNT}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Performing a reaction with large [[stack]]s of inputs can allow multiple sets of outputs to be produced. Setting this flag causes the reagent to be ignored in this process - for example, with the reaction "1 plant + 1 barrel -> 5 alcohol (into barrel)", using this on the barrel allows the reaction to be performed as "5 plant + 1 barrel -> 25 alcohol" instead of "5 plant + 5 barrel -> 25 alcohol".
-
-|-
-| style="vertical-align: top"| {{text anchor|EMPTY}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| If the reagent is a container, it must be empty.
-
-|-
-| style="vertical-align: top"| {{text anchor|FIRE_BUILD_SAFE}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be considered [[fire-safe]] (stable [[temperature]] below {{ct|11000}}) - i.e. not wood, and not coal.
-
-|-
-| style="vertical-align: top"| {{text anchor|FORCE_EDGE}}
-|
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Product is given a sharp edge. Used for knapping.
-
-|-
-| style="vertical-align: top"| {{text anchor|FOOD_STORAGE_CONTAINER}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be a barrel or any non-absorbing tool with [TOOL_USE:FOOD_STORAGE].
-
-|-
-| style="vertical-align: top"| {{text anchor|FUEL}}
-|
-|
-| style="vertical-align: top"| Requires that the reaction either use up a unit of coal or charcoal or else be performed at a magma workshop.
-
-|-
-| style="vertical-align: top"| {{text anchor|GLASS_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material has [IS_GLASS].
-
-|-
-| style="vertical-align: top"| {{text anchor|HAS_EDGE}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be sharpened (used for carving).
-
-|-
-| style="vertical-align: top"| {{text anchor|HAS_ITEM_REACTION_PRODUCT}}
-| style="vertical-align: top"| 
-* PRODUCT_ID (custom)
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Similar to HAS_MATERIAL_REACTION_PRODUCT, but requires the reagents material to have a matching ITEM_REACTION_PRODUCT entry.
-
-|-
-| style="vertical-align: top"| {{text anchor|HAS_MATERIAL_REACTION_PRODUCT}}
-| style="vertical-align: top"| 
-* PRODUCT_ID (custom)
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Similar to REACTION_CLASS, but requires the reagents material to have a matching [[Material definition token|MATERIAL_REACTION_PRODUCT]] entry. Intended for reactions which transform one class of material into another, such as skin->leather and fat->tallow.
-
-|-
-| style="vertical-align: top"| {{text anchor|HAS_TOOL_USE}}
-| style="vertical-align: top"| 
-* [[Tool token#TOOL_USE|TOOL_USE value]]
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be a [[tool]] with the specific TOOL_USE value. The reagents item type must be TOOL:NONE for this to make any sense.
-
-|-
-| style="vertical-align: top"| {{text anchor|HAS_WRITING_IMPROVEMENT}}
-| 
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must contain writing.
-
-|-
-| style="vertical-align: top"| {{text anchor|IMPROVEMENT}}
-| style="vertical-align: top"| 
+|-| style="vertical-align: top"| {{text anchor|CATEGORY_NAME}}| style="vertical-align: top"| 
+* String | style="vertical-align: top"| Category| style="vertical-align: top"| The name of the category as displayed in-game.
+|-| style="vertical-align: top"| {{text anchor|CATEGORY_DESCRIPTION}}| style="vertical-align: top"| 
+* String | style="vertical-align: top"| Category| style="vertical-align: top"| If present, when the category is highlighted in a building menu, this string will be displayed in the Helpful Hint box.
+|-| style="vertical-align: top"| {{text anchor|CATEGORY_PARENT}}| style="vertical-align: top"| 
+* Category ID | style="vertical-align: top"| Category| style="vertical-align: top"| If present, this category will be a submenu of the indicated category, rather than a submenu of the reaction's building.
+|-| style="vertical-align: top"| {{text anchor|CATEGORY_KEY}}| style="vertical-align: top"| 
+* Hotkey| style="vertical-align: top"| Category| style="vertical-align: top"| If present, this category can be selected from its parent menu (whether a building or a parent category) using the given hotkey while playing in Classic mode.
+|-| style="vertical-align: top"| {{text anchor|CONTAINS}}| style="vertical-align: top"| 
+* [[#Reagent name|Reagent name]]| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent is a container that holds the specified reagent.
+|-| style="vertical-align: top"| {{text anchor|CONTAINS_LYE}} (Deprecated)|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| If the reagent is a container, it must contain LYE. No longer used - instead, use one reagent for the LYE itself and another reagent with [CONTAINS:lye_reagent].
+|-| style="vertical-align: top"| {{text anchor|DESCRIPTION}}| style="vertical-align: top"| 
+* String|| style="vertical-align: top"| A description of the reaction that appears when it is highlighted in the building UI.  ''String'' can also be replaced with a reference to existing DESCRIPTION tokens in tools (using USE_TOOL:<tool_id>) or musical instruments (using USE_TOOL:<instrument_id>).
+|-| style="vertical-align: top"| {{text anchor|DOES_NOT_ABSORB}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have [ABSORPTION:0].
+|-| style="vertical-align: top"| {{text anchor|DOES_NOT_DETERMINE_PRODUCT_AMOUNT}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Performing a reaction with large [[stack]]s of inputs can allow multiple sets of outputs to be produced. Setting this flag causes the reagent to be ignored in this process - for example, with the reaction "1 plant + 1 barrel -> 5 alcohol (into barrel)", using this on the barrel allows the reaction to be performed as "5 plant + 1 barrel -> 25 alcohol" instead of "5 plant + 5 barrel -> 25 alcohol".
+|-| style="vertical-align: top"| {{text anchor|EMPTY}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| If the reagent is a container, it must be empty.
+|-| style="vertical-align: top"| {{text anchor|FIRE_BUILD_SAFE}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be considered [[fire-safe]] (stable [[temperature]] below {{ct|11000}}) - i.e. not wood, and not coal.
+|-| style="vertical-align: top"| {{text anchor|FORCE_EDGE}}|| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Product is given a sharp edge. Used for knapping.
+|-| style="vertical-align: top"| {{text anchor|FOOD_STORAGE_CONTAINER}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be a barrel or any non-absorbing tool with [TOOL_USE:FOOD_STORAGE].
+|-| style="vertical-align: top"| {{text anchor|FUEL}}||| style="vertical-align: top"| Requires that the reaction either use up a unit of coal or charcoal or else be performed at a magma workshop.
+|-| style="vertical-align: top"| {{text anchor|GLASS_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material has [IS_GLASS].
+|-| style="vertical-align: top"| {{text anchor|HAS_EDGE}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be sharpened (used for carving).
+|-| style="vertical-align: top"| {{text anchor|HAS_ITEM_REACTION_PRODUCT}}| style="vertical-align: top"| 
+* PRODUCT_ID (custom)| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Similar to HAS_MATERIAL_REACTION_PRODUCT, but requires the reagents material to have a matching ITEM_REACTION_PRODUCT entry.
+|-| style="vertical-align: top"| {{text anchor|HAS_MATERIAL_REACTION_PRODUCT}}| style="vertical-align: top"| 
+* PRODUCT_ID (custom)| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Similar to REACTION_CLASS, but requires the reagents material to have a matching [[Material definition token|MATERIAL_REACTION_PRODUCT]] entry. Intended for reactions which transform one class of material into another, such as skin->leather and fat->tallow.
+|-| style="vertical-align: top"| {{text anchor|HAS_TOOL_USE}}| style="vertical-align: top"| 
+* [[Tool token#TOOL_USE|TOOL_USE value]]| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be a [[tool]] with the specific TOOL_USE value. The reagents item type must be TOOL:NONE for this to make any sense.
+|-| style="vertical-align: top"| {{text anchor|HAS_WRITING_IMPROVEMENT}}| | style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must contain writing.
+|-| style="vertical-align: top"| {{text anchor|IMPROVEMENT}}| style="vertical-align: top"| 
 * Probability
 * [[#Reagent name|Reagent name]]
 * Improvement type
-* Material Token
-|
-| style="vertical-align: top"| Applies an improvement to the named reagent.  Only meaningful if said reagent has [PRESERVE_REAGENT]. Improvement types include BANDS, COVERED, GLAZED, PAGES, RINGS_HANGING, and SPIKES
-
-|-
-| style="vertical-align: top"| {{text anchor|IS_CRAFTED_ARTIFACT}}{{verify}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent item must be an artifact.
-
-|-
-| style="vertical-align: top"| {{text anchor|IS_DIVINE_MATERIAL}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must have the [DIVINE] token.
-
-|-
-| style="vertical-align: top"| {{text anchor|MAGMA_BUILD_SAFE}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Currently broken - Reagent must be considered [[magma-safe]] (stable [[temperature]] below {{ct|12000}}).
-
-|-
-| style="vertical-align: top"| {{text anchor|MAX_MULTIPLIER}}
-| style="vertical-align: top"| 
-* Integer
-|
-| style="vertical-align: top"| Sets the maximum number of times a reaction is allowed to run when using stacked reagents. This can be used to ensure that the reaction doesn't repeat until the entire stack is depleted.
-
-|-
-| style="vertical-align: top"| {{text anchor|METAL_ORE}}
-| style="vertical-align: top"| 
-* Inorganic material
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must be an ore of the specified metal.
-
-|-
-| style="vertical-align: top"| {{text anchor|MIN_DIMENSION}}
-| style="vertical-align: top"| 
-* Integer
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Requires that the reagent have a size of at least ''integer''. Only effective with BAR, POWDER_MISC, LIQUID_MISC, DRINK, THREAD, CLOTH, and GLOB items.
-
-|-
-| style="vertical-align: top"| {{text anchor|NAME}}
-| style="vertical-align: top"| 
-* [[#name|Name]]
-|
-| style="vertical-align: top"| Defines the name used by the reaction in-game.
-
-|-
-| style="vertical-align: top"| {{text anchor|NO_EDGE_ALLOWED}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must not have an edge, so must be blunt. Sharp stones (produced using knapping) and most types of weapon/ammo can not be used with this token.
-
-|-
-| style="vertical-align: top"| {{text anchor|NOT_ARTIFACT}}{{verify}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent item must not be an artifact.
-
-|-
-| style="vertical-align: top"| {{text anchor|NOT_CONTAIN_BARREL_ITEM}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| If the reagent is a Barrel, it must not contain an item that has to reside in a barrel.  Barrel items appear to be lye and milk.  Alcohol appears to be covered as part of [EMPTY].  A reaction which places an item in a barrel should probably have both tags.
-
-|-
-| style="vertical-align: top"| {{text anchor|NOT_ENGRAVED}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent has not been engraved i.e. a blank memorial slab.
-|-
-| style="vertical-align: top"| {{text anchor|NOT_IMPROVED}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent has not been decorated.
-
-|-
-| style="vertical-align: top"| {{text anchor|NOT_PRESSED}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must not be in the SOLID_PRESSED state.
-
-|-
-| style="vertical-align: top"| {{text anchor|NOT_WEB}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be "collected" - used with THREAD:NONE to exclude webs.
-
-|-
-| style="vertical-align: top"| {{text anchor|ON_GROUND}}
-|
-| style="vertical-align: top"| Reagent modifier
-| Reagent must be on the ground. Grabs from stockpiles. Does not grab from bins in stockpiles, nor inventories (workshops, wagon). Causes infinite collection of items if reaction is in workshop, as reagents are no longer on ground when brought to workshop. Untested in adventure mode; possibly more useful for adv. mode reactions.
-
-|-
-| style="vertical-align: top"| {{text anchor|POTASHABLE}} (Deprecated)
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Alias for [CONTAINS_LYE].
-
-|-
-| style="vertical-align: top"| {{text anchor|PRESERVE_REAGENT}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent is not destroyed, which is the normal effect, at the completion of the reaction. Typically used for containers.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT}}
-| style="vertical-align: top"| 
+* Material Token|| style="vertical-align: top"| Applies an improvement to the named reagent.  Only meaningful if said reagent has [PRESERVE_REAGENT]. Improvement types include BANDS, COVERED, GLAZED, PAGES, RINGS_HANGING, and SPIKES
+|-| style="vertical-align: top"| {{text anchor|IS_CRAFTED_ARTIFACT}}{{verify}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent item must be an artifact.
+|-| style="vertical-align: top"| {{text anchor|IS_DIVINE_MATERIAL}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must have the [DIVINE] token.
+|-| style="vertical-align: top"| {{text anchor|MAGMA_BUILD_SAFE}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Currently broken - Reagent must be considered [[magma-safe]] (stable [[temperature]] below {{ct|12000}}).
+|-| style="vertical-align: top"| {{text anchor|MAX_MULTIPLIER}}| style="vertical-align: top"| 
+* Integer|| style="vertical-align: top"| Sets the maximum number of times a reaction is allowed to run when using stacked reagents. This can be used to ensure that the reaction doesn't repeat until the entire stack is depleted.
+|-| style="vertical-align: top"| {{text anchor|METAL_ORE}}| style="vertical-align: top"| 
+* Inorganic material| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must be an ore of the specified metal.
+|-| style="vertical-align: top"| {{text anchor|MIN_DIMENSION}}| style="vertical-align: top"| 
+* Integer| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Requires that the reagent have a size of at least ''integer''. Only effective with BAR, POWDER_MISC, LIQUID_MISC, DRINK, THREAD, CLOTH, and GLOB items.
+|-| style="vertical-align: top"| {{text anchor|NAME}}| style="vertical-align: top"| 
+* [[#name|Name]]|| style="vertical-align: top"| Defines the name used by the reaction in-game.
+|-| style="vertical-align: top"| {{text anchor|NO_EDGE_ALLOWED}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must not have an edge, so must be blunt. Sharp stones (produced using knapping) and most types of weapon/ammo can not be used with this token.
+|-| style="vertical-align: top"| {{text anchor|NOT_ARTIFACT}}{{verify}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent item must not be an artifact.
+|-| style="vertical-align: top"| {{text anchor|NOT_CONTAIN_BARREL_ITEM}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| If the reagent is a Barrel, it must not contain an item that has to reside in a barrel.  Barrel items appear to be lye and milk.  Alcohol appears to be covered as part of [EMPTY].  A reaction which places an item in a barrel should probably have both tags.
+|-| style="vertical-align: top"| {{text anchor|NOT_ENGRAVED}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent has not been engraved i.e. a blank memorial slab.|-| style="vertical-align: top"| {{text anchor|NOT_IMPROVED}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent has not been decorated.
+|-| style="vertical-align: top"| {{text anchor|NOT_PRESSED}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must not be in the SOLID_PRESSED state.
+|-| style="vertical-align: top"| {{text anchor|NOT_WEB}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be "collected" - used with THREAD:NONE to exclude webs.
+|-| style="vertical-align: top"| {{text anchor|ON_GROUND}}|| style="vertical-align: top"| Reagent modifier| Reagent must be on the ground. Grabs from stockpiles. Does not grab from bins in stockpiles, nor inventories (workshops, wagon). Causes infinite collection of items if reaction is in workshop, as reagents are no longer on ground when brought to workshop. Untested in adventure mode; possibly more useful for adv. mode reactions.
+|-| style="vertical-align: top"| {{text anchor|POTASHABLE}} (Deprecated)|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Alias for [CONTAINS_LYE].
+|-| style="vertical-align: top"| {{text anchor|PRESERVE_REAGENT}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent is not destroyed, which is the normal effect, at the completion of the reaction. Typically used for containers.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT}}| style="vertical-align: top"| 
 *Probability of success (%)
 *Quantity
 *Item token:subtype
-*Material token:subtype
-| 
-| style="vertical-align: top"| Defines a thing that comes out of the reaction. GET_MATERIAL_FROM_REAGENT and GET_ITEM_DATA_FROM_REAGENT can be used to defer the choice of material and/or item to the appropriate tag in a given reagent's material - the former comes in place of the material token, the latter replaces both the item and material tokens. See above for detailed information on how the hooks work.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT_DIMENSION}}
-| style="vertical-align: top"|
-* Size
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Specifies the amount of the product for those items that use dimension. For items of type BAR, DRINK, GLOB, LIQUID_MISC, and POWDER_MISC, one item is dimension 150; one item of CLOTH or SHEET is dimension 10000; and one item of THREAD is dimension 15000. Has no effect on any other item types. Note: this is not the actual [[storage]] volume of the product, which is hard-coded by the item token.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT_PASTE}}
-|
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Product is created in the SOLID_PASTE state.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT_PRESSED}}
-|
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Product is created in the SOLID_PRESSED state.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT_TO_CONTAINER}}
-| style="vertical-align: top"| 
-* [[#Reagent name|Reagent name]]
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Places the product in a container; reagent name must be the name of a reagent with the [PRESERVE_REAGENT] token and a container item type.
-
-|-
-| style="vertical-align: top"| {{text anchor|PRODUCT_TOKEN}}
-| style="vertical-align: top"| 
-* Name
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Allows the product to be referred to by the given name, for the purpose of being passed down as argument in other tokens in the same fashion as reagent names.
-
-|-
-| style="vertical-align: top"| {{text anchor|REACTION}}
-| style="vertical-align: top"| 
-* Identifier
-|
-| style="vertical-align: top"| Defines a new reaction.
-
-|-
-| style="vertical-align: top"| {{text anchor|REACTION_CLASS}}
-| style="vertical-align: top"| 
-* CLASS_ID (custom)
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Requires the reagent's material to have a matching [[Material definition token|REACTION_CLASS]] entry. Intended for reactions which accept a variety of materials but where the input material does not determine the output material, such as FLUX (for making pig iron and steel) and GYPSUM (for producing plaster powder).
-
-|-
-| style="vertical-align: top"| {{text anchor|REAGENT}}
-| style="vertical-align: top"| 
+*Material token:subtype| | style="vertical-align: top"| Defines a thing that comes out of the reaction. GET_MATERIAL_FROM_REAGENT and GET_ITEM_DATA_FROM_REAGENT can be used to defer the choice of material and/or item to the appropriate tag in a given reagent's material - the former comes in place of the material token, the latter replaces both the item and material tokens. See above for detailed information on how the hooks work.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT_DIMENSION}}| style="vertical-align: top"|
+* Size| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Specifies the amount of the product for those items that use dimension. For items of type BAR, DRINK, GLOB, LIQUID_MISC, and POWDER_MISC, one item is dimension 150; one item of CLOTH or SHEET is dimension 10000; and one item of THREAD is dimension 15000. Has no effect on any other item types. Note: this is not the actual [[storage]] volume of the product, which is hard-coded by the item token.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT_PASTE}}|| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Product is created in the SOLID_PASTE state.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT_PRESSED}}|| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Product is created in the SOLID_PRESSED state.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT_TO_CONTAINER}}| style="vertical-align: top"| 
+* [[#Reagent name|Reagent name]]| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Places the product in a container; reagent name must be the name of a reagent with the [PRESERVE_REAGENT] token and a container item type.
+|-| style="vertical-align: top"| {{text anchor|PRODUCT_TOKEN}}| style="vertical-align: top"| 
+* Name| style="vertical-align: top"| Product modifier| style="vertical-align: top"| Allows the product to be referred to by the given name, for the purpose of being passed down as argument in other tokens in the same fashion as reagent names.
+|-| style="vertical-align: top"| {{text anchor|REACTION}}| style="vertical-align: top"| 
+* Identifier|| style="vertical-align: top"| Defines a new reaction.
+|-| style="vertical-align: top"| {{text anchor|REACTION_CLASS}}| style="vertical-align: top"| 
+* CLASS_ID (custom)| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Requires the reagent's material to have a matching [[Material definition token|REACTION_CLASS]] entry. Intended for reactions which accept a variety of materials but where the input material does not determine the output material, such as FLUX (for making pig iron and steel) and GYPSUM (for producing plaster powder).
+|-| style="vertical-align: top"| {{text anchor|REAGENT}}| style="vertical-align: top"| 
 * [[#Reagent name|Reagent name]]
 * [[#quantity|Quantity]]
 * [[Item token]]
-* [[Material token]]
-|
-| style="vertical-align: top"| Specifies a given reagent as an input for a reaction.
-
-|-
-| style="vertical-align: top"| {{text anchor|SKILL}}
-| style="vertical-align: top"| 
-* [[Skill token]]
-|
-| style="vertical-align: top"| Skill used by the reaction.
-
-|-
-| style="vertical-align: top"| {{text anchor|SKILL_IP}}
-| style="vertical-align: top"| 
-* Integer
-| style="vertical-align: top"| Skill modifier
-| style="vertical-align: top"| Amount of skill given per product made. Default is 30. 
-
-|-
-| style="vertical-align: top"| {{text anchor|SKILL_ROLL_RANGE}}
-|  style="vertical-align: top"| 
+* [[Material token]]|| style="vertical-align: top"| Specifies a given reagent as an input for a reaction.
+|-| style="vertical-align: top"| {{text anchor|SKILL}}| style="vertical-align: top"| 
+* [[Skill token]]|| style="vertical-align: top"| Skill used by the reaction.
+|-| style="vertical-align: top"| {{text anchor|SKILL_IP}}| style="vertical-align: top"| 
+* Integer| style="vertical-align: top"| Skill modifier| style="vertical-align: top"| Amount of skill given per product made. Default is 30. 
+|-| style="vertical-align: top"| {{text anchor|SKILL_ROLL_RANGE}}|  style="vertical-align: top"| 
 * Range
-* Multiplier
-| style="vertical-align: top"| Skill modifier
-| style="vertical-align: top"| Determines how [[skill]] level affects [[quality]] of the reaction product.  The skill roll is random(range) + random((skill level * multipler)/2 + 1) + random((skill level * multipler)/2 + 1). random(x) returns a number between 0 and x-1, so range is always 1 or more.  The default is 11. The default multiplier is 5. Higher skill rolls give better results.
-
-|-
-| style="vertical-align: top"| {{text anchor|TRANSFER_ARTIFACT_STATUS}}
-| 
-| style="vertical-align: top"| Product modifier
-| style="vertical-align: top"| Transfers artifact status from the reagent to the product.
-
-|-
-| style="vertical-align: top"| {{text anchor|UNROTTEN}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must not be rotten, mainly for organic materials.
-
-|-
-| style="vertical-align: top"| {{text anchor|USE_BODY_COMPONENT}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must come off a creature's body.
-
-|-
-| style="vertical-align: top"| {{text anchor|WEB_ONLY}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent must be "undisturbed" - used with THREAD:NONE to gather webs.
-
-|-
-| style="vertical-align: top"| {{text anchor|WORTHLESS_STONE_ONLY}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent is not made of an economic stone.
-
-|-
-| style="vertical-align: top"| {{text anchor|WOVEN_ITEM}}
-|
-| style="vertical-align: top"| Reagent modifier
-| style="vertical-align: top"| Reagent material must be a woven material, eg. plant cloth, silk, yarn. This ''excludes'' CLOTH or THREAD items.
-
+* Multiplier| style="vertical-align: top"| Skill modifier| style="vertical-align: top"| Determines how [[skill]] level affects [[quality]] of the reaction product.  The skill roll is random(range) + random((skill level * multipler)/2 + 1) + random((skill level * multipler)/2 + 1). random(x) returns a number between 0 and x-1, so range is always 1 or more.  The default is 11. The default multiplier is 5. Higher skill rolls give better results.
+|-| style="vertical-align: top"| {{text anchor|TRANSFER_ARTIFACT_STATUS}}| | style="vertical-align: top"| Product modifier| style="vertical-align: top"| Transfers artifact status from the reagent to the product.
+|-| style="vertical-align: top"| {{text anchor|UNROTTEN}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must not be rotten, mainly for organic materials.
+|-| style="vertical-align: top"| {{text anchor|USE_BODY_COMPONENT}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must come off a creature's body.
+|-| style="vertical-align: top"| {{text anchor|WEB_ONLY}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent must be "undisturbed" - used with THREAD:NONE to gather webs.
+|-| style="vertical-align: top"| {{text anchor|WORTHLESS_STONE_ONLY}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent is not made of an economic stone.
+|-| style="vertical-align: top"| {{text anchor|WOVEN_ITEM}}|| style="vertical-align: top"| Reagent modifier| style="vertical-align: top"| Reagent material must be a woven material, eg. plant cloth, silk, yarn. This ''excludes'' CLOTH or THREAD items.
 |}
 
 == Examples ==

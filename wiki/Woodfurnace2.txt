@@ -1,12 +1,7 @@
 {{Quality|Fine}}
-{{v50_workshop|name=Wood furnace|key=u|key2=f|job=[[Wood burner]]
-|construction=
-* [[Fire-safe]] [[building material]] (non-[[economic]])
-|icon=[[File:wood_furnace_icon.png]]
-|construction_job={{Material-specific building labors|stone,metal}}
-|use=
-* [[Wood]]
-|production=
+{{v50_workshop|name=Wood furnace|key=u|key2=f|job=[[Wood burner]]|construction=
+* [[Fire-safe]] [[building material]] (non-[[economic]])|icon=[[File:wood_furnace_icon.png]]|construction_job={{Material-specific building labors|stone,metal}}|use=
+* [[Wood]]|production=
 * [[Ash]]
 * [[Charcoal]]}}
 {{av}}

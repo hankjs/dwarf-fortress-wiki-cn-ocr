@@ -1,25 +1,7 @@
 {{Quality|Superior}}
 {{av}}
-{{v50_item|name=Barrel
-|tile=÷|col=0:6:0
-|graphic=[[File:Iron barrel sprite.png|23px|metal barrel]] / [[File:Barrel_premium.png|wooden barrel]]
-|wood=y
-|stone=n
-|metal=y
-|bars=3
-|glass=n
-|cloth=n
-|leather=n
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* [[Storage]] ([[Stockpile#Food|Food, liquids]])
-|value=10
-|size=20,000
-|capacity=60,000}}
+{{v50_item|name=Barrel|tile=÷|col=0:6:0|graphic=[[File:Iron barrel sprite.png|23px|metal barrel]] / [[File:Barrel_premium.png|wooden barrel]]|wood=y|stone=n|metal=y|bars=3|glass=n|cloth=n|leather=n|ceramic=n|bone=n|shell=n|gem=n|wax=n|used for=
+* [[Storage]] ([[Stockpile#Food|Food, liquids]])|value=10|size=20,000|capacity=60,000}}
 '''Barrels''' are storage units that, like [[bin]]s and [[bag]]s, conserve [[stockpile]] space by containing several items of the same type. They can be made out of [[wood]] at a [[carpenter's workshop]] (requires one [[log]] for each barrel) or forged from [[metal]] at a [[forge]] (requires 3 [[metal]] [[bar]]s). Non-magma [[forge]]s also require one [[bar]] of [[fuel]]. Graphically, if a barrel is empty, the sprite will show an empty barrel with no lid; if it is filled with a specific type of item, the top of the barrel will have the matching items sticking out of the top. If the barrel contains a liquid, the barrel will have no lid and show the top of the liquid it contains, as well as having a tap attached to it, making the barrel resemble a keg. If the barrel contains content such as [[slurry]], paste or [[tallow]], the top of the barrel will have a lid:
 <div style="testB" style="margin-top: 10px; margin-left: 20px;">[[File:barrels_variants_preview.png]]</div>
 

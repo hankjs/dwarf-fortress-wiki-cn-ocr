@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=hornbill_sprites.png
-|portrait=hornbill_portrait_anim.gif
-|meat=2
-|fat=2
-|intestine=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=hornbill_sprites.png|portrait=hornbill_portrait_anim.gif|meat=2|fat=2|intestine=1|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

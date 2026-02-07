@@ -35,8 +35,7 @@ WWWWWWWWW
 ▓.......▓
 ▓.......▓
 ▓.......▓
-▓F▓▓▓▓▓▓▓
-}}
+▓F▓▓▓▓▓▓▓}}
 
 * W = water
 * ▓ = stone wall
@@ -83,8 +82,7 @@ OCIIIIIICO
 OCIIIIIICO
 OCIIIIIICO
 OCCCCCCCCO
-OOOOOOOOOO
-}}
+OOOOOOOOOO}}
 
 O = Open area, no channeling, just an area for dwarves to walk
 
@@ -156,12 +154,7 @@ If you embark on a glacier [[biome]] with a volcano, you might think it would be
 {{D for Dwarf}}
 What do you call cold, barren and inhospitable? A dwarven noble.
 [[File:glacier_preview2.png|thumb|360px|center|Anti-Titanic rocks.]]
-{{Translation
-| dwarven = usir
-| elvish  = vaci
-| goblin  = tûbeb
-| human   = shace
-}}
+{{Translation| dwarven = usir| elvish  = vaci| goblin  = tûbeb| human   = shace}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

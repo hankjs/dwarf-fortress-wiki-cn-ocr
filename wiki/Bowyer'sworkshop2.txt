@@ -1,19 +1,10 @@
 {{Quality|Unrated}}
-{{V50 workshop
-|name=Bowyer's workshop
-|icon=[[File:bowyers_workshop_icon.png]]
-|key=b
-|job=*[[Crossbow-making]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-*[[Crossbow-making]]
-|use=
+{{V50 workshop|name=Bowyer's workshop|icon=[[File:bowyers_workshop_icon.png]]|key=b|job=*[[Crossbow-making]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+*[[Crossbow-making]]|use=
 *[[Bone]]
-*[[Wood]]
-|production=
-*[[Crossbow]]s
-}}{{av}}
+*[[Wood]]|production=
+*[[Crossbow]]s}}{{av}}
 The '''bowyer's workshop''' is a [[Workshop#Tier_1_Workshops|Tier 1]] [[workshop]] used to make [[wood]]en or [[bone]] [[crossbow]]s. It requires any [[stone]], [[wood]] or [[block]] to build, and must be built by a [[dwarf]] with the [[bowyer|crossbow making]] [[labor]] enabled.
 
 ==Tasks==

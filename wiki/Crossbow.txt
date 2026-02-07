@@ -8,43 +8,14 @@
 == Production ==
 [[File:dwarf_crossbow_preview.jpg|thumb|200px|right|Still has shaky aim.<br><small>''Art by Kirill Nedorosol''</small>]]Crossbows can be made from a variety of materials, be they [[wood]], [[bone]] or [[metal]], which has no effect on accuracy or damage. The [[quality]] of a crossbow influences its accuracy (along with the skill of the [[marksdwarf]]), while the quality and material of the [[bolt]]s influences the damage done on a successful hit.
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Material
 ! Skill
 ! Workshop
-! Consumed
-|-
-! metal<sup>1</sup>
-| [[weaponsmith]]
-| [[metalsmith's forge|metalsmith's forge]]
-| 1 [[bar]]
-|-
-| (ammo ×25)
-| [[weaponsmith]]
-| [[metalsmith's forge|metalsmith's forge]]
-| 1 [[bar]]
-|-
-! wood<sup>2</sup>
-| [[bowyer]]
-| [[bowyer's workshop]]
-| 1 [[log]]
-|-
-| (ammo ×25)
-| [[wood crafter]]
-| [[craftsdwarf's workshop]]
-| 1 [[log]]
-|-
-! bone
-| [[bowyer]]
-| [[bowyer's workshop]]
-| 1 [[bone]]<br>off stack
-|-
-| (ammo ×5)
-| [[bone carver]]
-| [[craftsdwarf's workshop]]
-| 1 [[bone]]
-|}
+! Consumed|-
+! metal<sup>1</sup>| [[weaponsmith]]| [[metalsmith's forge|metalsmith's forge]]| 1 [[bar]]|-| (ammo ×25)| [[weaponsmith]]| [[metalsmith's forge|metalsmith's forge]]| 1 [[bar]]|-
+! wood<sup>2</sup>| [[bowyer]]| [[bowyer's workshop]]| 1 [[log]]|-| (ammo ×25)| [[wood crafter]]| [[craftsdwarf's workshop]]| 1 [[log]]|-
+! bone| [[bowyer]]| [[bowyer's workshop]]| 1 [[bone]]<br>off stack|-| (ammo ×5)| [[bone carver]]| [[craftsdwarf's workshop]]| 1 [[bone]]|}
 Notes:
 : 1) All materials perform equally well for a ranged weapon; a bone or wood crossbow shoots as straight and hard as a steel one (because once it hits, it's the [[bolt]] that does the damage!). However, if an enemy closes into melee range with a [[marksdwarf]], then they will use their crossbow as a [[War hammer|hammer]], doing [[blunt]] damage (and using the [[Combat skill#Weapon skills|Hammerdwarf]] skill). For this reason, you may want to make your military crossbows out of a metal*, and leave any bone/wood crossbows for [[hunter]]s or wall defenders, or as [[Trade]] items.
 

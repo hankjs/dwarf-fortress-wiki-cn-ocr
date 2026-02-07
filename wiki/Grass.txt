@@ -36,12 +36,7 @@ All "grass" types in the game, apart from the four special types found in evil a
 
 [[File:grass_preview.png|thumb|330px|center|You'll '''''never''''' hear a cow complain about this.]]
 
-{{Translation
-| dwarven = isin
-| elvish  = enena
-| goblin  = struxe
-| human   = kege
-}}
+{{Translation| dwarven = isin| elvish  = enena| goblin  = struxe| human   = kege}}
 
 {{Plants|cat=nocat}}
 {{Category|Grass| }}

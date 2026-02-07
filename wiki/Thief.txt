@@ -7,12 +7,7 @@ Whether or not they are detected, all thieves will move more or less directly to
 
 * Note: A "full" [[military]] response is complex to organize and slow to engage with these weaker intruders, who may be long gone by the time an armed and armored squad arrives, so may not be the most effective response. If you simply want to send a few nearby dwarves after a thief, or are unfamiliar with the military, see [[Attack]].
 
-{{Translation
-| dwarven = gakit
-| elvish  = urithi
-| goblin  = snang
-| human   = sewat
-}}
+{{Translation| dwarven = gakit| elvish  = urithi| goblin  = snang| human   = sewat}}
 __ToC__
 
 There are three types of intelligent thieves that can threaten a fortress: '''[[kobold]] thieves''', '''[[goblin]] snatchers''', and '''[[quester]]s''' (*). Their appearance seems to be dependent on whether your fortress is located close to kobold or goblin sites, and maintaining a large distance from their territory will dramatically decrease - if not completely nullify - the chance of thieves spawning. This is more easily manageable with goblins, but kobolds are more complicated, as by default, their [[cave]]s do not show up in the [[embark]] map.

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_sapphire_sprite.png
-|graphic2=rough_sapphire_sprite.png}}
+{{gemlookup/0|graphic=cut_sapphire_sprite.png|graphic2=rough_sapphire_sprite.png}}
 {{av}}
 
 '''Sapphire''' is a valuable blue [[gem]] found in small clusters within [[bauxite]] clusters. A given cluster may also contain a single [[star sapphire]], a gem 1.5&times; as valuable. It is not magma-safe, having the same melting point ({{ct|11500}}) and other properties as its more valuable relative.

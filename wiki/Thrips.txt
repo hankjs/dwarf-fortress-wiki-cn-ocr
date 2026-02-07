@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=thrips_sprite.png
-|portrait=thrips_portrait.png}}
+{{verminlookup/0|image=thrips_sprite.png|portrait=thrips_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

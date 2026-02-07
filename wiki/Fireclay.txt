@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{soillookup/0
-|graphic=fire_clay_sprite.png}}
+{{soillookup/0|graphic=fire_clay_sprite.png}}
 {{av}}
 
 '''Fire clay''' is one of the many types of [[soil]] that can be found in [[soil layer]]s. [[Aquifer]]s are never present in fire clay.

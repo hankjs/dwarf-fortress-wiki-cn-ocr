@@ -1,28 +1,10 @@
 {{Quality|Exceptional}}
 <div id="unique1" style="margin-right:295px;">{{av}}</div>
 <div id="unique2" style="float:right; margin-top:-111px;">
-{{V50_furniture
-|graphic=[[File:Pedestal_Premium.png]]
-|name=Pedestal
-|tile=ï
-|wood=y
-|stonecarve=y
-|glass=y
-|metal=y
-|bars=2
-|rooms=
-[[Museum]]
-|value=10
-|size=500}}{{clear}}
-{{V50_furniture
-|graphic=[[File:Display_Case_Premium.png]]
-|name=Display case
-|tile=π	|col=0:6:0
-|wood=y
-|rooms=
-[[Museum]]
-|value=10
-|size=1,000}}</div>
+{{V50_furniture|graphic=[[File:Pedestal_Premium.png]]|name=Pedestal|tile=ï|wood=y|stonecarve=y|glass=y|metal=y|bars=2|rooms=
+[[Museum]]|value=10|size=500}}{{clear}}
+{{V50_furniture|graphic=[[File:Display_Case_Premium.png]]|name=Display case|tile=π	|col=0:6:0|wood=y|rooms=
+[[Museum]]|value=10|size=1,000}}</div>
 A piece of '''display [[furniture]]''' can be used to display other items. There are two available types of display furniture, pedestals and display cases.
 
 Pedestals are created from [[wood]], [[stone]], [[glass]], or [[metal]] at a [[carpenter's workshop]], [[stoneworker's workshop]], [[glass furnace]], or [[forge]], respectively; while wood, stone, and glass only require 1 material to craft, metal requires 2 bars. Being tools, they are listed at a forge under "[[Other large tools]]" rather than "Furniture", but still use the [[blacksmithing]] skill.

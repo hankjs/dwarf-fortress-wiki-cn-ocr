@@ -1,11 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=kea_sprites.png
-|portrait=kea_portrait_anim.gif
-|skull=1
-|contrib=no
-|meat=0-2
-|wiki=yes}}
+{{Creaturelookup/0|image=kea_sprites.png|portrait=kea_portrait_anim.gif|skull=1|contrib=no|meat=0-2|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

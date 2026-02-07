@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=chert_sprite.png}}
+{{stonelookup/0|graphic=chert_sprite.png}}
 {{av}}
 
 '''Chert''' is a [[magma-safe]] but otherwise unremarkable brown [[stone]], found in [[sedimentary layer]]s. 

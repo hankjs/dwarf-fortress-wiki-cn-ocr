@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:indigo_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Glassmaker
-| profession = [[Craftsdwarf]]
-| job name   = [[Glassmaking]]
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Glassmaker| profession = [[Craftsdwarf]]| job name   = [[Glassmaking]]| tasks      =
 * Make raw glass
 * Construct glass furniture
 * Make glass goblet
@@ -16,18 +9,15 @@
 * Make glass [[door|portal]]
 * Make glass tube
 * Make glass [[window]]
-* Make glass trap component
-| workshop = 
+* Make glass trap component| workshop = 
 * Glass furnace 
-* Magma glass furnace
-| attributes =
+* Magma glass furnace| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''Glassmaker''' is the skill associated with the glassmaking [[labor]]. Glassmakers make [[glass]] [[furniture]], [[Box|boxes]], [[block]]s, [[trap component]]s, [[gem|raw glass gems]], some [[pipe section|machine component]]s and most [[crafts|craft items]], (all but generic "crafts", which are actually made by a [[gem cutter]]) at a [[glass furnace]] or [[magma glass furnace]].
 

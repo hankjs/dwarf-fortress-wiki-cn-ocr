@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=purring_maggot_sprite.png
-|portrait=purring_maggot_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=purring_maggot_sprite.png|portrait=purring_maggot_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

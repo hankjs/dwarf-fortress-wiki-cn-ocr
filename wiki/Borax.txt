@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=borax_sprite.png}}
+{{stonelookup/0|graphic=borax_sprite.png}}
 {{av}}
 
 '''Borax''' is an unremarkable white stone which can be found in large quantities within [[rock salt]] and in small quantities within [[gypsum]].

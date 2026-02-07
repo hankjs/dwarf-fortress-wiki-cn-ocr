@@ -1,23 +1,13 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Planter
-| specialty  = Planter
-| profession = [[Farmer]]
-| job name   = [[Farming (fields)]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Planter| specialty  = Planter| profession = [[Farmer]]| job name   = [[Farming (fields)]]| tasks      =
 * Plant Seeds
 * Harvest
 * Fertilize
-* Construct farm plot
-| attributes =
+* Construct farm plot| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Planter''' is the [[skill]] for use with the [[farming|Farming (Fields)]] [[labor]], which allows a dwarf to plant [[seed]]s and [[farm plot|farm plots]], both [[above ground]] and [[underground]]. A high level of planting skill allows a dwarf to plant seeds at a faster rate, and seeds planted with higher skill will produce larger stacks of [[plants]] at harvest, increasing [[food]] output significantly. A single [[Skill#Skill ranks|proficient]] planter can easily outproduce several dabbling ones.

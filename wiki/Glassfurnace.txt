@@ -1,15 +1,10 @@
 {{Quality|Superior}}
-{{v50_workshop|name=Glass furnace|key=u|key2=g|job=[[Glassmaking]]
-|construction=
-* [[Fire-safe]] [[building material]] (non-[[economic]])
-|construction_job={{Material-specific building labors|stone,metal}}
-|icon=[[File:glass_furnace_icon.png]]
-|use=
+{{v50_workshop|name=Glass furnace|key=u|key2=g|job=[[Glassmaking]]|construction=
+* [[Fire-safe]] [[building material]] (non-[[economic]])|construction_job={{Material-specific building labors|stone,metal}}|icon=[[File:glass_furnace_icon.png]]|use=
 * [[Coke]] or [[Charcoal]] ([[Fuel]])
 * [[Sand]] [[bag]]
 * [[Pearlash]]
-* Raw [[rock crystal]]
-|production=
+* Raw [[rock crystal]]|production=
 * Raw crystal [[glass]]
 * Raw clear [[glass]]
 * Raw green [[glass]]
@@ -25,8 +20,7 @@
 * [[Instrument#Components|Instrument pieces]]{{version|0.42.01}}
 * [[Bookcase|Bookcases]]{{version|0.42.01}}
 * [[Book binding|Book bindings]]{{version|0.42.01}}
-* [[Scroll rollers]]{{version|0.42.01}}
-}}{{av}}
+* [[Scroll rollers]]{{version|0.42.01}}}}{{av}}
 {{distinguish|Magma glass furnace}}
 
 A '''glass furnace''' is a specialized form of [[furnace]] designed for use in the [[glass industry]].

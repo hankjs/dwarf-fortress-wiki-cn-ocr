@@ -35,8 +35,7 @@ Fanciful creatures in the game object data are defined by the {{token|FANCIFUL|c
 *[[File:Sasquatch_sprite.png|20px]] / {{Tile|S|6:0}} [[Sasquatch]]es
 *[[File:Satyr_sprite.png|20px]] / {{Tile|s|6:0}} [[Satyr]]s
 *[[File:Yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[Yeti]]s
-*[[File:Werebeast_sprite.png|20px]] / {{Tile|Ñ|6:0}} [[Werebeast]]s
-}}
+*[[File:Werebeast_sprite.png|20px]] / {{Tile|Ñ|6:0}} [[Werebeast]]s}}
 
 ==Fanciful creatures which do not actually exist==
 

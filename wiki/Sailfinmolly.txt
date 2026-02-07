@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=sailfin_molly_sprite.png
-|portrait=sailfin_molly_portrait.png}}
+{{verminlookup/0|image=sailfin_molly_sprite.png|portrait=sailfin_molly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

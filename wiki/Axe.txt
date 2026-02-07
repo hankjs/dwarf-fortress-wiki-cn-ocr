@@ -8,12 +8,7 @@
 
 Axes are [[weapon]]s. Every axe except the training one can be used as [[equipment]] for tree cutting.
 
-{{Translation
-| dwarven = libash
-| elvish  = cuthefi
-| goblin  = agun
-| human   = osp
-}}
+{{Translation| dwarven = libash| elvish  = cuthefi| goblin  = agun| human   = osp}}
 
 {{disambig}}
 [[ru:Axe]]

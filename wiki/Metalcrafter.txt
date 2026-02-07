@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Metal Crafter
-| specialty  = Metalcrafter
-| profession = [[Metalsmith]]
-| job name   = [[Metalcrafting]]
-| tasks      =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Metal Crafter| specialty  = Metalcrafter| profession = [[Metalsmith]]| job name   = [[Metalcrafting]]| tasks      =
 * Forge [[chain]]
 * Mint [[coins]]
 * Forge [[crafts]]
@@ -17,18 +9,15 @@
 * Forge [[minecart]]
 * Forge [[toy]]
 * Forge all [[Tool#Other_Tools|Tools]]
-* Stud with [[metal]]
-| workshop   =
+* Stud with [[metal]]| workshop   =
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-| attributes =
+* [[Magma forge]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Metal Crafter''' is a skill associated with the '''metalcrafting''' [[labor]]. Metalcrafters make [[metal]] craft goods, goblets, [[flask]]s, [[chain]]s, [[toy]]s, [[instrument]]s, [[hive]]s, [[pot]]s, [[jug]]s, [[nest box]]es, [[minecart]]s and [[coin|coins]] <!-- and maybe splints, crutches, buckets, barrels? --> at a [[metalsmith's forge]]. The skill is also used to [[stud]] objects with metal. As well, metalcrafting is necessary to make [[construction]]s out of metal [[block]]s.

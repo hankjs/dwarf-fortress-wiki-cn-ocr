@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_wood_opal_sprite.png
-|graphic2=rough_wood_opal_sprite.png}}
+{{gemlookup/0|graphic=cut_wood_opal_sprite.png|graphic2=rough_wood_opal_sprite.png}}
 {{av}}
 
 '''Wood opals''' are moderately-valuable [[gem]]s that can be found just about anywhere.

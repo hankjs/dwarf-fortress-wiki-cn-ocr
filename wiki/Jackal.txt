@@ -1,20 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=jackal_sprites.png
-|portrait=jackal_portrait_anim.gif
-|bone=6-10
-|meat=7-11
-|skin=hide
-|fat=7-11
-|skull=1
-|brain=1
-|tripe=1
-|liver=1
-|intestines=1
-|lung=2
-|wiki=yes
-|contrib=no
-}}
+{{creaturelookup/0|image=jackal_sprites.png|portrait=jackal_portrait_anim.gif|bone=6-10|meat=7-11|skin=hide|fat=7-11|skull=1|brain=1|tripe=1|liver=1|intestines=1|lung=2|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 
@@ -26,12 +11,7 @@ Some dwarves [[Preferences|like]] jackals for their ''resourceful nature''.
 {{D for dwarf}}
 Some jackals have been seen standing on their hind legs and wielding *Ademantine* shields. Unfortunately, the only way to kill said jackals, is by shooting their hands with a very "futuristic" crossbow.
 
-{{Translation
-| dwarven = soshosh
-| elvish  = apufi
-| goblin  = em
-| human   = baktur
-}}
+{{Translation| dwarven = soshosh| elvish  = apufi| goblin  = em| human   = baktur}}
 [[File:Flickr - Rainbirder - Golden Jackal (1).jpg|thumb|center|400px|Admired for its ''resourceful nature''.]]
 
 {{gamedata}}

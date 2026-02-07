@@ -14,40 +14,18 @@ A guildhall requires a certain [[Zone#Quality and value|zone value]] to be consi
 ==List of guilds==
 This is a list of guildhalls that you can select when adding a new [[location]] (e.g. {{menu icon|z}} -> set a zone -> [[File:Ui location add.png|28px]] -> "New guildhall" -> choose a guild type). General guilds are in '''bold''', followed by specific guilds they include.
 
-{| {{prettytable}}
-|-
-! [[Miner]] hall
-|-
-! [[Woodworker]] hall
-| [[Carpenter]] hall • [[Bowyer]] hall • [[Woodcutter]] hall
-|-
-! [[Stoneworker]] hall
-| [[Engraver]] hall  • [[Mason]] hall 
-|-
-! [[Ranger]] hall
-| [[Animal caretaker|Animal Caretaker]] hall • [[Hunter]] hall • [[Trapper]] hall • [[Animal dissector|Animal Dissector]] hall
-|-
-! [[Metalsmith]] hall
-| [[Furnace operator|Furnace Operator]] hall • [[Weaponsmith]] hall • [[Armorsmith|Armorer]] hall • [[Blacksmith]] hall • [[Metalcrafter]] hall
-|-
-! [[Jeweler]] hall
-| [[Gem cutter|Gem Cutter]] hall • [[Gem setter|Gem Setter]] hall
-|-
-! [[Craftsdwarf]] hall
-| [[Woodcrafter]] hall • [[Stonecrafter]] hall • [[Leatherworker]] hall • [[Bone carver|Bone Carver]] hall • [[Weaver]] hall <br />• [[Clothier]] hall • [[Glassmaker]] hall • [[Potter]] hall • [[Glazer]] hall • [[Wax worker|Wax Worker]] hall • [[Strand extractor|Strand Extractor]] hall
-|-
-! [[Fishery worker|Fishery Worker]] hall
-| [[Fisherdwarf]] hall • [[Fish dissector|Fish Dissector]] hall • [[Fish cleaner|Fish Cleaner]] hall
-|-
-! [[Farmer]] hall
-| [[Cheese maker|Cheese Maker]] hall • [[Milker]] hall • [[Cook]] hall • [[Thresher]] hall • [[Miller]] hall • [[Butcher]] hall • [[Tanner]] hall<br /> • [[Dyer]] hall • [[Grower|Planter]] hall • [[Herbalist]] hall • [[Brewer]] hall • [[Soaper|Soap Maker]] hall • [[Potash maker|Potash Maker]] hall<br /> • [[Lye maker|Lye Maker]] hall • [[Wood burner|Wood Burner]] hall • [[Shearer]] hall • [[Spinner]] hall • [[Presser]] hall • [[Beekeeper]] hall
-|-
-! [[Engineer]] hall
-| [[Mechanic]] hall • [[Siege engineer|Siege Engineer]] hall • [[Siege operator|Siege Operator]] hall • [[Pump operator|Pump Operator]] hall
-|-
-! [[Doctor]] hall
-| [[Diagnostician|Diagnoser]] hall • [[Bone doctor|Bone Doctor]] hall • [[Suturer]] hall • [[Surgeon]] hall
-|}
+{| {{prettytable}}|-
+! [[Miner]] hall|-
+! [[Woodworker]] hall| [[Carpenter]] hall • [[Bowyer]] hall • [[Woodcutter]] hall|-
+! [[Stoneworker]] hall| [[Engraver]] hall  • [[Mason]] hall |-
+! [[Ranger]] hall| [[Animal caretaker|Animal Caretaker]] hall • [[Hunter]] hall • [[Trapper]] hall • [[Animal dissector|Animal Dissector]] hall|-
+! [[Metalsmith]] hall| [[Furnace operator|Furnace Operator]] hall • [[Weaponsmith]] hall • [[Armorsmith|Armorer]] hall • [[Blacksmith]] hall • [[Metalcrafter]] hall|-
+! [[Jeweler]] hall| [[Gem cutter|Gem Cutter]] hall • [[Gem setter|Gem Setter]] hall|-
+! [[Craftsdwarf]] hall| [[Woodcrafter]] hall • [[Stonecrafter]] hall • [[Leatherworker]] hall • [[Bone carver|Bone Carver]] hall • [[Weaver]] hall <br />• [[Clothier]] hall • [[Glassmaker]] hall • [[Potter]] hall • [[Glazer]] hall • [[Wax worker|Wax Worker]] hall • [[Strand extractor|Strand Extractor]] hall|-
+! [[Fishery worker|Fishery Worker]] hall| [[Fisherdwarf]] hall • [[Fish dissector|Fish Dissector]] hall • [[Fish cleaner|Fish Cleaner]] hall|-
+! [[Farmer]] hall| [[Cheese maker|Cheese Maker]] hall • [[Milker]] hall • [[Cook]] hall • [[Thresher]] hall • [[Miller]] hall • [[Butcher]] hall • [[Tanner]] hall<br /> • [[Dyer]] hall • [[Grower|Planter]] hall • [[Herbalist]] hall • [[Brewer]] hall • [[Soaper|Soap Maker]] hall • [[Potash maker|Potash Maker]] hall<br /> • [[Lye maker|Lye Maker]] hall • [[Wood burner|Wood Burner]] hall • [[Shearer]] hall • [[Spinner]] hall • [[Presser]] hall • [[Beekeeper]] hall|-
+! [[Engineer]] hall| [[Mechanic]] hall • [[Siege engineer|Siege Engineer]] hall • [[Siege operator|Siege Operator]] hall • [[Pump operator|Pump Operator]] hall|-
+! [[Doctor]] hall| [[Diagnostician|Diagnoser]] hall • [[Bone doctor|Bone Doctor]] hall • [[Suturer]] hall • [[Surgeon]] hall|}
 
 ==Guilds in World Generation==
 Guilds are formed in world generation, by civilizations that value [[Personality value#CRAFTSMANSHIP|craftsmanship]], such as [[dwarf|dwarves]] and [[human]]s. These guilds will have various [[historical figure]]s take up positions in them, as well as build themselves guildhalls in settlements, and have also been observed to occasionally help construct monasteries for [[Temple|religious groups]]. There are always four possible positions in the generated guilds: A Leader (dean/doyer, handles negotiations), an Alderman (manages work orders), a Steward (handles trade) and a Clerk/[[Record keeper]]. These positions are not yet available within fortress mode, and thus, guilds made in fortresses don't get them.

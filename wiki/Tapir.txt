@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=tapir_sprites.png
-|portrait=tapir_portrait_anim.gif
-|bone=18
-|meat=13
-|fat=12
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=tapir_sprites.png|portrait=tapir_portrait_anim.gif|bone=18|meat=13|fat=12|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

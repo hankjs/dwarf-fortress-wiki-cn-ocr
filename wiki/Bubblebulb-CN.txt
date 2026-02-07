@@ -1,9 +1,0 @@
-{{Quality|Fine}}
-{{grasslookup/0|wiki=no}}{{av}}
-
-'''泡泡球茎'''是仅在[[Surroundings#Good|善良]]阵营区域发现的特殊植物，为生活在那里的雄伟[[unicorn|独角兽]]和其他优良生物提供营养。
-
-由于它们是一种[[grass|草]]，[[Pasture#List_of_grazing_animals|食草动物]]可以在其分配的[[pasture|牧场]]内以泡泡球茎为食。
-
-{{gamedata}}
-{{Plants}}

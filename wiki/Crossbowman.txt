@@ -1,13 +1,6 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 0:0
-| skill      = Crossbowman
-| profession = [[Military]]
-| job name   = None
-| tasks      = *Wielding a crossbow in ranged combat
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Crossbowman| profession = [[Military]]| job name   = None| tasks      = *Wielding a crossbow in ranged combat| attributes = Unknown}}
 {{av}}
 {{buggy|bugsection=Bugs}}
 

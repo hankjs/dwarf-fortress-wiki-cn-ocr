@@ -1,18 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=bushmaster_sprites.png
-|portrait=bushmaster_portrait_anim.gif
-|bone=2
-|meat=2
-|scale=1
-|skull=1
-|brain=1
-|tripe=1
-|liver=1
-|intestine=1
-|lung=2
-|fat=2
-|contrib=no|wiki=yes}}
+{{creaturelookup/0|image=bushmaster_sprites.png|portrait=bushmaster_portrait_anim.gif|bone=2|meat=2|scale=1|skull=1|brain=1|tripe=1|liver=1|intestine=1|lung=2|fat=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

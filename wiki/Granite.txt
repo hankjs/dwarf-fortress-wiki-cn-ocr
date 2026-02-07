@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{layerlookup/0
-|graphic=granite_sprite.png}}
+{{layerlookup/0|graphic=granite_sprite.png}}
 {{av}}
 
 {{For/see|the month|[[Calendar]]}}
@@ -14,12 +13,7 @@ Granite is one of the most common stones on Earth, as the base of all the contin
 File:granite.jpg|Granite
 </gallery>
 
-{{Translation
-| dwarven = lolok
-| elvish  = bamo
-| goblin  = orux
-| human   = quab
-}}
+{{Translation| dwarven = lolok| elvish  = bamo| goblin  = orux| human   = quab}}
 
 {{gamedata}}
 {{stones}}

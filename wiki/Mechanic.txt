@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 4:1
-| graphic    = [[File:eng_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Mechanic
-| profession = [[Engineer]]
-| job name   = [[Mechanics]]
-| tasks      =
+{{v50_skill| color      = 4:1| graphic    = [[File:eng_sprite_icon.png]]| graphicmargin = 106px| skill      = Mechanic| profession = [[Engineer]]| job name   = [[Mechanics]]| tasks      =
 * Construct Mechanisms
 * Machine construction
 * Trap construction
@@ -14,18 +7,15 @@
 * Load Trap
 * Ponder
 * Discuss
-* Research
-| workshop   = 
+* Research| workshop   = 
 * [[Mechanic's workshop]]
-* [[Metalsmith's forge]]
-| attributes =
+* [[Metalsmith's forge]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Analytical Ability
 * Creativity
-* Spatial Sense
-}}
+* Spatial Sense}}
 {{av}}
 
 '''Mechanic''' is the [[skill]] associated with the '''mechanics''' [[labor]]. Mechanics can work at a [[mechanic's workshop]] or a [[metalsmith's forge]] to manufacture [[mechanism]]s, and place any [[building]]s that require mechanisms such as [[lever]]s, [[Gear assembly|gear]]s and [[trap]]s. They are also responsible for linking up [[lever]]s or [[pressure plate]]s to objects such as [[bridge]]s, [[floodgate]]s and other [[trap design|contraptions]].

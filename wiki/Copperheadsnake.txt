@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=copperhead_snake_sprites.png
-|portrait=copperhead_snake_portrait_anim.gif
-|contrib=no
-|skull=1
-|wiki=Agkistrodon contortrix
-}}
+{{creaturelookup/0|image=copperhead_snake_sprites.png|portrait=copperhead_snake_portrait_anim.gif|contrib=no|skull=1|wiki=Agkistrodon contortrix}}
 {{av}}
 {{creaturedesc}}
 

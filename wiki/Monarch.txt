@@ -1,23 +1,10 @@
 {{Quality|Superior}}
 {{av}}
 {{Minorspoiler}}
-{{Noble
-| noble= Monarch
-| office= Royal Throne Room
-| quarters= Royal Bedroom
-| dining= Royal Dining Room
-| tomb= Royal Mausoleum 
-| chests=10
-| cabinets=5
-| racks=5
-| stands=5
-| mandates=5
-| demands=10
-| arrival=
+{{Noble| noble= Monarch| office= Royal Throne Room| quarters= Royal Bedroom| dining= Royal Dining Room| tomb= Royal Mausoleum | chests=10| cabinets=5| racks=5| stands=5| mandates=5| demands=10| arrival=
 * Fortress is a duchy capital and the [[duke]] is alive
 * Sufficient happiness
-* [[Fortress|Metropolis]] rank
-}}
+* [[Fortress|Metropolis]] rank}}
 The '''monarch''' is the highest level [[noble]], and also the noble of the highest precedence.  Rather than being promoted from within, like the [[baron]], [[count]], and [[duke]], the existing monarch arrives as an immigrant from the previous capital. However, one of your fortress residents may become monarch if the position is vacant, either by inheriting the title or after conducting "polite discussions with local rivals". A male monarch is known as a "king" and a female as a "queen". Either may arrive with a [[consort]], as well as an entourage that can include the [[outpost liaison]], [[general]], elite military dwarves, and ordinary workers.
 
 To attract the existing monarch the fortress must be [[Fortress|City]] rank, promoted to a duchy with the [[duke]] still alive, and reach a certain threshold of overall happiness. These requirements notably do not apply when one of your fortress residents is elevated to monarch.

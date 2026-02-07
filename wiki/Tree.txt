@@ -5,12 +5,7 @@
 
 [[File:tree_z_levels_v50.gif|thumb|225px|right|Ascending z-levels of a [[pear|pear tree]].]]
 '''Trees''' are multi-[[tile]] [[plant]]s, that can be found aboveground on all but the most dry or mountainous of maps, and below ground in the [[cavern]]s. The types of trees that grow in a given location depend on that location's [[biome]], as different species prefer different conditions. For example, tropical areas often have palm trees, while colder areas feature pines. Underground trees such as [[nether-cap]]s are an exception, as they will grow anywhere underground. The species of a tree in turn determines its properties, including its structure, the color and density of its wood and what kind of growths it produces. Note also that "trees" in ''Dwarf Fortress'' also covers things that are not actually trees, such as cacti, large herbaceous plants (e.g. [[banana]]s), and large mushrooms (underground trees).
-{{Translation
-| dwarven = dák
-| elvish  = thelire
-| goblin  = tonspe
-| human   = akan
-}}
+{{Translation| dwarven = dák| elvish  = thelire| goblin  = tonspe| human   = akan}}
 Trees are used as a source of [[wood]], an essential resource in the game, irreplaceable (or hard to replace) for some applications. Thus, the amount of local trees greatly affects fortress development, as without a ready source of wood, the player will be forced to rely on [[trade]] to get it. Tree growth density on the [[embark]] site is determined by its [[biome]], so it is displayed with the rest of the biome properties (temperature, etc.) on the "Choose Fortress Location" screen at embark.
 
 == Structure ==
@@ -691,8 +686,7 @@ Most of them bear fruits and nuts, which can be [[Activity zone#Gather/Pick Frui
   |grow1={{tile|*|2:0}} \ [[File:pine_leaves.png]] needle
   |grow2={{tile|*|6:0}} \ [[File:pine_seed_cone.png]] seed cone
   |grow3={{tile|*|4:0}} \ [[File:pine_pollen_catkin.png]] pollen cone
-  }}
-|}
+  }}|}
 
 '''Notes:'''
 :<sup>1</sup> This is the value for a stack of 5 units, which is the number rendered from a single fruit.
@@ -764,8 +758,7 @@ These are the trees that can grow in subterranean caverns. None of them produce 
   |eat=n|cook=n
   |graphic=[[File:nether-cap_trunk_sprite.png]]
   |sapling=[[File:Nether-cap sapling.png]]
-  }}
-|}
+  }}|}
 
 ==Bugs==
 * Trees grow through bridges. {{bug|7872}}

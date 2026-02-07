@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{verminlookup/0
-|image=yellow_bullhead_sprite.png
-|portrait=yellow_bullhead_portrait.png}}
+{{verminlookup/0|image=yellow_bullhead_sprite.png|portrait=yellow_bullhead_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

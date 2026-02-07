@@ -1,12 +1,8 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=flax_shrub_sprite.png
-|seedimage=flax_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=flax_shrub_sprite.png|seedimage=flax_seeds_sprite.png|uses=
 * [[Flour]]
 * [[Oil]]
-* [[Thread]]
-}}
+* [[Thread]]}}
 {{av}}
 
 '''Flax''' is an [[aboveground]] [[crop]] that may be processed into [[thread]] at the [[farmer's workshop]] or [[milling|milled]] into [[flour|flax flour]].
@@ -20,12 +16,7 @@ Some [[dwarves]] [[Preferences|like]] flax plants for their ''flowers''.
 
 [[File:Flax flowers.jpg|thumb|center|300px|Admired for its ''flowers''.]]
 
-{{Translation
-| dwarven = engig
-| elvish  = quithe
-| goblin  = nonû
-| human   = cegad
-}}
+{{Translation| dwarven = engig| elvish  = quithe| goblin  = nonû| human   = cegad}}
 
 {{gamedata}}
 {{Plants}}

@@ -4,12 +4,7 @@
 * {{creature/variation links|Harp seal|sep=**}}
 * {{creature/variation links|Leopard seal|sep=**}}
 
-{{Translation
-| dwarven = gembish
-| elvish  = ricote
-| goblin  = uzbad
-| human   = epo
-}}
+{{Translation| dwarven = gembish| elvish  = ricote| goblin  = uzbad| human   = epo}}
 
 {{creatures}}
 {{disambig}}

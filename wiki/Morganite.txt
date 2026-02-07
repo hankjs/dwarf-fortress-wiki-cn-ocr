@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_morganite_sprite.png
-|graphic2=rough_morganite_sprite.png}}
+{{gemlookup/0|graphic=cut_morganite_sprite.png|graphic2=rough_morganite_sprite.png}}
 {{av}}
 
 '''Morganite''' is a purple, semi-precious [[gem]] found within [[granite]], [[schist]], and [[marble]].

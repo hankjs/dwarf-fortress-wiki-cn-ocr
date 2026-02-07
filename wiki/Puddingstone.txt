@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=puddingstone_sprite.png
-|wiki=Puddingstone (rock)}}
+{{stonelookup/0|graphic=puddingstone_sprite.png|wiki=Puddingstone (rock)}}
 {{av}}
 
 '''Puddingstone''' is a sedimentary stone which occurs as large clusters within [[conglomerate]]. Unlike other mineral inclusions, puddingstone ''will'' support an [[aquifer]] if one is present within its surrounding layer.

@@ -6,11 +6,7 @@
 == Overview==
 Wear will alter the value of an item, and is denoted by the symbols x, X and XX. For example, over time a dwarf's "Pig tail shirt" will degrade into a "xPig tail shirtx", a "XPig tail shirtX" and eventually a "XXPig tail shirtXX" before disappearing entirely. Every 806400 "points" of wear will increase the item's damage level one step (i.e. "item" -> "xitemx" -> "XitemX" -> "XXitemXX" -> destroyed). If you sell worn clothes to caravans early enough, they are still worth good money:
 
-{| class="wikitable"
-| Wear Level      || Item ||'''x'''Item'''x''' || '''X'''Item'''X''' || '''XX'''Item'''XX'''
-|-
-| Value           || 100% || 75%               || 50%                || 25%
-|}
+{| class="wikitable"| Wear Level      || Item ||'''x'''Item'''x''' || '''X'''Item'''X''' || '''XX'''Item'''XX'''|-| Value           || 100% || 75%               || 50%                || 25%|}
 
 Armor and weapons can also suffer wear as a result of combat. For weapons, the chances of suffering wear depend on the material properties of the body tissues or armor encountered during an attack, while armor suffers wear depending on the material properties of the body part/weapon hitting it. The chance depends on their relative fracture, yield, and possibly strain-at-yield, impact or shear depending on the type of attack. For example, a leather helm will rapidly deteriorate if you let its wearer suffer a few dog bites, while bone or shell helms will degrade much slower (being equivalent to tooth in shear values).
 

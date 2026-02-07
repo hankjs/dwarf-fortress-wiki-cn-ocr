@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_brown_recluse_spider_sprite.png
-|portrait=brown_recluse_spider_portrait.png
-|meat=51
-|fat=21
-|skin=chitin
-|brain=2
-|intestines=8
-|heart=1
-|eye=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_brown_recluse_spider_sprite.png|portrait=brown_recluse_spider_portrait.png|meat=51|fat=21|skin=chitin|brain=2|intestines=8|heart=1|eye=2|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

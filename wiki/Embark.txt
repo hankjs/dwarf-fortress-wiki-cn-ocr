@@ -8,23 +8,13 @@
 # Arrive at the site with your wagonful of supplies.
 
 ==Choosing a Site==
-{{Dual image
-|premium=File:Embark_region.png
-|classic=File:Embark_region_classic.png
-|width=300px
-|caption=Region View screen (v50.09)
-}}
+{{Dual image|premium=File:Embark_region.png|classic=File:Embark_region_classic.png|width=300px|caption=Region View screen (v50.09)}}
 
 The main considerations to keep in mind when choosing a site are: the presence of aquifers, availability of wood, ores, and soil, the climate, and your neighbors. There is just ONE BIG RULE: when your home civilization is too small or inaccessible, after the second winter you won't get any more [[Immigration|immigrants]], which can be [[Fun|extremely fun]]. To avoid this situation, select a home civilization with ''at least'' two dwarven sites on the map on the same land mass as your embark location.
 
 The Choose Fortress Location screen has two different zoom levels: Region and Local. In the region view, you can [[Site finder|search for an embark location]], [[Reclaim fortress mode|reclaim or unretire a site]], and choose your origin civilization. Each tile on the region view encompasses a 16×16 grid of local view tiles. In the local view, you can select your embark location and view the elevation and grade of the terrain. Additionally, you will see the location of other sites in red, or white (magenta in ASCII mode) for the currently selected dwarven civilization if that menu is open.
 
-{{Dual image
-|premium=File:Embark_local.png
-|classic=File:Embark_local_classic.png
-|width=300px
-|caption=Local View screen (v50.09)
-}}
+{{Dual image|premium=File:Embark_local.png|classic=File:Embark_local_classic.png|width=300px|caption=Local View screen (v50.09)}}
 
 Once you select embark, the embark area is shown at the mouse cursor. It can be resized by clicking the arrows in the top-left corner. The size of the embark location directly affects how much data about a map the game will have to store in your computer's memory and the size of your save files. This may [[Frames per second|slow your game down]], and have an effect on the save and load times for your map. As such, smaller maps are recommended, especially for less powerful computers, though 1×1 is not since it is too restricting. Each embark tile on the local view is 48×48 tiles large once you embark.
 

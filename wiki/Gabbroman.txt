@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=gabbro_man_sprite.png
-|portrait=gabbro_man_portrait.png
-|vary=no
-|contrib=no
-|death=item
-|item=[[Gabbro]] boulder}}
+{{Creaturelookup/0|image=gabbro_man_sprite.png|portrait=gabbro_man_portrait.png|vary=no|contrib=no|death=item|item=[[Gabbro]] boulder}}
 {{av}}
 {{creaturedesc}}
 '''Gabbro men''' are extremely rare [[construct creature]]s made of solid [[gabbro]], found exclusively at the third layer of the [[caverns]]. Like other construct creatures, they are non-sentient, [[No Pain|feel no pain]] or fear, [[No Stun|cannot be stunned]] and don't need to breathe. They are as large as [[human]]s and are level 2 [[building destroyer]]s. Gabbro men are immortal and only die to violence.

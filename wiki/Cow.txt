@@ -1,26 +1,5 @@
 {{Quality|Exceptional|11:21, 22 December 2022 (UTC)}}
-{{Creaturelookup/0
-|image=cows_icon.png
-|portrait=cow_portrait_anim.gif
-|bone=15
-|meat=10-14
-|fat=9
-|skull=1
-|horn=2
-|hoof=4
-|lung=2
-|intestine=2
-|spleen=1
-|kidney=2
-|eye=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=cows_icon.png|portrait=cow_portrait_anim.gif|bone=15|meat=10-14|fat=9|skull=1|horn=2|hoof=4|lung=2|intestine=2|spleen=1|kidney=2|eye=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

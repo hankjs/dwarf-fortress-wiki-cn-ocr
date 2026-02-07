@@ -1,17 +1,10 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 3:0
-| skill      = Mathematician
-| profession = Scholar
-| job name   = 
-| tasks      = * Ponder
+{{Skill| color      = 3:0| skill      = Mathematician| profession = Scholar| job name   = | tasks      = * Ponder
 * Discuss
-* Research
-| attributes =
+* Research| attributes =
 *Memory
-*Unknown
-}}
+*Unknown}}
 {{av}}
 
 '''Mathematician''' is a [[scholar]] skill. It is used by scholars when thinking about mathematical [[topics]]:

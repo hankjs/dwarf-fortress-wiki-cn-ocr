@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=cave_blob_sprite.png
-|portrait=cave_blob_portrait.png
-|skin=hide
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=cave_blob_sprite.png|portrait=cave_blob_portrait.png|skin=hide|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Cave blobs''' are small rare [[creature]]s who inhabit the third layer of the [[cavern]]s. They lack [[bone]]s or any kind of internal organs, and instead are filled with orange fluid which causes mild, short-term [[Syndrome|harm]] in the form of painful blisters on other creatures when ingested or made contact with. Undead cave blobs will appear pink. The blob's skin is covered in this fluid as well; touching it is enough to potentially contract its syndrome. This fluid leaks if the creature’s skin is pierced, spilling out over the surrounding tiles. They are genderless, emotionless, have no need to breathe and are immune to [[No Stun|stunning]] or nausea, but due to their small size and fragile composition, an unarmed [[dwarf]] should be able to dispatch one without breaking a sweat. Cave blobs have no attacks other than a default [[push]], which will glance away from just about anything.

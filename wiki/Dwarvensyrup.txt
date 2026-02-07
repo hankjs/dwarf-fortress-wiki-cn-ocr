@@ -6,9 +6,7 @@
 
 Cooks will only cook syrup and other fluids as a last resort, instead preferring to cook solid foods with solid foods. {{Bug|2393}} For more information, see the [[Kitchen#Bugs|kitchen]] page.
 
-{{gamedata
-|title=[[Sweet pod/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Sweet pod/raw|Raws]]|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen dwarven syrup]
 	[STATE_NAME_ADJ:LIQUID:dwarven syrup]
 	[STATE_NAME_ADJ:GAS:boiling dwarven syrup]
@@ -17,8 +15,7 @@ Cooks will only cook syrup and other fluids as a last resort, instead preferring
 	[EDIBLE_RAW]
 	[EDIBLE_COOKED]
 	[EXTRACT_STORAGE:BARREL]
-	[PREFIX:NONE]
-}}
+	[PREFIX:NONE]}}
 {{materials}}
 {{Category|Food}}
 {{Category|Extracts}}

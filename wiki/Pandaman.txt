@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=panda_man_sprite.png
-|portrait=panda_man_portrait.png
-|contrib=no}}
+{{Creaturelookup/0|image=panda_man_sprite.png|portrait=panda_man_portrait.png|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

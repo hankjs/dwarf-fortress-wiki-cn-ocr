@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=hare_sprites.png
-|portrait=hare_portrait_anim.gif
-|meat=6
-|fat=6
-|bone=4
-|skin=hide
-|skull=1
-|intestines=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=hare_sprites.png|portrait=hare_portrait_anim.gif|meat=6|fat=6|bone=4|skin=hide|skull=1|intestines=1|contrib=no|wiki=yes}}
 {{av}}
 :''Not to be confused with [[rabbit]]s.''
 
@@ -21,12 +11,7 @@ Hares can be captured in [[cage]] [[trap]]s and [[Animal trainer|trained]] into 
 
 Some dwarves [[Preferences|like]] hares for their ''long ears'' and their ''fluffy tails''.
 
-{{Translation
-| dwarven = thetdel
-| elvish  = iri
-| goblin  = sluto
-| human   = setduk
-}}
+{{Translation| dwarven = thetdel| elvish  = iri| goblin  = sluto| human   = setduk}}
 [[File:Lepus_europaeus_(Causse_Méjean,_Lozère)-cropped.jpg|thumb|center|300px|Admired for their ''long ears''.]]
 
 {{gamedata}}

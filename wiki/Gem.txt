@@ -21,20 +21,12 @@ You can also direct your dwarves to cut [[shell]], [[horn]] and [[teeth|ivory]] 
 ====Glass====
 If you have any bags of [[sand]] and a [[glass furnace]], you can manufacture [[Glass|raw glass]], which is treated as an uncut gem.  There are three subtypes of raw glass (and, once cut, of cut glass gems):
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Gem name
 ! Value
 ! Color
 ! Sprite
-! Requires
-|-
-|green glass||2×||{{Raw Tile|☼♦|2:0}}||[[File:green_glass_sprite.png]] [[File:cut_green_glass_sprite.png]]||[[bag]] full of [[sand]]
-|-
-|clear glass||5×||{{Raw Tile|☼♦|3:0}}||[[File:clear_crystal_glass.png]] [[File:cut_clear_glass_sprite.png]]||[[bag]] full of [[sand]] + [[pearlash]]
-|-
-|crystal glass||10×||{{Raw Tile|☼♦|7:1}}||[[File:clear_crystal_glass.png]] [[File:cut_crystal_glass_sprite.png]]||rough [[rock crystal]] + [[pearlash]]
-|}
+! Requires|-|green glass||2×||{{Raw Tile|☼♦|2:0}}||[[File:green_glass_sprite.png]] [[File:cut_green_glass_sprite.png]]||[[bag]] full of [[sand]]|-|clear glass||5×||{{Raw Tile|☼♦|3:0}}||[[File:clear_crystal_glass.png]] [[File:cut_clear_glass_sprite.png]]||[[bag]] full of [[sand]] + [[pearlash]]|-|crystal glass||10×||{{Raw Tile|☼♦|7:1}}||[[File:clear_crystal_glass.png]] [[File:cut_crystal_glass_sprite.png]]||rough [[rock crystal]] + [[pearlash]]|}
 
 Making raw glass requires a dwarf with the [[glassmaking]] [[labor]] designated, and, just like working [[metal]], it also requires [[fuel]] (either [[coke]] or [[charcoal]]) at a normal glass furnace, or [[magma]] at a magma [[glass furnace]].  Like all gems, raw glass has no [[quality]] modifiers.  Note that cut rock crystals can't be used to make crystal glass objects.
 
@@ -197,7 +189,6 @@ Gems come in many varieties, with their own color and value multipliers:
 {{Gem table row|rarity=Rare|name=[[star ruby]]|value=60|color={{Raw Tile|☼|4:7:1}}{{Raw Tile|♦|4:1}} red<span style="display:none">4:1</span>|graphic=[[File:rough_star_ruby_sprite.png]] [[File:cut_star_ruby_sprite.png]]|fwhere=[[Ruby]]|fhow=Single gem}}
 {{Gem table row|rarity=Rare|name=[[star sapphire]]|value=60|color={{Raw Tile|☼|1:7:1}}{{Raw Tile|♦|1:1}} light blue<span style="display:none">1:1</span>|graphic=[[File:rough_star_sapphire_sprite.png]] [[File:cut_star_sapphire_sprite.png]]|fwhere=[[Sapphire]]|fhow=Single gem}}
 {{Gem table row|rarity=Rare|name=[[yellow diamond]]|value=60|color={{Raw Tile|☼|6:7:1}}{{Raw Tile|♦|6:1}} yellow<span style="display:none">6:1</span>|graphic=[[File:rough_yellow_diamond_sprite.png]] [[File:cut_yellow_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
-
 |}
 See [https://spreadsheets.google.com/spreadsheet/ccc?key=0Auy0R4dx5JF6dEdwQ3B5WkdCeUp0SjZYSl9vc3lteFE&hl=en_US#gid=0 here] or [https://spreadsheets.google.com/spreadsheet/ccc?key=0ApoOG6GC8_0RdHR5QkNDZlYwa1RYeUpCSzJSNUZIRkE&hl=en_US here] for a sortable, print-friendly spreadsheet with all gems and their values.
 
@@ -208,32 +199,8 @@ Unlike other gems, diamonds can [[Fire|ignite]] if they come into contact with [
 == Gem cuts ==
 Finished gems have a particular cut, which doesn't affect the gem's value, only being an aesthetic feature. There are a total of 22 types of gem cuts in the game, and a gem may appear to have multiple cuts, such as a "square brilliant" or "tapered baguette" cut, but these combinations are actually distinct cuts (judging by the game's raws). Some gem cuts are also known as "cabochons", which have a basic "shape" cut typically as a rounded, polished stone. [[Gizzard stone]]s do not have cuts. 
 
-{| class="wikitable"
-|-
-! Graphic !! Cut !! style="background:#aeaeae;" | !! Graphic !! Cut
-|-
-| [[File:baguette_cut_sprite.png|center]] || Baguette cut || style="background:#dddddd;" | || [[File:radiant_cut_sprite.png|center]] || Radiant cut
-|-
-| [[File:briolette_cut_sprite.png|center]] || Briolette cut || style="background:#dddddd;" | || [[File:rectangular_cabochon_cut_sprite.png|center]] || Rectangular cabochon cut
-|-
-| [[File:cushion_cabochon_cut_sprite.png|center]] || Cushion cabochon cut || style="background:#dddddd;" | || [[File:rose_cut_sprite.png|center]] || Rose cut
-|-
-| [[File:cushion_cut_sprite.png|center]] || Cushion cut || style="background:#dddddd;" | || [[File:round_brilliant_cut_sprite.png|center]] || Round brilliant cut
-|-
-| [[File:emerald_cut_sprite.png|center]] || Emerald cut || style="background:#dddddd;" | || [[File:round_cabochon_cut_sprite.png|center]] || Round cabochon cut
-|-
-| [[File:marquise_cut_sprite.png|center]] || Marquise cut || style="background:#dddddd;" | || [[File:single_cut_sprite.png|center]] || Single cut
-|-
-| [[File:octagon_cut_sprite.png|center]] || Octagon cut || style="background:#dddddd;" | || [[File:square_brilliant_cut_sprite.png|center]] || Square brilliant cut
-|-
-| [[File:oval_cabochon_cut_sprite.png|center]] || Oval cabochon cut || style="background:#dddddd;" | || [[File:square_cut_sprite.png|center]] || Square cut
-|-
-| [[File:oval_cut_sprite.png|center]] || Oval cut || style="background:#dddddd;" | || [[File:table_cut_sprite.png|center]] || Table cut
-|-
-| [[File:pear_cut_sprite.png|center]] || Pear cut || style="background:#dddddd;" | || [[File:tapered_baguette_cut_sprite.png|center]] || Tapered baguette cut
-|-
-| [[File:point_cut_sprite.png|center]] || Point cut || style="background:#dddddd;" | || [[File:tapered_cut_sprite.png|center]] || Trillion cut
-|}
+{| class="wikitable"|-
+! Graphic !! Cut !! style="background:#aeaeae;" | !! Graphic !! Cut|-| [[File:baguette_cut_sprite.png|center]] || Baguette cut || style="background:#dddddd;" | || [[File:radiant_cut_sprite.png|center]] || Radiant cut|-| [[File:briolette_cut_sprite.png|center]] || Briolette cut || style="background:#dddddd;" | || [[File:rectangular_cabochon_cut_sprite.png|center]] || Rectangular cabochon cut|-| [[File:cushion_cabochon_cut_sprite.png|center]] || Cushion cabochon cut || style="background:#dddddd;" | || [[File:rose_cut_sprite.png|center]] || Rose cut|-| [[File:cushion_cut_sprite.png|center]] || Cushion cut || style="background:#dddddd;" | || [[File:round_brilliant_cut_sprite.png|center]] || Round brilliant cut|-| [[File:emerald_cut_sprite.png|center]] || Emerald cut || style="background:#dddddd;" | || [[File:round_cabochon_cut_sprite.png|center]] || Round cabochon cut|-| [[File:marquise_cut_sprite.png|center]] || Marquise cut || style="background:#dddddd;" | || [[File:single_cut_sprite.png|center]] || Single cut|-| [[File:octagon_cut_sprite.png|center]] || Octagon cut || style="background:#dddddd;" | || [[File:square_brilliant_cut_sprite.png|center]] || Square brilliant cut|-| [[File:oval_cabochon_cut_sprite.png|center]] || Oval cabochon cut || style="background:#dddddd;" | || [[File:square_cut_sprite.png|center]] || Square cut|-| [[File:oval_cut_sprite.png|center]] || Oval cut || style="background:#dddddd;" | || [[File:table_cut_sprite.png|center]] || Table cut|-| [[File:pear_cut_sprite.png|center]] || Pear cut || style="background:#dddddd;" | || [[File:tapered_baguette_cut_sprite.png|center]] || Tapered baguette cut|-| [[File:point_cut_sprite.png|center]] || Point cut || style="background:#dddddd;" | || [[File:tapered_cut_sprite.png|center]] || Trillion cut|}
 <!-- List of cuts:
 {{Columns-list|colwidth=15em|
 * baguette cut
@@ -257,8 +224,7 @@ Finished gems have a particular cut, which doesn't affect the gem's value, only 
 * square cut
 * table cut
 * tapered baguette cut
-* trillion cut
-}}-->
+* trillion cut}}-->
 
 Large gems (the finished good) are referred to as a singular version of their material such as "large single cut clear zircon" or "large cushion moonstone cabochon". Cut gems (the most common output of gem cutting which is used for decorating) are referred to as a plural version of their material such as "round brilliant cut peridots" or "cushion green diamond cabochons".
 
@@ -296,12 +262,7 @@ File:Brillanten.jpg|[[Gem cutting|Round brilliant cut]] diamonds.
 
 Some non-mineral materials that have been sometimes considered "gems" include organic products like [[amber]], [[coral]], and [[pearl]]; and rocks (bundles of multiple minerals) like [[jet]], [[green jade|jade]] and [[lapis lazuli]].  Of these, pearl only exists in DF as a placeholder, coral and amber in the most rudimentary of forms; but not as gemstones.  Jet counts as a [[stone|regular stone]] in DF, while jade (in various colors) and lapis lazuli are gemstones.
 
-{{Translation
-| dwarven = kadôl
-| elvish  = eruwa
-| goblin  = straza
-| human   = ves
-}}
+{{Translation| dwarven = kadôl| elvish  = eruwa| goblin  = straza| human   = ves}}
 {{gems}}
 {{materials}}
 

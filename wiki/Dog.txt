@@ -1,24 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=dogs_sprite_set.png
-|portrait=dog_portrait_anim.gif
-|bone=4-11
-|meat=6-13
-|fat=6-13
-|lung=2
-|heart=0-1
-|intestine=1
-|liver=0-1
-|tripe=0-1
-|sweetbread=0-1
-|spleen=0-1
-|kidney=0-2
-|brain=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=dogs_sprite_set.png|portrait=dog_portrait_anim.gif|bone=4-11|meat=6-13|fat=6-13|lung=2|heart=0-1|intestine=1|liver=0-1|tripe=0-1|sweetbread=0-1|spleen=0-1|kidney=0-2|brain=1|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -57,12 +38,7 @@ In real life, the dog (''Canis lupus familiaris'') is recognized as a subspecies
 ==Bugs==
 *Dogs sometimes won't bite, but only scratch, greatly reducing their combat effectiveness. This seems to happen against wildlife.{{bug|7541}}
 
-{{Translation
-| dwarven = idar
-| elvish  = macetha
-| goblin  = anot
-| human   = sheka
-}}
+{{Translation| dwarven = idar| elvish  = macetha| goblin  = anot| human   = sheka}}
 ==Trivia==
 *Both standard and hunting dogs have their own undead sprites, yet for reasons unknown, the war dog does not have one.
 <br>

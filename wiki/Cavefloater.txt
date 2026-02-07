@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=cave_floater_sprite.png
-|portrait=cave_floater_portrait.png
-|wiki=no
-|contrib=no
-|skin=hide
-}}
+{{Creaturelookup/0|image=cave_floater_sprite.png|portrait=cave_floater_portrait.png|wiki=no|contrib=no|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

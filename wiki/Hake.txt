@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=hake_sprite.png
-|portrait=hake_portrait.png}}
+{{verminlookup/0|image=hake_sprite.png|portrait=hake_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

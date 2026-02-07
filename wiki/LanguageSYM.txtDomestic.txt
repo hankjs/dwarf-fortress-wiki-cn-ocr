@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = rodnul
-| elvish  = wotha
-| goblin  = ongob
-| human   = hustra
-}}
+{{Translation| dwarven = rodnul| elvish  = wotha| goblin  = ongob| human   = hustra}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of family, festivals, hospitality, or labor will have words from this symbol in their name.

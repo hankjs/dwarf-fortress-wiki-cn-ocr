@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=stibnite_sprite.png}}
+{{stonelookup/0|graphic=stibnite_sprite.png}}
 {{av}}
 
 '''Stibnite''' is an unremarkable white [[stone]], neither [[fire-safe]] nor [[magma-safe]], found as small clusters in [[igneous extrusive]] layers.

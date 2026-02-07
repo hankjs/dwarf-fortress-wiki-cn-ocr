@@ -1,28 +1,10 @@
 {{Quality|Superior}}
 {{av}}
 
-{{v50_item|name=Jug
-|tile=σ
-|graphic=[[File:jug_sprite.png]]
-|wood=n
-|woodcraft=y
-|stone=n
-|stonecraft=y
-|metal=n
-|metalcraft=y
-|glass=y
-|cloth=n
-|leather=n
-|ceramic=y
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
+{{v50_item|name=Jug|tile=σ|graphic=[[File:jug_sprite.png]]|wood=n|woodcraft=y|stone=n|stonecraft=y|metal=n|metalcraft=y|glass=y|cloth=n|leather=n|ceramic=y|bone=n|shell=n|gem=n|wax=n|used for=
 * Gathering [[royal jelly]]
 * Pressing [[honey]]
-* Pressing [[oil]]
-}}
+* Pressing [[oil]]}}
 
 '''Jugs''' are a type of [[Storage|container]], made from [[ceramic]] at a [[kiln]], [[metal]] at a [[forge]], [[glass]] at a [[glass furnace]], stone by a [[stone crafter]] at a [[craftsdwarf's workshop]], or [[wood]] at a [[craftsdwarf's workshop]]. They are used in [[Beekeeping industry|beekeeping]] to store [[royal jelly]] or at a [[screw press]] to store [[honey]] or [[oil]]. Jugs made from [[earthenware]] need to be [[glaze]]d before they can be used to hold [[liquid]]s like honey. Jugs are stored in the [[tool|Tools]] section of the Finished Goods stockpile, and managed from the '''tools''' section of the Stocks screen. Even when filled with food, they will be stored in the Finished Goods stockpile. Jugs are stacked in [[bin]]s. 
 

@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=apple_trunk_sprite.png
-|product=cacao_sprite.png
-|sapling=cacao_sapling.png
-|wiki=Theobroma_cacao
-}}
+{{Treelookup/0|graphic=apple_trunk_sprite.png|product=cacao_sprite.png|sapling=cacao_sapling.png|wiki=Theobroma_cacao}}
 {{av}}
 
 '''Cacao trees''' are [[above ground|aboveground]] [[tree]]s, found only in dry sections of [[biome|tropical rainforests]]. Like the overwhelming majority of overland trees, cacao tree [[carpenter|wood]] is brown and produces brown products. 

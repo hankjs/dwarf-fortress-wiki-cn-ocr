@@ -32,8 +32,7 @@ These creatures are incapable of attacking normally, and thus will use the push 
 *[[File:Giant_thrips_sprite.png|20px]] / {{Tile|T|6:0}} [[Giant thrips]]
 *[[File:Magma_crab_sprite.png|20px]] / {{Tile|C|0:1}} [[Magma crab]]
 *[[File:Sponge_sprite.png|20px]] / {{Tile|s|4:1}} [[Sponge]]
-*[[File:Beast sprites preview anim.gif|20px]] / {{Tile|?|7:1}} [[Titan]] (blob-shaped)
-}}
+*[[File:Beast sprites preview anim.gif|20px]] / {{Tile|?|7:1}} [[Titan]] (blob-shaped)}}
 
 {{category|Game mechanics}}
 {{category|Creature attributes}}

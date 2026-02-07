@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=fungiwood_trunk_sprite.png
-|sapling=Fungiwood_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=fungiwood_trunk_sprite.png|sapling=Fungiwood_sapling.png|wiki=no}}
 {{av}}
 
 The '''fungiwood''' is an underground [[tree]], likely related to the [[tower-cap]].

@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_grizzly_bear_sprite.png
-|portrait=grizzly_bear_portrait_anim.gif
-|contrib=no
-|bone=46-50
-|meat=56-64
-|fat=33-39
-|eye=2
-|lung=2-4
-|heart=1
-|intestine=5-6
-|liver=1-2
-|tripe=1-2
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1-2
-|skull=1
-|nail=1
-|tooth=2-3
-|skin=hide
-
+{{Creaturelookup/0|image=giant_grizzly_bear_sprite.png|portrait=grizzly_bear_portrait_anim.gif|contrib=no|bone=46-50|meat=56-64|fat=33-39|eye=2|lung=2-4|heart=1|intestine=5-6|liver=1-2|tripe=1-2|sweetbread=1|spleen=1|kidney=2|brain=1-2|skull=1|nail=1|tooth=2-3|skin=hide
 }}
 {{av}}
 {{new in v0.42}}

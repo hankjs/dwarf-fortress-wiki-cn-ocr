@@ -1,19 +1,14 @@
 {{Quality|fine}}
-{{V50 workshop|name=Magma forge|key=I|job=Weaponsmith, Armorsmith, Metalsmith, Metal crafter, Trapper, Mechanic
-|icon=[[File:metalsmith_icon.png]]
-|construction=
+{{V50 workshop|name=Magma forge|key=I|job=Weaponsmith, Armorsmith, Metalsmith, Metal crafter, Trapper, Mechanic|icon=[[File:metalsmith_icon.png]]|construction=
 * [[Magma-safe]] [[building material]] (non-[[economic]])
-* [[Magma-safe]] [[anvil]]
-|construction_job=
+* [[Magma-safe]] [[anvil]]|construction_job=
 * [[Weaponsmith]]ing
 * [[Armorsmith|Armoring]]
 * [[Metalsmith|Blacksmithing]]
 * [[Metal crafter|Metalcrafting]]
 * [[Trapper|Trapping]]
-* [[Mechanic]]s
-|use=
-* [[Metal|Metal bars]]
-|production=
+* [[Mechanic]]s|use=
+* [[Metal|Metal bars]]|production=
 *[[Weapons]]
 *[[Armor]]
 *[[Chain]]s
@@ -27,8 +22,7 @@
 *[[Stud]]ding
 *[[Furniture]]
 *[[Animal trap]]s
-*[[Mechanisms]]
-}}{{av}}
+*[[Mechanisms]]}}{{av}}
 {{distinguish|Metalsmith's forge}}
 
 The '''magma forge''' is a [[workshop]] used by [[dwarf|dwarves]] to turn [[metal|metal bars]] into useful objects such as [[weapon]]s, [[ammunition]], [[armor]], [[furniture]], [[coins]], [[trap component]]s, metal crafts and [[siege engine|ballista arrow heads]] without the need for [[fuel]] to heat the forge. For its counterpart that use fuel, see [[Metalsmith's forge]].

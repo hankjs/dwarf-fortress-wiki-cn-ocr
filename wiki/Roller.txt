@@ -1,13 +1,8 @@
 {{Quality|Exceptional}}
-{{V50 machine|name=Roller|key=r
-|icon=[[File:rollers_icon.png]]
-|construction=
+{{V50 machine|name=Roller|key=r|icon=[[File:rollers_icon.png]]|construction=
 * 1 or more [[Mechanism]]s
-* 1 [[Rope]]
-|construction_job=
-* [[Mechanic|Mechanics]]
-|power=Uses 2 power per tile (independent of speed).
-}}
+* 1 [[Rope]]|construction_job=
+* [[Mechanic|Mechanics]]|power=Uses 2 power per tile (independent of speed).}}
 {{av}}
 
 A '''roller''' is a [[power]]ed [[machine component]] for the automated propulsion of [[minecart]]s. They are built over the top of existing tracks with ({{Menu icon|b|m|r|sep=-}}), requiring a [[mechanic]], ''(length/4)+1'' [[mechanism]]s and a [[rope]]. Rollers are very useful to maintain a cart's momentum along long routes, to get them to climb Z-levels without dwarfpower involved, and to get them to reach speeds unattainable by guiding dwarves. These devices are variable-length (1+), variable-direction and variable-speed ([[Minecart#Numbers_behind_the_scene|see here]]), all set prior to construction. A roller uses two units of power per tile of length. 
@@ -15,33 +10,9 @@ A '''roller''' is a [[power]]ed [[machine component]] for the automated propulsi
 Rollers do not provide acceleration but rather set the cart's velocity to a new value: if a cart moves across an active roller in the direction the roller works and moves slower than the roller's specified speed, the cart will be set to the roller's speed. Carts going faster than the roller are unaffected.
 
 Relative Speeds:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Feature
-! Speed
-|-
-| Down ramp¹
-| 4900
-|-
-| Dwarf push²
-| 20000
-|-
-| Roller lowest
-| 10000
-|-
-| Roller low
-| 20000
-|-
-| Roller medium
-| 30000
-|-
-| Roller high
-| 40000
-|-
-| Roller Highest 
-| 50000
-|-
-|}
+! Speed|-| Down ramp¹| 4900|-| Dwarf push²| 20000|-| Roller lowest| 10000|-| Roller low| 20000|-| Roller medium| 30000|-| Roller high| 40000|-| Roller Highest | 50000|-|}
 ¹ Ramps provide acceleration rather than setting a new velocity, and are subject to friction in the same tile.<br/>
 ² A dwarf push sets the speed of the vehicle, but is subject to friction and starts moving from halfway through the tile.<br/>
 (see the [[Minecart#Numbers_behind_the_scene|Minecart]] page for details)

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_yellow_grossular_sprite.png
-|graphic2=rough_yellow_grossular_sprite.png
-|wiki=Grossular}}{{av}}
+{{gemlookup/0|graphic=cut_yellow_grossular_sprite.png|graphic2=rough_yellow_grossular_sprite.png|wiki=Grossular}}{{av}}
 
 '''Yellow grossular''' is a typically-valued gem found in [[marble]].
 

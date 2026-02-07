@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = råsh
-| elvish  = rethi
-| goblin  = os
-| human   = ura
-}}
+{{Translation| dwarven = råsh| elvish  = rethi| goblin  = os| human   = ura}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[night troll]] or [[nightmare]], associated with the [[Sphere|spheres]] of blight, death, disease, murder, nightmares, or suicide will have words from this symbol in their name.

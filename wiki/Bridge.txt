@@ -60,26 +60,19 @@ Big bridges can take weeks or even months to complete. You can shorten construct
 
 '''Warning:''' while bridges do not provide structural [[support]], the game will still allow you to place [[construction]]s adjacent to them. Any construction that is completed when attached only to a bridge will cause an immediate [[cave-in]], often tossing the unlucky mason off the edge, to <s>a horrible death</s> any bystanders' great entertainment. However, a construction that connects to an existing supported construction when completed will not cause a cave-in, even if it is also adjacent to a bridge. To build constructions next to a bridge safely, ensure that ''all'' unbuilt constructions adjacent to a bridge are also adjacent to a construction that has already been completed. When building large constructions, it may be useful to [[suspend]] all tiles adjacent to a bridge until the neighboring constructions have been completed.
 <br>'''Example:'''
-{| class="wikitable"
-|-
-|Will cause a cave-in
-|Will '''not''' cause a cave-in
-|-
-|
+{| class="wikitable"|-|Will cause a cave-in|Will '''not''' cause a cave-in|-|
 <diagram>
 ╔═╗[#3:0]▓[#]
 ║+║[#0:0][@6:0]O[#@]
 ╚═╝[#3:0]▓[#]
 [#2:1].,'[#3:0]▓[#]
-</diagram>
-|
+</diagram>|
 <diagram>
 ╔═╗[#3:0]▓[#]
 ║+║[#0:0][@6:0]O[#@]
 ╚═╝║
 [#2:1]`,.[#]O
-</diagram>
-|}
+</diagram>|}
 
 Deconstructing bridges can be hazardous, as dwarves are not as compunctuous as with constructions and diggings to make sure no one is standing on them before destroying them.
 
@@ -162,12 +155,7 @@ Alternatively, this design can be used as a trap: invaders atop a retracting bri
 * Trees grow through bridges, may make the bridges unusable{{bug|7872}}
 * Retracting bridges can be built without support, but will deconstruct when support is checked{{bug|9946}}
 
-{{Translation
-| dwarven = sazir
-| elvish  = valóna
-| goblin  = romnu
-| human   = ori
-}}
+{{Translation| dwarven = sazir| elvish  = valóna| goblin  = romnu| human   = ori}}
 
 {{buildings}}
 {{Category|Buildings}}

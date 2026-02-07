@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_gray_chalcedony_sprite.png
-|graphic2=rough_gray_chalcedony_sprite.png
-|wiki=Chalcedony}}
+{{gemlookup/0|graphic=cut_gray_chalcedony_sprite.png|graphic2=rough_gray_chalcedony_sprite.png|wiki=Chalcedony}}
 {{av}}
 
 '''Gray chalcedonies''' are unremarkable low-value [[gem]]s found in [[sedimentary layer]]s.

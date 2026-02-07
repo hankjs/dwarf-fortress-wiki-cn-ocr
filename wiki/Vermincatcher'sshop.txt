@@ -1,23 +1,15 @@
 {{Quality|Exceptional}}
-{{v50 workshop|name=Vermin catcher's shop|key=f|key2=v|image=v50-vermin-catcher's-shop
-|icon=[[File:vermin_catchers_shop_icon.png]]
-|job= 
+{{v50 workshop|name=Vermin catcher's shop|key=f|key2=v|image=v50-vermin-catcher's-shop|icon=[[File:vermin_catchers_shop_icon.png]]|job= 
 1 of
 * [[Animal training]]
-* [[Trapping]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+* [[Trapping]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 * [[Animal training]]
 * [[Small animal dissection]]
-* [[Trapping]]
-|purpose=
+* [[Trapping]]|purpose=
 * Capture [[Vermin]]
-* [[Tame]] [[Vermin]]
-|use=Captured [[Vermin]]
-|production=[[Tame|Tamed]] [[Vermin]]
-}}
+* [[Tame]] [[Vermin]]|use=Captured [[Vermin]]|production=[[Tame|Tamed]] [[Vermin]]}}
 
 {{av}}
 

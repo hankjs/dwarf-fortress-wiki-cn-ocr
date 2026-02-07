@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=firefly_man_sprite.png
-|portrait=firefly_man_portrait.png
-|contrib=no}}
+{{Creaturelookup/0|image=firefly_man_sprite.png|portrait=firefly_man_portrait.png|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

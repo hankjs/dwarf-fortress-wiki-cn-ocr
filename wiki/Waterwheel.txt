@@ -1,13 +1,8 @@
 {{migrated article}}
 {{Quality|Exceptional}}
-{{V50 machine|name=Water wheel|key=h
-|icon=[[File:water_wheel_icon.png]]
-|construction=
-* 3 [[Log]]s
-|construction_job=
-[[Carpentry]]
-|power=Needs 10 power. <br>Generates 100 power. <br>Net gain of 90 power.
-}}{{av}}
+{{V50 machine|name=Water wheel|key=h|icon=[[File:water_wheel_icon.png]]|construction=
+* 3 [[Log]]s|construction_job=
+[[Carpentry]]|power=Needs 10 power. <br>Generates 100 power. <br>Net gain of 90 power.}}{{av}}
 '''Water wheels''' provide [[power]] via water [[flow]]. To build one, select {{key|b}}uild menu and choose {{key|m}}achines/fluids. It requires 3 [[wood]] and generates 90 net power, which can be used to operate one or more [[Screw pump|pumps]] or [[mill]]s. You can use [[axle]]s and [[Gear assembly|gears]] to distribute the power of a water wheel, or connect the machinery directly.
 
 Water wheels do ''not'' work with [[waterfall]]s, or magma—they need "[[flow]]ing" water, according to the definition of the game.
@@ -41,124 +36,8 @@ Furthermore, the water beneath the water wheel must be flowing in the right '''d
    <font color="#970">═</font>    = '''Axle'''
 
 
-{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Basic watermill design'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #333; padding: 0"|○
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #970; padding: 0"|W
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #333; padding: 0"|*
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|W
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #970; padding: 0"|W
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #7FF; padding: 0"|~
-|style="color: #777; padding: 0"|+
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #777; padding: 0"|+
-|}
-{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Dual watermill design'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #07f; padding: 0"|~
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #7FF; padding: 0"|~
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #333; padding: 0"|○
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #970; padding: 0"|W
-|style="color: #970; padding: 0"|W
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #333; padding: 0"|*
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|═
-|style="color: #970; padding: 0"|W
-|style="color: #970; padding: 0"|W
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #970; padding: 0"|W
-|style="color: #970; padding: 0"|W
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #07F; padding: 0"|~
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #777; padding: 0"|#
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #777; padding: 0"|+
-|style="color: #07F; padding: 0"|~
-|style="color: #07F; padding: 0"|~
-|}
+{|style="border: 1px solid #0b0; background: #dfd"|+'''Basic watermill design'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #333; padding: 0"|○|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #970; padding: 0"|W|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #333; padding: 0"|*|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|W|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #970; padding: 0"|W|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #7FF; padding: 0"|~|style="color: #777; padding: 0"|+|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #777; padding: 0"|+|}
+{|style="border: 1px solid #0b0; background: #dfd"|+'''Dual watermill design'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #07f; padding: 0"|~|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #7FF; padding: 0"|~|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #333; padding: 0"|○|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #970; padding: 0"|W|style="color: #970; padding: 0"|W|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #333; padding: 0"|*|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|═|style="color: #970; padding: 0"|W|style="color: #970; padding: 0"|W|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #970; padding: 0"|W|style="color: #970; padding: 0"|W|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #07F; padding: 0"|~|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #777; padding: 0"|#|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #777; padding: 0"|+|style="color: #07F; padding: 0"|~|style="color: #07F; padding: 0"|~|}
 This is by no means the limit of water power from one location, depending on the width of your river/brook/channel you can stack many water wheels side-by-side (really big assembles will need to be artificial as there is a limit to how wide the game created water flows get). Just remember to make sure there is a support structure in place before you place the next wheel.
 
 == Perpetual Motion ==
@@ -181,90 +60,11 @@ This compact two-wheel design produces 170 surplus power (less additional [[axle
 {|
 !'''Lower<br /> Level'''
 !    
-!'''Upper<br /> Level'''
-|-
+!'''Upper<br /> Level'''|-|
+{| style="border-spacing:0;"|-|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╦|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|O|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|-|{{RT|╚|7:0:1}}|{{RT|╗|7:0:1}}|{{H2O}}|{{RT|╔|7:0:1}}|{{RT|╝|7:0:1}}|-|{{RTB|0:0:0}}|{{RT|╚|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╝|7:0:1}}|{{RTB|0:0:0}}|}
 |
-{| style="border-spacing:0;"
-|-
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╦|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|O|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|-
-|{{RT|╚|7:0:1}}
-|{{RT|╗|7:0:1}}
-|{{H2O}}
-|{{RT|╔|7:0:1}}
-|{{RT|╝|7:0:1}}
-|-
-|{{RTB|0:0:0}}
-|{{RT|╚|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╝|7:0:1}}
-|{{RTB|0:0:0}}
-|}
-
-|
-    
-|
-{| style="border-spacing:0;"
-|-
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|W|6:1:1}}
-|{{RT|+|7:0:0}}
-|{{RT|W|6:1:1}}
-|{{RT|║|7:0:1}}
-|-
-|{{RT|╝|7:0:1}}
-|{{RT|W|6:1:1}}
-|{{RT|X|2:0:0}}
-|{{RT|W|6:1:1}}
-|{{RT|╚|7:0:1}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|W|6:0:0}}
-|{{RT|X|2:0:1}}
-|{{RT|W|6:0:0}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|≈|3:0:1}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|}
-|}
+    |
+{| style="border-spacing:0;"|-|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|W|6:1:1}}|{{RT|+|7:0:0}}|{{RT|W|6:1:1}}|{{RT|║|7:0:1}}|-|{{RT|╝|7:0:1}}|{{RT|W|6:1:1}}|{{RT|X|2:0:0}}|{{RT|W|6:1:1}}|{{RT|╚|7:0:1}}|-|{{RT|+|7:0:0}}|{{RT|W|6:0:0}}|{{RT|X|2:0:1}}|{{RT|W|6:0:0}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|≈|3:0:1}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|}|}
 </div>
 
 [[File:Reactor with mist generator.png|thumb|right|Reactor with Mist Generator attached.]]
@@ -305,78 +105,10 @@ It is better if you plan ahead; for example, build a larger reactor from the sta
 
 As stated previously, the design below produces 80 surplus power (less additional powertrain).
 
-{|
-|'''Lower<br /> Level'''
-|'''Upper<br /> Level'''
-|-
+{||'''Lower<br /> Level'''|'''Upper<br /> Level'''|-|
+{| style="border-spacing:0;"|-|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|{{RTB|0:0:0}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|{{RTB|0:0:0}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|{{RTB|0:0:0}}|-|{{RT|║|7:0:1}}|{{H2O}}|{{RT|╚|7:0:1}}|{{RT|╗|7:0:1}}|-|{{RT|╚|7:0:1}}|{{RT|╗|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|-|{{RTB|0:0:0}}|{{RT|╚|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╝|7:0:1}}|}
 |
-{| style="border-spacing:0;"
-|-
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|{{RTB|0:0:0}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|{{RTB|0:0:0}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|{{RTB|0:0:0}}
-|-
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|╚|7:0:1}}
-|{{RT|╗|7:0:1}}
-|-
-|{{RT|╚|7:0:1}}
-|{{RT|╗|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|-
-|{{RTB|0:0:0}}
-|{{RT|╚|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╝|7:0:1}}
-|}
-
-|
-{| style="border-spacing:0;"
-|-
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|W|6:1:1}}
-|{{RT|+|7:0:0}}
-|{{RT|║|7:0:1}}
-|-
-|{{RT|╝|7:0:1}}
-|{{RT|W|6:1:1}}
-|{{RT|X|2:0:0}}
-|{{RT|╚|7:0:1}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|W|6:0:0}}
-|{{RT|X|2:0:1}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|≈|3:0:1}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|}
-|}
+{| style="border-spacing:0;"|-|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|W|6:1:1}}|{{RT|+|7:0:0}}|{{RT|║|7:0:1}}|-|{{RT|╝|7:0:1}}|{{RT|W|6:1:1}}|{{RT|X|2:0:0}}|{{RT|╚|7:0:1}}|-|{{RT|+|7:0:0}}|{{RT|W|6:0:0}}|{{RT|X|2:0:1}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|≈|3:0:1}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|}|}
 When building the mini reactor, follow the same order as for the DWR. The channel, however, is slightly different—you only need one water wheel. If it is an addition to a full size reactor or set of reactors, all channels will need to be fairly full with water to start the reactor.
 
 ===Micro Water Reactor===

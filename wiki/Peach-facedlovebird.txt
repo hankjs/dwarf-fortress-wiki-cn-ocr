@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=peach_faced_lovebird_sprite.png
-|portrait=peach_faced_lovebird_portrait.png
-|wiki=Rosy-faced lovebird
-}}
+{{verminlookup/0|image=peach_faced_lovebird_sprite.png|portrait=peach_faced_lovebird_portrait.png|wiki=Rosy-faced lovebird}}
 {{av}}
 {{creaturedesc}}
 

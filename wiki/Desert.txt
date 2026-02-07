@@ -190,8 +190,7 @@ All desert creatures and vermin can appear in any type of desert.
 * [[File:termite_sprite.png]] / {{Tile|·|7:1}} [[Termite]]
 * [[File:thrips_sprite.png]] / {{Tile|·|6:0}} [[Thrips]]
 * [[File:tick_sprite.png]] / {{Tile|·|0:1}} [[Tick]]
-* [[File:wren_sprite.png]] / {{Tile|∙|6:0}} [[Wren]]
-}}
+* [[File:wren_sprite.png]] / {{Tile|∙|6:0}} [[Wren]]}}
 
 '''In savage deserts:'''
 * [[File:two_legged_rhino_lizard_sprite.png|20px]] / {{Tile|∙|7:0}} [[Two-legged rhino lizard]]
@@ -210,123 +209,49 @@ All desert plants can appear in any type of deserts.
 
 === Shrubs ===
 {| class="wikitable"
-! Name
-|-
-| [[File:alfalfa_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Alfalfa]]
-|-
-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Barley]]
-|-
-| [[File:blade_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Blade weed]]
-|-
-| [[File:caper_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Caper]]
-|-
-| [[File:fisher_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Fisher berry]]
-|-
-| [[File:hide_root_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Hide root]]
-|-
-| [[File:lentil_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Lentil]]
-|-
-| [[File:longland_grass_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Longland grass]]
-|-
-| [[File:potato_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Potato]]
-|-
-| [[File:prickle_berries_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Prickle berry]]
-|-
-| [[File:rat_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rat weed]]
-|-
-| [[File:red_spinach_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Red spinach]]
-|-
-| [[File:reed_rope_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rope reed]]
-|-
-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rye]]
-|-
-| [[File:strawberry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Strawberry]]
-|}
+! Name|-| [[File:alfalfa_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Alfalfa]]|-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Barley]]|-| [[File:blade_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Blade weed]]|-| [[File:caper_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Caper]]|-| [[File:fisher_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Fisher berry]]|-| [[File:hide_root_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Hide root]]|-| [[File:lentil_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Lentil]]|-| [[File:longland_grass_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Longland grass]]|-| [[File:potato_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Potato]]|-| [[File:prickle_berries_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Prickle berry]]|-| [[File:rat_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rat weed]]|-| [[File:red_spinach_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Red spinach]]|-| [[File:reed_rope_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rope reed]]|-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rye]]|-| [[File:strawberry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Strawberry]]|}
 
 '''In savage deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:whip_vine_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Whip vine]]
-|}
+! Name|-| [[File:whip_vine_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Whip vine]]|}
 
 '''In good deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:sun_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Sun berry]]
-|}
+! Name|-| [[File:sun_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Sun berry]]|}
 
 '''In evil deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:sliver_barb_shrub_sprite.png|12px]] / {{Tile|"|2:0}} [[Sliver barb]]
-|}
+! Name|-| [[File:sliver_barb_shrub_sprite.png|12px]] / {{Tile|"|2:0}} [[Sliver barb]]|}
 
 === Trees ===
 {| class="wikitable"
-! Name
-|-
-| [[File:saguaro_sapling.png |12px]] / [[File:saguaro_trunk_sprite.png |12px]] / {{Tile|╞|2:0}} [[Saguaro]]
-|}
+! Name|-| [[File:saguaro_sapling.png |12px]] / [[File:saguaro_trunk_sprite.png |12px]] / {{Tile|╞|2:0}} [[Saguaro]]|}
 
 '''In savage deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:highwood_sapling.png |12px]] / [[File:highwood_trunk_sprite.png |12px]] / {{Tile|¶|2:0}} [[Highwood]]
-|}
+! Name|-| [[File:highwood_sapling.png |12px]] / [[File:highwood_trunk_sprite.png |12px]] / {{Tile|¶|2:0}} [[Highwood]]|}
 
 '''In good deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:feather_sapling.png |12px]] / [[File:feather_trunk_sprite.png |12px]] / {{Tile|♣|7:1}} [[Feather tree]]
-|}
+! Name|-| [[File:feather_sapling.png |12px]] / [[File:feather_trunk_sprite.png |12px]] / {{Tile|♣|7:1}} [[Feather tree]]|}
 
 '''In evil deserts:'''
 {| class="wikitable"
-! Name
-|-
-| [[File:glumprong_sapling.png |12px]] / [[File:glumprong_trunk_sprite.png |12px]] / {{Tile|┤|5:0}} [[Glumprong]]
-|}
+! Name|-| [[File:glumprong_sapling.png |12px]] / [[File:glumprong_trunk_sprite.png |12px]] / {{Tile|┤|5:0}} [[Glumprong]]|}
 
 === Grasses ===
 {| class="wikitable"
-! Name
-|-
-| {{Tile|.|2:1}} [[Baby toes succulent]]
-|-
-| {{Tile|.|2:1}} [[Needle grass]]
-|-
-| {{Tile|.|2:1}} [[Pebble plant]]
-|}
+! Name|-| {{Tile|.|2:1}} [[Baby toes succulent]]|-| {{Tile|.|2:1}} [[Needle grass]]|-| {{Tile|.|2:1}} [[Pebble plant]]|}
 
 '''In good deserts:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|3:1}} [[Bubble bulb]]
-|-
-| {{Tile|.|7:1}} [[Downy grass]]
-|}
+! Name|-| {{Tile|O|3:1}} [[Bubble bulb]]|-| {{Tile|.|7:1}} [[Downy grass]]|}
 
 '''In evil deserts:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|7:1}} [[Staring eyeball]]
-|-
-| {{Tile|≥|5:1}} [[Wormy tendril]]
-|}
+! Name|-| {{Tile|O|7:1}} [[Staring eyeball]]|-| {{Tile|≥|5:1}} [[Wormy tendril]]|}
 
-{{Translation
-| dwarven = zareth
-| elvish  = avetho
-| goblin  = slosno
-| human   = asto
-}}
+{{Translation| dwarven = zareth| elvish  = avetho| goblin  = slosno| human   = asto}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

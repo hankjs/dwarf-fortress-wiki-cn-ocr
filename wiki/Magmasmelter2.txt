@@ -1,21 +1,15 @@
 {{Quality|Superior}}
 {{V50 workshop|name=Magma smelter|key=u|key2=L|job=
-* [[Furnace operator]]
-|icon=[[File:smelter_icon.png]]
-|construction=
-* [[Magma-safe]] [[building material]] (non-[[economic]])
-|construction_job={{Material-specific building labors|stone,metal}}
-|use=
+* [[Furnace operator]]|icon=[[File:smelter_icon.png]]|construction=
+* [[Magma-safe]] [[building material]] (non-[[economic]])|construction_job={{Material-specific building labors|stone,metal}}|use=
 * [[Bituminous coal]] or [[Lignite]]
 * [[Coke]] or [[Charcoal]]
 * [[Flux]]
 * [[Melt]]able [[metal]] [[item]]
 * [[Metal]] [[ore]]
-
 |production=
 * [[Metal]] [[bar|bars]]
-* [[Coke]] [[bars]]
-}}{{av}}
+* [[Coke]] [[bars]]}}{{av}}
 
 A '''Magma smelter''' is a special variation of the basic [[smelter]] that uses [[magma]] as a source of heat, instead of [[fuel]].
 

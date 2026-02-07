@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_cave_spider_sprites.png
-|portrait=giant_cave_spider_portrait.png
-|wiki=no
-|contrib=no
-|meat=19
-|fat=18
-|heart=1
-|intestine=1
-|brain=1
-|skin=chitin
-}}
+{{Creaturelookup/0|image=giant_cave_spider_sprites.png|portrait=giant_cave_spider_portrait.png|wiki=no|contrib=no|meat=19|fat=18|heart=1|intestine=1|brain=1|skin=chitin}}
 {{av}}
 {{creaturedesc}}
 '''Giant cave spiders''' (also known as GCS) are large and extremely dangerous [[creature]]s who inhabit the deeper layers of [[cavern]]s. They are far different from your regular [[cave spider]]s; those are just treats for your [[cat]]. Giant cave spiders are as big as [[grizzly bear]]s and will make treats ''of'' cats, [[dwarves]], and the occasional careless adventurer. 

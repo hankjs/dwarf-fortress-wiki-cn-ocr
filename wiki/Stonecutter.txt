@@ -1,20 +1,11 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_skill
-| color      = 7:1
-| graphic    = <div style="margin-left:9px;">[[File:stonecutter_sprite.png]]</div>
-| skill      = Stonecutter
-| profession = [[Stoneworker]]
-| job name   = [[Stonecutter]]
-| tasks      =
+{{v50_skill| color      = 7:1| graphic    = <div style="margin-left:9px;">[[File:stonecutter_sprite.png]]</div>| skill      = Stonecutter| profession = [[Stoneworker]]| job name   = [[Stonecutter]]| tasks      =
 * [[Smoothing]] walls
 * Creating rock [[blocks]] at a [[Stoneworker's workshop]]
 * [[Carving fortifications]]
-* [[Carving minecart track]]
-| workshop = [[Stoneworker's workshop]]
-| attributes =
-(Unknown)
-}}
+* [[Carving minecart track]]| workshop = [[Stoneworker's workshop]]| attributes =
+(Unknown)}}
 '''Stonecutter''' is the skill associated with the '''stonecutting''' [[labor]]. Stonecutters are responsible for [[smoothing]] walls, carving walls into [[fortifications]], carving [[minecart]] [[tracks]] into floors and ramps, and making rock [[blocks]] at a [[stoneworker's workshop]]. 
 
 Graphically, stonecutters wear all white clothes.

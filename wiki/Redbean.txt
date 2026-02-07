@@ -1,11 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=red_bean_shrub_sprite.png
-|seedimage=red_bean_seeds_sprite.png
-|uses=
-*[[Food]]
-|wiki=Adzuki_bean
-}}
+{{plantlookup|graphic=red_bean_shrub_sprite.png|seedimage=red_bean_seeds_sprite.png|uses=
+*[[Food]]|wiki=Adzuki_bean}}
 {{av}}
 
 '''Red beans''' are an [[aboveground]] [[crop|garden plant]]. They can be planted in all seasons and only the seeds are edible when [[cooking|cooked]].

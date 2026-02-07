@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=wild_carrot_shrub_sprite.png
-|seedimage=wild_carrot_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=wild_carrot_shrub_sprite.png|seedimage=wild_carrot_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Wild carrots''' are an [[aboveground]] [[crop|garden vegetable]]. The plant is edible raw or [[cooking|cooked]], (seeds when cooked), and can also be [[brewing|brewed]] into [[alcohol|carrot wine]] or processed in a [[dyer's shop]] into pale brown [[dye]].

@@ -1,10 +1,7 @@
 {{Quality|Exceptional}}
 {{plantlookup|uses=
 * [[Alcohol]]
-* [[Flour]]
-|graphic=longland_grass_shrub_sprite.png
-|seedimage=longland_grass_seeds_sprite.png
-|wiki=no}}
+* [[Flour]]|graphic=longland_grass_shrub_sprite.png|seedimage=longland_grass_seeds_sprite.png|wiki=no}}
 {{av}}
 '''Longland grass''' is an [[above ground|aboveground]] [[crop]]. It can be [[milling|milled]] into [[Flour|Longland flour]] or [[brewing|brewed]] into [[Alcohol|Longland beer]]. 
 

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_citrine_sprite.png
-|graphic2=rough_citrine_sprite.png}}
+{{gemlookup/0|graphic=cut_citrine_sprite.png|graphic2=rough_citrine_sprite.png}}
 {{av}}
 
 '''Citrines''' are unremarkable, low-value [[gem]]s that can be found almost anywhere.

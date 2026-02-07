@@ -41,11 +41,8 @@ All tiles are excavated.
 * ''Enhancement'': Hollow with "down stairs" designations and the entire level below will be revealed but untouched. This can allow you to plan your layout to take best advantage of the ores and clusters to create high-value rooms.
 
 === Rows ===
-{|
-|-
-|
-[[File:Exploratory-mining-row-pattern-horizontal.png|thumb|Exploratory mining example: horizontal row pattern]]
-|
+{||-|
+[[File:Exploratory-mining-row-pattern-horizontal.png|thumb|Exploratory mining example: horizontal row pattern]]|
 * ''Labor'': 1 per every 3 tiles (~33%) of the tiles are excavated.
 * ''Target'': Any size. Clusters as small as a single tile are revealed.
 * ''Visibility'': '''100%'''.
@@ -53,7 +50,6 @@ All tiles are excavated.
 * ''Bottom line'': Easy to designate, and a single miner will focus on one tunnel to the end or they take a [[break]]. This method achieves the same visibility as hollowing out, but using a mere third of the labor. Ideal for hunting single-tile gems. As an added bonus, it is more efficient than a 3×3 design.
 
 Larger "tunnel" patterns are suggested to be dug in multiples of "3" to allow for later complete revealing with minimum effort.<br style="clear:both;">
-
 |}
 
 === Ladder Rows ===

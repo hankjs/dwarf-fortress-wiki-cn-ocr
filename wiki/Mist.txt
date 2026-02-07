@@ -76,12 +76,7 @@ If your embark location has a light aquifer, it is possible to build an unpowere
 * Automated mist generators may significantly lower your [[Frames per second|FPS]], particularly if multiple generators are used.{{Verify}} This might be remedied by triggering via a [[repeater]] with a long delay or by one or more [[pressure plate]]s (perhaps set to activate by a passing dwarf).{{Verify}}
 
 [[File:mist_example.jpg|thumb|270px|center|If skin pores could orgasm.]]
-{{Translation
-| dwarven = sôd
-| elvish  = enure
-| goblin  = guslo
-| human   = sitsu
-}}
+{{Translation| dwarven = sôd| elvish  = enure| goblin  = guslo| human   = sitsu}}
 
 {{Category|Thoughts}}
 {{Category|World}}

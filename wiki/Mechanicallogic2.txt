@@ -35,62 +35,14 @@ Toggle based mechanical logic works more like [[fluid logic]], not controlling t
 The first example shows a load based XOR gate. It takes input signals from two different triggers. Its output gear (<span style="color:#FFFF44">O</span>) is powered when exactly one of the two input triggers is on and the other one is off. This is done as follows:<br />The power will be connected to the gear with the <span style="color:#44FF44">P</span> (from the bottom of the diagram or another z-level). One input is linked to gear <span style="color:#FF44FF">1</span> the other to gear <span style="color:#FF44FF">2</span>. This way power will flow from <span style="color:#44FF44">P</span> to <span style="color:#FFFF44">O</span> if either one of the input signals is off. The power input is linked directly to the load <span style="color:#FF4444">L</span> which must be calibrated precisely so that the power provided can move the output and load and ''one'' of the input-toggled gears, but not ''both''. You can build this on top of a [[Mechanical logic#Power to signal converter|power to signal converter]] as shown on this page.<br />As you can see, this gate is complicated to construct. You will need four gears and four more to connect the input in addition to all the components needed for the converter and the load, and your load assembly will need to be precisely calibrated and can only be used for this circuit. When using a common load (shared with other circuits), the gate would have to be linked to it through two signal-driven gears put in line. This would increase the parts count by two installed and four link gears.
 <div style="width:1px; white-space:nowrap;">
 '''load based XOR'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#444|*|#DDD||||1|#F4F|right}}
-|{{RTL|#222|*|#BBB||||O|#FF4|right}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF|&nbsp;|#FFF|L|#F44|right}}
-|{{RTL|#444|*|#DDD||||P|#4F4|right}}
-|{{RTL|#444|*|#DDD||||2|#D4D|right}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|-|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#444|*|#DDD||||1|#F4F|right}}|{{RTL|#222|*|#BBB||||O|#FF4|right}}|{{RTL|#FFF}}|{{RTL|#FFF}}|-|{{RTL|#FFF}}|{{RTL|#FFF|&nbsp;|#FFF|L|#F44|right}}|{{RTL|#444|*|#DDD||||P|#4F4|right}}|{{RTL|#444|*|#DDD||||2|#D4D|right}}|{{RTL|#FFF}}|{{RTL|#FFF}}|}|}
 </div>
 <br />A toggle based XOR gate looks much simpler:
 <div style="width:1px; white-space:nowrap;">
 '''toggle based XOR'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#222|*|#BBB}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|-
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|{{RTL|#FFF}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|-|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#222|*|#BBB}}|{{RTL|#FFF}}|{{RTL|#FFF}}|-|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|{{RTL|#FFF}}|}|}
 </div>
 In stark contrast to the load-based XOR, it consists of a single gear. While it requires a power source and an output, it can accept power from an axle and serve as output gear by itself. This is how it works:<br />Connect it to your source of power, and link it to one of your input triggers. Build a temporary lever anywhere and connect it, too. Pull the lever once. You can deconstruct the temporary lever now. Now the gear is disengaged, and you link the second input trigger to it. Since gears toggle, every time your trigger changes state and sends a signal the gear will change state. Initially both triggers are off, and the gear is disengaged. When one trigger changes state, it will activate the gear. Independent of which trigger changes next, both will have the same state afterwards, and the gear will be disengaged again. So the gear will transport power when both input triggers are at different state: XOR. You can build this on top of a [[Mechanical logic#Power to signal converter|power to signal converter]] as shown on this page.<br />As you can see, you won't need many mechanisms to build this gate. 1 for the gear, 4 to connect to the input and 1 will be lost after disconnecting the temporary lever (that needs 3 temporarily). And of course you will need all the components for the converter, but no load.<br>
 
@@ -115,62 +67,13 @@ In stark contrast to the load-based XOR, it consists of a single gear. While it 
 When you are dealing with mechanical logic, you'll finally want or have to trigger something else than machine components like doors or bridges (or, with toggle-based mechanical logic, another gear assembly). Currently, there exists no trigger in dwarf fortress that reacts on the working state of machine components, that is, the presence or absence of power. The traditional solution to this was to use a hydromechanical power-to-signal converter, remarkably similar to hydromechanical [[Memory_(computing)|memory]].
 <div style="width:1px; white-space:nowrap;">
 '''Z 0'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#DDD}}
-|{{RTL|#DDD}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|{{RTL|#DDD}}
-|{{RTL|#222|·|#BBB}}
-|{{RTL|#444|÷|#DDD}}
-|{{RTL|#444|÷|#DDD|►|#00A|center|►|#00A|center}}
-|{{RTL|#222|·|#BBB}}
-|{{RTL|#222}}
-|-
-|{{RTL|#DDD}}
-|{{RTL|#DDD}}
-|{{RTL|#DDD}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#DDD}}|{{RTL|#DDD}}|{{RTL|#DDD}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|{{RTL|#DDD}}|{{RTL|#222|·|#BBB}}|{{RTL|#444|÷|#DDD}}|{{RTL|#444|÷|#DDD|►|#00A|center|►|#00A|center}}|{{RTL|#222|·|#BBB}}|{{RTL|#222}}|-|{{RTL|#DDD}}|{{RTL|#DDD}}|{{RTL|#DDD}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|}|}
 </div>
 <div style="width:1px; white-space:nowrap;">
 '''Z-1'''
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"
-|
-{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|{{RTL|#222}}
-|{{RTL|#00A|^|#DDD||||7|#88F|left}}
-|{{RTL|#DDD||||||7|#88F|left}}
-|{{RTL|#DDD||||||7|#88F|left}}
-|{{RTL|#DDD||||||7|#88F|left}}
-|{{RTL|#222}}
-|-
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|{{RTL|#222}}
-|-
-|}
-|}
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; border-style:solid; border-width:thin; border-color:#000000;"|
+{| cellpadding="0" cellspacing="0" style="border-spacing:0; padding:0; margin:0; vertical-align:middle;"|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|{{RTL|#222}}|{{RTL|#00A|^|#DDD||||7|#88F|left}}|{{RTL|#DDD||||||7|#88F|left}}|{{RTL|#DDD||||||7|#88F|left}}|{{RTL|#DDD||||||7|#88F|left}}|{{RTL|#222}}|-|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|{{RTL|#222}}|-|}|}
 </div>
 <br />
 When the pump is connected to power, it will suck water from the pressure plate and pump it to the right. The water level on the pressure plate will fall to 0. The plate can be constructed to react on 0…3 water. You can invert it to get an off signal instead setting it to 4…7. In both cases the ''off signal'' will have a delay of about 100 steps. This gate is fluid conserving.
@@ -192,32 +95,9 @@ However, the introduction of minecarts have created alternatives that are more c
 * The gates' instructions will explain how much load and power you need to have at each P and L in the more complicated gates.
 
 ===Legend===
-{| class="wikitable" border="1"
-|-
+{| class="wikitable" border="1"|-
 ! Symbol
-! Meaning
-|-
-| {{diagram|[#ff0]O}}
-| A gear which connects to your OUTPUT gear, which outputs power when the gate is producing an ON output.
-|-
-| {{diagram|[#aaf]I}}
-| A gear connected to an INPUT. In most gates you will have two Is, with each one connected to a different input.
-|-
-| {{diagram|-}} and {{diagram|¦}}
-| Horizontal axles
-|-
-| {{diagram|[#0f0]P}}
-| Power goes here
-|-
-| {{diagram|[#aaf]i}}
-| Two more gears, each connected to the two different inputs.
-|-
-| {{diagram|[#f00]L}}
-| a chain of gears or pumps which serve to add load to the system, generally shutting it off when connected.
-|-
-| {{diagram|*}}
-| A gear which isn't linked to any inputs or outputs and just serves to connect the power or whatever.
-|}
+! Meaning|-| {{diagram|[#ff0]O}}| A gear which connects to your OUTPUT gear, which outputs power when the gate is producing an ON output.|-| {{diagram|[#aaf]I}}| A gear connected to an INPUT. In most gates you will have two Is, with each one connected to a different input.|-| {{diagram|-}} and {{diagram|¦}}| Horizontal axles|-| {{diagram|[#0f0]P}}| Power goes here|-| {{diagram|[#aaf]i}}| Two more gears, each connected to the two different inputs.|-| {{diagram|[#f00]L}}| a chain of gears or pumps which serve to add load to the system, generally shutting it off when connected.|-| {{diagram|*}}| A gear which isn't linked to any inputs or outputs and just serves to connect the power or whatever.|}
 
 ===Mechanical identity gate ===
  {{diagram|
@@ -290,43 +170,13 @@ However, the introduction of minecarts have created alternatives that are more c
 [#000].[#000].[#aaf]i
 [#000].[#000].[#0f0]P}}
 
-{| class="wikitable" border="1"
-|-
+{| class="wikitable" border="1"|-
 ! A
 ! B
 ! Drain
 ! Power
 ! Extra Power
-! Result
-|-
-| 0
-| 0
-| No
-| Yes
-| No
-| 1
-|-
-| 0
-| 1
-| Yes
-| Yes
-| No
-| 0
-|-
-| 1
-| 0
-| Yes
-| Yes
-| No
-| 0
-|-
-| 1
-| 1
-| Yes
-| Yes
-| Yes
-| 1
-|}		 
+! Result|-| 0| 0| No| Yes| No| 1|-| 0| 1| Yes| Yes| No| 0|-| 1| 0| Yes| Yes| No| 0|-| 1| 1| Yes| Yes| Yes| 1|}		 
 
 * The XNOR gate is an equality gate: The output is ON when both inputs are equal, and OFF when they are not equal.
 * This gate may be '''even more complicated''' to build than the XOR gate!

@@ -1,15 +1,6 @@
 {{Quality|Unrated}}{{av}}
 
-{{V50_furniture
-|graphic=[[File:Slab_Premium.png]]
-|name=Slab
-|tile=∩
-|stonecarve=y
-|metal=n
-|glass=n
-|value=10
-|size=60,000
-}}
+{{V50_furniture|graphic=[[File:Slab_Premium.png]]|name=Slab|tile=∩|stonecarve=y|metal=n|glass=n|value=10|size=60,000}}
 
 '''Slabs''' are buildings which serve primarily to commemorate the dead. Unlike [[coffin]]s, slabs do not require any body part of the deceased to function, allowing you to prevent the appearance of [[ghost]]s of dwarves whose bodies are no longer recoverable. Engraved slab [[memorial]]s are usually made for your fort's citizens, but can be made in remembrance of any historical figure which dies on your lands. If a ghost has appeared in a fortress, but a slab commemorating that deceased individual has been placed somewhere, the ghost's spirit will be calmed and disappear. When this happens, the following message appears:<br>
 {{DFtext|Urist McGhost, Ghostly Cheesemaker has been put to rest.|5:1}}

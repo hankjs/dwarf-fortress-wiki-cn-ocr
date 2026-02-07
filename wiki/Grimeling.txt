@@ -1,10 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=grimeling_sprite.png
-|portrait=grimeling_portrait.png
-|wiki=no
-|contrib=yes
-}}
+{{Creaturelookup/0|image=grimeling_sprite.png|portrait=grimeling_portrait.png|wiki=no|contrib=yes}}
 {{av}}
 {{creaturedesc}}
 '''Grimelings''' are exceptionally rare, [[evil]]-aligned [[creature]]s found in evil [[wetland]]s, resembling humanoids made out of waterlogged weeds. They stand as tall as a [[human]] and spawn one at a time, lurking in the [[water]] and attacking [[dwarves]] who get too close. All grimelings possess Legendary [[skill]] in [[Climber|climbing]].

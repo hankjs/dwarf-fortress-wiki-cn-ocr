@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=generic_wheat_shrub_sprite.png
-|seedimage=generic_wheat_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=generic_wheat_shrub_sprite.png|seedimage=generic_wheat_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Flour]]
-}}
+*[[Flour]]}}
 {{av}}
 
 '''Fonio''' is an [[aboveground]] [[crop]] that can either be [[milling|milled]] into [[flour|fonio flour]] or [[brewing|brewed]] into [[alcohol|fonio beer]].

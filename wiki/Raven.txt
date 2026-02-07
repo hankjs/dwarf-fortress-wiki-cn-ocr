@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=raven_sprites.png
-|portrait=raven_portrait_anim.gif
-|contrib=no
-|wiki=Common raven
-}}
+{{Creaturelookup/0|image=raven_sprites.png|portrait=raven_portrait_anim.gif|contrib=no|wiki=Common raven}}
 {{av}}
 :''Not to be confused with [[crow]]s.''
 
@@ -18,12 +13,7 @@ In reanimating [[evil]] [[biome]]s, undead raven swarms can absolutely live up t
 
 Some dwarves [[Preferences|like]] ravens for their ''intelligence''.
 
-{{Translation
-| dwarven = toltot
-| elvish  = ceca
-| goblin  = rosp
-| human   = tuma
-}}
+{{Translation| dwarven = toltot| elvish  = ceca| goblin  = rosp| human   = tuma}}
 [[File:Corvus corax jouveniles.jpeg|thumb|400px|center|Admired for its ''intelligence''.]]
 
 {{D for Dwarf}}

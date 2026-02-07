@@ -14,8 +14,7 @@ The woodworker skills are:
 {{Skill Box|Woodworker|6:1|6:1|
 * [[Bowyer]]
 * [[Carpenter]]
-* [[Wood cutter]]
-}}
+* [[Wood cutter]]}}
 
 {{Translation| dwarven = lolum cubor | elvish = ave ipana | goblin = dôr otut | human = pado inan}}
 

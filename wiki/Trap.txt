@@ -72,23 +72,9 @@ When you add a ranged weapon such as a [[crossbow]] to a weapon trap, appropriat
 
 You can also use the corkscrews that are normally used in [[screw pump]]s, or any of the other specialized [[Trap_component#Trap_Weapons|trap-only weapons]]:
 
-:: {| class="collapsible collapsed" style="border-spacing: 1"
-|- style=background-color:#ccf
-! colspan=3| &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199; Trap Weapons
-|- style=text-align:center
-! style=padding-right:1em|[[Metalsmith's forge]] || [[Carpenter's workshop]] || [[Glass furnace]]
-|- style=text-align:center;
-| style="background-color: #EEE;"|menacing <metal> spike || style="background-color: #EEE;"| menacing <wooden> spike || style="background-color: #EEE;"| menacing <glass> spike
-|- style=text-align:center;
-|spiked <metal> ball || spiked <wooden> ball || spiked <glass> ball
-|-style=text-align:center;
-| style="background-color: #EEE;"|enormous <metal> corkscrew || style="background-color: #EEE;"| &#8199; enormous <wooden> corkscrew &#8199; || style="background-color: #EEE;"| enormous <glass> corkscrew
-|-style=text-align:center;
-|large, serrated <metal> disc || ''(not available)'' || large, serrated <glass> disc
-|- style=text-align:center;
-| style="background-color: #EEE;"|giant <metal> axe blade || style="background-color: #EEE;"| ''(not available)'' || style="background-color: #EEE;"| giant <glass> axe blade
-|-
-|}
+:: {| class="collapsible collapsed" style="border-spacing: 1"|- style=background-color:#ccf
+! colspan=3| &#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199;&#8199; Trap Weapons|- style=text-align:center
+! style=padding-right:1em|[[Metalsmith's forge]] || [[Carpenter's workshop]] || [[Glass furnace]]|- style=text-align:center;| style="background-color: #EEE;"|menacing <metal> spike || style="background-color: #EEE;"| menacing <wooden> spike || style="background-color: #EEE;"| menacing <glass> spike|- style=text-align:center;|spiked <metal> ball || spiked <wooden> ball || spiked <glass> ball|-style=text-align:center;| style="background-color: #EEE;"|enormous <metal> corkscrew || style="background-color: #EEE;"| &#8199; enormous <wooden> corkscrew &#8199; || style="background-color: #EEE;"| enormous <glass> corkscrew|-style=text-align:center;|large, serrated <metal> disc || ''(not available)'' || large, serrated <glass> disc|- style=text-align:center;| style="background-color: #EEE;"|giant <metal> axe blade || style="background-color: #EEE;"| ''(not available)'' || style="background-color: #EEE;"| giant <glass> axe blade|-|}
 
 :::* Don't know which to make? See [[Trap component]] for a full discussion.
 
@@ -168,12 +154,7 @@ Be aware that it can be dangerous for mechanics to undertake maintenance while t
 * [[Mass pitting]]
 * [[Trap design]]
 
-{{Translation
-| dwarven = ïggal
-| elvish  = abola
-| goblin  = stoslo
-| human   = losric
-}}
+{{Translation| dwarven = ïggal| elvish  = abola| goblin  = stoslo| human   = losric}}
 
 {{buildings}}
 {{Category|Traps}}

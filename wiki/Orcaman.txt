@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=orca_man_sprite.png
-|portrait=orca_man_portrait.png}}
+{{Creaturelookup/0|image=orca_man_sprite.png|portrait=orca_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Orca men''' are [[animal people]] versions of the common [[orca]], who can be found in [[savage]] [[ocean]]s. They spawn in groups of 3-5 individuals and are generally content to keep to themselves, as they are restricted to the water. They are the joint second largest of all animal people, tied with [[Elephant man|elephant men]] and losing only to [[Sperm whale man|sperm whale men]], being 42 times larger than a [[dwarf]] in comparison. Like their animal counterparts, they may rarely be subject to [[beaching]].

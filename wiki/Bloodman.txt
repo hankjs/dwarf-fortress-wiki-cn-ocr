@@ -1,12 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=blood_man_sprite.png
-|portrait=blood_man_portrait.png
-|death=item
-|item=Puddle of corrupted blood 
-|vary=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=blood_man_sprite.png|portrait=blood_man_portrait.png|death=item|item=Puddle of corrupted blood |vary=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Blood men''' are exceptionally rare, [[evil]]-aligned [[construct creature]]s composed of [[blood]] found only in the third [[cavern]] layer. They stand the height of a [[human]], feel no emotion or [[No Exert|exertion]], are [[No Pain|immune to pain]] and [[No Stun|cannot be stunned]]. While this sounds terrifying on paper, being made out of a liquid means you're going to lose limbs very easily. They are among the weakest, most harmless creatures you will encounter in the caverns, as even civilian [[dwarf|dwarves]] and [[children]] can quickly punch their limbs off. Additionally, their punches are soft enough to not do real damage to even naked dwarves.

@@ -16,17 +16,9 @@ Some [[forgotten beast]]s and [[titan]]s are generated with venom, which they ca
 ==See also==
 *[[Syndrome]] for a list of various venomous varmints.
 
-{{Translation
-| dwarven = zamoth
-| elvish  = neleni
-| goblin  = luskon
-| human   = ámtoc
-}}
+{{Translation| dwarven = zamoth| elvish  = neleni| goblin  = luskon| human   = ámtoc}}
 
-{{gamedata
-|title=Raws
-|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|CREATURE_EXTRACT_TEMPLATE}}
-}}
+{{gamedata|title=Raws|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|CREATURE_EXTRACT_TEMPLATE}}}}
 {{materials}}
 {{Category|Creature attributes}}
 {{Category|Extracts}}

@@ -32,9 +32,7 @@ The [[weight]] of a wood log or wooden object is based on the density of the woo
 ==Uses of Wood==
 Wood [[logs]] may be used directly as a building material, where it is as good as [[stone]] or [[metal]] for most purposes, though generally less valuable. Logs may also be turned into various useful objects at the following workshops:
 
-{|
-|- valign=top
-|
+{||- valign=top|
 ;[[Bowyer's workshop]]
 Used for creating wooden [[Crossbow|crossbow]]s
 
@@ -45,7 +43,6 @@ Used for creating:
 *Wooden [[Training weapon|training weapons]]
 *Wooden [[Weapon#Trap weapon statistics|trap components]]
 *Wooden [[crutch]]es and [[splint]]s
-
 | style="padding:0 50px;"|
 ;[[Craftsdwarf's workshop]]
 Used for creating:
@@ -55,7 +52,6 @@ Used for creating:
 
 ;[[Siege workshop]]
 Used for creating [[Siege engine|siege engine parts]]
-
 |
 ;[[Wood furnace]]
 Used for creating:
@@ -67,8 +63,7 @@ Used for constructing:
 *[[Screw pump]]
 *[[Axle]]
 *[[Windmill]]
-*[[Water wheel]]
-|}
+*[[Water wheel]]|}
 
 ==Wood Products and Related Industries==
 Aside from its use in crafting objects or building, wood may be changed into a variety of substances essential to the [[glass industry|glass]], [[soap]] and [[metal industry|metal]] industries.

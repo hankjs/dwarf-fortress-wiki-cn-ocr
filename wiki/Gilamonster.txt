@@ -1,14 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=gila_monster_sprites.png
-|portrait=gila_monster_portrait_anim.gif
-|bone=0-4
-|meat=2-6
-|scale=1
-|fat=2-6
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=gila_monster_sprites.png|portrait=gila_monster_portrait_anim.gif|bone=0-4|meat=2-6|scale=1|fat=2-6|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

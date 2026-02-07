@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_light_yellow_diamond_sprite.png
-|graphic2=rough_light_yellow_diamond_sprite.png
-|wiki=diamond}}{{av}}
+{{gemlookup/0|graphic=cut_light_yellow_diamond_sprite.png|graphic2=rough_light_yellow_diamond_sprite.png|wiki=diamond}}{{av}}
 
 '''Light yellow diamond''' is a semi-precious [[gem]] that appears solely within [[vein]]s of [[kimberlite]]. It is the least valuable type of diamond found in ''Dwarf Fortress''.
 

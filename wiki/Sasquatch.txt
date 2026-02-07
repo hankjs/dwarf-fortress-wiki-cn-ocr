@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=sasquatch_sprites.png
-|portrait=sasquatch_portrait.png
-|wiki=Bigfoot
-|contrib=no
-|bone=39
-|meat=40
-|fat=25
-|skull=1
-|skin=hide
-|eye=2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-}}
+{{Creaturelookup/0|image=sasquatch_sprites.png|portrait=sasquatch_portrait.png|wiki=Bigfoot|contrib=no|bone=39|meat=40|fat=25|skull=1|skin=hide|eye=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1}}
 {{av}}
 {{creaturedesc}}
 '''Sasquatches''' are large, [[fanciful]], dangerous [[creature]]s found in [[savage]] [[temperate]] [[forest]]s and [[taiga]]s. They are fully capable of massacring dozens of unarmed [[dwarves]] due to their large size, and their disposition to [[building_destroyer#Dangerous_Fun_Variety|destroy buildings]] will draw them into contact with fortresses, where they will topple [[furniture]] and wreck [[workshop]]s in their path. Sasquatches can equip items and open unlocked [[door]]s, though the former is not typically seen in normal play and the latter is normally ignored, as the Sasquatch will simply destroy the whole door instead of opening it.

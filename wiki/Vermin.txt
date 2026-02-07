@@ -21,8 +21,7 @@ In [[adventure mode]], you can reveal the location of previously-hidden, nearby 
 Vermin can be used as thrown weapons or ammunition, with rather devastating results. A thrown [[Fluffy wambler]] was used to decapitate a [[bronze colossus]], and a [[hamster]] launched from a [[ballista]] matches, if not exceeds, the power of the ballista's steel bolts.
 
 ==Reading the Table==
-{{v50_creaturecurrent table head}}
-|}
+{{v50_creaturecurrent table head}}|}
 The above columns indicate, in order:
 *'''Graphic:''' The sprite assigned to the creature; seen only in the [[premium version#Premium_version_.282020.E2.80.93Present.29|premium version]]s.
 *'''Tile:''' The symbol assigned to the vermin, how you will see it without a graphic set.
@@ -150,17 +149,11 @@ The above columns indicate, in order:
 {{v50_creaturecurrent table row|name=White-spotted puffer|symbol=α|color=7:0:0|food=Yes|playable=No|hostile=N/A|size=200|value=0|biome=Tropical oceans|note=No trap}}
 {{v50_creaturecurrent table row|name=Worm|symbol=~|color=7:0:0|food=No|playable=No|hostile=N/A|size=100|value=10|biome=Any temperate, any tropical, taiga|note=Hateable, no trap, no capture}}
 {{v50_creaturecurrent table row|name=Wren|symbol=∙|color=6:0:0|food=No|playable=No|hostile=N/A|size=40|value=30|biome=Any grassland, savanna, shrubland, forest, desert and wetland|note=}}
-{{v50_creaturecurrent table row|name=Yellow bullhead|symbol=α|color=6:0:0|food=Yes|playable=No|hostile=N/A|size=200|value=0|biome=Temperate brackish and freshwater lakes|note=No trap}}
-|}
+{{v50_creaturecurrent table row|name=Yellow bullhead|symbol=α|color=6:0:0|food=Yes|playable=No|hostile=N/A|size=200|value=0|biome=Temperate brackish and freshwater lakes|note=No trap}}|}
 
 '''Note:''' All vermin with 0 value in the above table don't have the [PET_VALUE:#] tag.
 
-{{Translation
-| dwarven = bomik
-| elvish  = nirica
-| goblin  = otod
-| human   = strilu
-}}
+{{Translation| dwarven = bomik| elvish  = nirica| goblin  = otod| human   = strilu}}
 
 {{Vermin}}
 {{Category|Vermin|0}}

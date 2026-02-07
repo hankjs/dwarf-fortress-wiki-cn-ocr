@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=saltpeter_sprite.png}}
+{{stonelookup/0|graphic=saltpeter_sprite.png}}
 {{av}}
 
 '''Saltpeter''' is a non-economic and low-value yellow [[stone]] found in [[vein|small clusters]] within [[sedimentary layer]]s. With a melting point of {{ct|10601}} and a boiling point of only {{ct|10720}}, it is one of the few stones which will ''boil'' in [[magma]]. Saltpeter is also the second least [[Density|dense]] non-economic stone*, making it better than most stone for objects that must be hauled frequently. 

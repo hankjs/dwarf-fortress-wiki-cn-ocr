@@ -1,11 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=manera_sprites.png
-|portrait=manera_portrait.png
-|death=nobutcher
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=manera_sprites.png|portrait=manera_portrait.png|death=nobutcher|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

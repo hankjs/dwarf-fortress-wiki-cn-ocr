@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_tortoise_man_sprite.png
-|portrait=giant_tortoise_man_portrait.png
-|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]}}
+{{Creaturelookup/0|image=giant_tortoise_man_sprite.png|portrait=giant_tortoise_man_portrait.png|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]}}
 {{av}}
 {{creaturedesc}}
 

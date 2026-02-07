@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_demantoid_sprite.png
-|graphic2=rough_demantoid_sprite.png}}
+{{gemlookup/0|graphic=cut_demantoid_sprite.png|graphic2=rough_demantoid_sprite.png}}
 {{av}}
 
 '''Demantoid''' is a relatively-rare semi-precious [[gem]] found only in [[chromite]], which itself is only found in [[olivine]].

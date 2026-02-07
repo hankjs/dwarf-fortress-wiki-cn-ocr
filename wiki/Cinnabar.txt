@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=cinnabar_sprite.png}}
+{{stonelookup/0|graphic=cinnabar_sprite.png}}
 {{av}}
 
 '''Cinnabar''' is a brilliant red [[stone]] found as veins in numerous environments. Despite its appearance in ASCII mode (showing up as {{Raw Tile|£|4:7:1}} unmined and {{Raw Tile|*|4:1}} mined), it is '''not''' a usable [[ore]].

@@ -49,8 +49,7 @@ A completely assembled instrument has a very high [[Item value#Base values of it
 {|class="wikitable sortable"
 ! rowspan=2 | Part
 ! rowspan=2 | Component name
-! colspan=10| Materials
-|-
+! colspan=10| Materials|-
 <!-- ! Materials -->
 ! Silk
 ! Plant Thread
@@ -61,36 +60,14 @@ A completely assembled instrument has a very high [[Item value#Base values of it
 ! Metal
 ! Glass
 ! Stone
-! Shell
-|-
-<!--              Part | Component | Silk | Thread | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->
-| rowspan=1 |Keyboard ||Keyboard  ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=4 |Body*    ||Console   ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}   
-|-
-|<!--                -->Chest     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Body      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|- 
-|<!--                -->Case      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-| rowspan=3 |Vib      ||Strings   ||{{Y}}||  {{Y}}||        ||     ||     ||        || {{Y}}||      ||      ||
-|-
-|<!--                -->Bells     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Pipes     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=2 |Bellows  ||Pump      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Bellows   ||     ||       ||   {{Y}}||     ||     ||        ||      ||      ||      ||
-|}
+! Shell|-
+<!--              Part | Component | Silk | Thread | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->| rowspan=1 |Keyboard ||Keyboard  ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=4 |Body*    ||Console   ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}   |-|<!--                -->Chest     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Body      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |- |<!--                -->Case      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-| rowspan=3 |Vib      ||Strings   ||{{Y}}||  {{Y}}||        ||     ||     ||        || {{Y}}||      ||      |||-|<!--                -->Bells     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Pipes     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=2 |Bellows  ||Pump      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Bellows   ||     ||       ||   {{Y}}||     ||     ||        ||      ||      ||      |||}
 
 ===Stringed [[File:stringed_sprite.png]]===
 {|class="wikitable sortable"
 ! rowspan=2 | Part
 ! rowspan=2 | Component name
-! colspan=10 | Materials
-|-
+! colspan=10 | Materials|-
 <!-- ! Materials -->
 ! Silk
 ! Plant Thread
@@ -101,36 +78,14 @@ A completely assembled instrument has a very high [[Item value#Base values of it
 ! Metal
 ! Glass
 ! Stone
-! Shell
-|-
-<!--              Part | Component | Silk | Thread | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->
-| rowspan=1 |Neck     ||Neck      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=1 |Frame*   ||Frame     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=2 |Body*    ||Body      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--              -->Sound-chest ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-| rowspan=1 |Yoke     ||Yoke      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}     
-|- 
-| rowspan=1 |Strings  ||Strings   ||{{Y}}||  {{Y}}||        ||     ||     ||        || {{Y}}||      ||      ||
-|-
-| rowspan=3 |Prod     ||Bow       ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Plectrum  ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Hammers   ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|- 
-| rowspan=1 |Neck_res ||Neck bowl ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  
-|}
+! Shell|-
+<!--              Part | Component | Silk | Thread | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->| rowspan=1 |Neck     ||Neck      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=1 |Frame*   ||Frame     ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=2 |Body*    ||Body      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--              -->Sound-chest ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-| rowspan=1 |Yoke     ||Yoke      ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}     |- | rowspan=1 |Strings  ||Strings   ||{{Y}}||  {{Y}}||        ||     ||     ||        || {{Y}}||      ||      |||-| rowspan=3 |Prod     ||Bow       ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Plectrum  ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Hammers   ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|- | rowspan=1 |Neck_res ||Neck bowl ||     ||       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  |}
 
 ===Wind [[File:wind_sprite.png]]===
 {|class="wikitable sortable"
 ! rowspan=2 | Part
 ! rowspan=2 | Component name
-! colspan=8 | Materials
-|-
+! colspan=8 | Materials|-
 <!-- ! Materials -->
 ! Leather
 ! Wood
@@ -139,34 +94,14 @@ A completely assembled instrument has a very high [[Item value#Base values of it
 ! Metal
 ! Glass
 ! Stone
-! Shell
-|-
-<!--              Part | Component | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->
-| rowspan=2 |Blow     ||Blowpipe  ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Bellows   ||   {{Y}}||     ||     ||        ||      ||      ||      ||       
-|-
-| rowspan=1 |Bag*     ||Bag       ||   {{Y}}||     ||     ||        ||      ||      ||      || 
-|-
-| rowspan=1 |Melody   ||Melody pipe ||      ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-| rowspan=1 |Drone    ||Drone pipe ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=2 |Body*    ||Body       ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-|<!--                -->Wind-Chest ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=1 |Pipes*   ||Pipes     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  
-|- 
-| rowspan=1 |Horns*   ||Horn      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|}
+! Shell|-
+<!--              Part | Component | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->| rowspan=2 |Blow     ||Blowpipe  ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Bellows   ||   {{Y}}||     ||     ||        ||      ||      ||      ||       |-| rowspan=1 |Bag*     ||Bag       ||   {{Y}}||     ||     ||        ||      ||      ||      || |-| rowspan=1 |Melody   ||Melody pipe ||      ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-| rowspan=1 |Drone    ||Drone pipe ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=2 |Body*    ||Body       ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-|<!--                -->Wind-Chest ||       ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=1 |Pipes*   ||Pipes     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  |- | rowspan=1 |Horns*   ||Horn      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|}
 
 ===Percussion [[File:percussion_sprite.png]]===
 {|class="wikitable sortable"
 ! rowspan=2 | Part
 ! rowspan=2 | Component name
-! colspan=8 | Materials
-|-
+! colspan=8 | Materials|-
 <!-- ! Materials -->
 ! Leather
 ! Wood
@@ -175,36 +110,8 @@ A completely assembled instrument has a very high [[Item value#Base values of it
 ! Metal
 ! Glass
 ! Stone
-! Shell
-|-
-<!--              Part | Component | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->
-| rowspan=1 |Stand    ||Stand     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}
-|-
-| rowspan=8 |Body*    ||Drum      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  
-|-
-|<!--                -->Chime     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Block     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|- 
-|<!--                -->Bowl      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Triangle  ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Bell      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Bar       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Ring      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-| rowspan=1 |Head     ||Head      ||   {{Y}}||     ||     ||        ||      ||      ||      ||
-|-
-| rowspan=3 |Mallet   ||Mallet    ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Hammer    ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|<!--                -->Stick     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} 
-|-
-|}
+! Shell|-
+<!--              Part | Component | Leather | Wood | Bone | Ceramic | Metal | Glass | Stone | Shell -->| rowspan=1 |Stand    ||Stand     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|-| rowspan=8 |Body*    ||Drum      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}  |-|<!--                -->Chime     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Block     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |- |<!--                -->Bowl      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Triangle  ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Bell      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Bar       ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Ring      ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-| rowspan=1 |Head     ||Head      ||   {{Y}}||     ||     ||        ||      ||      ||      |||-| rowspan=3 |Mallet   ||Mallet    ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Hammer    ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|<!--                -->Stick     ||        ||{{Y}}||{{Y}}||   {{Y}}|| {{Y}}|| {{Y}}|| {{Y}}|| {{Y}} |-|}
 
 : * refers to the "main" part of the instrument - see explanation, above.
 
@@ -232,8 +139,7 @@ Due to the block's only means of producing this high pitch being the displacemen
 	[PITCH_RANGE:-1650:2350]
 	[TIMBRE:NOISY:FULL:DARK]
 	[MUSIC_SKILL:PLAY_WIND_INSTRUMENT]
-	[DESCRIPTION:The ushlub is a mid-size hand-held cylindrical bore bone wind instrument with a flared bell. The musician blows into the fipple at one end. The musician selects the pitch by pressing keys to stop holes. The instrument has a three-octave range going from a mid-low to a high pitch. The instrument has a noisy full dark timbre.]
-}}
+	[DESCRIPTION:The ushlub is a mid-size hand-held cylindrical bore bone wind instrument with a flared bell. The musician blows into the fipple at one end. The musician selects the pitch by pressing keys to stop holes. The instrument has a three-octave range going from a mid-low to a high pitch. The instrument has a noisy full dark timbre.]}}
 
 {{gamedata|title=Multi-part instrument - example raws (as extracted from world.dat)|item_layer
 
@@ -313,8 +219,7 @@ item_layer
 	[TUNING:PEGS:STRINGS]
 	[TIMBRE:VIBRATING:BRITTLE:STRIDENT]
 	[MUSIC_SKILL:PLAY_STRINGED_INSTRUMENT]
-	[DESCRIPTION:The etes is a large hand-held metal-stringed instrument with a metal body. The instrument rests flat as the musician plays the fifty-six main strings with a wooden bow. A drone string is occasionally plucked. Tuning is accomplished by pegs. The instrument has a five-and-a-half octave range going from a very low to a very high pitch. The instrument has a vibrating brittle strident timbre.]
-}}
+	[DESCRIPTION:The etes is a large hand-held metal-stringed instrument with a metal body. The instrument rests flat as the musician plays the fifty-six main strings with a wooden bow. A drone string is occasionally plucked. Tuning is accomplished by pegs. The instrument has a five-and-a-half octave range going from a very low to a very high pitch. The instrument has a vibrating brittle strident timbre.]}}
 
 {{Category|Items}}
 [[ru:Instrument]]

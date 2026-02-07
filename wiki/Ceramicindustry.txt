@@ -82,8 +82,7 @@ A skilled [[potter]] or [[glazer]] will generate items or decorations of a highe
 
 === Ceramics industry integrated flowchart ===
 {{collapsible|Production Flowchart (click to enlarge)|
-[[File:Ceramics Flowchart (All).jpg|thumb|800px|center|Ceramic Industry Production Flowcharts]]
-}}
+[[File:Ceramics Flowchart (All).jpg|thumb|800px|center|Ceramic Industry Production Flowcharts]]}}
 
 == Ceramic industry crossover ==
 # '''Glass Industry:''' As there is some natural overlap with the [[glass industry]] with regard to materials required, it may be useful to set up your ceramics industry near your glass industry. [[Potash maker]]s use ash at [[Ashery|asheries]] to produce [[potash]], which in turn feeds kilns that make [[pearlash]], which is used to make [[clear glass]] and [[crystal glass]]. As ceramics already requires ash production, and uses kilns as the primary production facility, there is some efficiency advantage to be had by keeping the distance between the two industries short.

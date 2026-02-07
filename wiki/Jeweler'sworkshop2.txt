@@ -1,16 +1,11 @@
 {{Quality|Exceptional}}
-{{V50 workshop|name=Jeweler's workshop|key=j|job=Gem cutting, Gem setting
-|icon=[[File:jeweler_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Jeweler's workshop|key=j|job=Gem cutting, Gem setting|icon=[[File:jeweler_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 * [[Gem cutting]]
-* [[Gem setting]]
-|use=
+* [[Gem setting]]|use=
 * Rough [[gem]]s
-* Cut [[gem]]s
-|production=
+* Cut [[gem]]s|production=
 * Cut [[gem]]s
 * Gem [[craft]]s
 * Encrusted objects}}{{av}}

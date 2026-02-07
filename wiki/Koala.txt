@@ -1,19 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=koala_sprites.png
-|portrait=koala_portrait_anim.gif
-|bone=4
-|meat=7
-|skin=hide
-|fat=7
-|skull=1
-|brain=0-1
-|tripe=0-1
-|liver=0-1
-|intestine=1
-|lung=0-2
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=koala_sprites.png|portrait=koala_portrait_anim.gif|bone=4|meat=7|skin=hide|fat=7|skull=1|brain=0-1|tripe=0-1|liver=0-1|intestine=1|lung=0-2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

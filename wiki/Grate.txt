@@ -3,17 +3,7 @@
 
 {{buggy|bugsection=Bugs}}
 
-{{v50_furniture
-|name=Grate
-|graphic=[[File:grate_sprites_preview.png]]
-|tile=#
-|wood=y
-|stonecarve=y
-|metal=y
-|glass=y
-|value=10
-|size=10,000
-}}
+{{v50_furniture|name=Grate|graphic=[[File:grate_sprites_preview.png]]|tile=#|wood=y|stonecarve=y|metal=y|glass=y|value=10|size=10,000}}
 A '''grate''' is a [[furniture]]-type item. It is used as a construction material for wall grates and floor grates. Grates can be constructed from [[stone]] or [[ore]] (with the [[masonry]] [[labor]] at a [[mason's workshop]]), wood (with the [[carpentry]] labor in a [[carpenter's workshop]]), [[Metal|metal bar]]s (with the [[blacksmithing]] labor at a [[forge]]), or [[glass]] (with the [[glassmaking]] labor at a [[glass furnace]]).
 
 == Wall grate ==

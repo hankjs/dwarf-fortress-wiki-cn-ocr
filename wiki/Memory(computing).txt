@@ -7,33 +7,11 @@
 
 ===Flip-flops versus latches===
 The most basic characteristic of memory in ''Dwarf Fortress'' is that it acts as a signal splitter: given a series of on-off signal cycles, it outputs a series of alternating on or off signals.  Memory that does this, and only this, acts like a flip-flop: every time you trigger the memory, it changes state.  Such memory is perfect for devices such as [[Adder (Computing)|counters]].  However, it's common to desire the ability to write state directly to your memory, rather than toggling it-- that is, to write either '''true''' or '''false''' to memory directly, without knowing the current state of the memory.  This can be described with a chart where the memory value feeds back into itself:
-{| class="wikitable" border=1
-|-
+{| class="wikitable" border=1|-
 ! input
 ! latch state
 ! output
-! new latch state
-|-
-| 0
-| 0
-| none
-| 0
-|-
-| 0
-| 1
-| off
-| 0
-|-
-| 1
-| 0
-| on
-| 1
-|-
-| 1
-| 1
-| none
-| 1
-|}<br />
+! new latch state|-| 0| 0| none| 0|-| 0| 1| off| 0|-| 1| 0| on| 1|-| 1| 1| none| 1|}<br />
 ===Performance===
 Memory systems in a fortress, thankfully, are very good at maintaining their value (in the absence of any [[troll]]s), but they are still plagued by problems with latency and long refractory periods.  Latency refers to the length of time before which a change in value will register, and the refractory period refers to the period after writing to memory during which one cannot reliably write to it a second time.  Because of the delays involved with [[pressure plate]]s, latency and refractory period for a given memory cell often depend on which state the memory is being changed to.  For instance, the mechanical hybrid cell below has nearly no latency when being written as true, but around 100 ticks of latency when being written as false.
 

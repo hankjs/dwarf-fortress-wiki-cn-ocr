@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{Treelookup/0
-|graphic=macadamia_trunk_sprite.png
-|product=olive_sprite.png
-|sapling=olive_tree_sapling.png}}
+{{Treelookup/0|graphic=macadamia_trunk_sprite.png|product=olive_sprite.png|sapling=olive_tree_sapling.png}}
 {{av}}
 
 '''Olive''' is one of the many genera of [[tree]]s found above ground. Like the vast majority of above ground trees, olive [[wood]] is brown and produces brown products. Logs and leaves can be processed in a [[dyer's shop]] into woodland green [[dye]].
@@ -18,12 +15,7 @@ Some [[Dwarf|dwarves]] [[Preferences|like]] olive trees for their ''oil-giving f
 
 [[File:Olivesfromjordan.jpg|thumb|center|300px|Admired for its ''oil-giving fruit''.]]
 
-{{Translation
-| dwarven = losush
-| elvish  = naye
-| goblin  = dum
-| human   = lunda
-}}
+{{Translation| dwarven = losush| elvish  = naye| goblin  = dum| human   = lunda}}
 
 {{gamedata}}
 {{Plants}}

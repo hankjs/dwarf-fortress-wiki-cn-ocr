@@ -1,16 +1,9 @@
 {{Quality|Superior}}
-{{Metal
-|name=Nickel
-|graphic=nickel_bar_sprite.png
-|sample=
-[[File:NickelSample.png|256px|center|frameless]]
-|color=7:3:0
-|uses=
+{{Metal|name=Nickel|graphic=nickel_bar_sprite.png|sample=
+[[File:NickelSample.png|256px|center|frameless]]|color=7:3:0|uses=
 * Make [[nickel silver]] at [[smelter]]
-* [[Metalsmith's forge|Metal crafting]]
-|ore=
-* [[File:ore_bluish_sprite.png]] [[Garnierite]]
-|properties=
+* [[Metalsmith's forge|Metal crafting]]|ore=
+* [[File:ore_bluish_sprite.png]] [[Garnierite]]|properties=
 * [[Material value]] 2☼
 * [[Material science|Impact strength]] 560 MPa
 * [[Material science|Shear strength]] 160 MPa
@@ -21,8 +14,7 @@
 * [[Solid density]] 8800 kg/m³
 * Liquid [[density]] 7810 kg/m³
 * [[Specific heat]] 444 J/kg·K
-* [[Color]] silver
-}}{{av}}
+* [[Color]] silver}}{{av}}
 
 '''Nickel''' is a low-value but uncommon [[metal]] which can only be smelted from [[garnierite]], which is only found in [[gabbro]]. Nickel can be used to create most metalcrafting and construction objects (but not weapons/armor). 
 

@@ -1,9 +1,6 @@
 {{Quality|Exceptional}}
 {{plantlookup|uses=
-* [[Food]]
-|graphic=string_bean_shrub_sprite.png
-|seedimage=string_bean_seeds_sprite.png
-|wiki=Phaseolus_vulgaris}}
+* [[Food]]|graphic=string_bean_shrub_sprite.png|seedimage=string_bean_seeds_sprite.png|wiki=Phaseolus_vulgaris}}
 {{av}}
 
 '''String beans''' are an [[aboveground]] [[crop|garden plant]]. They can be planted in all seasons. Only the seeds when [[cooking|cooked]] are edible.

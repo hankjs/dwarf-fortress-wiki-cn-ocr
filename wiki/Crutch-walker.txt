@@ -1,20 +1,12 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 3:0
-| skill      = Crutch-walker
-| specialty  = Peasant
-| profession = None
-| job name   = None
-| tasks      =
-* Automatic, use crutch to walk after injury
-| attributes =
+{{Skill| color      = 3:0| skill      = Crutch-walker| specialty  = Peasant| profession = None| job name   = None| tasks      =
+* Automatic, use crutch to walk after injury| attributes =
 * Agility
 * Endurance
 * Willpower
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Crutch-walker''' is the [[skill]] used when using [[crutch]]es by those who have [[wound|lost]] the ability to walk normally, reducing the movement penalty while moving around the map.

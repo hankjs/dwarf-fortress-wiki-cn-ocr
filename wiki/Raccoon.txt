@@ -1,16 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=raccoon_sprites.png
-|portrait=raccoon_portrait_anim.gif
-|bone=4
-|meat=7
-|fat=7
-|skin=hide
-|skull=1
-|intestine=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=raccoon_sprites.png|portrait=raccoon_portrait_anim.gif|bone=4|meat=7|fat=7|skin=hide|skull=1|intestine=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,28 +1,16 @@
 {{Quality|Superior}}
 {{av}}
 
-{{V50_item
-|graphic=[[File:sheet_sprite_preview.png]]
-|name=Sheet
-|tile=⌡
-|color=7:0:0
-|materials=<span></span>
+{{V50_item|graphic=[[File:sheet_sprite_preview.png]]|name=Sheet|tile=⌡|color=7:0:0|materials=<span></span>
 * [[Slurry]]<br>
 * [[Papyrus sedge]]<br>
-* [[Parchment]]
-|workshops=<span></span>
+* [[Parchment]]|workshops=<span></span>
 * [[Screw press]]
 * [[Farmer's workshop]]
-* [[Tanner's shop]]
-|labors=<span></span>
+* [[Tanner's shop]]|labors=<span></span>
 * [[Papermaker]]<br><br><br><br>
-* [[Tanner]]
-|used for=
-* [[Book|Writing materials]]
-|value=5
-|size=200
-|dimension=10000
-}}
+* [[Tanner]]|used for=
+* [[Book|Writing materials]]|value=5|size=200|dimension=10000}}
 
 '''Sheets''' are used in the production of [[scroll]]s and [[quire]]s. They can be made from either paper or parchment, and are stored under Sheet (top [[stockpile]] category).
 
@@ -37,40 +25,7 @@ Both of these actions use the [[papermaking]] labor.
 {| class = "wikitable sortable"
 !Plant
 !Sheet name
-!Native Biomes
-|-
-|[[Cotton]]
-|Cotton sheet
-|[[Tropical]]
-|-
-|[[Flax]]
-|Linen sheet
-|[[Tropical]] [[Grassland]] or [[Savanna]]
-|-
-|[[Hemp]]
-|Hemp sheet
-|[[Temperate]]
-|-
-|[[Jute]]
-|Jute sheet
-|[[Tropical]]
-|-
-|[[Kenaf]]
-|Kenaf sheet
-|[[Tropical]]
-|-
-|[[Pig tail]]
-|Pig tail sheet
-|[[Underground]]
-|-
-|[[Ramie]]
-|Ramie sheet
-|[[Tropical]]
-|-
-|[[Rope reed]]
-|Rope reed sheet
-|''not'' [[Glacier]], [[Mountain]], or [[Tundra]]
-|}
+!Native Biomes|-|[[Cotton]]|Cotton sheet|[[Tropical]]|-|[[Flax]]|Linen sheet|[[Tropical]] [[Grassland]] or [[Savanna]]|-|[[Hemp]]|Hemp sheet|[[Temperate]]|-|[[Jute]]|Jute sheet|[[Tropical]]|-|[[Kenaf]]|Kenaf sheet|[[Tropical]]|-|[[Pig tail]]|Pig tail sheet|[[Underground]]|-|[[Ramie]]|Ramie sheet|[[Tropical]]|-|[[Rope reed]]|Rope reed sheet|''not'' [[Glacier]], [[Mountain]], or [[Tundra]]|}
 
 == Papyrus ==
 Papyrus sheets are made directly from the [[papyrus sedge]] plant (which grows in any [[tropical]] [[wetland]]) at a [[farmer's workshop]].  Note that the simple term "papyrus" can refer to ''either'' the plant ''or'' the paper.

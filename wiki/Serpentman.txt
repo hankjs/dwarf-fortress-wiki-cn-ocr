@@ -1,11 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=serpent_man_sprite.png
-|portrait=serpent_man_portrait.png
-|contrib=no
-|death=nobutcher
-|vary=no
-}}
+{{Creaturelookup/0|image=serpent_man_sprite.png|portrait=serpent_man_portrait.png|contrib=no|death=nobutcher|vary=no}}
 {{av}}
 ''For other kinds of snake men, see [[adder man]], [[anaconda man]], [[black mamba man]], [[bushmaster man]], [[copperhead snake man]], [[king cobra man]], [[kingsnake man]], [[python man]], and [[rattlesnake man]].''
 {{creaturedesc}}

@@ -20,8 +20,7 @@ Sometimes, you will want to use a custom material in an interaction that is not 
 	[USE_MATERIAL_TEMPLATE:BLOOD:BLOOD_TEMPLATE][PREFIX:NONE]
 	[USE_MATERIAL_TEMPLATE:BURNING:STONE_TEMPLATE][PREFIX:NONE][STATE_NAME_ADJ:SOLID:flame magic][MELTING_POINT:0][BOILING_POINT:1][MAT_FIXED_TEMP:35000][DISPLAY_COLOR:6:0:1]
 	[USE_MATERIAL_TEMPLATE:BURNING_STRONG:STONE_TEMPLATE][PREFIX:NONE][STATE_NAME_ADJ:SOLID:flame magic][MELTING_POINT:0][BOILING_POINT:1][MAT_FIXED_TEMP:90000][DISPLAY_COLOR:6:0:1]
-	[USE_MATERIAL_TEMPLATE:FREEZING:SWEAT_TEMPLATE][STATE_NAME:ALL:ice magic][STATE_ADJ:ALL:frigid][ENTERS_BLOOD][PREFIX:NONE][STATE_COLOR:ALL:WHITE][DISPLAY_COLOR:7:0:1][EVAPORATES][MELTING_POINT:NONE][BOILING_POINT:4000][HEATDAM_POINT:4001][SPEC_HEAT:1]
-}}
+	[USE_MATERIAL_TEMPLATE:FREEZING:SWEAT_TEMPLATE][STATE_NAME:ALL:ice magic][STATE_ADJ:ALL:frigid][ENTERS_BLOOD][PREFIX:NONE][STATE_COLOR:ALL:WHITE][DISPLAY_COLOR:7:0:1][EVAPORATES][MELTING_POINT:NONE][BOILING_POINT:4000][HEATDAM_POINT:4001][SPEC_HEAT:1]}}
 
 ===Instantly-evaporating creature===
 To make a creature instantly "poof" into a fine mist, you can transform them into this. 
@@ -55,8 +54,7 @@ To make a creature instantly "poof" into a fine mist, you can transform them int
 	[TISSUE_LAYER:BY_CATEGORY:ALL:BREAK]
 	[BLOOD:LOCAL_CREATURE_MAT:BREAK:LIQUID]
 	[IMMOBILE]
-	[BODY_SIZE:0:0:1]
-}}
+	[BODY_SIZE:0:0:1]}}
  
 You can also give it an [[Creature_token#ITEMCORPSE|ITEMCORPSE]] if you want it to leave an item behind.
 
@@ -96,8 +94,7 @@ This creature can be destroyed by any damage. You can also alter the values easi
 		[TISSUE_SHAPE:LAYER]
 	[TISSUE_LAYER:BY_CATEGORY:BODY:SILK]
 	[BODY_SIZE:0:0:4000]
-	[IMMOBILE]
-}}
+	[IMMOBILE]}}
 
 ==Creatures with unusual physiologies==
 
@@ -202,8 +199,7 @@ You will require both a creature raw file and plant raw file for this to work.
 	[MALE]
 	[SET_TL_GROUP:BY_CATEGORY:ALL:CORTEX]
 		[TL_COLOR_MODIFIER:PINK:1:GREEN:5]
-			[TLCM_NOUN:body:SINGULAR]
-}}
+			[TLCM_NOUN:body:SINGULAR]}}
 
 
 {{gamedata|title=Plant based creature (Plant raw)|
@@ -264,8 +260,7 @@ You can make a creature entirely out of plants.  You can even give the plants me
 		[EDIBLE_COOKED]
 		[PREFIX:NONE]
 	[DRINK:LOCAL_PLANT_MAT:DRINK]
-	[PREFSTRING:rarity]
-}}
+	[PREFSTRING:rarity]}}
 
 {{Category|Modding}}
 {{Category|Modding_Examples}}

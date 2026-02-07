@@ -88,8 +88,7 @@ You currently have:
 :* a wood furnace (made with a copper bar)
 :* 1 spare copper bar (plus another tied up in the wood furnace)
 :* & a pile of logs
-... proceed as normal. (A copper crossbow and bolts might be a good idea, but ymmv.)
-|Step-by-step}}
+... proceed as normal. (A copper crossbow and bolts might be a good idea, but ymmv.)|Step-by-step}}
 
 {{Category|Guides}}
 {{Category|Weapons}}

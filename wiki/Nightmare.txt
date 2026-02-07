@@ -506,7 +506,6 @@ Some dwarves [[preferences|like]] nightmares for their ''unfathomably horrifying
 	[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
 	[DESCRIPTION:A very large hairy scorpion.  It has four broad horns and with singular purpose it seeks to destroy the living.  Its black hair is unkempt.  Now you will know why you fear the night.]
 	[PREFSTRING:unfathomably horrifying nature]
-
 }}
 {{Scriptdata}}
 {{Creatures}}

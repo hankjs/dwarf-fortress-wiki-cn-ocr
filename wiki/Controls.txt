@@ -15,16 +15,7 @@ For purposes of the game, note that any key designated in uppercase means to hol
 ===Camera===
 The camera can be controlled both by mouse input or keys. Your view is focused on one [[Z-level|elevation]] at a time. 
 
-{| class=wikitable
-| {{key|w}}{{key|a}}{{key|s}}{{key|d}} or [[Image:Mouse-wheelpressed.png|20px|Scroll mouse wheel down.]]
-| To move the camera around on the same elevation. Hold shift to double the amount moved.
-|-
-| {{key|c}}{{key|e}} or [[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]
-| To change camera elevation. Hold {{key|Shift}} to jump 10 levels at a time.  
-|-
-| {{key|[}}{{key|]}} or {{key|Ctrl}}+[[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]
-| To zoom the camera in and out
-|}
+{| class=wikitable| {{key|w}}{{key|a}}{{key|s}}{{key|d}} or [[Image:Mouse-wheelpressed.png|20px|Scroll mouse wheel down.]]| To move the camera around on the same elevation. Hold shift to double the amount moved.|-| {{key|c}}{{key|e}} or [[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]| To change camera elevation. Hold {{key|Shift}} to jump 10 levels at a time.  |-| {{key|[}}{{key|]}} or {{key|Ctrl}}+[[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]| To zoom the camera in and out|}
 
 : Tutorial note: When your view is in the air above other tiles, you can see them below, but you can only interact with objects in your current elevation. 
 : Tutorial note: The view will be dark underground until you begin mining. You can move the camera to the surface with the camera elevation button. The F1 hotkey will recenter on your wagon.
@@ -33,16 +24,7 @@ The camera can be controlled both by mouse input or keys. Your view is focused o
 
 The simulation can be paused depending on the needs in the current situation. The control buttons are located in ..
 
-{| class=wikitable
-| {{key|SPACE}} 
-| Play / Pause simulation 
-|-
-| {{key|Alt}}+{{key|&#61;}}
-| Increase FPS Limit. Potentially speeds up simulation 
-|-
-| {{key|Alt}}+{{key|-}} 
-| Decrease FPS Limit. Potentially slows down simulation 
-|}
+{| class=wikitable| {{key|SPACE}} | Play / Pause simulation |-| {{key|Alt}}+{{key|&#61;}}| Increase FPS Limit. Potentially speeds up simulation |-| {{key|Alt}}+{{key|-}} | Decrease FPS Limit. Potentially slows down simulation |}
 
 == Control Settings ==
 [[File:Ui-premium-settings-keybindings.png|thumb|v50 UI]]
@@ -60,71 +42,11 @@ The following shortcuts are for [[Adventure mode]] (see also [[Adventure mode qu
 == Fortress Mode ==
 The following shortcuts work in the [[Interface|Main Play Screen]], in [[Fortress mode]]:
 
-{| class=wikitable
-|+ Orders Toolbar
-|-
-| {{key|m}} || Set digging orders.
-|-
-| {{key|l}} || Set tree chopping orders.
-|-
-| {{key|g}} || Set plant gathering orders.
-|-
-| {{key|v}} || Set wall smoothing, engraving, track carving, and fortification orders.
-|-
-| {{key|x}} || Remove mining, woodcutting, plant gathering, and smoothing orders.
-|-
-| {{key|b}} || Place structures and work areas that require construction materials.
-|-
-| {{key|p}} || Place stockpiles for item storage.
-|-
-| {{key|z}} || Place zones to establish meeting areas, pastures, and more.
-|-
-| {{key|U}} || Establish burrows to organize work and living spaces in larger fortresses.
-|-
-| {{key|H}} || Set hauling routes for minecarts.
-|-
-| {{key|T}} || Set high and low traffic areas.
-|-
-| {{key|i}} || Designate items for dumping and smelting, claim forbidden items and buildings, and set item visibility.
-|}
+{| class=wikitable|+ Orders Toolbar|-| {{key|m}} || Set digging orders.|-| {{key|l}} || Set tree chopping orders.|-| {{key|g}} || Set plant gathering orders.|-| {{key|v}} || Set wall smoothing, engraving, track carving, and fortification orders.|-| {{key|x}} || Remove mining, woodcutting, plant gathering, and smoothing orders.|-| {{key|b}} || Place structures and work areas that require construction materials.|-| {{key|p}} || Place stockpiles for item storage.|-| {{key|z}} || Place zones to establish meeting areas, pastures, and more.|-| {{key|U}} || Establish burrows to organize work and living spaces in larger fortresses.|-| {{key|H}} || Set hauling routes for minecarts.|-| {{key|T}} || Set high and low traffic areas.|-| {{key|i}} || Designate items for dumping and smelting, claim forbidden items and buildings, and set item visibility.|}
 
-{| class=wikitable
-|+ Information Menubar
-|-
-| {{key|u}} || Open the citizen information menu.
-|-
-| {{key|t}} || Open the task information menu.
-|-
-| {{key|P}} || Open the place information menu.
-|-
-| {{key|y}} || Open the labor menu.
-|-
-| {{key|o}} || Open the work orders menu.
-|-
-| {{key|n}} || Open the nobles and administrators menu.
-|-
-| {{key|O}} || Open the objects menu.
-|-
-| {{key|j}} || Open the justice menu.
-|}
+{| class=wikitable|+ Information Menubar|-| {{key|u}} || Open the citizen information menu.|-| {{key|t}} || Open the task information menu.|-| {{key|P}} || Open the place information menu.|-| {{key|y}} || Open the labor menu.|-| {{key|o}} || Open the work orders menu.|-| {{key|n}} || Open the nobles and administrators menu.|-| {{key|O}} || Open the objects menu.|-| {{key|j}} || Open the justice menu.|}
 
-{| class=wikitable
-|+ Miscellaneous Controls
-|-
-| {{key|N}} || View all alerts.
-|-
-| {{key|k}} || Open the fortress stocks window.
-|-
-| {{key|Y}} || Open the world screen.
-|-
-| {{key|h}} || Open the hotkey recenter editor window.
-|-
-| {{key|q}} || Open the squad sidebar.
-|-
-| {{key|f}} || Toggle water and magma numeric depth display.
-|-
-| {{key|r}} || Toggle elevation change arrow display.
-|}
+{| class=wikitable|+ Miscellaneous Controls|-| {{key|N}} || View all alerts.|-| {{key|k}} || Open the fortress stocks window.|-| {{key|Y}} || Open the world screen.|-| {{key|h}} || Open the hotkey recenter editor window.|-| {{key|q}} || Open the squad sidebar.|-| {{key|f}} || Toggle water and magma numeric depth display.|-| {{key|r}} || Toggle elevation change arrow display.|}
 {{Under construction}}
 
 == See Also ==

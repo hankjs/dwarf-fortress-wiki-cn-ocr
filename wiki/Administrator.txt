@@ -11,8 +11,7 @@ The Administrator skills are:
 {{Skill Box|Administrator|5:0|5:0|
 * [[Appraiser]]
 * [[Organizer]]
-* [[Record keeper]]
-}}
+* [[Record keeper]]}}
 
 {{skills}}
 {{Category|Professions}}

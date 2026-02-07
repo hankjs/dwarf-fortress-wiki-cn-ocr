@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_silvery_sprite.png}}
+{{stonelookup/0|graphic=ore_silvery_sprite.png}}
 {{av}}
 
 '''Magnetite''' is an [[ore]] of [[iron]] a mid-value metal useful for weapons and armor. , It appears as large, oval-shaped [[Vein|cluster]]s inside [[sedimentary layer]]s and small clusters in [[metamorphic layer]]s and [[igneous layer]]s. A magnetite cluster may sometimes contain [[vein]]s of [[native platinum]], which can continue outside of the cluster itself.

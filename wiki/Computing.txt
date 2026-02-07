@@ -36,17 +36,9 @@ Basic binary logic takes one or two input bits and creates an output based on th
 
 * NOT - takes one input and returns the opposite of the input
 
-{| class="wikitable" border=1
-|-
+{| class="wikitable" border=1|-
 ! input A 
-! NOT
-|-
-| 0
-| 1
-|-
-| 1
-| 0
-|}
+! NOT|-| 0| 1|-| 1| 0|}
 
 * AND - takes two inputs and returns true if both inputs are true
 * OR - takes two inputs and returns true if at least one input is true
@@ -55,8 +47,7 @@ Basic binary logic takes one or two input bits and creates an output based on th
 * NOR - takes two inputs and returns true if both inputs are false
 * XNOR - takes two inputs and returns true if both inputs are identical
 
-{| class="wikitable" border=1
-|-
+{| class="wikitable" border=1|-
 ! input A
 ! input B
 ! AND
@@ -64,44 +55,7 @@ Basic binary logic takes one or two input bits and creates an output based on th
 ! XOR
 ! NAND
 ! NOR
-! NXOR
-|-
-| 0
-| 0
-| 0
-| 0
-| 0
-| 1
-| 1
-| 1
-|-
-| 0
-| 1
-| 0
-| 1
-| 1
-| 1
-| 0
-| 0
-|-
-| 1
-| 0
-| 0
-| 1
-| 1
-| 1
-| 0
-| 0
-|-
-| 1
-| 1
-| 1
-| 1
-| 0
-| 0
-| 0
-| 1
-|}
+! NXOR|-| 0| 0| 0| 0| 0| 1| 1| 1|-| 0| 1| 0| 1| 1| 1| 0| 0|-| 1| 0| 0| 1| 1| 1| 0| 0|-| 1| 1| 1| 1| 0| 0| 0| 1|}
 
 The most human-understandable logic system requires NOT, AND and OR gates, but having a design for either a NAND or a NOR gate is enough to build any of the other gates. Some gates are easier to create or need fewer components than others depending on what discipline your logic relies on. Designing each individual gate that you will need (or using designs that had each individual gate designed) rather than building a gate out of multiple NAND gates or the like will generally result in your dorfputer reacting faster and using less resources (power, water, kittens, construction materials, what-have-you).
 

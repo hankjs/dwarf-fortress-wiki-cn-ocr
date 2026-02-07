@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_fire_opal_sprite.png
-|graphic2=rough_fire_opal_sprite.png}}
+{{gemlookup/0|graphic=cut_fire_opal_sprite.png|graphic2=rough_fire_opal_sprite.png}}
 {{av}}
 
 '''Fire opals''' are semi-precious [[gem]]s found in small clusters pretty much everywhere.

@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=orangutan_sprites.png
-|portrait=orangutan_portrait_anim.gif
-|contrib=no
-|bone=14
-|meat=12-13
-|fat=12
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=orangutan_sprites.png|portrait=orangutan_portrait_anim.gif|contrib=no|bone=14|meat=12-13|fat=12|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,11 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=raspberry_shrub_sprite.png
-|seedimage=raspberry_seeds_sprite.png
-|uses=
-* [[Food]]
-|wiki=Rubus
-}}
+{{plantlookup|graphic=raspberry_shrub_sprite.png|seedimage=raspberry_seeds_sprite.png|uses=
+* [[Food]]|wiki=Rubus}}
 {{av}}
 
 '''Raspberries''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons, the fruit is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|raspberry wine]] or processed in a [[dyer's shop]] into raspberry pink [[dye]].

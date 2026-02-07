@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=plump_helmet_man_sprites.png
-|portrait=plump_helmet_man_portrait.png
-|vary=no
-|contrib=no
-|death=item
-|item=Plump helmet man plump helmet man tissue
-}}
+{{Creaturelookup/0|image=plump_helmet_man_sprites.png|portrait=plump_helmet_man_portrait.png|vary=no|contrib=no|death=item|item=Plump helmet man plump helmet man tissue}}
 {{av}}
 {{creaturedesc}}
 '''Plump helmet men''' are humanoid, intelligent versions of [[plump helmet]]s who can be found at the second and third layers of the [[caverns]]. These [[construct creature]]s are nearly as heavy as [[dwarf|dwarves]] and spawn in groups of 3-5 individuals who meander about aimlessly. They are non-hostile and generally harmless, and if confronted in combat, are easily dispatched by the average dwarf, as their boneless mushroom composition is very fragile to damage. However, uncivilized plump helmet men can easily get into fights with both cats and dogs, so be careful if your fortress has a lot of pets.

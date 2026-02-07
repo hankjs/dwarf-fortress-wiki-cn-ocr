@@ -1,12 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=sorghum_shrub_sprite.png
-|seedimage=sorghum_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=sorghum_shrub_sprite.png|seedimage=sorghum_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Flour]]
-|wiki=sorghum bicolor
-}}
+*[[Flour]]|wiki=sorghum bicolor}}
 {{av}}
 
 '''Sorghum''' is an [[aboveground]] [[crop]]. It is a type of grain and can either be [[Mill|milled]] into [[Flour|sorghum flour]], [[Still|brewed]] into [[Alcohol|sorghum beer]] or processed in a [[dyer's shop]] into rust [[dye]].

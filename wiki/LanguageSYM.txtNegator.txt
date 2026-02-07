@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = kez
-| elvish  = ocithe
-| goblin  = osu
-| human   = iggith
-}}
+{{Translation| dwarven = kez| elvish  = ocithe| goblin  = osu| human   = iggith}}
 ==Usage==
 All [[Entity|cultures]] with a defined [[language]] are tagged so they [[Entity token#CULL_SYMBOL|won't use]] words from this symbol in their names.
 {{Template:Langsym group}}

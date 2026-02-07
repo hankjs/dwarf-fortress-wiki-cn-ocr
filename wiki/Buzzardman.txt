@@ -1,6 +1,4 @@
-{{Creaturelookup/0
-|image=buzzard_man_sprite.png
-|portrait=buzzard_man_portrait.png}}
+{{Creaturelookup/0|image=buzzard_man_sprite.png|portrait=buzzard_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

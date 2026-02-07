@@ -11,8 +11,7 @@ The ranger skills are:
 * [[Animal caretaker]]
 * [[Animal dissector]]
 * [[Animal trainer]]
-* [[Trapper]]
-}}
+* [[Trapper]]}}
 {{clear}}
 <!--
 ==See also==

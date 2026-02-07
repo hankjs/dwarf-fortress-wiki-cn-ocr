@@ -12,12 +12,7 @@ Graphically, the sprites that angels use will be of randomly-generated creatures
 [[File:Bim-sarasti.jpg|thumb|right|300px|"Mudung's Monster, a towering eyeless grasshopper. It has two long, spiral horns and it never appears to be perturbed or surprised by any happening. Its indigo exoskeleton is wrinkled. It was created by the human goddess Mudung Deepperplexes and is of a part with fate." ([http://www.bay12forums.com/smf/index.php?topic=169691.msg7701761#msg7701761 post])]]
 
 Angels are randomly generated at worldgen, with appearance, arms, armor, and even material determined by the [[sphere]]s of their creator. The term "angel" is used loosely – after all, they are sent by deities that knowingly released [[demon]]s into the world. As such, they are disproportionately associated with "dark" or "violent" spheres like deformity and war, and with fittingly vile appearances, but even those associated with neutral or supposedly-positive spheres tend to be utterly bizarre in appearance. The WAR, VALOR and FORTRESSES spheres boost the natural combat skills of the "'''Warrior'''" angel type to 10 from 6. The sphere effects on body materials work the same way they do for demons etc., so a muck god will more than likely have mud angels, a rainbow god; crystal angels, etc. (there are about 30 spheres with material links). DEATH, MISERY, DARKNESS and NIGHT sphere angels can have dark color alterations.  All angels share certain traits, however; they are [[fanciful]] [[creatures]] who are all able to swim in and [[Amphibious|breathe]] water and [[Building destroyer|destroy buildings]]. Furthermore, they are immune to [[Trapavoid|traps]], [[No Pain|pain]], fear, nausea, [[No Stun|stunning]], [[No Exert|exertion]], dizziness, fevers and any sort of poison. Unlike demons, angels do not seem to be universally immune to [[fire]]. All humanoid angels are able to equip items and freely open unlocked [[door]]s. Some angels have access to a [[syndrome]] called "divine sickness", whose effects are randomized, but typically include such things as vomiting blood, blisters, numbness and nausea. Others may have [[Creature_token#EXTRAVISION|extravision]], and they can be genderless, or have male and female castes.
-{{Translation
-| dwarven = sedil
-| elvish  = thili
-| goblin  = asmuk
-| human   = idla
-}}
+{{Translation| dwarven = sedil| elvish  = thili| goblin  = asmuk| human   = idla}}
 Dwarves will never have a [[preferences|preference]] for angels, as they possess no {{token|PREFSTRING}}. They possess an unused [[Pet#Pet value|pet value]] of 2,000. Like other procedurally-generated creatures, they are not available to be spawned in the [[object testing arena]].
 
 Even if you kill all the angels inside a vault, they will eventually respawn (no confirmation yet about how long it takes – a cleared vault has been witnessed having its population back in under a month) which makes vaults pretty good high-level item grinding grounds. Try to kill at least one warrior and pick up their gear – your adventure will instantly become much easier. Do note that angels are quite capable of wandering out of their vaults, slaughtering any stragglers, so lingering near one is not a good idea. 
@@ -460,8 +455,7 @@ In the world raws, the divine language is referred to as GEN_DIVINE. By changing
 	[GAIT:CRAWL:Fast Crawl:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
 	[GAIT:CRAWL:Crawl:900:NO_BUILD_UP:0]
 	[GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
-	[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
-}}
+	[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]}}
 
 {{Creatures}}
 {{Category|Amphibious}}

@@ -1,9 +1,7 @@
 {{migrated article}}
 {{Quality|Fine}}
 {{av}}
-{{verminlookup/0
-|image=bumblebee_worker_sprite.png
-|portrait=bumblebee_portrait.png}}
+{{verminlookup/0|image=bumblebee_worker_sprite.png|portrait=bumblebee_portrait.png}}
 {{buggy}}
 {{creaturedesc}}
 '''Bumblebees''' are a type of [[vermin]] found in any [[Biome|area]] that isn't freezing. They can sting a nearby [[dwarf]] without killing it, causing slight pain but no negative [[thought]] for the dwarf. They are not killed by [[cat]]s.

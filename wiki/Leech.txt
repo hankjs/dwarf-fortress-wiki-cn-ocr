@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=leech_sprite.png
-|portrait=leech_portrait.png}}
+{{verminlookup/0|image=leech_sprite.png|portrait=leech_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -14,12 +12,7 @@ Some dwarves [[Preferences|like]] leeches for their ''feeding habits''.
 {{D for Dwarf}}
 Little do dwarves know that the humble leech is actually the link between [[elf|elves]] and [[noble]]s. The missing connection is the [[Leech man]], although leech men are closer in the DNA line to nobles than elves.
 
-{{Translation
-| dwarven = subol
-| elvish  = awathi
-| goblin  = axson
-| human   = quigos
-}}
+{{Translation| dwarven = subol| elvish  = awathi| goblin  = axson| human   = quigos}}
 
 {{gamedata}}
 {{vermin}}

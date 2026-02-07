@@ -1,18 +1,13 @@
 {{Quality|Exceptional}}
-{{Ceramic|name=Porcelain
-|sample=PorcelainSample.png
-|color=7:0:1
-|uses=
+{{Ceramic|name=Porcelain|sample=PorcelainSample.png|color=7:0:1|uses=
 * [[Statue]]s
 * [[Block|Bricks]]
 * [[Craft]]s
 * [[Hive]]s
 * [[Jug]]s
-* Large [[pot]]s
-|ingredients=
+* Large [[pot]]s|ingredients=
 * 1 [[kaolinite]] [[stone]]
-* 1 [[fuel]]
-|properties=
+* 1 [[fuel]]|properties=
 * [[Material value]] 10
 {{firemagmasafe|yes|no}}
 * [[Melting point]] {{ct|11500}}
@@ -20,8 +15,7 @@
 * [[Ignition point]] none
 * [[Solid density]] 2403
 * Liquid [[density]] 3300
-* [[Specific heat]] 800
-}}{{av}}
+* [[Specific heat]] 800}}{{av}}
 
 '''Porcelain''' is a type of [[ceramic]] made from [[kaolinite]]. Porcelain items are white in color and have a material value of 10, equal to that of [[iron]], [[silver]], and [[crystal glass]].  Large [[pot]]s made out of porcelain are water-tight, and do not need to be [[glaze]]d to hold liquids like [[booze]].
 

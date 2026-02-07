@@ -1,18 +1,8 @@
 {{migrated article}}
 {{Quality|Unrated}}
 {{av}}
-{{Noble
-| noble=Captain
-| office=Meager Office
-| quarters=Meager Quarters
-| dining=Meager Dining Room
-| chests=1
-| cabinets=1
-| racks=1
-| stands=1
-| function=
-* Military Dwarf
-}}
+{{Noble| noble=Captain| office=Meager Office| quarters=Meager Quarters| dining=Meager Dining Room| chests=1| cabinets=1| racks=1| stands=1| function=
+* Military Dwarf}}
 
 :''Not to be confused with either [[Militia captain]]s or the [[Captain of the guard]]''
 

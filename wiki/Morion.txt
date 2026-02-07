@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_morion_sprite.png
-|graphic2=rough_morion_sprite.png
-|wiki=Morion (mineral)}}
+{{gemlookup/0|graphic=cut_morion_sprite.png|graphic2=rough_morion_sprite.png|wiki=Morion (mineral)}}
 {{av}}
 
 '''Morions''', a very dark variety of [[smoky quartz]], are unremarkable low-value [[gem]]s that can be found in small [[cluster]]s in any [[stone]]. They look a bit like [[bituminous coal]], but quickly looking will reveal them to be gems.

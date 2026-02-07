@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=wolf_sprites.png
-|portrait=wolf_portrait_anim.gif
-|contrib=no
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|bone=11-12
-|fat=12-13
-|skin=hide
-|skull=1
-|meat=12-13
-|wiki=yes
-}}
+{{Creaturelookup/0|image=wolf_sprites.png|portrait=wolf_portrait_anim.gif|contrib=no|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|bone=11-12|fat=12-13|skin=hide|skull=1|meat=12-13|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

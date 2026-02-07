@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=ocean_sunfish_sprites.png
-|portrait=ocean_sunfish_portrait.png
-|contrib=no
-|wiki=yes
-|bone=11
-|meat=31
-|fat=8
-|skull=1
-|skin=scale
-|lung=2
-|heart=1
-|intestine=8
-|liver=2
-|tripe=2
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=2
-|eye=2
-}}
+{{Creaturelookup/0|image=ocean_sunfish_sprites.png|portrait=ocean_sunfish_portrait.png|contrib=no|wiki=yes|bone=11|meat=31|fat=8|skull=1|skin=scale|lung=2|heart=1|intestine=8|liver=2|tripe=2|sweetbread=1|spleen=1|kidney=2|brain=2|eye=2}}
 {{av}}
 {{creaturedesc}}
 

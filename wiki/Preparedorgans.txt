@@ -8,32 +8,7 @@ The organs produced depend on the type of animal as given in the raws. Mutilated
 All prepared organs have a [[Item value|base value]] of two. They are:
 
 {| style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable sortable"
-! Item !! Information !! Sprite
-|-
-| [[Meat]] (muscle) || ||
-|-
-| Prepared eye || Almost all corpses yield two. || style="text-align:center;" | [[File:eye_sprite.png]]
-|-
-| Prepared brain || || style="text-align:center;" | [[File:brain_sprite.png]]
-|-
-| Prepared lung || Double the number.<br>All butcherable creatures<br>with lungs have two. || style="text-align:center;" | [[File:lungs_sprite.png]]
-|-
-| Prepared heart || || style="text-align:center;" | [[File:heart_sprite.png]]
-|-
-| Chopped liver || || style="text-align:center;" | [[File:liver_sprite.png]]
-|-
-| Prepared intestines || || style="text-align:center;" | [[File:intestines_sprite.png]]
-|-
-| Tripe (stomach) || || style="text-align:center;" | [[File:tripe_sprite.png]]
-|-
-| Prepared [[gizzard]] || ||
-|-
-| Sweetbread (pancreas) || || style="text-align:center;" | [[File:sweetbread_sprite.png]]
-|-
-| Prepared spleen || || style="text-align:center;" | [[File:spleen_sprite.png]]
-|-
-| Prepared kidneys || Same as with the lungs. || style="text-align:center;" | [[File:kidney_sprite.png]]
-|}
+! Item !! Information !! Sprite|-| [[Meat]] (muscle) || |||-| Prepared eye || Almost all corpses yield two. || style="text-align:center;" | [[File:eye_sprite.png]]|-| Prepared brain || || style="text-align:center;" | [[File:brain_sprite.png]]|-| Prepared lung || Double the number.<br>All butcherable creatures<br>with lungs have two. || style="text-align:center;" | [[File:lungs_sprite.png]]|-| Prepared heart || || style="text-align:center;" | [[File:heart_sprite.png]]|-| Chopped liver || || style="text-align:center;" | [[File:liver_sprite.png]]|-| Prepared intestines || || style="text-align:center;" | [[File:intestines_sprite.png]]|-| Tripe (stomach) || || style="text-align:center;" | [[File:tripe_sprite.png]]|-| Prepared [[gizzard]] || |||-| Sweetbread (pancreas) || || style="text-align:center;" | [[File:sweetbread_sprite.png]]|-| Prepared spleen || || style="text-align:center;" | [[File:spleen_sprite.png]]|-| Prepared kidneys || Same as with the lungs. || style="text-align:center;" | [[File:kidney_sprite.png]]|}
 
 {{D for Dwarf}}
 

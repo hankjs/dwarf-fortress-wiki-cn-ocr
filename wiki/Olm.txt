@@ -1,8 +1,6 @@
 
 {{Quality|Fine}}
-{{verminlookup/0
-|image=olm_sprite.png
-|portrait=olm_portrait.png}}
+{{verminlookup/0|image=olm_sprite.png|portrait=olm_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

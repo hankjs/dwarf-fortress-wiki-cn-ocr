@@ -48,65 +48,44 @@ The "List Detail" is the information that is visible to the right of the name
 when viewing the category, and the "Stats" column describes what sort of information
 is available beneath the event list when viewing the entry's legends page.
 
-{| class="wikitable"
-|+ Caption text
-|-
-! Category !! Link Color !! List Detail !! Stats !! Description
-|-
-| Historical Figures 
+{| class="wikitable"|+ Caption text|-
+! Category !! Link Color !! List Detail !! Stats !! Description|-| Historical Figures 
    || Blue
    || Birth/Death year 
    || Related Historical Figures, Related Entities, Kills 
-   || [[megabeast]]s, [[forgotten beast]]s, [[demon]]s, [[deity|gods]], [[Dwarf|dwarves]], [[human]]s, [[goblin]]s, [[kobold]]s, and other named [[creature]]s
-|-
-| Sites 
+   || [[megabeast]]s, [[forgotten beast]]s, [[demon]]s, [[deity|gods]], [[Dwarf|dwarves]], [[human]]s, [[goblin]]s, [[kobold]]s, and other named [[creature]]s|-| Sites 
    || Orange 
    || Site Type
    || 
-   || See [[Site]]
-|-
-| Artifacts
+   || See [[Site]]|-| Artifacts
    || Yellow
    || [[Item]] material/type
    || Kills, Slayer (wielder during the kill)
-   || See [[Legendary artifact]]
-|-
-| Codices, scrolls, etc.
+   || See [[Legendary artifact]]|-| Codices, scrolls, etc.
    || Pink
    || [[Item]] material/type
    || 
-   || Items with writing from around the world. Includes all sorts of [[books]], [[slabs]], etc
-|-
-| Regions
+   || Items with writing from around the world. Includes all sorts of [[books]], [[slabs]], etc|-| Regions
    || Green
    ||
    ||
-   || See [[Region]]
-|-
-| Underground regions
+   || See [[Region]]|-| Underground regions
    || Purple
    || 
    || 
-   || These regions appear to all be "Unnamed underground area", and other events will refer to them as "the depths of the world". Forgotten beasts seem to spawn here.
-|-
-| Civilizations and other entities
+   || These regions appear to all be "Unnamed underground area", and other events will refer to them as "the depths of the world". Forgotten beasts seem to spawn here.|-| Civilizations and other entities
    || Teal
    ||
    || 
-   || [[civilization]]s, local governments, and [[religion]]s, etc
-|-
-| Structures
+   || [[civilization]]s, local governments, and [[religion]]s, etc|-| Structures
    || N/A
    || Structure Type
    || 
-   || Constructed/erected buildings found in sites. See [[structures]]
-|-
-| Chronicles by age
+   || Constructed/erected buildings found in sites. See [[structures]]|-| Chronicles by age
    || N/A
    || Number of historical events
    || 
    || A list of all historical events in chronological order that occur within a specific Age in the world history. Here, you can read the battle reports from various wars, or the duels that took place between long-dead champions, or the <s>burninations</s> rampages of [[megabeast]]s amongst the [[peasant]]s.  See [[Ages|here]] for a list of ages and their conditions.
-
 |}
 
 ==Exporting World information==

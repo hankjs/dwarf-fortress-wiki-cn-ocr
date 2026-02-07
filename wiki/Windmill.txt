@@ -1,12 +1,7 @@
 {{Quality|Fine}}
-{{V50 machine|name=Windmill|key=m
-|icon=[[File:windmill_icon.png]]
-|construction=
-* 4 [[wood|Log]]s
-|construction_job=
-* [[Carpentry]]
-|power=Generates 40, 20, or 0 power, depending on wind level
-}}{{av}}
+{{V50 machine|name=Windmill|key=m|icon=[[File:windmill_icon.png]]|construction=
+* 4 [[wood|Log]]s|construction_job=
+* [[Carpentry]]|power=Generates 40, 20, or 0 power, depending on wind level}}{{av}}
 
 :''For a basic overview of how the different machine parts work and work together, see [[Machine component|machinery]].''
 

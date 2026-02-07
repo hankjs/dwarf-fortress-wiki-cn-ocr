@@ -8,56 +8,27 @@ Creature variations can be contrasted with the other types of templates for crea
 Creature variations can add/convert almost all tokens, but {{token|APPLY_CREATURE_VARIATION|c}} is an exception, so you can’t nest creature variations.
 {{clear}}
 
-{| {{prettytable}}
-|- bgcolor="#999999"
+{| {{prettytable}}|- bgcolor="#999999"
 ! Token
 ! Arguments
 ! Description
-
-|-
-| {{text anchor|CV_NEW_TAG}}
-|
-*token (including token arguments)
-| Adds the given token to the target creature. E.g. [CV_NEW_TAG:BIOME:ANY_FOREST] gives the creature [BIOME:ANY_FOREST].
-
-|-
-| {{text anchor|CV_ADD_TAG}}
-|
-*token (including token arguments)
-| Alias for CV_NEW_TAG.
-
-|-
-| {{text anchor|CV_REMOVE_TAG}}
-|
-*leading token (name and) arguments
-| Removes all tokens from the target creature which start with the given chain of token arguments. E.g. [CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE] would remove [BODY:HUMANOID_SIMPLE:3_EYES], but [CV_REMOVE_TAG:BODY:3_EYES] would not. Neither would [CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE] be able to remove [BODY:HUMANOID_SIMPLE_NECK:3_EYES], as it looks for whole arguments. [CV_REMOVE_TAG:BODY] would remove both examples above, as they start with "BODY".
-
-|-
-| {{text anchor|CV_CONVERT_TAG}}
-|
-| Starts a conversion block, containing one {{token|CVCT_MASTER|cv}}, one {{token|CVCT_TARGET|cv}}, and one {{token|CVCT_REPLACEMENT|cv}}. Note that multiple conversion blocks are applied in what might appear as "reverse" order (see [[creature_variation_token#Application|Application]]).
-
-|-
-| {{text anchor|CVCT_MASTER}}
-|
-*leading token (name and) arguments
-| Specifies which tokens of the target creature may be converted, by looking at full arguments at the start of said token (like {{token|CV_REMOVE_TAG|cv}}). 
+|-| {{text anchor|CV_NEW_TAG}}|
+*token (including token arguments)| Adds the given token to the target creature. E.g. [CV_NEW_TAG:BIOME:ANY_FOREST] gives the creature [BIOME:ANY_FOREST].
+|-| {{text anchor|CV_ADD_TAG}}|
+*token (including token arguments)| Alias for CV_NEW_TAG.
+|-| {{text anchor|CV_REMOVE_TAG}}|
+*leading token (name and) arguments| Removes all tokens from the target creature which start with the given chain of token arguments. E.g. [CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE] would remove [BODY:HUMANOID_SIMPLE:3_EYES], but [CV_REMOVE_TAG:BODY:3_EYES] would not. Neither would [CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE] be able to remove [BODY:HUMANOID_SIMPLE_NECK:3_EYES], as it looks for whole arguments. [CV_REMOVE_TAG:BODY] would remove both examples above, as they start with "BODY".
+|-| {{text anchor|CV_CONVERT_TAG}}|| Starts a conversion block, containing one {{token|CVCT_MASTER|cv}}, one {{token|CVCT_TARGET|cv}}, and one {{token|CVCT_REPLACEMENT|cv}}. Note that multiple conversion blocks are applied in what might appear as "reverse" order (see [[creature_variation_token#Application|Application]]).
+|-| {{text anchor|CVCT_MASTER}}|
+*leading token (name and) arguments| Specifies which tokens of the target creature may be converted, by looking at full arguments at the start of said token (like {{token|CV_REMOVE_TAG|cv}}). 
 
 If no CVCT_MASTER is given, it is given no arguments, or the only argument it is given is blank (i.e. [CVCT_MASTER:]), all tokens of the target creature are selected.
-
-|-
-| {{text anchor|CVCT_TARGET}}
-|
-*string
-| Locates the specified string within all tokens specified by CVCT_MASTER.
+|-| {{text anchor|CVCT_TARGET}}|
+*string| Locates the specified string within all tokens specified by CVCT_MASTER.
 
 If no CVCT_TARGET is given, it is given no arguments, or the only argument it is given is blank (i.e. [CVCT_TARGET:]), the game will freeze when loading the creature.
-
-|-
-| {{text anchor|CVCT_REPLACEMENT}}
-|
-*string
-| Replaces the string specified by CVCT_TARGET within the tokens specified by CVCT_MASTER. This means the targeted part of a token can be changed anywhere in the token, e.g.
+|-| {{text anchor|CVCT_REPLACEMENT}}|
+*string| Replaces the string specified by CVCT_TARGET within the tokens specified by CVCT_MASTER. This means the targeted part of a token can be changed anywhere in the token, e.g.
  [CV_CONVERT_TAG]
  	[CVCT_MASTER:BODY]
  	[CVCT_TARGET:2EYES]
@@ -76,38 +47,21 @@ and [BODY:BASIC_1PARTBODY:BASIC_HEAD:HEART:GUTS:BRAIN:MOUTH:2EYESTALKS], you wil
 and [DESCRIPTION:This is an example creature. It is TRAIT, very very TRAIT.], you will get [DESCRIPTION:This is an example creature. It is modderiffic, very very modderiffic.].
 
 If no CVCT_REPLACEMENT is given, the target string is simply removed.
-
-|-
-| {{text anchor|CV_NEW_CTAG}}
-|
+|-| {{text anchor|CV_NEW_CTAG}}|
 *!ARG number
 *value for !ARG to match
-*token
-| Conditional variant of {{token|CV_NEW_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]].
-
-|-
-| {{text anchor|CV_ADD_CTAG}}
-|
+*token| Conditional variant of {{token|CV_NEW_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]].
+|-| {{text anchor|CV_ADD_CTAG}}|
 *!ARG number
 *value for !ARG to match
-*token
-| Alias for CV_NEW_CTAG.
-
-|-
-| {{text anchor|CV_REMOVE_CTAG}}
-|
+*token| Alias for CV_NEW_CTAG.
+|-| {{text anchor|CV_REMOVE_CTAG}}|
 *!ARG number
 *value for !ARG to match
-*token
-| Conditional variant of {{token|CV_REMOVE_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]].
-
-|-
-| {{text anchor|CV_CONVERT_CTAG}}
-|
+*token| Conditional variant of {{token|CV_REMOVE_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]].
+|-| {{text anchor|CV_CONVERT_CTAG}}|
 *!ARG number
-*value for !ARG to match
-| Conditional variant of {{token|CV_CONVERT_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]]. Uses {{token|CVCT_MASTER|cv}}, {{token|CVCT_TARGET|cv}}, and {{token|CVCT_REPLACEMENT|cv}}, just as the former.
-|}
+*value for !ARG to match| Conditional variant of {{token|CV_CONVERT_TAG|cv}}, see [[creature_variation_token#Arguments and conditional tokens|Arguments and conditional tokens]]. Uses {{token|CVCT_MASTER|cv}}, {{token|CVCT_TARGET|cv}}, and {{token|CVCT_REPLACEMENT|cv}}, just as the former.|}
 
 == Application ==
 

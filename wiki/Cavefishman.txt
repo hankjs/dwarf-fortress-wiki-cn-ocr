@@ -1,11 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=cave_fish_man_sprite.png
-|portrait=cave_fish_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=cave_fish_man_sprite.png|portrait=cave_fish_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 

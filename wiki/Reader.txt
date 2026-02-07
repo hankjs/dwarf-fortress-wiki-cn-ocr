@@ -1,16 +1,9 @@
 {{migrated article}}
 {{old}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 3:0
-| skill      = Reader
-| profession = Unknown
-| job name   = None
-| tasks      = None
-| attributes =
+{{Skill| color      = 3:0| skill      = Reader| profession = Unknown| job name   = None| tasks      = None| attributes =
 * Memory
-* Unknown
-}}
+* Unknown}}
 {{av}}
 
 '''Reader''' is a skill used to read objects containing writing, such as [[book]]s, signs and [[slab]]s (both built and unbuilt). The skill can be assigned points during [[adventurer mode#Character Creation|character creation]]. Currently, being a [[skill|novice]] reader is enough to read anything; getting a higher skill is regarded as a waste of points. 

@@ -34,9 +34,7 @@ Necromancers may sometimes pet their horrific failed experiments.
 *The bodily makeup of some experiments can make playing an adventure mode game extremely difficult. For example, an experiment may excrete boiling steam constantly, catching oneself and everyone else in the clouds of steam, which in turn causes constant message spam of everyone nearby getting caught in a cloud of steam, making gameplay nearly impossible.
 
 {| {{listboxformat|class=gamedata}}
-!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)
-|- style="text-align: left; display:table-cell; "
-| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-family: monospace; font-size:1.25em; white-space:pre;">[OBJECT:CREATURE]
+!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)|- style="text-align: left; display:table-cell; "| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-family: monospace; font-size:1.25em; white-space:pre;">[OBJECT:CREATURE]
 
 [CREATURE:HFEXP47672 E_HUMG_1]
 	[NAME:hulk of Kortulon:hulks of Kortulon:hulk of Kortulon]
@@ -946,9 +944,7 @@ Necromancers may sometimes pet their horrific failed experiments.
 	[GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
 	[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
 	[DESCRIPTION:A very large hairy scorpion.  It has three narrow tails.  Its charcoal hair is short and even.  This night creature was first created by the tan brute Mathe Cancerfilths the Beginning of Phantoms of Geniusdikes, through the fiend's twisted power unleashed upon mules in Geniusdikes in the year 112.]
-
-|-
-|}
+|-|}
 
 {{Creatures}}
 [[ru:Experiment]]

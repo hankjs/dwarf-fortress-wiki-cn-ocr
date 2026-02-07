@@ -17,28 +17,12 @@ Social skills are trained at the tavern, during a conversation between two or mo
 * [[Persuader]]
 * Negotiator
 * [[Consoler]]
-* Pacifier
-}}
+* Pacifier}}
 
 There are 7 different types of conversations, each with their own skill sets. Creatures will use whichever skills are available to them (based on their [[personality facet]]s), and if ''no'' skills are available, they will use Negotiation regardless. Skills which are especially relevant will have their skill rolls multiplied (by the number of checkmarks shown), and ones which are less relevant (marked with "x") will be cut in half.
 
 {| class="wikitable"
-! Task !! Conversation !! Comedy !! Flattery !! Judge intent !! Lying !! Intimidation !! Persuasion !! Negotiation !! Console !! Pacify
-|-
-| Calm Venter || √ || √ || √ || √ || √ || √ || √ || √ ||  || √√√
-|-
-| Vent ||  ||  ||  ||  ||  || √√ || √ || ||  || 
-|-
-| Discuss Request ||  ||  || x || √√ || √ || x || √ || √√√ ||  || 
-|-
-| Haggle ||  || √ || √ || √√√ || √ || √ || √√√ || √√ ||  || 
-|-
-| Cover for Gaffe ||  || √√ || √ ||  || √ || √ || x ||  ||  || √√
-|-
-| Console || x || √ || x ||  || √ ||  || √ || √ || √√√ || 
-|-
-| Chat || √ || √ || √ || √ || √ || √ || √ || √ || √ || √
-|}
+! Task !! Conversation !! Comedy !! Flattery !! Judge intent !! Lying !! Intimidation !! Persuasion !! Negotiation !! Console !! Pacify|-| Calm Venter || √ || √ || √ || √ || √ || √ || √ || √ ||  || √√√|-| Vent ||  ||  ||  ||  ||  || √√ || √ || ||  || |-| Discuss Request ||  ||  || x || √√ || √ || x || √ || √√√ ||  || |-| Haggle ||  || √ || √ || √√√ || √ || √ || √√√ || √√ ||  || |-| Cover for Gaffe ||  || √√ || √ ||  || √ || √ || x ||  ||  || √√|-| Console || x || √ || x ||  || √ ||  || √ || √ || √√√ || |-| Chat || √ || √ || √ || √ || √ || √ || √ || √ || √ || √|}
 
 ===Broker skills===
 The "haggle" skills listed above are used in (and trained by) trading, increasing the chances of a deal being successful. [[Judge of intent]] skill is particularly important as it allows a broker to see how a trader feels about a particular deal. Note that the [[Appraiser]] skill, which is not a social skill, is also very important during the trading process. The skill is required for the player to see the monetary value of sellable items, as well as how accurately their prices can be displayed.
@@ -59,58 +43,7 @@ Dwarves train their social skills when idling in meeting areas ''and'' they are 
 ! Skill
 ! Belief
 ! Facet
-! override
-|-
-|Persuader
-|ELOQUENCE ≥ -25
-|ASSERTIVENESS ≥ 25
-|ASSERTIVENESS > 75
-|-
-|Negotiator
-|(none)
-|(none)
-|N/A
-|-
-|Judge of Intent
-|(none)
-|(none)
-|N/A
-|-
-|Liar
-|TRUTH ≤ 10
-|(none)
-|N/A
-|-
-|Intimidator
-|POWER ≥ -25 <br> TRANQUILITY ≤ 25 <br> HARMONY ≤ 25
-|DISCORD ≥ 25 <br> ASSERTIVENESS ≥ 25
-|DISCORD > 75 <br> ASSERTIVENESS > 75
-|-
-|Conversationalist
-|ELOQUENCE ≥ 25 <br> HARMONY ≥ 25 <br> LEISURE_TIME ≥ -25 <br> COOPERATION ≥ -25
-|GREGARIOUSNESS ≥ 25 <br> BASHFUL ≤ 75
-|GREGARIOUSNESS > 75 <br> BASHFUL < 25
-|-
-|Comedian
-|MERRIMENT ≥ -25
-|HUMOR ≥ 25
-|HUMOR > 75
-|-
-|Flatterer
-|TRUTH ≤ 25
-|FRIENDLINESS ≥ 40
-|FRIENDLINESS > 75
-|-
-|Consoler
-|STOICISM ≤ 25
-|DISCORD ≤ 75 <br> CRUELTY ≤ 75 <br> SWAYED_BY_EMOTIONS ≥ 25
-|DISCORD < 25 <br> CRUELTY < 25 <br> SWAYED_BY_EMOTIONS > 75
-|-
-|Pacifier
-|PEACE ≥ -25
-|DISCORD ≤ 75
-|DISCORD < 25
-|}
+! override|-|Persuader|ELOQUENCE ≥ -25|ASSERTIVENESS ≥ 25|ASSERTIVENESS > 75|-|Negotiator|(none)|(none)|N/A|-|Judge of Intent|(none)|(none)|N/A|-|Liar|TRUTH ≤ 10|(none)|N/A|-|Intimidator|POWER ≥ -25 <br> TRANQUILITY ≤ 25 <br> HARMONY ≤ 25|DISCORD ≥ 25 <br> ASSERTIVENESS ≥ 25|DISCORD > 75 <br> ASSERTIVENESS > 75|-|Conversationalist|ELOQUENCE ≥ 25 <br> HARMONY ≥ 25 <br> LEISURE_TIME ≥ -25 <br> COOPERATION ≥ -25|GREGARIOUSNESS ≥ 25 <br> BASHFUL ≤ 75|GREGARIOUSNESS > 75 <br> BASHFUL < 25|-|Comedian|MERRIMENT ≥ -25|HUMOR ≥ 25|HUMOR > 75|-|Flatterer|TRUTH ≤ 25|FRIENDLINESS ≥ 40|FRIENDLINESS > 75|-|Consoler|STOICISM ≤ 25|DISCORD ≤ 75 <br> CRUELTY ≤ 75 <br> SWAYED_BY_EMOTIONS ≥ 25|DISCORD < 25 <br> CRUELTY < 25 <br> SWAYED_BY_EMOTIONS > 75|-|Pacifier|PEACE ≥ -25|DISCORD ≤ 75|DISCORD < 25|}
 
 Dwarves also train some social skills, at a much faster rate, when attending or conducting meetings, allthough only some social skills of the attending and the conducting dwarf are trained and used, ie. in case of complaining some of the trained skills are the intimidator and persuader skill (of the dwarves attending and conducting the meeting) and the consoler/pacifier skill of the dwarf conducting the meeting and the conversationalist, negotiator, judge of intend, comedian, pacifier and consoler skill of the complaining dwarf are not trained. Here the trained social skills are not raised at the same rate (ie. the intimidator skill of the complainer seems to be increased about two times as fast as the persuader skill). 
 

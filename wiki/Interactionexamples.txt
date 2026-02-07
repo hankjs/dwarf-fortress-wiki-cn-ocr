@@ -18,8 +18,7 @@ Some examples:
 
 [CE_SKILL_ROLL_ADJUST:PERC:100:PERC_ON:0:START:0:END:1:DWF_STRETCH:144] <-- Multiplies the target's skill by 100%, 0% of the time
 
-[CE_MATERIAL_FORCE_MULTIPLIER:PROB:100:MAT_MULT:NONE:NONE:1:1:START:0:END:1:DWF_STRETCH:144] <-- Makes the target take 1/1 times its normal damage from attacks
-}}
+[CE_MATERIAL_FORCE_MULTIPLIER:PROB:100:MAT_MULT:NONE:NONE:1:1:START:0:END:1:DWF_STRETCH:144] <-- Makes the target take 1/1 times its normal damage from attacks}}
 
 So if you see tags like this in the examples below, this is what they are for.
 
@@ -53,8 +52,7 @@ Following are several examples of material emission interactions.
 		[IE_TARGET:A]
 		[IE_TARGET:B]
 		[IE_TARGET:C]
-		[IE_IMMEDIATE]</nowiki>
-}}
+		[IE_IMMEDIATE]</nowiki>}}
 
 
 By adding additional [I_EFFECT:MATERIAL_EMISSION] tags with their associated targets, you may stack additional projectiles.
@@ -75,8 +73,7 @@ By adding additional [I_EFFECT:MATERIAL_EMISSION] tags with their associated tar
 		[IE_TARGET:A]
 		[IE_TARGET:B]
 		[IE_TARGET:C]
-		[IE_IMMEDIATE]</nowiki>
-}}
+		[IE_IMMEDIATE]</nowiki>}}
 
 If a material is listed in this format, the creature will not need a [CDI:MATERIAL] tag in their creature raws in order to use it. This allows projectile attacks to be gained through substance ingestion, other interactions, etc.
 
@@ -103,8 +100,7 @@ If a material is listed in this format, the creature will not need a [CDI:MATERI
 		[IE_TARGET:A1]
 		[IE_TARGET:B]
 		[IE_TARGET:C]
-		[IE_IMMEDIATE]</nowiki>
-}}
+		[IE_IMMEDIATE]</nowiki>}}
 
 This interaction fires both a solid glob of basalt and a liquid glob of granite magma.
 
@@ -138,8 +134,7 @@ This interaction fires both a solid glob of basalt and a liquid glob of granite 
 			[SYN_CLASS:NO_EMISSION]
 			[SYN_NAME:protection from projectiles]
 			[CE_FLASH_TILE:TILE:'O':7:0:1:FREQUENCY:2000:1000:START:0:END:2:ABRUPT:DWF_STRETCH:144]
-</nowiki>
-}}
+</nowiki>}}
 
 Material emissions used in this format are affected by [IT_CANNOT_HAVE_SYNDROME_CLASS:X] tags (given above as the custom tag NO_EMISSION). This allows a modder to create immunity syndromes, disallowing a creature using the emission interaction from targeting the creature with immunity.
 
@@ -172,8 +167,7 @@ An attack that hits all procedurally-generated zombies and ghouls.
 			[CE_DIZZINESS:SEV:200:PROB:100:START:0:END:8:DWF_STRETCH:144]
 			[CE_NAUSEA:SEV:200:PROB:100:START:0:END:8:DWF_STRETCH:144]
 			[CE_PAIN:SEV:100:PROB:100:START:0:END:8:DWF_STRETCH:144]
-</nowiki>
-}}
+</nowiki>}}
 
 ===Smite Evil===
 An attack that hits all procedurally-generated bogeymen, night creatures, vampires, werebeasts, demons, and... angels. There does not currently appear to be a way of excluding angels. (Eh, it's DF angels, they probably count as evil anyway).
@@ -210,8 +204,7 @@ An attack that hits all procedurally-generated bogeymen, night creatures, vampir
 			[CE_DIZZINESS:SEV:200:PROB:100:START:0:END:8:DWF_STRETCH:144]
 			[CE_NAUSEA:SEV:200:PROB:100:START:0:END:8:DWF_STRETCH:144]
 			[CE_PAIN:SEV:100:PROB:100:START:0:END:8:DWF_STRETCH:144]
-</nowiki>
-}}
+</nowiki>}}
 
 ==Multi-Stage Interactions==
 These are more elaborate groups of interactions that allow you to create complex behaviors by using interactions to enable or disable other interactions.
@@ -303,8 +296,7 @@ This is intended to be used by non-playable units, like animals or zombies.
 			[SYN_CLASS:EXPLOSION_OVERRIDE]
 			[CE_SPEED_CHANGE:SPEED_PERC:100:START:0:END:2:DWF_STRETCH:144]
 
-</nowiki>
-}}
+</nowiki>}}
 
 ==Transformation Interactions==
 These are interactions that will cause a creature to transform into another creature.
@@ -327,8 +319,7 @@ This is a fairly straightforward transformation, as it only relies on one caste 
 			[CE_BODY_TRANSFORMATION:START:0:PEAK:0:END:5:ABRUPT:DWF_STRETCH:144]
 				[CE:CREATURE_CASTE_FLAG:DEMON] 
 			[CE_ADD_TAG:NO_AGING:START:0:PEAK:0:END:5:ABRUPT:DWF_STRETCH:144]
-</nowiki>
-}}
+</nowiki>}}
 
 Note that this interaction will not work in arena mode due to the lack of generated creatures in that mode. However, it will work if a creature performs the interaction in a loaded world that contains generated demons.
 
@@ -365,8 +356,7 @@ Transformation syndromes that turn a creature into a titan or demon only really 
 				[CE:FORBIDDEN_CREATURE_CASTE_FLAG:TITAN]
 				[CE:FORBIDDEN_CREATURE_CASTE_FLAG:UNIQUE_DEMON]
 			[CE_ADD_TAG:NO_AGING:START:0:PEAK:0:END:5:ABRUPT:DWF_STRETCH:144]
-</nowiki>
-}}
+</nowiki>}}
 
 Note that this interaction will not work in arena mode due to the lack of generated creatures in that mode. However, it will work if a creature performs the interaction in a loaded world that contains vault guardians.
 
@@ -401,8 +391,7 @@ An item's [[magic]]{{version|51.01-beta26}} field can hold an interaction. This 
        [IE_TARGET:B]
        [IE_TARGET:C]
        [IE_IMMEDIATE]
-</nowiki>
-}}
+</nowiki>}}
 
 ==See Also==
 * [[Creature examples]]

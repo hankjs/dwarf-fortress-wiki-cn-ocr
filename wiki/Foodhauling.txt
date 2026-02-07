@@ -1,8 +1,6 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Labor
-| labor      = Food Hauling
-| tasks      =
+{{Labor| labor      = Food Hauling| tasks      =
 * Store [[food]] in stockpile}}
 {{av}}
 

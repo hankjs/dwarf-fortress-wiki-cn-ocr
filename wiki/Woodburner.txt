@@ -1,24 +1,12 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| graphic    = [[File:wood_burner_sprite_icon.png]]
-| graphicmargin = 107px
-| skill      = Wood Burner
-| profession = [[Farmer]]
-| job name   = [[Wood burning]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| graphic    = [[File:wood_burner_sprite_icon.png]]| graphicmargin = 107px| skill      = Wood Burner| profession = [[Farmer]]| job name   = [[Wood burning]]| tasks      =
 * turn wood into ash
-* turn wood into charcoal
-| workshop   = [[Wood furnace]]
-| attributes =
+* turn wood into charcoal| workshop   = [[Wood furnace]]| attributes =
 * Strength
 * Toughness
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 '''Wood burner''' is the [[skill]] associated with the wood burning [[labor]], where [[Dwarf|dwarves]] turn [[wood]] into either [[ash]] or [[charcoal]] at a [[wood furnace]]. Dwarves with high skill level accomplish these tasks more quickly. Typically, a wood stockpile and a bar/block stockpile are placed near the furnaces.
 
 ==How do I get dwarves to burn wood?==

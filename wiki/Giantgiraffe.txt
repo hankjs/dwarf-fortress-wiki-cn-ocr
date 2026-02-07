@@ -1,26 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_giraffe_sprite.png
-|portrait=giraffe_portrait_anim.gif
-|contrib=no
-|bone=70-102
-|meat=150-223
-|fat=41-58
-|eye=2
-|lung=12-20
-|heart=3-5
-|intestine=20-30
-|liver=6-10
-|tripe=6-10
-|sweetbread=3-5
-|spleen=3-5
-|kidney=6-10
-|brain=6-10
-|skull=1
-|tooth=1
-|horns=2
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_giraffe_sprite.png|portrait=giraffe_portrait_anim.gif|contrib=no|bone=70-102|meat=150-223|fat=41-58|eye=2|lung=12-20|heart=3-5|intestine=20-30|liver=6-10|tripe=6-10|sweetbread=3-5|spleen=3-5|kidney=6-10|brain=6-10|skull=1|tooth=1|horns=2|skin=hide}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

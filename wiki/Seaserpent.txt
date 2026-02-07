@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=sea_serpent_sprites.png
-|portrait=sea_serpent_portrait.png
-|contrib=no
-|eye=2
-|lung=36-46
-|heart=8-12
-|intestine=54-70
-|liver=18-24
-|tripe=18-24
-|sweetbread=8-12
-|spleen=8-12
-|kidney=18-24
-|fat=35-85
-|brain=18-24
-|skull=1
-|meat=104-412
-|bone=58-79
-|skin=scale
-|tooth=3
-|wiki=yes
-}}
+{{Creaturelookup/0|image=sea_serpent_sprites.png|portrait=sea_serpent_portrait.png|contrib=no|eye=2|lung=36-46|heart=8-12|intestine=54-70|liver=18-24|tripe=18-24|sweetbread=8-12|spleen=8-12|kidney=18-24|fat=35-85|brain=18-24|skull=1|meat=104-412|bone=58-79|skin=scale|tooth=3|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

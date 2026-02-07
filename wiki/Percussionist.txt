@@ -1,13 +1,6 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 3:0
-| skill      = Percussionist
-| profession = 
-| job name   = 
-| tasks      = 
-| attributes =
-}}
+{{Skill| color      = 3:0| skill      = Percussionist| profession = | job name   = | tasks      = | attributes =}}
 {{av}}
 
 '''Percussionist''' is a [[performance]] skill, used to play percussion [[instruments]].

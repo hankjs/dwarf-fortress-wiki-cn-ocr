@@ -7,12 +7,7 @@
 * A potential name for a [[criminal]] [[boss]]
 * A [[Noble|position]] held by the [[Demon|supernatural leaders]] of [[goblin]] [[civilization]]s
 
-{{Translation
-| dwarven = kôn
-| elvish  = ithera
-| goblin  = âs
-| human   = siñur
-}}
+{{Translation| dwarven = kôn| elvish  = ithera| goblin  = âs| human   = siñur}}
 
 {{disambig}}
 [[ru:Master]]

@@ -2,12 +2,7 @@
 {{av}}
 
 {{For/see|military activities in fortress mode|[[Military]]}}
-{{Dual image
-|premium=File:Traveling armies adventure.png
-|classic=File:Advmode_fasttravel_DF2014.png
-|caption=Armies on the [[Adventurer mode gameplay#Fast travel|world map]].
-|width=368px
-}}
+{{Dual image|premium=File:Traveling armies adventure.png|classic=File:Advmode_fasttravel_DF2014.png|caption=Armies on the [[Adventurer mode gameplay#Fast travel|world map]].|width=368px}}
 '''Armies''' are groups of people wandering the world with a specific purpose and direction. The words 'army' and 'group' are used loosely; an 'army' simply represents the abstract data structures used by [[main:Toady One|Toady One]] to keep track of moving people, and a 'group' can very well be one single person. Armies draw from existing populations (both abstract and [[historical figure]]s) and can be encountered in the wild after [[world generation]]. Non-army entities always sit where they are, at their site of origin, and don't move after world generation.
 
 The following groups are considered armies by the game:

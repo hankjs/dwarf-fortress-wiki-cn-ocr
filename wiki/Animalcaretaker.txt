@@ -1,18 +1,10 @@
 {{Quality|Unrated}}
 {{av}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:green_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Animal Caretaker
-| profession = [[Ranger]]
-| job name   = [[Animal care]]
-| attributes =
+{{v50_skill| color      = 2:0| graphic    = [[File:green_sprite_icon.png]]| graphicmargin = 106px| skill      = Animal Caretaker| profession = [[Ranger]]| job name   = [[Animal care]]| attributes =
 * Agility
 * Analytical Ability
 * Memory
-* Empathy
-}}
+* Empathy}}
 {{Buggy|withoutbugsection=1}}
 
 '''Animal caretaking''' ''should be'' the [[skill]] used by [[dwarves]] to treat any [[wound|injured]] [[pet]] assigned to them (as long as they have the [[labor]] enabled), as well as feeding any hungry/thirsty animals on chains (by default, only grazers).

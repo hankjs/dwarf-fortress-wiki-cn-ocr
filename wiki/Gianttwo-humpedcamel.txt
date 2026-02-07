@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_two_humped_camel_sprite.png
-|portrait=two_humped_camel_portrait_anim.gif
-|contrib=no
-|bone=46
-|tooth=1
-|meat=82
-|skin=hide
-|skull=1
-|brain=4
-|hair=1
-|kidney=4
-|spleen=2
-|sweetbread=2
-|tripe=4
-|liver=4
-|intestines=14
-|heart=2
-|lung=8
-|eye=2
-|fat=49
-}}
+{{Creaturelookup/0|image=giant_two_humped_camel_sprite.png|portrait=two_humped_camel_portrait_anim.gif|contrib=no|bone=46|tooth=1|meat=82|skin=hide|skull=1|brain=4|hair=1|kidney=4|spleen=2|sweetbread=2|tripe=4|liver=4|intestines=14|heart=2|lung=8|eye=2|fat=49}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

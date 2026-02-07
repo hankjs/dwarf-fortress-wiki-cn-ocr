@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=capybara_sprites.png
-|portrait=capybara_portrait_anim.gif
-|contrib=no
-|bone=11
-|skin=hide
-|skull=1
-|fat=11
-|meat=11
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|wiki=yes}}
+{{Creaturelookup/0|image=capybara_sprites.png|portrait=capybara_portrait_anim.gif|contrib=no|bone=11|skin=hide|skull=1|fat=11|meat=11|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

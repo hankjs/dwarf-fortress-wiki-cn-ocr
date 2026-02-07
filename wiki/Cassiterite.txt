@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_silvery2_sprite.png}}
+{{stonelookup/0|graphic=ore_silvery2_sprite.png}}
 {{av}}
 
 '''Cassiterite''' is the only [[ore]] of [[tin]].  This ore can also be smelted into the [[alloy]]s [[bronze]], [[trifle pewter]], and [[fine pewter]].

@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=calcite_sprite.png}}
+{{stonelookup/0|graphic=calcite_sprite.png}}
 {{av}}
 '''Calcite''' is a [[flux]] stone; however, it's not particularly special, as it is found solely within [[limestone]] and [[marble]], both of which are ''also'' flux. Its only distinguishing characteristic is that it is a [[magma-safe]] rock.
 

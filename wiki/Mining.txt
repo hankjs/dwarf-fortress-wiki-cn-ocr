@@ -1,11 +1,7 @@
 {{Quality|Exceptional|23:24, 14 March 2024 (CST)}}
-{{Labor
-| labor      = Mining
-| skill      = * [[Miner]]
-| tasks      =
+{{Labor| labor      = Mining| skill      = * [[Miner]]| tasks      =
 * Dig
-* [[Construction removal|Remove construction]]
-}}
+* [[Construction removal|Remove construction]]}}
 {{av}}
 [[File:mining_anim_v50.gif|thumb|189px|right|A designated area being mined.]]'''Mining''' is an essential part of building a fort in ''Dwarf Fortress''. There are several reasons you might want to mine, such as [[exploratory mining|searching]] for various [[stone|stone types]], [[ore]]s and [[gem]]s, or simply to create the basic tunnels and [[zone|room]]s in your fort. Mining refers to either the [[skill]] that performs mining, the [[labor]] associated with it, or simply the task or job of performing said labor. Military dwarves equipped with picks will use mining as their "[[Combat skill|weapon skill]]." Mining through softer materials such as [[sand]] or [[soil]] is much faster than mining through stone.
 

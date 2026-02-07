@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_sunstone_sprite.png
-|graphic2=rough_sunstone_sprite.png}}
+{{gemlookup/0|graphic=cut_sunstone_sprite.png|graphic2=rough_sunstone_sprite.png}}
 {{av}}
 
 '''Sunstones''' are unremarkable low-value [[gem]]s, found solely in [[basalt]] and [[gneiss]].

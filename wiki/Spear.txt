@@ -14,12 +14,7 @@ Spears may also be installed in [[trap#Upright Spear/Spike|upright spear traps]]
 * When a non-adamantine metal spear is [[melt|melted down]], it will return '''0.9''' metal bars, for an '''efficiency of 90%'''.
 * When an adamantine spear is melted down, it will produce '''0.9''' wafers, for an '''efficiency of 30%'''
 
-{{Translation
-| dwarven = lokum
-| elvish  = iti
-| goblin  = bukza
-| human   = asi
-}}
+{{Translation| dwarven = lokum| elvish  = iti| goblin  = bukza| human   = asi}}
 
 {{gamedata}}
 {{Weapons}}

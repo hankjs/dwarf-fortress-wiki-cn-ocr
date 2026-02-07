@@ -42,26 +42,7 @@ Notes:
 * Images can take many forms, often influenced by the artist's preferences or interests. [[Names_and_symbols#Symbols|Group symbols]] can be depicted in engravings.
 
 
-{| border = 1 cellspacing="0" cellpadding="5" 
-| align="center" style="background:#f0f0f0;"|'''Decoration'''
-| align="center" style="background:#f0f0f0;"|'''Furniture'''
-| align="center" style="background:#f0f0f0;"|'''Crafts'''
-| align="center" style="background:#f0f0f0;"|'''Clothing'''
-| align="center" style="background:#f0f0f0;"|'''Armor'''
-| align="center" style="background:#f0f0f0;"|'''Weapons'''
-| align="center" style="background:#f0f0f0;"|'''Ammo'''
-|-
-| Bone, Hoof, Ivory or tooth, Pearl, Shell || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}}
-|-
-| Gem || {{Y}} || {{Y}} || {{Y}} || {{N}} || {{N}} || {{Y}}
-|-
-| Metal studs || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}}
-|-
-| Cloth || {{Y}} (bags) || {{Y}}(1) || {{Y}} || {{Y}} (leather) || {{N}} || {{N}}
-|-
-| Leather || {{Y}} (bags) || {{Y}}(1) || {{Y}} || {{Y}} (leather) || {{N}} || {{N}}
-|-
-|}
+{| border = 1 cellspacing="0" cellpadding="5" | align="center" style="background:#f0f0f0;"|'''Decoration'''| align="center" style="background:#f0f0f0;"|'''Furniture'''| align="center" style="background:#f0f0f0;"|'''Crafts'''| align="center" style="background:#f0f0f0;"|'''Clothing'''| align="center" style="background:#f0f0f0;"|'''Armor'''| align="center" style="background:#f0f0f0;"|'''Weapons'''| align="center" style="background:#f0f0f0;"|'''Ammo'''|-| Bone, Hoof, Ivory or tooth, Pearl, Shell || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}}|-| Gem || {{Y}} || {{Y}} || {{Y}} || {{N}} || {{N}} || {{Y}}|-| Metal studs || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}} || {{Y}}|-| Cloth || {{Y}} (bags) || {{Y}}(1) || {{Y}} || {{Y}} (leather) || {{N}} || {{N}}|-| Leather || {{Y}} (bags) || {{Y}}(1) || {{Y}} || {{Y}} (leather) || {{N}} || {{N}}|-|}
 
 (1) only finished goods made from cloth and leather are acceptable. These are ropes, quivers, waterskins, backpacks and cloth/leather crafts.
 

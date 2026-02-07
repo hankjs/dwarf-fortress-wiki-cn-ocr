@@ -1,26 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=elephant_seal_sprites.png
-|portrait=elephant_seal_portrait_anim.gif
-|bone=13-26
-|tooth=0-1
-|meat=22-107
-|fat=8-21
-|brain=1-8
-|lung=2-16
-|heart=1-4
-|intestine=5-26
-|liver=1-8
-|tripe=1-8
-|sweetbread=1-4
-|spleen=1-4
-|kidney=2-8
-|eye=2
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=elephant_seal_sprites.png|portrait=elephant_seal_portrait_anim.gif|bone=13-26|tooth=0-1|meat=22-107|fat=8-21|brain=1-8|lung=2-16|heart=1-4|intestine=5-26|liver=1-8|tripe=1-8|sweetbread=1-4|spleen=1-4|kidney=2-8|eye=2|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

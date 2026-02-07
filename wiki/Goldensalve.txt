@@ -8,17 +8,14 @@ Because golden salve is stored in [[vial]]s, you will need to search for vials w
 {{Translation| dwarven = limul sibrek | elvish = ithi olaca | goblin = ongong spug | human = abli bemta}}
 [[File:golden_salve.png|thumb|240px|center|Even has that gold taste.]]
 
-{{gamedata
-|title=[[Valley herb/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Valley herb/raw|Raws]]|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen golden salve]
 	[STATE_NAME_ADJ:LIQUID:golden salve]
 	[STATE_NAME_ADJ:GAS:boiling golden salve]
 	[MATERIAL_VALUE:100]
 	[DISPLAY_COLOR:6:0:1]
 	[EXTRACT_STORAGE:FLASK]
-	[PREFIX:NONE]
-}}
+	[PREFIX:NONE]}}
 {{materials}}
 
 {{Category|Extracts}}

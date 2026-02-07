@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{Stonelookup/0
-|graphic=ore_dullgrey_sprite.png
-|wiki = Aluminium#Natural_occurrence}}{{av}}
+{{Stonelookup/0|graphic=ore_dullgrey_sprite.png|wiki = Aluminium#Natural_occurrence}}{{av}}
 '''Native aluminum''' is the only [[ore]] of [[aluminum]], a [[metal]] with the same [[value]] as [[platinum]]. It occurs in [[cluster|small clusters]] and is relatively rare.
 
 === In real life ===

@@ -796,8 +796,7 @@ A complete list of every creature in the game, including vermin.
 {{CreatureComplete table row|name=[[Wren]]|symbol=∙|color=6:0:0|food=No|type=Vermin|playable=No|area= Above ground|hostile=No|size=40|value=30|biome=Any grassland, savanna, shrubland, forest, desert and wetland|note=}}
 {{CreatureComplete table row|name=[[Yak]]|symbol=Y|color=6:0:0|food=Yes|type=Animal|playable=No|area=Above ground|hostile=No|size=700,000|value=200|biome=Mountains|note= }}
 {{CreatureComplete table row|name=[[Yellow bullhead]]|symbol=α|color=6:0:0|food=Yes|type=Vermin|playable=No|area= Aquatic|hostile=No|size=200|value=N/A|biome=Temperate brackish and freshwater lakes|note=}}
-{{CreatureComplete table row|name=[[Yeti]]|symbol=Y|color=7:0:1|food=Yes|type=Animal|playable=No|area=Above ground|hostile=Yes|size=300,000|value=n/a|biome=Mountain, glacier, tundra|note=}}
-|}
+{{CreatureComplete table row|name=[[Yeti]]|symbol=Y|color=7:0:1|food=Yes|type=Animal|playable=No|area=Above ground|hostile=Yes|size=300,000|value=n/a|biome=Mountain, glacier, tundra|note=}}|}
 ==Creature Biomes and Locations==
 This section has the various creatures sorted based on biomes and locations.
 
@@ -829,7 +828,6 @@ Here you can view all domestic creatures and sort them based on how you may use 
 {{CreatureDomesticUse table row|name=[[Two-humped camel]]|symbol=C|color=6:0:0|food=Yes|size=500,000|value=500|wildcaught=Yes, Any desert|egg=No|milk=Yes|shear=No|packanimal=Yes|wagonpuller=No|trainable=No|note=}}
 {{CreatureDomesticUse table row|name=[[Wagon]]|symbol=W|color=6:0:0|food=No|size=12,000|value=Not tameable|wildcaught=No|egg=No|milk=No|shear=No|packanimal=No|wagonpuller=No|trainable=No|note=A special "creature" - see [[wagon|article]] }}
 {{CreatureDomesticUse table row|name=[[Water buffalo]]|symbol=W|color=0:0:1|food=Yes|size=1,000,000|value=200|wildcaught=Yes, Tropical wetland|egg=No|milk=Yes|shear=No|packanimal=Yes|wagonpuller=Yes|trainable=No|note=}}
-{{CreatureDomesticUse table row|name=[[Yak]]|symbol=Y|color=6:0:0|food=Yes|size=700,000|value=200|wildcaught=Yes, Mountains|egg=No|milk=Yes|shear=No|packanimal=Yes|wagonpuller=Yes|trainable=No|note=}}
-|}
+{{CreatureDomesticUse table row|name=[[Yak]]|symbol=Y|color=6:0:0|food=Yes|size=700,000|value=200|wildcaught=Yes, Mountains|egg=No|milk=Yes|shear=No|packanimal=Yes|wagonpuller=Yes|trainable=No|note=}}|}
 {{Category|Creatures| }}
 [[ru:Alternate creature sorting]]

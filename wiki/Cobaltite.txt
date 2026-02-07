@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=cobalite_sprite.png}}
+{{stonelookup/0|graphic=cobalite_sprite.png}}
 {{av}}
 
 '''Cobaltite''' is a black stone in Premium mode, or a brilliant blue stone in ASCII mode. Its particularly high [[density]] makes it useful for [[trap#Stone-fall_Trap|stone-fall traps]] and as [[catapult]] ammunition, and its color makes it well-suited for various aesthetic (''that is, mostly non-item decoration'') purposes. 

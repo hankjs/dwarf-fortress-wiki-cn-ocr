@@ -10,8 +10,7 @@ Flour will be used in the [[kitchen]] when 'prepare meal' tasks are queued if it
 == Flour Varieties ==
 The following crops can be made into flour:
 
-{| class="wikitable sortable collapsible"
-|-
+{| class="wikitable sortable collapsible"|-
 ! Crop name
 ! 
 ! Crop value
@@ -44,8 +43,7 @@ The following crops can be made into flour:
 {{flour table row|name=Fonio|tile=t|colour=2:0}}
 {{flour table row|name=Teff|tile=t|colour=2:0}}
 {{flour table row|name=Flax|tile=t|colour=2:0}}
-{{flour table row|name=Hemp|tile=t|colour=2:0}}
-|}
+{{flour table row|name=Hemp|tile=t|colour=2:0}}|}
 
 [[Flax]] and [[hemp]] are unique among flour-producing plants in that they also produce [[plant fiber]]; that is, it is possible to make both the flour and the containers that hold it from one plant.  Their [[seed]]s can also be used to produce [[oil]].  Most of the other listed plants can be brewed into [[alcohol]] instead and are functionally about the same.  [[Blood amaranth]] and [[purple amaranth]] deserve special mention since they also grow edible [[leaves]].  [[Whip vine]] flour is more expensive than others, and [[oats]] are inferior to other choices as they cannot be brewed.
 

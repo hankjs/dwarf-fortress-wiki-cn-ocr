@@ -1,17 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=white_handed_gibbon_sprites.png
-|portrait=white_handed_gibbon_portrait.png
-|contrib=no
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|skin=hide
-|wiki=Lar gibbon
-}}
+{{Creaturelookup/0|image=white_handed_gibbon_sprites.png|portrait=white_handed_gibbon_portrait.png|contrib=no|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|skin=hide|wiki=Lar gibbon}}
 {{av}}
 {{creaturedesc}}
 

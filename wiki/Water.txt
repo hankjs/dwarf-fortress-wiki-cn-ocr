@@ -53,35 +53,9 @@ Water (as well as [[magma]]) can be one of seven different depths.  You can find
 Water depth ranges from 0-7, where 0 is no water and 7 is maximum depth.  Note that water depth is ''per [[Z-level]]'' (or z-index); that is, if a tile is at depth 7/7, it means that the water ''on that level'' is at maximum depth, not that the water extends down 7 Z-levels.  A lake three Z-levels deep, with each level having 7/7 depth, can be thought of as having 21 levels of depth.
 
 Looking at water lower than the depth of its surface can reveal things that are swimming around or have fallen into it.
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Depth
-! Description
-|-
-| 0
-| No water present.
-|-
-| 1
-| Water may evaporate. No effect on dwarven jobs.
-|-
-| 2
-| Knee-deep. Dwarves will suspend build orders if an affected tile has 2/7 or more water.
-|-
-| 3
-| Waist-deep. Water at this depth or lower will cause suffocation in [[aquatic]] creatures.
-|-
-| 4
-| Dangerous terrain. Movement trains [[swimming]]. Dwarves will not path through water at 4/7 or higher. Minimum height to make an ice wall when frozen.
-|-
-| 5
-| Head height. [[Minecart]]s will skip over fluids at this level.
-|-
-| 6
-| Over a dwarf's head, but even non-swimmers can tread water at this height for a time. [[Minecart]]s will collect fluids at this level.
-|-
-| 7
-| Risk of drowning. Can have water on floorless tile above. [[Fortification|Fortifications]] no longer provide a barrier to creature movement.{{Bug|3327}}
-|}
+! Description|-| 0| No water present.|-| 1| Water may evaporate. No effect on dwarven jobs.|-| 2| Knee-deep. Dwarves will suspend build orders if an affected tile has 2/7 or more water.|-| 3| Waist-deep. Water at this depth or lower will cause suffocation in [[aquatic]] creatures.|-| 4| Dangerous terrain. Movement trains [[swimming]]. Dwarves will not path through water at 4/7 or higher. Minimum height to make an ice wall when frozen.|-| 5| Head height. [[Minecart]]s will skip over fluids at this level.|-| 6| Over a dwarf's head, but even non-swimmers can tread water at this height for a time. [[Minecart]]s will collect fluids at this level.|-| 7| Risk of drowning. Can have water on floorless tile above. [[Fortification|Fortifications]] no longer provide a barrier to creature movement.{{Bug|3327}}|}
 
 === Sourced water ===
 Water that comes from [[aquifer]]s, as well as any water source that extends from the edge of the map ([[river]]s, [[brook]]s, [[ocean]]s, and some [[lake]]s)  is considered to be '''sourced water'''. Any sourced water is an endless supply of water that can never run dry, although it can freeze for part or all of the year in colder biomes. Murky pools, although not 'sourced water' as described here, also slowly generate water during [[rain]] storms. This can make it possible for a murky pool to replenish itself even when it has been completely drained.
@@ -141,12 +115,7 @@ Due to the way the game handles water flow, making your drainage vertical rather
 
 Dwarves, especially babies, have an almost-supernatural talent for finding ways to get washed down drains. Putting [[grate]]s or floor [[bars]] over any drainage holes, no matter how unlikely they seem, will reduce tantrums by grieving parents.
 [[File:water_preview2.jpg|thumb|250px|center|Liquid of life. or more commonly in Dwarf Fortress: liquid of !!FUN!!]]
-{{Translation
-| dwarven = arel
-| elvish  = alu
-| goblin  = esp
-| human   = thomo
-}}
+{{Translation| dwarven = arel| elvish  = alu| goblin  = esp| human   = thomo}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|WATER}}}}
 {{materials}}

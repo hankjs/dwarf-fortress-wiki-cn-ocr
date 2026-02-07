@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=horse_sprites.png
-|portrait=horse_portrait_anim.gif
-|contrib=no
-|bone=13
-|meat=9-10
-|fat=8-9
-|skull=1
-|skin=hide
-|hoof=4
-|eye=2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=horse_sprites.png|portrait=horse_portrait_anim.gif|contrib=no|bone=13|meat=9-10|fat=8-9|skull=1|skin=hide|hoof=4|eye=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -37,12 +16,7 @@ Some dwarves [[Preferences|like]] horses for their ''strength''.
 {{D for Dwarf}}
 Horses are '''everywhere'''. That "dwarven" fortress over the distance? It's one dwarf and about 500 horses. The whole world is horses. I'm horses. Hell, you're probably horses too. Neigh.
 
-{{Translation
-| dwarven = famthut
-| elvish  = remìni
-| goblin  = smuz
-| human   = mimap
-}}
+{{Translation| dwarven = famthut| elvish  = remìni| goblin  = smuz| human   = mimap}}
 
 {{Gamedata}}
 {{Creatures}}

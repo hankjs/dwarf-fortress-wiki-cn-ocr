@@ -80,13 +80,10 @@ Note that the Furniture Hauling labor both places furniture you choose to build 
 
 == List of furniture, siege ammo, and other items used in buildings ==
 
-{| cellspacing=5 cellpadding=10
-|-
+{| cellspacing=5 cellpadding=10|-
 !colspan=3|Furniture/Siege ammo
 ! 
-:Other items used in<br>{{Menu icon|b}} buildings
-|-
-|valign=top|
+:Other items used in<br>{{Menu icon|b}} buildings|-|valign=top|
 :[[Anvil]]
 :[[Armor stand]]
 :[[Ballista arrowhead]]
@@ -96,7 +93,6 @@ Note that the Furniture Hauling labor both places furniture you choose to build 
 :[[Bed]]
 :[[Bin]]
 :[[Bucket]]
-
 |valign=top|
 :[[Cabinet]]
 :[[Siege engine|Catapult part]]s
@@ -107,7 +103,6 @@ Note that the Furniture Hauling labor both places furniture you choose to build 
 :[[Floodgate]]
 :[[Grate]]
 :[[Hatch cover]]
-
 |valign=top|
 :[[Mechanism]]
 :[[Millstone]]
@@ -118,7 +113,6 @@ Note that the Furniture Hauling labor both places furniture you choose to build 
 :[[Traction bench]]
 :[[Weapon rack]]
 :[[Window]]
-
 |valign=top|
 :[[Animal trap]]
 :[[Block]]s
@@ -129,122 +123,30 @@ Note that the Furniture Hauling labor both places furniture you choose to build 
 :[[Log]]s
 :[[Stone]]s
 :[[Glass]]
-:[[Gem]]s
-|}
+:[[Gem]]s|}
 
 == Furniture types with multiple names ==
 
 Some types of furniture are given distinct names depending upon the material used. All such items are treated equivalently--they are built using the same menu, and they fulfill the same room requirements. For instance, a [[noble]] that requires two chests will be perfectly content with any combination of chests, coffers, and boxes, all of which are "Chests" in the build menu but are counted as "boxes" in the [[stocks]] screen.
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 !rowspan=2| Build menu
 !rowspan=2| Build key
 !rowspan=2| Stocks screen
-!colspan=7| Names
-|-
+!colspan=7| Names|-
 ! [[Wood]]
 ! [[Metal]]
 ! [[Stone]]
 ! [[Glass]]
 ! [[Cloth]]
-! [[Ceramic]]
-|-
-| Chest
-| {{Menu icon|b|f|h}}
-| Boxes
-| Chest || Chest || Coffer || Box || — || —
-|-
-| Chair
-| {{Menu icon|b|f|r}}
-| Thrones
-| Chair || Throne || Throne || Throne || — || —
-|-
-| Burial
-| {{Menu icon|b|f|x}}
-| Coffins
-| Casket || Sarcophagus || Coffin || Coffin || — || —
-|-
-| Door
-| {{Menu icon|b|p|r}}
-| Doors
-| Door || Door || Door || Portal || — || —
-|-
-| Cage
-| {{Menu icon|b|r|g}}
-| Cages
-| Cage || Cage || — || Terrarium || — || —
-|-
-| Rope/Chain
-| {{Menu icon|b|r|h}}
-| Chains
-| — || Chain || — || — || Rope || —
-|-
-| 
-|
-| Pipe section
-| Pipe section || Pipe section || — || Tube || — || —
-|-
-| 
-| 
-| Blocks
-| Blocks || Blocks || Blocks || Blocks || — || Bricks
-|}
+! [[Ceramic]]|-| Chest| {{Menu icon|b|f|h}}| Boxes| Chest || Chest || Coffer || Box || — || —|-| Chair| {{Menu icon|b|f|r}}| Thrones| Chair || Throne || Throne || Throne || — || —|-| Burial| {{Menu icon|b|f|x}}| Coffins| Casket || Sarcophagus || Coffin || Coffin || — || —|-| Door| {{Menu icon|b|p|r}}| Doors| Door || Door || Door || Portal || — || —|-| Cage| {{Menu icon|b|r|g}}| Cages| Cage || Cage || — || Terrarium || — || —|-| Rope/Chain| {{Menu icon|b|r|h}}| Chains| — || Chain || — || — || Rope || —|-| || Pipe section| Pipe section || Pipe section || — || Tube || — || —|-| | | Blocks| Blocks || Blocks || Blocks || Blocks || — || Bricks|}
 
 <!-- Furniture relative weight (useful for trade considerations
 These values used Slate as the stone. Need to determine solid_densities for "average stone" and work backwards to determine "relative weight".
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Furniture
-! Weight
-|-
-| armor stand
-| 667
-|-
-| blocks
-| 667
-|-
-| throne
-| 667
-|-
-| coffin
-| 934
-|-
-| door
-| 667
-|-
-| floodgate
-| 1068
-|-
-| hatch cover
-| 564
-|-
-| grate
-| 534
-|-
-| cabinet
-| 667
-|-
-| coffer
-| 267
-|-
-| statue
-| 801
-|-
-| table
-| 667
-|-
-| weapon rack
-| 667
-|-
-| quern
-| 267
-|-
-| millstone
-| 267
-|-
-|}
+! Weight|-| armor stand| 667|-| blocks| 667|-| throne| 667|-| coffin| 934|-| door| 667|-| floodgate| 1068|-| hatch cover| 564|-| grate| 534|-| cabinet| 667|-| coffer| 267|-| statue| 801|-| table| 667|-| weapon rack| 667|-| quern| 267|-| millstone| 267|-|}
 -->
 [[File:old_furniture.jpg|thumb|400px|center|Old furniture.]]
 {{Buildings}}

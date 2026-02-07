@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{layerlookup/0
-|graphic=sandstone_sprite.png}}
+{{layerlookup/0|graphic=sandstone_sprite.png}}
 {{av}}
 
 {{For/see|the month|[[Calendar]]}}

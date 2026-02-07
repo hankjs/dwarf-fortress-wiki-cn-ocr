@@ -38,94 +38,7 @@ Since your dwarves require food, booze and clothing, you should set up a combina
 == Yield and fertilization ==
 
 {| class="wikitable sortable" style="float:right; margin: 1em"
-! Farm Size !! Potash !! Per Square 
-|-
-| 1 (1×1) || 1 || ''1.000''
-|-
-| 2 (1×2) || 1 || 0.500
-|-
-| 3 (1×3) || 1 || '''0.333'''
-|-
-| 4 (2×2) || 2 || ''0.500''
-|-
-| 5 (1×5) || 2 || 0.400
-|-
-| 6 (2×3) || 2 || 0.333
-|-
-| 7 (1×7) || 2 || '''0.286'''
-|-
-| 8 (2×4) || 3 || ''0.375''
-|-
-| 9 (3×3) || 3 || 0.333
-|-
-| 10 (2×5) || 3 || 0.300
-|-
-| 11 (1×11) || 3 || '''0.272'''
-|-
-| 12 (2×6, 3×4) || 4 || ''0.333''
-|-
-| 15 (3×5) || 4 || '''0.267'''
-|-
-| 16 (2×8, 4×4) || 5 || ''0.312''
-|-
-| 18 (2×9, 3×6) || 5 || 0.278
-|-
-| 19 (1×19) || 5 || '''0.263'''
-|-
-| 20 (2×10, 4×5) || 6 || ''0.300''
-|-
-| 21 (3×7) || 6 || 0.286
-|-
-| 23 (1×23) || 6 || '''0.261'''''
-|-
-| 24 (3×8, 4×6) || 7 || ''0.292''
-|-
-| 25 (5×5) || 7 || 0.280
-|-
-| 27 (3×9) || 7 || '''0.259'''
-|-
-| 30 (2×15, 3×10, 5×6) || 8 || '''0.266'''
-|-
-| 31 (''n/a'') || 8 || '''''0.257'''''
-|-
-| 35 (5×7) || 9 || '''0.257'''
-|-
-| 39 (3×13) || 10 || '''0.256'''
-|-
-| 42 (2×21, 3×14, 6×7) || 11 || '''0.262'''
-|-
-| 43 (''n/a'') || 11 || '''''0.262'''''
-|-
-| 45 (5×9) || 12 || 0.267
-|-
-| 46 (2×23) || 12 || '''0.261'''
-|-
-| 47 (''n/a'') || 12 || '''''0.255'''''
-|-
-| 49 (7×7) || 13 || 0.265
-|-
-| 50 (5×10) || 13 || 0.260
-|-
-| 51 (3×17) || 13 || '''0.255'''
-|-
-| 55 (5×11) || 14 || '''0.254'''
-|-
-| 63 (3×21, 7×9) || 16 || '''0.254'''
-|-
-| 75 (3×25, 5×15) || 19 || '''0.253'''
-|-
-| 87 (3×29) || 22 || '''0.252'''
-|-
-| 90 (9×10) || 23 || 0.256
-|-
-| 91 (7×13) || 23 || '''0.252'''
-|-
-| 95 (5×19) || 24 || '''0.252'''
-|-
-| 99 (9×11) || 25 || '''0.252'''
-|-
-| 100 (10×10) || 26 || ''0.260''
-|}
+! Farm Size !! Potash !! Per Square |-| 1 (1×1) || 1 || ''1.000''|-| 2 (1×2) || 1 || 0.500|-| 3 (1×3) || 1 || '''0.333'''|-| 4 (2×2) || 2 || ''0.500''|-| 5 (1×5) || 2 || 0.400|-| 6 (2×3) || 2 || 0.333|-| 7 (1×7) || 2 || '''0.286'''|-| 8 (2×4) || 3 || ''0.375''|-| 9 (3×3) || 3 || 0.333|-| 10 (2×5) || 3 || 0.300|-| 11 (1×11) || 3 || '''0.272'''|-| 12 (2×6, 3×4) || 4 || ''0.333''|-| 15 (3×5) || 4 || '''0.267'''|-| 16 (2×8, 4×4) || 5 || ''0.312''|-| 18 (2×9, 3×6) || 5 || 0.278|-| 19 (1×19) || 5 || '''0.263'''|-| 20 (2×10, 4×5) || 6 || ''0.300''|-| 21 (3×7) || 6 || 0.286|-| 23 (1×23) || 6 || '''0.261'''''|-| 24 (3×8, 4×6) || 7 || ''0.292''|-| 25 (5×5) || 7 || 0.280|-| 27 (3×9) || 7 || '''0.259'''|-| 30 (2×15, 3×10, 5×6) || 8 || '''0.266'''|-| 31 (''n/a'') || 8 || '''''0.257'''''|-| 35 (5×7) || 9 || '''0.257'''|-| 39 (3×13) || 10 || '''0.256'''|-| 42 (2×21, 3×14, 6×7) || 11 || '''0.262'''|-| 43 (''n/a'') || 11 || '''''0.262'''''|-| 45 (5×9) || 12 || 0.267|-| 46 (2×23) || 12 || '''0.261'''|-| 47 (''n/a'') || 12 || '''''0.255'''''|-| 49 (7×7) || 13 || 0.265|-| 50 (5×10) || 13 || 0.260|-| 51 (3×17) || 13 || '''0.255'''|-| 55 (5×11) || 14 || '''0.254'''|-| 63 (3×21, 7×9) || 16 || '''0.254'''|-| 75 (3×25, 5×15) || 19 || '''0.253'''|-| 87 (3×29) || 22 || '''0.252'''|-| 90 (9×10) || 23 || 0.256|-| 91 (7×13) || 23 || '''0.252'''|-| 95 (5×19) || 24 || '''0.252'''|-| 99 (9×11) || 25 || '''0.252'''|-| 100 (10×10) || 26 || ''0.260''|}
 Each farm tile requires a single seed to be planted. Unfertilized farm tiles can produce a stack of 0-6 plants when harvested, depending upon the [[Grower|skill]] of the planter and random chance. Fertilizing a farm plot boosts production by up to 4 additional plants per stack each harvest. For unskilled planters, yield can be effectively doubled with the use of fertilizer. This can be particularly important early on, when your fortress's seed supply is limited, because those extra plants mean more seeds for planting next season. Many crops, like quarry bushes, are impossible to farm effectively in the beginning without fertilizer. Larger harvest stack sizes can also dramatically increase the efficiency of downstream industries; see the [[grower]] article for more discussion. To fertilize a farm plot, one needs [[potash]], which is produced by processing [[ash]]. Each plot must be re-fertilized each season, and the fertilizer must be in place at the time the seeds reach maturity. It does not matter whether the plot is fertilized at the time of planting. {{cite forum|139382/5375231}}
 
 Fertilizing a farm plot requires ''floor(plot_size / 4) + 1'' potash.  The table on the right illustrates the efficiency of potash as a function of plot size - the most efficient (for a specific amount of potash) are in '''bold''', the least efficient are in '''italics''', and sizes that are most efficient but very difficult to create in-game (not rectangular numbers less than or equal to 30 per side) are both '''''bold & italicized'''''.  Generally, larger farms use less, approaching a limit of 1/4 bar per square.  The worst yields per tile are multiples of 4; if one plans to optimize harvest yield, it's most efficient to have plots of size ''4n - 1'', where n is the number of potash used.  Suitable sizes are 1×3, 1×7, 3×5, 3×9, 5×7, and 7×9. If one plans to optimize farmer experience, plots of size 2 or 4 can be fertilized and seeded quickest, and experience can be distributed among more farmers. This ensures that if a bounty of crop is needed in the future, your farmers can yield more without potash, can plant and harvest quicker, and will have more time for other jobs in between.  Of course, the price you'll pay for this is more time spent highlighting each individual farm and changing the crops if you wish to adjust your farming plan.
@@ -170,32 +83,15 @@ The second complication is that the farming must be done on [[soil]] or muddied 
 Note that when creating an above-ground plot, the interface may incorrectly display "No mud/soil for farm", even though mud is present. {{bug|249}} The message can be ignored.
 
 == Farm plots in action ==
-{| class="wikitable" style="float:right;margin:1em;width:35%"
-|+ Growth duration for subterranean crops
-|-
-! Crops !! Game [[Time|ticks]] until harvest !! Days until harvest
-|-
-| Plump helmet, pig tail || 30000 || 25 days
-|-
-| Cave wheat, sweet pod, quarry bush, dimple cup || 50000 || 41.666 days
-|}
+{| class="wikitable" style="float:right;margin:1em;width:35%"|+ Growth duration for subterranean crops|-
+! Crops !! Game [[Time|ticks]] until harvest !! Days until harvest|-| Plump helmet, pig tail || 30000 || 25 days|-| Cave wheat, sweet pod, quarry bush, dimple cup || 50000 || 41.666 days|}
 
 Once a farm plot has been built and crops have been selected for the current season, dwarves with the "[[Grower|Farming (Fields)]]" labor enabled will begin planting the selected seeds.  One seed is used per tile.  The higher a dwarf's grower skill in planting, the more plants will be harvested from each seed planted. The farming labor is fairly low in priority, so if you want a full-time farmer, it is best to disable all other labors.
 
 Plants take time to grow, depending on their type. Once a plant is fully grown, a dwarf will harvest it; by default, any dwarf will do this. Harvesting plants is not affected by any skill, although it provides a small amount of grower experience, so it's a good idea to set only your planters to harvest, not just anyone. To do that, go to {{menu icon|y}} Labor, then click Standing Orders, then click Other, then click "Everybody Harvests". This is useful only to train your planter faster; once they're skilled enough, everyone can be allowed to harvest again, so the haulers can take care of half the farming work.
 
 <div style="float:right">
-{| style="border-spacing: 0"
-|{{RT|≈|6:0}}||{{RT|`|0:1}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}
-|-
-|{{RT|≈|6:0}}||{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}
-|-
-|{{RT|≈|6:0}}||{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}
-|-
-|{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}||{{RT|≈|6:0}}
-|-
-|{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}||{{RT|≈|6:0}}
-|}
+{| style="border-spacing: 0"|{{RT|≈|6:0}}||{{RT|`|0:1}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}|-|{{RT|≈|6:0}}||{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}|-|{{RT|≈|6:0}}||{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}|-|{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}||{{RT|≈|6:0}}|-|{{RT|≈|6:0}}||{{RT|τ|6:1}}||{{RT|═|6:0}}||{{RT|≈|6:0}}||{{RT|≈|6:0}}|}
 </div>
 In the farm plot shown on the right, {{Tile|≈|6:0}} indicates tiles awaiting planting, {{Tile|═|6:0}} indicates tiles that have been planted and are now growing, and {{Tile|τ|6:1}} indicates [[longland grass]] plants that are ready for harvesting.
 
@@ -204,12 +100,7 @@ If harvested plants are not moved to a stockpile in time, they will wither, and 
 === Farm size ===
 {{main|Farm size calculations}}
 
-{{Dual image
-|premium=File:DFwiki5by53by3farm.png
-|classic=File:Quickstart_layout_3.png
-|width=100px
-|caption=A 5×5 room with a 3×3 farm plot
-}}
+{{Dual image|premium=File:DFwiki5by53by3farm.png|classic=File:Quickstart_layout_3.png|width=100px|caption=A 5×5 room with a 3×3 farm plot}}
 
 A beginning fortress has 7 dwarves, each of which consumes 7 units of food and drink per dwarf per season, needs 196 for the whole fortress for the year. This starting group can theoretically be supported by a single farm tile, but in practice a larger farm will be necessary since a young fortress is unable to use farm tiles to their fullest potential.
 

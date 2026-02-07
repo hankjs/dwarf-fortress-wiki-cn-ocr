@@ -1,14 +1,10 @@
 {{migrated article}}
-{{Quality|Unrated}}{{Building|name=Well|key=m|key2=L
-|construction=
+{{Quality|Unrated}}{{Building|name=Well|key=m|key2=L|construction=
 * [[Block]]s
 * [[Bucket]] (lye/milk-free)
 * [[Chain]] or [[Rope]]
-* [[Mechanism]]
-|construction_job={{Material-specific building labors}}
-|purpose=
-* Provide clean [[water]]
-}}{{av}}
+* [[Mechanism]]|construction_job={{Material-specific building labors}}|purpose=
+* Provide clean [[water]]}}{{av}}
 
 {{For/see|a more advanced look at wells|[[Well guide]]}}
 :''It is recommended to read the entirety of this article first.''

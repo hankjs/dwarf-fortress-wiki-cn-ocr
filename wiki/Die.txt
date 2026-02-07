@@ -1,19 +1,8 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_item
-|graphic=[[File:Die sprite.png]]
-|name=Die
-|tile=◘
-|woodcraft=y
-|stonecraft=y
-|glass=y
-|metalcraft=y
-|bars=1
-|value=10
-|used for=
+{{V50_item|graphic=[[File:Die sprite.png]]|name=Die|tile=◘|woodcraft=y|stonecraft=y|glass=y|metalcraft=y|bars=1|value=10|used for=
 * Divination (see [[Die#Adventurer Mode]])
-* Tavern games ''(unimplemented)''
-|size=5}}
+* Tavern games ''(unimplemented)''|size=5}}
 {{distinguish|Death|Dye}}
 '''Dice''' (singular ''die'') are an item randomly found in religious (not for [[Shrine (megabeast)|megabeast]]s) [[Temple#Shrines|shrine]]s located throughout the world, with several able to spawn at [[monastery|monasteries]]. They can be picked up and rolled to divine the will of the [[Deity|gods]] relevant to the dice, granting a variety of possible effects both positive or ''[[fun]]''. Divination can be disallowed in [[Advanced_world_generation#Allow_Divination.2C_Experiments.2C_and_Necromancy_types|advanced world generation]].
 
@@ -46,20 +35,8 @@ List of known dice effects:
 
 The possible effects of a die mostly depend on its number of sides, although medium blessings and cosmetic messages are chosen randomly (per divination practice).  The distribution is as follows:
 
-{| {{prettytable}}
-|- bgcolor="lightgray"
-! Die type !! Cosmetic !! Minor blessings !! Minor curses !! Medium blessings !! Medium curses
-|-
-| D4 || 2 || 1 || 1 || 0 || 0
-|-
-| D6 || 4 || 1 || 1 || 0 || 0
-|-
-| D8 || 4 || 2 || 2 || 0 || 0
-|-
-| D12 || 4 || 3 || 3 || 1 || 1
-|-
-| D20 || 6 || 5 || 5 || 2 || 2
-|}
+{| {{prettytable}}|- bgcolor="lightgray"
+! Die type !! Cosmetic !! Minor blessings !! Minor curses !! Medium blessings !! Medium curses|-| D4 || 2 || 1 || 1 || 0 || 0|-| D6 || 4 || 1 || 1 || 0 || 0|-| D8 || 4 || 2 || 2 || 0 || 0|-| D12 || 4 || 3 || 3 || 1 || 1|-| D20 || 6 || 5 || 5 || 2 || 2|}
 
 The type of divine material from which the gifted holy item is made seems to be random,{{verify}} irrespective of the deity's [[sphere]]s.
 
@@ -67,23 +44,8 @@ Dice do not have to be rolled at the shrine, so the player can freely take them 
 
 Warning: each die is tied to a specific ''deity'', ''not'' a religion, and using ''any'' dice tied to the ''same deity'' more than twice in 24 hours–1 week, even if the dice came from different religions, will anger the gods, cursing the ill-fated thrower in a similar way to toppling over a [[statue]] of one's patron. Because of this, it is dangerous to roll an unknown die if you recently performed a divination, as it may belong to the same deity. If the player does roll the dice of the same god a second time, they will get one (and only one) warning; the next roll for the same god will result in the character getting cursed. However, the god(s) may choose to "ignore your hubris", resulting in no punishment. Any creature cursed by the gods in such a way will be unable to benefit from ''any'' deity's dice ever again. Below is a table with the known ignoring hubris messages
 
-{| {{prettytable}}
-|- bgcolor="lightgray"
-! Deity Sphere !! Message
-|-
-| Any || [SPHERE] is allowed even in this.
-|-
-| Any || Infinite [SPHERE]!
-|-
-| Any || Such is the spirit of [SPHERE]
-|-
-| Any || [SPHERE] without bound.
-|-
-| Any || Oh sweet [SPHERE]!
-|-
-| Freedom || You are free to do as you choose.
-|-
-|}
+{| {{prettytable}}|- bgcolor="lightgray"
+! Deity Sphere !! Message|-| Any || [SPHERE] is allowed even in this.|-| Any || Infinite [SPHERE]!|-| Any || Such is the spirit of [SPHERE]|-| Any || [SPHERE] without bound.|-| Any || Oh sweet [SPHERE]!|-| Freedom || You are free to do as you choose.|-|}
 ===Rolling a die in Adventurer Mode===
 [[File:Adventurer_rolling_a_die.png|thumb|An adventurer rolls a four-sided divination die. The ominous message "It is too soon to forgive" has no effect.]]
 You must hold the die in your hand, so either:

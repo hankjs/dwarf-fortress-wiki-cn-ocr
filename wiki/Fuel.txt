@@ -8,8 +8,7 @@
 {{infoheader|Uses}}
 {{infocell|
 * Fuel
-* Make [[pig iron]] and [[steel]]
-}}
+* Make [[pig iron]] and [[steel]]}}
 {{infoheader|Properties}}
 {{infocell|
 * [[Material value]] 2
@@ -18,8 +17,7 @@
 * [[Melting point]] None
 * [[Boiling point]] None
 * [[Solid density]] 1346
-* [[Specific heat]] 409
-}}
+* [[Specific heat]] 409}}
 {{infoend}}
 
 '''Fuel''', '''coal''', and '''refined coal''' are three in-game terms that refer to the same thing, any unit of [[charcoal]] or [[coke]], the two fuels used to power high-temperature industries, namely [[Metalsmithing|metalworking]], [[glassworking]], and [[pottery]].  One unit of either of these fuels is required for every task at a conventional (non-magma) [[smelter]], [[forge]], [[kiln]], or [[glass furnace]].  [[Magma smelter|Magma versions]] of these facilities do not need fuel, and in fact ''cannot'' use conventional fuel to power them, if their magma sources fail.  Fuel is also used as a reactant in the pig iron and steel creation process ''(see [[#Pig iron and steel production|below]])''.

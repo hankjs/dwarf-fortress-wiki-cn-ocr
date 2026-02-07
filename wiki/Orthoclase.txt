@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=orthoclase_sprite.png}}
+{{stonelookup/0|graphic=orthoclase_sprite.png}}
 {{av}}
 :{{DFtext|You have struck orthoclase!}}
 

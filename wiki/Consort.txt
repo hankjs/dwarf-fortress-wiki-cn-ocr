@@ -1,14 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
-{{Noble
-| noble = Consort
-| office= None
-| quarters= None
-| dining= None
-| tomb= None
-| arrival = 
-* Being married to a [[baron]], [[count]], [[duke]] or [[monarch]]
-}}
+{{Noble| noble = Consort| office= None| quarters= None| dining= None| tomb= None| arrival = 
+* Being married to a [[baron]], [[count]], [[duke]] or [[monarch]]}}
 A '''consort''' is a special type of [[noble]] who serves as the [[Marriage|spouse]] of a land-owning noble. They have no [[zone|room]] requirements (though they will share their spouses' rooms and gain their benefits by proxy) and do not show up on the {{menu icon|n}} nobles screen.
 
 Consorts can appear as spouses to [[baron]]s, [[count]]s, [[duke]]s or [[monarch]]s. They do not perform any meaningful function (other than interacting with their spouses and producing [[children]]), and make no [[mandate]]s or [[demand]]s. Consorts are not guaranteed to exist in a fortress, as the noble may just happen to not be married, but any future marriages will lead to their spouses automatically being elevated into consorts.

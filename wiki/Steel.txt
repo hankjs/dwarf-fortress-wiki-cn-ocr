@@ -1,28 +1,17 @@
 {{Quality|Exceptional}}
-{{Alloy3
-|name=Steel
-|sample=
-[[File:SteelSample.png|center|frameless]]
-|graphic=steel_bar_sprite.png
-|color=0:7:1
-|color1=0:0:1
-|color2=0:0:1
-|color3=7:0:1
-|tile3=•
-|uses=
+{{Alloy3|name=Steel|sample=
+[[File:SteelSample.png|center|frameless]]|graphic=steel_bar_sprite.png|color=0:7:1|color1=0:0:1|color2=0:0:1|color3=7:0:1|tile3=•|uses=
 * [[weapon|Melee Weapons]]
 * [[Crossbow]]s
 * [[Bolt]]s
 * [[Pick]]s
 * [[Armor]]
 * [[Anvil]]
-* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 1 [[iron]] [[bar]] 
 * 1 [[pig iron]] [[bar]] 
 * 1 [[flux]] [[stone]]
-* 1 [[fuel|coal]] [[bar]] 
-|properties=
+* 1 [[fuel|coal]] [[bar]] |properties=
 * [[Material value]] 30☼
 * [[Material science|Impact strength]] 2520 MPa
 * [[Material science|Shear strength]] 720 MPa
@@ -33,8 +22,7 @@
 * [[Solid density]] 7850 kg/m³
 * Liquid [[density]] 6980 kg/m³
 * [[Specific heat]] 500 J/kg·K
-* [[Color]] blue-gray
-}}{{av}}
+* [[Color]] blue-gray}}{{av}}
 
 '''Steel''' is an [[alloy]] of [[iron]] and carbon ([[fuel|refined coal]]), made at a smelter. It is the best common [[metal]] for smithing most [[weapon]]s and [[armor]]. Steel also has the third highest value of all metals, tied with that of [[gold]].
 
@@ -213,12 +201,7 @@ Note: 10 metal bars can produce a full set of [[armor]] and a [[weapon]] for one
 If there are at least 20 iron bars more than pig iron bars, issue a job order to make 10 [[pig iron]] bars. If not, issue job orders to make steel bars, as many as there are pig iron bars.
 
 
-{{Translation
-| dwarven = deler
-| elvish  = inire
-| goblin  = zodsto
-| human   = kadest
-}}
+{{Translation| dwarven = deler| elvish  = inire| goblin  = zodsto| human   = kadest}}
 
 {{gamedata}}
 {{metals}}

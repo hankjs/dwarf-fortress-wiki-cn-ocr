@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=rutile_sprite.png}}
+{{stonelookup/0|graphic=rutile_sprite.png}}
 {{av}}
 
 '''Rutile''' is a [[color|flax]]-colored [[stone]] (in [[Premium]], or purple-colored in [[classic]]) found in small clusters within [[metamorphic layer|metamorphic]] [[stone]]s, as well as within [[granite]]. Like [[pitchblende]], it is [[magma-safe]].

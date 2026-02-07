@@ -25,32 +25,17 @@ This is the table I used in the templates, and the invisible comments I included
 
 On that note, I'm sorry about breaking the width on this page, but it has to be done otherwise this code breaks (badly) when you copy-paste it. This code is for the Wood FAQ, but you can easily change the names to reflect your new category.
  <nowiki> <!---To add a new question, COPY the following two lines. ALL OF THEM. Yes I *DO* mean the |- stuff TOO. And PASTE them BETWEEN the ###### comments lower on this page.
-
-|-
-| [[Your question exactly as you want it to be read by others]]
+|-| [[Your question exactly as you want it to be read by others]]
 
 LEAVE THE QUESTION MARK OUT, as this wiki engine doesn't cope well with creating %3F pages.
 --->
 
 <center>
 {| class="collapsible collapsed infobox" style="background-color: #f9f9f9; border: 1px solid #aaa; font-size: 90%; margin: 1em 0em 0em; padding: 2px; text-align: center; width: 60%;"
-! colspan="2" style="border: 1px solid #aaa; font-weight:bold; background-color: #ccf; padding-left: 1em; padding-right: 1em;" | '''Wood FAQ'''
-|-
-| [[Do I really need wood|Do I really need wood?]]
-|-
-| [[Wood|Where can I get wood?]]
-|-
-| [[Tower-cap|How do I build an underground tree farm?]]
+! colspan="2" style="border: 1px solid #aaa; font-weight:bold; background-color: #ccf; padding-left: 1em; padding-right: 1em;" | '''Wood FAQ'''|-| [[Do I really need wood|Do I really need wood?]]|-| [[Wood|Where can I get wood?]]|-| [[Tower-cap|How do I build an underground tree farm?]]
 <!--- ########### Insert new questions below this line ########### --->
 
-<!--- ########### Insert any new questions above this line ########### --->
-|-
-|height="10"| 
-|-
-| {{Edit|Template:Wood_FAQ|Add a question to the Wood FAQ}}
-|-
-| [[Frequently Asked Questions|Back to the Main FAQ]]
-|}
+<!--- ########### Insert any new questions above this line ########### --->|-|height="10"| |-| {{Edit|Template:Wood_FAQ|Add a question to the Wood FAQ}}|-| [[Frequently Asked Questions|Back to the Main FAQ]]|}
 
 <includeonly>[[Category:FAQ - Wood]]]</includeonly>
 <noinclude>[[Category:Templates]]</noinclude>

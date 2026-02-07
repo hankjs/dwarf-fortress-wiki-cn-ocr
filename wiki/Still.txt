@@ -1,26 +1,15 @@
 {{Quality|Superior}}
-{{V50 workshop
-|name = Still
-|icon=[[File:still_icon.png]]
-|key = f
-|key2= l
-|job = [[Brewer|Brewer]]
-|image=Still_Workshop
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job =
-*[[Brewing]] or [[Plant gathering]]
-|use =
+{{V50 workshop|name = Still|icon=[[File:still_icon.png]]|key = f|key2= l|job = [[Brewer|Brewer]]|image=Still_Workshop|construction=
+* [[Building material]] (non-[[economic]])|construction_job =
+*[[Brewing]] or [[Plant gathering]]|use =
 *[[Barrel]]
 *Watertight [[large pot]]
 *[[Alcohol#Brewable plants|Brewable plant]]
 *[[Honey]]
 *[[Kobold bulb]]
-*[[Vial]]
-|production =
+*[[Vial]]|production =
 *[[Alcohol]]
-*[[Gnomeblight]]
-}}{{av}}
+*[[Gnomeblight]]}}{{av}}
 
 The '''still''' is the source of all home-made [[alcohol]] for a fort and is an essential [[workshop]] for any fortress. A still also allows dwarves to extract [[gnomeblight]] from [[kobold bulb]]s into a [[glass]] [[vial]]. A dwarf must have the [[brewer]] [[labor]] activated in order to use a still.
 

@@ -1,16 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=skunk_sprites.png
-|portrait=skunk_portrait_anim.gif
-|meat=6
-|fat=6
-|intestine=1
-|bone=4
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=skunk_sprites.png|portrait=skunk_portrait_anim.gif|meat=6|fat=6|intestine=1|bone=4|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -20,12 +9,7 @@ Skunks can be captured in [[cage]] [[trap]]s and [[Animal trainer|trained]] into
 
 Some dwarves [[Preferences|like]] skunks for their ''foul smell'' and their ''distinctive striping''.
 
-{{Translation
-| dwarven = rungak
-| elvish  = dipane
-| goblin  = masnäm
-| human   = slenshi
-}}
+{{Translation| dwarven = rungak| elvish  = dipane| goblin  = masnäm| human   = slenshi}}
 [[File:Striped Skunk (Mephitis mephitis) DSC 0030.jpg|thumb|center|400px|Admired for its ''distinctive striping''.]]
 
 {{gamedata}}

@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=warthog_sprites.png
-|portrait=warthog_portrait_anim.gif
-|bone=13
-|hoof=4
-|ivory=2
-|meat=10
-|fat=9
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=Common warthog
-}}
+{{Creaturelookup/0|image=warthog_sprites.png|portrait=warthog_portrait_anim.gif|bone=13|hoof=4|ivory=2|meat=10|fat=9|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|contrib=no|wiki=Common warthog}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=Kobold_sprite.png
-|portrait=kobold_portrait_anim.gif
-|wiki=yes}}
+{{Creaturelookup/0|image=Kobold_sprite.png|portrait=kobold_portrait_anim.gif|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 [[File:Kobold KQ.png|thumb|A kobold drawn by Toady One, from the game ''Kobold Quest''. This was considered their ''DF'' look before the Premium update.]]

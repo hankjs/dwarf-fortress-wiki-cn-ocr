@@ -1,9 +1,6 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
-* [[Food]]
-|graphic=bambara_groundnut_shrub_sprite.png
-|seedimage=bambara_groundnut_seeds_sprite.png
-|wiki=Vigna subterranea}}
+* [[Food]]|graphic=bambara_groundnut_shrub_sprite.png|seedimage=bambara_groundnut_seeds_sprite.png|wiki=Vigna subterranea}}
 {{av}}
 
 '''Bambara groundnut''' is an [[aboveground]] [[crop|garden plant]]. They can be planted in all seasons. Only the [[cooking|cooked]] seeds are edible.

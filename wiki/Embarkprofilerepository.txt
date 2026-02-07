@@ -65,8 +65,7 @@ If you get the "no iron anvil available" warning, then "tab" over to the items m
 	[ITEM:1:TOOL:ITEM_TOOL_STEPLADDER:PLANT_MAT:TOWER_CAP:WOOD]
 	[ITEM:1:TOOL:ITEM_TOOL_WHEELBARROW:PLANT_MAT:TOWER_CAP:WOOD]
 	[PET:2:CAT:FEMALE:STANDARD]
-	[PET:2:DOG:FEMALE:STANDARD]
-}}
+	[PET:2:DOG:FEMALE:STANDARD]}}
 
 === Prepare for the journey carefully ===
 The same as the "Play Now!" embark, but without any skills assigned to the dwarves and without the cat and dog pets added.
@@ -99,8 +98,7 @@ The same as the "Play Now!" embark, but without any skills assigned to the dwarv
 	[ITEM:3:SPLINT:NONE:PLANT_MAT:TOWER_CAP:WOOD]
 	[ITEM:3:CRUTCH:NONE:PLANT_MAT:TOWER_CAP:WOOD]
 	[ITEM:1:TOOL:ITEM_TOOL_STEPLADDER:PLANT_MAT:TOWER_CAP:WOOD]
-	[ITEM:1:TOOL:ITEM_TOOL_WHEELBARROW:PLANT_MAT:TOWER_CAP:WOOD]
-}}
+	[ITEM:1:TOOL:ITEM_TOOL_WHEELBARROW:PLANT_MAT:TOWER_CAP:WOOD]}}
 
 == Simple ==
 === DF2014 Disciplined Embark Profiles r3 (clinodev) ===
@@ -156,8 +154,7 @@ From http://pastebin.com/FRT4hpkJ
         [PET:2:CAT:FEMALE:STANDARD]
         [PET:1:CAT:MALE:STANDARD]
         [PET:2:BIRD_CHICKEN:FEMALE:STANDARD]
-        [PET:2:BIRD_GOOSE:FEMALE:STANDARD]
-}}
+        [PET:2:BIRD_GOOSE:FEMALE:STANDARD]}}
 {{gamedata|title={{text anchor|Disciplined Craftlords}}|
 [PROFILE]
         [TITLE:Disciplined Craftlords]
@@ -239,8 +236,7 @@ From http://pastebin.com/FRT4hpkJ
         [PET:1:BIRD_GOOSE:FEMALE:STANDARD]
         [PET:1:BIRD_GOOSE:MALE:STANDARD]
         [PET:4:BIRD_GUINEAFOWL:FEMALE:STANDARD]
-        [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]
-}}
+        [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]}}
 {{gamedata|title={{text anchor|Disciplined Craftlords, optimized for Dwarf Therapist}}|
 [PROFILE]
         [TITLE:Disciplined Craftlords, DT-optimized]
@@ -308,8 +304,7 @@ From http://pastebin.com/FRT4hpkJ
         [PET:3:BIRD_GOOSE:FEMALE:STANDARD]
         [PET:1:BIRD_GOOSE:MALE:STANDARD]
         [PET:7:BIRD_GUINEAFOWL:FEMALE:STANDARD]
-        [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]
-}}
+        [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]}}
 {{gamedata|title={{text anchor|Disciplined Ruin Assault}}|
 [PROFILE]
         [TITLE:Disciplined Ruin Assault!]
@@ -386,8 +381,7 @@ From http://pastebin.com/FRT4hpkJ
         [PET:1:PIG:FEMALE:STANDARD]
         [PET:1:PIG:MALE:STANDARD]
         [PET:6:BIRD_TURKEY:FEMALE:STANDARD]
-        [PET:1:BIRD_TURKEY:MALE:STANDARD]
-}}
+        [PET:1:BIRD_TURKEY:MALE:STANDARD]}}
 
 == Specialized ==
 === Single-focus ===
@@ -437,8 +431,7 @@ From http://pastebin.com/FRT4hpkJ
 	[PET:2:CAT:MALE:STANDARD]
 	[PET:1:CAT:MALE:CHILD]
 	[PET:1:BIRD_CHICKEN:FEMALE:STANDARD]
-	[PET:1:BIRD_CHICKEN:MALE:STANDARD]
-}}
+	[PET:1:BIRD_CHICKEN:MALE:STANDARD]}}
 === Minmax ===
 {{gamedata|title={{text anchor|Minmax}}|
 [PROFILE]
@@ -487,8 +480,7 @@ From http://pastebin.com/FRT4hpkJ
 	[PET:2:DOG:FEMALE:TRAINED_WAR]
 	[PET:2:DOG:MALE:TRAINED_WAR]
 	[PET:2:CAT:FEMALE:STANDARD]
-	[PET:2:CAT:MALE:STANDARD]
-}}
+	[PET:2:CAT:MALE:STANDARD]}}
 
 == PeridexisErrant's Dwarf Fortress Starter Pack (0.40.11 r2) ==
 
@@ -616,8 +608,7 @@ From http://pastebin.com/FRT4hpkJ
     [PET:1:BIRD_PEAFOWL_BLUE:FEMALE:STANDARD]
     [PET:1:BIRD_PEAFOWL_BLUE:MALE:STANDARD]
     [PET:4:BIRD_TURKEY:FEMALE:STANDARD]
-    [PET:1:BIRD_TURKEY:MALE:STANDARD]
-}}
+    [PET:1:BIRD_TURKEY:MALE:STANDARD]}}
 {{gamedata|title={{text anchor|JKATZ MAXBOXES}}|
 [PROFILE]
     [TITLE:JKATZ MAXBOXES]
@@ -686,7 +677,6 @@ From http://pastebin.com/FRT4hpkJ
     [PET:1:SHEEP:MALE:STANDARD]
     [PET:1:PIG:FEMALE:STANDARD]
     [PET:1:PIG:MALE:STANDARD]
-
 }}
 {{gamedata|title={{text anchor|Nonfish}}|
 [PROFILE]
@@ -752,7 +742,6 @@ From http://pastebin.com/FRT4hpkJ
     [PET:1:SHEEP:MALE:STANDARD]
     [PET:5:BIRD_TURKEY:FEMALE:STANDARD]
     [PET:1:BIRD_TURKEY:MALE:STANDARD]
-
 }}{{gamedata|title={{text anchor|nebulatron - 2 Miners, Grower, Carpenter/Doctor, Hunter, Lumber/Craftsdwarf, and Cook/Brew}}|
 [PROFILE]
     [TITLE:nebulatron - 2 Miners, Grower, Carpenter/Doctor, Hunter, Lumber/Craftsdwarf, and Cook/Brew]
@@ -814,8 +803,7 @@ From http://pastebin.com/FRT4hpkJ
     [PET:2:CAT:FEMALE:STANDARD]
     [PET:1:CAT:MALE:STANDARD]
     [PET:6:BIRD_TURKEY:FEMALE:STANDARD]
-    [PET:1:BIRD_TURKEY:MALE:STANDARD]
-}}
+    [PET:1:BIRD_TURKEY:MALE:STANDARD]}}
 {{gamedata|title={{text anchor|Disciplined Craftlords (raw materials, advanced)}}|
 [PROFILE]
     [TITLE:Disciplined Craftlords (raw materials, advanced)]
@@ -885,8 +873,7 @@ From http://pastebin.com/FRT4hpkJ
     [PET:3:BIRD_GOOSE:FEMALE:STANDARD]
     [PET:1:BIRD_GOOSE:MALE:STANDARD]
     [PET:7:BIRD_GUINEAFOWL:FEMALE:STANDARD]
-    [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]
-}}{{gamedata|title={{text anchor|Disciplined Ruin Assault! (raw materials, advanced)}}|
+    [PET:1:BIRD_GUINEAFOWL:MALE:STANDARD]}}{{gamedata|title={{text anchor|Disciplined Ruin Assault! (raw materials, advanced)}}|
 [PROFILE]
     [TITLE:Disciplined Ruin Assault! (raw materials, advanced)]
     [SKILL:1:SMELT:2]
@@ -962,8 +949,7 @@ From http://pastebin.com/FRT4hpkJ
     [PET:1:PIG:FEMALE:STANDARD]
     [PET:1:PIG:MALE:STANDARD]
     [PET:6:BIRD_TURKEY:FEMALE:STANDARD]
-    [PET:1:BIRD_TURKEY:MALE:STANDARD]
-}}
+    [PET:1:BIRD_TURKEY:MALE:STANDARD]}}
 
 {{Category|Fortress mode}}
 [[ru:Embark profile repository]]

@@ -1,8 +1,5 @@
 {{Quality|Exceptional|10:07, 17 February 2023 (CST)}}
-{{Treelookup/0
-|graphic=glumprong_trunk_sprite.png
-|sapling=glumprong_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=glumprong_trunk_sprite.png|sapling=glumprong_sapling.png|wiki=no}}
 {{av}}
 '''Glumprongs''' are a type of [[above ground]] [[tree]] found only in dry, [[Surroundings#Evil|evil]] regions. Glumprong trees are notable for their unique purple color, their odd structure, and for having the heaviest [[wood]] from an [[Tree#Aboveground trees|aboveground tree]]. Glumprong trees are only trunk and roots, with no branches, [[leaf|leaves]], [[seed]]s, or [[fruit]]. However, the wood from these trees is very [[Density|dense]], twice that of most typical wood. This heavyweight wood is suboptimal for [[hauling]], but can be useful for some niche weight-based applications.
 

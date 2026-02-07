@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_capuchin_sprite.png
-|portrait=capuchin_portrait_anim.gif
-|meat=13
-|fat=12
-|skin=hide
-|bone=18
-|tooth=2
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_capuchin_sprite.png|portrait=capuchin_portrait_anim.gif|meat=13|fat=12|skin=hide|bone=18|tooth=2|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

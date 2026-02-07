@@ -1,7 +1,5 @@
 {{Quality|Fine|08:18, 15 March 2023 (CST)}}
-{{Creaturelookup/0
-|image=parakeet_man_sprite.png
-|portrait=parakeet_man_portrait.png}}
+{{Creaturelookup/0|image=parakeet_man_sprite.png|portrait=parakeet_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,25 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_grey_langur_sprite.png
-|portrait=gray_langur_portrait_anim.gif
-|meat=13-17
-|fat=12-14
-|brain=1
-|lung=2
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|heart=1
-|intestine=1
-|bone=18
-|skull=1
-|tooth=2
-|hair=1
-|skin=hide
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_grey_langur_sprite.png|portrait=gray_langur_portrait_anim.gif|meat=13-17|fat=12-14|brain=1|lung=2|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|heart=1|intestine=1|bone=18|skull=1|tooth=2|hair=1|skin=hide|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_lapis_lazuli_sprite.png
-|graphic2=rough_lapis_lazuli_sprite.png}}
+{{gemlookup/0|graphic=cut_lapis_lazuli_sprite.png|graphic2=rough_lapis_lazuli_sprite.png}}
 {{av}}
 
 '''Lapis lazulis''' are unremarkable, low-value [[gem]]s found in [[igneous intrusive]] stone layers, as well as within [[marble]].

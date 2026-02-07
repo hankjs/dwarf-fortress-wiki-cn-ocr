@@ -10,12 +10,7 @@ As ranged weapons, bows use and train the [[bowman]] (bowdwarf) skill; as melee 
 ==Bugs==
 * If a [[squad]] is assigned multiple ammo types, dwarves with "individual choice ranged" may carry the wrong ammo{{bug|1374}}.
 
-{{Translation
-| dwarven = egdoth
-| elvish  = ramí
-| goblin  = uneg
-| human   = ethro
-}}
+{{Translation| dwarven = egdoth| elvish  = ramí| goblin  = uneg| human   = ethro}}
 
 {{gamedata}}
 {{Weapons}}

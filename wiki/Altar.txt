@@ -1,16 +1,6 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_furniture|name=Altar
-|graphic=[[File:Altar_Premium.png]]
-|tile={{char|144}}
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=2
-|glass=y
-|value=10
-|size=500
-
+{{v50_furniture|name=Altar|graphic=[[File:Altar_Premium.png]]|tile={{char|144}}|wood=y|stonecarve=y|metal=y|bars=2|glass=y|value=10|size=500
 }}
 
 '''Altars''' are a [[furniture]] item used in [[temple]]s.  In fortress mode, altars can be made from most materials like wood, stone, glass, and metal at their respective [[workshop]]s. They can be built with {{Menu icon|b|f|p}} and are labelled as '''Offering Places''', though they currently serve no purpose other than increasing a [[Zone#Quality_and_value|room's value]] and decoration, as [[temple]]s don't require them to function. Altars can be stored in furniture [[stockpile]]s, and fall in the "other large tools" item type category.

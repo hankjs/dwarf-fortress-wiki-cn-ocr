@@ -1,24 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=leopard_sprites.png
-|portrait=leopard_portrait.png
-|contrib=no
-|bone=10-11
-|meat=11-13
-|fat=11-13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=leopard_sprites.png|portrait=leopard_portrait.png|contrib=no|bone=10-11|meat=11-13|fat=11-13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -30,12 +11,7 @@ Leopards have a 10/1001 chance of having black hair, and a 1/1001 of having whit
 
 Some dwarves [[Preferences|like]] leopards for their ''spotted coats''.
 
-{{Translation
-| dwarven = mingkil
-| elvish  = icemì
-| goblin  = utol
-| human   = upur
-}}
+{{Translation| dwarven = mingkil| elvish  = icemì| goblin  = utol| human   = upur}}
 [[File:Leopard africa.jpg|thumb|400px|center|Admired for their ''spotted coats''.]]
 
 {{gamedata}}

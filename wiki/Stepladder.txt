@@ -8,14 +8,8 @@ Stepladders can be made from [[wood]] by a [[carpenter]] at a [[carpenter's work
 == Construction ==
 Stepladders are constructed of either wood or metal:
 
-{| border="1" cellpadding="5" cellspacing="0" style="margin:1em 1em 1em 0; background:#F9F9F9; border:1px #AAA solid"
-|- style="background: #F9F9F9"
-! Material !! Worker !! Workshop
-|- style="background: #F2F2F2"
-| [[Wood]] (1 log) || [[Carpenter]] || [[Carpenter's workshop]]
-|- style="background: #F2F2F2"
-| [[Metal]] (2 bars) || [[Metal crafter]] || [[Metalsmith's forge]] or [[Magma forge]]
-|}
+{| border="1" cellpadding="5" cellspacing="0" style="margin:1em 1em 1em 0; background:#F9F9F9; border:1px #AAA solid"|- style="background: #F9F9F9"
+! Material !! Worker !! Workshop|- style="background: #F2F2F2"| [[Wood]] (1 log) || [[Carpenter]] || [[Carpenter's workshop]]|- style="background: #F2F2F2"| [[Metal]] (2 bars) || [[Metal crafter]] || [[Metalsmith's forge]] or [[Magma forge]]|}
 
 == Forging and melting ==
 

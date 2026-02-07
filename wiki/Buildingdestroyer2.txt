@@ -15,57 +15,37 @@ Building destroyers will destroy nearly '''all''' types of buildings they can re
 Building destroyers cannot destroy buildings unless they can path to the building on the z-level of the building. This means that building destroyers '''cannot''' destroy, for instance, a forbidden hatch above them (note that non-forbidden, i.e. passable, hatches are vulnerable!) or a magma forge from the magma underneath it '''unless''' a clear alternate path to the building exists. If such a path exists, they do not have to follow it; they can destroy the building from the z-level below while standing on a ramp or stairs that leads up to the building's z-level.
 
 Consider the following diagrams, as viewed from the side:
-{|
-|{{diagram|spaces=yes|\
+{||{{diagram|spaces=yes|\
  ╔════
 ═╝ [#0FF]┼
  [#F00]B▲╔══
-═══╝
-}}
-| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer cannot pass through the cyan door while it is forbidden, but the instant the door becomes unforbidden, the building destroyer will destroy the door-- from the tile on which it stands.
-|}
+═══╝}}| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer cannot pass through the cyan door while it is forbidden, but the instant the door becomes unforbidden, the building destroyer will destroy the door-- from the tile on which it stands.|}
 
-{|
-|{{diagram|spaces=yes|\
+{||{{diagram|spaces=yes|\
  ╔════
 ═╝[#0FF]¢
  [#F00]B▲╔══
-═══╝
-}}
-| style="padding: 1em" |Here, the cyan hatch cannot be destroyed while it is forbidden, but when it is unforbidden, the {{Raw Tile|B|#F00|#000}}uilding destroyer will destroy it.
-|}
+═══╝}}| style="padding: 1em" |Here, the cyan hatch cannot be destroyed while it is forbidden, but when it is unforbidden, the {{Raw Tile|B|#F00|#000}}uilding destroyer will destroy it.|}
 
-{|
-|{{diagram|spaces=yes|\
+{||{{diagram|spaces=yes|\
  ╔════
 ═╝  [#0FF]┼
  [#F00]B▲╔══
-═══╝
-}}
-| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer will stand on the ramp and destroy the door (or any other furniture), regardless of whether the door is forbidden.
-|}
+═══╝}}| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer will stand on the ramp and destroy the door (or any other furniture), regardless of whether the door is forbidden.|}
 
-{|
-|{{diagram|spaces=yes|\
+{||{{diagram|spaces=yes|\
  ╔═══╗
 ═╝ [#0FF]┼ ╚
  [#F00]B▲║▲
-═══╩══
-}}
-| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer will be unable to pass the door if it's forbidden; should it become unforbidden, the building destroyer will ignore the door (probably passing through in order to target a different piece of furniture).
-|}
+═══╩══}}| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer will be unable to pass the door if it's forbidden; should it become unforbidden, the building destroyer will ignore the door (probably passing through in order to target a different piece of furniture).|}
 
-{|
-|{{diagram|spaces=yes|\
+{||{{diagram|spaces=yes|\
  ╔══════
 ═╝ [#0FF]┼  >
 [#F00]B>▲╔═╗X╔
 ╗X═╩═╝X║
 ║<    <║
-╚══════╝
-}}
-| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer has path to a square from which it can destroy the cyan door; thus, '''it can destroy the door, even if forbidden, from the tile directly in front of it.'''
-|}
+╚══════╝}}| style="padding: 1em" |Here, the {{Raw Tile|B|#F00|#000}}uilding destroyer has path to a square from which it can destroy the cyan door; thus, '''it can destroy the door, even if forbidden, from the tile directly in front of it.'''|}
 
 This was tested with trolls in an entrance-way accessed by both lever-controlled floodgates and a manually locked door. Ramps led up to the floodgates and the door. When both were closed, the trolls showed no interest. When the door was unlocked, a troll began to destroy it. When the door was locked again, the troll went away. When the floodgates were opened, a troll returned and destroyed the locked door from the ramp outside, while the open floodgates were also apparently being destroyed from the ramps by other trolls. This may be related to the bug in which dwarves appear to be building diagonally as long as they can access the spot orthogonally. It is unknown whether this applies to an open path extending through the full length of a fortress, rather than just a few steps away through open floodgates.
 

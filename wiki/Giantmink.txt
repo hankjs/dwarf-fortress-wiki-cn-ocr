@@ -1,25 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_mink_sprite.png
-|bone=18
-|tooth=0-2
-|meat=13
-|skin=hide
-|fat=12
-|hair=1
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=2
-|heart=1
-|lung=2
-|cartilage=1
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_mink_sprite.png|bone=18|tooth=0-2|meat=13|skin=hide|fat=12|hair=1|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=2|heart=1|lung=2|cartilage=1|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

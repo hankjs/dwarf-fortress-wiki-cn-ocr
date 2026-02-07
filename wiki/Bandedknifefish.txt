@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=banded_knifefish_sprite.png
-|portrait=banded_knifefish_portrait.png}}
+{{verminlookup/0|image=banded_knifefish_sprite.png|portrait=banded_knifefish_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

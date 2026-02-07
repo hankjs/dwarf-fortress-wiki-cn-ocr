@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = korsid
-| elvish  = omíva
-| goblin  = êzslust
-| human   = raqui
-}}
+{{Translation| dwarven = korsid| elvish  = omíva| goblin  = êzslust| human   = raqui}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of festivals or revelry will have words from this symbol in their name. 

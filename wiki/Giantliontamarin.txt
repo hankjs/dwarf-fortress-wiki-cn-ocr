@@ -1,26 +1,5 @@
 {{Quality|Superior|10:05, 10 Jan 2023 (UTC)}}
-{{Creaturelookup/0
-|image=giant_lion_tamarin_sprite.png
-|portrait=lion_tamarin_portrait.png
-|meat=13
-|fat=12
-|skin=hide
-|hair=1
-|bone=18
-|tooth=2
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|cartilage=1
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_lion_tamarin_sprite.png|portrait=lion_tamarin_portrait.png|meat=13|fat=12|skin=hide|hair=1|bone=18|tooth=2|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|cartilage=1|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

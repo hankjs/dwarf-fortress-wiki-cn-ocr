@@ -130,12 +130,7 @@ You can assign what squad carries how much or little food and alcohol through th
 * [[Weapon]]s
 * [[Armor]]
 
-{{Translation
-| dwarven = ezar
-| elvish  = ethare
-| goblin  = oxo
-| human   = tath
-}}
+{{Translation| dwarven = ezar| elvish  = ethare| goblin  = oxo| human   = tath}}
 
 {{Military}}
 {{Category|Dwarves}}

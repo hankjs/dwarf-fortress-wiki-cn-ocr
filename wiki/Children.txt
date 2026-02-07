@@ -10,12 +10,7 @@ In fortress mode, some migrant dwarves are [[marriage|married]] and may bring ch
 Much of [[goblin]] society is centered around [[thief|stealing the children]] of other races. The appropriate response to a baby-snatcher appearing on the map is the judicious use of [[magma|dwarven diplomacy]].
 
 Humanoid creatures (the five main species) that are children or babies will appear as unique smaller sprites, and will appear to be wearing red if the option to show worn clothing dyes is disabled. Young animals and other creatures will have a smaller sprite than their adult counterparts, with some of them having baby sprites as well. Curiously enough, portraits can still show dwarven children with facial hair.
-{{Translation
-| dwarven = tilat
-| elvish  = imi
-| goblin  = tox
-| human   = shin
-}}
+{{Translation| dwarven = tilat| elvish  = imi| goblin  = tox| human   = shin}}
 ==Babies==
 [[File:dwarf_children.jpg|thumb|260px|right|Before they grow up to realize they're in an unwinnable game.<br><small>''Art by Devilingo''</small>]][[File:df_baby_list.png|thumb|260px|right|Many children and a baby seen in the citizen information menu.]][[File:dwarf_child_portrait.png|thumb|96px|right|Portrait of a dwarven child.]]Babies do not have to be born in [[bed]]s, but are born wherever the mother happens to be, which will interrupt most current actions of the mother. The game will play the birth sound effect and [[announcement|announce]] the arrival of the baby. The mother will cancel whatever task she was in the middle of to seek her infant, and then will ''usually'' resume whatever task she was doing before the child was born.  Dwarven mothers can also give birth to twins or triplets, although that is exceedingly rare (1 out of 500), due to their [MULTIPLE_LITTER_RARE] token. Babies are looked after by their mother, who will continue working while carrying the babies.
 

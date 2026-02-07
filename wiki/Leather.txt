@@ -1,21 +1,10 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_item
-|graphic={{imagefix|[[File:Leather_sprite.png]]|4|0}}
-|name=Tanned hide
-|tile=ß
-|col=6:0:0
-|materials=<span></span>
-* [[Skin]]
-|workshops=<span></span>
-* [[Tanner's shop]]
-|labors=<span></span>
-* [[Tanner|Tanning]]
-|used for=
-* [[Leatherworker|Leatherworking]]
-|value=5
-|size=5,000
-}}
+{{V50_item|graphic={{imagefix|[[File:Leather_sprite.png]]|4|0}}|name=Tanned hide|tile=ß|col=6:0:0|materials=<span></span>
+* [[Skin]]|workshops=<span></span>
+* [[Tanner's shop]]|labors=<span></span>
+* [[Tanner|Tanning]]|used for=
+* [[Leatherworker|Leatherworking]]|value=5|size=5,000}}
 '''Leather''' is the tanned [[hide]] of an [[creature|animal]], and is a fairly versatile material. Leather can be used to make [[bag]]s, [[quiver]]s, [[backpack]]s, [[waterskin]]s, [[clothing]], [[shield]]s, [[armor]], and [[decoration]]s, all at a [[leather works]]. Leather [[trade good|crafts]] are made at a [[craftsdwarf's workshop]]. 
 
 Although most of these items can be made from other materials, it is the only sensible option for making [[quiver]]s and [[backpack]]s (the only alternative being [[adamantine]]), meaning some source of leather is practically essential for a well-rounded [[military]]. 
@@ -23,40 +12,8 @@ Although most of these items can be made from other materials, it is the only se
 Plenty of leather can usually be acquired through [[trading|trade]] with dwarves and humans. Raw hides can be acquired by [[hunting]] or by [[butchering]] domesticated animals, and these can then be turned to leather at a [[tannery]]. Smaller animals will never produce a hide, so you will never, for example, have [[kea]] or [[rat]] leather. The raw hide of larger animals can produce more than 1 item of usable leather; this seems to start with animals about the [[size]] of an adult [[mule]] (size ~150,000 cm3). 
 
 :: {| class="collapsible collapsed" style="border-spacing: 1"
-! <u>Leather items per raw hide</u>
-|-
-! Animal !! Leather per adult
-|-
-| Rabbit || 0
-|-
-| Dog || 1
-|-
-| Cat || 1
-|-
-| Sheep || 1
-|-
-| Pig || 1
-|-
-| Goat || 1
-|-
-| Llama || 1
-|-
-| Alpaca || 1
-|-
-| Donkey || 1
-|-
-| Reindeer || 1
-|-
-| Mule || 2
-|-
-| Horse || 2
-|-
-| Cow || 2
-|-
-| Yak || 2
-|-
-| Water buffalo || 2-3
-|}
+! <u>Leather items per raw hide</u>|-
+! Animal !! Leather per adult|-| Rabbit || 0|-| Dog || 1|-| Cat || 1|-| Sheep || 1|-| Pig || 1|-| Goat || 1|-| Llama || 1|-| Alpaca || 1|-| Donkey || 1|-| Reindeer || 1|-| Mule || 2|-| Horse || 2|-| Cow || 2|-| Yak || 2|-| Water buffalo || 2-3|}
 
 Small amounts of leather can also be found near groups of cavern-dwelling [[animal people]]. Obtaining leather this way is rather dangerous, as these creatures are generally hostile to dwarves and are often armed with [[blowgun]]s shooting lethally poisonous [[blowdart]]s. {{Verify}}
 

@@ -14,8 +14,7 @@
 * Tropical freshwater [[swamp]]
 * Tropical saltwater swamp
 * Tropical freshwater [[marsh]]
-* Tropical saltwater marsh
-}}
+* Tropical saltwater marsh}}
 
 === Water biomes ===
 {{columns-list|colwidth=20em|
@@ -28,8 +27,7 @@
 * Tropical ocean
 * Tropical brackish [[river]]									 
 * Tropical freshwater river 									
-* Tropical saltwater river
-}}
+* Tropical saltwater river}}
 
 == See Also== 
 * [[Temperate]]

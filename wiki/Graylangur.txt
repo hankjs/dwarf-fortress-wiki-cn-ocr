@@ -1,20 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=gray_langur_sprites.png
-|portrait=gray_langur_portrait_anim.gif
-|meat=7-12
-|bone=10
-|fat=11
-|skin=hide
-|skull=1
-|tripe=1
-|intestines=1
-|brain=1
-|lung=2
-|liver=1
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=gray_langur_sprites.png|portrait=gray_langur_portrait_anim.gif|meat=7-12|bone=10|fat=11|skin=hide|skull=1|tripe=1|intestines=1|brain=1|lung=2|liver=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

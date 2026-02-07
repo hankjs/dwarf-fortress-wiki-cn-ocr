@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=sturgeon_sprites.png
-|portrait=sturgeon_portrait.png
-|contrib=no
-|skull=1
-|bone=13
-|skin=scale
-|fat=11
-|meat=46
-|intestine=12
-|kidney=4
-|heart=2
-|sweetbread=2
-|spleen=2
-|liver=4
-|tripe=4
-|brain=4
-|eye=2
-|wiki=yes
-}}
+{{Creaturelookup/0|image=sturgeon_sprites.png|portrait=sturgeon_portrait.png|contrib=no|skull=1|bone=13|skin=scale|fat=11|meat=46|intestine=12|kidney=4|heart=2|sweetbread=2|spleen=2|liver=4|tripe=4|brain=4|eye=2|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

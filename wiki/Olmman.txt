@@ -1,11 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=olm_man_sprite.png
-|portrait=olm_man_portrait.png
-|wiki=no
-|death=nobutcher
-|contrib=no
-}}
+{{Creaturelookup/0|image=olm_man_sprite.png|portrait=olm_man_portrait.png|wiki=no|death=nobutcher|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

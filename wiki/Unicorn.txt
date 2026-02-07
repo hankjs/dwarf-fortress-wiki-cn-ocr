@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=unicorn_sprites.png
-|portrait=unicorn_portrait.png
-|contrib=no
-|meat=10-22
-|fat=9
-|eye=2
-|lung=2
-|heart=1
-|intestine=2
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=2
-|bone=14
-|skull=1
-|hoof=4
-|horn=1
-|skin=hide
-|wiki=yes}}
+{{Creaturelookup/0|image=unicorn_sprites.png|portrait=unicorn_portrait.png|contrib=no|meat=10-22|fat=9|eye=2|lung=2|heart=1|intestine=2|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=2|bone=14|skull=1|hoof=4|horn=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Unicorns''' are large [[creature]]s found in [[Surroundings#Good|good-aligned]] [[forest]]s and [[shrubland]]s, where they spawn in fairly large herds. Somewhat larger than the average [[horse]], unicorns will normally flee when approached by a [[dwarf]], though if cornered, they will attempt to impale them with their horns. Despite this, a [[crossbow]]-wielding [[hunter]] or an equipped [[military]] squad will usually fare well against unicorns, providing your fort with a big equine meal.

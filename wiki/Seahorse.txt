@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{verminlookup/0
-|image=seahorse_sprite.png
-|portrait=seahorse_portrait.png}}
+{{verminlookup/0|image=seahorse_sprite.png|portrait=seahorse_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

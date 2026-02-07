@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=ore_yellow2_sprite.png}}
+{{stonelookup/0|graphic=ore_yellow2_sprite.png}}
 {{av}}
 '''Horn silver''', also known as "Cerargyrite", is an [[ore]] of [[silver]] that is functionally identical to [[native silver]], though only found within [[native silver]] as [[cluster|small clusters]].
 

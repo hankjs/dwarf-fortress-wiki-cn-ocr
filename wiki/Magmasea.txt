@@ -16,22 +16,10 @@ Stockpiles may not be placed on a magma flow tile. However, the magma flow tile 
 ==Wildlife==
 ===Creatures===
 {| class="wikitable"
-! Name
-|-
-| [[File:Fire imp sprite.png]] / {{Tile|i|6:1}} [[Fire imp]]
-|-
-| [[File:Fire man sprite.png|15px]] / {{Tile|M|4:1}} [[Fire man]]
-|-
-| [[File:Magma crab sprite.png|26px]] / {{Tile|C|0:1}} [[Magma crab]]
-|-
-| [[File:Magma man sprite.png|20px]] / {{Tile|M|4:1}} [[Magma man]]
-|}
+! Name|-| [[File:Fire imp sprite.png]] / {{Tile|i|6:1}} [[Fire imp]]|-| [[File:Fire man sprite.png|15px]] / {{Tile|M|4:1}} [[Fire man]]|-| [[File:Magma crab sprite.png|26px]] / {{Tile|C|0:1}} [[Magma crab]]|-| [[File:Magma man sprite.png|20px]] / {{Tile|M|4:1}} [[Magma man]]|}
 
 ===Vermin===
 {| class="wikitable"
-! Name
-|-
-| [[File:Fire snake sprite.png|20px]] / {{Tile|∙|6:1}} [[Fire snake]]
-|}
+! Name|-| [[File:Fire snake sprite.png|20px]] / {{Tile|∙|6:1}} [[Fire snake]]|}
 
 {{World}}

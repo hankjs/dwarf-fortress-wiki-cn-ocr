@@ -59,8 +59,7 @@ Here's one example of this method:
  ▓...▓▓▓▓[#00F]~[#00F]≈[#00F]~      [#00F]≈[#00F]~ water
  ▓.......[#FFF]+[#FFF]+[#FFF]+      [#FFF]+  "bridge" (constructed floor tiles)
  ▓...▓▓▓[#00F]≈[#00F]~[#00F]≈[#00F]~
- ▓▓▓▓▓[#00F]~[#00F]≈[#00F]~[#00F]≈[#00F]~
-}}
+ ▓▓▓▓▓[#00F]~[#00F]≈[#00F]~[#00F]≈[#00F]~}}
 
 === via Reservoir ===
 [[File:Irrigation1.png‎|thumb|right|A reservoir system which provides enough water for 8 fields. Upper level]]

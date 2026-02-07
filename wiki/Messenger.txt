@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{Noble
-| noble=Messenger
-| arrival= *Appointed by player.
-| function=
-* Interact with [[holding]]s
-}}
+{{Noble| noble=Messenger| arrival= *Appointed by player.| function=
+* Interact with [[holding]]s}}
 {{av}}
 '''Messengers''' are an assigned [[occupation]] at your site. They can be assigned in the Nobles and Administration menu ({{menu icon|n}}), and will act as liaisons with your [[holding]]s and conquered sites. When a messenger has been assigned, they can be sent on [[missions]] from World Screen ({{menu icon|Y}}). Click on holdings under your control to request dwarves or demand conquered sites to become [[Citizenship|citizen]]s of your fortress. Only dwarves that are considered [[historical figure]]s may be summoned to join your fortress in this way.
 

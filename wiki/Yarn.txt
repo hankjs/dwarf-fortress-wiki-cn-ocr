@@ -11,12 +11,7 @@ A [[dwarf]] with the [[spinner]] [[labor]] enabled can process wool into yarn at
 * [[Plant fiber]]
 * [[Textile industry]]
 
-{{Translation
-| dwarven = ethír
-| elvish  = ire
-| goblin  = nasê
-| human   = áto
-}}
+{{Translation| dwarven = ethír| elvish  = ire| goblin  = nasê| human   = áto}}
 
 {{Materials}}
 [[ru:Yarn]]

@@ -47,8 +47,7 @@ Here follows a conclusive list of all possible shapes given to a cursed individu
 * weremonitor
 * wereskink
 * weretortoise**
-* wereturtle
-}}
+* wereturtle}}
 
 '''Mammal werebeasts:'''
 {{columns-list|colwidth=10em|
@@ -115,54 +114,12 @@ Here follows a conclusive list of all possible shapes given to a cursed individu
 * wereweasel
 * werewolf
 * werewombat
-* werezebra*
-}}-->
+* werezebra*}}-->
 {| class="wikitable"
-! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae; | !! Graphic !! Werebeast
-|+ Reptile Werebeasts
-|[[File:werechameleon_sprite.png|center]] || Werechameleon || style="background:#ddd;" | || [[File:weregecko_sprite.png|center]] || Weregecko || style="background:#ddd;" | || [[File:weregilamonster_sprite.png|center]] || Weregilamonster
-|-
-|[[File:wereiguana_sprite.png|center]] || Wereiguana || style="background:#ddd;" | || [[File:werelizard_sprite.png|center]] || Werelizard || style="background:#ddd;" | || [[File:weremonitor_sprite.png|center]] || Weremonitor
-|-
-|[[File:wereskink_sprite.png|center]] || Wereskink || style="background:#ddd;" | || [[File:weretortoise_sprite.png|center]] || Weretortoise** || style="background:#ddd;" | || [[File:weretortoise_sprite.png|center]] || Wereturtle
-|}
+! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae; | !! Graphic !! Werebeast|+ Reptile Werebeasts|[[File:werechameleon_sprite.png|center]] || Werechameleon || style="background:#ddd;" | || [[File:weregecko_sprite.png|center]] || Weregecko || style="background:#ddd;" | || [[File:weregilamonster_sprite.png|center]] || Weregilamonster|-|[[File:wereiguana_sprite.png|center]] || Wereiguana || style="background:#ddd;" | || [[File:werelizard_sprite.png|center]] || Werelizard || style="background:#ddd;" | || [[File:weremonitor_sprite.png|center]] || Weremonitor|-|[[File:wereskink_sprite.png|center]] || Wereskink || style="background:#ddd;" | || [[File:weretortoise_sprite.png|center]] || Weretortoise** || style="background:#ddd;" | || [[File:weretortoise_sprite.png|center]] || Wereturtle|}
 
-{| class="wikitable"
-|+ Mammal Werebeasts
-! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature
-|-
-|[[File:wereanteater_sprite.png|center]] || Wereanteater* || style="background:#ddd;" | || [[File:werecoati_sprite.png|center]] || Werecoati || style="background:#ddd;" | || [[File:werekoala_sprite.png|center]] || Werekoala || style="background:#ddd;" | || [[File:wereporcupine_sprite.png|center]] || Wereporcupine
-|-
-|[[File:wereantelope_sprite.png|center]] || Wereantelope** || style="background:#ddd;" | || [[File:werecoyote_sprite.png|center]] || Werecoyote || style="background:#ddd;" | || [[File:werelemur_sprite.png|center]] || Werelemur || style="background:#ddd;" | || [[File:wererabbit_sprite.png|center]] || Wererabbit
-|-
-|[[File:wereape_sprite.png|center]] || Wereape** || style="background:#ddd;" | || [[File:weredeer_sprite.png|center]] || Weredeer || style="background:#ddd;" | || [[File:werellama_sprite.png|center]] || Werellama || style="background:#ddd;" | || [[File:wereraccoon_sprite.png|center]] || Wereraccoon
-|-
-|[[File:werearmadillo_sprite.png|center]] || Werearmadillo || style="background:#ddd;" | || [[File:weredonkey_sprite.png|center]] || Weredonkey || style="background:#ddd;" | || [[File:wereloris_sprite.png|center]] || Wereloris* || style="background:#ddd;" | || [[File:wererat_sprite.png|center]] || Wererat
-|-
-|[[File:werebadger_sprite.png|center]] || Werebadger || style="background:#ddd;" | || [[File:wereelephant_sprite.png|center]] || Wereelephant || style="background:#ddd;" | || [[File:weremammoth_sprite.png|center]] || Weremammoth* || style="background:#ddd;" | || [[File:wererhinoceros_sprite.png|center]] || Wererhinoceros
-|-
-|[[File:werebear_sprite.png|center]] || Werebear** || style="background:#ddd;" | || [[File:wereelk_sprite.png|center]] || Wereelk || style="background:#ddd;" | || [[File:weremarmot_sprite.png|center]] || Weremarmot || style="background:#ddd;" | || [[File:weresheep_sprite.png|center]] || Weresheep
-|-
-| style="height:60px;" | [[File:werebeaver_sprite.png|center]] || Werebeaver || style="background:#ddd;" | || [[File:werefox_sprite.png|center]] || Werefox || style="background:#ddd;" | || [[File:weremole_sprite.png|center]] || Weremole* || style="background:#ddd;" | || [[File:wereshrew_sprite.png|center]] || Wereshrew*
-|-
-|[[File:werebison_sprite.png|center]] || Werebison* || style="background:#ddd;" | || [[File:weregiraffe_sprite.png|center]] || Weregiraffe || style="background:#ddd;" | || [[File:weremongoose_sprite.png|center]] || Weremongoose || style="background:#ddd;" | || [[File:wereskunk_sprite.png|center]] || Wereskunk
-|-
-|[[File:werebuffalo_sprite.png|center]] || Werebuffalo || style="background:#ddd;" | || [[File:weregoat_sprite.png|center]] || Weregoat || style="background:#ddd;" | || [[File:weremonkey_sprite.png|center]] || Weremonkey** || style="background:#ddd;" | || [[File:weresloth_sprite.png|center]] || Weresloth
-|-
-|[[File:werebull_sprite.png|center]] || Werebull || style="background:#ddd;" | || [[File:weregopher_sprite.png|center]] || Weregopher* || style="background:#ddd;" | || [[File:weremoose_sprite.png|center]] || Weremoose || style="background:#ddd;" | || [[File:weresquirrel_sprite.png|center]] || Weresquirrel
-|-
-|[[File:werecamel_sprite.png|center]] || Werecamel** || style="background:#ddd;" | || [[File:werehare_sprite.png|center]] || Werehare || style="background:#ddd;" | || [[File:weremouse_sprite.png|center]] || Weremouse* || style="background:#ddd;" | || [[File:weretapir_sprite.png|center]] || Weretapir
-|-
-|[[File:werecapybara_sprite.png|center]] || Werecapybara || style="background:#ddd;" | || [[File:werehedgehog_sprite.png|center]] || Werehedgehog || style="background:#ddd;" | || [[File:wereopossum_sprite.png|center]] || Wereopossum || style="background:#ddd;" | || [[File:werewarthog_sprite.png|center]] || Werewarthog
-|-
-|[[File:werecat_sprite.png|center]] || Werecat || style="background:#ddd;" | || [[File:werehorse_sprite.png|center]] || Werehorse || style="background:#ddd;" | || [[File:werepanda_sprite.png|center]] || Werepanda || style="background:#ddd;" | || [[File:wereweasel_sprite.png|center]] || Wereweasel
-|-
-| style="height:60px;" | [[File:werecavy_sprite.png|center]] || Werecavy || style="background:#ddd;" | || [[File:werehyena_sprite.png|center]] || Werehyena || style="background:#ddd;" | || [[File:werepangolin_sprite.png|center]] || Werepangolin || style="background:#ddd;" | || [[File:werewolf_sprite.png|center]] || Werewolf
-|-
-| style="height:60px;" | [[File:werechinchilla_sprite.png|center]] || Werechinchilla || style="background:#ddd;" | || [[File:werejackal_sprite.png|center]] || Werejackal || style="background:#ddd;" | || [[File:werebeast_sprite.png|center]] || Werepanther** || style="background:#ddd;" | || [[File:werewombat_sprite.png|center]] || Werewombat
-|-
-| style="height:60px;" | [[File:werecivet_sprite.png|center]] || Werecivet* || style="background:#ddd | || [[File:werekangaroo_sprite.png|center]] || Werekangaroo || style="background:#ddd | || [[File:werepig_sprite.png|center]] || Werepig || style="background:#ddd | || [[File:werezebra_sprite.png|center]] || Werezebra*
-|}
+{| class="wikitable"|+ Mammal Werebeasts
+! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature !! style="background:#aeaeae;" | !! Graphic !! Werecreature|-|[[File:wereanteater_sprite.png|center]] || Wereanteater* || style="background:#ddd;" | || [[File:werecoati_sprite.png|center]] || Werecoati || style="background:#ddd;" | || [[File:werekoala_sprite.png|center]] || Werekoala || style="background:#ddd;" | || [[File:wereporcupine_sprite.png|center]] || Wereporcupine|-|[[File:wereantelope_sprite.png|center]] || Wereantelope** || style="background:#ddd;" | || [[File:werecoyote_sprite.png|center]] || Werecoyote || style="background:#ddd;" | || [[File:werelemur_sprite.png|center]] || Werelemur || style="background:#ddd;" | || [[File:wererabbit_sprite.png|center]] || Wererabbit|-|[[File:wereape_sprite.png|center]] || Wereape** || style="background:#ddd;" | || [[File:weredeer_sprite.png|center]] || Weredeer || style="background:#ddd;" | || [[File:werellama_sprite.png|center]] || Werellama || style="background:#ddd;" | || [[File:wereraccoon_sprite.png|center]] || Wereraccoon|-|[[File:werearmadillo_sprite.png|center]] || Werearmadillo || style="background:#ddd;" | || [[File:weredonkey_sprite.png|center]] || Weredonkey || style="background:#ddd;" | || [[File:wereloris_sprite.png|center]] || Wereloris* || style="background:#ddd;" | || [[File:wererat_sprite.png|center]] || Wererat|-|[[File:werebadger_sprite.png|center]] || Werebadger || style="background:#ddd;" | || [[File:wereelephant_sprite.png|center]] || Wereelephant || style="background:#ddd;" | || [[File:weremammoth_sprite.png|center]] || Weremammoth* || style="background:#ddd;" | || [[File:wererhinoceros_sprite.png|center]] || Wererhinoceros|-|[[File:werebear_sprite.png|center]] || Werebear** || style="background:#ddd;" | || [[File:wereelk_sprite.png|center]] || Wereelk || style="background:#ddd;" | || [[File:weremarmot_sprite.png|center]] || Weremarmot || style="background:#ddd;" | || [[File:weresheep_sprite.png|center]] || Weresheep|-| style="height:60px;" | [[File:werebeaver_sprite.png|center]] || Werebeaver || style="background:#ddd;" | || [[File:werefox_sprite.png|center]] || Werefox || style="background:#ddd;" | || [[File:weremole_sprite.png|center]] || Weremole* || style="background:#ddd;" | || [[File:wereshrew_sprite.png|center]] || Wereshrew*|-|[[File:werebison_sprite.png|center]] || Werebison* || style="background:#ddd;" | || [[File:weregiraffe_sprite.png|center]] || Weregiraffe || style="background:#ddd;" | || [[File:weremongoose_sprite.png|center]] || Weremongoose || style="background:#ddd;" | || [[File:wereskunk_sprite.png|center]] || Wereskunk|-|[[File:werebuffalo_sprite.png|center]] || Werebuffalo || style="background:#ddd;" | || [[File:weregoat_sprite.png|center]] || Weregoat || style="background:#ddd;" | || [[File:weremonkey_sprite.png|center]] || Weremonkey** || style="background:#ddd;" | || [[File:weresloth_sprite.png|center]] || Weresloth|-|[[File:werebull_sprite.png|center]] || Werebull || style="background:#ddd;" | || [[File:weregopher_sprite.png|center]] || Weregopher* || style="background:#ddd;" | || [[File:weremoose_sprite.png|center]] || Weremoose || style="background:#ddd;" | || [[File:weresquirrel_sprite.png|center]] || Weresquirrel|-|[[File:werecamel_sprite.png|center]] || Werecamel** || style="background:#ddd;" | || [[File:werehare_sprite.png|center]] || Werehare || style="background:#ddd;" | || [[File:weremouse_sprite.png|center]] || Weremouse* || style="background:#ddd;" | || [[File:weretapir_sprite.png|center]] || Weretapir|-|[[File:werecapybara_sprite.png|center]] || Werecapybara || style="background:#ddd;" | || [[File:werehedgehog_sprite.png|center]] || Werehedgehog || style="background:#ddd;" | || [[File:wereopossum_sprite.png|center]] || Wereopossum || style="background:#ddd;" | || [[File:werewarthog_sprite.png|center]] || Werewarthog|-|[[File:werecat_sprite.png|center]] || Werecat || style="background:#ddd;" | || [[File:werehorse_sprite.png|center]] || Werehorse || style="background:#ddd;" | || [[File:werepanda_sprite.png|center]] || Werepanda || style="background:#ddd;" | || [[File:wereweasel_sprite.png|center]] || Wereweasel|-| style="height:60px;" | [[File:werecavy_sprite.png|center]] || Werecavy || style="background:#ddd;" | || [[File:werehyena_sprite.png|center]] || Werehyena || style="background:#ddd;" | || [[File:werepangolin_sprite.png|center]] || Werepangolin || style="background:#ddd;" | || [[File:werewolf_sprite.png|center]] || Werewolf|-| style="height:60px;" | [[File:werechinchilla_sprite.png|center]] || Werechinchilla || style="background:#ddd;" | || [[File:werejackal_sprite.png|center]] || Werejackal || style="background:#ddd;" | || [[File:werebeast_sprite.png|center]] || Werepanther** || style="background:#ddd;" | || [[File:werewombat_sprite.png|center]] || Werewombat|-| style="height:60px;" | [[File:werecivet_sprite.png|center]] || Werecivet* || style="background:#ddd | || [[File:werekangaroo_sprite.png|center]] || Werekangaroo || style="background:#ddd | || [[File:werepig_sprite.png|center]] || Werepig || style="background:#ddd | || [[File:werezebra_sprite.png|center]] || Werezebra*|}
 :<small>*The animal this corresponds to does not actually appear as a normal [[animal]] in ''Dwarf Fortress''.</small>
 :<small>**This werebeast doesn't correspond clearly to any specific in-game species of animal.</small>
 
@@ -255,99 +212,33 @@ The Dwarven [[calendar]] has 12 months, each exactly 28 days long (four 7-day we
 ! colspan=2 rowspan=2 style="background: #eee;" | Month
 ! colspan=2 style="background: #eee;" | Gregorian equivalent
 ! colspan=2 rowspan=2 style="background: #eee;" | Season
-! rowspan=2 style="background: navy; color: white;" | Full <br>	&#x26AA; <br> Moon
-|-
+! rowspan=2 style="background: navy; color: white;" | Full <br>	&#x26AA; <br> Moon|-
 ! style="background: #ddd;" | Northern<br>Hemisphere
-! style="background: #ddd;" | Southern<br>Hemisphere
-|-
+! style="background: #ddd;" | Southern<br>Hemisphere|-
 ! style="background: #cfc;" | 1
-! style="background: #cfc;" | [[Granite]]
-| style="background: #cfc;" | March
-| style="background: #cfc;" | September
-| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Early-
-| style="background: #cfc" rowspan="3" | Spring
-| style="text-align: center; background: #cfc;" | 25th
-|-
+! style="background: #cfc;" | [[Granite]]| style="background: #cfc;" | March| style="background: #cfc;" | September| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Early-| style="background: #cfc" rowspan="3" | Spring| style="text-align: center; background: #cfc;" | 25th|-
 ! style="background: #cfc;" | 2
-! style="background: #cfc;" | [[Slate]]
-| style="background: #cfc;" | April
-| style="background: #cfc;" | October
-| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-
-| style="text-align: center; background: #cfc;" | 23rd
-|-
+! style="background: #cfc;" | [[Slate]]| style="background: #cfc;" | April| style="background: #cfc;" | October| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-| style="text-align: center; background: #cfc;" | 23rd|-
 ! style="background: #cfc;" | 3
-! style="background: #cfc;" | [[Felsite]]
-| style="background: #cfc;" | May
-| style="background: #cfc;" | November
-| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Late-
-| style="text-align: center; background: #cfc;" | 21st
-|-
+! style="background: #cfc;" | [[Felsite]]| style="background: #cfc;" | May| style="background: #cfc;" | November| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | Late-| style="text-align: center; background: #cfc;" | 21st|-
 ! style="background: #ffc;" | 4
-! style="background: #ffc;" | [[Hematite]]
-| style="background: #ffc;" | June
-| style="background: #ffc;" | December
-| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Early-
-| style="background: #ffc;" rowspan="3" | Summer
-| style="text-align: center; background: #ffc;" | 19th
-|-
+! style="background: #ffc;" | [[Hematite]]| style="background: #ffc;" | June| style="background: #ffc;" | December| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Early-| style="background: #ffc;" rowspan="3" | Summer| style="text-align: center; background: #ffc;" | 19th|-
 ! style="background: #ffc;" | 5
-! style="background: #ffc;" | [[Malachite]]
-| style="background: #ffc;" | July
-| style="background: #ffc;" | January
-| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-
-| style="text-align: center; background: #ffc;" | 17th
-|-
+! style="background: #ffc;" | [[Malachite]]| style="background: #ffc;" | July| style="background: #ffc;" | January| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-| style="text-align: center; background: #ffc;" | 17th|-
 ! style="background: #ffc;" | 6
-! style="background: #ffc;" | [[Galena]]
-| style="background: #ffc;" | August
-| style="background: #ffc;" | February
-| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Late-
-| style="text-align: center; background: #ffc;" | 15th
-|-
+! style="background: #ffc;" | [[Galena]]| style="background: #ffc;" | August| style="background: #ffc;" | February| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | Late-| style="text-align: center; background: #ffc;" | 15th|-
 ! style="background: #fcc;" | 7
-! style="background: #fcc;" | [[Limestone]]
-| style="background: #fcc;" | September
-| style="background: #fcc;" | March
-| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Early-
-| style="background: #fcc" rowspan="3" | Autumn
-| style="text-align: center; background: #fcc;" | 13th
-|-
+! style="background: #fcc;" | [[Limestone]]| style="background: #fcc;" | September| style="background: #fcc;" | March| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Early-| style="background: #fcc" rowspan="3" | Autumn| style="text-align: center; background: #fcc;" | 13th|-
 ! style="background: #fcc;" | 8
-! style="background: #fcc;" | [[Sandstone]]
-| style="background: #fcc;" | October
-| style="background: #fcc;" | April
-| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-
-| style="text-align: center; background: #fcc;" | 10th
-|-
+! style="background: #fcc;" | [[Sandstone]]| style="background: #fcc;" | October| style="background: #fcc;" | April| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Mid-| style="text-align: center; background: #fcc;" | 10th|-
 ! style="background: #fcc;" | 9
-! style="background: #fcc;" | [[wood|Timber]]
-| style="background: #fcc;" | November
-| style="background: #fcc;" | May
-| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Late-
-| style="text-align: center; background: #fcc;" | 8th
-|-
+! style="background: #fcc;" | [[wood|Timber]]| style="background: #fcc;" | November| style="background: #fcc;" | May| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | Late-| style="text-align: center; background: #fcc;" | 8th|-
 ! style="background: #ccf;" | 10
-! style="background: #ccf;" | [[Moonstone]]
-| style="background: #ccf;" | December
-| style="background: #ccf;" | June
-| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Early-
-| style="background: #ccf" rowspan="3" | Winter
-| style="text-align: center; background: #ccf;" | 6th
-|-
+! style="background: #ccf;" | [[Moonstone]]| style="background: #ccf;" | December| style="background: #ccf;" | June| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Early-| style="background: #ccf" rowspan="3" | Winter| style="text-align: center; background: #ccf;" | 6th|-
 ! style="background: #ccf;" | 11
-! style="background: #ccf;" | [[Opal]]
-| style="background: #ccf;" | January
-| style="background: #ccf;" | July
-| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Mid-
-| style="text-align: center; background: #ccf;" | 4th
-|-
+! style="background: #ccf;" | [[Opal]]| style="background: #ccf;" | January| style="background: #ccf;" | July| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Mid-| style="text-align: center; background: #ccf;" | 4th|-
 ! style="background: #ccf;" | 12
-! style="background: #ccf;" | [[Obsidian]]
-| style="background: #ccf;" | February
-| style="background: #ccf;" | August
-| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Late-
-| style="text-align: center; background: #ccf;" | 2nd<br>''<small>&</small>''<br>28th 
-|}
+! style="background: #ccf;" | [[Obsidian]]| style="background: #ccf;" | February| style="background: #ccf;" | August| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | Late-| style="text-align: center; background: #ccf;" | 2nd<br>''<small>&</small>''<br>28th |}
 :: ''(* The math of {12 months x 28 days each} vs. {13 full moons x 26 days each} is not a perfect match, they're different by 2 days (336 vs. 338). This results in two <u>25</u> day lunar cycles (each 1 day shorter), one between months 7-8 and one between months 12-1.)''
 
 ==Werebeasts in adventure mode==
@@ -394,9 +285,7 @@ There have been tales of a Human who would become a Werebeaver when he spent too
 
 {{Translation| dwarven = senelfer | elvish = riviìle | goblin = bemkåbu | human = hixursuku}}
 {| {{listboxformat|class=gamedata}}
-!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)
-|- style="text-align: left; display:table-cell; "
-| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-family: monospace; font-size:1.25em; white-space:pre;">[OBJECT:CREATURE]
+!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)|- style="text-align: left; display:table-cell; "| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-family: monospace; font-size:1.25em; white-space:pre;">[OBJECT:CREATURE]
 
 [CREATURE:NIGHT_CREATURE_32]
 	[NAME:wereskink:wereskinks:wereskink]
@@ -610,9 +499,7 @@ There have been tales of a Human who would become a Werebeaver when he spent too
 			[SYN_CLASS:WERECURSE]
 			[CE_BODY_TRANSFORMATION:START:16800:ABRUPT]
 			[CE:CREATURE:NIGHT_CREATURE_32:DEFAULT]
-			[CE:PERIODIC:MOON_PHASE:27:0]
-|-
-|}
+			[CE:PERIODIC:MOON_PHASE:27:0]|-|}
 
 {{clear}}
 {{Military}}

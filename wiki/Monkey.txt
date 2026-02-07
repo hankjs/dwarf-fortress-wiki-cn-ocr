@@ -8,12 +8,7 @@
 * {{creature/variation links|Rhesus macaque|sep=**}}
 * {{creature/variation links|Spider monkey|sep=**}}
 
-{{Translation
-| dwarven = vankåb
-| elvish  = rithé
-| goblin  = lam
-| human   = taksmo
-}}
+{{Translation| dwarven = vankåb| elvish  = rithé| goblin  = lam| human   = taksmo}}
 
 {{disambig}}
 [[ru:Monkey]]

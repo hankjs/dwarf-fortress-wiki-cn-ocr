@@ -39,85 +39,27 @@ The criteria listed below are the defaults - if you use custom difficulty settin
 ! Pop
 ! Created Wealth
 ! Exported Wealth
-
-|- style='background-color:#eee'
-| style='background-color:#000; padding:2px 6px' | {{Raw Tile|Ω|#555|#000}}
-| '''Outpost'''
-| style='text-align:right' | -
-| -
-| -
-
-|- style='background-color:#ddd'
-| style='background-color:#000;' | {{Raw Tile|Ω|#777|#000}}
-| '''Hamlet'''
-| style='text-align:right' | 20
-| {{Tooltip|5,000☼|25,000☼ on hard}}
-| {{Tooltip|500☼|2,500☼ on hard}}
-
-|- style='background-color:#eee'
-| style='background-color:#000;' | {{Raw Tile|Ω|#999|#000}}
-| '''Village'''
-| style='text-align:right' | 50
-| {{Tooltip|25,000☼|125,000☼ on hard}}
-| {{Tooltip|2,500☼|12,500☼ on hard}}
-
-|- style='background-color:#ddd'
-| style='background-color:#000;' | {{Raw Tile|Ω|#bbb|#000}}
-| '''Town'''
-| style='text-align:right' | 80
-| {{Tooltip|100,000☼|500,000☼ on hard}}
-| {{Tooltip|10,000☼|50,000☼ on hard}}
-
-|- style='background-color:#eee'
-| style='background-color:#000;' | {{Raw Tile|Ω|#ddd|#000}}
-| '''City'''
-| style='text-align:right' | 110
-| {{Tooltip|200,000☼|1,000,000☼ on hard}}
-| {{Tooltip|20,000☼|100,000☼ on hard}}
-
-|- style='background-color:#ddd'
-| style='background-color:#000;| {{Raw Tile|Ω|#fff|#000}}
-| '''Metropolis'''
-| style='text-align:right' | 140
-| {{Tooltip|300,000☼|1,500,000☼ on hard}}
-| {{Tooltip|30,000☼|150,000☼ on hard}}
-|}
+|- style='background-color:#eee'| style='background-color:#000; padding:2px 6px' | {{Raw Tile|Ω|#555|#000}}| '''Outpost'''| style='text-align:right' | -| -| -
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#777|#000}}| '''Hamlet'''| style='text-align:right' | 20| {{Tooltip|5,000☼|25,000☼ on hard}}| {{Tooltip|500☼|2,500☼ on hard}}
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#999|#000}}| '''Village'''| style='text-align:right' | 50| {{Tooltip|25,000☼|125,000☼ on hard}}| {{Tooltip|2,500☼|12,500☼ on hard}}
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#bbb|#000}}| '''Town'''| style='text-align:right' | 80| {{Tooltip|100,000☼|500,000☼ on hard}}| {{Tooltip|10,000☼|50,000☼ on hard}}
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#ddd|#000}}| '''City'''| style='text-align:right' | 110| {{Tooltip|200,000☼|1,000,000☼ on hard}}| {{Tooltip|20,000☼|100,000☼ on hard}}
+|- style='background-color:#ddd'| style='background-color:#000;| {{Raw Tile|Ω|#fff|#000}}| '''Metropolis'''| style='text-align:right' | 140| {{Tooltip|300,000☼|1,500,000☼ on hard}}| {{Tooltip|30,000☼|150,000☼ on hard}}|}
 
 {| class=wikitable style='border-spacing: 0 2px'
 ! colspan='2' | Noble Title 
-! Description 
-|-
-| style='background-color: #000; padding: 2px 6px;' | {{Dwarf|5:0}}
-! style='text-align: left; background: #fdf;' | Barony capital
-| 
-* Home of the [[Baron|Baron/Baroness]]
-|-
-| style='background-color: #000;| {{Dwarf|5:0}}
-! style='text-align: left; background: #fef;' | County capital
-|
-* Home of the [[Count|Count/Countess]]
-|-
-| style='background-color: #000;| {{Dwarf|5:0}}
-! style='text-align: left; background: #fdf;' | Duchy capital
-| 
-* Home of the [[Duke|Duke/Duchess]]
-|-
-| style='background-color: #000;| {{Dwarf|5:0}}
-! style='text-align: left; background: #fef;' | Capital
-|
+! Description |-| style='background-color: #000; padding: 2px 6px;' | {{Dwarf|5:0}}
+! style='text-align: left; background: #fdf;' | Barony capital| 
+* Home of the [[Baron|Baron/Baroness]]|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | County capital|
+* Home of the [[Count|Count/Countess]]|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fdf;' | Duchy capital| 
+* Home of the [[Duke|Duke/Duchess]]|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | Capital|
 * Home of the [[Monarch|King/Queen]]
-* Capital of its civilization
-|-
-| style='background-color: #000;| {{Dwarf|5:0}}
-! style='text-align: left; background: #fef;' | Mountainhome
-|
-* [[Monarch#Becoming_a_Mountainhome|Endgame achievement]]
-|}
+* Capital of its civilization|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | Mountainhome|
+* [[Monarch#Becoming_a_Mountainhome|Endgame achievement]]|}
 
-{{Translation
-| dwarven = geshud
-| elvish  = abeco
-| goblin  = snusp
-| human   = thrathdad
-}}
+{{Translation| dwarven = geshud| elvish  = abeco| goblin  = snusp| human   = thrathdad}}
 {{World}}

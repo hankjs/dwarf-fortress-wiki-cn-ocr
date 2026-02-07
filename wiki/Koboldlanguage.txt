@@ -9,28 +9,7 @@ Kobold-language words do not actually have a proper English translation (''due t
 ==Alphabet and Graphemics==
 The letters of the Kobold alphabet are:
 <center>
-{|class="wikitable" style="border-collapse:collapse;"
-|-
-|width=2% align="center"|1||width=2% align="center"|2
-|width=2% align="center"|3||width=2% align="center"|4
-|width=2% align="center"|5||width=2% align="center"|6
-|width=2% align="center"|7||width=2% align="center"|8
-|width=2% align="center"|9||width=2% align="center"|10
-|width=2% align="center"|11||width=2% align="center"|12
-|width=2% align="center"|13||width=2% align="center"|14
-|width=2% align="center"|15||width=2% align="center"|16
-|width=2% align="center"|17||width=2% align="center"|18
-|width=2% align="center"|19||width=2% align="center"|20
-|width=2% align="center"|21
-|-
-|bgcolor="#EFEFEF" align="center" colspan="34" | '''Majuscule forms''' (also called '''uppercase''' or '''capital letters''')
-|-
-|width=2% align="center"|A||width=2% align="center"|B||width=2% align="center"|C||width=2% align="center"|D||width=2% align="center"|E||width=2% align="center"|F||width=2% align="center"|G||width=2% align="center"|H||width=2% align="center"|I||width=2% align="center"|J||width=2% align="center"|K||width=2% align="center"|L||width=2% align="center"|M||width=2% align="center"|N||width=2% align="center"|O||width=2% align="center"|P||width=2% align="center"|R||width=2% align="center"|S||width=2% align="center"|T||width=2% align="center"|U||width=2% align="center"|Y
-|- 	
-|bgcolor="#EFEFEF" align="center" colspan="34" | '''Minuscule forms''' (also called '''lowercase''' or '''small letters''')
-|-
-|align="center"|a||align="center"|b||align="center"|c||align="center"|d||align="center"|e||align="center"|f||align="center"|g||align="center"|h||align="center"|i||align="center"|j||align="center"|k||align="center"|l||align="center"|m||align="center"|n||align="center"|o||align="center"|p||align="center"|r||align="center"|s||align="center"|t||align="center"|u||align="center"|y
-|}
+{|class="wikitable" style="border-collapse:collapse;"|-|width=2% align="center"|1||width=2% align="center"|2|width=2% align="center"|3||width=2% align="center"|4|width=2% align="center"|5||width=2% align="center"|6|width=2% align="center"|7||width=2% align="center"|8|width=2% align="center"|9||width=2% align="center"|10|width=2% align="center"|11||width=2% align="center"|12|width=2% align="center"|13||width=2% align="center"|14|width=2% align="center"|15||width=2% align="center"|16|width=2% align="center"|17||width=2% align="center"|18|width=2% align="center"|19||width=2% align="center"|20|width=2% align="center"|21|-|bgcolor="#EFEFEF" align="center" colspan="34" | '''Majuscule forms''' (also called '''uppercase''' or '''capital letters''')|-|width=2% align="center"|A||width=2% align="center"|B||width=2% align="center"|C||width=2% align="center"|D||width=2% align="center"|E||width=2% align="center"|F||width=2% align="center"|G||width=2% align="center"|H||width=2% align="center"|I||width=2% align="center"|J||width=2% align="center"|K||width=2% align="center"|L||width=2% align="center"|M||width=2% align="center"|N||width=2% align="center"|O||width=2% align="center"|P||width=2% align="center"|R||width=2% align="center"|S||width=2% align="center"|T||width=2% align="center"|U||width=2% align="center"|Y|- 	|bgcolor="#EFEFEF" align="center" colspan="34" | '''Minuscule forms''' (also called '''lowercase''' or '''small letters''')|-|align="center"|a||align="center"|b||align="center"|c||align="center"|d||align="center"|e||align="center"|f||align="center"|g||align="center"|h||align="center"|i||align="center"|j||align="center"|k||align="center"|l||align="center"|m||align="center"|n||align="center"|o||align="center"|p||align="center"|r||align="center"|s||align="center"|t||align="center"|u||align="center"|y|}
 </center>
 
 Of these 21 letters, six (A, E, I, O, U, and Y) represent vowels, while the other fifteen represent consonants.
@@ -47,71 +26,7 @@ Based on a sample of one million kobold names, the letter frequencies can be est
 
 {| class="wikitable"
 ! style="text-align: center; font-weight: bold;" | Letter
-! Frequency
-|-
-| style="text-align: center; font-weight: bold;" | a
-| 6.11%
-|-
-| style="text-align: center; font-weight: bold;" | b
-| 4.48%
-|-
-| style="text-align: center; font-weight: bold;" | c
-| 1.28%
-|-
-| style="text-align: center; font-weight: bold;" | d
-| 3.17%
-|-
-| style="text-align: center; font-weight: bold;" | e
-| 5.23%
-|-
-| style="text-align: center; font-weight: bold;" | f
-| 1.86%
-|-
-| style="text-align: center; font-weight: bold;" | g
-| 3.82%
-|-
-| style="text-align: center; font-weight: bold;" | h
-| 3.83%
-|-
-| style="text-align: center; font-weight: bold;" | i
-| 9.60%
-|-
-| style="text-align: center; font-weight: bold;" | j
-| 1.28%
-|-
-| style="text-align: center; font-weight: bold;" | k
-| 3.17%
-|-
-| style="text-align: center; font-weight: bold;" | l
-| 10.25%
-|-
-| style="text-align: center; font-weight: bold;" | m
-| 1.96%
-|-
-| style="text-align: center; font-weight: bold;" | n
-| 3.72%
-|-
-| style="text-align: center; font-weight: bold;" | o
-| 4.37%
-|-
-| style="text-align: center; font-weight: bold;" | p
-| 1.28%
-|-
-| style="text-align: center; font-weight: bold;" | r
-| 9.67%
-|-
-| style="text-align: center; font-weight: bold;" | s
-| 11.47%
-|-
-| style="text-align: center; font-weight: bold;" | t
-| 3.84%
-|-
-| style="text-align: center; font-weight: bold;" | u
-| 7.86%
-|-
-| style="text-align: center; font-weight: bold;" | y
-| 1.75%
-|}
+! Frequency|-| style="text-align: center; font-weight: bold;" | a| 6.11%|-| style="text-align: center; font-weight: bold;" | b| 4.48%|-| style="text-align: center; font-weight: bold;" | c| 1.28%|-| style="text-align: center; font-weight: bold;" | d| 3.17%|-| style="text-align: center; font-weight: bold;" | e| 5.23%|-| style="text-align: center; font-weight: bold;" | f| 1.86%|-| style="text-align: center; font-weight: bold;" | g| 3.82%|-| style="text-align: center; font-weight: bold;" | h| 3.83%|-| style="text-align: center; font-weight: bold;" | i| 9.60%|-| style="text-align: center; font-weight: bold;" | j| 1.28%|-| style="text-align: center; font-weight: bold;" | k| 3.17%|-| style="text-align: center; font-weight: bold;" | l| 10.25%|-| style="text-align: center; font-weight: bold;" | m| 1.96%|-| style="text-align: center; font-weight: bold;" | n| 3.72%|-| style="text-align: center; font-weight: bold;" | o| 4.37%|-| style="text-align: center; font-weight: bold;" | p| 1.28%|-| style="text-align: center; font-weight: bold;" | r| 9.67%|-| style="text-align: center; font-weight: bold;" | s| 11.47%|-| style="text-align: center; font-weight: bold;" | t| 3.84%|-| style="text-align: center; font-weight: bold;" | u| 7.86%|-| style="text-align: center; font-weight: bold;" | y| 1.75%|}
 
 ==Phonotactics==
 
@@ -123,50 +38,7 @@ The Kobold language has 16 distinguishable consonant phonemes, forming the phono
 ! style="text-align: center; font-weight: bold;" | Dental
 ! style="text-align: center; font-weight: bold;" | Alveolar
 ! style="text-align: center; font-weight: bold;" | Post-alveolar
-! style="text-align: center; font-weight: bold;" | Velar
-|-
-| style="text-align: center; font-weight: bold;" | Nasal
-| style="text-align: center;" | ''m'' [m]
-| style="text-align: center;" | 
-| style="text-align: center;" | ''n'' [n*]
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-|-
-| style="text-align: center; font-weight: bold;" | Plosive
-| style="text-align: center;" | ''p'' [p], ''b'' [b]
-| style="text-align: center;" | 
-| style="text-align: center;" | ''t'' [t], ''d'' [d]
-| style="text-align: center;" | 
-| style="text-align: center;" | ''k'' [k], ''g'' [g]
-|-
-| style="text-align: center; font-weight: bold;" | Affricate
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-| style="text-align: center;" | ''ch'' [t͡ʃ], ''j'' [d͡ʒ]
-| style="text-align: center;" | 
-|-
-| style="text-align: center; font-weight: bold;" | Fricative
-| style="text-align: center;" | ''f'' [f]
-| style="text-align: center;" | ''th'' [θ]
-| style="text-align: center;" | ''s'' [s]
-| style="text-align: center;" | ''sh'' [ʃ]
-| style="text-align: center;" | 
-|-
-| style="text-align: center; font-weight: bold;" | Approximant
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-| style="text-align: center;" | ''r'' [r]
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-|-
-| style="text-align: center; font-weight: bold;" | Lateral
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-| style="text-align: center;" | ''l'' [l]
-| style="text-align: center;" | 
-| style="text-align: center;" | 
-|}
+! style="text-align: center; font-weight: bold;" | Velar|-| style="text-align: center; font-weight: bold;" | Nasal| style="text-align: center;" | ''m'' [m]| style="text-align: center;" | | style="text-align: center;" | ''n'' [n*]| style="text-align: center;" | | style="text-align: center;" | |-| style="text-align: center; font-weight: bold;" | Plosive| style="text-align: center;" | ''p'' [p], ''b'' [b]| style="text-align: center;" | | style="text-align: center;" | ''t'' [t], ''d'' [d]| style="text-align: center;" | | style="text-align: center;" | ''k'' [k], ''g'' [g]|-| style="text-align: center; font-weight: bold;" | Affricate| style="text-align: center;" | | style="text-align: center;" | | style="text-align: center;" | | style="text-align: center;" | ''ch'' [t͡ʃ], ''j'' [d͡ʒ]| style="text-align: center;" | |-| style="text-align: center; font-weight: bold;" | Fricative| style="text-align: center;" | ''f'' [f]| style="text-align: center;" | ''th'' [θ]| style="text-align: center;" | ''s'' [s]| style="text-align: center;" | ''sh'' [ʃ]| style="text-align: center;" | |-| style="text-align: center; font-weight: bold;" | Approximant| style="text-align: center;" | | style="text-align: center;" | | style="text-align: center;" | ''r'' [r]| style="text-align: center;" | | style="text-align: center;" | |-| style="text-align: center; font-weight: bold;" | Lateral| style="text-align: center;" | | style="text-align: center;" | | style="text-align: center;" | ''l'' [l]| style="text-align: center;" | | style="text-align: center;" | |}
 </center>
 
 <nowiki>*</nowiki>The phoneme represented by ''n'' likely has the [[wikipedia: Allophone|allophone]] [ŋ] before ''g'' and ''k.''
@@ -177,20 +49,7 @@ Kobold has three kinds of syllables, ''primary,'' ''secondary,'' and ''final.'' 
 <center>
 {| class="wikitable"
 ! No. of syllables
-! Structure
-|-
-| 2 syllables
-| 1-F
-|-
-| 3 syllables
-| 1-1-F
-|-
-| 4 syllables
-| 1-2-1-F
-|-
-| 5 syllables
-| 1-2-2-1-F
-|}
+! Structure|-| 2 syllables| 1-F|-| 3 syllables| 1-1-F|-| 4 syllables| 1-2-1-F|-| 5 syllables| 1-2-2-1-F|}
 </center>
 
 ====Primary Syllables====
@@ -224,30 +83,14 @@ You can generate Kobold names outside of ''Dwarf Fortress'', that follow ''most'
 
 {|class="wikitable"
 !Characters
-!Rewrites
-|-
-| 
+!Rewrites|-| 
 C: b d st sh s t th ch l f g k p j,<br />
 L: r l,<br />
 V: a o u i,<br />
 D: b d l f g k,<br />
 W: a o u i ay ee,<br />
 F: m r ng b rb mb g lg l lb lm k nk ld d rsn,<br />
-R: is us er in
-| ll: l
-|-
-| '''Patterns'''
-| [C(L)V(DV(DV))(C(L)W)FR C(L)WFR]
-|-
-| '''Filters'''
-|
-|-
-| '''Syllable Min'''
-| 1
-|-
-| '''Syllable Max'''
-| 1
-|}
+R: is us er in| ll: l|-| '''Patterns'''| [C(L)V(DV(DV))(C(L)W)FR C(L)WFR]|-| '''Filters'''||-| '''Syllable Min'''| 1|-| '''Syllable Max'''| 1|}
 
 ==Inspiration==
 Toady has said in an interview that the kobold language was created in imitation of his and Threetoe's childhood language developed to speak to cats. (BlindIRL interview, 2020/06/11, [https://www.youtube.com/watch?v=9xsv9JQ3X5w] )

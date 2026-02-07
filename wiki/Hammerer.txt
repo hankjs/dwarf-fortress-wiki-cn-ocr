@@ -1,12 +1,8 @@
 {{Quality|Superior}}
-{{Noble
-| noble=Hammerer
-| arrival=
-* Appointed on the [[nobles screen]]
-| function=
+{{Noble| noble=Hammerer| arrival=
+* Appointed on the [[nobles screen]]| function=
 * [[Justice]]
-* Executioner
-}}
+* Executioner}}
 {{av}}
 {{Buggy}}
 
@@ -24,12 +20,7 @@ If you are not willing to get your dwarves potentially killed by the justice for
 {{D for dwarf}}
 There are multiple theories as to why the hammerer has such a huge role in dwarven politics. Experts claim that he serves no real purpose, as [[Main:Armok|Armok]] usually finds a way to punish any delinquent even if no hammerer exists - magma, [[Giant cave spider|justice spiders]] or [[Dwarven atom smasher|bridge mistakes]] usually lead to a criminal's <s>un</s>timely demise. Hammerers do, however, present a sort of a calming factor on a typical fortress, and give any unhappy dwarf a simple, just, and brutal(ly effective) way to let off steam.
 
-{{Translation
-| dwarven = ùnil
-| elvish  = alara
-| goblin  = spar
-| human   = gibam
-}}
+{{Translation| dwarven = ùnil| elvish  = alara| goblin  = spar| human   = gibam}}
 
 {{gamedata|	[POSITION:HAMMERER]
 		[NAME:hammerer:hammerers]

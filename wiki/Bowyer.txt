@@ -1,21 +1,11 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:1
-| graphic    = [[File:bowyer_sprite_icon.png]]
-| graphicmargin = 107px
-| skill      = Bowyer
-| profession = [[Woodworker]]
-| job name   = [[Crossbow-making]]
-| tasks      =
-* Make [[crossbow]]
-| workshop =
-* [[Bowyer's workshop]]
-| attributes =
+{{v50_skill| color      = 6:1| graphic    = [[File:bowyer_sprite_icon.png]]| graphicmargin = 107px| skill      = Bowyer| profession = [[Woodworker]]| job name   = [[Crossbow-making]]| tasks      =
+* Make [[crossbow]]| workshop =
+* [[Bowyer's workshop]]| attributes =
 * Agility
 * Creativity 
 * Spatial Sense 
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 The '''bowyer''' [[skill]] is used to make [[wood]]en and [[bone]] [[crossbow]]s at a [[bowyer's workshop]].  A dwarf whose highest skill is crossbow-making has the [[profession]] of ''bowyer''.  A higher level of skill produces [[Item quality|higher average quality]] crossbows.

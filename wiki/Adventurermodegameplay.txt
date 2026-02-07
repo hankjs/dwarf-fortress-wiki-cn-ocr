@@ -9,35 +9,7 @@
 
 === Local movement ===
 [[File:Advmode_normaltravel_DF2014.png|thumb|400px|An image of normal travel mode. A list of the closest (but not necessarily close) sites is in the top-left corner. On the right side are minimaps of the next two levels down, relative to the player. Along the bottom is information about the player.]]
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}}
-| Move
-|-
-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}
-| Move
-|-
-| {{k|Alt}} and a direction key
-| Move carefully / Deliberately enter dangerous terrain
-|-
-| [[File:Adv ui ascend.png]]{{k|Shift}}+{{k|<}} or {{k|Shift}}+{{key|5}} (num lock off)
-| Ascend
-|-
-| [[File:Adv ui ascend.png]]{{k|Shift}}+{{k|>}} or {{k|Ctrl}}+{{key|5}} (num lock off)
-| Descend
-|-
-| {{k|.}}
-| Wait for 10 instants
-|-
-| {{k|,}}
-| Wait for 1 instant
-|-
-| {{Adv menu icon|s}}
-| Stand or lie down
-|-
-| {{Adv menu icon|m}}
-| Open movement speed menu
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}}| Move|-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}| Move|-| {{k|Alt}} and a direction key| Move carefully / Deliberately enter dangerous terrain|-| [[File:Adv ui ascend.png]]{{k|Shift}}+{{k|<}} or {{k|Shift}}+{{key|5}} (num lock off)| Ascend|-| [[File:Adv ui ascend.png]]{{k|Shift}}+{{k|>}} or {{k|Ctrl}}+{{key|5}} (num lock off)| Descend|-| {{k|.}}| Wait for 10 instants|-| {{k|,}}| Wait for 1 instant|-| {{Adv menu icon|s}}| Stand or lie down|-| {{Adv menu icon|m}}| Open movement speed menu|}
 
 Unless your character is an outsider, (''and that your chosen race is even OUTSIDER_CONTROLLABLE to begin with, ie, that you perhaps did not mod such a thing into the [[creature tokens]] beforehand''), you will start out in a race-appropriate town or hamlet; in the standard tileset, the @ sign is your character. The directional keys allow movement, diagonal movement being particularly important, especially when chasing or running away from things. Use {{k|Alt}}+direction to enter water, jump off of cliffs, or otherwise attempt to enter anything that you can't enter using normal movement commands. Note that when entering water, it's best to enter the actual water, ''not'' the open space over the water, as in the latter case you will fall in, causing you to become stunned, which may lead to drowning (''if you are not at least an Adequate swimmer''). If you hit {{Adv menu icon|j}}, you can jump, being mostly useful for getting to the far sides of gorges and crevices. Occasionally, you can manage to jump onto an opponent and tackle them, which typically causes them to go flying a short distance. Note that not every creature is able to jump. Hitting {{k|.}} allows you to stay in one place and wait for other things to move. {{k|,}} does the same but with a tenth of the time it takes for {{k|.}}.
 
@@ -49,39 +21,7 @@ If you press {{Adv menu icon|h}} to hold onto a wall or tree, you can climb the 
 
 === Fast travel ===
 [[File:Advmode_fasttravel_DF2014.png|thumb|400px|Fast Travel screen. The player is in a hamlet, between the houses to the right and the mead hall in the top-left area of the map. The asterisk represents a group of creatures (in this case unfriendly goblins). The world map (in sepia) is on the far right.]]
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|T}}
-| Fast Travel
-|-
-| {{Adv menu icon|T|d|num=1}}
-| Exit fast travel mode
-|-
-| {{Adv menu icon|T|K|num=1}}
-| Display detected tracks and odors
-|-
-| {{Adv menu icon|T|c|num=1}}
-| Toggle display of clouds on region map
-|-
-| {{Adv menu icon|S}}
-| Walk around in sneak mode. Exiting fast travel starts you in sneak mode.
-|-
-| [[File:Adv ui T.png]]{{k|m}}
-| Cycle through maps and significant structures
-|-
-| {{Adv menu icon|Q}}
-| View Quest Log
-|-
-| {{Adv menu icon|T|Z|num=1}}
-| Bring up sleep menu
-|-
-| {{k|h}}
-| Hide parts of the bottom bar
-|-
-| [[File:Adv ui descend.png]]{{k|>}} and [[File:Adv ui ascend.png]]{{k|<}}
-| Enter/exit tunnel
-|-
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|T}}| Fast Travel|-| {{Adv menu icon|T|d|num=1}}| Exit fast travel mode|-| {{Adv menu icon|T|K|num=1}}| Display detected tracks and odors|-| {{Adv menu icon|T|c|num=1}}| Toggle display of clouds on region map|-| {{Adv menu icon|S}}| Walk around in sneak mode. Exiting fast travel starts you in sneak mode.|-| [[File:Adv ui T.png]]{{k|m}}| Cycle through maps and significant structures|-| {{Adv menu icon|Q}}| View Quest Log|-| {{Adv menu icon|T|Z|num=1}}| Bring up sleep menu|-| {{k|h}}| Hide parts of the bottom bar|-| [[File:Adv ui descend.png]]{{k|>}} and [[File:Adv ui ascend.png]]{{k|<}}| Enter/exit tunnel|-|}
 
 Entering Fast Travel mode will allow you to move large distances in a single keypress. Of course, the same amount of time will go by and you can also be interrupted (ambushed) while moving in fast travel mode.  Along the top of the map is a line showing the sky, and position of the sun and/or moon from west to east – this primarily helps you determine how long you have before it gets dark, at which point you won't be able to see very far, will risk getting attacked by bogeymen if in a darkness or nightmare-[[sphere|aspected]] area, and will be more vulnerable to attack in general. If you are not near any sites, the {{k|m}} key will toggle a world map, colored in sepia tone (matching the map you see in the quest log). If you are near a site, then {{k|m}} cycles between a list of significant structures where your player is, a regional map (matching what you travel on when away from any site), and the aforementioned world map. The {{k|c}} key will only show clouds on the region map (the one you travel on outside of sites). Some clouds will be visible regardless of the state of this option.
 
@@ -94,20 +34,7 @@ The {{k|h}} key will cycle through various amounts of the bottom bar of content 
 
 == Status and information ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|l}}
-| Look around
-|-
-| {{k|Space}}
-| Advance/Clear Messages
-|-
-| {{Menu icon|a}}
-| View [[Announcement]]s
-|-
-| {{Adv menu icon|z}}
-| Status
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|l}}| Look around|-| {{k|Space}}| Advance/Clear Messages|-| {{Menu icon|a}}| View [[Announcement]]s|-| {{Adv menu icon|z}}| Status|}
 
 === Looking around ===
 {{old}}
@@ -129,14 +56,7 @@ Hit the {{Menu icon|Esc}} key at any time and select {{DFtext|Save Game}} to sav
 
 == Searching and manipulating ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|u}}
-| Interact with building, furniture, or mechanism
-|-
-| {{Adv menu icon|L}}
-| Search the nearby area very carefully
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|u}}| Interact with building, furniture, or mechanism|-| {{Adv menu icon|L}}| Search the nearby area very carefully|}
 
 The {{k|u}} key can be used to do stuff like pull levers in an abandoned fort. It is also used to lower and raise the bucket when standing right next to a well, so you can get water to refill your waterskin with. You can also access this through the context menu.
 
@@ -144,32 +64,7 @@ The {{k|u}} key can be used to do stuff like pull levers in an abandoned fort. I
 
 == Managing equipment ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|i}}
-| Show Inventory
-|-
-| {{Adv menu icon|d}}
-| Drop an item
-|-
-| {{Adv menu icon|g}}
-| Get (pick up) an item off the ground
-|-
-| {{Adv menu icon|p}}
-| Put an item into a container
-|-
-| {{Adv menu icon|r}}
-| Remove an item you are wearing or from a container
-|-
-| {{Adv menu icon|w}}
-| Wear an item
-|-
-| {{Adv menu icon|I}}
-| Interact with an object in an advanced way (unstick a weapon, refill waterskin etc.).
-|-
-| {{Adv menu icon|q}}
-| Sheath your weapons and shield. (Frees your hands for tasks such as climbing or grabbing)
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|i}}| Show Inventory|-| {{Adv menu icon|d}}| Drop an item|-| {{Adv menu icon|g}}| Get (pick up) an item off the ground|-| {{Adv menu icon|p}}| Put an item into a container|-| {{Adv menu icon|r}}| Remove an item you are wearing or from a container|-| {{Adv menu icon|w}}| Wear an item|-| {{Adv menu icon|I}}| Interact with an object in an advanced way (unstick a weapon, refill waterskin etc.).|-| {{Adv menu icon|q}}| Sheath your weapons and shield. (Frees your hands for tasks such as climbing or grabbing)|}
 
 === Inventory ===
 
@@ -221,27 +116,13 @@ Keep in mind that while strapping will put away ''everything'' you have in your 
 
 == Time and weather ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|D}}
-| Date
-|-
-| {{k|P}}
-| Temperature
-|-
-| {{k|W}}
-| Weather/Time
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|D}}| Date|-| {{k|P}}| Temperature|-| {{k|W}}| Weather/Time|}
 
 The game has a day/night cycle, with time passing as various actions take place. When using fast travel mode, the top line of the screen will indicate the position of the sun in the sky with a yellow "☼"; Further to the right of the screen is earlier in the day, and further to the left is later. In local travel mode you'll have to use the {{k|W}} command to learn the position of the sun, when you're in a place where the sun is visible. At night you won't be able to see nearly as well, and you will be more vulnerable to ambush. The game also has weather and temperature. The most common weather you'll experience is rain, which is shown as blue moving dots on the local travel screen and will, unsurprisingly, cause everything outside to become wet. Temperature is important, because if it happens to drop below freezing while you're swimming through water, you'll instantly die from being encased in the ice. Therefore, you might want to keep an eye on the temperature while swimming, especially if it's getting cold. Also, unlike fortress mode, rivers/other bodies of water can be liquid during the day, and freeze at night. The cycles of freezing can also be erratic from day to day. Freezing weather can also freeze liquids in your inventory solid, making them undrinkable. If your water freezes and you are thirsty, make a campfire and {{k|I}}nteract with your waterskin to heat it over the fire and melt the ice.
 
 == Sleep ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|Z}}
-| Sleep
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|Z}}| Sleep|}
 
 Eventually, your character will become {{DFtext|Drowsy|1:0}}, and this will get worse until you get sufficient sleep. 
 
@@ -254,11 +135,7 @@ If no other options are available, completely surrounding yourself with campfire
 
 == Food and drink ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|e}}
-| [[Eat]] or [[drink]] something
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|e}}| [[Eat]] or [[drink]] something|}
 
 To find water, you must find a river, stream, or well in a town and fill your waterskin (or any container) from it, or drink from it directly. Water that may be covering you or your items will not be able to satisfy your thirst. Note that drinking vampire blood will turn you into a vampire instantly. You can only eat and drink up to stomach capacity; after that you become increasingly nauseous and unable to retain your stomach contents (though if you needed a source for vomit, that's one way to acquire it.) You can reset stomach capacity by offloading the map (travel, rest, wait, etc.,) which can only be done in safe locations and circumstances. Over time, food contents are converted to stored fat, even if you remain active, and this will increase your fat layer mass and potentially reduce your speed. Fast traveling also resets food contents (as of v: 43.03) though the hunger and thirst timers are still satisfied by consumption.  If you find yourself in need of both food and hydration, make sure to take care of the most urgent problem first, as if you are moderately hungry but severely dehydrated and eat three times, you may die before you have another chance to drink. If the temperature is low enough that you might have trouble finding liquid water, snow and ice can be heated into water by first making a campfire with {{Adv menu icon|g}} and then performing an advanced interaction with {{Adv menu icon|I}} on the ice or snow in your inventory to heat it. Advanced interactions with your waterskin (or any container) can also be used to gather water from water sources, or snow from the ground. 
 
@@ -278,20 +155,7 @@ When eating or drinking, the following announcements will be displayed:
 
 == Companions ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|c}}
-| View companion interface
-|-
-| {{k|TAB}}
-| Change to another party member
-|-
-| {{Adv menu icon|E}}
-| Activate party tactical mode
-|-
-| {{Adv menu icon|k}}
-| Talk
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|c}}| View companion interface|-| {{k|TAB}}| Change to another party member|-| {{Adv menu icon|E}}| Activate party tactical mode|-| {{Adv menu icon|k}}| Talk|}
 
 There are three main types of companions: party members{{version|0.47.01}}, [[hearthperson|hearthpeople]] and regular [[:Category:NPCs|NPC]] companions. [[Mount#Adventurer_Mode|Mounts]] and [[pet]]s are other types of companions.
 
@@ -369,35 +233,7 @@ You can also try filling your [[backpack]] from a river - it can hold up to 100 
 
 == Quest log ==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|Q}}
-| Open quest log
-|-
-| {{k|Esc}}
-| Exit quest log
-|-
-| {{k|e}} {{k|p}} {{k|a}} {{k|s}} {{k|r}} {{k|b}}
-| Access various lists
-|-
-| {{k|m}}
-| Switch between the world map and additional info
-|-
-| {{k|z}}
-| Center cursor on location of selected list item, if known
-|-
-| {{k|c}}
-| Center cursor on your location
-|-
-| {{k|l}}
-| Toggle the visibility of the line between you and some other point on the map.
-|-
-| {{k|f}}
-| Filter the list
-|-
-| {{k|+}} {{k|-}} {{k|*}} {{k|/}}
-| Navigate the list
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|Q}}| Open quest log|-| {{k|Esc}}| Exit quest log|-| {{k|e}} {{k|p}} {{k|a}} {{k|s}} {{k|r}} {{k|b}}| Access various lists|-| {{k|m}}| Switch between the world map and additional info|-| {{k|z}}| Center cursor on location of selected list item, if known|-| {{k|c}}| Center cursor on your location|-| {{k|l}}| Toggle the visibility of the line between you and some other point on the map.|-| {{k|f}}| Filter the list|-| {{k|+}} {{k|-}} {{k|*}} {{k|/}}| Navigate the list|}
 
 The quest log contains everything you know about the world, such as various events going on, people you know, and various sites. The {{k|m}} key will alternate between a world map that you can navigate, and information on whatever item is highlighted in the list to the right.
 
@@ -412,14 +248,7 @@ There are various kinds of lists you can check on the quest log:
 * '''Bestiary''' — A list of creatures, their characteristics, and where you could find them.
 
 == Create ==
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|x}}
-| Craft (butcher, create item...)
-|-
-| {{Adv menu icon|P}}
-| Compose or [[Performer|perform]]
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|x}}| Craft (butcher, create item...)|-| {{Adv menu icon|P}}| Compose or [[Performer|perform]]|}
 
 Adventurers can perform limited crafting, with access to butchery and moddable [[reaction]]s. To access the crafting menu, press {{Adv menu icon|x}}. In addition to crafting, other actions can be performed.
 
@@ -464,22 +293,14 @@ The {{Adv menu icon|P}} [[Performer|performance]] menu allows you to create '''m
 Additionally, at the bottom of the writing menu, you have the option of writing down specific songs and dances known to the adventurer.
 
 == Natural abilities and acquired powers ==
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|X}}
-| Use ability
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|X}}| Use ability|}
 
 * '''Spitting''' lets you [[spit]] (if you are a creature that can), which can be aimed at someone in much the same way as any projectile. To get this, choose natural ability and then spit in the [[interaction]]s menu. Other natural abilities exist (such as breathing [[fire]]), but only some are usable, since some belong to creatures that are not playable.
 
 You may also gain acquired abilities when you become a creature of the night, such as a [[necromancer]] or [[intelligent undead]].
 
 == Woodcutting, building and site management ==
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|b}}
-| Found a site and build
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|b}}| Found a site and build|}
 
 Adventurers can chop down trees for resources—this requires a ''non-wooden'' axe. By pressing {{Adv menu icon|g}} while next to a tree, you can chop it down and collect logs.
 However building is no longer functional.
@@ -495,97 +316,17 @@ More information on each type of site can be found in the site's specific articl
 
 At these sites you can trade, take quests, or talk with people:
 
-{| style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;" class=wikitable class=sortable
-|- style="background:#F2F2F2;text-align:center;"
+{| style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;" class=wikitable class=sortable|- style="background:#F2F2F2;text-align:center;"
 !|'''Tile'''
 !|'''Name'''
-!|'''Inhabitated by'''
-|-
-| {{Raw Tile|Ω|0:0:1}} 
-| [[Mountain halls]]
-| Dwarves
-|-
-| {{Raw Tile|Ω|7:0:0}} 
-| [[Hillocks]]
-| Dwarves
-|-
-| {{Raw Tile|Ω|7:0:1}} 
-| [[Fortress]]
-| Dwarves
-|-
-| {{Raw Tile|○|7:0:1}} 
-| [[Castle]]{{version|0.47.01}}
-| Humans
-|-
-| {{Raw Tile|î|6:0:1}} {{Raw Tile|¶|6:0:1}} {{Raw Tile|₧|6:0:1}} 
-| [[Forest retreat]]
-| Elves
-|-
-| {{Raw Tile|<nowiki>=</nowiki>|2:0:0}} {{Raw Tile|≡|2:0:0}} {{Raw Tile|æ|2:0:0}} {{Raw Tile|Æ|2:0:0}} 
-| [[Hamlet]]
-| Humans
-|-
-| {{Raw Tile|+|7:0:0}} {{Raw Tile|*|7:0:0}} {{Raw Tile|#|7:0:0}} {{Raw Tile|☼|7:0:1}} 
-| [[Town]]
-| Humans
-|-
-| {{Raw Tile|○|7:0:0}} 
-| [[Monastery]]{{version|0.47.01}}
-| ?
-|}
+!|'''Inhabitated by'''|-| {{Raw Tile|Ω|0:0:1}} | [[Mountain halls]]| Dwarves|-| {{Raw Tile|Ω|7:0:0}} | [[Hillocks]]| Dwarves|-| {{Raw Tile|Ω|7:0:1}} | [[Fortress]]| Dwarves|-| {{Raw Tile|○|7:0:1}} | [[Castle]]{{version|0.47.01}}| Humans|-| {{Raw Tile|î|6:0:1}} {{Raw Tile|¶|6:0:1}} {{Raw Tile|₧|6:0:1}} | [[Forest retreat]]| Elves|-| {{Raw Tile|<nowiki>=</nowiki>|2:0:0}} {{Raw Tile|≡|2:0:0}} {{Raw Tile|æ|2:0:0}} {{Raw Tile|Æ|2:0:0}} | [[Hamlet]]| Humans|-| {{Raw Tile|+|7:0:0}} {{Raw Tile|*|7:0:0}} {{Raw Tile|#|7:0:0}} {{Raw Tile|☼|7:0:1}} | [[Town]]| Humans|-| {{Raw Tile|○|7:0:0}} | [[Monastery]]{{version|0.47.01}}| ?|}
 
 These sites are populated with goblins, monsters or undead. You may want to go there to accomplish a quest, or just for [[fun]]:
 
-{| style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;" class=wikitable class=sortable
-|- style="background:#F2F2F2;text-align:center;"
+{| style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;" class=wikitable class=sortable|- style="background:#F2F2F2;text-align:center;"
 !|'''Tile'''
 !|'''Name'''
-!|'''Inhabitated by'''
-|-
-| {{Raw Tile|☼|6:0:1}} 
-| [[Camp]]
-| Bandits
-|-
-| {{Raw Tile|○|0:6:0}} 
-| [[Fort]]{{version|0.47.01}}
-| Bandits
-|-
-| {{Raw Tile|º|5:0:0}} 
-| [[Dark pits]]
-| Goblins
-|-
-| {{Raw Tile|Π|0:0:1}} {{Raw Tile|Π|5:0:1}}
-| [[Dark fortress]]
-| Goblins
-|-
-| {{Raw Tile|•|0:0:1}} 
-| [[Cave]]
-| Monsters
-|-
-| {{Raw Tile|#|0:7:1}}
-| [[Labyrinth]]
-| Monsters
-|-
-| {{Raw Tile|•|0:0:1}} {{Raw Tile|•|2:0:1}} 
-| [[Lair]]
-| Monsters
-|-
-| {{Raw Tile|μ|6:0:1}} {{Raw Tile|μ|7:0:1}} {{Raw Tile|μ|7:0:0}} {{Raw Tile|μ|0:0:1}} {{Raw Tile|μ|5:0:1}} 
-| [[Ruin|Ruins]]
-| Monsters?
-|-
-| {{Raw Tile|Å|7:0:0}} 
-| [[Shrine]]
-| Monsters
-|-
-| {{Raw Tile|0|0:0:1}} 
-| [[Tomb]]
-| Undead
-|-
-| {{Raw Tile|I|5:0:0}} 
-| [[Tower (necromancy)|Tower]]
-| Undead
-|}
+!|'''Inhabitated by'''|-| {{Raw Tile|☼|6:0:1}} | [[Camp]]| Bandits|-| {{Raw Tile|○|0:6:0}} | [[Fort]]{{version|0.47.01}}| Bandits|-| {{Raw Tile|º|5:0:0}} | [[Dark pits]]| Goblins|-| {{Raw Tile|Π|0:0:1}} {{Raw Tile|Π|5:0:1}}| [[Dark fortress]]| Goblins|-| {{Raw Tile|•|0:0:1}} | [[Cave]]| Monsters|-| {{Raw Tile|#|0:7:1}}| [[Labyrinth]]| Monsters|-| {{Raw Tile|•|0:0:1}} {{Raw Tile|•|2:0:1}} | [[Lair]]| Monsters|-| {{Raw Tile|μ|6:0:1}} {{Raw Tile|μ|7:0:1}} {{Raw Tile|μ|7:0:0}} {{Raw Tile|μ|0:0:1}} {{Raw Tile|μ|5:0:1}} | [[Ruin|Ruins]]| Monsters?|-| {{Raw Tile|Å|7:0:0}} | [[Shrine]]| Monsters|-| {{Raw Tile|0|0:0:1}} | [[Tomb]]| Undead|-| {{Raw Tile|I|5:0:0}} | [[Tower (necromancy)|Tower]]| Undead|}
 
 == FAQ ==
 :'' Main page: [[Adventurer mode F.A.Q.]]

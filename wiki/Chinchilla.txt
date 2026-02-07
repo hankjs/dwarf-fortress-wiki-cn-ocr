@@ -1,10 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=chinchillas_sprite.png
-|portrait=chinchilla_portrait_anim.gif
-|skull=1
-|contri=no
-|wiki=yes}}
+{{Creaturelookup/0|image=chinchillas_sprite.png|portrait=chinchilla_portrait_anim.gif|skull=1|contri=no|wiki=yes}}
 {{av}}
 {{Creaturedesc}}
 '''Chinchillas''' are tiny [[creature]]s who can be found inhabiting [[mountain]]s. They are benign and among the smallest animals in the game who aren't [[vermin]], making them entirely harmless to [[Dwarf|dwarves]]. Because they're so small, trying to attack them may cause most blows to glance away harmlessly, though the force of the attacks will often be enough to kill them. A baby chinchilla is called a ''chinchilla kit''.

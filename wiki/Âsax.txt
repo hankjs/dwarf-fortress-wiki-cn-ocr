@@ -25,12 +25,7 @@ Yeah, that's pretty much his entire life according to legends mode. It misses th
 
 The sheer ordinariness of him makes him all the more awesome. He wasn't chosen by some mighty god, or born to some ancient lineage. He did not wield mighty artifacts or arcane magics. He was a cave swallow man with a fungiwood spear and a tunnel tube shield, who dared to challenge the unspeakable... and won.
 
-{{Translation
-| english = Masterjails
-| dwarven = Kônteskom
-| elvish  = Itheralezitha
-| human   = Siñurcudal
-}}
+{{Translation| english = Masterjails| dwarven = Kônteskom| elvish  = Itheralezitha| human   = Siñurcudal}}
 
 [[Category:Humor and stories]]
 [[ru:Âsax]]

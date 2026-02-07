@@ -1,10 +1,6 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=cabbage_shrub_sprite.png
-|seedimage=cabbage_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=cabbage_shrub_sprite.png|seedimage=cabbage_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Cabbage''' is an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons and are edible raw or [[cooking|cooked]]. Leaves can be processed in a [[dyer's shop]] into pink [[dye]].

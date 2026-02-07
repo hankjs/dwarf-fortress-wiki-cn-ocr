@@ -1,27 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_elk_sprite.png
-|portrait=elk_portrait_anim.gif
-|contrib=no
-|bone=30-36
-|meat=49-59
-|fat=15
-|eye=2
-|lung=4-6
-|heart=1
-|intestine=7-9
-|liver=2-3
-|tripe=2-3
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=2-3
-|skull=1
-|hoof=4
-|tooth=1
-|horns=2 (males only)
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_elk_sprite.png|portrait=elk_portrait_anim.gif|contrib=no|bone=30-36|meat=49-59|fat=15|eye=2|lung=4-6|heart=1|intestine=7-9|liver=2-3|tripe=2-3|sweetbread=1|spleen=1|kidney=2|brain=2-3|skull=1|hoof=4|tooth=1|horns=2 (males only)|skin=hide}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

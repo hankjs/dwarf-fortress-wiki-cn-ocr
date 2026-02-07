@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = atol
-| elvish  = rena
-| goblin  = ustrul
-| human   = cusal
-}}
+{{Translation| dwarven = atol| elvish  = rena| goblin  = ustrul| human   = cusal}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|sphere]] of truth will have words from this symbol in their name.

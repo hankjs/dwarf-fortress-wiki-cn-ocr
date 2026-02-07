@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=mule_sprites.png
-|portrait=mule_portrait_anim.gif
-|contrib=no
-|bone=13
-|meat=12
-|fat=9
-|hoof=4
-|eye=2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=mule_sprites.png|portrait=mule_portrait_anim.gif|contrib=no|bone=13|meat=12|fat=9|hoof=4|eye=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -40,12 +19,7 @@ Mules have a very long history of [http://www.bay12games.com/dwarves/imgs/mule.c
 
 [[File:Juancito.jpg|thumb|400px|center|Admired for its ''stubbornness''.]]
 
-{{Translation
-| dwarven = udler
-| elvish  = efama
-| goblin  = ner
-| human   = tolmo
-}}
+{{Translation| dwarven = udler| elvish  = efama| goblin  = ner| human   = tolmo}}
 
 {{gamedata}}
 {{Creatures}}

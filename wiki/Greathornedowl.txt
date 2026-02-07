@@ -1,13 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=great_horned_owl_sprites.png
-|portrait=great_horned_owl_portrait_anim.gif
-|skull=1
-|fat=2
-|skin=hide
-|meat=2
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=great_horned_owl_sprites.png|portrait=great_horned_owl_portrait_anim.gif|skull=1|fat=2|skin=hide|meat=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

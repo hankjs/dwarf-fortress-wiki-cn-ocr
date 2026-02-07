@@ -6,23 +6,11 @@ If a creature is genderless, or if the gender is unknown, the game will simply r
 
 ==Determining gender==
 When {{k|v}}iewing a unit, a symbol appears below its name:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Gender
 ! Symbol
 ! Common names
-! Other uses
-|-
-| '''Male'''
-| {{DFtext|{{char|11}}}}
-| Boar
-| [[Bag]]s
-|-
-| '''Female'''
-| {{DFtext|{{char|12}}}}
-| Sow
-| [[Finished goods#Crafts|Amulets]]
-|}
+! Other uses|-| '''Male'''| {{DFtext|{{char|11}}}}| Boar| [[Bag]]s|-| '''Female'''| {{DFtext|{{char|12}}}}| Sow| [[Finished goods#Crafts|Amulets]]|}
 
 Clicking on the creature will bring up an informative character sheet, where the creature's gender (or lack thereof) can be seen.
 

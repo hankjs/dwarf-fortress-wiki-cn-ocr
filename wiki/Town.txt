@@ -138,12 +138,7 @@ File:dungoen.jpg|Subterranean layout from an early development screenshot on the
 File:df_am_large_market.png|A large marketplace.
 </gallery>
 
-{{Translation
-| dwarven = amost
-| elvish  = irive
-| goblin  = kabu
-| human   = ricgo
-}}
+{{Translation| dwarven = amost| elvish  = irive| goblin  = kabu| human   = ricgo}}
 
 {{world}}
 

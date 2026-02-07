@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=sliver_barb_shrub_sprite.png
-|seedimage=sliver_barb_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=sliver_barb_shrub_sprite.png|seedimage=sliver_barb_seeds_sprite.png|uses=
 * [[Dye]]
 * [[Alcohol]]|wiki=no}}
 {{av}}

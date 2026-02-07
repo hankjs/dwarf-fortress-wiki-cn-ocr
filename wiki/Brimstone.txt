@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=brimstone_sprite.png
-|wiki=sulfur}}
+{{stonelookup/0|graphic=brimstone_sprite.png|wiki=sulfur}}
 {{av}}
 
 '''Brimstone''' is a yellow [[stone]], '''neither''' [[fire-safe]] nor [[magma-safe]], that is found in small clusters in [[igneous extrusive]] layers, as well as within [[gypsum]].

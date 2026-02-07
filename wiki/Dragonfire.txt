@@ -22,8 +22,7 @@ Dragonfire is powerful enough to burn and kill [[creature]]s who are immune to c
 ==Dragonfire-safe materials==
 There are very few materials which can withstand the immense heat of dragonfire. Here is the full list:
 
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! width="8%" | Type
 ! width="15%" | Material
 ! width="5%" | Appearance
@@ -33,47 +32,10 @@ There are very few materials which can withstand the immense heat of dragonfire.
 ! width="8%" | [[Value multiplier]]
 ! width="34%" | Notes
 
-
-|-
-| Metal
-| [[Divine metal]]
-| Varies
-| None
-| 1000
-| 7500
-| 300
-| Found mostly in [[vault]]s
-
-|-
-| Leather
-| [[Fire imp]] leather
-| {{Raw Tile|ß|6:0:0}}
-| None
-| 500
-| 420
-| 3
-|
-
-|-
-| Bone
-| [[Fire imp]] bone
-| {{Raw Tile|²|7:0:1}}
-| None
-| 500
-| 1000
-| 3
-|
-
-|-
-| Bone
-| [[Dragon]] bone
-| {{Raw Tile|²|7:0:1}}
-| None
-| 500
-| 30000
-| 15
-|
-
+|-| Metal| [[Divine metal]]| Varies| None| 1000| 7500| 300| Found mostly in [[vault]]s
+|-| Leather| [[Fire imp]] leather| {{Raw Tile|ß|6:0:0}}| None| 500| 420| 3|
+|-| Bone| [[Fire imp]] bone| {{Raw Tile|²|7:0:1}}| None| 500| 1000| 3|
+|-| Bone| [[Dragon]] bone| {{Raw Tile|²|7:0:1}}| None| 500| 30000| 15|
 |}
 
 ==Trivia==

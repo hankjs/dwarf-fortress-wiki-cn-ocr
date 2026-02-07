@@ -1,21 +1,13 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_skill
-| color      = 7:1
-| graphic    = [[File:mason_sprite.png]]
-| skill      = Mason
-| profession = [[Stoneworker]]
-| job name   = [[Masonry]]
-| tasks      =
-* [[Construction]] (stone)
-| attributes =
+{{v50_skill| color      = 7:1| graphic    = [[File:mason_sprite.png]]| skill      = Mason| profession = [[Stoneworker]]| job name   = [[Masonry]]| tasks      =
+* [[Construction]] (stone)| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 '''Mason''' is the skill associated with the '''masonry''' [[labor]]. Masons are responsible for constructing certain [[building]]s out of [[stone]], specifically [[trade depot]]s, [[bridge]]s, [[furnace]]s, and [[well]]s, and their building quality and value{{verify}} are influenced by the mason's skill.
 
 The mason skill is ''not'' used when constructing things like [[walls]], [[floors]], [[stairs]], or [[roads]], even if they are made from stone blocks. Those [[construction]]s use the [[Construction#Required labors|Wall/Floor construction]] and [[Road|Road building]] labors respectively and have no corresponding skill. Graphically, masons wear all white clothes.

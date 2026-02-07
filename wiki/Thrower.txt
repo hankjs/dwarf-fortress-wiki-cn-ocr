@@ -1,12 +1,5 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 0:0
-| skill      = Thrower
-| profession = [[Military]]
-| job name   = None
-| tasks      = *Attacking creatures by throwing objects
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Thrower| profession = [[Military]]| job name   = None| tasks      = *Attacking creatures by throwing objects| attributes = Unknown}}
 {{av}}
 {{distinguish|Wrestling#Throw|l1=wrestling throws}}
 
@@ -26,12 +19,7 @@ Another amusing throwing bug is that throwing is not proportionate to adventurer
 Most thrown things will do bludgeoning damage, however, some other kinds of items do different kinds of damage; although not as effective as using a [[bow]]/[[crossbow]], [[arrow]]s and [[bolt]]s can be thrown and they will do piercing damage (and, as an added bonus, the ammunition can be picked up afterwards).  Swords and axes can do slashing damage, but the attack type is randomized (ie, your adventurer may end up hitting with a pommel strike). At high levels of thrower, gold and silver coins can be used to devastating effect against unarmored opponents, often chipping or fracturing bones. Given their light weight and ubiquity, they provide a reliable source of ammunition to cripple an opponent before the fighting begins. There is even a report that throwing a [[fluffy wambler]] can do significant damage, as seen here: 
 [http://www.bay12forums.com/smf/index.php?topic=56935.0]
 
-{{Translation
-| dwarven = arros
-| elvish  = ireci
-| goblin  = slobu
-| human   = kom
-}}
+{{Translation| dwarven = arros| elvish  = ireci| goblin  = slobu| human   = kom}}
 
 {{skills}}
 {{Category|Combat Skills}}

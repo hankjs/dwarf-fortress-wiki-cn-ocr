@@ -1,16 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_leech_sprite.png
-|portrait=leech_portrait.png
-|meat=6
-|skin=hide
-|brain=1
-|heart=1
-|intestine=1-2
-|fat=2
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_leech_sprite.png|portrait=leech_portrait.png|meat=6|skin=hide|brain=1|heart=1|intestine=1-2|fat=2|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant leeches''' are super-sized versions of the common [[leech]], who inhabit [[savage]] [[pool]]s and [[lake]]s. While their original counterparts are just [[vermin]], these [[creature]]s are over 3 times larger than a [[dwarf]]. They spawn individually and are not particularly aggressive, but are not benign and will attack other creatures (including dwarves) who provoke them, potentially killing them. However, due to their lack of [[bone]]s, they are fairly vulnerable to damage and can be killed rather easily. Being bitten by a giant leech may cause it to suck some [[blood]] out of the victim.

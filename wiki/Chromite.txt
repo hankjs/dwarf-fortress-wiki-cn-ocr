@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=chromite_sprite.png}}
+{{stonelookup/0|graphic=chromite_sprite.png}}
 {{av}}
 
 '''Chromite''' is a dark purple stone found within [[olivine]] as veins, and notable in that it is the sole source of valuable [[demantoid]] gemstones, as well as being a potential source of [[native platinum]]. Like olivine, chromite is also [[magma-safe]].

@@ -1,11 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=gorlak_sprites.png
-|portrait=gorlak_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=gorlak_sprites.png|portrait=gorlak_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 

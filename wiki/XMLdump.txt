@@ -31,98 +31,16 @@ Versions of DFHack made for Dwarf Fortress 0.47.01 and later should not suffer f
 
 * The file is encoded in [https://en.wikipedia.org/wiki/Code_page_437 CP437], and therefore will not be decode-able directly to UTF8.
 * The top-level node is ``df_world`` node. This contains 14 child nodes, each of which acts as a collection of identically formed child nodes. The nodes are as follows:
-{| class="wikitable"
-|+ df_world format
-|-
-! Parent node !! Individual node name !! Description
-|-
-| regions || region || A named region of the world map.
-|-
-| underground_regions || underground_region || An unnamed underground region of the world map.
-|-
-| sites || site || A site on the map with structures present in the site.
-|-
-| artifacts || artifact || Artifacts with their associated written content, location, or holder (if relevant).
-|-
-| world_constructions || world_construction || This section appears to be blank in legends.xml (the vanilla export).
-|-
-| historical_figures || historical_figure || Historical figures with entities associated to them.
-|-
-| entity_populations || entity_population || Each entity_population node contains an id and no further information.
-|-
-| entities || entity || A civilisation, group, unit, or other organised collection of creatures. In the case of non-sentient civilisations, entries will consist of only an id.
-|-
-| historical_events || historical_event || An event with a timestamp, type, and location. Some events contain links to involved entities and figures.
-|-
-| historical_event_collections || historical_event_collection || A collection of historical events that are related to each other (for example, wars).
-|-
-| historical_eras || historical_era || The timeframe of each historical era.
-|- written_contents || written_content || A piece of written content with its author, title, and length.
-|-
-| poetic_forms || poetic_form || Description of a poetic form.
-|-
-| musical_forms || musical_form || Description of a musical form.
-|-
-| dance_forms || dance_form || Description of a dance form.
-|}
+{| class="wikitable"|+ df_world format|-
+! Parent node !! Individual node name !! Description|-| regions || region || A named region of the world map.|-| underground_regions || underground_region || An unnamed underground region of the world map.|-| sites || site || A site on the map with structures present in the site.|-| artifacts || artifact || Artifacts with their associated written content, location, or holder (if relevant).|-| world_constructions || world_construction || This section appears to be blank in legends.xml (the vanilla export).|-| historical_figures || historical_figure || Historical figures with entities associated to them.|-| entity_populations || entity_population || Each entity_population node contains an id and no further information.|-| entities || entity || A civilisation, group, unit, or other organised collection of creatures. In the case of non-sentient civilisations, entries will consist of only an id.|-| historical_events || historical_event || An event with a timestamp, type, and location. Some events contain links to involved entities and figures.|-| historical_event_collections || historical_event_collection || A collection of historical events that are related to each other (for example, wars).|-| historical_eras || historical_era || The timeframe of each historical era.|- written_contents || written_content || A piece of written content with its author, title, and length.|-| poetic_forms || poetic_form || Description of a poetic form.|-| musical_forms || musical_form || Description of a musical form.|-| dance_forms || dance_form || Description of a dance form.|}
 
 == Contents of the DFhack legends_plus.XML file ==
 
 * Encoded in UTF-8, rather than in CP437.  
 * Also has a top-level ``df_world`` node.  
 * Contains some new nodes as well as some additional information of node types present in the vanilla ``legends.xml``.
-{| class="wikitable"
-|-
-! Parent node !! Individual node name !! Relation to vanilla ``legends.XML`` content !! Description  
-|-
-| name ||  || only present here || The name of the world, untranslated. String.
-|- 
-| altname || || only present here || The name of the world, translated. String.
-|-
-| landmasses || landmass || only present here || 
-|-
-| mountain_peaks || mountain_peak || only present here || 
-|-
-| regions || region || additional information || 
-|-
-| underground_regions || underground_region || additional information ||
-|-
-| rivers || river || only present here || 
-|-
-| creature_raw || creature || only present here ||
-|-
-| sites || site || additional information ||
-|-
-| world_constructions || world_construction || additional information ||
-|-
-| artifacts || artifact || additional information ||
-|-
-| historical_figures || historical_figure || additional information, some duplication ||
-|- 
-| identities || identity || only present here ||
-|-
-| entity_populations || entity_population || only present (with information) here ||
-|-
-| entities || entity || only present (with information) here ||
-|-
-| historical_events || historical_event || additional information ||
-|-
-| historical_event_relationships || historical_event_relationship || only present here ||
-|-
-| historical_event_relationship_supplements || historical_event_relationship_supplement || only present here ||
-|-
-| historical_event_collections || || additional information (?) || appears to be empty.
-|-
-| historical_eras || || additional information (?) || appears to be empty.
-|-
-| written_contents || written_content || additional information ||
-|- 
-| poetic_forms || poetic_form || duplicated information (name) ||
-|- 
-| musical_forms || musical_form || duplicated information (name) ||
-|- 
-| dance_forms || dance_form || duplicated information (name) ||
-|}
+{| class="wikitable"|-
+! Parent node !! Individual node name !! Relation to vanilla ``legends.XML`` content !! Description  |-| name ||  || only present here || The name of the world, untranslated. String.|- | altname || || only present here || The name of the world, translated. String.|-| landmasses || landmass || only present here || |-| mountain_peaks || mountain_peak || only present here || |-| regions || region || additional information || |-| underground_regions || underground_region || additional information |||-| rivers || river || only present here || |-| creature_raw || creature || only present here |||-| sites || site || additional information |||-| world_constructions || world_construction || additional information |||-| artifacts || artifact || additional information |||-| historical_figures || historical_figure || additional information, some duplication |||- | identities || identity || only present here |||-| entity_populations || entity_population || only present (with information) here |||-| entities || entity || only present (with information) here |||-| historical_events || historical_event || additional information |||-| historical_event_relationships || historical_event_relationship || only present here |||-| historical_event_relationship_supplements || historical_event_relationship_supplement || only present here |||-| historical_event_collections || || additional information (?) || appears to be empty.|-| historical_eras || || additional information (?) || appears to be empty.|-| written_contents || written_content || additional information |||- | poetic_forms || poetic_form || duplicated information (name) |||- | musical_forms || musical_form || duplicated information (name) |||- | dance_forms || dance_form || duplicated information (name) |||}
 
 == Formatting ==
 The contents of each node item can be:   
@@ -144,60 +62,24 @@ Nodes can either be:
 
 === <region> - legends.xml ===
 
-{| class="wikitable sortable"
-|+ <region> - legends.xml
-|-
-! Node name !! Quantity !! Type !! Contents
-|-
-| id || 1 || integer || Region ID.
-|-
-| type || 1 || string enum || One of: hills, forest, grassland, desert, lake, mountains, wetland, glacier, tundra, ocean
-|-
-| name || 1 || string || The translated name of the region.
-|}
+{| class="wikitable sortable"|+ <region> - legends.xml|-
+! Node name !! Quantity !! Type !! Contents|-| id || 1 || integer || Region ID.|-| type || 1 || string enum || One of: hills, forest, grassland, desert, lake, mountains, wetland, glacier, tundra, ocean|-| name || 1 || string || The translated name of the region.|}
 
 
 === <region> - legends_plus.xml ===
 
-{| class="wikitable sortable"
-|+ <region> - legends_plus.xml
-|-
-! Node name !! Quantity !! Type !! Contents
-|-
-| id || 1 || integer || Region ID.
-|-
-| coords || 1 || list of coords || A list of squares in the world that are in this region. Sorted in increasing order of x and then y.
-|-
-| evilness || 1 || string enum || One of: good, neutral, evil.
-|-
-| force_id || 0-1 || integer || <info needed>
-|}
+{| class="wikitable sortable"|+ <region> - legends_plus.xml|-
+! Node name !! Quantity !! Type !! Contents|-| id || 1 || integer || Region ID.|-| coords || 1 || list of coords || A list of squares in the world that are in this region. Sorted in increasing order of x and then y.|-| evilness || 1 || string enum || One of: good, neutral, evil.|-| force_id || 0-1 || integer || <info needed>|}
 
 === <underground_region> - legends.xml ===
 
-{| class="wikitable sortable"
-|+ <underground_region> - legends.xml
-|-
-! Node name !! Quantity !! Type !! Contents
-|-
-| id || 1 || integer || Underground region ID.
-|-
-| type || 1 || string enum || One of: cavern, underworld, magma
-|-
-| depth || 1 || integer || <info needed>
-|}
+{| class="wikitable sortable"|+ <underground_region> - legends.xml|-
+! Node name !! Quantity !! Type !! Contents|-| id || 1 || integer || Underground region ID.|-| type || 1 || string enum || One of: cavern, underworld, magma|-| depth || 1 || integer || <info needed>|}
 
 === <underground_region> - legends_plus.xml ===
 
-{| class="wikitable sortable"
-|+ <underground_region> - legends_plus.xml
-|-
-! Node name !! Quantity !! Type !! Contents
-|-
-| id || 1 || integer || Underground region ID.
-|-
-| coords || 1 || list of coords || A list of squares in the world that are in this region. Sorted in increasing order of x and then y.
-|}
+{| class="wikitable sortable"|+ <underground_region> - legends_plus.xml|-
+! Node name !! Quantity !! Type !! Contents|-| id || 1 || integer || Underground region ID.|-| coords || 1 || list of coords || A list of squares in the world that are in this region. Sorted in increasing order of x and then y.|}
 
 == See also ==
 * [[Legends|Legends Mode]]

@@ -14,68 +14,8 @@ Depending on the feats you've accomplished, your type of reputation may differ: 
 
 The 32 sorts are:
 
-{| class="wikitable"
-|-
-! Reputation type !! Obtained through
-|-
-| Hero || Ending an unjust situation. This varies a lot between people, as stated in the example of reuniting people.
-|-
-| Friend || Unobtainable in adventure mode, but can be obtained in fort mode. Tracks friendships.
-|-
-| Grudge || Unobtainable in adventure mode, but can be obtained in fort mode. Tracks grudges.
-|-
-| Bonded || Reserved for trainers/animal training partners. Can be obtained by training animals in fort mode.
-|-
-| Brawler || Starting a battle with a person at [[Level_of_conflict|brawl]] escalation level. 
-|-
-| Psychotic/Villain || Starting a battle with a person at [[Level_of_conflict|no-quarter]] escalation level.
-|-
-| Good for Business || Make a successful transaction with a trader.
-|-
-| Friendly Terms || Have a conversation with a figure. It is unknown if quarreller or flatterer rep has any effect on this.
-|-
-| Killer || Killing any sentient creature.
-|-
-| Murderer || Killing an innocent.
-|-
-| Comrade || Defines the bond between a person and their liege-lord, or of two [[Hearthperson|oathsworn]] of the same lord.
-|-
-| Member of Respected Group/Member of Hated Group || Reserved for members of entities that are, respectively, considered 'worthy of respect' or 'unfit to rule'. Related to the [[insurrection]] mechanic.
-|-
-| Enemy Fighter || Reserved for fighters of an enemy group. You get this when asking what people think of you during a conflict, or when you attacked a member of the same group.
-|-
-| Friendly Fighter || Corresponds to 'on my side' utterance, implies that the figure considers you someone who they otherwise are unconnected to, but is the enemy of their enemy. {{verify}} 
-|-
-| Bully || Making someone successfully yield in adventure mode.
-|-
-| Brigand || Demanding items in exchange (will be labelled as robbery).
-|-
-| Loyal Soldier || Finishing hearthperson assignments.
-|-
-| Monster || Reserved for megabeasts and other named animals, not possible to obtain in unmodded DF. {{verify}}
-|-
-| Storyteller/Poet/Bard/Dancer || Telling a story, reciting poetry, performing a piece of music, or performing a dance in front of a person.
-|-
-| Quarreler || Unknown, presumably obtained by pressing or arguing when a disagreement is reached through a value statement {{bug|11193}}.
-|-
-| Flatterer || Obtainable by failing to flatter a figure repeatedly. {{bug|11193}}.
-|-
-| Hunter || Slaying a named animal, or a megabeast.
-|-
-| Protector of the Weak || Standing up to bandits. This includes attacking them (and failing...), brawling with them, or slaying them outright.
-|-
-| Treasure Hunter || Retrieving an artifact for a claimant.
-|-
-| Thief || Seems unobtainable right now {{bug|6391}}.
-|-
-| Information source || This is reserved for spies who form false friendships; they will think of their 'friend' this way. Unknown how to obtain this in adventure mode.
-|-
-| Preserver of Knowledge || Returning a book to a library.
-|-
-| Intruder || Obtained by not identifying yourself to people that ask you to identify yourself, marking the whole entity as hostile to you.
-|-
-| Preacher || Obtained by performing sermons.
-|}
+{| class="wikitable"|-
+! Reputation type !! Obtained through|-| Hero || Ending an unjust situation. This varies a lot between people, as stated in the example of reuniting people.|-| Friend || Unobtainable in adventure mode, but can be obtained in fort mode. Tracks friendships.|-| Grudge || Unobtainable in adventure mode, but can be obtained in fort mode. Tracks grudges.|-| Bonded || Reserved for trainers/animal training partners. Can be obtained by training animals in fort mode.|-| Brawler || Starting a battle with a person at [[Level_of_conflict|brawl]] escalation level. |-| Psychotic/Villain || Starting a battle with a person at [[Level_of_conflict|no-quarter]] escalation level.|-| Good for Business || Make a successful transaction with a trader.|-| Friendly Terms || Have a conversation with a figure. It is unknown if quarreller or flatterer rep has any effect on this.|-| Killer || Killing any sentient creature.|-| Murderer || Killing an innocent.|-| Comrade || Defines the bond between a person and their liege-lord, or of two [[Hearthperson|oathsworn]] of the same lord.|-| Member of Respected Group/Member of Hated Group || Reserved for members of entities that are, respectively, considered 'worthy of respect' or 'unfit to rule'. Related to the [[insurrection]] mechanic.|-| Enemy Fighter || Reserved for fighters of an enemy group. You get this when asking what people think of you during a conflict, or when you attacked a member of the same group.|-| Friendly Fighter || Corresponds to 'on my side' utterance, implies that the figure considers you someone who they otherwise are unconnected to, but is the enemy of their enemy. {{verify}} |-| Bully || Making someone successfully yield in adventure mode.|-| Brigand || Demanding items in exchange (will be labelled as robbery).|-| Loyal Soldier || Finishing hearthperson assignments.|-| Monster || Reserved for megabeasts and other named animals, not possible to obtain in unmodded DF. {{verify}}|-| Storyteller/Poet/Bard/Dancer || Telling a story, reciting poetry, performing a piece of music, or performing a dance in front of a person.|-| Quarreler || Unknown, presumably obtained by pressing or arguing when a disagreement is reached through a value statement {{bug|11193}}.|-| Flatterer || Obtainable by failing to flatter a figure repeatedly. {{bug|11193}}.|-| Hunter || Slaying a named animal, or a megabeast.|-| Protector of the Weak || Standing up to bandits. This includes attacking them (and failing...), brawling with them, or slaying them outright.|-| Treasure Hunter || Retrieving an artifact for a claimant.|-| Thief || Seems unobtainable right now {{bug|6391}}.|-| Information source || This is reserved for spies who form false friendships; they will think of their 'friend' this way. Unknown how to obtain this in adventure mode.|-| Preserver of Knowledge || Returning a book to a library.|-| Intruder || Obtained by not identifying yourself to people that ask you to identify yourself, marking the whole entity as hostile to you.|-| Preacher || Obtained by performing sermons.|}
 
 == Controlling your reputation ==
 You may assume multiple identities as an adventurer. Starting over with a fresh identity will reset your reputation if people don't know you under your previous name. Alternatively, if witnesses see you murder someone, you may try to kill all of them before the site is offloaded (which is a requirement for the rumor system to start working). Or you may move to another civilizational entity entirely, where your reputation does not follow you.  So if you ask after a goblin [[agent]] using their true name or an identity used in a previous town, people in the current town the agent is infiltrating will properly say that they don't know who you are talking about, even if they have a lot of information about the agent under their current alias -- or they might have an opinion about the old identity if they heard a [[rumor]] about it. People can give different answers for the true historical figure and each identity, as well as what they think on sight (which may or may not involve any names -- they keep track of which identities they associate with the physical appearance).

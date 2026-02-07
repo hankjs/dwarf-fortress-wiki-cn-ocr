@@ -1,15 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_jumping_spider_sprite.png
-|portrait=jumping_spider_portrait.png
-|meat=23-65
-|skin=chitin
-|fat=21-34
-|intestine=8
-|eye=2
-|brain=2
-|heart=1
-|contrib=no}}
+{{Creaturelookup/0|image=giant_jumping_spider_sprite.png|portrait=jumping_spider_portrait.png|meat=23-65|skin=chitin|fat=21-34|intestine=8|eye=2|brain=2|heart=1|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

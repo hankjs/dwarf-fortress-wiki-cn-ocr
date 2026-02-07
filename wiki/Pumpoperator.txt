@@ -1,21 +1,11 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 4:1
-| graphic    = [[File:eng_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Pump Operator
-| profession = [[Engineer]]
-| job name   = [[Pump operating]]
-| tasks      =
-* Operate a Pump
-| workshop   = * [[Screw pump]]
-| attributes =
+{{v50_skill| color      = 4:1| graphic    = [[File:eng_sprite_icon.png]]| graphicmargin = 106px| skill      = Pump Operator| profession = [[Engineer]]| job name   = [[Pump operating]]| tasks      =
+* Operate a Pump| workshop   = * [[Screw pump]]| attributes =
 * Strength
 * Toughness
 * Endurance
 * Willpower
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Pump operator''' is the skill related to the '''pump operating''' [[labor]]. Pump operators use [[screw pump]]s to pump liquids manually. In order to use the pump, simply click the pump and select the checkbox to "Start pump manually". When you want the pumping stopped, simply untick the checkbox.

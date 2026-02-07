@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=oats_shrub_sprite.png
-|seedimage=oats_seeds_sprite.png
-|uses=
-* [[Flour]]
-}}
+{{plantlookup|graphic=oats_shrub_sprite.png|seedimage=oats_seeds_sprite.png|uses=
+* [[Flour]]}}
 {{av}}
 
 '''Oats''' are an [[aboveground]] [[crop]]. They can only be [[milling|milled]] into [[flour|oat flour]] and cannot be [[brewing|brewed]].

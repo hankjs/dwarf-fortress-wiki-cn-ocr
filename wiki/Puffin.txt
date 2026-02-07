@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=puffin_sprites.png
-|portrait=puffin_portrait_anim.gif
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=puffin_sprites.png|portrait=puffin_portrait_anim.gif|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

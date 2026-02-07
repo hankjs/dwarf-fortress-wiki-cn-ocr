@@ -23,8 +23,7 @@ This guide provides step-by-step instruction for those who have never played ''D
 * {{DFtext|Number of Beasts|7:1}} as {{DFtext|Medium|3:1}}
 * {{DFtext|Natural Savagery|7:1}} as {{DFtext|Low|3:1}}
 * {{DFtext|Mineral Occurrence|7:1}} as {{DFtext|Frequent|3:1}}
-When generation is complete, accept with {{k|Enter}} to save this world; once the game finishes that, it will return to the main menu; then choose {{DFtext|Start&nbsp;Playing|7:1}} and {{DFtext|Adventurer|7:1}}
-}}
+When generation is complete, accept with {{k|Enter}} to save this world; once the game finishes that, it will return to the main menu; then choose {{DFtext|Start&nbsp;Playing|7:1}} and {{DFtext|Adventurer|7:1}}}}
 Some custom worlds which are interesting for fortress mode, may be annoying for adventure mode for reasons such as: few civilizations, low population, races not existing, lack of metals, or history being so far advanced that many fortresses and [[town]]s have been abandoned.
 
 While the default settings might likely produce a useful world, the settings to the right will help; the following explains the suggested changes.
@@ -90,8 +89,7 @@ For the purpose of this quick start, the remaining attributes don't contribute a
 As a hunter, you already have:
 * {{DFtext|Adequate Marksdwarf|7:1}}
 * {{DFtext|Talented Ambusher|7:1}}
-* {{DFtext|Adequate Dodger|7:1}}
-}}
+* {{DFtext|Adequate Dodger|7:1}}}}
 See the [[combat skill]], [[swimmer]], and [[reader]] pages for in-depth explanations of the suggested skills. The following explains these particular suggestions: Swords have both slash and stab attacks and are not very expensive; other [[weapon]]s can be better at one of those attacks, but not both, and, other than the war hammer, are more expensive. '''Fighter''' to improve the accuracy of all melee attacks. '''Observer''' to see what an opponent is doing, and react to it. Without at least Novice '''Swimmer''', it will be very easy to drown, higher levels just increase speed. '''Shield User''' to increase the chance of a successful block, '''Armor User''' to reduce the speed penalty of the weight of worn armor. '''Wrestler''' for when you want to take down an opponent, or remove their armor. '''Reader''' because there is no way to gain the skill in-game. The Hunter occupation is suggested mostly for Dodger, although Ambusher is good for sneaking; crossbows in adventurer mode are not very useful, so Marksdwarf will probably go unused. If you chose an occupation that does not provide '''Dodger''', it is a vital skill for survival, so reduce Observer and Armor User one level, and spend those points on Dodger.
 
 Which skills are available is dependent on the character's civilization, though, combat skills can be developed in-game, even from no skill. For a quick start, these are good skills to keep you alive; to that end, defensive skills are critical to survival, including '''Observer'''.

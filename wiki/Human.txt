@@ -1,22 +1,5 @@
 {{Quality|Exceptional|00:09, 17 February 2023 (UTC)}}
-{{Creaturelookup/0
-|image=Human_sprite.png
-|portrait=human_portrait_anim.gif
-|meat=27
-|bone=33
-|fat=15
-|skin=human skin
-|nervous tissue=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=Human_sprite.png|portrait=human_portrait_anim.gif|meat=27|bone=33|fat=15|skin=human skin|nervous tissue=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Humans''' are intelligent {{Catlink|Humanoids|humanoid}} [[creatures]] that live in cities on the [[biome#Plains|plains]]. They are one of the main [[civilization]]s of the game, featured in [[fortress mode]] and playable in [[adventurer mode]]. Their buildings are made entirely of [[wood]] (or in the case of towers and castles, [[stone]] or metals like [[copper]]), and usually include several houses and [[shop]]s, and a [[tavern]]. Their metal-working technology specializes in [[bronze]], though they also make use of [[copper]], [[iron]], and [[silver]]. The typical lifespan of a human ranges between 60-120 years.

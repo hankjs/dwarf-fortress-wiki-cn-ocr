@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=sperm_whale_sprite.png
-|portrait=sperm_whale_portrait.png
-|bone=160-240
-|meat=660-940
-|fat=140-220
-|eye=2
-|lung=110-160
-|heart=25-45
-|intestine=170-250
-|liver=55-85
-|tripe=55-85
-|sweetbread=26-42
-|spleen=26-42
-|kidney=55-85
-|brain=55-85
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=sperm_whale_sprite.png|portrait=sperm_whale_portrait.png|bone=160-240|meat=660-940|fat=140-220|eye=2|lung=110-160|heart=25-45|intestine=170-250|liver=55-85|tripe=55-85|sweetbread=26-42|spleen=26-42|kidney=55-85|brain=55-85|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

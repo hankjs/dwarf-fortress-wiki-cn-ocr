@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=alabaster_sprite.png}}
+{{stonelookup/0|graphic=alabaster_sprite.png}}
 {{av}}
 
 '''Alabaster''' is a fine-grained variety of [[gypsum]]. It is found within gypsum in small [[cluster]]s, and can likewise be used to make [[plaster]]. There is no in-game difference between the two materials, except in coloration.

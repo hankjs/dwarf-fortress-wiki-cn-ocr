@@ -1,10 +1,7 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Noble
-| noble= Ranger Captain
-|function=
-* Leads a unit of [[elf|elven]] rangers, serving unknown military function.
-}}
+{{Noble| noble= Ranger Captain|function=
+* Leads a unit of [[elf|elven]] rangers, serving unknown military function.}}
 {{av}}
 
 The '''ranger captain''' is a [[noble]] position used by [[elf|elves]], appointed and commanded by the [[monarch|princess]]. It is presumably intended as an equivalent to [[captain]]s or [[lieutenant]]s, leading a squad of 10 rangers. In addition to this, ranger captains have "attack enemies" and "patrol territory" as responsibilities, but their exact effects are unclear.

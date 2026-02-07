@@ -1,8 +1,0 @@
-{{Quality|Fine}}{{grasslookup/0}}{{av}}
-
-'''Dropseed grass'''（落种草）是一种常见的草类，在各地的草原和森林中生长。它与大多数其他类型的草无法区分。
-
-[[File:Starr 050818-4076 Sporobolus sp..jpg|thumb|center|300px|落种草。]]
-
-{{gamedata}}
-{{Plants}}

@@ -1,13 +1,6 @@
 {{Quality|Exceptional}}
 {{av}}
-{{Skill
-| color      = 0:0
-| skill      = Wrestler
-| profession = [[Military]]
-| job name   = Wrestler
-| tasks      = *Fighting creatures with wrestling moves
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Wrestler| profession = [[Military]]| job name   = Wrestler| tasks      = *Fighting creatures with wrestling moves| attributes = Unknown}}
 {{Buggy}}
 [[File:wrestling_preview.jpg|thumb|260px|right|An ancient drawing of sumo wrestling.]]The '''wrestler''' [[combat skill]] pertains to incapacitating enemies by grabbing hold of limbs and other body parts, which is distinct from striker, kicker, and biter; separate skills that pertain to [[Natural weapon|punching/scratching, kicking, and biting attacks]], respectively. Note that the [[thrower]] skill is used for throwing miscellaneous objects at creatures, not throwing the opponents themselves. A wrestler who has gained Legendary level of skill is called an ''[[elite]] wrestler''.
 

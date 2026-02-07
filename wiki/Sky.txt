@@ -14,12 +14,7 @@ Despite being suspended in the air, it's unlikely to fall down anytime soon. Eve
 
 :"''Sky allows horrible [[light]] to filter into outposts, and should be avoided at all costs.''" --Zulgar Zarethadil, [[Miner]]
 
-{{Translation
-| dwarven = anriz
-| elvish  = eliye
-| goblin  = oslak
-| human   = cilko
-}}
+{{Translation| dwarven = anriz| elvish  = eliye| goblin  = oslak| human   = cilko}}
 
 {{Category|map tiles}}
 [[ru:Sky]]

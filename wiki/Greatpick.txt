@@ -6,12 +6,7 @@ A great pick is eight times the [[Weapon#size|size]] of a standard pick - that i
 
 When [[Melt item|melted]] down, great picks produce roughly four bars of metal.
 
-{{Translation
-| dwarven = saràm tekkud
-| elvish  = apaca mubara
-| goblin  = snuz otez
-| human   = umon tekud
-}}
+{{Translation| dwarven = saràm tekkud| elvish  = apaca mubara| goblin  = snuz otez| human   = umon tekud}}
 
 {{gamedata}}
 {{Weapons}}

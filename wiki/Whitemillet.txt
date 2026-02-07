@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=white_millet_shrub_sprite.png
-|seedimage=white_millet_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=white_millet_shrub_sprite.png|seedimage=white_millet_seeds_sprite.png|uses=
 * [[Alcohol]]
-* [[Flour]]
-}}
+* [[Flour]]}}
 {{av}}
 
 '''White millet''' is an [[aboveground]] [[crop]]. It can either be [[milling|milled]] into [[flour|white millet flour]] or [[brewing|brewed]] into [[alcohol|white millet beer]].

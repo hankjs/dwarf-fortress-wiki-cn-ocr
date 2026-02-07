@@ -12,12 +12,7 @@ Unlike every other weapon in the game, whips take 8 ticks to attack, 4 to prepar
 ==Bugs==
 * Whips currently cut through steel armor like butter. This is more a natural consequence of the combat system and how armor piercing is defined than a bug, but it is dutifully tracked on the tracker anyway.{{bug|2712}}
 
-{{Translation
-| dwarven = bomrek
-| elvish  = baci
-| goblin  = sox
-| human   = uthret
-}}
+{{Translation| dwarven = bomrek| elvish  = baci| goblin  = sox| human   = uthret}}
 
 {{gamedata}}
 {{Weapons}}

@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=kaolinite_sprite.png}}
+{{stonelookup/0|graphic=kaolinite_sprite.png}}
 {{av}}
 
 '''Kaolinite''' is a [[magma-safe]] pink-red [[stone]], much like [[bauxite]], found as large clusters in [[sedimentary layer]]s.  Kaolinite has a [[material value]] of 1 like most stone, but can be made into medium value [[porcelain]] goods at a [[kiln]] or [[magma kiln]].

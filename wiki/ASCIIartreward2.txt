@@ -4,13 +4,7 @@ Each piece of ASCII Art Reward belongs to the donor who received it, but sharing
 
 On February 1st, 2020 they announced that they would not be doing rewards after that month.
 {| class="wikitable" style="text-align:center; margin: 1em auto 1em auto"
-! colspan=4 | ASCII Art Rewards (alphabetically by contributor)
-|-
-| [[ASCII Art Reward/A-F|A &ndash; F]]
-| [[ASCII Art Reward/G-L|G &ndash; L]]
-| [[ASCII Art Reward/M-S|M &ndash; S]]
-| [[ASCII Art Reward/T-Z|T &ndash; Z]]
-|}
+! colspan=4 | ASCII Art Rewards (alphabetically by contributor)|-| [[ASCII Art Reward/A-F|A &ndash; F]]| [[ASCII Art Reward/G-L|G &ndash; L]]| [[ASCII Art Reward/M-S|M &ndash; S]]| [[ASCII Art Reward/T-Z|T &ndash; Z]]|}
 
 [[Category:Humor and stories]]
 {{unversioned}}

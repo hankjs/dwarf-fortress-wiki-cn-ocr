@@ -43,10 +43,7 @@ Necromancers can also turn intelligent creatures into [[infected ghoul]]s. The g
 Since the secrets of life and death are generated with a {{token|MUNDANE_RECORDING_POSSIBLE|int}} tag, necromancers will often write numerous [[book]]s during world generation, some concern the secrets of life and death (''blessed, or mayhap, cursed'') so that anyone who reads them will become a necromancer. Like the slab, all (''first-edition, not copies'') books, even those that do not contain secrets, are considered [[artifact]]s, and as such can be viewed in the "Codices and scrolls" list in [[legends|legends mode]].
 
 '''Books containing the secrets of life and death will include any of the following words in their title:''' (Note: "the End" can also turn up in mundane titles as well, typically as part of the phrase "after the end")
-{{gamedata
-|title=[[Speech file|Names]]
-|{{#df_raw:v50:text_secret_death.txt}}
-}}
+{{gamedata|title=[[Speech file|Names]]|{{#df_raw:v50:text_secret_death.txt}}}}
 
 
 It is possible to ensure that a world is generated devoid of necromancers by setting the '''Number of Secret Types''' to '''0''' in [[advanced world generation]]. Conversely, creating a world with a high number of secret types will increase the probability of there being multiple necromancers in the world. Since necromancers in unmodded games are usually humans or dwarves, having a large amount of neutral plains and/or mountains will further increase this probability, as it means that these civilizations will have more space to expand, and thus the amount of historical figures eligible for necromancy will increase.
@@ -139,20 +136,8 @@ As a necromancer, you:
 3.Now move the cursor onto the corpse(s) you wish to animate, press the letter that they are represented by on the items screen (such as {{k|a}}) and press {{k|Enter}}. Note that you can animate more than one corpse at a time, and that you can also animate corpses that are in your inventory.<br />
 [[File:Animatecorpsemenu.jpeg|thumb|right|Animate corpse menu from an [[DF2014:Necromancer|earlier version]].]]
 In the Premium version, the powers, as well as their icons, will appear as the following:
-{| class="wikitable" style="width:500px;"
-|-
-! Icon !! Description
-|-
-| [[File:icon_raise_dead.png]] || Reanimate a corpse as a mindless [[undead]] creature.
-|-
-| [[File:icon_raise_intel_undead.png]] || Resurrect a corpse as an [[intelligent undead]], keeping the [[soul]] inside the animated corpse. The name and type of intelligent undead will be based on the secrets the necromancer knows.
-|-
-| [[File:icon_raise_bogeyman.png]] || Summon a [[bogeyman]].
-|-
-| [[File:icon_raise_nightmare.png]] || Summon a [[nightmare]].
-|-
-| [[File:icon_raise_ghoul.png]] || Turn a living creature into an [[infected ghoul]].
-|}
+{| class="wikitable" style="width:500px;"|-
+! Icon !! Description|-| [[File:icon_raise_dead.png]] || Reanimate a corpse as a mindless [[undead]] creature.|-| [[File:icon_raise_intel_undead.png]] || Resurrect a corpse as an [[intelligent undead]], keeping the [[soul]] inside the animated corpse. The name and type of intelligent undead will be based on the secrets the necromancer knows.|-| [[File:icon_raise_bogeyman.png]] || Summon a [[bogeyman]].|-| [[File:icon_raise_nightmare.png]] || Summon a [[nightmare]].|-| [[File:icon_raise_ghoul.png]] || Turn a living creature into an [[infected ghoul]].|}
 
 It is worth noting that you can only raise corpses with intact heads or grasping body parts (hands). That is, if the creature's head and hands explode into gore, collapses into gore, or are otherwise "pulped" via damage to the head or torso, then that corpse cannot be raised. It is still possible, however, to raise a corpse that has had its head completely severed. The arms and head of a single individual can also be reanimated as different zombies, granted they are separated properly to begin with.
 
@@ -370,7 +355,6 @@ Doing this for all races with massive population amounts in your world will ensu
 		[CE_ADD_TAG:NO_AGING:NOT_LIVING:OPPOSED_TO_LIFE:EXTRAVISION:NOEXERT:NOPAIN:NOBREATHE:NOSTUN:NONAUSEA:NO_DIZZINESS:NO_FEVERS:NOEMOTION:PARALYZEIMMUNE:NOFEAR:NO_EAT:NO_DRINK:NO_SLEEP:NO_PHYS_ATT_GAIN:NO_PHYS_ATT_RUST:NOTHOUGHT:NO_THOUGHT_CENTER_FOR_MOVEMENT:NO_CONNECTIONS_FOR_MOVEMENT:START:0:ABRUPT]
 		[CE_REMOVE_TAG:TRANCES:MISCHIEVOUS:START:0:ABRUPT]
 		[CE_SPECIAL_ATTACK_INTERACTION:INTERACTION:SECRET_GHOUL_11:BP:BY_CATEGORY:MOUTH:BP:BY_CATEGORY:TOOTH:START:0:ABRUPT]
-
 }}
 {{Creatures}}
 {{category|humanoids}}

@@ -1,18 +1,9 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 5:0
-| graphic    = [[File:doctor_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Diagnostician
-| specialty  = Diagnoser
-| profession = [[Doctor]]
-| job name   = [[Diagnosis]]
-| tasks      =
+{{Skill| color      = 5:0| graphic    = [[File:doctor_sprite_icon.png]]| graphicmargin = 106px| skill      = Diagnostician| specialty  = Diagnoser| profession = [[Doctor]]| job name   = [[Diagnosis]]| tasks      =
 * Diagnose wounded dwarves
 * Ponder
 * Discuss
-* Research
-| attributes =
+* Research| attributes =
 * Analytical Ability
 * Memory
 * Intuition}}

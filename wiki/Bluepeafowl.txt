@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=peafowls_sprites_anim.gif
-|portrait=peacock_portrait_anim.gif
-|meat=6-9
-|fat=6-8
-|intestine=1
-|bone=4-6
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=peafowls_sprites_anim.gif|portrait=peacock_portrait_anim.gif|meat=6-9|fat=6-8|intestine=1|bone=4-6|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Blue peafowl''' are [[goose]]-sized [[Domestic animal|domestic]] [[Creature|birds]] found in [[tropical]] broadleaf [[forest]]s. The males (''peacocks'') have bright blue plumage and tail feathers that make large, "eyed" fans. Females (''peahens'') have brown plumage, and lay [[egg]]s in a [[nest box]]. If a peacock is present and the eggs are not [[food hauling|collected]], they may eventually hatch into ''peachicks''. Peachicks grow into adults 1 year after hatching.

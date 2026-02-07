@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_copper_sprite.png}}{{av}}
+{{stonelookup/0|graphic=ore_copper_sprite.png}}{{av}}
 '''Native copper''' is one of the several [[ore]]s of [[copper]], the most versatile [[metal]] in ''Dwarf Fortress'', primarily useful in creating [[alloy]]s. Native copper is found in the form of [[vein]]s. Mined-out hunks of native copper are called ''copper nuggets''. Other copper-bearing ores include [[malachite]] and [[tetrahedrite]].
 
 == In Real Life ==

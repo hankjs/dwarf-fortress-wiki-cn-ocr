@@ -48,12 +48,7 @@ Deities don't usually manifest themselves physically in vanilla DF, but they can
 A deity will use the {{Raw tile|Ä}} tile instead of their corresponding creature tile.
 
 [[File:deity3_preview.png|thumb|300px|center|This is Cintra, the goddess of [[cave-in]]s. With enough worship, enemy caves just collapse without warning.]]
-{{Translation
-| dwarven = mishar
-| elvish  = ricafa
-| goblin  = alsmust
-| human   = ahang
-}}
+{{Translation| dwarven = mishar| elvish  = ricafa| goblin  = alsmust| human   = ahang}}
 {{Category|World}}
 {{Category|Relationships}}
 {{Category|Religion}}

@@ -1,25 +1,15 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:indigo_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Clothier
-| profession = [[Craftsdwarf]]
-| job name   = [[Clothesmaking]]
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Clothier| profession = [[Craftsdwarf]]| job name   = [[Clothesmaking]]| tasks      =
 * Make [[Clothing|Clothes]]
 * Construct [[Bag]]
 * Make [[Rope]]
 * Sew [[Image]]
-* Make [[Craft]]s
-| workshop = * [[Clothier's shop]]
-* [[Craftsdwarf's workshop]]
-| attributes =
+* Make [[Craft]]s| workshop = * [[Clothier's shop]]
+* [[Craftsdwarf's workshop]]| attributes =
 * Agility
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''Clothier''' is the skill associated with the '''clothesmaking''' [[labor]]. Clothiers make [[cloth|plant fiber]], [[yarn]], and [[silk]] clothing items at the [[clothier's shop]], and can sew plant fiber images and silk images onto items.
 

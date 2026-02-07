@@ -1,10 +1,7 @@
 {{Quality|Superior}}
 {{plantlookup|uses=
 * [[Alcohol]]
-* [[Flour]]
-|graphic=cave_wheat_shrub_sprite.png
-|seedimage=cave_wheat_seeds_sprite.png
-|wiki=no}}
+* [[Flour]]|graphic=cave_wheat_shrub_sprite.png|seedimage=cave_wheat_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''Cave wheat''' is an [[underground]] [[crop]]. It can either be [[milling|milled]] into [[flour|dwarven wheat flour]] or [[brewing|brewed]] into [[Alcohol#List_of_alcohol|dwarven beer]].

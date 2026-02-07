@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=hedgehog_sprite.png
-|portrait=hedgehog_portrait.png}}
+{{verminlookup/0|image=hedgehog_sprite.png|portrait=hedgehog_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

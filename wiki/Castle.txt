@@ -5,11 +5,6 @@
 
 Adventurers can visit castles, but they cannot rest or fast travel within them.
 
-{{Translation
-| dwarven = rimtar
-| elvish  = tayo
-| goblin  = zogast
-| human   = ithru
-}}
+{{Translation| dwarven = rimtar| elvish  = tayo| goblin  = zogast| human   = ithru}}
 
 {{World}}

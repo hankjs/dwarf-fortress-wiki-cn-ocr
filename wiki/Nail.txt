@@ -2,12 +2,7 @@
 {{av}}{{Quality|Unrated}}
 {{item picture|{{char|253}}|0:0:1|A nail}}
 
-{{Translation
-| dwarven = um
-| elvish  = thèdi
-| goblin  = olnge
-| human   = nato
-}}
+{{Translation| dwarven = um| elvish  = thèdi| goblin  = olnge| human   = nato}}
 
 '''Nails''', '''claws''' and '''talons''' are a product of some [[animal]]s when [[butcher]]ed. They are stored in a [[stockpile]] that accepts [[body parts]], and [[refuse|have no known use]].
 

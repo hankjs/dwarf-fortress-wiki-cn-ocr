@@ -9,12 +9,7 @@ Bottomless '''chasms''' as a geographical feature do not exist. However, chasms 
 
 Bottomless chasm '''tiles''' can be placed in the Arena mode layout (arena.txt) using the character "C".  When something falls into one of these tiles, the tile has an animation of {{DFtext|■∙·|7:1}} (note that in-game with the default tileset, the first dot will appear larger).  Open space above a chasm will always use the {{DFtext|▓|3:0:0}} tile, never a {{DFtext|∙}} tile.
 [[File:Chasm (16304859706).jpg|thumb|370px|center|Many, many rocky chasms. And then some. And even more.]]
-{{Translation
-| dwarven = takùth
-| elvish  = nimi
-| goblin  = smatru
-| human   = ustres
-}}
+{{Translation| dwarven = takùth| elvish  = nimi| goblin  = smatru| human   = ustres}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

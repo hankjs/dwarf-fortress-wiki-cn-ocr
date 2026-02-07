@@ -1,15 +1,11 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{V50 workshop|name=Craftsdwarf's workshop|key=r|job=Craftsworking
-|icon=[[File:Craftdwarfs_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Craftsdwarf's workshop|key=r|job=Craftsworking|icon=[[File:Craftdwarfs_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 * [[Bone carving]]
 * [[Stonecrafting]]
-* [[Woodcrafting]]
-|use=
+* [[Woodcrafting]]|use=
 * [[Stone]]
 * [[Wood]]
 * [[Bone]]
@@ -22,8 +18,7 @@
 * [[Thread]]
 * [[Wax]]
 * [[Leather]]
-* [[Skull]]
-|production=
+* [[Skull]]|production=
 
 * Rock [[Craft]]s, [[Mug]]s, [[Instrument]]s, [[Toy]]s, [[Jug]]s, [[Large pot|Large Pots]], [[Hive]]s, and [[Nest box|Nest Boxes]]
 * Wood, Plant Fiber Cloth, Silk, Shell, Ivory, Tooth, Horn, Pearl, Bone and, Leather [[Craft]]s
@@ -36,8 +31,7 @@
 * [[Adamantine]] Strands
 * [[Scroll]], [[Quire]], and [[Book]]
 * Wood and Stone [[Scroll rollers]] and [[Book binding]]
-* [[Instrument]]s and instrument pieces
-}}{{av}}
+* [[Instrument]]s and instrument pieces}}{{av}}
 
 The '''Craftsdwarf's workshop''' is used to make [[craft]]s of many different kinds and perform a few specialized jobs. It can be built from any construction material  by a dwarf with the [[Bone carver|Bone Carving]], [[Stonecrafting]], or [[Woodcrafting]] [[labor]]s enabled.
 

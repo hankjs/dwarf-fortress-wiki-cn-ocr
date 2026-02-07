@@ -1,21 +1,11 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Milker
-| profession = [[Farmer]]
-| job name   = [[Milking]]
-| tasks      =
-* [[Milk]] Animal
-| workshop = 
-* [[Farmer's workshop]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Milker| profession = [[Farmer]]| job name   = [[Milking]]| tasks      =
+* [[Milk]] Animal| workshop = 
+* [[Farmer's workshop]]| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''Milker''' is the skill associated with the '''milking''' [[labor]]. Milkers will [[milk]] creatures in a [[farmer's workshop]], requiring an empty bucket. There are several milkable animals in-game, including [[cow|cows]], [[donkey|donkeys]], [[sheep]] and [[horse|horses]]. [[Milk]] is the ingredient for [[cheese]], which in turn can be used to make high-quality [[food]] at the [[kitchen]].
 

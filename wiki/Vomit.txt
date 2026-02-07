@@ -5,12 +5,7 @@ Under certain conditions, [[creature]]s (such as your [[dwarf|dwarves]]) will ''
 
 [[Titan]]s, [[forgotten beast]]s, and [[demon]]s are occasionally made of vomit, though, unless paired with a dangerous attack, these creatures are relatively weak due to liquids like vomit being extremely fragile to damage.
 [[Image:Vomit_Trail.png‎|thumb|center|280px|Both vomit and [[Finished goods|useless crap]] are common markers of a dwarf trail on the surface. Seen in ASCII form.]]
-{{Translation
-| dwarven = ôggon
-| elvish  = cemato
-| goblin  = strastnas
-| human   = sethbap
-}}
+{{Translation| dwarven = ôggon| elvish  = cemato| goblin  = strastnas| human   = sethbap}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|VOMIT}}}}
 {{materials}}

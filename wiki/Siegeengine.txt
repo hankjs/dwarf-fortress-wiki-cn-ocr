@@ -1,37 +1,20 @@
 {{av}}
 {{migrated article}}
 {{buggy}}
-{{Quality|Unrated}}{{Building|name=Catapult|key=y|key2=p
-|job=[[Siege operating]]
-|construction=
-3 catapult parts
-|construction_job=
-* [[Siege engineering]]
-|purpose=
-Stationary weapons platform
-}}{{Building|name=Ballista|key=y|key2=b
-|job=[[Siege operating]]
-|construction=
-3 ballista parts
-|construction_job=
-* [[Siege engineering]]
-|purpose=
-Stationary weapons platform
-}}
-{{Building
-|name=Bolt thrower
-|key=y|key2=i
-|job=[[Siege operating]]
-|construction=
+{{Quality|Unrated}}{{Building|name=Catapult|key=y|key2=p|job=[[Siege operating]]|construction=
+3 catapult parts|construction_job=
+* [[Siege engineering]]|purpose=
+Stationary weapons platform}}{{Building|name=Ballista|key=y|key2=b|job=[[Siege operating]]|construction=
+3 ballista parts|construction_job=
+* [[Siege engineering]]|purpose=
+Stationary weapons platform}}
+{{Building|name=Bolt thrower|key=y|key2=i|job=[[Siege operating]]|construction=
 * 1 [[bolt]] thrower parts
 * [[mechanism]]
 * [[chain]]
-* [[bin]]
-|construction_job=
-* [[Siege engineering]]
-|purpose=
-Stationary weapons platform
-}}
+* [[bin]]|construction_job=
+* [[Siege engineering]]|purpose=
+Stationary weapons platform}}
 
 A '''siege engine''' in ''Dwarf Fortress'' is half-building, half-heavy weapon, and includes the '''catapult''', '''ballista''' and '''bolt thrower'''.  All three are capable of launching hazardous projectiles at a tremendous range (more than a screen-width, around 80 to 100 tiles for a catapult, between 130 and 200 tiles for a ballista and roughly 60 tiles for the bolt thrower).  A [[ballista arrow]] can kill or injure each creature in its path, indiscriminately of friend or foe, catapult boulders explode into dangerous shrapnel which can harm anyone nearby and the bolt thrower can have its direction changed while rapid-firing, depending on the target's location.
 

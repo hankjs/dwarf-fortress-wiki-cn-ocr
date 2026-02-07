@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Noble
-| noble= Diplomat
-| office= Throne Room
-| quarters= Great Bedroom
-| dining= Great Dining Room
-| tomb= None
-| chests=3
-| cabinets=2
-| racks=2
-| stands=2
-| demands=3
-| arrival = 
+{{Noble| noble= Diplomat| office= Throne Room| quarters= Great Bedroom| dining= Great Dining Room| tomb= None| chests=3| cabinets=2| racks=2| stands=2| demands=3| arrival = 
 * Rarely arrives with [[monarch]]}}
 {{av}}
 {{buggy}}

@@ -1,19 +1,13 @@
 {{Quality|Superior}}
-{{V50 workshop
-|name=Stoneworker's workshop|key=t|job=[[Stone carving]], [[Stonecutting]], or [[Stone engraving]]
-|icon=[[File:stoneworker_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Stoneworker's workshop|key=t|job=[[Stone carving]], [[Stonecutting]], or [[Stone engraving]]|icon=[[File:stoneworker_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 Any [[Stoneworker]] labor:
 * [[Masonry]]
 * [[Stone carving]]
 * [[Stonecutting]]
-* [[Stone engraving]]
-|use=
+* [[Stone engraving]]|use=
 * [[Stone]]
-* [[Slab]]s
-|production=
+* [[Slab]]s|production=
 * Engrave [[memorial|memorial slabs]]
 * [[Armor stand]]s
 * [[Block]]s
@@ -31,8 +25,7 @@ Any [[Stoneworker]] labor:
 * [[Quern]]s
 * [[Millstone]]s
 * [[Slab]]s
-* [[Altar]]s
-}}{{av}}
+* [[Altar]]s}}{{av}}
 
 A '''Stoneworker's workshop''' is where [[stone carver]]s create [[stone]] objects, such as [[statue]]s and [[furniture]], as well as where [[stonecutter]]s create stone [[block]]s. [[Quern]]s, [[slab]]s and [[millstone]]s can ''only'' be made at this [[workshop]].
 

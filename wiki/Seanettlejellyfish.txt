@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=sea_nettle_jellyfish_sprite.png
-|portrait=sea_nettle_jellyfish_portrait.png
-|wiki=Sea nettle}}
+{{verminlookup/0|image=sea_nettle_jellyfish_sprite.png|portrait=sea_nettle_jellyfish_portrait.png|wiki=Sea nettle}}
 {{av}}
 {{creaturedesc}}
 

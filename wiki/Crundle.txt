@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=crundle_sprite.png
-|portrait=crundle_portrait.png
-|wiki=no
-|contrib=no
-|bone=2-4
-|meat=2-6
-|fat=2-6
-|skull=1
-|intestine=1
-|skin=scale
-}}
+{{Creaturelookup/0|image=crundle_sprite.png|portrait=crundle_portrait.png|wiki=no|contrib=no|bone=2-4|meat=2-6|fat=2-6|skull=1|intestine=1|skin=scale}}
 {{av}}
 {{creaturedesc}}
 

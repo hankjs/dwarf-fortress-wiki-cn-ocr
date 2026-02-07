@@ -1,20 +1,14 @@
 {{Quality|Superior}}
-{{Metal|name=Silver
-|sample=[[File:GenericSample.png|center|frameless]]
-|graphic=generic_grey_bar_sprite.png
-|color=7:7:1
-|uses=
+{{Metal|name=Silver|sample=[[File:GenericSample.png|center|frameless]]|graphic=generic_grey_bar_sprite.png|color=7:7:1|uses=
 * Make [[Billon]] at [[smelter]]
 * Make [[Electrum]] at [[smelter]]
 * [[weapon|Melee Weapons]]
 * [[Bolt]]s
-* [[Metalsmith's forge|Metal crafting]]
-|ore=
+* [[Metalsmith's forge|Metal crafting]]|ore=
 * [[File:ore_silvery_sprite.png]] [[Native silver]]
 * [[File:ore_yellow2_sprite.png]] [[Horn silver]]
 * [[File:ore_silvery_sprite.png]] [[Galena]] (50%)
-* [[File:ore_silvery_sprite.png]] [[Tetrahedrite]] (20%)
-|properties=
+* [[File:ore_silvery_sprite.png]] [[Tetrahedrite]] (20%)|properties=
 * [[Material value]] 10☼
 * [[Material science|Impact strength]] 595 MPa
 * [[Material science|Shear strength]] 170 MPa
@@ -25,8 +19,7 @@
 * [[Solid density]] 10490 kg/m³
 * Liquid [[density]] 9320 kg/m³
 * [[Specific heat]] 230 J/kg·K
-* [[Color]] silver
-}}{{av}}
+* [[Color]] silver}}{{av}}
 
 '''Silver''' is a mid-value [[metal]] which is useful for [[weapon]]s, [[ammunition]], [[furniture]],  [[decoration]]s, and other objects. Silver may be combined with other [[metal|metals]] in a [[magma smelter]] or [[smelter]] to produce the following [[metal|alloys]]:
 
@@ -48,12 +41,7 @@ While silver swords were said to be the only blades capable of slaying [[Werebea
 File:Silver.jpg|Silver bars
 </gallery>
 
-{{Translation
-| dwarven = ral
-| elvish  = nelare
-| goblin  = one
-| human   = obin
-}}
+{{Translation| dwarven = ral| elvish  = nelare| goblin  = one| human   = obin}}
 
 {{gamedata}}
 {{metals}}

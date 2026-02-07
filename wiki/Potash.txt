@@ -6,8 +6,7 @@
 {{infoheader|Uses}}
 {{infocell|
 * [[Farming#Yield and fertilization|Fertilizer]]
-* Make [[pearlash]]
-}}
+* Make [[pearlash]]}}
 {{infoheader|Properties}}
 {{infocell|
 * [[Material value]] 3
@@ -16,8 +15,7 @@
 * [[Boiling point]] None
 * [[Ignition point]] None
 * [[Solid density]] 1200
-* [[Specific heat]] 800
-}}
+* [[Specific heat]] 800}}
 {{infocell|style=text-align:center; background-color: #eee; border-top: 1px solid #aaa|1=[[wikipedia:Potash|Wikipedia article]]}}
 {{infoend}}
 

@@ -1,28 +1,15 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_item | name=Block
-|graphic=[[File:block_sprite.png]]
-|tile=■
-|wood=y
-|stone=y
-|ceramic=y
-|glass=y
-|metal=y
-|bars=1
-|labors=<span></span>
+{{v50_item | name=Block|graphic=[[File:block_sprite.png]]|tile=■|wood=y|stone=y|ceramic=y|glass=y|metal=y|bars=1|labors=<span></span>
 * [[Carpentry]]<br><br>
 * [[Stonecutting]]<br><br>
 * [[Blacksmithing]]<br><br>
 * [[Glassmaking]]<br><br>
-* [[Pottery]]
-|used for=
+* [[Pottery]]|used for=
 * [[Building]]
 * [[Well]]
 * [[Screw pump]]
-* [[Ashery]]
-|value=5
-|size=6,000
-}}
+* [[Ashery]]|value=5|size=6,000}}
 
 :''For "blocking" in combat, see [[Armor]].''
 
@@ -48,12 +35,7 @@ Blocks are more valuable than rocks, having a [[Value#Items with material but wi
 
 Metal ores and economic stone will still produce multiple stone blocks if cut in a mason's workshop. However, this breaks use for any purpose other than building and [[strange mood]]s, such as [[reaction]]s: blocks of [[flux]] '''cannot''' be used for making [[pig iron]] or [[steel]], nor can blocks of [[ore]] be [[smelter|smelted]] into metal (without modding reactions). Note that "filler" blocks of [[raw adamantine]] are excellent for increasing [[artifact]] value without wasting too much adamantine on legendary doors, tables, etc.
 
-{{Translation
-| dwarven = kastar
-| elvish  = epuba
-| goblin  = zobo
-| human   = xugot
-}}
+{{Translation| dwarven = kastar| elvish  = epuba| goblin  = zobo| human   = xugot}}
 
 == See Also ==
 * [[Stoneworker]]

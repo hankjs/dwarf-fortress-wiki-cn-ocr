@@ -1,14 +1,8 @@
 {{av}}{{Quality|Superior}}
-{{v50_furniture|name=Bed
-|graphic=[[File:bed_sprite_prototype.png]]
-|tile=Θ|col=6:0:0
-|wood=y
-|zones=
+{{v50_furniture|name=Bed|graphic=[[File:bed_sprite_prototype.png]]|tile=Θ|col=6:0:0|wood=y|zones=
 * [[Bedroom]]
 * [[Barracks]]
-* [[Dormitory]]
-|value=10
-|size=30,000}}
+* [[Dormitory]]|value=10|size=30,000}}
 A '''bed''' is a piece of [[furniture]] manufactured in a [[carpenter's workshop]]. Once built a bed can be placed with {{Menu icon|b|f|b|sep=-}}. A bed not contained within a [[zone]] will be used by any roomless [[dwarf]]. Dwarves gain unhappy [[thoughts]] from [[sleep]]ing without a bed and happy thoughts from having their own, high-quality bedrooms, so building beds is often a necessity for a happy fortress.
 
 [[File:beds v50.png|left|Top to bottom: wood, stone, and metal bedframes. Once made at a [[carpenter's workshop]], it will be complete with a pillow and a colored blanket!]]Unlike many other pieces of furniture, standard beds can only be created from [[wood]] (beds made of other materials such as [[metal]], [[stone]], [[gem]]s, or [[bone]] only exist in the form of [[legendary artifact]]s created during [[strange mood]]s). If your fortress has no surface [[tree]]s, you will have to bring wood with you, or rely on [[subterranean]] trees or [[trading|trade]] to get wood for beds. Manufacturing a bed requires one piece of [[wood]]. To construct a bed, click on a [[carpenter's workshop]], click on "Add new task", then click on "Make bed".
@@ -34,11 +28,6 @@ You can (re-)assign or free (unassign) a bed, even if a dwarf is sleeping in it 
 ==See also==
 *[[Bedroom design]]
 
-{{Translation
-| dwarven = zust
-| elvish  = sira
-| goblin  = zozax
-| human   = ina
-}}
+{{Translation| dwarven = zust| elvish  = sira| goblin  = zozax| human   = ina}}
 {{Buildings}}
 {{Category|Furniture|Bed}}

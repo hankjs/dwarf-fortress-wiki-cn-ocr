@@ -4,17 +4,8 @@
 
 {{Merge|Slab|date=November 2017}}
 
-{{V50_furniture
-|graphic=[[File:Memorial_Premium.png]]
-|name=Memorial
-|tile=∩
-|stone=n
-|metal=n
-|glass=n
-|slabv50=y
-|rooms=
-* [[memorial hall|Memorial Hall]]
-}}'''Memorials''' are buildings which can be built from the {{k|b}}uild menu under {{k|Alt}}+{{k|s}}. To create one, you first need to order a blank [[slab]] at a [[stoneworker's workshop]] ({{k|a}}, {{k|Alt}}+{{k|s}}), then order an [[engraver]] to make the unengraved slab into a memorial at a [[stoneworker's workshop]] ({{k|a}}, {{k|Alt}}+{{k|s}}). When placing the memorial (listed under 'slab' in the build menu), hitting 'x' on the materials menu will expand the list and let you pick which specific memorial you want. Once engraved, they can be built as an alternative to [[coffin]]s - failure to memorialize or entomb a deceased dwarf may lead to [[ghost|unexpected consequences]]. If you're having trouble finding which slab you want to place, use {{k|x}} to expand the list and find named or blank slabs.
+{{V50_furniture|graphic=[[File:Memorial_Premium.png]]|name=Memorial|tile=∩|stone=n|metal=n|glass=n|slabv50=y|rooms=
+* [[memorial hall|Memorial Hall]]}}'''Memorials''' are buildings which can be built from the {{k|b}}uild menu under {{k|Alt}}+{{k|s}}. To create one, you first need to order a blank [[slab]] at a [[stoneworker's workshop]] ({{k|a}}, {{k|Alt}}+{{k|s}}), then order an [[engraver]] to make the unengraved slab into a memorial at a [[stoneworker's workshop]] ({{k|a}}, {{k|Alt}}+{{k|s}}). When placing the memorial (listed under 'slab' in the build menu), hitting 'x' on the materials menu will expand the list and let you pick which specific memorial you want. Once engraved, they can be built as an alternative to [[coffin]]s - failure to memorialize or entomb a deceased dwarf may lead to [[ghost|unexpected consequences]]. If you're having trouble finding which slab you want to place, use {{k|x}} to expand the list and find named or blank slabs.
 
 Examining the memorial will show a short description of the deceased:  the year when they died or went missing, their cause of death, who or what killed them (if applicable), any [[nobility]] position they held, and may also mention one or more of their [[preference]]s.  It will also note if they were a mother or a father. 
 

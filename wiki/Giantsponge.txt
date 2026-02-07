@@ -1,10 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_sponge_sprite.png
-|portrait=sponge_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher}}
+{{Creaturelookup/0|image=giant_sponge_sprite.png|portrait=sponge_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 '''Giant sponges''' are larger versions of [[sponge]]s, being found in savage rivers, lakes and oceans.

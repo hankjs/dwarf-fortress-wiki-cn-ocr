@@ -1,24 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=chimpanzee_sprites.png
-|portrait=chimpanzee_portrait_anim.gif
-|contrib=no
-|meat=12-13
-|fat=12
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|bone=10
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=chimpanzee_sprites.png|portrait=chimpanzee_portrait_anim.gif|contrib=no|meat=12-13|fat=12|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|bone=10|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Chimpanzees''' are social [[Creature|animals]] rarely found in [[tropical]] [[forest]] [[biome]]s that visit your fortress in clusters of 5-10 individuals, who are virtually identical to [[bonobo]]s. Chimpanzees have a good [[pet]] value of 500, and can be trained with an [[animal trainer]]; this makes capturing and taming them a desirable activity. They can live up to eighty years, so a dwarf that takes a chimpanzee as a pet will have it a long time. Young chimpanzees only take two years to reach full size, but require a full ten years to reach adulthood. Chimpanzees are all born with Legendary [[skill]] in [[Climber|climbing]].

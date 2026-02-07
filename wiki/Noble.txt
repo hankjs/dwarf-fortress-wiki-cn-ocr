@@ -1,11 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
 [[File:noble_icon_preview.png|right]]
-{{Translation
-| dwarven = rîthol
-| elvish  = ramu
-| goblin  = dösta
-| human   = hal}}
+{{Translation| dwarven = rîthol| elvish  = ramu| goblin  = dösta| human   = hal}}
 '''Nobles''' and '''administrators''' are [[Dwarf|dwarves]] elevated to a position of rule over your fortress. Administrators perform a useful, specific task or duty unique to their position, such as [[Manager|managing work orders]], [[Broker|trading with merchants]], [[Militia commander|commanding military positions]], or even [[bookkeeper|stocks recording]]. An [[expedition leader]] or a [[mayor]] provides a critical happiness bonus to unhappy and [[stress|stressed]] dwarves, who will yell at or cry on "someone in charge", and is also responsible for interacting with [[outpost liaison|outpost liaisons]].
 
 Certain offices are automatically [[elected]] by your fortress's citizenry, rising to ranks mostly outside of the player's control, while most administrators can be directly appointed by the player, and can be promoted, demoted and replaced at any time. Administrators are colloquially known as "utility nobles", and internally both are a type of [[position token|position]].
@@ -44,29 +40,15 @@ Landholding nobles have triggers defined in the [[Difficulty#Land_holder|difficu
 *'''Created Wealth''' - Minimum created wealth for this position to become available.
 *'''Exported Wealth''' - Minimum exported wealth for this position to become available.
 
-{| class="sortable wikitable" style="text-align:center;"
-|- style="background:#F2F2F2;"
+{| class="sortable wikitable" style="text-align:center;"|- style="background:#F2F2F2;"
 ! '''Land Holder'''
 ! '''Population'''
 ! '''Created Wealth'''
 ! '''Exported Wealth'''
-
 |-
-! [[Baron]]
-| 20
-| 100k 
-| 10k
-|-
-! [[Count]]
-| 20
-| 200k 
-| 20k
-|-
-! [[Duke]]
-| 20
-| 300k 
-| 30k
-|}
+! [[Baron]]| 20| 100k | 10k|-
+! [[Count]]| 20| 200k | 20k|-
+! [[Duke]]| 20| 300k | 30k|}
 
 The [[general]] arrives alongside the [[monarch]] (except when a fortress citizen or resident inherits the monarchy{{bug|11717}}).
 
@@ -85,307 +67,52 @@ Great (FFFF40) -> FF9000
 Grand (FFFF20) -> FF7800
 Royal (FFFF00) -> FF4E00
 -->
-{| class="sortable wikitable" style="text-align:center;"
-|- style="background:#F2F2F2;"
+{| class="sortable wikitable" style="text-align:center;"|- style="background:#F2F2F2;"
 !Position!!Quarters!!Dining Room!!Office!!Tomb!!Chests!!Cabinets!!Racks!!Stands!!Demands!!Mandates
+|-
+![[Baron]]|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Quarters|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Dining Room|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office|bgcolor="#FFBA50"|<span style="display:none">4</span>Tomb|2|1|1|1|2|1
+|-
+![[Bookkeeper]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+|-
+![[Broker]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+<!--|-
+![[Captain]]|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Quarters|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Dining Room|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office|<span style="display:none">0</span>—|1|1|1|1|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+-->|-
+![[Captain of the guard|Captain of the Guard]]|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room|bgcolor="#FFCC50"|<span style="display:none">3</span>Office|<span style="display:none">0</span>—|1|1|1|1|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+|-
+![[Champion]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|1|<span style="display:none">0</span>—
+|-
+![[Chief medical dwarf]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+|-
+![[Count]]|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room|bgcolor="#FF9050"|<span style="display:none">6</span>Mausoleum|3|2|2|2|3|2|-
+![[Diplomat]]|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room|<span style="display:none">0</span>—|3|2|2|2|3|<span style="display:none">0</span>—|-
+![[Duke]]|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Bedroom|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Dining Room|bgcolor="#FF7850"|<span style="display:none">7</span>Opulent Throne Room|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Mausoleum|5|3|3|3|5|3|-
 
+![[Dungeon master]]|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room|bgcolor="#FFCC50"|<span style="display:none">3</span>Office|<span style="display:none">0</span>—|1|1|1|1|<span style="display:none">0</span>—|<span style="display:none">0</span>—
 |-
-![[Baron]]
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Quarters
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Dining Room
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Tomb
-|2
-|1
-|1
-|1
-|2
-|1
-
+![[Expedition leader]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+<!--|-
+![[Forced administrator]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|3|2
+-->|-
+![[General]]|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office|bgcolor="#FFFF50"|<span style="display:none">1</span>Grave|2|1|3|3|2|<span style="display:none">0</span>—
 |-
-![[Bookkeeper]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
+![[Hammerer]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
+<!--|-
+![[Lieutenant]]|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Quarters|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Dining Room|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Office|<span style="display:none">0</span>—|1|1|2|2|1|<span style="display:none">0</span>—
+-->|-
+![[Manager]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
 |-
-![[Broker]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-<!--
+![[Mayor]]|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Quarters|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Dining Room|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office|<span style="display:none">0</span>—|2|1|1|1|2|1
 |-
-![[Captain]]
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Quarters
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Dining Room
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office
-|<span style="display:none">0</span>—
-|1
-|1
-|1
-|1
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
--->
+![[Militia captain]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
 |-
-![[Captain of the guard|Captain of the Guard]]
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Office
-|<span style="display:none">0</span>—
-|1
-|1
-|1
-|1
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
+![[Militia commander]]|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—|<span style="display:none">0</span>—
 |-
-![[Champion]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|1
-|<span style="display:none">0</span>—
-
+![[Monarch]]|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Bedroom|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Dining Room|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Throne Room|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Mausoleum|<span style="display:none">9</span>10|5|5|5|<span style="display:none">9</span>10|5
 |-
-![[Chief medical dwarf]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
+![[Outpost liaison]]|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room|<span style="display:none">0</span>—|3|2|2|2|3|<span style="display:none">0</span>—
 |-
-![[Count]]
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room
-|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room
-|bgcolor="#FF9050"|<span style="display:none">6</span>Mausoleum
-|3
-|2
-|2
-|2
-|3
-|2
-|-
-![[Diplomat]]
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room
-|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room
-|<span style="display:none">0</span>—
-|3
-|2
-|2
-|2
-|3
-|<span style="display:none">0</span>—
-|-
-![[Duke]]
-|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Bedroom
-|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Dining Room
-|bgcolor="#FF7850"|<span style="display:none">7</span>Opulent Throne Room
-|bgcolor="#FF7850"|<span style="display:none">7</span>Grand Mausoleum
-|5
-|3
-|3
-|3
-|5
-|3
-|-
-
-![[Dungeon master]]
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Office
-|<span style="display:none">0</span>—
-|1
-|1
-|1
-|1
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
-|-
-![[Expedition leader]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-<!--
-|-
-![[Forced administrator]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|3
-|2
--->
-|-
-![[General]]
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Quarters
-|bgcolor="#FFCC50"|<span style="display:none">3</span>Dining Room
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Grave
-|2
-|1
-|3
-|3
-|2
-|<span style="display:none">0</span>—
-
-|-
-![[Hammerer]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-<!--
-|-
-![[Lieutenant]]
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Quarters
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Dining Room
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Office
-|<span style="display:none">0</span>—
-|1
-|1
-|2
-|2
-|1
-|<span style="display:none">0</span>—
--->
-|-
-![[Manager]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|bgcolor="#FFFF50"|<span style="display:none">1</span>Meager Office
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
-|-
-![[Mayor]]
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Quarters
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Dining Room
-|bgcolor="#FFBA50"|<span style="display:none">4</span>Decent Office
-|<span style="display:none">0</span>—
-|2
-|1
-|1
-|1
-|2
-|1
-
-|-
-![[Militia captain]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
-|-
-![[Militia commander]]
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
-|-
-![[Monarch]]
-|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Bedroom
-|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Dining Room
-|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Throne Room
-|bgcolor="#FF5E40"|<span style="display:none">8</span>Royal Mausoleum
-|<span style="display:none">9</span>10
-|5
-|5
-|5
-|<span style="display:none">9</span>10
-|5
-
-|-
-![[Outpost liaison]]
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Bedroom
-|bgcolor="#FF9050"|<span style="display:none">6</span>Great Dining Room
-|bgcolor="#FF9050"|<span style="display:none">6</span>Throne Room
-|<span style="display:none">0</span>—
-|3
-|2
-|2
-|2
-|3
-|<span style="display:none">0</span>—
-
-|-
-![[Sheriff]]
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Quarters
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Dining Room
-|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Office
-|<span style="display:none">0</span>—
-|1
-|1
-|1
-|1
-|<span style="display:none">0</span>—
-|<span style="display:none">0</span>—
-
+![[Sheriff]]|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Quarters|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Dining Room|bgcolor="#FFEA50"|<span style="display:none">2</span>Modest Office|<span style="display:none">0</span>—|1|1|1|1|<span style="display:none">0</span>—|<span style="display:none">0</span>—
 |}
 
 == Notes ==   
@@ -406,8 +133,7 @@ This shows various notes for each position taken from the [[raws]].
 *'''Military Screen Only''' - This position is only listed on the military screen.
 *'''Jealous''' - These dwarves will become [[thought|upset]] if their rooms are not better than those of "lesser" dwarves. They don't have to see the rooms to become upset, since they somehow just know such rooms exist. Positions are sorted by their precedence in the nobles screen, with more important dwarves sorted above lower ranks.
 
-{| class="sortable wikitable" style="text-align:center;"
-|-
+{| class="sortable wikitable" style="text-align:center;"|-
 ! '''Position'''
 ! width=5% | '''#'''
 ! '''Squad'''
@@ -423,414 +149,53 @@ This shows various notes for each position taken from the [[raws]].
 ! width=5% | '''Econ Exempt'''
 ! width=5% | '''Military Screen Only'''
 ! '''Jealous'''
-
 |-
-! Baron
-| -
-| -
-| Yes
-| Yes
-| Monarch
-| Count
-| 20
-| 100k / 10k
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
-
+! Baron| -| -| Yes| Yes| Monarch| Count| 20| 100k / 10k| -| Yes| Yes| Yes| -| Yes
 |-
-! Bookkeeper
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-
+! Bookkeeper| 1| -| -| -| Exp.Leader/Mayor| -| -| -| -| -| -| -| -| -
 |-
-! Broker
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-<!--
+! Broker| 1| -| -| -| Exp.Leader/Mayor| -| -| -| -| -| -| -| -| -
+<!--|-
+! Captain| 1+| 10:Soldier| -| -| General| -| -| -| -| -| -| -| Yes| -
+-->|-
+! Captain of the Guard| 1| 10:Fortress Guard| -| -| Exp.Leader/Mayor| -| 50| -| -| -| -| Yes| -| -
 |-
-! Captain
-| 1+
-| 10:Soldier
-| -
-| -
-| General
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| Yes
-| -
--->
+! Champion| 1| -| -| -| Duke/Count/Baron| -| -| -| -| Yes| Yes| Yes| -| -
 |-
-! Captain of the Guard
-| 1
-| 10:Fortress Guard
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| 50
-| -
-| -
-| -
-| -
-| Yes
-| -
-| -
-
+! Chief Medical Dwarf| 1| -| -| -| Exp.Leader/Mayor| -| -| -| -| -| -| -| -| -
 |-
-! Champion
-| 1
-| -
-| -
-| -
-| Duke/Count/Baron
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| -
-
+! Count| -| -| Yes| Yes| Monarch| Duke| 20| 200k / 20k| -| Yes| Yes| Yes| -| Yes|-
+! Diplomat| 1| -| -| -| Monarch| -| -| -| -| Yes| Yes| Yes| -| Yes|-
+! Duke| -| -| Yes| Yes| Monarch| -| 20| 300k / 30k| -| Yes| Yes| Yes| -| Yes
+<!--|-
+! Dungeon Master*| 1| -| -| -| Duke/Count/Baron| -| -| -| -| Yes| Yes| Yes| -| Yes
+-->|-
+! Expedition Leader| 1| -| -| -| -| Mayor| -| -| -| -| -| Yes| -| -
+<!--|-
+! Forced Administrator*| 1| -| -| -| -| -| -| -| -| Yes| Yes| Yes| -| Yes
+-->|-
+! General| 1| 10:Soldier| -| -| Monarch| -| -| -| -| Yes| Yes| Yes| -| Yes
 |-
-! Chief Medical Dwarf
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-
+! Hammerer| 1| -| -| -| Exp.Leader/Mayor| -| -| -| -| Yes| Yes| Yes| -| -
+<!--|-
+! Lieutenant| 1+| 10:Soldier| -| -| General| -| -| -| -| Yes| -| Yes| Yes| -
+-->|-
+! Manager| 1| -| -| -| Exp.Leader/Mayor| -| -| -| -| -| -| -| -| -
 |-
-! Count
-| -
-| -
-| Yes
-| Yes
-| Monarch
-| Duke
-| 20
-| 200k / 20k
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
+! Mayor| 1| -| -| -| -| -| 50| -| Yes| -| -| Yes| -| -
 |-
-! Diplomat
-| 1
-| -
-| -
-| -
-| Monarch
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
+! Militia Captain| 1+| 10:Militia-dwarf| -| -| Militia Commander| -| -| -| -| -| -| -| Yes| -
 |-
-! Duke
-| -
-| -
-| Yes
-| Yes
-| Monarch
-| -
-| 20
-| 300k / 30k
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
-<!--
+! Militia Commander| 1| 10:Militia-dwarf| -| -| Exp.Leader/Mayor| -| -| -| -| -| -| -| -| -
 |-
-! Dungeon Master*
-| 1
-| -
-| -
-| -
-| Duke/Count/Baron
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
--->
+! Monarch| 1| -| Yes| Yes| [[Armok]] himself| -| -| [[Monarch|It's complicated]]| -| Yes| Yes| Yes| -| Yes
 |-
-! Expedition Leader
-| 1
-| -
-| -
-| -
-| -
-| Mayor
-| -
-| -
-| -
-| -
-| -
-| Yes
-| -
-| -
-<!--
+! Outpost Liaison| 1| -| -| -| Monarch| -| -| -| -| Yes| Yes| Yes| -| Yes
 |-
-! Forced Administrator*
-| 1
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
--->
-|-
-! General
-| 1
-| 10:Soldier
-| -
-| -
-| Monarch
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
-
-|-
-! Hammerer
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| -
-<!--
-|-
-! Lieutenant
-| 1+
-| 10:Soldier
-| -
-| -
-| General
-| -
-| -
-| -
-| -
-| Yes
-| -
-| Yes
-| Yes
-| -
--->
-|-
-! Manager
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-
-|-
-! Mayor
-| 1
-| -
-| -
-| -
-| -
-| -
-| 50
-| -
-| Yes
-| -
-| -
-| Yes
-| -
-| -
-
-|-
-! Militia Captain
-| 1+
-| 10:Militia-dwarf
-| -
-| -
-| Militia Commander
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| Yes
-| -
-
-|-
-! Militia Commander
-| 1
-| 10:Militia-dwarf
-| -
-| -
-| Exp.Leader/Mayor
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-| -
-
-|-
-! Monarch
-| 1
-| -
-| Yes
-| Yes
-| [[Armok]] himself
-| -
-| -
-| [[Monarch|It's complicated]]
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
-
-|-
-! Outpost Liaison
-| 1
-| -
-| -
-| -
-| Monarch
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
-
-|-
-! Sheriff
-| 1
-| -
-| -
-| -
-| Exp.Leader/Mayor
-| Captain of the Guard
-| -
-| -
-| -
-| -
-| -
-| Yes
-| -
-| -
-<!--
-|-
-! Tax Collector*
-| 1
-| -
-| -
-| -
-| Duke/Count/Baron
-| -
-| -
-| -
-| -
-| Yes
-| Yes
-| Yes
-| -
-| Yes
--->
-|}
+! Sheriff| 1| -| -| -| Exp.Leader/Mayor| Captain of the Guard| -| -| -| -| -| Yes| -| -
+<!--|-
+! Tax Collector*| 1| -| -| -| Duke/Count/Baron| -| -| -| -| Yes| Yes| Yes| -| Yes
+-->|}
 <!--''* Not currently implemented.''-->
 
 ==Appointing Administrators==

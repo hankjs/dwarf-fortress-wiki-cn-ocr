@@ -20,12 +20,7 @@ The other group theorizes that when the First Mountain King of the dwarves was s
 *[[Body parts]]
 *[[Combat]]
 *[[Meat industry]]
-{{Translation
-| dwarven = nekol
-| elvish  = ome
-| goblin  = unu
-| human   = sath
-}}
+{{Translation| dwarven = nekol| elvish  = ome| goblin  = unu| human   = sath}}
 
 {{Category|Body parts}}
 {{Category|Materials}}

@@ -18,11 +18,6 @@
 ==Adventurer Mode==
 Reaching islands can be a difficult challenge. One way would be to swim it, and brave the hazards of the [[ocean]] and [[climate]]. Another way would be to cross it through the [[cavern]]s but that may present another set of obstructions and dangers. You may also try to establish your own camps to build a bridge across the ocean tile, making the return trip much easier. The easiest way to reach an island however is with a giant variant of any flying animal as your pet which can then be ridden across any body of water.
 
-{{Translation
-| dwarven = gulnas
-| elvish  = elifa
-| goblin  = bungmo
-| human   = ethra
-}}
+{{Translation| dwarven = gulnas| elvish  = elifa| goblin  = bungmo| human   = ethra}}
 
 {{World}}

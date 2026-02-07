@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=axolotl man premium.png
-|portrait=axolotl_man_portrait.png
-}}
+{{Creaturelookup/0|image=axolotl man premium.png|portrait=axolotl_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

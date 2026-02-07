@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=giant_tortoise_sprite.png
-|portrait=gigantic_tortoise_anim.gif
-|shell=1
-|bone=19
-|meat=15
-|scale=1
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|fat=13
-|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]
-|wiki=yes|contrib=no}}
+{{creaturelookup/0|image=giant_tortoise_sprite.png|portrait=gigantic_tortoise_anim.gif|shell=1|bone=19|meat=15|scale=1|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|fat=13|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

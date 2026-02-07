@@ -1,6 +1,0 @@
-{{Quality|Tattered}}
-{{av}}
-{{removed feature}}
-
-在非常早期的''矮人要塞''版本中，'''炼金实验室'''是一个用于从[[lye|碱液]]和[[tallow|动物脂肪]]制作[[soap|肥皂]]条（当时只是简单的[[caravan|贸易商品]]）的[[workshop|工坊]]。要建造炼金实验室，你必须有三个透明的[[glass|玻璃]][[vial|小瓶]]。该工坊的功能在0.31.01版本中被专门的[[soap maker's workshop|制皂工坊]]取代，而工坊、[[alchemist|技能]]和[[alchemy|劳动]]都被隐藏在游戏文件中。[[Main:Toady One|Toady One]] [http://www.bay12games.com/media/df_talk_8_transcript.html 计划最终以不同的形式]将工坊重新加入游戏，但目前炼金实验室仍在游戏的代码墓地中沉睡。
-[[ru:Alchemist's laboratory]]

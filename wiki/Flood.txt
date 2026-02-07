@@ -5,94 +5,12 @@
 ==Flooding with Water==
 ===Floodgate and River/Brook===
 [[File:v50_floodgate_preview.png|111px|left]]
-{| style="border-spacing:0;"
-|-
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|═|7:0:1}}
-|-
-|{{RT|>|1:0:1}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{RT|>|1:0:1}}
-|-
-|{{RT|>|1:0:1}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{RT|>|1:0:1}}
-|-
-|{{RT|>|1:0:1}}
-|{{H2O}}
-|{{H2O}}
-|{{H2O}}
-|{{RT|>|1:0:1}}
-|-
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|{{H2O}}
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|-
-|{{000}}
-|{{RT|║|7:0:1}}
-|{{H2O}}
-|{{RT|║|7:0:1}}
-|{{000}}
-|-
-|{{000}}
-|{{RT|╠|7:0:1}}
-|{{RT|X|7:7:1}}
-|{{RT|╣|7:0:1}}
-|{{000}}
-|-
-|{{000}}
-|{{RT|║|7:0:1}}
-|{{RT|+|7:0:1}}
-|{{RT|║|7:0:1}}
-|{{000}}
-|-
-|{{000}}
-|{{RT|║|7:0:1}}
-|{{RT|+|7:0:1}}
-|{{RT|║|7:0:1}}
-|{{000}}
-|-
-|{{000}}
-|{{RT|║|7:0:1}}
-|{{RT|+|7:0:1}}
-|{{RT|║|7:0:1}}
-|{{000}}
-|}
+{| style="border-spacing:0;"|-|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|{{RT|═|7:0:1}}|-|{{RT|>|1:0:1}}|{{H2O}}|{{H2O}}|{{H2O}}|{{RT|>|1:0:1}}|-|{{RT|>|1:0:1}}|{{H2O}}|{{H2O}}|{{H2O}}|{{RT|>|1:0:1}}|-|{{RT|>|1:0:1}}|{{H2O}}|{{H2O}}|{{H2O}}|{{RT|>|1:0:1}}|-|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|{{H2O}}|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|-|{{000}}|{{RT|║|7:0:1}}|{{H2O}}|{{RT|║|7:0:1}}|{{000}}|-|{{000}}|{{RT|╠|7:0:1}}|{{RT|X|7:7:1}}|{{RT|╣|7:0:1}}|{{000}}|-|{{000}}|{{RT|║|7:0:1}}|{{RT|+|7:0:1}}|{{RT|║|7:0:1}}|{{000}}|-|{{000}}|{{RT|║|7:0:1}}|{{RT|+|7:0:1}}|{{RT|║|7:0:1}}|{{000}}|-|{{000}}|{{RT|║|7:0:1}}|{{RT|+|7:0:1}}|{{RT|║|7:0:1}}|{{000}}|}
 {{clear}}
 The simplest way to achieve controlled flooding is tunneling right up to a riverbed and placing a [[floodgate]] to stop the flow when the water is initially released. Then, pull the lever to let the water enter the chamber under your careful eye. In order to do this safely, it is recommended that you channel into the riverbed from above instead of puncturing it from the tunnel, and then pull the lever that activates the floodgate. Having a [[pressure plate]] somewhere in the room assures a controlled shutoff.
 
 ===Screw Pump and Reservoir/Aquifer===
-{| style="border-spacing:0;"
-|-
-|{{RT|╔|7:0:1}}
-|{{RT|═|7:0:1}}
-|{{RT|╗|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|≈|1:0:0}}
-|{{RT|O|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|%|2:0:1}}
-|{{RT|+|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|%|2:0:0}}
-|{{RT|O|7:0:1}}
-|-
-|{{RT|║|7:0:1}}
-|{{RT|+|7:0:1}}
-|{{RT|║|7:0:1}}
-|}
+{| style="border-spacing:0;"|-|{{RT|╔|7:0:1}}|{{RT|═|7:0:1}}|{{RT|╗|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|≈|1:0:0}}|{{RT|O|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|%|2:0:1}}|{{RT|+|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|%|2:0:0}}|{{RT|O|7:0:1}}|-|{{RT|║|7:0:1}}|{{RT|+|7:0:1}}|{{RT|║|7:0:1}}|}
 When the water in question is one Z-level below the desired level (for more than one level, see [[Screw pump#Pump stack|pump stack]]), particularly in the case of an [[aquifer]], it can be very easy just to set up a dwarf-powered [[screw pump]] near a channel to flood rooms when necessary.
  
 === Pressure Flooding ===
@@ -112,11 +30,6 @@ As long as there is at least one tile below 2/7, both water and magma will slowl
 
 If your flood consisted of water, then any surface that it touched will now be covered in [[mud]]. This could be a benefit if you were attempting [[Irrigation]], an inconvenience if you don't want random plants growing in your muddy hallways, or possibly even a [[Tantrum spiral|dire risk]] if the mud has covered your only [[quality|masterwork]] [[engravings]] (growing [[plant]]s will destroy the engravings, causing severe negative [[thought]]s in your engravers).
 
-{{Translation
-| dwarven = låluth
-| elvish  = wikira
-| goblin  = oda
-| human   = nonu
-}}
+{{Translation| dwarven = låluth| elvish  = wikira| goblin  = oda| human   = nonu}}
 {{Category|Game mechanics}}{{Category|Physics}}
 [[ru:Flood]]

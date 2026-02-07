@@ -1,22 +1,16 @@
 {{Quality|Exceptional}}
-{{Ceramic
-|name=Earthenware
-|sample=EarthenwareSample.png
-|color=6:0:0
-|uses=
+{{Ceramic|name=Earthenware|sample=EarthenwareSample.png|color=6:0:0|uses=
 * [[Statue]]s
 * [[Block|Bricks]]
 * [[Craft]]s
 * [[Hive]]s
 * [[Jug]]s
-* Large [[pot]]s
-|ingredients=* 1 of
+* Large [[pot]]s|ingredients=* 1 of
 ** [[clay]]
 ** [[silty clay]]
 ** [[sandy clay]]
 ** [[clay loam]]
-* 1 [[fuel]]
-|properties=
+* 1 [[fuel]]|properties=
 * [[Material value]] 3
 {{firemagmasafe|yes|no}}
 * [[Melting point]] {{ct|11500}}
@@ -24,8 +18,7 @@
 * [[Ignition point]] none
 * [[Solid density]] 1360
 * Liquid [[density]] 3300
-* [[Specific heat]] 800
-}}{{av}}
+* [[Specific heat]] 800}}{{av}}
 
 '''Earthenware''' is a type of [[ceramic]] made from ordinary [[clay]] (as well as [[silty clay]], [[sandy clay]], or [[clay loam]]). Much like [[green glass]] (and [[clear glass]], to a lesser extent), earthenware items can be produced in unlimited quantities, as long as you have a source of clay in your fortress. They are brown in color and have a material value of 3, equal to that of [[obsidian]].
 

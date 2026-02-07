@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=masked_lovebird_sprite.png
-|portrait=masked_lovebird_portrait.png
-|wiki=Yellow-collared lovebird
-}}
+{{verminlookup/0|image=masked_lovebird_sprite.png|portrait=masked_lovebird_portrait.png|wiki=Yellow-collared lovebird}}
 {{av}}
 {{creaturedesc}}
 

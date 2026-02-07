@@ -1,12 +1,7 @@
 {{Quality|Exceptional}}
-{{V50 machine|name=Lever|key=l
-|icon=[[File:lever_icon.png]]
-|construction=
-* 1 [[Mechanism]]
-|construction_job=
-* [[Mechanic|Mechanics]]
-|power=Uses 0 power.
-}}
+{{V50 machine|name=Lever|key=l|icon=[[File:lever_icon.png]]|construction=
+* 1 [[Mechanism]]|construction_job=
+* [[Mechanic|Mechanics]]|power=Uses 0 power.}}
 {{av}}
 A '''lever''' is a building constructed from one [[mechanism]] on an empty tile. It can be built from the Workshops menu, Machines/fluids, Lever ({{Menu icon|b|m|l|sep=-}}).  Once in place, it can be linked to one or more devices such as [[door]]s, [[bridge]]s or [[support]]s, permitting you to control these other devices remotely. Order the lever to be pulled by clicking on it and selecting the Pull lever button. A dwarf with the [[lever operation]] labor will get assigned the job of pulling the lever. This dwarf might be a long way away, and the delay in pulling the lever can result in [[Fun]]. Like workshops, levers can be assigned to a specific dwarf, which will prevent other dwarves from pulling the lever. Levers also make good furniture choices when constructed with high-quality mechanisms.
 

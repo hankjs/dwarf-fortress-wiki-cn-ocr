@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{soillookup/0
-|graphic=clay_sprite.png}}
+{{soillookup/0|graphic=clay_sprite.png}}
 {{av}}
 
 '''Clay''' is one of the many types of [[soil]] that can be found in [[soil layer]]s. [[Aquifer]]s are never present in clay layers.

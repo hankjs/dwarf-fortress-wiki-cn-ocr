@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=mackerel_sprite.png
-|portrait=mackeral_portrait.png}}
+{{verminlookup/0|image=mackerel_sprite.png|portrait=mackeral_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

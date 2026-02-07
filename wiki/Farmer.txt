@@ -26,8 +26,7 @@ The farming skills are:
 * [[Spinner]]
 * [[Tanner]]
 * [[Thresher]]
-* [[Wood burner]]
-}}
+* [[Wood burner]]}}
 
 ;See also:
 :* [[Farming]]

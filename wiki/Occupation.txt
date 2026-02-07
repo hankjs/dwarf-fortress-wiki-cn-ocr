@@ -10,44 +10,7 @@
 {|class="wikitable" style="border-collapse:collapse;"
 ! Name
 ! Labor or function
-! Location
-|-
-| Doctor 
-| [[Diagnosis]], [[surgery]], and [[setting bones]]. 
-| [[Hospital]]
-|-
-| [[Diagnostician]] 
-| Diagnosis 
-| [[Hospital]]
-|-
-| [[Surgeon]] 
-| Surgery 
-| [[Hospital]]
-|-
-| [[Bone doctor]] 
-| Setting bones 
-| [[Hospital]]
-|-
-| [[Messenger]]
-| Allows you to interact with your [[hillocks]] and conquered sites.
-| None (your [[holding]]s)
-|-
-| [[Performer]]
-| [[dancer|Dance]], recite [[poet]]ry, sing, or play [[music]] to entertain other dwarves.
-| [[Tavern]], [[Temple]]
-|-
-| [[Scholar]]
-| Serve as the great thinkers (aside from you of course) of your fort. 
-| [[Library]]
-|-
-| [[Scribe]]
-| Make copies of [[scroll]]s, [[quire]]s, and [[book]]s.
-| [[Library]]
-|-
-| [[Tavern keeper]]
-| Serve drinks to visitors in [[tavern]] locations.
-| [[Tavern]]
-|}
+! Location|-| Doctor | [[Diagnosis]], [[surgery]], and [[setting bones]]. | [[Hospital]]|-| [[Diagnostician]] | Diagnosis | [[Hospital]]|-| [[Surgeon]] | Surgery | [[Hospital]]|-| [[Bone doctor]] | Setting bones | [[Hospital]]|-| [[Messenger]]| Allows you to interact with your [[hillocks]] and conquered sites.| None (your [[holding]]s)|-| [[Performer]]| [[dancer|Dance]], recite [[poet]]ry, sing, or play [[music]] to entertain other dwarves.| [[Tavern]], [[Temple]]|-| [[Scholar]]| Serve as the great thinkers (aside from you of course) of your fort. | [[Library]]|-| [[Scribe]]| Make copies of [[scroll]]s, [[quire]]s, and [[book]]s.| [[Library]]|-| [[Tavern keeper]]| Serve drinks to visitors in [[tavern]] locations.| [[Tavern]]|}
 
 {{Category|Occupation| }}
 [[ru:Occupation]]

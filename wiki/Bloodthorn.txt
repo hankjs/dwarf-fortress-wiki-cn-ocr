@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=blood_thorn_trunk_sprite.png
-|sapling=Blood_thorn_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=blood_thorn_trunk_sprite.png|sapling=Blood_thorn_sapling.png|wiki=no}}
 {{av}}
 
 '''Blood thorn''' are ghastly-looking [[tree]]s that grow only in the deepest [[cavern]] layers. They are distinguished from their peers by being the [[density|densest]] tree in the game (though [[glumprong]]s come close), being approximately half as dense as most stone, and by their unique crimson color. When [[wood cutter|cut down]], they produce extremely heavy crimson [[wood]] that cannot be found anywhere else, making for heavy but colorful furniture, and slightly less useless wooden [[ballista]] bolts. Curiously, trampled young blood thorn are ''purple'' rather than dark gray, presumably due to the plant having been "bruised" – this is in imitation of the "[[blood]]" in their name.

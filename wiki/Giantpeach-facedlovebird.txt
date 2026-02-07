@@ -1,26 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_peach_faced_lovebird_sprite.png
-|portrait=peach_faced_lovebird_portrait.png
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|gizzard=1
-|feather=1
-|brain=1
-|skull=1
-|skin=hide
-|fat=11
-|meat=17
-|bone=24
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_peach_faced_lovebird_sprite.png|portrait=peach_faced_lovebird_portrait.png|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|gizzard=1|feather=1|brain=1|skull=1|skin=hide|fat=11|meat=17|bone=24|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant peach-faced lovebirds''' will fly around your fortress site, occasionally landing on trees to roost. They can be captured and tamed as a pet or an [[egg]]-laying machine. They have a sizable pet value of 500, like many giant creatures. In a desperate situation (or an unintended one, as your hunter might find it amusing if an expensive bolt got lodged in its head) they can also be used as sources of meat, bones and lard.

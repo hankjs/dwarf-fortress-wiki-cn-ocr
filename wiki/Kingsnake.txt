@@ -1,13 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=kingsnake_sprites.png
-|portrait=kingsnake_portrait_anim.gif
-|meat=1
-|fat=1
-|skull=1
-|skin=scale
-|wiki=Lampropeltis getula
-|contrib=no}}
+{{creaturelookup/0|image=kingsnake_sprites.png|portrait=kingsnake_portrait_anim.gif|meat=1|fat=1|skull=1|skin=scale|wiki=Lampropeltis getula|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

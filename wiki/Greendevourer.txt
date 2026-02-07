@@ -1,17 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=green_devourer_sprites.png
-|portrait=green_devourer_portrait.png
-|meat=13
-|fat=9
-|heart=1
-|intestine=1
-|brain=1
-|skull=1
-|skin=hide
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=green_devourer_sprites.png|portrait=green_devourer_portrait.png|meat=13|fat=9|heart=1|intestine=1|brain=1|skull=1|skin=hide|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Green devourers''' are very rare [[creature]]s who inhabit the second and third layers of the [[cavern]]s. These tentacled monsters, with each tendril ending in a toothy mouth, spawn individually and wander the underground, potentially picking fights with other creatures who provoke them (like passing [[dwarves]]). They are as large as [[human]]s and may deliver some nasty damage to unarmed civilians with their bites, but an armored squad will have very little problem dispatching them.

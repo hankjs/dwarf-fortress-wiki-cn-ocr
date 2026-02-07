@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=flounder_sprite.png
-|portrait=flounder_portrait.png}}
+{{verminlookup/0|image=flounder_sprite.png|portrait=flounder_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,32 +1,12 @@
 {{Quality|Superior}}
 {{av}}
-{{v50_item | name=Flask
-|graphic=[[File:flask_icon.png]] [[File:vial_icon.png]] [[File:waterskin_icon.png]]
-|tile=¡
-|col=3:0:1
-|metal=y
-|leather=y
-|glass=y
-|bars=1
-|used for=
-* Storing [[liquid]]s
-|value=10
-|size=1,000
-|capacity=1,800
-}}
+{{v50_item | name=Flask|graphic=[[File:flask_icon.png]] [[File:vial_icon.png]] [[File:waterskin_icon.png]]|tile=¡|col=3:0:1|metal=y|leather=y|glass=y|bars=1|used for=
+* Storing [[liquid]]s|value=10|size=1,000|capacity=1,800}}
 '''Flasks''' are containers used by dwarves to carry [[alcohol]] or [[water]] while hunting, or on military duty.
 There are three different items which fall under this definition:
 
-{| class="wikitable"
-|-
-! Item !! Graphic !! Material !! Worker !! Workshop
-|-
-| Flask || style="text-align:center;"|[[File:flask_icon.png]] || [[Metal]] || [[Metal crafter]] || [[metalsmith's forge]] or [[magma forge]]
-|-
-| Waterskin || style="text-align:center;"|[[File:waterskin_icon.png]] || [[Leather]] || [[Leatherworker]] || [[Leather works]]
-|-
-| Vial || style="text-align:center;"|[[File:vial_icon.png]] || [[Glass]] || [[Glassmaker]] || [[glass furnace]] or [[magma glass furnace]]
-|}
+{| class="wikitable"|-
+! Item !! Graphic !! Material !! Worker !! Workshop|-| Flask || style="text-align:center;"|[[File:flask_icon.png]] || [[Metal]] || [[Metal crafter]] || [[metalsmith's forge]] or [[magma forge]]|-| Waterskin || style="text-align:center;"|[[File:waterskin_icon.png]] || [[Leather]] || [[Leatherworker]] || [[Leather works]]|-| Vial || style="text-align:center;"|[[File:vial_icon.png]] || [[Glass]] || [[Glassmaker]] || [[glass furnace]] or [[magma glass furnace]]|}
 
 A single job creates three flasks, waterskins or vials.
 

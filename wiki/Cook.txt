@@ -1,30 +1,15 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Cook
-| profession = [[Farmer]]
-| job name   = [[Cooking]]
-| workshop = 
-* [[Kitchen]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Cook| profession = [[Farmer]]| job name   = [[Cooking]]| workshop = 
+* [[Kitchen]]| tasks      =
 * Prepare Easy Meal
 * Prepare Fine Meal
 * Prepare Lavish Meal
-* Render Fat
-| attributes =
+* Render Fat| attributes =
 * Agility
 * Analytical Ability
 * Creativity
-* Kinesthetic Sense
-}}
-{{Translation
-| dwarven = rafar
-| elvish  = othi
-| goblin  = kengku
-| human   = lem
-}}
+* Kinesthetic Sense}}
+{{Translation| dwarven = rafar| elvish  = othi| goblin  = kengku| human   = lem}}
 {{av}}
 
 A '''Cook''' is a dwarf whose highest skill is in cooking. Cooks will prepare meals at the [[kitchen]] workshop using ingredients available in your fortress, and will also render [[fat]] into [[tallow]] at the kitchen, both of which fall under the Cooking labor.

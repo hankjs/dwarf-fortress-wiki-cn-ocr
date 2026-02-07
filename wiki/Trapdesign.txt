@@ -386,8 +386,7 @@ If you're having trouble dealing with building destroyers that don't set off tra
 {{diagram|spaces=yes|\
 ════╝╬╬
 [#F00]~X[#F0F]^  ▲╔═
-══════╝
-}}
+══════╝}}
 
 Put the magma {{Raw Tile|~|#F00|#000}} behind a floodgate {{Raw Tile|X|#FFF|#000}}.  In front of the floodgate, place a pressure plate {{Raw Tile|^|#F0F|#000}} set to go off on magma of 0 to 0.  Link the pressure plate to a retracting bridge {{Raw Tile|╬|#FFF|#000}}{{Raw Tile|╬|#FFF|#000}} that covers the exit ramp {{Raw Tile|▲|#FFF|#000}} to the area.  Although you can't get the creature to set off traps, when it breaks the door, magma will spill over the pressure plate, locking the creature in the hallway that is rapidly filling with magma.  You could combine this with a simple levered hatch for drainage, but there's only one way to be certain: obsidianify it from orbit.
 
@@ -397,8 +396,7 @@ Note that the trap as pictured is too short-- in order to catch a creature, your
 {{diagram|spaces=yes|\
 ═════
 +¢╬ ╬
-═════
-}}
+═════}}
 
 This simple containment trap is designed to trap any number of building destroyers, even trapavoid building destroyers, on a single tile, after which you can do whatever you'd like with them-- bolt 'em, ice 'em, drop 'em, spike 'em, it's all good.  Building destroyers are drawn by a piece of [[legendary artifact|artifact-quality]] furniture, in this case, a hatch cover {{Raw Tile|¢|#FFF|#000}}.  A door {{Raw Tile|+|#FFF|#000}} prevents them from seeing further into your fort and being distracted from the enchanting beauty of your furniture.  When you've captured as many creatures as you'd like on that tile, simple raise both bridges {{Raw Tile|╬|#FFF|#000}}-- first, the far one, then, the one near the artifact-- and you may even remove the artifact, to create a new trap elsewhere.
 

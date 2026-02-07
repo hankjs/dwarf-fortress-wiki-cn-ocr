@@ -9,9 +9,7 @@ __TOC__
 
 ===Search by reaction class===
 This script returns a table of all inorganic materials with a given {{token|REACTION_CLASS|md}}. The ``mat`` table also has ``reaction_product_class``, which includes both {{token|MATERIAL_REACTION_PRODUCT|md}} and {{token|ITEM_REACTION_PRODUCT|md}} IDs.
-{{Scriptdata
-|title=get_all_by_reaction_class()
-|script=
+{{Scriptdata|title=get_all_by_reaction_class()|script=
 function get_all_by_reaction_class(rc)
     local valid={}
     for i,inorg in ipairs(world.inorganic.inorganic) do
@@ -29,9 +27,7 @@ end}}
 ===Identity language===
 This makes a [[Language token|language]] called ``GEN_IDENTITY`` which is like: "Abbey abbeyabbeys the abbey of abbeys" - i.e. it's the "English" language you might see occasionally. It is present in ``vanilla_procedural`` and can be used for {{Token|TRANSLATION|entity}} by default.
 
-{{Scriptdata
-|title=GEN_IDENTITY
-|script=
+{{Scriptdata|title=GEN_IDENTITY|script=
 languages.GEN_IDENTITY=function()
     -- just to demonstrate the absolute most basic method of generating one of these
     -- also so that you can just mod stuff to use GEN_IDENTITY
@@ -53,9 +49,7 @@ end}}
 ===Kobold language===
 This generates a language made of {{token|UTTERANCES}}. This is essentially a proper translation based on the [[kobold language]]. Note that the hardcoded ``utterance()`` function generates words independently of any existing words in the language, so you may get duplicate words. 
 
-{{Scriptdata
-|title=GEN_KOBOLD
-|script=
+{{Scriptdata|title=GEN_KOBOLD|script=
 languages.GEN_KOBOLD=function()
     local tbl={}
     for k,v in ipairs(world.language.word) do
@@ -70,9 +64,7 @@ end}}
 
 Here's an example of an object registered through the ``do_once`` table. There are no random elements, it is equivalent (save for being {{token|GENERATED|mat}}) to an object defined through [[Material definition token]]s and registered through the ``raws.register_inorganics()`` function. It also prints itself to the lualog for debugging purposes.
 
-{{Scriptdata
-|title=Single material
-|script=do_once.cobalt = function()
+{{Scriptdata|title=Single material|script=do_once.cobalt = function()
 	local lines = {}
 	
 	-- basic inorganic definition
@@ -90,14 +82,11 @@ Here's an example of an object registered through the ``do_once`` table. There a
 
 	-- show in lualog
 	print_table(lines)
-end
-}}
+end}}
 <br><br>
 You can register multiple objects at the same time. This script takes a table of color tokens, and makes a metal named after each of them, with a corresponding cheaty adventure reaction.
 
-{{Scriptdata
-|title=Chromatic metals
-|script=do_once.chromatic_metal = function()
+{{Scriptdata|title=Chromatic metals|script=do_once.chromatic_metal = function()
 	local lines = {}
 	local reaction_lines = {}
 	
@@ -144,8 +133,7 @@ You can register multiple objects at the same time. This script takes a table of
 	end
 	raws.register_inorganics(lines)
 	raws.register_reactions(reaction_lines)
-end
-}}
+end}}
 
 ===Random generation===
 
@@ -154,9 +142,7 @@ Here's an example of various DF-specific randomizers in use:
 * ``utterance()`` generates utterances from the [[Kobold language]], e.g. "gorsnus", "stogodilmus", "gaylgis"
 * ``pick_random_no_replace()`` determines the color from the table, but removes the rolled value so there's no repeats.
 
-{{Scriptdata
-|title=Kobold metals
-|script=do_once.kobold_metal = function()
+{{Scriptdata|title=Kobold metals|script=do_once.kobold_metal = function()
 	local lines = {}
 	local reaction_lines = {}
 	
@@ -205,30 +191,24 @@ Here's an example of various DF-specific randomizers in use:
 	end
 	raws.register_inorganics(lines)
 	raws.register_reactions(reaction_lines)
-end		
-}}
+end		}}
 
 ===New divine metals===
 
 Many of the tables used by vanilla procedural objects are global, and thus can be added to or overwritten by mods. You can add new metal descriptions for divine metal pretty easily, for example:
 
-{{Scriptdata
-|title=Laughing metal
-|script=
+{{Scriptdata|title=Laughing metal|script=
 metal_by_sphere.CHILDREN={
     name="laughing metal",
     col="7:0:1",
     color="WHITE"
-}
-}}
+}}}
 <br><br>
 You can also add alternatives to the default divine metal function, such as one based on the aforementioned kobold metals.
 Vanilla divine metal uses ``metal_by_sphere`` to determine its properties, and is thus valid only if the input sphere has an entry in that table.
 Note that even if the weights are nominally the same; because it is valid for all input spheres, it will outnumber instances of the more limited vanilla material.
 
-{{Scriptdata
-|title=Divine kobold metal
-|script=materials.divine.metal.kobold = function(sphere)
+{{Scriptdata|title=Divine kobold metal|script=materials.divine.metal.kobold = function(sphere)
 	if not foo then
 		log(#metal_by_sphere)
 		log(#world.spheres)
@@ -295,8 +275,7 @@ Note that even if the weights are nominally the same; because it is valid for al
 	]])
 	--sends this to get registered
 	return {raws=lines,weight=1}
-end
-}}
+end}}
 
 ===Remove default functions===
 
@@ -314,9 +293,7 @@ This is essentially the simplest possible creature. It has no extraordinary opti
 
 A sample output would be "A quadruped composed of flame. It has two narrow tails and it has a regal bearing."
 
-{{Scriptdata
-|title=do_once.basic_creature
-|script=do_once.basic_creature = function()
+{{Scriptdata|title=do_once.basic_creature|script=do_once.basic_creature = function()
 	local lines = {}
 	local tok="BASIC_PROCEDURAL_CREATURE"
 	lines[#lines+1]="[CREATURE:"..tok.."]"
@@ -350,8 +327,7 @@ A sample output would be "A quadruped composed of flame. It has two narrow tails
 	build_procgen_creature(rcp,lines,options)
 	
 	raws.register_creatures(lines)
-end
-}}
+end}}
 
 ===Making your own rcp===
 
@@ -359,9 +335,7 @@ You don't have to be limited to the vanilla list of random creature variants. Mo
 
 This script generates a single creature based on a [[Wikipedia:Eurypterid|eurypterid]]. It has a unique rcp, set in the function itself.
 
-{{Scriptdata
-|title=do_once.local_rcp
-|script=do_once.local_rcp = function()
+{{Scriptdata|title=do_once.local_rcp|script=do_once.local_rcp = function()
 	local lines = {}
 	local tok="LOCAL_RCP"
 	lines[#lines+1]="[CREATURE:"..tok.."]"
@@ -401,8 +375,7 @@ This script generates a single creature based on a [[Wikipedia:Eurypterid|eurypt
 	build_procgen_creature(rcp,lines,options)
 	
 	raws.register_creatures(lines)
-end
-}}
+end}}
 <br><br>
 Adding a eurypterid profile to ``random_creature_profiles`` allows any creature to access it, if their profile is determined randomly.
 
@@ -410,9 +383,7 @@ This script gives it proper flippers in its body base function. It's also associ
 
 Other feature variants stored in tables, like materials, attacks, or descriptions, can be added in this way.
 
-{{Scriptdata
-|title=Global rcp
-|script=
+{{Scriptdata|title=Global rcp|script=
 random_creature_types.EURYPTERID={
 		name_string="eurypterid",
 		tile='E',
@@ -431,8 +402,7 @@ body_base_fun.SCORPION_FLIPPERS=function(rcp,options)
 		return {"RCP_CEPHALOTHORAX","RCP_ABDOMEN","RCP_FIRST_SIMPLE_LEGS","RCP_SECOND_SIMPLE_LEGS","RCP_THIRD_SIMPLE_LEGS","RCP_PINCERS","RCP_FRONT_FLIPPER"}
 end
 
-water_based_random_creature.EURYPTERID=true
-}}
+water_based_random_creature.EURYPTERID=true}}
 
 ===Werebugs===
 
@@ -444,9 +414,7 @@ These scripts are for an arthropoid version of a [[werebeast]].
 
 Otherwise, the function should work the same as vanilla werebeasts, generating an associated [[Interaction token|major curse]] in the same way and becoming "twisted into humanoid form" (at the expense of their additional limbs).
 
-{{Scriptdata
-|title=arthropod_rcp
-|script=local arthropod_rcp = {
+{{Scriptdata|title=arthropod_rcp|script=local arthropod_rcp = {
 	"ARACHNID_MITE",
 	"ARACHNID_SCORPION",
 	"ARACHNID_SPIDER",
@@ -493,11 +461,8 @@ Otherwise, the function should work the same as vanilla werebeasts, generating a
 	"INSECT_WEEVIL",
 	"NEMATODE",
 	"LEECH",
-}
-}}
-{{Scriptdata
-|title=is_bloodsucking_by_key
-|script=local is_bloodsucking_by_key = {
+}}}
+{{Scriptdata|title=is_bloodsucking_by_key|script=local is_bloodsucking_by_key = {
 	ARACHNID_MITE=true,
 	ARACHNID_TICK=true,
 	INSECT_EARWIG=true,--some are parasitic
@@ -506,11 +471,8 @@ Otherwise, the function should work the same as vanilla werebeasts, generating a
 	INSECT_MAGGOT=true,
 	INSECT_THRIPS=true,--no bloodsucking reported, but does bite humans
 	NEMATODE=true,
-}
-}}
-{{Scriptdata
-|title=creatures.night_creature.werebeast.werebug
-|script=creatures.night_creature.werebeast.werebug=function(tok)
+}}}
+{{Scriptdata|title=creatures.night_creature.werebeast.werebug|script=creatures.night_creature.werebeast.werebug=function(tok)
 	local lines={}
 	local options={
 		spheres={
@@ -627,17 +589,14 @@ Otherwise, the function should work the same as vanilla werebeasts, generating a
 	lines[#lines+1]="[NAME:"..name_str
 	lines[#lines+1]="[CASTE_NAME:"..name_str
 	return {raws=lines,weight=1}
-end
-}}
+end}}
 
 ===New forgotten beasts===
 You can add new types of forgotten beasts (or more appropriately, {{token|FEATURE_BEAST}}s). These generate as alternatives when populating the caverns with unique monsters. There are a number of options to interact with shared generation functions.
 
 Unbidden spirits only appear in dry cave layers, and like "spirit" [[demon]]s, are malevolent floating beings made of gas or dust.
 
-{{Scriptdata
-|title=Unbidden spirit
-|script=
+{{Scriptdata|title=Unbidden spirit|script=
 creatures.fb.unbidden=function(layer_type,tok)
     if layer_type==0 then return nil end -- land only
     local tbl={}
@@ -681,16 +640,13 @@ creatures.fb.unbidden=function(layer_type,tok)
     build_procgen_creature(rcp,tbl,options)
     -- Weight is a float; all vanilla objects have weight 1
     return {creature=tbl,weight=0.5}
-end
-}}
+end}}
 <br><br>
 [[Construct creature|Elementals]] are defined by the material they're made of, using a table of options to set the right properties. In a dry chasm layer, they'll roll on the ``fb_elements`` table, while in a water layer, they'll be a water elemental. Should they ever carry a [[syndrome]], they would inflict [[Wikipedia:Dyscrasia|dyskrasia]].
 
 The most important feature is setting ``options.sphere_rcm`` to a key in ``random_creature_materials``, so fire elementals are made of "FLAME" and earth elementals are made of "ANY_MINERAL".
 
-{{Scriptdata
-|title=Elemental
-|script=
+{{Scriptdata|title=Elemental|script=
 fb_elements = {
 	{
 		name="fire",
@@ -782,27 +738,21 @@ creatures.fb.elemental=function(layer_type,tok)
 	lines[#lines+1]="[CASTE_NAME:"..name_str
 	
 	return {raws=lines,weight=1.5}
-end
-}}
+end}}
 
 ===Tweaking creatures===
 Common Lua features allow you to extend functions by mirroring the original function and then overwriting it, akin to the ``SELECT`` tags. This function extends ``add_regular_tokens()`` to add {{token|GENERAL_MATERIAL_FORCE_MULTIPLIER}} to all generated creatures.
-{{Scriptdata
-|title=add_regular_tokens (extension)
-|script=
+{{Scriptdata|title=add_regular_tokens (extension)|script=
 old_add_regular_tokens=add_regular_tokens
 function add_regular_tokens(lines,options)
     old_add_regular_tokens(lines,options)
     lines[#lines+1]="[GENERAL_MATERIAL_FORCE_MULTIPLIER:1:2]"
-end
-}}
+end}}
 <br><br>
 <!--Consolidate the creature patching stuff in a single header-->
 This function is run in ``build_body_from_rcp()`` right before tweaks are determined (See [[Lua functions#Creature patching]]). If a generated creature's size is greater than 500,000 Γ (about as much as an [[elephant]]), this patch adds {{token|POWER}} and the like to make forgotten beasts, titans, etc capable of impersonating [[Deity|deities]] and ruling [[civilization]]s.
 
-{{Scriptdata
-|title=btc1_tweaks.titan_worship
-|script=
+{{Scriptdata|title=btc1_tweaks.titan_worship|script=
 -- make all large creatures into powers
 btc1_tweaks.titan_worship=function(lines,options,add_to_body,add_to_body_unique,add_tweak_candidate)
 	if options.body_size>=500000 then -- described as "very large", graphics size cutoff
@@ -812,16 +762,13 @@ btc1_tweaks.titan_worship=function(lines,options,add_to_body,add_to_body_unique,
 		lines[#lines+1]="[POWER]" -- impersonates deities
 		lines[#lines+1]="[SPREAD_EVIL_SPHERES_IF_RULER]"
 	end
-end
-}}
+end}}
 
 ===Adamantine alloys===
 
 You can add your own arbitrary generated objects, though as of right now there's no way to make settings for them. This allows for some ''truly'' wild stuff; here's a fun example: adamantine-metal alloys for every single non-special metal, giving you an average of the properties of them.
 
-{{Scriptdata
-|title=Adamantine alloys
-|script=
+{{Scriptdata|title=Adamantine alloys|script=
 preprocess.adamantine_alloys=function()
     if not random_object_parameters.main_world_randoms then return end
     local l=get_debug_logger(2)

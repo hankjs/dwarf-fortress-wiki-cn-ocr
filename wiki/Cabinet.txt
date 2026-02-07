@@ -1,19 +1,8 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_furniture|name=Cabinet
-|graphic=[[File:Cabinet_Premium.png]]
-|tile=π
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|rooms=
+{{V50_furniture|name=Cabinet|graphic=[[File:Cabinet_Premium.png]]|tile=π|wood=y|stonecarve=y|metal=y|bars=3|glass=y|rooms=
 * [[Barracks]]
-* [[Bedroom]]
-|value=10
-|size=30,000
-|capacity=60,000}}
+* [[Bedroom]]|value=10|size=30,000|capacity=60,000}}
 '''Cabinets''' are a type of [[furniture]] used for storing [[clothes]]. They are a common requirement for [[noble]]s and they are also good for increasing the [[Zone#Quality_and_value|value of a room]]. A cabinet can hold close to 20 pieces of clothing. Cabinets do not block movement; dwarves and other creatures are able to walk through tiles with cabinets.
 
 If a dwarf does not own a cabinet in their bedroom, they will leave their clothing on the floor.

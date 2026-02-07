@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_goshenite_sprite.png
-|graphic2=rough_goshenite_sprite.png
-|wiki=Beryl#Goshenite}}
+{{gemlookup/0|graphic=cut_goshenite_sprite.png|graphic2=rough_goshenite_sprite.png|wiki=Beryl#Goshenite}}
 {{av}}
 
 '''Goshenite''' is a semi-precious colorless beryl [[gem]] found in small clusters within layers of [[granite]], [[schist]] and [[marble]].

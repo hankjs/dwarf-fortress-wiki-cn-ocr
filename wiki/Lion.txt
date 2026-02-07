@@ -1,25 +1,5 @@
 {{Quality|Exceptional|21:04, 17 February 2023 (CST)}}
-{{Creaturelookup/0
-|image=lion_sprites_anim.gif
-|portrait=lion_portrait_anim.gif
-|bone=11-17
-|meat=13-14
-|fat=13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|tooth=2
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=lion_sprites_anim.gif|portrait=lion_portrait_anim.gif|bone=11-17|meat=13-14|fat=13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|tooth=2|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -29,12 +9,7 @@ Lions can be captured in [[cage]] [[trap]]s and [[Animal trainer|trained]] into 
 
 Some dwarves [[Preferences|like]] lions for their ''roars''.
 
-{{Translation
-| dwarven = kurel
-| elvish  = alatha
-| goblin  = dostom
-| human   = san
-}}
+{{Translation| dwarven = kurel| elvish  = alatha| goblin  = dostom| human   = san}}
 [[Image:Lion waiting in Namibia.jpg|thumb|center|400px|Admired for its ''roars''.]]
 
 

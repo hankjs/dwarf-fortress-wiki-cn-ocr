@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=goat_sprites.png
-|portrait=goat_portrait_anim.gif
-|contrib=no
-|bone=10
-|horn=2
-|meat=8
-|fat=8
-|skull=1
-|skin=hide
-|hoof=4
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=goat_sprites.png|portrait=goat_portrait_anim.gif|contrib=no|bone=10|horn=2|meat=8|fat=8|skull=1|skin=hide|hoof=4|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -37,12 +16,7 @@ Some dwarves [[Preferences|like]] goats for their ''eating habits''.
 
 Some humans have a strange desire to simulate the feeling of existing as a goat.
 
-{{Translation
-| dwarven = belbez
-| elvish  = efafi
-| goblin  = orang
-| human   = apsong
-}}
+{{Translation| dwarven = belbez| elvish  = efafi| goblin  = orang| human   = apsong}}
 
 {{Gamedata}}
 {{Creatures}}

@@ -1,32 +1,21 @@
 {{Quality|Fine}}
 {{av}}
-{{V50_item
-|graphic=[[File:Liquid_Premium.png]]
-|name=Glob
-|tile=≈
-|materials=<span></span>
+{{V50_item|graphic=[[File:Liquid_Premium.png]]|name=Glob|tile=≈|materials=<span></span>
 * [[Fat]]
 * Plants
 * Seeds
 * [[Honeycomb]]
-* Frozen [[liquids]]
-|workshops=<span></span>
+* Frozen [[liquids]]|workshops=<span></span>
 * [[Kitchen]]
 * [[Quern]]/[[Millstone]]
-* [[Screw press]]
-|labors=<span></span>
+* [[Screw press]]|labors=<span></span>
 * [[Cook]]
 * [[Papermaker]]
 * [[Miller]]
-* [[Presser]]
-|used for=
+* [[Presser]]|used for=
 * [[Cooking]]
 * [[Wax working]]
-* [[Soap making]]
-|value=1
-|size=600
-|dimension=150
-}}
+* [[Soap making]]|value=1|size=600|dimension=150}}
 '''Glob''' is a broad classification in the [[stocks]] menu, used for a variety of amorphous solids. [[quarry bush|Rock nut paste]], [[fat]], [[tallow]] (processed fat), [[slurry]], usable [[wax]], and [[magma]] are all types of glob.
 
 ==Fatty== 

@@ -30,80 +30,33 @@ Additionally, each citizen has the option to be '''specialized'''; shown by the 
 
 Here are all the possibilities: 
 
-{| class="wikitable"
-|+ A dwarf can take a job if ''any'' of the Yes conditions below are satisfied:
-|-
-!  !! Specialized [[File:Labor specialized.png]] !! Unspecialized [[File:Labor unspecialized.png]]
-|-
-| [[File:UI add worker.png]] The dwarf is assigned to the [[workshop]] or [[lever]] giving this job.  || style="background:lightgreen" | Yes  ||  style="background:pink" | No, unless a Yes applies
-|-
-| [[File:UI add worker.png]] The dwarf is assigned to the [[occupation]] giving this job.  || style="background:lightgreen" | Yes  || style="background:lightgreen"| Yes 
-|-
-| The dwarf is '''selected''' under any work detail containing this job set to: 
+{| class="wikitable"|+ A dwarf can take a job if ''any'' of the Yes conditions below are satisfied:|-
+!  !! Specialized [[File:Labor specialized.png]] !! Unspecialized [[File:Labor unspecialized.png]]|-| [[File:UI add worker.png]] The dwarf is assigned to the [[workshop]] or [[lever]] giving this job.  || style="background:lightgreen" | Yes  ||  style="background:pink" | No, unless a Yes applies|-| [[File:UI add worker.png]] The dwarf is assigned to the [[occupation]] giving this job.  || style="background:lightgreen" | Yes  || style="background:lightgreen"| Yes |-| The dwarf is '''selected''' under any work detail containing this job set to: 
 
 [[File:Interface white check.png]] "Everybody does this"  OR 
 
-[[File:Interface green check.png]] "Only selected do this" 
-| style="background:lightgreen" | Yes 
-| style="background:lightgreen" | Yes
-|-
-| No work detail contains this job OR
+[[File:Interface green check.png]] "Only selected do this" | style="background:lightgreen" | Yes | style="background:lightgreen" | Yes|-| No work detail contains this job OR
 
 the dwarf is '''unselected''' under any work detail containing this job set to
-[[File:Interface empty check.png]] "Everybody does this"
-| style="background:pink" |  No, unless a Yes applies
-| style="background:lightgreen" | Yes
-|-
-|}
+[[File:Interface empty check.png]] "Everybody does this"| style="background:pink" |  No, unless a Yes applies| style="background:lightgreen" | Yes|-|}
 
 ====Default work details====
 By default, the work details, and the labors associated with them, are as follows{{cite forum|180804/8438104}}
 
-{| class="wikitable"
-|-
-| Miners†
-||
-* [[Mining]]
-|-
-| Woodcutters†
-||
-* [[Woodcutting]]
-|-
-| Hunters†
-||
-* [[Hunting]]
-|-
-| Planters
-||
-* [[Farming (fields)]]
-|-
-| Fisherdwarves
-||
-* [[Fishing]]
-|-
-| Plant gatherers
-||
-* [[Plant gathering]]
-|-
-| Stonecutters
-||
-* [[Stonecutting]]
-|-
-| Engravers
-||
-* [[Stone engraving]]
-|-
-| Haulers
-||
-* All [[hauling]] labors
-|-
-| Orderlies
-||
+{| class="wikitable"|-| Miners†||
+* [[Mining]]|-| Woodcutters†||
+* [[Woodcutting]]|-| Hunters†||
+* [[Hunting]]|-| Planters||
+* [[Farming (fields)]]|-| Fisherdwarves||
+* [[Fishing]]|-| Plant gatherers||
+* [[Plant gathering]]|-| Stonecutters||
+* [[Stonecutting]]|-| Engravers||
+* [[Stone engraving]]|-| Haulers||
+* All [[hauling]] labors|-| Orderlies||
 * [[Suturing]]
 * [[Dressing wounds]]
 * [[Feed patients/prisoners]]
-* [[Recovering wounded]]
-|}
+* [[Recovering wounded]]|}
 
 † The Mining, Woodcutting, and Hunting labors are only accessible from these default work details.
 
@@ -178,223 +131,12 @@ Certain labors will produce products that have a [[quality]] tag, typically thos
 {{main|Strange mood}}
 A dwarf under a strange mood will perform a specific task to create an [[artifact]] that is outside of the player's control. Until they complete the task, both they and the workshop they claim will be unavailable for any labor. If the dwarf cannot complete the artifact, they will go [[insane]] and be permanently unable to perform any labor.
 
-{{Translation
-| dwarven = èrith
-| elvish  = equa
-| goblin  = akul
-| human   = ebe
-}}
+{{Translation| dwarven = èrith| elvish  = equa| goblin  = akul| human   = ebe}}
 
 ==List of labors==
 <!-- Note these are duplicated on [[Template:V50 labors]] -->
 {| border="1" cellpadding="5" cellspacing="0" class="wikitable"
-! Category !! Labor !! Skill !! Benefits of higher skill
-|-
-| Miner 
-| [[Mining]] 
-| [[Miner]]
-| speed only
-|-
-| rowspan=3 | [[Woodworker]]
-| Carpentry || [[Carpenter]] || speed; item and furniture quality
-|-
-| Crossbow-making
-| [[Bowyer]]
-| speed; weapon quality
-|-
-| Wood cutting
-| [[Wood cutter]]
-| speed only
-|-
-| rowspan=4 | [[Stoneworker]] 
-| Masonry
-| [[Mason]]
-| speed only
-|-
-| Stone carving
-| [[Stone carver]]
-| speed; items and furniture quality
-|-
-| Stonecutting
-| [[Stonecutter]]
-| speed only
-|-
-| [[Stone engraving]]
-| [[Engraver]]
-| speed; engraving quality
-|-
-| rowspan=5 | [[Ranger]]
-| Animal training
-| [[Animal trainer]]
-| speed; training quality
-|-
-| Animal care
-| [[Animal caretaker]]
-| none (not implemented)
-|-
-| Hunting
-| [[Ambusher]]
-| reduced chance of being detected
-|-
-| Trapping
-| [[Trapper]]
-| success rate? trap quality?{{verify}}
-|-
-| Small animal dissection
-| [[Animal dissector]]
-| speed only
-|-
-| rowspan=5 | [[Doctor]]
-| Diagnosis       || [[Diagnostician]] || speed; chance of accurately diagnosing a [[syndrome]]
-|-
-| Surgery         || [[Surgeon]] || speed, amount of bleeding caused, chance of failure
-|-
-| Setting bones   || [[Bone doctor]] ||rowspan=3 | speed only
-|-
-| Suturing        || [[Suturer]]
-|-
-| Dressing wounds || [[Wound dresser]]
-|-
-| rowspan=2 | Other [[Healthcare]] 
-| Feed patients/prisoners
-| rowspan=2 colspan=2 | No associated skill
-|-
-| Recovering wounded
-|-
-| rowspan=20 | [[Farmer]]
-| Butchery         || [[Butcher]]      || speed only
-|-
-| Tanning          || [[Tanner]]       || speed only
-|-
-| Farming (fields) || [[Planter]]      || speed; crop yield (stack size)
-|-
-| Dyeing           || [[Dyer]]         || speed; dye quality
-|-
-| Gelding          || [[Gelder]]       || less likely to be injured
-|-
-| Soap making      || [[Soaper]]       || speed only
-|-
-| Wood burning     || [[Wood burner]]  || speed only
-|-
-| Potash making    || [[Potash maker]] || speed only
-|-
-| Lye making       || [[Lye maker]]    || speed only
-|-
-| Milling          || [[Miller]]       || speed only
-|-
-| Brewing          || [[Brewer]]       || speed only
-|-
-| Plant gathering  || [[Herbalist]]    || speed; success and plant yield (stack size)
-|-
-| Plant processing || [[Thresher]]     || speed only
-|-
-| Cheese making    || [[Cheese maker]] || speed only
-|-
-| Milking          || [[Milker]]       || speed only
-|-
-| Shearing         || [[Shearer]]      || speed only
-|-
-| Spinning         || [[Spinner]]      || speed only
-|-
-| Cooking          || [[Cook]]         || speed; meal and ingredient quality
-|-
-| Pressing         || [[Presser]]      || speed only
-|-
-| Beekeeping       || [[Beekeeper]]    || speed only{{verify}}
-|-
-| rowspan=3 | [[Fishery worker]]
-| Fishing          || [[Fisherdwarf]]  || speed; fish stack size
-|-
-| Fish cleaning    || [[Fish cleaner]] || speed only
-|-
-| Fish dissection  || [[Fish dissector]] || speed only
-|-
-| rowspan=5 | [[Metalsmith]]
-| Furnace operating || [[Furnace operator]] || speed only
-|-
-| Weaponsmithing    || [[Weaponsmith]]      || speed; weapon quality
-|-
-| Armoring          || [[Armorsmith]]       || speed; armor quality
-|-
-| Blacksmithing     || [[Blacksmith]]       || speed; item and furniture quality
-|-
-| Metalcrafting     || [[Metal crafter]]    || speed; craft, item, decoration, designed building quality
-|-
-| rowspan=2 | [[Jeweler]]
-| Gem cutting || [[Gem cutter]] || speed; gem craft quality
-|-
-| Gem setting || [[Gem setter]] || speed; decoration quality
-|-
-| rowspan=13 | [[Craftsdwarf]]
-| Bookbinding || [[Bookbinder]] || ?
-|-
-| Papermaking || [[Papermaker]] || ? 
-|-
-| Leatherworking || [[Leatherworker]] || speed; clothing, decoration, craft quality
-|-
-| Woodcrafting || [[Wood crafter]] || speed; craft quality
-|-
-| Stonecrafting || [[Stone crafter]] || speed; craft quality
-|-
-| Bone carving || [[Bone carver]] || speed; craft, decoration quality
-|-
-| Glassmaking || [[Glassmaker]] || speed; craft, item, furniture quality
-|-
-| Weaving || [[Weaver]] || speed; cloth quality
-|-
-| Clothesmaking || [[Clothier]] || speed; clothing, decoration quality
-|-
-| Strand extraction || [[Strand extractor]] || speed only
-|-
-| Pottery || [[Potter]] || speed; craft, item, furniture quality
-|-
-| Glazing || [[Glazer]] || speed; glaze quality
-|-
-| Wax working || [[Wax worker]] || speed; craft quality
-|-
-| rowspan=4 | [[Engineer]]  
-| Siege engineering || [[Siege engineer]] || speed; part, ammunition quality
-|-
-| Siege operating || [[Siege operator]] || speed; accuracy
-|-
-| Mechanics || [[Mechanic]] || speed; mechanism, furniture quality
-|-
-| Pump operating || [[Pump operator]] || none
-|-
-| rowspan=11 | [[Hauling]]
-| Stone hauling
-| rowspan=11 colspan=2 | No associated skill
-|-
-| Wood hauling
-|-
-| Item hauling
-|-
-| Burial
-|-
-| Food hauling
-|-
-| Refuse hauling
-|-
-| Furniture hauling
-|-
-| Animal hauling
-|-
-| Trade Good Hauling
-|-
-| Water Hauling
-|-
-| Push/Haul Vehicle
-|-
-| rowspan=4 | Other Jobs
-| [[Cleaning]]
-| rowspan=4 colspan=2 | No associated skill
-|-
-| [[Lever operation]]
-|-
-| Road building
-|-
-| Wall/floor construction
-|}
+! Category !! Labor !! Skill !! Benefits of higher skill|-| Miner | [[Mining]] | [[Miner]]| speed only|-| rowspan=3 | [[Woodworker]]| Carpentry || [[Carpenter]] || speed; item and furniture quality|-| Crossbow-making| [[Bowyer]]| speed; weapon quality|-| Wood cutting| [[Wood cutter]]| speed only|-| rowspan=4 | [[Stoneworker]] | Masonry| [[Mason]]| speed only|-| Stone carving| [[Stone carver]]| speed; items and furniture quality|-| Stonecutting| [[Stonecutter]]| speed only|-| [[Stone engraving]]| [[Engraver]]| speed; engraving quality|-| rowspan=5 | [[Ranger]]| Animal training| [[Animal trainer]]| speed; training quality|-| Animal care| [[Animal caretaker]]| none (not implemented)|-| Hunting| [[Ambusher]]| reduced chance of being detected|-| Trapping| [[Trapper]]| success rate? trap quality?{{verify}}|-| Small animal dissection| [[Animal dissector]]| speed only|-| rowspan=5 | [[Doctor]]| Diagnosis       || [[Diagnostician]] || speed; chance of accurately diagnosing a [[syndrome]]|-| Surgery         || [[Surgeon]] || speed, amount of bleeding caused, chance of failure|-| Setting bones   || [[Bone doctor]] ||rowspan=3 | speed only|-| Suturing        || [[Suturer]]|-| Dressing wounds || [[Wound dresser]]|-| rowspan=2 | Other [[Healthcare]] | Feed patients/prisoners| rowspan=2 colspan=2 | No associated skill|-| Recovering wounded|-| rowspan=20 | [[Farmer]]| Butchery         || [[Butcher]]      || speed only|-| Tanning          || [[Tanner]]       || speed only|-| Farming (fields) || [[Planter]]      || speed; crop yield (stack size)|-| Dyeing           || [[Dyer]]         || speed; dye quality|-| Gelding          || [[Gelder]]       || less likely to be injured|-| Soap making      || [[Soaper]]       || speed only|-| Wood burning     || [[Wood burner]]  || speed only|-| Potash making    || [[Potash maker]] || speed only|-| Lye making       || [[Lye maker]]    || speed only|-| Milling          || [[Miller]]       || speed only|-| Brewing          || [[Brewer]]       || speed only|-| Plant gathering  || [[Herbalist]]    || speed; success and plant yield (stack size)|-| Plant processing || [[Thresher]]     || speed only|-| Cheese making    || [[Cheese maker]] || speed only|-| Milking          || [[Milker]]       || speed only|-| Shearing         || [[Shearer]]      || speed only|-| Spinning         || [[Spinner]]      || speed only|-| Cooking          || [[Cook]]         || speed; meal and ingredient quality|-| Pressing         || [[Presser]]      || speed only|-| Beekeeping       || [[Beekeeper]]    || speed only{{verify}}|-| rowspan=3 | [[Fishery worker]]| Fishing          || [[Fisherdwarf]]  || speed; fish stack size|-| Fish cleaning    || [[Fish cleaner]] || speed only|-| Fish dissection  || [[Fish dissector]] || speed only|-| rowspan=5 | [[Metalsmith]]| Furnace operating || [[Furnace operator]] || speed only|-| Weaponsmithing    || [[Weaponsmith]]      || speed; weapon quality|-| Armoring          || [[Armorsmith]]       || speed; armor quality|-| Blacksmithing     || [[Blacksmith]]       || speed; item and furniture quality|-| Metalcrafting     || [[Metal crafter]]    || speed; craft, item, decoration, designed building quality|-| rowspan=2 | [[Jeweler]]| Gem cutting || [[Gem cutter]] || speed; gem craft quality|-| Gem setting || [[Gem setter]] || speed; decoration quality|-| rowspan=13 | [[Craftsdwarf]]| Bookbinding || [[Bookbinder]] || ?|-| Papermaking || [[Papermaker]] || ? |-| Leatherworking || [[Leatherworker]] || speed; clothing, decoration, craft quality|-| Woodcrafting || [[Wood crafter]] || speed; craft quality|-| Stonecrafting || [[Stone crafter]] || speed; craft quality|-| Bone carving || [[Bone carver]] || speed; craft, decoration quality|-| Glassmaking || [[Glassmaker]] || speed; craft, item, furniture quality|-| Weaving || [[Weaver]] || speed; cloth quality|-| Clothesmaking || [[Clothier]] || speed; clothing, decoration quality|-| Strand extraction || [[Strand extractor]] || speed only|-| Pottery || [[Potter]] || speed; craft, item, furniture quality|-| Glazing || [[Glazer]] || speed; glaze quality|-| Wax working || [[Wax worker]] || speed; craft quality|-| rowspan=4 | [[Engineer]]  | Siege engineering || [[Siege engineer]] || speed; part, ammunition quality|-| Siege operating || [[Siege operator]] || speed; accuracy|-| Mechanics || [[Mechanic]] || speed; mechanism, furniture quality|-| Pump operating || [[Pump operator]] || none|-| rowspan=11 | [[Hauling]]| Stone hauling| rowspan=11 colspan=2 | No associated skill|-| Wood hauling|-| Item hauling|-| Burial|-| Food hauling|-| Refuse hauling|-| Furniture hauling|-| Animal hauling|-| Trade Good Hauling|-| Water Hauling|-| Push/Haul Vehicle|-| rowspan=4 | Other Jobs| [[Cleaning]]| rowspan=4 colspan=2 | No associated skill|-| [[Lever operation]]|-| Road building|-| Wall/floor construction|}
 
 Some jobs are not associated with a labor: [[food|eat]]ing, [[thirst|drinking]], [[sleep]]ing, going [[on break]], [[party]]ing, [[clean self|cleaning themselves]], and [[rest]]ing. 
 

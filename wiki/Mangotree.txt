@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{Treelookup/0
-|graphic=coffee_trunk_sprite.png
-|product=mango_sprite.png
-|sapling=mango_sapling.png}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=mango_sprite.png|sapling=mango_sapling.png}}
 {{av}}
 
 '''Mango trees''' are a type of [[above ground]] [[tree]], found only in [[tropical]] [[forest|forests]]. Mango [[wood]] is brown ("burnt sienna" as described in the raws) and produces brown products. 

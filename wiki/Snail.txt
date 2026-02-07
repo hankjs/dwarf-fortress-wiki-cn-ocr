@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=snail_sprite.png
-|portrait=snail_portrait.png}}
+{{verminlookup/0|image=snail_sprite.png|portrait=snail_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -9,12 +7,7 @@
 
 Some dwarves [[Preferences|like]] snails for their ''shells''.
 
-{{Translation
-| dwarven = nasod
-| elvish  = limi
-| goblin  = snuslû
-| human   = copgur
-}}
+{{Translation| dwarven = nasod| elvish  = limi| goblin  = snuslû| human   = copgur}}
 [[File:Helix pomatia 89a.jpg|thumb|center|400px|Admired for their ''shells''.]]
 
 {{gamedata}}

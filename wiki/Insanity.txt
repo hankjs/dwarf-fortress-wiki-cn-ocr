@@ -99,12 +99,7 @@ Recent research suggests that mad necromancers are cured from their madness if k
 
 Dwarves must put a significant amount of research into the phases of the moon and their ability to cause or cure madness.   Tentatively there is a Lunar-Amontillado Combinatory treatment which shows great promise.  This treatment also appears to require no additional use of foodstuffs
 
-{{Translation
-| dwarven = zarut
-| elvish  = ÿaralo
-| goblin  = naslo
-| human   = zulen
-}}
+{{Translation| dwarven = zarut| elvish  = ÿaralo| goblin  = naslo| human   = zulen}}
 
 {{Category|Thoughts}}
 [[ru:Insanity]]

@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_bluejay_sprite.png
-|portrait=bluejay_portrait.png
-|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]
-|bone=24-26
-|meat=19-21
-|skin=hide
-|fat=12-14
-|skull=1
-|brain=1
-|feather=1
-|gizzard=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_bluejay_sprite.png|portrait=bluejay_portrait.png|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]|bone=24-26|meat=19-21|skin=hide|fat=12-14|skull=1|brain=1|feather=1|gizzard=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant bluejays''' are the [[giant animal]] version of [[blue jay]]s, who appear in savage temperate biomes. While each giant bluejay is bigger than a [[grizzly bear]], and they appear in flocks of 5-10 individuals, they pose little threat to your fortress, mostly flying idly over it in the skies. (They are not harmless, however, and can be agitated, with entire flocks of enraged azure birds attacking relentlessly and posing dangers to newly established dwarven colonies.)

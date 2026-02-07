@@ -1,12 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=mud_man_sprite.png
-|portrait=mud_man_portrait.png
-|vary=no
-|contrib=no
-|death=item
-|item=Glob of [[mud]]
-}}
+{{Creaturelookup/0|image=mud_man_sprite.png|portrait=mud_man_portrait.png|vary=no|contrib=no|death=item|item=Glob of [[mud]]}}
 {{av}}
 {{creaturedesc}}
 

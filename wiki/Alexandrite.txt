@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_alexandrite_sprite.png
-|graphic2=rough_alexandrite_sprite.png}}
+{{gemlookup/0|graphic=cut_alexandrite_sprite.png|graphic2=rough_alexandrite_sprite.png}}
 {{av}}
 
 '''Alexandrites''' are semi-precious [[gem]]s found as small [[cluster]]s in [[granite]], [[marble]], and [[schist]].

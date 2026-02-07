@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=ocelot_sprites.png
-|portrait=ocelot_portrait_anim.gif
-|bone=12
-|meat=12
-|skin=hide
-|fat=12
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=ocelot_sprites.png|portrait=ocelot_portrait_anim.gif|bone=12|meat=12|skin=hide|fat=12|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,9 +1,0 @@
-{{Quality|Fine}}
-{{grasslookup/0}}{{av}}
-
-'''地毯草'''是一种常见的草类，生长在大多数干燥的热带地区。它与大多数其他类型的草无法区分。
-
-[[File:Axonopus fissifolius habit (6920114773) (2).jpg|thumb|center|300px|地毯草。]]
-
-{{gamedata}}
-{{Plants}}

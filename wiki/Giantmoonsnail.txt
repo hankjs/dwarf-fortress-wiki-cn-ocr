@@ -1,15 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_moon_snail_sprite.png
-|contrib=no
-|meat=4-5
-|fat=2
-|heart=1
-|intestine=1
-|brain=1
-|shell=2
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_moon_snail_sprite.png|contrib=no|meat=4-5|fat=2|heart=1|intestine=1|brain=1|shell=2|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

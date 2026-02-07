@@ -1,7 +1,5 @@
 {{Quality|Tattered}}
-{{Noble
-| noble= Acolyte
-}}
+{{Noble| noble= Acolyte}}
 {{av}}
 
 '''Acolytes''' are a minor [[noble]] position used by [[elf|elven]] civilizations, appointed by the [[druid]]. Each civilization will only have one of these, and they have no assigned responsibilities. The only thing notable about them is that they rise to the position of [[druid]] in the event the current one suffers from [[war|the usual unfortunate mishaps.]]

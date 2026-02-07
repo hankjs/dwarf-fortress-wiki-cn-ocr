@@ -1,24 +1,14 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:indigo_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Glazer
-| profession = [[Craftsdwarf]]
-| job name   = Glazing
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Glazer| profession = [[Craftsdwarf]]| job name   = Glazing| tasks      =
 * Glaze clay/stone jug
 * Glaze clay/stone statue
 * Glaze large clay/stone pot
-* Glaze clay/stone craft
-| workshop = * Kiln
-* Magma kiln
-| attributes =
+* Glaze clay/stone craft| workshop = * Kiln
+* Magma kiln| attributes =
 * Creativity
 * Agility
 * Kinesthetic Sense
-* Spatial Sense
-}}
+* Spatial Sense}}
 {{av}}
 
 

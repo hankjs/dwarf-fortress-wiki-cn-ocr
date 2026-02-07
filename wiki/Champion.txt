@@ -1,12 +1,8 @@
 {{Quality|Superior}}
-{{Noble
-| noble=Champion
-| function=
-*Builds morale
-| arrival=
+{{Noble| noble=Champion| function=
+*Builds morale| arrival=
 *Appointed on the [[nobles screen]]
-*Requires a [[baron]]
-}}{{av}}
+*Requires a [[baron]]}}{{av}}
 
 A '''champion''' is an appointed [[noble]] position, which becomes available after a fortress becomes a [[baron]]y. They have no [[Zone|room]] requirements. The Champion is akin to a cultural champion, that promotes the values of their [[civilization]], and seeks to encourage the denizens of the fort.
 
@@ -14,12 +10,7 @@ The Champion does not perform menial labors, instead merely standing in meeting 
 
 [[File:champ_dwarf.jpg|thumb|320px|center|''Art by Shabazik'']]
 
-{{Translation
-| dwarven = akur
-| elvish  = atafo
-| goblin  = umal
-| human   = zilar
-}}
+{{Translation| dwarven = akur| elvish  = atafo| goblin  = umal| human   = zilar}}
 
 {{gamedata|	[POSITION:CHAMPION]
 		[NAME:champion:champions]

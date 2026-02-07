@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=louse_sprite.png
-|portrait=louse_portrait.png}}
+{{verminlookup/0|image=louse_sprite.png|portrait=louse_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -9,12 +7,7 @@
 
 Some dwarves [[Preferences|like]] lice for their ''ability to infest''.
 
-{{Translation
-| dwarven = sosmil
-| elvish  = lenipe
-| goblin  = baru
-| human   = slupi
-}}
+{{Translation| dwarven = sosmil| elvish  = lenipe| goblin  = baru| human   = slupi}}
 [[File:Male human head louse.jpg|thumb|center|300px|Admired for its ''ability to infest''.]]
 
 {{gamedata}}

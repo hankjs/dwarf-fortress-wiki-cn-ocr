@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=olivine_sprite.png}}
+{{stonelookup/0|graphic=olivine_sprite.png}}
 {{av}}
 
 '''Olivine''' is one of many low-[[value]] minerals that are [[magma-safe]], and can be used for floodgates and mechanisms used for the controlling of magma. It is also one of the few minerals that may contain veins of [[native platinum]] (the other being [[magnetite]]).

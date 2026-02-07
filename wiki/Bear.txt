@@ -9,12 +9,7 @@
 {{minorspoiler}}
 *{{creature/multi variation list|blind cave bear}}
 
-{{Translation
-| dwarven = uvel
-| elvish  = atha
-| goblin  = ron
-| human   = rorec
-}}
+{{Translation| dwarven = uvel| elvish  = atha| goblin  = ron| human   = rorec}}
 
 {{disambig}}
 [[ru:Bear]]

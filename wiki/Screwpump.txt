@@ -1,15 +1,10 @@
 
 {{Quality|Superior}}
 {{av}}
-{{V50 machine|name=Screw pump|key=p|job=[[Pump operator]]
-|icon=[[File:screw_pump_icon.png]]
-|construction=
+{{V50 machine|name=Screw pump|key=p|job=[[Pump operator]]|icon=[[File:screw_pump_icon.png]]|construction=
 * [[Block]]
 * [[Trap component#Enormous corkscrew|Enormous corkscrew]]
-* [[Pipe section]]
-|construction_job={{Template:Material-specific building labors}}
-|power=Needs 10 power.
-}}
+* [[Pipe section]]|construction_job={{Template:Material-specific building labors}}|power=Needs 10 power.}}
 
 A '''screw pump''' is a small [[building]] that can lift fluids ([[water]] or [[magma]]) up to the same [[Z-level]] as the pump and can be either manually operated by a [[dwarf]] or [[power]]ed by [[machinery]]. Pumping [[Water#Salt water|salt water]] or [[Water#Stagnant water|stagnant water]] can also produce clean water.
 

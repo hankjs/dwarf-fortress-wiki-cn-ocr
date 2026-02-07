@@ -1,14 +1,5 @@
 {{Quality|Exceptional|19:36, 2 March 2023 (CST)}}
-{{Creaturelookup/0
-|image=buzzard_sprites.png
-|portrait=buzzard_portrait.png
-|meat=0-2
-|fat=0-2
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=Turkey_Vulture
-}}
+{{Creaturelookup/0|image=buzzard_sprites.png|portrait=buzzard_portrait.png|meat=0-2|fat=0-2|skull=1|skin=hide|contrib=no|wiki=Turkey_Vulture}}
 {{av}}
 {{creaturedesc}}
 
@@ -24,12 +15,7 @@ Some dwarves like buzzards for their ''striking red face''.
 
 [[File:Urubu_a_tete_rouge_-_Turkey_Vulture.jpg|thumb|400px|center|Admired for its ''striking red face''.]]
 
-{{Translation
-| dwarven = setnek
-| elvish  = acithe
-| goblin  = âng
-| human   = jozi
-}}
+{{Translation| dwarven = setnek| elvish  = acithe| goblin  = âng| human   = jozi}}
 
 {{gamedata}}
 {{Creatures}}

@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = bisól
-| elvish  = ero
-| goblin  = zub
-| human   = bewa
-}}
+{{Translation| dwarven = bisól| elvish  = ero| goblin  = zub| human   = bewa}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of consolation, healing, hospitality, peace, or silence will have words from this symbol in their name.

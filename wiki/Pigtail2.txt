@@ -2,10 +2,7 @@
 {{plantlookup|uses=
 * [[Thread]]
 * [[Alcohol]]
-* [[Slurry]]
-|graphic=pig_tail_shrub_sprite.png
-|seedimage=pig_tail_seeds_sprite.png
-|wiki=no}}
+* [[Slurry]]|graphic=pig_tail_shrub_sprite.png|seedimage=pig_tail_seeds_sprite.png|wiki=no}}
 {{av}}
 {{distinguish|pig|l1=tails of actual pigs}}
 

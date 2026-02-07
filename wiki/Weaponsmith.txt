@@ -1,25 +1,15 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Weaponsmith
-| profession = [[Metalsmith]]
-| job name   = [[Weaponsmithing]]
-| tasks      =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Weaponsmith| profession = [[Metalsmith]]| job name   = [[Weaponsmithing]]| tasks      =
 * Forge [[weapon]]
-* Forge [[trap]] components
-| workshop   = 
+* Forge [[trap]] components| workshop   = 
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-| attributes =
+* [[Magma forge]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Weaponsmith''' is the skill associated with the '''weaponsmithing''' [[labor]]. Weaponsmiths make [[metal]] [[weapon]]s (including [[crossbow]]s), [[trap_component|trap components]], [[pick]]s and [[bolt]]s at a [[metalsmith's forge]]. The skill level of the weaponsmith determines the [[quality]] of the produced weapons, as well as the speed of their production. Weaponsmiths also do well in the other smithing tasks, due to the [[attribute]]s needed to perform these.

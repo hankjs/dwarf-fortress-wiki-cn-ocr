@@ -124,8 +124,7 @@ It's not possible to create areas path-able in one way only (though it was [[40d
 ░ : wall
 + : floor - normal traffic
 H : floor - High traffic
-R : floor - Restricted traffic
-}}
+R : floor - Restricted traffic}}
 If this fragment is set up between a closed cave and outside, dwarves will always choose to pass through it via the left corridor, even if that corridor is farther both from the dwarf's original location and destination. Since A* is "best-first", i.e. strongly prioritizes lower path cost in the immediate vicinity, we may guess that DF calculates path ''from'' the destination to the creature. (This seems more efficient if creatures more often need to path from open space ''into'' a dead-end or maze than vice versa, or the destination is cut off from open space more often than the creature.)
 
 This isn't foolproof (e.g. pets ignore traffic designations and dorfs don't path ''through'' it from end to end when picking up something ''within'' it), or even too useful in itself (you need alternate paths to be very close - enough that the immediate traffic cost matters much more than difference in distance), but it does allow to e.g. make assumptions as to whether a dwarf arrives or leaves for [[pressure plate]] automation purpose, without forcing path retries (and attendant CPU load) inherent in "suddenly closed door"/"suddenly opened hatch" technique (even if you need a strict one-way, these methods can be combined, to make path retry an exception rather than rule).
@@ -143,12 +142,7 @@ If you have a long, 1-tile wide corridor which already has a dwarf moving throug
 
 For this reason, it's best to make high-traffic routes at least 2 tiles wide, and avoid single doors and single stairs. This ensures that when a dwarf tries to find a detour around another dwarf in his way, he will be able to do so easily and without modifying his current path much.
 
-{{Translation
-| dwarven = nimar
-| elvish  = alí
-| goblin  = snust
-| human   = anur
-}}
+{{Translation| dwarven = nimar| elvish  = alí| goblin  = snust| human   = anur}}
 
 {{Category|Game mechanics}}
 [[ru:Path]]

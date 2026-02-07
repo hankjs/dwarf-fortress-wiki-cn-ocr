@@ -1,19 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=black_mamba_sprites.png
-|portrait=black_mamba_portrait_anim.gif
-|contrib=no
-|meat=2
-|fat=2
-|skull=1
-|lungs=0-2
-|liver=0-1
-|tripe=0-1
-|brain=0-1
-|skin=scale
-|intestine=1
-|wiki=yes
-}}
+{{creaturelookup/0|image=black_mamba_sprites.png|portrait=black_mamba_portrait_anim.gif|contrib=no|meat=2|fat=2|skull=1|lungs=0-2|liver=0-1|tripe=0-1|brain=0-1|skin=scale|intestine=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

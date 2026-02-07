@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=lion_tamarin_sprite.png
-|portrait=lion_tamarin_portrait.png}}
+{{verminlookup/0|image=lion_tamarin_sprite.png|portrait=lion_tamarin_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

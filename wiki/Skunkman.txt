@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=skunk_man_sprite.png
-|portrait=skunk_man_portrait.png}}
+{{Creaturelookup/0|image=skunk_man_sprite.png|portrait=skunk_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Skunk men''' are [[animal people]] versions of the common [[skunk]], who can be found in [[savage]] [[temperate]] flatlands and [[forest]]s. They spawn in groups of 1-5 individuals and are generally content to keep to themselves. In terms of size, they are a little over half the weight of the average [[dwarf]].

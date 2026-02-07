@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_melanite_sprite.png
-|graphic2=rough_melanite_sprite.png}}
+{{gemlookup/0|graphic=cut_melanite_sprite.png|graphic2=rough_melanite_sprite.png}}
 {{av}}
 
 '''Melanite''' is a semi-precious [[gem]] that is black. It may be found in small [[cluster]]s in [[marble]].

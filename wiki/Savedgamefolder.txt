@@ -20,13 +20,11 @@ Since these options are also presented when retiring or abandoning a fortress, c
 This option also allows to save without replacing the current save, will ask what to name the save folder, will be classified as a ''Manual save'', and will be grouped together with the existing ''Active save''.
 
 == Save folder format ==
-{| class=wikitable style="float:right; margin:10px;"
-|
+{| class=wikitable style="float:right; margin:10px;"|
 [[File:Folder-orange.svg|20px|link=]] save
 <br>&emsp;[[File:Folder.svg|20px|link=]] current
 <br>&emsp;[[File:Folder.svg|20px|link=]] region#
-<br>&emsp;[[File:Folder.svg|20px|link=]] region#-year-month-day
-|}
+<br>&emsp;[[File:Folder.svg|20px|link=]] region#-year-month-day|}
 
 The location of the <code>save</code> folder depends on the [[Settings#Portable_mode|portable mode setting]], and contains one or more sub-folders, each one holding one of your worlds, and a <code>current</code> folder which is used to track the changes to the active world while ''Dwarf Fortress'' is running; it is not important unless ''Dwarf Fortress'' is open, and can safely be deleted otherwise.
 

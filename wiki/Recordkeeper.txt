@@ -1,20 +1,12 @@
 {{migrated article}}
-{{Quality|Unrated}}{{Skill
-| color      = 5:0
-| skill      = Record keeper
-| specialty  = [[Clerk]]
-| profession = [[Administrator]]
-| job name   = Noble/Admin
-| tasks      =
+{{Quality|Unrated}}{{Skill| color      = 5:0| skill      = Record keeper| specialty  = [[Clerk]]| profession = [[Administrator]]| job name   = Noble/Admin| tasks      =
 * Update Stockpile Records
 * Ponder
 * Discuss
-* Research
-| attributes =
+* Research| attributes =
 * Analytical Ability
 * Memory
-* Focus
-}}
+* Focus}}
 {{av}}
 
 '''Record keeper''' is a skill associated with the [[Bookkeeper]] appointed [[noble]]. It is used to determine how quickly the bookkeeper can take an [[stocks|inventory]] of the fortress and update the records to reflect any changes. It is trained by a bookkeeper doing the '''update stockpile records''' administrative [[labor]]. To do this, the bookkeeper needs at least a meager [[office]], created from a [[Throne|chair or throne]] (Since ''Meager'' is the lowest possible room quality, just a 1×1 room, i.e. just the throne or chair itself, suffices.). For more information on room quality, see [[Zone#Quality and value]].

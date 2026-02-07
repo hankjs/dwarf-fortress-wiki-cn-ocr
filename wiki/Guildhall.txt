@@ -38,28 +38,7 @@ A [[burrow]] can be designed such that any dwarf assigned to it can act as a ful
 [[Profession]] guild halls cover generalized skill sets, though they are listed alongside the other guilds and not marked differently. These are based on the category that the skills are from. For example [[Ranger]] covers [[Ambusher]], [[Animal caretaker]], [[Animal dissector]], [[Animal trainer]], and [[Trapper]].
 
 {| class="wikitable"
-! [[Guildhall]] !! Skills
-|-
-| {{Dwarf|6:1|20px}} [[Woodworker]] || [[Bowyer]], [[Carpenter]], [[Wood cutter]]
-|-
-| {{Dwarf|7:1|20px}} [[Stoneworker]] || [[Mason]], [[Stone carver]], [[Stonecutter]], [[Engraver]]
-|-
-| {{Dwarf|2:0|20px}} [[Ranger]] || [[Ambusher]], [[Animal caretaker]], [[Animal dissector]], [[Animal trainer]], [[Trapper]]
-|-
-| {{Dwarf|5:0|20px}} [[Doctor]] || [[Bone doctor]], [[Diagnostician]], [[Surgeon]], [[Suturer]], [[Wound dresser]]
-|-
-| {{Dwarf|6:0|20px}} [[Farmer]] || [[Beekeeper]], [[Brewer]], [[Butcher]], [[Cheese maker]], [[Cook]], [[Dyer]], [[Gelder]], [[Planter]], [[Herbalist]], [[Lye maker]], [[Milker]], [[Miller]], [[Potash maker]], [[Presser]], [[Shearer]], [[Soaper]], [[Spinner]], [[Tanner]], [[Thresher]], [[Wood burner]]
-|-
-| {{Dwarf|1:0|20px}} [[Fishery Worker]] || [[Fish cleaner]], [[Fish dissector]], [[Fisherdwarf]]
-|-
-| {{Dwarf|0:1|20px}} [[Metalsmith]] || [[Armorsmith]], [[Furnace operator]], [[Metal crafter]], [[Blacksmith]], [[Weaponsmith]]
-|-
-| {{Dwarf|2:1|20px}} [[Jeweler]] || [[Gem cutter]], [[Gem setter]]
-|-
-| {{Dwarf|1:1|20px}} [[Craftsdwarf]] || [[Bone carver]], [[Bookbinder]], [[Clothier]], [[Glassmaker]], [[Glazer]], [[Leatherworker]], [[Papermaker]], [[Potter]], [[Stone crafter]], [[Wax worker]], [[Weaver]], [[Wood crafter]], [[Strand extractor]]
-|-
-| {{Dwarf|4:1|20px}} [[Engineer]] || [[Mechanic]], [[Pump operator]], [[Siege engineer]], [[Siege operator]], [[Student]]*, [[Teacher]]*
-|}
+! [[Guildhall]] !! Skills|-| {{Dwarf|6:1|20px}} [[Woodworker]] || [[Bowyer]], [[Carpenter]], [[Wood cutter]]|-| {{Dwarf|7:1|20px}} [[Stoneworker]] || [[Mason]], [[Stone carver]], [[Stonecutter]], [[Engraver]]|-| {{Dwarf|2:0|20px}} [[Ranger]] || [[Ambusher]], [[Animal caretaker]], [[Animal dissector]], [[Animal trainer]], [[Trapper]]|-| {{Dwarf|5:0|20px}} [[Doctor]] || [[Bone doctor]], [[Diagnostician]], [[Surgeon]], [[Suturer]], [[Wound dresser]]|-| {{Dwarf|6:0|20px}} [[Farmer]] || [[Beekeeper]], [[Brewer]], [[Butcher]], [[Cheese maker]], [[Cook]], [[Dyer]], [[Gelder]], [[Planter]], [[Herbalist]], [[Lye maker]], [[Milker]], [[Miller]], [[Potash maker]], [[Presser]], [[Shearer]], [[Soaper]], [[Spinner]], [[Tanner]], [[Thresher]], [[Wood burner]]|-| {{Dwarf|1:0|20px}} [[Fishery Worker]] || [[Fish cleaner]], [[Fish dissector]], [[Fisherdwarf]]|-| {{Dwarf|0:1|20px}} [[Metalsmith]] || [[Armorsmith]], [[Furnace operator]], [[Metal crafter]], [[Blacksmith]], [[Weaponsmith]]|-| {{Dwarf|2:1|20px}} [[Jeweler]] || [[Gem cutter]], [[Gem setter]]|-| {{Dwarf|1:1|20px}} [[Craftsdwarf]] || [[Bone carver]], [[Bookbinder]], [[Clothier]], [[Glassmaker]], [[Glazer]], [[Leatherworker]], [[Papermaker]], [[Potter]], [[Stone crafter]], [[Wax worker]], [[Weaver]], [[Wood crafter]], [[Strand extractor]]|-| {{Dwarf|4:1|20px}} [[Engineer]] || [[Mechanic]], [[Pump operator]], [[Siege engineer]], [[Siege operator]], [[Student]]*, [[Teacher]]*|}
 
 <nowiki>*:</nowiki> These skills do not have an associated profession.
 

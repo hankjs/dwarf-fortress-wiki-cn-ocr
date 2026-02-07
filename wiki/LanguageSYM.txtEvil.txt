@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = gedor
-| elvish  = tharumi
-| goblin  = ûsbu
-| human   = xubkib
-}}
+{{Translation| dwarven = gedor| elvish  = tharumi| goblin  = ûsbu| human   = xubkib}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as many [[Demon|demons]], associated with the [[Sphere|spheres]] of depravity, jealousy, lies, murder, nightmares, theft, torture, or treachery will have words from this symbol in their name. It is unknown if the [[Creature token#EVIL|EVIL]] token also has this linkage.

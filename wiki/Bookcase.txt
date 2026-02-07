@@ -1,26 +1,7 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_furniture|name=Bookcase
-|tile=≡|col=0:7:0
-|graphic=[[File:Bookcase sprite.png]]
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=2
-|glass=y
-|cloth=n
-|leather=n
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|rooms=
-* [[Library]]
-|value=10
-|size=1,000
-|capacity=100,000
-}}
+{{v50_furniture|name=Bookcase|tile=≡|col=0:7:0|graphic=[[File:Bookcase sprite.png]]|wood=y|stonecarve=y|metal=y|bars=2|glass=y|cloth=n|leather=n|ceramic=n|bone=n|shell=n|gem=n|wax=n|rooms=
+* [[Library]]|value=10|size=1,000|capacity=100,000}}
 
 '''Bookcases''' are [[furniture]] used in [[library|libraries]] to store written [[book]]s. They are built using {{Menu icon|b|f|o|sep=+}}.
 

@@ -2,10 +2,7 @@
 {{plantlookup|uses=
 * [[Alcohol]]
 * [[Flour]]
-* [[Food]]
-|graphic=sweet_pod_shrub_sprite.png
-|seedimage=sweet_pod_seeds_sprite.png
-|wiki=no}}
+* [[Food]]|graphic=sweet_pod_shrub_sprite.png|seedimage=sweet_pod_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''Sweet pods''' are a [[underground|subterranean]] [[crop]] grown in [[spring]] and [[summer]]. Sweet pods can be [[milling|ground]] at a [[millstone]] or [[quern]] into [[dwarven sugar]] or [[plant processing|processed]] at the [[farmer's workshop]] into [[barrel|barrels]] of [[dwarven syrup]]. 

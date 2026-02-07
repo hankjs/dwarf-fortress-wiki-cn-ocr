@@ -17,12 +17,7 @@ During [[world generation]], roads are created connecting [[human]] towns and [[
 {{D for Dwarf}}
 The hypothesis that roads "go ever on and on" has been tested and decisively falsified. Most roads end after running through at most a dozen sites.
 [[File:road_preview.png|thumb|340px|center|"...except the elves. They can take the ''long'' way around."]]
-{{Translation
-| dwarven = tulon
-| elvish  = fatha
-| goblin  = lunzor
-| human   = udal
-}}
+{{Translation| dwarven = tulon| elvish  = fatha| goblin  = lunzor| human   = udal}}
 
 {{buildings}}
 {{World}}

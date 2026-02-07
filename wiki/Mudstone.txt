@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{layerlookup/0
-|graphic=mudstone_sprite.png}}
+{{layerlookup/0|graphic=mudstone_sprite.png}}
 {{av}}
 
 '''Mudstone''' is an unremarkable [[sedimentary]] [[stone]].

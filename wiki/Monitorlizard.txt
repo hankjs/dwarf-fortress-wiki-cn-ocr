@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=monitor_lizard_sprites.png
-|portrait=monitor_lizard_portrait_anim.gif
-|bone=4-12
-|meat=6-13
-|fat=6-13
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=scale
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=monitor_lizard_sprites.png|portrait=monitor_lizard_portrait_anim.gif|bone=4-12|meat=6-13|fat=6-13|skull=1|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=scale|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

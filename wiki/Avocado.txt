@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|wiki=Avocado
-|graphic=avocado_trunk_sprite.png
-|product=avocado_sprite.png
-|sapling=avocado_sapling.png}}
+{{Treelookup/0|wiki=Avocado|graphic=avocado_trunk_sprite.png|product=avocado_sprite.png|sapling=avocado_sapling.png}}
 {{av}}
 
 '''Avocado''' trees are one of the many genera of trees found above ground. Like the vast majority of above ground trees, avocado [[wood]] is brown and produces brown products. Fruits can be eaten raw or cooked and also can be processed in a [[dyer's shop]] into peach [[dye]].

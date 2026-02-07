@@ -1,19 +1,8 @@
 {{Quality|Exceptional}}
 {{av}}
 
-{{v50_furniture
-|name=Statue
-|graphic=[[File:statue_covered_sprite.png|31px]]
-|tile=Ω
-|stonecarve=y
-|metal=y
-|glass=y
-|ceramic=y
-|rooms=
-* [[Sculpture garden]]
-|value=25
-|size=60,000
-}}
+{{v50_furniture|name=Statue|graphic=[[File:statue_covered_sprite.png|31px]]|tile=Ω|stonecarve=y|metal=y|glass=y|ceramic=y|rooms=
+* [[Sculpture garden]]|value=25|size=60,000}}
 '''Statues''' are decorative buildings which can be built from the build furniture menu under statue ({{menu icon|b|f|u}}). They can be created from one [[stone]] at the [[stoneworker's workshop]], 3 [[metal]] at a [[metalsmith's forge]], [[sand]] or [[rock crystal]]s at a [[glass furnace]], or [[clay]] at a [[kiln]]. Graphically, statues will display as a sprite of the statue's subject only if the subject is a sentient race, animal, simple monster, or animal person. The statue will appear as a cube if it is any other type of subject. The color will match that of the material used to craft it.
 
 Statues, like [[engraving]]s, depict people, places, things and events drawn from the game's generated history. Unlike engravings they do not display random geometric shapes, such as diamonds. Statues will often depict creatures that the artisan [[preferences|likes or loathes]], or other dwarves surrounded by the creatures they like or loathe. 

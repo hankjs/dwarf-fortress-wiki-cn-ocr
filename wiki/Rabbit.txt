@@ -1,11 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=rabbit_sprites.png
-|portrait=rabbit_portrait_anim.gif
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=rabbit_sprites.png|portrait=rabbit_portrait_anim.gif|skull=1|contrib=no|wiki=yes}}
 {{av}}
 :''Not to be confused with [[hare]]s.''
 
@@ -17,12 +11,7 @@ They make decent [[pet]]s for dwarves, but rabbits possess low pet value (tied w
 
 Some dwarves [[Preferences|like]] rabbits for their ''ears'' and their ''ability to burrow''.
 
-{{Translation
-| dwarven = lestus
-| elvish  = anale
-| goblin  = badan
-| human   = obler
-}}
+{{Translation| dwarven = lestus| elvish  = anale| goblin  = badan| human   = obler}}
 [[File:Oryctolagus cuniculus Tasmania 2.jpg|thumb|250px|center|Admired for its ''ears''.]]
 
 

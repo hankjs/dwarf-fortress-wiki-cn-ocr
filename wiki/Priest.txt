@@ -11,12 +11,7 @@ If a [[temple]] is in the settlement, there will be a local sect, and a living h
 If one selected the path of a Chosen during character creation, their deity will direct them to their nearest sect's high priest to give the player their quest, referring to them as their "representative".
 
 ==Fortress mode==
-{{Translation
-| dwarven = kamuk
-| elvish  = melela
-| goblin  = xunox
-| human   = upi
-}}
+{{Translation| dwarven = kamuk| elvish  = melela| goblin  = xunox| human   = upi}}
 After more than ten worshipers of a given [[religion|religious organization]] reside in your fort, they may demand the establishment of a [[temple]] to their deity. Once that temple has been erected and its minimum wealth requirements met, you will have the opportunity to appoint a priest from among their members, and a high priest once the temple has met the requirements for a temple complex. Priests are able to console upset followers and give inspiring sermons.
 
 When meeting the requirements of 10 followers and temple value of 2000, priesthood is recognized. You can then select a priest from the members of the organization, who is given a thematic title. When meeting the requirements of 25 followers and temple value of 10000, the high priesthood of the religion is recognized - your current priest will be promoted, and you can select another follower as a priest.

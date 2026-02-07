@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = dastot
-| elvish  = ocade
-| goblin  = oxox
-| human   = thil
-}}
+{{Translation| dwarven = dastot| elvish  = ocade| goblin  = oxox| human   = thil}}
 
 {{av}}'''Sword''' may refer to:
 * [[Short sword]]

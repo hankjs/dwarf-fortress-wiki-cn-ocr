@@ -1,20 +1,14 @@
 
 {{Quality|Fine}}
-{{v50 workshop|name=Fishery|key=f|key2=y|job=[[Fish cleaner|Fish cleaning]]
-|icon=[[File:fishery_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{v50 workshop|name=Fishery|key=f|key2=y|job=[[Fish cleaner|Fish cleaning]]|icon=[[File:fishery_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 * [[Fishing]]
-* [[Fish cleaner|Fish cleaning]]
-|use=
-* Raw [[fish]]
-|production=
+* [[Fish cleaner|Fish cleaning]]|use=
+* Raw [[fish]]|production=
 * [[Meat|Fish meat]]
 * [[Shell|Shells]]
-* [[Captured live fish]]
-}}{{av}}
+* [[Captured live fish]]}}{{av}}
 
 The '''fishery''' [[workshop]] handles the preparation of raw [[fish]]. This process yields prepared fish, [[turtle|turtles]], and [[cave lobster|lobsters]], and will additionally give [[shell|shells]] in the case of turtles, oysters, and other shelled animals. It also allows the capture of live vermin fish using [[animal trap]]s for the purpose of collecting [[extract]]s.
 

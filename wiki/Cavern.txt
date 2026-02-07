@@ -49,182 +49,7 @@ A number of [[vermin]] and [[creature]]s can only be found in subterranean biome
 ===Creatures===
 {| class="wikitable"
 ! Name
-! Level 1 !! Level 2 !! Level 3 !! Level 4
-|-
-| [[File:Amethyst man sprite.png|15px]] / {{Tile|M|5:1}} [[Amethyst man]]
-|   ||   || {{check}} || 
-|-
-| [[File:Amphibian man sprite.png|20px]] / {{Tile|a|6:0}} [[Amphibian man]]<sup>1</sup>
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Antman sprite.png|20px]] / {{Tile|a|0:1}} [[Antman]]<sup>1</sup>
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Bat man sprite.png|20px]] / {{Tile|b|0:1}} [[Bat man]]<sup>1</sup>
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Blind cave bear sprite.png|20px]] / {{Tile|B|7:1}} [[Blind cave bear]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Blind cave ogre sprite.png|20px]] / {{Tile|O|7:1}} [[Blind cave ogre]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Blood man sprite.png|15px]] / {{Tile|M|4:0}} [[Blood man]]
-|   ||   || {{check}} || 
-|-
-| [[File:Bugbat sprite.png|20px]] / {{Tile|b|5:0}} [[Bugbat]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Cave blob sprite.png|20px]] / {{Tile|o|6:1}} [[Cave blob]]
-|   ||   || {{check}} || 
-|-
-| [[File:Cave crocodile sprite.png|20px]] / {{Tile|C|7:0}} [[Cave crocodile]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave dragon sprite anim.gif|20px]] / {{Tile|D|7:1}} [[Cave dragon]]
-|   ||   || {{check}} || 
-|-
-| [[File:Cave fish man sprite.png|20px]] / {{Tile|f|7:1}} [[Cave fish man]]<sup>1</sup>
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave floater sprite.png|20px]] / {{Tile|f|6:1}} [[Cave floater]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Cave swallow man sprite.png|20px]] / {{Tile|s|0:1}} [[Cave swallow man]]<sup>1</sup>
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Creeping eye sprite.png|20px]] / {{Tile|e|7:1}} [[Creeping eye]]
-|   ||   || {{check}} || 
-|-
-| [[File:Crundle sprite.png]] / {{Tile|c|4:0}} [[Crundle]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Draltha sprite.png|20px]] / {{Tile|D|6:1}} [[Draltha]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Drunian sprite.png|20px]] / {{Tile|d|7:0}} [[Drunian]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Elk bird sprite.png|20px]] / {{Tile|E|6:0}} [[Elk bird]]
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Fire imp sprite.png]] / {{Tile|i|6:1}} [[Fire imp]]
-| {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| [[File:Fire man sprite.png|15px]] / {{Tile|M|4:1}} [[Fire man]]
-|   ||   || {{check}} || {{check}}
-|-
-| [[File:Flesh ball sprite.png|20px]] / {{Tile|o|6:0}} [[Flesh ball]]
-|   ||   || {{check}} || 
-|-
-| [[File:Floating guts sprite.png|20px]] / {{Tile|%|7:0}} [[Floating guts]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Beast sprites preview anim.gif|22px]] / {{Tile|?|7:1}} [[Forgotten beast]]<sup>2</sup>
-| {{check}}  || {{check}} || {{check}} || 
-|-
-| [[File:Gabbro man sprite.png]] / {{Tile|M|0:1}} [[Gabbro man]]
-|   ||   || {{check}} || 
-|-
-| [[File:Giant bat sprite.png|20px]] / {{Tile|B|0:1}} [[Giant bat]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant cave spider sprite.png|20px]] / {{Tile|S|7:0}} [[Giant cave spider]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Giant cave swallow sprite.png|20px]] / {{Tile|C|0:1}} [[Giant cave swallow]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant cave toad sprite.png|20px]] / {{Tile|T|7:0}} [[Giant cave toad]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant earthworm sprite.png|20px]] / {{Tile|W|6:0}} [[Giant earthworm]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant mole sprite.png|20px]] / {{Tile|m|6:0}} [[Giant mole]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant olm sprite.png|20px]] / {{Tile|O|7:1}} [[Giant olm]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Giant rat sprite.png|20px]] / {{Tile|R|6:0}} [[Giant rat]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Gorlak sprite.png|20px]] / {{Tile|g|6:1}} [[Gorlak]]
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Green devourer sprite.png|20px]] / {{Tile|G|2:1}} [[Green devourer]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Gremlin sprite.png|20px]] / {{Tile|g|2:1}} [[Gremlin]]
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Helmet snake sprite.png|20px]] / {{Tile|s|7:1}} [[Helmet snake]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Hungry head sprite.png|20px]] / {{Tile|h|0:1}} [[Hungry head]]
-|   ||   || {{check}} || 
-|-
-| [[File:Iron man sprite.png|12px]] / {{Tile|M|0:1}} [[Iron man]]
-|   ||   || {{check}} || 
-|-
-| [[File:Jabberer sprite anim.gif|20px]] / {{Tile|J|5:1}} [[Jabberer]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Large rat sprite.png|20px]] / {{Tile|r|6:0}} [[Large rat]]
-| {{check}} ||   ||   || 
-|-
-| [[File:Magma crab sprite.png|20px]] / {{Tile|C|0:1}} [[Magma crab]]
-|   ||   || {{check}} || {{check}}
-|-
-| [[File:Magma man sprite.png|20px]] / {{Tile|M|4:1}} [[Magma man]]
-|   ||   || {{check}} || {{check}}
-|-
-| [[File:Manera sprite.png|20px]] / {{Tile|m|6:0}} [[Manera]]
-|   || {{check}} ||   || 
-|-
-| [[File:Molemarian sprite.png|20px]] / {{Tile|M|4:1}} [[Molemarian]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Mud man sprite.png|20px]] / {{Tile|M|6:0}} [[Mud man]]
-|   ||   || {{check}} || 
-|-
-| [[File:Naked mole dog sprite.png|20px]] / {{Tile|n|4:1}} [[Naked mole dog]]
-| {{check}} ||   ||   || 
-|-
-| [[File:Olm man sprite.png|20px]] / {{Tile|o|7:1}} [[Olm man]]<sup>1</sup>
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Plump helmet man sprite.png|20px]] / {{Tile|m|5:0}} [[Plump helmet man]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Pond grabber sprite.png|20px]] / {{Tile|p|1:1}} [[Pond grabber]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Reacher sprite.png|20px]] / {{Tile|R|7:0}} [[Reacher]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Reptile man sprite.png|20px]] / {{Tile|r|2:0}} [[Reptile man]]<sup>1</sup>
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Rodent man sprite.png|20px]] / {{Tile|r|0:1}} [[Rodent man]]<sup>1</sup>
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Rutherer sprite.png|20px]] / {{Tile|R|7:0}} [[Rutherer]]
-|   || {{check}} || {{check}} || 
-|-
-| [[File:Serpent man sprite.png|20px]] / {{Tile|s|7:1}} [[Serpent man]]<sup>1</sup>
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Troglodyte sprite.png|12px]] / {{Tile|t|6:0}} [[Troglodyte]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Troll sprite.png|20px]] / {{Tile|T|0:1}} [[Troll]]
-| {{check}} || {{check}} || {{check}} || 
-|-
-| [[File:Voracious cave crawler sprite.png|20px]] / {{Tile|C|1:0}} [[Voracious cave crawler]]
-|   || {{check}} || {{check}} || 
-|}
+! Level 1 !! Level 2 !! Level 3 !! Level 4|-| [[File:Amethyst man sprite.png|15px]] / {{Tile|M|5:1}} [[Amethyst man]]|   ||   || {{check}} || |-| [[File:Amphibian man sprite.png|20px]] / {{Tile|a|6:0}} [[Amphibian man]]<sup>1</sup>| {{check}} || {{check}} || {{check}} || |-| [[File:Antman sprite.png|20px]] / {{Tile|a|0:1}} [[Antman]]<sup>1</sup>| {{check}} || {{check}} || {{check}} || |-| [[File:Bat man sprite.png|20px]] / {{Tile|b|0:1}} [[Bat man]]<sup>1</sup>| {{check}} || {{check}} ||   || |-| [[File:Blind cave bear sprite.png|20px]] / {{Tile|B|7:1}} [[Blind cave bear]]| {{check}} || {{check}} ||   || |-| [[File:Blind cave ogre sprite.png|20px]] / {{Tile|O|7:1}} [[Blind cave ogre]]|   || {{check}} || {{check}} || |-| [[File:Blood man sprite.png|15px]] / {{Tile|M|4:0}} [[Blood man]]|   ||   || {{check}} || |-| [[File:Bugbat sprite.png|20px]] / {{Tile|b|5:0}} [[Bugbat]]|   || {{check}} || {{check}} || |-| [[File:Cave blob sprite.png|20px]] / {{Tile|o|6:1}} [[Cave blob]]|   ||   || {{check}} || |-| [[File:Cave crocodile sprite.png|20px]] / {{Tile|C|7:0}} [[Cave crocodile]]| {{check}} || {{check}} ||   || |-| [[File:Cave dragon sprite anim.gif|20px]] / {{Tile|D|7:1}} [[Cave dragon]]|   ||   || {{check}} || |-| [[File:Cave fish man sprite.png|20px]] / {{Tile|f|7:1}} [[Cave fish man]]<sup>1</sup>| {{check}} || {{check}} ||   || |-| [[File:Cave floater sprite.png|20px]] / {{Tile|f|6:1}} [[Cave floater]]|   || {{check}} || {{check}} || |-| [[File:Cave swallow man sprite.png|20px]] / {{Tile|s|0:1}} [[Cave swallow man]]<sup>1</sup>| {{check}} || {{check}} ||   || |-| [[File:Creeping eye sprite.png|20px]] / {{Tile|e|7:1}} [[Creeping eye]]|   ||   || {{check}} || |-| [[File:Crundle sprite.png]] / {{Tile|c|4:0}} [[Crundle]]|   || {{check}} || {{check}} || |-| [[File:Draltha sprite.png|20px]] / {{Tile|D|6:1}} [[Draltha]]| {{check}} || {{check}} ||   || |-| [[File:Drunian sprite.png|20px]] / {{Tile|d|7:0}} [[Drunian]]| {{check}} || {{check}} ||   || |-| [[File:Elk bird sprite.png|20px]] / {{Tile|E|6:0}} [[Elk bird]]| {{check}} || {{check}} || {{check}} || |-| [[File:Fire imp sprite.png]] / {{Tile|i|6:1}} [[Fire imp]]| {{check}} || {{check}} || {{check}} || {{check}}|-| [[File:Fire man sprite.png|15px]] / {{Tile|M|4:1}} [[Fire man]]|   ||   || {{check}} || {{check}}|-| [[File:Flesh ball sprite.png|20px]] / {{Tile|o|6:0}} [[Flesh ball]]|   ||   || {{check}} || |-| [[File:Floating guts sprite.png|20px]] / {{Tile|%|7:0}} [[Floating guts]]|   || {{check}} || {{check}} || |-| [[File:Beast sprites preview anim.gif|22px]] / {{Tile|?|7:1}} [[Forgotten beast]]<sup>2</sup>| {{check}}  || {{check}} || {{check}} || |-| [[File:Gabbro man sprite.png]] / {{Tile|M|0:1}} [[Gabbro man]]|   ||   || {{check}} || |-| [[File:Giant bat sprite.png|20px]] / {{Tile|B|0:1}} [[Giant bat]]| {{check}} || {{check}} ||   || |-| [[File:Giant cave spider sprite.png|20px]] / {{Tile|S|7:0}} [[Giant cave spider]]|   || {{check}} || {{check}} || |-| [[File:Giant cave swallow sprite.png|20px]] / {{Tile|C|0:1}} [[Giant cave swallow]]| {{check}} || {{check}} ||   || |-| [[File:Giant cave toad sprite.png|20px]] / {{Tile|T|7:0}} [[Giant cave toad]]| {{check}} || {{check}} ||   || |-| [[File:Giant earthworm sprite.png|20px]] / {{Tile|W|6:0}} [[Giant earthworm]]| {{check}} || {{check}} ||   || |-| [[File:Giant mole sprite.png|20px]] / {{Tile|m|6:0}} [[Giant mole]]| {{check}} || {{check}} ||   || |-| [[File:Giant olm sprite.png|20px]] / {{Tile|O|7:1}} [[Giant olm]]| {{check}} || {{check}} ||   || |-| [[File:Giant rat sprite.png|20px]] / {{Tile|R|6:0}} [[Giant rat]]| {{check}} || {{check}} ||   || |-| [[File:Gorlak sprite.png|20px]] / {{Tile|g|6:1}} [[Gorlak]]| {{check}} || {{check}} || {{check}} || |-| [[File:Green devourer sprite.png|20px]] / {{Tile|G|2:1}} [[Green devourer]]|   || {{check}} || {{check}} || |-| [[File:Gremlin sprite.png|20px]] / {{Tile|g|2:1}} [[Gremlin]]| {{check}} || {{check}} || {{check}} || |-| [[File:Helmet snake sprite.png|20px]] / {{Tile|s|7:1}} [[Helmet snake]]| {{check}} || {{check}} ||   || |-| [[File:Hungry head sprite.png|20px]] / {{Tile|h|0:1}} [[Hungry head]]|   ||   || {{check}} || |-| [[File:Iron man sprite.png|12px]] / {{Tile|M|0:1}} [[Iron man]]|   ||   || {{check}} || |-| [[File:Jabberer sprite anim.gif|20px]] / {{Tile|J|5:1}} [[Jabberer]]|   || {{check}} || {{check}} || |-| [[File:Large rat sprite.png|20px]] / {{Tile|r|6:0}} [[Large rat]]| {{check}} ||   ||   || |-| [[File:Magma crab sprite.png|20px]] / {{Tile|C|0:1}} [[Magma crab]]|   ||   || {{check}} || {{check}}|-| [[File:Magma man sprite.png|20px]] / {{Tile|M|4:1}} [[Magma man]]|   ||   || {{check}} || {{check}}|-| [[File:Manera sprite.png|20px]] / {{Tile|m|6:0}} [[Manera]]|   || {{check}} ||   || |-| [[File:Molemarian sprite.png|20px]] / {{Tile|M|4:1}} [[Molemarian]]|   || {{check}} || {{check}} || |-| [[File:Mud man sprite.png|20px]] / {{Tile|M|6:0}} [[Mud man]]|   ||   || {{check}} || |-| [[File:Naked mole dog sprite.png|20px]] / {{Tile|n|4:1}} [[Naked mole dog]]| {{check}} ||   ||   || |-| [[File:Olm man sprite.png|20px]] / {{Tile|o|7:1}} [[Olm man]]<sup>1</sup>| {{check}} || {{check}} ||   || |-| [[File:Plump helmet man sprite.png|20px]] / {{Tile|m|5:0}} [[Plump helmet man]]|   || {{check}} || {{check}} || |-| [[File:Pond grabber sprite.png|20px]] / {{Tile|p|1:1}} [[Pond grabber]]| {{check}} || {{check}} ||   || |-| [[File:Reacher sprite.png|20px]] / {{Tile|R|7:0}} [[Reacher]]|   || {{check}} || {{check}} || |-| [[File:Reptile man sprite.png|20px]] / {{Tile|r|2:0}} [[Reptile man]]<sup>1</sup>| {{check}} || {{check}} || {{check}} || |-| [[File:Rodent man sprite.png|20px]] / {{Tile|r|0:1}} [[Rodent man]]<sup>1</sup>| {{check}} || {{check}} || {{check}} || |-| [[File:Rutherer sprite.png|20px]] / {{Tile|R|7:0}} [[Rutherer]]|   || {{check}} || {{check}} || |-| [[File:Serpent man sprite.png|20px]] / {{Tile|s|7:1}} [[Serpent man]]<sup>1</sup>| {{check}} || {{check}} || {{check}} || |-| [[File:Troglodyte sprite.png|12px]] / {{Tile|t|6:0}} [[Troglodyte]]| {{check}} || {{check}} ||   || |-| [[File:Troll sprite.png|20px]] / {{Tile|T|0:1}} [[Troll]]| {{check}} || {{check}} || {{check}} || |-| [[File:Voracious cave crawler sprite.png|20px]] / {{Tile|C|1:0}} [[Voracious cave crawler]]|   || {{check}} || {{check}} || |}
 
 :<sup>1</sup> [[Animal person#Subterranean animal people|Subterranean animal people]] may occasionally launch [[ambush]]es into a fortress from any of the cavern levels.
 :<sup>2</sup> [[Forgotten beast]]s are a special type of [[invader]] who serve as subterranean [[megabeast]]s.
@@ -232,38 +57,7 @@ A number of [[vermin]] and [[creature]]s can only be found in subterranean biome
 ===Vermin===
 {| class="wikitable"
 ! Name
-! Level 1 !! Level 2 !! Level 3 !! Level 4
-|-
-| [[File:Bat sprite.png|20px]] / {{Tile|∙|0:1}} [[Bat]]
-| {{check}} || {{check}} ||  || 
-|-
-| [[File:Cap hopper sprite.png|20px]] / {{Tile|∙|2:0}} [[Cap hopper]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave fish sprite.png|20px]] / {{Tile|α|7:1}} [[Cave fish]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave lobster sprite.png|20px]] / {{Tile|¥|7:1}} [[Cave lobster]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave spider sprite.png|20px]] / {{Tile|∙|7:0}} [[Cave spider]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Cave swallow sprite.png|20px]] / {{Tile|∙|0:1}} [[Cave swallow]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Creepy crawler sprite.png|20px]] / {{Tile|*|6:0}} [[Creepy crawler]]
-|   ||   || {{check}} || 
-|-
-| [[File:Fire snake sprite.png|20px]] / {{Tile|∙|6:1}} [[Fire snake]]
-|   || {{check}} || {{check}} || {{check}}
-|-
-| [[File:Olm sprite.png|20px]] / {{Tile|∙|7:1}} [[Olm]]
-| {{check}} || {{check}} ||   || 
-|-
-| [[File:Purring maggot sprite.png|20px]] / {{Tile|{|7:1}} [[Purring maggot]]
-|   || {{check}} || {{check}} || 
-|}
+! Level 1 !! Level 2 !! Level 3 !! Level 4|-| [[File:Bat sprite.png|20px]] / {{Tile|∙|0:1}} [[Bat]]| {{check}} || {{check}} ||  || |-| [[File:Cap hopper sprite.png|20px]] / {{Tile|∙|2:0}} [[Cap hopper]]| {{check}} || {{check}} ||   || |-| [[File:Cave fish sprite.png|20px]] / {{Tile|α|7:1}} [[Cave fish]]| {{check}} || {{check}} ||   || |-| [[File:Cave lobster sprite.png|20px]] / {{Tile|¥|7:1}} [[Cave lobster]]| {{check}} || {{check}} ||   || |-| [[File:Cave spider sprite.png|20px]] / {{Tile|∙|7:0}} [[Cave spider]]| {{check}} || {{check}} ||   || |-| [[File:Cave swallow sprite.png|20px]] / {{Tile|∙|0:1}} [[Cave swallow]]| {{check}} || {{check}} ||   || |-| [[File:Creepy crawler sprite.png|20px]] / {{Tile|*|6:0}} [[Creepy crawler]]|   ||   || {{check}} || |-| [[File:Fire snake sprite.png|20px]] / {{Tile|∙|6:1}} [[Fire snake]]|   || {{check}} || {{check}} || {{check}}|-| [[File:Olm sprite.png|20px]] / {{Tile|∙|7:1}} [[Olm]]| {{check}} || {{check}} ||   || |-| [[File:Purring maggot sprite.png|20px]] / {{Tile|{|7:1}} [[Purring maggot]]|   || {{check}} || {{check}} || |}
 
 ==Vegetation==
 [[File:Cavern krugg.jpg|thumb|Rendering of cavern Vegetation]]
@@ -275,72 +69,17 @@ Removing a layer will cause the layer above to randomly pick from trees that the
 ===Shrubs===
 {| class="wikitable"
 ! Name
-! Level 1 !! Level 2 !! Level 3
-|-
-| [[File:Cave wheat shrub sprite.png|20px]] / {{Tile|:|7:1}} [[Cave wheat]]
-| {{check}} || {{check}} || {{check}}
-|-
-| [[File:Dimple cup shrub sprite.png|20px]] / {{Tile|:|1:1}} [[Dimple cup]]
-| {{check}} || {{check}} || {{check}}
-|-
-| [[File:Pig tail shrub sprite.png|20px]] / {{Tile|:|7:0}} [[Pig tail]]
-| {{check}} || {{check}} || {{check}}
-|-
-| [[File:Plump helmet shrub sprite.png|20px]] / {{Tile|:|5:0}} [[Plump helmet]]
-| {{check}} || {{check}} || {{check}}
-|-
-| [[File:Quarry bush shrub sprite.png|20px]] / {{Tile|:|7:0}} [[Quarry bush]]
-| {{check}} || {{check}} || {{check}}
-|-
-| [[File:Sweet pod shrub sprite.png|20px]] / {{Tile|:|4:1}} [[Sweet pod]]
-| {{check}} || {{check}} || {{check}}
-|}
+! Level 1 !! Level 2 !! Level 3|-| [[File:Cave wheat shrub sprite.png|20px]] / {{Tile|:|7:1}} [[Cave wheat]]| {{check}} || {{check}} || {{check}}|-| [[File:Dimple cup shrub sprite.png|20px]] / {{Tile|:|1:1}} [[Dimple cup]]| {{check}} || {{check}} || {{check}}|-| [[File:Pig tail shrub sprite.png|20px]] / {{Tile|:|7:0}} [[Pig tail]]| {{check}} || {{check}} || {{check}}|-| [[File:Plump helmet shrub sprite.png|20px]] / {{Tile|:|5:0}} [[Plump helmet]]| {{check}} || {{check}} || {{check}}|-| [[File:Quarry bush shrub sprite.png|20px]] / {{Tile|:|7:0}} [[Quarry bush]]| {{check}} || {{check}} || {{check}}|-| [[File:Sweet pod shrub sprite.png|20px]] / {{Tile|:|4:1}} [[Sweet pod]]| {{check}} || {{check}} || {{check}}|}
 
 ===Trees===
 {| class="wikitable"
 ! Name
-! Level 1 !! Level 2 !! Level 3
-|-
-| [[File:Black-cap trunk sprite.png|20px]] / {{Tile|♠|0:1}} [[Black-cap]]
-|   || {{check}} || {{check}}
-|-
-| [[File:Blood thorn trunk sprite.png|20px]] / {{Tile|╡|4:0}} [[Blood thorn]]
-|   ||   || {{check}}
-|-
-| [[File:Fungiwood trunk sprite.png|20px]] / {{Tile|♣|6:1}} [[Fungiwood]]
-| {{check}} || {{check}} || 
-|-
-| [[File:Goblin-cap trunk sprite.png|20px]] / {{Tile|♠|4:1}} [[Goblin-cap]]
-|   || {{check}} || {{check}}
-|-
-| [[File:Nether-cap trunk sprite.png|20px]] / {{Tile|♠|1:0}} [[Nether-cap]]
-|   ||   || {{check}}
-|-
-| [[File:Spore tree trunk sprite.png|20px]] / {{Tile|♣|3:0}} [[Spore tree]]
-|   || {{check}} || {{check}}
-|-
-| [[File:Tower-cap trunk sprite.png|20px]] / {{Tile|♠|7:1}} [[Tower-cap]]
-| {{check}} || {{check}} || 
-|-
-| [[File:Tunnel tube trunk sprite.png|20px]] / {{Tile|│|5:1}} [[Tunnel tube]]
-|   || {{check}} || {{check}}
-|-
-|}
+! Level 1 !! Level 2 !! Level 3|-| [[File:Black-cap trunk sprite.png|20px]] / {{Tile|♠|0:1}} [[Black-cap]]|   || {{check}} || {{check}}|-| [[File:Blood thorn trunk sprite.png|20px]] / {{Tile|╡|4:0}} [[Blood thorn]]|   ||   || {{check}}|-| [[File:Fungiwood trunk sprite.png|20px]] / {{Tile|♣|6:1}} [[Fungiwood]]| {{check}} || {{check}} || |-| [[File:Goblin-cap trunk sprite.png|20px]] / {{Tile|♠|4:1}} [[Goblin-cap]]|   || {{check}} || {{check}}|-| [[File:Nether-cap trunk sprite.png|20px]] / {{Tile|♠|1:0}} [[Nether-cap]]|   ||   || {{check}}|-| [[File:Spore tree trunk sprite.png|20px]] / {{Tile|♣|3:0}} [[Spore tree]]|   || {{check}} || {{check}}|-| [[File:Tower-cap trunk sprite.png|20px]] / {{Tile|♠|7:1}} [[Tower-cap]]| {{check}} || {{check}} || |-| [[File:Tunnel tube trunk sprite.png|20px]] / {{Tile|│|5:1}} [[Tunnel tube]]|   || {{check}} || {{check}}|-|}
 
 ===Grasses===
 {| class="wikitable"
 ! Name
-! Level 1 !! Level 2 !! Level 3
-|-
-| {{Tile|.|7:1}} [[Floor fungus]]
-| {{check}} ||  || 
-|-
-| {{Tile|.|3:1}} [[Cave moss]]
-|  || {{check}} || 
-|-
-| {{Tile|.|5:1}} [[Underlichen]]
-|  ||  || {{check}}
-|}
+! Level 1 !! Level 2 !! Level 3|-| {{Tile|.|7:1}} [[Floor fungus]]| {{check}} ||  || |-| {{Tile|.|3:1}} [[Cave moss]]|  || {{check}} || |-| {{Tile|.|5:1}} [[Underlichen]]|  ||  || {{check}}|}
 
 ==Dangers==
 Though digging down can be tempting, coupled with the fact that caverns can provide some helpful resources, there are many, many <s>dangerous</s> [[fun]] [[animal]]s in a cavern. This includes [[giant cave spider]]s, [[giant olm]]s, [[troll]]s and [[cave crocodile]]s, but even the seemingly [[gremlin|harmless ones]] can provide great [[Stupid_dwarf_trick#Self_Destruct_Lever|fun]].

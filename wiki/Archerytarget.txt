@@ -1,11 +1,7 @@
 {{Quality|Exceptional}}
-{{Building|name=Archery target|key=y|key2=t
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job={{Template:Material-specific building labors}}
-|purpose=
-* Make Archery range
-}}{{av}}
+{{Building|name=Archery target|key=y|key2=t|construction=
+* [[Building material]] (non-[[economic]])|construction_job={{Template:Material-specific building labors}}|purpose=
+* Make Archery range}}{{av}}
 
 An '''archery target''' is a [[building]] which is used to to train your [[marksdwarves]]. Archery targets can be built from [[wood]], which requires [[carpentry]]; [[stone]] or [[glass]], which requires [[masonry]]; or [[metal]], which requires [[metalcrafting]]. They can also be built from [[block]]s made from the above materials.
 

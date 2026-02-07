@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=monarch_butterfly_sprite.png
-|portrait=monarch_butterfly_portrait.png}}
+{{verminlookup/0|image=monarch_butterfly_sprite.png|portrait=monarch_butterfly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

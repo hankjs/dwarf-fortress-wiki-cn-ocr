@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=periclase_sprite.png}}
+{{stonelookup/0|graphic=periclase_sprite.png}}
 {{av}}
 
 '''Periclase''' is a [[magma-safe]] white stone which occurs in small quantities within [[marble]].

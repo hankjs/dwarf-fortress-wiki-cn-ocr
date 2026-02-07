@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=sun_berry_shrub_sprite.png
-|seedimage=sun_berry_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=sun_berry_shrub_sprite.png|seedimage=sun_berry_seeds_sprite.png|uses=
 * [[Food]]
 * [[Alcohol]]|wiki=no}}
 {{av}}

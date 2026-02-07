@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=chickpea_shrub_sprite.png
-|seedimage=chickpea_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=chickpea_shrub_sprite.png|seedimage=chickpea_seeds_sprite.png|uses=
 * [[Food]]|wiki=Chickpea}}
 {{av}}
 

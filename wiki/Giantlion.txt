@@ -1,23 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_lion_sprite_anim.gif
-|wiki=no
-|contrib=no
-|bone=21
-|meat=20
-|fat=17
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|eye=2
-|skull=1
-|tooth=2}}
+{{Creaturelookup/0|image=giant_lion_sprite_anim.gif|wiki=no|contrib=no|bone=21|meat=20|fat=17|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|eye=2|skull=1|tooth=2}}
 {{av}}
 {{creaturedesc}}
 '''Giant lions''' are strong, carnivorous animals found in savage tropical areas. They often appear in small hunting groups of 2-3 animals. Giant lions are much larger than many other "giant" creatures, growing to more than 8 times the size of a regular [[lion]], or slightly more than 1/3 the size of an [[elephant]]. Occasionally, giant lions may appear as [[mount]]s during a [[siege]]. Their chief advantage over the larger [[giant tiger]] and [[giant polar bear]] is their much greater [[gait|speed]].

@@ -1,25 +1,17 @@
 {{Quality|Exceptional}}
-{{Alloy|name=Bronze
-|sample=
-[[File:BronzeSample.png|center|frameless]]
-|graphic=bronze_bar_sprite.png
-|color=6:4:0
-|color1=7:3:0
-|color2=6:4:0
-|uses=
+{{Alloy|name=Bronze|sample=
+[[File:BronzeSample.png|center|frameless]]|graphic=bronze_bar_sprite.png|color=6:4:0|color1=7:3:0|color2=6:4:0|uses=
 * [[weapon|Melee Weapons]]
 * [[Crossbow]]s
 * [[Bolt]]s
 * [[Pick]]s
 * [[Armor]]
-* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 1 [[tin]] [[bar]]
 * 1 [[copper]] [[bar]]
 - or -
 * 1 [[cassiterite]]
-* 1 [[copper]] [[ore]]
-|properties=
+* 1 [[copper]] [[ore]]|properties=
 * [[Material value]] 5☼
 * [[Material science|Impact strength]] 843.5 MPa
 * [[Material science|Shear strength]] 241 MPa
@@ -30,8 +22,7 @@
 * [[Solid density]] 8250 kg/m³
 * Liquid [[density]] 8020 kg/m³
 * [[Specific heat]] 435 J/kg·K
-* [[Color]] bronze
-}}{{av}}
+* [[Color]] bronze}}{{av}}
 
 '''Bronze''' is an [[alloy]] of [[tin]] and [[copper]], which can be used to create all metallic items in the game.
 
@@ -52,12 +43,7 @@ As mentioned before, bronze has material properties that are very similar to tho
 
 The properties of [[bismuth bronze]] are identical in every way to standard bronze, the only differences are that items made from bismuth bronze are 20% more [[value|valuable]] (×6 vs. ×5), and the [[color]] of bismuth bronze items in-game is yellow rather than brown.
 
-{{Translation
-| dwarven = kilrud
-| elvish  = dagi
-| goblin  = susäl
-| human   = zobsha
-}}
+{{Translation| dwarven = kilrud| elvish  = dagi| goblin  = susäl| human   = zobsha}}
 
 [[File:AMGR - Helm Sehlsdorf.jpg|thumb|center|230px|Bronze helm.]]
 

@@ -1,7 +1,5 @@
 {{Quality|Superior|08:14, 15 March 2023 (CST)}}
-{{Creaturelookup/0
-|image=grasshopper_man_sprite.png
-|portrait=grasshopper_man_portrait.png}}
+{{Creaturelookup/0|image=grasshopper_man_sprite.png|portrait=grasshopper_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

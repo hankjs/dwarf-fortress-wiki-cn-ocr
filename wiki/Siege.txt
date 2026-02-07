@@ -1,11 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
 [[File:df_goblin_siege.png|thumb|220px|right|Brutal battle during a small siege.]]
-{{Translation
-| dwarven = zokun
-| elvish  = thima
-| goblin  = etosp
-| human   = rislu}}
+{{Translation| dwarven = zokun| elvish  = thima| goblin  = etosp| human   = rislu}}
 :''For catapults and ballistae, see [[Siege engine]].''
 '''Sieges''' are large-scale assaults on your fortress by other [[civilization]]s, and a step beyond [[ambush]]es. Sieges are drawn from moving units advancing towards the fortress, whether from an army, a bandit group, or a necromancer's [[Tower (necromancy)|tower]]. They are announced with a full-screen message that differs depending on the attacking race, and the main screen showing the {{DFtext|SIEGE|6:4:1}} tag at the top for the duration of the siege. In the premium version, it looks like this:<br>
 [[File:siege_icon.png]]<br>
@@ -36,110 +32,30 @@ On normal difficulty, the intensity of enemy attacks directly corresponds to you
 
 By default, a max of 120 soldiers and 40 monsters can attack your fortress during a siege.
 
-{| style="margin: 1em auto; border-spacing: 0;"
-|- style="vertical-align: top; padding: 0 1em"
-|
-{| class=wikitable
-|+ Normal enemies
+{| style="margin: 1em auto; border-spacing: 0;"|- style="vertical-align: top; padding: 0 1em"|
+{| class=wikitable|+ Normal enemies
 ! colspan='2' | Fortress Title
 ! Pop
 ! Created Wealth
 ! Exported Wealth
 ! Invaders
-
-|- style='background-color:#eee'
-| style='background-color:#000; padding:2px 6px' | {{Raw Tile|Ω|#555|#000}}
-| '''Outpost'''
-| style='text-align:right' | -
-| -
-| -
-| None
-
-|- style='background-color:#ddd'
-| style='background-color:#000;' | {{Raw Tile|Ω|#777|#000}}
-| '''Hamlet'''
-| style='text-align:right' | 20
-| 5,000☼
-| 500☼
-| Ambush only
-
-|- style='background-color:#eee'
-| style='background-color:#000;' | {{Raw Tile|Ω|#999|#000}}
-| '''Village'''
-| style='text-align:right' | 50
-| 25,000☼
-| 2,500☼
-| " "
-
-|- style='background-color:#ddd'
-| style='background-color:#000;' | {{Raw Tile|Ω|#bbb|#000}}
-| '''Town'''
-| style='text-align:right' | 80
-| 100,000☼
-| 10,000☼
-| Sieges (10 regulars)
-
-|- style='background-color:#eee'
-| style='background-color:#000;' | {{Raw Tile|Ω|#ddd|#000}}
-| '''City'''
-| style='text-align:right' | 110
-| 200,000☼
-| 20,000☼
-| Sieges (40 regulars, 5 monsters)
-
-|- style='background-color:#ddd'
-| style='background-color:#000;| {{Raw Tile|Ω|#fff|#000}}
-| '''Metropolis'''
-| style='text-align:right' | 140
-| 300,000☼
-| 30,000☼
-| Sieges (120 regulars, 40 monsters)
-|}
-|
-{| class=wikitable
-|+ Hard enemies
+|- style='background-color:#eee'| style='background-color:#000; padding:2px 6px' | {{Raw Tile|Ω|#555|#000}}| '''Outpost'''| style='text-align:right' | -| -| -| None
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#777|#000}}| '''Hamlet'''| style='text-align:right' | 20| 5,000☼| 500☼| Ambush only
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#999|#000}}| '''Village'''| style='text-align:right' | 50| 25,000☼| 2,500☼| " "
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#bbb|#000}}| '''Town'''| style='text-align:right' | 80| 100,000☼| 10,000☼| Sieges (10 regulars)
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#ddd|#000}}| '''City'''| style='text-align:right' | 110| 200,000☼| 20,000☼| Sieges (40 regulars, 5 monsters)
+|- style='background-color:#ddd'| style='background-color:#000;| {{Raw Tile|Ω|#fff|#000}}| '''Metropolis'''| style='text-align:right' | 140| 300,000☼| 30,000☼| Sieges (120 regulars, 40 monsters)|}|
+{| class=wikitable|+ Hard enemies
 ! Pop
 ! Created Wealth
 ! Exported Wealth
 ! Invaders
-
-|- style='background-color:#eee'
-| style='text-align:right' | -
-| -
-| -
-| None
-
-|- style='background-color:#ddd'
-| style='text-align:right' | 15
-| 2,500☼
-| 250☼
-| Ambush only
-
-|- style='background-color:#eee'
-| style='text-align:right' | 30
-| 12,500☼
-| 1,250☼
-| " "
-
-|- style='background-color:#ddd'
-| style='text-align:right' | 40
-| 50,000☼
-| 5,000☼
-| Sieges (20 regulars, 1 monster)
-
-|- style='background-color:#eee'
-| style='text-align:right' | 55
-| 100,000☼
-| 10,000☼
-| Sieges (60 regulars, 10 monsters)
-
-|- style='background-color:#ddd'
-| style='text-align:right' | 70
-| 150,000☼
-| 15,000☼
-| Sieges (120 regulars, 40 monsters)
-|}
-|}
+|- style='background-color:#eee'| style='text-align:right' | -| -| -| None
+|- style='background-color:#ddd'| style='text-align:right' | 15| 2,500☼| 250☼| Ambush only
+|- style='background-color:#eee'| style='text-align:right' | 30| 12,500☼| 1,250☼| " "
+|- style='background-color:#ddd'| style='text-align:right' | 40| 50,000☼| 5,000☼| Sieges (20 regulars, 1 monster)
+|- style='background-color:#eee'| style='text-align:right' | 55| 100,000☼| 10,000☼| Sieges (60 regulars, 10 monsters)
+|- style='background-color:#ddd'| style='text-align:right' | 70| 150,000☼| 15,000☼| Sieges (120 regulars, 40 monsters)|}|}
 
 == [[Goblin]] sieges ==
 [[File:The last stand by ncorva.jpg|thumb|250px|We hear the drums, they are coming...<br><small>''Art by ncorva''</small>]]

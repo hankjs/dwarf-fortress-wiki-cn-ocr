@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=squid_sprite.png
-|portrait=squid_portrait.png}}
+{{verminlookup/0|image=squid_sprite.png|portrait=squid_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -9,12 +7,7 @@
 
 Some [[dwarves]] [[Preferences|like]] squids for their ''ability to spray ink''.
 
-{{Translation
-| dwarven = gongith
-| elvish  = nethitha
-| goblin  = ozstag
-| human   = galel
-}}
+{{Translation| dwarven = gongith| elvish  = nethitha| goblin  = ozstag| human   = galel}}
 
 [[File:Dosidicus gigas.jpg|thumb|center|300px|Admired for its ''ability to spray ink''.]]
 

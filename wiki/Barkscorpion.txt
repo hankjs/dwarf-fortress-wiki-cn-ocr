@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=bark_scorpion_sprite.png
-|portrait=bark_scorpion_portrait.png}}
+{{verminlookup/0|image=bark_scorpion_sprite.png|portrait=bark_scorpion_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

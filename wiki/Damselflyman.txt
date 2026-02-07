@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=damselfly_man_sprite.png
-|portrait=damselfly_man_portrait.png}}
+{{Creaturelookup/0|image=damselfly_man_sprite.png|portrait=damselfly_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

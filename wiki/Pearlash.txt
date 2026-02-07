@@ -6,8 +6,7 @@
 {{infoheader|Uses}}
 {{infocell|
 * Make [[clear glass]]
-* Make [[crystal glass]]
-}}
+* Make [[crystal glass]]}}
 {{infoheader|Properties}}
 {{infocell|
 * [[Material value]] 4
@@ -16,8 +15,7 @@
 * [[Boiling point]] None
 * [[Ignition point]] None
 * [[Solid density]] 1200
-* [[Specific heat]] 800
-}}
+* [[Specific heat]] 800}}
 {{infocell|style=text-align:center; background-color: #eee; border-top: 1px solid #aaa|1=[[wikipedia:Pearlash|Wikipedia article]]}}
 {{infoend}}
 

@@ -8,8 +8,7 @@ The 5 metalsmith skills are:
 * [[Furnace operator]]
 * [[Metal crafter]]
 * [[Blacksmith]]
-* [[Weaponsmith]]
-}}
+* [[Weaponsmith]]}}
 <br>
 An adult [[dwarf]] whose best [[skill]] is in this category, and who has accumulated ranks in other metalsmithing skills*, will be labeled with the "Metalsmith" profession and known as a metalsmith.  If a dwarf has [[experience]] in only one metalsmithing skill and that is her/his highest skill, s/he will be known by that skill.  If a dwarf has several metalsmith skills, once they achieve "grand master" skill (Rank 14) in one of these skills, but not in any of the others, s/he will then be known by that specific skill.
 

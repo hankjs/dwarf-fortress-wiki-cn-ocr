@@ -1,6 +1,0 @@
-{{Quality|Fine}}{{grasslookup/0|wiki=no}}{{av}}
-
-'''绒草'''是一种特殊类型的[[grass|草]]，只存在于善良地区。尽管由羽毛制成，但它仍能为[[grazing|放牧]]动物提供营养。
-
-{{gamedata}}
-{{Plants}}

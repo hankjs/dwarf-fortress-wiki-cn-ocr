@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|product=kapok_sprite.png
-|sapling=kapok_sapling.png
-|wiki=Ceiba_pentandra}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=kapok_sprite.png|sapling=kapok_sapling.png|wiki=Ceiba_pentandra}}
 {{av}}
 
 '''Kapoks''' are a type of [[above ground]] [[tree]], found only in [[tropical]] [[forest]]s. Like the overwhelming majority of overland trees, kapok [[wood]] is brown and produces brown products. 

@@ -9,12 +9,7 @@ Stray animals can be freely assigned to [[cage]]s and [[slaughter]]ed, unlike pe
 
 In [[adventure mode]], stray animals can be used as [[pet]]s, and some as [[mount]]s or [[Creature_token#PACK_ANIMAL|pack animals]].
 
-{{Translation
-| dwarven = rêg
-| elvish  = èle
-| goblin  = sux
-| human   = ido
-}}
+{{Translation| dwarven = rêg| elvish  = èle| goblin  = sux| human   = ido}}
 [[ru:Stray]]
 
 {{category|Fortress mode}}

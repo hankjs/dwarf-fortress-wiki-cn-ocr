@@ -33,24 +33,8 @@ You can empty a container of alcohol by drinking, cooking, shotgunning it out of
 
 Most non-food items can be stored in [[bin]]s; the quantity allowed depends upon the items stored. Each bin can store up to 12 [[bar]]s or [[block]]s, while 30 or more small [[craft]]s may fit into a single bin. 
 
-{| class="wikitable"
-|-
-! Good !! Bin Capacity
-|-
-| Bars/Block || 12
-|-
-| Bolts || 400
-|-
-| Coins || 193 (stacks of 500)
-|-
-| Cloth || 303
-|-
-| Leather || 45
-|-
-| Small Gems || 305
-|-
-| Thread || 205
-|}
+{| class="wikitable"|-
+! Good !! Bin Capacity|-| Bars/Block || 12|-| Bolts || 400|-| Coins || 193 (stacks of 500)|-| Cloth || 303|-| Leather || 45|-| Small Gems || 305|-| Thread || 205|}
 
 ==Managing stockpiles directly==
 

@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=limestone_sprite.png}}
+{{stonelookup/0|graphic=limestone_sprite.png}}
 {{av}}
 
 {{For/see|the month|[[Calendar]]}}

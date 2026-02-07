@@ -1,7 +1,0 @@
-{{Quality|Fine}}{{grasslookup/0}}{{av}}
-
-'''蓝莎草'''是一种生长在温带沼泽和草原的草类。它与大多数其他类型的草无法区分。
-
-[[File:Carex flacca 'Blue Zinger' (Carex glauca) - VanDusen Botanical Garden - Vancouver, BC - DSC06733.jpg|thumb|350px|center|Blue sedge]]
-{{gamedata}}
-{{Plants}}

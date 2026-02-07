@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_beaver_sprite.png
-|portrait=beaver_portrait_anim.gif
-|contrib=no
-|bone=18-22
-|meat=14-20
-|fat=13-17
-|eye=0-2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|nail=0-1
-|tooth=4
-|skin=hide}}
+{{Creaturelookup/0|image=giant_beaver_sprite.png|portrait=beaver_portrait_anim.gif|contrib=no|bone=18-22|meat=14-20|fat=13-17|eye=0-2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|nail=0-1|tooth=4|skin=hide}}
 {{av}}
 {{creaturedesc}}
 '''Giant beavers''' are the [[giant animal]] variant of the common [[beaver]], found in [[savage]] [[temperate]] [[lake]]s and [[river]]s where they appear in groups of 3-10 individuals. They are roughly five times the size of a [[dwarf]], but are generally benign and content to simply meander their territory. If confronted, however, they may fight back and make quick work out of inexperienced warriors.

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_star_sapphire_sprite.png
-|graphic2=rough_star_sapphire_sprite.png
-|wiki=asterism (gemology)}}
+{{gemlookup/0|graphic=cut_star_sapphire_sprite.png|graphic2=rough_star_sapphire_sprite.png|wiki=asterism (gemology)}}
 {{av}}
 
 '''Star sapphires''' are extremely rare blue [[gem]]s found in clusters of [[sapphire]]s, which are themselves only found in clusters of [[bauxite]] - among the most valuable gems that can be found in ''Dwarf Fortress'', on par with [[diamond]]s. 

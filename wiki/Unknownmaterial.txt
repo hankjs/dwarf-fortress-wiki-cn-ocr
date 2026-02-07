@@ -20,8 +20,7 @@
 * [[Ignition point]] None
 * [[Solid density]] 2000{{verify}}
 * [[Specific heat]] None
-* [[Color]] gray
-}}
+* [[Color]] gray}}
 {{infoend}}
 
 An "Unknown material", as it is listed in [[building]] descriptions, normally has no name. It has an internal [[material token|ID]] of -1 or {{token|NONE|mat}}, the same as used in tasks that require items of any or an unspecified material.

@@ -35,12 +35,7 @@ You can instantly discover the magma sea and [[adamantine]] if you simply cause 
 *Sometimes [[Flood|exceedingly fun]] if the player is careless when digging.
 *[[Magma crab]]s 
 
-{{Translation
-| dwarven = stodir
-| elvish  = amoya
-| goblin  = uru
-| human   = amak
-}}
+{{Translation| dwarven = stodir| elvish  = amoya| goblin  = uru| human   = amak}}
 
 {{World}}
 

@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_tiger_sprite.png
-|portrait=tiger_portrait_anim.gif
-|bone=21
-|tooth=2
-|meat=20
-|skin=hide
-|fat=17
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|eye=2
-|wiki=no
-|contrib=no}}
+{{Creaturelookup/0|image=giant_tiger_sprite.png|portrait=tiger_portrait_anim.gif|bone=21|tooth=2|meat=20|skin=hide|fat=17|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|eye=2|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant tigers''' are strong carnivorous animals, roaming savage [[tropical]] areas. Adult giant tigers are more than three times the size of a standard [[cow]]. Giant tigers may also appear as [[mount]]s during a [[siege]].

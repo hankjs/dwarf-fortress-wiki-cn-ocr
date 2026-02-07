@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=llama_sprites.png
-|portrait=llama_portrait_anim.gif
-|contrib=no
-|bone=12-18
-|meat=12-13
-|fat=12
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|wool=15
-|wiki=yes
-}}
+{{Creaturelookup/0|image=llama_sprites.png|portrait=llama_portrait_anim.gif|contrib=no|bone=12-18|meat=12-13|fat=12|skull=1|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|wool=15|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

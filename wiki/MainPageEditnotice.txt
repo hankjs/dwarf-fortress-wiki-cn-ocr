@@ -4,5 +4,4 @@
 * Edit the part of [[Template:current/version]] before the &lt;noinclude> tag to reflect the appropriate version.
 * Edit the part of [[Template:current/lastupdate]] before the &lt;noinclude> to show the release date for that version.
 ====Other issues or questions====
-<span class="plainlinks">[{{fullurl:Talk:Main Page|action=edit&section=new}} Post a message on the talk page]</span> and another editor will assist you.
-}}
+<span class="plainlinks">[{{fullurl:Talk:Main Page|action=edit&section=new}} Post a message on the talk page]</span> and another editor will assist you.}}

@@ -1,23 +1,5 @@
 {{Quality|Superior}}
-{{creaturelookup/0
-|image=hyena_sprites.png
-|portrait=hyena_portrait_anim.gif
-|bone=12-16
-|meat=12-13
-|skin=hide
-|fat=12-13
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=hyena_sprites.png|portrait=hyena_portrait_anim.gif|bone=12-16|meat=12-13|skin=hide|fat=12-13|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

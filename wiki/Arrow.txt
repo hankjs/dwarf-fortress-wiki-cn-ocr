@@ -10,12 +10,7 @@ In [[adventure mode]], [[elf]] and [[human]] players can wield bows (and therefo
 ==Bugs==
 *If a squad is assigned multiple ammo types, dwarves with "individual choice ranged" carry the wrong type of ammo{{bug|1374}}.
 
-{{Translation
-| dwarven = feb
-| elvish  = lari
-| goblin  = ost
-| human   = nek
-}}
+{{Translation| dwarven = feb| elvish  = lari| goblin  = ost| human   = nek}}
 
 {{gamedata|{{raw|v50:item_ammo.txt|ITEM_AMMO|ITEM_AMMO_ARROWS}}}}
 {{Weapons}}

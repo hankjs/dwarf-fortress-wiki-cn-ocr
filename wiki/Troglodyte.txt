@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=troglodyte_sprites.png
-|portrait=troglodyte_portrait.png
-|wiki=Caveman
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=troglodyte_sprites.png|portrait=troglodyte_portrait.png|wiki=Caveman|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 '''Troglodytes''' are ugly, stupid [[creature]]s common in the upper [[cavern]] layers. While an individual may not pose a great threat to a fortress, they usually turn up in groups of 8 or so, and are more than eager to throw themselves at your entrances, whether they are guarded by hardened veterans and [[trap]]s or not. They are capable of causing serious injury to unarmed civilians, but are rather pathetic when faced with a modestly-equipped, halfway-competent [[military]]. As troglodytes are considered sapient, their corpses can cause considerable amounts of stress if they are not disposed of properly.

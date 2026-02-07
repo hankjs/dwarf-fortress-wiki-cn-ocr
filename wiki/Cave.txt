@@ -66,12 +66,7 @@ Adventurers start knowing rumors that are common knowledge in their civilization
 They can sometimes be found by repeatedly asking an NPC {{DFtext|about the surrounding area}}; if NPCs in one region don't tell you about any caves, move to another region and try again (but note that some of the place names mentioned by NPCs correspond to regions, not sites). When an NPC does mention a site, it will be added to the list of places you can ask for directions to.
 [[File:Homo floresiensis cave.jpg|thumb|500px|center|Did anyone bring a light?]]
 
-{{Translation
-| dwarven = äs
-| elvish  = garetho
-| goblin  = omo
-| human   = ngethac
-}}
+{{Translation| dwarven = äs| elvish  = garetho| goblin  = omo| human   = ngethac}}
 
 {{World}}
 

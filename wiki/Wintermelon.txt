@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=winter_melon_shrub_sprite.png
-|seedimage=winter_melon_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=winter_melon_shrub_sprite.png|seedimage=winter_melon_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''Winter melon''' is an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons and the fruit is edible raw or [[cooking|cooked]].

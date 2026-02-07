@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_red_tourmaline_sprite.png
-|graphic2=rough_red_tourmaline_sprite.png
-|wiki=Tourmaline}}
+{{gemlookup/0|graphic=cut_red_tourmaline_sprite.png|graphic2=rough_red_tourmaline_sprite.png|wiki=Tourmaline}}
 {{av}}
 
 '''Red tourmaline''' is a semi-precious [[gem]] found within [[sedimentary]] and [[metamorphic]] stone layers, as well as [[granite]].

@@ -1,23 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_eagle_sprite.png
-|portrait=eagle_portrait_anim.gif
-|contrib=no
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|intestine=1
-|liver=1
-|heart=1
-|lung=2
-|brain=1
-|meat=18
-|fat=12
-|skull=1
-|bone=23
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_eagle_sprite.png|portrait=eagle_portrait_anim.gif|contrib=no|kidney=2|spleen=1|sweetbread=1|tripe=1|intestine=1|liver=1|heart=1|lung=2|brain=1|meat=18|fat=12|skull=1|bone=23|skin=hide}}
 {{av}}
 {{creaturedesc}}
 '''Giant eagles''' are the [[Giant_animal|over-sized]] version of [[eagle]]s, found in the same wide array of [[savage]] [[biome]]s. They can be extremely annoying to an early fortress due to their ability to fly over your fortress defenses and kill your unarmed civilians. Unlike [[giant kea|other aerial pests]], giant eagles will generally not path into your fortress, and usually only attack if provoked. They may also appear as [[mount]]s during a [[siege]], resulting in a highly-maneuverable and dangerous squad of attackers. All giant eagles are born with Legendary [[skill]] in [[Climber|climbing]].

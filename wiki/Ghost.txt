@@ -33,53 +33,8 @@ The ghost's activities may be determined by the nature of its death and its [[pe
 {| class="wikitable" width="70%" align="center"
 ! scope="col" align="left" width="17%" | Type
 ! scope="col" align="left" width="17%" | Cause
-! scope="col" align="left" width="66%" | Effect
-|-
-|Murderous Ghost
-|Had a [[Strange_mood#Fell|fell mood]], had low [[Personality facet#ALTRUISM|ALTRUISM]], or slab/grave was deconstructed
-|Murders dwarves.
-|-
-|Sadistic Ghost
-|Had a [[Strange_mood#Macabre|macabre mood]], or had low [[Personality facet#ALTRUISM|ALTRUISM]]
-|Batters, scares and paralyses dwarves. Capable of scaring a dwarf to death.
-|-
-|Violent Ghost
-|Was [[insanity|berserk]], or had high [[Personality facet#ANGER_PROPENSITY|ANGER_PROPENSITY]] trait
-|Batters dwarves, often but not always removing limbs.
-|-
-|Moaning Spirit
-|Was [[insanity|melancholic]], or had high [[Personality facet#DEPRESSION_PROPENSITY|DEPRESSION_PROPENSITY]]
-|Troubles one unfortunate dwarf at a time.
-|-
-|Howling Spirit
-|Was [[insanity|stark raving mad]], or had high [[Personality facet#STRESS_VULNERABILITY|STRESS_VULNERABILITY]] trait
-|Makes sleeping difficult.
-|-
-|Angry Ghost
-|Was [[Strange_mood#Possessed|possessed]]
-|Will possess dwarves, causing them to throw tantrums. May still be capable of battering dwarves.
-|-
-|Energetic Poltergeist
-|Was in a [[Strange_mood#Fey|fey mood]], or had high [[Personality facet#ACTIVITY_LEVEL|ACTIVITY_LEVEL]]
-|Topples furniture, such as chairs.
-|-
-|Secretive Poltergeist
-|Was in a [[Strange_mood#Secretive|secretive mood]], or had high [[Personality facet#BASHFUL|BASHFUL]] trait
-|''Misplaces'' items.
-|-
-|Troublesome Poltergeist
-|Had high [[Personality facet#IMMODERATION|IMMODERATION]]
-|''Misplaces'' items, may topple furniture and pull levers.{{Verify|test}}
-|-
-|Restless Haunt
-|Had [[Personality facet#GREGARIOUSNESS| 
-GREGARIOUSNESS]] at least as high as [[Personality facet#DUTIFULNESS|DUTIFULNESS]], or never completed any jobs
-|Drifts around place of death and frequented locations - also haunts dwarves, causing unhappy thoughts.
-|-
-|Forlorn Haunt
-|Did not satisfy any of the above checks
-|Drifts around place of death and frequented locations.
-|}
+! scope="col" align="left" width="66%" | Effect|-|Murderous Ghost|Had a [[Strange_mood#Fell|fell mood]], had low [[Personality facet#ALTRUISM|ALTRUISM]], or slab/grave was deconstructed|Murders dwarves.|-|Sadistic Ghost|Had a [[Strange_mood#Macabre|macabre mood]], or had low [[Personality facet#ALTRUISM|ALTRUISM]]|Batters, scares and paralyses dwarves. Capable of scaring a dwarf to death.|-|Violent Ghost|Was [[insanity|berserk]], or had high [[Personality facet#ANGER_PROPENSITY|ANGER_PROPENSITY]] trait|Batters dwarves, often but not always removing limbs.|-|Moaning Spirit|Was [[insanity|melancholic]], or had high [[Personality facet#DEPRESSION_PROPENSITY|DEPRESSION_PROPENSITY]]|Troubles one unfortunate dwarf at a time.|-|Howling Spirit|Was [[insanity|stark raving mad]], or had high [[Personality facet#STRESS_VULNERABILITY|STRESS_VULNERABILITY]] trait|Makes sleeping difficult.|-|Angry Ghost|Was [[Strange_mood#Possessed|possessed]]|Will possess dwarves, causing them to throw tantrums. May still be capable of battering dwarves.|-|Energetic Poltergeist|Was in a [[Strange_mood#Fey|fey mood]], or had high [[Personality facet#ACTIVITY_LEVEL|ACTIVITY_LEVEL]]|Topples furniture, such as chairs.|-|Secretive Poltergeist|Was in a [[Strange_mood#Secretive|secretive mood]], or had high [[Personality facet#BASHFUL|BASHFUL]] trait|''Misplaces'' items.|-|Troublesome Poltergeist|Had high [[Personality facet#IMMODERATION|IMMODERATION]]|''Misplaces'' items, may topple furniture and pull levers.{{Verify|test}}|-|Restless Haunt|Had [[Personality facet#GREGARIOUSNESS| 
+GREGARIOUSNESS]] at least as high as [[Personality facet#DUTIFULNESS|DUTIFULNESS]], or never completed any jobs|Drifts around place of death and frequented locations - also haunts dwarves, causing unhappy thoughts.|-|Forlorn Haunt|Did not satisfy any of the above checks|Drifts around place of death and frequented locations.|}
 
 A "high" trait check will succeed 20% of the time for value of 76-90, 50% of the time for 91-99, and is guaranteed for 100. Similarly, a "low" trait check will succeed 20% of the time for 10-24, 50% of the time for 1-9, and always for 0. Because the Murderous Ghost check has higher priority, having zero ALTRUISM will always result in a Murderous Ghost, never a Sadistic Ghost.
 
@@ -124,12 +79,7 @@ When a dwarf dies and becomes a ghost, its Legends mode entry lists it as a "gho
 {{mod}}
 Using external utilities like [[DFHack]]'s <code>ghostly</code> command, it is possible to turn your [[adventure mode|adventurer]] into a ghost. When playing as a ghost, you will be able to pass through walls, but only if you have no items in inventory. Other creatures will ignore you, as they can't harm you and you will be unable to (directly) attack them, either. (Your character's ability to perform a suitable [[interaction token|interaction]], like poison gas, fire breath, or a directly applied [[syndrome]], however. is quite different...) Flying as a ghost seems to have some issues, because your ghostly adventurer will become stuck in mid-air forever, unless they are a creature that can normally fly. Other aspects of the game seem to work as usual.
 
-{{Translation
-| dwarven = ngotol
-| elvish  = oreme
-| goblin  = engror
-| human   = tacnu
-}}
+{{Translation| dwarven = ngotol| elvish  = oreme| goblin  = engror| human   = tacnu}}
 
 {{Creatures}}
 {{category|Creatures}}

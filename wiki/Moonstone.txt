@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_moonstone_sprite.png
-|graphic2=rough_moonstone_sprite.png
-|wiki=Moonstone (gemstone)}}
+{{gemlookup/0|graphic=cut_moonstone_sprite.png|graphic2=rough_moonstone_sprite.png|wiki=Moonstone (gemstone)}}
 {{av}}
 
 {{For/see|the month|[[Calendar]]}}

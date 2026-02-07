@@ -620,8 +620,7 @@ entity_example
 	[PERMITTED_REACTION:PEWTER_LAY_MAKING]
 	[PERMITTED_REACTION:BLACK_BRONZE_MAKING]
 	[PERMITTED_REACTION:STERLING_SILVER_MAKING]
-	[PERMITTED_REACTION:ROSE_GOLD_MAKING]
-}}
+	[PERMITTED_REACTION:ROSE_GOLD_MAKING]}}
 
 Now after this example you might be thinking "''Why not make a generic animal person civilization and stuff all 175+ existing [CREATURE:ANIMAL_MAN] tokens into it?''". This works, but the trick is it works far too well. The number of [CREATURE:X] tags changes the civ's spawn rate, so adding every [CREATURE:ANIMAL_MAN] to one entity will likely cause their civ to spawn so often that it blocks all the elves, humans, goblins, kobolds, and dwarves from spawning and will lead to world gen rejections. To balance the spawn rates for the vanilla civs you would need to add [SELECT_ENTITY:VANILLA_ENTITY_X] followed by the same number (175+) of duplicate [CREATURE:VANILLA_CREATURE_X] tokens for each vanilla civ. See [[Entity token#Placement|entity placement]] for more info on this.
 

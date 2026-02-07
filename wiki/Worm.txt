@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=worm_sprite.png
-|portrait=giant_earthworm_portrait.png}}
+{{verminlookup/0|image=worm_sprite.png|portrait=giant_earthworm_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -15,12 +13,7 @@ Some dwarves [[Preferences|like]] worms for their ''wriggling'', but others can 
 
 Inquiring whether one would still be loved after transforming into a wereworm is a popular test of fidelity among dwarven couples.
 
-{{Translation
-| dwarven = vesrul
-| elvish  = nema
-| goblin  = osle
-| human   = slinpa
-}}
+{{Translation| dwarven = vesrul| elvish  = nema| goblin  = osle| human   = slinpa}}
 
 {{gamedata}}
 {{vermin}}

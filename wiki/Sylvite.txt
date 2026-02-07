@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=sylvite_sprite.png}}
+{{stonelookup/0|graphic=sylvite_sprite.png}}
 {{av}}
 
 '''Sylvite''' is an unremarkable [[stone]] found in large quantities within [[rock salt]]. It is [[fire-safe]], but not [[magma safe]]. 

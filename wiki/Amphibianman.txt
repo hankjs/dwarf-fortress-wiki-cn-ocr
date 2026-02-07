@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=Amphibian_man_sprite.png
-|portrait=amphibian_man_portrait.png
-|vary=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=Amphibian_man_sprite.png|portrait=amphibian_man_portrait.png|vary=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 '''Amphibian men''' are one of the many [[Creature|races]] of underground tribal [[creature]]s (''[[animal people]], per se, but design choices apparently voided them of that status'') found living in small groups on any [[cavern]] level. They are equivalent to [[kobold]]s in size, but are less agile.

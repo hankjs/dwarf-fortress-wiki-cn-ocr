@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=coyote_man_sprite.png
-|portrait=coyote_man_portrait.png}}
+{{Creaturelookup/0|image=coyote_man_sprite.png|portrait=coyote_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

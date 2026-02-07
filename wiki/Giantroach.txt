@@ -1,16 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_roach_sprite.png
-|portrait=roach_portrait.png
-|skin=chitin
-|meat=42
-|brain=2
-|intestine=8
-|heart=1
-|eye=2
-|fat=17
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_roach_sprite.png|portrait=roach_portrait.png|skin=chitin|meat=42|brain=2|intestine=8|heart=1|eye=2|fat=17|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

@@ -1,15 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=goose_sprites.png
-|portrait=goose_portrait_anim.gif
-|meat=8-9
-|fat=8-9
-|intestine=1
-|bone=6
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=goose_sprites.png|portrait=goose_portrait_anim.gif|meat=8-9|fat=8-9|intestine=1|bone=6|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -25,12 +15,7 @@ Some dwarves [[Preferences|like]] geese for their ''formation flying''.
 [[Image:Canada goose flight cropped and NR.jpg|thumb|400px|center|Admired for their ''formation flying''.]]
 
 
-{{Translation
-| dwarven = kurig
-| elvish  = abime
-| goblin  = us
-| human   = jathbi
-}}
+{{Translation| dwarven = kurig| elvish  = abime| goblin  = us| human   = jathbi}}
 
 {{D for Dwarf}}
 Geese are prone to inconvenience dwarves by picking up and misplacing important items for no apparent purpose other than annoy them. A single goose can lead to dozens of job canceling reports as every dwarf in the vicinity converges on the dreadful bird to reclaim the stolen goods. They are especially keen on stealing percussion [[instrument|instruments]] with a bell component.

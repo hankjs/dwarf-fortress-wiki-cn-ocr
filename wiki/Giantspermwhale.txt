@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_sperm_whale_sprite.png
-|portrait=sperm_whale_portrait.png
-|wiki=no
-|contrib=no
-|meat=4940-7048
-|bone=1177-1690
-|eye=20-28
-|tooth=2
-|fat=1066-1523
-|heart=203-290
-|lung=812-1160
-|kidney=406-580
-|spleen=203-290
-|sweetbread=203-290
-|tripe=406-580
-|liver=406-580
-|intestine=1219-1740
-|brain=406-580
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_sperm_whale_sprite.png|portrait=sperm_whale_portrait.png|wiki=no|contrib=no|meat=4940-7048|bone=1177-1690|eye=20-28|tooth=2|fat=1066-1523|heart=203-290|lung=812-1160|kidney=406-580|spleen=203-290|sweetbread=203-290|tripe=406-580|liver=406-580|intestine=1219-1740|brain=406-580|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

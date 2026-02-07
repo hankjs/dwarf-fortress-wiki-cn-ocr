@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=pyrolusite_sprite.png}}
+{{stonelookup/0|graphic=pyrolusite_sprite.png}}
 {{av}}
 
 '''Pyrolusite''' is an unremarkable dark gray [[stone]] found in small clusters within [[stone layers|igneous stone layers]].

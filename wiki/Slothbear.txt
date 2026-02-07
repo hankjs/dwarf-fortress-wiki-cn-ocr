@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=sloth_bear_sprites.png
-|portrait=sloth_bear_portrait_anim.gif
-|contrib=no
-|bone=18
-|meat=13
-|fat=12
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|skin=hide
-|skull=1
-|wiki=yes
-}}
+{{creaturelookup/0|image=sloth_bear_sprites.png|portrait=sloth_bear_portrait_anim.gif|contrib=no|bone=18|meat=13|fat=12|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|skin=hide|skull=1|wiki=yes}}
 {{av}}
 :''Not to be confused with [[sloth]]s.''
 {{creaturedesc}}

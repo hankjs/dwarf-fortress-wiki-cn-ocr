@@ -1,18 +1,6 @@
 {{Quality|Fine}}
-{{V50_furniture|name=Weapon Rack
-|graphic=[[File:Weapon_Rack_Premium.png]]
-|tile=√
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|rooms=
-* [[Barracks]]
-|value=10
-|size=10,000
-|capacity=60,000
-}}
+{{V50_furniture|name=Weapon Rack|graphic=[[File:Weapon_Rack_Premium.png]]|tile=√|wood=y|stonecarve=y|metal=y|bars=3|glass=y|rooms=
+* [[Barracks]]|value=10|size=10,000|capacity=60,000}}
 {{av}}
 
 '''Weapon racks''' ({{menu icon|b|y|r}}) are a type of [[furniture]] which can be used to decorate a [[barracks]], satisfy a [[noble]]'s housing requirements, or raise the [[value]] of a [[zone|room]].

@@ -1,27 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=gigantic_tortoise_sprite.png
-|portrait=gigantic_tortoise_anim.gif
-|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]
-|bone=22-38
-|meat=25-65
-|fat=13-19
-|lung=2-6
-|heart=1
-|intestine=3-9
-|liver=1-3
-|tripe=1-3
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1-3
-|eye=2
-|skull=1
-|shell=5-15
-|skin=scale
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=gigantic_tortoise_sprite.png|portrait=gigantic_tortoise_anim.gif|vary=[[Giant tortoise]]  - [[Giant tortoise man]] - [[Gigantic tortoise]]|bone=22-38|meat=25-65|fat=13-19|lung=2-6|heart=1|intestine=3-9|liver=1-3|tripe=1-3|sweetbread=1|spleen=1|kidney=2|brain=1-3|eye=2|skull=1|shell=5-15|skin=scale|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''Gigantic tortoises''' are the monstrous version of [[giant tortoise]]s.  Along with [[gigantic panda]]s and [[gigantic squid]]s, they receive the "gigantic" title instead of "giant", since there is a normal version of those creatures that is already referred to as "giant".

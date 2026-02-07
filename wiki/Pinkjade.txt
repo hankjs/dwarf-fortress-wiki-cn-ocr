@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_pink_jade_sprite.png
-|graphic2=rough_pink_jade_sprite.png
-|wiki=Jade}}
+{{gemlookup/0|graphic=cut_pink_jade_sprite.png|graphic2=rough_pink_jade_sprite.png|wiki=Jade}}
 {{av}}
 
 '''Pink jades''' are low-value [[gem]]s that only appear in [[alluvial layer]]s.

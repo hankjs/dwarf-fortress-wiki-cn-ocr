@@ -57,8 +57,7 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
 
 ==Industry overview==
 
-{| style="border-spacing: 0; width: 41em"
-|-
+{| style="border-spacing: 0; width: 41em"|-
 
 {{Empty Block}}
 
@@ -67,52 +66,42 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
 {{Arrow Block|
   |      |E|    |      |
   |E|    |T|#fff|L|#fff| raw glass counts as rough gems
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Item Block|title=Raw Glass
   |background=#000|
   |☼|#090|☼|#090|☼|#099|☼|#fff|
-  |☼|#090|☼|#099|☼|#099|☼|#fff|
-}}
+  |☼|#090|☼|#099|☼|#099|☼|#fff|}}
 
 {{Arrow Block|
   |      |E|    |      |
   |A|#fff|C|#fff|E|    |
-  |      |L|#fff|      |
-}}
-
+  |      |L|#fff|      |}}
 |-
 
 {{Item Block|title=Gem Clusters
   |background=#777|
   | |#fff|☼|#f00|☼|#00f| |#fff|
-  | |#fff|☼|#0f0|☼|#fff| |#fff|
-}}
+  | |#fff|☼|#0f0|☼|#fff| |#fff|}}
 
 {{Skill Block|skill=Mining
   |color=7:0|
   |      |E|    |      |
   |L|#ccc|C|#ccc|A|#ccc|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Item Block|title=Rough Gems
   |background=#000|
   | |#fff|☼|#f00|☼|#00f| |#fff|
-  | |#fff|☼|#0f0|☼|#fff| |#fff|
-}}
+  | |#fff|☼|#0f0|☼|#fff| |#fff|}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|T|#fff|A|#fff| rough rock crystals
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Industry Block|industry=Glass industry
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |-
 
 {{Empty Block}}
@@ -123,110 +112,89 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
   |color=2:1|
   |      |L|#afa|      |
   |E|#afa|C|#afa|L|#afa|
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#afa|T|#afa|L|#afa| sometimes created
-  |      |A|#afa|      |
-}}
+  |      |A|#afa|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#afa|C|#afa|E|    |
-  |      |A|#afa|      |
-}}
-
+  |      |A|#afa|      |}}
 |-
 
 {{Item Block|title=Gem Windows
   |background=#000|
   | |#fff|▒|#f00|▒|#00f| |#fff|
-  | |#fff|▒|#0f0|▒|#fff| |#fff|
-}}
+  | |#fff|▒|#0f0|▒|#fff| |#fff|}}
 
 {{Empty Block}}
 
 {{Arrow Block|
   |      |L|#afa|      |
   |E|    |C|#afa|E|    |
-  |      |A|#afa|      |
-}}
+  |      |A|#afa|      |}}
 
 {{Item Block|title=Large Gems
   |background=#000|
   | |#fff|♦|#f00|♦|#00f| |#fff|
-  | |#fff|♦|#0f0|♦|#fff| |#fff|
-}}
+  | |#fff|♦|#0f0|♦|#fff| |#fff|}}
 
 {{Item Block|title=Gem Crafts
   |background=#000|
   |o|#f00|♀|#f00|o|#00f|°|#00f|
-  |Å|#0f0|¶|#0f0|♀|#fff|δ|#fff|
-}}
-
+  |Å|#0f0|¶|#0f0|♀|#fff|δ|#fff|}}
 |-
 
 {{Skill Block|skill=Furnit. Hauling
   |color=3:0|
   |      |A|#acc|      |
   |E|    |C|#acc|L|#acc|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#acc|T|#acc|L|#acc| 3 gems are needed
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Item Block|title=Cut Gems
   |background=#000|
   | |#fff|♦|#f00|♦|#00f| |#fff|
-  | |#fff|♦|#0f0|♦|#fff| |#fff|
-}}
+  | |#fff|♦|#0f0|♦|#fff| |#fff|}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|L|#fff|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |L|#fff|C|#fff|E|    |
-  |      |A|#fff|      |
-}}
-
+  |      |A|#fff|      |}}
 |-
 
 {{Industry Block|industry=[[Finished Goods|Trade goods industry]]
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#afa|      |
   |E|    |C|#afa|E|    |
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |E|    |C|#fff|A|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Industry Block|industry=[[Finished goods|Trade goods industry]]
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |-
 
 {{Empty Block}}
@@ -234,52 +202,42 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
 {{Item Block|title=Finished Goods
   |background=#000|
   |o|#770|¶|#fff|Å|#555|♀|#555|
-  |♀|#999|♀|#090|δ|#ff0|æ|#999|
-}}
+  |♀|#999|♀|#090|δ|#ff0|æ|#999|}}
 
 {{Workshop Block|workshop=Jeweler's Workshop|skill=Gem setting
   |color=2:1|
   |      |L|#afa|      |
   |L|#fff|C|#afa|A|#afa|
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Item Block|title=Encrusted Goods
   |background=#000|
   |o|#770|¶|#fff|Å|#555|♀|#555|
-  |♀|#999|♀|#090|δ|#ff0|æ|#999|
-}}
+  |♀|#999|♀|#090|δ|#ff0|æ|#999|}}
 
 {{Empty Block}}
-
 |-
 
 {{Industry Block|industry=Furniture industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#afa|      |
   |E|    |C|#afa|E|    |
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |E|    |C|#fff|A|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Industry Block|industry=Furniture industry
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |-
 
 {{Empty Block}}
@@ -287,52 +245,42 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
 {{Item Block|title=Furniture
   |background=#000|
   |╤|#090|Ω|#099|Ω|#fff|Ω|#ff0|
-  |π|#999|π|#999|Ω|#555|╤|#fff|
-}}
+  |π|#999|π|#999|Ω|#555|╤|#fff|}}
 
 {{Workshop Block|workshop=Jeweler's Workshop|skill=Gem setting
   |color=2:1|
   |      |L|#afa|      |
   |L|#fff|C|#afa|A|#afa|
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Item Block|title=Encrusted Furniture
   |background=#000|
   |╤|#090|Ω|#099|Ω|#fff|Ω|#ff0|
-  |π|#999|π|#999|Ω|#555|╤|#fff|
-}}
+  |π|#999|π|#999|Ω|#555|╤|#fff|}}
 
 {{Empty Block}}
-
 |-
 
 {{Industry Block|industry=Arms industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#afa|      |
   |E|    |C|#afa|E|    |
-  |      |L|#afa|      |
-}}
+  |      |L|#afa|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |E|    |C|#fff|A|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Industry Block|industry=Arms industry
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |-
 
 {{Empty Block}}
@@ -340,24 +288,20 @@ When encrusting items, dwarves will generally go for the nearest piece of furnit
 {{Item Block|title=Ammo
   |background=#000|
   |/|#999|/|#999|/|#555|/|#555|
-  |/|#999|/|#770|/|#770|/|#fff|
-}}
+  |/|#999|/|#770|/|#770|/|#fff|}}
 
 {{Workshop Block|workshop=Jeweler's Workshop|skill=Gem setting
   |color=2:1|
   |      |L|#afa|      |
   |L|#fff|C|#afa|A|#afa|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Item Block|title=Encrusted Ammo
   |background=#000|
   |/|#999|/|#999|/|#555|/|#555|
-  |/|#999|/|#770|/|#770|/|#fff|
-}}
+  |/|#999|/|#770|/|#770|/|#fff|}}
 
 {{Empty Block}}
-
 |}
 {{Category|Industry}}
 {{Industry}}

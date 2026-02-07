@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=char_sprite.png
-|portrait=char_portrait.png
-|wiki=Salvelinus}}
+{{verminlookup/0|image=char_sprite.png|portrait=char_portrait.png|wiki=Salvelinus}}
 {{av}}
 {{creaturedesc}}
 

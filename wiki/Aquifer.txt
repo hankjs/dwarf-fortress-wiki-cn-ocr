@@ -56,8 +56,7 @@ Layers which '''can''' contain aquifers:
 * [[siliceous ooze]]
 * [[sandstone]]
 * [[conglomerate]]
-* [[puddingstone]]
-}}
+* [[puddingstone]]}}
 <!-- Note: only layers with the [AQUIFER] token can support aquifers. Other layers can appear directly below an aquifer and will blink "damp", but they are not actually part of the aquifer - digging into them will still cause water to come from above. Please check the raws for the [AQUIFER] token before adding to this list. -->
 
 Layers which '''cannot''' contain aquifers, despite their names suggesting otherwise:
@@ -68,8 +67,7 @@ Layers which '''cannot''' contain aquifers, despite their names suggesting other
 * [[clay loam]]
 * [[siltstone]]
 * [[mudstone]]
-* [[claystone]]
-}}
+* [[claystone]]}}
 
 == Working in aquifers ==
 Some points to keep in mind:

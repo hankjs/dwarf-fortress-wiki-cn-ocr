@@ -1,9 +1,5 @@
 {{Quality|Fine|01:05, 16 February 2023 (UTC)}}
-{{creaturelookup/0
-|image=stoat_sprites.png
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=stoat_sprites.png|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

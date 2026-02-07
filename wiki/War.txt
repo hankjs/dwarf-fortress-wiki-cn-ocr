@@ -1,11 +1,6 @@
 {{Quality|Fine}}
 {{av}}
-{{Translation
-| dwarven = alnis
-| elvish  = athama
-| goblin  = aslez
-| human   = ashro
-}}
+{{Translation| dwarven = alnis| elvish  = athama| goblin  = aslez| human   = ashro}}
 '''War''' is a state of conflict between two [[civilization]]s. During [[fortress mode]], it's a bottomless pit of [[fun]]. Wars are tracked at the civilization level; each site inherits the conflicts of its parent civilization.
 
 ==World generation==

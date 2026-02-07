@@ -1,11 +1,5 @@
 {{Quality|Exceptional|21:37, 1 March 2023 (CST)}}
-{{Creaturelookup/0
-|image=flesh_ball_sprite.png
-|portrait=flesh_ball_portrait.png
-|meat=2
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=flesh_ball_sprite.png|portrait=flesh_ball_portrait.png|meat=2|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

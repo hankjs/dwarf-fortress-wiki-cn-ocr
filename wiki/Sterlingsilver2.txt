@@ -1,17 +1,8 @@
 {{Quality|Exceptional}}
-{{Alloy
-|name=Sterling silver
-|sample=
-[[File:SterlingSilverSample.png|center|frameless]]
-|graphic=platinum_bar_sprite.png
-|color=7:7:1
-|color1=7:7:1
-|color2=6:4:0
-|uses=* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+{{Alloy|name=Sterling silver|sample=
+[[File:SterlingSilverSample.png|center|frameless]]|graphic=platinum_bar_sprite.png|color=7:7:1|color1=7:7:1|color2=6:4:0|uses=* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 3 [[silver]] [[bar]]
-* 1 [[copper]] [[bar]]
-|properties=
+* 1 [[copper]] [[bar]]|properties=
 * [[Material value]] 8☼
 * [[Material science|Impact strength]] 595 MPa
 * [[Material science|Shear strength]] 170 MPa
@@ -22,8 +13,7 @@
 * [[Solid density]] 10490 kg/m³
 * Liquid [[density]] 9320 kg/m³
 * [[Specific heat]] 230 J/kg·K
-* [[Color]] white
-}}{{av}}
+* [[Color]] white}}{{av}}
 
 '''Sterling silver''' is a [[silver]]-based [[alloy]], mixed 3:1 with [[copper]], used to create [[furniture]] and miscellaneous objects. It must be made by combining [[bar]]s of pure [[metal]]; it cannot be [[Smelter|smelted]] from [[ore]] directly. The value of sterling silver is equal to that of its components, so this metal is only really useful if you want to cater to a [[preference]] or satisfy a [[demand]]. It does, however, possess a striking white color very similar to [[marble]].
 

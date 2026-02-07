@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Treelookup/0
-|graphic=oak_trunk_sprite.png
-|product=oak_sprite.png
-|sapling=oak_sapling.png}}
+{{Treelookup/0|graphic=oak_trunk_sprite.png|product=oak_sprite.png|sapling=oak_sapling.png}}
 {{av}}
 
 The '''oak''' is a type of [[above ground]] [[tree]] found in any [[temperate]] broadleaf [[forest]]. Like the overwhelming majority of overland trees, oak [[carpenter|wood]] is brown and produces brown products. Logs can be processed in a [[dyer's shop]] into brown [[dye]].
@@ -13,12 +10,7 @@ Their acorns are also edible and extremely plentiful, although they are not brew
 
 Some [[Dwarf|dwarves]] [[Preferences|like]] oaks for their ''acorns'' and their ''autumn coloration''.
 
-{{Translation
-| dwarven = kin
-| elvish  = lulo
-| goblin  = osô
-| human   = ecen
-}}
+{{Translation| dwarven = kin| elvish  = lulo| goblin  = osô| human   = ecen}}
 
 [[File:Eiche bei Schönderling, 2.jpg|thumb|center|300px|Admired for its ''acorns''.]]
 

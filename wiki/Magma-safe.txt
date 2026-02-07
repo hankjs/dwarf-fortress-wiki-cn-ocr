@@ -128,8 +128,7 @@ The following materials will not melt when submerged in magma. Although true for
 
 {{MS table row|Type=Ash|Matl=[[Ash]]|Appear=[[File:generic_grey_bar_sprite.png]] / {{Raw Tile|X|7:7:1}} {{Raw Tile|≡|7:0:0}}|Temp=None|Notes=}}
 {{MS table row|Type=Ash|Matl=[[Potash]]|Appear=[[File:generic_grey_bar_sprite.png]] / {{Raw Tile|X|7:7:1}} {{Raw Tile|≡|7:0:1}}|Temp=None|Notes=}}
-{{MS table row|Type=Ash|Matl=[[Pearlash]]|Appear=[[File:generic_grey_bar_sprite.png]] / {{Raw Tile|X|7:7:1}} {{Raw Tile|≡|7:0:1}}|Temp=None|Notes=}}
-|}
+{{MS table row|Type=Ash|Matl=[[Pearlash]]|Appear=[[File:generic_grey_bar_sprite.png]] / {{Raw Tile|X|7:7:1}} {{Raw Tile|≡|7:0:1}}|Temp=None|Notes=}}|}
 
 '''Notes:'''
 : 1) Each stone is one of 16 [[color scheme|colors]] in the game.  Different un-mined stone of the same color have a different symbol to distinguish between them.  Once mined, the individual stones themselves can sometimes look identical if the color is the same. Click to look at items or mouse over the terrain for specific information.

@@ -1,7 +1,5 @@
 {{Quality|Exceptional|00:04, 10 June 2010 (UTC)}}
-{{verminlookup/0
-|image=ant_sprite.png
-|portrait=ant_portrait.png}}
+{{verminlookup/0|image=ant_sprite.png|portrait=ant_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

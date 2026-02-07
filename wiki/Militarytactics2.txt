@@ -1,16 +1,9 @@
 {{migrated article}}
 {{Quality|Unrated}}
 {{av}}
-{{Skill
-| color      = 0:0
-| skill      = Tactician
-| profession = None
-| job name   = None
-| tasks      = 
-* Command squads in off-site battles
-| attributes =
-* Unknown
-}}
+{{Skill| color      = 0:0| skill      = Tactician| profession = None| job name   = None| tasks      = 
+* Command squads in off-site battles| attributes =
+* Unknown}}
 
 '''Military tactics''' is a [[military]] [[skill]]. Along with [[leader]] and [[organizer]] skills, it affects [[mission]] simulations on the world map, giving the side with the better tactician a greater chance of victory.
 

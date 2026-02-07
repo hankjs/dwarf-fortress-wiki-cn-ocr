@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_black_bear_sprite.png
-|portrait=black_bear_portrait_anim.gif
-|contrib=no
-|bone=42
-|meat=47-49
-|fat=33
-|eye=2
-|lung=2
-|heart=1
-|intestine=3-4
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|nail=1
-|tooth=2
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_black_bear_sprite.png|portrait=black_bear_portrait_anim.gif|contrib=no|bone=42|meat=47-49|fat=33|eye=2|lung=2|heart=1|intestine=3-4|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|nail=1|tooth=2|skin=hide}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

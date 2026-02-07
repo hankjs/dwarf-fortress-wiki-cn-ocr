@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=bauxite_sprite.png}}
+{{stonelookup/0|graphic=bauxite_sprite.png}}
 {{av}}
 
 '''Bauxite''' is a dark-red [[sedimentary]] [[stone]]. [[40d:Bauxite|Once]] highly prized as the only practical source of [[magma-safe]] [[mechanism]]s to create magma-proof devices, its importance has declined with the addition of many new heat-resistant forms of stone, as well as the ability to make [[metal]] mechanisms from [[iron]] and [[steel]]. Nevertheless, it is still used by some long-time players for nostalgia, and its rare, bloody appearance makes it an interesting aesthetic choice.

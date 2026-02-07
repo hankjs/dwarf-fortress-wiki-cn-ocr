@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_rat_sprites.png
-|portrait=giant_rat_portrait.png
-|meat=13
-|fat=13
-|intestine=1
-|bone=16
-|skull=1
-|skin=hide
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|heart=1
-|lung=2
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_rat_sprites.png|portrait=giant_rat_portrait.png|meat=13|fat=13|intestine=1|bone=16|skull=1|skin=hide|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|heart=1|lung=2|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,25 +1,11 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Noble
-| noble= Baron
-| office= Decent Office
-| quarters= Decent Quarters
-| dining= Decent Dining Room
-| tomb= Tomb
-| chests=2
-| cabinets=1
-| racks=1
-| stands=1
-| mandates=1
-| demands=2
-| arrival=
+{{Noble| noble= Baron| office= Decent Office| quarters= Decent Quarters| dining= Decent Dining Room| tomb= Tomb| chests=2| cabinets=1| racks=1| stands=1| mandates=1| demands=2| arrival=
 * 20 Population
 * 100 000☼ Produced [[wealth]]
-* 10 000☼ Exported [[wealth]]
-| function=
+* 10 000☼ Exported [[wealth]]| function=
 * Meet with [[diplomat]]s
-* Appoints a [[Champion]]
-}}{{av}}
+* Appoints a [[Champion]]}}{{av}}
 
 When a fortress meets certain requirements, the [[liaison]] will offer to make it a barony. The player will then have the option to choose a citizen to promote to the rank of '''baron''', which will take effect when the liaison leaves the map ("Do you have any dwarves to recommend for elevation?"). This offer can be temporarily rejected (by choosing the "we'd rather keep our distance" option or by canceling out of the selection screen after agreeing), deferring the choice until the liaison's next visit. Until the offer is accepted and a candidate nominated, the liaison(s) will not negotiate trade agreements. The promotion screen (see example below) displays only the names and titles of potential candidates. As of v0.50, it is possible to hit {{k|esc}} to close the diplomacy window, search for potential candidates in the {{menu icon|u}} units menu and come back to the diplomacy window to appoint the new baron accordingly. A baron is required for your fortress to receive [[wagon]]s in dwarven and human [[caravan]]s. If baron gets killed, or lost on an off site mission, you will no longer get wagons (bug?).
 

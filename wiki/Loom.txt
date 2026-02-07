@@ -1,15 +1,7 @@
-{{Quality|Fine}}{{v50 workshop
-|name=Loom
-|icon=[[File:loom_icon.png]]
-|key1=l
-|key2=o
-|job=
-*[[Weaver|Weaving]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Weaver|Weaving]]
-|use=
+{{Quality|Fine}}{{v50 workshop|name=Loom|icon=[[File:loom_icon.png]]|key1=l|key2=o|job=
+*[[Weaver|Weaving]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Weaver|Weaving]]|use=
 * [[Adamantine]] strands
 * [[Cave spider]] [[silk]] [[Cloth|thread]]
 * [[Giant cave spider]] [[silk]] [[Cloth|thread]]
@@ -21,10 +13,8 @@
 * [[Flax]] [[Cloth|thread]]
 * [[Ramie]] [[Cloth|thread]]
 * [[Jute]] [[Cloth|thread]]
-* [[Hemp]] [[Cloth|thread]]
-|production=
-* [[Cloth]]
-}}{{av}}
+* [[Hemp]] [[Cloth|thread]]|production=
+* [[Cloth]]}}{{av}}
 
 The '''Loom''' is used to turn [[thread]]s into [[cloth]]. The command to collect [[silk]] from [[Web|spider webs]] is also set here. 
 

@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_emu_sprite.png
-|portrait=emu_portrait_anim.gif
-|fat=16
-|eye=2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|gizzard=1
-|feather=1
-|brain=1
-|skull=1
-|skin=hide
-|meat=25
-|bone=29
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_emu_sprite.png|portrait=emu_portrait_anim.gif|fat=16|eye=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|gizzard=1|feather=1|brain=1|skull=1|skin=hide|meat=25|bone=29|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

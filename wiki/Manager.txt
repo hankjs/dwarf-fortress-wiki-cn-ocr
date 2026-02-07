@@ -1,11 +1,6 @@
 {{Quality|Unrated}}
 {{av}}
-{{Noble
-|noble=Manager
-|office=Meager Office
-|function = *Allows large production orders.
-|arrival= *Appointed on the [[nobles screen]].
-}}
+{{Noble|noble=Manager|office=Meager Office|function = *Allows large production orders.|arrival= *Appointed on the [[nobles screen]].}}
 
 The '''manager''' is a useful [[noble]] that allows players to create multiple [[Work orders]], and also lets them set up profiles for workshops. This means that players can rapidly dispatch any number of jobs from a single screen, without having to add tasks to individual [[workshop]]s. 
 

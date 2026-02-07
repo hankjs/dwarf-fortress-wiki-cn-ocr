@@ -124,8 +124,7 @@ In {{F|125679/4217863|one design}} posted to the forums by gchristopher, a pump 
 ▒%▒    % {{=}} south facing pump
 ▒%▒▒
 ▒▲▲▒   Left ramp ▲ has a left-pushing roller
-▒▒▒▒   Right ramp ▲ has a retracting bridge 
-}}
+▒▒▒▒   Right ramp ▲ has a retracting bridge }}
 
 If you drop minecarts in directly from at least 2 z-levels above onto the right ramp, this setup has the magical property that it can handle an arbitrary number of minecarts, and dispense them at a constant controlled rate. Carts are pushed up the left ramp by the roller.
 

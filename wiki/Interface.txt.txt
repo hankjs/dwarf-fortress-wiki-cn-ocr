@@ -10,20 +10,9 @@ The game key bindings are stored in '''interface.txt'''. They can be configured 
 
 Each action can be bound to any number of keys, either by keyboard location or letter. They can also be given a repeat style which specified what happens when any of the bound keys are held:
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Repeat Style
-! Behavior
-|-
-| Don't repeat
-| The action does not repeat at all; pressing the key performs the action exactly once, no matter how long it is held.
-|-
-| Delayed repeat
-| The action repeats after a delay of ``[[Technical tricks#Keyboard|KEY_HOLD_MS]]`` milliseconds.
-|-
-| Immediate repeat
-| The action repeats immediately.
-|}
+! Behavior|-| Don't repeat| The action does not repeat at all; pressing the key performs the action exactly once, no matter how long it is held.|-| Delayed repeat| The action repeats after a delay of ``[[Technical tricks#Keyboard|KEY_HOLD_MS]]`` milliseconds.|-| Immediate repeat| The action repeats immediately.|}
 
 == Changing key bindings in-game==
 When in-game, press {{k|Esc}} to open the options screen and select {{DFtext|Key Bindings}}. This shows the various game mode/screen categories (and [[Macros]]).
@@ -42,16 +31,8 @@ Adding bindings does not remove any other binding that also uses this key. This 
 
 If you're on a laptop or using a restricted keyboard, using {{k|+}} and {{k|*}} to scroll on some menus is inconvenient since it requires the Shift key. To scroll with ``-=[]`` instead of ``-+/*``, add:
 
-{| class="wikitable"
-|-
-! Category !! Command !! Key
-|-
-| General || Move secondary selector down || {{k|<nowiki>=</nowiki>}}
-|-
-| General || Page secondary selector up || {{k|[}}
-|-
-| General || Page secondary selector down || {{k|]}}
-|}
+{| class="wikitable"|-
+! Category !! Command !! Key|-| General || Move secondary selector down || {{k|<nowiki>=</nowiki>}}|-| General || Page secondary selector up || {{k|[}}|-| General || Page secondary selector down || {{k|]}}|}
 
 ===Change z-level without shift===
 
@@ -59,23 +40,13 @@ You can use the comma {{k|,}} and period {{k|.}}, rather than {{k|<}} and {{k|>}
 
 Add the following:
 
-{| class="wikitable"
-|-
-! Category !! Command !! Key
-|-
-| General || Move view/cursor up (z) || {{k|,}}
-|-
-| General || Move view/cursor down (z) || {{k|.}}
-|}
+{| class="wikitable"|-
+! Category !! Command !! Key|-| General || Move view/cursor up (z) || {{k|,}}|-| General || Move view/cursor down (z) || {{k|.}}|}
 
 Then remove the following to avoid clashing:
 
-{| class="wikitable"
-|-
-! Category !! Command !! Key
-|-
-| Dwarf mode || Main: One-Step || {{k|.}}
-|}
+{| class="wikitable"|-
+! Category !! Command !! Key|-| Dwarf mode || Main: One-Step || {{k|.}}|}
 
 == interface.txt ==
 The current key bindings are stored in the ``prefs/interface.txt`` file, and the defaults in ``data/init/interface.txt``: the location of the ``prefs`` [[Game folders and files|folder]] depends on the [[Settings#Portable mode|portable mode setting]] (there can also be a ``data`` folder there, but if you put a ``data/init/interface.txt`` there it will not be read).
@@ -105,20 +76,9 @@ Syntax:
 Each ``BIND`` is followed by a block of one or more key bindings (``SYM`` or ``KEY``; see below) terminated either by the next ``BIND`` or by the end of file.
 
 The repeat style is given as one of the following:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! String
-! Repeat Style
-|-
-| ``REPEAT_NOT``
-| Don't repeat
-|-
-| ``REPEAT_SLOW``
-| Delayed repeat
-|-
-| ``REPEAT_FAST``
-| Immediate repeat
-|}
+! Repeat Style|-| ``REPEAT_NOT``| Don't repeat|-| ``REPEAT_SLOW``| Delayed repeat|-| ``REPEAT_FAST``| Immediate repeat|}
 It is not possible to specify key bindings with different repeat styles for the same action; if more than one ``BIND`` exists for the same action, the repeat style of the last ``BIND`` is used for all bound keys.
 
 Vanilla interface.txt already includes ``BIND`` entries for all valid actions. It is possible to remove all key bindings for a given action by removing all ``SYM`` and ``KEY`` entries after the action's ``BIND``, and (optionally) removing the ``BIND`` itself. This, however, can result in frequent warnings output to the terminal if the game wants to display a key binding for the action (e.g. {{DFtext|;: Movies}} in the Dwarf Mode side bar; one can mitigate this by closing the side bar with {{k|Tab}}).
@@ -130,20 +90,9 @@ Syntax:
 <pre>[SYM:Modifiers:Key]</pre>
 
 The modifiers are represented as the sum of their codes listed below:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Modifier
-! Value
-|-
-| Shift
-| 1
-|-
-| Ctrl
-| 2
-|-
-| Alt
-| 4
-|}
+! Value|-| Shift| 1|-| Ctrl| 2|-| Alt| 4|}
 
 For example, ``[SYM:0:A]`` represents {{k|a}}, ``[SYM:1:Enter]`` represents {{k|Shift}}-{{k|Enter}}, and ``[SYM:6:Left]`` represents {{k|Ctrl}}-{{k|Alt}}-{{k|&larr;}}.
 

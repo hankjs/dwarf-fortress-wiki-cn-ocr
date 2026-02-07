@@ -1,17 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_louse_sprite.png
-|portrait=louse_portrait.png
-|meat=17-85
-|fat=15-20
-|skin=chitin
-|heart=1
-|intestine=10
-|eye=2
-|brain=3
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=giant_louse_sprite.png|portrait=louse_portrait.png|meat=17-85|fat=15-20|skin=chitin|heart=1|intestine=10|eye=2|brain=3|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 Just like normal [[Louse|lice]], '''giant lice''' are not bloodsucking parasites, for now. Giant lice are regular giant ground insects, although they lack an attack other than [[push|pushing]] and wrestling. Like all other insects, their max age is very short. They are lacking [LARGE_PREDATOR] token and will mostly leave your dwarves alone.

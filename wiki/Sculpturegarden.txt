@@ -1,52 +1,7 @@
 {{Quality|Tattered}}
 {{av}}
 
-{| style="border-spacing: 0" align="right"
-|{{RT0|╔|0:1}}
-|{{RT0|═|0:1}}
-|{{RT0|═|0:1}}
-|{{RT|┼|3:3:1}}
-|{{RT0|═|0:1}}
-|{{RT0|═|0:1}}
-|{{RT0|═|0:1}}
-|{{RT0|═|0:1}}
-|-rowpadding="0"
-|{{RT0|║|0:1}}
-|{{RT|♫|6:1}}
-|{{RT0|,|6:0}}
-|{{RT0|.|2:0}}
-|{{RT0|☺|4:0}}
-|{{RT0|,|2:0}}
-|{{RT0|'|2:0}}
-|{{RT0|~|1:1}}
-|-
-|{{RT0|║|0:1}}
-|{{RT0|'|6:0}}
-|{{RT|X|3:3:1}}
-|{{RT0|`|2:0}}
-|{{RT0|Ω|7:1}}
-|{{RT0|.|2:0}}
-|{{H2O}}
-|{{H2O}}
-|-
-|{{RT0|║|0:1}}
-|{{RT0|.|6:0}}
-|{{RT0|☺|3:0}}
-|{{RT0|π|3:1}}
-|{{RT0|,|2:0}}
-|{{H2O}}
-|{{RT0|~|1:1}}
-|{{H2O}}
-|-
-|{{RT0|║|0:1}}
-|{{RT0|'|2:0}}
-|{{RT0|,|2:0}}
-|{{RT0|d|4:0}}
-|{{RT0|d|0:1}}
-|{{RT0|☺|5:0}}
-|{{H2O}}
-|{{RT0|~|1:1}}
-|}
+{| style="border-spacing: 0" align="right"|{{RT0|╔|0:1}}|{{RT0|═|0:1}}|{{RT0|═|0:1}}|{{RT|┼|3:3:1}}|{{RT0|═|0:1}}|{{RT0|═|0:1}}|{{RT0|═|0:1}}|{{RT0|═|0:1}}|-rowpadding="0"|{{RT0|║|0:1}}|{{RT|♫|6:1}}|{{RT0|,|6:0}}|{{RT0|.|2:0}}|{{RT0|☺|4:0}}|{{RT0|,|2:0}}|{{RT0|'|2:0}}|{{RT0|~|1:1}}|-|{{RT0|║|0:1}}|{{RT0|'|6:0}}|{{RT|X|3:3:1}}|{{RT0|`|2:0}}|{{RT0|Ω|7:1}}|{{RT0|.|2:0}}|{{H2O}}|{{H2O}}|-|{{RT0|║|0:1}}|{{RT0|.|6:0}}|{{RT0|☺|3:0}}|{{RT0|π|3:1}}|{{RT0|,|2:0}}|{{H2O}}|{{RT0|~|1:1}}|{{H2O}}|-|{{RT0|║|0:1}}|{{RT0|'|2:0}}|{{RT0|,|2:0}}|{{RT0|d|4:0}}|{{RT0|d|0:1}}|{{RT0|☺|5:0}}|{{H2O}}|{{RT0|~|1:1}}|}
 
 A '''sculpture garden''' is a [[meeting area]] containing at least one [[statue]], unengraved [[slab]] or [[museum]]. Sculpture gardens can be assigned to [[location]]s (such as a [[tavern]], [[temple]] or [[library]]) or left unassigned, for communal enjoyment. A communal (non-assigned) garden, being a meeting area, provides a place for idle dwarves and animals to congregate and socialize.
 

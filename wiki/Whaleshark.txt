@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=whale_shark_sprites.png
-|portrait=whale_shark_portrait.png
-|meat=600-680
-|eye=2
-|heart=25
-|intestine=152
-|liver=50
-|tripe=50
-|sweetbread=25
-|spleen=25
-|kidney=50
-|fat=130-150
-|brain=50
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=whale_shark_sprites.png|portrait=whale_shark_portrait.png|meat=600-680|eye=2|heart=25|intestine=152|liver=50|tripe=50|sweetbread=25|spleen=25|kidney=50|fat=130-150|brain=50|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Whale sharks''' are massive [[Creature|sharks]] who inhabit [[tropical]] [[ocean]]s. They are among the [[List of creatures by adult size#end of list|largest creatures]] in the game and are the largest of all fish. Colossal as they are, they are benign and harmless to [[dwarves]], who are more likely to drown by being on water, rather than being attacked by one of these. An infant whale shark is called a ''whale shark pup''.

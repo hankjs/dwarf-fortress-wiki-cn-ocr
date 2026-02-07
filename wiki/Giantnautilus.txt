@@ -1,14 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_nautilus_sprite.png
-|portrait=nautilus_portrait.png
-|contrib=no
-|meat=4-5
-|fat=2
-|eye=2
-|shell=2
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_nautilus_sprite.png|portrait=nautilus_portrait.png|contrib=no|meat=4-5|fat=2|eye=2|shell=2|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

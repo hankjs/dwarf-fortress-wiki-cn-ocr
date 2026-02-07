@@ -49,60 +49,12 @@ You can defile a temple of your deity by toppling a [[statue]], which leads to b
 === Architecture ===
 Each temple found in procedurally-generated towns will have its own architecture, where certain architectural elements are chosen depending on the spheres to which the temple belongs. A temple can use a certain architectural element because of its likeness to their worshipped spheres, but also because of an antithetical relationship to said spheres. A complete list of architectural elements, as well as their connection to different spheres, is given in the table below. Since the introduction of institutionalized [[religion]]s, this seems to have changed somewhat, with most such temples having a wide array of architectural elements.
 [[File:Df temple.png|300px|thumb|6 level temple, showing water pool, detailed surfaces, paved indoor areas, lower floors, upper floors, pillars on the perimeter, and a paved outdoor area, with doors leading to the catacombs. Dedicated to the Bejeweled Creed, a religion worshipping Ñor, deity of Birth and Youth. ]]
-{| class="wikitable" cellspacing="0" border="1" cellpadding="5"
-|-
+{| class="wikitable" cellspacing="0" border="1" cellpadding="5"|-
 ! Architectural element
 ! Justification
 ! Related spheres
 ! Disallowed spheres
-
-|-
-|rowspan=2|Detailed surfaces||Experience||Art, Depravity||
-|-
-|Representation||Painting||
-|-
-|[[Magma|Lava]] pool||Representation||Volcanos||
-|-
-|rowspan=2|Lower floors||Representation||Caverns||
-|-
-|Experience||Darkness, Earth||
-|-
-|rowspan=2|Open structure||Experience||Dawn, Day, Dusk, Light, Lightning,<br/>Mist, Moon, Nature, Night, Rain,<br/>Rainbows, Seasons, Sky, Stars, Storms,<br/>Sun, Thunder, Twilight, Weather, Wind||
-|-
-|Representation||Freedom||
-|-
-|rowspan=3|Paved indoor areas||Representation||Fortresses||Caverns
-|-
-|Experience|| ||Earth, Plants
-|-
-|Antithetical|| ||Nature, Trees
-|-
-|rowspan=3|Paved outdoor area||Representation||Fortresses||
-|-
-|Experience|| || Earth, Plants
-|-
-|Antithetical|| ||Nature, Trees
-|-
-|Pillars on the perimeter||Representation||Boundaries, Fortresses||
-|-
-|rowspan=2|Square of pillars||Representation||Balance, Discipline, Laws, Order||
-|-
-|Antithetical|| ||Chaos, Deformity
-|-
-|Stagnant pool||Experience||Disease, Muck||
-|-
-|Uneven pillars||Representation||Chaos, Deformity||
-|-
-|rowspan=2|Upper floors||Representation||Fortresses, Mountains||
-|-
-|Experience||Dawn, Day, Dusk, Lightning, Moon,<br/>Rainbows, Sky, Stars, Storms, Sun,<br/>Thunder, Weather, Wind||
-|-
-|rowspan=3|Water pool||Representation||Coasts, Lakes, Oceans, Rivers||
-|-
-|Experience||Water||
-|-
-|Reminder||Fish, Fishing||
-|}
+|-|rowspan=2|Detailed surfaces||Experience||Art, Depravity|||-|Representation||Painting|||-|[[Magma|Lava]] pool||Representation||Volcanos|||-|rowspan=2|Lower floors||Representation||Caverns|||-|Experience||Darkness, Earth|||-|rowspan=2|Open structure||Experience||Dawn, Day, Dusk, Light, Lightning,<br/>Mist, Moon, Nature, Night, Rain,<br/>Rainbows, Seasons, Sky, Stars, Storms,<br/>Sun, Thunder, Twilight, Weather, Wind|||-|Representation||Freedom|||-|rowspan=3|Paved indoor areas||Representation||Fortresses||Caverns|-|Experience|| ||Earth, Plants|-|Antithetical|| ||Nature, Trees|-|rowspan=3|Paved outdoor area||Representation||Fortresses|||-|Experience|| || Earth, Plants|-|Antithetical|| ||Nature, Trees|-|Pillars on the perimeter||Representation||Boundaries, Fortresses|||-|rowspan=2|Square of pillars||Representation||Balance, Discipline, Laws, Order|||-|Antithetical|| ||Chaos, Deformity|-|Stagnant pool||Experience||Disease, Muck|||-|Uneven pillars||Representation||Chaos, Deformity|||-|rowspan=2|Upper floors||Representation||Fortresses, Mountains|||-|Experience||Dawn, Day, Dusk, Lightning, Moon,<br/>Rainbows, Sky, Stars, Storms, Sun,<br/>Thunder, Weather, Wind|||-|rowspan=3|Water pool||Representation||Coasts, Lakes, Oceans, Rivers|||-|Experience||Water|||-|Reminder||Fish, Fishing|||}
 
 === Shrines ===
 Before a temple is built in a site, there will be shrines dedicated to a given religion, consisting of a small garden, a [[statue]], and either a [[pedestal]] or an [[altar]]. If the religion has a divination tradition, divination [[dice]] can be found in these shrines. '''(Not to be confused with the lairs of [[titan]]s, also called [[Shrine (megabeast)|shrine]]s.)'''
@@ -128,12 +80,7 @@ The dwarven word for temple (religious building)  is ''rath.'' This page refers 
 :Milo (in Human)
 :TEMPLE HEAD (note that this token key does NOT use underscore, instead having a space)
 [[File:dwarf_temple.jpg|thumb|320px|center|A real life temple.]]
-{{Translation
-| dwarven = rath
-| elvish  = fothi
-| goblin  = spôgmuk
-| human   = olum
-}}
+{{Translation| dwarven = rath| elvish  = fothi| goblin  = spôgmuk| human   = olum}}
 
 {{world}}
 {{Category|Locations}}

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=otter_man_sprite.png
-|portrait=otter_man_portrait.png
-|vary=[[River otter]] - [[Otter man]] - [[Giant otter]]}}
+{{Creaturelookup/0|image=otter_man_sprite.png|portrait=otter_man_portrait.png|vary=[[River otter]] - [[Otter man]] - [[Giant otter]]}}
 {{av}}
 {{creaturedesc}}
 

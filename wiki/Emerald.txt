@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_emerald_sprite.png
-|graphic2=rough_emerald_sprite.png}}
+{{gemlookup/0|graphic=cut_emerald_sprite.png|graphic2=rough_emerald_sprite.png}}
 {{av}}
 
 '''Emeralds''' (a green form of the mineral beryl), are precious [[gem]]s, found in small [[cluster]]s within [[schist]], [[granite]], and [[marble]].  They have a value of 40, which makes them excellent trade goods or [[decoration]]s - if they do appear on the map, emeralds tend to be much more plentiful than [[faint yellow diamond|all]] [[ruby|other]] [[sapphire|gems]] of equal value; however, unlike those, emerald clusters never contain more valuable gem inclusions.
@@ -17,12 +15,7 @@ Like all precious and rare gems, they may also make up part of the walls of [[un
 <!-- Reference: Minecraft -->
 Some adventurers have been known to try to use emeralds as a form of currency, though most shopkeepers insist on [[coin]]s (or simple bartering).
 
-{{Translation
-| dwarven = sedur
-| elvish  = thofala
-| goblin  = taxasm
-| human   = hehan
-}}
+{{Translation| dwarven = sedur| elvish  = thofala| goblin  = taxasm| human   = hehan}}
 
 {{gamedata}}
 {{gems}}

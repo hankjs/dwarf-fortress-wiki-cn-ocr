@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=large_roach_sprite.png
-|portrait=roach_portrait.png
-|wiki=Cockroach}}
+{{verminlookup/0|image=large_roach_sprite.png|portrait=roach_portrait.png|wiki=Cockroach}}
 {{av}}
 {{creaturedesc}}
 

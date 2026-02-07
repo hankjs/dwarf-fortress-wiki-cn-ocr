@@ -1,16 +1,11 @@
 {{Quality|Fine}}
-{{Skill
-| color      = 3:0
-| skill      = Knapper
-| tasks      =
-* Sharpening stones
-| attributes =
+{{Skill| color      = 3:0| skill      = Knapper| tasks      =
+* Sharpening stones| attributes =
 * Agility
 * Analytical Ability
 * Kinesthetic Sense
 * Spatial Sense
-* Strength
-}}
+* Strength}}
 {{av}}
 
 '''Knapper''' is a skill – currently only used in [[Adventurer mode]] – which allows an adventurer to sharpen small rocks for use as crude [[weapon]]s, materials, and [[butcher]]ing tools.

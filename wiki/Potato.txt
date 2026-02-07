@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=potato_shrub_sprite.png
-|seedimage=potato_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=potato_shrub_sprite.png|seedimage=potato_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Food]]
-}}
+*[[Food]]}}
 {{av}}
 {{distinguish|sweet potato}}
 

@@ -1,11 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=grey_parrot_sprites.png
-|portrait=grey_parrot_portrait_anim.gif
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=grey_parrot_sprites.png|portrait=grey_parrot_portrait_anim.gif|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

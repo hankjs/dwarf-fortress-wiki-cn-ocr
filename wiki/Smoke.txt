@@ -10,12 +10,7 @@ Minor testing has indicated that smoke, from the moment the source disappears, t
 
 [[File:smoke_ex.jpg|thumb|230px|center|Where there's smoke...]]
 
-{{Translation
-| dwarven = mezum
-| elvish  = thafa
-| goblin  = uspsast
-| human   = ipan
-}}
+{{Translation| dwarven = mezum| elvish  = thafa| goblin  = uspsast| human   = ipan}}
 
 {{Category|Fortress mode}}
 {{Category|Physics}}

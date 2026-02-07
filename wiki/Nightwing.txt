@@ -1,10 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=nightwing_sprite.png
-|portrait=nightwing_portrait.png
-|wiki=no
-|contrib=yes
-}}
+{{Creaturelookup/0|image=nightwing_sprite.png|portrait=nightwing_portrait.png|wiki=no|contrib=yes}}
 {{av}}
 {{creaturedesc}}
 

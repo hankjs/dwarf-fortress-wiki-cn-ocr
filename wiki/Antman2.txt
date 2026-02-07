@@ -1,10 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=Ant_man_sprite.png
-|portrait=antman_portrait.png
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=Ant_man_sprite.png|portrait=antman_portrait.png|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 

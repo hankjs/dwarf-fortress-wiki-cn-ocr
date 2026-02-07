@@ -29,14 +29,11 @@ Glass behaves somewhat oddly with [[magma]], despite being strictly magma-safe (
 ==Physical properties==
 Through memory hacking, the material properties of each type of glass have been determined; for reference, they have been reconstructed below as material definitions:
 
-{{gamedata|title=Green glass
-|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_GREEN}}}}
+{{gamedata|title=Green glass|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_GREEN}}}}
 
-{{gamedata|title=Clear glass
-|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_CLEAR}}}}
+{{gamedata|title=Clear glass|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_CLEAR}}}}
 
-{{gamedata|title=Crystal glass
-|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_CRYSTAL}}}}
+{{gamedata|title=Crystal glass|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|GLASS_CRYSTAL}}}}
 
 ==See also==
 *[[Glass industry]]

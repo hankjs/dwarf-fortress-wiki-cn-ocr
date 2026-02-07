@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=mosquito_sprite.png
-|portrait=mosquito_portrait.png}}
+{{verminlookup/0|image=mosquito_sprite.png|portrait=mosquito_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

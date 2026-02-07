@@ -14,186 +14,27 @@ A number of songs include lyrics in the [[Dwarven language]], such as Drink & In
 
 The Premium OST is dynamic, and the songs that play during games will depend on game context.
 
-{| class="wikitable"
-|+ Dwarf Fortress Soundtrack
-|-
-! # !! Title !! Length !! Trigger condition
-|-
-| 1
-| Dwarf Fortress
-| 6:50
-| Plays when launching the game.
-|-
-| 2
-| First Year
-| 5:00
-| <tt> [CONTEXT:FIRST_YEAR] </tt>
-|-
-| 3
-| Craftsdwarfship
-| 3:46
-| <tt> [CONTEXT:ANY] </tt>
-|-
-| 4
-| Strike The Earth!
-| 4:05
-| <tt> [EVENT:JUST_EMBARKED]<br>
+{| class="wikitable"|+ Dwarf Fortress Soundtrack|-
+! # !! Title !! Length !! Trigger condition|-| 1| Dwarf Fortress| 6:50| Plays when launching the game.|-| 2| First Year| 5:00| <tt> [CONTEXT:FIRST_YEAR] </tt>|-| 3| Craftsdwarfship| 3:46| <tt> [CONTEXT:ANY] </tt>|-| 4| Strike The Earth!| 4:05| <tt> [EVENT:JUST_EMBARKED]<br>
 [CONTEXT:MAIN]<br>
-[FREQUENCY:UNCOMMON]</tt>
-|-
-| 5
-| Strange Moods
-| 4:37
-| <tt>[CONTEXT:MAIN]</tt>
-|-
-| 6
-| Hill Dwarf
-| 4:11
-| <tt>[CONTEXT:MAIN]</tt>
-|-
-| 7
-| Vile Force of Darkness
-| 5:17
-| <tt>[EVENT:SIEGE]</tt>
-|-
-| 8
-| Expansive Cavern
-| 4:05
-| <tt>[EVENT:FIRST_CAVERN_OPENED]<br>
-[CONTEXT:CAVERNS_OPENED]</tt>
-|-
-| 9
-| Forgotten Beast
-| 3:53
-| <tt>[EVENT:MEGABEAST_ATTACK]<br>
-[EVENT:FORGOTTEN_BEAST_ATTACK]</tt>
-|-
-| 10
-| Drink & Industry
-| 2:10
-| <tt>[EVENT:TAVERN_MUSIC_PRESENT]<br>
-[EVENT:TAVERN_DANCE_PRESENT]</tt>
-|-
-| 11
-| Mountainhome
-| 5:27
-| <tt>[CONTEXT:ANY]</tt>
-|-
-| 12
-| Death Spiral
-| 5:20
-| <tt>[EVENT:DEATH_SPIRAL]</tt>
-|-
-| 13
-| Winter Entombs You
-| 5:22
-| <tt>[CONTEXT:WINTER]</tt>
-|-
-| 14
-| Another Year
-| 5:35
-| <tt>[CONTEXT:SECOND_YEAR_PLUS]</tt>
-|-
-| 15
-| [[Bloodline:Boatmurdered|Koganusan]]
-| 3:52
-| <tt>[EVENT:LOST_FORT]</tt>
-|-
-| 16
-| Espagnole (Bonus)
-| 2:49
-|-
-| 17
-| Haunted Lands (Bonus)
-| 2:41
-| style="border-top: 0px; border-bottom: 0px" | Interludes play intermittently.
-|-
-| 18
-| Cages & Chains (Bonus)
-| 1:54
-|}
+[FREQUENCY:UNCOMMON]</tt>|-| 5| Strange Moods| 4:37| <tt>[CONTEXT:MAIN]</tt>|-| 6| Hill Dwarf| 4:11| <tt>[CONTEXT:MAIN]</tt>|-| 7| Vile Force of Darkness| 5:17| <tt>[EVENT:SIEGE]</tt>|-| 8| Expansive Cavern| 4:05| <tt>[EVENT:FIRST_CAVERN_OPENED]<br>
+[CONTEXT:CAVERNS_OPENED]</tt>|-| 9| Forgotten Beast| 3:53| <tt>[EVENT:MEGABEAST_ATTACK]<br>
+[EVENT:FORGOTTEN_BEAST_ATTACK]</tt>|-| 10| Drink & Industry| 2:10| <tt>[EVENT:TAVERN_MUSIC_PRESENT]<br>
+[EVENT:TAVERN_DANCE_PRESENT]</tt>|-| 11| Mountainhome| 5:27| <tt>[CONTEXT:ANY]</tt>|-| 12| Death Spiral| 5:20| <tt>[EVENT:DEATH_SPIRAL]</tt>|-| 13| Winter Entombs You| 5:22| <tt>[CONTEXT:WINTER]</tt>|-| 14| Another Year| 5:35| <tt>[CONTEXT:SECOND_YEAR_PLUS]</tt>|-| 15| [[Bloodline:Boatmurdered|Koganusan]]| 3:52| <tt>[EVENT:LOST_FORT]</tt>|-| 16| Espagnole (Bonus)| 2:49|-| 17| Haunted Lands (Bonus)| 2:41| style="border-top: 0px; border-bottom: 0px" | Interludes play intermittently.|-| 18| Cages & Chains (Bonus)| 1:54|}
 
 == Adventure mode OST ==
 
 The [[Adventure mode]] OST features dynamic mixing, with pads, vocals, percussion, and the lead guitar able to duck in and out depending on the situation. The soundtrack release (and thus, the versions of these tracks that play in [[fortress mode]]) features those layers [https://store.steampowered.com/news/app/975370/view/4186734162819864096 "baked" as the composers intended.]
 
-{| class="wikitable"
-|+ Dwarf Fortress Soundtrack
-|-
-! # !! Title !! Length !! Trigger condition
-|-
-| 1
-| Strike it Again
-| 4:51
-| <tt> [EVENT:JUST_EMBARKED]<br>
+{| class="wikitable"|+ Dwarf Fortress Soundtrack|-
+! # !! Title !! Length !! Trigger condition|-| 1| Strike it Again| 4:51| <tt> [EVENT:JUST_EMBARKED]<br>
 [CONTEXT:MAIN]<br>
-[FREQUENCY:UNCOMMON]</tt>
-|-
-| 2
-| The Capital
-| 6:58
-| <tt> [CONTEXT:SECOND_YEAR_PLUS] </tt>
-|-
-| 3
-| Bruising The Fat ''(Shar Ikal)''
-| 4:44
-| <tt> [EVENT:SIEGE] </tt>
-|-
-| 4
-| Life of Adventure
-| 4:06
-| <tt> [CONTEXT:ANY] </tt>
-|-
-| 5
-| Beyond the Gates
-| 5:41
-| <tt> [EVENT:SIEGE]<br>
+[FREQUENCY:UNCOMMON]</tt>|-| 2| The Capital| 6:58| <tt> [CONTEXT:SECOND_YEAR_PLUS] </tt>|-| 3| Bruising The Fat ''(Shar Ikal)''| 4:44| <tt> [EVENT:SIEGE] </tt>|-| 4| Life of Adventure| 4:06| <tt> [CONTEXT:ANY] </tt>|-| 5| Beyond the Gates| 5:41| <tt> [EVENT:SIEGE]<br>
 [EVENT:MEGABEAST_ATTACK]<br>
-[EVENT:FORGOTTEN_BEAST_ATTACK] </tt>
-|-
-| 6
-| Hamlet Memoirs
-| 5:04
-| <tt> [EVENT:FORT_LEVEL] </tt>
-|-
-| 7
-| Night Creature
-| 5:59
-| <tt> [EVENT:FIRST_GHOST] </tt>
-|-
-| 8
-| Into The Pits (feat. rcab)
-| 5:39
-| <tt> [CONTEXT:ANY] </tt>
-|-
-| 9
-| Sisters of War
-| 4:23
-| <tt>[EVENT:TAVERN_MUSIC_PRESENT]<br>
-[EVENT:TAVERN_DANCE_PRESENT]</tt>
-|-
-| 10
-| Cannibal
-| 6:18
-| <tt>[EVENT:FIRST_CAVERN_OPENED]<br>
-[CONTEXT:CAVERNS_OPENED]</tt>
-|-
-| 11
-| Pony Rider
-| 4:25
-| <tt>[EVENT:MEGABEAST_ATTACK]<br>
-[EVENT:FORGOTTEN_BEAST_ATTACK]</tt>
-|-
-| 12
-| Two Coins
-| 5:54
-| <tt> [CONTEXT:ANY] </tt>
-|-
-| 13
-| Losing Is Fun
-| 4:34
-| <tt>[EVENT:DEATH_SPIRAL]</tt>
-|}
+[EVENT:FORGOTTEN_BEAST_ATTACK] </tt>|-| 6| Hamlet Memoirs| 5:04| <tt> [EVENT:FORT_LEVEL] </tt>|-| 7| Night Creature| 5:59| <tt> [EVENT:FIRST_GHOST] </tt>|-| 8| Into The Pits (feat. rcab)| 5:39| <tt> [CONTEXT:ANY] </tt>|-| 9| Sisters of War| 4:23| <tt>[EVENT:TAVERN_MUSIC_PRESENT]<br>
+[EVENT:TAVERN_DANCE_PRESENT]</tt>|-| 10| Cannibal| 6:18| <tt>[EVENT:FIRST_CAVERN_OPENED]<br>
+[CONTEXT:CAVERNS_OPENED]</tt>|-| 11| Pony Rider| 4:25| <tt>[EVENT:MEGABEAST_ATTACK]<br>
+[EVENT:FORGOTTEN_BEAST_ATTACK]</tt>|-| 12| Two Coins| 5:54| <tt> [CONTEXT:ANY] </tt>|-| 13| Losing Is Fun| 4:34| <tt>[EVENT:DEATH_SPIRAL]</tt>|}
 
 ==External links==
 Volume 1

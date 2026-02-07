@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=maple_trunk_sprite.png
-|sapling=maple_sapling.png}}
+{{Treelookup/0|graphic=maple_trunk_sprite.png|sapling=maple_sapling.png}}
 {{av}}
 
 '''Maples''' are a type of [[above ground]] [[tree]], found in nearly any [[temperate]] region with [[plants|vegetation]]. Like the overwhelming majority of overland trees, maple [[carpenter|wood]] is brown and produces brown products. Logs can be processed in a [[dyer's shop]] into light brown [[dye]].

@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=dacite_sprite.png}}
+{{stonelookup/0|graphic=dacite_sprite.png}}
 {{av}}
 
 '''Dacite''' is one of the types of [[Igneous extrusive layer|igneous extrusive]] [[stone]] that forms entire [[stone#Stones forming entire layers |layer]]s, functionally identical to [[andesite]] and [[rhyolite]]. It does, however, have a slightly different melting point, and is not [[magma safe]].

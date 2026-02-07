@@ -10,16 +10,7 @@ Selecting surroundings is one way to change the [[difficulty]] of the game. Surr
 
 == Combinations & characteristics of surroundings ==
 The names given to different areas will reflect their moral standing. For example, good biomes may be named "The Hills of Sweetness" while an evil one may be named "The Prairie of Agony". Neutral biomes will generally have more generic names, such as "The Beige Jungles". Not all worlds will contain every kind of combinations. For example, a world that is low in savagery may not contain Joyous Wilds surroundings. 
-{| {{prettytable}}
-|-style="background:#dddddd"
-|style="background:#aaaaaa"| ||'''Benign'''||'''Neutral'''||'''Savage'''
-|-
-|style="background:#dddddd"|'''Good'''||Serene||Mirthful||Joyous Wilds
-|-
-|style="background:#dddddd"|'''Neutral'''||Calm||Wilderness||Untamed Wilds
-|-
-|style="background:#dddddd"|'''Evil'''||Sinister||Haunted||Terrifying
-|}
+{| {{prettytable}}|-style="background:#dddddd"|style="background:#aaaaaa"| ||'''Benign'''||'''Neutral'''||'''Savage'''|-|style="background:#dddddd"|'''Good'''||Serene||Mirthful||Joyous Wilds|-|style="background:#dddddd"|'''Neutral'''||Calm||Wilderness||Untamed Wilds|-|style="background:#dddddd"|'''Evil'''||Sinister||Haunted||Terrifying|}
 
 ===Good===
 :Including {{DFtext|Serene|1:1}}, {{DFtext|Mirthful|2:1}} and {{DFtext|Joyous Wilds|3:1}}

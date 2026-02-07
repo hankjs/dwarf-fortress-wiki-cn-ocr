@@ -1,16 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_slug_sprite.png
-|portrait=slug_portrait.png
-|contrib=no
-|wiki=no
-|fat=20-27
-|intestine=20
-|heart=3
-|brain=6
-|meat=55-74
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_slug_sprite.png|portrait=slug_portrait.png|contrib=no|wiki=no|fat=20-27|intestine=20|heart=3|brain=6|meat=55-74|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

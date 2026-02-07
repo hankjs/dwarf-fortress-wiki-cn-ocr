@@ -7,60 +7,22 @@ Some creatures dream of accomplishing certain '''goals''' in their life, and the
 {| class="wikitable anchortable"
 ! Token
 ! Description
-! Gameplay effects
-|-
-! style="background-color:#EDCF10" | {{text anchor|START_A_FAMILY}}
-| dreams of raising a family
-| Dream realized upon giving birth/fathering an infant.
-|-
-! style="background-color:#FFE111" | {{text anchor|RULE_THE_WORLD}}
-| dreams of ruling the world
-|-
-! style="background-color:#EDCF10" | {{text anchor|CREATE_A_GREAT_WORK_OF_ART}}
-| dreams of creating a great work of art
-| Dream realized upon creation of Artifact or Masterpiece.
-|-
-! style="background-color:#FFE111" | {{text anchor|CRAFT_A_MASTERWORK}}
-| dreams of crafting a masterwork someday
-| Dream realized upon creation of Artifact or Masterpiece.
-|-
-! style="background-color:#EDCF10" | {{text anchor|BRING_PEACE_TO_THE_WORLD}}
-| dreams of bringing lasting peace to the world
-|-
-! style="background-color:#FFE111" | {{text anchor|BECOME_A_LEGENDARY_WARRIOR}}
-| dreams of becoming a legendary warrior
-|-
-! style="background-color:#EDCF10" | {{text anchor|MASTER_A_SKILL}}
-| dreams of mastering a skill
-| Dream realized upon reaching Legendary skill status.
-|-
-! style="background-color:#FFE111" | {{text anchor|FALL_IN_LOVE}}
-| dreams of falling in love
-|-
-! style="background-color:#EDCF10" | {{text anchor|SEE_THE_GREAT_NATURAL_SITES}}
-| dreams of seeing the great natural places of the world
-|-
-! style="background-color:#FFE111" | {{text anchor|IMMORTALITY}}
-| has become obsessed with his/her own [[Immortality|mortality]]
-| Leads to [[necromancer|necromancy]], which renders the seeker immune to death by old age. Creatures like [[goblin]]s and [[elf|elves]], who are immortal from the start, cannot have this goal.
-|-
-! style="background-color:#EDCF10" | {{text anchor|MAKE_A_GREAT_DISCOVERY}}
-| dreams of making a great discovery
-| Dream realized upon discovering a [[topic]].
-|-
-! style="background-color:#FFE111" | {{text anchor|ATTAIN_RANK_IN_SOCIETY}}
-| dreams of attaining rank in society
-| Dream realized upon becoming a baron (and possibly other noble positions).
-|-
-! style="background-color:#EDCF10" | {{text anchor|BATHE_WORLD_IN_CHAOS}}
-|dreams of bathing the world in chaos
-|-
-! style="background-color:#FFE111" | {{text anchor|STAY_ALIVE}}
-|
-|-
-! style="background-color:#EDCF10" | {{text anchor|MAINTAIN_ENTITY_STATUS}}
-|
-|}
+! Gameplay effects|-
+! style="background-color:#EDCF10" | {{text anchor|START_A_FAMILY}}| dreams of raising a family| Dream realized upon giving birth/fathering an infant.|-
+! style="background-color:#FFE111" | {{text anchor|RULE_THE_WORLD}}| dreams of ruling the world|-
+! style="background-color:#EDCF10" | {{text anchor|CREATE_A_GREAT_WORK_OF_ART}}| dreams of creating a great work of art| Dream realized upon creation of Artifact or Masterpiece.|-
+! style="background-color:#FFE111" | {{text anchor|CRAFT_A_MASTERWORK}}| dreams of crafting a masterwork someday| Dream realized upon creation of Artifact or Masterpiece.|-
+! style="background-color:#EDCF10" | {{text anchor|BRING_PEACE_TO_THE_WORLD}}| dreams of bringing lasting peace to the world|-
+! style="background-color:#FFE111" | {{text anchor|BECOME_A_LEGENDARY_WARRIOR}}| dreams of becoming a legendary warrior|-
+! style="background-color:#EDCF10" | {{text anchor|MASTER_A_SKILL}}| dreams of mastering a skill| Dream realized upon reaching Legendary skill status.|-
+! style="background-color:#FFE111" | {{text anchor|FALL_IN_LOVE}}| dreams of falling in love|-
+! style="background-color:#EDCF10" | {{text anchor|SEE_THE_GREAT_NATURAL_SITES}}| dreams of seeing the great natural places of the world|-
+! style="background-color:#FFE111" | {{text anchor|IMMORTALITY}}| has become obsessed with his/her own [[Immortality|mortality]]| Leads to [[necromancer|necromancy]], which renders the seeker immune to death by old age. Creatures like [[goblin]]s and [[elf|elves]], who are immortal from the start, cannot have this goal.|-
+! style="background-color:#EDCF10" | {{text anchor|MAKE_A_GREAT_DISCOVERY}}| dreams of making a great discovery| Dream realized upon discovering a [[topic]].|-
+! style="background-color:#FFE111" | {{text anchor|ATTAIN_RANK_IN_SOCIETY}}| dreams of attaining rank in society| Dream realized upon becoming a baron (and possibly other noble positions).|-
+! style="background-color:#EDCF10" | {{text anchor|BATHE_WORLD_IN_CHAOS}}|dreams of bathing the world in chaos|-
+! style="background-color:#FFE111" | {{text anchor|STAY_ALIVE}}||-
+! style="background-color:#EDCF10" | {{text anchor|MAINTAIN_ENTITY_STATUS}}||}
 
 {{Category|Dwarves}}
 {{Category|Modding}}

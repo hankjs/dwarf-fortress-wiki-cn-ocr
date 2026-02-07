@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=hippo_man_sprite.png
-|portrait=hippo_man_portrait.png
-|contrib=no}}
+{{Creaturelookup/0|image=hippo_man_sprite.png|portrait=hippo_man_portrait.png|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

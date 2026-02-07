@@ -7,12 +7,7 @@
 
 Scourges use and train the [[lasher]] skill. As foreign weapons, dwarves cannot [[forge]] scourges, limiting supply to whatever low-[[quality]] specimens can be scavenged from [[goblin]] invaders. [[Weapon#Size|Even the smallest dwarves]] can equip a scourge one-handed.
 
-{{Translation
-| dwarven = abshoth
-| elvish  = fétha
-| goblin  = song
-| human   = etuk
-}}
+{{Translation| dwarven = abshoth| elvish  = fétha| goblin  = song| human   = etuk}}
 
 {{gamedata}}
 {{Weapons}}

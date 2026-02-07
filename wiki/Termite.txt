@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=termite_sprite.png
-|portrait=termite_portrait.png}}
+{{verminlookup/0|image=termite_sprite.png|portrait=termite_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

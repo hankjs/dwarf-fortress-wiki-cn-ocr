@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=sparrow_man_sprite.png
-|portrait=sparrow_man_portrait.png
-|death=nobutcher
-|contrib=no
-|wiki=no}}
+{{Creaturelookup/0|image=sparrow_man_sprite.png|portrait=sparrow_man_portrait.png|death=nobutcher|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

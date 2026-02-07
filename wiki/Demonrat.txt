@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=demon_rat_sprite.png
-|portrait=demon_rat_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=demon_rat_sprite.png|portrait=demon_rat_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

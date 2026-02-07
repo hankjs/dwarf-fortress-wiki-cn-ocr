@@ -1,20 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=hungry_head_sprite.png
-|portrait=hungry_head_portrait.png
-|wiki=no
-|contrib=no
-|bone=2
-|meat=3
-|fat=3
-|lung=2
-|intestine=1
-|liver=0-1
-|tripe=0-1
-|brain=0-1
-|skull=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=hungry_head_sprite.png|portrait=hungry_head_portrait.png|wiki=no|contrib=no|bone=2|meat=3|fat=3|lung=2|intestine=1|liver=0-1|tripe=0-1|brain=0-1|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

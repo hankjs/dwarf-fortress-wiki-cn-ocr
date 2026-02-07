@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = liruk
-| elvish  = póboró
-| goblin  = ado
-| human   = gust
-}}
+{{Translation| dwarven = liruk| elvish  = póboró| goblin  = ado| human   = gust}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[bronze colossus]] or a [[minotaur]], associated with the [[Sphere|spheres]] of chaos, nightmares, revenge, valor, or war will have words from this symbol in their name.

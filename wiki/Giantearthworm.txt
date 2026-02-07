@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_earthworm_sprite.png
-|portrait=giant_earthworm_portrait.png
-|meat=40-41
-|brain=5-6
-|heart=2-3
-|intestine=17-18
-|fat=13
-|vary=no
-|contrib=no
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_earthworm_sprite.png|portrait=giant_earthworm_portrait.png|meat=40-41|brain=5-6|heart=2-3|intestine=17-18|fat=13|vary=no|contrib=no|skin=hide}}
 {{av}}
 {{creaturedesc}}
 '''Giant earthworms''' are massive and fairly rare [[worm]]s found in the first and second layers of the [[cavern]]s. As heavy as a [[grizzly bear]], these [[creature]]s will attack [[Dwarf|dwarves]] who provoke them with [[push]] attacks, and they are large enough for such attacks to cause heavy damage to unarmored [[peasant]]s.

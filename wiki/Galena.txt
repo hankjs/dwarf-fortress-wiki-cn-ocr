@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_silvery_sprite.png}}{{av}}
+{{stonelookup/0|graphic=ore_silvery_sprite.png}}{{av}}
 
 {{For/see|the month|[[Calendar]]}}
 

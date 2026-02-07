@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{layerlookup/0
-|graphic=slate_sprite.png}}
+{{layerlookup/0|graphic=slate_sprite.png}}
 {{av}}
 
 {{For/see|the month|[[Calendar]]}}

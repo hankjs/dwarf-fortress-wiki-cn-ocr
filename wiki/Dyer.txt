@@ -1,16 +1,7 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Dyer
-| profession = [[Farmer]]
-| job name   = [[Dyeing]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Dyer| profession = [[Farmer]]| job name   = [[Dyeing]]| tasks      =
 * Dye [[cloth]]
-* Dye [[thread]]
-| workshop   = [[Dyer's shop]]
-| attributes =
+* Dye [[thread]]| workshop   = [[Dyer's shop]]| attributes =
 * Strength
 * Agility
 * Endurance

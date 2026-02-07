@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=fairy_sprite.png
-|portrait=fairy_portrait.png}}
+{{verminlookup/0|image=fairy_sprite.png|portrait=fairy_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

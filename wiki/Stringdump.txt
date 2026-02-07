@@ -17,10 +17,7 @@ https://learn.microsoft.com/en-us/sysinternals/downloads/strings
 {{gamedata}}
 [[ru:String dump]]
 
-{| role="presentation" class="wikitable mw-collapsible mw-collapsed"
-| <strong>Here are all uppercased expressions which were not present in the previous string dump. (this part last updated 2023-08-21)</strong>
-|-
-|UTF-16LE
+{| role="presentation" class="wikitable mw-collapsible mw-collapsed"| <strong>Here are all uppercased expressions which were not present in the previous string dump. (this part last updated 2023-08-21)</strong>|-|UTF-16LE
 NO_EXCLUSIVE
 SEMIANNUAL
 NEAREST
@@ -6552,7 +6549,6 @@ SPEECH_PAST_SNATCHER_PROFESSION
 SPEECH_PAST_MERCENARY_PROFESSION
 SPEECH_MERCENARY_PROFESSION
 SPEECH_MERCENARY_PROFESSION_YEAR
-
 
 
 |}

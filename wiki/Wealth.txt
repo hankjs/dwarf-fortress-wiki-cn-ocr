@@ -42,12 +42,7 @@ Most players choose to walk the middle line, getting together the necessary indu
 
 *Some buggy items can have a negative wealth. This can cause expected events to not happen, as they are tied to wealth. To troubleshoot this, you can move all your items to the trade depot and look through the value of the items.  You may want to do this on a backed-up save. Once you find the offending item, you can either atom-smash it or use DFHACK "autodump destroy".
 
-{{Translation
-| dwarven = limâr
-| elvish  = rano
-| goblin  = sloron
-| human   = ostri
-}}
+{{Translation| dwarven = limâr| elvish  = rano| goblin  = sloron| human   = ostri}}
 
 {{Category|Economy}}
 [[ru:Wealth]]

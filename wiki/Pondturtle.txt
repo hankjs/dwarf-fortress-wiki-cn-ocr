@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=pond_turtle_sprite.png
-|portrait=pond_turtle_portrait_anim.gif}}
+{{verminlookup/0|image=pond_turtle_sprite.png|portrait=pond_turtle_portrait_anim.gif}}
 {{av}}
 {{creaturedesc}}
 

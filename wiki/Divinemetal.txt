@@ -1,14 +1,8 @@
 {{Quality|Exceptional}}
 {{av}}
 {{spoiler}}
-{{Metal
-|name=Divine metal
-|sample=[[File:DivineMetalSample.png|center]]
-|color=0:0:1
-|ore=
-* N/A
-|graphic=Divine metal anim.gif
-|properties=
+{{Metal|name=Divine metal|sample=[[File:DivineMetalSample.png|center]]|color=0:0:1|ore=
+* N/A|graphic=Divine metal anim.gif|properties=
 * [[Material value]] 200☼
 * [[Material science|Impact strength]] 2 GPa
 * [[Material science|Shear strength]] 2 GPa&nbsp;{{Tooltip|×1.2|MAX_EDGE of 12,000 compared to the default 10,000 for metals}}
@@ -19,16 +13,14 @@
 * [[Solid density]] 1000 kg/m³
 * Liquid [[density]] 1000 kg/m³
 * Molar mass 20000 kg/mol
-* [[Specific heat]] 7500 J/kg·K
-|uses=
+* [[Specific heat]] 7500 J/kg·K|uses=
 * [[Weapon|Melee Weapons]]
 * [[Crossbow]]s
 * [[Bolt]]s
 * [[Pick]]s
 * [[Armor]]
 * [[Anvil]]s
-* [[Metalsmith's forge|Metal crafting]]
-|wiki=List of fictional elements, materials, isotopes and atomic particles}}
+* [[Metalsmith's forge|Metal crafting]]|wiki=List of fictional elements, materials, isotopes and atomic particles}}
 __TOC__
 '''Divine metals''' are special, procedurally generated [[metal]]s that can be found in [[vault]]s as well as deep underground. Divine metals are used as material for items, [[weapon]]s and [[armor]] used by [[angel]]s, who ruthlessly protect the vault's priceless treasures. (Similar [[divine fabric]]s are used by vault guardians for clothing and soft items.) Weapons made from divine metals have cyan bands on the sprites, though they may be found in the form of spriteless [[divine equipment]].
 
@@ -41,74 +33,14 @@ Divine metal can't be produced conventionally. However, since divine metal gives
 
 The [[object testing arena]] allows one to test weapons and armour made of divine metals.
 [[File:Divine_metal_preview.png|thumb|260px|center|You can smell the gods on this sphere.]]
-{{Translation
-| dwarven = Nabaskel 	 	 	
-| elvish  = Mecalalethi
-| goblin  = Ngungdubsnusm
-| human   = Nirnorigu
-}}
+{{Translation| dwarven = Nabaskel 	 	 	| elvish  = Mecalalethi| goblin  = Ngungdubsnusm| human   = Nirnorigu}}
 <!--to make sure this page comes up when searching for a specific divine metal-->
 
 == Types ==
 Each world will have a random set of 10 of these 26 metals in its raws.
 
-{| class="wikitable sortable" style="text-align: left;"
-|+ <!-- caption -->
-|-
-! Sphere    !! Name              !! Color* !! Sprite
-|-
-| Blight    || rusted metal      || style="background: {{fgcolor|4:0}}; color: #fff;"|Rust || style="text-align: center;" | [[File:Rust bar sprite.png]]
-|-
-| Chaos     || twisting metal    || style="background: {{fgcolor|4:1}}; color: #fff;"|Red || style="text-align: center;" | [[File:Red bar sprite.png]]
-|-
-| Darkness  || dark metal         || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]
-|-
-| Dawn     || glowing metal    || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]
-|-
-| Day      || bright metal || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Death    || pale metal   || style="background: {{fgcolor|3:1}};"|Pale blue || style="text-align: center;" | [[File:Pale blue bar sprite.png]]
-|-
-| Deformity || pock-marked metal || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]
-|-
-| Disease  || blistered metal || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]
-|-
-| Earth     || ruddy metal        || style="background: {{fgcolor|6:0}}; color: #fff;"|Burnt sienna || style="text-align: center;" | [[File:Burnt sienna bar sprite.png]]
-|-
-| Fire      || flickering metal   || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]
-|-
-| Jewels   || faceted metal    || style="background: {{fgcolor|2:1}};"|Green || style="text-align: center;" | [[File:Green bar sprite.png]]
-|-
-| Light    || shining metal || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Lightning || flashing metal    || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]
-|-
-| Moon      || translucent metal || style="background: {{fgcolor|3:1}};"|Clear || style="text-align: center;" | [[File:Clear bar sprite.png]]
-|-
-| Mountains || frosty metal      || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Muck      || slick metal        || style="background: {{fgcolor|6:0}}; color: #fff;"|Brown || style="text-align: center;" | [[File:Brown bar sprite.png]]
-|-
-| Music     || singing metal     || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Night    || black metal      || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]
-|-
-| Rainbows  || multicolored metal || style="background: {{fgcolor|2:1}};"|Clear || style="text-align: center;" | [[File:Clear bar sprite.png]]
-|-
-| Sky      || clear blue metal || style="background: {{fgcolor|3:1}};"|Sky blue || style="text-align: center;" | [[File:Sky blue bar sprite.png]]
-|-
-| Stars     || twinkling metal   || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Storms   || crashing metal  || style="background: {{fgcolor|7:0}};"|Gray || style="text-align: center;" | [[File:Iron bar sprite.png]]
-|-
-| Sun       || blazing metal     || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]
-|-
-| Thunder   || booming metal      || style="background: {{fgcolor|7:0}};"|Gray || style="text-align: center;" | [[File:Iron bar sprite.png]]
-|-
-| Torture   || searing metal      || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]
-|-
-| Volcanos  || flowing metal     || style="background: {{fgcolor|4:1}}; color: #fff;"|Red || style="text-align: center;" | [[File:Red bar sprite.png]]
-|}
+{| class="wikitable sortable" style="text-align: left;"|+ <!-- caption -->|-
+! Sphere    !! Name              !! Color* !! Sprite|-| Blight    || rusted metal      || style="background: {{fgcolor|4:0}}; color: #fff;"|Rust || style="text-align: center;" | [[File:Rust bar sprite.png]]|-| Chaos     || twisting metal    || style="background: {{fgcolor|4:1}}; color: #fff;"|Red || style="text-align: center;" | [[File:Red bar sprite.png]]|-| Darkness  || dark metal         || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]|-| Dawn     || glowing metal    || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| Day      || bright metal || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Death    || pale metal   || style="background: {{fgcolor|3:1}};"|Pale blue || style="text-align: center;" | [[File:Pale blue bar sprite.png]]|-| Deformity || pock-marked metal || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]|-| Disease  || blistered metal || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]|-| Earth     || ruddy metal        || style="background: {{fgcolor|6:0}}; color: #fff;"|Burnt sienna || style="text-align: center;" | [[File:Burnt sienna bar sprite.png]]|-| Fire      || flickering metal   || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| Jewels   || faceted metal    || style="background: {{fgcolor|2:1}};"|Green || style="text-align: center;" | [[File:Green bar sprite.png]]|-| Light    || shining metal || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Lightning || flashing metal    || style="background: {{fgcolor|6:1}};"|Yellow || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| Moon      || translucent metal || style="background: {{fgcolor|3:1}};"|Clear || style="text-align: center;" | [[File:Clear bar sprite.png]]|-| Mountains || frosty metal      || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Muck      || slick metal        || style="background: {{fgcolor|6:0}}; color: #fff;"|Brown || style="text-align: center;" | [[File:Brown bar sprite.png]]|-| Music     || singing metal     || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Night    || black metal      || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]|-| Rainbows  || multicolored metal || style="background: {{fgcolor|2:1}};"|Clear || style="text-align: center;" | [[File:Clear bar sprite.png]]|-| Sky      || clear blue metal || style="background: {{fgcolor|3:1}};"|Sky blue || style="text-align: center;" | [[File:Sky blue bar sprite.png]]|-| Stars     || twinkling metal   || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Storms   || crashing metal  || style="background: {{fgcolor|7:0}};"|Gray || style="text-align: center;" | [[File:Iron bar sprite.png]]|-| Sun       || blazing metal     || style="background: {{fgcolor|7:1}};"|White || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| Thunder   || booming metal      || style="background: {{fgcolor|7:0}};"|Gray || style="text-align: center;" | [[File:Iron bar sprite.png]]|-| Torture   || searing metal      || style="background: {{fgcolor|0:1}}; color: #fff;"|Black || style="text-align: center;" | [[File:Black bar sprite.png]]|-| Volcanos  || flowing metal     || style="background: {{fgcolor|4:1}}; color: #fff;"|Red || style="text-align: center;" | [[File:Red bar sprite.png]]|}
 <nowiki>*</nowiki>The named colors represent their {{token|STATE_COLOR|md}} token, while the background colors are the colors they appear as in-game in ASCII mode. See [[color]].
 
 {{gamedata|title=Example raws (as extracted from save files in version 0.50.11)|
@@ -294,8 +226,7 @@ Each world will have a random set of 10 of these 26 metals in its raws.
 	[BENDING_FRACTURE:2000000]
 	[BENDING_STRAIN_AT_YIELD:0]
 	[MAX_EDGE:12000]
-	[SPHERE:BLIGHT]
-}}
+	[SPHERE:BLIGHT]}}
 {{metals}}
 {{Category|Metals}}{{Category|Materials}}
 [[ru:Divine metal]]

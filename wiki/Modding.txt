@@ -101,8 +101,7 @@ The [[info.txt]] is formatted like so:
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.0.0]
 [AUTHOR:Your Name Here]
 [NAME:My First Mod]
-[DESCRIPTION:A cool mod I made!]
-}}
+[DESCRIPTION:A cool mod I made!]}}
 
 A mod should have all of these. There are a [[mod info token|few more tokens]], but the above are the important ones.
 
@@ -119,8 +118,7 @@ Most of the game's vanilla content is in the same format as mods. Many text file
      [CASTE_NAME:dwarf:dwarves:dwarven]
      [CREATURE_TILE:1][COLOR:3:0:0]
      [CREATURE_SOLDIER_TILE:2]
- ...
-}}
+ ...}}
 
 As you can see, each file comprises a header string stating the file name, a second header stating the type of object data it contains, followed by the contents of the file itself. These are all necessary elements of the file, and without them, the file will be ignored by the game. 
 
@@ -173,8 +171,7 @@ creature_mypatch
     [SELECT_CASTE:FEMALE]
         [BODY_DETAIL_PLAN:FACIAL_HAIR_TISSUE_LAYERS]
 
-[CUT_CREATURE:ELEPHANT] removes the ELEPHANT creature
-}}
+[CUT_CREATURE:ELEPHANT] removes the ELEPHANT creature}}
 
 Or, say, add your own reaction and building to dwarves:
 
@@ -185,8 +182,7 @@ entity_mypatch
 
 [SELECT_ENTITY:MOUNTAIN]
     [PERMITTED_REACTION:MY_REACTION]
-    [PERMITTED_BUILDING:MY_BUILDING]
-}}
+    [PERMITTED_BUILDING:MY_BUILDING]}}
 
 And in any of these, one can add the token ``[LOG_CURRENT_ENTRY]`` somewhere under one of the objects of the file, which logs the full contents of the object in question to ``logs\current_entry.txt``. This can be useful to make sure that the patch is doing what you think it is. For instance if ``[LOG_CURRENT_ENTRY]`` were added on the next line after ``[CREATURE:DWARF]`` in your mod file, then the dwarf object would be the object detailed in the log entry.
 
@@ -207,8 +203,7 @@ Entities - the objects that determine how civilizations work - are stored in <co
      [CREATURE:CREATURETYPE]
      [TRANSLATION:LANGUAGETYPE]
      [BIOME_SUPPORT:BIOMETOKEN:FREQUENCY]
-     ...[OTHER TAGS]...
-}}
+     ...[OTHER TAGS]...}}
 
 Most of the time, it doesn't matter which order these tokens are in or where they're placed so long as they're below the ``[ENTITY:]`` identifier, but there are some important exceptions in the case of other files, especially creatures, which can contain a lot of "nested" tokens.
 
@@ -220,15 +215,13 @@ Most of the time, it doesn't matter which order these tokens are in or where the
 
 {{code|
  [BIOME_SUPPORT:ANY_FOREST:1]
- [BIOME_SUPPORT:SAVANNA:2]
-}}
+ [BIOME_SUPPORT:SAVANNA:2]}}
 
 This would have very much the same effect as:
 
 {{code|
  [BIOME_SUPPORT:ANY_FOREST:5]
- [BIOME_SUPPORT:SAVANNA:10]
-}}
+ [BIOME_SUPPORT:SAVANNA:10]}}
 
 This holds true for a lot of values throughout the files, excluding when it simply doesn't make sense, such as in materials. For more information, see [[entity token]]s. 
 
@@ -246,8 +239,7 @@ You can also attempt to discern the civ yourself by the names it uses - this is 
  [SELECT_SYMBOL:BATTLE:NAME_BATTLE]
  [SUBSELECT_SYMBOL:BATTLE:VIOLENT]
  [SELECT_SYMBOL:SIEGE:NAME_SIEGE]
- [SUBSELECT_SYMBOL:SIEGE:VIOLENT]
-}}
+ [SUBSELECT_SYMBOL:SIEGE:VIOLENT]}}
 
 Here, we can see that dwarves will generally name their wars first after words in the "NAME_WAR" symbol group, and then, after words in the "[[language_SYM.txt/Violent|VIOLENT]]" symbol group. This might, for example, result in a war being named "The War of Carnage". The symbols used for the other types of conflict are arrayed in a similar fashion. It would be trivial to replace the instances of [[language_SYM.txt/Violent|VIOLENT]] with, say, [[language_SYM.txt/Peace|PEACE]] and end up with a battle called "The Clash of Calm" or something.
 
@@ -255,8 +247,7 @@ Here, we can see that dwarves will generally name their wars first after words i
  [SELECT_SYMBOL:ROAD:NAME_ROAD]
  [SELECT_SYMBOL:TUNNEL:NAME_TUNNEL]
  [SELECT_SYMBOL:BRIDGE:NAME_BRIDGE]
- [SELECT_SYMBOL:WALL:NAME_WALL]
-}}
+ [SELECT_SYMBOL:WALL:NAME_WALL]}}
 
 The above applies here. Dwarves are fond of naming their roads and tunnels after... roads and tunnels.
 
@@ -269,8 +260,7 @@ The above applies here. Dwarves are fond of naming their roads and tunnels after
  [CULL_SYMBOL:ALL:FLOWERY]
  [CULL_SYMBOL:ALL:NEGATIVE]
  [CULL_SYMBOL:ALL:UGLY]
- [CULL_SYMBOL:ALL:NEGATOR]
-}}
+ [CULL_SYMBOL:ALL:NEGATOR]}}
 
 This section deals with everything else. The things that haven't already been dealt with (hence the ``REMAINING``) - such as site names, kingdom names, the names of individuals, and such - will have names from the [[language_SYM.txt/Artifice|ARTIFICE]] and [[language_SYM.txt/Peace|PEACE]] symbol groups. After that, the dwarf entity is told to cull all inappropriate symbols - this applies to everything (hence the ``ALL``) so if the game happens to choose a symbol associated with, say, [[language_SYM.txt/Evil|EVIL]] for one of the battles, it'll scrap that name and try again. This sort of thing adds a lot of flavour to DF's entities and can account for a lot of a civ's perceived personality.
 
@@ -313,8 +303,7 @@ In the most basic sense, a creature is a series of body parts. These parts are d
      [CONNECTS]
      [TISSUE_SHAPE:LAYER]
  [TISSUE_LAYER:BY_CATEGORY:ALL:BRONZE]
- ...
-}}
+ ...}}
 
 At the top, we can see the {{token|BODY}} token, followed by a list of body parts. As you've probably guessed, these parts make up the physical form of the colossus. But the colossus has to be made out of something - it has to have tissues, and those tissues also have to be made out of something - in this case, bronze.
 
@@ -335,8 +324,7 @@ Firstly, there are material and tissue templates. Let's say you were going to ma
      [STRUCTURAL]
      [RELATIVE_THICKNESS:1]
      [CONNECTS]
-     [TISSUE_SHAPE:LAYER]
-}}
+     [TISSUE_SHAPE:LAYER]}}
 
 Now, instead of applying the tissue to each and every bronze creature you're making, you can just refer to the template:
 
@@ -346,8 +334,7 @@ Now, instead of applying the tissue to each and every bronze creature you're mak
  [NO_THOUGHT_CENTER_FOR_MOVEMENT]
  [USE_TISSUE_TEMPLATE:BRONZE:BRONZE_TEMPLATE]
  [TISSUE_LAYER:BY_CATEGORY:ALL:BRONZE]
- ...
-}}
+ ...}}
 
 Material templates work in the same way, but refer to materials instead of tissues.
 
@@ -376,16 +363,14 @@ However, if we're looking at something like a dwarf, even with the templates, ed
      [USE_TISSUE_TEMPLATE:SKIN:SKIN_TEMPLATE]
      [USE_TISSUE_TEMPLATE:FAT:FAT_TEMPLATE]
      [USE_TISSUE_TEMPLATE:MUSCLE:MUSCLE_TEMPLATE]
-     ...
-}}
+     ...}}
 
 This is where [[Body detail plan token|body detail plans]], which have their own file, and are designed to help automate some of the more common processes in creature creation, come in. The first entry in ``[https://github.com/DF-Wiki/DFRawFunctions/blob/master/raws/v50/b_detail_plan_default.txt b_detail_plan_default.txt]`` does exactly what we've been trying to do above: it takes all the common materials and shoves them into one plan, which can be referenced with a single token.
 
 {{code|
      ...
      [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
-     ...
-}}
+     ...}}
 
 Much easier. But what about the {{token|TISSUE_LAYER}} tokens? Will we have to type out all of those manually? Nope, detail plans have that covered as well. It's possible to place variable arguments into a detail plan. For example:
 
@@ -398,14 +383,12 @@ Much easier. But what about the {{token|TISSUE_LAYER}} tokens? Will we have to t
      [BP_LAYERS:BY_CATEGORY:ARM_UPPER:ARG4:25:ARG3:25:ARG2:5:ARG1:1]
      ...
      [BP_LAYERS:BY_CATEGORY:NOSE:ARG5:4:ARG1:1]
-     ...
-}}
+     ...}}
 
 First, an argument is placed in the plan (``ARG1``, ``ARG2`` etc.), followed by the thickness of the tissue that will be inserted in place of the argument. So when we reference the "VERTEBRATE_TISSUE_LAYERS" plan, we'll be able to do something like this:
 
 {{code|
-     [BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SKIN:FAT:MUSCLE:BONE:CARTILAGE]
-}}
+     [BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SKIN:FAT:MUSCLE:BONE:CARTILAGE]}}
 
 ``ARG1`` in the detail plan is replaced by "SKIN", the first tissue we entered. ``ARG2`` is replaced by "FAT", ``ARG3`` by "MUSCLE", ``ARG4`` by "BONE", and ``ARG5`` by "CARTILAGE". Hence, our creature's body part designated as {{token|CATEGORY|body|BODY}} is made up of "SKIN" with thickness 1, "FAT" with thickness 5, and "MUSCLE" with thickness 50. Its nose is made up of "SKIN" (thickness 1) and "CARTILAGE" (thickness 4).
 
@@ -418,8 +401,7 @@ Things left out of the body plans aside, our dwarf's entire body, material, tiss
      [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
      [BODY_DETAIL_PLAN:STANDARD_TISSUES]
      [BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SKIN:FAT:MUSCLE:BONE:CARTILAGE]
-     ...
-}}
+     ...}}
 
 This can save you a lot of time and space if you're making lots of changes common to many creatures. In general, if you're making a creature that's fleshy or chitinous, there are detail plans already included in the game to help you out. You should only have to resort to declaring tissues individually (like our bronze colossus) if you're doing something really out-of-the-ordinary.
 
@@ -432,8 +414,7 @@ Another great thing about templates (and so, detail plans) is that they can be m
      [BODY_DETAIL_PLAN:STANDARD_MATERIALS]
      [BODY_DETAIL_PLAN:STANDARD_TISSUES]
      [BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SKIN:FAT:MUSCLE:BONE:CARTILAGE]
-     ...
-}}
+     ...}}
 
 We then, in our own mod, select the appropriate material:
 
@@ -441,8 +422,7 @@ We then, in our own mod, select the appropriate material:
 [SELECT_CREATURE:DWARF]
      [SELECT_MATERIAL:SKIN]
          [MAT_FIXED_TEMP:10600]
-     ...
-}}
+     ...}}
 
 We don't want them burning to death, so we'll need to stop that from happening:
 
@@ -452,8 +432,7 @@ We don't want them burning to death, so we'll need to stop that from happening:
          [MAT_FIXED_TEMP:10600]
      [SELECT_MATERIAL:ALL]
          [HEATDAM_POINT:NONE]
-     ...
-}}
+     ...}}
 
 Note that this makes use of DF's built-in temperature scale - you can read more about that [[Temperature|on this page]]. We're also referencing [[material definition token]]s, which we haven't gone over yet - we'll talk about making your own materials later.
 
@@ -498,8 +477,7 @@ To understand the true potential of the caste system, we only need to take a loo
          [ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
              [ATTACK_SKILL:GRASP_STRIKE]
              [ATTACK_VERB:punch:punches]
-     ...
-}}
+     ...}}
 
 It's evident that the process of creating and editing castes is comparable to the modifications we were making to tissues and materials earlier: A caste is declared, and modifications to the base creature are made. Declared castes can be selected and subsequently modified, again, just like tissues and materials.
 
@@ -525,8 +503,7 @@ Let's look at the entry for, of course, the thong:
  [MATERIAL_SIZE:1]
  [SOFT]
  [LEATHER]
- [STRUCTURAL_ELASTICITY_WOVEN_THREAD]
-}}
+ [STRUCTURAL_ELASTICITY_WOVEN_THREAD]}}
 
 Most of these are pretty obvious if one compares them to the other entries in the file. There's a layer for the item, determining where it's worn; a coverage value to determine how well it protects you from cold and other things; a size token to determine how much it counts for when it's under something else; a layer permit token to determine how much can be worn under it; and a material size token to determine how much raw material it takes to make it.
 
@@ -549,8 +526,7 @@ Weapons involve a little more detail:
  [ATTACK:BLUNT:100000:8000:slap:slaps:flat:1250]
  	[ATTACK_PREPARE_AND_RECOVER:3:3]
  [ATTACK:BLUNT:100:1000:strike:strikes:pommel:1000]
- 	[ATTACK_PREPARE_AND_RECOVER:3:3]
-}}
+ 	[ATTACK_PREPARE_AND_RECOVER:3:3]}}
 
 {{token|SIZE|wp}} determines how heavy the weapon is. This has a substantial effect on weapon effectiveness. {{token|SKILL|wp}} determines which skill is used in using the weapon; a list of skills can be found [[skill token|on this page]]. {{token|MINIMUM_SIZE|wp}} determines the minimum size a creature must be before the weapon can be wielded, while {{token|TWO_HANDED|wp}} determines how large a creature must be in order to wield the weapon with one hand.
 
@@ -585,8 +561,7 @@ Body parts work by sections: you can add as many sections as you want to a body 
 
 {{code|
  [BODY:BODYNAME]
- [BP:TOKENID:name][TOKENSGOHERE][DEFAULT_RELSIZE:][CATEGORY:WHATEVER]
-}}
+ [BP:TOKENID:name][TOKENSGOHERE][DEFAULT_RELSIZE:][CATEGORY:WHATEVER]}}
 
 The most important tokens are {{token|CONTYPE|body}} and {{token|CON|body}}: {{token|CONTYPE|body}} means the body part in question is connected to a certain ''type'' of body part, while {{token|CON|body}} means it's connected to a ''specific'' one. "TOKENID" is yet another identifier, which should be unique, as it's referenced every time something uses {{token|CON|body}} or ``BY_TOKEN``. {{token|DEFAULT_RELSIZE|body}} defines, of course, what the body part's size is in relation to the other parts. {{token|CATEGORY|body}} defines a category for the part, which can be unique or shared with other parts. This is referenced whenever ``BY_CATEGORY`` is used.
 
@@ -597,8 +572,7 @@ Let's take a simple example, a head:
 {{code|
  [BODY:BASIC_HEAD]
  [BP:HD:head:STP][CONTYPE:UPPERBODY][HEAD][CATEGORY:HEAD]
- [DEFAULT_RELSIZE:300]
-}}
+ [DEFAULT_RELSIZE:300]}}
 
 It connects directly to an upper body.
 
@@ -607,8 +581,7 @@ It connects directly to an upper body.
      [BP:REYE:right eye:STP][CONTYPE:HEAD][SIGHT][EMBEDDED][SMALL][RIGHT][CATEGORY:EYE]
          [DEFAULT_RELSIZE:5]
      [BP:LEYE:left eye:STP][CONTYPE:HEAD][SIGHT][EMBEDDED][SMALL][LEFT][CATEGORY:EYE]
-         [DEFAULT_RELSIZE:5]
-}}
+         [DEFAULT_RELSIZE:5]}}
 
 These are a pair of eyes, connecting to the head.
 
@@ -643,8 +616,7 @@ These are a pair of eyes, connecting to the head.
      [BP:RF:right foot:right feet][CON:RLL][STANCE][RIGHT][CATEGORY:FOOT]
          [DEFAULT_RELSIZE:120]
      [BP:LF:left foot:left feet][CON:LLL][STANCE][LEFT][CATEGORY:FOOT]
-         [DEFAULT_RELSIZE:120]
-}}
+         [DEFAULT_RELSIZE:120]}}
 
 An entire humanoid body. The foot bone's connected to the ankle bone...
 
@@ -694,8 +666,7 @@ Below is the [[plump helmet]] raw description:
  	[SHRUB_TILE:58]
  	[DEAD_SHRUB_TILE:58]
  	[SHRUB_COLOR:5:0:0]
- 	[DEAD_SHRUB_COLOR:0:0:1]
-}}
+ 	[DEAD_SHRUB_COLOR:0:0:1]}}
 
 Let's look at this line by line:<br>
 First, we define its file name. In this case it's "MUSHROOM_HELMET_PLUMP". Next we define its in-game name, "plump helmet" and its adjective for if you were to craft with its materials (e.g. {{DFtext|plump helmet plant earrings}}).
@@ -703,8 +674,7 @@ First, we define its file name. In this case it's "MUSHROOM_HELMET_PLUMP". Next 
 {{code|
  	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
  		[MATERIAL_VALUE:2]
- 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
-}}
+ 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]}}
 
 This defines the structure and material of the plant. It references "STRUCTURAL_PLANT_TEMPLATE" in the first line, so if you were to say, add wings to the template, the plump helmet plant would be winged. This is for the plant itself, not the end plump helmets.
 
@@ -713,21 +683,18 @@ After that we get our edible tokens. These say that [[vermin]] can eat the plant
 {{code|
  		[EDIBLE_VERMIN]
  		[EDIBLE_RAW]
- 		[EDIBLE_COOKED]
-}}
+ 		[EDIBLE_COOKED]}}
 
 Next, {{token|PICKED_TILE|p|6}} is the character (6, or ♠) shown when the crop is harvested. See [[Main:Character table|character table]] for a table of usable tiles. {{token|PICKED_COLOR|p|5:0:0}} is the [[color]] used for the crop's tile when harvested. It's in a ``<foreground>:<background>:<brightness>`` format, resulting in a purple spade: {{Tile|♠|5:0}}
 
 {{code|
- 	[PICKED_TILE:6][PICKED_COLOR:5:0:0]
-}}
+ 	[PICKED_TILE:6][PICKED_COLOR:5:0:0]}}
 
 {{token|GROWDUR|p|300}} is how long it takes for your crop to grow. There are 1008 growdur units in a [[Time|season]]. You can calculate this value [https://jose96xd.github.io/DF_Tools/Modules/TimeConverter.html here].<br>
 {{token|VALUE|p|2}} is the [[item value]] of the harvested plant (default 1). 
 
 {{code|
- 	[GROWDUR:300][VALUE:2]
-}}
+ 	[GROWDUR:300][VALUE:2]}}
 
 This defines the plant's alcohol states. {{token|STATE_NAME_ADJ|ALL_SOLID|md}} is the frozen name, followed is the actual drink name, and then its boiling name. Drinks can evaporate and freeze in Scorching or Freezing [[Temperature|climates]], respectively.
 
@@ -746,8 +713,7 @@ This defines the plant's alcohol states. {{token|STATE_NAME_ADJ|ALL_SOLID|md}} i
  		[EDIBLE_RAW]
  		[EDIBLE_COOKED]
  		[PREFIX:NONE]
- 	[DRINK:LOCAL_PLANT_MAT:DRINK]
-}}
+ 	[DRINK:LOCAL_PLANT_MAT:DRINK]}}
 
 After that we get our seed template:
 
@@ -756,8 +722,7 @@ After that we get our seed template:
  		[MATERIAL_VALUE:1]
  		[EDIBLE_VERMIN]
  		[EDIBLE_COOKED]
- 	[SEED:plump helmet spawn:plump helmet spawn:4:0:1:LOCAL_PLANT_MAT:SEED]
-}}
+ 	[SEED:plump helmet spawn:plump helmet spawn:4:0:1:LOCAL_PLANT_MAT:SEED]}}
 
 And all this says is that the seeds may be eaten by vermin or cooked. Then it gives the name of our plant's seed, its plural name, its foreground, background, and brightness colors, followed by its seed material; said material should have {{token|SEED_MAT|p}} to permit proper stockpiling.
 
@@ -774,8 +739,7 @@ And finally for the last chunk we have this:
  	[SHRUB_TILE:58]
  	[DEAD_SHRUB_TILE:58]
  	[SHRUB_COLOR:5:0:0]
- 	[DEAD_SHRUB_COLOR:0:0:1]
-}}
+ 	[DEAD_SHRUB_COLOR:0:0:1]}}
 
 First we define what season(s) the plant may grow in, then we define how frequently this plant is generated in a particular area, followed by how many harvested crop items may come from 1 plant. {{token|PREFSTRING|p}} is what your dwarves [[Preference|like]] about the plant, which in this case is the rounded tops. {{token|WET|p}}/{{token|DRY|p}} are the conditions under which the plant can grow. Wet means it can grow close to water, dry means it can grow away from water. This does not mean you can grow the plant on dry stone however. It is just for natural spawning of the plant.<br>
 {{token|BIOME|p}} is what [[Biome token|biome]] the plant grows in. {{token|UNDERGROUND_DEPTH|p|Minimum:Maximum}} is the highest and lowest cavern levels that the plant can appear in if its biome is subterranean. Dwarven civilizations will only export (via the embark screen or caravans) things that are available at depth 1. Defaults to ``0:0`` (surface only).<br>
@@ -876,8 +840,7 @@ Below is the [[apple|apple tree]] raw description:
    		[GROWTH_TIMING:120000:200000]
   		[GROWTH_DROPS_OFF_NO_CLOUD]
   		[GROWTH_PRINT:'%':'%':4:0:0:120000:200000:3]
-  		[GROWTH_HAS_SEED]
-}}
+  		[GROWTH_HAS_SEED]}}
 
 The first lines are the same as the ones we saw being used in the plump helmets, defining the plant object, giving it a name, and setting up the basic materials.
 
@@ -885,16 +848,14 @@ The first lines are the same as the ones we saw being used in the plump helmets,
  [PLANT:APPLE] malus sieversii
  	[NAME:apple tree][NAME_PLURAL:apple trees][ADJ:apple tree]
  	[USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
- 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
-}}
+ 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]}}
 
 Adding the token {{token|DISPLAY_COLOR|md}} (ASCII) / {{token|STATE_COLOR|md}} ([[graphics]]) directly after {{token|USE_MATERIAL_TEMPLATE|plant}} would allow us to change the color of the tree.
 
 {{code|
         [USE_MATERIAL_TEMPLATE:STRUCTURAL:STRUCTURAL_PLANT_TEMPLATE]
         	[DISPLAY_COLOR:1:0:0]
- 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
-}}
+ 	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]}}
 
 would give us a {{DFtext|dark blue|1:0}} apple tree. This method is used by the game by [[birch|birches]] and [[spore tree|various]] [[nether-cap|underground]] [[blood thorn|trees]].
 
@@ -935,8 +896,7 @@ Next come the definitions of various other materials used by the tree:
   	[USE_MATERIAL_TEMPLATE:SEED:SEED_TEMPLATE]
   		[MATERIAL_VALUE:1]
   		[EDIBLE_VERMIN]
-  	[SEED:apple seed:apple seeds:0:0:1:LOCAL_PLANT_MAT:SEED]
-}}
+  	[SEED:apple seed:apple seeds:0:0:1:LOCAL_PLANT_MAT:SEED]}}
 
 
 From them, we get to know what the parts of the tree can be used for, as well as how they will appear when separated from the tree. Any alterations that can be done to materials normally can be done here, such as changing the value or adding a [[syndrome]].
@@ -960,8 +920,7 @@ The following tokens decide the dimensions of the tree, and how it grows.
  	[MAX_TRUNK_DIAMETER:1]
  	[TRUNK_WIDTH_PERIOD:200]
  	[ROOT_DENSITY:5]
- 	[ROOT_RADIUS:3]
-}}
+ 	[ROOT_RADIUS:3]}}
 
 
 {{token|TRUNK_PERIOD|p}} and {{token|TRUNK_WIDTH_PERIOD|p}} determine how long it takes for the trunk to grow one tile taller respectively wider, in years. {{token|MAX_TRUNK_HEIGHT|p|3}} and {{token|MAX_TRUNK_DIAMETER|p|1}} determine the maximum value the above can reach. {{token|TRUNK_BRANCHING|p}} decides how "curvy" the tree is, with {{token|TRUNK_BRANCHING|p|0}} meaning the tree is entirely straight. 
@@ -983,8 +942,7 @@ Lastly, we are introduced to the {{token|GROWTH|p}} token. {{token|GROWTH|p}} de
   		[GROWTH_TIMING:120000:200000]
  		[GROWTH_DROPS_OFF_NO_CLOUD]
  		[GROWTH_PRINT:'%':'%':4:0:0:120000:200000:3]
- 		[GROWTH_HAS_SEED]
-}}
+ 		[GROWTH_HAS_SEED]}}
 
 
 First comes the name of the growth. Then, with {{token|GROWTH_ITEM|p}}, what kind of growth it is, in this case a {{token|PLANT_GROWTH|i}} made out of the local "FRUIT" material. {{token|GROWTH_DENSITY|p}} says how densely the growth grows, and {{token|GROWTH_HOST_TILE|p}} where on the tree it grows. {{token|GROWTH_TIMING|p}} decides when the growth appears, in [[Time|annual ticks]]. The growth then drops off, leaving no clouds (items to be picked up by your dwarves). {{token|GROWTH_PRINT|p}} sets it to look like {{Tile|%|4:0}}, and {{token|GROWTH_HAS_SEED|p}} implies that eating this growth will leave you with a seed.
@@ -1030,48 +988,41 @@ Workshops are raw-designed pretty differently from everything else in the game, 
 	[COLOR:3:3:0:0:0:7:0:1:0:0:0]
 	[BUILD_ITEM:1:BUCKET:NONE:NONE:NONE][EMPTY][CAN_USE_ARTIFACT]
 	[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]
-	[TOOLTIP:Use tallow (rendered fat) or oil here with lye to make soap.]
-}}
+	[TOOLTIP:Use tallow (rendered fat) or oil here with lye to make soap.]}}
 
 A line-by-line breakdown:
 
 {{code|
  	[NAME:Soap Maker's Workshop]
- 	[NAME_COLOR:7:0:1]
-}}
+ 	[NAME_COLOR:7:0:1]}}
 
 These define the name of the workshop ({{DFtext|Soap Maker's Workshop|7:1}}) and [[color]] of the workshop's name when examined.
 
 {{code|
  	[DIM:3:3]
- 	[WORK_LOCATION:2:2]
-}}
+ 	[WORK_LOCATION:2:2]}}
 
 {{token|DIM|b}} refers to how large the workshop will be, in this case 3 wide, 3 tall. {{token|WORK_LOCATION|b}} tells where the creature using it (usually a dwarf) will work, numbered from the top left--in this case, ``2:2``, or the middle. Multiple work locations can be defined, even outside the dim.
 
 {{code|
  	[BUILD_LABOR:SOAP_MAKER]
- 	[BUILD_KEY:CUSTOM_SHIFT_S]
-}}
+ 	[BUILD_KEY:CUSTOM_SHIFT_S]}}
 
 These refer to the worker required to build it ([[Soaper|soap maker]]) and the key used to build it in the workshop menu (capital {{k|S}}).
 
 {{code|
   	[BLOCK:1:0:0:0]
- 	...
-}}
+ 	...}}
 This is a bit more complex, and is where we get to the meaty part of workshop making--the tiles' properties. {{token|BLOCK|b}} refers to which tiles will be untraversable--1 means blocked, 0 means unblocked. The first number refers to row, and the next 3 refer to column, so 1:0:0:0 means that, on the first row, all tiles will be unblocked. This is the case for all vanilla workshops, as of now.
 
 {{code|
  	[TILE:0:1:' ':' ':150]
- 	...
-}}
+ 	...}}
 The {{token|TILE|b}} token tells which tile will go where. note, however, that there are 5 entries here instead of 4. The first number, in this case, refers to build stage, numbered from 0 to 3; 3 or 1 is fully built (depending on whether there are stages), 0 is just placed, and 2 is always an intermediate stage, while 1 is usually an intermediate stage. Whether 1 is an intermediate stage or not depends on if there are a 2 and 3 stage; if 2 and 3 exist, 1 will be intermediate. The second number and beyond are similar to {{token|BLOCK|b}}; however, instead of 1s and 0s, you must input tiles. The tiles themselves can be given in quotes (as in ' ') or given as a number, which can be looked up [[Tilesets|here]]. Here, we have 150, which is û.
 
 {{code|
  	[COLOR:0:1:0:0:0:0:0:0:6:0:0]
- 	...
-}}
+ 	...}}
 {{token|COLOR|b}} is as {{token|TILE|b}}, but with colors instead of tiles; however, colors are made up of 3 numbers each or MAT. MAT refers to the color of the material used to make it; the 3 numbers refer to ``<foreground>:<background>:<foreground brightness>``, and can be looked up [[Color|here]]. For example, ``4:2:1`` will give you bright red with a dark green background ({{Raw tile|☻|4:2:1}}).
 
 For the first row (``0:1``) our colors are [``0:0:0``, ``0:0:0``, ``6:0:0``]. Combining tile and color, this is our result:
@@ -1079,8 +1030,7 @@ For the first row (``0:1``) our colors are [``0:0:0``, ``0:0:0``, ``6:0:0``]. Co
 
 {{code|
  	[BUILD_ITEM:1:BUCKET:NONE:NONE:NONE][EMPTY][CAN_USE_ARTIFACT]
- 	[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]
-}}
+ 	[BUILD_ITEM:1:NONE:NONE:NONE:NONE][BUILDMAT][WORTHLESS_STONE_ONLY][CAN_USE_ARTIFACT]}}
 These refer to items required to build the building. These are in the same format as [[Reaction|reaction reagents and products]]:
 ``<quantity>:<[[Item token|item]]>:<item subtype>:<[[Material token|material]]>:<material subtype>``.
 
@@ -1089,8 +1039,7 @@ You'll learn more about those on the article about [[Reaction|reactions]], thoug
 {{token|BUILDMAT|b}} refers to [[wood]] logs, wood [[block]]s, [[stone]] boulders, and stone blocks; {{token|WORTHLESS_STONE_ONLY|b}} means it can't use economic stone; {{token|CAN_USE_ARTIFACT|b}} means that it... can use artifacts. {{token|EMPTY|b}}, in the bucket's case, means that the bucket must be empty.
 
 {{code|
- 	[TOOLTIP:Use tallow (rendered fat) or oil here with lye to make soap.]
-}}
+ 	[TOOLTIP:Use tallow (rendered fat) or oil here with lye to make soap.]}}
 
 This is the text in the tooltip shown when the building is highlighted by the mouse in the workshops list.
 
@@ -1178,7 +1127,6 @@ Functions that apply only to local sub-objects are indented. In order to edit th
 
 [SELECT_SOUND:X]
 [CUT_SOUND:X]
-
 }}
 
 Note that the {{token|SELECT_SYMBOL|e}} [[entity token]] is separate from the ``[SELECT_SYMBOL]`` [[language token]].
@@ -1313,8 +1261,7 @@ The Hydling below was made by Mysteryguye (and annotated, updated and separated 
  		[FEMALE] FEMALE caste is female.
 
  	[CASTE:MALE] As above, but with male.
- 		[MALE] See above.
-}}
+ 		[MALE] See above.}}
 
 == See also ==
 {{catbox|Modding}}

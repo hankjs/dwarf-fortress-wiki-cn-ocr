@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_elephant_sprite.png
-|portrait=elephant_portrait_anim.gif
-|bone=393-634
-|tooth=1
-|ivory=8-14
-|meat=730-1175
-|skin=hide
-|skull=1
-|brain=36-57
-|kidney=36-56
-|spleen=18-28
-|sweetbread=18-28
-|tripe=36-57
-|liver=36-57
-|intestine=108-173
-|heart=18-28
-|lung=72-114
-|eye=2
-|fat=204-337
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_elephant_sprite.png|portrait=elephant_portrait_anim.gif|bone=393-634|tooth=1|ivory=8-14|meat=730-1175|skin=hide|skull=1|brain=36-57|kidney=36-56|spleen=18-28|sweetbread=18-28|tripe=36-57|liver=36-57|intestine=108-173|heart=18-28|lung=72-114|eye=2|fat=204-337|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant elephants''' are the even more massive [[Creature|cousins]] of the common [[elephant]], found in [[savage]] [[tropical]] [[forest]]s and [[shrubland]]s. 666 times heavier than a [[dwarf]], they are [[list of creatures by adult size#end of list|truly enormous]] to say the very least; not only are they eight times the size of regular elephants, they are even larger than [[megabeast]]s like the [[dragon]] or [[roc]]. They are by far the largest land-dwelling creatures in the game and even in the ocean are only matched by the [[giant orca]] and exceeded by the legendary [[giant sperm whale]].

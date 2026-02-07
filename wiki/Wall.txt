@@ -45,12 +45,7 @@ To remove a wall, open the {{Key|m}}ining (Previously {{Key|d}}esignation) menu 
 == Bugs ==
 *Dwarves will once again wall themselves out of the fortress (a regression caused by the fix for the "[[Main:Dwarf cancels construction of Wall: Creature occupying site|Dwarf cancels construction of Wall: Creature occupying site]]" errors). To avoid this behavior, make sure the building material you choose is "inside" the fortress (i.e. closer to your fortress center). Manufactured building materials (like blocks) provide much more control of the location, and consequently the direction the dwarf will approach the build site.
 
-{{Translation
-| dwarven = adil
-| elvish  = ferale
-| goblin  = umâ
-| human   = olo
-}}
+{{Translation| dwarven = adil| elvish  = ferale| goblin  = umâ| human   = olo}}
 
 {{Buildings}}
 {{Category|Buildings}}

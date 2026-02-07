@@ -1,12 +1,5 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 0:0
-| skill      = Discipline
-| profession = Military
-| job name   = None
-| tasks      = None
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Discipline| profession = Military| job name   = None| tasks      = None| attributes = Unknown}}
 {{av}}
 
 '''Discipline''' is a [[skill]] that is highly relevant to [[military]] dwarves, and somewhat less important for civilians. A dwarf with high discipline is less likely to retreat in battle, cancel a job when witnessing death, or collapse/pass out from over-exertion. This makes it very useful for long, drawn-out fights, where exhaustion may be a factor and many dwarves may die; without discipline, even a dwarf with legendary weapon skills will panic and run before they are even able to do anything to the enemies trying to kill them, or might fall over and be killed just from sheer numbers. It is also helpful for keeping your medic from panicking when you're having a bit too much [[fun]] and they lose a patient with others waiting to be tended to.

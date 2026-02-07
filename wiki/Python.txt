@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=python_sprites.png
-|portrait=python_portrait_anim.gif
-|bone=10
-|meat=4
-|skin=scale
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|fat=3
-|contrib=no
-|wiki=Pythonidae
-}}
+{{creaturelookup/0|image=python_sprites.png|portrait=python_portrait_anim.gif|bone=10|meat=4|skin=scale|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|fat=3|contrib=no|wiki=Pythonidae}}
 {{av}}
 {{creaturedesc}}
 

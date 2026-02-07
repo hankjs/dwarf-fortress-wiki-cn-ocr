@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=green_tree_frog_sprite.png
-|portrait=tree_frog_portrait.png}}
+{{verminlookup/0|image=green_tree_frog_sprite.png|portrait=tree_frog_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Green tree frogs''' are unremarkable [[amphibious]] [[vermin]] found in [[temperate]] freshwater [[biome|biomes]]. They can be captured by [[trapper]]s and turned into low-value [[pet|pets]]. All green tree frogs possess Legendary [[skill]] in [[Climber|climbing]].

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=skink_sprite.png
-|portrait=skink_portrait.png
-|wiki=Skink}}
+{{verminlookup/0|image=skink_sprite.png|portrait=skink_portrait.png|wiki=Skink}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

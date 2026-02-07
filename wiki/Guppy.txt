@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=guppy_sprite.png
-|portrait=guppy_portrait.png}}
+{{verminlookup/0|image=guppy_sprite.png|portrait=guppy_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

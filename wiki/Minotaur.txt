@@ -1,11 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=minotaur_sprites.png
-|portrait=minotaur_portrait.png
-|death=nobutcher
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=minotaur_sprites.png|portrait=minotaur_portrait.png|death=nobutcher|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

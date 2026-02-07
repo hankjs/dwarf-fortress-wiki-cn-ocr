@@ -1,13 +1,6 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 7:0
-| graphic    = [[File:miner_sprite_icon.png]]
-| skill      = Miner
-| profession = Miner
-| job name   = [[Mining]]
-| tasks      =
-* [[Dig]]
-| attributes =
+{{v50_skill| color      = 7:0| graphic    = [[File:miner_sprite_icon.png]]| skill      = Miner| profession = Miner| job name   = [[Mining]]| tasks      =
+* [[Dig]]| attributes =
 * Strength 
 * Toughness 
 * Endurance

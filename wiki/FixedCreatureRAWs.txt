@@ -142,8 +142,7 @@ Original: [[Black mamba/raw]]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
 	[SELECT_MATERIAL:ALL]
-		[MULTIPLY_VALUE:2]
-|Modified Black Mamba raw}}
+		[MULTIPLY_VALUE:2]|Modified Black Mamba raw}}
 
 '''Changes Made:'''
 *Added <code>CHILD:1</code> to allow eggs to hatch

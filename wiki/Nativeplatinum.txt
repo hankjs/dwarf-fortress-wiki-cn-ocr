@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_silvery_sprite.png}}
+{{stonelookup/0|graphic=ore_silvery_sprite.png}}
 {{av}}
 
 '''Native platinum''' is the only [[ore]] of [[platinum]], one of the most valuable [[metal]]s available (equal in value to [[aluminum]]). Its high material value makes both the ore and the smelted metal a convenient material for high-value furniture for [[noble]]s. If the deposits are not mined out, smoothed and [[engraver|engraved]] platinum walls can add a lot of value to rooms, too.

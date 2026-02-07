@@ -1,18 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_snail_sprite.png
-|portrait=snail_portrait.png
-|contrib=no
-|meat=28-67
-|fat=10-18
-|heart=2
-|intestine=13-15
-|eye=2
-|brain=4-5
-|shell=21-26
-|skin=hide
-|wiki=no
-}}
+{{Creaturelookup/0|image=giant_snail_sprite.png|portrait=snail_portrait.png|contrib=no|meat=28-67|fat=10-18|heart=2|intestine=13-15|eye=2|brain=4-5|shell=21-26|skin=hide|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=phantom_spider_sprite.png
-|portrait=phantom_spider_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=phantom_spider_sprite.png|portrait=phantom_spider_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,8 +1,0 @@
-{{Quality|Unrated}}
-{{av}}{{catbox}}
-<onlyinclude>
-'''水生'''[[creature|生物]]拥有<tt>[AQUATIC]</tt>[[creature token|生物标记]]，因此被限制在水下生活。位于深度不足4/7的[[water depth|水中]]或完全离开水的水生生物会空气溺死；即使短暂陷入这种情况的水生动物也会暂时[[status icon|喘息]]。通常这种情况是矮人互动的结果，除了[[beaching|搁浅]]的[[whale|鲸鱼]]的情况。请注意，在[[cage|笼子]]（或用于装饰的[[aquarium|水族箱]]）中的水生生物目前不会溺水，除非它们在被放置或捕获在笼子中时正在溺水。
-</onlyinclude>
-[[File:aquatic.jpg|thumb|330px|center|鱼的最佳去处。]]
-{{Category|Creature attributes}}
-[[ru:Aquatic]]

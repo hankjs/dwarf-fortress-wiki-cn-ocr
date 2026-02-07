@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = berim
-| elvish  = aratha
-| goblin  = urdu
-| human   = lástta
-}}
+{{Translation| dwarven = berim| elvish  = aratha| goblin  = urdu| human   = lástta}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of crafts or labor will have words from this symbol in their name.

@@ -36,8 +36,7 @@ All cavern layers spawn webs ([http://www.bay12forums.com/smf/index.php?topic=17
 ║+++++++++║
 ║+++++++++║
 ║+++++++++║
-╚═════════╝
-}}
+╚═════════╝}}
 # Dig out (and optionally smooth) a sufficiently large room (example shown is 9x11)
 # Build a [[cage]] containing an '''untamed''' spider at the gray "S", and link it to a lever
 # Build a '''non-wooden''' [[door]] above the spider cage, and mark it forbidden.
@@ -66,7 +65,6 @@ There is a small chance of injury if the creature gets hit by the projectile sil
  ║[#080]║[#080]+[#080]+[#080]+[#080]║[#F00]╬+║     ║[#0AA]║[#0AA]+[#0AA]+[#0AA]+[#0AA]║╠══╝   ║+++++║ 
  ║[#080]╚[#080]═[#080]═[#080]═[#080]╝║[#59F]!║     ║[#0AA]╚[#0AA]═[#0AA]═[#0AA]═[#0AA]╝║      ║+++++║ 
  ╚═════╩═╝     ╚═════╝      ╚═════╝ 
-
 }}
 
 # Dig out the three chambers as shown.

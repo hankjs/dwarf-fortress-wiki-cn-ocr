@@ -1,13 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=mongoose_sprites.png
-|bone=4
-|meat=6
-|skin=hide
-|fat=6
-|skull=1
-|intestines=0-1
-|wiki=yes|contrib=no}}
+{{creaturelookup/0|image=mongoose_sprites.png|bone=4|meat=6|skin=hide|fat=6|skull=1|intestines=0-1|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

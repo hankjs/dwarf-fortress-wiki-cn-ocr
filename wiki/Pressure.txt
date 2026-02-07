@@ -26,31 +26,22 @@ The key to understanding how high a z-level water will reach is to understand wh
 
 The following three diagrams demonstrate different ways water might behave in a u-bend. In all three cases, the water source is on the left side of the diagram and water is filling the larger area to the right. 
 {| class="wikitable" style="margin-left: auto; margin-right: auto; border: none;"
-! Diagram A !! Diagram B !! Diagram C
-|-
-| {{diagram|spaces=yes|\
+! Diagram A !! Diagram B !! Diagram C|-| {{diagram|spaces=yes|\
 ▓[#00F]≈[#00F]≈[#00F]≈[#00F]≈[#00F][#080]≈▓   ▓
 ▓▓▓▓▓[#00F][#800]≈▓[#00F]≈[#00F]≈[#00F]≈▓
     ▓[#00F]≈▓[#00F]≈[#00F]≈[#00F]≈▓
     ▓[#00F]≈[#00F]≈[#00F]≈[#00F]≈[#00F]≈▓
-    ▓▓▓▓▓▓▓}}
-| {{diagram|spaces=yes|\
+    ▓▓▓▓▓▓▓}}| {{diagram|spaces=yes|\
 ▓[#00F][#800]≈[#00F][#800]≈[#00F][#800]≈[#00F][#800]≈[#00F][#800]≈▓[#00F]≈[#00F]≈[#00F]≈▓
 ▓▓▓▓▓[#00F]≈▓[#00F]≈[#00F]≈[#00F]≈▓
     ▓[#00F]≈▓[#00F]≈[#00F]≈[#00F]≈▓
     ▓[#00F]≈[#00F]≈[#00F]≈[#00F]≈[#00F]≈▓
-    ▓▓▓▓▓▓▓}}
-| {{diagram|spaces=yes|\
+    ▓▓▓▓▓▓▓}}| {{diagram|spaces=yes|\
 ▓    ÷÷[#00F][#800]≈▓[#00F]≈[#00F]≈[#00F]≈▓
 ▓[#00F]≈[#00F]≈[#00F]≈[#00F][#080]≈▓▓[#00F]≈▓[#00F]≈[#00F]≈[#00F]≈▓
 ▓▓▓▓▓▓▓[#00F]≈▓[#00F]≈[#00F]≈[#00F]≈▓
       ▓[#00F]≈[#00F]≈[#00F]≈[#00F]≈[#00F]≈▓
-      ▓▓▓▓▓▓▓}}
-|- align="center"
-| Undammed River || Dammed River || Screw Pump
-|- align="center"
-| colspan="3" | ''(All diagrams are side views, and cover 4 z-levels of water, plus a "bottom" z-level of stone/soil.)''
-|}
+      ▓▓▓▓▓▓▓}}|- align="center"| Undammed River || Dammed River || Screw Pump|- align="center"| colspan="3" | ''(All diagrams are side views, and cover 4 z-levels of water, plus a "bottom" z-level of stone/soil.)''|}
 <br>
 In the first example ('''Diagram A'''), we have water taken directly from a (flat) river used to fill a u-bend. In this case, the river is free to flow off the edge of the map, so the only pressure comes from the water tile on the top of the u-bend's left side (highlighted in green) falling downward (into the tile highlighted in red), so the water on the right side stops one level below the river itself, because even though the ''source'' tile is at river level, the ''destination'' tile (in red), whose height the water will reach because of pressure, is one z-level ''below'' the source tile.
 
@@ -64,25 +55,18 @@ With these three simple examples, you should be ready to go build your enormous 
 ===Magma in a U-bend===
 '''[[Magma]]''' does ''not'' exert pressure when ''it falls downward''. In our first magma example (Diagram A) we show how this works by creating a short u-bend and connecting it up to a magma pipe - it simply fills the lowest point and makes no further attempt to go back up.
 
-{| style="margin-left: auto; margin-right: auto; border: none;"
-|- align="center"
-| &#8199; &#8199;  Magma Pipe &#8199; &#8199; &#8199; &#8199; &#8199; &#8199; <br>&#8199;  &#8199; (side view) &#8199; &#8199; &#8199;  &#8199; &#8199; &#8199;||          Screw Pump<br>(side view)
-|-
-|{{diagram|spaces=yes|\
+{| style="margin-left: auto; margin-right: auto; border: none;"|- align="center"| &#8199; &#8199;  Magma Pipe &#8199; &#8199; &#8199; &#8199; &#8199; &#8199; <br>&#8199;  &#8199; (side view) &#8199; &#8199; &#8199;  &#8199; &#8199; &#8199;||          Screw Pump<br>(side view)|-|{{diagram|spaces=yes|\
 ▓▓[#F00]≈[#F00]≈[#F00]≈▓   ▓▓
 ▓▓[#F00]≈[#F00]≈[#F00]≈▓   ▓▓
 ▓▓[#F00]≈[#F00]≈[#F00]≈▓   ▓▓
 ▓▓[#F00]≈[#F00]≈[#F00]≈[#F00]≈[#F00]≈[#F00]≈[#F00]≈▓▓
-▓▓[#F00]≈[#F00]≈[#F00]≈▓▓▓▓▓▓}}
-| {{diagram|spaces=yes|\
+▓▓[#F00]≈[#F00]≈[#F00]≈▓▓▓▓▓▓}}| {{diagram|spaces=yes|\
     ÷÷[#F00]≈▓[#F00]≈[#F00]≈[#F00]≈▓
 ▓[#F00]≈[#F00]≈[#F00]≈▓▓[#F00]≈▓[#F00]≈[#F00]≈[#F00]≈▓
 ▓[#F00]≈[#F00]≈[#F00]≈▓▓[#F00]≈▓[#F00]≈[#F00]≈[#F00]≈▓
 ▓[#F00]≈[#F00]≈[#F00]≈▓▓[#F00]≈[#F00]≈[#F00]≈[#F00]≈[#F00]≈▓
-▓[#F00]≈[#F00]≈[#F00]≈▓▓▓▓▓▓▓▓}}
-|-
-!Diagram A !! Diagram B
-|}
+▓[#F00]≈[#F00]≈[#F00]≈▓▓▓▓▓▓▓▓}}|-
+!Diagram A !! Diagram B|}
 
 In the second diagram (Diagram B) we see how with the addition of a single [[screw pump]], the entire situation changes dramatically. When the screw pump moves magma to the right side, it does so using the rules of pressure and allows the area to fill up to the level of the pump. Accidentally flooding your fortress with [[magma]] is considerably more [[fun]] than a flood of [[water]].
 
@@ -139,36 +123,7 @@ Power  Water
 </diagram>
 
 Key:
-{| class="wikitable"
-|-
-| 1.
-| <diagram fg="000" bg="c0c0c0">▒</diagram>
-| Wall
-|-
-| 2.
-| <diagram fg="1:1" bg="c0c0c0">▒</diagram>
-| Wall that would flood with pressurized water if dug
-|-
-| 3.
-| <diagram fg="4:1" bg="c0c0c0">÷[@1:1]÷</diagram>
-| Pump facing left, with the right tile flooded
-|-
-| 4.
-| <diagram fg="000" bg="c0c0c0">.</diagram>
-| Floor
-|-
-| 5.
-| <diagram fg="1:1" bg="c0c0c0">≈</diagram>
-| Pressurized water
-|-
-| 6.
-| <diagram fg="1:0" bg="c0c0c0">≈[#]</diagram>
-| "Unpressurized" water
-|-
-| 7.
-| <diagram fg="4:1" bg="c0c0c0">║[#]</diagram>
-| Axle
-|}
+{| class="wikitable"|-| 1.| <diagram fg="000" bg="c0c0c0">▒</diagram>| Wall|-| 2.| <diagram fg="1:1" bg="c0c0c0">▒</diagram>| Wall that would flood with pressurized water if dug|-| 3.| <diagram fg="4:1" bg="c0c0c0">÷[@1:1]÷</diagram>| Pump facing left, with the right tile flooded|-| 4.| <diagram fg="000" bg="c0c0c0">.</diagram>| Floor|-| 5.| <diagram fg="1:1" bg="c0c0c0">≈</diagram>| Pressurized water|-| 6.| <diagram fg="1:0" bg="c0c0c0">≈[#]</diagram>| "Unpressurized" water|-| 7.| <diagram fg="4:1" bg="c0c0c0">║[#]</diagram>| Axle|}
 
 Note that the screw pump ''will'' still exert pressure when filling the pool, but said pressure will be independent of the source and can be subsequently blocked by diagonal gaps.
 

@@ -33,16 +33,14 @@ Syndromes that affect the creature's stats, particularly in combat.
 {{gamedata|title=Giant Growth|
 [SYNDROME]
 	[SYN_NAME:giant growth]
-	[CE_BODY_APPEARANCE_MODIFIER:APPEARANCE_MODIFIER:HEIGHT:200:APPEARANCE_MODIFIER:LENGTH:200:APPEARANCE_MODIFIER:BROADNESS:200:START:0]
-}}
+	[CE_BODY_APPEARANCE_MODIFIER:APPEARANCE_MODIFIER:HEIGHT:200:APPEARANCE_MODIFIER:LENGTH:200:APPEARANCE_MODIFIER:BROADNESS:200:START:0]}}
 
 Also, you can change the size [[Syndrome#CE_BP_APPEARANCE_MODIFIER|of particular body parts]], with appropriate effects.  The following syndrome, for example, will make the creature's punches more powerful (but it will not make their scratches any stronger, because their fingers are still the same size).
 
 {{gamedata|title=Hulk Hands|
 [SYNDROME]
 	[SYN_NAME:freakishly big hands]
-	[CE_BP_APPEARANCE_MODIFIER:BP:BY_CATEGORY:HAND:APPEARANCE_MODIFIER:HEIGHT:300:APPEARANCE_MODIFIER:LENGTH:300:APPEARANCE_MODIFIER:BROADNESS:300:START:0]
-}}
+	[CE_BP_APPEARANCE_MODIFIER:BP:BY_CATEGORY:HAND:APPEARANCE_MODIFIER:HEIGHT:300:APPEARANCE_MODIFIER:LENGTH:300:APPEARANCE_MODIFIER:BROADNESS:300:START:0]}}
 
 ==Counter Trigger examples==
 <code>[[Syndrome#Counter_Triggers|CE_COUNTER_TRIGGER]]</code> is a fun token that lets you make syndromes with effects that activate under certain circumstances.  You can use these to undo a different syndrome effect, in order to make a syndrome operate differently in different circumstances.
@@ -56,8 +54,7 @@ There's no real reason ''not'' to become a vampire in vanilla DF, you don't even
 	[SYN_NAME:vampire curse]
 	[CE_PHYS_ATT_CHANGE:STRENGTH:50:0:TOUGHNESS:50:0:AGILITY:50:0:ENDURANCE:50:0:DISEASE_RESISTANCE:50:0:START:0] <-- Weakens the target always
 	[CE_PHYS_ATT_CHANGE:STRENGTH:800:0:TOUGHNESS:800:0:AGILITY:800:0:ENDURANCE:800:0:DISEASE_RESISTANCE:800:0:START:0] <-- Strengthens the target
-		[CE:COUNTER_TRIGGER:TIME_SINCE_SUCKED_BOOD:NONE:172799:REQUIRED] <-- Prevents the above strengthening effect from working unless the target has recently sucked blood (vampires become Thirsty at 172800) 
-}}
+		[CE:COUNTER_TRIGGER:TIME_SINCE_SUCKED_BOOD:NONE:172799:REQUIRED] <-- Prevents the above strengthening effect from working unless the target has recently sucked blood (vampires become Thirsty at 172800) }}
 
 ===Creatures that behave differently underground===
 This is nice if you want to make an above-ground fort mode race, but don't want to actually restrict them to the surface - instead, you can give them a mood penalty for staying underground for too long.
@@ -72,8 +69,7 @@ Note that the creature must have the {{token|CAVE_ADAPT|c}} tag in order for the
 		[SYN_AFFECTED_CREATURE:MY_CREATURE:ALL]
 		[CE_FEEL_EMOTION:EMOTION:GLUMNESS:SEV:50:START:0]
 			[CE:COUNTER_TRIGGER:CAVE_ADAPT:33600:NONE:REQUIRED]
-[SECRETION:LOCAL_CREATURE_MAT:THOUGHTS:LIQUID:BY_CATEGORY:BRAIN:ALL:CONTINUOUS]
-}}
+[SECRETION:LOCAL_CREATURE_MAT:THOUGHTS:LIQUID:BY_CATEGORY:BRAIN:ALL:CONTINUOUS]}}
 You can do other things with this, like make a creature that gets extra abilities underground, or is stronger aboveground (by making the syndrome increase their strength normally, but reduce it using the counter-trigger, similar to the vampire example).
 
 {{Category|Modding}}

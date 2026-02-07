@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_tigereye_sprite.png
-|graphic2=rough_tigereye_sprite.png
-|wiki=Tiger's eye}}
+{{gemlookup/0|graphic=cut_tigereye_sprite.png|graphic2=rough_tigereye_sprite.png|wiki=Tiger's eye}}
 {{av}}
 
 '''Tigereyes''' are unremarkable low-value [[gem]]s found in [[sedimentary layer]]s.

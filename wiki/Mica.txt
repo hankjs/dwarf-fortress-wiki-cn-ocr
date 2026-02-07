@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=mica_sprite.png}}
+{{stonelookup/0|graphic=mica_sprite.png}}
 {{av}}
 
 '''Mica''' is a [[magma-safe]] [[stone]] found in large clusters within [[metamorphic layer|metamorphic]] [[stone]] and [[granite]]. In the Steam version, it is brown/tan in color while its ASCII colouring is gray.

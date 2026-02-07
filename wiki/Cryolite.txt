@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=cryolite_sprite.png}}
+{{stonelookup/0|graphic=cryolite_sprite.png}}
 {{av}}
 
 '''Cryolite''' is an unremarkable white stone which can be found within [[granite]].

@@ -1,10 +1,6 @@
 {{Quality|Exceptional}}
 
-{{Creaturelookup/0
-|image=Goblin_sprite.png
-|portrait=goblin_portrait_anim.gif
-|wiki=yes
-}}
+{{Creaturelookup/0|image=Goblin_sprite.png|portrait=goblin_portrait_anim.gif|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

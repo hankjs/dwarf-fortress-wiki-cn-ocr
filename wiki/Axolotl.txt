@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0|image=axolotl_sprite.png
-|portrait=axolotl_portrait.png}}
+{{verminlookup/0|image=axolotl_sprite.png|portrait=axolotl_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

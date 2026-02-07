@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=orange_trunk_sprite.png
-|product=date_palm_sprite.png
-|sapling=date_palm_sapling.png}}
+{{Treelookup/0|graphic=orange_trunk_sprite.png|product=date_palm_sprite.png|sapling=date_palm_sapling.png}}
 {{av}}
 
 '''Date palms''' are one of the many genera of [[tree]]s found [[Tile attributes|above ground]]. Like the vast majority of above ground trees, date palm [[wood]] is brown and produces brown products.

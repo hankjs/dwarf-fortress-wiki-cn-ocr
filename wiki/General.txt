@@ -1,19 +1,7 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Noble
-| noble= General
-| office= Decent office
-| quarters= Quarters
-| dining= Dining room
-| tomb= Grave
-| chests=2
-| cabinets=1
-| racks=3
-| stands=3
-| demands=2
-| arrival = 
-* Arrives with [[monarch]]
-}}{{av}}
+{{Noble| noble= General| office= Decent office| quarters= Quarters| dining= Dining room| tomb= Grave| chests=2| cabinets=1| racks=3| stands=3| demands=2| arrival = 
+* Arrives with [[monarch]]}}{{av}}
 
 The '''general''' is the highest-ranking member of the mostly-unrealized, civilization-wide dwarven army, responsible for determining military strategy as well as the appointment of [[lieutenant]]s and [[captain]]s. The general commands the lieutenants, who in turn command the captains. The general arrives alongside the [[monarch]]. 
 
@@ -23,12 +11,7 @@ In the current implementation, there does not seem to be anything special about 
 
 [[Elf|Elves]] additionally have the princess role, with the same functions and likewise appointing [[ranger captain]]s. Despite the name, the position is not inherited, instead appointed by the [[druid]]. However, the princess is defined as the successor to the [[monarch|queen]].
 
-{{Translation
-| dwarven = gärem
-| elvish  = carila
-| goblin  = turu
-| human   = cañar
-}}
+{{Translation| dwarven = gärem| elvish  = carila| goblin  = turu| human   = cañar}}
 
 {{gamedata|	[POSITION:GENERAL]
 		[NAME:general:generals]

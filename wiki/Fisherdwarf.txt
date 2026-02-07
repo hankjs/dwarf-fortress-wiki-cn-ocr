@@ -1,16 +1,7 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 1:0
-| graphic    = [[File:fish_sprite_icon.png]]
-| graphicmargin = 107px
-| skill      = Fisherdwarf
-| profession = [[Fishery worker]]
-| job name   = [[Fishing]]
-| tasks      =
-* Fishing
-| workshop =
-* [[Fishery]]
-| attributes =
+{{v50_skill| color      = 1:0| graphic    = [[File:fish_sprite_icon.png]]| graphicmargin = 107px| skill      = Fisherdwarf| profession = [[Fishery worker]]| job name   = [[Fishing]]| tasks      =
+* Fishing| workshop =
+* [[Fishery]]| attributes =
 * Strength
 * Agility
 * Focus

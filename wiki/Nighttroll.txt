@@ -222,8 +222,7 @@ It is rumored by some that certain night trolls consider the destruction of the 
 		[CASTE_NAME:hag of twilight:hags of twilight:hag of twilight]
 	[SELECT_CASTE:MALE]
 		[CASTE_NAME:hag groom of twilight:hag grooms of twilight:hag groom of twilight]
-	[SELECT_CASTE:ALL]
-}}
+	[SELECT_CASTE:ALL]}}
 
 {{Scriptdata}}
 {{Creatures}}

@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=feather_tree_trunk_sprite.png
-|product=feather_eggs_sprite.png
-|sapling=feather_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=feather_tree_trunk_sprite.png|product=feather_eggs_sprite.png|sapling=feather_sapling.png|wiki=no}}
 
 {{av}}
 

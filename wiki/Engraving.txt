@@ -39,37 +39,15 @@ Removing engraved natural walls/floors will remove the engraving without trigger
 
 For floor tiles, their value calculation is [floor origin multiplier] × [floor material value] + [engraving bonus]
 
-{| class="wikitable" style="text-align:center;"
-|+ Floor Origin Multipliers
-|-
-! Origin !! Multiplier
-|-
-| rough cave floor || 1×
-|-
-| smooth cave floor || 4×
-|-
-| constructed floor || 7×
-|}
+{| class="wikitable" style="text-align:center;"|+ Floor Origin Multipliers|-
+! Origin !! Multiplier|-| rough cave floor || 1×|-| smooth cave floor || 4×|-| constructed floor || 7×|}
 
 If the floor is engraved, the added engraving bonus is [10] × [floor material value] × [quality value modifier], with those modifiers being:
 
 {| class=wikitable style="text-align:center;"
 ! style=""| Designation 
 ! Description
-! Value <br>Modifier 
-|-
-| Engraving  ||  &mdash;        || 1×
-|-
-| -Engraving-|| Well-crafted    || 2×
-|-
-| +Engraving+|| Finely-crafted  || 3×
-|-
-| *Engraving*|| Superior quality|| 4×
-|-
-| ≡Engraving≡|| Exceptional     || 5×
-|-
-| ☼Engraving☼|| Masterful       || 12×
-|}
+! Value <br>Modifier |-| Engraving  ||  &mdash;        || 1×|-| -Engraving-|| Well-crafted    || 2×|-| +Engraving+|| Finely-crafted  || 3×|-| *Engraving*|| Superior quality|| 4×|-| ≡Engraving≡|| Exceptional     || 5×|-| ☼Engraving☼|| Masterful       || 12×|}
 
 If a dwarf has a [[preference]] for the type of stone in which the engraving was made, its value doubles in their eyes. However, the actual image depicted in the engraving has ''no'' effect on its value.
 
@@ -79,17 +57,8 @@ However, if a floor tile exists in more than one designated room, all overlappin
 
 Wall engravings are yet another beast entirely. The initial calculation is similar, being [Wall Origin × Material Value], but their multipliers are different than floors, and their engraving bonus works differently.
 
-{| class="wikitable" style="text-align:center;"
-|+ Wall Origin Multipliers
-|-
-! Origin !! Multiplier
-|-
-| natural cave wall || 1×
-|-
-| smooth cave wall || 5×
-|-
-| constructed wall || 9×
-|}
+{| class="wikitable" style="text-align:center;"|+ Wall Origin Multipliers|-
+! Origin !! Multiplier|-| natural cave wall || 1×|-| smooth cave wall || 5×|-| constructed wall || 9×|}
 
 Walls also receive an added Engraving Bonus using the same formula as floor engravings ([10] × [material value] × [quality value modifier]), but how their material value is calculated and how their value affects rooms is far more complex. Wall engravings are directional, and they only provide their value to a room which contains the floor tile the engraver was standing on at the time of completion, and instead of simply using the engraved wall's material value, they instead look at a combined tally all of the tiles of the room they're in, both walls and floors, and use the value of the most common material in those tiles{{verify}}.
 

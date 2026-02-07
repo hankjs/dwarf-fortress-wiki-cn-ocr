@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=firefly_sprite.png
-|portrait=firefly_portrait.png}}
+{{verminlookup/0|image=firefly_sprite.png|portrait=firefly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -27,8 +27,7 @@ Players are advised to empty their wagons, and move all their goods and populati
 * [[File:snowy_owl_sprite.png|20px]] / {{Tile|o|7:1}} [[Snowy owl]]
 * [[File:stoat_sprite.png|20px]] / {{Tile|s|6:0}} [[Stoat]]
 * [[File:weasel_sprite.png|20px]] / {{Tile|w|6:0}} [[Weasel]]
-* [[File:wolf_sprite.png|20px]] / {{Tile|w|7:0}} [[Wolf]]
-}}
+* [[File:wolf_sprite.png|20px]] / {{Tile|w|7:0}} [[Wolf]]}}
 
 '''In savage tundras:'''
 {{Columns-list|
@@ -58,8 +57,7 @@ Players are advised to empty their wagons, and move all their goods and populati
 * [[File:stoat_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Stoat man]]
 * [[File:weasel_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Weasel man]]
 * [[File:wolf_man_sprite.png|20px]] / {{Tile|w|7:0}} [[Wolf man]]
-* [[File:yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[Yeti]]
-}}
+* [[File:yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[Yeti]]}}
 
 '''In evil tundras:'''
 * [[File:blizzard_man_sprite.png|20px]] / {{Tile|M|3:1}} [[Blizzard man]]
@@ -78,60 +76,21 @@ Players are advised to empty their wagons, and move all their goods and populati
 [[File:tundra_preview.jpg|thumb|350px|right|Not a good embarking area.]]
 === Shrubs ===
 {| class="wikitable"
-! Name
-|-
-| [[File:bilberry_shrub_sprite.png]] / {{Tile|"|2:1}} [[Bilberry]]
-|-
-| [[File:blueberry_shrub_sprite.png]] / {{Tile|"|2:1}} [[Blueberry]]
-|-
-| [[File:cranberry_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Cranberry]]
-|}
+! Name|-| [[File:bilberry_shrub_sprite.png]] / {{Tile|"|2:1}} [[Bilberry]]|-| [[File:blueberry_shrub_sprite.png]] / {{Tile|"|2:1}} [[Blueberry]]|-| [[File:cranberry_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Cranberry]]|}
 
 === Grasses ===
 {| class="wikitable"
-! Name
-|-
-| {{Tile|.|2:1}} [[Bentgrass]]
-|-
-| {{Tile|.|2:1}} [[Cloudberry]]
-|-
-| {{Tile|.|2:1}} [[Cottongrass]]
-|-
-| {{Tile|.|2:1}} [[Fescue grass]]
-|-
-| {{Tile|.|2:1}} [[Hair grass]]
-|-
-| {{Tile|.|2:1}} [[Meadow-grass]]
-|-
-| {{Tile|.|2:1}} [[Mountain avens]]
-|-
-| {{Tile|.|2:1}} [[White mountain heather]]
-|}
+! Name|-| {{Tile|.|2:1}} [[Bentgrass]]|-| {{Tile|.|2:1}} [[Cloudberry]]|-| {{Tile|.|2:1}} [[Cottongrass]]|-| {{Tile|.|2:1}} [[Fescue grass]]|-| {{Tile|.|2:1}} [[Hair grass]]|-| {{Tile|.|2:1}} [[Meadow-grass]]|-| {{Tile|.|2:1}} [[Mountain avens]]|-| {{Tile|.|2:1}} [[White mountain heather]]|}
 
 '''In good tundras:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|3:1}} [[Bubble bulb]]
-|-
-| {{Tile|.|7:1}} [[Downy grass]]
-|}
+! Name|-| {{Tile|O|3:1}} [[Bubble bulb]]|-| {{Tile|.|7:1}} [[Downy grass]]|}
 
 '''In evil tundras:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|7:1}} [[Staring eyeball]]
-|-
-| {{Tile|≥|5:1}} [[Wormy tendril]]
-|}
+! Name|-| {{Tile|O|7:1}} [[Staring eyeball]]|-| {{Tile|≥|5:1}} [[Wormy tendril]]|}
 
-{{Translation
-| dwarven = kekath
-| elvish  = zepave
-| goblin  = strasnu
-| human   = tor
-}}
+{{Translation| dwarven = kekath| elvish  = zepave| goblin  = strasnu| human   = tor}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

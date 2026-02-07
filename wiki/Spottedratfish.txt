@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=spotted_ratfish_sprite.png
-|portrait=spotted_ratfish_portrait.png}}
+{{verminlookup/0|image=spotted_ratfish_sprite.png|portrait=spotted_ratfish_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

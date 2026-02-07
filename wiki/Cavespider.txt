@@ -1,8 +1,5 @@
 {{Quality|Exceptional|00:31, 19 January 2023 (UTC)}}
-{{verminlookup/0
-|image=cave_spider_sprite.png
-|portrait=cave_spider_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=cave_spider_sprite.png|portrait=cave_spider_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 A '''cave spider''' is a type of [[Caverns|subterranean]] [[vermin]]. It produces [[web]]s that can be collected and [[loom|woven]] into [[thread|cave spider silk thread]].

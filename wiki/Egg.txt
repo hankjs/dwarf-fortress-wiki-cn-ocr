@@ -28,12 +28,7 @@ No dwarf has ever seen a [[feather tree]] egg, but all are familiar with the yol
 
 [[File:eggs.png|thumb|290px|center|What's an egg's least favorite drug?<br>Crack.]]
 
-{{Translation
-| dwarven = acöb
-| elvish  = amira
-| goblin  = donsmok
-| human   = edi
-}}
+{{Translation| dwarven = acöb| elvish  = amira| goblin  = donsmok| human   = edi}}
 
 {{materials}}
 

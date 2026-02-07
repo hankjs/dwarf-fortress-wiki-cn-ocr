@@ -9,8 +9,7 @@ The fishery worker skills are:
 {{Skill Box|Fishery Worker|1:0|1:0|
 * [[Fish cleaner]]
 * [[Fish dissector]]
-* [[Fisherdwarf]]
-}}
+* [[Fisherdwarf]]}}
 
 ;See also:
 :* [[Fishery]]

@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=Crab_man_sprite.png
-|portrait=crab_man_portrait.png}}
+{{Creaturelookup/0|image=Crab_man_sprite.png|portrait=crab_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

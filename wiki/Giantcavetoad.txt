@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_cave_toad_sprite.png
-|portrait=giant_cave_toad_portrait.png
-|wiki=no
-|vary=no
-|contrib=no
-|meat=13-14
-|fat=12
-|bone=16-17
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_cave_toad_sprite.png|portrait=giant_cave_toad_portrait.png|wiki=no|vary=no|contrib=no|meat=13-14|fat=12|bone=16-17|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide}}
 {{av}}
 :''Not to be confused with regular [[giant toad]]s.''
 

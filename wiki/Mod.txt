@@ -64,8 +64,7 @@ Each mod must have an <code>info.txt</code> at the root of your mod folder. It h
 [STEAM_METADATA:metadata test]
 [STEAM_CHANGELOG:Made some changes. Shown in 'Change Notes' tab.]
 
-[STEAM_FILE_ID:#########]
-}}
+[STEAM_FILE_ID:#########]}}
 
 Only <code>ID</code> and <code>NAME</code> are required to appear in the in-game mod menu.
 

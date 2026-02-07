@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = dakas
-| elvish  = mima
-| goblin  = zon
-| human   = rusna
-}}
+{{Translation| dwarven = dakas| elvish  = mima| goblin  = zon| human   = rusna}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|spheres]] of dawn, jewels, light, painting, or rainbows will have words from this symbol in their name.

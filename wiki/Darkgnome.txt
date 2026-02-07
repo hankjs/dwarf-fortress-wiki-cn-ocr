@@ -1,11 +1,5 @@
 {{Quality|Superior|10:08 11/01/2023(GMT)}}
-{{Creaturelookup/0
-|image=dark_gnome_sprites.png
-|portrait=dark_gnome_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=dark_gnome_sprites.png|portrait=dark_gnome_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 

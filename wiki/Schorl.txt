@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_schorl_sprite.png
-|graphic2=rough_schorl_sprite.png}}
+{{gemlookup/0|graphic=cut_schorl_sprite.png|graphic2=rough_schorl_sprite.png}}
 {{av}}
 
 '''Schorls''' are unremarkable low-value [[gem]]s found in [[sedimentary]] and [[metamorphic]] stone layers, as well as in [[granite]].

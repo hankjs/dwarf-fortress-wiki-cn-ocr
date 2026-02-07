@@ -29,8 +29,7 @@ The following vermin are hateable:
 *[[File:Slug sprite.png]] / {{Tile|~|6:0}} [[Slug]]
 *[[File:Snail sprite.png]] / {{Tile|∙|7:0}} [[Snail]]
 *[[File:Toad sprite.png]] / {{Tile|∙|2:0}} [[Toad]]
-*[[File:Worm sprite.png]] / {{Tile|~|7:0}} [[Worm]]
-}}
+*[[File:Worm sprite.png]] / {{Tile|~|7:0}} [[Worm]]}}
 
 {{Category|Creature attributes}}
 [[ru:Hateable]]

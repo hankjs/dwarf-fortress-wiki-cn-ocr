@@ -1,11 +1,6 @@
 [[File:ZachAdams.jpg|thumb|ThreeToe at Pax 2013]]
 
-{{Translation
-| dwarven = mez-nin
-| elvish  = sara-nani
-| goblin  = rugol-osmnog
-| human   = akku-domi
-}}
+{{Translation| dwarven = mez-nin| elvish  = sara-nani| goblin  = rugol-osmnog| human   = akku-domi}}
 
 '''ThreeToe''' is the nickname used by '''Zach Adams''', co-designer of ''[[Dwarf Fortress]]'' and author of the [http://www.bay12games.com/dwarves/dev_story.html short stories] which highlight ''Dwarf Fortress''<nowiki>'</nowiki>s upcoming features. He can be reached at [http://www.bay12games.com/about.html About Bay 12 Games] or the [http://www.bay12forums.com/smf/ Bay 12 Games Forum].
 
@@ -39,8 +34,7 @@ Since March 2019[http://www.bay12games.com/dwarves/dev_2019.html#2019-03-09], Th
 	[LAYERING:10]
 	[MALE]
 	[SPEECH_MALE:human_male.txt]
-	[MUNDANE]
-}}
+	[MUNDANE]}}
 
 [[Category:Game development]]
 [[ru:ThreeToe]]

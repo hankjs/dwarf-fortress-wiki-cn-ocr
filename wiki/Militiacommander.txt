@@ -1,11 +1,8 @@
 {{av}}
 {{Quality|Superior}}
-{{Noble|noble=Militia Commander
-|arrival=
-*Appointed on [[nobles screen]] or [[military interface]].
-|function=
-*Leads the local [[military]] of your fortress.
-}}
+{{Noble|noble=Militia Commander|arrival=
+*Appointed on [[nobles screen]] or [[military interface]].|function=
+*Leads the local [[military]] of your fortress.}}
 
 The '''militia commander''' is an appointed [[noble]] who serves as the senior leader in the [[military]] command hierarchy of your [[fortress]]. They can be assigned at any point (from either the {{menu icon|n}} [[Nobles screen|nobles screen]] or the {{menu icon|q}} [[squad|squad screen]]), and have no room [[Noble#Needs|requirements]]. The militia commander is only surpassed by the [[general]] in terms of military rank among dwarves who may inhabit a playable fortress. 
 

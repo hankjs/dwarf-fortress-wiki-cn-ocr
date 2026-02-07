@@ -1,22 +1,12 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 2:1
-| graphic    = [[File:jewel_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Gem Setter
-| profession = [[Jeweler]]
-| job name   = [[Gem setting]]
-| tasks      =
+{{v50_skill| color      = 2:1| graphic    = [[File:jewel_sprite_icon.png]]| graphicmargin = 106px| skill      = Gem Setter| profession = [[Jeweler]]| job name   = [[Gem setting]]| tasks      =
 * Encrust ammo with ''gem name''
 * Encrust finished goods with ''gem name''
-* Encrust furniture with ''gem name''
-| workshop = [[Jeweler's workshop]]
-| attributes =
+* Encrust furniture with ''gem name''| workshop = [[Jeweler's workshop]]| attributes =
 * Agility
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 [[File:encrusted_statue.png|thumb|230px|right|A gem-encrusted glass statue of a rat.]]
 '''Gem setter''' is the skill associated with the '''gem setting''' [[labor]]. Gem setters [[decoration|encrust]] [[furniture]], [[finished goods]] (excluding [[tool]]s), and [[ammo]] (including siege ammo) with cut [[gem]]s. It is not currently possible to decorate [[weapon]]s and [[armor]] with gems, unless the armor is made of [[cloth]]. A high level of gem setting allows a dwarf to set gems faster and with better quality, making the decorated items more valuable.

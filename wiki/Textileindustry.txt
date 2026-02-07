@@ -21,34 +21,14 @@ The easiest way to feed your fortress is with subsurface farming, and consequent
 For easy reference, the plants are listed below:
 
 ;Thread Plants
-{| class="wikitable sortable"
-|-
+{| class="wikitable sortable"|-
 ! rowspan=2| Plant 
 ! rowspan=2| Type
 ! colspan=2| Grows
 ! rowspan=2| [[Biome]]
 ! colspan=4| Season
-! rowspan=2| Other uses
-|-
-! Wet !! Dry !! Spring !! Summer !! Autumn !! Winter 
-|-
-| [[Pig tail]] || [[Underground]] || X || X || [[Biome#Underground|Subterranean water]] ||  || X || X ||  || alcohol
-|-
-| [[Rope reed]] || [[Above ground]] || X ||  || [[Biome#Groups|Not Freezing]] || X || X || X || X || alcohol
-|-
-| [[Flax]] || Above ground ||  || X || [[Grassland]], [[Savanna]] || X || X || X || X || flour, oil
-|-
-| [[Jute]] || Above ground ||  || X || [[Tropical]] || X || X || X || X || none
-|-
-| [[Hemp]] || Above ground ||  || X || [[Temperate]] || X || X || X || X || flour, oil
-|-
-| [[Cotton]] || Above ground ||  || X || Tropical || X || X || X || X || oil
-|-
-| [[Ramie]] || Above ground ||  || X || Tropical || X || X || X || X || none
-|-
-| [[Kenaf]] || Above ground ||  || X || Tropical || X || X || X || X || oil
-|-
-|}
+! rowspan=2| Other uses|-
+! Wet !! Dry !! Spring !! Summer !! Autumn !! Winter |-| [[Pig tail]] || [[Underground]] || X || X || [[Biome#Underground|Subterranean water]] ||  || X || X ||  || alcohol|-| [[Rope reed]] || [[Above ground]] || X ||  || [[Biome#Groups|Not Freezing]] || X || X || X || X || alcohol|-| [[Flax]] || Above ground ||  || X || [[Grassland]], [[Savanna]] || X || X || X || X || flour, oil|-| [[Jute]] || Above ground ||  || X || [[Tropical]] || X || X || X || X || none|-| [[Hemp]] || Above ground ||  || X || [[Temperate]] || X || X || X || X || flour, oil|-| [[Cotton]] || Above ground ||  || X || Tropical || X || X || X || X || oil|-| [[Ramie]] || Above ground ||  || X || Tropical || X || X || X || X || none|-| [[Kenaf]] || Above ground ||  || X || Tropical || X || X || X || X || oil|-|}
 
 ;Dye Plants
 {| class="wikitable sortable"
@@ -59,19 +39,8 @@ For easy reference, the plants are listed below:
 ! colspan=2| Grows
 ! rowspan=2| [[Biome]]
 ! colspan=4| Season
-! rowspan=2| Special
-|-
-! Wet !! Dry !! Spring !! Summer !! Autumn !! Winter 
-|-
-| [[Dimple cup]]  || Dimple Dye || Midnight Blue ||bgcolor="#003366" | &nbsp;&nbsp;&nbsp; || [[Underground]] || X || X || [[Biome#Underground|Subterranean water]] || X || X || X || X || grows slowly
-|-
-| [[Blade weed]] || Emerald Dye || Emerald ||bgcolor="#50c878" | &nbsp;&nbsp;&nbsp; || [[Above ground]] ||  || X || [[Biome#Groups|Not Freezing]] || X || X || X || X || (baseline)
-|-
-| [[Hide root]] || Redroot Dye || Red ||bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp; || Above ground ||  || X || Not Freezing || X || X || X || X || low value
-|-
-| [[Sliver barb]] || Sliver Dye || Black ||bgcolor="#000000" | &nbsp;&nbsp;&nbsp; || Above ground ||  || X || [[Surroundings#Evil|Evil]], Not Freezing || X || X || X || X || brewable
-|-
-|}
+! rowspan=2| Special|-
+! Wet !! Dry !! Spring !! Summer !! Autumn !! Winter |-| [[Dimple cup]]  || Dimple Dye || Midnight Blue ||bgcolor="#003366" | &nbsp;&nbsp;&nbsp; || [[Underground]] || X || X || [[Biome#Underground|Subterranean water]] || X || X || X || X || grows slowly|-| [[Blade weed]] || Emerald Dye || Emerald ||bgcolor="#50c878" | &nbsp;&nbsp;&nbsp; || [[Above ground]] ||  || X || [[Biome#Groups|Not Freezing]] || X || X || X || X || (baseline)|-| [[Hide root]] || Redroot Dye || Red ||bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp; || Above ground ||  || X || Not Freezing || X || X || X || X || low value|-| [[Sliver barb]] || Sliver Dye || Black ||bgcolor="#000000" | &nbsp;&nbsp;&nbsp; || Above ground ||  || X || [[Surroundings#Evil|Evil]], Not Freezing || X || X || X || X || brewable|-|}
 
 (*) "Wet" and "Dry" determine where plants are found in proximity to watercourses when gathering wild plants, and do not affect farm plots.
 
@@ -126,33 +95,14 @@ Dye can then be applied at a [[dyer's shop]] by a [[dyer]].
 :''See also: [[Value]]''
 Clothes and cloth goods can have many modifiers, so it can be difficult to determine exactly how to produce the most valuable goods. Despite their complexity, cloth goods follow many of the same rules for [[item value]] calculations as other goods. Notably, the cloth, thread, and embroidery are calculated like [[decoration]]s, while dyes are just added directly. The specific formula for a cloth item's value is as follows:
 
-{| border="1" style="border: 1px solid black; border-spacing: 0; margin: 1em auto; text-align:center; border-collapse: collapse;"
-|+ '''Cloth Item Value'''
-|-
+{| border="1" style="border: 1px solid black; border-spacing: 0; margin: 1em auto; text-align:center; border-collapse: collapse;"|+ '''Cloth Item Value'''|-
 !
 ! {{tc|teal|item}}
 ! {{tc|green|cloth}}
 ! {{tc|red|thread}}
 ! {{tc|blue|cloth/thread dye}}
 ! {{tc|purple|embroidery}}
-! {{tc|indigo|embroidery dye}}
-|-
-| Summed Elements
-| {{tc|teal|(type * material * quality)}}
-| {{tc|green|(decoration * material * quality)}}
-| {{tc|red|(decoration * material)}}
-| {{tc|blue|(powder * material * quality)}}
-| {{tc|purple|(decoration * material * quality)}}
-| {{tc|indigo|(powder * material * quality)}}
-|-
-| Values
-| {{tc|teal|Type: [[Maximizing value#Cloth|Inherent value of item]];Material: Material value of cloth used to make the item; Quality: [[Item quality|1-5,12,or 120 (for artifacts)]], influenced by the clothier skill of the item maker}}
-| {{tc|green|Decoration: 10; Material: Material value of cloth used to make the item; Quality: [[Item quality|1-5 or 12]], influenced by the weaver skill of the cloth maker}}
-| {{tc|red|Decoration: 10; Material: Material value of thread used to make the cloth}}
-| {{tc|blue|Powder: 1; Material: Milled value of plant used to make dye; Quality: [[Item quality|1-5 or 12]], influenced by the dyer skill of the dye maker}}
-| {{tc|purple|Decoration: 10, Material: Material value of cloth used for embroidery, ignoring cloth quality; Quality: [[Item quality|1-5,12,or 120 (for artifacts)]], influenced by the clothier skill of the embroiderer}}
-| {{tc|indigo|Powder: 1; Material: Milled value of plant used to make dye; Quality: [[Item quality|1-5 or 12]], influenced by the dyer skill of the dye maker}}
-|}
+! {{tc|indigo|embroidery dye}}|-| Summed Elements| {{tc|teal|(type * material * quality)}}| {{tc|green|(decoration * material * quality)}}| {{tc|red|(decoration * material)}}| {{tc|blue|(powder * material * quality)}}| {{tc|purple|(decoration * material * quality)}}| {{tc|indigo|(powder * material * quality)}}|-| Values| {{tc|teal|Type: [[Maximizing value#Cloth|Inherent value of item]];Material: Material value of cloth used to make the item; Quality: [[Item quality|1-5,12,or 120 (for artifacts)]], influenced by the clothier skill of the item maker}}| {{tc|green|Decoration: 10; Material: Material value of cloth used to make the item; Quality: [[Item quality|1-5 or 12]], influenced by the weaver skill of the cloth maker}}| {{tc|red|Decoration: 10; Material: Material value of thread used to make the cloth}}| {{tc|blue|Powder: 1; Material: Milled value of plant used to make dye; Quality: [[Item quality|1-5 or 12]], influenced by the dyer skill of the dye maker}}| {{tc|purple|Decoration: 10, Material: Material value of cloth used for embroidery, ignoring cloth quality; Quality: [[Item quality|1-5,12,or 120 (for artifacts)]], influenced by the clothier skill of the embroiderer}}| {{tc|indigo|Powder: 1; Material: Milled value of plant used to make dye; Quality: [[Item quality|1-5 or 12]], influenced by the dyer skill of the dye maker}}|}
 
 Note that thread does not have a quality modifier, and the quality of cloth used in an embroidered design is ignored. The formula can be simplified (to use fewer terms) as:
 
@@ -232,26 +182,12 @@ Theoretically, the most valuable non-artifact/non-adamantine clothing item is wo
 Overall, the textile industry consists of eight different jobs: ([[grower|growing]], [[plant processing]], [[shearing]], [[spinning]], [[weaver|weaving]], [[clothier|clothes making]], [[milling]], and [[dyeing]]). The value of the finished product is determined by the [[quality]] of three specific steps (as well as the base material): weaving, dyeing, and clothes-making. Obviously, then, the more skilled your weavers, dyers, and clothiers, the better and more valuable your items will be.
 
 If your intent is to produce equal volumes of thread and dye (so that all of your thread can be dyed), then you need to establish a year-round growing cycle with two equally-sized plots above and below ground as follows:
-::{| class="wikitable"
-|-
+::{| class="wikitable"|-
 !
 ! Spring
 ! Summer
 ! Autumn
-! Winter
-|-
-| '''Underground'''
-| [[Dimple cup]]
-| [[Pig tail]]
-| [[Pig tail]]
-| [[Dimple cup]]
-|-
-| '''Above ground'''
-| [[Rope reed]]
-| [[Sliver barb]]
-| [[Blade weed]]
-| [[Rope reed]]
-|}
+! Winter|-| '''Underground'''| [[Dimple cup]]| [[Pig tail]]| [[Pig tail]]| [[Dimple cup]]|-| '''Above ground'''| [[Rope reed]]| [[Sliver barb]]| [[Blade weed]]| [[Rope reed]]|}
 This will give you one cloth crop and one dye crop each harvest.  This is not the only way to do it, but it is an example of a growing plan that will keep a [[miller]], a [[thresher]], a [[dyer]], a [[weaver]], and some [[grower]]s employed evenly year-round and provide high-value materials for any tailors in your fort.  If you have access to [[silk]] on your map, you may prefer to substitute a food crop for one of the fiber crops, or brew the excess [[pig tail]] into [[dwarven ale]].
 
 Large fields, [[fertilizer]], and skilled [[grower]]s will produce more raw materials; skilled craftsdwarves will use up the materials faster. Choose the largest plot size you can sustainably increase harvests, because eventually your craftsdwarves will be able to go through materials faster than you can grow them and you'll find yourself queueing up new orders each season. To boost profits, set your workshop [[orders]] to use only dyed thread, leaving out [[hide root]] from your growing plan because of its lower [[item value]], and keep the supply channels full of plant products so that you always have materials to support standing (repeat) work orders.

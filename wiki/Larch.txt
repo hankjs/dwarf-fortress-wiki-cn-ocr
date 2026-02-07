@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=larch_trunk_sprite.png
-|sapling=larch_sapling.png}}
+{{Treelookup/0|graphic=larch_trunk_sprite.png|sapling=larch_sapling.png}}
 {{av}}
 
 The '''Larch''' is a type of [[above ground]] [[tree]], found in [[temperate]] [[forest]]s and occasionally in [[taiga]] regions. Like the overwhelming majority of overland trees, larch [[wood]] is brown and produces brown products. Logs can be processed in a [[dyer's shop]] into golden yellow [[dye]].

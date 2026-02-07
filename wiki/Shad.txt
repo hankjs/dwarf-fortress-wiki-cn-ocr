@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=shad_sprite.png
-|portrait=shad_portrait.png}}
+{{verminlookup/0|image=shad_sprite.png|portrait=shad_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

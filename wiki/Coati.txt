@@ -1,15 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=coati_sprites.png
-|portrait=coati_portrait_anim.gif
-|bone=4
-|meat=6
-|fat=2-6
-|skull=1
-|intestine=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=coati_sprites.png|portrait=coati_portrait_anim.gif|bone=4|meat=6|fat=2-6|skull=1|intestine=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

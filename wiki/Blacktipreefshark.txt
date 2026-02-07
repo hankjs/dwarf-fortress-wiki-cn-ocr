@@ -1,22 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=blacktip_reef_shark_sprites.png
-|portrait=blacktip_reef_shark_portrait.png
-|contrib=no
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|skin=hide
-|skull=1
-|meat=8
-|fat=8
-|brain=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=blacktip_reef_shark_sprites.png|portrait=blacktip_reef_shark_portrait.png|contrib=no|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|skin=hide|skull=1|meat=8|fat=8|brain=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

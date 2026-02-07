@@ -1,8 +1,0 @@
-{{Quality|Fine}}
-{{av}}
-[[File:bestiary_preview.png|thumb|150px|right|An example bestiary in the Premium version.]]'''图鉴'''是冒险者或NPC已知和记录的生物集合。每当你在野外遇到一种与你之前见过的所有生物都不同的动物时，它的条目就会被添加到图鉴中。你可以浏览图鉴以获取关于你所见过的所有生物的（通常是摘要）信息。
-
-作为一名[[adventure mode|冒险者]]，你的初始图鉴仅限于你的父[[civilization|文明]]所知道的内容，如果你是一个外来者，它是空的。你最初遇到的大多数NPC都有一个空白的图鉴；也就是说，他们不知道事物是什么，包括[[cat|猫]]和[[dog|狗]]，或者实际上任何常见的家养动物。[[Historical figure|历史人物]]可能对他们在[[world generation|世界生成]]和世界生成后历史中遇到的动物有一些了解，但它永远不会像标准冒险者那样广泛。
-
-{{category|Adventurer mode}}
-[[ru:Bestiary]]

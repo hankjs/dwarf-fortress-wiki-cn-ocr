@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=pear_trunk_sprite.png
-|product=sand_pear_sprite.png
-|sapling=sand_pear_sapling.png}}
+{{Treelookup/0|graphic=pear_trunk_sprite.png|product=sand_pear_sprite.png|sapling=sand_pear_sapling.png}}
 {{av}}
 
 '''Sand pear''' is one of the many genera of [[tree]]s found above ground. Like the vast majority of above ground trees, sand pear [[wood]] is brown and produces brown products.

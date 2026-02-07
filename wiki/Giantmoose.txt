@@ -1,28 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_moose_sprite.png
-|portrait=moose_portrait_anim.gif
-|wiki=no
-|contrib=no
-|bone=40-44
-|fat=20-26
-|skin=hide
-|skull=1
-|meat=60-86
-|eye=2
-|lung=8
-|heart=2
-|intestine=12
-|liver=4
-|tripe=4
-|sweetbread=2
-|spleen=2
-|kidney=4
-|brain=4
-|hoof=4-8
-|horn=2 (males only)
-|tooth=1
-|hair=1}}
+{{Creaturelookup/0|image=giant_moose_sprite.png|portrait=moose_portrait_anim.gif|wiki=no|contrib=no|bone=40-44|fat=20-26|skin=hide|skull=1|meat=60-86|eye=2|lung=8|heart=2|intestine=12|liver=4|tripe=4|sweetbread=2|spleen=2|kidney=4|brain=4|hoof=4-8|horn=2 (males only)|tooth=1|hair=1}}
 {{av}}
 {{creaturedesc}}
 

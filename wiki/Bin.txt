@@ -1,31 +1,9 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_item|name=Bin
-|tile=X|col=0:6:0
-|graphic=[[File:bin premium.png]]
-|wood=y
-|metal=y
-|bars=3
-|glass=n
-|cloth=n
-|leather=n
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* [[Storage]] ([[Stockpile#Stockpile categories|Most items]])
-|value=10
-|size=15,000
-|capacity=60,000}}
+{{v50_item|name=Bin|tile=X|col=0:6:0|graphic=[[File:bin premium.png]]|wood=y|metal=y|bars=3|glass=n|cloth=n|leather=n|ceramic=n|bone=n|shell=n|gem=n|wax=n|used for=
+* [[Storage]] ([[Stockpile#Stockpile categories|Most items]])|value=10|size=15,000|capacity=60,000}}
 
-{{Translation
-| dwarven = osed
-| elvish  = masa
-| goblin  = sputo
-| human   = itlud
-}}
+{{Translation| dwarven = osed| elvish  = masa| goblin  = sputo| human   = itlud}}
 
 A '''bin''' is a specially made basket for certain [[stockpile]]s. A bin can be made from one [[wood|wooden log]] at a [[carpenter's workshop]] or forged from 3 [[metal]] [[bar]]s at a [[forge]]. Bins make it possible to store lots of objects into one tile of a stockpile. A stockpile without a bin will likely fill up fast, leaving any remaining items where they are to get in the way. Graphically, when a bin is empty, the sprite will be that of an empty bin with no lid, whereas a bin with multiple types of items will have a lid, albeit slightly tilted. Bins are a component in building a [[bolt thrower]]. Bins that are filled with a specific type of item will show those items sticking out the top of the bin:
 <div style="testA" style="margin-top: 10px; margin-left: 20px;">[[File:bins_variants_preview.png]]</div>

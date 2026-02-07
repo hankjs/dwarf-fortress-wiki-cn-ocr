@@ -1,6 +1,5 @@
 {{Quality|Superior|10:38, 7 April 2023 (CST)}}
-{{stonelookup/0
-|graphic=gabbro_sprite.png}}
+{{stonelookup/0|graphic=gabbro_sprite.png}}
 {{av}}
 
 '''Gabbro''' is an [[igneous intrusive layer|igneous intrusive]], [[magma-safe]] [[stone]], which can form whole [[stone layers|layers]].

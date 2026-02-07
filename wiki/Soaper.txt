@@ -1,21 +1,10 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Soaper
-| specialty  = Soap Maker
-| profession = [[Farmer]]
-| job name   = [[Soap making]]
-| tasks      =
-* Make [[soap]]
-| workshop   = [[Soap maker's workshop]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Soaper| specialty  = Soap Maker| profession = [[Farmer]]| job name   = [[Soap making]]| tasks      =
+* Make [[soap]]| workshop   = [[Soap maker's workshop]]| attributes =
 * Strength
 * Toughness
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Soaper''' is the skill associated with the '''soap making''' [[labor]]. Soap makers create [[soap]] from [[tallow]] or [[oil]], and [[lye]] at the [[Soap maker's workshop]]. The soap can then be used for [[cleaning]] or as a [[construction]] material. Soap has no quality modifiers, so any dwarf can be assigned the task and yield the same result; the only difference is faster production. 

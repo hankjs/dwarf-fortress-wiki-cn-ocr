@@ -4,12 +4,7 @@
 * [[Maul]]
 * [[Hammerer]], an official in Dwarven [[justice]] that administers hammerings
 
-{{Translation
-| dwarven = nil
-| elvish  = ÿeri
-| goblin  = ospum
-| human   = ongu
-}}
+{{Translation| dwarven = nil| elvish  = ÿeri| goblin  = ospum| human   = ongu}}
 
 {{disambig}}
 [[ru:Hammer]]

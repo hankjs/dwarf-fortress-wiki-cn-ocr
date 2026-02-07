@@ -42,8 +42,7 @@ For your first game, [[World generation|generate a new world]] using the {{DFtex
 
 * {{DFtext|Natural Savagery}} at {{DFtext|Very Low|3:1}}
 
-* {{DFtext|Mineral Occurrence}} at {{DFtext|Everywhere|3:1}}
-}}
+* {{DFtext|Mineral Occurrence}} at {{DFtext|Everywhere|3:1}}}}
 When it's finished choose {{DFtext|Play now}}, the game will save the world and then ask for a game type, choose {{DFtext|Fortress}}. The game will then quickly simulate two weeks of world activity and then offer a tutorial.
 
 =Tutorial=
@@ -58,10 +57,7 @@ If you choose {{DFtext|Skip tutorial|7:4:1}}, you'll get some good advice not to
 == Choosing a Good Site ==
 Choosing a decent embark site is crucial for beginners. Highly skilled players can run a fortress on an evil glacier, but for now, stick to friendly environments. Look for features in an embark site that will make your first fort easier to manage.
 
-{{ambox
-|type=type
-|text=The world tooltip will only show features from the moused-over tile, but since the embark area covers multiple tiles it can contain '''multiple biomes'''. It is '''very important''' to inspect all tiles in a potential site. Each may have significantly different features such as an aquifer or evil biome '''not initially shown''' in the info due to not being under the cursor.
-}}
+{{ambox|type=type|text=The world tooltip will only show features from the moused-over tile, but since the embark area covers multiple tiles it can contain '''multiple biomes'''. It is '''very important''' to inspect all tiles in a potential site. Each may have significantly different features such as an aquifer or evil biome '''not initially shown''' in the info due to not being under the cursor.}}
 
 
 {{TipBox2|titlebg=#00a|Starting Site|
@@ -131,8 +127,7 @@ So, what you are doing throughout the game is essentially giving your dwarves a 
 ===Labor and work details===
 {{TipBox2|float=right|titlebg=#aa0|Utilities|2=
 You may have noticed that the UI for managing dwarves is a bit difficult to use. There are a few utilities available for this purpose (for Windows and most Linux systems): 
-* '''[[Utilities#Dwarf_Therapist|Dwarf Therapist]]''' can make labor management considerably easier, especially when you're dealing with twenty times the number of dwarves you have now. It can group and sort dwarves by multiple attributes and display their preferences, mood, and more.
-}}
+* '''[[Utilities#Dwarf_Therapist|Dwarf Therapist]]''' can make labor management considerably easier, especially when you're dealing with twenty times the number of dwarves you have now. It can group and sort dwarves by multiple attributes and display their preferences, mood, and more.}}
 {{Main|Labor}}
 
 '''Labors''' are how you control what types of tasks a dwarf is allowed to do. When dwarves are idle, it could be because you haven't given them anything to do, or it could be because none of the idle dwarves have been told that they're allowed to do the types of tasks you've designated. For example, if you designate an area to mine, but none of the dwarves have the mining labor enabled, they will all just sit around ignoring your mining designation, thinking that it isn't their job.
@@ -151,22 +146,7 @@ The default work details contain all the essential labors for the very start of 
 
 {| class="wikitable"
 ! Category
-! Labor
-|-
-| Farming/Related || Wood Burning
-|-
-| Metalsmithing || Furnace Operating
-|-
-| Metalsmithing || Armoring
-|-
-| Metalsmithing || Weaponsmithing
-|-
-| Metalsmithing || Blacksmithing
-|-
-| Metalsmithing || Metalcrafting
-|-
-| Jewelry || Gem Cutting
-|}
+! Labor|-| Farming/Related || Wood Burning|-| Metalsmithing || Furnace Operating|-| Metalsmithing || Armoring|-| Metalsmithing || Weaponsmithing|-| Metalsmithing || Blacksmithing|-| Metalsmithing || Metalcrafting|-| Jewelry || Gem Cutting|}
 
 ==Strike The Earth!==
 {{TipBox2|titlebg=green|float=right|Getting your dwarves to safety|
@@ -200,8 +180,7 @@ Ground[%26]      [#2:1]__[#4:1][%31][#2:1]__       __ __       __ [#4:1][%31][#2
 
 This diagram shows the cross-section (side view) of 1×1 pits channeled 1 z-level deep, 2 z-levels deep and the correct way to do a 2 z-level deep ramp. The appearance of "downward ramps" can be confusing as there is no such thing - the down arrow indicates a ramp on the level below. Dwarves in the first pit can walk up the ramp to ground level and escape, while dwarves in the second pit cannot use the ramp at all. The third pit lets dwarves walk back to the surface again since the two ramps are offset to produce a continued slope. In short, channels (particularly channels multiple z-levels deep) can be dangerous. Digging an entryway from the surface level is one of the few times you'll ever need to channel.
 
-<small>Stairs can also be used for an entryway, but channels allow [[wagon]]s entry to your fortress.</small>
-}}
+<small>Stairs can also be used for an entryway, but channels allow [[wagon]]s entry to your fortress.</small>}}
 If your wagon is near a [[cliff]] or hill (generally speaking, any difference in levels, usually shown by the existence of natural ramps), you can just designate a tunnel to mine ({{K|m}}) into the cliff to create an entryway. If the wagon is surrounded by flat terrain, [[channel]] out a 3×3 rectangle on the surface with {{K|m}}-{{K|u}} to create a sort of pit with ramps on the edges, then go down one z-level with {{K|c}} (or use the mouse scroll wheel) and tunnel into one wall of the pit (with {{K|m}}) to create your entry.
 
 Dig a hallway one tile wide and ''at least'' 10 long, ideally more like 20. This will be your entryway.
@@ -260,8 +239,7 @@ It is particularly important to '''keep wood, stone, refuse, and corpses out of 
 {{TipBox2|float=right|titlebg=#0a0|width=45%|Up, Down, Up/Down: Types of Stairs|
 In Dwarf Fortress, every [[z-level]] is composed of a [[floor]] and a [[wall]] (or "space between floors"). The confusingly named "down" and "up" [[stairs]] have nothing to do with the direction creatures can move to; instead, down stairs penetrate floors, while up stairs penetrate walls. Up/down stairs penetrate the wall and the floor below. ''(note the picture to the left)''
 
-When you designate a staircase to be dug out, the top level will be down-stairs, any inner levels will be up/down stairs, and the bottom level will be up-stairs.
-}}
+When you designate a staircase to be dug out, the top level will be down-stairs, any inner levels will be up/down stairs, and the bottom level will be up-stairs.}}
 
 Dig a [[Stairs|stairway]] in the room you dug out for the stairwell (''not'' the 5×5 room that you dug out earlier): press {{K-|m|t}}, click on the floor of the room to start the staircase, scroll down one level, and click again to finish designating the staircase. This will create down-stairs on the top level, and up-stairs on the level below. To continue digging downwards later, you can designate another staircase ({{K-|m|t}}) starting on the lowest exposed level and continuing downwards. For now just dig down one level.
 
@@ -290,12 +268,7 @@ Food is necessary for your dwarves' survival -  to keep functioning, they requir
 ===''Farming''===
 For a reliable, long-term food and alcohol supply, you'll need to set up a farm. Dig out a medium-sized room in a [[soil]] layer (including sand, clay, loam, silt, peat, and ooze) accessible from inside your existing fortress. 5×5 is a good size to start with, but you'll want to leave room to expand in at least one direction. You must pick an ''underground'' area with mud or soil*. Placing this near the stockpiles is more efficient, since farmers won't need to travel as far.
 
-{{Dual image
-|premium=File:DFwiki5by53by3farm.png
-|classic=File:Quickstart_layout_3.png
-|width=150px
-|caption=A 5×5 room with a 3×3 farm plot
-}}
+{{Dual image|premium=File:DFwiki5by53by3farm.png|classic=File:Quickstart_layout_3.png|width=150px|caption=A 5×5 room with a 3×3 farm plot}}
 
 <!-- EXPAND (maybe with help for locating soil, etc -->
 <sub>* Hopefully you have chosen a site with a soil layer, which will make farming much easier, but if not you will need to [[Irrigation|irrigate]] to create the required mud on stone floors.</sub>
@@ -347,8 +320,7 @@ To brew drinks, click on the still, click "Add new task", and "Brew drink from p
 
 ==Pasture==
 {{TipBox2|float=right|Grazers|
-If you aren't sure whether or not an animal is a grazer, you can check {{catlink|Grazer|this category}}. (You can also [[Special:search|search]] for the animal on this wiki.)
-}}
+If you aren't sure whether or not an animal is a grazer, you can check {{catlink|Grazer|this category}}. (You can also [[Special:search|search]] for the animal on this wiki.)}}
 If you have any grazing animals with you, such as the draft animals used to pull your wagon, they will die if they are kept away from grass for too long. Use {{Menu icon|z|sep=-}} to create a Pen/[[Pasture]] zone over a grassy area outside and assign your grazing animals to it with the "plus bunny" icon in the top right of the zone menu. This area needs to be about 10×10 or so to ensure they have enough grass and don't trample it all. The amount of grass required varies greatly, depending on the type(s) of animals being pastured.  If you intend to keep grazing animals permanently, you may need vastly larger pastures later.  As an alternative, you might wish to [[Butcher's shop|slaughter]] your largest animals for food and materials.
 
 ==Designing your first fortress==
@@ -500,8 +472,7 @@ Earlier you should have queued up a table and throne in your stoneworker's shop,
 ==Furniture==
 {{TipBox2|float=right|titlebg=#0a0|width=45%|Different Names, Same Thing|As you've noticed, some things have different names based on what they're made of (for example, chairs vs. thrones and chests vs. coffers) even if they're functionally the same (material almost never makes a difference). [[Furniture#Furniture_types_with_multiple_names|Here's a list.]]
 
-[[Bed]]s are a notable exception &mdash; they can only be made of wood, which also includes the giant mushrooms in the caverns.
-}}
+[[Bed]]s are a notable exception &mdash; they can only be made of wood, which also includes the giant mushrooms in the caverns.}}
 Now would be a good time to start building some [[furniture]]. You could queue up all these items directly from your workshops, but why not give your new manager a little practice?
 Using the work {{K|o}}rders menu, click the clipboard icon in the top right to queue up a new job, and type "[[bed]]", and then select "Make bed." Click the number sign to set the quantity to around 4 (or more, depending on how many beds you need). Next, queue up at least four [[table]]s, eight [[throne]]s/chairs, and four doors. Make sure you select a material you have – rock or wood will both work for all of these (except beds), so use whatever you have in your stockpiles. If you like, you can also queue up a few wooden [[chest]]s or rock coffers and [[cabinet]]s (which can be used in bedrooms, if you set up individual bedrooms). The tables and chairs will go in your [[dining room]], speaking of which...
 
@@ -541,19 +512,14 @@ Start producing '''[[mechanism]]s''' at your [[mechanic's workshop]]. Queue up t
 
 Note that traps will block wagons from reaching your trade depot (although pack animals will still arrive safely). A few ways to avoid this are shown below:
 
-{|
-|-
-|<diagram>
+{||-|<diagram>
 [#1:1]^^^^^
 [#2:1].....
 .....
 .....
 [#1:1]^^^^^
-</diagram>
-|A simple strategy, most useful above ground where invaders can come from the sides – underground, this is less useful (invaders don't tend to emerge from the walls). 
-'''Legend:''' In this diagram and the one below, traps are blue {{DFtext|^|1:1}} (^) symbols, and the green {{DFtext|.|2:1}} and red {{DFtext|.|4}} (.) symbols represent the ground and cave floor.
-|-
-|<diagram fg="4:0">
+</diagram>|A simple strategy, most useful above ground where invaders can come from the sides – underground, this is less useful (invaders don't tend to emerge from the walls). 
+'''Legend:''' In this diagram and the one below, traps are blue {{DFtext|^|1:1}} (^) symbols, and the green {{DFtext|.|2:1}} and red {{DFtext|.|4}} (.) symbols represent the ground and cave floor.|-|<diagram fg="4:0">
 ░░░░░░░░░
 ░.......░
 ░.......░
@@ -562,11 +528,9 @@ Note that traps will block wagons from reaching your trade depot (although pack 
 ....[#1:1]^[#]....
 ....[#1:1]^[#]....
 ░░░░░░░░░
-</diagram>
-|A more complex design, but also extremely effective (best used underground). The majority of invaders will choose to take the shortest path, directly through the traps. This can also be extended to make a wider group of traps of a longer safe route.
+</diagram>|A more complex design, but also extremely effective (best used underground). The majority of invaders will choose to take the shortest path, directly through the traps. This can also be extended to make a wider group of traps of a longer safe route.
 
-This is relatively easy to implement if you already have a 3-tile wide hallway – just dig a small loop off it and place traps in the old location.
-|}
+This is relatively easy to implement if you already have a 3-tile wide hallway – just dig a small loop off it and place traps in the old location.|}
 
 Note that this is only necessary when caravans can't get to your trade depot, because the hallway is filled with traps - if your trade depot is not behind a trap-lined hallway, you can safely make a hallway full of traps - citizens won't trigger traps.
 

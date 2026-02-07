@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_star_ruby_sprite.png
-|graphic2=rough_star_ruby_sprite.png}}
+{{gemlookup/0|graphic=cut_star_ruby_sprite.png|graphic2=rough_star_ruby_sprite.png}}
 {{av}}
 
 '''Star rubies''' are extremely rare red [[gem]]s found in clusters of [[ruby|rubies]], which are themselves only found in clusters of [[bauxite]] - among the most valuable gems that can be found in ''Dwarf Fortress'', on par with [[diamond]]s.

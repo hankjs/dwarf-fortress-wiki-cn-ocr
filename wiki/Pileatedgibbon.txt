@@ -1,17 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=pileated_gibbon_sprites.png
-|portrait=pileated_gibbon_portrait.png
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=pileated_gibbon_sprites.png|portrait=pileated_gibbon_portrait.png|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

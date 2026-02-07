@@ -88,172 +88,137 @@ Furniture can be [[decorate]]d by many different materials so as to improve its 
 Furniture is generally heavy and will diminish how much you can [[trade]] with the [[caravan]]s when they arrive; well-crafted and decorated furniture made from valuable materials will get you more bang for your [[currency|dwarfbuck]]. Trading in [[booze]], [[leather]], [[cloth]], [[flour]], and the like usually results in a certain amount of exchange in [[barrel]]s, [[bag]]s, and [[bin]]s. Beware trading [[elves]] any piece of furniture derived from [[wood]], as this may start a [[war]]. Dwarven and [[human]] caravans will occasionally carry [[anvil]]s.
 
 ==Industry Overview==
-{| style="border-spacing: 0; width: 49em"
-|-
+{| style="border-spacing: 0; width: 49em"|-
 
 {{Industry Block|industry=Wood industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Industry Block|industry=Metal industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Industry Block|industry=Stone industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Industry Block|industry=Glass industry
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |-
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
-
+  |      |A|#fff|      |}}
 |-
 
 {{Extended Item Block|title=Wood Furniture
   |background=#000|
   |÷|#000|#770|π|#770|#000|÷|#000|#770|X|#000|#770|
-  |÷|#000|#770|╤|#770|#000|X|#000|#770|û|#770|#000|
-}}
+  |÷|#000|#770|╤|#770|#000|X|#000|#770|û|#770|#000|}}
 
 {{Item Block|title=Metal Furniture
   |background=#000|
   |π|#770|π|#555|Ω|#fff|Ω|#ff0|
-  |Ω|#770|╤|#fff|╤|#fff|Ω|#0ff|
-}}
+  |Ω|#770|╤|#fff|╤|#fff|Ω|#0ff|}}
 
 {{Item Block|title=Stone Furniture
   |background=#000|
   |π|#999|π|#999|Ω|#555|Ω|#fff|
-  |Ω|#fff|╤|#999|╤|#999|╤|#555|
-}}
+  |Ω|#fff|╤|#999|╤|#999|╤|#555|}}
 
 {{Item Block|title=Glass Furniture
   |background=#000|
   |π|#090|π|#090|Ω|#099|Ω|#fff|
-  |Ω|#090|╤|#099|╤|#099|╤|#fff|
-}}
+  |Ω|#090|╤|#099|╤|#099|╤|#fff|}}
 
 {{Arrow Block|
   |      |E|#fff|      |
   |A|#dfd|C|#dfd|L|#dfd|
-  |      |E|#fff|      |
-}}
+  |      |E|#fff|      |}}
 
 {{Item Block|title=Decorated Furniture
   |background=#000|
   |╤|#090|Ω|#099|Ω|#fff|Ω|#ff0|
   |π|#999|π|#999|Ω|#555|╤|#fff|
-
 }}
-
 |-
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|L|    |
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |L|    |C|#fff|L|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |L|#fff|C|#fff|L|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |L|#fff|C|#fff|L|#fff|
-  |      |L|#fff|      |
-}}
+  |      |L|#fff|      |}}
 
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|L|#fff|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 
 {{Arrow Block|
   |      |A|#fff|      |
   |L|#fff|T|#fff|E|    | [[decorate]]
-  |      |E|    |      |
-}}
-
+  |      |E|    |      |}}
 |-
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |C|#fff|E|    |
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |T|#fff|E|    | build rooms and buildings
-  |      |A|#fff|      |
-}}
+  |      |A|#fff|      |}}
 
 {{Arrow Block|
   |      |L|#fff|      |
   |E|    |T|#fff|E|    | sell to [[trade]]rs
-  |      |A|#fff|      |
-}}
-
+  |      |A|#fff|      |}}
 |-
 
 {{Use Block|item=[[Barrel]]s, [[Bin]]s|use=Store [[food]], [[Alcohol|drinks]] and items
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Use Block|item=[[Bucket]]s|use=Used to carry liquid
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Industry Block|industry=Construction
-  |background=#fff|
-}}
+  |background=#fff|}}
 
 {{Industry Block|industry=Export industry
-  |background=#fff|
-}}
-
+  |background=#fff|}}
 |}
 {{Category|Furniture}}
 {{Category|Industry}}

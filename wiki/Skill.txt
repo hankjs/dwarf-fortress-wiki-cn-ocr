@@ -10,80 +10,10 @@ To determine what skills a dwarf has, hover over and click them, which brings yo
 
 == Skill level names ==
 The names of skill levels are as follows, in order of the experience required to achieve them:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Rank
 ! Skill Name
-! Notes
-|-
-| 0
-| {{Raw Tile|<small>Not</small>|7:0:1}}
-| (No skill)
-|-
-| 0
-| {{Raw Tile|<small>Dabbling</small>|7:0:1}}
-| This level isn't displayed on the "prepare for journey carefully" screen.
-|-
-| 1
-| {{Raw Tile|<small>Novice</small>|7:0:1}}
-| 
-|-
-| 2
-| {{Raw Tile|<small>Adequate</small>|7:0:1}}
-| 
-|-
-| 3
-| {{Raw Tile|<small>Competent</small>|7:0:1}}
-| 
-|-
-| 4
-| {{Raw Tile|<small>Skilled</small>|7:0:1}}
-| 
-|-
-| 5
-| {{Raw Tile|<small>Proficient</small>|7:0:1}}
-| Maximum possible starting skill level for dwarves while "preparing for journey carefully".
-|-
-| 6
-| {{Raw Tile|<small>Talented</small>|7:0:1}}
-| 
-|-
-| 7
-| {{Raw Tile|<small>Adept</small>|7:0:1}}
-| 
-|-
-| 8
-| {{Raw Tile|<small>Expert</small>|7:0:1}}
-| 
-|-
-| 9
-| {{Raw Tile|<small>Professional</small>|7:0:1}}
-| 
-|-
-| 10
-| {{Raw Tile|<small>Accomplished</small>|7:0:1}}
-| 
-|-
-| 11
-| {{Raw Tile|<small>Great</small>|7:0:1}}
-| Characters with this level of a specified [[weapons|weapon]] mastery (including [[wrestling]]) or higher are [[elite]].  
-|-
-| 12
-| {{Raw Tile|<small>Master</small>|7:0:1}}
-| 
-|-
-| 13
-| {{Raw Tile|<small>High Master</small>|7:0:1}}
-| 
-|-
-| 14
-| {{Raw Tile|<small>Grand Master</small>|7:0:1}}
-| Maximum possible skill for any creature in the [[object testing arena]].
-|-
-| 15+
-| {{Raw Tile|<small>Legendary</small>|7:0:1}}
-|
-|}
+! Notes|-| 0| {{Raw Tile|<small>Not</small>|7:0:1}}| (No skill)|-| 0| {{Raw Tile|<small>Dabbling</small>|7:0:1}}| This level isn't displayed on the "prepare for journey carefully" screen.|-| 1| {{Raw Tile|<small>Novice</small>|7:0:1}}| |-| 2| {{Raw Tile|<small>Adequate</small>|7:0:1}}| |-| 3| {{Raw Tile|<small>Competent</small>|7:0:1}}| |-| 4| {{Raw Tile|<small>Skilled</small>|7:0:1}}| |-| 5| {{Raw Tile|<small>Proficient</small>|7:0:1}}| Maximum possible starting skill level for dwarves while "preparing for journey carefully".|-| 6| {{Raw Tile|<small>Talented</small>|7:0:1}}| |-| 7| {{Raw Tile|<small>Adept</small>|7:0:1}}| |-| 8| {{Raw Tile|<small>Expert</small>|7:0:1}}| |-| 9| {{Raw Tile|<small>Professional</small>|7:0:1}}| |-| 10| {{Raw Tile|<small>Accomplished</small>|7:0:1}}| |-| 11| {{Raw Tile|<small>Great</small>|7:0:1}}| Characters with this level of a specified [[weapons|weapon]] mastery (including [[wrestling]]) or higher are [[elite]].  |-| 12| {{Raw Tile|<small>Master</small>|7:0:1}}| |-| 13| {{Raw Tile|<small>High Master</small>|7:0:1}}| |-| 14| {{Raw Tile|<small>Grand Master</small>|7:0:1}}| Maximum possible skill for any creature in the [[object testing arena]].|-| 15+| {{Raw Tile|<small>Legendary</small>|7:0:1}}||}
 
 == Skills in use ==
 [[File:legendary_v50_anim.gif|thumb|270px|right|Blinking legendary dwarves.]] Skills are never referred to in-game by "level number", but for all practical purposes, that is how they are treated by the game. "Dabbling" is not functionally a level, with "Novice" being level 1, and "Legendary" being any level from 15 and up. 
@@ -163,34 +93,28 @@ The one exception to this are some of your appointed [[noble]] positions, which 
 
 Professions can change as skills are increased. When a skill in a new category is raised to a higher level than any in other categories, creating a new "highest" status, the dwarf will change listed profession and display color accordingly. This change is accompanied by a minor [[announcement]] to that effect.
 
-{| style="margin: 0 auto"
-|-
-| valign='top' |
+{| style="margin: 0 auto"|-| valign='top' |
 
 {{Skill Box|Miner|7:0|7:0|
-* [[Miner]]<sup>R</sup>
-}}
+* [[Miner]]<sup>R</sup>}}
 
 {{Skill Box|[[Woodworker]]|6:1|6:1|
 * [[Bowyer]]<sup>Q</sup>
 * [[Carpenter]]<sup>Q</sup>
-* [[Wood cutter]]<sup>R</sup>
-}}
+* [[Wood cutter]]<sup>R</sup>}}
 
 {{Skill Box|[[Stoneworker]]|7:1|7:1|
 * [[Engraver]]<sup>Q</sup>
 * [[Stonecutter]]<sup>R</sup>
 * [[Stone carver]]<sup>Q</sup>
-* [[Mason]]<sup>Q</sup>
-}}
+* [[Mason]]<sup>Q</sup>}}
 
 {{Skill Box|[[Ranger]]|2:0|2:0|
 * [[Ambusher]]
 * [[Animal caretaker]]
 * [[Animal dissector]]<sup>R</sup>
 * [[Animal trainer]]
-* [[Trapper]]<sup>Q</sup>
-}}
+* [[Trapper]]<sup>Q</sup>}}
 
 {{Skill Box|[[Doctor]]|5:0|5:0|
 * [[Bone doctor]]
@@ -198,9 +122,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Diagnostician]]
 * [[Surgeon]]
 * [[Suturer]]
-* [[Wound dresser]]
-}}
-
+* [[Wound dresser]]}}
 | valign='top' |
 
 {{Skill Box|[[Farmer]]|6:0|6:0|
@@ -223,29 +145,24 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Spinner]]<sup>R</sup>
 * [[Tanner]]<sup>R</sup>
 * [[Thresher]]<sup>R</sup>
-* [[Wood burner]]<sup>R</sup>
-}}
+* [[Wood burner]]<sup>R</sup>}}
 
 {{Skill Box|[[Fishery worker]]|1:0|1:0|
 * [[Fish cleaner]]<sup>R</sup>
 * [[Fish dissector]]<sup>R</sup>
-* [[Fisherdwarf]]<sup>O</sup>
-}}
+* [[Fisherdwarf]]<sup>O</sup>}}
 
 {{Skill Box|[[Metalsmithing|Metalsmith]]|0:1|0:1|
 * [[Armorsmith]]<sup>Q</sup>
 * [[Furnace operator]]<sup>R</sup>
 * [[Metal crafter]]<sup>Q</sup>
 * [[Blacksmith]]<sup>Q</sup>
-* [[Weaponsmith]]<sup>Q</sup>
-}}
-
+* [[Weaponsmith]]<sup>Q</sup>}}
 | valign='top' |
 
 {{Skill Box|[[Jeweler]]|2:1|2:1|
 * [[Gem cutter]]<sup>Q</sup>
-* [[Gem setter]]<sup>Q</sup>
-}}
+* [[Gem setter]]<sup>Q</sup>}}
 
 {{Skill Box|[[Craftsdwarf]]|1:1|1:1|
 * [[Bookbinder]]<sup>Q</sup>
@@ -260,26 +177,21 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Strand extractor]]<sup>R</sup>
 * [[Wax worker]]<sup>Q</sup>
 * [[Weaver]]<sup>Q</sup>
-* [[Wood crafter]]<sup>Q</sup>
-}}
+* [[Wood crafter]]<sup>Q</sup>}}
 
 {{Skill Box|[[Engineer]]|4:1|4:1|
 * [[Mechanic]]<sup>Q</sup>
 * [[Pump operator]]<sup>R</sup>
 * [[Siege engineer]]<sup>Q</sup>
-* [[Siege operator]]
-}}
+* [[Siege operator]]}}
 
 {{Skill Box|Other Jobs|3:0|3:0|
-* [[Knapper]]
-}}
+* [[Knapper]]}}
 
 {{Skill Box|[[Administrator]]|5:0|5:0|
 * [[Appraiser]]
 * [[Organizer]]
-* [[Record keeper]]
-}}
-
+* [[Record keeper]]}}
 | valign='top' |
 
 {{Skill Box|[[Military]]|0:1|0:0|type=m|
@@ -306,8 +218,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Striker]]
 * [[Swordsman]]
 * [[Thrower]]
-* [[Wrestler]]
-}}
+* [[Wrestler]]}}
 
 {{Skill Box|[[Broker]]|3:0|3:0|
 * [[Comedian]]
@@ -317,9 +228,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Judge of intent]]
 * [[Liar]]
 * [[Negotiator]]
-* [[Persuader]]
-}}
-
+* [[Persuader]]}}
 | valign='top' |
 
 {{Skill Box|Miscellaneous|3:0|3:0|
@@ -335,8 +244,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Student]]
 * [[Swimmer]]
 * [[Teacher]]
-* [[Tracker]]
-}}
+* [[Tracker]]}}
 
 {{Skill Box|Performance|3:0|3:0|
 * [[Dancer]]
@@ -347,8 +255,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Keyboardist]]
 * [[Stringed instrumentalist]]
 * [[Wind instrumentalist]]
-* [[Percussionist]]
-}}
+* [[Percussionist]]}}
 
 {{Skill Box|[[Scholar]]|3:0|3:0|
 * [[Critical thinker]]
@@ -360,8 +267,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Optics engineer]]
 * [[Fluid engineer]]
 * [[Wordsmith]]
-* [[Writer]]
-}}
+* [[Writer]]}}
 
 {{Skill Box|Unused|3:0|3:0|
 * [[Balance]]
@@ -376,9 +282,7 @@ Professions can change as skills are increased. When a skill in a new category i
 * [[Mod skill|Skill 7]]
 * [[Mod skill|Skill 8]]
 * [[Mod skill|Skill 9]]
-* [[Mod skill|Skill 10]]
-}}
-
+* [[Mod skill|Skill 10]]}}
 |}
 
 <sup>Q</sup> Predominantly affects the quality of items produced

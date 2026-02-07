@@ -1,22 +1,12 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Miller
-| profession = [[Farmer]]
-| job name   = [[Milling]]
-| tasks      =
-* [[Milling|Mill plants]] (uses a [[bag]])
-| workshop = 
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Miller| profession = [[Farmer]]| job name   = [[Milling]]| tasks      =
+* [[Milling|Mill plants]] (uses a [[bag]])| workshop = 
 * [[Millstone]]
-* [[Quern]]
-| attributes =
+* [[Quern]]| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Miller''' is the skill associated with the '''milling''' [[labor]]. Millers mill [[plant]]s at either a [[quern]] or [[millstone]], placing the resulting goods into [[bag]]s of [[powder]] - which produces one unit of [[dye]], [[flour]] or [[sugar]] per item milled, as well as 1 or 2 [[seed]]s. Milled items have no [[Item quality|extra quality]] associated with them.  Millers can also mill seeds/nuts into seed paste, a precursor to making [[oil]] - only the seeds of plants with an associated oil can be milled.
@@ -28,45 +18,14 @@ A quern is powered by the dwarf themself, while a millstone uses outside mechani
 
 Other millable plants are listed below.
 
-{| {{prettytable}}
-|- style="background:#ddd"
+{| {{prettytable}}|- style="background:#ddd"
 !Plant
 !Dye
 !colspan=2|Color
 !Crop type
-!Value
-|-
-|[[Dimple cup]]
-|Dimple Dye
-|Midnight Blue
-| bgcolor="#003366" | &nbsp;&nbsp;&nbsp;<!--0,51,102-->
-|Underground
-|20[[Currency|☼]]
-|-
-|[[Blade weed]]
-|Emerald Dye
-|Emerald
-| bgcolor="#50c878" | &nbsp;&nbsp;&nbsp;<!--80,200,120-->
-|Aboveground
-|20[[Currency|☼]]
-|-
-|[[Hide root]]
-|Redroot Dye
-|Red
-| bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp;
-|Aboveground
-|10[[Currency|☼]]
-|-
-|[[Sliver barb]]
-|Sliver Dye
-|Black
-| bgcolor="#000000" | &nbsp;&nbsp;&nbsp;
-|Aboveground
-|20[[Currency|☼]]
-|}
+!Value|-|[[Dimple cup]]|Dimple Dye|Midnight Blue| bgcolor="#003366" | &nbsp;&nbsp;&nbsp;<!--0,51,102-->|Underground|20[[Currency|☼]]|-|[[Blade weed]]|Emerald Dye|Emerald| bgcolor="#50c878" | &nbsp;&nbsp;&nbsp;<!--80,200,120-->|Aboveground|20[[Currency|☼]]|-|[[Hide root]]|Redroot Dye|Red| bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp;|Aboveground|10[[Currency|☼]]|-|[[Sliver barb]]|Sliver Dye|Black| bgcolor="#000000" | &nbsp;&nbsp;&nbsp;|Aboveground|20[[Currency|☼]]|}
 
-{| class="wikitable sortable collapsible"
-|-
+{| class="wikitable sortable collapsible"|-
 ! Crop name
 ! 
 ! Crop value
@@ -99,8 +58,7 @@ Other millable plants are listed below.
 {{flour table row|name=Fonio|tile=τ|colour=2:0}}
 {{flour table row|name=Teff|tile=τ|colour=2:0}}
 {{flour table row|name=Flax|tile=τ|colour=2:0}}
-{{flour table row|name=Hemp|tile=τ|colour=2:0}}
-|}
+{{flour table row|name=Hemp|tile=τ|colour=2:0}}|}
 
 
 '''See also:'''

@@ -150,12 +150,7 @@ Brook tiles occur on at least{{verify}} 2 z-levels, as an open space wall sectio
  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ----> Floor          ▓▓  ▓▓w1▓▓  ▓▓ ----> Brook / River Source ----> ''1/1 Water or Ice floor{{verify}}''
 Brook tiles work like floor grates, can be walked on, fished through, allow fluids and missiles through, etc...
 
-{{Translation
-| dwarven = bot
-| elvish  = çile
-| goblin  = garspo
-| human   = lir
-}}
+{{Translation| dwarven = bot| elvish  = çile| goblin  = garspo| human   = lir}}
 
 [[Category:Map tiles|*]]
 [[ru:Tile]]

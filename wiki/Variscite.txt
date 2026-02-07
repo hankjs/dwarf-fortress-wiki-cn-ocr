@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{gemlookup/0
-|graphic=cut_variscite_sprite.png
-|graphic2=rough_variscite_sprite.png}}{{av}}
+{{gemlookup/0|graphic=cut_variscite_sprite.png|graphic2=rough_variscite_sprite.png}}{{av}}
 
 '''Variscites''' are low-value green [[gem]]s found in [[bauxite]] clusters.
 

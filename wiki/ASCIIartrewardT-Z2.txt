@@ -1,11 +1,5 @@
 {| class="wikitable" style="text-align:center; margin: 1em auto 1em auto"
-! colspan=4 | [[ASCII Art Reward]]s (alphabetically by contributor)
-|-
-| [[ASCII Art Reward/A-F|A &ndash; F]]
-| [[ASCII Art Reward/G-L|G &ndash; L]]
-| [[ASCII Art Reward/M-S|M &ndash; S]]
-| [[ASCII Art Reward/T-Z|T &ndash; Z]]
-|}
+! colspan=4 | [[ASCII Art Reward]]s (alphabetically by contributor)|-| [[ASCII Art Reward/A-F|A &ndash; F]]| [[ASCII Art Reward/G-L|G &ndash; L]]| [[ASCII Art Reward/M-S|M &ndash; S]]| [[ASCII Art Reward/T-Z|T &ndash; Z]]|}
 
 [[Category:Humor and stories]]
 {{unversioned}}

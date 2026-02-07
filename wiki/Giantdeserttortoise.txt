@@ -1,23 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_desert_tortoise_sprite.png
-|shell=1
-|bone=19
-|meat=15
-|scale=1
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|fat=13
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_desert_tortoise_sprite.png|shell=1|bone=19|meat=15|scale=1|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|fat=13|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant desert tortoises''' are enlarged [[Creature|cousins]] of the common [[desert tortoise]], found in [[savage]] [[desert]] [[biome]]s. They are far larger than a [[dwarf]], about as heavy as a [[tiger]], but rarely pose any threat to a fortress; like normal tortoises, they are benign and will flee from attackers. They are one of the few sources of [[shell]]s in deserts, and the only one when there's no [[water]] available.

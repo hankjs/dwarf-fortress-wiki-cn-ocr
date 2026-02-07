@@ -1,18 +1,11 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 5:0
-| skill      = Surgeon
-| profession = [[Doctor]]
-| job name   = [[Surgery]]
-| tasks      =
+{{Skill| color      = 5:0| skill      = Surgeon| profession = [[Doctor]]| job name   = [[Surgery]]| tasks      =
 * Move patient to surgery area
-* Surgery on injured dwarves
-| attributes =
+* Surgery on injured dwarves| attributes =
 * Agility
 * Focus
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 {{buggy}}
 '''Surgeon''' is the skill associated with the [[Surgery]] [[labor]], as well as the hospital [[occupation]] associated with it. Surgeons are responsible for treatment of complex overlapping injuries, damage to internal organs, and [[syndrome]]s, using the [[table]]s and [[traction bench]]es at a [[hospital]], bringing your fortress's injured heroes back from the brink as part of the [[health care|health care industry]]. The skill is also used by [[scholars]] when thinking about medical science-related [[topics]].

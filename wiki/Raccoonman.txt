@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=raccoon_man_sprite.png
-|portrait=raccoon_man_portrait.png}}
+{{Creaturelookup/0|image=raccoon_man_sprite.png|portrait=raccoon_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

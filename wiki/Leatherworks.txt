@@ -1,13 +1,8 @@
 {{Quality|Superior}}
-{{v50 workshop|name=Leather works|key=l|key2=l|job=[[Leatherworker|Leatherworking]]
-|icon=[[File:leather_works_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Leatherworker|Leatherworking]]
-|use=
-* [[Leather]]
-|production=
+{{v50 workshop|name=Leather works|key=l|key2=l|job=[[Leatherworker|Leatherworking]]|icon=[[File:leather_works_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Leatherworker|Leatherworking]]|use=
+* [[Leather]]|production=
 * [[Leather]] [[Clothing]]
 * [[Leather]] [[Armor]]
 * [[Leather]] [[Shield]]
@@ -17,8 +12,7 @@
 * [[Leather]] [[Flask|Waterskin]]
 * [[Leather]] [[Decoration|Images (decoration)]]
 * [[Leather]] [[Instruments|Instrument]]{{version|0.42.01}}
-* [[Leather]] [[Instrument pieces]]{{version|0.42.01}}
-}}{{av}}
+* [[Leather]] [[Instrument pieces]]{{version|0.42.01}}}}{{av}}
 
 '''Leather works''' is a [[workshop]] which produces [[leather]] items out of tanned [[skin|hides]] made at the [[tanner's shop]]. These items include [[armor]], [[backpack]]s, [[flask|waterskins]], [[quiver]]s for [[military]] dwarves, and [[clothes]] and [[bag]]s for civilian use. [[Armor#Types_of_armor|Leather armor]] is significantly less protective than metal armor, but is [[Armor#Encumbrance|lighter and thus better]] for initial [[Armor user|armor wearing]] training and for [[Squad|squads]] that value [[gait|movement speed]] over defensive ability. 
 

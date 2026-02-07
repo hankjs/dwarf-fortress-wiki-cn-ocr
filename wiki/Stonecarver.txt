@@ -1,23 +1,13 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_skill
-| color      = 7:1
-| graphic    = [[File:stonecarver_sprite.png]]
-| graphicmargin = 107px
-| skill      = Stone Carver
-| profession = [[Stoneworker]]
-| job name   = [[Stone carving]]
-| tasks      =
-* Create stone furniture and instruments at a [[Stoneworker's workshop]]
-| workshop = [[Stoneworker's workshop]]
-| attributes =
+{{v50_skill| color      = 7:1| graphic    = [[File:stonecarver_sprite.png]]| graphicmargin = 107px| skill      = Stone Carver| profession = [[Stoneworker]]| job name   = [[Stone carving]]| tasks      =
+* Create stone furniture and instruments at a [[Stoneworker's workshop]]| workshop = [[Stoneworker's workshop]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 '''Stone Carver''' is the skill associated with the '''Stone Carving''' [[labor]]. Stone carvers are responsible for creating [[furniture]] and other objects out of [[stone]] in a [[stoneworker's workshop]]. A stone carver's skill level affects the speed and [[quality]] of his work.
 
 Many veteran players consider it worth bringing a skilled Stone Carver on embark, as they can quickly make [[quality]] [[table]]s, [[chair]]s, [[door]]s, [[Hatch cover|hatches]] and other stone furniture that you want early to keep your dwarves safe and happy. Note that not all furniture can be made of stone; significantly, [[bed]]s can ''only'' be made of [[wood]].

@@ -1,11 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=merperson_sprite_anim.gif
-|portrait=merperson_portrait_anim.gif
-|contrib=no
-|death=nobutcher
-|wiki=Mermaid
-}}
+{{Creaturelookup/0|image=merperson_sprite_anim.gif|portrait=merperson_portrait_anim.gif|contrib=no|death=nobutcher|wiki=Mermaid}}
 {{av}}
 {{creaturedesc}}
 

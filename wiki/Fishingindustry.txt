@@ -50,93 +50,72 @@ The largest challenge in the fishing industry is ensuring the safety of your fis
 ==Industry Flowchart==
 
 {| style="border-spacing: 0;"
-
 |-
 {{Skill Block|skill=[[Fishing]]
   |color=7:0|
   |      |E||      |
   |E|    |C|#ccc|L|#ccc|
-  |      |A|#ccc|      |
-}}
+  |      |A|#ccc|      |}}
 {{Arrow Block|
   |      |E|    |      |
   |L|#ccc|C|#ccc|E||
-  |      |A|#ccc|      |
-}}
+  |      |A|#ccc|      |}}
 {{Empty Block}}
-{{Empty Block}}
-|-
+{{Empty Block}}|-
 
 {{Item Block|title=Raw Fish
   |background=#000|
   |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-}}
+  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|}}
 {{Item Block|title=Live Fish
   |background=#000|
   |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-}}
+  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|}}
 {{Empty Block}}
-{{Empty Block}}
-|-
+{{Empty Block}}|-
 {{Workshop Block|workshop=Fishery|skill=[[Fish cleaning|Fish<br>Cleaning]]
   |color=6:0|
   |      |L|#AEE|      |
   |E|    |C|#AEE|E|    |
-  |      |L|#AEE|      |
-}}
+  |      |L|#AEE|      |}}
 {{Workshop Block|workshop=Fishery|skill=[[Fish dissection|Fish<br>Dissection]]
   |color=6:0|
   |      |L|#EEE|      |
   |E|    |C|#EEE|L|#EEE|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 {{Arrow Block|
   |      |E|    |      |
   |L|#EEE|T|#EEE|A|#EEE|Extracts for trading
-  |      |E||      |
-}}
-{{Empty Block}}
-|-
+  |      |E||      |}}
+{{Empty Block}}|-
 {{Arrow Block|
   |      |L|#AEE|      |
   |E|    |C|#AEE|L|#AEE|
-  |      |A|#AEE|      |
-}}
+  |      |A|#AEE|      |}}
 {{Arrow Block|
   |      |E|    |      |
   |L|#AEE|C|#AEE|A|#AEE|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 {{Item Block|title=Shell
   |background=#000|
   |²|#FFF|²|#FFF|²|#FFF|²|#FFF|
-  |²|#FFF|²|#FFF|²|#FFF|²|#FFF|
-}}
+  |²|#FFF|²|#FFF|²|#FFF|²|#FFF|}}
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|E|    |
-  |      |A|#fff|      |
-}}
-|-
+  |      |A|#fff|      |}}|-
 {{Item Block|title=Fish
   |background=#000|
   |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|
-}}
+  |α|#FFF|α|#FFF|α|#FFF|α|#FFF|}}
 {{Arrow Block|
   |      |E|    |      |
   |L|#fff|C|#fff|A|#fff|
-  |      |E|    |      |
-}}
+  |      |E|    |      |}}
 {{Industry Block|industry=Industry{{!}}Food industry
-  |background=#fff|
-}}
+  |background=#fff|}}
 {{Industry Block|industry=Industry{{!}}Craft industry
-  |background=#fff|
-}}
-|}
+  |background=#fff|}}|}
 <br>
 [[File:fishing_docks.jpg|thumb|320px|center|Not the greatest smelling location.]]
 ==Bugs==

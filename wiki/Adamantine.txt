@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{Metal|name=Adamantine|color=3:3:1
-|ore=
-* [[File:raw_adamantine_sprite.png]] [[Raw adamantine]]
-|sample=[[File:AdamantineSample.png|center]]
-|graphic=adamantine_bar_sprite.png
-|properties=
+{{Metal|name=Adamantine|color=3:3:1|ore=
+* [[File:raw_adamantine_sprite.png]] [[Raw adamantine]]|sample=[[File:AdamantineSample.png|center]]|graphic=adamantine_bar_sprite.png|properties=
 * [[Material value]] 300☼
 * [[Material science|Impact strength]] 5 GPa
 * [[Material science|Shear strength]] 5 GPa&nbsp;{{Tooltip|×10|MAX_EDGE of 100,000 compared to the default 10,000 for metals}}
@@ -15,8 +11,7 @@
 * [[Solid density]] 200 kg/m³
 * Liquid [[density]] 2600 kg/m³
 * [[Specific heat]] 7500 J/kg·K
-* [[Color]] aqua
-|uses=
+* [[Color]] aqua|uses=
 * [[Weapon|Melee Weapons]]
 * [[Crossbow]]s
 * [[Bolt]]s
@@ -24,8 +19,7 @@
 * [[Armor]]
 * [[Anvil]]s
 * [[Metalsmith's forge|Metal crafting]]
-* [[Clothing]]
-|wiki=Adamant}}
+* [[Clothing]]|wiki=Adamant}}
 {{av}}{{Minorspoiler}}
 '''Adamantine''' is a rare, high-value [[metal]] which is impossibly lightweight, strong, and sharp. Adamantine is refined from [[raw adamantine]], and can be woven into [[cloth]] or [[smelter|smelted]] into wafers, useful for making almost any item in the game. [[Armor]] and edged [[weapon]]s made from adamantine are absurdly valuable and wonderfully effective. Adamantine weapons have special graphics.
 
@@ -49,12 +43,7 @@ Adamantine cloth is used to make ultra high-value clothing, but it is no more re
 Raw adamantine cannot be spawned in the [[object testing arena]], but adamantine-derived gear is spawnable as of v50.07. Adamantine (raw or otherwise) cannot be purchased in the [[embark]] screen, presumably for balance reasons.
 
 == Application ==
-{{Translation
-| dwarven = ebsas
-| elvish  = lire
-| goblin  = kumo
-| human   = medi
-}}
+{{Translation| dwarven = ebsas| elvish  = lire| goblin  = kumo| human   = medi}}
 Adamantine has extreme [[material science|material properties]]: it is nigh-weightless (weighing about as much as [[wikipedia:Cork (material)|cork]]), extremely strong, and razor-sharp. These properties make it ideal for edged [[weapon]]s and [[armor]], but unfortunately, likewise, make it near-useless for blunt weapons, which will simply bounce off of foes: considering the lethality of [[hammerer]] and [[fortress guard]] beatings, this may be the point. [[Armor]] made of adamantine provides unmatched protection against slashing and piercing attacks, but blunt attacks and ranged weapons have high armor penetration capacity, so a full kit of adamantine armor is nonetheless not a recipe for combat invulnerability. Mail armor is especially lacking, as the incredible protective qualities of adamantine are overridden with the flexibility of chain.
 
 Because the metal's material properties are irrelevant in other applications and because it's so rare and hard to produce, using adamantine for other things is generally a waste. Adamantine statues are ten times as valuable as [[gold]] ones, but are prohibitively expensive to produce, requiring nine wafers per statue. Some of the highest values per wafer for a normal adamantine product can be realised by forging adamantine [[flask]]s. However, by the time you have adamantine available, you're likely not to be in serious need of such valuable export products. By far the most [[wealth]] can be generated simply by adding adamantine to [[artifact]]s – a single stone, wafer, block or bolt of cloth can add hundreds of thousands of dwarfbucks in value, making your fortress the envy of all the [[forgotten beast|neighbors]]. Additionally, your [[Monarch]] will insist on having a "true [[throne]]" made of adamantine upon arriving at your fortress along with seven symbols of equal worth (though they will settle for one made of [[divine metal]], which is itself risky to acquire). 

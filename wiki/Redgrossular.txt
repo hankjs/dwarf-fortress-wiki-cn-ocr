@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_red_grossular_sprite.png
-|graphic2=rough_red_grossular_sprite.png
-|wiki=Grossular}}
+{{gemlookup/0|graphic=cut_red_grossular_sprite.png|graphic2=rough_red_grossular_sprite.png|wiki=Grossular}}
 {{av}}
 
 '''Red grossular''' is a semi-precious [[gem]] that can be found in small [[cluster]]s in [[marble]].

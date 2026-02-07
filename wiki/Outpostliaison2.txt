@@ -1,20 +1,8 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Noble
-| noble= Outpost Liaison
-| office= Throne Room
-| quarters= Great Bedroom
-| dining= Great Dining Room
-| tomb= ''None''
-| chests=3
-| cabinets=2
-| racks=2
-| stands=2
-| demands=3
-| arrival = 
+{{Noble| noble= Outpost Liaison| office= Throne Room| quarters= Great Bedroom| dining= Great Dining Room| tomb= ''None''| chests=3| cabinets=2| racks=2| stands=2| demands=3| arrival = 
 * Arrives with dwarven caravan each year (Temporary)
-* Arrives with [[monarch]] (Permanent)
-}}{{av}}
+* Arrives with [[monarch]] (Permanent)}}{{av}}
 {{buggy}}
 {{dftext|Our fortunes rise and fall together.|1:1}}
 

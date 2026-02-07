@@ -80,12 +80,7 @@ Note that the Underworld is completely devoid of useful resources, as most demon
 == After Settling In ==
 For training purposes, the Underworld is a perfect place for a Dwarven Boot Camp. Even if a soldier dies in the battle for hell, you can track down their sorry dwarven butts, and drag them out of the eerie glowing pit... And right back to boot camp! Side effects of Underworld Boot Camp include: Mental trauma; repeated cases of death; losing the will to live; [[fun]].
 
-{{Translation
-| dwarven = Arôloram
-| elvish  = Tariteyo
-| goblin  = Sumspabuzong
-| human   = Ngironra
-}}
+{{Translation| dwarven = Arôloram| elvish  = Tariteyo| goblin  = Sumspabuzong| human   = Ngironra}}
 
 {{World}}
 [[Category:Spoilers]]

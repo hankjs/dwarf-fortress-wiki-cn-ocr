@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_heliodor_sprite.png
-|graphic2=rough_heliodor_sprite.png}}
+{{gemlookup/0|graphic=cut_heliodor_sprite.png|graphic2=rough_heliodor_sprite.png}}
 {{av}}
 
 '''Heliodor''' is considered a semi-precious gem, a light green form of the mineral beryl. It can be found in small clusters within [[schist]], [[granite]], and [[marble]] layers.  A value of 20, though only half that of the dark green [[emerald]] found in the same environments, makes it a worthwhile decoration for trade goods and furniture belonging to nobles.

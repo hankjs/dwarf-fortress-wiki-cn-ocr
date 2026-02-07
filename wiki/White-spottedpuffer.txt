@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=white_spotted_puffer_sprite.png
-|portrait=white_spotted_puffer_portrait.png}}
+{{verminlookup/0|image=white_spotted_puffer_sprite.png|portrait=white_spotted_puffer_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=pine_trunk_sprite.png
-|product=cedar_sprite.png
-|sapling=cedar_sapling.png
-|wiki=Tabebuia
-}}
+{{Treelookup/0|graphic=pine_trunk_sprite.png|product=cedar_sprite.png|sapling=cedar_sapling.png|wiki=Tabebuia}}
 {{av}}
 
 The '''Cedar''' is a type of [[tree]] found in [[biome|coniferous forests]] at various latitudes.

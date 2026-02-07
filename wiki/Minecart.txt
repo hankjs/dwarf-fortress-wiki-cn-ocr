@@ -18,41 +18,9 @@ To control which items are to be transported, you can add conditions specifying:
 Minecarts have a [[Size|capacity]] of 500,000 cm³ – five times the capacity of [[wheelbarrow]]s. 
 
 '''Examples* of the capacity of one cart'''
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Item
-! # of<br>items
-|-
-| [[stone]]
-| style="text-align: right;" | 5
-|- 
-| [[wood|log]]
-| style="text-align: right;" | 10
-|-
-| [[block]]/[[bar]]
-| style="text-align: right;" | 83
-|-
-| minecarts
-| style="text-align: right;" | 12
-|-
-| [[Kitchen|prepared meals]]
-| style="text-align: right;" | 500
-|-
-| [[Trap_component#Spiked_ball|spiked balls]]
-| style="text-align: right;" | 500
-|-
-| [[Sand]] [[bags]]
-| style="text-align: right;" | 500
-|-
-| [[Weapon#Native_weapons|mace]]
-| style="text-align: right;" | 625
-|-
-| [[Weapon#Native_weapons|spears]]
-| style="text-align: right;" | 1250
-|-
-| [[cloth]]
-| style="text-align: right;" | 2500
-|}
+! # of<br>items|-| [[stone]]| style="text-align: right;" | 5|- | [[wood|log]]| style="text-align: right;" | 10|-| [[block]]/[[bar]]| style="text-align: right;" | 83|-| minecarts| style="text-align: right;" | 12|-| [[Kitchen|prepared meals]]| style="text-align: right;" | 500|-| [[Trap_component#Spiked_ball|spiked balls]]| style="text-align: right;" | 500|-| [[Sand]] [[bags]]| style="text-align: right;" | 500|-| [[Weapon#Native_weapons|mace]]| style="text-align: right;" | 625|-| [[Weapon#Native_weapons|spears]]| style="text-align: right;" | 1250|-| [[cloth]]| style="text-align: right;" | 2500|}
 : ''(* See [[Size#Items]] for a more complete list of item sizes, and use the formula {500,000 ÷ (item size)}, dropping all fractions, to determine a minecart's capacity for that item.''
 
 :: ''Example: A [[door]] is listed at a volume of "30,000". 500,000 ÷ 30,000 = 16.666, so a minecart can hold 16 doors, plus some smaller object(s) equal to or less than .667 (2/3) of a door, or 20,000.)''
@@ -61,55 +29,16 @@ The total weight of the loaded minecart does not affect the initial velocity rec
 
 '''Weights of different carts'''
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Type of cart
 ! Empty cart
-! Fully loaded (items)
-|-
-| oaken minecart 
-| 28Γ
-| 378Γ (10 oak logs)
-|- 
-| iron minecart
-| 314Γ
-| 1698Γ (83 marble blocks)
-|-
-|- 
-| copper minecart
-| 357Γ
-| 1682Γ (10 obsidian boulders)
-|-
-| platinum minecart
-| 856Γ
-| 10482Γ (83 gold bars)
-|}
+! Fully loaded (items)|-| oaken minecart | 28Γ| 378Γ (10 oak logs)|- | iron minecart| 314Γ| 1698Γ (83 marble blocks)|-|- | copper minecart| 357Γ| 1682Γ (10 obsidian boulders)|-| platinum minecart| 856Γ| 10482Γ (83 gold bars)|}
 
 
 The weight of a minecart is one twenty-fifth (1/25) the [[density]] of its material in Urists. Because pressure plates can be set to trigger at intervals of 50 Urists, minecarts with weights just under a multiple of 50 are ideal for switching based on whether they're full or empty. The best minecart materials for full/empty switching are as follows:
 
-{| class="wikitable sortable"
-|-
-! Material !! Minecart weight !! Content weight required to trigger !! Banana roasts required to trigger (for scale)
-|-
-| [[Glumprong]] || 48 || 2 || 4
-|-
-| [[Electrum]] || 596 || 4 || 7
-|-
-| [[Nickel silver]] || 346 || 4 || 7
-|-
-| [[Brass]] || 342 || 8 || 14
-|-
-| [[Bismuth]] ([[Strange mood|moods]] only) || 391 || 9 || 15
-|-
-| [[Fine pewter]] || 291 || 9 || 15
-|-
-| [[Lay pewter]] || 291 || 9 || 15
-|-
-| [[Tin]] || 291 || 9 || 15
-|-
-| [[Trifle pewter]] || 291 || 9 || 15
-|}
+{| class="wikitable sortable"|-
+! Material !! Minecart weight !! Content weight required to trigger !! Banana roasts required to trigger (for scale)|-| [[Glumprong]] || 48 || 2 || 4|-| [[Electrum]] || 596 || 4 || 7|-| [[Nickel silver]] || 346 || 4 || 7|-| [[Brass]] || 342 || 8 || 14|-| [[Bismuth]] ([[Strange mood|moods]] only) || 391 || 9 || 15|-| [[Fine pewter]] || 291 || 9 || 15|-| [[Lay pewter]] || 291 || 9 || 15|-| [[Tin]] || 291 || 9 || 15|-| [[Trifle pewter]] || 291 || 9 || 15|}
 
 {{anchor|Tracks}}
 
@@ -144,8 +73,7 @@ A simple ramp would look like this:
  ░░░░   ░░░░
  ═▲o    ░▼═
  ░░░░   ░░░░
-o : wall
-}}
+o : wall}}
 
 Carving track corners into ramps is rather unintuitive and complicated. Since carving tracks always requires two tiles to connect in a straight line as input, you have to give two separate designations for a single job: a track bit from the ramp tile to the "below" direction and another one to the wall of the "upward" direction. If you wanted to change direction on a ramp from east to north:
 {{diagram|spaces=yes|\
@@ -153,8 +81,7 @@ Carving track corners into ramps is rather unintuitive and complicated. Since ca
  ░░░░░   ░░░░░ 
  ░░░░░   ══╗░░ 
  ══▲░░   ░░▼░░ 
- ░░░░░   ░░░░░ 
-}}
+ ░░░░░   ░░░░░ }}
 
 you would need to connect the ramp on z +0 both to the west and to the north by issuing two "carve track" commands, one selecting the ramp and the track tile to the west, and another connecting the ramp tile with the wall to the north. An stonecutter would then carve a NW track corner into the ramp, allowing carts to pass the corner correctly both going up and down. Such track corners are perfectly serviceable for guided carts, but moving down a route of several of them by pushed or ridden cart is problematic - ramps on corners behave very counter-intuitively, resulting in loss of speed when going down and diagonal movement when going up.
 
@@ -218,10 +145,7 @@ In addition, while we're waiting for that to happen, we'll build an iron minecar
 
 When the track has been carved, it will look like the above (the track will be solid instead of flashing).  Now, order a track stop to be constructed (Under "Constructions") next to the output stockpile:
 
-{|
-| [[File:minecart-example-4-v50.03.png|200px|Track stop designation.]]
-| [[File:minecart-example-5-v50.03.png|200px|Select dumping direction.]]
-|}
+{|| [[File:minecart-example-4-v50.03.png|200px|Track stop designation.]]| [[File:minecart-example-5-v50.03.png|200px|Select dumping direction.]]|}
 
 You must select the dumping direction ''before'' placing the track stop.  We want our blocks to be dumped into the output stockpile east of the track stop.  Then wait for a mechanic to come along and build the track stop.
 
@@ -229,17 +153,11 @@ You must select the dumping direction ''before'' placing the track stop.  We wan
 
 Now we'll define the actual ''route''.  This is done in the {{k|H}}auling menu. Press 'Add New Route' to begin defining a route. Select 'Add a stop' then click the track next to the input stockpile:
 
-{|
-| [[File:minecart-example-7-v50.03.png|200px|Route definition, in progress.]]
-| [[File:minecart-example-8-v50.03.png|400px|Route definition, in progress.]]
-|}
+{|| [[File:minecart-example-7-v50.03.png|200px|Route definition, in progress.]]| [[File:minecart-example-8-v50.03.png|400px|Route definition, in progress.]]|}
 
 Select 'Add a stop' again then click the stop next to the output stockpile define the second stop:
 
-{|
-| [[File:minecart-example-9-v50.03.png|200px|Stop 2 designation.]]
-| [[File:minecart-example-10-v50.03.png|400px|Route definition, two stops.]]
-|}
+{|| [[File:minecart-example-9-v50.03.png|200px|Stop 2 designation.]]| [[File:minecart-example-10-v50.03.png|400px|Route definition, two stops.]]|}
 
 At this point, the route has been positioned, but they haven't been ''defined'' yet.
 
@@ -263,10 +181,7 @@ Once the minecart is in place, dwarves should fill it with blocks from the input
 
 If the route has any issues, you'll see a red ! on the minecart in the route screen. Be aware that this appears initially until the minecart is put in place. If your route is correctly set up, your dwarves carry items to the cart and the percentage will change on the route screen.
 
-{|
-| [[File:minecart-example-12-v50.03.png|frame|Route with an issue.]]
-| [[File:minecart-example-13-v50.03.png|frame|Cart correctly getting filled up.]]
-|}
+{|| [[File:minecart-example-12-v50.03.png|frame|Route with an issue.]]| [[File:minecart-example-13-v50.03.png|frame|Cart correctly getting filled up.]]|}
 
 === Troubleshooting ===
 
@@ -343,8 +258,7 @@ tracks: full:
  ═╗═     ═╢═
   ║       ║ 
 
-╢ : roller pushing from W to E
-}}
+╢ : roller pushing from W to E}}
 If the roller is powered, carts from ''all'' directions (unless too fast) exit S, because speed imparted by the roller forces carts toward E and ''then'' into the turn.
 If not powered, carts from W and N exit S, carts from E and S exit W. Carts above derail speed will ignore the turn, of course.
 
@@ -353,8 +267,7 @@ If not powered, carts from W and N exit S, carts from E and S exit W. Carts abov
 ═╗═   ═╟═
  ║     ║
 
-╟ : Roller pushing from E to W
-}}
+╟ : Roller pushing from E to W}}
 Carts from the E or W: exit W.
 Carts from N: derailed diagonally, exit SW.
 Carts from S: derailed diagonally, exit NW.
@@ -376,8 +289,7 @@ Example of straight impulse acceleration:
 ═▲▲▲▲▲▲▲▲▲▲═   ═╚╚╚╚╚╚╚╚╚╚═ 
 ▒   : Wall
   ═ : Normal track 
-▲/╚ : N/E Track/Ramp
-}}If a cart enters from the left, it will speed up on every track/ramp and exit to the right going very very fast—more than one tile every step. If it enters from the right, then it will bounce back impulsed by the ramp if it's going slow enough.
+▲/╚ : N/E Track/Ramp}}If a cart enters from the left, it will speed up on every track/ramp and exit to the right going very very fast—more than one tile every step. If it enters from the right, then it will bounce back impulsed by the ramp if it's going slow enough.
 
 As another oddity, carts coming from ramps will in some cases "teleport" through most of the next tile. This is called the "checkpoint effect", and is explained in detail in the Physics section, below. This negates the deceleration of the next tile if it is a ramp "angled" in a different direction. 
 
@@ -402,8 +314,7 @@ Examples of impulse elevators:
  
 ░ : Wall
 ╔,╚,╗,╝ : Track/Ramp
-▼ : Down Ramp (empty space)
-}}
+▼ : Down Ramp (empty space)}}
 
 Note that these impulse elevators, due to the checkpoint effect and upward curved ramp effect, will not actually result in carts traveling straight up the ramp.  They will lose speed, bounce off a ramp, then be accelerated back into the spiral after a 9-turn delay on both tiles on the floor where they are stopped.  This is because the checkpoint effect allows carts to travel up the ramps in a single turn, but also prevents the impulse ramps from adding acceleration unless the cart is slowed to staying on the ramp for more than one turn.  Initial acceleration will carry the cart up a variable number of floors before this effect occurs, but this bouncing back and forth will occur every 5 z-levels after the first time the cart stops.  When the cart ''is'' traveling upwards, it will pass every tile at a rate of one tile per turn regardless of its actual speed, due to the checkpoint effect.  In tracks with only a single cart, this is negligible, but when multiple carts are on the same track (such as when you place multiple carts on a magma cart lift) this can cause collisions which derail carts, or cause other unexpected or undesired behaviors.
 
@@ -420,8 +331,7 @@ z +0     z +1     z +2     z +3
 
 ░ : Wall
 ║,═,╔,╚,╗,╝ : Track/Ramp
-▼ : Down Ramp (empty space)
-}}
+▼ : Down Ramp (empty space)}}
 
 Also, if you want to have a cart following a below-derail speed, the following track works well:
 {{diagram|spaces=yes|\
@@ -434,8 +344,7 @@ z +0    z +1    z +2    z +3
 
 ░ : Wall
 ║,═ : Track/Ramp
-▼ : Down Ramp (empty space)
-}}
+▼ : Down Ramp (empty space)}}
 In this elevator, the cart collides with the walls in the corners, but then realigns on the ramp, picks up speed, checkpoints through the next ramp, and slams into the next wall.  It is slower (10 ticks per floor) but produces reliable speeds, and will exit the impulse elevator at little more than push speeds.  
 
 
@@ -450,8 +359,7 @@ As tracks are constructions or tile features, [[door]]s and other furniture can 
        ->
  A ════┤≡════ B
 ┤ : roller pushing to East
-≡ : door
-}}
+≡ : door}}
 The roller pushes the cart east, but until the "departure condition" is fulfilled, the door remains closed and blocks the path. 
 
 [[Bridge]]s can also act as tracks, but only if they're lowered or not retracted. This property can enable levers to turn tracks on and off. However, care should be taken to ensure that such bridges are never operated while a cart is on top of them, as the cart will be flung off the track. It's worth noting that it's often faster, and cheaper, to construct large bridges than long sections of constructed track.
@@ -463,8 +371,7 @@ A powered track switch can be constructed by building an "inverted" corner as il
       ║             ║
   ════╚═══      ════├════
  A        C    A         C
-├ : roller pushing to West.
-}}
+├ : roller pushing to West.}}
 
 If the cart is pushed East from the stop at 'A' while the roller is activated, it will arrive at 'B'. If the roller is not running, it will arrive at 'C'. The switch works by the roller first reversing the incoming cart's movement and the cart ''then'' following the track corner.
 
@@ -474,8 +381,7 @@ This switch is very reliable, reacts instantly to on/off signals, and carts of a
       ║
       ║
  ╞════╝ ════╡
- A     D    C
-}}
+ A     D    C}}
 Here the track between A and C is not continuous. The only continuous track is A->B, with a corner (not a T section). Fast moving carts will tend to derail at D and rejoin the track to C. Placing a door at D will prevent the derailment, so the cart continues to B. The door is operated by mechanisms elsewhere (typically, a lever, but some fun can be had with pressure plates).
 
 Since it depends on derailing, this switch requires a very fast cart, faster than what can be achieved with rollers alone. To gain sufficient speed, a cart must be accelerated further, usually by descending several levels or through impulse ramps. The high speed makes the cart much more dangerous and harder to control.
@@ -485,8 +391,7 @@ If carts are moving too slowly to derail at the corner, a retractable bridge may
       B╥
        ║
        ║
- A╞════bbb════╡C
-}}
+ A╞════bbb════╡C}}
 The bridge must overlap the corner. Bridges behave like a track crossing, allowing carts to pass in a straight line. When retracted, the corner reappears, so the carts will continue to B. Bridges take 100 steps to react to a signal, necessitating rather long "lead times" when switching tracks via bridge.
 
 As mentioned above, special care must be taken to make sure the bridge doesn't change state while the cart is passing over it. Retracting bridges will throw the cart, causing it to stop dead. Raising bridges can even crush the cart.
@@ -501,8 +406,7 @@ Will derail at > 0.5 t/st:
 {{diagram|spaces=yes|\
  in ══╗ -> derailing
       ║
-     out
-}}
+     out}}
 
 Will not derail at > 0.5 t/st:
 {{diagram|spaces=yes|\
@@ -510,8 +414,7 @@ Will not derail at > 0.5 t/st:
       ║
      out
 
-O : wall/column.
-}}
+O : wall/column.}}
 
 This behavior can be used to build a "speed limiter", that will ensure that when a minecart exits it is traveling below derail speed, as illustrated in these three examples:
 {{diagram|spaces=yes|\
@@ -522,8 +425,7 @@ This behavior can be used to build a "speed limiter", that will ensure that when
      ░░░░░     ░░░░          ║░░░
                               in
 ░ : wall
-S : Track Stop (High Friction or lower)
-}}
+S : Track Stop (High Friction or lower)}}
 If the minecart is traveling below derailment speed, it will not be affected; if fast enough to derail at a turn, it will jump the open turn to the alternate path, be slowed as it crosses the Track Stop, and get put back into the main path only once it can take a corner. (Granted, you could do the same just with any track corners, but it may take a lot of turns and time.)
 
 Since all the derailings, bounces and ramps can impart a sideway component of speed small enough to start visible drift many tiles away (say, [[Fun|in the middle of a bridge]]), track turns have one more use: forcing the carts to move strictly along the grid directions. Carts passing a turn below derailing speed convert one component of velocity into another, thus eliminating the drift.
@@ -575,8 +477,7 @@ Some samples with behavior:
  A══╝       A══╩══C               A══╬╗
             You can only go A->B     ╚╝
   Works     when the cart          Works     
-            is in Guide mode.       
-}}
+            is in Guide mode.       }}
 In the second example above, a cart "pushed" from B will go over the junction and roll off into the unknown south.
 
 === Numbers behind the scenes ===
@@ -592,87 +493,17 @@ Since most deceleration and acceleration is applied per step, with the notable e
 A push will teleport a cart to the middle of the next tile in one tick with 19990 speed (10 speed is lost due to track friction), while a roller will directly give a cart the roller's set speed (minus friction) and the cart starts accumulating distance from its standing position. When a cart leaves a ramp it will emerge after one tick at the very end of the next regular tile. 
 
 Friction of tiles:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Tile
 ! Friction
-! Comment
-|-
-| Tracks
-| 10
-|-
-| Ground/Floor
-| 200
-|-
-| Unusable ramp
-| 10
-|-
-| Upwards ramp
-| 4910 (10+4900)
-|-
-| Downwards ramp
-| -4890 (10-4900)
-|-
-| Roller
-| ±100000 (but capped by the set speed)
-|-
-| Corner track 
-| 10
-| Speed reduced by 1000 upon leaving the corner tile
-|-
-| Track stop (highest)
-| 50000
-|-
-| Track stop (high)
-| 10000
-|-
-| Track stop (medium)
-| 500
-|-
-| Track stop (low)
-| 50
-|-
-| Track stop (lowest)
-| 10
-|-
-| Water 1-6
-| Additional (WaterLevel - 1) * 100
-| rowspan="2" | [[#Skipping|See Skipping]]
-|-
-| Magma 1-6
-| Additional (WaterLevel - 1) * 500
-|-
-| Empty space
-| 0
-|}
+! Comment|-| Tracks| 10|-| Ground/Floor| 200|-| Unusable ramp| 10|-| Upwards ramp| 4910 (10+4900)|-| Downwards ramp| -4890 (10-4900)|-| Roller| ±100000 (but capped by the set speed)|-| Corner track | 10| Speed reduced by 1000 upon leaving the corner tile|-| Track stop (highest)| 50000|-| Track stop (high)| 10000|-| Track stop (medium)| 500|-| Track stop (low)| 50|-| Track stop (lowest)| 10|-| Water 1-6| Additional (WaterLevel - 1) * 100| rowspan="2" | [[#Skipping|See Skipping]]|-| Magma 1-6| Additional (WaterLevel - 1) * 500|-| Empty space| 0|}
 
 Water of depth 7/7 provides a friction of about 10000 per step. Maximum-depth magma causes at least as much friction, possibly more. This higher friction may not apply to very slow-moving carts.
 
 Impulse sources:
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Feature
-! Speed
-|-
-| Push
-| 20000
-|-
-| Roller lowest
-| 10000
-|-
-| Roller low
-| 20000
-|-
-| Roller medium
-| 30000
-|-
-| Roller high
-| 40000
-|-
-| Roller Highest 
-| 50000
-|-
-|}
+! Speed|-| Push| 20000|-| Roller lowest| 10000|-| Roller low| 20000|-| Roller medium| 30000|-| Roller high| 40000|-| Roller Highest | 50000|-|}
 
 Note, again, that nearly all of these values are applied ''per tick'', rather than ''per tile''.  The exceptions are curves, which is 1k deceleration per direction change at the end of the tile, and rollers, which ''set'' the speed every tick. This makes rollers particularly useful in high-deceleration situations, such as underwater, but require that ''nearly every tile'' in such high-deceleration situations have a roller.
 
@@ -710,8 +541,7 @@ z0  z-1
 ▒ ▒ ▒║▒
 ▒   : Wall
 ═, ║ : Track 
-╬  : Track and Ramp
-}}
+╬  : Track and Ramp}}
 
 If a cart is passing West-to-East over this setup, the valid ramp to the South will apply "Southward" acceleration to the cart (-Y velocity) as it passes through the ramp tile.  Assuming it only spends two ticks in that tile, it will have gained a lasting -5k Y velocity, which will still apply motion Southward.  If the cart continues travelling over straight track for another ten steps, it will have accumulated enough Southward motion to try to move a tile South, even if all tracks are facing East-West. 
 
@@ -741,8 +571,7 @@ Carts that are traveling independently (that is, not guided) only care that trac
 This means, for example, that the following tracks, when a (non-guided) cart travels from West-to-East, are functionally identical in effect:
 
 {{diagram|spaces=yes|\
-A════════════B    A╬║╚╔╣╩╦╠╥╨╞╡B
-}}
+A════════════B    A╬║╚╔╣╩╦╠╥╨╞╡B}}
 
 This is because so far as the cart is concerned, only valid ramps and curves with two exits where there is no exit in the path they are traveling matters.  
 
@@ -787,8 +616,7 @@ z0             z0 hiding ramps  z+1 A          z+1 B (hidden ramp)
 ═▲▲▲▲▲══▲▒▲═   ═╚╚╚╚╚═══▒══      ▼▼▼▼▼  ▼═▼       ▼▼▼▼▼  ▼╚▼ 
 ▒   : Wall
 ═ : track 
-▲  : Ramp
-}}
+▲  : Ramp}}
 In this diagram, if there is no ceiling above it, the track in z+1 A will launch its carts airborne when they travel across the ramp.  z+1 B (with a ramp on the tile on the hill) will not launch the cart.  The cart would also not be launched with ''any'' valid ramp, even if it does not travel in an appropriate direction, such as North/South (which the cart will ignore, as it is not a curve, anyway, although it may produce acceleration that may cause diagonal movement.) 
 
 Carts will also start "jumping" from the track if it hits an un-tracked tile, flying over and ignoring any tracks until it is ready to land.  Carts that land upon tracked tiles re-rail themselves, and clever designers use this feature to jump over curved track sections in one direction or another. (Retracting bridges over untracked tiles can cause jumps or not cause jumps depending upon the status of the bridge.)  Minecart speed must be carefully regulated to ensure reliability of jump length. 
@@ -828,8 +656,7 @@ Another useful thing to note about this exploit is that carts traveling at no le
 ═▲═▲═▲═▲═▲═   ═╚═╚═╚═╚═╚═ 
 ▒   : Wall
   ═ : Normal track 
-▲/╚ : N/E Track/Ramp
-}}
+▲/╚ : N/E Track/Ramp}}
 
 If the cart enters from the West at less than 72,000 speed, some of those ramps will cause Eastward acceleration.  
 
@@ -839,8 +666,7 @@ This means that an impulse ramp not contiguous to other impulse ramps has a top 
 ▒▒▒▒▒ ▒▒▒▒▒
 ▒╔═╗▒ ▒╔═╗▒
 ▒╚▲╝▒ ▒╚╗╝▒
-▒▒▒▒▒ ▒▒▒▒▒
-}}
+▒▒▒▒▒ ▒▒▒▒▒}}
 This setup makes a cart that travels clockwise at a speed that fluctuates around 75k velocity.  If the cart has more than 72k velocity, it fails to accelerate in the ramp, as it leaves the ramp in a single turn due to checkpointing to the halfway point.  After that, the curves sap 1k velocity, and every tick saps 10 velocity.  
 
 Two contiguous impulse ramps with a same-facing "downwards slope", however, do not suffer the checkpoint effect in the second tile, giving functionally triple the space to accelerate.  This means it will add velocity (at the standard rate of 4.9k per tick) up to a maximum speed of 216k. 
@@ -848,8 +674,7 @@ Two contiguous impulse ramps with a same-facing "downwards slope", however, do n
 ▒▒▒▒▒▒ ▒▒▒▒▒▒
 ▒╔══╗▒ ▒╔══╗▒
 ▒╚▲▲╝▒ ▒╚╗╗╝▒
-▒▒▒▒▒▒ ▒▒▒▒▒▒
-}}
+▒▒▒▒▒▒ ▒▒▒▒▒▒}}
 This example results in a cart moving three times as fast as the previous cart.
 
 Three successive ramps results in the highest attainable speeds.

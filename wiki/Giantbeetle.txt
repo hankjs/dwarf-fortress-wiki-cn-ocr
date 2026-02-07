@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_beetle_sprite.png
-|portrait=beetle_portrait.png
-|skin=chitin
-|meat=42
-|brain=2
-|intestine=8
-|heart=1
-|eye=2
-|fat=17
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_beetle_sprite.png|portrait=beetle_portrait.png|skin=chitin|meat=42|brain=2|intestine=8|heart=1|eye=2|fat=17|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant beetles''' are the [[giant animal]] variant of the common [[beetle]], found in most [[savage]] [[biome]]s where they appear one at a time. Despite its disposition of being a "giant" creature and being about three times the size of a [[dwarf]], they are benign and will be of no threat to your citizens, fighting back only when forced to with [[push]]es and [[wrestling]]. All giant beetles possess Legendary [[skill]] in [[Climber|climbing]].

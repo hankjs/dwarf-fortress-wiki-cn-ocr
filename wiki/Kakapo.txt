@@ -1,16 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=kakapo_sprites.png
-|portrait=kakapo_portrait_anim.gif
-|skull=1
-|meat=2-6
-|fat=2-6
-|bone=4-6
-|intestine=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=kakapo_sprites.png|portrait=kakapo_portrait_anim.gif|skull=1|meat=2-6|fat=2-6|bone=4-6|intestine=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

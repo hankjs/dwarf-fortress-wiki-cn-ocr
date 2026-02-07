@@ -1,15 +1,6 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=giant_octopus_sprite.png
-|portrait=octopus_portrait.png
-|brain=1
-|skin=[[Raw hide]] and [[chitin]]
-|meat=12-13
-|fat=10
-|eye=2
-
-|contrib=no
-|wiki=Kraken}}
+{{Creaturelookup/0|image=giant_octopus_sprite.png|portrait=octopus_portrait.png|brain=1|skin=[[Raw hide]] and [[chitin]]|meat=12-13|fat=10|eye=2
+|contrib=no|wiki=Kraken}}
 {{av}}
 {{creaturedesc}}
 '''Giant octopuses''' inherit the abilities of [[octopus]]es, including their ability to squirt ink.

@@ -1,8 +1,6 @@
 
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=hyena_man_sprite.png
-|portrait=hyena_man_portrait.png}}
+{{Creaturelookup/0|image=hyena_man_sprite.png|portrait=hyena_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

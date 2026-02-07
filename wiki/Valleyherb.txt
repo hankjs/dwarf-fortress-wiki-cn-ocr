@@ -1,11 +1,7 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
 * [[Food]]
-* [[Golden salve]] production
-|seed=
-|graphic=valley_herb_shrub_sprite.png
-|seedimage=valley_herb_seeds_sprite.png
-|wiki=no}}
+* [[Golden salve]] production|seed=|graphic=valley_herb_shrub_sprite.png|seedimage=valley_herb_seeds_sprite.png|wiki=no}}
 {{av}}
 
 

@@ -1,9 +1,6 @@
 {{Quality|Exceptional}}
 {{plantlookup|uses=
-* [[Food]]
-|graphic=quarry_bush_shrub_sprite.png
-|seedimage=quarry_bush_seeds_sprite.png
-|wiki=no}}
+* [[Food]]|graphic=quarry_bush_shrub_sprite.png|seedimage=quarry_bush_seeds_sprite.png|wiki=no}}
 {{av}}
 
 The '''quarry bush''' is one of the six known [[subterranean]] [[crop]]s, and as such, it may only be grown [[underground]]. They can be [[farming|planted]] in [[Calendar|spring, summer and autumn]].

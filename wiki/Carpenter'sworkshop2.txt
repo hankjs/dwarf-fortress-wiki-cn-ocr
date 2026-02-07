@@ -1,18 +1,10 @@
 {{Quality|Exceptional}}
-{{V50 workshop
-|name=Carpenter's workshop
-|key=p
-|job=*[[Carpentry]]
-*[[Trapping]] (See [[Carpenter's_workshop#Notes|Notes]])
-|icon=[[File:carpenter_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Carpenter's workshop|key=p|job=*[[Carpentry]]
+*[[Trapping]] (See [[Carpenter's_workshop#Notes|Notes]])|icon=[[File:carpenter_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 *[[Carpentry]]
-*[[Trapping]]
-|use=
-*[[Wood]]
-|production=
+*[[Trapping]]|use=
+*[[Wood]]|production=
 *[[Animal trap]]s
 *[[Armor stand]]s
 *[[Barrel]]s
@@ -45,8 +37,7 @@
 *[[Training weapon|Training Swords]]
 *[[Training weapon|Training Spears]]
 *[[Training weapon|Training Axes]]
-*[[Weapon rack]]s
-}}{{av}}
+*[[Weapon rack]]s}}{{av}}
 
 A '''carpenter's workshop''' is a [[Workshop#Tier_1_Workshops|Tier 1]] [[workshop]] used by a [[carpenter]] to make most types of [[furniture]], with the exception of [[statue]]s. The workshop can also make wooden [[block]]s or items like [[bucket]]s, [[crutch]]es, [[shield]]s, and [[training weapon]]s. [[Bed]]s can only be made at a carpenter's workshop.
 

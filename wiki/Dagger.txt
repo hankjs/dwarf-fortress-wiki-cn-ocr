@@ -8,12 +8,7 @@ A '''large dagger''' is an [[attack types|edged]] [[weapon]] that is essentially
 
 Large daggers use and train the [[knife user]] skill, and are common weapons for [[kobold]] and [[goblin]] thieves. As foreign weapons, dwarves cannot [[forge]] large daggers, limiting supply to whatever low-[[quality]] specimens can be scavenged from ambushers. [[Weapon#Size|Even the smallest dwarves]] are able to equip large daggers one-handed.
 
-{{Translation
-| dwarven = [[urist]]
-| elvish  = acita
-| goblin  = ulspa
-| human   = olith
-}}
+{{Translation| dwarven = [[urist]]| elvish  = acita| goblin  = ulspa| human   = olith}}
 
 {{gamedata}}
 {{Weapons}}

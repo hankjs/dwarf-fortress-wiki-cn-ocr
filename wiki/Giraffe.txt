@@ -1,25 +1,5 @@
 {{Quality|Superior|00:49, 18 February 2023 (CST)}}
-{{Creaturelookup/0
-|image=giraffe_sprites.png
-|portrait=giraffe_portrait_anim.gif
-|meat=21-31
-|fat=13
-|lung=2
-|heart=1
-|intestine=2-3
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|eye=2
-|skull=1
-|horn=2
-|skin=hide
-|bone=20-24
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=giraffe_sprites.png|portrait=giraffe_portrait_anim.gif|meat=21-31|fat=13|lung=2|heart=1|intestine=2-3|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|eye=2|skull=1|horn=2|skin=hide|bone=20-24|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

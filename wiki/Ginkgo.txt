@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=pomegranate_trunk_sprite.png
-|product=ginkgo_sprite.png
-|sapling=ginkgo_sapling.png
-|wiki=Ginkgo biloba}}
+{{Treelookup/0|graphic=pomegranate_trunk_sprite.png|product=ginkgo_sprite.png|sapling=ginkgo_sapling.png|wiki=Ginkgo biloba}}
 {{av}}
 
 '''Ginkgo''' is one of the many ''genera'' of [[tree]]s found [[above ground]]. Like the vast majority of above ground trees, ginkgo [[wood]] is brown and produces brown products. 

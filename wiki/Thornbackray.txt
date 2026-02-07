@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=thornback_ray_sprite.png
-|portrait=thornback_ray_portrait.png}}
+{{verminlookup/0|image=thornback_ray_sprite.png|portrait=thornback_ray_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

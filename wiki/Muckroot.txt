@@ -1,8 +1,5 @@
 {{Quality|Tattered}}
-{{plantlookup
-|graphic=muck_root_shrub_sprite.png
-|seedimage=muck_root_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=muck_root_shrub_sprite.png|seedimage=muck_root_seeds_sprite.png|uses=
 * [[Food]]
 * [[Alcohol]]|wiki=no}}
 {{av}}

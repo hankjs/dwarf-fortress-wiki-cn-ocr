@@ -18,11 +18,6 @@ While travelling through the tunnel, you may stumble upon [[divine equipment|cer
 
 Tunnels are built during the [[world generation]], like [[road]]s. In [[legends]], viewing the history of dwarven civilizations will mention tunnels they've constructed. Tunnel names will include words like ''cave'', ''deep'', ''passage'', ''corridor'', and ''hall''. Unlike roads, there are not separately constructed or named bridges.
 
-{{Translation
-| dwarven = ód
-| elvish  = thateme
-| goblin  = zutôsp
-| human   = gujeg
-}}
+{{Translation| dwarven = ód| elvish  = thateme| goblin  = zutôsp| human   = gujeg}}
 
 {{World}}

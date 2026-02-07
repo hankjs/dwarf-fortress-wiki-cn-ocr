@@ -20,8 +20,7 @@ The craftsdwarf skills are:
 * [[Wax worker]]
 * [[Weaver]]
 * [[Wood crafter]]
-* [[Strand extractor]]
-}}
+* [[Strand extractor]]}}
 
 {{Category|Professions}}
 

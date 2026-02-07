@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=selenite_sprite.png
-|wiki=Selenite (mineral)}}
+{{stonelookup/0|graphic=selenite_sprite.png|wiki=Selenite (mineral)}}
 {{av}}
 
 '''Selenite''' is a type of [[gypsum]] that has formed into a single crystal. It is found within [[gypsum]] as [[cluster|clusters]], and can be used to make [[plaster]].

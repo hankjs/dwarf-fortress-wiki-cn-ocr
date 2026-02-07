@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = umom
-| elvish  = mari
-| goblin  = ustro
-| human   = tuth
-}}
+{{Translation| dwarven = umom| elvish  = mari| goblin  = ustro| human   = tuth}}
 ==Usage==
 [[Historical figure|Legendary beings]], such as a [[night creature]] or a [[minotaur]], associated with the [[Sphere|spheres]] of darkness, dusk, the moon, night, nightmares, or twilight will have words from this symbol in their name.
 {{Template:Langsym group}}

@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=fisher_berry_shrub_sprite.png
-|seedimage=fisher_berry_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=fisher_berry_shrub_sprite.png|seedimage=fisher_berry_seeds_sprite.png|uses=
 * [[Food]]
 * [[Alcohol]]|wiki=no}}
 {{av}}

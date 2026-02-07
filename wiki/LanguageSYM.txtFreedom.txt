@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = eshim
-| elvish  = ethéda
-| goblin  = sostu
-| human   = rama
-}}
+{{Translation| dwarven = eshim| elvish  = ethéda| goblin  = sostu| human   = rama}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[sphere]] of freedom will have words from this symbol in their name.

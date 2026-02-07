@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=nautilus_sprite.png
-|portrait=nautilus_portrait.png}}
+{{verminlookup/0|image=nautilus_sprite.png|portrait=nautilus_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

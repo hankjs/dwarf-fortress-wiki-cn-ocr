@@ -1,23 +1,12 @@
 {{Quality|Exceptional}}
 {{av}}
-{{V50_item
-|graphic=[[File:highwood_logs_sprite.png]]
-|name=Logs
-|tile=▬
-|col=6:0:0
-|materials=<span></span>
-* [[:Category:Wood|Wood]]
-|workshops=<span></span>
-* [[Tree]]
-|labors=<span></span>
-* [[Wood cutter]]
-|used for=
+{{V50_item|graphic=[[File:highwood_logs_sprite.png]]|name=Logs|tile=▬|col=6:0:0|materials=<span></span>
+* [[:Category:Wood|Wood]]|workshops=<span></span>
+* [[Tree]]|labors=<span></span>
+* [[Wood cutter]]|used for=
 * [[Building]]
 * [[Wood industry]]
-* [[Wood burning]]
-|value=3
-|size=50,000
-}}
+* [[Wood burning]]|value=3|size=50,000}}
 ''"Timber" redirects here. For the month, see [[Calendar]].''
 
 '''Wood''' is a hard [[material]] found in nearly all [[tree]]s. It currently does not form the actual material of tree tiles, which are composed of generic structural [[plant]] material, however, when trees are cut down, it drops as '''logs''' [[File:wooden_log_sprite.png|20px]] / {{Tile|▬|6:0}}, the raw and usable [[item]] form of wood. Logs are stored in a "Wood" stockpile.
@@ -56,158 +45,12 @@ Logs and wooden products are available from [[trading]] by any friendly civiliza
 
 {{Main|Tree}}
 <!-- NOTICE: Many trunk sprites use the same color palette, therefore some will use unmatching filenames. -->
-{| class="wikitable sortable floatright"
-|+ Comparison of [[density]], [[weight]], [[color]] and [[graphics|sprites]].
+{| class="wikitable sortable floatright"|+ Comparison of [[density]], [[weight]], [[color]] and [[graphics|sprites]].
 ! Wood
 ! Density<br><small>(kg/m³)</small>
 ! Weight (Γ)<br/>per log 
 ! Color<br><small>(ASCII)</small>
-! Graphic
-|-
-| [[Feather tree|Feather]] || 100 || 5 || style="background: {{fgcolor|7:1}};"| Cream || style="text-align:center;"| [[File:feather_tree_trunk_sprite.png]] [[File:feather_wood_logs_sprite.png]]
-|-
-| [[Papaya]] || 130 || 6.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"| [[File:coffee_trunk_sprite.png]] [[File:papaya_wood_logs_sprite.png]]
-|-
-| [[Candlenut]] ||140 || 7 ||  style="background: {{fgcolor|6:0}}; color: #fff;"| Ochre || style="text-align:center;"|[[File:candlenut_trunk_sprite.png]] [[File:candlenut_logs_sprite.png]]
-|-
-| [[Kapok]] || 260 || 13 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:kapok_logs_sprite.png]]
-|-
-| [[Custard-apple]] || 360 || 18 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:custard_apple_logs_sprite.png]]
-|-
-| [[Willow]] || 390 || 19.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:willow_logs_sprite.png]]
-|-
-| [[Alder]] || 410 || 20.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:alder_logs_sprite.png]]
-|-
-| [[Cherry]] || 425 || 21.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Gold || style="text-align:center;"|[[File:cherry_trunk_sprite.png]] [[File:cherry_logs_sprite.png]]
-|-
-| [[Cacao tree|Cacao]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chocolate || style="text-align:center;"|[[File:apple_trunk_sprite.png]] [[File:cacao_logs_sprite.png]]
-|-
-| [[Chestnut]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark chestnut || style="text-align:center;"|[[File:chestnut_trunk_sprite.png]] [[File:chestnut_logs_sprite.png]]
-|-
-| [[Saguaro]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ecru || style="text-align:center;"|[[File:saguaro_trunk_sprite.png]] [[File:saguaro_logs_sprite.png]]
-|-
-| [[Cashew]] || 450 || 22.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark chestnut || style="text-align:center;"|[[File:cashew_trunk_sprite.png]] [[File:cashew_logs_sprite.png]]
-|-
-| [[Ginkgo]] || 450 || 22.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:ginkgo_logs_sprite.png]]
-|-
-| [[Rubber tree|Rubber]] || 490 || 24.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Flax || style="text-align:center;"|[[File:carambola_trunk_sprite.png]] [[File:rubber_logs_sprite.png]]
-|-
-| ''Default wood'' || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:highwood_trunk_sprite.png]] [[File:default_logs_sprite.png]]
-|-
-| [[Highwood]] || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:highwood_trunk_sprite.png]] [[File:highwood_logs_sprite.png]]
-|-
-| [[Tunnel tube]] || 500 || 25 || style="background: {{fgcolor|5:1}};"| Violet || style="text-align:center;"|[[File:tunnel_tube_trunk_sprite.png]] [[File:tunnel_tube_logs_sprite.png]]
-|-
-| [[Wagon]] || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:wagon_logs_sprite.png]]
-|-
-| [[Pine]] || 510 || 25.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Beige || style="text-align:center;"|[[File:pine_trunk_sprite.png]] [[File:pine_logs_sprite.png]]
-|-
-| [[Durian]] || 520 || 26 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:durian_logs_sprite.png]]
-|-
-| [[Mango tree|Mango]] || 520 || 26 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:mango_logs_sprite.png]]
-|-
-| [[Avocado]] || 540 || 27 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chestnut || style="text-align:center;"|[[File:avocado_trunk_sprite.png]] [[File:avacado_logs_sprite.png]]
-|-
-| [[Maple]] || 540 || 27 || style="background: {{fgcolor|6:0}}; color: #fff;"| Rust || style="text-align:center;"|[[File:maple_trunk_sprite.png]] [[File:maple_logs_sprite.png]]
-|-
-| [[Carambola]] || 550 || 27.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Flax || style="text-align:center;"|[[File:carambola_trunk_sprite.png]] [[File:carambola_logs_sprite.png]]
-|-
-| [[Nether-cap]] || 550 || 27.5 || style="background: {{fgcolor|1:0}}; color: #fff;"| Dark indigo || style="text-align:center;"|[[File:nether-cap_trunk_sprite.png]] [[File:nether_cap_logs_sprite.png]]
-|-
-| [[Tea]] || 550 || 27.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:tea_logs_sprite.png]]
-|-
-| [[Walnut]] || 562 || 28.1 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark tan || style="text-align:center;"|[[File:peach_trunk_sprite.png]] [[File:walnut_logs_sprite.png]]
-|-
-| [[Cedar]] || 570 || 28.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Olive || style="text-align:center;"|[[File:pine_trunk_sprite.png]] [[File:cedar_logs_sprite.png]]
-|-
-| [[Hazel]] || 580 || 29 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:hazel_logs_sprite.png]]
-|-
-| [[Bitter orange]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:bitter_orange_logs_sprite.png]]
-|-
-| [[Desert lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:desert_lime_logs_sprite.png]]
-|-
-| [[Finger lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:finger_lime_logs_sprite.png]]
-|-
-| [[Kumquat]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:kumquat_logs_sprite.png]]
-|-
-| [[Larch]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:larch_trunk_sprite.png]] [[File:larch_logs_sprite.png]]
-|-
-| [[Lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:lime_logs_sprite.png]]
-|-
-| [[Orange]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:orange_trunk_sprite.png]] [[File:orange_logs_sprite.png]]
-|-
-| [[Pomelo]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ash gray || style="text-align:center;"|[[File:pomelo_trunk_sprite.png]] [[File:pomelo_logs_sprite.png]]
-|-
-| [[Round lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:round_lime_logs_sprite.png]]
-|-
-| [[Acacia]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:acacia_logs_sprite.png]]
-|-
-| [[Ash (tree)|Ash]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:ash_logs_sprite.png]]
-|-
-| [[Fungiwood]] || 600 || 30 || style="background: {{fgcolor|6:1}};"| Lemon || style="text-align:center;"|[[File:fungiwood_trunk_sprite.png]] [[File:fungiwood_logs_sprite.png]]
-|-
-| [[Goblin-cap]] || 600 || 30 || style="background: {{fgcolor|4:1}}; color: #fff;"| Red || style="text-align:center;"|[[File:goblin-cap_trunk_sprite.png]] [[File:goblin_cap_logs_sprite.png]]
-|-
-| [[Mahogany]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Mahogany || style="text-align:center;"|[[File:mahogany_trunk_sprite.png]] [[File:mahogany_logs_sprite.png]]
-|-
-| [[Pear]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Buff || style="text-align:center;"|[[File:pear_trunk_sprite.png]] [[File:pear_logs_sprite.png]]
-|-
-| [[Spore tree|Spore]] || 600 || 30 || style="background: {{fgcolor|3:0}}; color: #fff;"| Teal || style="text-align:center;"|[[File:spore_tree_trunk_sprite.png]] [[File:spore_logs_sprite.png]]
-|-
-| [[Tower-cap]] || 600 || 30 || style="background: {{fgcolor|7:1}};"| White || style="text-align:center;"|[[File:tower-cap_trunk_sprite.png]] [[File:tower_cap_logs_sprite.png]]
-|-
-| [[Guava]] || 610 || 30.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:guava_logs_sprite.png]]
-|-
-| [[Coffee]] || 620 || 31 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:coffee_logs_sprite.png]]
-|-
-| [[Rambutan]] || 620 || 31 || style="background: {{fgcolor|6:0}}; color: #fff;"| Bronze || style="text-align:center;"|[[File:rambutan_trunk_sprite.png]] [[File:rambutan_logs_sprite.png]]
-|-
-| [[Birch]] || 650 || 32.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt umber || style="text-align:center;"|[[File:birch_trunk_sprite.png]] [[File:birch_logs_sprite.png]]
-|-
-| [[Black-cap]] || 650 || 32.5 || style="background: {{fgcolor|0:1}}; color: #fff;"| Black || style="text-align:center;"|[[File:black-cap_trunk_sprite.png]] [[File:black_cap_logs_sprite.png]]
-|-
-| [[Coconut palm]] || 680 || 34 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark taupe || style="text-align:center;"|[[File:mangrove_trunk_sprite.png]] [[File:coconut_palm_logs_sprite.png]]
-|-
-| [[Sand pear]] || 690 || 34.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Buff || style="text-align:center;"|[[File:pear_trunk_sprite.png]] [[File:sand_pear_logs_sprite.png]]
-|-
-| [[Bayberry]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:bayberry_logs_sprite.png]]
-|-
-| [[Citron]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ash gray || style="text-align:center;"|[[File:pomelo_trunk_sprite.png]] [[File:citron_logs_sprite.png]]
-|-
-| [[Oak]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Auburn || style="text-align:center;"|[[File:oak_trunk_sprite.png]] [[File:oak_logs_sprite.png]]
-|-
-| [[Macadamia]] || 705 || 35.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:macadamia_logs_sprite.png]]
-|-
-| [[Pecan]] || 735 || 36.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:pecan_logs_sprite.png]]
-|-
-| [[Apple]] || 745 || 37.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chocolate || style="text-align:center;"|[[File:apple_trunk_sprite.png]] [[File:apple_logs_sprite.png]]
-|-
-| [[Apricot]] || 745 || 37.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:paradise_nut_trunk_sprite.png]] [[File:apricot_logs_sprite.png]]
-|-
-| [[Pomegranate]] || 770 || 38.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:pomegranate_logs_sprite.png]]
-|-
-| [[Almond]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Copper || style="text-align:center;"|[[File:almond_trunk_sprite.png]] [[File:almond_logs_sprite.png]]
-|-
-| [[Peach]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark tan || style="text-align:center;"|[[File:peach_trunk_sprite.png]] [[File:peach_logs_sprite.png]]
-|-
-| [[Plum]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:plum_logs_sprite.png]]
-|-
-| [[Date palm]] || 820 || 41 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:orange_trunk_sprite.png]] [[File:date_palm_logs_sprite.png]]
-|-
-| [[Paradise nut]] || 820 || 41 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:paradise_nut_trunk_sprite.png]] [[File:paradise_nut_logs_sprite.png]]
-|-
-| [[Mangrove]] || 830 || 41.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark taupe || style="text-align:center;"|[[File:mangrove_trunk_sprite.png]] [[File:mangrove_logs_sprite.png]]
-|-
-| [[Persimmon]] || 835 || 41.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:persimmon_logs_sprite.png]]
-|-
-| [[Lychee]] || 880 || 44 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe sandy || style="text-align:center;"|[[File:lychee_trunk_sprite.png]] [[File:lychee_logs_sprite.png]]
-|-
-| [[Olive]] || 990 || 49.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:olive_logs_sprite.png]]
-|-
-| [[Glumprong]] || 1200 || 60 || style="background: {{fgcolor|5:0}}; color: #fff;"| Purple || style="text-align:center;"|[[File:glumprong_trunk_sprite.png]] [[File:glumprong_logs_sprite.png]]
-|-
-| [[Blood thorn]] || 1250 || 62.5 || style="background: {{fgcolor|4:0}}; color: #fff;"| Crimson || style="text-align:center;"|[[File:blood_thorn_trunk_sprite.png]] [[File:blood_thorn_logs_sprite.png]]
-|}
+! Graphic|-| [[Feather tree|Feather]] || 100 || 5 || style="background: {{fgcolor|7:1}};"| Cream || style="text-align:center;"| [[File:feather_tree_trunk_sprite.png]] [[File:feather_wood_logs_sprite.png]]|-| [[Papaya]] || 130 || 6.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"| [[File:coffee_trunk_sprite.png]] [[File:papaya_wood_logs_sprite.png]]|-| [[Candlenut]] ||140 || 7 ||  style="background: {{fgcolor|6:0}}; color: #fff;"| Ochre || style="text-align:center;"|[[File:candlenut_trunk_sprite.png]] [[File:candlenut_logs_sprite.png]]|-| [[Kapok]] || 260 || 13 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:kapok_logs_sprite.png]]|-| [[Custard-apple]] || 360 || 18 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:custard_apple_logs_sprite.png]]|-| [[Willow]] || 390 || 19.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:willow_logs_sprite.png]]|-| [[Alder]] || 410 || 20.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:alder_logs_sprite.png]]|-| [[Cherry]] || 425 || 21.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Gold || style="text-align:center;"|[[File:cherry_trunk_sprite.png]] [[File:cherry_logs_sprite.png]]|-| [[Cacao tree|Cacao]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chocolate || style="text-align:center;"|[[File:apple_trunk_sprite.png]] [[File:cacao_logs_sprite.png]]|-| [[Chestnut]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark chestnut || style="text-align:center;"|[[File:chestnut_trunk_sprite.png]] [[File:chestnut_logs_sprite.png]]|-| [[Saguaro]] || 430 || 21.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ecru || style="text-align:center;"|[[File:saguaro_trunk_sprite.png]] [[File:saguaro_logs_sprite.png]]|-| [[Cashew]] || 450 || 22.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark chestnut || style="text-align:center;"|[[File:cashew_trunk_sprite.png]] [[File:cashew_logs_sprite.png]]|-| [[Ginkgo]] || 450 || 22.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:ginkgo_logs_sprite.png]]|-| [[Rubber tree|Rubber]] || 490 || 24.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Flax || style="text-align:center;"|[[File:carambola_trunk_sprite.png]] [[File:rubber_logs_sprite.png]]|-| ''Default wood'' || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:highwood_trunk_sprite.png]] [[File:default_logs_sprite.png]]|-| [[Highwood]] || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:highwood_trunk_sprite.png]] [[File:highwood_logs_sprite.png]]|-| [[Tunnel tube]] || 500 || 25 || style="background: {{fgcolor|5:1}};"| Violet || style="text-align:center;"|[[File:tunnel_tube_trunk_sprite.png]] [[File:tunnel_tube_logs_sprite.png]]|-| [[Wagon]] || 500 || 25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Brown || style="text-align:center;"|[[File:wagon_logs_sprite.png]]|-| [[Pine]] || 510 || 25.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Beige || style="text-align:center;"|[[File:pine_trunk_sprite.png]] [[File:pine_logs_sprite.png]]|-| [[Durian]] || 520 || 26 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:durian_logs_sprite.png]]|-| [[Mango tree|Mango]] || 520 || 26 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:mango_logs_sprite.png]]|-| [[Avocado]] || 540 || 27 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chestnut || style="text-align:center;"|[[File:avocado_trunk_sprite.png]] [[File:avacado_logs_sprite.png]]|-| [[Maple]] || 540 || 27 || style="background: {{fgcolor|6:0}}; color: #fff;"| Rust || style="text-align:center;"|[[File:maple_trunk_sprite.png]] [[File:maple_logs_sprite.png]]|-| [[Carambola]] || 550 || 27.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Flax || style="text-align:center;"|[[File:carambola_trunk_sprite.png]] [[File:carambola_logs_sprite.png]]|-| [[Nether-cap]] || 550 || 27.5 || style="background: {{fgcolor|1:0}}; color: #fff;"| Dark indigo || style="text-align:center;"|[[File:nether-cap_trunk_sprite.png]] [[File:nether_cap_logs_sprite.png]]|-| [[Tea]] || 550 || 27.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:tea_logs_sprite.png]]|-| [[Walnut]] || 562 || 28.1 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark tan || style="text-align:center;"|[[File:peach_trunk_sprite.png]] [[File:walnut_logs_sprite.png]]|-| [[Cedar]] || 570 || 28.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Olive || style="text-align:center;"|[[File:pine_trunk_sprite.png]] [[File:cedar_logs_sprite.png]]|-| [[Hazel]] || 580 || 29 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:hazel_logs_sprite.png]]|-| [[Bitter orange]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:bitter_orange_logs_sprite.png]]|-| [[Desert lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:desert_lime_logs_sprite.png]]|-| [[Finger lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:finger_lime_logs_sprite.png]]|-| [[Kumquat]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:kumquat_logs_sprite.png]]|-| [[Larch]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:larch_trunk_sprite.png]] [[File:larch_logs_sprite.png]]|-| [[Lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:lime_logs_sprite.png]]|-| [[Orange]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:orange_trunk_sprite.png]] [[File:orange_logs_sprite.png]]|-| [[Pomelo]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ash gray || style="text-align:center;"|[[File:pomelo_trunk_sprite.png]] [[File:pomelo_logs_sprite.png]]|-| [[Round lime]] || 590 || 29.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:round_lime_logs_sprite.png]]|-| [[Acacia]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:acacia_logs_sprite.png]]|-| [[Ash (tree)|Ash]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:ash_logs_sprite.png]]|-| [[Fungiwood]] || 600 || 30 || style="background: {{fgcolor|6:1}};"| Lemon || style="text-align:center;"|[[File:fungiwood_trunk_sprite.png]] [[File:fungiwood_logs_sprite.png]]|-| [[Goblin-cap]] || 600 || 30 || style="background: {{fgcolor|4:1}}; color: #fff;"| Red || style="text-align:center;"|[[File:goblin-cap_trunk_sprite.png]] [[File:goblin_cap_logs_sprite.png]]|-| [[Mahogany]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Mahogany || style="text-align:center;"|[[File:mahogany_trunk_sprite.png]] [[File:mahogany_logs_sprite.png]]|-| [[Pear]] || 600 || 30 || style="background: {{fgcolor|6:0}}; color: #fff;"| Buff || style="text-align:center;"|[[File:pear_trunk_sprite.png]] [[File:pear_logs_sprite.png]]|-| [[Spore tree|Spore]] || 600 || 30 || style="background: {{fgcolor|3:0}}; color: #fff;"| Teal || style="text-align:center;"|[[File:spore_tree_trunk_sprite.png]] [[File:spore_logs_sprite.png]]|-| [[Tower-cap]] || 600 || 30 || style="background: {{fgcolor|7:1}};"| White || style="text-align:center;"|[[File:tower-cap_trunk_sprite.png]] [[File:tower_cap_logs_sprite.png]]|-| [[Guava]] || 610 || 30.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:guava_logs_sprite.png]]|-| [[Coffee]] || 620 || 31 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe pale || style="text-align:center;"|[[File:coffee_trunk_sprite.png]] [[File:coffee_logs_sprite.png]]|-| [[Rambutan]] || 620 || 31 || style="background: {{fgcolor|6:0}}; color: #fff;"| Bronze || style="text-align:center;"|[[File:rambutan_trunk_sprite.png]] [[File:rambutan_logs_sprite.png]]|-| [[Birch]] || 650 || 32.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt umber || style="text-align:center;"|[[File:birch_trunk_sprite.png]] [[File:birch_logs_sprite.png]]|-| [[Black-cap]] || 650 || 32.5 || style="background: {{fgcolor|0:1}}; color: #fff;"| Black || style="text-align:center;"|[[File:black-cap_trunk_sprite.png]] [[File:black_cap_logs_sprite.png]]|-| [[Coconut palm]] || 680 || 34 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark taupe || style="text-align:center;"|[[File:mangrove_trunk_sprite.png]] [[File:coconut_palm_logs_sprite.png]]|-| [[Sand pear]] || 690 || 34.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Buff || style="text-align:center;"|[[File:pear_trunk_sprite.png]] [[File:sand_pear_logs_sprite.png]]|-| [[Bayberry]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:bayberry_logs_sprite.png]]|-| [[Citron]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Ash gray || style="text-align:center;"|[[File:pomelo_trunk_sprite.png]] [[File:citron_logs_sprite.png]]|-| [[Oak]] || 700 || 35 || style="background: {{fgcolor|6:0}}; color: #fff;"| Auburn || style="text-align:center;"|[[File:oak_trunk_sprite.png]] [[File:oak_logs_sprite.png]]|-| [[Macadamia]] || 705 || 35.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:macadamia_logs_sprite.png]]|-| [[Pecan]] || 735 || 36.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:pecan_logs_sprite.png]]|-| [[Apple]] || 745 || 37.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Chocolate || style="text-align:center;"|[[File:apple_trunk_sprite.png]] [[File:apple_logs_sprite.png]]|-| [[Apricot]] || 745 || 37.25 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:paradise_nut_trunk_sprite.png]] [[File:apricot_logs_sprite.png]]|-| [[Pomegranate]] || 770 || 38.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Peach || style="text-align:center;"|[[File:pomegranate_trunk_sprite.png]] [[File:pomegranate_logs_sprite.png]]|-| [[Almond]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Copper || style="text-align:center;"|[[File:almond_trunk_sprite.png]] [[File:almond_logs_sprite.png]]|-| [[Peach]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark tan || style="text-align:center;"|[[File:peach_trunk_sprite.png]] [[File:peach_logs_sprite.png]]|-| [[Plum]] || 795 || 39.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:plum_logs_sprite.png]]|-| [[Date palm]] || 820 || 41 || style="background: {{fgcolor|6:0}}; color: #fff;"| Burnt sienna || style="text-align:center;"|[[File:orange_trunk_sprite.png]] [[File:date_palm_logs_sprite.png]]|-| [[Paradise nut]] || 820 || 41 || style="background: {{fgcolor|6:0}}; color: #fff;"| Light brown || style="text-align:center;"|[[File:paradise_nut_trunk_sprite.png]] [[File:paradise_nut_logs_sprite.png]]|-| [[Mangrove]] || 830 || 41.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Dark taupe || style="text-align:center;"|[[File:mangrove_trunk_sprite.png]] [[File:mangrove_logs_sprite.png]]|-| [[Persimmon]] || 835 || 41.75 || style="background: {{fgcolor|6:0}}; color: #fff;"| Tan || style="text-align:center;"|[[File:guava_trunk_sprite.png]] [[File:persimmon_logs_sprite.png]]|-| [[Lychee]] || 880 || 44 || style="background: {{fgcolor|6:0}}; color: #fff;"| Taupe sandy || style="text-align:center;"|[[File:lychee_trunk_sprite.png]] [[File:lychee_logs_sprite.png]]|-| [[Olive]] || 990 || 49.5 || style="background: {{fgcolor|6:0}}; color: #fff;"| Pale brown || style="text-align:center;"|[[File:macadamia_trunk_sprite.png]] [[File:olive_logs_sprite.png]]|-| [[Glumprong]] || 1200 || 60 || style="background: {{fgcolor|5:0}}; color: #fff;"| Purple || style="text-align:center;"|[[File:glumprong_trunk_sprite.png]] [[File:glumprong_logs_sprite.png]]|-| [[Blood thorn]] || 1250 || 62.5 || style="background: {{fgcolor|4:0}}; color: #fff;"| Crimson || style="text-align:center;"|[[File:blood_thorn_trunk_sprite.png]] [[File:blood_thorn_logs_sprite.png]]|}
 
 There are 71 types of wood, excluding the default one. Of the 72 trees, [[abaca]] and [[banana]] do not produce wood. Eight types of trees are only found underground, while the remaining 61 grow above-ground in various [[biome]]s, except [[mountain]]s, [[glacier]]s, [[tundra]]s, and [[ocean]]s. The final type of wood, wagon wood, is only produced by the death of a wagon. All wood possesses the same material properties except its density (which affects the weight of an item) and color. It is brown by default, and very few types exhibit a color besides it.
 
@@ -295,12 +138,7 @@ Wooden [[construction]]s can safely hold magma, but wooden [[building]]s will bu
 
 * [[Driftwood]]
 
-{{Translation
-| dwarven = lolum
-| elvish  = ave
-| goblin  = dôr
-| human   = pado
-}}
+{{Translation| dwarven = lolum| elvish  = ave| goblin  = dôr| human   = pado}}
 
 {{Gamedata}}
 {{materials}}

@@ -6,21 +6,7 @@
 As intermediate products, bars never have quality levels and, with the exception of soap, aren't used directly by dwarves. Other than construction, the uses of bars are:
 
 {| class="wikitable"
-! Bar !! Used for
-|-
-| [[ash]] || making [[lye]] or [[potash]]
-|-
-| [[fuel|charcoal<br />or coke]]|| powering standard [[forge]]s, [[smelter]]s, [[kiln]]s, and [[glass furnace]]s,<br />and making [[pig iron]] and [[steel]]
-|-
-| [[metal]] || [[blacksmith|smithing]] 
-|-
-| [[pearlash]] || making clear or crystal [[glass]]
-|-
-| [[potash]] || [[potash|fertilizing]] [[farming|farm]]s or making [[pearlash]]
-|-
-| [[soap]] || [[health care]] and [[cleaning|cleaning self]]
-|-
-|}
+! Bar !! Used for|-| [[ash]] || making [[lye]] or [[potash]]|-| [[fuel|charcoal<br />or coke]]|| powering standard [[forge]]s, [[smelter]]s, [[kiln]]s, and [[glass furnace]]s,<br />and making [[pig iron]] and [[steel]]|-| [[metal]] || [[blacksmith|smithing]] |-| [[pearlash]] || making clear or crystal [[glass]]|-| [[potash]] || [[potash|fertilizing]] [[farming|farm]]s or making [[pearlash]]|-| [[soap]] || [[health care]] and [[cleaning|cleaning self]]|-|}
 
 All "bars" items are 6000 cm<sup>3</sup> in [[size]], which means up to 10 will fit into a [[Storage#Quick_Reference|60000-capacity]] [[bin]]. The only exception to this 6000 cm<sup>3</sup> size are possibly partially-used soap bars. In the real world, a single [http://upload.wikimedia.org/wikipedia/commons/c/c6/Gold_bullion_2.jpg 400-tr.oz. bar of gold] is 645 cm<sup>3</sup>, which suggests that Dwarf Fortress's "bars" items consist of multiple bars (since a single "gold bars" item weighs 115 kilograms).
 
@@ -49,8 +35,7 @@ Only metal bars can be used to build [[workshop]]s, [[road]]s, [[bridge]]s, and 
 
 {{v50 metal bars table row|name=Tin|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Cassiterite]]|density=7.28|mp=10417|val=2|valinc=+0|notes=}}
 
-{{v50 metal bars table row|name=Zinc|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Sphalerite]]|density=7.13|mp=10755|val=2|valinc=+0|notes=}}
-|}
+{{v50 metal bars table row|name=Zinc|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Sphalerite]]|density=7.13|mp=10755|val=2|valinc=+0|notes=}}|}
 ''Legend:''
 :* '''Tile Color''' corresponds to how items made from that metal are displayed in game, foreground and background colors.
 :*'''Source''' indicates the specific ores that can provide a metal. If production of the metal is not guaranteed, a percent chance is indicated following the ore.
@@ -88,8 +73,7 @@ Only metal bars can be used to build [[workshop]]s, [[road]]s, [[bridge]]s, and 
 
 {{v50 metal bars table row|name=Sterling silver|tile={{Tile|≡|7:1}}|image=[[File:platinum_bar_sprite.png]]|source=3 [[Silver]]<br>+ 1  [[Copper]]*|density=10.49|mp=11602|val=8|valinc=+0|notes=}}
 
-{{v50 metal bars table row|name=Trifle pewter|tile={{Tile|≡|7:0}}|image=[[File:lead_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=4|valinc=+2|notes=Value difference is +1.67 if [[tetrahedrite]] is used instead of [[copper]].}}
-|}
+{{v50 metal bars table row|name=Trifle pewter|tile={{Tile|≡|7:0}}|image=[[File:lead_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=4|valinc=+2|notes=Value difference is +1.67 if [[tetrahedrite]] is used instead of [[copper]].}}|}
 
 ; Notes:
 : 1) '''Billon''' can be made with [[tetrahedrite]] or [[galena]] ore (instead of [[silver]] bars) for increased value: (Copper ore + Tetrahedrite: +3.5; Tetrahedrite + Tetrahedrite: +3; Copper ore + Galena: + 2.5; Tetrahedrite + Galena: + 2). 
@@ -108,8 +92,7 @@ Only metal bars can be used to build [[workshop]]s, [[road]]s, [[bridge]]s, and 
 {{minorspoiler}}
 {{v50 pure metal bars table head}}
 {{v50 metal bars table row|name=Adamantine|tile={{Tile|≡|3:1}}|image=[[File:adamantine_bar_sprite.png]]|source=[[Raw adamantine]]|density=0.200|mp=25000|val=300|valinc=+50|notes=(See below)}}
-{{v50 metal bars table row|name=Divine metal|tile={{Tile|≡|7:0}}|image=[[File:Divine metal anim.gif]]|source=None|density=1|mp=None|val=300|valinc=|notes=(See below)}}
-|}
+{{v50 metal bars table row|name=Divine metal|tile={{Tile|≡|7:0}}|image=[[File:Divine metal anim.gif]]|source=None|density=1|mp=None|val=300|valinc=|notes=(See below)}}|}
 '''Adamantine''' cannot be smelted directly, and must be [[Strand extractor|extracted]] first.
 * Can be used to forge anything except beds
 * Blades are 10× sharper than standard metals, which when combined with its very high shear fracture/yield makes it more than 100x as effective as steel for bladed weapons
@@ -124,12 +107,7 @@ Only metal bars can be used to build [[workshop]]s, [[road]]s, [[bridge]]s, and 
 * [[Block]]
 * [[Stack]]
 
-{{Translation
-| dwarven = ish
-| elvish  = emu
-| goblin  = zak
-| human   = tod
-}}
+{{Translation| dwarven = ish| elvish  = emu| goblin  = zak| human   = tod}}
 
 {{Category|Materials}}
 [[ru:Bar]]

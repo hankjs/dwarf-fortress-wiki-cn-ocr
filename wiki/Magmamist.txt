@@ -20,83 +20,9 @@ If you are <s>a leaf-loving knife-ear</s> being careful around magma, it isn't v
 
 If you plan on using a magma-based garbage disposal system, have sufficient z-levels between the dumping point and the magma/lava. Mass-dumping a whole siege's worth of corpses, body parts and assorted trash may generate magma mist clouds 3 z-levels high and wide, or higher. A single large corpse (e.g. a troll) is enough to cause a small magma mist cloud, potentially fatal if the magma's surface is just 1 z-level below the dumping point.
 
-{| style="border-spacing:0; float:left; margin-right:10px;"
-|-
-|{{000}}
-|{{000}}
-|{{RT0|░|#FF0}}
-|{{000}}
-|{{000}}
-|-
-|{{000}}
-|{{RT0|░|#FF0}}
-|{{RT0|▒|#FF0}}
-|{{RT0|░|#FF0}}
-|{{000}}
-|-
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{CCC}}
-|{{CCC}}
-|}
+{| style="border-spacing:0; float:left; margin-right:10px;"|-|{{000}}|{{000}}|{{RT0|░|#FF0}}|{{000}}|{{000}}|-|{{000}}|{{RT0|░|#FF0}}|{{RT0|▒|#FF0}}|{{RT0|░|#FF0}}|{{000}}|-|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{CCC}}|{{CCC}}|-|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{CCC}}|{{CCC}}|-|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{CCC}}|{{CCC}}|-|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{CCC}}|{{CCC}}|}
 
-{| style="border-spacing:0; float:left; margin-right:10px;"
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{000}}
-|{{000}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{000}}
-|{{000}}
-|-
-|{{000}}
-|{{000}}
-|{{000}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{000}}
-|{{000}}
-|{{RT0|░|#FF0}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{000}}
-|{{RT0|░|#FF0}}
-|{{RT0|▒|#FF0}}
-|{{CCC}}
-|{{CCC}}
-|-
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{RT0|≈|#F00}}
-|{{CCC}}
-|{{CCC}}
-|}
+{| style="border-spacing:0; float:left; margin-right:10px;"|-|{{000}}|{{000}}|{{000}}|{{000}}|{{000}}|-|{{000}}|{{000}}|{{000}}|{{000}}|{{000}}|-|{{000}}|{{000}}|{{000}}|{{CCC}}|{{CCC}}|-|{{000}}|{{000}}|{{RT0|░|#FF0}}|{{CCC}}|{{CCC}}|-|{{000}}|{{RT0|░|#FF0}}|{{RT0|▒|#FF0}}|{{CCC}}|{{CCC}}|-|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{RT0|≈|#F00}}|{{CCC}}|{{CCC}}|}
 
 '''Side View.''' ''Fun (left) and completely safe (right) magma garbage disposal points showing typical magma mist clouds after dumping a few corpses.''
 
@@ -114,33 +40,7 @@ Of course, since it sets targets on fire, be sure that it does not permit the bu
 Here is an example of a powerless [[minecart]] skipping magma mist generator.
 
 This design has a tick cycle of 30 steps with 5/7 magma and 33 steps with 6/7 magma and a max delay of 6. Carts must not collide, or it'll fail. However, it's compact, and lot of mist is produced on the z-level above with multiple carts. This design requires metal minecarts because wooden minecarts are not heavy enough to make magma mist. The initial minecart input is at the bottom. The ramp accelerating to the left is needed due to the [[minecart#Checkpoint_Effect|checkpoint effect]], and the floor and empty space combination cause a small minecart jump.
-{|style="border: 1px solid #0b0; background: #dfd"
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|╔
-|style="padding: 0"|╗
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|+
-|style="padding: 0"|▲
-|style="padding: 0"|↑
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|.
-|style="padding: 0"|║
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|+
-|style="padding: 0"|▲
-|style="padding: 0"|←
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|~
-|style="padding: 0"|▲
-|style="padding: 0"|↑
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"|▲
-|style="padding: 0"|╝
-|style="padding: 0"|→
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="padding: 0"| 
-|style="padding: 0"|║
-|}
+{|style="border: 1px solid #0b0; background: #dfd"|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|╔|style="padding: 0"|╗|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|+|style="padding: 0"|▲|style="padding: 0"|↑|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|.|style="padding: 0"|║|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|+|style="padding: 0"|▲|style="padding: 0"|←|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|~|style="padding: 0"|▲|style="padding: 0"|↑|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"|▲|style="padding: 0"|╝|style="padding: 0"|→|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="padding: 0"| |style="padding: 0"|║|}
  '''Key:'''
    '''╔ ╗ ║ ╝''' = '''Track'''
    '''▲'''       = '''Track Ramp'''

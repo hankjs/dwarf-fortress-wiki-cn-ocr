@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=louse_man_sprite.png
-|portrait=louse_man_portrait.png}}
+{{Creaturelookup/0|image=louse_man_sprite.png|portrait=louse_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

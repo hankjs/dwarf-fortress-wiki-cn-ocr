@@ -10,35 +10,9 @@ To remove a bedroom, enter {{Menu icon|z}}one mode and select it, then click "Re
 A dwarf with no bedroom will automatically claim an unowned bedroom upon sleeping in it. The player can also manually assign bedrooms ([[File:UI add worker.png|28px]]) or change the ownership from one dwarf to another. Married couples have joint ownership of a single bedroom and sleep in the same bed; [[children|babies]] will also share a bedroom with their mother until they grow into children. Assigning a dwarf a new bedroom will '''not''' un-assign them from their old bedroom(s); if you want them to only have one bedroom, you'll need to track down their old bedroom and un-assign it.
 
 Depending on the [[Zone#Quality_and_value|zone value]], bedrooms get a rank:
-{| class = "wikitable"
-|-
+{| class = "wikitable"|-
 ! Name
-! Value
-|-
-| Meager Quarters
-| style="text-align:right;"| 0
-|-
-| Modest Quarters
-| style="text-align:right;"| 100
-|-
-| Quarters
-| style="text-align:right;"| 250
-|-
-| Decent Quarters
-| style="text-align:right;"| 500
-|-
-| Fine Quarters
-| style="text-align:right;"| 1000
-|-
-| Great Bedroom
-| style="text-align:right;"| 1500
-|-
-| Grand Bedroom
-| style="text-align:right;"| 2500
-|-
-| Royal Bedroom
-| style="text-align:right;"| 10000
-|}
+! Value|-| Meager Quarters| style="text-align:right;"| 0|-| Modest Quarters| style="text-align:right;"| 100|-| Quarters| style="text-align:right;"| 250|-| Decent Quarters| style="text-align:right;"| 500|-| Fine Quarters| style="text-align:right;"| 1000|-| Great Bedroom| style="text-align:right;"| 1500|-| Grand Bedroom| style="text-align:right;"| 2500|-| Royal Bedroom| style="text-align:right;"| 10000|}
 
 ===Other furniture===
 Other pieces of [[furniture]] placed in the zone (such as [[cabinet]]s and [[coffer]]s) are usable by the dwarf that owns the bedroom.  Owning furniture (especially high-quality furniture) gives dwarves happy [[thought]]s, and cabinets and coffers give them a place to store their possessions.

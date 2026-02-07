@@ -1,14 +1,9 @@
 {{Quality|Superior}}
-{{v50_workshop|name=Kiln|key=u|key2=k
-|job=
+{{v50_workshop|name=Kiln|key=u|key2=k|job=
 *[[Furnace operator]]
 *[[Potter]]
-*[[Glazer]]
-|construction=
-* [[Fire-safe]] [[building material]] (non-[[economic]])
-|icon=[[File:kiln_icon.png]]
-|construction_job={{Material-specific building labors|stone,metal}}
-|use=
+*[[Glazer]]|construction=
+* [[Fire-safe]] [[building material]] (non-[[economic]])|icon=[[File:kiln_icon.png]]|construction_job={{Material-specific building labors|stone,metal}}|use=
 * [[Coke]] or [[Charcoal]] ([[Fuel]])
 * [[Potash]]
 * [[Gypsum]]
@@ -22,8 +17,7 @@
 * [[Clay loam]]
 * [[Fire clay]]
 * [[Ash]]
-* [[Cassiterite]]
-|production=
+* [[Cassiterite]]|production=
 * [[Pearlash]]
 * [[Gypsum plaster]]
 * [[Ceramic]] [[Jug]]
@@ -35,8 +29,7 @@
 * [[Ceramic]] [[Hive]]
 * [[Quicklime]]{{version|0.42.01}}
 * [[Instruments]]{{version|0.42.01}}
-* [[Instrument piece|Instrument pieces]]{{version|0.42.01}}
-}}{{av}}
+* [[Instrument piece|Instrument pieces]]{{version|0.42.01}}}}{{av}}
 
 A '''kiln''' is a specialized form of [[furnace]] designed for use in the [[ceramic industry]].
 

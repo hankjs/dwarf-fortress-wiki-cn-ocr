@@ -18,12 +18,7 @@ Generally, there are multiple ways to attack in [[adventurer mode]]:
 
 An automatic or manual attack can be a weapon strike, shield bash, strike with a body part (such as punch, kick, scratch, bite, etc.), or [[wrestling]] move. A wrestling move starts with a grab, that can be followed by a takedown, throw, lock, break, choke, strangle, etc., depending on the grab.
 
-{{Translation
-| dwarven = rashgur
-| elvish  = irithe
-| goblin  = umuz
-| human   = nashra
-}}
+{{Translation| dwarven = rashgur| elvish  = irithe| goblin  = umuz| human   = nashra}}
 
 {{Military}}
 {{Category|Military}}{{Category|Guides}}{{Category|Interface}}

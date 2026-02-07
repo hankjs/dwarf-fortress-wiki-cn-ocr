@@ -1,9 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=Gremlin sprites.png
-|portrait=Gremlin portrait.png
-|wiki=yes
-}}
+{{Creaturelookup/0|image=Gremlin sprites.png|portrait=Gremlin portrait.png|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Gremlins''' are intelligent [[cavern]] [[creature]]s who are invisible until spotted, and cause various kinds of [[fun]] in your fortress by stepping on [[pressure plate]]s, pulling [[lever]]s, opening [[cage]]s, picking locks and opening forbidden [[door]]s -  it is recommended to not have gremlins and easily-accessible [[Stupid dwarf trick#Self-destruct lever|self destruct lever]]s in the same fortress. One way of exploiting their lever-pulling behaviour is to have a lever that triggers a trap to kill the user when pulled, and leaving it in an area likely to see gremlins visiting. All gremlins are born with Competent [[skill]] in [[ambusher]].

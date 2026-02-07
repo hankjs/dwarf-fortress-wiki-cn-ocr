@@ -60,28 +60,11 @@ Notable occupations are '''[[hearthperson]]''', '''fortress guard''', and '''sol
 
 The level of skill granted is dependent on your adventurer status (peasant, hero, or demigod), with the greater statuses getting more skill levels. For this reason, the list below doesn't include any set skill levels, instead using the terms "Low-level", "Mid-level" and "High-level". To see what those correspond to, see the table below.
 
-{| class="wikitable"
-|-
+{| class="wikitable"|-
 ! Status
 ! Low-level
 ! Mid-level
-! High-level
-|-
-| Peasant
-| Novice
-| Competent
-| Talented
-|-
-| Hero
-| Adequate
-| Proficient
-| Professional
-|-
-| Demigod
-| Competent
-| Adept
-| Master
-|}
+! High-level|-| Peasant| Novice| Competent| Talented|-| Hero| Adequate| Proficient| Professional|-| Demigod| Competent| Adept| Master|}
  
 Occupations and skills:
 *'''Hearthperson''', '''Fortress Guard''' or '''Soldier''': None, see above.

@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=realgar_sprite.png}}
+{{stonelookup/0|graphic=realgar_sprite.png}}
 {{av}}
 
 '''Realgar''' is a brilliant red [[stone]] (neither [[fire-safe]] nor [[magma-safe]]) found as small clusters in [[igneous extrusive]] layers. 

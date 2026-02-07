@@ -7,11 +7,7 @@
 
 Although [[creature]]s and players may direct and focus their attacks, combat is random in nature  -  a glancing blow can get lucky and damage a vital organ, or open an artery to cause massive blood loss. Weapons cause damage specific to their class, be they [[Battle axe|axes]] or [[Short sword|swords]] or [[backpack]]s. You will often see creatures attacked with impaling weapons such as [[spear]]s or [[crossbow]] bolts die of asphyxiation when their lungs are pierced, while slashing weapons are more likely to open an artery or lop off a limb, and blunt weapons will cause fractures. Some weapons may become stuck in the enemy: if the weapon wielder can maintain control, they can continue to do damage and immobilize the enemy, but if the enemy gains control of the stuck weapon, the weapon's wielder will be disarmed. 
 
-{{Translation
-| dwarven = zoluth
-| elvish  = moÿira
-| goblin  = nur
-| human   = thec}}Reading the combat [[Reports|{{k|r}}eports]] will give you a gruesome blow-by-blow of the fighting, telling you exactly what each strike did. It is important to note that, while most natural creatures have the same sorts of vulnerabilities due to their similar collections of body parts, procedurally-generated creatures such as [[bogeymen]], [[forgotten beast]]s and [[titan]]s may lack these vulnerabilities entirely. Killing a shambling pile of refuse may prove to be a very, very long process due to the fact that it has no vital parts, and metallic creatures may prove to be nearly invulnerable. When all else fails, a [[cave-in]] or [[obsidian]] casting means certain death for anything caught in it.
+{{Translation| dwarven = zoluth| elvish  = moÿira| goblin  = nur| human   = thec}}Reading the combat [[Reports|{{k|r}}eports]] will give you a gruesome blow-by-blow of the fighting, telling you exactly what each strike did. It is important to note that, while most natural creatures have the same sorts of vulnerabilities due to their similar collections of body parts, procedurally-generated creatures such as [[bogeymen]], [[forgotten beast]]s and [[titan]]s may lack these vulnerabilities entirely. Killing a shambling pile of refuse may prove to be a very, very long process due to the fact that it has no vital parts, and metallic creatures may prove to be nearly invulnerable. When all else fails, a [[cave-in]] or [[obsidian]] casting means certain death for anything caught in it.
 
 As in real life, combat in ''Dwarf Fortress'' is chaotic, deadly, and gruesome. Numbers seem to matter, as defending against multiple opponents can be difficult, even for a decent fighter. Your warriors will not suffer loss of generic 'hit points', and cannot simply rest to regain them. Injuries must be dealt with in an appropriate fashion for healing to occur: broken bones must be set, wounds must be cleaned and stitched up, and for some things such as concussions, you can only wait and hope the victim eventually regains consciousness.
 
@@ -109,37 +105,7 @@ Attack speed is defined in the raws using the ATTACK_PREPARE_AND_RECOVER token. 
 
 ==Adventurer mode==
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}}/ {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}
-| Attack adjacent hostile creature
-|-
-| 
-|-
-| {{k|5}}
-| Attack hostile creature on same tile
-|-
-| {{Adv menu icon|A}}
-| Attack an adjacent creature
-|-
-| {{Adv menu icon|W}}
-| Wrestle an adjacent creature
-|-
-| {{Adv menu icon|f}}
-| Fire a projectile
-|-
-| {{k|t}}
-| Throw an item
-|-
-| {{Adv menu icon|X}}
-| Use ability or power
-|-
-| {{Adv menu icon|j}}
-| Jump
-|-
-| {{Adv menu icon|C}}
-| Open combat preferences interface
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}}/ {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}| Attack adjacent hostile creature|-| |-| {{k|5}}| Attack hostile creature on same tile|-| {{Adv menu icon|A}}| Attack an adjacent creature|-| {{Adv menu icon|W}}| Wrestle an adjacent creature|-| {{Adv menu icon|f}}| Fire a projectile|-| {{k|t}}| Throw an item|-| {{Adv menu icon|X}}| Use ability or power|-| {{Adv menu icon|j}}| Jump|-| {{Adv menu icon|C}}| Open combat preferences interface|}
 
 [[Combat]] is the fine art of using physical force to cause injury and death, and it is particularly fun in ''Dwarf Fortress''.
 
@@ -241,56 +207,7 @@ These are attacks that do not need the use of weapons, but instead utilize the b
 {| class="wikitable" style="width:660px;"
 ! Icon
 ! Attack
-! Description
-|-
-| [[File:adv_icon_wrestle.png]]
-| '''Wrestle'''
-| A set of attacks based on wrestling moves, naturally using one's limbs to attack.
-|-
-| [[File:adv_icon_grab.png]]
-| '''Grab'''
-| Takes hold of an enemy's body part.
-|-
-| [[File:adv_icon_joint_lock.png]]
-| '''Joint Lock'''
-| Push or pull an enemy's joint to its maximum degree of motion, putting the combatant in pain and further preventing movement.
-|-
-| [[File:adv_icon_choke.png]]
-| '''Choke'''
-| Grabs the enemy with a choke hold, suffocating them if they need to breathe.
-|-
-| [[File:adv_icon_takedown.png]]
-| '''Takedown'''
-| Throws the enemy down, likely knocking them off their feet.
-|-
-| [[File:adv_icon_throw.png]]
-| '''Wrestle'''
-| Send the enemy airborne.
-|-
-| [[File:adv_icon_pinch1.png]]
-| '''Pinch'''
-| The user pinches an enemy's body part with their digits, fingers or pincers.
-|-
-| [[File:adv_icon_pinch2.png]]
-| '''Gouge'''
-| Tears or claws into an enemy body part that has been grappled.
-|-
-| [[File:adv_icon_break.png]]
-| '''Break'''
-| Forcefully break an enemy bone, rendering the body part useless.
-|-
-| [[File:adv_icon_release.png]]
-| '''Loosen'''
-| Loosen or release the grip of a hold on an enemy.
-|-
-| [[File:adv_icon_strangle.png]]
-| '''Strangle'''
-| Grab and shake the throat of the enemy, suffocating them if they need to breathe.
-|-
-| [[File:adv_icon_latch.png]]
-| '''Latch'''
-| Sharply bite into the victim, holding them in place.
-|}
+! Description|-| [[File:adv_icon_wrestle.png]]| '''Wrestle'''| A set of attacks based on wrestling moves, naturally using one's limbs to attack.|-| [[File:adv_icon_grab.png]]| '''Grab'''| Takes hold of an enemy's body part.|-| [[File:adv_icon_joint_lock.png]]| '''Joint Lock'''| Push or pull an enemy's joint to its maximum degree of motion, putting the combatant in pain and further preventing movement.|-| [[File:adv_icon_choke.png]]| '''Choke'''| Grabs the enemy with a choke hold, suffocating them if they need to breathe.|-| [[File:adv_icon_takedown.png]]| '''Takedown'''| Throws the enemy down, likely knocking them off their feet.|-| [[File:adv_icon_throw.png]]| '''Wrestle'''| Send the enemy airborne.|-| [[File:adv_icon_pinch1.png]]| '''Pinch'''| The user pinches an enemy's body part with their digits, fingers or pincers.|-| [[File:adv_icon_pinch2.png]]| '''Gouge'''| Tears or claws into an enemy body part that has been grappled.|-| [[File:adv_icon_break.png]]| '''Break'''| Forcefully break an enemy bone, rendering the body part useless.|-| [[File:adv_icon_release.png]]| '''Loosen'''| Loosen or release the grip of a hold on an enemy.|-| [[File:adv_icon_strangle.png]]| '''Strangle'''| Grab and shake the throat of the enemy, suffocating them if they need to breathe.|-| [[File:adv_icon_latch.png]]| '''Latch'''| Sharply bite into the victim, holding them in place.|}
 
 ====Weapon/Item attack types====
 These attacks utilize the weapons the user is holding, or whatever items are in their inventory.
@@ -298,32 +215,7 @@ These attacks utilize the weapons the user is holding, or whatever items are in 
 {| class="wikitable" style="width:660px;"
 ! Icon
 ! Attack
-! Description
-|-
-| [[File:adv_attack_quick.png]]
-| '''Quick'''
-| A weaker attack that is quick and easy to recover from.
-|-
-| [[File:adv_attack_heavy.png]]
-| '''Heavy'''
-| A strong attack that is slower and harder to recover from.
-|-
-| [[File:adv_attack_wild.png]]
-| '''Wild'''
-| A fast attack, but is very inaccurate and hard to maintain the balance of.
-|-
-| [[File:adv_attack_precise.png]]
-| '''Precise'''
-| A very slow, but very accurate attack.
-|-
-| [[File:adv_attack_charge.png]]
-| '''Charge'''
-| Charges into the enemy, possibly making an enemy stumble off balance or knock them down.
-|-
-| [[File:adv_attack_multi.png]]
-| '''Multi-attack'''
-| A sequence of attacks customizable by the player, when finished, they will all be executed one after the other.
-|}
+! Description|-| [[File:adv_attack_quick.png]]| '''Quick'''| A weaker attack that is quick and easy to recover from.|-| [[File:adv_attack_heavy.png]]| '''Heavy'''| A strong attack that is slower and harder to recover from.|-| [[File:adv_attack_wild.png]]| '''Wild'''| A fast attack, but is very inaccurate and hard to maintain the balance of.|-| [[File:adv_attack_precise.png]]| '''Precise'''| A very slow, but very accurate attack.|-| [[File:adv_attack_charge.png]]| '''Charge'''| Charges into the enemy, possibly making an enemy stumble off balance or knock them down.|-| [[File:adv_attack_multi.png]]| '''Multi-attack'''| A sequence of attacks customizable by the player, when finished, they will all be executed one after the other.|}
 
 ====Weapon/Item utilization====
 These attack choices determine how the weapon or item will be used.
@@ -331,60 +223,7 @@ These attack choices determine how the weapon or item will be used.
 {| class="wikitable" style="width:660px;"
 ! Icon
 ! Attack
-! Description
-|-
-| [[File:adv_attack_stab.png]]
-| '''Stab'''
-| Strike the enemy by directly thrusting a sword's point.
-|-
-| [[File:adv_attack_slash.png]]
-| '''Slash'''
-| Strike the enemy by swinging the edge of a sword at the enemy.
-|-
-| [[File:adv_attack_slap.png]]
-| '''Slap'''
-| Hits the enemy with the flat side of a weapon.
-|-
-| [[File:adv_attack_hack.png]]
-| '''Hack'''
-| Strike the enemy by swinging an axe or axe-like weapon into the enemy.
-|-
-| [[File:adv_attack_bash.png]]
-| '''Charge'''
-| Strike the enemy with a blunt weapon.
-|-
-| [[File:adv_attack_lash.png]]
-| '''Lash'''
-| Attack an enemy by lashing a whip at them.
-|-
-| [[File:adv_attack_pommel.png]]
-| '''Pommel'''
-| Bash an enemy with the handle of a weapon.
-|-
-| [[File:adv_attack_punch.png]]
-| '''Punch'''
-| Swing a punch toward the enemy.
-|-
-| [[File:adv_attack_kick.png]]
-| '''Kick'''
-| Kick the enemy.
-|-
-| [[File:adv_attack_bite.png]]
-| '''Bite'''
-| Simply bite the enemy. A [[vampire]] can draw blood from a victim this way, or a [[werebeast]] can also transfer its curse with a bite that breaks the skin. Very effective if the attacker's bite is venomous.
-|-
-| [[File:adv_attack_sting.png]]
-| '''Sting'''
-| Attack the enemy with a stinger, if the attacker naturally has a stinger. Very effective if the attacker's sting is venomous.
-|-
-| [[File:adv_attack_pincer.png]]
-| '''Pincer'''
-| Attack the enemy with a pincer, if the attacker naturally has a pincer.
-|-
-| [[File:adv_attack_other.png]]
-| '''Push'''
-| Shoves the enemy away.
-|}
+! Description|-| [[File:adv_attack_stab.png]]| '''Stab'''| Strike the enemy by directly thrusting a sword's point.|-| [[File:adv_attack_slash.png]]| '''Slash'''| Strike the enemy by swinging the edge of a sword at the enemy.|-| [[File:adv_attack_slap.png]]| '''Slap'''| Hits the enemy with the flat side of a weapon.|-| [[File:adv_attack_hack.png]]| '''Hack'''| Strike the enemy by swinging an axe or axe-like weapon into the enemy.|-| [[File:adv_attack_bash.png]]| '''Charge'''| Strike the enemy with a blunt weapon.|-| [[File:adv_attack_lash.png]]| '''Lash'''| Attack an enemy by lashing a whip at them.|-| [[File:adv_attack_pommel.png]]| '''Pommel'''| Bash an enemy with the handle of a weapon.|-| [[File:adv_attack_punch.png]]| '''Punch'''| Swing a punch toward the enemy.|-| [[File:adv_attack_kick.png]]| '''Kick'''| Kick the enemy.|-| [[File:adv_attack_bite.png]]| '''Bite'''| Simply bite the enemy. A [[vampire]] can draw blood from a victim this way, or a [[werebeast]] can also transfer its curse with a bite that breaks the skin. Very effective if the attacker's bite is venomous.|-| [[File:adv_attack_sting.png]]| '''Sting'''| Attack the enemy with a stinger, if the attacker naturally has a stinger. Very effective if the attacker's sting is venomous.|-| [[File:adv_attack_pincer.png]]| '''Pincer'''| Attack the enemy with a pincer, if the attacker naturally has a pincer.|-| [[File:adv_attack_other.png]]| '''Push'''| Shoves the enemy away.|}
 
 {{Category|Game mechanics}}
 [[ru:Combat]]

@@ -1,26 +1,13 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_item
-|name  = Mechanism
-|graphic = [[File:mechanism_sprite.png]]
-|tile  = Ç
-|col   = 7:1
-|stone  = yes
-|metal = yes
-|bars = 1
-|workshops=<span></span>
+{{v50_item|name  = Mechanism|graphic = [[File:mechanism_sprite.png]]|tile  = Ç|col   = 7:1|stone  = yes|metal = yes|bars = 1|workshops=<span></span>
 * [[Mechanic's workshop]]<br />
-* [[Metalsmith's forge]]
-|labors=<span></span>
+* [[Metalsmith's forge]]|labors=<span></span>
 * [[Mechanics]]<br /><br />
-* [[Mechanics]]
-|used for=
+* [[Mechanics]]|used for=
 * [[Machine component|Machines]]
 * [[Trap]]s
-* [[Screw press]]
-|value=30
-|size=20,000
-}}
+* [[Screw press]]|value=30|size=20,000}}
 [[File:gears2.png|thumb|270px|right|A very old-timey mechanism.]]'''Mechanisms''' can be created by a dwarf with the [[mechanics]] labor. Stone mechanisms are made at a [[mechanic's workshop]] from any type of hard [[stone]]. Mechanisms can also be made of [[metal]] (see below). Both stone and metal mechanisms use the [[Mechanic]] skill. All mechanisms are stored in a [[furniture]] stockpile.
 
 Metal mechanisms are identical in function, and can be made at a [[metalsmith's forge]] or [[magma forge]] from 1 [[bar]] of [[metal]], the job order found under "[[trap component]]s". Mechanisms ordered via a forge can only be made with [[weapons-grade]] metals. However, using the [[work order]] menu to make metal mechanisms (either from the manager screen or from a mechanic workshop's [[workshop profile]]), a [[mechanic's workshop]] will be used instead, with the same labor and materials (but always requiring [[fuel]]), and ''any'' type of metal can be used.  Note that it is generally far more cost effective to smelt a valuable ore into 4 bars, and then make a metal mechanism from one bar of that metal, rather than make a "stone" mechanism from the raw ore.
@@ -72,8 +59,7 @@ Lór thought for a moment.
 
 "I'm not sure that's how it works."
 
-"Well, don't check. It might stop."
-}}
+"Well, don't check. It might stop."}}
 
 Recent observational studies have given rise to new theories regarding dwarven machinery, the most notable of which being the ''Stringing [[Beard]] Theory''. Accordingly, it is asserted the dwarven beard is in fact a single long strand interwoven across the dwarf's face as if a loosely stitched thread. By plucking out this strand and tying the end to a mechanism, which resembles a sort of [[wikipedia:carabiner|carabiner]], it is believed that a dwarf is able to connect two objects by way of a long (sometimes kilometers in length) strand of beard-hair. This is done quite simply by the dwarf continually plucking more and more of its beard out as it runs from one object to the next, laying out a cable around corners, up ramps, down stairways, and through planned walls (which get built over the top of the strand anyways). When a lever is pulled, it pulls the string with it, which in turn actuates the object on the other side. When deconstructing a linked building, the dwarf need only give the strand a flick or two, then it reels in the dangling mechanism from wherever.
 
@@ -81,12 +67,7 @@ Given the substantial density of dwarven beards, it is plausible that even a dep
 
 [[File:Assorted Biners.jpg|thumb|center|upright|Assorted Mechanisms]]
 
-{{Translation
-| dwarven = bëmbul
-| elvish  = cereÿa
-| goblin  = amar
-| human   = jepum
-}}
+{{Translation| dwarven = bëmbul| elvish  = cereÿa| goblin  = amar| human   = jepum}}
 
 {{Buildings}}
 {{Category|Furniture}}

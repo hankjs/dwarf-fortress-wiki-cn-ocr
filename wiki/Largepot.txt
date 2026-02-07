@@ -3,30 +3,8 @@
 {{av}}
 {{buggy}}
 
-{{v50_item|name=Large pot
-|graphic=[[File:large_pot_sprite.png]]
-|tile={{char|232}}
-|wood=n
-|woodcraft=y
-|stone=n
-|stonecraft=y
-|metal=n
-|metalcraft=y
-|bars=1
-|glass=y
-|cloth=n
-|leather=n
-|ceramic=y
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* [[Storage]] ([[Stockpile#Food|Food, liquids]])
-|value=10
-|size=5,000
-|capacity=60,000
-}}
+{{v50_item|name=Large pot|graphic=[[File:large_pot_sprite.png]]|tile={{char|232}}|wood=n|woodcraft=y|stone=n|stonecraft=y|metal=n|metalcraft=y|bars=1|glass=y|cloth=n|leather=n|ceramic=y|bone=n|shell=n|gem=n|wax=n|used for=
+* [[Storage]] ([[Stockpile#Food|Food, liquids]])|value=10|size=5,000|capacity=60,000}}
 
 '''Pots''', also known as '''large pots''', are containers that function much like [[barrel]]s, and have the same capacity, but can be made from materials other than wood or metal, such as [[stone]], [[ceramic]], and [[glass]]. The game refers to these containers sometimes as "pot" and sometimes as "large pot" but there is no actual distinction. Graphically, if a pot is empty, the sprite will show a pot with no lid; if it is filled with a specific type of item, the top of the pot will have the matching items sticking out of the top, which also applies for liquids. If the pot contains content such as [[slurry]], paste or [[tallow]], the pot will have a lid.
 

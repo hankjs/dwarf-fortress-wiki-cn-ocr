@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=strangler_sprites.png
-|portrait=strangler_portrait.png
-|wiki=no
-|contrib=no
-|bone=20-21
-|meat=21-22
-|fat=21-22
-|skull=1
-|skin=hide
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1 
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-}}
+{{Creaturelookup/0|image=strangler_sprites.png|portrait=strangler_portrait.png|wiki=no|contrib=no|bone=20-21|meat=21-22|fat=21-22|skull=1|skin=hide|lung=2|heart=1|intestine=1|liver=1|tripe=1 |sweetbread=1|spleen=1|kidney=2|brain=1}}
 {{av}}
 {{creaturedesc}}
 

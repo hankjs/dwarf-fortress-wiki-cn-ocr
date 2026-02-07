@@ -16,94 +16,11 @@ A simple magma piston works as shown in the following diagram:
    <font color="#777">S</font>    = <font color="#777">'''Support'''</font>  
    <font color="#970">_</font>    = <font color="#970">'''Floor hatch or bridge (your choice)'''</font>
 
-{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Basic magma piston design (side view)'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|_
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|_
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #777; padding: 0"|S
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|}
+{|style="border: 1px solid #0b0; background: #dfd"|+'''Basic magma piston design (side view)'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|_|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|_|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #777; padding: 0"|S|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|}
 
 When the support is destroyed, the wall sections in the middle will fall down into the magma. The magma will teleport to the top of the piston, as shown in the following diagram:
 
-{|style="border: 1px solid #0b0; background: #dfd"
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|_
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #970; padding: 0"|_
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #F00; padding: 0"|~
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #F00; padding: 0"|~
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|}
+{|style="border: 1px solid #0b0; background: #dfd"|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|_|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #970; padding: 0"|_|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #F00; padding: 0"|~|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #F00; padding: 0"|~|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|}
 
 == Construction ==
 A magma piston is composed of 4-5 parts: the catchment area, the magma reservoir, the support, the piston, and the obsidian caster (optional).
@@ -126,246 +43,22 @@ A magma piston is composed of 4-5 parts: the catchment area, the magma reservoir
    <font color="#970">_</font>    = <font color="#970">'''Floor hatch or bridge (your choice)'''</font>
    <font color="#444">=</font>    = <font color="#444">'''Constructed floor'''</font>
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Side-mounted support'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|_
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #970; padding: 0"|_
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|X
-|style="color: #970; padding: 0"|_
-|style="color: #444; padding: 0"|=
-|style="color: #444; padding: 0"|=   
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"| 
-|style="color: #777; padding: 0"|S
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|   
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|+'''Side-mounted support'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|_|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #970; padding: 0"|_|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|X|style="color: #970; padding: 0"|_|style="color: #444; padding: 0"|=|style="color: #444; padding: 0"|=   |style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"| |style="color: #777; padding: 0"|S|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|   |style="color: #000; padding: 0"|#|}
 
 :In this diagram, you can see the catchment area at the top, and the piston in the middle of the shaft. The support structure is to the left. When the support element collapses, the two constructed floors will become unsupported, and then the piston will collapse. The stairs and hatch to the left of the constructed floors allows for convenient reconstruction of the support.
 
 === Piston ===
 :The '''piston''' is the heart of the scheme. It may be 100-200 z-levels long, so it will take quite a while for your miners to dig it out. You may encounter trouble with caverns. Ideally, you should scout out the caverns and find a clear path straight down. If you can't find such a path, you can fix the problem as follows:
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Cavern problem'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|+'''Cavern problem'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|}
 
 :First, smooth the top and bottom, like so:
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|X
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|X|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|}
 
 :Now drop the top of the piston on to the floor of the cavern. You can use a cave-in to destroy the stairs quickly, if you remove all up-stairs first.
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #dfd; padding: 0"|.
-|style="color: #dfd; padding: 0"|.
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #dfd; padding: 0"|.|style="color: #dfd; padding: 0"|.|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|}
 
 === Obsidian caster ===
 :The '''obsidian caster''' is what allows you to rebuild your piston and get more magma. It's an application of techniques drawn from [[obsidian farming]]. The caster just needs to precisely dump water into the catchment area in order to form obsidian. A caster is composed of two parts: a water inlet, and a retracting bridge. Here's a sample design:
@@ -380,110 +73,11 @@ A magma piston is composed of 4-5 parts: the catchment area, the magma reservoir
    <font color="#F00">~</font>    = <font color="#F00">'''Magma'''</font>
    <font color="#00F">~</font>    = <font color="#00F">'''Water'''</font>
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Obsidian caster'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|F
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #00F; padding: 0"|±
-|style="color: #00F; padding: 0"|±
-|style="color: #00F; padding: 0"|±
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #970; padding: 0"| 
-|style="color: #970; padding: 0"| 
-|style="color: #970; padding: 0"| 
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #F00; padding: 0"|±
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|~
-|style="color: #F00; padding: 0"|±
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|+'''Obsidian caster'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|F|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #00F; padding: 0"|±|style="color: #00F; padding: 0"|±|style="color: #00F; padding: 0"|±|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #970; padding: 0"| |style="color: #970; padding: 0"| |style="color: #970; padding: 0"| |style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #F00; padding: 0"|±|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|~|style="color: #F00; padding: 0"|±|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|}
 
 :When you retract the bridge at the top, the water will fall straight down, and you'll get the following result:
 
-:{|style="border: 1px solid #0b0; background: #dfd"
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #00F; padding: 0"|~
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #970; padding: 0"|F
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"| 
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #970; padding: 0"| 
-|style="color: #970; padding: 0"| 
-|style="color: #970; padding: 0"| 
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #F00; padding: 0"|±
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #F00; padding: 0"|±
-|style="color: #000; padding: 0"|#
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #000; padding: 0"|#
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|P
-|style="color: #000; padding: 0"|
-|style="color: #000; padding: 0"|#
-|}
+:{|style="border: 1px solid #0b0; background: #dfd"|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #00F; padding: 0"|~|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #970; padding: 0"|F|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"| |style="color: #000; padding: 0"| |style="color: #000; padding: 0"| |style="color: #000; padding: 0"|#|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #970; padding: 0"| |style="color: #970; padding: 0"| |style="color: #970; padding: 0"| |style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #F00; padding: 0"|±|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #F00; padding: 0"|±|style="color: #000; padding: 0"|#|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #000; padding: 0"|#|style="color: #000; padding: 0"||style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"|P|style="color: #000; padding: 0"||style="color: #000; padding: 0"|#|}
 
 == Operation ==
 The general procedure for operating a repeatable magma piston is as follows:
@@ -532,13 +126,8 @@ Now, how to do it? it is mentioned as follows :
 *Cancel the placement option
 Here is the big Gif, I have cropped the empty frames in the GIf. The relevant frames are kept in here.
 
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:Dwarven Sonar GIF 2.gif|thumb|The Sonar in action]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:Dwarven Sonar GIF 2.gif|thumb|The Sonar in action]]|}
 
 == Detailed Video ==
 *5th April 2023:
@@ -557,45 +146,25 @@ A quick TL;DR
 *A mine-cart -> Material depends on what you intend it for.
 *A proper track stop - that - dumps - in to - a - wall, (maximum friction )
 2. This is my portable magma drain design:
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:Portable Drain Layout.PNG|thumb|Portable Drain Layout example]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:Portable Drain Layout.PNG|thumb|Portable Drain Layout example]]|}
 
 * Water -> Any mine-cart
 *Magma -> Magma-safe material for cart
 *The location of the drain is important.
 *I usually channel a room and make it 1-Z level low, so the entire magma goes to the cart and drainsup, leaving the upper floor totally empty when needed.
 *This will clear it up.
-{| class="wikitable"
-|+ 
-|-
-! 2
-|-
-| [[File:Drain explained.png|thumb|Portable Drain Logic]]
-|}
+{| class="wikitable"|+ |-
+! 2|-| [[File:Drain explained.png|thumb|Portable Drain Logic]]|}
 
 3. Now we set the IRON drain dump stop:
-{| class="wikitable"
-|+ 
-|-
-! 3
-|-
-| [[File:Drain dump stop.png|thumb|Drain Dump designation]]
-|}
+{| class="wikitable"|+ |-
+! 3|-| [[File:Drain dump stop.png|thumb|Drain Dump designation]]|}
 
 4. Now we set the drain dump mine-cart
 *Go to set mine-cart hauling routes, add a new route, then look at the index described below:
-{| class="wikitable"
-|+ 
-|-
-! 4
-|-
-| [[File:Minecart designations.png|thumb|Minecart icons explained]]
-|}
+{| class="wikitable"|+ |-
+! 4|-| [[File:Minecart designations.png|thumb|Minecart icons explained]]|}
 
 5. Now we do this:
 *Set track stop to the Iron track stop we made
@@ -623,50 +192,25 @@ So this is an approximate list of materials you'd want ready before going for ma
 *Iron Mine-cart
 *A Portable Drain ( I will teach this )
 *This is what you are looking forward to
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:Portable Drain Layout.PNG|thumb|Portable Drain Layout example]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:Portable Drain Layout.PNG|thumb|Portable Drain Layout example]]|}
 *This is my Pump :
-{| class="wikitable"
-|+ 
-|-
-! 2
-|-
-| [[File:Pump.PNG|thumb|Magma Pump]]
-|}
+{| class="wikitable"|+ |-
+! 2|-| [[File:Pump.PNG|thumb|Magma Pump]]|}
 
 *This is magma below the Pump, the tile of magma has been channelled.
-{| class="wikitable"
-|+ 
-|-
-! 3
-|-
-| [[File:Below pump.PNG|thumb|View below the pump shown above]]
-|}
+{| class="wikitable"|+ |-
+! 3|-| [[File:Below pump.PNG|thumb|View below the pump shown above]]|}
 
 
 Place the pump such that it is one tile ahead of the tile it is sucking from and place the direction of pumping carefully. We place the iron bars so that creatures don't come from underneath the magma into the fortress. The materials are made of iron so that the pump doesn't burn. The Door is placed as a precaution in case things don't work out as intended.
-{| class="wikitable"
-|+ 
-|-
-! 4
-|-
-| [[File:Pump working concept.png|thumb|Pumps working logic]]
-|}
+{| class="wikitable"|+ |-
+! 4|-| [[File:Pump working concept.png|thumb|Pumps working logic]]|}
 
 
 This is how it is intended to work, don't mind the burning trash, it just shows how non-fire proof materials melt to magma, whereas the pump, operator, grate, door and bars are safe, even the floodgate is safe and sound.
-{| class="wikitable"
-|+ 
-|-
-! 5
-|-
-| [[File:Magma Pumping.gif|thumb|Magma being pumped Gif File]]
-|}
+{| class="wikitable"|+ |-
+! 5|-| [[File:Magma Pumping.gif|thumb|Magma being pumped Gif File]]|}
 
 
 Now you know how to do it hopefully, good luck with the tapping. Some tips, when you hit warm rock, be exceptionally careful with it. Dig little little upwards and sideways to discover from what z level the warm rocks start, above that layer will be the pump. Also, better to have all materials ready before a magma man pays a visit through the hole you made in the magma sea. Yes, that will be the best I can explain it to you my dear reader.
@@ -676,13 +220,8 @@ This is the concept of the pump with things mentioned.
 This is how a multi-floor cave-in is organised. This is the youtube video describing what is to be explained below now :
 *[https://youtu.be/pW1CrP_IgWI?si=gHw5RCOOGtK7-AVl Planned Mass Cave-in]
 * This image explains the concept of the video as to how to do it, and all.
-{| class="wikitable"
-|+ 
-|-
-! Image
-|-
-| [[File:Cave in fundamental.png|thumb|Cave in logic]]
-|}
+{| class="wikitable"|+ |-
+! Image|-| [[File:Cave in fundamental.png|thumb|Cave in logic]]|}
 
 We dig out the piston but the floors... 100 or perhaps 120.. 120 floor channelling? nah dude... This is a better alternative, a 100 or 120 floor digging itself takes an in-game year or so. So what we do is, above all these floors, make a support. on this support is a 5x5 square floor. This 5x5 square has a 3x3 hole in the centre. Attach the support to a lever, when all 100 or 120 floors are dug out, you just make sure all dwarves and creatures are away from these floors or it is instant death. So when you pull the lever, this 5x5 drops exactly on similar 5x5 floors supporting the piston. Every single floor below is destroyed. But the oiston is intact. Why? because it is supported by a support. So all that is left here is the piston alone, clean and beautiful. Now in our case, why is a piston shown? Why is this example describing a piston? Why a piston in a cave in? Because, that video shows the magma piston that is to be used in our guide and that video is a great example of how to clean multiple floors. Yes, even TwistedLogicgaming destroyed an entire island with a floor collapse. So now enough chit chat, lets go to a small summary.
 
@@ -698,66 +237,31 @@ Video is right here :
 * [https://youtu.be/OBEot6PJUYI?si=0QZeBdZ73xtznkmK Firing a Magma Piston]
 
 *Let us get into this, this below image is just for reference: a general understanding of the entire process:
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:IMG 20230131 002636.jpg|thumb|Artistic Depiction of a Magma Piston]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:IMG 20230131 002636.jpg|thumb|Artistic Depiction of a Magma Piston]]|}
 *'''This is the top level : The Obsidian Regenerator'''
 *An obsidian Regenerator servers one purpose,to recreate the blocks we dig at the base at the piston. The way this works is, we have a retracting bridge on exactly top of the magma piston head. This retractable bridge will have water on top of it 7/7. This draw bridge is covered on all sides. Water inlet and outlet is floodgate controlled. When we retract, the water 7/7 exactly falls down on the piston head creating 2/7 (minimum magma to be present) magma to obsidian. This completes the regeneration.
-{| class="wikitable"
-|+ 
-|-
-! 2
-|-
-| [[File:Obsidian regenerator water.PNG|thumb|A ready position obsidian regenerator]]
-|}
+{| class="wikitable"|+ |-
+! 2|-| [[File:Obsidian regenerator water.PNG|thumb|A ready position obsidian regenerator]]|}
 *'''This is the level where magma forges will be build:'''
 *When magma is pumped here, there needs to be micro-management else this magma that is being pumped will freely flow and become cold. If this magma entirely becomes cold, then the obsidian regenerator won't work. This causes the entire project to be fu(k3d because the absence of magma makes the entire repeatability of the project to fail. So a save before first pump is always advised.
 *In this image, there are series of channels and slots dug out for the Forge placement. There are several levers controlling <Magma-Safe> draw-bridges below.
-{| class="wikitable"
-|+ 
-|-
-! 3
-|-
-| [[File:Piston Head and Designated Magma Forge Room.PNG|thumb|Piston Head]]
-|}
+{| class="wikitable"|+ |-
+! 3|-| [[File:Piston Head and Designated Magma Forge Room.PNG|thumb|Piston Head]]|}
 *'''This is where the magma floods in:'''
 *The bridges control the magma flow. Every single draw bridge is retracted before the first pump. The floodgate is a critical part and a grate installation is highly advised. Sequential opening and repeating of pumping further opening the bridges to allow more and more magma flow to make it minimum 4/4. In the first three piston drops, one magma forge will be running. Took me 3 pumps and mirco-management to get it running honestly
-{| class="wikitable"
-|+ 
-|-
-! 4
-|-
-| [[File:Under the Forges and Magin Magma Room.PNG|thumb|Magma Control Slots]]
-|}
+{| class="wikitable"|+ |-
+! 4|-| [[File:Under the Forges and Magin Magma Room.PNG|thumb|Magma Control Slots]]|}
 *'''This is how it looks post piston drop:'''
 *The support has been pulled by the lever, the entire pillar/piston falls down. Upon falling down the area occupied by magma which is replaced by the piston is instantly teleported on top of it, hence the name " Magma Piston " also depicted in the fan-art posted before.
-{| class="wikitable"
-|+ 
-|-
-! 5
-|-
-| [[File:Post activation top.PNG|thumb|The top of the piston post activation]]
-|}
+{| class="wikitable"|+ |-
+! 5|-| [[File:Post activation top.PNG|thumb|The top of the piston post activation]]|}
 *'''This is how the bottom design is:'''
-{| class="wikitable"
-|+ 
-|-
-! 6
-|-
-| [[File:Magma Room.PNG|thumb|Piston Bottom Support]]
-|}
+{| class="wikitable"|+ |-
+! 6|-| [[File:Magma Room.PNG|thumb|Piston Bottom Support]]|}
 *'''This is how it looks when flooded with magma and piston drops down:'''
-{| class="wikitable"
-|+ 
-|-
-! 7
-|-
-| [[File:Post activation bottom.PNG|thumb|Activated magma piston]]
-|}
+{| class="wikitable"|+ |-
+! 7|-| [[File:Post activation bottom.PNG|thumb|Activated magma piston]]|}
 *'''Magma Piston types -'''
 *magma pistons are of two types specifically :
 *Re-usable:-
@@ -787,27 +291,12 @@ Firstly, for a project like this, exploration of caverns is primarily advised. R
 == The Significance of retracting bridge ==
 In the room where magma is teleported above the piston when it drops is because the magma doesn't drip below. What is the use of teleporting massive amounts of magma and it legit drips down to where it was pumped from... One more factor is, if water were to fall in alone the pillar and connect to a piece of magma, it will attach the piston with the channel around leading to process disruption. Floor grates, flood gates didn't work in my case. Magma safe retractable bridges work excellently.
 == Mega Piston Regnerator ==
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:Page 1.jpg|thumb|Page 1]]
-|}
-{| class="wikitable"
-|+ 
-|-
-! 2
-|-
-| [[File:Page 2 piston idea.jpg|thumb|Page 2]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:Page 1.jpg|thumb|Page 1]]|}
+{| class="wikitable"|+ |-
+! 2|-| [[File:Page 2 piston idea.jpg|thumb|Page 2]]|}
 
 == Compound Magma Piston ==
 Very advanced stuff, basically, you make pump stack in between and place a gigantic piston at the top. If there is a huge gap in between two caverns, the design can be implemented in between them. You can use reducer pistons or something like that as well.
-{| class="wikitable"
-|+ 
-|-
-! 1
-|-
-| [[File:Page 3.jpg|thumb|Page 3]]
-|}
+{| class="wikitable"|+ |-
+! 1|-| [[File:Page 3.jpg|thumb|Page 3]]|}

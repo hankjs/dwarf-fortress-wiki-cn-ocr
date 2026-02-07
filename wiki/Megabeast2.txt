@@ -34,33 +34,8 @@ After an attack on a settlement in worldgen, megabeasts tend to be worshipped by
 ==Attributes==
 The different types of large, unique creatures have similar, though slightly differing properties. These behaviors are mostly of interest to [[Modding|modders]] creating custom creatures.
 
-{| class="wikitable sortable"
-|+ Monster tokens 
-|-
-! Attribute !! {{token|MEGABEAST|c}}<br>{{token|SEMIMEGABEAST|c}} !! {{token|TITAN|c}} !! {{token|FEATURE_BEAST|c}} !! {{token|POWER|c}} !! {{token|UNIQUE_DEMON|c}} !! {{token|DEMON|c}} !! {{token|NIGHT_CREATURE|c}} !! Others
-|-
-|| Show {{token|DESCRIPTION}} on<br>[[Historical figure|histfig]] entries<sup>1</sup>  || || Yes || Yes ||  || || Yes || Yes ||
-|-
-|| Rampages || Yes || Yes || Yes || || || || ||
-|-
-|| Exclude materials from [[stockpile]] || || Yes || Yes || || || Yes || Yes || {{token|EQUIPMENT|c}}
-|-
-|| Makes [[Relationship|friends]] in Worldgen || || No || No || || || No || No || {{token|EQUIPMENT|c}} can't
-|-
-|| Can be [[Experiment]] || || No || No || No || No || No || || {{token|SUPERNATURAL|c}}, and castes with {{token|FANCIFUL|c}}
-|-
-|| Record all duels || Yes || Yes || Yes || || || || || [[Deity|Deities]], [[force]]s, and [[Noble|positions]] with [[Position token#PRECEDENCE|precedence]] 1
-|-
-|| Worldgen Beast || Yes || || Yes || Yes || || || {{token|NIGHT_CREATURE_HUNTER}} only || 
-|-
-|| Worldgen Monster || Yes || Yes || Yes || Yes || || || {{token|NIGHT_CREATURE_HUNTER}} only || 
-|-
-|| Can worship [[deity|gods]] || || No || No || No<sup>2</sup> || || No || No ||
-|-
-|| Can be [[Preference|preferred]] [[pet]]  || || No || No ||  || No || || || {{token|EQUIPMENT|c}} can't
-|-
-|| Unknown to [[civilization]]s (?)  || || || Yes<sup>3</sup> ||  || || || || 
-|}
+{| class="wikitable sortable"|+ Monster tokens |-
+! Attribute !! {{token|MEGABEAST|c}}<br>{{token|SEMIMEGABEAST|c}} !! {{token|TITAN|c}} !! {{token|FEATURE_BEAST|c}} !! {{token|POWER|c}} !! {{token|UNIQUE_DEMON|c}} !! {{token|DEMON|c}} !! {{token|NIGHT_CREATURE|c}} !! Others|-|| Show {{token|DESCRIPTION}} on<br>[[Historical figure|histfig]] entries<sup>1</sup>  || || Yes || Yes ||  || || Yes || Yes |||-|| Rampages || Yes || Yes || Yes || || || || |||-|| Exclude materials from [[stockpile]] || || Yes || Yes || || || Yes || Yes || {{token|EQUIPMENT|c}}|-|| Makes [[Relationship|friends]] in Worldgen || || No || No || || || No || No || {{token|EQUIPMENT|c}} can't|-|| Can be [[Experiment]] || || No || No || No || No || No || || {{token|SUPERNATURAL|c}}, and castes with {{token|FANCIFUL|c}}|-|| Record all duels || Yes || Yes || Yes || || || || || [[Deity|Deities]], [[force]]s, and [[Noble|positions]] with [[Position token#PRECEDENCE|precedence]] 1|-|| Worldgen Beast || Yes || || Yes || Yes || || || {{token|NIGHT_CREATURE_HUNTER}} only || |-|| Worldgen Monster || Yes || Yes || Yes || Yes || || || {{token|NIGHT_CREATURE_HUNTER}} only || |-|| Can worship [[deity|gods]] || || No || No || No<sup>2</sup> || || No || No |||-|| Can be [[Preference|preferred]] [[pet]]  || || No || No ||  || No || || || {{token|EQUIPMENT|c}} can't|-|| Unknown to [[civilization]]s (?)  || || || Yes<sup>3</sup> ||  || || || || |}
 
 <sup>1</sup>: These creatures are usually {{token|GENERATED}}.
 

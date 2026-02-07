@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_gold_sprite.png}}
+{{stonelookup/0|graphic=ore_gold_sprite.png}}
 {{av}}
 
 '''Native gold''' is the only [[ore]] of [[gold]], a precious [[metal]]. Native gold is very common in [[stone layers|igneous layers]], a bit less in [[sedimentary layer]]s.

@@ -10,12 +10,7 @@ Usable teeth may be harvested by butchering many of the largest animals (roughly
 
 [[File:ivory.jpg|thumb|275px|center|A fine material, but a rare one for carving.]]
 
-{{Translation
-| dwarven = sosad
-| elvish  = ciquara
-| goblin  = stuz
-| human   = bemeh
-}}
+{{Translation| dwarven = sosad| elvish  = ciquara| goblin  = stuz| human   = bemeh}}
 
 {{gamedata}}
 {{materials}}

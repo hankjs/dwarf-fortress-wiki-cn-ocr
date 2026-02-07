@@ -13,12 +13,7 @@ In the realm of organic materials that have yet to be implemented, pearls sit ad
 <!-- Reference: the "pearly gates" leading to Heaven -->
 If a material is [[mod]]ded into the game with {{token|PEARL|md}}, [[artifact]] gates made out of the material will sometimes generate in [[vault]]s.
 
-{{Translation
-| dwarven = kovest
-| elvish  = amayi
-| goblin  = obasp
-| human   = kima
-}}
+{{Translation| dwarven = kovest| elvish  = amayi| goblin  = obasp| human   = kima}}
 {{gamedata|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|PEARL_TEMPLATE}}}}
 {{materials}}
 {{Category|Myth}}

@@ -1,12 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
 [[File:fat_preview.png|right]]'''Fat''' is a low-value yellow animal product obtained by [[Butcher's shop|butchering]] an animal. It is made of [[glob]]s, but unlike other globs, will not be cleaned by dwarves. In its liquid form, it is named grease. Although it can [[fire|ignite]], fat cannot boil.
-{{Translation
-| dwarven = er
-| elvish  = rine
-| goblin  = dusmxu
-| human   = omep
-}}
+{{Translation| dwarven = er| elvish  = rine| goblin  = dusmxu| human   = omep}}
 == Fortress Mode use ==
 Fat can be rendered into [[tallow]] in a [[kitchen]]. [[Tallow]] is used in the production of [[soap]], or can be [[cook]]ed into meals. A 'process fat' job processes all the available fat into single stacks of tallow at once.  By default, "process fat into tallow" jobs are automatically created in kitchens when fat is available.
 

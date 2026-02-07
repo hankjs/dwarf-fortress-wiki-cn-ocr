@@ -4,8 +4,7 @@
 {{infostart|Wax}}
 {{infoheader|Uses}}
 {{infocell|
-* Make wax [[crafts]]
-}}
+* Make wax [[crafts]]}}
 {{infoheader|Properties}}
 {{infocell|
 * [[Material value]] 1
@@ -14,8 +13,7 @@
 * [[Boiling point]] None
 * [[Ignition point]] {{ct|10368}}
 * [[Solid density]] 960
-* [[Specific heat]] 3400
-}}
+* [[Specific heat]] 3400}}
 {{infocell|style=text-align:center; background-color: #eee; border-top: 1px solid #aaa|1=[[wikipedia:Beeswax|Wikipedia article]]}}
 {{infoend}}
 
@@ -27,12 +25,7 @@ Wax has a low base value of 1, the same as [[wood]] or non-flux [[stone]].
 
 [[File:beeswax_bars.jpg|thumb|230px|center|Bars of beeswax.]]
 
-{{Translation
-| dwarven = rithlut
-| elvish  = imepe
-| goblin  = tungû
-| human   = ganuh
-}}
+{{Translation| dwarven = rithlut| elvish  = imepe| goblin  = tungû| human   = ganuh}}
 
 {{gamedata|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|WAX_TEMPLATE}}}}
 {{materials}}

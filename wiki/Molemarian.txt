@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=molemarian_sprites.png
-|portrait=molemarian_portrait.png
-|wiki=no
-|contrib=no
-|meat=19
-|bone=21
-|fat=19
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=1
-|heart=1
-|lung=2
-|skull=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=molemarian_sprites.png|portrait=molemarian_portrait.png|wiki=no|contrib=no|meat=19|bone=21|fat=19|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=1|heart=1|lung=2|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

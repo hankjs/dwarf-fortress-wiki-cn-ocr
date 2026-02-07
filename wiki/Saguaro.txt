@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Treelookup/0
-|graphic=saguaro_trunk_sprite.png
-|product=saguaro_sprite.png
-|sapling=saguaro_sapling.png}}
+{{Treelookup/0|graphic=saguaro_trunk_sprite.png|product=saguaro_sprite.png|sapling=saguaro_sapling.png}}
 {{av}}
 
 '''Saguaros''' are a type of [[above ground]] [[tree]]. They are a cactus, and grow in [[desert]]s. Like the overwhelming majority of overland trees, saguaro rib [[carpenter|wood]] logs are brown and produce brown products.

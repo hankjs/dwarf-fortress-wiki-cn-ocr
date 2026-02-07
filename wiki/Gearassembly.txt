@@ -1,14 +1,9 @@
 {{Quality|Exceptional}}
 {{av}}
 
-{{V50 machine|name=Gear assembly|key=g
-|icon=[[File:gear_assembly_icon.png]]
-|construction=
-* [[Mechanism]]
-|construction_job=
-* [[Mechanic]]s
-|power=Needs 5 power.
-}}
+{{V50 machine|name=Gear assembly|key=g|icon=[[File:gear_assembly_icon.png]]|construction=
+* [[Mechanism]]|construction_job=
+* [[Mechanic]]s|power=Needs 5 power.}}
 
 A '''gear assembly''' is a [[machine component]] that is used to transmit [[power]] from one adjacent machine component to another, such as [[water wheel]]s, [[windmill]]s, [[axle]]s, [[screw pump]]s, [[millstone]]s and other gear assemblies. Gear assemblies are required to change the direction of power flow, whether a horizontal '''x'''- and '''y'''-axis change on the same [[z-level]], or a change between vertical ('''z'''-axis) and horizontal (either '''x'''- ''or'' '''y'''-axis) to/from a different z-level – that is, any change of 90°.  A gear assembly is constructed from a single [[mechanism]].  A [[screw pump]] can be used to change the direction of power flow without using a mechanism (for instance when [[metal]] and [[stone]] are unavailable).
 

@@ -1,24 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=reacher_sprites.png
-|portrait=reacher_portrait.png
-|wiki=no
-|bone=18-22
-|meat=20-21
-|fat=16
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|contrib=no
-}}
+{{Creaturelookup/0|image=reacher_sprites.png|portrait=reacher_portrait.png|wiki=no|bone=18-22|meat=20-21|fat=16|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

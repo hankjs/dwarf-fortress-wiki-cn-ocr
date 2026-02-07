@@ -1,21 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_kangaroo_sprite.png
-|bone=22
-|meat=25-28
-|fat=16
-|lung=2
-|heart=1
-|intestine=3-4
-|liver=1
-|tripe=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_kangaroo_sprite.png|bone=22|meat=25-28|fat=16|lung=2|heart=1|intestine=3-4|liver=1|tripe=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

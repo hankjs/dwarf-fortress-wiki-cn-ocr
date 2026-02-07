@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=impala_man_sprite.png
-|portrait=impala_man_portrait.png}}
+{{Creaturelookup/0|image=impala_man_sprite.png|portrait=impala_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

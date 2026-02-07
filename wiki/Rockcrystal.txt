@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Gemlookup/0
-|graphic=cut_rock_crystal_sprite.png
-|graphic2=rough_rock_crystal_sprite.png
-|uses=* Make [[crystal glass]]}}
+{{Gemlookup/0|graphic=cut_rock_crystal_sprite.png|graphic2=rough_rock_crystal_sprite.png|uses=* Make [[crystal glass]]}}
 {{av}}
 
 '''Rock crystal''', one of many types of quartz crystals (SiO<sub>2</sub>), is a type of [[gem]]. When rough rock crystals are combined with [[pearlash]] at a [[glass furnace]], it can be used to make [[glass|crystal glass]] items.  Cut rock crystals can't be used for this purpose.

@@ -70,416 +70,64 @@ In a given embark tile biome, there are three wind-related variables tracked: Ea
 
 East-West Wind is primarily driven by the latitude of the embark tile biome, and is modeled loosely after [https://en.wikipedia.org/wiki/Atmospheric_circulation atmospheric circulation]. For a given world, one end (either top or bottom) is the "pole" and the other is the "equator". According to Toady One in a Future of the Fortress thread, "the directions alternate over the latitudes and depend on the pole settings, and yeah, a no-pole world is treated like a N+S pole world". The following table gives the base East-West Wind value for a given latitude, by counting tiles from the pole-most tile.[http://www.bay12forums.com/smf/index.php?topic=131675.msg4656098#msg4656098]
 
-{| border="1" cellspacing="0" cellpadding="5" style="text-align:center;"
-|-
+{| border="1" cellspacing="0" cellpadding="5" style="text-align:center;"|-
 ! Cell
 !width="80"| Pocket
 !width="80"| Smaller
 !width="80"| Small
 !width="80"| Medium
 !width="80"| Large
-! Wind
-|-
-! Polar
-| 0
-| 0 thru 1
-| 0 thru 3
-| 0 thru 7
-| 0 thru 15
-| -15
-|-
-! Polar
-| 1
-| 2 thru 3
-| 4 thru 7
-| 8 thru 13
-| 16 thru 27
-| -14
-|-
-! Polar
-| 2
-| 4
-| 7 thru 9
-| 14 thru 19
-| 28 thru 38
-| -13
-|-
-! Polar
-| -
-| 5
-| 10 thru 11
-| 20 thru 22
-| 39 thru 45
-| -12
-|-
-! Polar
-| 3
-| 6
-| 12
-| 23 thru 25
-| 46 thru 50
-| -11
-|-
-! Ferrel
-| -
-| -
-| 13
-| 26
-| 51 thru 52
-| +11
-|-
-! Ferrel
-| -
-| -
-| -
-| 27
-| 53 thru 54
-| +12
-|-
-! Ferrel
-| -
-| 7
-| 14
-| 28
-| 55 thru 56
-| +13
-|-
-! Ferrel
-| -
-| -
-| -
-| 29
-| 57 thru 59
-| +14
-|-
-! Ferrel
-| -
-| -
-| 15
-| 30 thru 31
-| 60 thru 62
-| +15
-|-
-! Ferrel
-| 4
-| 8
-| 16
-| 32
-| 63 thru 65
-| +16
-|-
-! Ferrel
-| -
-| -
-| 17
-| 33 thru 34
-| 66 thru 69
-| +17
-|-
-! Ferrel
-| -
-| 9
-| 18
-| 35 thru 36
-| 70 thru 73
-| +18
-|-
-! Ferrel
-| -
-| - 
-| 19
-| 37 thru 38
-| 74 thru 77
-| +19
-|-
-! Ferrel
-| 5
-| 10
-| 20
-| 39 thru 41
-| 78 thru 82
-| +20
-|-
-! Ferrel
-| -
-| -
-| 21
-| 42 thru 43
-| 83 thru 87
-| +21
-|-
-! Ferrel
-| -
-| 11
-| 22 thru 23
-| 44 thru 46
-| 88 thru 92
-| +22
-|-
-! Ferrel
-| 6
-| 12
-| 24
-| 47 thru 49
-| 93 thru 98
-| +23
-|-
-! Ferrel
-| -
-| 13 thru 13
-| 25 thru 26
-| 50 thru 52
-| 99 thru 104
-| +24
-|-
-! Ferrel
-| 7
-| 14
-| 27 thru 29
-| 53 thru 58
-| 105 thru 116
-| +25
-|-
-! Ferrel
-| -
-| 15
-| 30
-| 59 thru 61
-| 117 thru 122
-| +24
-|-
-! Ferrel
-| 8
-| 16
-| 31 thru 32
-| 62 thru 64
-| 123 thru 128
-| +23
-|-
-! Ferrel
-| -
-| -
-| 33
-| 65 thru 66
-| 129 thru 133
-| +22
-|-
-! Ferrel
-| -
-| 17
-| 34
-| 67 thru 69
-| 134 thru 138
-| +21
-|-
-! Ferrel
-| -
-| -
-| 35
-| 70 thru 71
-| 139 thru 143
-| +20
-|-
-! Ferrel
-| 9
-| 18
-| 36
-| 72 thru 73
-| 144 thru 147
-| +19
-|-
-! Ferrel
-| -
-| -
-| 37
-| 74 thru 75
-| 148 thru 151
-| +18
-|-
-! Ferrel
-| -
-| 19
-| 38
-| 77
-| 152 thru 155
-| +17
-|-
-! Ferrel
-| -
-| -
-| 39
-| 78 thru 79
-| 156 thru 158
-| +16
-|-
-! Ferrel
-| 10
-| 20
-| 40
-| 80
-| 159 thru 161
-| +15
-|-
-! Ferrel
-| -
-| -
-| 41
-| 81 thru 82
-| 162 thru 164
-| +14
-|-
-! Ferrel
-| -
-| -
-| -
-| 83
-| 165 thru 166
-| +13
-|-
-! Ferrel
-| -
-| 21
-| 42
-| 84
-| 167 thru 168
-| +12
-|-
-! Ferrel
-| -
-| -
-| -
-| 85
-| 169 thru 170
-| +11
-|-
-! Hadley
-| -
-| -
-| 43
-| 86
-| 171 thru 172
-| -13
-|-
-! Hadley
-| -
-| -
-| -
-| 87
-| 173 thru 175
-| -14
-|-
-! Hadley
-| 11
-| 22
-| 44
-| 88 thru 89
-| 176 thru 178
-| -15
-|-
-! Hadley
-| -
-| -
-| 45
-| 90
-| 179 thru 181
-| -16
-|-
-! Hadley
-| -
-| 23
-| 46
-| 91 thru 92
-| 182 thru 184
-| -17
-|-
-! Hadley
-| -
-| -
-| 47
-| 93 thru 94
-| 185 thru 188
-| -18
-|-
-! Hadley
-| 12
-| 24
-| 48
-| 95 thru 96
-| 189 thru 192
-| -19
-|-
-! Hadley
-| -
-| -
-| 49
-| 97 thru 99
-| 193 thru 198
-| -20
-|-
-! Hadley
-| -
-| 25
-| 50
-| 100 thru 101
-| 199 thru 202
-| -19
-|-
-! Hadley
-| -
-| -
-| 51
-| 102 thru 103
-| 203 thru 206
-| -18
-|-
-! Hadley
-| 13
-| 26
-| 52
-| 104
-| 207 thru 209
-| -17
-|-
-! Hadley
-| -
-| -
-| 53
-| 105 thru 106
-| 210 thru 212
-| -16
-|-
-! Hadley
-| -
-| -
-| -
-| 107
-| 213 thru 215
-| -15
-|-
-! Hadley
-| -
-| 27
-| 54
-| 108 thru 109
-| 216 thru 218
-| -14
-|-
-! Hadley
-| -
-| -
-| 55
-| 110
-| 219 thru 220
-| -13
-|-
-! Hadley
-| 14 thru 16
-| 28 thru 32
-| 56 thru 64
-| 111 thru 128
-| 221 thru 256
-| 0
-|}
+! Wind|-
+! Polar| 0| 0 thru 1| 0 thru 3| 0 thru 7| 0 thru 15| -15|-
+! Polar| 1| 2 thru 3| 4 thru 7| 8 thru 13| 16 thru 27| -14|-
+! Polar| 2| 4| 7 thru 9| 14 thru 19| 28 thru 38| -13|-
+! Polar| -| 5| 10 thru 11| 20 thru 22| 39 thru 45| -12|-
+! Polar| 3| 6| 12| 23 thru 25| 46 thru 50| -11|-
+! Ferrel| -| -| 13| 26| 51 thru 52| +11|-
+! Ferrel| -| -| -| 27| 53 thru 54| +12|-
+! Ferrel| -| 7| 14| 28| 55 thru 56| +13|-
+! Ferrel| -| -| -| 29| 57 thru 59| +14|-
+! Ferrel| -| -| 15| 30 thru 31| 60 thru 62| +15|-
+! Ferrel| 4| 8| 16| 32| 63 thru 65| +16|-
+! Ferrel| -| -| 17| 33 thru 34| 66 thru 69| +17|-
+! Ferrel| -| 9| 18| 35 thru 36| 70 thru 73| +18|-
+! Ferrel| -| - | 19| 37 thru 38| 74 thru 77| +19|-
+! Ferrel| 5| 10| 20| 39 thru 41| 78 thru 82| +20|-
+! Ferrel| -| -| 21| 42 thru 43| 83 thru 87| +21|-
+! Ferrel| -| 11| 22 thru 23| 44 thru 46| 88 thru 92| +22|-
+! Ferrel| 6| 12| 24| 47 thru 49| 93 thru 98| +23|-
+! Ferrel| -| 13 thru 13| 25 thru 26| 50 thru 52| 99 thru 104| +24|-
+! Ferrel| 7| 14| 27 thru 29| 53 thru 58| 105 thru 116| +25|-
+! Ferrel| -| 15| 30| 59 thru 61| 117 thru 122| +24|-
+! Ferrel| 8| 16| 31 thru 32| 62 thru 64| 123 thru 128| +23|-
+! Ferrel| -| -| 33| 65 thru 66| 129 thru 133| +22|-
+! Ferrel| -| 17| 34| 67 thru 69| 134 thru 138| +21|-
+! Ferrel| -| -| 35| 70 thru 71| 139 thru 143| +20|-
+! Ferrel| 9| 18| 36| 72 thru 73| 144 thru 147| +19|-
+! Ferrel| -| -| 37| 74 thru 75| 148 thru 151| +18|-
+! Ferrel| -| 19| 38| 77| 152 thru 155| +17|-
+! Ferrel| -| -| 39| 78 thru 79| 156 thru 158| +16|-
+! Ferrel| 10| 20| 40| 80| 159 thru 161| +15|-
+! Ferrel| -| -| 41| 81 thru 82| 162 thru 164| +14|-
+! Ferrel| -| -| -| 83| 165 thru 166| +13|-
+! Ferrel| -| 21| 42| 84| 167 thru 168| +12|-
+! Ferrel| -| -| -| 85| 169 thru 170| +11|-
+! Hadley| -| -| 43| 86| 171 thru 172| -13|-
+! Hadley| -| -| -| 87| 173 thru 175| -14|-
+! Hadley| 11| 22| 44| 88 thru 89| 176 thru 178| -15|-
+! Hadley| -| -| 45| 90| 179 thru 181| -16|-
+! Hadley| -| 23| 46| 91 thru 92| 182 thru 184| -17|-
+! Hadley| -| -| 47| 93 thru 94| 185 thru 188| -18|-
+! Hadley| 12| 24| 48| 95 thru 96| 189 thru 192| -19|-
+! Hadley| -| -| 49| 97 thru 99| 193 thru 198| -20|-
+! Hadley| -| 25| 50| 100 thru 101| 199 thru 202| -19|-
+! Hadley| -| -| 51| 102 thru 103| 203 thru 206| -18|-
+! Hadley| 13| 26| 52| 104| 207 thru 209| -17|-
+! Hadley| -| -| 53| 105 thru 106| 210 thru 212| -16|-
+! Hadley| -| -| -| 107| 213 thru 215| -15|-
+! Hadley| -| 27| 54| 108 thru 109| 216 thru 218| -14|-
+! Hadley| -| -| 55| 110| 219 thru 220| -13|-
+! Hadley| 14 thru 16| 28 thru 32| 56 thru 64| 111 thru 128| 221 thru 256| 0|}
 Note: negative values indicate east-to-west winds, while positive values indicate west-to-east winds.
 
 In addition to east-west wind from latitude, certain parts of the world experience "mountain/valley winds and sea breezes"[http://www.bay12forums.com/smf/index.php?topic=35139.msg547880#msg547880]. Such locations will receive additional wind each morning (corresponding to between 3:00 AM and 7:00 AM, and between 6:00 AM and 9:00 AM) and each afternoon (both corresponding to between 3:00 PM and 6:00 PM). A gust of wind affects both the east-west and north-south wind speeds, adding or subtracting 10 from each. The afternoon gust is always the opposite of the morning gust, so if the morning gust was +10 east-west and -10 north-south, the afternoon gust will be -10 east-west and +10 north-south.
@@ -547,147 +195,30 @@ Theoretically, this may be made by modding interactions, but wasn't verified by 
 In adventure mode, factors such as the weather, moon phase, wind speed, wind direction, and status of the sun's position and fog levels are displayed in icons at the top right of the screen.
 
 {| class="wikitable" style="width:;"
-! colspan="2"| Weather
-|-
+! colspan="2"| Weather|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_snow.png]]
-| It is currently snowing.
-|-
-|[[File:adv_weather_rain.png]]
-| It is currently raining.
-|-
-|[[File:adv_weather_blood.png]]
-| It is currently raining blood. Naturally occurs in evil biomes.
-|-
-|[[File:adv_weather_weird.png]]
-| It is currently raining a strange substance.
-|-
-|-
-! colspan="2" | Light
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_snow.png]]| It is currently snowing.|-|[[File:adv_weather_rain.png]]| It is currently raining.|-|[[File:adv_weather_blood.png]]| It is currently raining blood. Naturally occurs in evil biomes.|-|[[File:adv_weather_weird.png]]| It is currently raining a strange substance.|-|-
+! colspan="2" | Light|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_light_inside_dawn.png]]
-| There is dawn light inside a structure.
-|-
-|[[File:adv_weather_light_inside_day.png]]
-| There is daylight inside a structure.
-|-
-|[[File:adv_weather_light_inside_dusk.png]]
-| There is dusk light inside a structure.
-|-
-|[[File:adv_weather_light_inside_night.png]]
-| There is no outside light inside a structure, as it's night time.
-|-
-|[[File:adv_weather_light_inside_eerie.png]]
-| There is an eerie ambience about.
-|-
-! colspan="2" | Clouds
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_light_inside_dawn.png]]| There is dawn light inside a structure.|-|[[File:adv_weather_light_inside_day.png]]| There is daylight inside a structure.|-|[[File:adv_weather_light_inside_dusk.png]]| There is dusk light inside a structure.|-|[[File:adv_weather_light_inside_night.png]]| There is no outside light inside a structure, as it's night time.|-|[[File:adv_weather_light_inside_eerie.png]]| There is an eerie ambience about.|-
+! colspan="2" | Clouds|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_cumulus_light.png]]
-| There are bright cumulus clouds overhead.
-|-
-|[[File:adv_weather_cumulus_dark.png]]
-| There are dark cumulus clouds overhead.
-|-
-|[[File:adv_weather_stratus_light.png]]
-| There are bright stratocumulus clouds overhead.
-|-
-|[[File:adv_weather_stratus_dark.png]]
-| There are dark stratocumulus clouds overhead.
-|-
-|[[File:adv_weather_cirrus.png]]
-| There are cirrus clouds overhead.
-|-
-|[[File:adv_weather_cumulus_puffs.png]]
-| There are puffs of cumulus clouds overhead.
-|-
-! colspan="2" | Fog
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_cumulus_light.png]]| There are bright cumulus clouds overhead.|-|[[File:adv_weather_cumulus_dark.png]]| There are dark cumulus clouds overhead.|-|[[File:adv_weather_stratus_light.png]]| There are bright stratocumulus clouds overhead.|-|[[File:adv_weather_stratus_dark.png]]| There are dark stratocumulus clouds overhead.|-|[[File:adv_weather_cirrus.png]]| There are cirrus clouds overhead.|-|[[File:adv_weather_cumulus_puffs.png]]| There are puffs of cumulus clouds overhead.|-
+! colspan="2" | Fog|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_heavy_mist.png]]
-| There is a light mist.
-|-
-|[[File:adv_weather_heavy_normal.png]]
-| There is a standard amount of fog.
-|-
-|[[File:adv_weather_heavy_fog.png]]
-| There is heavy fog.
-|-
-|[[File:adv_weather_eerie.png]]
-| There is fog from an eerie glowing pit.
-|-
-! colspan="2" | Wind
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_heavy_mist.png]]| There is a light mist.|-|[[File:adv_weather_heavy_normal.png]]| There is a standard amount of fog.|-|[[File:adv_weather_heavy_fog.png]]| There is heavy fog.|-|[[File:adv_weather_eerie.png]]| There is fog from an eerie glowing pit.|-
+! colspan="2" | Wind|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_wind_anim.gif]]
-| The different levels of how powerful the wind is.
-|-
-|[[File:adv_weather_winddir_anim.gif]]
-| The direction of the wind, the arrows appear on top of the above wind icons.
-|-
-! colspan="2" | Sun
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_wind_anim.gif]]| The different levels of how powerful the wind is.|-|[[File:adv_weather_winddir_anim.gif]]| The direction of the wind, the arrows appear on top of the above wind icons.|-
+! colspan="2" | Sun|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_sun_anim.gif]]
-| The status of the sun in the sky, between dawn and dusk.
-|-
-! colspan="2" | Moonlight
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_sun_anim.gif]]| The status of the sun in the sky, between dawn and dusk.|-
+! colspan="2" | Moonlight|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_weather_moon_dark.png]]
-| The moon appears dark in the night sky.
-|-
-|[[File:adv_weather_moon_mid.png]]
-| The moon appears somewhat bright in the night sky.
-|-
-|[[File:adv_weather_moon_light.png]]
-| The moon appears bright in the night sky.
-|-
-! colspan="2" | Moon phases
-|-
+! style="background:#c4c4c4;" | Description|-|[[File:adv_weather_moon_dark.png]]| The moon appears dark in the night sky.|-|[[File:adv_weather_moon_mid.png]]| The moon appears somewhat bright in the night sky.|-|[[File:adv_weather_moon_light.png]]| The moon appears bright in the night sky.|-
+! colspan="2" | Moon phases|-
 ! style="background:#c4c4c4;" | Icon
-! style="background:#c4c4c4;" | Description
-|-
-|[[File:adv_moon_wax_crescent.png]]
-| Waxing crescent
-|-
-|[[File:adv_moon_half_wax.png]]
-| Half crescent
-|-
-|[[File:adv_moon_gibbous_wax.png]]
-| Waxing gibbous
-|-
-|[[File:adv_moon_full.png]]
-| Full moon. When a cursed creature changes to a [[werebeast]].
-|-
-|[[File:adv_moon_gibbous_wane.png]]
-| Waning gibbous
-|-
-|[[File:adv_moon_half_gibbous.png]]
-| Half gibbous
-|-
-|[[File:adv_moon_crescent_wane.png]]
-| Half gibbous
-|-
-|[[File:adv_moon_none.png]]
-| Clear, starry night sky
-|-
-|}
+! style="background:#c4c4c4;" | Description|-|[[File:adv_moon_wax_crescent.png]]| Waxing crescent|-|[[File:adv_moon_half_wax.png]]| Half crescent|-|[[File:adv_moon_gibbous_wax.png]]| Waxing gibbous|-|[[File:adv_moon_full.png]]| Full moon. When a cursed creature changes to a [[werebeast]].|-|[[File:adv_moon_gibbous_wane.png]]| Waning gibbous|-|[[File:adv_moon_half_gibbous.png]]| Half gibbous|-|[[File:adv_moon_crescent_wane.png]]| Half gibbous|-|[[File:adv_moon_none.png]]| Clear, starry night sky|-|}
 
 == Bugs ==
 *Different biomes can exist in layers above the surface. This can lead to odd behavior like evil rain above a "good" biome.{{bug|8781}}
@@ -697,12 +228,7 @@ In adventure mode, factors such as the weather, moon phase, wind speed, wind dir
 [[Humans]] have attempted to predict the weather from time to time, to unusually bad results. Dwarven [[scholars]] absentmindedly noted that they could do it better, which caused a war from the completely unrelated cause of sock-making procedures. Dwarves ''would'' probably still do it better though, that is, if it rains tonight.
 
 
-{{Translation
-| dwarven = nugreth
-| elvish  = dafo
-| goblin  = strobnod
-| human   = señam
-}}
+{{Translation| dwarven = nugreth| elvish  = dafo| goblin  = strobnod| human   = señam}}
 
 {{Category|World}}
 [[ru:Weather]]

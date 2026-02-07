@@ -185,8 +185,7 @@ One curious property of Dwarven physics is that a bar of metal makes 25 bolts, b
   ∙+∙[#F00]g∙[#0A0]┼∙+++++++++++++[#BBB]╬[#FF0]@
   ∙+∙∙∙[#0A0]┼∙+++++++++++++[#BBB]╬[#BBB]╬
   ∙+++++∙+++++++++
-  ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙
-}}
+  ∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙}}
   
 
 The yellow @ at the right is a stack of marksdwarves (all in different squads so that they'll stand on the same tile) equipped with [[adamantine]] (or [[Divine metal]] if you don't have it; or [[Steel]] if you have neither) bolts, standing on top of a stairway surrounded by [[fortification]]s. The blue ☻ at the left is a single [[Attributes#Agility|Perfectly Agile]] soldier with orders to patrol up and down the line of green doors, with little delays at the top and bottom. (The doors are free-standing; they were built attached to a wall, then the wall was removed.) The "g" at the left is a goblin standing on a pillar (pitted from the z-level above).
@@ -638,8 +637,7 @@ O[#6ff]╞[#6ff]═[#6ff]╡O
 [#6ff]╥XXX[#6ff]╥
 [#6ff]║XXX[#6ff]║
 [#6ff]╨XXX[#6ff]╨
-O[#6ff]╞[#6ff]═[#6ff]╡O
-}}
+O[#6ff]╞[#6ff]═[#6ff]╡O}}
 
 
 '''Difficulty:''' Medium to High, depending on whether you use the MegaDwarfBonus below or not and how much you spread your fortress over the layers - although more spread means more usefulness. Extremely time-consuming, and requires architects, masons, and mechanics, as well as a lot of mechanisms (2 per bridge, ~4 bridges per level)

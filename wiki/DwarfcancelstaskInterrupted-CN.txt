@@ -1,9 +1,0 @@
-{{Quality|Fine}}
-{{av}}
-
-{{DFtext|Dwarf cancels task: Interrupted.}}
-
-这意味着一个平民矮人看到了一个非友好的生物；无论该生物是否真的能够到达矮人都无关紧要。原因可能是任何东西，从[[horse|马]]或[[Hoary marmot|旱獭]]（基本上可以安全忽略），到[[kobold|狗头人]]小偷（通常无害，通常会逃跑），潜在危险的动物如[[cougar|美洲狮]]（派遣军队或猎人），再到[[goblin|地精]]伏击者（哦哦，坏消息）或[[40d:carp|鲤鱼]]（曾经是致命的）。
-{{Errors FAQ}}
-{{Category|Errors}}
-[[ru:Dwarf cancels task: Interrupted]]

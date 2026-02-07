@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{layerlookup/0
-|graphic=chalk_sprite.png}}
+{{layerlookup/0|graphic=chalk_sprite.png}}
 {{av}}
 
 '''Chalk''' is a [[flux]] [[stone]] found in the [[sedimentary layer]]. As such, it is worth twice as much as most other stones. 

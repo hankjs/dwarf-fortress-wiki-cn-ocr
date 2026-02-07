@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=swordfish_sprites.png
-|portrait=swordfish_portrait.png
-|contrib=no
-|skin=scale
-|bone=12
-|meat=21
-|skull=1
-|brain=1
-|kidney=2
-|sweetbread=1
-|tripe=1
-|spleen=1
-|liver=1
-|intestines=4
-|heart=1
-|eyes=2
-|fat=7
-|wiki=yes
-}}
+{{Creaturelookup/0|image=swordfish_sprites.png|portrait=swordfish_portrait.png|contrib=no|skin=scale|bone=12|meat=21|skull=1|brain=1|kidney=2|sweetbread=1|tripe=1|spleen=1|liver=1|intestines=4|heart=1|eyes=2|fat=7|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

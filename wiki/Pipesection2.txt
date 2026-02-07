@@ -3,19 +3,8 @@
 :''For information on magma pipes, see [[Magma#Magma_sources|magma pool]].''
 :''For tunnel tube trees, see [[Tunnel tube]].''
 
-{{v50_item | name=Pipe section
-|graphic=[[File:pipe_sprite_preview.png|35px]]
-|tile=&#124;
-|col=0:0:1
-|metal=y
-|bars=3
-|wood=y
-|glass=y
-|used for=
-* [[Screw pump]]s
-|value=10
-|size=30,000
-}}
+{{v50_item | name=Pipe section|graphic=[[File:pipe_sprite_preview.png|35px]]|tile=&#124;|col=0:0:1|metal=y|bars=3|wood=y|glass=y|used for=
+* [[Screw pump]]s|value=10|size=30,000}}
 
 '''Pipes''', or '''pipe sections''', are used as components in the construction of [[screw pump|screw pumps]]. You can't build pipes by themselves in the current version, nor connect them to form a conduit - to move [[water]] or [[magma]] from one place to another, see [[aqueduct]].
 

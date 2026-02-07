@@ -36,12 +36,7 @@ Natural [[cavern]] pools have floors covered with "a pile of mud", so make sub-o
 === A dusting of mud ===
 "A dusting of mud" is always displayed even when pumping clean water onto the floor. This water is completely sufficient to drink, and acts the same as clean water.
 [[File:mud2.jpg|thumb|312px|center|Not fit for wearing your best shoes.]]
-{{Translation
-| dwarven = ol
-| elvish  = salapa
-| goblin  = gob
-| human   = vum
-}}
+{{Translation| dwarven = ol| elvish  = salapa| goblin  = gob| human   = vum}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|MUD}}}}
 {{materials}}

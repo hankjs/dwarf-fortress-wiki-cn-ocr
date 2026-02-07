@@ -1,21 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=pond_grabber_sprites.png
-|portrait=pond_grabber_portrait.png
-|wiki=no
-|contrib=no
-|meat=5
-|fat=1
-|skin=hide
-|intestine=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-}}
+{{Creaturelookup/0|image=pond_grabber_sprites.png|portrait=pond_grabber_portrait.png|wiki=no|contrib=no|meat=5|fat=1|skin=hide|intestine=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|spleen=1}}
 {{av}}
 {{creaturedesc}}
 

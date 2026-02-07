@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=oriole_sprite.png
-|portrait=oriole_portrait.png}}
+{{verminlookup/0|image=oriole_sprite.png|portrait=oriole_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

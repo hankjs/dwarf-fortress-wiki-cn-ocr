@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=ettin_sprites.png
-|portrait=ettin_portrait.png
-|death=nobutcher
-|contrib=no
-|wiki=Ettin (Dungeons & Dragons)
-}}
+{{Creaturelookup/0|image=ettin_sprites.png|portrait=ettin_portrait.png|death=nobutcher|contrib=no|wiki=Ettin (Dungeons & Dragons)}}
 {{av}}
 {{creaturedesc}}
 

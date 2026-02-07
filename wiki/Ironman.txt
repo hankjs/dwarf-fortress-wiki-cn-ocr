@@ -1,12 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=iron_man_sprite.png
-|portrait=iron_man_portrait.png
-|vary=no
-|contrib=no
-|death=item
-|item=☼[[iron]] [[statue]]☼ (worth 530☼)
-}}
+{{Creaturelookup/0|image=iron_man_sprite.png|portrait=iron_man_portrait.png|vary=no|contrib=no|death=item|item=☼[[iron]] [[statue]]☼ (worth 530☼)}}
 {{av}}
 {{creaturedesc}}
 

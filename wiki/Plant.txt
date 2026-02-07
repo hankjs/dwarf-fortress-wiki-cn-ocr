@@ -37,12 +37,7 @@ Some examples:
 * [[Pecan]] nuts
 * [[String bean]] pods
 
-{{Translation
-| dwarven = erok
-| elvish  = mana
-| goblin  = tusnas
-| human   = ona
-}}
+{{Translation| dwarven = erok| elvish  = mana| goblin  = tusnas| human   = ona}}
 
 {{materials}}
 {{Plants}}

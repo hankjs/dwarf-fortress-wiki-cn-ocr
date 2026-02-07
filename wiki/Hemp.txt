@@ -1,13 +1,8 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=hemp_shrub_sprite.png
-|seedimage=hemp_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=hemp_shrub_sprite.png|seedimage=hemp_seeds_sprite.png|uses=
 * [[Flour]]
 * [[Oil]]
-* [[Thread]]
-|wiki=cannabis sativa
-}}
+* [[Thread]]|wiki=cannabis sativa}}
 {{av}}
 
 '''Hemp''' is a highly versatile [[aboveground]] [[crop]] that supports the [[food]], [[textile industry|textile]], [[paper industry|paper]] and [[soap]] industries. The plants can be [[plant processing|processed]] at a [[farmer's workshop]] to produce hemp plant fiber [[thread]], and can also be [[millstone|milled]] into [[flour]] or [[slurry]], the latter of which can be [[screw press|pressed]] into [[sheet]]s.

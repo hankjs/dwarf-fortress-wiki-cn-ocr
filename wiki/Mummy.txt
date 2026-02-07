@@ -19,9 +19,7 @@ Occasionally in world gen, mummies will be disturbed by AI adventurers and event
 Because the syndrome's effect multiplies rolls by zero, the blessing effect from [[die|divinations]] is negated.
 
 {| {{listboxformat|class=gamedata}}
-!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)
-|- style="text-align: left; display:table-cell; "
-| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-size: 14px; font-family: monospace; white-space:pre;">
+!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | Example raws (as extracted from world.dat)|- style="text-align: left; display:table-cell; "| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-size: 14px; font-family: monospace; white-space:pre;">
 
 [INTERACTION:DISTURBANCE_1]
 
@@ -163,9 +161,7 @@ Because the syndrome's effect multiplies rolls by zero, the blessing effect from
 			[CDI:TARGET_VERB:feel dizzy:looks dizzy]
 			[CDI:MAX_TARGET_NUMBER:A:1]
 			[CDI:WAIT_PERIOD:50]
-
-|-
-|}
+|-|}
 
 {{Creatures}}
 {{category|humanoids}}

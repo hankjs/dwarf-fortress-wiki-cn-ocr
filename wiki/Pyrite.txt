@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_pyrite_sprite.png
-|graphic2=rough_pyrite_sprite.png}}
+{{gemlookup/0|graphic=cut_pyrite_sprite.png|graphic2=rough_pyrite_sprite.png}}
 {{av}}
 
 '''Pyrites''' are unremarkable low-value [[gem]]s that can be found just about anywhere. In real life, it's most commonly known as fool's gold.

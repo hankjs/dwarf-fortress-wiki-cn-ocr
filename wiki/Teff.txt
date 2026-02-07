@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=teff_shrub_sprite.png
-|seedimage=teff_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=teff_shrub_sprite.png|seedimage=teff_seeds_sprite.png|uses=
 *[[Alcohol]]
-*[[Flour]]
-}}
+*[[Flour]]}}
 {{av}}
 
 '''Teff''' is an [[aboveground]] [[crop]] that can either be [[milling|milled]] into [[flour|teff flour]] or [[brewing|brewed]] into [[alcohol|teff beer]].

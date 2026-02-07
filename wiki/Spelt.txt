@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=generic_wheat_shrub_sprite.png
-|seedimage=generic_wheat_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=generic_wheat_shrub_sprite.png|seedimage=generic_wheat_seeds_sprite.png|uses=
 * [[Alcohol]]
-* [[Flour]]
-}}
+* [[Flour]]}}
 {{av}}
 
 '''Spelt''' is an [[aboveground]] [[crop]]. It can either be [[milling|milled]] into [[flour|spelt flour]] or [[brewing|brewed]] into [[alcohol|spelt beer]].

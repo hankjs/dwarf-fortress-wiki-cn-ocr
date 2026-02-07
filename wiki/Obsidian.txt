@@ -1,9 +1,6 @@
 {{Quality|Superior}}
-{{Stonelookup/0
-|graphic=obsidian_sprite.png
-|uses=
-* [[Short sword|Sharp blades]]
-|properties=
+{{Stonelookup/0|graphic=obsidian_sprite.png|uses=
+* [[Short sword|Sharp blades]]|properties=
 * [[Igneous extrusive layer]]
 * [[Material value]] 3☼
 * [[Material science|Impact strength]] 1000 MPa

@@ -1,9 +1,6 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
-* [[Dye]]
-|graphic=blade_weed_shrub_sprite.png
-|seedimage=blade_weed_seeds_sprite.png
-|wiki=no}}
+* [[Dye]]|graphic=blade_weed_shrub_sprite.png|seedimage=blade_weed_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''Blade weed''' is a [[plant]] used only to make emerald [[dye]] at a [[millstone|mill]] or [[quern]].  They can be planted outdoors any time of year and can be collected by [[Herbalist|gathering plants]] in any dry, [[Temperature|non-freezing]] [[biome]].

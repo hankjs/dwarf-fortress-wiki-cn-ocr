@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=magma_man_sprite.png
-|portrait=magma_man_portrait.png
-|vary=no
-|contrib=no
-|wiki=no
-|death=item
-|item=[[Obsidian]] stone
-}}
+{{Creaturelookup/0|image=magma_man_sprite.png|portrait=magma_man_portrait.png|vary=no|contrib=no|wiki=no|death=item|item=[[Obsidian]] stone}}
 {{av}}
 {{creaturedesc}}
 '''Magma men''' are dangerous and exceptionally rare inorganic [[construct creature]]s who inhabit the [[magma sea]]. They are composed of an inner liquid [[basalt]] core (which is to say, [[magma]]) and an outer, solid [[obsidian]] layer. As a result, they are much more durable than [[fire imp]]s and especially [[Fire man|fire men]] and their natural attacks are dangerous. They do not breathe [[fire]] or magma in any form, though. Like other inorganic construct creatures, magma men feel no emotion or [[No Exert|exertion]], are [[No Pain|immune to pain]] and [[No Stun|cannot be stunned]]. They are as large as [[human]]s and are immortal, only dying to violence.

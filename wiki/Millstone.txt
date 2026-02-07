@@ -1,13 +1,9 @@
 {{Quality|Exceptional}}
-{{V50 machine|name=Millstone|key=n|job=[[Miller|Milling]]
-|icon=[[File:millstone_icon.png]]
-
+{{V50 machine|name=Millstone|key=n|job=[[Miller|Milling]]|icon=[[File:millstone_icon.png]]
 |construction=
 * [[Furniture|Millstone]]
-* [[Mechanism]]
-|construction_job=
-* [[Mechanic]]
-|use=
+* [[Mechanism]]|construction_job=
+* [[Mechanic]]|use=
 * [[Blade weed]]
 * [[Cave wheat]]
 * [[Dimple cup]]
@@ -18,8 +14,7 @@
 * [[Sweet pod]]
 * [[Whip vine]]
 * An empty [[bag]]
-* Cloth [[plant]]s
-|production=
+* Cloth [[plant]]s|production=
 * [[Emerald dye]]
 * [[Flour|Dwarven wheat flour]]
 * [[Dimple dye]]
@@ -29,9 +24,7 @@
 * [[Sliver dye]]
 * [[Dwarven sugar]]
 * [[Whip vine flour]]
-* [[Slurry]]
-|power=Needs 10 power.
-}}{{av}}
+* [[Slurry]]|power=Needs 10 power.}}{{av}}
 
 A '''millstone''' is used to grind up certain [[plants]] to make [[sugar]], [[flour]], [[dye]], and [[slurry]]. Each [[milling]] job requires an empty [[bag]]. To operate, it needs to be connected to a mechanical [[power]] source such as a [[water wheel]] or [[windmill]] that supplies it with 10 power units. If none is available, a [[quern]] can be used instead, although millstones process plants much faster than querns. Before they can be placed as a building, you must first construct the millstone at a [[Stoneworker's workshop]].
 
@@ -46,34 +39,7 @@ Since [[Release information/52.03|52.03]] millstones can specify plants for mill
 ==An example setup==
 As it is most efficient to set up workshops near their material sources, usually by putting stockpiles next to them, it's common for millstones to be set up near farm plots.  Putting a millstone just under the surface lets it be powered by a windmill on the surface, like so:
 
-::{|style="border: 1px solid #0b0; background: #dfd"
-|+'''Side view'''
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="color: #970; padding: 0; text-decoration: underline"|-
-|style="color: #970; padding: 0; text-decoration: underline"|=
-|style="color: #970; padding: 0; text-decoration: underline"|-
-|&nbsp;
-|style="color: #970; padding: 0"|-
-|style="color: #970; padding: 0"|=
-|style="color: #970; padding: 0"|-
-|&nbsp;
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|style="text-decoration: underline"|&nbsp;
-|style="text-decoration: underline"|*
-|style="text-decoration: underline"|&nbsp;
-| 
-|style="text-decoration: underline"|&nbsp;
-|style="text-decoration: underline"|*
-|style="text-decoration: underline"|&nbsp;
-|- style="font-family: monospace; font-weight: bold; font-size: 135%"
-|
-|1
-| 
-| 
-| 
-|2
-| 
-|}
+::{|style="border: 1px solid #0b0; background: #dfd"|+'''Side view'''|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="color: #970; padding: 0; text-decoration: underline"|-|style="color: #970; padding: 0; text-decoration: underline"|=|style="color: #970; padding: 0; text-decoration: underline"|-|&nbsp;|style="color: #970; padding: 0"|-|style="color: #970; padding: 0"|=|style="color: #970; padding: 0"|-|&nbsp;|- style="font-family: monospace; font-weight: bold; font-size: 135%"|style="text-decoration: underline"|&nbsp;|style="text-decoration: underline"|*|style="text-decoration: underline"|&nbsp;| |style="text-decoration: underline"|&nbsp;|style="text-decoration: underline"|*|style="text-decoration: underline"|&nbsp;|- style="font-family: monospace; font-weight: bold; font-size: 135%"||1| | | |2| |}
 Note that version 1 only works if the windmill is built first, and version 2 only works if the millstone is built first.
 
 When building a vertically powered millstone, build the components from the bottom up. First place the millstone, then place the vertical axles above the millstone, then place the windmill last.
@@ -85,45 +51,14 @@ When building a vertically powered millstone, build the components from the bott
 
 Other millable plants are listed below.
 
-{| {{prettytable}}
-|- style="background:#ddd"
+{| {{prettytable}}|- style="background:#ddd"
 !Plant
 !Dye
 !colspan=2|Color
 !Crop type
-!Value
-|-
-|[[Dimple cup]]
-|Dimple Dye
-|Midnight Blue
-| bgcolor="#003366" | &nbsp;&nbsp;&nbsp;<!--0,51,102-->
-|Underground
-|20[[Currency|☼]]
-|-
-|[[Blade weed]]
-|Emerald Dye
-|Emerald
-| bgcolor="#50c878" | &nbsp;&nbsp;&nbsp;<!--80,200,120-->
-|Aboveground
-|20[[Currency|☼]]
-|-
-|[[Hide root]]
-|Redroot Dye
-|Red
-| bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp;
-|Aboveground
-|10[[Currency|☼]]
-|-
-|[[Sliver barb]]
-|Sliver Dye
-|Black
-| bgcolor="#000000" | &nbsp;&nbsp;&nbsp;
-|Aboveground
-|20[[Currency|☼]]
-|}
+!Value|-|[[Dimple cup]]|Dimple Dye|Midnight Blue| bgcolor="#003366" | &nbsp;&nbsp;&nbsp;<!--0,51,102-->|Underground|20[[Currency|☼]]|-|[[Blade weed]]|Emerald Dye|Emerald| bgcolor="#50c878" | &nbsp;&nbsp;&nbsp;<!--80,200,120-->|Aboveground|20[[Currency|☼]]|-|[[Hide root]]|Redroot Dye|Red| bgcolor="#ff0000" | &nbsp;&nbsp;&nbsp;|Aboveground|10[[Currency|☼]]|-|[[Sliver barb]]|Sliver Dye|Black| bgcolor="#000000" | &nbsp;&nbsp;&nbsp;|Aboveground|20[[Currency|☼]]|}
 
-{| class="wikitable sortable collapsible"
-|-
+{| class="wikitable sortable collapsible"|-
 ! Crop name
 ! 
 ! Crop value
@@ -156,8 +91,7 @@ Other millable plants are listed below.
 {{flour table row|name=Fonio|tile=τ|colour=2:0}}
 {{flour table row|name=Teff|tile=τ|colour=2:0}}
 {{flour table row|name=Flax|tile=τ|colour=2:0}}
-{{flour table row|name=Hemp|tile=τ|colour=2:0}}
-|}
+{{flour table row|name=Hemp|tile=τ|colour=2:0}}|}
 
 ==Bugs==
 * Dwarves will occasionally combine two separate mill products in the same bag.{{bug|4371}}

@@ -7,5 +7,4 @@ When adding creatures, please make sure that you:
 * keep "notes" short, and only include if they're distinctive
 * and use preview to make sure you got it all right!
 
-Thanks!
-}}
+Thanks!}}

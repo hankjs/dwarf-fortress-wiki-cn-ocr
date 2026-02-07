@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=damselfly_sprite.png
-|portrait=damselfly_portrait.png}}
+{{verminlookup/0|image=damselfly_sprite.png|portrait=damselfly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

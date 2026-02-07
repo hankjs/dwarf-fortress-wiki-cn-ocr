@@ -1,11 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=reptile_man_sprite.png
-|portrait=reptile_man_portrait.png
-|vary=no
-|death=nobutcher
-|contrib=no
-}}
+{{Creaturelookup/0|image=reptile_man_sprite.png|portrait=reptile_man_portrait.png|vary=no|death=nobutcher|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

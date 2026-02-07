@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=carambola_trunk_sprite.png
-|sapling=rubber_sapling.png}}
+{{Treelookup/0|graphic=carambola_trunk_sprite.png|sapling=rubber_sapling.png}}
 {{av}}
 
 '''Rubber trees''' are a type of [[above ground]] [[tree]], found in [[tropical]] moist broadleaf [[forest|forests]]. Rubber [[carpenter|wood]] is brown (referred in the raws as "flax") and produces brown products. 

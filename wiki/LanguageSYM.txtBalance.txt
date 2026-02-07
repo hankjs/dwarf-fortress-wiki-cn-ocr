@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = neth
-| elvish  = rame
-| goblin  = olos
-| human   = zostra
-}}
+{{Translation| dwarven = neth| elvish  = rame| goblin  = olos| human   = zostra}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[sphere]] of balance will have words from this symbol in their name.

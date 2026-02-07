@@ -1,16 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=siamang_sprites.png
-|portrait=siamang_portrait_anim.gif
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=siamang_sprites.png|portrait=siamang_portrait_anim.gif|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

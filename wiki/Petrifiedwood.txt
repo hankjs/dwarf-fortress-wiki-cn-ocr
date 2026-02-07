@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=petrified_wood_sprite.png}}
+{{stonelookup/0|graphic=petrified_wood_sprite.png}}
 {{av}}
 
 '''Petrified wood''' is a brilliant red [[stone]] found in small clusters in sedimentary layers, which is [[magma-safe]]. Petrified wood is no longer [[wood]], but stone, so you cannot make [[wood]]en items from it. [[elf|Treehugger]]s will be perfectly happy to trade items made of it, as well. Petrified wood is notable for being the least [[density|dense]] [[economic stones|non-economic]] [[magma-safe]] stone.

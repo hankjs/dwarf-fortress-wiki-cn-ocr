@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = eknar
-| elvish  = nùmadu
-| goblin  = uzob
-| human   = setnu
-}}
+{{Translation| dwarven = eknar| elvish  = nùmadu| goblin  = uzob| human   = setnu}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[hydra]] or [[minotaur]], associated with the [[Sphere|spheres]] of blight, deformity, depravity, disease, muck, or nightmares will have words from this symbol in their name.

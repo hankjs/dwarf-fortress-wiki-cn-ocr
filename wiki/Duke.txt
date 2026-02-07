@@ -1,24 +1,10 @@
 {{Quality|Fine}}
-{{Noble
-| noble=Duke
-| quarters=Grand Bedroom
-| dining=Grand Dining Room
-| office=Opulent Throne Room
-| tomb=Grand Mausoleum
-| chests=5
-| cabinets=3
-| racks=3
-| stands=3
-| mandates=3
-| demands=5
-| arrival=
+{{Noble| noble=Duke| quarters=Grand Bedroom| dining=Grand Dining Room| office=Opulent Throne Room| tomb=Grand Mausoleum| chests=5| cabinets=3| racks=3| stands=3| mandates=3| demands=5| arrival=
 * 20 Population
 * 300 000☼ Produced [[wealth]]
-* 30 000☼ Exported [[wealth]]
-| function=
+* 30 000☼ Exported [[wealth]]| function=
 * Promote [[fortress]] to Duchy capital
-* Appoints a [[Champion]]
-}}{{av}}
+* Appoints a [[Champion]]}}{{av}}
 The '''Duke''' (or Duchess) is the next step up from a [[Count]].  Your county becomes a duchy after satisfying certain requirements and meeting with the [[liaison]]; once the liaison leaves the map, your [[Count]] will be promoted. As with the upgrade to a County, this is automatic and cannot be rejected.
 
 {{D for Dwarf}}

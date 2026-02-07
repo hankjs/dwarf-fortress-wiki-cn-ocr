@@ -31,80 +31,9 @@ Long before your seven dwarves [[embark]] on their adventure, non-player dwarves
 == Skills and workshops ==
 If struck by a Fey, Secretive or Possessed mood, the workshop and artifact will be based on the highest "moodable skill" that a dwarf possesses. Not all skills are moodable. Fell and Macabre moods will either claim a butcher's shop and use Bonecarving, or a tanner's shop and use Tanning (see [[Strange mood#Types of moods|Types of moods]], below).
 
-{| class="wikitable sortable" cellpadding="4" style="border:1px solid black;border-collapse:collapse;text-align:left;float:right;margin:0 0 20px 30px;vertical-align:top;"
-|- 
+{| class="wikitable sortable" cellpadding="4" style="border:1px solid black;border-collapse:collapse;text-align:left;float:right;margin:0 0 20px 30px;vertical-align:top;"|- 
 ! Highest skill
-! Workshop required
-|- style="background-color:palegreen"
-| [[Armorsmith]]
-| [[Metalsmith's forge]] (or [[Magma forge]])
-|-  style="background-color:palegreen"
-| [[Bone carver]]
-| [[Craftsdwarf's workshop]]
-|-  style="background-color:palegreen"
-| [[Bowyer]]
-| [[Bowyer's workshop]]
-|-  style="background-color:wheat"
-| [[Carpenter]]
-| [[Carpenter's workshop]]
-|-   style="background-color:palegreen"
-| [[Clothier]]
-| [[Clothier's shop]]
-|- style="background-color:lightgray"
-| [[Engraver]]
-| [[Craftsdwarf's workshop]]
-|- style="background-color:wheat"
-| [[Gem cutter]]
-| [[Jeweler's workshop]]
-|- style="background-color:wheat"
-| [[Gem setter]]
-| [[Jeweler's workshop]]
-|- style="background-color:wheat"
-| [[Glassmaker]]
-| [[Glass furnace]] (or [[Magma glass furnace]])
-|-   style="background-color:palegreen"
-| [[Leatherworker]]
-| [[Leather works]]
-|-  style="background-color:wheat"
-| [[Mason]]
-| [[Stoneworker's workshop]]
-|-   style="background-color:palegreen"
-| [[Mechanic]]
-| [[Mechanic's workshop]]
-|-  style="background-color:wheat"
-| [[Metal crafter]]
-| [[Metalsmith's forge]] (or [[Magma forge]])
-|-  style="background-color:wheat"
-| [[Blacksmith|Metalsmith]]
-| [[Metalsmith's forge]] (or [[Magma forge]])
-|-  style="background-color:wheat"
-| [[Miner]]
-| [[Stoneworker's workshop]]
-|- style="background-color:wheat"
-| [[Stone carver]]
-| [[Stoneworker's workshop]]
-|- style="background-color:lightgray"
-| [[Stone crafter]]
-| [[Craftsdwarf's workshop]]
-|- style="background-color:wheat"
-| [[Stonecutter]]
-| [[Stoneworker's workshop]]
-|-  style="background-color:wheat"
-| [[Tanner]]
-| [[Leather works]]
-|-   style="background-color:palegreen"
-| [[Weaponsmith]]
-| [[Metalsmith's forge]] (or [[Magma forge]])
-|- style="background-color:wheat"
-| [[Weaver]]
-| [[Clothier's shop]]
-|- style="background-color:lightgray"
-| [[Wood crafter]]
-| [[Craftsdwarf's workshop]]
-|- style="background-color:lightgray"
-| &lt;none&gt;
-| [[Craftsdwarf's workshop]]
-|}
+! Workshop required|- style="background-color:palegreen"| [[Armorsmith]]| [[Metalsmith's forge]] (or [[Magma forge]])|-  style="background-color:palegreen"| [[Bone carver]]| [[Craftsdwarf's workshop]]|-  style="background-color:palegreen"| [[Bowyer]]| [[Bowyer's workshop]]|-  style="background-color:wheat"| [[Carpenter]]| [[Carpenter's workshop]]|-   style="background-color:palegreen"| [[Clothier]]| [[Clothier's shop]]|- style="background-color:lightgray"| [[Engraver]]| [[Craftsdwarf's workshop]]|- style="background-color:wheat"| [[Gem cutter]]| [[Jeweler's workshop]]|- style="background-color:wheat"| [[Gem setter]]| [[Jeweler's workshop]]|- style="background-color:wheat"| [[Glassmaker]]| [[Glass furnace]] (or [[Magma glass furnace]])|-   style="background-color:palegreen"| [[Leatherworker]]| [[Leather works]]|-  style="background-color:wheat"| [[Mason]]| [[Stoneworker's workshop]]|-   style="background-color:palegreen"| [[Mechanic]]| [[Mechanic's workshop]]|-  style="background-color:wheat"| [[Metal crafter]]| [[Metalsmith's forge]] (or [[Magma forge]])|-  style="background-color:wheat"| [[Blacksmith|Metalsmith]]| [[Metalsmith's forge]] (or [[Magma forge]])|-  style="background-color:wheat"| [[Miner]]| [[Stoneworker's workshop]]|- style="background-color:wheat"| [[Stone carver]]| [[Stoneworker's workshop]]|- style="background-color:lightgray"| [[Stone crafter]]| [[Craftsdwarf's workshop]]|- style="background-color:wheat"| [[Stonecutter]]| [[Stoneworker's workshop]]|-  style="background-color:wheat"| [[Tanner]]| [[Leather works]]|-   style="background-color:palegreen"| [[Weaponsmith]]| [[Metalsmith's forge]] (or [[Magma forge]])|- style="background-color:wheat"| [[Weaver]]| [[Clothier's shop]]|- style="background-color:lightgray"| [[Wood crafter]]| [[Craftsdwarf's workshop]]|- style="background-color:lightgray"| &lt;none&gt;| [[Craftsdwarf's workshop]]|}
 
 A dwarf will claim a workshop according to their highest applicable [[skill]]. If not [[Strange mood#Possessed|possessed]], completion of the artifact grants 20,000 [[experience]] in that skill. This will transform a previously unskilled dwarf to one of Legendary status.  The table to the right describes all applicable skills and their potential workshop requirements – there are only 20 skills that determine the workshop and that can be affected by a mood (sometimes referred to as '''moodable''' skills.)  If a dwarf does not possess at least one of the moodable skills listed to the right, they will take over a [[craftsdwarf's workshop]] and gain one of [[bone carver]], [[stone crafter]], or [[wood crafter]] skills, producing an artifact [[craft]].
 
@@ -200,97 +129,12 @@ Also a moody dwarf can be assigned to an active burrow (and unassigned from all 
 
 The various demands are translated here:
 
-:{| class="wikitable" style="text-align:left;width:90%;"
-|-
+:{| class="wikitable" style="text-align:left;width:90%;"|-
 ! Material
 ! Fey
 ! Macabre
 ! Secretive
-! Possessed
-|-
-|
-| <dwarf> screams "I must have <demand>!"
-| <dwarf> broods "Yes. I need <demand>."
-| <dwarf> sketches pictures of <demand>.
-| <dwarf> mutters "<artifact> needs <demand>..."
-|-
-| [[Stone]]
-| colspan=2 | rock
-| a quarry
-| stone... rock
-|-
-| Stone/metal [[block]]s
-| colspan=2 | rock blocks
-| square blocks
-| blocks... bricks
-|-
-| [[Wood]]
-| colspan=2 | wood logs
-| a forest
-| tree... life
-|-
-| Metal [[bar]]
-| colspan=2 | metal bars
-| shining bars of metal
-| bars... metal
-|-
-| [[Gem]]s (cut)
-| colspan=3 | cut gems
-| gems... shining
-|-
-| [[Gem]]s (raw)
-| colspan=3 | rough gems
-| rough... color
-|-
-| Green [[glass]]
-| colspan=2 | raw green glass
-| glass
-| raw... green
-|-
-| Clear glass
-| colspan=2 | raw clear glass{{verify}}
-| glass and burning wood
-| raw... clear
-|-
-| Crystal glass
-| colspan=2 | raw crystal glass{{verify}}
-| rough gems and glass
-| raw... crystal
-|-
-| [[Bone]] [http://www.bay12forums.com/smf/index.php?topic=105002.0;topicseen stack]
-| colspan=2 | bones
-| skeletons
-| bones... yes
-|-
-| [[Shell]] {{cite talk/this|Re:_.22Verify.22_on_the_shell_row_of_the_demands_table}}
-| colspan=3 | shells
-| a shell...
-|-
-| [[Leather]]
-| colspan=2 | tanned hides
-| stacked leather
-| leather... skin
-|-
-| [[Cloth]] (plant fiber)
-| colspan=2 | plant cloth
-| stacked cloth
-| cloth... thread
-|-
-| [[Cloth]] (silk)
-| colspan=2 | silk cloth
-| stacked cloth
-| cloth... thread
-|-
-| [[Cloth]] (yarn)
-| colspan=2 | yarn cloth
-| stacked cloth
-| cloth... thread
-|-
-| [[Skull]]{{verify}}
-| colspan=2 | body parts
-| death
-| a corpse
-|}
+! Possessed|-|| <dwarf> screams "I must have <demand>!"| <dwarf> broods "Yes. I need <demand>."| <dwarf> sketches pictures of <demand>.| <dwarf> mutters "<artifact> needs <demand>..."|-| [[Stone]]| colspan=2 | rock| a quarry| stone... rock|-| Stone/metal [[block]]s| colspan=2 | rock blocks| square blocks| blocks... bricks|-| [[Wood]]| colspan=2 | wood logs| a forest| tree... life|-| Metal [[bar]]| colspan=2 | metal bars| shining bars of metal| bars... metal|-| [[Gem]]s (cut)| colspan=3 | cut gems| gems... shining|-| [[Gem]]s (raw)| colspan=3 | rough gems| rough... color|-| Green [[glass]]| colspan=2 | raw green glass| glass| raw... green|-| Clear glass| colspan=2 | raw clear glass{{verify}}| glass and burning wood| raw... clear|-| Crystal glass| colspan=2 | raw crystal glass{{verify}}| rough gems and glass| raw... crystal|-| [[Bone]] [http://www.bay12forums.com/smf/index.php?topic=105002.0;topicseen stack]| colspan=2 | bones| skeletons| bones... yes|-| [[Shell]] {{cite talk/this|Re:_.22Verify.22_on_the_shell_row_of_the_demands_table}}| colspan=3 | shells| a shell...|-| [[Leather]]| colspan=2 | tanned hides| stacked leather| leather... skin|-| [[Cloth]] (plant fiber)| colspan=2 | plant cloth| stacked cloth| cloth... thread|-| [[Cloth]] (silk)| colspan=2 | silk cloth| stacked cloth| cloth... thread|-| [[Cloth]] (yarn)| colspan=2 | yarn cloth| stacked cloth| cloth... thread|-| [[Skull]]{{verify}}| colspan=2 | body parts| death| a corpse|}
 
 Dwarves in macabre moods may also say "Leave me. I need... things... certain things", in which case they want special items, such as [[skull]]s or vermin [[remains]]. Moody dwarves demanding rock blocks will also accept [[ceramic]] bricks and blocks forged from metal bars.
 
@@ -353,17 +197,9 @@ There are several additional factors which will prevent a dwarf from entering a 
 === Chance ===
 When determining who will have a strange mood, each eligible dwarf is put into a weighted lottery, where the chance of being selected is based on the dwarf's [[profession]]. Most professions receive 6 "tickets", but some receive additional tickets to improve their odds.
 
-{| class="wikitable" cellspacing="0" border="2" cellpadding="5"
-|-
+{| class="wikitable" cellspacing="0" border="2" cellpadding="5"|-
 ! Weighting
-! Professions
-|-
-| 21 ||Armorer, Blacksmith, Bone Carver, Clothier, Craftsdwarf, Jeweler, Gem Cutter, Gem Setter, Glassmaker, Leatherworker, Metalcrafter, Metalsmith, Stonecrafter, Weaponsmith, Weaver, Woodcrafter
-|-
-| 11 ||Bowyer, Carpenter, Stoneworker, Stone Carver, Woodworker
-|-
-| 6 ||Engraver, Mechanic, Miner, Tanner, and all other [[profession]]s (including Peasant).
-|}
+! Professions|-| 21 ||Armorer, Blacksmith, Bone Carver, Clothier, Craftsdwarf, Jeweler, Gem Cutter, Gem Setter, Glassmaker, Leatherworker, Metalcrafter, Metalsmith, Stonecrafter, Weaponsmith, Weaver, Woodcrafter|-| 11 ||Bowyer, Carpenter, Stoneworker, Stone Carver, Woodworker|-| 6 ||Engraver, Mechanic, Miner, Tanner, and all other [[profession]]s (including Peasant).|}
 
 :'''''Example:''' What this means is: if you had 21 dwarves, made up of 20 eligible farmers, furnace operators, miners, woodcutters etc. (with 6 chances each) plus one Armorer (with 21 chances), that one Armorer would have a 21 in 141 chance <small>(20 dwarves x 6 chances each = 120 + 21 chances more = 141 total)</small> of the mood striking them. That's about 1 in 7, while the other 20 have a 6 in 141 chance each, or about 1 in 24. The odds are still against the armorer, but much better than for any other single dwarf.''
 
@@ -392,77 +228,9 @@ The type of artifact created depends on the type of mood, the dwarf's highest mo
 
 The first object grabbed by the dwarf will be the base material; all other materials will be used as [[decoration]]s. If a dwarf grabs a piece of [[chalk]] and makes a statue, for instance, it will be a "chalk statue", but an artifact can potentially include bone, cloth, gems, leather, metal, shell, stone, and wood decorations all at once. In some cases, a moody dwarf will produce an item which normally cannot be made from that material, leading to such odd constructions as an [[obsidian]] [[bed]], [[ruby]] [[floodgate]], or turtle [[shell]] [[cage]], but the actual item types available for each mood type are still very much restricted (e.g. only a glassmaker or jeweler can make a [[window]], and a moody clothier cannot produce an article of clothing that could not normally be made from cloth).
 
-{| class="wikitable" cellpadding="4" style="border:1px solid black;border-collapse:collapse;text-align:left;"
-|- 
+{| class="wikitable" cellpadding="4" style="border:1px solid black;border-collapse:collapse;text-align:left;"|- 
 ! Mood / Skill
-! Artifact type
-|- 
-| [[Armorsmith]]
-| Each equipment item with [METAL] (mail shirt, breastplate, leggings, greaves, gauntlet, low boot, high boot, cap, helm, mask), any shield
-|- 
-| [[Bone carver]] (bone)
-| Each equipment item with [BARRED] (leggings, greaves, gauntlet, helm), any shield, instrument, toy, door, bed, chair, table, statue, chest, bin, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, chain, cage, animal trap, figurine, amulet, scepter, crown, ring, earring, bracelet, any weapon, any trap component<sup>†</sup>
-|- 
-| [[Bone carver]] (shell)
-| Each equipment item with [SCALED] (leggings, gauntlet, helm), figurine, amulet, crown, ring, earring, bracelet, chain, cage, animal trap, instrument, toy
-|- 
-| [[Bowyer]]
-| Each ranged weapon (crossbow, bow, blowgun)
-|- 
-| [[Carpenter]]
-| Door, bed, chair, table, statue, chest, bin, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, cage, barrel, bucket, animal trap, splint, crutch
-|- 
-| [[Clothier]]
-| rowspan=2| Each equipment item with [SOFT] (dress, shirt, tunic, toga, vest, robe, coat, cloak, cape, trousers, loincloth, thong, short skirt, skirt, long skirt, braies, glove, mitten, sock, sandal, shoe, chausses, cap, hood, mask, turban, head veil, face veil, headscarf), bag, rope
-|- 
-| [[Weaver]]
-|- 
-| [[Engraver]]
-| rowspan=4| Figurine, amulet, scepter, crown, ring, earring, bracelet, goblet, instrument, toy
-|- 
-| [[Stone crafter]]
-|- 
-| [[Stonecutter]]
-|-
-| [[Stone carver]]
-|-
-| Fell Mood
-| rowspan=3| Each equipment item with [LEATHER] (dress, shirt, tunic, toga, vest, robe, coat, cloak, cape, armor, trousers, loincloth, thong, short skirt, skirt, long skirt, braies, leggings, glove, mitten, sock, sandal, shoe, chausses, low boot, high boot, cap, hood, mask, turban, head veil, face veil, headscarf, helm), any shield, bag, backpack, quiver, instrument
-|- 
-| [[Leatherworker]]
-|- 
-| [[Tanner]]
-|-
-| [[Gem cutter]]
-| rowspan=3| Perfect gem<sup>‡</sup>, door, bed, chair, table, statue, box, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, figurine, amulet, scepter, crown, ring, earring, bracelet, chain, flask, goblet, cage, barrel, bucket, animal trap, window, instrument, toy
-|- 
-| [[Gem setter]]
-|- 
-| [[Glassmaker]]
-|- 
-| Macabre Mood (vermin remains)
-| Amulet, bracelet, earring
-|- 
-| [[Mason]]
-| rowspan=2| Door, bed, chair, table, statue, quern, millstone, coffer, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate
-|- 
-| [[Miner]]
-|- 
-| [[Mechanic]]
-| Mechanism
-|- 
-| [[Metal crafter]]
-| Figurine, amulet, scepter, crown, ring, earring, bracelet, chain, flask, goblet, instrument, toy
-|- 
-| [[Metalsmith]]
-| Door, bed, chair, table, statue, chest, armor stand, weapon rack, cabinet, anvil, coffin, floodgate, hatch cover, grate, cage, barrel, bucket, animal trap, pipe section<sup>†</sup>, splint, crutch
-|- 
-| [[Weaponsmith]]
-| Any weapon, any trap component<sup>†</sup>
-|- 
-| [[Wood crafter]]
-| Figurine, amulet, scepter, crown, ring, earring, bracelet, goblet, instrument, toy
-|}
+! Artifact type|- | [[Armorsmith]]| Each equipment item with [METAL] (mail shirt, breastplate, leggings, greaves, gauntlet, low boot, high boot, cap, helm, mask), any shield|- | [[Bone carver]] (bone)| Each equipment item with [BARRED] (leggings, greaves, gauntlet, helm), any shield, instrument, toy, door, bed, chair, table, statue, chest, bin, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, chain, cage, animal trap, figurine, amulet, scepter, crown, ring, earring, bracelet, any weapon, any trap component<sup>†</sup>|- | [[Bone carver]] (shell)| Each equipment item with [SCALED] (leggings, gauntlet, helm), figurine, amulet, crown, ring, earring, bracelet, chain, cage, animal trap, instrument, toy|- | [[Bowyer]]| Each ranged weapon (crossbow, bow, blowgun)|- | [[Carpenter]]| Door, bed, chair, table, statue, chest, bin, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, cage, barrel, bucket, animal trap, splint, crutch|- | [[Clothier]]| rowspan=2| Each equipment item with [SOFT] (dress, shirt, tunic, toga, vest, robe, coat, cloak, cape, trousers, loincloth, thong, short skirt, skirt, long skirt, braies, glove, mitten, sock, sandal, shoe, chausses, cap, hood, mask, turban, head veil, face veil, headscarf), bag, rope|- | [[Weaver]]|- | [[Engraver]]| rowspan=4| Figurine, amulet, scepter, crown, ring, earring, bracelet, goblet, instrument, toy|- | [[Stone crafter]]|- | [[Stonecutter]]|-| [[Stone carver]]|-| Fell Mood| rowspan=3| Each equipment item with [LEATHER] (dress, shirt, tunic, toga, vest, robe, coat, cloak, cape, armor, trousers, loincloth, thong, short skirt, skirt, long skirt, braies, leggings, glove, mitten, sock, sandal, shoe, chausses, low boot, high boot, cap, hood, mask, turban, head veil, face veil, headscarf, helm), any shield, bag, backpack, quiver, instrument|- | [[Leatherworker]]|- | [[Tanner]]|-| [[Gem cutter]]| rowspan=3| Perfect gem<sup>‡</sup>, door, bed, chair, table, statue, box, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate, figurine, amulet, scepter, crown, ring, earring, bracelet, chain, flask, goblet, cage, barrel, bucket, animal trap, window, instrument, toy|- | [[Gem setter]]|- | [[Glassmaker]]|- | Macabre Mood (vermin remains)| Amulet, bracelet, earring|- | [[Mason]]| rowspan=2| Door, bed, chair, table, statue, quern, millstone, coffer, armor stand, weapon rack, cabinet, coffin, floodgate, hatch cover, grate|- | [[Miner]]|- | [[Mechanic]]| Mechanism|- | [[Metal crafter]]| Figurine, amulet, scepter, crown, ring, earring, bracelet, chain, flask, goblet, instrument, toy|- | [[Metalsmith]]| Door, bed, chair, table, statue, chest, armor stand, weapon rack, cabinet, anvil, coffin, floodgate, hatch cover, grate, cage, barrel, bucket, animal trap, pipe section<sup>†</sup>, splint, crutch|- | [[Weaponsmith]]| Any weapon, any trap component<sup>†</sup>|- | [[Wood crafter]]| Figurine, amulet, scepter, crown, ring, earring, bracelet, goblet, instrument, toy|}
 :<sup>†</sup> ''chance of selection for this entry is reduced by 90%''
 :<sup>‡</sup> ''this item may only be selected at the beginning of the mood (50% chance)''
 

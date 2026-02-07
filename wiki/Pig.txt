@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=pig_sprites.png
-|portrait=pig_portrait_anim.gif
-|bone=8-12
-|meat=9
-|fat=9
-|skull=1
-|hoof=4
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|eye=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|wiki=yes
-|contrib=no
-}}
+{{Creaturelookup/0|image=pig_sprites.png|portrait=pig_portrait_anim.gif|bone=8-12|meat=9|fat=9|skull=1|hoof=4|lung=2|intestine=1|spleen=1|kidney=2|eye=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 
@@ -37,12 +16,7 @@ Due to a bug with how the planting of seeds is handled, pig tails are considered
 
 They are not to be confused with particularly obnoxious [[noble]]s (or, for that matter, certain forms of human [[Fortress guard|law enforcement]]).
 
-{{Translation
-| dwarven = thuveg
-| elvish  = sano
-| goblin  = dul
-| human   = pum
-}}
+{{Translation| dwarven = thuveg| elvish  = sano| goblin  = dul| human   = pum}}
 
 {{Gamedata}}
 {{Creatures}}

@@ -35,12 +35,7 @@ Inorganic creatures such as the [[bronze colossus]], the [[magma man]] and the [
 Some creatures, when injured, may leave residue like a normal creature would bleed, but not actual blood. For example, a [[titan]] made out of salt may leave piles of salt where it was injured.
 
 ==Blood in combat==
-{{Translation
-| dwarven = nazush
-| elvish  = cameda
-| goblin  = ogom
-| human   = cadem
-}}
+{{Translation| dwarven = nazush| elvish  = cameda| goblin  = ogom| human   = cadem}}
 
 Blood makes a significant impact during [[combat]]. A strike which causes damage to major arteries can open them, leading the creature to begin bleeding out rapidly. Without any treatment, the wound may eventually cause the creature to die of blood loss, even if it isn't struck down by any other means. This is especially important in [[adventurer mode]], where the impact of blood loss is more noticeable on an individual level. This type of death is common with creatures who get their limbs severed from their bodies.
 

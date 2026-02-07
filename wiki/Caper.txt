@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=caper_shrub_sprite.png
-|seedimage=caper_seeds_sprite.png
-|uses=[[Food]]
-}}
+{{plantlookup|graphic=caper_shrub_sprite.png|seedimage=caper_seeds_sprite.png|uses=[[Food]]}}
 {{av}}
 
 '''Capers''' are an [[aboveground]] [[crop|garden vegetable]]. They can be planted in all seasons and the berries and leaves are edible raw or [[cooking|cooked]].

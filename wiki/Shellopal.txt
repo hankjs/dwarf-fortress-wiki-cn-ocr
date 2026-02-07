@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_shell_opal_sprite.png
-|graphic2=rough_shell_opal_sprite.png
-|wiki=Opal}}
+{{gemlookup/0|graphic=cut_shell_opal_sprite.png|graphic2=rough_shell_opal_sprite.png|wiki=Opal}}
 {{av}}
 
 '''Shell opals''' are common, moderately-valuable [[gem]]s that can be found just about anywhere.

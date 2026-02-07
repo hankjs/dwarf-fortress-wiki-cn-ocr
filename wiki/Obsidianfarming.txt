@@ -29,7 +29,6 @@ For more advanced farms, one can have multiple layers of magma and water - each 
  ║[#B0B]║[#B0B]+[#B0B]+[#B0B]+[#B0B]+[#B0B]+[#B0B]+[#B0B]+[#B0B]+[#B0B]║║  .[#0BB]╬..........║   ║++++++++++║ 
  ║[#B0B]╚[#B0B]═[#B0B]═[#B0B]═[#B0B]═[#B0B]═[#B0B]═[#B0B]═[#B0B]═[#B0B]╝║   ║..........║   ║++++++++++║ 
  ╚══════════╝   ╚══════════╝   ╚══════════╝ 
-
 }}
 
 Another, possibly simpler, design is 3 z-levels high:

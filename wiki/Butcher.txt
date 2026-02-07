@@ -1,22 +1,11 @@
 {{Quality|Masterwork}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| graphicmargin = 107px
-| skill      = Butcher
-| profession = [[Farmer]]
-| job name   = [[Butchery]]
-| tasks      =
-* Butcher [[animal]]
-| workshop = 
-* [[Butcher's shop]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| graphicmargin = 107px| skill      = Butcher| profession = [[Farmer]]| job name   = [[Butchery]]| tasks      =
+* Butcher [[animal]]| workshop = 
+* [[Butcher's shop]]| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 [[File:dwarf_butcher_preview.jpg|thumb|210px|right|When he smells like dead lamb, you know he didn't miss work.]]'''Butchers''' do the dirty job of killing tame animals and processing animal [[corpse]]s, skeletons and body parts for [[meat]], [[fat]], [[skin]], [[bone]]s, [[skull]]s, and many other objects, at the [[Butcher's Shop]].
 
@@ -143,11 +132,6 @@ So how do the creature tokens such as NOMEAT and the like factor into yields for
 ==See also==
 *[[Meat industry]]
 
-{{Translation
-| dwarven = lokast
-| elvish  = uwale
-| goblin  = slust
-| human   = rashcat
-}}
+{{Translation| dwarven = lokast| elvish  = uwale| goblin  = slust| human   = rashcat}}
 
 {{Skills}}

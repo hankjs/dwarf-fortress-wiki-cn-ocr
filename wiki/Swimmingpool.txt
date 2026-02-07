@@ -35,8 +35,7 @@ With the addition of [[minecart]]s, a safe, automated swimming experience can be
  ░╚════▲═══▲░░░▲══════▲╝░   ░         ▼╗+╞▼        ░ 
  ░░░░░░░░░░░░░░░░░░░░░░░░   ░░░░░░░░░░░║^░░░░░░░░░░░ 
            ░+░                        ░H+░           
-           ░+░                        ░░+░           
-}}
+           ░+░                        ░░+░           }}
 
 [[Image:Swim track 0.png|thumb|right|250px|A large swimming track]]
 

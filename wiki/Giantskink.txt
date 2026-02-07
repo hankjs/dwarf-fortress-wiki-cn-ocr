@@ -1,23 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_skink_sprite.png
-|portrait=skink_portrait.png
-|bone=18
-|meat=15
-|fat=13
-|skin=scale
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_skink_sprite.png|portrait=skink_portrait.png|bone=18|meat=15|fat=13|skin=scale|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

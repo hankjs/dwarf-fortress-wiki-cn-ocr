@@ -1,10 +1,7 @@
 {{Quality|Exceptional}}
 {{Metal|name=Copper|
 sample=
-[[File:CopperSample.png|256px|center|frameless]]
-|color=6:4:0
-|graphic=copper_bar_sprite.png
-|uses=
+[[File:CopperSample.png|256px|center|frameless]]|color=6:4:0|graphic=copper_bar_sprite.png|uses=
 * Make [[Brass]] at [[smelter]]
 * Make [[Bronze]] at [[smelter]]
 * Make [[Billon]] at [[smelter]]
@@ -21,12 +18,10 @@ sample=
 * [[Bolt]]s
 * [[Pick]]s
 * [[Armor]]
-* [[Metalsmith's forge|Metal crafting]]
-|ore=
+* [[Metalsmith's forge|Metal crafting]]|ore=
 * [[File:ore_copper_sprite.png]] [[Native copper]]
 * [[File:ore_cyan_sprite.png]] [[Malachite]]
-* [[File:ore_silvery_sprite.png]] [[Tetrahedrite]]
-|properties=
+* [[File:ore_silvery_sprite.png]] [[Tetrahedrite]]|properties=
 * [[Material value]] 2☼
 * [[Material science|Impact strength]] 770 MPa
 * [[Material science|Shear strength]] 220 MPa
@@ -37,8 +32,7 @@ sample=
 * [[Solid density]] 8930 kg/m³
 * Liquid [[density]] 8020 kg/m³
 * [[Specific heat]] 385 J/kg·K
-* [[Color]] copper
-}}{{av}}
+* [[Color]] copper}}{{av}}
 
 '''Copper''' is a [[metal]] used in a large number of alloys, among them [[bronze]], which is almost as good as [[iron]] for smithing [[weapon]]s and [[armor]], and [[brass]], which has the largest value increase of all non-[[steel]] alloys. Copper itself is a common, low-value metal and a sub-par arms material – more specifically, it is the second-worst metal available for slashing weapons, but is pretty good for blunt weapons.
 
@@ -76,12 +70,7 @@ Copper may be combined with other metals at a [[smelter]]. The following is a li
 File:Copper_2.jpg|A copper ingot, coin and rod.
 </gallery>
 
-{{Translation
-| dwarven = gusil
-| elvish  = canò
-| goblin  = saxo
-| human   = gugir
-}}
+{{Translation| dwarven = gusil| elvish  = canò| goblin  = saxo| human   = gugir}}
 
 {{gamedata}}
 {{metals}}

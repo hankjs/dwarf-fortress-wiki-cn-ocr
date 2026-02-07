@@ -1,26 +1,6 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=snapping_turtle_sprites.png
-|vary= [[Common snapping turtle]] - [[Snapping turtle man]] - [[Giant snapping turtle]]
-|portrait=snapping_turtle_portrait_anim.gif
-|shell=1
-|bone=12
-|skull=1
-|brain=1
-|scale=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|meat=13
-|fat=13
-
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=snapping_turtle_sprites.png|vary= [[Common snapping turtle]] - [[Snapping turtle man]] - [[Giant snapping turtle]]|portrait=snapping_turtle_portrait_anim.gif|shell=1|bone=12|skull=1|brain=1|scale=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|meat=13|fat=13
+|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

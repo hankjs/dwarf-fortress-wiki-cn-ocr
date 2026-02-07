@@ -1,16 +1,9 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Skill
-| color      = 3:0
-| skill      = Poet
-| profession = Bard
-| job name   = Poetry
-| tasks      = 
-| attributes =
+{{Skill| color      = 3:0| skill      = Poet| profession = Bard| job name   = Poetry| tasks      = | attributes =
 * Creativity
 * Intuition
-* Linguistic Ability
-}}
+* Linguistic Ability}}
 {{av}}
 {{stub}}
 
@@ -26,11 +19,6 @@ To write poetry, press {{k|x}}, then select compose, from that menu Poem, and fr
 The effect of poetry in fortress mode is currently unknown.
 
 
-{{Translation
-| dwarven = olnen
-| elvish  = athifi
-| goblin  = tozûx
-| human   = pimra
-}}
+{{Translation| dwarven = olnen| elvish  = athifi| goblin  = tozûx| human   = pimra}}
 
 {{Skills}}

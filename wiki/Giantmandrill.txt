@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=giant_mandrill_sprite.png
-|portrait=mandrill_portrait.png
-|contrib=no
-|bone=18-22
-|meat=17-21
-|fat=15-19
-|eye=0-2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|tooth=2
-|skin=hide
-}}
+{{Creaturelookup/0|image=giant_mandrill_sprite.png|portrait=mandrill_portrait.png|contrib=no|bone=18-22|meat=17-21|fat=15-19|eye=0-2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|tooth=2|skin=hide}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

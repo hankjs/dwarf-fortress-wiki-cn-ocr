@@ -1,15 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=floating_guts_sprite.png
-|portrait=floating_guts_portrait.png
-|intestine=1
-|heart=1
-|meat=1
-|fat=1
-|skin=hide
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=floating_guts_sprite.png|portrait=floating_guts_portrait.png|intestine=1|heart=1|meat=1|fat=1|skin=hide|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''Floating guts''' are disturbing subterranean [[creature]]s that appear to be little more than slimes containing a set of organs, found at the second and third layer of the [[cavern]]s. Because of this lack of body parts, it's extremely easy to damage organs on them, and thus relatively easy to kill. They have no attacks except for the default [[push]], which may sometimes injure unarmored [[dwarves]].

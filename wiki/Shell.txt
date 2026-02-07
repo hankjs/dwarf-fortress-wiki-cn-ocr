@@ -25,30 +25,9 @@ Shells are available in seven [[Descriptor pattern token|color patterns]]:
 {| class="wikitable" style="border-width: medium; border-collapse:separate;"
 ! Color(s)
 ! Name
-! Creature(s) with this shell color
-|- 
-| bgcolor="#FF0000" | &nbsp; || bgcolor="#F8F9FA" | Solid Red || [[Moon snail|Moon Snail]]
-|-
-| bgcolor="#964B00" | &nbsp; || Solid Brown || [[Snail]] and [[Desert tortoise|Desert Tortoise]]
-|-
-| bgcolor="#C2B280" | &nbsp; || Solid Ecru || [[Giant tortoise|Giant Tortoise]]
-|-
-| style="padding:0; margin:0; height:100%;" |
-{| style="width:100%; height:100%; position:relative; margin:auto; padding:0; border:0; border-collapse:collapse;"
-| bgcolor="#808080" style="position:relative; width:50%; height:100%;" | &nbsp; || bgcolor="#FFC0CB" style="position:relative; width:50%; height:100%;" | &nbsp;
-|}
-|| Mottled with Gray and Pink || [[Armadillo]]
-|-
-| style="padding:0; margin:0; height:100%;" |
-{| style="width:100%; height:100%; position:relative; margin:auto; padding:0; border:0; border-collapse:collapse;"
-| bgcolor="#964B00" style="position:relative; width:50%; height:100%;" | &nbsp; || bgcolor="#FFFFFF" style="position:relative; width:50%; height:100%;" | &nbsp;
-|}
-|| Stripes of Brown and White || [[Nautilus]]
-|-
-| bgcolor="#013220" | &nbsp; || Solid Dark Green || [[common snapping turtle|Common Snapping Turtle]], [[Alligator snapping turtle|Alligator Snapping Turtle]] and [[Pond turtle|Pond Turtle]]
-|-
-| bgcolor="#808080" | &nbsp; || Solid Gray || [[Mussel]] and [[Oyster]]
-|}
+! Creature(s) with this shell color|- | bgcolor="#FF0000" | &nbsp; || bgcolor="#F8F9FA" | Solid Red || [[Moon snail|Moon Snail]]|-| bgcolor="#964B00" | &nbsp; || Solid Brown || [[Snail]] and [[Desert tortoise|Desert Tortoise]]|-| bgcolor="#C2B280" | &nbsp; || Solid Ecru || [[Giant tortoise|Giant Tortoise]]|-| style="padding:0; margin:0; height:100%;" |
+{| style="width:100%; height:100%; position:relative; margin:auto; padding:0; border:0; border-collapse:collapse;"| bgcolor="#808080" style="position:relative; width:50%; height:100%;" | &nbsp; || bgcolor="#FFC0CB" style="position:relative; width:50%; height:100%;" | &nbsp;|}|| Mottled with Gray and Pink || [[Armadillo]]|-| style="padding:0; margin:0; height:100%;" |
+{| style="width:100%; height:100%; position:relative; margin:auto; padding:0; border:0; border-collapse:collapse;"| bgcolor="#964B00" style="position:relative; width:50%; height:100%;" | &nbsp; || bgcolor="#FFFFFF" style="position:relative; width:50%; height:100%;" | &nbsp;|}|| Stripes of Brown and White || [[Nautilus]]|-| bgcolor="#013220" | &nbsp; || Solid Dark Green || [[common snapping turtle|Common Snapping Turtle]], [[Alligator snapping turtle|Alligator Snapping Turtle]] and [[Pond turtle|Pond Turtle]]|-| bgcolor="#808080" | &nbsp; || Solid Gray || [[Mussel]] and [[Oyster]]|}
 
 == Modding ==
 {{mod|section}}
@@ -74,12 +53,7 @@ If you don't want to add shells to existing creatures, you can enable other mate
 #Add the [SHELL] tag to the material
 #If you wish to apply this change to a game in progress, remember to also alter the copy of material_template_default.txt contained in your saves folder. The change won't affect body parts that are already lying around, but will affect newly created body parts from butchered creatures.
 
-{{Translation
-| dwarven = kerlîg
-| elvish  = caraca
-| goblin  = åtsnusm
-| human   = luthi
-}}
+{{Translation| dwarven = kerlîg| elvish  = caraca| goblin  = åtsnusm| human   = luthi}}
 
 {{gamedata}}
 {{materials}}

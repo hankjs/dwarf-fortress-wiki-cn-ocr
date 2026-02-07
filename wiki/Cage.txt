@@ -2,20 +2,9 @@
 {{av}}
 {{buggy}}
 
-{{V50_furniture
-|graphic=[[File:Cage_Premium.png]]
-|name=Cage
-|tile=‼|col=0:6:0
-|wood=y
-|metal=y
-|glass=y
-|rooms=
+{{V50_furniture|graphic=[[File:Cage_Premium.png]]|name=Cage|tile=‼|col=0:6:0|wood=y|metal=y|glass=y|rooms=
 * [[Dungeon]] (if metal)
-* [[Zoo]] (Meeting Area)
-|value=10
-|size=30,000
-|capacity=60,000
-}}
+* [[Zoo]] (Meeting Area)|value=10|size=30,000|capacity=60,000}}
 :''For information on cage traps, see [[Trap#Cage_Trap|traps]].''
 
 '''Cages''' are used in [[cage trap]]s, [[jail]]s, [[zoo]]s, [[Activity_zone#Pit/Pond|pit]]s and aquariums. A glass cage is called a '''terrarium''' or, if filled with [[water]] for holding [[Captured live fish|captured]] live aquatic [[vermin]], an '''aquarium'''.
@@ -139,12 +128,7 @@ The fact that an unlimited number of creatures - regardless of size - can fit in
 * Aquariums cannot be used to store large fish (they will drown), though vermin fish work just fine. {{Bug|1590}}
 * Dwarves trapped in cages cannot be directly freed. They can only be released by building the cage and connecting a [[lever]] to it, or ordering the cage be brought to a trade depot. {{bug|3070}}
 
-{{Translation
-| dwarven = mokez
-| elvish  = ofúru
-| goblin  = obtux
-| human   = tin
-}}
+{{Translation| dwarven = mokez| elvish  = ofúru| goblin  = obtux| human   = tin}}
 
 
 

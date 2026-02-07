@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = matul
-| elvish  = rimame
-| goblin  = mutog
-| human   = casser
-}}
+{{Translation| dwarven = matul| elvish  = rimame| goblin  = mutog| human   = casser}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[Sphere|sphere]] of dance will have words from this symbol in their name.

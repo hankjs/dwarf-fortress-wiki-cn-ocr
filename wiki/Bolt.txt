@@ -25,12 +25,7 @@ Bone bolts are not advisable for [[weapon trap]]s as only a stack of 5 will be s
 *Masterwork bolts cause unhappy thoughts when they get carried off the map or melted down{{bug|3169}}. The solution to this is to make more bolts, since the unhappy thought caused by "art defacement" becomes less significant the more masterpieces a dwarf has produced.
 *Bolts are not stored in a barracks, despite the tooltip for the 'store squad equipment' icon. Bolts will get dropped wherever the dwarf drops their quiver and promptly hauled to any stockpile where they are allowed.
 
-{{Translation
-| dwarven = alåth
-| elvish  = ene
-| goblin  = okom
-| human   = thora
-}}
+{{Translation| dwarven = alåth| elvish  = ene| goblin  = okom| human   = thora}}
 
 {{gamedata|{{raw|v50:item_ammo.txt|ITEM_AMMO|ITEM_AMMO_BOLTS}}}}
 {{Weapons}}

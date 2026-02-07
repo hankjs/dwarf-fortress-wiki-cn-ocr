@@ -307,8 +307,7 @@ In-game, the tile color is determined by the creature's external color modifier.
 * {{Tile|W|7:0}} Worm
 * {{Tile|W|7:0}} Wren
 * {{Tile|W|7:0}} Wyrm
-* {{Tile|Z|7:0}} '''Zebra'''
-}}
+* {{Tile|Z|7:0}} '''Zebra'''}}
 
 == Graphics ==
 All random creatures except [[werebeast]]s use [[graphics|graphic]] sprites found in <code>beasts.png</code> and <code>beasts_small.png</code>. There are 19 primary body sprites (6 are alternate-legged variations) with additional sprite layers representing secondary body parts. Several rcps have one or more secondary sprite layers by default. A few rcps, like quadrupeds, have more than one body sprite to randomly select from.
@@ -334,170 +333,15 @@ example to look for:
 	
 when creating/editing images: first token is the bottommost layer, last token is topmost layer (eyes layered above body, etc.)
 note that elementals don't have eyes
--->
-|+ rcp sprites, ignoring random body modifications, large sprites only
+-->|+ rcp sprites, ignoring random body modifications, large sprites only
 ! rcps
 ! Sprite
 ! Secondary graphic token(s)
-! Primary graphic token
-|-
-| albatross, armless biped, bat, blob, bunting, bushtit, buzzard, cardinal, chickadee, chicken, cockatoo, condor, crane, crow, cuckoo, dove, duck, eagle, falcon, fantail, finch, flamingo, flycatcher, fruit bat, goose, grebe, grouse, gull, harrier, hawk, honeyeater, hornbill, hummingbird, jay, kestrel, kingfisher, kinglet, kite, lark, loon, lyrebird, magpie, martin, mockingbird, nightjar, nuthatch, oriole, osprey, owl, oxpecker, parrot, pelican, penguin, petrel, pheasant, pigeon, pterosaur, quail, quetzal, raven, shrike, sparrow, starling, stork, swallow, swan, swift, tanager, thornbill, thrush, titmouse, toucan, turkey, vulture, warbler, waxwing, woodpecker, wren
-| [[File:Beast amorphous.png]]
-| ''none''
-| BEAST_AMORPHOUS
-|-
-| snake
-| [[File:Beast snake.png]]
-| ''none''
-| rowspan="2" | BEAST_SNAKE
-|-
-| anaconda, cobra, python, rattlesnake, serpent, viper
-| [[File:Beast snake, two eyes.png]]
-| BEAST_SNAKE_EYE_TWO
-|-
-| bristleworm, earthworm, flat worm, leech, nematode, ribbon worm, slug, worm
-| [[File:Beast worm long.png]]
-| ''none''
-| rowspan="2" | BEAST_WORM_LONG
-|-
-| snail
-| [[File:Beast worm long, shell.png]]
-| BEAST_WORM_LONG_SHELL_BACK
-|-
-| caterpillar, maggot
-| [[File:Beast worm short, two eyes.png]]
-| BEAST_WORM_SHORT_EYE_TWO
-| BEAST_WORM_SHORT
-|-
-| hexapod
-| [[File:Beast insect.png]]
-| ''none''
-| rowspan="8" | BEAST_INSECT
-|-
-| antlion larva, flea, louse
-| [[File:Beast insect, two eyes.png]]
-| BEAST_INSECT_EYE_TWO
-|-
-| ant, aphid, assassin bug, click beetle, cockroach, cricket, darkling beetle, dung beetle, earwig, grasshopper, ladybug, mantis, rove beetle, scarab beetle, silverfish, stick insect, stonefly, termite, thrips, tiger beetle, weevil
-| [[File:Beast insect, two eyes, antennae.png]]
-| BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE
-|-
-| stag beetle
-| [[File:Beast insect, mandibles, two eyes, antennae.png]]
-| BEAST_INSECT_MANDIBLES, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE
-|-
-| rhinoceros beetle
-| [[File:Beast insect, horns, two eyes, antennae.png]]
-| BEAST_INSECT_HORNS, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE
-|-
-| cicada, damselfly, dragonfly, fly
-| [[File:Beast insect, lacy wings, two eyes.png]]
-| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO
-|-
-| bee, butterfly, caddisfly, firefly, hornet, lacewing, mayfly, moth, scorpionfly, snakefly, wasp
-| [[File:Beast insect, lacy wings, two eyes, antennae.png]]
-| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE
-|-
-| mosquito
-| [[File:Beast insect, lacy wings, two eyes, proboscis, antennae.png]]
-| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO, BEAST_INSECT_PROBOSCIS, BEAST_INSECT_ANTENNAE
-|-
-| decapod, octopod
-| [[File:Beast spider.png]]
-| ''none''
-| rowspan="3" | BEAST_SPIDER
-|-
-| crab, lobster, mite, spider, tarantula, tick
-| [[File:Beast spider, two eyes.png]]
-| BEAST_SPIDER_EYE_TWO
-|-
-| shrimp
-| [[File:Beast spider, two eyes, antennae.png]]
-| BEAST_SPIDER_EYE_TWO, BEAST_SPIDER_EYE_ANTENNAE
-|-
-| scorpion
-| [[File:Beast scorpion, two eyes, one tail.png]]
-| BEAST_SCORPION_EYE_TWO, BEAST_SCORPION_TAIL_ONE
-| BEAST_SCORPION
-|-
-| wyrm
-| [[File:Beast bipedal dinosaur.png]]
-| ''none''
-| BEAST_BIPEDAL_DINOSAUR
-|-
-| humanoid*
-| [[File:Beast humanoid.png]]
-| ''none''
-| rowspan="5" | BEAST_HUMANOID
-|-
-| humanoid*
+! Primary graphic token|-| albatross, armless biped, bat, blob, bunting, bushtit, buzzard, cardinal, chickadee, chicken, cockatoo, condor, crane, crow, cuckoo, dove, duck, eagle, falcon, fantail, finch, flamingo, flycatcher, fruit bat, goose, grebe, grouse, gull, harrier, hawk, honeyeater, hornbill, hummingbird, jay, kestrel, kingfisher, kinglet, kite, lark, loon, lyrebird, magpie, martin, mockingbird, nightjar, nuthatch, oriole, osprey, owl, oxpecker, parrot, pelican, penguin, petrel, pheasant, pigeon, pterosaur, quail, quetzal, raven, shrike, sparrow, starling, stork, swallow, swan, swift, tanager, thornbill, thrush, titmouse, toucan, turkey, vulture, warbler, waxwing, woodpecker, wren| [[File:Beast amorphous.png]]| ''none''| BEAST_AMORPHOUS|-| snake| [[File:Beast snake.png]]| ''none''| rowspan="2" | BEAST_SNAKE|-| anaconda, cobra, python, rattlesnake, serpent, viper| [[File:Beast snake, two eyes.png]]| BEAST_SNAKE_EYE_TWO|-| bristleworm, earthworm, flat worm, leech, nematode, ribbon worm, slug, worm| [[File:Beast worm long.png]]| ''none''| rowspan="2" | BEAST_WORM_LONG|-| snail| [[File:Beast worm long, shell.png]]| BEAST_WORM_LONG_SHELL_BACK|-| caterpillar, maggot| [[File:Beast worm short, two eyes.png]]| BEAST_WORM_SHORT_EYE_TWO| BEAST_WORM_SHORT|-| hexapod| [[File:Beast insect.png]]| ''none''| rowspan="8" | BEAST_INSECT|-| antlion larva, flea, louse| [[File:Beast insect, two eyes.png]]| BEAST_INSECT_EYE_TWO|-| ant, aphid, assassin bug, click beetle, cockroach, cricket, darkling beetle, dung beetle, earwig, grasshopper, ladybug, mantis, rove beetle, scarab beetle, silverfish, stick insect, stonefly, termite, thrips, tiger beetle, weevil| [[File:Beast insect, two eyes, antennae.png]]| BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE|-| stag beetle| [[File:Beast insect, mandibles, two eyes, antennae.png]]| BEAST_INSECT_MANDIBLES, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE|-| rhinoceros beetle| [[File:Beast insect, horns, two eyes, antennae.png]]| BEAST_INSECT_HORNS, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE|-| cicada, damselfly, dragonfly, fly| [[File:Beast insect, lacy wings, two eyes.png]]| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO|-| bee, butterfly, caddisfly, firefly, hornet, lacewing, mayfly, moth, scorpionfly, snakefly, wasp| [[File:Beast insect, lacy wings, two eyes, antennae.png]]| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO, BEAST_INSECT_ANTENNAE|-| mosquito| [[File:Beast insect, lacy wings, two eyes, proboscis, antennae.png]]| BEAST_INSECT_WINGS_LACY_BACK, BEAST_INSECT_EYE_TWO, BEAST_INSECT_PROBOSCIS, BEAST_INSECT_ANTENNAE|-| decapod, octopod| [[File:Beast spider.png]]| ''none''| rowspan="3" | BEAST_SPIDER|-| crab, lobster, mite, spider, tarantula, tick| [[File:Beast spider, two eyes.png]]| BEAST_SPIDER_EYE_TWO|-| shrimp| [[File:Beast spider, two eyes, antennae.png]]| BEAST_SPIDER_EYE_TWO, BEAST_SPIDER_EYE_ANTENNAE|-| scorpion| [[File:Beast scorpion, two eyes, one tail.png]]| BEAST_SCORPION_EYE_TWO, BEAST_SCORPION_TAIL_ONE| BEAST_SCORPION|-| wyrm| [[File:Beast bipedal dinosaur.png]]| ''none''| BEAST_BIPEDAL_DINOSAUR|-| humanoid*| [[File:Beast humanoid.png]]| ''none''| rowspan="5" | BEAST_HUMANOID|-| humanoid*
 
-''(humanoid forms)'': ape, capybara, cavy, frog, koala, toad, wombat
-| [[File:Beast humanoid, two eyes.png]]
-| BEAST_HUMANOID_EYE_TWO
-|-
-| iguanodont, theropod
+''(humanoid forms)'': ape, capybara, cavy, frog, koala, toad, wombat| [[File:Beast humanoid, two eyes.png]]| BEAST_HUMANOID_EYE_TWO|-| iguanodont, theropod
 
-''(humanoid forms)'': alligator, anteater, antelope, armadillo, badger, bear, beaver, bison, buffalo, bull, camel, cat, chameleon, chinchilla, civet, coati, coyote, crocodile, deer, donkey, elk, fox, gecko, gila monster, giraffe, goat, gopher, hare, hedgehog, hippopotamus, horse, hyena, iguana, jackal, kangaroo, lemur, lizard, llama, loris, marmot, mole, mongoose, monitor, monkey, moose, mouse, newt, opossum, otter, panda, pangolin, panther, pig, porcupine, rabbit, raccoon, rat, rhinoceros, salamander, sheep, shrew, skink, skunk, sloth, squirrel, tapir, warthog, weasel, wolf, zebra
-| [[File:Beast humanoid, two eyes, one tail.png]]
-| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_TAIL_ONE
-|-
-| ''(humanoid forms)'': elephant, mammoth
-| [[File:Beast humanoid, two eyes, one tail, trunk.png]]
-| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_TAIL_ONE, BEAST_HUMANOID_TRUNK
-|-
-| ''(humanoid forms)'': tortoise, turtle
-| [[File:Beast humanoid, two eyes, shell.png]]
-| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_SHELL_BACK
-|-
-| ape
-| [[File:Beast front grasp, two eyes.png]]
-| BEAST_FRONT_GRASP_EYE_TWO
-| rowspan="2" | BEAST_FRONT_GRASP
-|-
-| monkey
-| [[File:Beast front grasp, two eyes, one tail.png]]
-| BEAST_FRONT_GRASP_EYE_TWO, BEAST_FRONT_GRASP_TAIL_ONE
-|-
-| primate, quadruped
-| [[File:Beast quadruped bulky.png]]
-| ''none''
-| rowspan="5" | BEAST_QUADRUPED_BULKY
-|-
-| capybara, cavy, koala, toad, wombat
-| [[File:Beast quadruped bulky, two eyes.png]]
-| BEAST_QUADRUPED_BULKY_EYE_TWO
-|-
-| ankylosaurid, armadillo, bear, beaver, bison, buffalo, bull, camel, ceratopsid, chinchilla, goat, gopher, hadrosaurid, hedgehog, hippopotamus, llama, loris, marmot, mole, panda, pig, porcupine, rhinoceros, sauropod, sheep, sloth, stegosaurid, tapir, warthog
-| [[File:Beast quadruped bulky, two eyes, one tail.png]]
-| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_TAIL_ONE
-|-
-| elephant, mammoth
-| [[File:Beast quadruped bulky, two eyes, one tail, trunk.png]]
-| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_TAIL_ONE, BEAST_QUADRUPED_BULKY_TRUNK
-|-
-| tortoise, turtle
-| [[File:Beast quadruped bulky, two eyes, shell.png]]
-| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_SHELL_FRONT
-|-
-| primate, quadruped
-| [[File:Beast quadruped slinky.png]]
-| ''none''
-| rowspan="3" | BEAST_QUADRUPED_SLINKY
-|-
-| frog
-| [[File:Beast quadruped slinky, two eyes.png]]
-| BEAST_QUADRUPED_SLINKY_EYE_TWO
-|-
-| alligator, anteater, antelope, badger, cat, chameleon, civet, coati, coyote, crocodile, deer, dimetrodon, donkey, elk, fox, gecko, gila monster, giraffe, hare, horse, hyena, iguana, jackal, kangaroo, lemur, lizard, mongoose, monitor, moose, mouse, newt, opossum, otter, pangolin, panther, rabbit, raccoon, rat, salamander, shrew, skink, skunk, squirrel, weasel, wolf, zebra
-| [[File:Beast quadruped slinky, two eyes, one tail.png]]
-| BEAST_QUADRUPED_SLINKY_EYE_TWO, BEAST_QUADRUPED_SLINKY_TAIL_ONE
-|-
-| walrus
-| [[File:Beast walrus, two eyes.png]]
-| BEAST_WALRUS_EYE_TWO
-| BEAST_WALRUS
-|}
+''(humanoid forms)'': alligator, anteater, antelope, armadillo, badger, bear, beaver, bison, buffalo, bull, camel, cat, chameleon, chinchilla, civet, coati, coyote, crocodile, deer, donkey, elk, fox, gecko, gila monster, giraffe, goat, gopher, hare, hedgehog, hippopotamus, horse, hyena, iguana, jackal, kangaroo, lemur, lizard, llama, loris, marmot, mole, mongoose, monitor, monkey, moose, mouse, newt, opossum, otter, panda, pangolin, panther, pig, porcupine, rabbit, raccoon, rat, rhinoceros, salamander, sheep, shrew, skink, skunk, sloth, squirrel, tapir, warthog, weasel, wolf, zebra| [[File:Beast humanoid, two eyes, one tail.png]]| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_TAIL_ONE|-| ''(humanoid forms)'': elephant, mammoth| [[File:Beast humanoid, two eyes, one tail, trunk.png]]| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_TAIL_ONE, BEAST_HUMANOID_TRUNK|-| ''(humanoid forms)'': tortoise, turtle| [[File:Beast humanoid, two eyes, shell.png]]| BEAST_HUMANOID_EYE_TWO, BEAST_HUMANOID_SHELL_BACK|-| ape| [[File:Beast front grasp, two eyes.png]]| BEAST_FRONT_GRASP_EYE_TWO| rowspan="2" | BEAST_FRONT_GRASP|-| monkey| [[File:Beast front grasp, two eyes, one tail.png]]| BEAST_FRONT_GRASP_EYE_TWO, BEAST_FRONT_GRASP_TAIL_ONE|-| primate, quadruped| [[File:Beast quadruped bulky.png]]| ''none''| rowspan="5" | BEAST_QUADRUPED_BULKY|-| capybara, cavy, koala, toad, wombat| [[File:Beast quadruped bulky, two eyes.png]]| BEAST_QUADRUPED_BULKY_EYE_TWO|-| ankylosaurid, armadillo, bear, beaver, bison, buffalo, bull, camel, ceratopsid, chinchilla, goat, gopher, hadrosaurid, hedgehog, hippopotamus, llama, loris, marmot, mole, panda, pig, porcupine, rhinoceros, sauropod, sheep, sloth, stegosaurid, tapir, warthog| [[File:Beast quadruped bulky, two eyes, one tail.png]]| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_TAIL_ONE|-| elephant, mammoth| [[File:Beast quadruped bulky, two eyes, one tail, trunk.png]]| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_TAIL_ONE, BEAST_QUADRUPED_BULKY_TRUNK|-| tortoise, turtle| [[File:Beast quadruped bulky, two eyes, shell.png]]| BEAST_QUADRUPED_BULKY_EYE_TWO, BEAST_QUADRUPED_BULKY_SHELL_FRONT|-| primate, quadruped| [[File:Beast quadruped slinky.png]]| ''none''| rowspan="3" | BEAST_QUADRUPED_SLINKY|-| frog| [[File:Beast quadruped slinky, two eyes.png]]| BEAST_QUADRUPED_SLINKY_EYE_TWO|-| alligator, anteater, antelope, badger, cat, chameleon, civet, coati, coyote, crocodile, deer, dimetrodon, donkey, elk, fox, gecko, gila monster, giraffe, hare, horse, hyena, iguana, jackal, kangaroo, lemur, lizard, mongoose, monitor, moose, mouse, newt, opossum, otter, pangolin, panther, rabbit, raccoon, rat, salamander, shrew, skink, skunk, squirrel, weasel, wolf, zebra| [[File:Beast quadruped slinky, two eyes, one tail.png]]| BEAST_QUADRUPED_SLINKY_EYE_TWO, BEAST_QUADRUPED_SLINKY_TAIL_ONE|-| walrus| [[File:Beast walrus, two eyes.png]]| BEAST_WALRUS_EYE_TWO| BEAST_WALRUS|}
 :'''*''' The (generic) humanoid rcp has two or no eyes (by default) depending on the type of beast/monster:
 ::2 eyes: bogeymen, experiments (intelligent humanoids), night trolls
 ::0 eyes: experiments (amalgamations), nightmares, everything else (which are elementals)

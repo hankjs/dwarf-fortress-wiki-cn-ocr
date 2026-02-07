@@ -16,18 +16,15 @@ So, this is acceptable:
 
 {{code|
 [NUMERIC_VERSION:1]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]
-}}
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1]}}
 But this isn't:
 {{code|
 [NUMERIC_VERSION:1.05]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1.0]
-}}
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:1.0]}}
 Nor is this:
 {{code|
 [NUMERIC_VERSION:1]
-[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5005]
-}}
+[EARLIEST_COMPATIBLE_NUMERIC_VERSION:5005]}}
 
 == My mod loads, but my creature/plant/entity won't ==
 Make sure the file has the correct name, and starts with the following lines:

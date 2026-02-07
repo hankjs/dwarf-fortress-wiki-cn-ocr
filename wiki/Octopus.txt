@@ -1,13 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=octopus_sprites.png
-|portrait=octopus_portrait.png
-|meat=2-10
-|fat=2-10
-|brain=0-1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=octopus_sprites.png|portrait=octopus_portrait.png|meat=2-10|fat=2-10|brain=0-1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

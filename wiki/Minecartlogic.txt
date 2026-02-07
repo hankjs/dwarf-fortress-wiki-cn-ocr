@@ -97,8 +97,7 @@ z+1
  
 OOO══O   OOO▲▲O
 track    ramp
-z+0
-}}
+z+0}}
 
 Larix's [[User:Larix/MPL/2|powerless logic gates]] avoid the reliability and latency issues that plague many minecart designs through the use of paired impulse ramps and hatches that control not just path, but direction of movement.  A minecart traveling the pictured circuit while the input hatch {{Raw Tile|¢|#0F0|#000}} is open will settle into a counter-clockwise path, regardless of the direction of its initial velocity.  Yet when the hatch becomes closed, the minecart cannot travel counter-clockwise, but instead is accelerated in the clockwise direction, onto the output plate {{Raw Tile|^|#F0F|#000}}.  It will then oscillate between the far east and far west ramps until the hatch is opened, at which point it will resume counter-clockwise motion.
 

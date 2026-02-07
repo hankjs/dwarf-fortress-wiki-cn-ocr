@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=naked_mole_dog_sprites.png
-|portrait=naked_mole_dog_portrait.png
-|wiki=no
-|contrib=no
-|bone=10-11
-|meat=12-13
-|fat=11-13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-}}
+{{Creaturelookup/0|image=naked_mole_dog_sprites.png|portrait=naked_mole_dog_portrait.png|wiki=no|contrib=no|bone=10-11|meat=12-13|fat=11-13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 

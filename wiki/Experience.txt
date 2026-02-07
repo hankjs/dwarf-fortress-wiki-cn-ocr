@@ -20,63 +20,13 @@ By looking at a dwarf's [[Thoughts and Preferences|thoughts and preferences]], t
 == Reported Experience ==
 A creature's exact amount of experience is never shown ([[DFHack]] can add it and the level number). To glean a general sense of how experienced a dwarf is, compare the dwarf's title with the table below. The title (and numbers added by DFHack) are shown on the skills tabs when viewing the dwarf's information.
 
-{| style="margin: 0 auto; border: 1px solid black; border-spacing: 0"
-|-
-| width="33%" style="border-right: 1px solid black;" |
+{| style="margin: 0 auto; border: 1px solid black; border-spacing: 0"|-| width="33%" style="border-right: 1px solid black;" |
 {| width="100%"
-! Lvl !! Title !! XP
-|-
-| 0 || None/Dabbling *    ||align="right"| 1
-|-
-| 1 || Novice       ||align="right"| 500
-|-
-| 2 || Adequate     ||align="right"| 1100
-|-
-| 3 || Competent    ||align="right"| 1800
-|-
-| 4 || Skilled      ||align="right"| 2600
-|-
-| 5 || Proficient ** ||align="right"| 3500
-|-
-| 6 || Talented     ||align="right"| 4500
-|}
-| width="33%" style="border-right: 1px solid black;" |
+! Lvl !! Title !! XP|-| 0 || None/Dabbling *    ||align="right"| 1|-| 1 || Novice       ||align="right"| 500|-| 2 || Adequate     ||align="right"| 1100|-| 3 || Competent    ||align="right"| 1800|-| 4 || Skilled      ||align="right"| 2600|-| 5 || Proficient ** ||align="right"| 3500|-| 6 || Talented     ||align="right"| 4500|}| width="33%" style="border-right: 1px solid black;" |
 {| width="100%"
-! Lvl !! Title !! XP
-|-
-| 7  || Adept        ||align="right"| 5600
-|-
-| 8  || Expert       ||align="right"| 6800
-|-
-| 9  || Professional ||align="right"| 8100
-|-
-| 10 || Accomplished ||align="right"| 9500
-|-
-| 11 || Great †        ||align="right"| 11000
-|-
-| 12 || Master       ||align="right"| 12600
-|-
-| 13 || High Master  ||align="right"| 14300
-|}
-| width="33%" |
+! Lvl !! Title !! XP|-| 7  || Adept        ||align="right"| 5600|-| 8  || Expert       ||align="right"| 6800|-| 9  || Professional ||align="right"| 8100|-| 10 || Accomplished ||align="right"| 9500|-| 11 || Great †        ||align="right"| 11000|-| 12 || Master       ||align="right"| 12600|-| 13 || High Master  ||align="right"| 14300|}| width="33%" |
 {| width="100%"
-! Lvl !! Title !! XP
-|-
-| 14 || Grand Master  ||align="right"| 16100
-|-
-| 15 || Legendary     ||align="right"| 18000
-|-
-| 16 || Legendary+1 ‡ ||align="right"| 20000
-|-
-| 17 || Legendary+2 ‡ ||align="right"| 22100
-|-
-| 18 || Legendary+3 ‡ ||align="right"| 24300
-|-
-| 19 || Legendary+4 ‡ ||align="right"| 26600
-|-
-| 20 || Legendary+5 ‡ ||align="right"| 29000
-|}
-|}
+! Lvl !! Title !! XP|-| 14 || Grand Master  ||align="right"| 16100|-| 15 || Legendary     ||align="right"| 18000|-| 16 || Legendary+1 ‡ ||align="right"| 20000|-| 17 || Legendary+2 ‡ ||align="right"| 22100|-| 18 || Legendary+3 ‡ ||align="right"| 24300|-| 19 || Legendary+4 ‡ ||align="right"| 26600|-| 20 || Legendary+5 ‡ ||align="right"| 29000|}|}
 To reach ''Novice'' level in any skill requires 500 XP. Reaching each successive level requires 500 plus an additional 100 XP per additional rank, so to go from ''Novice'' to ''Adequate'' requires 600 XP; ''Adequate'' to ''Competent'' requires 700 XP, and so on. So, with most skills, getting an unskilled dwarf to Novice (Level 1) will take 17 tasks, to get to Proficient (Level 5, the highest for a starting dwarf) will take 117 tasks total, and to get to Legendary will take 600 tasks total (without the right [[mood]]). It will take 484 ''additional'' tasks to skill a starting Level 5 dwarf up to Legendary.
 
 :''Notes:''

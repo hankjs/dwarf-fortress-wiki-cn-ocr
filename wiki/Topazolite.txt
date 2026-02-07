@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_topazolite_sprite.png
-|graphic2=rough_topazolite_sprite.png}}
+{{gemlookup/0|graphic=cut_topazolite_sprite.png|graphic2=rough_topazolite_sprite.png}}
 {{av}}
 
 '''Topazolite''' is a semi-precious [[gem]] that can be found in small [[cluster]]s in [[marble]].

@@ -33,173 +33,27 @@ They have, as of yet, no known powers or uses. [[Religion]]s seek to gather them
 ==List of remnants==
 There are unique sprites and different colors for primordial remnants, depending on the sphere they are attached to. Similar materials can have ambiguous spheres, and thus the powers a sphere grants are sometimes indeterminate on the remnant name alone.
 
-{| class="wikitable" style="width:;"
-|-
+{| class="wikitable" style="width:;"|-
 ! style="background:#c4c4c4;" | Icon
 ! style="background:#c4c4c4;" | Possible Sphere(s)
 ! style="background:#c4c4c4;" | Name
 ! style="background:#c4c4c4;" | Color
-! style="background:#c4c4c4;" | Possible Powers (based on sphere)
-|-
-| [[File:remnant_1.png]]
-| Default / None
-| glitchstuff
-| Black
-| —
-|-
-| [[File:remnant_2.png]]
-| Mountains, Minerals, Caverns
-| stone
-| style="background: {{fgcolor|0:1}}; color: #fff;"| Gray
-| '''Mountains''' – Ice Bolt, Suffocate, Cause Dizziness<br>
+! style="background:#c4c4c4;" | Possible Powers (based on sphere)|-| [[File:remnant_1.png]]| Default / None| glitchstuff| Black| —|-| [[File:remnant_2.png]]| Mountains, Minerals, Caverns| stone| style="background: {{fgcolor|0:1}}; color: #fff;"| Gray| '''Mountains''' – Ice Bolt, Suffocate, Cause Dizziness<br>
 '''Minerals''' – Propel<br>
-'''Caverns''' – Blind
-|-
-| [[File:remnant_3.png]]
-| Jewels
-| crystal
-| style="background: {{fgcolor|7:1}};"| White
-| '''Jewels''' – Propel
-|-
-| [[File:remnant_4.png]]
-| Chaos
-| chaos
-| style="background: {{fgcolor|4:1}}; color: #fff;"| Red
-| '''Chaos''' – Cause Pain, Blister, Bleeding, Nausea, Cause Dizziness
-|-
-| [[File:remnant_5.png]]
-| Darkness, Death, Nightmares
-| darkness
-| style="background: {{fgcolor|0:1}}; color: #fff;"| Black
-| '''Darkness''' – Blind<br>
+'''Caverns''' – Blind|-| [[File:remnant_3.png]]| Jewels| crystal| style="background: {{fgcolor|7:1}};"| White| '''Jewels''' – Propel|-| [[File:remnant_4.png]]| Chaos| chaos| style="background: {{fgcolor|4:1}}; color: #fff;"| Red| '''Chaos''' – Cause Pain, Blister, Bleeding, Nausea, Cause Dizziness|-| [[File:remnant_5.png]]| Darkness, Death, Nightmares| darkness| style="background: {{fgcolor|0:1}}; color: #fff;"| Black| '''Darkness''' – Blind<br>
 '''Death''' – Cause Pain, Paralysis, Blind, Suffocate<br>
-'''Nightmares''' – Propel, Cause Pain, Blister, Paralysis, Bleeding, Sicken (Cough Blood), Sicken (Vomit Blood), Nausea, Rot, Blind, Suffocate, Cause Dizziness
-|-
-| [[File:remnant_6.png]]
-| Dreams
-| dreamstuff
-| style="background: {{fgcolor|2:1}};"| Green
-| '''Dreams''' – Propel
-|-
-| [[File:remnant_7.png]]
-| Fire
-| fire
-| style="background: {{fgcolor|4:1}}; color: #fff;"| Red
-| '''Fire''' – Blister, Blind
-|-
-| [[File:remnant_8.png]]
-| Light
-| light
-| style="background: {{fgcolor|6:1}};"| Yellow
-| '''Light''' – Blind
-|-
-| [[File:remnant_9.png]]
-| Lightning
-| lightning
-| style="background: {{fgcolor|6:1}};"| Yellow
-| '''Lightning''' – Blind
-|-
-| [[File:remnant_10.png]]
-| Metals
-| metal
-| style="background: {{fgcolor|7:1}};"| Silver
-| '''Metals''' – Propel
-|-
-| [[File:remnant_11.png]]
-| Moon
-| [[moonstone]]
-| style="background: {{fgcolor|7:1}};"| White
-| '''Moon''' – Blind
-|-
-| [[File:remnant_12.png]]
-| Muck
-| [[mudstone]]
-| style="background: {{fgcolor|6:0}}; color: #fff;"| Brown
-| '''Muck''' – Nausea, Rot, Blind, Suffocate
-|-
-| [[File:remnant_13.png]]
-| Oceans, Water
-| ice
-| style="background: {{fgcolor|1:1}}; color: #fff;"| Blue
-| '''Oceans''' – Ice Bolt<br>
-'''Water''' – Ice Bolt, Suffocate
-|-
-| [[File:remnant_14.png]]
-| Plants
-| leaf
-| style="background: {{fgcolor|2:1}};"| Green
-| '''Plants''' – Propel
-|-
-| [[File:remnant_15.png]]
-| Salt
-| salt
-| style="background: {{fgcolor|7:1}};"| White
-| '''Salt''' – Paralysis, Nausea
-|-
-| [[File:remnant_16.png]]
-| Mist, Sky, Storms, Wind
-| cloudstuff
-| style="background: {{fgcolor|7:1}};"| White
-| '''Mist''' – Blind<br>
+'''Nightmares''' – Propel, Cause Pain, Blister, Paralysis, Bleeding, Sicken (Cough Blood), Sicken (Vomit Blood), Nausea, Rot, Blind, Suffocate, Cause Dizziness|-| [[File:remnant_6.png]]| Dreams| dreamstuff| style="background: {{fgcolor|2:1}};"| Green| '''Dreams''' – Propel|-| [[File:remnant_7.png]]| Fire| fire| style="background: {{fgcolor|4:1}}; color: #fff;"| Red| '''Fire''' – Blister, Blind|-| [[File:remnant_8.png]]| Light| light| style="background: {{fgcolor|6:1}};"| Yellow| '''Light''' – Blind|-| [[File:remnant_9.png]]| Lightning| lightning| style="background: {{fgcolor|6:1}};"| Yellow| '''Lightning''' – Blind|-| [[File:remnant_10.png]]| Metals| metal| style="background: {{fgcolor|7:1}};"| Silver| '''Metals''' – Propel|-| [[File:remnant_11.png]]| Moon| [[moonstone]]| style="background: {{fgcolor|7:1}};"| White| '''Moon''' – Blind|-| [[File:remnant_12.png]]| Muck| [[mudstone]]| style="background: {{fgcolor|6:0}}; color: #fff;"| Brown| '''Muck''' – Nausea, Rot, Blind, Suffocate|-| [[File:remnant_13.png]]| Oceans, Water| ice| style="background: {{fgcolor|1:1}}; color: #fff;"| Blue| '''Oceans''' – Ice Bolt<br>
+'''Water''' – Ice Bolt, Suffocate|-| [[File:remnant_14.png]]| Plants| leaf| style="background: {{fgcolor|2:1}};"| Green| '''Plants''' – Propel|-| [[File:remnant_15.png]]| Salt| salt| style="background: {{fgcolor|7:1}};"| White| '''Salt''' – Paralysis, Nausea|-| [[File:remnant_16.png]]| Mist, Sky, Storms, Wind| cloudstuff| style="background: {{fgcolor|7:1}};"| White| '''Mist''' – Blind<br>
 '''Sky''' – Propel<br>
 '''Storms''' – Ice Bolt, Propel<br>
-'''Wind''' – Propel
-|-
-| [[File:remnant_17.png]]
-| Stars
-| stardust
-| style="background: {{fgcolor|6:1}};"| Yellow
-| '''Stars''' – Blind
-|-
-| [[File:remnant_18.png]]
-| Sun
-| [[sunstone]]
-| style="background: {{fgcolor|6:1}};"| Yellow
-| '''Sun''' – Blister, Blind
-|-
-| [[File:remnant_19.png]]
-| Trees
-| wood
-| style="background: {{fgcolor|6:0}}; color: #fff;"| Brown
-| '''Trees''' – Propel
-|- 
-| [[File:remnant_20.png]]
-| Volcanoes
-| [[obsidian]]
-| style="background: {{fgcolor|4:1}}; color: #fff;"| Red
-| '''Volcanoes''' – Propel
-|}
+'''Wind''' – Propel|-| [[File:remnant_17.png]]| Stars| stardust| style="background: {{fgcolor|6:1}};"| Yellow| '''Stars''' – Blind|-| [[File:remnant_18.png]]| Sun| [[sunstone]]| style="background: {{fgcolor|6:1}};"| Yellow| '''Sun''' – Blister, Blind|-| [[File:remnant_19.png]]| Trees| wood| style="background: {{fgcolor|6:0}}; color: #fff;"| Brown| '''Trees''' – Propel|- | [[File:remnant_20.png]]| Volcanoes| [[obsidian]]| style="background: {{fgcolor|4:1}}; color: #fff;"| Red| '''Volcanoes''' – Propel|}
 
 ==Equipment==
 [[Jewelry]] and [[weapon]]s made from primordial remnants are found in [[mysterious dungeon]]s and palaces, respectively. These items are also [[Magic|magical]], granting the wielder use of an {{Adv menu icon|X}} [[interaction]]. Weapons made from these materials are as strong as [[divine metal]], and use the same set of special graphics. The powers are based on the sphere of the primordial remnant, see the above table. For more information on magic powers and their effects, see [[intelligent undead]].
 
 ==List of powers==
-{| class="wikitable"
-|-
-! Icon !! Power !! Flavor text
-|-
-| [[File:icon_ice_bolt.png]] || '''Ice Bolt''' || ''This item shimmers with frost.''
-|-
-| [[File:icon_propel_away.png]] || '''Propel Away''' || ''Air swirls around this item.''
-|-
-| [[File:icon_pain.png]] || '''Pain''' || ''This item feels sinister.''
-|-
-| [[File:icon_paralyze.png]] || '''Paralysis''' || ''This item feels strangely still.''
-|-
-| [[File:icon_blisters.png]] || '''Blisters''' || ''This item feels prickly.''
-|-
-| [[File:icon_sicken_anim.gif]] || '''Sicken''' || ''This item is unsettling.''
-|-
-| [[File:icon_bleeding.png]] || '''Bleeding''' || N/A
-|-
-| [[File:icon_blind.png]] || '''Blind''' || ''This item is difficult to look at.''
-|-
-| [[File:icon_rot.png]] || '''Rot''' || ''This item smells foul.''
-|-
-| [[File:icon_dizziness.png]] || '''Dizziness''' || ''This item seems to spin in place.''
-|-
-| [[File:icon_suffocate.png]] || '''Suffocate''' || ''This item whistles quietly.''
-
+{| class="wikitable"|-
+! Icon !! Power !! Flavor text|-| [[File:icon_ice_bolt.png]] || '''Ice Bolt''' || ''This item shimmers with frost.''|-| [[File:icon_propel_away.png]] || '''Propel Away''' || ''Air swirls around this item.''|-| [[File:icon_pain.png]] || '''Pain''' || ''This item feels sinister.''|-| [[File:icon_paralyze.png]] || '''Paralysis''' || ''This item feels strangely still.''|-| [[File:icon_blisters.png]] || '''Blisters''' || ''This item feels prickly.''|-| [[File:icon_sicken_anim.gif]] || '''Sicken''' || ''This item is unsettling.''|-| [[File:icon_bleeding.png]] || '''Bleeding''' || N/A|-| [[File:icon_blind.png]] || '''Blind''' || ''This item is difficult to look at.''|-| [[File:icon_rot.png]] || '''Rot''' || ''This item smells foul.''|-| [[File:icon_dizziness.png]] || '''Dizziness''' || ''This item seems to spin in place.''|-| [[File:icon_suffocate.png]] || '''Suffocate''' || ''This item whistles quietly.''
 |}
 
 

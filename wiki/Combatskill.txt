@@ -22,51 +22,13 @@ In addition to speed, high armor skill also decreases your "clunkiness" with hea
 == Equipment skills ==
 [[File:armor_skill_preview.png|right]]Equipment skills are associated with the use of non-weapon equipment, and as a class increase dwarven survivability.
 * '''Armor User''' - related to how well a dwarf moves in [[armor]], and increases whenever a dwarf wearing armor attacks or is attacked, with triple the gain if the dwarf was actually struck on their armor. Higher levels of this skill reduces the encumbrance penalties of armor, allowing dwarves wearing full steel plate and shield to move at normal speed. Arena testing also indicates that armor users become tired less easily than non-armor wearers (300 vs 100 announcements vs bronze colossus). Because even leather [[clothes]] count as armor, this skill often appears at dabbling level on civilians who briefly struggle with a [[kobold]] [[thief]] or predatory animals. A creature with a [[Modding|tough enough body]] will also gain armor user skill when glancing blows are struck to their bare flesh([[Metal|?]]), though anything durable enough to do that would have little need for normal armor. Armor User skill possibly used for shield-based attacks.
-{| style="margin: 0 auto; border: 1px solid black; border-spacing: 0"
-|-
-| width="33%" style="border-right: 1px solid black;" |
+{| style="margin: 0 auto; border: 1px solid black; border-spacing: 0"|-| width="33%" style="border-right: 1px solid black;" |
 {| width="100%"
-! align="left" |Skill level !! align="left" |Armor weight
-|-
-| Novice/Dabbling || align="left" |×1.0
-|-
-| Adequate (2) || align="left" |×0.8125
-|-
-| Competent (3)    || align="left" |×0.75
-|-
-| Skilled (4)      || align="left" |×0.6875
-|-
-| Proficient (5)   || align="left" |×0.625
-|}
-| width="33%" style="border-right: 1px solid black;" |
+! align="left" |Skill level !! align="left" |Armor weight|-| Novice/Dabbling || align="left" |×1.0|-| Adequate (2) || align="left" |×0.8125|-| Competent (3)    || align="left" |×0.75|-| Skilled (4)      || align="left" |×0.6875|-| Proficient (5)   || align="left" |×0.625|}| width="33%" style="border-right: 1px solid black;" |
 {| width="100%"
-! align="left" |Skill level !! align="left" |Armor weight
-|-
-| Talented (6)     || align="left" |×0.5625
-|-
-| Adept (7)        || align="left" |×0.5
-|-
-| Expert (8)       || align="left" |×0.4375
-|-
-| Professional (9) || align="left" |×0.375
-|-
-| Accomplished (10) || align="left" |×0.3125
-|}
-| width="33%" |
+! align="left" |Skill level !! align="left" |Armor weight|-| Talented (6)     || align="left" |×0.5625|-| Adept (7)        || align="left" |×0.5|-| Expert (8)       || align="left" |×0.4375|-| Professional (9) || align="left" |×0.375|-| Accomplished (10) || align="left" |×0.3125|}| width="33%" |
 {| width="100%"
-! align="left" |Skill level !! align="left" |Armor weight
-|-
-| Great (11)        || align="left" |×0.25
-|-
-| Master (12)       || align="left" |×0.1875
-|-
-| High Master (13)  || align="left" |×0.125
-|-
-| Grand Master (14) || align="left" |×0.0625
-|-
-| Legendary (15+)    || align="left" |×0.0
-|}
-|}{{verify}}
+! align="left" |Skill level !! align="left" |Armor weight|-| Great (11)        || align="left" |×0.25|-| Master (12)       || align="left" |×0.1875|-| High Master (13)  || align="left" |×0.125|-| Grand Master (14) || align="left" |×0.0625|-| Legendary (15+)    || align="left" |×0.0|}|}{{verify}}
 
 * '''Shield User''' - increases whenever a dwarf uses a [[shield]] or [[buckler]] to block an attack, which is often. Shields increase the survivability of dwarves a great deal, and can block anything from a [[goblin]] axe to [[dragonfire]].
 

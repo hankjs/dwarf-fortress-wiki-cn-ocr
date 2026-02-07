@@ -1,10 +1,7 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
 * [[Food]]
-* [[Alcohol]]
-|graphic=bloated_tuber_shrub_sprite.png
-|seedimage=bloated_tuber_seeds_sprite.png
-|wiki=no}}
+* [[Alcohol]]|graphic=bloated_tuber_shrub_sprite.png|seedimage=bloated_tuber_seeds_sprite.png|wiki=no}}
 {{av}}
 '''Bloated tubers''' are an [[above ground|aboveground]] [[plant]]. They can be [[food|eaten raw]], [[cooking|cooked]] or [[brewing|brewed]] into <strike> vodka</strike> [[tuber beer]]. 
 

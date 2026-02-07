@@ -18,20 +18,8 @@ If a colony cannot be found after searching, set up a single hive and leave it f
 
 {{Main|Hive}}
 
-{| class="wikitable floatright"
-|+ Workshop and labor requirements
-! Material !! Workshop !! Labor
-|-
-| [[Ceramic]] || [[Kiln]] or [[magma kiln]] || [[Pottery]]
-|-
-| [[Glass]] || [[Glass furnace]] or [[magma glass furnace]] || [[Glassmaking]]
-|-
-| [[Metal]] || [[Metalsmith's forge]] or [[magma forge]] || [[Metalcrafting]]
-|-
-| [[Stone]] || [[Craftsdwarf's workshop]] || [[Stonecrafting]]
-|-
-| [[Wood]] || [[Craftsdwarf's workshop]] || [[Woodcrafting]]
-|}
+{| class="wikitable floatright"|+ Workshop and labor requirements
+! Material !! Workshop !! Labor|-| [[Ceramic]] || [[Kiln]] or [[magma kiln]] || [[Pottery]]|-| [[Glass]] || [[Glass furnace]] or [[magma glass furnace]] || [[Glassmaking]]|-| [[Metal]] || [[Metalsmith's forge]] or [[magma forge]] || [[Metalcrafting]]|-| [[Stone]] || [[Craftsdwarf's workshop]] || [[Stonecrafting]]|-| [[Wood]] || [[Craftsdwarf's workshop]] || [[Woodcrafting]]|}
 Hives are a [[tool]]. They can be made in a variety of hard materials from their respective [[workshop]]s and [[labor]]s. Beekeepers themselves do not craft them. Hives are stored in [[finished goods]] [[stockpile]]s.
 
 Hives can be built ({{Menu icon|b|o|f|h}}) on any hard surface, both indoors and outdoors from the Workshops FARMING tab. Only beekeepers can haul and place hives.

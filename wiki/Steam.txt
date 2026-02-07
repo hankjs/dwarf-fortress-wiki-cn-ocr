@@ -11,12 +11,7 @@ It has been reported that steam can be produced from rain falling on the blood o
 
 To build a continuous steam generator, build a magma-safe bridge over a [[magma flow]].  Connect a space containing the bridge to an ample reservoir of magma, and allow water to fall on it from above.  This will produce a continuous cloud of steam that spreads throughout surrounding squares.
 [[File:steam2.jpg|thumb|center|300px|Some dwarves should just stay on the patch.]]
-{{Translation
-| dwarven = keng
-| elvish  = tayolí
-| goblin  = gomux
-| human   = xaked
-}}
+{{Translation| dwarven = keng| elvish  = tayolí| goblin  = gomux| human   = xaked}}
 
 {{Category|World}}
 [[Ru:Steam]]

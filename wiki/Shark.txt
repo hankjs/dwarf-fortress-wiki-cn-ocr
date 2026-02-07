@@ -21,12 +21,7 @@ There are many kinds of sharks in ''Dwarf Fortress'':
 * [[Whale shark]]
 * [[Whitetip reef shark]]
 
-{{Translation
-| dwarven = taran
-| elvish  = cequova
-| goblin  = slångo
-| human   = gorhax
-}}
+{{Translation| dwarven = taran| elvish  = cequova| goblin  = slångo| human   = gorhax}}
 
 {{Category|Creatures}}
 {{Category|Animals}}

@@ -1,11 +1,7 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=kenaf_shrub_sprite.png
-|seedimage=kenaf_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=kenaf_shrub_sprite.png|seedimage=kenaf_seeds_sprite.png|uses=
 * [[Thread]]
-* [[Oil]]
-}}
+* [[Oil]]}}
 {{av}}
 
 '''Kenaf''' is an [[aboveground]] [[crop]] that is primarily used to make [[thread]] for the [[textile industry]]. 

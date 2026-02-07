@@ -34,11 +34,6 @@ Certain uncraftable containers, which may be obtained by [[modding]] or [[cheati
 * [[Egg]]shell
 * Miscellanous [[plant]] materials such as [[fruit]] and [[seed]]
 
-{{Translation
-| dwarven = fikod
-| elvish  = fifí
-| goblin  = ul
-| human   = cango
-}}
+{{Translation| dwarven = fikod| elvish  = fifí| goblin  = ul| human   = cango}}
 {{Category|Items}}
 [[ru:Glaze]]

@@ -7,29 +7,11 @@
 In vanilla ''Dwarf Fortress'', the raws define three types of ranged weapons, each with their own skill and ammo.
 
 {| class="wikitable"
-!colspan="4"  |Ranged Weapons
-|-
+!colspan="4"  |Ranged Weapons|-
 !Ranged Weapon
 !Ranged Skill
 !Melee Skill
-!Ammo
-|-
-|Crossbow
-|Marksdwarf
-|Hammerdwarf
-|Bolts
-|-
-|Bow
-|Bowman
-|Swordman
-|Arrows
-|-
-|Blowgun
-|Blowgunner
-|Swordman
-|Darts
-|-
-|}
+!Ammo|-|Crossbow|Marksdwarf|Hammerdwarf|Bolts|-|Bow|Bowman|Swordman|Arrows|-|Blowgun|Blowgunner|Swordman|Darts|-|}
 
 Of these, dwarves can only craft crossbows and bolts. Bows and blowguns are gained either through trade or recovery from downed enemies. If playing a modded game, replace crossbow in the following with one of the above weapons, and proper ammo type.
 

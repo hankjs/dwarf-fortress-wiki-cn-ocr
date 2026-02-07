@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_green_tree_frog_sprite.png
-|portrait=tree_frog_portrait.png
-|bone=17
-|meat=11-12
-|fat=11
-|eye=0
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|cartilage=1
-|contrib=no
-|wiki=no
-}}
+{{Creaturelookup/0|image=giant_green_tree_frog_sprite.png|portrait=tree_frog_portrait.png|bone=17|meat=11-12|fat=11|eye=0|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|cartilage=1|contrib=no|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

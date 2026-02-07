@@ -1,24 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=sea_monster_sprite.png
-|portrait=sea_monster_portrait.png
-|wiki=yes
-|contrib=no
-|meat=231
-|fat=19-24
-|brain=8-11
-|heart=4-5
-|lung=16-22
-|intestine=26-31
-|liver=8-11
-|kidney=8-10
-|tripe=8-11
-|sweetbread=4-5
-|eye=6
-|spleen=4-5
-|bone=23-32
-|skin=scale
-}}
+{{Creaturelookup/0|image=sea_monster_sprite.png|portrait=sea_monster_portrait.png|wiki=yes|contrib=no|meat=231|fat=19-24|brain=8-11|heart=4-5|lung=16-22|intestine=26-31|liver=8-11|kidney=8-10|tripe=8-11|sweetbread=4-5|eye=6|spleen=4-5|bone=23-32|skin=scale}}
 {{av}}
 {{creaturedesc}}
 

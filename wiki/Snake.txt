@@ -13,11 +13,6 @@
 {{minorspoiler}}
 * {{creature/multi variation list|fire snake|helmet snake|serpent man}}
 
-{{Translation
-| dwarven = therleth
-| elvish  = imaza
-| goblin  = slorust
-| human   = rosha
-}}
+{{Translation| dwarven = therleth| elvish  = imaza| goblin  = slorust| human   = rosha}}
 
 [[ru:Snake]]

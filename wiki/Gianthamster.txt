@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_hamster_sprite.png
-|portrait=hamster_portrait.png
-|bone=18
-|tooth=0-2
-|meat=13-14
-|fat=12-13
-|skull=1
-|skin=hide
-|hoof=4
-|eye=0-2
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_hamster_sprite.png|portrait=hamster_portrait.png|bone=18|tooth=0-2|meat=13-14|fat=12-13|skull=1|skin=hide|hoof=4|eye=0-2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Giant hamsters''' are just the giant versions of their vermin counterparts: the [[hamster]]. They are fairly uncommon and may appear in a small group within most savage biomes. They are benign and will not attempt to remove the entrails of [[dwarf|your bearded slaves]] even when attacked, this despite being slightly larger than [[grizzly bear]]s.

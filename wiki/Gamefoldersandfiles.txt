@@ -45,49 +45,7 @@ When sharing modded saves, you probably want to include the installed mods folde
 Called settings in game, user preferences are stored in the ``prefs`` folder in the above user data folder. Many of the defaults are stored in the ``data\init`` folder in the installation folder.
 
 == Key ==
-{| 
-| [[File:Folder-orange.svg|20px|link=]] Dwarf Fortress 
-| : Game folder
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] crashlogs         
-| : Created by the game when needed, the files it places here can be uploaded to the [https://kitfoxgames.notion.site/How-to-Report-Bugs-in-Dwarf-Fortress-Updated-Nov-2023-b5e2ca19dabe408897d1c2669599b7a2 Dwarf Fortress Bug Tracker] or the [[Kitfox Games]] discord.
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] data         
-| : Contains game content.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] art         
-| : Any images not loaded from vanilla graphics modules, for the main menu and classic ASCII mode.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] init        
-| : Default game settings.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] installed_mods 
-| : Folder of mod copies used when loading a world, actual location used depends on above portable mode setting.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] sound       
-| : Contains all audio and music files used in the game.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] vanilla     
-| : Contains all the vanilla modules and raw files.
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] licenses         
-| : Contains licenses for software libraries used in the game.
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] mods         
-| : Folder for downloaded mods before being used.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] mod_upload  
-| : Folder for uploading mods to Steam.
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] prefs        
-| : Contains current game settings files, actual location used depends on above portable mode setting.
-|-
-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] macros
-| : Folder where macros are saved, actual location used depends on above portable mode setting.
-|-
-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] save         
-| : Contains all save game files.
-|}
+{| | [[File:Folder-orange.svg|20px|link=]] Dwarf Fortress | : Game folder|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] crashlogs         | : Created by the game when needed, the files it places here can be uploaded to the [https://kitfoxgames.notion.site/How-to-Report-Bugs-in-Dwarf-Fortress-Updated-Nov-2023-b5e2ca19dabe408897d1c2669599b7a2 Dwarf Fortress Bug Tracker] or the [[Kitfox Games]] discord.|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] data         | : Contains game content.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] art         | : Any images not loaded from vanilla graphics modules, for the main menu and classic ASCII mode.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] init        | : Default game settings.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] installed_mods | : Folder of mod copies used when loading a world, actual location used depends on above portable mode setting.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] sound       | : Contains all audio and music files used in the game.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] vanilla     | : Contains all the vanilla modules and raw files.|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] licenses         | : Contains licenses for software libraries used in the game.|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] mods         | : Folder for downloaded mods before being used.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] mod_upload  | : Folder for uploading mods to Steam.|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] prefs        | : Contains current game settings files, actual location used depends on above portable mode setting.|-| &emsp;&emsp;&emsp;&#x25cf; [[File:Folder.svg|20px|link=]] macros| : Folder where macros are saved, actual location used depends on above portable mode setting.|-| &emsp;&#x25cf; [[File:Folder.svg|20px|link=]] save         | : Contains all save game files.|}
 
 {{files}}
 [[ru:Game folders and files]]

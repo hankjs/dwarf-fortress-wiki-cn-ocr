@@ -1,10 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|biome=None
-|death=nobutcher
-|contrib=no
-|wiki=Chimera (mythology)
-}}
+{{Creaturelookup/0|biome=None|death=nobutcher|contrib=no|wiki=Chimera (mythology)}}
 {{av}}
 '''Chimeras''' are [[fanciful]] [[creature]]s which are merely the stuff of [[legends]]. They do not actually exist, appearing only in [[engraving]]s as the fancy of artists.
 

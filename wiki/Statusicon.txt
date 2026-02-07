@@ -3,11 +3,7 @@
 [[File:status_icon_preview.png|right]]'''Status icons''' (also known as '''indicators''') are symbols that appear over a [[creature]]'s head or at one's feet when it is under a particular effect, summarised below. When a creature has multiple status icons, they will appear in succession. In ASCII mode, the icons appear on the creature's tile, rather than being above or below a creature. This is somewhat expanded in [[adventure mode]], where the last location or action of a creature is reported.
 
 == Icons ==
-{{dual image
-|premium=Image:status_icons_v50.png
-|classic=File:icons.gif
-|caption=All status icons. <small>(Click toggle for older ASCII icons)</small>
-|width=427px}}
+{{dual image|premium=Image:status_icons_v50.png|classic=File:icons.gif|caption=All status icons. <small>(Click toggle for older ASCII icons)</small>|width=427px}}
 
 With [[Premium version|premium graphics]], these icons appear above creatures. With [[Classic version|classic graphics]], they alternate with the {{Tile|☺|4:1}} tile.
 

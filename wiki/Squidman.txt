@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=squid_man_sprite.png
-|portrait=squid_man_portrait.png
-|contrib=no
-|death=nobutcher
-|wiki=no}}
+{{Creaturelookup/0|image=squid_man_sprite.png|portrait=squid_man_portrait.png|contrib=no|death=nobutcher|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''Squid men''' are [[animal people]] versions of the common [[squid]], who can be found in [[savage]] [[ocean]]s. They spawn in groups of 5-10 individuals and are generally content to keep to themselves. In terms of size, they are a little over half the weight of the average [[dwarf]].

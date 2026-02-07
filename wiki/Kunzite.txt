@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_kunzite_sprite.png
-|graphic2=rough_kunzite_sprite.png}}
+{{gemlookup/0|graphic=cut_kunzite_sprite.png|graphic2=rough_kunzite_sprite.png}}
 {{av}}
 
 '''Kunzite''' is a semi-precious [[gem]] found in small [[cluster]]s in [[granite]].

@@ -32,17 +32,8 @@ Nokörtorad was the first Kruggsmash series to feature the v50 premiun tileset /
 In the behind the scenes of episode 3 Kruggsmash explains his idea behind the Athira Etha series and why ended Nokörtorad for the sake of it.   
 
 == List of Episodes ==
-{| class="wikitable"
-|+ Caption text
-|-
-! # !! Title
-|-
-| 1 || [https://youtu.be/Ei0FiG_bPHg Nökortorad: Hunt for the Glacier's Eye, 1]
-|-
-| 2 || [https://youtu.be/A1qb787qi78?si=m9N3GpRfLFuKD81e Nökortorad: Hunt for the Glacier's Eye, 2]
-|-
-| 3 || [https://youtu.be/Ei0FiG_bPHg Nökortorad: Hunt for the Glacier's Eye, 3]
-|}
+{| class="wikitable"|+ Caption text|-
+! # !! Title|-| 1 || [https://youtu.be/Ei0FiG_bPHg Nökortorad: Hunt for the Glacier's Eye, 1]|-| 2 || [https://youtu.be/A1qb787qi78?si=m9N3GpRfLFuKD81e Nökortorad: Hunt for the Glacier's Eye, 2]|-| 3 || [https://youtu.be/Ei0FiG_bPHg Nökortorad: Hunt for the Glacier's Eye, 3]|}
 
 == Links ==
 [https://youtube.com/playlist?list=PLXX7Rp0iXj0l8MuOVuHwWuoCWEX3Y_5Wj&si=9iD_ooGyraNJ6gyc Nökortorad, Deadbody the complete series on YouTube]

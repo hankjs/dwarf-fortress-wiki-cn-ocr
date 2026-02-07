@@ -11,85 +11,18 @@ In adventure mode, the temperature of the player character's surroundings is alw
 
 ==Temperature scale==
 Temperatures in ''Dwarf Fortress'' are measured in the game's own, unnamed temperature scale, since termed "degrees [[Main:Urist|Urist]]" by the community. Temperatures in ''Dwarf Fortress'' are stored as sixteen-bit unsigned integers, which translates into a minimum value of 0&nbsp;°U and a technical maximum of 65535&nbsp;°U (2<sup>16</sup>-1), although this is internally limited to 60000&nbsp;°U, as 60001&nbsp;°U is used for temperatures which have been set to {{tt|NONE}}. Floating point values are not considered, and when they appear, any decimals are either sheared off or rounded away by the game. For example, the number 2999.999, would be rounded to 3000. Urists are scaled logically against the Fahrenheit scale, so conversions are non-intuitive:
-:{|
-|-
-|{{tt|[URIST]}}&nbsp;= || {{tt|[FAHRENHEIT]}} + 9968
-|-
-| ||{{tt|[RANKINE]}} + 9508.33
-|-
-| ||{{tt|[CELSIUS]}} * 9/5 + 10000
-|-
-| ||{{tt|[KELVIN]}} * 9/5 + 9508.33
-|}
+:{||-|{{tt|[URIST]}}&nbsp;= || {{tt|[FAHRENHEIT]}} + 9968|-| ||{{tt|[RANKINE]}} + 9508.33|-| ||{{tt|[CELSIUS]}} * 9/5 + 10000|-| ||{{tt|[KELVIN]}} * 9/5 + 9508.33|}
 According to Toady One in a [http://www.bay12forums.com/smf/index.php?topic=169696.msg8395484#msg8395484 Future of the Fortress post], the temperature scale used in the advanced worldgen settings is related to regular degrees Urist by the equation "local temp = world temp * 0.75 + 10000". This scale doesn't seem to be used anywhere else in the game.
 
 Some reference numbers:
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! Significance
 ! DF Scale
 ! worldgen
 ! Celsius (°C)
 ! Kelvin
 ! Fahrenheit (°F)
-! Rankine (°Ra)
-|- style="text-align:right;"
-| [[#Boiling point|Boiling point of water]]
-| 10180
-| 240.0
-| 100.00 °C
-| 373.150 K
-| 212.00 °F
-| 671.67 °Ra
-|- style="text-align:right;"
-| [[Creature token#HOMEOTHERM|Dwarven body temperature]]
-| 10067
-| 89.{{Macron|3}}
-| 37.2{{Macron|2}} °C
-| 310.37{{Macron|2}} K
-| 99.00 °F
-| 558.67 °Ra
-|- style="text-align:right;"
-| [[Water#Freezing point|Freezing point of water]]
-| 10000
-| 0.0
-| 0.00 °C
-| 273.150 K
-| 32.00 °F
-| 491.67 °Ra
-|- style="text-align:right;"
-| [[wikipedia:Ethanol (data page)|Freezing point of ≈89% ABV]]
-| 9850
-| -200.0
-| −83.3{{Macron|3}} °C
-| 189.81{{Macron|6}} K
-| −118.00 °F
-| 341.67 °Ra
-|- style="text-align:right;"
-| [[wikipedia:Absolute zero|Absolute zero]]
-| *9508
-| -656.0
-| −273.15 °C
-| 0 K
-| −459.67 °F
-| 0 °Ra
-|- style="text-align:right;"
-| Zero degrees Urist
-| 0
-| -13333.{{Macron|3}}
-| −5555.5{{Macron|5}} °C
-| −5282.40{{Macron|5}} K
-| −9968.00 °F
-| −9508.33 °Ra
-|- style="text-align:right;"
-| Highest possible temperature
-| 60000
-| 66666.{{Macron|6}}
-| 27777.7{{Macron|7}} °C
-| 28050.92{{Macron|7}} K
-| 50032.00 °F
-| 50491.67 °Ra
-|}
+! Rankine (°Ra)|- style="text-align:right;"| [[#Boiling point|Boiling point of water]]| 10180| 240.0| 100.00 °C| 373.150 K| 212.00 °F| 671.67 °Ra|- style="text-align:right;"| [[Creature token#HOMEOTHERM|Dwarven body temperature]]| 10067| 89.{{Macron|3}}| 37.2{{Macron|2}} °C| 310.37{{Macron|2}} K| 99.00 °F| 558.67 °Ra|- style="text-align:right;"| [[Water#Freezing point|Freezing point of water]]| 10000| 0.0| 0.00 °C| 273.150 K| 32.00 °F| 491.67 °Ra|- style="text-align:right;"| [[wikipedia:Ethanol (data page)|Freezing point of ≈89% ABV]]| 9850| -200.0| −83.3{{Macron|3}} °C| 189.81{{Macron|6}} K| −118.00 °F| 341.67 °Ra|- style="text-align:right;"| [[wikipedia:Absolute zero|Absolute zero]]| *9508| -656.0| −273.15 °C| 0 K| −459.67 °F| 0 °Ra|- style="text-align:right;"| Zero degrees Urist| 0| -13333.{{Macron|3}}| −5555.5{{Macron|5}} °C| −5282.40{{Macron|5}} K| −9968.00 °F| −9508.33 °Ra|- style="text-align:right;"| Highest possible temperature| 60000| 66666.{{Macron|6}}| 27777.7{{Macron|7}} °C| 28050.92{{Macron|7}} K| 50032.00 °F| 50491.67 °Ra|}
 
 <sup>＊</sup>Absolute Zero is rounded down internally to avoid decimals. If it was more-precisely converted, it would be 9508.33°U. Also interesting is the fact that temperatures in ''Dwarf Fortress'' can go ''far, far'' below absolute zero, which is physically impossible; considering ''Dwarf Fortress'' also allows [[water wheel#Perpetual motion|perpetual motion]], sometimes it's best not to ask questions.
 
@@ -100,119 +33,11 @@ Values with an {{Macron|overline}} are truncated values with ending numbers that
 An online temperature conversion utility can be found at https://jose96xd.github.io/DF_Tools/Modules/TemperatureConverter.html}}
 
 Examples of some temperatures encountered in ''Dwarf Fortress'', the most important ones in bold:
-{| class="wikitable sortable"
-|-
+{| class="wikitable sortable"|-
 ! Event / location
 ! Native °U
 ! °C
-! °F
-|- style="text-align:right;"
-| <abbr title="Freezing point of booze in game, equivalent to about 89% ABV aqueous solution in real life. 100% ethanol would freeze at about −114 °C ≈ 9795 °U.">Alcohol freezes</abbr>
-| 9850
-| -83.{{Macron|3}} °C
-| -118 °F
-|- style="text-align:right;"
-| '''<abbr title="Below this temperature, fat, present on all organic creatures, will start to take cold damage, eventually killing them.">Lowest survivable temperature</abbr>'''
-| '''9900'''
-| -55.{{Macron|5}} °C
-| -68 °F
-|- style="text-align:right;"
-| Outside, freezing climate (varies)
-| 9960
-| -22.{{Macron|2}} °C
-| -8 °F
-|- style="text-align:right;"
-| Underground, glacier ice
-| 9990
-| -5.{{Macron|5}} °C
-| 22 °F
-|- style="text-align:right;"
-| '''Water freezes'''
-| '''10000'''
-| 0 °C
-| 32 °F
-|- style="text-align:right;"
-| <abbr title="Nether-cap temperatures are fixed to 10000 degrees Urist, regardless of the surrounding environment.">Nether-cap</abbr>
-| 10000
-| 0 °C
-| 32 °F
-|- style="text-align:right;"
-| '''Underground'''
-| '''10015'''
-| 8.{{Macron|3}} °C
-| 47 °F
-|- style="text-align:right;"
-| [[Creature token#H|Dwarf/human homeotherm]]
-| 10067
-| 37.{{Macron|2}} °C
-| 99 °F
-|- style="text-align:right;"
-| Tiles next to [[magma]] ([[warm stone]])
-| 10075
-| 41.{{Macron|6}} °C
-| 107 °F
-|- style="text-align:right;"
-| '''<abbr title="Above this temperature, fat, present on all all organic creatures, will start to melt (turning into grease), eventually killing them.">Highest survivable temperature</abbr>'''
-| '''10078'''
-| 43.{{Macron|3}} °C
-| 110 °F
-|- style="text-align:right;"
-| Outside, [[Climate#Scorching|scorching climate]] (varies)
-| 10080
-| 44.{{Macron|4}} °C
-| 112 °F
-|- style="text-align:right;"
-| [[Water]] boils
-| 10180
-| 100 °C
-| 212 °F
-|- style="text-align:right;"
-| [[Fire|Ignition of organic materials]]
-| 10508
-| 282.{{Macron|2}} °C
-| 540 °F
-|- style="text-align:right;"
-| [[Wood]] [[fire]] (max)
-| 10708
-| 393.{{Macron|3}} °C
-| 740 °F
-|- style="text-align:right;"
-| Material is [[fire-safe]]
-| 11000
-| 555.{{Macron|5}} °C
-| 1,032 °F
-|- style="text-align:right;"
-| Common stone melts (varies)
-| 11500
-| 833.{{Macron|3}} °C
-| 1,532 °F
-|- style="text-align:right;"
-| [[Coal]] [[fire]] (max)
-| 11640
-| 911.{{Macron|1}} °C
-| 1,672 °F
-|- style="text-align:right;"
-| '''Magma'''
-| '''12000'''
-| 1,111.{{Macron|1}} °C
-| 2,032 °F
-|- style="text-align:right;"
-| Material is [[magma-safe]]
-| 12000
-| 1,111.{{Macron|1}} °C
-| 2,032 °F
-|- style="text-align:right;"
-| [[Creature]]s made of flame/fire
-| 14000
-| 2,222.{{Macron|2}} °C
-| 4,032 °F
-|- style="text-align:right;"
-| [[Dragonfire]]
-| 50000
-| 22,222.{{Macron|2}} °C
-| 40,032 °F
-|-
-|}
+! °F|- style="text-align:right;"| <abbr title="Freezing point of booze in game, equivalent to about 89% ABV aqueous solution in real life. 100% ethanol would freeze at about −114 °C ≈ 9795 °U.">Alcohol freezes</abbr>| 9850| -83.{{Macron|3}} °C| -118 °F|- style="text-align:right;"| '''<abbr title="Below this temperature, fat, present on all organic creatures, will start to take cold damage, eventually killing them.">Lowest survivable temperature</abbr>'''| '''9900'''| -55.{{Macron|5}} °C| -68 °F|- style="text-align:right;"| Outside, freezing climate (varies)| 9960| -22.{{Macron|2}} °C| -8 °F|- style="text-align:right;"| Underground, glacier ice| 9990| -5.{{Macron|5}} °C| 22 °F|- style="text-align:right;"| '''Water freezes'''| '''10000'''| 0 °C| 32 °F|- style="text-align:right;"| <abbr title="Nether-cap temperatures are fixed to 10000 degrees Urist, regardless of the surrounding environment.">Nether-cap</abbr>| 10000| 0 °C| 32 °F|- style="text-align:right;"| '''Underground'''| '''10015'''| 8.{{Macron|3}} °C| 47 °F|- style="text-align:right;"| [[Creature token#H|Dwarf/human homeotherm]]| 10067| 37.{{Macron|2}} °C| 99 °F|- style="text-align:right;"| Tiles next to [[magma]] ([[warm stone]])| 10075| 41.{{Macron|6}} °C| 107 °F|- style="text-align:right;"| '''<abbr title="Above this temperature, fat, present on all all organic creatures, will start to melt (turning into grease), eventually killing them.">Highest survivable temperature</abbr>'''| '''10078'''| 43.{{Macron|3}} °C| 110 °F|- style="text-align:right;"| Outside, [[Climate#Scorching|scorching climate]] (varies)| 10080| 44.{{Macron|4}} °C| 112 °F|- style="text-align:right;"| [[Water]] boils| 10180| 100 °C| 212 °F|- style="text-align:right;"| [[Fire|Ignition of organic materials]]| 10508| 282.{{Macron|2}} °C| 540 °F|- style="text-align:right;"| [[Wood]] [[fire]] (max)| 10708| 393.{{Macron|3}} °C| 740 °F|- style="text-align:right;"| Material is [[fire-safe]]| 11000| 555.{{Macron|5}} °C| 1,032 °F|- style="text-align:right;"| Common stone melts (varies)| 11500| 833.{{Macron|3}} °C| 1,532 °F|- style="text-align:right;"| [[Coal]] [[fire]] (max)| 11640| 911.{{Macron|1}} °C| 1,672 °F|- style="text-align:right;"| '''Magma'''| '''12000'''| 1,111.{{Macron|1}} °C| 2,032 °F|- style="text-align:right;"| Material is [[magma-safe]]| 12000| 1,111.{{Macron|1}} °C| 2,032 °F|- style="text-align:right;"| [[Creature]]s made of flame/fire| 14000| 2,222.{{Macron|2}} °C| 4,032 °F|- style="text-align:right;"| [[Dragonfire]]| 50000| 22,222.{{Macron|2}} °C| 40,032 °F|-|}
 
 ==Material values==
 {{Material properties}}

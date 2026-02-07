@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=cougar_man_sprite.png
-|portrait=cougar_man_portrait.png}}
+{{Creaturelookup/0|image=cougar_man_sprite.png|portrait=cougar_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

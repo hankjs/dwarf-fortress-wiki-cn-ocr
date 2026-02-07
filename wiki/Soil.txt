@@ -3,67 +3,16 @@
 {{Quality|Fine}}
 [[File:soil_preview.png|thumb|270px|right|Probably not enough for 80 dwarves.]]'''Soil''' is the name for the various kinds of ground that can be [[farming|planted]] on (both above and below ground) without [[irrigation]] using [[water]].  In ''Dwarf Fortress'', the category of "Soil" includes all types of sand, [[clay]], ooze and any "non-stone" layer equally, even if you or I generally don't associate that substance with "growing plants".
 
-{{Translation
-| dwarven = adur
-| elvish  = avi
-| goblin  = snustrok
-| human   = ocul
-}}
+{{Translation| dwarven = adur| elvish  = avi| goblin  = snustrok| human   = ocul}}
 {| class="wikitable" cellspacing="0" border="1" cellpadding="5"
 ! Topsoil
-! Tile
-|-
-|[[Loam]]||{{Raw Tile|░|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Loamy sand]]||{{Raw Tile|▒|6:6:1}}{{Raw Tile|.|6:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Peat]]||{{Raw Tile|░|0:6:1}}{{Raw Tile|.|0:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Sandy clay loam]]||{{Raw Tile|░|4:6:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Sandy loam]]||{{Raw Tile|░|6:6:1}}{{Raw Tile|.|6:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Silt]]||{{Raw Tile|▓|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Silty clay loam]]||{{Raw Tile|░|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Silt loam]]||{{Raw Tile|▒|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}
-|-
+! Tile|-|[[Loam]]||{{Raw Tile|░|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}|-|[[Loamy sand]]||{{Raw Tile|▒|6:6:1}}{{Raw Tile|.|6:1}} {{Raw Tile|≈|3:1:1}}|-|[[Peat]]||{{Raw Tile|░|0:6:1}}{{Raw Tile|.|0:1}} {{Raw Tile|≈|3:1:1}}|-|[[Sandy clay loam]]||{{Raw Tile|░|4:6:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}|-|[[Sandy loam]]||{{Raw Tile|░|6:6:1}}{{Raw Tile|.|6:1}} {{Raw Tile|≈|3:1:1}}|-|[[Silt]]||{{Raw Tile|▓|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}|-|[[Silty clay loam]]||{{Raw Tile|░|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}|-|[[Silt loam]]||{{Raw Tile|▒|6:7:0}}{{Raw Tile|.|6:0}} {{Raw Tile|≈|3:1:1}}|-
 ! Ocean Floor
-! Tile
-|-
-|[[Pelagic clay]]||{{Raw Tile|░|4:6:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Siliceous ooze]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Calcareous ooze]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}
-|-
+! Tile|-|[[Pelagic clay]]||{{Raw Tile|░|4:6:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}|-|[[Siliceous ooze]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}|-|[[Calcareous ooze]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}} {{Raw Tile|≈|3:1:1}}|-
 ! [[Sand]]
-! Tile
-|-
-|[[Sand (tan)]]||{{Raw Tile|░|6:4:1}}{{Raw Tile|≈|6:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Black sand]]||{{Raw Tile|▓|0:6:1}}{{Raw Tile|≈|0:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Red sand]]||{{Raw Tile|░|4:4:1}}{{Raw Tile|≈|4:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[White sand]]||{{Raw Tile|▓|7:6:1}}{{Raw Tile|≈|7:1}} {{Raw Tile|≈|3:1:1}}
-|-
-|[[Yellow sand]]||{{Raw Tile|▓|6:6:1}}{{Raw Tile|≈|6:1}} {{Raw Tile|≈|3:1:1}}
-|-
+! Tile|-|[[Sand (tan)]]||{{Raw Tile|░|6:4:1}}{{Raw Tile|≈|6:1}} {{Raw Tile|≈|3:1:1}}|-|[[Black sand]]||{{Raw Tile|▓|0:6:1}}{{Raw Tile|≈|0:1}} {{Raw Tile|≈|3:1:1}}|-|[[Red sand]]||{{Raw Tile|░|4:4:1}}{{Raw Tile|≈|4:1}} {{Raw Tile|≈|3:1:1}}|-|[[White sand]]||{{Raw Tile|▓|7:6:1}}{{Raw Tile|≈|7:1}} {{Raw Tile|≈|3:1:1}}|-|[[Yellow sand]]||{{Raw Tile|▓|6:6:1}}{{Raw Tile|≈|6:1}} {{Raw Tile|≈|3:1:1}}|-
 ! Clay
-! Tile
-|-
-|[[Clay]]||{{Raw Tile|▓|4:6:0}}{{Raw Tile|.|4:0}}
-|-
-|[[Clay loam]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}}
-|-
-|[[Sandy clay]]||{{Raw Tile|▒|4:6:0}}{{Raw Tile|.|4:0}}
-|-
-|[[Silty clay]]||{{Raw Tile|▓|4:7:0}}{{Raw Tile|.|4:0}}
-|-
-|[[Fire clay]]||{{Raw Tile|▓|4:6:0}}{{Raw Tile|.|4:0}}
-|}
+! Tile|-|[[Clay]]||{{Raw Tile|▓|4:6:0}}{{Raw Tile|.|4:0}}|-|[[Clay loam]]||{{Raw Tile|▒|4:7:0}}{{Raw Tile|.|4:0}}|-|[[Sandy clay]]||{{Raw Tile|▒|4:6:0}}{{Raw Tile|.|4:0}}|-|[[Silty clay]]||{{Raw Tile|▓|4:7:0}}{{Raw Tile|.|4:0}}|-|[[Fire clay]]||{{Raw Tile|▓|4:6:0}}{{Raw Tile|.|4:0}}|}
 '''Notes:'''
 * The "topsoil" types listed in the upper part of the table do '''not''' count as [[sand]] for [[glass]]making, even if their names include the word "sand" - only those in the "Sand" section are usable for this purpose.
 * The 3 "ocean floor" layers are only found under deep [[ocean]] tiles, usually far out from any embarkable site. Thus, they can rarely, if ever be encountered, in either [[fortress mode]] or [[adventurer mode]].

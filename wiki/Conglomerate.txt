@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=conglomerate_sprite.png}}
+{{stonelookup/0|graphic=conglomerate_sprite.png}}
 {{av}}
 
 '''Conglomerate''' is one of many [[sedimentary layer]] [[stone]]s. It is notable for not only supporting [[aquifer]]s, but also frequently containing large [[cluster]]s of [[puddingstone]] which will '''also''' support the aquifer.

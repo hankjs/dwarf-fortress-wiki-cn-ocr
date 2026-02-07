@@ -7,34 +7,14 @@ A single "Make cheese" job will take a barrel of milk to the workshop and produc
 
 The milk of any milk-producing animal can be converted to cheese. With the exception of dwarven cheese, which is made from [[dwarven milk]], all cheeses are priced at the value of 10☼.
 
-{{Translation
-| dwarven = shokmug
-| elvish  = fetha
-| goblin  = ursus
-| human   = anig
-}}Note that while milk in a barrel won't rot, cheese outside a food [[stockpile]] will.
+{{Translation| dwarven = shokmug| elvish  = fetha| goblin  = ursus| human   = anig}}Note that while milk in a barrel won't rot, cheese outside a food [[stockpile]] will.
 
-{| class="wikitable"
-|+'''Cheese pricing and trade information'''
-|-
+{| class="wikitable"|+'''Cheese pricing and trade information'''|-
 ! Name
 ! Price
 ! Dwarven trade good
 ! Human trade good
-! Elven trade good
-|-
-| Dwarven cheese
-| 20☼
-| No<sup>1</sup>
-| No
-| No
-|-
-| Other cheeses
-| 10☼
-| Yes
-| Yes
-| No
-|}
+! Elven trade good|-| Dwarven cheese| 20☼| No<sup>1</sup>| No| No|-| Other cheeses| 10☼| Yes| Yes| No|}
 
 <sup>1</sup>: By default, dwarven milk or cheese is not available on embark or dwarven caravans {{Bug|1449}}.  See [[Caverns#Caravan and embark item availability|this section]] for a workaround.
 

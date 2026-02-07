@@ -160,20 +160,7 @@ You can move around using {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}
 
 === Status and information ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|l}}
-| Look around
-|-
-| {{k|Space}}
-| Advance/Clear Messages
-|-
-| {{Menu icon|a}}
-| View Announcements
-|-
-| {{Adv menu icon|z}}
-| Status
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|l}}| Look around|-| {{k|Space}}| Advance/Clear Messages|-| {{Menu icon|a}}| View Announcements|-| {{Adv menu icon|z}}| Status|}
 
 ==== Looking around ====
 
@@ -195,14 +182,7 @@ Hit the {{Menu icon|Esc}} key at any time and select {{DFtext|Save Game}} to sav
 
 === Searching and manipulating ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|u}}
-| Interact with building, furniture, or mechanism
-|-
-| {{Adv menu icon|L}}
-| Search the nearby area very carefully
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|u}}| Interact with building, furniture, or mechanism|-| {{Adv menu icon|L}}| Search the nearby area very carefully|}
 
 The {{k|u}} key can be used to do stuff like pull levers in an abandoned fort, or lower and raise the bucket when standing right next to a well; so you can get water to refill your waterskin with.
 
@@ -210,32 +190,7 @@ The {{k|u}} key can be used to do stuff like pull levers in an abandoned fort, o
 
 === [[Adventurer mode gameplay#Managing equipment|Managing equipment]] ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|i}}
-| Show Inventory
-|-
-| {{Adv menu icon|d}}
-| Drop an item
-|-
-| {{Adv menu icon|g}}
-| Get (pickup) an item off the ground
-|-
-| {{Adv menu icon|p}}
-| Put an item into a container
-|-
-| {{Adv menu icon|r}}
-| Remove an item you are wearing or from a container
-|-
-| {{Adv menu icon|w}}
-| Wear an item
-|-
-| {{Adv menu icon|I}}
-| Interact with an object in an advanced way (unstick a [[weapon]], refill a [[waterskin]], etc.).
-|-
-| {{Adv menu icon|q}}
-| Sheath your weapons and shield (frees your hands for tasks such as climbing or grabbing). 
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|i}}| Show Inventory|-| {{Adv menu icon|d}}| Drop an item|-| {{Adv menu icon|g}}| Get (pickup) an item off the ground|-| {{Adv menu icon|p}}| Put an item into a container|-| {{Adv menu icon|r}}| Remove an item you are wearing or from a container|-| {{Adv menu icon|w}}| Wear an item|-| {{Adv menu icon|I}}| Interact with an object in an advanced way (unstick a [[weapon]], refill a [[waterskin]], etc.).|-| {{Adv menu icon|q}}| Sheath your weapons and shield (frees your hands for tasks such as climbing or grabbing). |}
 
 Press {{Adv menu icon|i}} to display a list of what you are currently carrying. Press {{k|-}} {{k|+}} {{k|*}} {{k|/}} to scroll through the list—it will show you if items are being worn, held in the hands, stuck on your body, or are inside a container. Detailed information about an object can be viewed by pressing the key associated with the item.
 
@@ -255,11 +210,7 @@ You can see the current date ({{k|D}}), temperature ({{k|P}}) and time and weath
 
 === [[Adventurer mode gameplay#Sleep|Sleep]] ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|Z}}
-| Sleep/wait
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|Z}}| Sleep/wait|}
 
 Eventually, your character will become drowsy, and this will get worse until you get sufficient [[sleep]]. 
 
@@ -267,11 +218,7 @@ As of 0.47.01, bogeymen are restricted to two kinds of evil regions, but you can
 
 === [[Adventurer mode gameplay#Eat and drink|Eat and drink]] ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|e}}
-| [[Eat]] or [[drink]] something
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|e}}| [[Eat]] or [[drink]] something|}
 
 To find water, you must find a [[river]] or stream, or a [[well]] in a town, and fill your waterskin (or any container) from it, or drink from it directly. You can also pick up snow and melt it by interacting with a campfire, fill containers from barrels of booze in human taverns, lick the blood of your enemies from your weapon, or, in dire straits, even drink your own tears.
 
@@ -279,33 +226,7 @@ To find water, you must find a [[river]] or stream, or a [[well]] in a town, and
 
 {{main|Combat#Adventurer mode}}
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}} / {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}
-| Attack adjacent hostile creature
-|-
-|-
-| {{k|5}}
-| Attack hostile on same tile
-|-
-| {{Adv menu icon|A}}
-| [[Attack]] an adjacent creature
-|-
-| {{Adv menu icon|W}}
-| Wrestle an adjacent creature
-|-
-| {{Adv menu icon|f}}
-| Fire a projectile
-|-
-| {{k|t}}
-| Throw an item
-|-
-| {{Adv menu icon|j}}
-| Jump
-|-
-| {{Adv menu icon|C}}
-| Open combat preferences interface
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}} / {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}| Attack adjacent hostile creature|-|-| {{k|5}}| Attack hostile on same tile|-| {{Adv menu icon|A}}| [[Attack]] an adjacent creature|-| {{Adv menu icon|W}}| Wrestle an adjacent creature|-| {{Adv menu icon|f}}| Fire a projectile|-| {{k|t}}| Throw an item|-| {{Adv menu icon|j}}| Jump|-| {{Adv menu icon|C}}| Open combat preferences interface|}
 
 Combat includes attacking with or without weapons, aiming attacks, wrestling, archery, throwing, charging, jumping, dodging, blocking, and parrying. See the main article for details, this is just a summary of the keys.
 
@@ -347,35 +268,7 @@ If you aren't interested in wasting carrying capacity on worthless trinkets when
 
 === Quest log ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|Q}}
-| Open quest log
-|-
-| {{k|Esc}}
-| Exit quest log
-|-
-| {{k|e}} {{k|p}} {{k|a}} {{k|s}} {{k|r}} {{k|b}}
-| Access various lists
-|-
-| {{k|m}}
-| Switch between the world map and additional info
-|-
-| {{k|z}}
-| Center cursor on location of selected list item, if known
-|-
-| {{k|c}}
-| Center cursor on your location
-|-
-| {{k|l}}
-| Toggle the visibility of the line between you and some other point on the map.
-|-
-| {{k|f}}
-| Filter the list
-|-
-| {{k|+}} {{k|-}} {{k|*}} {{k|/}}
-| Navigate the list
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|Q}}| Open quest log|-| {{k|Esc}}| Exit quest log|-| {{k|e}} {{k|p}} {{k|a}} {{k|s}} {{k|r}} {{k|b}}| Access various lists|-| {{k|m}}| Switch between the world map and additional info|-| {{k|z}}| Center cursor on location of selected list item, if known|-| {{k|c}}| Center cursor on your location|-| {{k|l}}| Toggle the visibility of the line between you and some other point on the map.|-| {{k|f}}| Filter the list|-| {{k|+}} {{k|-}} {{k|*}} {{k|/}}| Navigate the list|}
 
 The quest log contains everything you know about the world, such as various events going on, people you know, and various sites. The {{k|m}} key will alternate between a world map that you can navigate, and information on whatever item is highlighted in the list to the right.
 
@@ -391,32 +284,17 @@ There are various kinds of lists you can check on the quest log:
 
 === [[Adventurer mode gameplay#Create|Create]]===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|x}}
-| Craft (butcher, create item...)
-|-
-| {{Adv menu icon|P}}
-| Compose or [[Performer|perform]]
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|x}}| Craft (butcher, create item...)|-| {{Adv menu icon|P}}| Compose or [[Performer|perform]]|}
 
 Adventurers can perform limited crafting. To access the crafting menu, press {{k|x}} - you can sharpen rocks, assemble stone axes, carve bones, make wooden furniture, butcher [[corpse]]s, or compose songs or dances (to do that, or write books and scrolls, press {{k|P}}).
 
 === [[Adventurer mode gameplay#Natural abilities and acquired powers|Interactions]] ===
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|X}}
-| Use ability
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|X}}| Use ability|}
 Natural abilities (spitting, breathing fire, etc.) and acquired powers (such as raising [[undead]]) are utilized via this menu.
 
 === [[Adventurer mode gameplay#Woodcutting, building and site management|Site management]] ===
 
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{Adv menu icon|b}}
-| Found a site and build
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{Adv menu icon|b}}| Found a site and build|}
 
 Adventurers can chop down trees for [[wood|resources]]—however, building and site planning are not currently functional. Neither chopping down trees nor constructing sites can be performed in existing locations, such as [[town]]s. Building was originally intended to require wooden logs, which would normally be acquired by chopping down trees. With a ''non-wooden'' axe in hand, pressing {{Adv menu icon|g}} next to a tree would allow you to chop it down.
 

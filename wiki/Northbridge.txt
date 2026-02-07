@@ -38,30 +38,8 @@ A set of voxel renderings of Northbridge can be seen [https://plule.github.io/vo
 Northbridge inspired a Redditor to recreate the fortress [https://www.reddit.com/r/dwarffortress/comments/1341plh/i_built_two_intercontinental_bridges_in_tribute/ extensively documenting the process]
 
 == Episode List ==
-{| class="wikitable"
-|-
-! # !! Title  
-|-
-| 1 || [https://youtu.be/M0YzooOyiYQ The Road to Riches]
-|-
-| 2 || [https://youtu.be/7EcNjTnl-dc Friends & Foes] 
-|-
-| 3 || [https://youtu.be/XM-7ZuL1ACY Idrath's Blessings] 
-|-
-| 4 || [https://youtu.be/bk7aVoPxoKA Danger's Crossing] 
-|-
-| 5 || [https://youtu.be/aXPnSwPK9Pk Jealous Neighbors] 
-|-
-| 6 || [https://youtu.be/aXPnSwPK9Pk War of Wood and Water]
-|-
-| 7 || [https://youtu.be/lSkR06BrI2Y The Battle of Northbridge]
-|-
-| 8 || [https://youtu.be/DqCGp5Ccaaw Water..Works?]
-|-
-| 9 || [https://youtu.be/wJFj63SolPY Cavern Crescendos]
-|-
-| 10 || [https://youtu.be/UXb6N3EKVgU Wealth Beyond Measure] 
-|}
+{| class="wikitable"|-
+! # !! Title  |-| 1 || [https://youtu.be/M0YzooOyiYQ The Road to Riches]|-| 2 || [https://youtu.be/7EcNjTnl-dc Friends & Foes] |-| 3 || [https://youtu.be/XM-7ZuL1ACY Idrath's Blessings] |-| 4 || [https://youtu.be/bk7aVoPxoKA Danger's Crossing] |-| 5 || [https://youtu.be/aXPnSwPK9Pk Jealous Neighbors] |-| 6 || [https://youtu.be/aXPnSwPK9Pk War of Wood and Water]|-| 7 || [https://youtu.be/lSkR06BrI2Y The Battle of Northbridge]|-| 8 || [https://youtu.be/DqCGp5Ccaaw Water..Works?]|-| 9 || [https://youtu.be/wJFj63SolPY Cavern Crescendos]|-| 10 || [https://youtu.be/UXb6N3EKVgU Wealth Beyond Measure] |}
 
 == Links ==
 [https://www.youtube.com/playlist?list=PLXX7Rp0iXj0kZtpaGAntf_kAAYNcv53Dg Northbridge: The Road to Riches the complete series on YouTube]

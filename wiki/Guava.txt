@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|product=guava_sprite.png
-|sapling=guava_sapling.png
-|wiki=Psidium guajava}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=guava_sprite.png|sapling=guava_sapling.png|wiki=Psidium guajava}}
 {{av}}
 
 '''Guava''' is one of the many genera of [[tree]]s found above ground. Like the vast majority of above ground trees, guava [[wood]] is brown and produces brown products. Logs and leaves can be processed in a [[dyer's shop]] into yellow [[dye]].

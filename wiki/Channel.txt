@@ -33,11 +33,6 @@ Most types of constructed stairs or ramps can also be removed, with more style, 
 :Unsupervised channeling of large areas tends to cause cave-ins. Like a cartoon character that unthinkingly saws the branch he's sitting in, your dwarves will happily punch through the only remaining wall or floor supporting the area they're standing on. This can ''mostly'' be avoided by mining from the top down, one level at a time, but when channeling floors that have already been mined under, further micromanagement may be needed.  
 
 '''You can not dig under an open drawbridge, you must deconstruct the drawbridge before channeling tiles it would open onto.'''
-{{Translation
-| dwarven = catten
-| elvish  = teze
-| goblin  = osnaz
-| human   = innah
-}}
+{{Translation| dwarven = catten| elvish  = teze| goblin  = osnaz| human   = innah}}
 
 {{category|designations}}[[ru:Channel]]

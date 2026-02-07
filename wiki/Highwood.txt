@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=highwood_trunk_sprite.png
-|sapling=highwood_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=highwood_trunk_sprite.png|sapling=highwood_sapling.png|wiki=no}}
 {{av}}
 
 '''Highwoods''' are a type of [[above ground]] [[tree]] found only in [[Surroundings#Savage|savage]] regions. Like the overwhelming majority of overland trees, highwood [[wood]] is brown and produces brown products. Highwoods are notable for their thick trunks, commonly measuring 2×2 or 3×3 tiles and extending upward (up to 12 z-levels) in a tangle of branches and wooden trunk.  They bear pale blue flowers, but no fruit.

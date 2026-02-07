@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=marcasite_sprite.png}}
+{{stonelookup/0|graphic=marcasite_sprite.png}}
 {{av}}
 
 '''Marcasite''' is an unremarkable olive stone found within [[kaolinite]]. While it can be used as building material for [[floor|floors]], [[wall|walls]] and such, it can not be used for [[furnace|furnaces]] and [[forge|forges]].

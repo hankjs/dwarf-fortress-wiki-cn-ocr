@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = omrist
-| elvish  = theÿise
-| goblin  = muso
-| human   = kozi
-}}
+{{Translation| dwarven = omrist| elvish  = theÿise| goblin  = muso| human   = kozi}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[roc]] or a [[cyclops]], associated with the [[Sphere|spheres]] of chaos, depravity, hunting, lightning, revelry, storms, thunder, or wind  will have words from this symbol in their name.

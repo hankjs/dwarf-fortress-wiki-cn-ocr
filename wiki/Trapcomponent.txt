@@ -49,18 +49,7 @@ Menacing spikes can also be made from [[wood]].
 
 == Data & comparison ==
 {|cellpadding="1" border="1" class="wikitable sortable" style="width:65%;"
-! Name !! Graphic !! Size !! Number of hits !! Contact Area !! Penetration Depth !! Wood? !! Base Value
-|-
-| Giant axe blade || [[File:giant_axe_blade_sprite.png|center]] || 1600 || 1 || 100000 || 10000 || No  || 10
-|-
-| Enormous corkscrew <sup>†</sup> || [[File:corkscrew_sprite.png|center]] || 1600 || 1 || 100 || 10000 || Yes  || 10
-|-
-| Spiked ball || [[File:spiked_ball_sprite.png|center]] || 1000 || 3 || 10 || 200 || Yes  || 10
-|-
-| Large, serrated disc || [[File:serrated_disc_sprite.png|center]] || 1000 || 3 || 100000 || 10000 || No  || 10
-|-
-| Menacing spike <sup>‡</sup> || [[File:menacing_spike_sprite.png|center]] || 1600 || 1 || 10 || 6000 || Yes  || 10
-|}
+! Name !! Graphic !! Size !! Number of hits !! Contact Area !! Penetration Depth !! Wood? !! Base Value|-| Giant axe blade || [[File:giant_axe_blade_sprite.png|center]] || 1600 || 1 || 100000 || 10000 || No  || 10|-| Enormous corkscrew <sup>†</sup> || [[File:corkscrew_sprite.png|center]] || 1600 || 1 || 100 || 10000 || Yes  || 10|-| Spiked ball || [[File:spiked_ball_sprite.png|center]] || 1000 || 3 || 10 || 200 || Yes  || 10|-| Large, serrated disc || [[File:serrated_disc_sprite.png|center]] || 1000 || 3 || 100000 || 10000 || No  || 10|-| Menacing spike <sup>‡</sup> || [[File:menacing_spike_sprite.png|center]] || 1600 || 1 || 10 || 6000 || Yes  || 10|}
 † ''This trap component can also be used in [[screw pump]]s.'' <br> ‡ ''This trap component can also be used in [[Trap#Upright_Spear/Spike|upright spike traps]].''
 
 :''(Most of this data has been compiled from raw/objects/item_trapcomp.txt)''

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=Albatross Man.png
-|portrait=albatross_man_portrait.png
-}}
+{{Creaturelookup/0|image=Albatross Man.png|portrait=albatross_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

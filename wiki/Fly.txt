@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=fly_sprite.png
-|portrait=fly_portrait.png}}
+{{verminlookup/0|image=fly_sprite.png|portrait=fly_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -11,12 +9,7 @@ Flies have the dubious distinction of being the only vermin that can cause two s
 
 Some dwarves, curiously, like flies for their ''ability to annoy''.
 
-{{Translation
-| dwarven = fenglel
-| elvish  = yetine
-| goblin  = atu
-| human   = ngáthi
-}}
+{{Translation| dwarven = fenglel| elvish  = yetine| goblin  = atu| human   = ngáthi}}
 [[File:Vermin-Fly.jpg|thumb|center|288px|Admired for its ''ability to annoy''.]]
 ==Gallery==
 <gallery widths="90px">

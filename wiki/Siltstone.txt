@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=siltstone_sprite.png}}
+{{stonelookup/0|graphic=siltstone_sprite.png}}
 {{av}}
 
 '''Siltstone''' is one of many otherwise-unremarkable [[sedimentary layer]] [[stone]]s.

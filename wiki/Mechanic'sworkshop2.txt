@@ -1,17 +1,12 @@
 {{Quality|Fine}}
-{{V50 workshop|name=Mechanic's workshop|key=h|job=Mechanics|icon=[[File:Mechanic's_workshop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Mechanic]]s
-|use=
+{{V50 workshop|name=Mechanic's workshop|key=h|job=Mechanics|icon=[[File:Mechanic's_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Mechanic]]s|use=
 * [[Stone]]
 * [[Table]]
-* [[Rope]]
-|production=
+* [[Rope]]|production=
 * [[Mechanism]]s
-* [[Health care#Traction benches|Traction bench]]es
-}}{{av}}
+* [[Health care#Traction benches|Traction bench]]es}}{{av}}
 
 The '''mechanic's workshop''' is a [[workshop]] which produces [[mechanism]]s out of [[stone]]*. It is also used to construct [[Health care#Traction benches|traction bench]]es.
 

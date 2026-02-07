@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=coffee_trunk_sprite.png
-|product=durian_sprite.png
-|sapling=durian_sapling.png
-|wiki=Durio zibethinus}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=durian_sprite.png|sapling=durian_sapling.png|wiki=Durio zibethinus}}
 {{av}}
 
 '''Durian''' is one of the many genera of [[tree]]s found above ground. Like the vast majority of above ground trees, durian [[wood]] is brown and produces brown products. 

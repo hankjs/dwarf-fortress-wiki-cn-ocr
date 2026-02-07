@@ -7,17 +7,11 @@ Murky pools contain a finite amount of water that can be drained and replenished
 
 There are six types of pools, divided by climate and salinity of the water, listed in the following table:
 
-{| {{prettytable}}
-|- style="background:#dddddd"
+{| {{prettytable}}|- style="background:#dddddd"
 ! style="background:#aaaaaa"|
-! '''Freshwater''' !! '''Brackish water''' !! '''Saltwater'''
-|-
-! style="background:#dddddd"| '''Temperate'''
-| Temperate freshwater pool || Temperate brackish pool || Temperate saltwater pool
-|-
-! style="background:#dddddd"| '''Tropical'''
-| Tropical freshwater pool || Tropical brackish pool || Tropical saltwater pool
-|}
+! '''Freshwater''' !! '''Brackish water''' !! '''Saltwater'''|-
+! style="background:#dddddd"| '''Temperate'''| Temperate freshwater pool || Temperate brackish pool || Temperate saltwater pool|-
+! style="background:#dddddd"| '''Tropical'''| Tropical freshwater pool || Tropical brackish pool || Tropical saltwater pool|}
 
 == Uses ==
 === Fishing ===
@@ -42,76 +36,22 @@ When murky pools thaw or freeze, they do so instantly. Any dwarf standing on the
 {| class="wikitable"
 ! rowspan="2"| Name
 ! rowspan="2"| Graphic
-! colspan="3"| Temperate pool !! colspan="3"| Tropical pool
-|-
-! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater
-|-
-| {{Tile|∙|3:1}} [[Damselfly]]
-| style="text-align:center;"|[[File:damselfly_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|∙|3:1}} [[Dragonfly]]
-| style="text-align:center;"|[[File:dragonfly_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|·|0:1}} [[Fly]]
-| style="text-align:center;"|[[File:fly_sprite_anim.gif]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|∙|2:1}} [[Green tree frog]]
-| style="text-align:center;"|[[File:green_tree_frog_sprite.png]]
-| {{check}} ||   ||   ||   ||   || 
-|-
-| {{Tile|~|0:1}} [[Leech]]
-| style="text-align:center;"|[[File:leech_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|α|6:0}} [[Lungfish]]
-| style="text-align:center;"|[[File:lungfish_sprite.png]]
-|   ||   ||   || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|·|0:1}} [[Mosquito]]
-| style="text-align:center;"|[[File:mosquito_sprite_anim.gif]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|☼|2:0}} [[Pond turtle]]
-| style="text-align:center;"|[[File:pond_turtle_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|∙|2:0}} [[Toad]]
-| style="text-align:center;"|[[File:toad_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|}
+! colspan="3"| Temperate pool !! colspan="3"| Tropical pool|-
+! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater|-| {{Tile|∙|3:1}} [[Damselfly]]| style="text-align:center;"|[[File:damselfly_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|∙|3:1}} [[Dragonfly]]| style="text-align:center;"|[[File:dragonfly_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|·|0:1}} [[Fly]]| style="text-align:center;"|[[File:fly_sprite_anim.gif]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|∙|2:1}} [[Green tree frog]]| style="text-align:center;"|[[File:green_tree_frog_sprite.png]]| {{check}} ||   ||   ||   ||   || |-| {{Tile|~|0:1}} [[Leech]]| style="text-align:center;"|[[File:leech_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|α|6:0}} [[Lungfish]]| style="text-align:center;"|[[File:lungfish_sprite.png]]|   ||   ||   || {{check}} || {{check}} || {{check}}|-| {{Tile|·|0:1}} [[Mosquito]]| style="text-align:center;"|[[File:mosquito_sprite_anim.gif]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|☼|2:0}} [[Pond turtle]]| style="text-align:center;"|[[File:pond_turtle_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|∙|2:0}} [[Toad]]| style="text-align:center;"|[[File:toad_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|}
 
 '''In savage pools:'''
 {| class="wikitable"
 ! rowspan="2"| Name
 ! rowspan="2"| Graphic
-! colspan="3"| Temperate pool !! colspan="3"| Tropical pool
-|-
-! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater
-|-
-| {{Tile|·|6:0}} [[Acorn fly]]
-| style="text-align:center;"|[[File:acorn_fly_sprite_anim.gif]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|∙|6:0}} [[Moghopper]]
-| style="text-align:center;"|[[File:moghopper_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|}
+! colspan="3"| Temperate pool !! colspan="3"| Tropical pool|-
+! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater|-| {{Tile|·|6:0}} [[Acorn fly]]| style="text-align:center;"|[[File:acorn_fly_sprite_anim.gif]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|∙|6:0}} [[Moghopper]]| style="text-align:center;"|[[File:moghopper_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|}
 
 '''In evil pools:'''
 {| class="wikitable"
 ! rowspan="2"| Name
 ! rowspan="2"| Graphic
-! colspan="3"| Temperate pool !! colspan="3"| Tropical pool
-|-
-! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater
-|-
-| {{Tile|·|4:1}} [[Blood gnat]]
-| style="text-align:center;"|[[File:blood_gnat_sprite_anim.gif]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|}
+! colspan="3"| Temperate pool !! colspan="3"| Tropical pool|-
+! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater|-| {{Tile|·|4:1}} [[Blood gnat]]| style="text-align:center;"|[[File:blood_gnat_sprite_anim.gif]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|}
 
 == Bugs ==
 * Pond/pool populations do not replenish, gradually becoming extinct.{{bug|2780}}
@@ -120,111 +60,15 @@ When murky pools thaw or freeze, they do so instantly. Any dwarf standing on the
 {| class="wikitable"
 ! rowspan="2"| Name
 ! rowspan="2"| Graphic
-! colspan="3"| Temperate pool !! colspan="3"| Tropical pool
-|-
-! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater
-|-
-| {{Tile|T|2:0}} [[Alligator snapping turtle]]
-| style="text-align:center;"|[[File:alligator_snapping_turtle_sprite.png]]
-| {{check}} || {{check}} ||   ||   ||   ||  
-|-
-| {{Tile|t|2:0}} [[Common snapping turtle]]
-| style="text-align:center;"|[[File:snapping_turtle_sprite.png]]
-| {{check}} || {{check}} ||   ||   ||   ||  
-|-
-| {{Tile|o|6:0}} [[River otter]]
-| style="text-align:center;"|[[File:river_otter_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|}
+! colspan="3"| Temperate pool !! colspan="3"| Tropical pool|-
+! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater|-| {{Tile|T|2:0}} [[Alligator snapping turtle]]| style="text-align:center;"|[[File:alligator_snapping_turtle_sprite.png]]| {{check}} || {{check}} ||   ||   ||   ||  |-| {{Tile|t|2:0}} [[Common snapping turtle]]| style="text-align:center;"|[[File:snapping_turtle_sprite.png]]| {{check}} || {{check}} ||   ||   ||   ||  |-| {{Tile|o|6:0}} [[River otter]]| style="text-align:center;"|[[File:river_otter_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|}
 
 '''In savage pools:'''
 {| class="wikitable"
 ! rowspan="2"| Name
 ! rowspan="2"| Graphic
-! colspan="3"| Temperate pool !! colspan="3"| Tropical pool
-|-
-! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater
-|-
-| {{Tile|d|3:1}} [[Damselfly man]]
-| style="text-align:center;"|[[File:damselfly_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|d|3:1}} [[Dragonfly man]]
-| style="text-align:center;"|[[File:dragonfly_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|f|0:1}} [[Fly man]]
-| style="text-align:center;"|[[File:fly_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|D|3:1}} [[Giant damselfly]]
-| style="text-align:center;"|[[File:giant_damselfly_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|D|3:1}} [[Giant dragonfly]]
-| style="text-align:center;"|[[File:giant_dragonfly_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|F|0:1}} [[Giant fly]]
-| style="text-align:center;"|[[File:giant_fly_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|F|2:1}} [[Giant green tree frog]]
-| style="text-align:center;"|[[File:giant_green_tree_frog_sprite.png]]
-| {{check}} ||   ||   ||   ||   || 
-|-
-| {{Tile|L|0:1}} [[Giant leech]]
-| style="text-align:center;"|[[File:giant_leech_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|M|0:1}} [[Giant mosquito]]
-| style="text-align:center;"|[[File:giant_mosquito_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|O|6:0}} [[Giant otter]]
-| style="text-align:center;"|[[File:giant_otter_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|T|2:0}} [[Giant pond turtle]]
-| style="text-align:center;"|[[File:giant_pond_turtle_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|T|2:0}} [[Giant snapping turtle]]
-| style="text-align:center;"|[[File:giant_snapping_turtle_sprite.png]]
-| {{check}} || {{check}} ||   ||   ||   ||  
-|-
-| {{Tile|T|2:0}} [[Giant toad]]
-| style="text-align:center;"|[[File:giant_toad_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|f|2:1}} [[Green tree frog man]]
-| style="text-align:center;"|[[File:green_tree_frog_man_sprite.png]]
-| {{check}} ||   ||   ||   ||   || 
-|-
-| {{Tile|l|0:1}} [[Leech man]]
-| style="text-align:center;"|[[File:leech_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|m|0:1}} [[Mosquito man]]
-| style="text-align:center;"|[[File:mosquito_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|o|6:0}} [[Otter man]]
-| style="text-align:center;"|[[File:otter_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|t|2:0}} [[Pond turtle man]]
-| style="text-align:center;"|[[File:pond_turtle_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|-
-| {{Tile|t|2:0}} [[Snapping turtle man]]
-| style="text-align:center;"|[[File:snapping_turtle_man_sprite.png]]
-| {{check}} || {{check}} ||   ||   ||   ||  
-|-
-| {{Tile|t|2:0}} [[Toad man]]
-| style="text-align:center;"|[[File:toad_man_sprite.png]]
-| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}
-|}
+! colspan="3"| Temperate pool !! colspan="3"| Tropical pool|-
+! Freshwater !! Brackish !! Saltwater !! Freshwater !! Brackish !! Saltwater|-| {{Tile|d|3:1}} [[Damselfly man]]| style="text-align:center;"|[[File:damselfly_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|d|3:1}} [[Dragonfly man]]| style="text-align:center;"|[[File:dragonfly_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|f|0:1}} [[Fly man]]| style="text-align:center;"|[[File:fly_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|D|3:1}} [[Giant damselfly]]| style="text-align:center;"|[[File:giant_damselfly_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|D|3:1}} [[Giant dragonfly]]| style="text-align:center;"|[[File:giant_dragonfly_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|F|0:1}} [[Giant fly]]| style="text-align:center;"|[[File:giant_fly_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|F|2:1}} [[Giant green tree frog]]| style="text-align:center;"|[[File:giant_green_tree_frog_sprite.png]]| {{check}} ||   ||   ||   ||   || |-| {{Tile|L|0:1}} [[Giant leech]]| style="text-align:center;"|[[File:giant_leech_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|M|0:1}} [[Giant mosquito]]| style="text-align:center;"|[[File:giant_mosquito_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|O|6:0}} [[Giant otter]]| style="text-align:center;"|[[File:giant_otter_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|T|2:0}} [[Giant pond turtle]]| style="text-align:center;"|[[File:giant_pond_turtle_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|T|2:0}} [[Giant snapping turtle]]| style="text-align:center;"|[[File:giant_snapping_turtle_sprite.png]]| {{check}} || {{check}} ||   ||   ||   ||  |-| {{Tile|T|2:0}} [[Giant toad]]| style="text-align:center;"|[[File:giant_toad_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|f|2:1}} [[Green tree frog man]]| style="text-align:center;"|[[File:green_tree_frog_man_sprite.png]]| {{check}} ||   ||   ||   ||   || |-| {{Tile|l|0:1}} [[Leech man]]| style="text-align:center;"|[[File:leech_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|m|0:1}} [[Mosquito man]]| style="text-align:center;"|[[File:mosquito_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|o|6:0}} [[Otter man]]| style="text-align:center;"|[[File:otter_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|t|2:0}} [[Pond turtle man]]| style="text-align:center;"|[[File:pond_turtle_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|-| {{Tile|t|2:0}} [[Snapping turtle man]]| style="text-align:center;"|[[File:snapping_turtle_man_sprite.png]]| {{check}} || {{check}} ||   ||   ||   ||  |-| {{Tile|t|2:0}} [[Toad man]]| style="text-align:center;"|[[File:toad_man_sprite.png]]| {{check}} || {{check}} || {{check}} || {{check}} || {{check}} || {{check}}|}
 
 {{Translation| dwarven = bothon agsal | elvish = meli pati | goblin = ebrå tostgud | human = sedme nique}}
 

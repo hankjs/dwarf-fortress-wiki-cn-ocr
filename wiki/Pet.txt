@@ -4,11 +4,7 @@
 
 ==Mechanics==
 === Pet value ===
-{{Translation
-| dwarven = bab
-| elvish  = querete
-| goblin  = amro
-| human   = pathril}}All creatures who can become pets (and some who can't, because of missing the aforementioned creature tokens) possess a '''pet value''' in their raw files which determines how much they are worth. Higher pet values normally imply the animal is more exotic, impressive or uncommon than others. For example, a [[dog]] has a pet value of 30, a [[jaguar]] of 50, a [[panda]] of 300 and a [[cave crocodile]] of 700. A creature with no pet value is treated as having a value of 0. See the full [[list of creatures by pet value]] for details.
+{{Translation| dwarven = bab| elvish  = querete| goblin  = amro| human   = pathril}}All creatures who can become pets (and some who can't, because of missing the aforementioned creature tokens) possess a '''pet value''' in their raw files which determines how much they are worth. Higher pet values normally imply the animal is more exotic, impressive or uncommon than others. For example, a [[dog]] has a pet value of 30, a [[jaguar]] of 50, a [[panda]] of 300 and a [[cave crocodile]] of 700. A creature with no pet value is treated as having a value of 0. See the full [[list of creatures by pet value]] for details.
 
 Dwarves who adopt creatures with high pet values will be slightly happier than those who adopt creatures with low ones, so Urist McSpiderlover will be especially cheerful to have a [[giant cave spider]] following him around when compared to Urist McCarrotlover and his [[rabbit]]s {{verify}}. Regardless, both low-value and high-value pets are a means to keep dwarves from becoming stressed.
 

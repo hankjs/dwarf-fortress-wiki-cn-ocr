@@ -1,19 +1,11 @@
 {{Quality|Superior}}
-{{Alloy|name=Trifle pewter
-|sample=
-[[File:TriflePewterSample.png|center|frameless]]
-|graphic=lead_bar_sprite.png
-|color=7:3:0
-|color1=7:3:0
-|color2=6:4:0
-|uses=* [[Metalsmith's forge|Metal crafting]]
-|recipe=
+{{Alloy|name=Trifle pewter|sample=
+[[File:TriflePewterSample.png|center|frameless]]|graphic=lead_bar_sprite.png|color=7:3:0|color1=7:3:0|color2=6:4:0|uses=* [[Metalsmith's forge|Metal crafting]]|recipe=
 * 2 [[Tin]] [[bar]]s
 * 1 [[Copper]] [[bar]]
 - or -
 * 2 [[Cassiterite]]
-* 1 [[Copper]] [[ore]]
-|properties=
+* 1 [[Copper]] [[ore]]|properties=
 * [[Material value]] 4☼
 * [[Material science|Impact strength]] 350 MPa
 * [[Material science|Shear strength]] 100 MPa
@@ -24,8 +16,7 @@
 * [[Solid density]] 7280 kg/m³
 * Liquid [[density]] 6990 kg/m³
 * [[Specific heat]] 210 J/kg·K
-* [[Color]] taupe gray
-}}{{av}}
+* [[Color]] taupe gray}}{{av}}
 
 '''Trifle pewter''' is an [[alloy]] of [[tin]] and [[copper]].
 

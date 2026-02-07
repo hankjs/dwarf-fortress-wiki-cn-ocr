@@ -1,28 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=ostrich_sprites_anim.gif
-|portrait=ostrich_portrait_anim.gif
-|bone=19-25
-|meat=15-20
-|fat=13
-|brain=1
-|lung=2
-|tripe=1
-|gizzard=1
-|heart=1
-|liver=1
-|kidney=2
-|eyes=2
-|spleen=1
-|sweetbread=1
-|intestine=1
-|skin=hide
-|skull=1
-|gizzard_stone=1
-|feather=0-1
-|contrib=no
-|wiki=Common ostrich
-}}
+{{Creaturelookup/0|image=ostrich_sprites_anim.gif|portrait=ostrich_portrait_anim.gif|bone=19-25|meat=15-20|fat=13|brain=1|lung=2|tripe=1|gizzard=1|heart=1|liver=1|kidney=2|eyes=2|spleen=1|sweetbread=1|intestine=1|skin=hide|skull=1|gizzard_stone=1|feather=0-1|contrib=no|wiki=Common ostrich}}
 {{av}}
 {{creaturedesc}}
 

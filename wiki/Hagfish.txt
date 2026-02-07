@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=hagfish_sprite.png
-|portrait=hagfish_portrait.png}}
+{{verminlookup/0|image=hagfish_sprite.png|portrait=hagfish_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

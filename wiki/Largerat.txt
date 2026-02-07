@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=large_rat_sprites.png
-|portrait=large_rat_portrait_anim.gif
-|wiki=no
-|contrib=no
-|skin=hide
-|lung=0-2
-|heart=0-1
-|intestine=0-1
-|liver=0-1
-|tripe=0-1
-|sweetbread=0-1
-|spleen=0-1
-|kidney=0-2
-|skull=1
-|meat=6-13
-|fat=6-13
-|brain=0-1
-|bone=4-12
-}}
+{{Creaturelookup/0|image=large_rat_sprites.png|portrait=large_rat_portrait_anim.gif|wiki=no|contrib=no|skin=hide|lung=0-2|heart=0-1|intestine=0-1|liver=0-1|tripe=0-1|sweetbread=0-1|spleen=0-1|kidney=0-2|skull=1|meat=6-13|fat=6-13|brain=0-1|bone=4-12}}
 {{av}}
 {{creaturedesc}}
 '''Large rats''' are [[creature]]s commonly found in the first layer of the [[caverns]], larger than a common [[rat]] but smaller than a [[giant rat]]. About the size of a [[kobold]], these creatures will [[Steals food|steal your food]] and [[Steals drink|drink your booze]] at every chance, meaning they should be kept away from your [[food]] [[stockpile]]s by all means necessary. All large rats are born with Legendary [[skill]] in [[Climber|climbing]], and their infants are called ''large rat pups''.

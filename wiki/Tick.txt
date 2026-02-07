@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=tick_sprite.png
-|portrait=tick_portrait.png}}
+{{verminlookup/0|image=tick_sprite.png|portrait=tick_portrait.png}}
 {{av}}
 :''For the time unit, see [[Time#Breakdown|Time]]''
 {{creaturedesc}}
@@ -12,12 +10,7 @@ Some dwarves [[Preferences|like]] ticks for their ''ability to expand''.
 
 [[File:Ixodes scapularis.jpg|300px|thumb|center|Admired for its ''ability to expand''.]]
 
-{{Translation
-| dwarven = nobgost
-| elvish  = pamène
-| goblin  = stâsost
-| human   = slushu
-}}
+{{Translation| dwarven = nobgost| elvish  = pamène| goblin  = stâsost| human   = slushu}}
 
 {{gamedata}}
 {{vermin}}

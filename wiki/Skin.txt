@@ -38,12 +38,7 @@ File:chitin_view.jpg|Insect chitin, yet another type of skin.
 *[[Armor]]
 *[[Paper industry]]
 
-{{Translation
-| dwarven = salul
-| elvish  = tipi
-| goblin  = duspbu
-| human   = lubbe
-}}
+{{Translation| dwarven = salul| elvish  = tipi| goblin  = duspbu| human   = lubbe}}
 
 {{materials}}
 

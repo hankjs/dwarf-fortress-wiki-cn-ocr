@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=perch_sprite.png
-|portrait=perch_portrait.png}}
+{{verminlookup/0|image=perch_sprite.png|portrait=perch_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = bakat
-| elvish  = mene
-| goblin  = zadxe
-| human   = erab
-}}
+{{Translation| dwarven = bakat| elvish  = mene| goblin  = zadxe| human   = erab}}
 ==Usage==
 
 [[Historical figure|Legendary beings]] associated with the [[spheres]] of gambling or games will have words from this symbol in their name.

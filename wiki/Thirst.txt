@@ -36,12 +36,7 @@ Thirst increments by 1 during each game [[Time|tick]] ''(i.e. 1,200 per day, 33,
 :* {{Tooltip|345,600|2 adventure days}} - adventurer becomes {{dftext|Dehydrated|5:1}}
 :* {{verify}} - adventurer dies of thirst
 
-{{Translation
-| dwarven = rëcus
-| elvish  = pacata
-| goblin  = strabtom
-| human   = ethgath
-}}
+{{Translation| dwarven = rëcus| elvish  = pacata| goblin  = strabtom| human   = ethgath}}
 Finishing a drink (either through the {{dftext|Drink|3:1}} job or the {{Adv menu icon|e}} command) decreases the relevant counter by {{Tooltip|50,000|42 fortress days, 7 adventure hours}} (to a minimum of zero), though they may also decrement it additional times during the job's progress.
 
 Being dehydrated for even a single [[tick]] will cause a [[miscarriage]] among pregnant dwarves.

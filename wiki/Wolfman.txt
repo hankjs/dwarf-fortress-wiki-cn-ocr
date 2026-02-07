@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=wolf_man_sprite.png
-|portrait=wolf_man_portrait.png}}
+{{Creaturelookup/0|image=wolf_man_sprite.png|portrait=wolf_man_portrait.png}}
 {{av}}
 {{new in v0.42}}
 : ''This page is about wolf people, not to be confused with a werewolf; a type of [[werebeast]].''

@@ -26,23 +26,7 @@ Beyond acting like a force multiplier, dead mounts can be [[butcher]]ed after th
 Note that in the vanilla game, playable civs ''cannot'', under any circumstances, field cavalry in fortress mode; this applies to all races, not just dwarves.
 
 == Adventurer Mode ==
-{| class="wikitable" style="border:1px solid #ccc;"
-|-
-| {{adv menu icon|h}}
-| Mount or dismount
-|-
-| {{adv menu icon|p}}
-| Pack an item onto a mount
-|-
-| {{adv menu icon|g}}
-| Unpack an item off a mount
-|-
-| {{adv menu icon|c}}
-| View companions
-|-
-| {{adv menu icon|X}}-{{k|a}}
-| Pet animal
-|}
+{| class="wikitable" style="border:1px solid #ccc;"|-| {{adv menu icon|h}}| Mount or dismount|-| {{adv menu icon|p}}| Pack an item onto a mount|-| {{adv menu icon|g}}| Unpack an item off a mount|-| {{adv menu icon|c}}| View companions|-| {{adv menu icon|X}}-{{k|a}}| Pet animal|}
 
 It is possible for adventurers and their companions to make use of mounts, which may be taken in character generation or acquired over the course of the game. To climb onto (or off of) a mount press {{adv menu icon|h}} while standing next to it. You can also {{adv menu icon|j}} jump off a mount or dismount with the dodge option in the {{adv menu icon|A}} Aim attack menu. (Unfortunately, the speed the mount is travelling does not increase the distance you can jump, unlike when you are sprinting on foot.)
 

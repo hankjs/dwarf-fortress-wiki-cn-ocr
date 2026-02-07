@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_milk_quartz_sprite.png
-|graphic2=rough_milk_quartz_sprite.png}}
+{{gemlookup/0|graphic=cut_milk_quartz_sprite.png|graphic2=rough_milk_quartz_sprite.png}}
 {{av}}
 
 '''Milk quartzes''' are unremarkable, low-value [[gem]]s, that can be found in small [[cluster]]s in any [[stone]].

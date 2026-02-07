@@ -8,12 +8,7 @@
 
 For other web-producing creatures, see [[web]].
 
-{{Translation
-| dwarven = sethal
-| elvish  = thepani
-| goblin  = utes
-| human   = azoc
-}}
+{{Translation| dwarven = sethal| elvish  = thepani| goblin  = utes| human   = azoc}}
 
 {{disambig}}
 [[ru:Spider]]

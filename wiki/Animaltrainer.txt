@@ -1,26 +1,16 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:green_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Animal Trainer
-| profession = [[Ranger]]
-| job name   = [[Animal training]]
-| tasks      =
+{{v50_skill| color      = 2:0| graphic    = [[File:green_sprite_icon.png]]| graphicmargin = 106px| skill      = Animal Trainer| profession = [[Ranger]]| job name   = [[Animal training]]| tasks      =
 * Train [[dog|war animal]]
 * Train [[dog|hunting animal]]
 * Train large animal
-* Train small animal
-| workshop = [[Vermin catcher's shop]]
-| attributes =
+* Train small animal| workshop = [[Vermin catcher's shop]]| attributes =
 * Agility
 * Toughness
 * Endurance
 * Intuition
 * Patience
-* Empathy
-}}
+* Empathy}}
 
 '''Animal trainer''' is the skill associated with the '''animal training''' [[labor]]. An animal trainer works with [[animal]]s, either taming wild ones or training certain tame species for war or hunting. They also tame certain kinds of captured live [[vermin]].
 
@@ -39,26 +29,7 @@ Just because you have a creature stowed away in your animal [[stockpile]], does 
 === Training ===
 {| style="text-align:center; float:right; margin:8px;" class=wikitable
 ! '''Designation'''
-! '''Description'''
-|-
-| Wild || Not Tame
-|-
-| Semi-wild || Semi-wild
-|-
-| Trained || Trained
-|-
-| -Trained- || Well-trained
-|-
-| +Trained+ || Skillfully trained
-|-
-| *Trained* ||Expertly trained
-|-
-| ≡Trained≡ || Exceptionally trained
-|-
-| ☼Trained☼ || Masterfully trained
-|-
-| Tame || Tame
-|}
+! '''Description'''|-| Wild || Not Tame|-| Semi-wild || Semi-wild|-| Trained || Trained|-| -Trained- || Well-trained|-| +Trained+ || Skillfully trained|-| *Trained* ||Expertly trained|-| ≡Trained≡ || Exceptionally trained|-| ☼Trained☼ || Masterfully trained|-| Tame || Tame|}
 
 Once you have a captured, tamable creature trapped in a cage, you can start taming it. You will need an [[Zone#Animal Training|animal training zone]] and some [[plants]] or [[meat]] depending on whether the animal is herbivorous or carnivorous. To have your animal trainer begin taming a wild animal, use {{menu icon|u}} to open the citizen information screen and select the Pets/Livestock tab. Scroll through, or filter the list until your captured wild animal is selected and use the whistle icon to set a trainer to tame it (the cursor keys and {{k|Ctrl|t|sep=+}} also work).
 
@@ -83,27 +54,7 @@ The fort level of knowledge has a strong effect on in-fort training. When attemp
 {|class="wikitable" style="width:80%; align:center"
 ! Announcement
 ! Fortress training knowledge level 
-! Creature training level thresholds
-|-
-| {{Gametext|The dwarves of (civ) now know a few facts about (animal) training.|cyan}}
-| {{DFtext|A few facts|red}}
-| style="text-align:right;" | 20/30/40/60/70/90
-|-
-| {{Gametext|The dwarves of (civ) have attained a general familiarity with (animal) training methods.|cyan}}
-| {{DFtext|General familiarity|yellow}}
-| style="text-align:right;" | 15/20/30/50/60/80
-|-
-| {{Gametext|The dwarves of (civ) are now quite knowledgeable (animal) trainers.|cyan}}
-| {{DFtext|Knowledgeable|white}}
-| style="text-align:right;" | 10/15/25/40/50/70
-|-
-| {{Gametext|The dwarves of (civ) are now expert (animal) trainers.|cyan}}
-| {{DFtext|Expert|cyan}}
-| style="text-align:right;" | 5/10/20/30/40/60
-|-
-| {{center|(no announcement since this cannot happen in a player fortress)}}
-|{{DFtext|Domesticated|lime}}
-|}
+! Creature training level thresholds|-| {{Gametext|The dwarves of (civ) now know a few facts about (animal) training.|cyan}}| {{DFtext|A few facts|red}}| style="text-align:right;" | 20/30/40/60/70/90|-| {{Gametext|The dwarves of (civ) have attained a general familiarity with (animal) training methods.|cyan}}| {{DFtext|General familiarity|yellow}}| style="text-align:right;" | 15/20/30/50/60/80|-| {{Gametext|The dwarves of (civ) are now quite knowledgeable (animal) trainers.|cyan}}| {{DFtext|Knowledgeable|white}}| style="text-align:right;" | 10/15/25/40/50/70|-| {{Gametext|The dwarves of (civ) are now expert (animal) trainers.|cyan}}| {{DFtext|Expert|cyan}}| style="text-align:right;" | 5/10/20/30/40/60|-| {{center|(no announcement since this cannot happen in a player fortress)}}|{{DFtext|Domesticated|lime}}|}
 The calculations for skill rolls are complicated, but by these numbers, your trainers are almost twice as good at expert-level fort knowledge, if they weren't already great trainers in their own right (in which case they'll probably crack 100 most times without help).
 
 === Taming children ===
@@ -155,183 +106,7 @@ The following creatures can be trained into war or hunting animals once they are
 ! Animal
 ! Size (cm³)
 ! Pet value
-! Notes
-|-
-|[[Bobcat]]
-|8,000
-|75
-|Too small ≈
-|-
-|[[Mandrill]]
-|20,000
-|50
-|^
-|-
-|[[Lynx]]
-|25,000
-|75
-|^ ≈
-|-
-|[[Ocelot]]
-|25,000
-|100
-|^ ≈
-|-
-|[[Dog]]
-|30,000
-|30
-|^ ♪
-|-
-|[[Cheetah]]
-|50,000
-|200
-|^ ♪ ≈
-|-
-|[[Leopard]]
-|50,000
-|100
-|^ ♪ ≈
-|-
-|[[Jaguar]]
-|75,000
-|100
-|† ♪ ≈
-|-
-|[[Gorilla]]
-|150,000
-|500
-|† ≈
-|-
-|[[Giant bat]]
-|200,000
-|750
-|♪ Hunting only
-|-
-|[[Giant cave swallow]]
-|200,000
-|700
-|♪ Hunting only
-|-
-|[[Grizzly bear]]
-|200,000
-|500
-|† ♪ ≈
-|-
-|[[Lion]]
-|200,000
-|200
-|† ♪ ≈
-|-
-|[[Tiger]]
-|225,000
-|200
-|† ♪ ≈
-|-
-|[[Giant bobcat]]
-|256,320
-|500
-|☼ ≈
-|-
-|[[Giant mandrill]]
-|341,800
-|500
-|☼
-|-
-|[[Giant lynx]]
-|377,750
-|500
-|☼ ≈
-|-
-|[[Giant ocelot]]
-|377,750
-|500
-|☼ ≈
-|-
-|[[Polar bear]]
-|400,000
-|500
-|☼ ≈
-|-
-|[[Giant cheetah]]
-|560,000
-|200
-|☼ ♪ ≈
-|-
-|[[Giant leopard]]
-|560,000
-|100
-|☼ ♪ ≈
-|-
-|[[Giant jaguar]]
-|750,000
-|100
-|☼ ♪ ≈
-|-
-|[[Gigantic panda]]
-|1,160,900
-|1,000
-|☼ ‼ ≈
-|-
-|[[Giant grizzly bear]]
-|1,700,000
-|500
-|☼ ♪ ≈
-|-
-|[[Giant lion]]
-|1,700,000
-|200
-|☼ ♪ ≈
-|-
-|[[Giant tiger]]
-|1,900,000
-|200
-|☼ ♪ ≈
-|-
-|[[Rhinoceros]]
-|3,000,000
-|500
-|☼ ♪ ‼ ≈ War only
-|-
-|[[Giant polar bear]]
-|3,268,000
-|500
-|☼ ≈
-|-
-|[[Jabberer]]
-|4,500,000
-|1,500
-|☼
-|-
-|[[Elephant]]
-|5,000,000
-|500
-|☼ ‼ ≈
-|-
-|[[Cave dragon]]
-|15,000,000
-|10,000
-|☼ ○
-|-
-|[[Roc]]
-|20,000,000
-|10,000
-|☼ ♪ [[Megabeast]]
-|-
-|[[Giant rhinoceros]]
-|24,000,000
-|500
-|☼ ♪ ‼ ≈ War only
-|-
-|[[Dragon]]
-|25,000,000
-|10,000
-|☼ [[Megabeast]]
-|-
-|[[Giant elephant]]
-|40,000,000
-|500
-|☼ ‼ ≈
-|}
+! Notes|-|[[Bobcat]]|8,000|75|Too small ≈|-|[[Mandrill]]|20,000|50|^|-|[[Lynx]]|25,000|75|^ ≈|-|[[Ocelot]]|25,000|100|^ ≈|-|[[Dog]]|30,000|30|^ ♪|-|[[Cheetah]]|50,000|200|^ ♪ ≈|-|[[Leopard]]|50,000|100|^ ♪ ≈|-|[[Jaguar]]|75,000|100|† ♪ ≈|-|[[Gorilla]]|150,000|500|† ≈|-|[[Giant bat]]|200,000|750|♪ Hunting only|-|[[Giant cave swallow]]|200,000|700|♪ Hunting only|-|[[Grizzly bear]]|200,000|500|† ♪ ≈|-|[[Lion]]|200,000|200|† ♪ ≈|-|[[Tiger]]|225,000|200|† ♪ ≈|-|[[Giant bobcat]]|256,320|500|☼ ≈|-|[[Giant mandrill]]|341,800|500|☼|-|[[Giant lynx]]|377,750|500|☼ ≈|-|[[Giant ocelot]]|377,750|500|☼ ≈|-|[[Polar bear]]|400,000|500|☼ ≈|-|[[Giant cheetah]]|560,000|200|☼ ♪ ≈|-|[[Giant leopard]]|560,000|100|☼ ♪ ≈|-|[[Giant jaguar]]|750,000|100|☼ ♪ ≈|-|[[Gigantic panda]]|1,160,900|1,000|☼ ‼ ≈|-|[[Giant grizzly bear]]|1,700,000|500|☼ ♪ ≈|-|[[Giant lion]]|1,700,000|200|☼ ♪ ≈|-|[[Giant tiger]]|1,900,000|200|☼ ♪ ≈|-|[[Rhinoceros]]|3,000,000|500|☼ ♪ ‼ ≈ War only|-|[[Giant polar bear]]|3,268,000|500|☼ ≈|-|[[Jabberer]]|4,500,000|1,500|☼|-|[[Elephant]]|5,000,000|500|☼ ‼ ≈|-|[[Cave dragon]]|15,000,000|10,000|☼ ○|-|[[Roc]]|20,000,000|10,000|☼ ♪ [[Megabeast]]|-|[[Giant rhinoceros]]|24,000,000|500|☼ ♪ ‼ ≈ War only|-|[[Dragon]]|25,000,000|10,000|☼ [[Megabeast]]|-|[[Giant elephant]]|40,000,000|500|☼ ‼ ≈|}
 
 : ☼ — ''Recommended choice for armies due to their great size.''<!-- size ≥ trolls (250k) -->
 : † — ''Recommended choice for bodyguards, stalls most creatures enough to give dwarves time to escape safely.''

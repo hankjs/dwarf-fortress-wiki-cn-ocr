@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_gold_opal_sprite.png
-|graphic2=rough_gold_opal_sprite.png
-|wiki=Opal}}
+{{gemlookup/0|graphic=cut_gold_opal_sprite.png|graphic2=rough_gold_opal_sprite.png|wiki=Opal}}
 {{av}}
 
 '''Gold opals''' are ornamental-quality [[gem]]s that are yellow in color and can be found in small [[cluster]]s in any type of [[stone]].

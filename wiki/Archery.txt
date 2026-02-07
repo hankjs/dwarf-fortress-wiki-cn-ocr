@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{Skill
-| color      = 0:0
-| skill      = Archer
-| profession = [[Military]]
-| job name   = None
-| tasks      = *Using any ranged weapon in combat
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Archer| profession = [[Military]]| job name   = None| tasks      = *Using any ranged weapon in combat| attributes = Unknown}}
 {{av}}
 [[File:dwarf_archer.jpg|thumb|229px|right|A dwarf archer.<br><small>''Art by Artigas''</small>]]'''Archery''' is the [[combat skill]] associated with all ranged combat, as well as the name given to using ranged weapons in general. Its exact function is unknown, except that it has been shown to decrease the probability of an enemy dodging a ranged attack. It serves as the ranged counterpart of the Fighter skill.
 

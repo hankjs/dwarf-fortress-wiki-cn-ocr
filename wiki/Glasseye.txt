@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=glasseye_sprite.png
-|portrait=glasseye_portrait.png
-|wiki=Heteropriacanthus_cruentatus}}
+{{verminlookup/0|image=glasseye_sprite.png|portrait=glasseye_portrait.png|wiki=Heteropriacanthus_cruentatus}}
 {{av}}
 {{creaturedesc}}
 

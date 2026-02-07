@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Treelookup/0
-|graphic=nether-cap_trunk_sprite.png
-|sapling=Nether-cap_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=nether-cap_trunk_sprite.png|sapling=Nether-cap_sapling.png|wiki=no}}
 {{av}}
 
 '''Nether-caps''' are a type of mushroom-like subterranean [[tree]]. Once fully grown, they can be designated for [[wood cutting]] and produce nether-cap [[log]]s. They often grow on muddied rock in the 3rd [[Caverns|underground cavern]] layer and, once discovered, will begin to grow in any suitable environment within your fortress as well.

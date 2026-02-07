@@ -4,11 +4,6 @@
 * {{creature/variation links|Green tree frog|sep=**}}
 The [[amphibian man]] is described as resembling a "walking frog".
 
-{{Translation
-| dwarven = enog
-| elvish  = amimó
-| goblin  = uxus
-| human   = ihhi
-}}
+{{Translation| dwarven = enog| elvish  = amimó| goblin  = uxus| human   = ihhi}}
 
 {{disambig}}

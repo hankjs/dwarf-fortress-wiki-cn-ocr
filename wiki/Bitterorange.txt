@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=coffee_trunk_sprite.png
-|product=bitter_orange_sprite.png
-|sapling=bitter_orange_sapling.png
-|wiki=Trifoliate orange}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=bitter_orange_sprite.png|sapling=bitter_orange_sapling.png|wiki=Trifoliate orange}}
 {{av}}
 
 '''Bitter orange''' is one of the many genera of trees found above-ground. Like the vast majority of above-ground trees, bitter orange [[wood]] is brown and produces brown products.

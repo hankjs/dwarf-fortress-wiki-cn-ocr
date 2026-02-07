@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=lion_man_sprite_anim.gif
-|portrait=lion_man_portrait_anim.gif}}
+{{Creaturelookup/0|image=lion_man_sprite_anim.gif|portrait=lion_man_portrait_anim.gif}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=lesser_yam_shrub_sprite.png
-|seedimage=lesser_yam_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=lesser_yam_shrub_sprite.png|seedimage=lesser_yam_seeds_sprite.png|uses=
 * [[Food]]}}
 {{av}}
 

@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=cat_sprites.png
-|portrait=cat_portrait_anim.gif
-|bone=0-4
-|meat=0-7
-|fat=0-7
-|intestine=0-1
-|skin=hide
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=cat_sprites.png|portrait=cat_portrait_anim.gif|bone=0-4|meat=0-7|fat=0-7|intestine=0-1|skin=hide|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -39,12 +28,7 @@ Cats are useful around the fort to prevent the unhappy thoughts produced by verm
 
 Kittens cannot be butchered for bones: only [[skull]]s will be created. Immature adult cats (less than 2 years old) may return about 2 meat, fat and bone, 1 skin, and 1 skull, or may only return a skull, while full adults (> 2 yrs) consistently return about 6-7 meat and fat. Unfortunately there is no in-game way to tell for sure whether a particular animal is an immature or full adult. (Note that other animals also have smaller immature sizes and butchering returns, but most other immature domestics return a more reasonable percentage of adult returns; for example, immature dogs consistently return about 50% of adult returns and include byproducts (e.g. bones and skin), compared to cats' 0-30% and sometimes no byproducts but the skull.) If you have a bunch of unwanted kittens, there are many uses for them. For example, use them as bait for a [[forgotten beast]] if it has some sort of poison, in order to determine what the poison does. If there's a desperate need to maximize cat-butchering returns, one can partly work around the lack of age info by slaughtering one-by-one the first-listed (therefore, usually, oldest) cats in the unit or animal screen until the returns drop to immature-sized returns, then waiting some months or a year for the remaining kitties to <s>stew</s> mature for a while.
 
-{{Translation
-| dwarven = kun
-| elvish  = linì
-| goblin  = sest
-| human   = usa
-}}
+{{Translation| dwarven = kun| elvish  = linì| goblin  = sest| human   = usa}}
 
 [[Image:Feral cat Virginia crop.jpg|thumb|center|250px|Admired for its  ''aloofness''.]]
 

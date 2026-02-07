@@ -1,10 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=rodent_man_sprite.png
-|portrait=rodent_man_portrait.png
-|vary=no
-|death=nobutcher
-|contrib=no}}
+{{Creaturelookup/0|image=rodent_man_sprite.png|portrait=rodent_man_portrait.png|vary=no|death=nobutcher|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

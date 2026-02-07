@@ -1,16 +1,7 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Spinner
-| profession = [[Farmer]]
-| job name   = [[Spinning]]
-| tasks      =
-* {{k|S}} Spin Thread
-| workshop = 
-* [[Farmer's workshop]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Spinner| profession = [[Farmer]]| job name   = [[Spinning]]| tasks      =
+* {{k|S}} Spin Thread| workshop = 
+* [[Farmer's workshop]]| attributes =
 * Endurance
 * Kinesthetic Sense
 * Spatial Sense

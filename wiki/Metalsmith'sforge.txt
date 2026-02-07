@@ -1,25 +1,19 @@
 {{Quality|Exceptional}}
-{{V50 workshop|name=Metalsmith's forge|key=i
-|icon=[[File:metalsmith_icon.png]]
-|job=
+{{V50 workshop|name=Metalsmith's forge|key=i|icon=[[File:metalsmith_icon.png]]|job=
 * [[Weaponsmith|Weaponsmithing]]
 * [[Armorsmith|Armoring]]
 * [[Blacksmith|Blacksmithing]]
 * [[Metal crafter|Metalcrafting]]
 * [[Trapper]]
-* [[Mechanic]]
-|construction=
+* [[Mechanic]]|construction=
 * [[Fire-safe]] [[building material]] (non-[[economic]])
-* [[Fire-safe]] [[anvil]]
-|construction_job=
+* [[Fire-safe]] [[anvil]]|construction_job=
 * [[Weaponsmith|Weaponsmithing]]
 * [[Armorsmith|Armoring]]
 * [[Blacksmith|Blacksmithing]]
-* [[Metal crafter|Metalcrafting]]
-|use=
+* [[Metal crafter|Metalcrafting]]|use=
 * [[Coke]] or [[Charcoal]] ([[Fuel]])
-* [[Metal]] [[bar]]s
-|production=
+* [[Metal]] [[bar]]s|production=
 *[[Weapons]]
 *[[Armor]]
 *[[Chain]]s
@@ -33,8 +27,7 @@
 *[[Stud]]ding
 *[[Furniture]]
 *[[Animal trap]]s
-*[[Mechanisms]]
-}}{{av}}
+*[[Mechanisms]]}}{{av}}
 {{distinguish|Magma forge}}
 
 The '''metalsmith's forge''' is a [[workshop]] used by [[dwarf|dwarves]] to turn [[metal|metal bars]] into useful objects such as [[weapon|weapons]], [[armor]], [[furniture]], [[Currency|coins]], [[ammunition]] for [[siege]] equipment and [[crossbow|crossbows]], [[trap component]]s, and other [[finished goods]].  Depending on the generated world, musical [[instrument]] components may or may not be built here. To build a forge, you must have [[fire-safe]] materials and an [[anvil]]. Every use of the forge, except for [[Decoration|stud]]ding, consumes one unit of [[fuel]] ([[coke]] or [[charcoal]]).

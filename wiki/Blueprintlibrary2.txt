@@ -5,81 +5,15 @@ Removes salt from water, producing fresh water by pumping [[DF2014:Water#Salt_wa
 Z+1:
 
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|▼|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|║|6:0:0}}
-|{{RT|˙|7:0:0}}
-|{{RT|˙|1:0:1}}
-|-
-|{{RT|▼|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|˙|7:0:0}}
-|{{RT|O|6:0:0}}
-|{{RT|˙|7:0:0}}
-|{{RT|˙|1:0:1}}
-|-
-|{{RT|▼|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|║|6:0:0}}
-|{{RT|˙|7:0:0}}
-|{{RT|˙|1:0:1}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|▼|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|║|6:0:0}}|{{RT|˙|7:0:0}}|{{RT|˙|1:0:1}}|-|{{RT|▼|7:0:0}}|{{RT|+|7:0:0}}|{{RT|˙|7:0:0}}|{{RT|O|6:0:0}}|{{RT|˙|7:0:0}}|{{RT|˙|1:0:1}}|-|{{RT|▼|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|║|6:0:0}}|{{RT|˙|7:0:0}}|{{RT|˙|1:0:1}}|}
 
 Z0:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|▲|7:0:0}}
-|{{RT|╔|7:0:0}}
-|{{RT|═|7:0:0}}
-|{{RT|O|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|≈|1:0:1}}
-|-
-|{{RT|▲|7:0:0}}
-|{{RT|║|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|÷|2:0:1}}
-|{{RT|÷|2:0:0}}
-|{{RT|≈|1:0:1}}
-|-
-|{{RT|▲|7:0:0}}
-|{{RT|╚|7:0:0}}
-|{{RT|═|7:0:0}}
-|{{RT|O|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|≈|1:0:1}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|▲|7:0:0}}|{{RT|╔|7:0:0}}|{{RT|═|7:0:0}}|{{RT|O|7:0:0}}|{{RT|.|7:0:0}}|{{RT|≈|1:0:1}}|-|{{RT|▲|7:0:0}}|{{RT|║|7:0:0}}|{{RT|+|7:0:0}}|{{RT|÷|2:0:1}}|{{RT|÷|2:0:0}}|{{RT|≈|1:0:1}}|-|{{RT|▲|7:0:0}}|{{RT|╚|7:0:0}}|{{RT|═|7:0:0}}|{{RT|O|7:0:0}}|{{RT|.|7:0:0}}|{{RT|≈|1:0:1}}|}
 
 Z-1:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|≈|1:0:0}}
-|-
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|≈|1:0:0}}
-|-
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|▓|7:0:0}}
-|{{RT|≈|1:0:0}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|≈|1:0:0}}|-|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|≈|1:0:0}}|-|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|▓|7:0:0}}|{{RT|≈|1:0:0}}|}
 
 ==Building Destroyer... Destroyer==
 
@@ -87,37 +21,11 @@ Trap designed to affect [[building destroyer]] creatures.  A [[support]] holding
 
 Z+1:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|-
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|+|7:0:0}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|-|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|{{RT|+|7:0:0}}|}
 
 Z0:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|-
-|{{RT|.|7:0:0}}
-|{{RT|I|7:0:0}}
-|{{RT|.|7:0:0}}
-|-
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|-|{{RT|.|7:0:0}}|{{RT|I|7:0:0}}|{{RT|.|7:0:0}}|-|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|}
 
 ===Gremlin Trap Variant===
 
@@ -125,20 +33,7 @@ Add [[lever]] linked to [[support]]: now, any gremlin foolish enough to pull thi
 
 Alternate Z0:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|-
-|{{RT|ó|7:0:0}}
-|{{RT|I|7:0:0}}
-|{{RT|.|7:0:0}}
-|-
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|{{RT|.|7:0:0}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|-|{{RT|ó|7:0:0}}|{{RT|I|7:0:0}}|{{RT|.|7:0:0}}|-|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|{{RT|.|7:0:0}}|}
 
 ===Cage Trap Variant===
 
@@ -146,37 +41,11 @@ Add [[cage trap]] around support. If the [[cave-in]] makes a creature unconsciou
 
 Alternate Z0:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|^|2:0:1}}
-|{{RT|^|2:0:1}}
-|{{RT|^|2:0:1}}
-|-
-|{{RT|^|2:0:1}}
-|{{RT|I|7:0:0}}
-|{{RT|^|2:0:1}}
-|-
-|{{RT|^|2:0:1}}
-|{{RT|^|2:0:1}}
-|{{RT|^|2:0:1}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|^|2:0:1}}|{{RT|^|2:0:1}}|{{RT|^|2:0:1}}|-|{{RT|^|2:0:1}}|{{RT|I|7:0:0}}|{{RT|^|2:0:1}}|-|{{RT|^|2:0:1}}|{{RT|^|2:0:1}}|{{RT|^|2:0:1}}|}
 
 Alternate Z1:
 
-{| style="border-spacing: 0; background: black; border: 2px solid black"
-|-
-|{{RT|·|7:0:0}}
-|{{RT|·|7:0:0}}
-|{{RT|·|7:0:0}}
-|-
-|{{RT|·|7:0:0}}
-|{{RT|+|7:0:0}}
-|{{RT|·|7:0:0}}
-|-
-|{{RT|·|7:0:0}}
-|{{RT|·|7:0:0}}
-|{{RT|·|7:0:0}}
-|}
+{| style="border-spacing: 0; background: black; border: 2px solid black"|-|{{RT|·|7:0:0}}|{{RT|·|7:0:0}}|{{RT|·|7:0:0}}|-|{{RT|·|7:0:0}}|{{RT|+|7:0:0}}|{{RT|·|7:0:0}}|-|{{RT|·|7:0:0}}|{{RT|·|7:0:0}}|{{RT|·|7:0:0}}|}
 
 = Other Blueprint articles =
 * [[Atom smasher]]

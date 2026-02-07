@@ -1,9 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=troll_sprites.png
-|portrait=troll_portrait.png
-|wiki=yes
-}}
+{{Creaturelookup/0|image=troll_sprites.png|portrait=troll_portrait.png|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Trolls''' are large, predatory, dangerous subterranean evil [[creature]]s who inhabit all layers of the [[caverns]] and often appear under the command of [[goblin]]s during [[siege]]s, and have any number of [[fun|features]] which make them creatures to be taken seriously. Over four times larger than a [[dwarf]], they are [[building destroyer]]s, and will path to your [[building]]s simply for the joy of sheer destruction. During sieges, they act as battering rams, so [[trap design|design your defenses accordingly]]. They are not related to [[night troll]]s, despite the similar names. 

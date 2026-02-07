@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=jumping_spider_man_sprite.png
-|portrait=jumping_spider_man_portrait.png}}
+{{Creaturelookup/0|image=jumping_spider_man_sprite.png|portrait=jumping_spider_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Jumping spider men''' are [[animal people]] variants of the common [[jumping spider]], who can inhabit most [[savage]] [[biome]]s. They spawn in groups of 1-3 individuals and are generally content to keep to themselves, but may pick fights if provoked. In terms of size, they are a little over half the weight of the average [[dwarf]].

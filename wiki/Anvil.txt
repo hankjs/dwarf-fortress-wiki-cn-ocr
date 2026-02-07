@@ -1,16 +1,8 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_item | name=Anvil
-|graphic=[[File:Anvil premium.png]]
-|tile=σ
-|metal=y
-|bars=3
-|used for=
+{{v50_item | name=Anvil|graphic=[[File:Anvil premium.png]]|tile=σ|metal=y|bars=3|used for=
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-|value=10
-|size=10,000
-}}
+* [[Magma forge]]|value=10|size=10,000}}
 
 '''Anvils''' are required to build [[forge]]s, whether conventional or [[magma forge|magma powered]]. Since at least one is absolutely required if your fortress intends to do ''any'' metalworking whatsoever, and the only way to ''make'' an anvil is with a metalsmith's forge (whether from a [[strange mood]] or by normal means), your first anvil ''must'' be sourced from outside of your colony, either at [[embark]] or through later [[trading]]. Anvils require three [[metal]] [[bar]]s to be [[smith]]ed at a forge - once you have one to begin with. As this is recursive, the origins of the first anvil are hard to discern.[[#Origins|*]]
 
@@ -48,12 +40,7 @@ Correlation implies causation: An anvil is required to make an anvil
 * Another, more realist hypothesis holds that Dwarves pre-existed anvils. In this proposal, a naturally-occurring anvil formed in the caldera of the active volcano, Mt. Mood, which was experiencing a fey mood. When a medium-sized glob and a small glob of non-magma-safe metal were coughed up by a small eruption, landing close enough to the magma pool to form a natural anvil and natural hammer, which they called ''Utharzuntîr'' ("The First Anvil"), and ''Utharekastnil Stodir'' ("The First Safe Hammer of Volcanos"). However, after Urist McBlacksmith incurred an unfortunate smelting accident due to a stray pyroclastic projectile, her daughter, Urist McBlacksmith 2.0, entered a fey mood and forged the first portable anvil, ''Uthareshimzuntîr'' ("The First Free Anvil") from the fires of Mt. Mood. The proceeding autumn, a trade expedition was launched, during which the McBlacksmiths transported ''Utharekastnil Stodir'' and ''Uthareshimzuntîr'' to every dwarven settlement on their continent, loaning the hammer and anvil out to each during the lengthy process of trade goods loading. Because this tour allowed each fort to create their own anvil and hammer, it became known as ''Nilzuntîr Gomaththatthilnilgashcoz Zuntîr'' ("Hammeranvil the Legendary Autumnal Hammer-Proliferation of Anvils"). An alternate, more dwarf-centric version of the story holds that nature played no role: ''Utharzuntîr'' and ''Uthareshimzuntîr'' were the same anvil -- Urist McBlacksmith carved out the shape of an anvil and hammer into the obsidian of the caldera, then repeatedly checked the spot after eruptions until finally, one day, the right liquid metal had settled into the mold. If this is true, then somewhere there must exist a unique anvil made from a unique alloy, and a hammer made of matching stuff. However, these artifacts remains to be discovered...
 *The first (dorf sized) anvil was created when, during the process of making a world, Armok Himself entered a fey mood and grew a conscience, which expressed itself for just long enough for Him to create an anvil for dwarves to advance with. All other anvils were made with it at first.
 
-{{Translation
-| dwarven = zuntîr
-| elvish  = othala
-| goblin  = umas
-| human   = utdar
-}}
+{{Translation| dwarven = zuntîr| elvish  = othala| goblin  = umas| human   = utdar}}
 
 [[ru:Anvil]]
 {{Buildings}}

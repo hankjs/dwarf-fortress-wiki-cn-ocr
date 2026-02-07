@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{verminlookup/0
-|image=Fire_snake_sprite.png
-|portrait=fire_snake_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=Fire_snake_sprite.png|portrait=fire_snake_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

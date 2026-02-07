@@ -1,25 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=orca_sprites.png
-|fat=28-34
-|eye=2
-|lung=24-26
-|heart=6-7
-|intestine=38-39
-|liver=12-14
-|tripe=12-13
-|sweetbread=7
-|spleen=7
-|kidney=14
-|brain=12-14
-|skull=1
-|skin=hide
-|meat=148-223
-|tooth=1
-|bone=29
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=orca_sprites.png|fat=28-34|eye=2|lung=24-26|heart=6-7|intestine=38-39|liver=12-14|tripe=12-13|sweetbread=7|spleen=7|kidney=14|brain=12-14|skull=1|skin=hide|meat=148-223|tooth=1|bone=29|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

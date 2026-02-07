@@ -1,14 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=little_penguin_sprites.png
-|portrait=little_penguin_portrait_anim.gif
-|meat=2
-|skin=hide
-|fat=2
-|skull=1
-|intestine=0-1
-|contrib=no
-|wiki=little penguin}}
+{{Creaturelookup/0|image=little_penguin_sprites.png|portrait=little_penguin_portrait_anim.gif|meat=2|skin=hide|fat=2|skull=1|intestine=0-1|contrib=no|wiki=little penguin}}
 {{av}}
 {{creaturedesc}}
 

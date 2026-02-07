@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=hammerhead_shark_sprites.png
-|portrait=hammerhead_shark_portrait.png
-|contrib=no
-|skull=1
-|skin=hide
-|fat=8
-|meat=17
-|intestine=4
-|spleen=1
-|kidney=2
-|heart=1
-|eye=2
-|liver=1
-|tripe=1
-|sweetbread=1
-|brain=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=hammerhead_shark_sprites.png|portrait=hammerhead_shark_portrait.png|contrib=no|skull=1|skin=hide|fat=8|meat=17|intestine=4|spleen=1|kidney=2|heart=1|eye=2|liver=1|tripe=1|sweetbread=1|brain=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

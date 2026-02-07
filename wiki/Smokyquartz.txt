@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_smoky_quartz_sprite.png
-|graphic2=rough_smoky_quartz_sprite.png}}
+{{gemlookup/0|graphic=cut_smoky_quartz_sprite.png|graphic2=rough_smoky_quartz_sprite.png}}
 {{av}}
 
 '''Smoky quartz''' is an unremarkable low-value [[gem]] found in [[sedimentary layer]]s.

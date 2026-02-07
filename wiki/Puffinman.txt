@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=puffin_man_sprite.png
-|portrait=puffin_man_portrait.png}}
+{{Creaturelookup/0|image=puffin_man_sprite.png|portrait=puffin_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

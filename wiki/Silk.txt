@@ -9,12 +9,7 @@ Silk was once prized as a superior choice for clothing since it was surprisingly
 [[File:Silk,_India_(10721428564).jpg|thumb|240px|center|Nerve-ending friendly.]]
 
 ==See also==
-{{Translation
-| dwarven = nesteth
-| elvish  = yarare
-| goblin  = egod
-| human   = sushsath
-}}
+{{Translation| dwarven = nesteth| elvish  = yarare| goblin  = egod| human   = sushsath}}
 * [[Yarn]]
 * [[Plant fiber]]
 * [[Textile industry]]

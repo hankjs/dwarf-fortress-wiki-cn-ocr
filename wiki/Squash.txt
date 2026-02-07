@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=squash_shrub_sprite.png
-|seedimage=squash_seeds_sprite.png
-|uses=
-* [[Food]]|wiki=Cucurbita
-}}
+{{plantlookup|graphic=squash_shrub_sprite.png|seedimage=squash_seeds_sprite.png|uses=
+* [[Food]]|wiki=Cucurbita}}
 {{av}}
 
 '''Squash''' is an [[aboveground]] [[crop|garden vegetable]] (though botanically a fruit). They can be planted in all seasons and its fruit is edible raw or [[cooking|cooked]].

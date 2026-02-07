@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=lignite_sprite.png
-|uses=* Create 5 [[coke]] at [[smelter]]}}
+{{stonelookup/0|graphic=lignite_sprite.png|uses=* Create 5 [[coke]] at [[smelter]]}}
 {{av}}
 
 One of the two mineral sources of [[fuel]], '''lignite''' is found in [[vein]]s in [[sedimentary layer]]s.  When processed at a [[smelter]] or [[magma smelter]], one unit of lignite produces 5 units of [[Fuel#The_two_sub-types_of_fuel|coke]].   If done at a regular [[smelter]], this processing requires one pre-existing unit of fuel (either [[Fuel#The_two_sub-types_of_fuel|charcoal]] or coke), leaving a ''net'' production of 4 fuel.

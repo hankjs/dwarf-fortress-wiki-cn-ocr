@@ -1,15 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=desert_tortoise_sprites.png
-|skin=scale
-|meat=6
-|fat=6
-|bone=4
-|skull=1
-|intestine=1
-|shell=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=desert_tortoise_sprites.png|skin=scale|meat=6|fat=6|bone=4|skull=1|intestine=1|shell=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

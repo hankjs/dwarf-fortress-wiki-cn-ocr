@@ -1,17 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=voracious_cave_crawler_sprites.png
-|portrait=voracious_cave_crawler_portrait.png
-|wiki=no
-|contrib=no
-|meat=19-28
-|fat=7-9
-|heart=1
-|intestine=7-10
-|brain=2-3
-|skin=hide
-|tooth=1
-}}
+{{Creaturelookup/0|image=voracious_cave_crawler_sprites.png|portrait=voracious_cave_crawler_portrait.png|wiki=no|contrib=no|meat=19-28|fat=7-9|heart=1|intestine=7-10|brain=2-3|skin=hide|tooth=1}}
 {{av}}
 {{creaturedesc}}
 

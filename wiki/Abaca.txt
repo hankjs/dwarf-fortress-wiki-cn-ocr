@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=Abaca_trunk_sprite.png
-|sapling=Abaca_sapling.png
-|wiki=Abacá}}
+{{Treelookup/0|graphic=Abaca_trunk_sprite.png|sapling=Abaca_sapling.png|wiki=Abacá}}
 {{av}}
 
 '''Abaca''' is one of the many genera of trees found aboveground in any tropical jungle. 
@@ -11,8 +8,7 @@ Unlike most trees, it produces no wood; the raws suggest that it will one day pr
 Some [[Dwarf|dwarves]] [[Preferences|like]] abaca trees for their ''leaves''.
 
 {|style="margin: 0 auto;"
-[[File:Musa textilis 7zz.jpg|thumb|center|260px|Admired for its ''leaves''.]]
-|}
+[[File:Musa textilis 7zz.jpg|thumb|center|260px|Admired for its ''leaves''.]]|}
 
 {{gamedata}}
 {{Plants}}

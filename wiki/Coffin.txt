@@ -1,36 +1,12 @@
 
 {{Quality|Fine}}{{av}}
-{{V50_furniture
-|graphic=[[File:Coffin_Premium.png]]
-|name=Coffin
-|tile=0
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|rooms=
-* [[Tomb]]
-|value=10
-|size=30,000
-|capacity=60,000
-}}
+{{V50_furniture|graphic=[[File:Coffin_Premium.png]]|name=Coffin|tile=0|wood=y|stonecarve=y|metal=y|bars=3|glass=y|rooms=
+* [[Tomb]]|value=10|size=30,000|capacity=60,000}}
 [[Image:Catacombs.png|thumb|right|Every respectable dwarven fortress has a developed (and occupied) catacombs system.]]
 '''Burial receptacles''' are [[Storage|containers]] for deceased dwarves and their [[pet]]s, that are used to store their [[corpse]]s, and other [[remains]]. They have different names depending on the materials used to craft them, but all function identically. They are [[Building|placed]] as a "Burial" ({{k|b}}-{{k|f}}-{{k|x}}), and the item can be referred to generically as a coffin.
-{| border="1" cellpadding="2" class="wikitable"
-|-
+{| border="1" cellpadding="2" class="wikitable"|-
 ! Name
-! Materials used
-|-
-| Coffin
-| Stone, Glass
-|-
-| Casket
-| Wood
-|-
-| Sarcophagus
-| Metal
-|}
+! Materials used|-| Coffin| Stone, Glass|-| Casket| Wood|-| Sarcophagus| Metal|}
 
 ==Usage==
 After a coffin is created by the appropriate crafter, it must be built (as furniture) to be used. This is done with the {{k|b}}-{{k|f}}-{{k|x}} keys. In order for the coffin to be used for burials, it needs to be part of a [[Zone#Tomb|tomb zone]]. The [[zone]] can then configured to determine if citizens (default) and/or pets are allowed to be buried there. It can alternately be designated for a specific citizen, either a now-deceased character who was once a citizen or a currently-living citizen for use once they die. A coffin has been assigned when the message, ''"This is the resting place of __________"'', is displayed; viewing the contents of the coffin by clicking on it will show if the assignee has been successfully interred.

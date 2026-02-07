@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=andesite_sprite.png}}
+{{stonelookup/0|graphic=andesite_sprite.png}}
 {{av}}
 
 '''Andesite''' is an unremarkable [[Igneous extrusive layer|igneous extrusive]] [[stone]]. It can form whole layers, and is functionally identical to [[dacite]] and [[rhyolite]]. It is not [[magma-safe]].

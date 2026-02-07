@@ -1,16 +1,10 @@
-{{Quality|Fine}}{{v50 workshop|name=Tanner's shop|key1=f|key2=t|job=Tanning
-|icon=[[File:tanners_shop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Tanner|Tanning]]
-|use=
+{{Quality|Fine}}{{v50 workshop|name=Tanner's shop|key1=f|key2=t|job=Tanning|icon=[[File:tanners_shop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Tanner|Tanning]]|use=
 * [[Skin|Hide]]
-* [[Milk of lime]]
-|production=
+* [[Milk of lime]]|production=
 * [[Leather]]
-* [[Parchment]]
-}}{{av}}
+* [[Parchment]]}}{{av}}
 
 A '''tanner's shop''' is used to make [[leather]] from a [[Butcher's shop|butchered]] animal skin and [[parchment]] from animal skin with [[milk of lime]]{{version|0.42.01}}.  A tanner's shop is operated by any dwarf with the 'tanning' [[labor]] enabled. A butchered animal will drop a skin that will be turned into multiple pieces of leather based on the animal's size. A cow gives 2 leather, whereas a giant elephant gives 10 leather per animal.{{version|50.01}}
 

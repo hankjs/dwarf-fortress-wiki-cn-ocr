@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_magenta_sprite.png}}
+{{stonelookup/0|graphic=ore_magenta_sprite.png}}
 {{av}}
 '''Sphalerite''' is the only [[ore]] of [[zinc]], and can also be used as an ingredient in the [[smelter|smelting]] of [[brass]].  In the game, sphalerite is found as veins in [[metamorphic layer]]s. 
 

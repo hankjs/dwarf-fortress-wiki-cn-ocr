@@ -1,26 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_swan_sprite.png
-|portrait=swan_portrait_anim.gif
-|contrib=no
-|bone=24-32
-|meat=17-25
-|fat=11-19
-|skin=hide
-|skull=1
-|brain=1
-|feather=1
-|gizzard=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|eye=0-2
-}}
+{{Creaturelookup/0|image=giant_swan_sprite.png|portrait=swan_portrait_anim.gif|contrib=no|bone=24-32|meat=17-25|fat=11-19|skin=hide|skull=1|brain=1|feather=1|gizzard=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|eye=0-2}}
 {{av}}
 {{creaturedesc}}
 

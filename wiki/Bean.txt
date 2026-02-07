@@ -9,12 +9,7 @@ There are multiple varieties of bean in Dwarf Fortress:
 * [[Cacao tree|Cacao bean]]
 * [[Coffee|Coffee bean]]
 
-{{Translation
-| dwarven = nangês
-| elvish  = mawada
-| goblin  = dugu
-| human   = seto
-}}
+{{Translation| dwarven = nangês| elvish  = mawada| goblin  = dugu| human   = seto}}
 
 {{disambig}}
 [[ru:Bean]]

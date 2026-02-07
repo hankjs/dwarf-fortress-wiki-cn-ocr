@@ -1,14 +1,5 @@
 {{Quality|Superior}}
-{{creaturelookup/0
-|image=kiwi_sprites.png
-|portrait=kiwi_portrait_anim.gif
-|meat=2
-|skin=hide
-|fat=2
-|skull=1
-|intestines=0-1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=kiwi_sprites.png|portrait=kiwi_portrait_anim.gif|meat=2|skin=hide|fat=2|skull=1|intestines=0-1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

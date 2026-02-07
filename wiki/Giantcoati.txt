@@ -1,24 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=giant_coati_sprite.png
-|portrait=coati_portrait_anim.gif
-|lung=2
-|heart=1
-|intestines=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|nervous tissue=1
-|hair=1
-|skin=hide
-|fat=11
-|meat=11
-|bone=17
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_coati_sprite.png|portrait=coati_portrait_anim.gif|lung=2|heart=1|intestines=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|nervous tissue=1|hair=1|skin=hide|fat=11|meat=11|bone=17|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

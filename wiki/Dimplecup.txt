@@ -1,10 +1,6 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|uses=
-* [[Dye]]
-|graphic=dimple_cup_shrub_sprite.png
-|seedimage=dimple_cup_seeds_sprite.png
-|wiki=no}}
+{{plantlookup|uses=
+* [[Dye]]|graphic=dimple_cup_shrub_sprite.png|seedimage=dimple_cup_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''Dimple cup''' is a [[underground|subterranean]] [[crop]]. It can be [[farming|grown]] year-round and can be [[milling|milled]] into [[dye|blue dimple dye]].

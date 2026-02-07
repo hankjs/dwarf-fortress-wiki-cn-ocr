@@ -10,8 +10,7 @@ The four Stoneworker skills are:
 * [[Mason]]
 * [[Stone carver]]
 * [[Stonecutter]]
-* [[Engraver]]
-}}
+* [[Engraver]]}}
 
 {{Translation| dwarven = lam cubor | elvish = queca ipana | goblin = ngomstu otut | human = ado inan}}
 

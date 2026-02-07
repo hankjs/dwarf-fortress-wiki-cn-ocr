@@ -6,35 +6,9 @@
 A tomb is a [[zone]] in which [[dwarf|dwarves]] ([[File:Interface dwarf face.jpg|26px]]) and pets ([[File:Interface tomb pet.png|26px]]) can be buried. A tomb can be assigned to a specific dwarf, or to accept dwarves and/or pets for burial. A tomb zone can only accommodate '''one''' dwarf. The primary function of tombs is to keep [[noble]]s [[thought|happy]]: certain nobles demand their own tomb, and the more self-important the noble is, the higher the [[Zone#Quality_and_value|quality]] they will require. In some circumstances a [[noble]] will get an unhappy [[thought]] if an "inferior" dwarf has a higher-quality tomb, however it is unclear what quality threshold the tomb must be to trigger the thought. Nobles may also store certain favored objects in their tombs.
 
 The [[Zone#Quality_and_value|quality]] levels of tombs go as follows:
-{| class = "wikitable"
-|-
+{| class = "wikitable"|-
 ! Name
-! Value
-|-
-| Grave
-| style="text-align:right;"| 0
-|-
-| Servant's Burial Chamber
-| style="text-align:right;"| 100
-|-
-| Burial Chamber
-| style="text-align:right;"| 250
-|-
-| Tomb
-| style="text-align:right;"| 500
-|-
-| Fine Tomb
-| style="text-align:right;"| 1000
-|-
-| Mausoleum
-| style="text-align:right;"| 1500
-|-
-| Grand Mausoleum
-| style="text-align:right;"| 2500
-|-
-| Royal Mausoleum
-| style="text-align:right;"| 10000
-|}
+! Value|-| Grave| style="text-align:right;"| 0|-| Servant's Burial Chamber| style="text-align:right;"| 100|-| Burial Chamber| style="text-align:right;"| 250|-| Tomb| style="text-align:right;"| 500|-| Fine Tomb| style="text-align:right;"| 1000|-| Mausoleum| style="text-align:right;"| 1500|-| Grand Mausoleum| style="text-align:right;"| 2500|-| Royal Mausoleum| style="text-align:right;"| 10000|}
 
 [[File:df_tomb_dead.png|thumb|190px|A mummy surrounded by potential minions.]]Dwarves that have been assigned to tombs will retain all of their possessions when they die, and other dwarves will place them in the tomb - it can be a good idea to keep a [[chest]] or [[cabinet]] in the tomb to ensure that all of the items fit; otherwise, all of the dwarf's possessions will be inherited by their [[marriage|spouse]] (if one exists) or simply become unowned.
 
@@ -59,12 +33,7 @@ df_tomb_inteldead.png|A mummy raising intelligent undead.
 df_tomb_treasure.png|A hallway of altars and bags.
 </gallery>
 
-{{Translation
-| dwarven = rakust
-| elvish  = nelara
-| goblin  = zakosp
-| human   = lomoth
-}}
+{{Translation| dwarven = rakust| elvish  = nelara| goblin  = zakosp| human   = lomoth}}
 
 {{World}}
 {{Zones}}

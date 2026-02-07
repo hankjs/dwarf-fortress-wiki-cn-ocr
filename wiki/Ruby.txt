@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_ruby_sprite.png
-|graphic2=rough_ruby_sprite.png}}
+{{gemlookup/0|graphic=cut_ruby_sprite.png|graphic2=rough_ruby_sprite.png}}
 {{av}}
 
 '''Ruby''' is a valuable red [[gem]] found in small clusters within [[bauxite]]. A given cluster may also contain a single [[star ruby]]. Aside from the colour, rubies are exactly identical to [[sapphire]]s, including the value and physical characteristics (this implies that rubies are not magma-safe, melting at {{ct|11500}}). Rubies are also exactly identical to star rubies aside from the location and value.

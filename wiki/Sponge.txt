@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=sponge_sprites.png
-|portrait=sponge_portrait.png
-|contrib=yes
-|wiki=yes
-}}
+{{Creaturelookup/0|image=sponge_sprites.png|portrait=sponge_portrait.png|contrib=yes|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -15,12 +10,7 @@ While popularly known across the community in older versions of ''Dwarf Fortress
 Sponges possess a [[pet]] value of 10, but lack the necessary tokens to be [[Animal trainer|trainable]]. The fact they are both water-dwelling and immobile also presents a barrier, even if they were modded to be trainable.
 
 Some dwarves [[Preferences|like]] sponges for their ''squishy texture''.
-{{Translation
-| dwarven = adbok
-| elvish  = meca
-| goblin  = gestrast
-| human   = muma
-}}
+{{Translation| dwarven = adbok| elvish  = meca| goblin  = gestrast| human   = muma}}
 [[File:Aplysina archeri (Stove-pipe Sponge-pink variation).jpg|thumb|center|300px|Admired for its ''squishy texture''.]]
 
 {{gamedata}}

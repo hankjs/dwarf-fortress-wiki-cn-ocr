@@ -1,17 +1,10 @@
 {{Quality|Fine}}
-{{Skill
-| color      = 5:0
-| skill      = Suturer
-| profession = [[Doctor]]
-| job name   = [[Suturing]]
-| tasks      =
-* Stitch up cuts, broken skin tissue
-| attributes =
+{{Skill| color      = 5:0| skill      = Suturer| profession = [[Doctor]]| job name   = [[Suturing]]| tasks      =
+* Stitch up cuts, broken skin tissue| attributes =
 * Agility
 * Focus
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 [[File:elf_suture_preview.png|thumb|288px|right|An elf dancer with stitches on her right leg and foot, still not effecting her skillful dancing.]]'''Suturer''' is the skill associated with the suturing [[labor]]. Suturers are responsible for closing wounds using [[thread]] at a [[hospital]]. Additionally, in the latest version, dwarves who discuss or ponder the [[topic]] "Suturing" as scholars will gain points in this skill.
 

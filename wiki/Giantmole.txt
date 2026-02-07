@@ -1,24 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_mole_sprites.png
-|portrait=giant_mole_portrait.png
-|wiki=no
-|contrib=no
-|vary=no
-|bone=11-17
-|meat=13-14
-|fat=13
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide}}
+{{Creaturelookup/0|image=giant_mole_sprites.png|portrait=giant_mole_portrait.png|wiki=no|contrib=no|vary=no|bone=11-17|meat=13-14|fat=13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 '''Giant moles''' are [[creature]]s found at the first two layers of the [[caverns]], who'll come to your fortress and attempt to [[Steals food|steal your food]] and [[Steals drink|drink your alcohol]], and so should be kept away from your [[food]] [[stockpile]]s. While large, giant moles are benign and will not start fights on their own. However, due to their thieving disposition, [[dwarves]] will react aggressively to their presence and often attack them on sight. Caution should be taken if a giant mole enters a populated area, as they can cause significant damage in the event they fight back. A giant mole infant is called a ''giant mole pup''. Despite the fact that they are members of [[wikipedia:Eulipotyphla|Eulipotyphla]], they have teeth like a rodent. 

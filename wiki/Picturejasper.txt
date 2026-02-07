@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_picture_jasper_sprite.png
-|graphic2=rough_picture_jasper_sprite.png
-|wiki=Jasper}}
+{{gemlookup/0|graphic=cut_picture_jasper_sprite.png|graphic2=rough_picture_jasper_sprite.png|wiki=Jasper}}
 {{av}}
 
 '''Picture jaspers''' are low-value [[gem]]s found in [[sedimentary layer]]s.

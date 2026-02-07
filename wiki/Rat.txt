@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=rat_sprite.png
-|portrait=giant_rat_portrait.png}}
+{{verminlookup/0|image=rat_sprite.png|portrait=giant_rat_portrait.png}}
 {{av}}
 {{creaturedesc}}
 
@@ -9,12 +7,7 @@
 
 Some dwarves [[Preferences|like]] rats for their ''friendliness'', their ''playfulness'', their ''curiosity'' and their ''intelligence''.
 
-{{Translation
-| dwarven = atem
-| elvish  = thapa
-| goblin  = spödgôz
-| human   = othur
-}}
+{{Translation| dwarven = atem| elvish  = thapa| goblin  = spödgôz| human   = othur}}
 
 [[File:Vermin-Rat.JPG|thumb|center|300px|Admired for its ''friendliness''.]]
 

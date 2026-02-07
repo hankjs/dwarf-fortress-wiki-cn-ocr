@@ -13,9 +13,7 @@ Royal jelly and [[honey]] are the edible products of bees. In real life, it is u
 *Collecting royal jelly may require more than 1 jug in storage to begin.
 * Cooks will only cook jelly and other fluids as a last resort, instead preferring to cook solid foods with solid foods. {{Bug|2393}} For more information, see the [[Kitchen#Bugs|kitchen]] page.
 
-{{gamedata
-|title=[[Honey bee/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:ROYAL_JELLY:CREATURE_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Honey bee/raw|Raws]]|[USE_MATERIAL_TEMPLATE:ROYAL_JELLY:CREATURE_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen honey bee royal jelly]
 	[STATE_NAME_ADJ:LIQUID:honey bee royal jelly]
 	[STATE_NAME_ADJ:GAS:boiling honey bee royal jelly]
@@ -24,8 +22,7 @@ Royal jelly and [[honey]] are the edible products of bees. In real life, it is u
 	[PREFIX:NONE]
 	[EDIBLE_VERMIN]
 	[EDIBLE_COOKED]
-	[EDIBLE_RAW]
-}}
+	[EDIBLE_RAW]}}
 {{materials}}
 
 {{Category|Food}}

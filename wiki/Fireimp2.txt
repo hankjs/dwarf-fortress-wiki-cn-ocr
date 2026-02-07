@@ -1,15 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=fire_imp_sprite.png
-|portrait=fire_imp_portrait.png
-|wiki=no
-|bone=4
-|meat=7
-|fat=7
-|skull=1
-|intestines=1
-|skin=hide
-|contrib=no}}
+{{Creaturelookup/0|image=fire_imp_sprite.png|portrait=fire_imp_portrait.png|wiki=no|bone=4|meat=7|fat=7|skull=1|intestines=1|skin=hide|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Fire imps''' are small, hostile [[creature]]s straight from the [[magma sea]], emerging in groups of 3-4 mayhem-minded individuals. Only a little bigger than a [[cat]], the threat they pose comes in the form of their special attacks; they are able to throw large [[Fire|fireballs]] and launch jets of flame from their hands, which can ignite whole landscapes and immediately turn your [[Dwarf|dwarves]] into [[fire|‼dwarves‼]]. All fire imps are born with Legendary [[skill]] in [[Climber|climbing]].

@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=wolverine_sprites.png
-|portrait=wolverine_portrait_anim.gif
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|fat=7-10
-|skin=hide
-|meat=7-11
-|bone=4-11
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=wolverine_sprites.png|portrait=wolverine_portrait_anim.gif|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|fat=7-10|skin=hide|meat=7-11|bone=4-11|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

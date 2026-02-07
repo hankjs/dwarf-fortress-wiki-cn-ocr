@@ -1,14 +1,6 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Shearer
-| profession = [[Farmer]]
-| job name   = [[Shearing]]
-| tasks      =
-* {{k|s}} Shear animal
-| workshop = 
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Shearer| profession = [[Farmer]]| job name   = [[Shearing]]| tasks      =
+* {{k|s}} Shear animal| workshop = 
 * [[Farmer's workshop]]}}
 {{av}}
 

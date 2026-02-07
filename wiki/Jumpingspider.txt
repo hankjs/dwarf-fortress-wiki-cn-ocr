@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=jumping_spider_sprite.png
-|portrait=jumping_spider_portrait.png}}
+{{verminlookup/0|image=jumping_spider_sprite.png|portrait=jumping_spider_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

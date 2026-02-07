@@ -34,11 +34,7 @@ Dwarves do not require soap to clean [[contaminant]]s such as mud and blood from
 
 Dwarves have an internal "dirtiness" level, which slowly builds up over time, gets lowered when they have a bath, and lowered further when they have a soapy bath.  This "dirtiness" value is connected to the chance of getting an infection if the dwarf is injured, making soap useful as a preventative as well as treatment.  
 
-{{Translation
-| dwarven = uben
-| elvish  = dathe
-| goblin  = snubez
-| human   = kamven}}
+{{Translation| dwarven = uben| elvish  = dathe| goblin  = snubez| human   = kamven}}
 
 
 {{gamedata}}

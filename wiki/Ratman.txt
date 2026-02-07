@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=rat_man_sprite.png
-|portrait=rat_man_portrait.png
-|contrib=no
-}}
+{{Creaturelookup/0|image=rat_man_sprite.png|portrait=rat_man_portrait.png|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

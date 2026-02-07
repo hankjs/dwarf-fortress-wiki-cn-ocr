@@ -1,11 +1,5 @@
 {{Quality|Masterwork}}
-{{Creaturelookup/0
-|image=Dwarf sprite.png
-|portrait=dwarf_portrait_anim.gif
-|death=nobutcher
-|contrib=no
-|wiki=Dwarf (mythology)
-}}
+{{Creaturelookup/0|image=Dwarf sprite.png|portrait=dwarf_portrait_anim.gif|death=nobutcher|contrib=no|wiki=Dwarf (mythology)}}
 {{av}}
 {{creaturedesc}}
 [[File:Bersek dwarf.png|thumb|right|«''Berserk Dwarf''». Art by [[User:Jeff Agudelo|Jeff Agudelo]]]]

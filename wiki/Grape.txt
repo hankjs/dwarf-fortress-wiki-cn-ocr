@@ -1,12 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=grape_shrub_sprite.png
-|seedimage=grape_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=grape_shrub_sprite.png|seedimage=grape_seeds_sprite.png|uses=
 * [[Food]]
-* [[Alcohol]]
-|wiki=vitis vinifera
-}}
+* [[Alcohol]]|wiki=vitis vinifera}}
 {{av}}
 
 '''Grape''' are an [[aboveground]] [[crop|garden fruit]]. They can be planted in all seasons, the fruit is edible raw or [[cooking|cooked]], and can also be [[brewing|brewed]] into [[alcohol|wine]] or processed in a [[dyer's shop]] into lavender [[dye]].
@@ -22,12 +17,7 @@ Some [[Dwarf|dwarves]] [[preferences|like]] grape vines for their ''fruit''.
 {{D for Dwarf}}
 Oddly, in spite of encompassing almost all preferred varieties of wine, dwarves (and humans, for that matter,) have no particular desire for wine over other, more notably wretched forms of wine like [[turnip]] wine.
 
-{{Translation
-| dwarven = mashus
-| elvish  = pocace
-| goblin  = tat
-| human   = sothro
-}}
+{{Translation| dwarven = mashus| elvish  = pocace| goblin  = tat| human   = sothro}}
 
 {{gamedata}}
 {{Plants}}

@@ -1,21 +1,12 @@
 {{Quality|Superior}}
 {{av}}
-{{Skill
-| color      = 5:0
-| graphic    = [[File:appraiser_sprite.png]]
-| skill      = Appraiser
-| specialty  = [[Trader]]
-| profession = [[Administrator]]
-| job name   = Admin/Noble
-| tasks      =
+{{Skill| color      = 5:0| graphic    = [[File:appraiser_sprite.png]]| skill      = Appraiser| specialty  = [[Trader]]| profession = [[Administrator]]| job name   = Admin/Noble| tasks      =
 * Value items at [[Depot]]
 * Value items in the fortress
-* Track wealth and trade info
-| attributes =
+* Track wealth and trade info| attributes =
 * Analytical Ability
 * Memory
-* Intuition
-}}
+* Intuition}}
 The '''appraiser''' [[skill]] relates to [[trading]] and item [[value]] estimation and [[zone]] value estimation. In order to see your fortress' monetary value estimates in the [[status]] bar, as well as any individual item values from your [[Record keeper|stockpile records]], your [[broker]] must be at least a [[Skill#Skill level names|Novice]] (level 1) appraiser. (Note that this is not necessary for the display of item [[quality]], which can always be seen via the indicators bracketing the item names.)
 
 The [[trade depot]]'s current operator gains [[experience]] in the appraiser skill the first time the trading screen is opened for each caravan visit, but the item valuations in the trade depot are determined by your broker's appraiser skill, not the current trade depot operator's. (You can, however, reassign the position of broker to your fortress representative to display item values at the depot.) Appraiser has no associated assignable [[labor]]s. Graphically, they wear all-black clothing, with the default [[Settings#Dye_display|setting]].

@@ -13,11 +13,6 @@ See the [[map legend]] for more information on map symbols.
 
 [[File:Destroyed.jpg|thumb|center|1000px|A human town destroyed by an elven civilization in war, recorded in the [[legends]]]]
 
-{{Translation
-| dwarven = notlith
-| elvish  = sebeca
-| goblin  = ngûtdo
-| human   = bistra
-}}
+{{Translation| dwarven = notlith| elvish  = sebeca| goblin  = ngûtdo| human   = bistra}}
 
 {{World}}

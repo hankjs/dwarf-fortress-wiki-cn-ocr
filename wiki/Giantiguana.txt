@@ -1,23 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=giant_iguana_sprite.png
-|portrait=iguana_portrait_anim.gif
-|bone=18
-|meat=15
-|skin=scale
-|fat=13
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestine=1
-|heart=1
-|lung=2
-|contrib=no
-}}
+{{Creaturelookup/0|image=giant_iguana_sprite.png|portrait=iguana_portrait_anim.gif|bone=18|meat=15|skin=scale|fat=13|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

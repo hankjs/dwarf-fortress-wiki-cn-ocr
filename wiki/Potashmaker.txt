@@ -1,21 +1,11 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Potash Maker
-| profession = [[Farmer]]
-| job name   = [[Potash making]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Potash Maker| profession = [[Farmer]]| job name   = [[Potash making]]| tasks      =
 * Make [[Potash]] from [[lye]]
-* Make Potash from [[ash]]
-| workshop = [[Ashery]]
-| attributes =
+* Make Potash from [[ash]]| workshop = [[Ashery]]| attributes =
 * Strength
 * Toughness
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''Potash maker''' is a skill associated with the '''potash making''' [[labor]].

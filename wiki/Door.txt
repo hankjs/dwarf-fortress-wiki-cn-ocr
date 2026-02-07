@@ -72,12 +72,7 @@ You can also use this strategy to unhook doors from walls and leave them as free
 
 * All doors are watertight, but dwarves may allow small amounts through when they open a door to pass. If you need doors to a watery area such as a reservoir for an artificial waterfall or flood trap, you can limit the mess from escaping water by making each exit an "airlock": two doors enclosing a one- or two-tile room between the tank and the main hallway. The small amount of water that escapes will be contained in the room and evaporate. If the water level can potentially get too high to evaporate, channeling a drain and placing [[grate]]s or floor bars is even more effective.
 
-{{Translation
-| dwarven = tun
-| elvish  = beÿa
-| goblin  = sustgo
-| human   = as
-}}
+{{Translation| dwarven = tun| elvish  = beÿa| goblin  = sustgo| human   = as}}
 ==Trivia==
 
 There are distinct sounds{{version|51.01}} for moving through wood, stone, glass, metal, bone, gem, and curiously, [[soap]] and [[mud]], doors.

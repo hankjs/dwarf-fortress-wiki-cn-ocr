@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=two_legged_rhino_lizard_sprite.png
-|portrait=two_legged_rhino_lizard_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=two_legged_rhino_lizard_sprite.png|portrait=two_legged_rhino_lizard_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

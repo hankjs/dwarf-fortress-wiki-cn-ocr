@@ -30,31 +30,13 @@ Their first line must be the filename, followed by <code> [OBJECT:SOUND_FILE]</c
      [LOOPS] optional
      [TITLE:piece title]
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 !Token
 !Arguments
-!Extra Information
-|-
-| {{text anchor|FILE}}
-|
-* path to audio
-| (Required) Usually stored as <code>sound/...ogg</code>.
-|-
-| {{text anchor|AUTHOR}}
-|
-* string
-| (Music only) Displays as the song author on pause menu.
-|-
-| {{text anchor|LOOPS}}
-| 
-| (Music only) If set, should play continuously until interrupted.{{verify}}
-|-
-| {{text anchor|TITLE}}
-|
-* string
-| (Music only) Displays as track title on pause menu.
-|}
+!Extra Information|-| {{text anchor|FILE}}|
+* path to audio| (Required) Usually stored as <code>sound/...ogg</code>.|-| {{text anchor|AUTHOR}}|
+* string| (Music only) Displays as the song author on pause menu.|-| {{text anchor|LOOPS}}| | (Music only) If set, should play continuously until interrupted.{{verify}}|-| {{text anchor|TITLE}}|
+* string| (Music only) Displays as track title on pause menu.|}
 
 ==Sound effects==
 
@@ -66,26 +48,12 @@ All vanilla sound tokens are found within <code>objects/sound_standard.txt</code
      ...
      [ANNOUNCEMENT:<announcement n>]
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 !Token
 !Arguments
-!Extra Information
-|-
-| {{text anchor|FILE}}
-|
-* [[Audio#Identifiers|sound file]]
-| (Required) [[Audio#Identifiers|File identifiers]] can be any of various hardcoded sounds (all present in the vanilla raws) or custom [SOUND_FILE] objects.
-|-
-| {{text anchor|ANNOUNCEMENT}}
-|
-* [[Announcements.txt|announcement(s)]]
-| Trigger condition, can use more than one announcement in the list.
-|-
-| {{text anchor|SAVAGE_AREA}}
-| 
-| Played randomly in a [[Surroundings#Savage|savage]] area.
-|}
+!Extra Information|-| {{text anchor|FILE}}|
+* [[Audio#Identifiers|sound file]]| (Required) [[Audio#Identifiers|File identifiers]] can be any of various hardcoded sounds (all present in the vanilla raws) or custom [SOUND_FILE] objects.|-| {{text anchor|ANNOUNCEMENT}}|
+* [[Announcements.txt|announcement(s)]]| Trigger condition, can use more than one announcement in the list.|-| {{text anchor|SAVAGE_AREA}}| | Played randomly in a [[Surroundings#Savage|savage]] area.|}
 
 ==Music tracks==
 All vanilla music tokens are found within <code>objects/music_standard.txt</code>. All music logic raws must begin with <code>music_</code>, followed by the <code>[OBJECT:MUSIC]</code> token that tells the game that the file contains music definitions.
@@ -100,109 +68,23 @@ All vanilla music tokens are found within <code>objects/music_standard.txt</code
  	[CONTEXT:CAVERNS_OPENED]
  	[FREQUENCY:UNCOMMON]
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 !Token
 !Arguments
-!Extra Information
-|-
-| {{text anchor|FILE}}
-|
-* [[Audio#Identifiers|music file]]
-| (Required) Can be any of the many hardcoded [[Audio#Identifiers|files]] for the [[soundtrack]], or it can be a custom [MUSIC_FILE] object.
-|-
-| {{text anchor|CARD}}
-|
-* [[Audio#Identifiers|music file(s)]]
-| Mostly unexplored, listed as a "shuffled deck of short bits." Appears to be played only if no song is currently playing? Before the song proper starts, the game will play a few of these in random order. You can find the parts in the subfolders in ...\common\Dwarf Fortress\data\sound\tracks folder. 
-|-
-| {{text anchor|CONTEXT}}
-| [[Audio#Contexts|context(s)]]
-| This song can randomly play if any of the contexts are met.
-|-
-| {{text anchor|EVENT}}
-| [[Audio#Events|event(s)]]
-| When the chosen event occurs, this song automatically plays and overrides the current song. If multiple songs match the event, a random song will be played from among them.
-|-
-| {{text anchor|FREQUENCY}}
-|
-* UNCOMMON or RARE
-| Can be set to 'UNCOMMON' to set the frequency half as often as the other candidates or 'RARE' to make it 1/5 as often as other candidates.
-|}
+!Extra Information|-| {{text anchor|FILE}}|
+* [[Audio#Identifiers|music file]]| (Required) Can be any of the many hardcoded [[Audio#Identifiers|files]] for the [[soundtrack]], or it can be a custom [MUSIC_FILE] object.|-| {{text anchor|CARD}}|
+* [[Audio#Identifiers|music file(s)]]| Mostly unexplored, listed as a "shuffled deck of short bits." Appears to be played only if no song is currently playing? Before the song proper starts, the game will play a few of these in random order. You can find the parts in the subfolders in ...\common\Dwarf Fortress\data\sound\tracks folder. |-| {{text anchor|CONTEXT}}| [[Audio#Contexts|context(s)]]| This song can randomly play if any of the contexts are met.|-| {{text anchor|EVENT}}| [[Audio#Events|event(s)]]| When the chosen event occurs, this song automatically plays and overrides the current song. If multiple songs match the event, a random song will be played from among them.|-| {{text anchor|FREQUENCY}}|
+* UNCOMMON or RARE| Can be set to 'UNCOMMON' to set the frequency half as often as the other candidates or 'RARE' to make it 1/5 as often as other candidates.|}
 
 ===Contexts===
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 !Token
-!Extra Information
-|-
-| {{text anchor|ANY}}
-| Can play at any time, including in menus.
-|-
-| {{text anchor|MAIN}}
-| The gamemode is [[Fortress Mode]].
-|-
-| {{text anchor|FIRST_YEAR}}
-| You are controlling a fortress that is less than one year old.
-|-
-| {{text anchor|SECOND_YEAR_PLUS}}
-| Your fortress has been around for more than one year.
-|-
-| {{text anchor|CAVERNS_OPENED}}
-| Your fortress has access to the [[cavern]]s.
-|-
-| {{text anchor|SPRING}}
-| The current season is [[spring]]. Appears to also be played in Legends mode and the main menu.
-|-
-| {{text anchor|SUMMER}}
-| The current season is [[summer]]. Appears to also be played in Legends mode and the main menu.
-|-
-| {{text anchor|AUTUMN}}
-| The current season is [[autumn]]. Appears to also be played in Legends mode and the main menu.
-|-
-| {{text anchor|WINTER}}
-| The current season is [[winter]].
-|}
+!Extra Information|-| {{text anchor|ANY}}| Can play at any time, including in menus.|-| {{text anchor|MAIN}}| The gamemode is [[Fortress Mode]].|-| {{text anchor|FIRST_YEAR}}| You are controlling a fortress that is less than one year old.|-| {{text anchor|SECOND_YEAR_PLUS}}| Your fortress has been around for more than one year.|-| {{text anchor|CAVERNS_OPENED}}| Your fortress has access to the [[cavern]]s.|-| {{text anchor|SPRING}}| The current season is [[spring]]. Appears to also be played in Legends mode and the main menu.|-| {{text anchor|SUMMER}}| The current season is [[summer]]. Appears to also be played in Legends mode and the main menu.|-| {{text anchor|AUTUMN}}| The current season is [[autumn]]. Appears to also be played in Legends mode and the main menu.|-| {{text anchor|WINTER}}| The current season is [[winter]].|}
 
 ===Events===
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 !Token
-!Extra Information
-|-
-| {{text anchor|JUST_EMBARKED}}
-| Plays when [[embark|founding]] a new fortress.
-|-
-| {{text anchor|SIEGE}}
-| A [[siege]] is announced.
-|-
-| {{text anchor|FIRST_CAVERN_OPENED}}
-| A new cave layer is discovered {{verify}}
-|-
-| {{text anchor|MEGABEAST_ATTACK}}
-| Plays when a [[megabeast]]'s arrival is announced. It is unknown if it is also relevant for [[Semi-megabeast|semi-megabeasts]] or [[Titan|titans]].
-|-
-| {{text anchor|FORGOTTEN_BEAST_ATTACK}}
-| Plays when a [[forgotten beast]]'s arrival is announced.
-|-
-| {{text anchor|DEATH_SPIRAL}}
-| Many citizen deaths have occurred in short succession.
-|-
-| {{text anchor|TAVERN_MUSIC_PRESENT}}
-| Many units have gathered to perform or watch a [[Performer#Music|musical form]].
-|-
-| {{text anchor|TAVERN_DANCE_PRESENT}}
-| Many units have gathered to perform or watch a [[Performer#Dance|dance]].
-|-
-| {{text anchor|LOST_FORT}}
-| Ending a game: a fortress has just been [[Reclaim fortress mode|abandoned or retired]] or your [[adventurer]] has died.
-|-
-| {{text anchor|FORT_LEVEL}}{{v|51.01-beta28}}
-| May relate to reaching higher ranks of [[Fortress#Nomenclature]].{{verify}}
-|-
-| {{text anchor|FIRST_GHOST}}{{v|51.01-beta28}}
-| The first time a [[ghost]] attacks.{{verify}}
-|}
+!Extra Information|-| {{text anchor|JUST_EMBARKED}}| Plays when [[embark|founding]] a new fortress.|-| {{text anchor|SIEGE}}| A [[siege]] is announced.|-| {{text anchor|FIRST_CAVERN_OPENED}}| A new cave layer is discovered {{verify}}|-| {{text anchor|MEGABEAST_ATTACK}}| Plays when a [[megabeast]]'s arrival is announced. It is unknown if it is also relevant for [[Semi-megabeast|semi-megabeasts]] or [[Titan|titans]].|-| {{text anchor|FORGOTTEN_BEAST_ATTACK}}| Plays when a [[forgotten beast]]'s arrival is announced.|-| {{text anchor|DEATH_SPIRAL}}| Many citizen deaths have occurred in short succession.|-| {{text anchor|TAVERN_MUSIC_PRESENT}}| Many units have gathered to perform or watch a [[Performer#Music|musical form]].|-| {{text anchor|TAVERN_DANCE_PRESENT}}| Many units have gathered to perform or watch a [[Performer#Dance|dance]].|-| {{text anchor|LOST_FORT}}| Ending a game: a fortress has just been [[Reclaim fortress mode|abandoned or retired]] or your [[adventurer]] has died.|-| {{text anchor|FORT_LEVEL}}{{v|51.01-beta28}}| May relate to reaching higher ranks of [[Fortress#Nomenclature]].{{verify}}|-| {{text anchor|FIRST_GHOST}}{{v|51.01-beta28}}| The first time a [[ghost]] attacks.{{verify}}|}
 
 == See Also== 
 * [[Soundtrack]] 

@@ -1,9 +1,6 @@
-{{Infobox utility
-| image = File:Raynard1.png
-| misc = Current Version v2.3
+{{Infobox utility| image = File:Raynard1.png| misc = Current Version v2.3
 * [https://github.com/Lazy-Newb-Pack/Quickfort-Community-Blueprints GitHub Repository]
-* [https://github.com/Lazy-Newb-Pack/Quickfort-Community-Blueprints/zipball/master/ Download v2.3 in one zip]
-}}
+* [https://github.com/Lazy-Newb-Pack/Quickfort-Community-Blueprints/zipball/master/ Download v2.3 in one zip]}}
 
 The '''Quickfort Community Blueprints''' pack is a collection of blueprints for use with Quickfort, drawn from all over the community.[https://github.com/Lazy-Newb-Pack/Quickfort-Community-Blueprints The most recent version of the pack is v2.3] comes with images to help visualize most designs. It is hosted on GitHub and can be downloaded as a [https://github.com/Lazy-Newb-Pack/Quickfort-Community-Blueprints/zipball/master/ single zip bundle from there]. Their use requires a basic understanding of Quickfort. 
 

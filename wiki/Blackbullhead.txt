@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=black_bullhead_sprite.png
-|portrait=black_bullhead_portrait.png}}
+{{verminlookup/0|image=black_bullhead_sprite.png|portrait=black_bullhead_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

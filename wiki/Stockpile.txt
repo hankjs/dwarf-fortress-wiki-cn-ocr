@@ -213,23 +213,9 @@ See also [http://www.bay12forums.com/smf/index.php?topic=96501.msg2765710 Crafti
 === Notes ===
 Some categories will have a special extra type of item(s) that can be toggled.
 
-{| border="1" cellpadding="4"
-|+ 
+{| border="1" cellpadding="4"|+ 
 ! Categories
-! Item type
-|-
-| Animals 
-| Empty [[cage]]s and empty [[animal trap]]s
-|-
-| Food  
-| [[Prepared meal|Prepared food]]
-|-
-| Weapons 
-| Usable and unusable [[weapon]]s
-|-
-| Armor 
-| Usable and unusable [[armor]]
-|}
+! Item type|-| Animals | Empty [[cage]]s and empty [[animal trap]]s|-| Food  | [[Prepared meal|Prepared food]]|-| Weapons | Usable and unusable [[weapon]]s|-| Armor | Usable and unusable [[armor]]|}
 
 If you disable an item or items that are already sitting in a stockpile, then they become loose items. Your haulers will move them to a more suitable stockpile, should one exist. All existing stockpiles (and [[zone]]s) can be seen with {{Menu icon|P}} and viewing the "Zones" and "Stockpiles" tab.
 

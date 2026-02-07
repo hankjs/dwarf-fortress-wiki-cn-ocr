@@ -1,25 +1,14 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_item
-|graphic=[[File:Cloth_sprite.png|32px]]
-|name=Cloth
-|tile=º
-|materials=<span></span>
+{{V50_item|graphic=[[File:Cloth_sprite.png|32px]]|name=Cloth|tile=º|materials=<span></span>
 * [[Web]]
 * [[Yarn]]
-* [[Plant fiber]]
-|workshops=<span></span>
-* [[Loom]]
-|labors=<span></span>
-* [[Weaver]]
-|used for=
+* [[Plant fiber]]|workshops=<span></span>
+* [[Loom]]|labors=<span></span>
+* [[Weaver]]|used for=
 * [[Textile industry]]
 * [[Wound dresser|Wound dressing]]
-* Can be worn
-|value=7
-|size=1-200
-|dimension=1-15000[[Cloth#Uses|*]]
-}}
+* Can be worn|value=7|size=1-200|dimension=1-15000[[Cloth#Uses|*]]}}
 '''Cloth''' is a versatile crafting and [[health care|medical]] good, vital to the long-term health of almost any fort.
 
 ==Uses==

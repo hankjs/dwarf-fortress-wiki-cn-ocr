@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=pangolin_man_sprite.png
-|portrait=pangolin_man_portrait.png}}
+{{Creaturelookup/0|image=pangolin_man_sprite.png|portrait=pangolin_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,12 +1,7 @@
 {{Quality|Superior}}{{av}}
 
-{{Noble
-|noble=Bookkeeper
-|office=Meager Office
-|arrival=Appointed on the [[nobles screen]].
-|function=
-* Accurate accounting of [[stocks]] and [[wealth]].
-}}
+{{Noble|noble=Bookkeeper|office=Meager Office|arrival=Appointed on the [[nobles screen]].|function=
+* Accurate accounting of [[stocks]] and [[wealth]].}}
 
 The '''bookkeeper''' is an appointed [[noble]] who updates the [[stocks]] and [[wealth|created wealth]] screens with more accurate information. The bookkeeper needs to work in an [[office]] to do this job. The bookkeeper uses the [[record keeper]] skill, which grants the [[clerk]] profession. Important stats for [[record keeper]] skill are Analytical Ability, Memory and Focus.
 

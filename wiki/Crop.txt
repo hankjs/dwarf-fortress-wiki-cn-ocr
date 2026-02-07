@@ -62,8 +62,7 @@ There are only 6 underground (aka "dwarven") crops. Five can be used for food, [
   |graphic=[[File:dimple_cup_shrub_sprite.png]]
   |p1={{tile|·|5:1}} / [[File:dimple_cup_seeds_sprite.png]] dimple cup spawn|pv1=1
   |p2={{tile|·|1:1}} dimple dye (m)|pv2=20
-  }}
-|}
+  }}|}
 
 === Above-ground plants ===
 
@@ -154,8 +153,7 @@ There are only 6 underground (aka "dwarven") crops. Five can be used for food, [
   |drink=Whip wine|drinkv=15|cook=p
   |p1={{tile|·|0:1}} / [[File:whip_vine_seeds_sprite.png]] whip vine seed|pv1=1
   |p2={{tile|·|3:1}} whip vine flour (m)|pv2=25
-  }}
-|}
+  }}|}
 
 '''Notes:'''
 :<sup>1</sup> This is the value for a stack of 5 units, which is the number rendered from a single plant.
@@ -615,8 +613,7 @@ As a general rule, leaves can only be cooked, buds can be both cooked and brewed
   |p2={{tile|%|6:0}} / [[File:pineapple_fruit_sprite.png]] fruit|pv2=2
   |p3={{tile|♣|5:1}} / [[File:pineapple_flower_sprite.png]] flower|pv3=
   |p4={{tile|·|0:1}} / [[File:pineapple_seeds_sprite.png]] seed|pv4=1
-  }}
-|}
+  }}|}
 
 '''Notes:'''
 :<sup>1</sup> This is the value for a stack of 5 units, which is the number rendered from a single plant.
@@ -900,8 +897,7 @@ These plants are defined in the file plant_crops.txt. They grow above ground, in
   |p2={{tile|♣|6:0}} / [[File:papyrus_sedge_flower_sprite.png]] flower|pv2=
   |p3={{tile|·|0:1}} / [[File:papyrus_sedge_seeds_sprite.png]] seed|pv3=1
   |p4={{tile|⌡|6:0}} papyrus|pv4=10
-  }}
-|}
+  }}|}
 
 '''Notes:'''
 :<sup>1</sup> This is the value for a stack of 5 units, which is the number rendered from a single plant.

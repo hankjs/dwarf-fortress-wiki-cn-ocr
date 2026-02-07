@@ -1,24 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=leopard_seal_sprites.png
-|portrait=leopard_seal_portrait_anim.gif
-|bone=13
-|meat=12-16
-|skin=hide
-|skull=1
-|brain=1
-|kidney=2
-|spleen=1
-|sweetbread=1
-|tripe=1
-|liver=1
-|intestines=2-3
-|heart=1
-|lung=2
-|eye=2
-|fat=7
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=leopard_seal_sprites.png|portrait=leopard_seal_portrait_anim.gif|bone=13|meat=12-16|skin=hide|skull=1|brain=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestines=2-3|heart=1|lung=2|eye=2|fat=7|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

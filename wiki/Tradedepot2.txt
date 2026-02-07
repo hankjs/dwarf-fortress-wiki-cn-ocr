@@ -1,18 +1,13 @@
 {{Quality|Superior}}
 
-{{Building|name=Trade depot|key=T
-|job= 
-* [[Broker]] noble (optional)
-|construction=
-* 3 [[Building material]]s (non-[[economic]])
-|construction_job=
+{{Building|name=Trade depot|key=T|job= 
+* [[Broker]] noble (optional)|construction=
+* 3 [[Building material]]s (non-[[economic]])|construction_job=
 Depending on material:
 * [[Metalsmithing]]
 * [[Masonry]]
-* [[Carpentry]]
-|purpose=
-Trade goods with [[caravan|merchants]].
-}}{{av}}{{buggy}}
+* [[Carpentry]]|purpose=
+Trade goods with [[caravan|merchants]].}}{{av}}{{buggy}}
 
 A '''trade depot''' is a [[building]] that allows you to engage in [[trading]] with the [[caravan]]s that arrive at your fortress. Trade depots can be created from almost any building material. Three materials must be used to build the trade depot, with the oldest* material chosen serving as the main material to determine color and "material" as labeled; the color is visible immediately upon confirming the construction order. 
 

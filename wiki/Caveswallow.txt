@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=cave_swallow_sprite.png
-|portrait=cave_swallow_portrait.png
-|wiki=Cave swallow}}
+{{verminlookup/0|image=cave_swallow_sprite.png|portrait=cave_swallow_portrait.png|wiki=Cave swallow}}
 {{av}}
 {{creaturedesc}}
 

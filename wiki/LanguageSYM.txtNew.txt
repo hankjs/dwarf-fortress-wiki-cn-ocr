@@ -1,9 +1,4 @@
-{{Translation
-| dwarven = ir
-| elvish  = lila
-| goblin  = nodluz
-| human   = engi
-}}
+{{Translation| dwarven = ir| elvish  = lila| goblin  = nodluz| human   = engi}}
 ==Usage==
 
 [[Historical figure|Legendary beings]], such as a [[hydra]], associated with the [[Sphere|spheres]] of birth, children, creation, dawn, fertility, pregnancy, rebirth, or youth will have words from this symbol in their name.

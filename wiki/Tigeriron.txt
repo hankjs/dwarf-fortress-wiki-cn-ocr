@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_tiger_iron_sprite.png
-|graphic2=rough_tiger_iron_sprite.png}}
+{{gemlookup/0|graphic=cut_tiger_iron_sprite.png|graphic2=rough_tiger_iron_sprite.png}}
 {{av}}
 
 '''Tiger iron''' is an unremarkable low-value [[gem]] found in [[sedimentary layer]]s.

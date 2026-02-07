@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=tunnel_tube_trunk_sprite.png
-|sapling=Tunnel_tube_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=tunnel_tube_trunk_sprite.png|sapling=Tunnel_tube_sapling.png|wiki=no}}
 {{av}}
 
 '''Tunnel tubes''' are a type of [[underground]] [[tree]]. They are found in deep [[caverns]], and will grow on any [[mud|muddied]] [[rock]] or [[soil]] once found. When cut down, they yield violet logs suitable for producing colorful furniture. (Note that, in ASCII mode, [[rose gold]] is the same color, and can also be used to create furniture other than [[bed]]s, so if you are able to create it, breaching the second cavern layer may not be necessary.)

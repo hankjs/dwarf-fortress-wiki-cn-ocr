@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=deer_man_sprites_anim.gif
-|portrait=deer_man_portrait_anim.gif
-}}
+{{Creaturelookup/0|image=deer_man_sprites_anim.gif|portrait=deer_man_portrait_anim.gif}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

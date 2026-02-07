@@ -33,56 +33,25 @@ The header row shows the positions defining the tokens.
 
 The left column shows the position type that is referred to.
 Example:  
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! referred position-type
-! LAND_HOLDER
-|-
-| civilization
-|  <span style="color:green">(baron is) APPOINTED_BY:MONARCH</span>
-|}
+! LAND_HOLDER|-| civilization|  <span style="color:green">(baron is) APPOINTED_BY:MONARCH</span>|}
 color coding: </br>
 * <span style="color:green">Exists in vanilla</span></br>
 * <span style="color:blue">Possible with mods</span></br>
 * <span style="color:red">Not possible</span></br>
 * <span style="color:orange">possible to some extent.</span></br>
 * <span style="color:gray">not yet fully investigated.</span></br>
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! referred position-type
 ! Civilization
 ! SITE
 ! LAND_HOLDER
 ! CONQUERED_SITE
-
-|-
-| Civilization
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:blue">REPLACED_BY</span> </br> <span style="color:green">SUCCESSION</span>
-| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(1)'''</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| SITE
-| <span style="color:red">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(2)'''</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:green">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:red">APPOINTED_BY '''(3)'''</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(4)'''</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| LAND_HOLDER
-| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY '''(6)'''</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(5)'''</span>
-| <span style="color:orange">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:green">REPLACED_BY '''(7)'''</span> </br> <span style="color:orange">SUCCESSION '''(8)'''</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| <span style="color:gray">CONQUERED_SITE</span>
-| <span style="color:red">APPOINTED_BY</span> </br><span style="color:gray"> COMMANDER </br> REPLACED_BY </br><span style="color:orange"> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-|}
+|-| Civilization| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:blue">REPLACED_BY</span> </br> <span style="color:green">SUCCESSION</span>| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(1)'''</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| SITE| <span style="color:red">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(2)'''</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:green">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:red">APPOINTED_BY '''(3)'''</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(4)'''</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| LAND_HOLDER| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY '''(6)'''</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(5)'''</span>| <span style="color:orange">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:green">REPLACED_BY '''(7)'''</span> </br> <span style="color:orange">SUCCESSION '''(8)'''</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| <span style="color:gray">CONQUERED_SITE</span>| <span style="color:red">APPOINTED_BY</span> </br><span style="color:gray"> COMMANDER </br> REPLACED_BY </br><span style="color:orange"> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>|}
 
 Remarks:
 # Works only in world-gen, if a unit with that civ-position is present at the site.
@@ -368,39 +337,8 @@ Any citizen may stand for election. Eligibility cannot be restricted using [ACCE
 
 === Skills ===
 In elections, skills are taken into account for the tokens of the position which is elected.
-{| class="wikitable"
-|+ Relevant skills per position token
-|-
-! Position Token !! Relevant skills
-|-
-| Responsibility [[Position_token#DELIVER_MESSAGES|[DELIVER_MESSAGES]]] || [[Ambusher]], [[Observer]] and [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#ACCOUNTING|[ACCOUNTING]]] || [[Record_keeper|Record keeper]]
-|-
-| Responsibility [[Position_token#ESPIONAGE|[ESPIONAGE]]] || [[Schemer]]
-|-
-| Responsibility [[Position_token#HEALTH_MANAGEMENT|[HEALTH_MANAGEMENT]]] || [[Diagnostician|Diagnostician]]
-|-
-| Responsibility [[Position_token#MAKE_INTRODUCTIONS|[MAKE_INTRODUCTIONS]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#MAKE_PEACE_AGREEMENTS|[MAKE_PEACE_AGREEMENTS]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#MAKE_TOPIC_AGREEMENTS|[MAKE_TOPIC_AGREEMENTS]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#MANAGE_PRODUCTION|[MANAGE_PRODUCTION]]] || [[Organizer]]
-|-
-| Responsibility [[Position_token#MEET_WORKERS|[MEET_WORKERS]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#RECEIVE_DIPLOMATS|[RECEIVE_DIPLOMATS]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#RELIGION|[RELIGION]]] || [[Social_skill|Social skills]]
-|-
-| Responsibility [[Position_token#TAME_EXOTICS|[TAME_EXOTICS]]] || [[Animal_trainer|Animal trainer]]
-|-
-| Responsibility [[Position_token#TRADE|[TRADE]]] || [[Social_skill|Social skills]] and [[Appraiser|Appraiser]]
-|-
-| [[Position_token#SQUAD|[SQUAD]]]-token || [[Tactician]] and [[Leader]]
-|}
+{| class="wikitable"|+ Relevant skills per position token|-
+! Position Token !! Relevant skills|-| Responsibility [[Position_token#DELIVER_MESSAGES|[DELIVER_MESSAGES]]] || [[Ambusher]], [[Observer]] and [[Social_skill|Social skills]]|-| Responsibility [[Position_token#ACCOUNTING|[ACCOUNTING]]] || [[Record_keeper|Record keeper]]|-| Responsibility [[Position_token#ESPIONAGE|[ESPIONAGE]]] || [[Schemer]]|-| Responsibility [[Position_token#HEALTH_MANAGEMENT|[HEALTH_MANAGEMENT]]] || [[Diagnostician|Diagnostician]]|-| Responsibility [[Position_token#MAKE_INTRODUCTIONS|[MAKE_INTRODUCTIONS]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#MAKE_PEACE_AGREEMENTS|[MAKE_PEACE_AGREEMENTS]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#MAKE_TOPIC_AGREEMENTS|[MAKE_TOPIC_AGREEMENTS]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#MANAGE_PRODUCTION|[MANAGE_PRODUCTION]]] || [[Organizer]]|-| Responsibility [[Position_token#MEET_WORKERS|[MEET_WORKERS]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#RECEIVE_DIPLOMATS|[RECEIVE_DIPLOMATS]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#RELIGION|[RELIGION]]] || [[Social_skill|Social skills]]|-| Responsibility [[Position_token#TAME_EXOTICS|[TAME_EXOTICS]]] || [[Animal_trainer|Animal trainer]]|-| Responsibility [[Position_token#TRADE|[TRADE]]] || [[Social_skill|Social skills]] and [[Appraiser|Appraiser]]|-| [[Position_token#SQUAD|[SQUAD]]]-token || [[Tactician]] and [[Leader]]|}
 
 ==Assumption==
 
@@ -677,8 +615,7 @@ The founder is a single dwarf, appointed at embark. They will be the only one ev
 	[PRECEDENCE:200] 
 	Non APPOINTED_BY
 	Non ELECTED
-	Optional: Add responsibilities to make the game select a unit with certain skills.
-}}
+	Optional: Add responsibilities to make the game select a unit with certain skills.}}
 ===Marriage bar===
 Dwarven matrons are held in great honour. Upon marriage, a female dwarf is no longer expected to perform menial labour. All dwarven males hold this position by default, granting their spouses exemption from menial work.
 
@@ -702,8 +639,7 @@ The practical usefulness of this position is debatable, but it serves as a clear
 	[MENIAL_WORK_EXEMPTION_SPOUSE]
 	[REQUIRES_POPULATION:8]			
 	[SUCCESSION:BY_POSITION:MONARCH]
-	[SQUAD:1:member:members]
-}}
+	[SQUAD:1:member:members]}}
 {{Category|Modding}}
 {{Category|Entities}}
 {{Category|Guides}}

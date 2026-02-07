@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=clown_loach_sprite.png
-|portrait=clown_loach_portrait.png}}
+{{verminlookup/0|image=clown_loach_sprite.png|portrait=clown_loach_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

@@ -48,37 +48,19 @@ Later sections in this document and ''many'' other articles on this wiki help yo
 {{KeyConventions|4}}
 
 === Pausing and resuming ===
-{| class="wikitable"
-|-
-| {{K|Space}}
-| Pause/Unpause the game
-|}
+{| class="wikitable"|-| {{K|Space}}| Pause/Unpause the game|}
 
 Entering all menus (except the {{K|s}}quads menu) will automatically pause the game, but if you want to pause or unpause the game without entering a menu use {{K|Space}}. You will see {{DFtext|*PAUSED*|3:3:1}} appear in the upper left corner of the window when the game is paused. Certain [[announcement]]s will also pause the game automatically and you will have to unpause it manually to proceed.
 
 === Main screen ===
-{| class="wikitable"
-|-
-|  [[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]] or {{K|[}} {{K|]}}
-| Zoom in and out('['and ']' must be set manually in the key bindings) 
-|-
-| {{k|Tab}}
-| Toggle mini-map and command menu.
-|-
-| {{k|F11}}
-| Toggle fullscreen mode
-|}
+{| class="wikitable"|-|  [[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]] or {{K|[}} {{K|]}}| Zoom in and out('['and ']' must be set manually in the key bindings) |-| {{k|Tab}}| Toggle mini-map and command menu.|-| {{k|F11}}| Toggle fullscreen mode|}
 
 The screen at the top level of the user interface hierarchy consists of the '''main map''', a '''command window''', and an '''overview mini-map''' area along with a few '''status indicators''' around the edge. While the main map is always visible at the top level of the UI, you can use the {{K|Tab}} key to show and hide the command window and overview map areas, giving you more space to view the main map if desired.
 
 === Options screen ===
-{| class="wikitable"
-|-
-| {{K|Esc}}
-|
+{| class="wikitable"|-| {{K|Esc}}|
 * Enter options menu (if at top level)
-* Move back up one UI level (if not at top level)
-|}
+* Move back up one UI level (if not at top level)|}
 
 Assuming you are at the top level of the user interface looking at the map, you can hit {{K|Esc}} to enter the options menu.
 
@@ -93,20 +75,7 @@ Assuming you are at the top level of the user interface looking at the map, you 
 === Main map ===
 [[File:bentgirder-embark.png|thumb|300px|Main map on the left, command window on the right.]]
 [[Image:3_dimensions.png|right|300px]]
-{| class="wikitable"
-|-
-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}} ( + {{k|Shift}})
-| Move map view around
-|-
-| {{k|1}} {{k|2}} {{k|3}} {{k|4}} {{k|6}} {{k|7}} {{k|8}} {{k|9}} (keypad)
-| Move map view around
-|-
-| {{k|<}} {{k|>}}
-| Move one [[Z-level]] up or down.
-|-
-| {{k|F1}}
-| Zoom to starting location (default [[#Hotkeys|hotkey]])
-|}
+{| class="wikitable"|-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}} ( + {{k|Shift}})| Move map view around|-| {{k|1}} {{k|2}} {{k|3}} {{k|4}} {{k|6}} {{k|7}} {{k|8}} {{k|9}} (keypad)| Move map view around|-| {{k|<}} {{k|>}}| Move one [[Z-level]] up or down.|-| {{k|F1}}| Zoom to starting location (default [[#Hotkeys|hotkey]])|}
 The main map window is what you will be looking at for the majority of the time. This is where all of the action happens.
 
 While the play area itself is three-dimensional, the window is not; you can only view one [[Z-level]] at a time. You can change which Z-Level is currently displayed using {{k|<}} and {{k|>}}.
@@ -114,17 +83,7 @@ While the play area itself is three-dimensional, the window is not; you can only
 On the far right side of the screen is the '''depth bar''' showing you the approximate depth, below or above ground, of the current [[Z-level]] that the map is displaying. This indicator is relative to the surface, so it will change if you move the map around an area with a non-flat surface, even if you don't press {{K|<}} or {{K|>}}.
 
 ==== Map cursor ====
-{| class="wikitable"
-|-
-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}} (keypad)
-| Move map cursor 1 tile
-|-
-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}
-| Move map cursor 1 tile
-|-
-| {{k|Shift}} + direction key
-| Move map cursor 10 tiles
-|}
+{| class="wikitable"|-| {{k|8}} {{k|2}} {{k|4}} {{k|6}} {{k|7}} {{k|9}} {{k|1}} {{k|3}} (keypad)| Move map cursor 1 tile|-| {{k|↑}} {{k|↓}} {{k|←}} {{k|→}}| Move map cursor 1 tile|-| {{k|Shift}} + direction key| Move map cursor 10 tiles|}
 
 After entering a command that involves the map cursor ({{Raw Tile|X|6:0:1}}), you can use {{k|↑}} {{k|↓}} {{k|←}} {{k|→}} as well as the numeric keypad keys to move the cursor around in all eight directions. If you hold {{k|Shift}} while pressing one of these, the cursor will move 10 tiles instead of one, enabling you to move it more quickly.
 
@@ -198,47 +157,7 @@ All of the digging operations are considered [[Mining]]. Even if your goal is si
 To remove one of these, Click on the furniture Item, the press the remove build icon . This will mark the item for removal and a hauling job will be queued. Eventually a dwarf will show up and haul the item off to a [[stockpile]] if one exists.
 
 === Furniture ===
-{| class="wikitable"
-|-
-| {{Menu icon|b|f|b|sep=-}}
-| place Bed
-|-
-| {{Menu icon|b|f|r|sep=-}}
-| place Chair or Throne (seat)
-|-
-| {{Menu icon|b|f|t|sep=-}}
-| place Table
-|-
-| {{Menu icon|b|f|h|sep=-}}
-| place Chest or Container
-|-
-| {{Menu icon|b|f|n|sep=-}}
-| place Cabinet
-|-
-| {{Menu icon|b|f|x|sep=-}}
-| place Burial Receptacle (coffin)
-|-
-| {{Menu icon|b|f|l|sep=-}}
-| place Memorial Slab
-|-
-| {{Menu icon|b|f|u|sep=-}}
-| place Statue
-|-
-| {{Menu icon|b|f|T|sep=-}}
-| place Traction Bench
-|-
-| {{Menu icon|b|f|o|sep=-}}
-| place Book Case
-|-
-| {{Menu icon|b|f|y|sep=-}}
-| place Display (Pedestal)
-|-
-| {{Menu icon|b|f|p|sep=-}}
-| place Offering Place (Alter)
-|-
-| {{Menu icon|b|f|i|sep=-}}
-| place Instrument 
-|}
+{| class="wikitable"|-| {{Menu icon|b|f|b|sep=-}}| place Bed|-| {{Menu icon|b|f|r|sep=-}}| place Chair or Throne (seat)|-| {{Menu icon|b|f|t|sep=-}}| place Table|-| {{Menu icon|b|f|h|sep=-}}| place Chest or Container|-| {{Menu icon|b|f|n|sep=-}}| place Cabinet|-| {{Menu icon|b|f|x|sep=-}}| place Burial Receptacle (coffin)|-| {{Menu icon|b|f|l|sep=-}}| place Memorial Slab|-| {{Menu icon|b|f|u|sep=-}}| place Statue|-| {{Menu icon|b|f|T|sep=-}}| place Traction Bench|-| {{Menu icon|b|f|o|sep=-}}| place Book Case|-| {{Menu icon|b|f|y|sep=-}}| place Display (Pedestal)|-| {{Menu icon|b|f|p|sep=-}}| place Offering Place (Alter)|-| {{Menu icon|b|f|i|sep=-}}| place Instrument |}
 Assuming that dwarves have already made a piece of [[furniture]], they can install it somewhere using one of these commands.
 
 === Defining rooms ===
@@ -247,14 +166,7 @@ Assuming that dwarves have already made a piece of [[furniture]], they can insta
 Areas can be defined as a [[zone|room]] using {{Menu icon|z|sep=-}} (zones), some rooms may require specific pieces of furniture to function properly. The zones menu can also be used to undefine rooms, with or without removing the associated furniture.
 
 === Doors and hatches ===
-{| class="wikitable"
-|-
-| {{Menu icon|b|p|r|sep=-}}
-| place door
-|-
-| {{Menu icon|b|p|h|sep=-}}
-| place floor hatch
-|}
+{| class="wikitable"|-| {{Menu icon|b|p|r|sep=-}}| place door|-| {{Menu icon|b|p|h|sep=-}}| place floor hatch|}
 These commands allow you to place already created [[door]]s and [[hatch cover]]s assuming that you have an adjacent wall.
 
 == Constructions ==
@@ -265,63 +177,7 @@ These commands allow you to place already created [[door]]s and [[hatch cover]]s
 Constructions are usually built out of, and thus require, [[stone]] or [[wood]], but you can also use a variety of materials (such as metal) to build them. Possible constructions include [[Floor]]s, [[Wall]]s, [[Stair]]s, [[Ramp]]s, and [[Fortification]]s. Some constructions may also require to be created in a workshop first before being able to place them down, such as [[Grate]].
 
 === Walls, floors, and stairs ===
-{| class="wikitable"
-|-
-| {{Menu icon|b|n|sep=-}}
-| build Constructions submenu
-|-
-| {{Menu icon|b|n|l|sep=-}}
-| build Constructed [[Wall]]
-|-
-| {{Menu icon|b|n|f|sep=-}}
-| build Constructed [[Floor]]
-|-
-| {{Menu icon|b|n|r|sep=-}}
-| build Constructed upward [[Ramp]]
-|-
-| {{Menu icon|b|n|t|sep=-}}
-| build Constructed [[Stair]]
-|-
-| {{Menu icon|b|n|b|sep=-}}
-| build a [[bridge]]
-|-
-| {{Menu icon|b|n|o|sep=-}}
-| build Paved [[road]]
-|-
-| {{Menu icon|b|n|O|sep=-}}
-| build Dirt road  
-|-
-| {{Menu icon|b|n|F|sep=-}}
-| build a [[Fortification]]
-|-
-| {{Menu icon|b|n|G|sep=-}}
-| build a Wall [[grate]]
-|-
-| {{Menu icon|b|n|g|sep=-}}
-| build a Floor grate
-|-
-| {{Menu icon|b|n|M|sep=-}}
-| build a Vertical bar
-|-
-| {{Menu icon|b|n|m|sep=-}}
-| build a Floor bar
-|-
-| {{Menu icon|b|n|y|sep=-}}
-| build a Glass [[window]]
-|-
-| {{Menu icon|b|n|Y|sep=-}}
-| build a Gem window
-|-
-| {{Menu icon|b|n|p|sep=-}}
-| build a [[Support]]
-|-
-| {{Menu icon|b|n|k|sep=-}}
-| build a [[Track]]
-|-
-| {{Menu icon|b|n|K|sep=-}}
-| build a Track stop
-|-
-|}
+{| class="wikitable"|-| {{Menu icon|b|n|sep=-}}| build Constructions submenu|-| {{Menu icon|b|n|l|sep=-}}| build Constructed [[Wall]]|-| {{Menu icon|b|n|f|sep=-}}| build Constructed [[Floor]]|-| {{Menu icon|b|n|r|sep=-}}| build Constructed upward [[Ramp]]|-| {{Menu icon|b|n|t|sep=-}}| build Constructed [[Stair]]|-| {{Menu icon|b|n|b|sep=-}}| build a [[bridge]]|-| {{Menu icon|b|n|o|sep=-}}| build Paved [[road]]|-| {{Menu icon|b|n|O|sep=-}}| build Dirt road  |-| {{Menu icon|b|n|F|sep=-}}| build a [[Fortification]]|-| {{Menu icon|b|n|G|sep=-}}| build a Wall [[grate]]|-| {{Menu icon|b|n|g|sep=-}}| build a Floor grate|-| {{Menu icon|b|n|M|sep=-}}| build a Vertical bar|-| {{Menu icon|b|n|m|sep=-}}| build a Floor bar|-| {{Menu icon|b|n|y|sep=-}}| build a Glass [[window]]|-| {{Menu icon|b|n|Y|sep=-}}| build a Gem window|-| {{Menu icon|b|n|p|sep=-}}| build a [[Support]]|-| {{Menu icon|b|n|k|sep=-}}| build a [[Track]]|-| {{Menu icon|b|n|K|sep=-}}| build a Track stop|-|}
 
 Walls, Floors, and Stairs are removed with the {{Key|m}}ining menu and selecting {{Key|x}} Remove Construction. Bridges and roads are removed by selecting them and clicking the button in the top right corner.
 

@@ -1,18 +1,11 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 3:0
-| skill      = Druid
-| profession = N/A
-| job name   = None
-| tasks      = None
-| attributes =
+{{Skill| color      = 3:0| skill      = Druid| profession = N/A| job name   = None| tasks      = None| attributes =
 * Endurance
 * Agility
 * Toughness
 * Empathy
 * Willpower
-* Focus
-}}
+* Focus}}
 {{av}}
 
 Druid refers to both an unused skill and a noble position.

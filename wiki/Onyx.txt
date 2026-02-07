@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_onyx_sprite.png
-|graphic2=rough_onyx_sprite.png}}
+{{gemlookup/0|graphic=cut_onyx_sprite.png|graphic2=rough_onyx_sprite.png}}
 {{av}}
 
 '''Onyxes''' are unremarkable low-value [[gem]]s found in [[sedimentary layer]]s.

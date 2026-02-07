@@ -1,12 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=horseshoe_crab_sprites.png
-|portrait=horseshoe_portrait_anim.gif
-|meat=1
-|skin=chitin
-|fat=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=horseshoe_crab_sprites.png|portrait=horseshoe_portrait_anim.gif|meat=1|skin=chitin|fat=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

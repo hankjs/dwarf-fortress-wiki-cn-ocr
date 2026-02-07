@@ -30,8 +30,7 @@ The stratification listed for mountains in ''Dwarf Fortress'' usually consists o
 * [[File:peregrine_falcon_sprite.png|20px]] / {{Tile|p|6:0}} [[Peregrine falcon]]
 * [[File:wolverine_sprite.png|20px]] / {{Tile|w|6:0}} [[Wolverine]]
 * [[File:wombat_sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat]]
-* [[File:yak_sprite.png|20px]] / {{Tile|Y|6:0}} [[Yak]]
-}}
+* [[File:yak_sprite.png|20px]] / {{Tile|Y|6:0}} [[Yak]]}}
 
 '''In savage mountains:'''
 {{Columns-list|
@@ -59,8 +58,7 @@ The stratification listed for mountains in ''Dwarf Fortress'' usually consists o
 * [[File:peregrine_falcon_man_sprite.png|20px]] / {{Tile|p|6:0}} [[Peregrine falcon man]]
 * [[File:wolverine_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Wolverine man]]
 * [[File:wombat_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat man]]
-* [[File:yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[Yeti]]
-}}
+* [[File:yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[Yeti]]}}
 
 '''In good mountains:'''
 * [[File:mountain_gnome_sprite.png]] / {{Tile|g|0:1}} [[Mountain gnome]]
@@ -81,48 +79,16 @@ The stratification listed for mountains in ''Dwarf Fortress'' usually consists o
 [[File:Mountains illustration.jpg|thumb|300px|right|Mountains illustration.]]
 === Grasses ===
 {| class="wikitable"
-! Name
-|-
-| {{Tile|.|2:1}} [[Bentgrass]]
-|-
-| {{Tile|.|2:1}} [[Cloudberry]]
-|-
-| {{Tile|.|2:1}} [[Cottongrass]]
-|-
-| {{Tile|.|2:1}} [[Fescue grass]]
-|-
-| {{Tile|.|2:1}} [[Hair grass]]
-|-
-| {{Tile|.|2:1}} [[Meadow-grass]]
-|-
-| {{Tile|.|2:1}} [[Mountain avens]]
-|-
-| {{Tile|.|2:1}} [[White mountain heather]]
-|}
+! Name|-| {{Tile|.|2:1}} [[Bentgrass]]|-| {{Tile|.|2:1}} [[Cloudberry]]|-| {{Tile|.|2:1}} [[Cottongrass]]|-| {{Tile|.|2:1}} [[Fescue grass]]|-| {{Tile|.|2:1}} [[Hair grass]]|-| {{Tile|.|2:1}} [[Meadow-grass]]|-| {{Tile|.|2:1}} [[Mountain avens]]|-| {{Tile|.|2:1}} [[White mountain heather]]|}
 
 ''' In good mountains:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|3:1}} [[Bubble bulb]]
-|-
-| {{Tile|.|7:1}} [[Downy grass]]
-|}
+! Name|-| {{Tile|O|3:1}} [[Bubble bulb]]|-| {{Tile|.|7:1}} [[Downy grass]]|}
 
 '''In evil mountains:'''
 {| class="wikitable"
-! Name
-|-
-| {{Tile|O|7:1}} [[Staring eyeball]]
-|-
-| {{Tile|≥|5:1}} [[Wormy tendril]]
-|}
-{{Translation
-| dwarven = onol
-| elvish  = thele
-| goblin  = ngosla
-| human   = thakom
-}}
+! Name|-| {{Tile|O|7:1}} [[Staring eyeball]]|-| {{Tile|≥|5:1}} [[Wormy tendril]]|}
+{{Translation| dwarven = onol| elvish  = thele| goblin  = ngosla| human   = thakom}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

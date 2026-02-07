@@ -58,18 +58,7 @@ The following are the options for the animal's ownership status:
 In the bottom right corner of the Pets/Livestock menu, there is a button to open a menu that shows civilization-wide animal training knowledge. Training wild animals contributes to this knowledge.
 
 {|class="wikitable" style="width:20%; align:center"
-! Training level
-|-
-| {{DFtext|A few facts|red}}
-|-
-| {{DFtext|General familiarity|yellow}}
-|-
-| {{DFtext|Knowledgeable|white}}
-|-
-| {{DFtext|Expert|cyan}}
-|-
-|{{DFtext|Domesticated|lime}}
-|}
+! Training level|-| {{DFtext|A few facts|red}}|-| {{DFtext|General familiarity|yellow}}|-| {{DFtext|Knowledgeable|white}}|-| {{DFtext|Expert|cyan}}|-|{{DFtext|Domesticated|lime}}|}
 
 == Others tab ==
 Lists all visible living creatures that are not residents of, or owned by, your fortress. Creatures [[Captured creature|captured]] in a [[cage]] still remain in this tab and are not considered owned until [[Animal trainer|tamed]]. There may be unseen creatures underground or hiding that will not be listed.
@@ -87,50 +76,7 @@ Each list entry includes the following columns (from left to right):
 The following are the options for the creature's status:
 {| class=wikitable
 ! Status
-! Description
-|-
-| {{DFtext|Wild animal|2:0}}
-| Wildlife.
-|-
-| {{DFtext|Merchant|7:0}}
-| [[Merchant]]s, as well as their pack animals and wagons.
-|-
-| {{DFtext|Diplomat|7:1}}
-| [[Diplomat]]s and [[outpost liaison]]s.
-|-
-| {{DFtext|Guest|2:1}}
-| Foreign [[visitor]]s.
-|-
-| {{DFtext|Friendly|2:1}}
-| All non-hostile creatures that do not fit into any of the categories above.
-|-
-| {{DFtext|Invader|4:0}}
-| [[Siege]]s and [[ambush]]es.
-|-
-| {{DFtext|Caged Prisoner|4:0}}
-| Caged invaders.
-|-
-| {{DFtext|Uninvited Guest|4:0}}
-| [[Megabeast]]s, [[semi-megabeast]]s, [[forgotten beast]]s and [[titan]]s.
-|-
-| {{DFtext|Caged Guest|4:0}}
-| Uninvited guests you managed to catch in a cage.
-|-
-| {{DFtext|Current Resident|4:0}}
-| All named beasts you encounter upon embark.
-|-
-| {{DFtext|Berserk|4:1}}
-| [[Werebeast]]s, [[Insanity|berserk]] dwarves and creatures with the [[Creature token|[CRAZED]]] token.
-|-
-| {{DFtext|Undead|0:1}}
-| Undead, such as [[zombie]]s and [[ghost]]s.
-|-
-| {{DFtext|Opposed to life|0:1}}
-| Creatures with the [[Creature token|[OPPOSED_TO_LIFE]]] token, hostile to all living creatures.
-|-
-| {{DFtext|Hostile|4:0}}
-| All other hostile creatures.
-|}
+! Description|-| {{DFtext|Wild animal|2:0}}| Wildlife.|-| {{DFtext|Merchant|7:0}}| [[Merchant]]s, as well as their pack animals and wagons.|-| {{DFtext|Diplomat|7:1}}| [[Diplomat]]s and [[outpost liaison]]s.|-| {{DFtext|Guest|2:1}}| Foreign [[visitor]]s.|-| {{DFtext|Friendly|2:1}}| All non-hostile creatures that do not fit into any of the categories above.|-| {{DFtext|Invader|4:0}}| [[Siege]]s and [[ambush]]es.|-| {{DFtext|Caged Prisoner|4:0}}| Caged invaders.|-| {{DFtext|Uninvited Guest|4:0}}| [[Megabeast]]s, [[semi-megabeast]]s, [[forgotten beast]]s and [[titan]]s.|-| {{DFtext|Caged Guest|4:0}}| Uninvited guests you managed to catch in a cage.|-| {{DFtext|Current Resident|4:0}}| All named beasts you encounter upon embark.|-| {{DFtext|Berserk|4:1}}| [[Werebeast]]s, [[Insanity|berserk]] dwarves and creatures with the [[Creature token|[CRAZED]]] token.|-| {{DFtext|Undead|0:1}}| Undead, such as [[zombie]]s and [[ghost]]s.|-| {{DFtext|Opposed to life|0:1}}| Creatures with the [[Creature token|[OPPOSED_TO_LIFE]]] token, hostile to all living creatures.|-| {{DFtext|Hostile|4:0}}| All other hostile creatures.|}
 
 This menu is important for keeping track of the local wildlife; regular looks may very well save you from a deadly [[giant lion]] attack.
 

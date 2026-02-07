@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=generic_wheat_shrub_sprite.png
-|seedimage=generic_wheat_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=generic_wheat_shrub_sprite.png|seedimage=generic_wheat_seeds_sprite.png|uses=
 * [[Alcohol]]
 * [[Flour]]}}
 {{av}}

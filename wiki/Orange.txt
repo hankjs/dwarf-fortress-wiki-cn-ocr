@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=orange_trunk_sprite.png
-|product=orange_sprite.png
-|sapling=orange_sapling.png
-|wiki=citrus reticulata}}
+{{Treelookup/0|graphic=orange_trunk_sprite.png|product=orange_sprite.png|sapling=orange_sapling.png|wiki=citrus reticulata}}
 {{av}}
 
 '''Orange''' is one of the many genera of [[tree]]s found above ground. Contrary to its name, orange [[wood]] is in fact brown, and produces brown products.
@@ -15,12 +11,7 @@ Some [[Dwarf|dwarves]] [[Preferences|like]] orange trees for their ''fruit''.
 
 [[File:Citrus reticulata April 2013 Nordbaden.JPG|thumb|center|300px|Admired for its ''fruit''.]]
 
-{{Translation
-| dwarven = mostib
-| elvish  = ÿare
-| goblin  = tustong
-| human   = omthu
-}}
+{{Translation| dwarven = mostib| elvish  = ÿare| goblin  = tustong| human   = omthu}}
 
 {{gamedata}}
 {{Plants}}

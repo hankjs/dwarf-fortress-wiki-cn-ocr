@@ -1,6 +1,5 @@
 {{Quality|fine}}
-{{layerlookup/0
-|graphic=dolomite_sprite.png}}
+{{layerlookup/0|graphic=dolomite_sprite.png}}
 {{av}}
 
 '''Dolomite''' is a medium-[[value]] and economic type of [[sedimentary layer|sedimentary]] [[stone]] that forms entire layers. It is also a [[flux]] stone, meaning it can be used in the production of [[pig iron]] and [[steel]]. Additionally, it is [[magma safe]], with an extremely high melting point of {{ct|16507}}. It is pale pink with [[premium]] graphics or white with [[classic]] graphics.

@@ -1,27 +1,5 @@
 {{Quality|Exceptional|16:09, 7 March 2023 (CST)}}
-{{Creaturelookup/0
-|image=dragon_sprites.png
-|portrait=dragon_portrait.png
-|bone=66-110
-|tooth=3
-|meat=113-173
-|fat=42-65
-|nail=1
-|lung=8-18
-|heart=2-4
-|intestine=14-27
-|liver=4-9
-|tripe=4-9
-|sweetbread=2-4
-|spleen=2-4
-|kidney=4-8
-|brain=4-8
-|skull=1
-|skin=scale
-|eye=2
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=dragon_sprites.png|portrait=dragon_portrait.png|bone=66-110|tooth=3|meat=113-173|fat=42-65|nail=1|lung=8-18|heart=2-4|intestine=14-27|liver=4-9|tripe=4-9|sweetbread=2-4|spleen=2-4|kidney=4-8|brain=4-8|skull=1|skin=scale|eye=2|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''Dragons''' are massive, [[fire]]-breathing [[megabeast]]s who, at their full size, are the [[List_of_creatures_by_adult_size#end_of_list|second largest]] land [[creature]]s in the world (behind the [[giant elephant]]). They are covetous monsters and seek to [[Steals items|steal items]] from your fortresses to bring back to their lairs. Dragons generally pilfer successfully in [[World generation|worldgen]], but when they attack a player fortress, they will simply wipe the place out or die trying.
@@ -90,12 +68,7 @@ Though dragons are thought to make their lairs in dungeons, actual sightings of 
 
 
 
-{{Translation
-| dwarven = måmgoz
-| elvish  = vutheni
-| goblin  = kusnath
-| human   = tamun
-}}
+{{Translation| dwarven = måmgoz| elvish  = vutheni| goblin  = kusnath| human   = tamun}}
 
 {{gamedata}}
 {{Creatures}}

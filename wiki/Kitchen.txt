@@ -1,16 +1,8 @@
 {{Quality|Exceptional}}
-{{v50 workshop
-|name=Kitchen
-|icon=[[File:kitchen_icon.png]]
-|key1=f
-|key2=k
-|construction_job=
-*[[Cooking]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|job=
-*[[Cooking]]
-|use=
+{{v50 workshop|name=Kitchen|icon=[[File:kitchen_icon.png]]|key1=f|key2=k|construction_job=
+*[[Cooking]]|construction=
+* [[Building material]] (non-[[economic]])|job=
+*[[Cooking]]|use=
 * [[Alcohol]]
 * [[Cheese]]
 * [[Dwarven sugar]]
@@ -26,11 +18,9 @@
 * [[Plants]]
 * [[Prepared organs]]
 * [[Seed]]s
-* [[Tallow]]
-|production =
+* [[Tallow]]|production =
 *[[Food|Prepared meals]]
-*[[Tallow]]
-}}{{av}}
+*[[Tallow]]}}{{av}}
 
 A '''kitchen''' is operated by a dwarf with the [[Cook|cooking]] [[labor]] enabled. It is mainly used to cook prepared meals, but also to render fat from [[Butcher's shop|butchered]] animals into [[tallow]]. 
 

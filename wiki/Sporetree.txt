@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=spore_tree_trunk_sprite.png
-|sapling=Spore_tree_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=spore_tree_trunk_sprite.png|sapling=Spore_tree_sapling.png|wiki=no}}
 {{av}}
 
 '''Spore trees''' are a type of [[underground]] [[tree]] found in the deep [[cavern]]s, and grow on [[mud|muddied]] [[soil]] after they are found. When cut down, they yield teal logs suitable for producing colorful furniture.

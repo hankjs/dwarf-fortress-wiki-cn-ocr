@@ -1,14 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=opossum_sprites.png
-|portrait=opossum_portrait_anim.gif
-|skull=1
-|bone=0-4
-|meat=0-6
-|fat=0-6
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=opossum_sprites.png|portrait=opossum_portrait_anim.gif|skull=1|bone=0-4|meat=0-6|fat=0-6|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

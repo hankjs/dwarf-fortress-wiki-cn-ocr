@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=elephant_couple_sprite.png
-|portrait=elephant_portrait_anim.gif
-|contrib=no
-|bone=49-67
-|meat=36-219
-|fat=13-58
-|lung=8-12
-|heart=2-3
-|ivory=3
-|intestine=14-19
-|liver=4-6
-|tripe=4-6
-|sweetbread=2-3
-|spleen=2-3
-|kidney=4-6
-|brain=4-6
-|skull=1
-|skin=hide
-|wiki=yes
-}}
+{{Creaturelookup/0|image=elephant_couple_sprite.png|portrait=elephant_portrait_anim.gif|contrib=no|bone=49-67|meat=36-219|fat=13-58|lung=8-12|heart=2-3|ivory=3|intestine=14-19|liver=4-6|tripe=4-6|sweetbread=2-3|spleen=2-3|kidney=4-6|brain=4-6|skull=1|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

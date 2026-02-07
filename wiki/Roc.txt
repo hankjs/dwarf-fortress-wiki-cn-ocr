@@ -1,25 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=roc_sprites.png
-|portrait=roc_portrait.png
-|bone=258-317
-|meat=416-949
-|fat=126-262
-|lung=50-68
-|heart=12-17
-|intestine=77-102
-|liver=27-34
-|tripe=27-34
-|sweetbread=13-17
-|spleen=12-17
-|kidney=24-34
-|brain=25-34
-|eye=2
-|skull=1
-|gizzard_stone=1
-|contrib=no
-|wiki=Roc (mythology)
-}}
+{{Creaturelookup/0|image=roc_sprites.png|portrait=roc_portrait.png|bone=258-317|meat=416-949|fat=126-262|lung=50-68|heart=12-17|intestine=77-102|liver=27-34|tripe=27-34|sweetbread=13-17|spleen=12-17|kidney=24-34|brain=25-34|eye=2|skull=1|gizzard_stone=1|contrib=no|wiki=Roc (mythology)}}
 {{av}}
 {{creaturedesc}}
 

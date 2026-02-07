@@ -1,27 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=gigantic_panda_sprite.png
-|portrait=panda_portrait_anim.gif
-|contrib=no
-|fat=32
-|cartilage=1
-|heart=1
-|intestine=3
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|nervous tissue=1
-|brain=1
-|hair=1
-|bone=42
-|meat=37
-|lung=2
-|tooth=2
-|skull=1
-|nail=1
-|skin=hide}}
+{{Creaturelookup/0|image=gigantic_panda_sprite.png|portrait=panda_portrait_anim.gif|contrib=no|fat=32|cartilage=1|heart=1|intestine=3|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|nervous tissue=1|brain=1|hair=1|bone=42|meat=37|lung=2|tooth=2|skull=1|nail=1|skin=hide}}
 {{av}}
 {{creaturedesc}}
 Though considerably dangerous, '''gigantic pandas''' can be a great asset to your fortress. Consider embarking near a temperate forest, on the chance that you might encounter this creature. It can be considered a must-cage creature for its tremendous size, value and [[training|train-ability]] (for hunting or war). 

@@ -1,15 +1,8 @@
 {{migrated article}}
 {{Quality|Tattered}}
 {{av}}
-{{Skill
-| color      = 3:0
-| skill      = Schemer
-| profession = Unknown
-| job name   = Unknown
-| tasks      = Unknown
-| attributes =
-* Unknown
-}}
+{{Skill| color      = 3:0| skill      = Schemer| profession = Unknown| job name   = Unknown| tasks      = Unknown| attributes =
+* Unknown}}
 {{stub}}
 
 '''Schemer''' is a [[skill]] presumably used as part of the [[intrigue]] system.

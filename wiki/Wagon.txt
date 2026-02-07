@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=wagon_sprite.png
-|contrib=no
-|death=item
-|item=Wagon wood
-|wiki=yes}}
+{{creaturelookup/0|image=wagon_sprite.png|contrib=no|death=item|item=Wagon wood|wiki=yes}}
 {{av}}
 {{buggy}}
 :''This page is about the creature.  For the structure, see [[Wagon (embark)]]''
@@ -81,8 +76,7 @@ An example: [http://www.bay12forums.com/smf/index.php?topic=125977.0]:
 ▓▓▓▓▓  ▓+++▓
 ▓+++▓  ▓+++▓
 ▓+▲+▓  ▓+▼+▓
-▓+++▓  ▓▓▓▓▓
-}}
+▓+++▓  ▓▓▓▓▓}}
 
 Another example, which uses slightly less space (note: this particular entrance is ''not'' a wagon-only entrance and is usable by creatures able to [[jump]]).
 {{diagram|spaces=yes|\
@@ -91,8 +85,7 @@ Another example, which uses slightly less space (note: this particular entrance 
 ▓+++▓  ▓+++▓  
 ▓+▲+▓  ▓·▼·▓  
 ▓+++▓  ▓+++▓  
-▓▓▓▓▓  ▓+++▓  
-}}
+▓▓▓▓▓  ▓+++▓  }}
 
 Yet another example, which allow wagons to move between z-levels [http://www.bay12forums.com/smf/index.php?topic=175067.0]:
 {{diagram|spaces=yes|\
@@ -102,8 +95,7 @@ Yet another example, which allow wagons to move between z-levels [http://www.bay
 ▓+▲▼▓▓  ▓+▼+▓▓  ▓▓+++▓  ▓▓+▲+▓  ▓▓+▼+▓  
 ▓+++▓▓  ▓+▲+▓▓  ▓▓▼▲+▓  ▓▓+▼+▓  ▓▓▓▓▓▓  
 ▓▓▓▓▓▓  ▓+++▓▓  ▓▓+++▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  
-▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  
-}}
+▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  ▓▓▓▓▓▓  }}
 
 == When do caravans bring wagons? ==
 As of v50.05, there are two requirements for a caravan to bring wagons for their goods.

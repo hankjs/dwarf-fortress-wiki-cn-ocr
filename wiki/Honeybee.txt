@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{verminlookup/0
-|image=honey_bee_sprite.png
-|portrait=honey_bee_portrait.png}}
+{{verminlookup/0|image=honey_bee_sprite.png|portrait=honey_bee_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''Honey bees''' are a type of [[vermin]] found in any area that isn't freezing, and can spawn after embark, even if not originally present. They appear in naturally made hives ( [[File:natural_hive_sprite.png|x22px]] ). Their wild colonies can be transferred into artificial [[hive]]s and used in the [[beekeeping industry]] producing [[royal jelly]], [[honey]] and [[wax]] as end products. They can sting a nearby [[dwarf]] or [[animal]], resulting in the death of the bee, and causing slight pain but no negative [[thought]] for the dwarf. This sometimes results in the Recover Wounded task, which may actually give a good thought to the stung dwarf.

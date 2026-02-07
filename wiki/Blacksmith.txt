@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Blacksmith
-| specialty  = Blacksmith
-| profession = [[Metalsmith]]
-| job name   = [[Blacksmithing]]
-| tasks      =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Blacksmith| specialty  = Blacksmith| profession = [[Metalsmith]]| job name   = [[Blacksmithing]]| tasks      =
 * Construct [[furniture]]
 * Construct [[cage]]
 * Construct [[bucket]]
@@ -15,18 +7,15 @@
 * Construct [[barrel]]
 * Construct [[pipe section]]
 * Construct [[anvil]]
-* Build certain metal [[building]]s
-| workshop = 
+* Build certain metal [[building]]s| workshop = 
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-| attributes =
+* [[Magma forge]]| attributes =
 * Strength 
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}{{Buggy}}
 
 The '''blacksmith''' [[skill]] is used to make [[furniture]] (including placed [[tools]] such as [[bookcase]]s), [[bucket]]s, [[bin]]s, [[block]]s, [[cage]]s, and [[anvil]]s at a [[metalsmith's forge]]. It is also used for constructing metal buildings which use material-dependent labors, such as [[trade depot]]s. 

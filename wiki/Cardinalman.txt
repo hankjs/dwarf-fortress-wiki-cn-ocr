@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=cardinal_man_sprite.png
-|portrait=cardinal_man_portrait.png
-|contrib=no
-}}
+{{Creaturelookup/0|image=cardinal_man_sprite.png|portrait=cardinal_man_portrait.png|contrib=no}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

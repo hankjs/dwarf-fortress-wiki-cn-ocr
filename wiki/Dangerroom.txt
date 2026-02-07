@@ -37,8 +37,7 @@ Because it never hits the dwarf, this danger room can be safely used while naked
  ⛭%%╟╢║  + Door
  ═════+  ╟ Roller on EW track, rolling east (Lowest speed)
          ╢ Roller on EW track, rolling west (Lowest speed)
-         ⛭ gear assembly
-}}
+         ⛭ gear assembly}}
 
 To use, have a dwarf carry a wooden [[minecart]] inside and place it on the [[roller]] next to the [[screw pump]], then lock the door so nothing else enters.
 
@@ -92,8 +91,7 @@ To construct a coinstar room, first dig a small 1x2 trench, then build two 1x1 '
   ╔═╗  ║  +++   
   ║[#0D0]╬║  ║  +▼+
   ║[#0D0]╬║  ║  +▼+
-  ╚═╝  ║  +++
-}}
+  ╚═╝  ║  +++}}
 
 Please note that, although the bridges cover the up ramps they are still usable; adding another way out is not necessary. Do, however, remove any loose stones or other large objects in the trench. You should also avoid constructing any extraneous tunnels within 3 tiles on the bridge level, or your dwarves may stand there instead of in the coinstar room when you issue them a station order.
 

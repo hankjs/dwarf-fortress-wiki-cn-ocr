@@ -1,20 +1,14 @@
 {{Quality|Superior|14:17, 21 February 2023 (CST)}}
 {{V50 workshop|name=Smelter|key=u|key2=l|job=
-* [[Furnace operator]]
-|icon=[[File:smelter_icon.png]]
-|construction=
-* [[Fire-safe]] [[building material]] (non-[[economic]])
-|construction_job={{Material-specific building labors|stone,metal}}
-|use=
+* [[Furnace operator]]|icon=[[File:smelter_icon.png]]|construction=
+* [[Fire-safe]] [[building material]] (non-[[economic]])|construction_job={{Material-specific building labors|stone,metal}}|use=
 * [[Bituminous coal]] or [[Lignite]]
 * [[Coke]] or [[Charcoal]]
 * [[Flux]]
 * [[Melt]]able [[metal]] [[item]]
-* [[Metal]] [[ore]]
-|production=
+* [[Metal]] [[ore]]|production=
 * [[Metal]] [[Bar]]s
-* [[Coke]]
-}}{{av}}
+* [[Coke]]}}{{av}}
 
 {{for/see|a [[fuel]]-less alternative|[[magma smelter]]}}
 

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=chestnut_trunk_sprite.png
-|product=chestnut_sprite.png
-|sapling=chestnut_sapling.png}}
+{{Treelookup/0|graphic=chestnut_trunk_sprite.png|product=chestnut_sprite.png|sapling=chestnut_sapling.png}}
 {{av}}
 
 '''Chestnuts''' are a type of [[tree]] found in dry areas of [[biome|temperate forests]]. Like the overwhelming majority of overland trees, chestnut [[carpenter|wood]] is brown and produces brown products. 
@@ -14,12 +11,7 @@ Some [[Dwarf|dwarves]] [[Preferences|like]] chestnuts for their ''spiny pods'', 
 
 [[File:Châtaignier 120807 1.jpg|thumb|center|300px|Admired for its ''spiny pods''.]]
 
-{{Translation
-| dwarven = gingik
-| elvish  = bisi
-| goblin  = ukad
-| human   = cubra
-}}
+{{Translation| dwarven = gingik| elvish  = bisi| goblin  = ukad| human   = cubra}}
 
 {{gamedata}}
 {{Plants}}
