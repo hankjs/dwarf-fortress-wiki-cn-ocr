@@ -1,0 +1,18 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+'''捕获的活鱼'''是使用在[[fishery|渔场]]给出的"捕获活鱼"命令捕获的。拥有[[fishing|捕鱼]]劳动的[[dwarf|矮人]]将尝试使用可用的[[animal trap|动物陷阱]]活捉水生[[vermin|害虫]]。然后鱼会被放入可用的[[aquarium|水族箱]]。与普通捕鱼不同，后者会在任何合适的位置进行，"捕获活鱼"命令'''只会'''从明确指定的[[activity zone#Fishing|捕鱼区域]]捕获鱼。
+
+只有''害虫''鱼可以用这种方法捕获。要捕获正常大小的鱼，需要水下[[cage trap|笼子陷阱]]。此外，命令你的矮人将捕获的正常大小的鱼移动到水族箱可能会导致鱼因错误而立即窒息。{{Bug|1590}}
+
+捕获的[[pond turtle|池龟]]和[[moghopper|沼蛙]]可以用作[[pet|宠物]]。捕获的沼蛙还可以使用[[fishery|渔场]]的"从活鱼提取"命令制作五单位[[mog juice|沼蛙汁]]。这种[[extract|提取物]]可用于[[cooking|烹饪]]和[[trading|贸易]]。
+
+此任务将永远等待可用的动物陷阱，在没有可用陷阱时占用渔场。当渔场等待时，鱼类清洁工无法执行他们自动准备生鱼的任务。
+
+注意：建造的动物陷阱除非被拆除，否则无法使用。
+
+与[[trapper|捕获陆地害虫]]不同，捕获鱼''不''满足"做一些令人兴奋的事情"的[[need|需求]]。<!-- unless this changed since v47.05 -->
+
+{{Expand Topic}}
+{{Category|Animals}}
+[[ru:Captured live fish]]

@@ -1,0 +1,128 @@
+{{Quality|Exceptional}}
+{{V50 workshop
+|name=Carpenter's workshop
+|key=p
+|job=*[[Carpentry|木工]]
+*[[Trapping|陷阱制作]]（见[[Carpenter's_workshop#Notes|注释]]）
+|icon=[[File:carpenter_workshop_icon.png]]
+|construction=
+* [[Building material|建筑材料]]（非[[economic|经济]]）
+|construction_job=
+*[[Carpentry|木工]]
+*[[Trapping|陷阱制作]]
+|use=
+*[[Wood|木材]]
+|production=
+*[[Animal trap|动物陷阱]]
+*[[Armor stand|盔甲架]]
+*[[Barrel|桶]]
+*[[Bed|床]]
+*[[Bin|箱子]]
+*[[Block|方块]]
+*[[Bookcase|书架]]
+*[[Bucket|水桶]]
+*[[Buckler|圆盾]]
+*[[Cabinet|柜子]]
+*[[Cage|笼子]]
+*[[Casket|棺材]]
+*[[Chest|箱柜]]
+*[[Chair|椅子]]
+*[[Crutch|拐杖]]
+*[[Door|门]]
+*[[Display case|展示柜]]
+*[[Enormous corkscrew|巨型螺旋]]
+*[[Floodgate|闸门]]
+*[[Grate|格栅]]
+*[[Hatch cover|舱门盖]]
+*[[Menacing spike|威胁尖刺]]
+*[[Pedestal|基座]]
+*[[Pipe section|管道节]]
+*[[Shield|盾牌]]
+*[[Spiked ball|尖刺球]]
+*[[Splint|夹板]]
+*[[Stepladder|梯凳]]
+*[[Table|桌子]]
+*[[Training weapon|训练剑]]
+*[[Training weapon|训练矛]]
+*[[Training weapon|训练斧]]
+*[[Weapon rack|武器架]]
+}}{{av}}
+
+'''木匠工坊'''是一个[[Workshop#Tier_1_Workshops|一级]][[workshop|工坊]]，由[[carpenter|木匠]]用来制作大多数类型的[[furniture|家具]]，但不包括[[statue|雕像]]。该工坊还可以制作木制[[block|方块]]或诸如[[bucket|水桶]]、[[crutch|拐杖]]、[[shield|盾牌]]和[[training weapon|训练武器]]等物品。[[Bed|床]]只能在木匠工坊制作。
+
+木匠工坊可以用任何建筑材料建造，必须由启用了木工[[labor|劳动]]的[[dwarf|矮人]]建造。
+
+==任务==
+*制作[[bed|床]]
+*制作[[display case|展示柜]]
+*制作巨型[[wood|木制]][[Trap component|螺旋]]
+*制作威胁[[wood|木制]][[Trap component|尖刺]]
+*制作尖刺[[wood|木制]][[Trap component|球]]
+*制作[[wood|木制]][[altar|祭坛]]
+*制作[[wood|木制]][[animal trap|动物陷阱]]
+*制作[[wood|木制]][[armor stand|盔甲架]]
+*制作[[wood|木制]][[barrel|桶]]
+*制作[[wood|木制]][[bin|箱子]]
+*制作[[wood|木制]][[block|方块]]
+*制作[[wood|木制]][[bookcase|书架]]
+*制作[[wood|木制]][[bucket|水桶]]
+*制作[[wood|木制]][[buckler|圆盾]]
+*制作[[wood|木制]][[cabinet|柜子]]
+*制作[[wood|木制]][[cage|笼子]]
+*制作[[wood|木制]][[casket|棺材]]
+*制作[[wood|木制]][[chair|椅子]]
+*制作[[wood|木制]][[chest|箱柜]]
+*制作[[wood|木制]][[crutch|拐杖]]
+*制作[[wood|木制]][[door|门]]
+*制作[[wood|木制]][[floodgate|闸门]]
+*制作[[wood|木制]][[grate|格栅]]
+*制作[[wood|木制]][[hatch cover|舱门盖]]
+*制作[[wood|木制]][[minecart|矿车]]
+*制作[[wood|木制]][[pedestal|基座]]
+*制作[[wood|木制]][[pipe section|管道节]]
+*制作[[wood|木制]][[shield|盾牌]]
+*制作[[wood|木制]][[splint|夹板]]
+*制作[[wood|木制]][[stepladder|梯凳]]
+*制作[[wood|木制]][[table|桌子]]
+*制作[[wood|木制]][[Training weapon|训练斧]]
+*制作[[wood|木制]][[Training weapon|训练矛]]
+*制作[[wood|木制]][[Training weapon|训练剑]]
+*制作[[wood|木制]][[weapon rack|武器架]]
+*制作[[wood|木制]][[wheelbarrow|手推车]]
+
+==常见用途==
+*制作木制[[barrel|桶]]用于储存[[alcohol|酒精]]、[[plant|植物]]和[[seed|种子]]。
+*为[[zone|房间]]制作木制[[bed|床]]、[[chair|椅子]]、[[table|桌子]]和[[door|门]]。床特别只能在木匠工坊用木材制作。
+*制作木制[[bin|箱子]]用于储存。
+<!-- ==Adventure Mode==
+As of version 43.01, carpenter's workshops can be constructed using the build menu. Standing in its space adds the relevant options to the crafting menu, each item consumes one log, and a sharp item is required as a tool (same as adventure mode bonecrafting). The following items can be made this way:
+
+*Chairs
+*Tables
+*Beds
+*Chests
+*Cabinets
+*Doors
+*Barrels
+*Buckets
+*Caskets
+*Hatch covers
+*Grates
+*Bins
+*Stepladders (used by pressing ({{K|h}}) when dropped)
+*Bookcases
+*Splints
+*Crutches
+*Shields
+*Bucklers
+*Training axes
+*Training short swords
+*Training spears
+
+Of these items, chests are the only furniture that cannot be placed using the build menu. Additionally, splints are not usable in adventure mode.-->
+[[File:carpenter_workshop_preview.png|thumb|300px|center|[[elf|精灵]]最不喜欢的地方。]]
+==另见==
+:*[[Training weapon|训练武器]]
+:*[[Bedroom design|卧室设计]]
+
+{{Workshops}}

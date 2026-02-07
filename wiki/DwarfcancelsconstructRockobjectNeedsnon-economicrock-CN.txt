@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{av}}
+{{DFtext|Dwarf cancels construct "Rock object": Needs non-economic rock}}
+
+当矮人尝试制作岩石物品但没有可用的散落[[stone|石头]]时，会出现此错误消息。请注意，"可用性"可能受到[[burrow|地洞]]和链接的[[stockpile|储物堆]]的影响——可能工坊旁边就有散落的石头，但如果它们被地洞排除（见下文）或被储物堆链接排除，你仍然会收到此消息。如果你的石头供应确实耗尽了，你可以通过[[Mining|挖掘]][[rock|岩石]]来创造更多石头。当矮人将自己困在角落里无法离开去获取更多岩石时，你也会遇到此错误。
+
+如果工坊在[[burrow|地洞]]内，而地洞内没有非经济用岩石，矮人将取消工作并抛出错误消息".. Needs non-economic hard rock"。即使没有矮人被分配到地洞也无关紧要。即使地洞被暂停（未生效）也无关紧要。这可能是一个bug。
+
+有时唯一可用的岩石是[[economic stone|经济用石]]。默认情况下，这些类型的岩石被禁止用于一般用途。你可以在[[stocks|库存]]菜单的"Stone"下切换经济用石用于非经济用途——红色的石头被保留用于经济用途；绿色的石头可用于任何非经济用途。
+
+{{Category|Errors}}
+{{Errors FAQ}}
+[[ru:Dwarf cancels construct "Rock object": Needs non-economic rock]]

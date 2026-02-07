@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{av}}
+{{stub}}
+[[File:castle_preview.png|thumb|220px|right|Complete with a far away bird.]]'''城堡'''（[[File:icon_site_castle.png]] / {{Raw Tile|○|7:0:1}}）是由[[human|人类]]建立的小型[[site|地点]]，由单个[[keep|要塞]]或类似[[mead hall|蜜酒厅]]的建筑组成，周围环绕着带有瞭望塔的高大防御城墙。中央建筑（所有居民都居住其中）和城墙都由随机石材类型建造。[[Artifact|神器]]和战利品也储存在这里。没有地下或其他地上建筑。所有城堡占据3×3个本地地块。
+
+冒险者可以拜访城堡，但他们不能在其中休息或快速旅行。
+
+{{Translation
+| dwarven = rimtar
+| elvish  = tayo
+| goblin  = zogast
+| human   = ithru
+}}
+
+{{World}}

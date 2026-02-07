@@ -1,0 +1,19 @@
+{{Quality|Exceptional|13:41, 1 March 2023 (CST)}}
+{{Treelookup/0
+|graphic=pomegranate_trunk_sprite.png
+|product=acacia_sprite.png
+|sapling=acacia_sapling.png}}
+{{av}}
+
+'''金合欢'''（Acacia）是在地表发现的众多[[tree|树木]]属之一，在大多数干燥的[[tropical|热带]][[biome|生物群系]]中发现，沙漠除外。
+
+金合欢木是桃色的，目前在游戏中显示为棕色，因此产生棕色产品。它作为食物来源评价不高，因为种子不能生吃——只能煮熟后食用。原木可以在[[dyer's shop|染料作坊]]中加工成巧克力色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]金合欢的''刺''。
+
+[[File:Starr 060225-6103 Acacia mearnsii.jpg|thumb|center|400px|因其''刺''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

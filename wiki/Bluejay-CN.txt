@@ -1,0 +1,16 @@
+{{Quality|fine}}
+{{verminlookup/0
+|image=blue_jay_sprite.png
+|portrait=bluejay_portrait.png
+|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]}}
+{{av}}
+{{creaturedesc}}
+
+'''蓝松鸦'''是一种[[above ground|地上]][[vermin|害虫]]，出现在任何有[[tree|树木]]的[[temperate|温带]]地区。它们可以在[[animal trap|动物陷阱]]中被捕获并变成[[pet|宠物]]。所有蓝松鸦都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]蓝松鸦，因为它们的''色彩''。
+
+[[File:Blue Jay-27527.jpg|thumb|300px|center|因其''色彩''而受赞赏。]]
+
+{{gamedata}}
+{{vermin}}

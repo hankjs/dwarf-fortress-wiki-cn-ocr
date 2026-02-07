@@ -1,0 +1,33 @@
+{{Quality|Fine}}
+{{av}}
+{{v50_furniture|name=Bookcase
+|tile=≡|col=0:7:0
+|graphic=[[File:Bookcase sprite.png]]
+|wood=y
+|stonecarve=y
+|metal=y
+|bars=2
+|glass=y
+|cloth=n
+|leather=n
+|ceramic=n
+|bone=n
+|shell=n
+|gem=n
+|wax=n
+|rooms=
+* [[Library]]
+|value=10
+|size=1,000
+|capacity=100,000
+}}
+
+'''书架'''是用于[[library|图书馆]]中存放书写[[book|书籍]]的[[furniture|家具]]。它们通过{{Menu icon|b|f|o|sep=+}}建造。
+
+书架可以在[[carpenter's workshop|木匠工坊]]用1个原木制作，在[[metalsmith's forge|金属锻造炉]]用2个锭制作，在[[glass furnace|玻璃熔炉]]用1袋[[sand|沙子]]制作，或在[[stoneworker's workshop|石工工坊]]用1个石头制作。书架储存在家具储物区的"其他大型工具"类别下。
+
+要确定一个书架能容纳多少书籍并不容易（抄本没有固定大小）。一个书架应该能够容纳200到500本抄本，所以小型图书馆不需要很多书架。单个书架可以容纳500个卷轴或1,000个纸叠。
+
+{{Gamedata|{{raw|v50:item_tool.txt|ITEM_TOOL|ITEM_TOOL_BOOKCASE}}}}
+{{Buildings}}
+[[Ru:Bookcase]]

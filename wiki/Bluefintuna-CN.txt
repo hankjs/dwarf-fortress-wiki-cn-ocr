@@ -1,0 +1,33 @@
+{{Quality|Exceptional|01:10, 17 February 2023 (CST)}}
+{{Creaturelookup/0
+|image=bluefin_tuna_sprites.png
+|portrait=bluefin_tuna_portrait.png
+|contrib=no
+|eye=2
+|heart=1
+|intestine=4-5
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|fat=8-10
+|brain=1
+|skull=1
+|skin=hide
+|meat=10 - 17
+|bone=12
+|wiki=Atlantic bluefin tuna
+}}
+{{av}}
+{{creaturedesc}}
+
+'''蓝鳍金枪鱼'''是一种大型[[Creature|鱼类]]，可以在所有类型的[[ocean|海洋]]中找到。它们的体型是[[dwarf|矮人]]的十倍，[[butcher|屠宰]]时提供大量的产出。作为非[[vermin|害虫]]鱼类，蓝鳍金枪鱼不能被[[Fisherdwarf|渔夫矮人]]捕捞，但可以使用[[drowning chamber|溺水室]]捕获。幼年蓝鳍金枪鱼被称为''蓝鳍鱼苗''。
+
+一些矮人[[Preferences|喜欢]]蓝鳍金枪鱼，因为它们的''小鳍''。
+
+[[File:Bluefin-big.jpg|thumb|center|400px|因其''小鳍''而受赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

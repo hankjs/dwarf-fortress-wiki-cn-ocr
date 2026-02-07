@@ -1,0 +1,35 @@
+{{Quality|Fine}}
+{{creaturelookup/0
+|image=alligator_snapping_turtle_sprites.png
+|portrait=alligator_snapping_turtle_portrait_anim.gif
+|meat=12
+|fat=12
+|bone=17
+|skull=1
+|shell=1
+|brain=1
+|heart=1
+|lung=2
+|scale=1
+|kidney=2
+|spleen=1
+|sweetbread=1
+|tripe=1
+|liver=1
+|intestine=1
+|contrib=no
+|wiki=yes}}
+
+{{av}}
+{{creaturedesc}}
+
+'''鳄龟'''是[[amphibious|两栖]]和肉食性[[creature|生物]]，生活在[[temperate|温带]][[lake|湖泊]]、[[river|河流]]和[[pool|池塘]]中，它们可能一次出现一只。它们比表亲[[common snapping turtle|普通鳄龟]]更可怕，重量是后者的两倍多，使它们比普通[[dwarf|矮人]]更大。如果被激怒，它们会用咬击反击，可能导致手指或手的丧失……或者整个矮人。
+
+鳄龟可以用[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|训练]]成廉价的异域[[pet|宠物]]。由于它们的体型比[[common snapping turtle|普通鳄龟]]更大，[[butcher|屠宰]]时它们成为更具吸引力的[[meat|肉]]和[[bone|骨头]]来源。它们也可以放在[[nest box|巢箱]]中产[[egg|蛋]]用于[[cook|烹饪]]。
+
+一些矮人喜欢鳄龟，因为它们的''凶猛咬击''和''长脖子''。
+
+[[Image:Alligator snapping turtle.jpg|thumb|center|400px|Admired for their ''vicious bites''.]]
+
+{{gamedata}}
+{{creatures}}

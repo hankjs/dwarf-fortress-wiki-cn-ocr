@@ -1,0 +1,22 @@
+{{Quality|Exceptional}}
+{{av}}
+
+:''关于不同武器的比较，请参阅[[Weapon|武器]]。''
+
+[[File:battle_axe_sprite_preview.png|right]]'''战斧'''是一种[[attack types|锋刃]][[weapon|武器]]，本质上是一个沉重的锋利刀片安装在柄的末端，大致平行于它但稍微向前（在基本机械术语中，它只是杠杆末端的楔子）。战斧具有与更大的[[great axe|巨斧]]相同的攻击范围，但其"砍"刃攻击的接触面积和穿透力减少。
+
+战斧使用和训练[[Combat skill|斧手]]技能（在矮人模式下为"斧矮人"）。矮人可以用任何武器级[[metal|金属]][[forge|锻造]]战斧，尽管那些具有[[material science|优越锋刃属性]]的更有效。几乎所有矮人都可以装备战斧；[[Weapon#Size|有些必须用两只手]]。
+
+战斧也可以用作[[wood cutting|砍伐树木]]的工具，斧头的材料决定了树木可以被砍伐的速度。任何执行木材砍伐的矮人将拿起一把斧头（如果有的话）并且不会放下它，直到他们不再被分配木材砍伐[[labor|劳动]]或需要为新工作拿起不同的[[equipment|装备]]。你可以利用这一点为许多非[[military|军事]]矮人装备斧头，尽管如果你确实指定一棵或多棵树进行木材砍伐（{{Menu icon|l}}），所有这些矮人将冲出去砍伐它们，每棵指定的树一个人。[[Wood|木制]]训练斧不再能够用于砍伐树木 -- 它们必须是金属（或神器）。
+
+== 锻造和熔化 ==
+* 金属战斧需要'''一'''根[[metal|金属]]条[[forge|锻造]]，或'''四'''个[[adamantine|精金]]晶片。
+* 当非精金金属战斧被[[melt|熔化]]时，它将返回'''1.2'''根金属条，'''效率为120%'''。
+* 当精金战斧被熔化时，它将产生'''1.2'''个晶片，'''效率为30%'''。
+
+[[File:axedwarf_preview.png|thumb|250px|center|有时只是站在那里，因为它看起来很酷。<br><small>''由Jason Nguyen创作''</small>]]
+{{Translation| dwarven = nokzam libash | elvish = thafatha cuthefi | goblin = ustrok agun | human = noloc osp}}
+
+{{Gamedata}}
+{{Weapons}}
+{{Category|Weapons}}

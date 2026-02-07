@@ -1,0 +1,26 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=bobcat_sprites.png
+|portrait=bobcat_portrait_anim.gif
+|bone=4
+|meat=8
+|fat=7
+|intestine=1
+|skin=hide
+|skull=1
+|contrib=no
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''短尾猫'''是在各种[[biome|生物群系]]中发现的小型猫科[[creature|生物]]。它们极其罕见，单独生成，在被视为局部[[extinct|灭绝]]之前，一张地图上最多只会存在少得可怜的3只。虽然是食肉动物，但它们只比普通[[cat|猫]]稍大一点，很少会对成年[[dwarf|矮人]]构成威胁。短尾猫幼崽需要3年才能成年，对于如此小的动物来说，这是一个奇特的特征。
+
+短尾猫可以用[[cage|笼子]][[trap|陷阱]]捕获，并[[Animal trainer|训练]]成[[pet|宠物]]。它们可以进一步训练成战斗或狩猎野兽，但由于它们的体型不到[[dog|狗]]的一半，实在太小而无法发挥任何作用。由短尾猫部位制作的产品价值是普通动物的两倍，但如前所述，除非玩家特意繁殖它们，否则可用的短尾猫会很快耗尽。
+
+一些矮人因为短尾猫的''短尾巴''而[[Preferences|喜欢]]它们。
+
+[[File:bobcat2.jpg|thumb|400px|center|Admired for their ''short tails''.]]
+
+{{gamedata}}
+{{creatures}}

@@ -1,0 +1,23 @@
+{{Quality|Fine}}
+{{v50_furniture|name=Book Binding
+|tile=
+|graphic=[[File:bookbinding.gif]]
+|wood=y
+|stone=y
+|metal=y
+|glass=y
+}}
+{{av}}
+{{for/see|the skill and labor|[[Bookbinder]]}}
+
+'''书籍装订封面'''由石头、木头、金属或玻璃制成。它们可以在工匠工坊中由[[stonecrafter|石匠]]使用[[stone|石头]]制作，或由[[woodcrafter|木匠]]使用[[wood|木头]]制作，也可以在[[metalsmith's forge|金属锻造炉]]中由[[metalsmith|金属匠]]使用[[metal|金属]][[bar|锭]]制作，或在[[glass furnace|玻璃熔炉]]中由[[glassmaker|玻璃匠]]使用[[glass|玻璃]]制作。
+
+书籍装订封面储存在成品货物 > 工具类别下。
+
+写有文字的[[quire|纸叠]]可以通过结合[[thread|线]]和书籍装订封面装订成[[book|书籍]]。装订工作在[[craftsdwarf's workshop|工匠工坊]]中由启用[[bookbinding|书籍装订]]劳动的矮人完成。
+
+{{Translation| dwarven = thîkut estun | elvish = soya avera | goblin = zosto xedub | human = thothil uti}}
+
+{{Category|Items}}
+[[ru:Book binding]]
+[[Fr:Reliure (book binding)]]

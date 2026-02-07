@@ -1,0 +1,24 @@
+{{Quality|Fine}}
+{{Treelookup/0
+|graphic=almond_trunk_sprite.png
+|product=almond_sprite.png
+|sapling=almond_sapling.png}}
+{{av}}
+
+'''杏仁树'''是许多[[tree|树木]]中的一种，生长在[[above ground|地面上]]。像绝大多数地上树木一样，杏仁[[wood|木材]]是棕色的，生产棕色产品。它们的坚果可以在[[dyer's shop|染坊]]中加工成浅棕色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]杏仁树，因为它们的''坚果''。
+
+
+[[File:Ametllesjuliol.jpg|thumb|center|300px|Admired for its ''nuts''.]]
+
+
+{{D for Dwarf}}
+杏仁树结出美味的脆杏仁，可以通过在树下设置采集[[zone|区域]]来收获。杏仁不能酿造成[[alcohol|酒精]]。因此，你最好<s>消灭这些丑陋、无用的潜在[[elf|精灵]]避难所</s>砍伐这棵树或将杏仁烹饪成+杏仁饼干+。
+
+遗憾的是，在''矮人要塞''中的杏仁都是甜杏仁品种，[https://en.wikipedia.org/wiki/Amygdalin 几乎无法]给贵族或精灵提供一顿[[unfortunate accident|致命的大餐]]。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

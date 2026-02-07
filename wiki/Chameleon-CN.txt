@@ -1,0 +1,22 @@
+{{Quality|fine}}
+{{verminlookup/0
+|image=chameleon_sprite.png
+|portrait=chameleon_portrait.png
+|wiki=Chameleon}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''变色龙'''是一种[[above ground]][[vermin]]，出现在从[[desert]]到[[tropical]][[forest]]等各种[[biome]]中。
+
+它们是所有害虫中最会产[[egg]]的，一次能产40到50个蛋。然而，由于它们是害虫，这些蛋无法通过[[egg production]]收集。幸运的是，如果其他种族（如[[human]]）碰巧定居在有变色龙的区域，在与他们[[trading]]时可能会获得这些蛋，而且它们的[[giant chameleon]]对应物也能产同样多的蛋，你的[[dwarves]]可以自由使用。
+
+奇怪的是，《矮人要塞》中的变色龙身上有彩虹的所有颜色条纹，因为它们变色的能力还没有被实现。
+
+一些矮人[[Preferences|喜欢]]变色龙，因为它们''能够变色''和它们的''眼睛''。
+
+[[Image:Indian_Chameleon_(Chamaeleo_zeylanicus)_Photograph_By_Shantanu_Kuveskar.jpg|thumb|300px|center|因其''眼睛''而受到赞赏。]]
+
+{{gamedata}}
+{{Vermin}}
+{{Category|Animals}}

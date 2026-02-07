@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_chrysocolla_sprite.png
+|graphic2=rough_chrysocolla_sprite.png}}
+{{av}}
+
+
+'''硅孔雀石'''是一种低价值[[gem|宝石]]，存在于[[malachite|孔雀石]]的矿脉中。
+
+[[File:Chrysocolla-270157.jpg|center|thumb|260px|硅孔雀石。]]
+
+==现实生活中==
+硅孔雀石是一种含水硅酸铜((Cu,Al)<sub>2</sub>H<sub>2</sub>Si<sub>2</sub>O<sub>5</sub>(OH)<sub>4</sub>·nH<sub>2</sub>O)，由已存在的铜矿床形成；已知它会与[[malachite|孔雀石]]和蓝铜矿（矮人要塞中不存在）一起形成。
+
+{{gamedata}}
+{{gems}}

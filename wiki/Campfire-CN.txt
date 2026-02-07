@@ -1,0 +1,27 @@
+{{Quality|Superior}}
+{{av}}
+[[File:campfire_anim_preview.gif|right]]'''营火'''可以在[[adventurer mode|冒险模式]]中按{{Adv menu icon|g}}来创建。目前，营火不需要任何材料来建造，尽管有迹象表明未来在创建营火时会涉及更多工作。
+
+走入包含营火的格子是不可能的，即使对于免疫火焰的生物也是如此。[[jump|跳过]]营火甚至跳到营火上是可能的且无害。
+
+营火无法被摧毁——除非有水流到它们上面——但会在几小时后自行消失。附近的天然冰墙如果紧邻营火可能会融化[http://www.bay12forums.com/smf/index.php?topic=146181.msg5848684#msg5848684]。
+
+掉落到营火上的物品会被摧毁，无论它们的[[fire-safe|防火]]或[[magma-safe|防岩浆]]属性如何，唯一的例外是[[soil|土壤]]、[[powder|粉末]]和[[liquid|液体]]。这包括站在营火上时掉落的物品和[[artifact|神器]]。（水似乎只有在流到营火上时才能扑灭营火。）
+
+[[File:campfire2.jpg|thumb|321px|center|非常适合烤棉花糖。可惜游戏里没有。]]
+
+== 用途 ==
+* 加热物体
+* 通过按{{Adv menu icon|I}}将容器中的雪或冰融化成水，需要在[[settings|设置]]中[[Settings#Feature_toggles|启用温度]]才能工作。
+* 创建屏障
+* 销毁物品
+
+== 要塞模式 ==
+在开局时可能会发现营火，以及其他无法建造的结构，如由布料或皮革制成的墙壁。在这些位置，开始时不会有树木或植物，所有浑水池都将被移除。这些营火会持续产生烟雾，不会自行熄灭，也无法通过在其上建造或挖掘其下方的地面来移除，实际上使它们无法移除。
+
+在之前的版本中，[[human|人类]]和[[necromancer|死灵法师]]的围攻会点燃营火。这在0.40系列早期被关闭了。
+
+{{Translation| dwarven = ogîk-ziril | elvish = imené-inira | goblin = ustthut-zedan | human = muthe-usmok}}
+
+{{Category|Adventurer mode}}
+[[ru:Campfire]]

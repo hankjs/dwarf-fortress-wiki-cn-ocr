@@ -1,0 +1,19 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=dingo_man_sprite.png
+|portrait=dingo_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''野犬人（Dingo men）'''是常见[[dingo|野犬]]的[[animal people|兽人]]变种，可以在大多数[[savage|野蛮]][[biome|生物群系]]中发现。它们以3-10个个体为一组出现，并可能与挑衅它们的[[dwarves|矮人]]发生冲突，不可避免地导致受伤，但大多数矮人应该能够在一对一的情况下击败野犬人。它们的体型接近矮人，但总体上较小。
+
+像其他野蛮兽人一样，它们可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险模式]]中可被玩家扮演。
+
+一些矮人会因野犬人的''毛色''而[[Preferences|喜欢]]它们。
+{{D for Dwarf}}
+<!-- Reference: Dingodile from the Crash Bandicoot franchise -->
+尽管某些形式的媒体可能会描绘，但并不存在在基因层面上融合了鳄鱼的野犬人。它们也不会与人形袋鼠人为敌，也不操作大型喷火器。至于它们是否说澳大利亚口音还有待商榷。
+[[File:dingo_man.jpg|thumb|320px|center|只有在喜剧性合适的情况下才说澳大利亚口音。]]
+
+{{gamedata}}
+{{Creatures}}

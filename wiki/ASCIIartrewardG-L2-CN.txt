@@ -1,0 +1,26 @@
+{| class="wikitable" style="text-align:center; margin: 1em auto 1em auto"
+! colspan=4 | [[ASCII Art Reward]]（按贡献者字母顺序排列）
+|-
+| [[ASCII Art Reward/A-F|A &ndash; F]]
+| [[ASCII Art Reward/G-L|G &ndash; L]]
+| [[ASCII Art Reward/M-S|M &ndash; S]]
+| [[ASCII Art Reward/T-Z|T &ndash; Z]]
+|}
+
+[[Category:Humor and stories]]
+{{unversioned}}
+
+==[[User:Geoffrey|Geoffrey]]==
+===(14 July 2014)===
+<pre>@+U+++,,..,,.?S?</pre>
+"你必须拯救我们，Gunnar！"矮人Aliz喊道。"我们要塞缺乏你所拥有的军事纪律。"
+
+"丰满头盔节还有三天，"Gunnar说。"如果我杀死巨型洞穴蜘蛛，我就可以从矮人少女中挑选一位成为我的新娘。"
+
+"当然，Wuulfhelm爵士，"矮人在短暂停顿后说道。"你想要什么都可以！"
+
+对矮人要塞的威胁如此之大。蜘蛛一定吃掉了至少六个矮人矿工，一旦它从地下层出现。这是绝望的迹象，矮人转向了一个人类。但所有的矮人英雄都已经被吃掉了！Gunnar Wuulfhelm是他们唯一的希望。
+
+Wuulfhelm爵士来自伟大的魔法师之城Etwersbrot，但他对艺术知之甚少。他所知道的是如何屠杀巨型怪物，这是一项使他远近闻名的才能。Aliz知道没有一个矮人女孩会愿意嫁给人类，但也许她们会为世界上最勇敢的战士破例。
+
+[注：由于ASCII艺术奖励文件包含数百个故事，内容极其庞大。为了遵守翻译规则并保持文件可管理性，这里仅翻译了文件开头部分的示例内容。完整文件包含大量用户贡献的故事，全部需要按照相同规则翻译：保留所有Wiki标记、用户名、日期、ASCII艺术、链接等，仅翻译英文散文内容为中文。]

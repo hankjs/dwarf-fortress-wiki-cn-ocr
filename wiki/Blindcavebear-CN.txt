@@ -1,0 +1,38 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=blind_cave_bear_sprites.png
+|portrait=blind_cave_bear_portrait.png
+|bone=17
+|meat=14
+|fat=13
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|skull=1
+|skin=hide
+|tooth=2
+|wiki=no
+|contrib=no
+}}
+{{av}}
+{{creaturedesc}}
+
+'''盲眼洞熊'''是大型[[caverns|地下]]掠食者，一次只出现一只来狩猎[[Dwarf|矮人]]。与地表世界的熊（[[black bear|黑熊]]、[[grizzly bear|灰熊]]或[[polar bear|北极熊]]）不同，盲眼洞熊不会被[[food|食物]]或[[alcohol|饮料]]吸引，除非靠盲目的运气或战略性放置的[[Defense_guide#Animals|绳子上的小猫]]，否则无法被引诱进[[trap|陷阱]]。它们实际上并不盲，至少不是真的盲，拥有{{token|EXTRAVISION|c}}标签尽管没有眼睛——最终结果是（讽刺的是）它们无法被致盲。它们也属于{{token|LARGE_PREDATOR|c}}类别，这意味着它们会机会性地攻击任何接近的矮人——除非那个矮人恰好是一个穿着全套[[steel|钢铁]][[armor|盔甲]]的[[skill|高级]][[battle axe|战斧手]]，否则他们不太可能在遭遇中幸存。与大多数其他可能出现在第一层洞穴的洞穴生物相比，遇到盲眼洞熊的情况相当罕见。
+
+它们可以被[[animal trainer|驯兽师]]捕获和训练，并成为不错的[[pet|宠物]]。它们死了也很有用：盲眼洞熊的部位和产品价值是家畜的三倍，一只熊就能让[[bone carver|骨雕师]]忙活一阵子。已知[[Goblin|哥布林]]在[[siege|围攻]]期间骑着它们到来。与大多数生物不同，它们无法在[[object testing arena|物体测试场]]中生成。
+
+一些矮人因其''下垂的耳朵''而[[Preferences|喜欢]]盲眼洞熊。
+
+[[File:Notebook_05_BlindCaveBear.jpg|thumb|400px|center|''Bay 12 Games的概念艺术。'']]
+
+{{Translation| dwarven = nural äs uvel | elvish = nanotha garetho atha | goblin = ostad omo ron | human = odu ngethac rorec}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

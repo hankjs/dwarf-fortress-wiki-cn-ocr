@@ -1,0 +1,10 @@
+{{disambig}}
+
+'''Cap'''可以指：
+
+* 一件由布料、皮革或金属制成的'''[[Armor#Headgear|头部装备]]'''。由布料或皮革制成的帽子也可以称为[[clothing|服装]]。
+* 高级世界生成参数'''[[Advanced world generation#Population cap after civ creation|文明创建后的人口上限]]'''，控制历史人物的最大数量。
+* 高级世界生成参数'''[[Advanced world generation#Site cap after civ creation|文明创建后的站点上限]]'''，控制人口中心（如城镇）的最大数量。
+* 与玩家要塞中最大人数或种子数量相关的'''[[Settings#Population_and_seed_capacities|设置]]'''。
+* [[Tree#Underground trees|蘑菇树]]的"树冠"或者说[[wikipedia:Pileus (mycology)|菌盖]]。
+[[ru:Cap]]

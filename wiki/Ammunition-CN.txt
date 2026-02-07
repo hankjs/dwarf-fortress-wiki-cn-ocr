@@ -1,0 +1,73 @@
+{{Quality|Unrated}}
+{{av}}
+:''{{for/see|攻城器械使用的弹药|[[Siege engine]]}}
+[[File:ammo_sprites_preview.png|right|弹药的最佳用途：伤害他人。🏹]]'''弹药'''是可以从十字弓和吹箭筒等远程[[weapon|武器]]发射的抛射物的统称。弹药存储在弹药[[stockpile|储存区]]中，并携带在[[quiver|箭袋]]中。弹药也可能指从攻城器械发射的石头和[[Ballista arrow|弩炮箭]]；有关这些武器的更多信息，请参阅[[siege engine|攻城器械]]文章。
+
+像[[bow|弓]]和[[blowgun|吹箭筒]]这样的外来武器的弹药也被视为外来物品，无法在要塞中制造。
+
+所有弹药都具有"EDGE"[[attack types|攻击类型]]；这意味着更锋利的[[metal|金属]]或其他锋利[[material|材料]]更适合用于弹药。然而，作为抛射物，弹药也受材料密度以及单个箭、弩箭或飞镖体积的影响。
+
+当身上插着[[bolt|弩箭]]或[[arrow|箭]]的矮人在[[hospital|医院]]接受治疗时，取出的弹药会留在他们的床上。
+
+==弹药表==
+
+''矮人要塞''中有三种类型的弹药：弩箭、箭和吹箭，每种都从不同的武器发射。
+
+{| class="wikitable" border="border"
+|-
+! 类型
+! 尺寸
+! 接触面积
+! 穿透
+! 使用武器
+! 使用技能
+! 可制造
+! 使用者
+|-
+| [[Bolt]]
+| 150
+| 5
+| 1000
+| [[Crossbow|十字弓]]
+| [[Crossbowman|弩手]]
+| 是（[[Weaponsmith|金属]]、[[Wood crafter|木头]]、[[Bone carver|骨头]]）
+| [[Dwarf|矮人]]、[[Goblin|哥布林]]、[[Human|人类]]
+|-
+| [[Arrow]]
+| 150
+| 5
+| 1000
+| [[Bow|弓]]
+| [[Bowman|弓手]]
+| 否
+| [[Elf|精灵]]、[[Goblin|哥布林]]、[[Human|人类]]、[[Kobold|狗头人]]
+|-
+| [[Blowdart]]
+| 20
+| 1
+| 50
+| [[Blowgun|吹箭筒]]
+| [[Blowgunner|吹箭手]]
+| 否
+| [[Animal people|兽人]]
+|}
+
+== 有效性 ==
+由不同[[material|材料]]制成的抛射物具有不同的有效性水平，具体取决于情况。可能的因素包括弹药的[[weight|重量]]以及材料在战斗中的[[material science|物理属性]]。弹药类型和用于发射弹药的武器也可能对潜在伤害产生影响。
+
+在实践中，材料类型严重影响弩箭的有效性，就像[[Weapon#Superior_metal_rule|近战武器]]一样。最近的矮人[https://www.reddit.com/r/dwarffortress/comments/11w6lwm/science_the_effectiveness_of_metal_bolts_vs_armor/ !!科学!!]已经观察到，由相同或较低金属制成的弹药可能需要超过4倍的弹药才能杀死对手。
+
+抛射物更容易被格挡而不是招架。{{cite forum|169696/8385967}}
+
+吹箭筒飞镖明显不如弩箭或箭有效，因为它们与其他弹药类型相比重量轻且尺寸小，几乎无法穿透盔甲，甚至会被衣服挡住，除非飞镖是由金属制成的。
+
+地下动物部落是吹箭筒的主要使用者，无法获得金属，因此通常不会看到非木制吹箭。
+==错误==
+* 如果射手所在的小队在创建时没有分配默认的"Archer"制服，射手可能不会装备弹药。{{bug|0012008}}
+
+==另见==
+* [[Archery|射箭]]
+
+{{Weapons}}
+{{category|Ammo|*}}
+[[ru:Ammunition]]

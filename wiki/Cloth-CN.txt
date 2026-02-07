@@ -1,0 +1,60 @@
+{{Quality|Superior}}
+{{av}}
+{{V50_item
+|graphic=[[File:Cloth_sprite.png|32px]]
+|name=Cloth
+|tile=º
+|materials=<span></span>
+* [[Web]]
+* [[Yarn]]
+* [[Plant fiber]]
+|workshops=<span></span>
+* [[Loom]]
+|labors=<span></span>
+* [[Weaver]]
+|used for=
+* [[Textile industry]]
+* [[Wound dresser|Wound dressing]]
+* Can be worn
+|value=7
+|size=1-200
+|dimension=1-15000[[Cloth#Uses|*]]
+}}
+'''布料'''是一种多功能的手工艺和[[health care|医疗]]用品，对几乎任何要塞的长期健康都至关重要。
+
+==用途==
+布料可以用来在[[clothier's workshop|裁缝工坊]]生产[[clothing|衣物]]、[[bag|袋子]]和[[rope|绳索]]。虽然要塞对袋子的需求取决于其追求的特定产业，[[chain|链条]]可以完成绳索能做的任何事情，但''每个''要塞都会发现其居民需要新衣服，如果他们希望避免与裸体相关的负面[[thought|想法]]。适合这种需求的另一种材料是[[leather|皮革]]，可以说这是一个自动化程度较低、更复杂的产业。
+
+此外，布料是''唯一''可以在[[hospital|医院]]中用作[[wound dresser|伤口敷料]]的材料。如果有可用的布料，矮人会在活跃的医院区域储存少量布料用于此目的。每件带入的布料物品会为医院的库存增加10,000个"布料单位"。
+
+在[[craftsdwarf's workshop|工匠工坊]]，布料可以用来制作[[trade goods|贸易品]]。空袋子、[[quiver|箭袋]]、布料工艺品和衣物也可以用"布料图案"装饰。
+
+你可以在使用布料之前给它[[dye|染色]]，以增加其[[Item value|价值]]。用精心编织和染色的布料制作大师级物品可以产生非常高价值的物品，特别是在使用更稀有、更有价值的染料时。
+
+==生产==
+[[File:cloth_sprite_preview.png|right]]
+布料由[[weaver|织工]]生产，他们会将[[plant fiber|植物纤维]]、纱线或丝绸[[thread|线]]（但不包括[[hair|毛发]]线）带到[[loom|织布机]]并将其编织成可用的布料；一个线物品编织产生一个布料物品。这意味着要塞可以通过多种方式生产自己的布料。有关该过程的详细分解，请参见[[textile industry|纺织业]]页面。
+
+===丝绸===
+[[Silk|丝绸]]布料由[[web|蛛网]]制成，无论是来自[[vermin|害虫]][[cave spider|洞穴蜘蛛]]还是横行霸道的[[forgotten beast|被遗忘的野兽]]。如果你有一台闲置的织布机，它会自动为你的织工生成收集蛛网工作。他们会寻找蛛网，在捡起时将其转化为线，然后将线运送到织布机编织成丝绸布料。
+
+===植物===
+除了几乎所有要塞都能获得的无处不在的[[pig tail|猪尾草]]之外，还有[[Plant fiber|七种地面作物]]可以[[farm|种植]]并用于生产布料，每块布料需要一根植物线。所有这些都在[[farmer's workshop|农夫工坊]]加工，然后带到织布机进行编织。
+
+===纱线===
+[[Sheep|绵羊]]、[[llama|美洲驼]]和[[alpaca|羊驼]]可以在[[farmer's workshop|农夫工坊]]剪毛，然后可以在织布机加工成布料。或者，[[butcher|屠宰]]这些生物会产生羊毛作为其产品之一。尽管[[troll|巨魔]]也有毛，但矮人既不能剪毛也不能屠宰它们，因为只有驯服的巨魔才能剪毛。通过模组，巨魔甚至可以自己剪毛。
+
+==贸易==
+[[File:cloth_colors.jpg|thumb|300px|right|clear|Cloth of many colors.]]
+布料是所有[[civilization|文明]]带来的常见贸易品，特别是当你的要塞衣物短缺时。[[Elf|精灵]]倾向于带来[[rope reed|绳芦苇]]布料，[[human|人类]]带来[[wool|羊毛]]，[[dwarf|矮人]]带来[[pig tail|猪尾草]]。完全可以依靠这些[[caravan|商队]]带来的布料进口来运营你的服装业，但这可能相当昂贵。
+
+==储存==
+通常，布料会储存在指定的布料[[stockpile|储物堆]]中，如果有可用的[[bin|箱子]]，多个布料单位可以装入箱子中。[[Hospital|医院]]会将布料储存在[[chest|柜子]]中（如果你在其边界内建造这些柜子），尽管你也可以选择使用布料储物堆。
+
+{{Minorspoiler}}<br>
+
+此外，你还可以通过编织[[adamantine|精金]]线来制作布料。然而，这通常被视为一种浪费的做法；精金衣物和普通衣物一样快速磨损，而精金伤口敷料也不提供额外的健康益处。
+
+{{Materials}}
+{{Category|Materials}}
+[[ru:Cloth]]

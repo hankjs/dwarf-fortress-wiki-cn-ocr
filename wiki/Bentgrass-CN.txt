@@ -1,0 +1,10 @@
+{{Quality|Fine}}{{grasslookup/0}}{{av}}
+
+'''翦股颖'''是一种常见的草类，生长在大多数干燥的温带地区，以及其他不适宜居住的苔原和山区。它与大多数其他类型的草无法区分。
+
+{{Translation| dwarven = mat-isin | elvish = thiyo-enena | goblin = asu-struxe | human = puja-kege}}
+
+[[File:Agrostismicrophylla.jpg|thumb|center|300px|Bentgrass.]]
+
+{{gamedata}}
+{{Plants}}

@@ -1,0 +1,45 @@
+{{Quality|Fine}}
+{{av}}
+{{Modding}}
+
+'''弹药标记'''是[[ammunition|弹药]]的[[item definition token|物品定义标记]]。
+{{clear}}
+
+== 标记 ==
+{| {{prettytable}}
+|- bgcolor="#ddd"
+! 标记
+! 参数
+! 描述
+
+|-
+| {{text anchor|NAME}}
+| singular:plural
+| 该物品在游戏中的名称。
+
+|-
+| {{text anchor|CLASS}}
+| anything
+| 此弹药可以从设置为发射相同弹药类型的武器中发射。默认为BOLT。
+
+|-
+| {{text anchor|SIZE}} / {{text anchor|WEIGHT}}
+| value
+| 弹药有多大。<font color="red">必需</font>。
+
+|-
+| {{text anchor|ATTACK}}
+|
+*attacktype:BLUNT or EDGE
+*contact_area:value
+*penetration_size:value
+*verb2nd:string
+*verb3rd:string
+*noun:string
+*velocity_multiplier:value
+| 指定弹药的攻击特性。
+|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Ammo token]]

@@ -1,0 +1,27 @@
+{{Quality|fine}}
+{{creaturelookup/0
+|image=copperhead_snake_sprites.png
+|portrait=copperhead_snake_portrait_anim.gif
+|contrib=no
+|skull=1
+|wiki=Agkistrodon contortrix
+}}
+{{av}}
+{{creaturedesc}}
+
+'''铜头蛇'''是微型的、独居的、[[Syndrome|有毒]]的[[creature|生物]]，栖息在[[temperate|温带]]阔叶[[forest|森林]]和[[wetland|沼泽]]中。它们能注射一种引起恶心、疼痛和患处肿胀的毒素，这些症状不会持续太久就会消退，不过它们通常太小而无法成功刺穿[[dwarf|矮人]]的皮肤。像其他蛇类一样，它们在整个生命中持续生长，在20岁时达到最大体型，不过有些铜头蛇可能在10岁时就死于衰老。然而，即使完全长成，它们也是游戏中除了[[vermin|害虫]]之外最小的生物之一。
+
+铜头蛇可以被[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|驯兽师]]训练成异域[[pet|宠物]]。它们生来就是成年个体，因此无法被完全驯化。它们太小了，[[butcher|屠宰]]后除了[[skull|头骨]]什么也得不到，而且与大多数爬行动物不同，它们是胎生而非产[[egg|卵]]，这使得它们完全无法用于[[meat industry|肉类产业]]。然而，用铜头蛇的头骨制成的[[totem|图腾]]会比普通图腾[[Multiply value|贵两倍]]。
+
+一些矮人因铜头蛇的''迷人鳞片花纹''而[[Preferences|喜欢]]它们。
+
+{{Translation| dwarven = gusil-ser therleth | elvish = canò-íne imaza | goblin = saxo-ostam slorust | human = gugir-aru rosha}}
+
+{{D for Dwarf}}
+矮人们试图从它们头部提取[[copper|铜]]的所有尝试都失败了，这让一些人相信铜头蛇根本不含任何铜。
+
+[[File:Copperhead05.jpg|thumb|center|400px|因其''迷人鳞片花纹''而受到赞赏。]]
+
+{{gamedata}}
+{{creatures}}
+{{Category|Animals}}

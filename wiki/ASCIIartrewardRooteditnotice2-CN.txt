@@ -1,0 +1,20 @@
+{{ambox|type=info|text=<nowiki/>
+=== 格式指南 ===
+* 获奖者应使用2级标题（==）按字母顺序列出
+** 在本wiki上有账号的获奖者可以使用<code><nowiki>[[User:USER NAME|]]</nowiki></code>链接到用户页面。（这将自动展开为<code><nowiki>[[User:USER NAME|USER NAME]]</nowiki></code>。）
+* 故事应使用3级标题（===）列出，按日期排序（"d m y"格式）
+
+=== 示例 ===
+<pre>
+== [[User:Abby Ratso Lee|]] ==
+===(03 March 2013)===
+[story]
+
+==[[User:AbuDhabi|]]==
+===(5 February 2009)===
+[story]
+
+===(24 February 2009)===
+[story]
+</pre>
+}}

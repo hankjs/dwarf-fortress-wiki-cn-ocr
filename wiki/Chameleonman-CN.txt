@@ -1,0 +1,33 @@
+{{Quality|Superior}}
+{{Creaturelookup/0
+|image=chameleon_man_sprite.png
+|portrait=chameleon_man_portrait.png
+|contrib=no
+}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''变色龙人'''是普通[[chameleon]]的[[animal people]]变体，可以在[[savage]][[tropical]]和[[desert]]地区找到，以1-5个个体的群体出现，通常满足于保持自己的状态。在体型方面，它们的重量是平均[[dwarf]]的一半多一点。
+
+像其他野蛮动物人一样，他们可以加入[[civilization]]，成为[[historical figure]]，作为[[visitor]]出现，并可在[[adventurer mode]]中游玩。
+
+一些矮人[[preference|喜欢]]变色龙人，因为他们''能够变色''和他们的''眼睛''。
+
+[[File:chamelon_man.jpg|thumb|270px|center|可以融入任何环境。<br />''<small>艺术创作：Dean Spencer</small>'']]
+
+{{D for Dwarf}}
+
+<!-- Reference: Pokemon Mystery Dungeon -->
+在冒险模式中，变色龙人偶尔会在[[Dungeon_(zone)|dungeons]]内开设商店，如果他们的贸易商品被偷，他们会发狂。尽管外表无害，当被激怒时，这些变色龙人总是传奇战士。
+
+<!-- Reference: Cassette Beasts -->
+有报告称，精通火系的变色龙人会自发地变成蓝色并保持这种颜色。
+
+<!-- Reference: Something that has probably actually happened, since chameleons have a clutch size of 40-50. -->
+有报告称，一名变色龙女性作为怪物杀手加入要塞，最终占据了一个巢箱，一次产下多达50个蛋，矮人们会烹饪和食用这些蛋。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

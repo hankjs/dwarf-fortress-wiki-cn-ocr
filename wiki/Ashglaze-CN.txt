@@ -1,0 +1,16 @@
+{{Quality|Unrated}}
+{{av}}
+'''灰釉'''是一种可应用于[[Stone|石头]]或[[ceramic|陶瓷]]制成的[[Jug|壶]]、[[Statue|雕像]]、[[Large_pot|大罐]]和[[Finished_goods|工艺品]]的[[glaze|釉料]]。它由[[glazer|上釉工]]在[[kiln|窑]]或[[magma kiln|岩浆窑]]使用1%条[[ash|灰烬]]应用到这些物品上。[[Earthenware|陶器]][[jug|壶]]和[[pot|罐]]可以上釉以容纳[[Liquid|液体]]。灰釉的[[Item_value#Material_multipliers|材料价值]]为5。
+
+与[[tin glaze|锡釉]]不同，灰釉与其源材料之间的关联被硬编码在游戏本身中。
+
+[[File:ash_glaze_preview.jpg|thumb|210px|center|一个上了灰釉的大罐。]]
+
+== 另见 ==
+* [[wikipedia:Ash glaze|维基百科上的灰釉]]
+
+{{Translation| dwarven = ibruk fikod | elvish = imeri fifí | goblin = usmdas ul | human = cish cango}}
+
+{{gamedata}}
+{{materials}}
+[[ru:Ash glaze]]

@@ -1,0 +1,10 @@
+{{av}}
+
+竹子是[[panda|熊猫]]唯一可以食用的草类([[elf|精灵]]不会向你提及这一点)。
+
+在''矮人要塞''中有三种竹子：
+* [[Arrow bamboo|箭竹]]
+* [[Golden bamboo|金竹]]
+* [[Hedge bamboo|篱竹]]
+{{disambig}}
+[[ru:Bamboo]]

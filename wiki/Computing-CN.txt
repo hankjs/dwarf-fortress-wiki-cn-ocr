@@ -1,0 +1,183 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Computing}}
+{{av}}
+
+''Dwarf Fortress''中的计算是指设置复杂结构来执行逻辑运算和计算的实践；理想情况下，用于控制要塞的某些功能。尽管这不再是一个年轻的概念，但仍有很大的改进和发展空间。原因之一是解决一个问题有很多方法。鼓励创新和发明。
+=== 二进制信息 ===
+二进制信息可以有两种可能的状态之一：真或假，分别为1或0。在''Dwarf Fortress''中，它们可以由不同的实体表示：
+* 触发器的开/关状态或信号（[[pressure plate|压力板]]或[[lever|拉杆]]）
+* [[machine component|机械组件]]的动力或连接状态
+* [[door|门]]或类似建筑的打开或关闭状态
+* [[pressure plate|低/高]]或[[flow|流动/静止]]的[[water|流体]]
+* 存在的[[creature|生物]]和[[dwarf|矮人]]
+* 轨道上存在的[[minecart|矿车]]
+
+电子设备和计算机基于这种基本形式的信息，如果你想进入计算领域，你必须熟悉它：[http://en.wikipedia.org/wiki/Propositional_calculus 命题演算]
+
+=== 输入/输出 ===
+输入可以是任何可以通过机械装置连接到另一个设备的设备，如[[lever|拉杆]]或[[pressure plate|压力板]]。压力板可以测量水或岩浆深度，或生物或矿车重量，如果测量生物重量，可以设置为对你自己的矮人做出反应。如果测量水或岩浆，你需要指定它应该输出"开"的最小和最大水位，在所有其他水位下它将输出"关"信号。无论压力板上的水或岩浆的实际数量或生物或矿车的确切重量如何，压力板只能向它连接的任何设备输出"开"或"关"信号（1或0）。因此，你构建的所有东西都将具有二进制基础。
+
+====输入元素====
+* 手动：[[lever|拉杆]] -> 二进制开/关信号
+* 触发：[[pressure plate|压力板]] -> 二进制开/关信号
+
+根据输入，输出可以是任何能够对开/关信号做出反应的东西。这可以是门、桥、允许或阻止流动的水闸、控制泵的齿轮等等。在某些特殊配置中——当涉及[[mechanical logic|机械逻辑]]时——输出可能不是开/关信号而是动力，因此运行或不运行机械组件。
+
+目前，要从动力转换为开/关信号，唯一的方法是使用一种[[Mechanical_logic#Power_to_signal_converter|动力到信号转换器]]。这可以是连接到该动力源的螺旋泵，以及用于测量是否正在抽水的压力板，或者是通过辊子在封闭轨道上移动的矿车，压力板被其通过激活。
+<!-- ...screw pump connected to that power source <s>with an unlimited amount of water and drainage at the output</s>, and a pressure plate to measure whether water is being pumped<s> out by the pump</s>. -->
+
+====输出元素====
+* 信号：[[pressure plate|压力板]] -> 二进制开/关信号 -> 可连接对象
+* 动力：[[gear assembly|齿轮组件]] -> 二进制动力开/动力关 -> 机器
+
+=== 二进制逻辑 ===
+基本二进制逻辑接受一个或两个输入位并基于它们创建输出。执行这些操作的设备通常称为'''逻辑门'''。
+
+* NOT - 接受一个输入并返回输入的相反值
+
+{| class="wikitable" border=1
+|-
+! 输入 A
+! NOT
+|-
+| 0
+| 1
+|-
+| 1
+| 0
+|}
+
+* AND - 接受两个输入，如果两个输入都为真则返回真
+* OR - 接受两个输入，如果至少一个输入为真则返回真
+* XOR - 接受两个输入，如果恰好一个输入为真则返回真
+* NAND - 接受两个输入，如果任一输入为假则返回真
+* NOR - 接受两个输入，如果两个输入都为假则返回真
+* XNOR - 接受两个输入，如果两个输入相同则返回真
+
+{| class="wikitable" border=1
+|-
+! 输入 A
+! 输入 B
+! AND
+! OR
+! XOR
+! NAND
+! NOR
+! NXOR
+|-
+| 0
+| 0
+| 0
+| 0
+| 0
+| 1
+| 1
+| 1
+|-
+| 0
+| 1
+| 0
+| 1
+| 1
+| 1
+| 0
+| 0
+|-
+| 1
+| 0
+| 0
+| 1
+| 1
+| 1
+| 0
+| 0
+|-
+| 1
+| 1
+| 1
+| 1
+| 0
+| 0
+| 0
+| 1
+|}
+
+最易于人类理解的逻辑系统需要NOT、AND和OR门，但只要有NAND或NOR门的设计就足以构建任何其他门。根据你的逻辑依赖的学科，某些门比其他门更容易创建或需要更少的组件。设计你需要的每个单独的门（或使用设计了每个单独门的设计），而不是用多个NAND门或类似物构建一个门，通常会导致你的矮人计算机反应更快并使用更少的资源（动力、水、小猫、建筑材料等）。
+
+=== 复杂门 ===
+* [[Latch|锁存器]] - 存储和读取单个二进制值
+* [[Repeater|中继器]] - 发送重复信号
+* [[Adder (Computing)|计数器/加法器]] - 二进制计算
+
+== 学科 ==
+矮人计算有四个主要学科，取决于什么驱动矮人计算机。每个都有其优点和缺点。
+
+四个学科是：
+=== 流体逻辑 ===
+[[Fluid logic|流体逻辑]]是控制流体在不同压力板上的''流动''。流体逻辑可以很容易地构建，矮人要塞中每个已知的逻辑门都已经用它构建了。另一方面，这个学科依赖于某种无限的所用流体来源来处理其[[evaporation|蒸发]]和[[Water#Water in Fortress Mode|破坏]]。
+
+=== 机械逻辑 ===
+[[Mechanical logic|机械逻辑]]使用轴系统和[[gear assembly|齿轮组件]]来构建逻辑门。机械逻辑反应非常快，并且可以轻松构建。由于每个齿轮本身都可以连接到触发器（或多个触发器），并且自动连接到相邻的齿轮以传输动力或负载，机械逻辑门非常灵活，不需要流体逻辑门中倾向于使用的大量不同设备。在消极方面，这个学科使用大量机械动力，基本机械门输出的不是信号而是动力。如果你需要信号作为输出，无论是控制信号操作的建筑（如门或桥）还是执行进一步的逻辑操作，你都需要动力->信号转换器。然而，有一个完全功能的流体保护"旋转传感器"设计。随着[[Minecart|矿车]]的出现，紧凑的无流体动力->信号转换器已经可用，使[[Minecart logic|矿车逻辑]]成为在要塞中部署机械逻辑的有吸引力的替代方案。结合构建逻辑门的高级技术，通过"预切换"齿轮组件（参见[[Pre-Toggled Mechanical Logic|预切换机械逻辑]]），任何逻辑电路都可以构建，只要游戏中有足够的空间来完成它。
+
+=== 生物逻辑 ===
+[[Creature logic|生物逻辑]]使用压力板和对生物通过建筑物（如门和[[hatch cover|舱门]]）的移动的限制，结合它们的[[path|寻路]]行为，来构建逻辑门。生物逻辑非常占用空间，但不需要动力、流体或贵重材料。每种类型的逻辑电路都可以用生物逻辑构建。
+
+[[Animal logic|动物逻辑]]是一种特殊的生物逻辑，依赖于动物试图穿过紧闭的门。动物逻辑电路可以比其他形式的生物逻辑更节省空间，但有些不可靠。
+
+=== 矿车逻辑 ===
+[[Minecart logic|矿车逻辑]]涉及控制[[minecart|矿车]]在压力板上的路径以构建逻辑门。矿车逻辑很容易与机械逻辑集成。动力，也许令人惊讶的是，是可选的。矿车逻辑是完整和紧凑的。它缺乏机械电路所具有的纯粹速度，但矿车电路设计对某些建筑师来说可能更简单和更直观。
+
+===逻辑门的应用示例===
+* 中继器：反复切换舱门开关，或尖刺上下移动。
+* 锁存器：制作可重置的一次性压力板，通过拉杆重置。
+* NOT门：反转开关或生物感应压力板的效果，通常连接到锁存器设备。
+* AND门：要求多个条件为真才能发生某事。例如，你可以有一组AND门，带有系统开/关开关和其他触发器，每个触发器连接到不同的AND门，系统开/关开关连接到所有AND门的第二个输入，这样当系统开/关开关关闭时，所有AND门的输出都将关闭。
+* OR门：你可以将两个1-7水传感器连接到OR门，并将其连接到NOT门，并将其连接到一些充当紧急隔板的水闸或门，当在该区域检测到水时关闭。或者，将OR门连接到升起的桥（但你可能会压碎东西，桥比门慢）。
+* XOR门：你可以使用连接到要塞不同点的锁存器的压力板来检测敌人入侵，并设置它们在发生入侵时用内部和外部隔板封锁该区域，但用XOR门连接你的锁存器，并将输出连接到内部隔板，如果你的压力板检测到敌人已经通过它，则解除密封。
+* NOR门：NOR门仅在两个输入都为FALSE时返回TRUE（ON）。你可以使用连接到两个1-7水传感器的NOR门，而不是使用带有NOT门的OR门，其输出连接到门或水闸。当压力板都没有水时，水闸将打开。当一个检测到水时，水闸关闭。（如果你使用0-0压力板和OR，如果两个板都检测到水，你会得到OFF信号，否则得到ON信号（这与1-7 NAND 1-7相同））
+* NAND门：NAND门在两个输入不都为TRUE时返回TRUE（ON）（例如ON NAND ON是OFF，但其他每个组合都是ON）。你可以将两个0-0水传感器连接到NAND门，而不是OR NOT或NOR示例，并将NAND门的输出连接到升起的桥。0-0 NAND 0-0与1-7 OR 1-7相同。如果两个压力板上都没有水，NAND门将输出OFF信号。然而，如果任一有水，它将输出ON信号。
+
+* 这里有一个更复杂的例子，省略了使用什么门的细节：一个自动游泳训练室，你拉动拉杆关闭出口门并打开舱门将水滴入其中，然后压力板检测到有足够的水时关闭舱门，经过一定时间后（例如使用非常慢的中继器），排水口和出口门打开，系统重置，直到你再次拉动拉杆。或者，可以完全取消拉杆，使系统完全自动化（例如，矮人设置为在房间里训练），使用中继器。
+
+== 示例 ==
+有一些真正有用的矮人计算机的例子和一些有可能对其他人有用的概念。但在大多数情况下，它们只是为了好玩而制作的。这并不是要贬低其设计者的成就，因为这些通常是更复杂的。目前还没有已知的动物或矮人逻辑的例子。
+=== 有用的 ===
+* 岩浆陷阱
+** 这是一个控制岩浆陷阱的有用矮人计算机的例子。它自动用熔岩淹没一个区域，然后清理并重置。时间完美调整，让受害者消失，只留下他们的贵重金属
+*** 视频：http://mkv25.net/dfma/movie-1808-perfectmagmatrap
+*** 设计：http://i576.photobucket.com/albums/ss208/kanddak/magmatrap.png
+
+=== 概念 ===
+* 中继器
+** 机械逻辑 http://mkv25.net/dfma/movie-1370-pump-basedautorepeater
+* 加法机
+** 机械逻辑，6位：http://mkv25.net/dfma/movie-1561-addingmachine
+** 流体逻辑，8位：http://mkv25.net/dfma/movie-1084-numberabbeydemonstration
+[[File:Armoc Invaders intro.png|thumb|right|200px|''[[User:BaronW#Armok_Invaders|Armok Invaders]]，一个可玩游戏'']]
+=== 小菜一碟 ===
+* 4位二进制输入的十进制显示
+** 机械逻辑，带溢出位的十进制：http://mkv25.net/dfma/movie-1745-dwarfputerv01
+** 可能是流体逻辑：http://mkv25.net/dfma/movie-1657-7segmentlcddisplay
+** 流体逻辑，十六进制：http://mkv25.net/dfma/movie-1092-7-segmentdisplaydemonstration
+* 井字游戏
+** 机械逻辑 http://mkv25.net/dfma/movie-1813-tictactoev10simple
+* Armok Invaders
+** 机械和矿车逻辑：https://www.youtube.com/watch?v=j2cMHwo3nAU
+
+== 相关用户页面 ==
+*[[User:BaronW]] - The Almighty Dwarven Calculator and Armok Invaders
+*[[User:Jong/Dwarven_Computer]] - The first fully programmable digital Dwarven Computer
+*[[User:SL/Logic Gates]] - These use mechanisms for connecting gates and devices and so forth, but fluid for logic. They're built on top of a body of water, and require power (for a pump or two per gate).
+*[[User:Kyace/Adder]] - A full adder built using fluid logic, with a video of a rough prototype. Trivial to combine 8 of these to make a fluid device capable of adding two 8 bit numbers together.
+*[[User:Soundandfury#Logic_Gates]] - These have a water supply reservoir above and a drain below.  The drained water can be pumped back into the supply reservoir.
+*[[User:Bidok]] - Animal logic with all gates, memory, repeater and counter. All powered by kittens.
+*[[User:LordOOTFD#Animal_Logic]] - Animal logic with fast complex gates, building upon Bidok's kitten-powered systems.
+*[[User:Hussell#Assorted_Devices]] - Fluid logic
+*[[User:Gammon]] - Fluid logic. Very detailed CMOS gates.
+*[[User:Root Infinity]] - Misc. logic gates.
+*[[User:Vasiln/Goblin Logic 1]] - Theory and practice of invader-based creature logic.
+*[[User:Larix]] - Various engineering projects, including the second fully programmable Dwarven Computer (arguably the first capable of autonomous execution) and a thorough treatment of logic based on moving minecarts.
+*[[User:Gnidan]] - Minecart routing system, to move goods point-to-point using shared track
+{{Category|Computing}}
+[[ru:Computing]]

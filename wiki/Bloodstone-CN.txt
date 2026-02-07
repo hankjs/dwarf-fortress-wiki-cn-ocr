@@ -1,0 +1,19 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_bloodstone_sprite.png
+|graphic2=rough_bloodstone_sprite.png
+|wiki=Heliotrope (mineral)}}
+{{av}}
+
+'''血石'''是在[[sedimentary layer|沉积层]]中以小簇形式发现的不起眼的[[Gem#Value|低价值]][[gem|宝石]]。与其名称所暗示的相反，血石是绿色而不是红色。在现实世界中，血石（也称为日光石）是一种玉髓，因其类似血斑的红色氧化铁内含物而得名。
+
+[[File:Bloodstone gems stone.jpg|center|thumb|300px|血石。]]
+
+{{Translation| dwarven = nazush-lam | elvish = cameda-queca | goblin = ogom-ngomstu | human = cadem-ado}}
+
+{{D for Dwarf}}
+送给矮人父亲的常见恶作剧礼物是一个小的（血石 血液 桶（松木））用于他们的办公桌。当访客阅读标签并呻吟时，他们很喜欢。
+
+
+{{gamedata}}
+{{gems}}

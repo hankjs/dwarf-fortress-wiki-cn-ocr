@@ -1,0 +1,15 @@
+{{Quality|fine}}
+{{verminlookup/0
+|image=cockatiel_sprite.png
+|portrait=cockatiel_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''玄凤鹦鹉'''是一种栖息于[[desert|沙漠]]和[[temperate|温带]][[grassland|草原]]的[[above ground|地上]][[vermin|害虫]]。它们可以被[[animal trap|动物陷阱]]捕获并变成[[pet|宠物]]。所有玄凤鹦鹉都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]玄凤鹦鹉，因为它们的''冠羽''。
+
+[[File:Cockatielmale.jpg|thumb|300px|center|因其''冠羽''而受赞赏。]]
+
+{{gamedata}}
+{{vermin}}

@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{av}}
+
+{{DFtext|Dwarf cancels task: Could not find path.}}
+
+此消息显然意味着相关矮人无法找到到达任务目的地的路径。这可能是由关闭和禁止的[[door|门]]、[[floodgate|水闸]]、升起或缩回的[[drawbridge|吊桥]]，或任何其他物理障碍物或地形相关的性质造成的，例如墙壁或水。
+
+{{Category|Errors}}
+{{Errors FAQ}}
+[[ru:Dwarf_cancels_task:_Could_not_find_path]]

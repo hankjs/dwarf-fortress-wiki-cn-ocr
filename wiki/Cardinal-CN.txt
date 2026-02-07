@@ -1,0 +1,20 @@
+{{Quality|fine}}
+{{verminlookup/0
+|image=cardinal_sprite.png
+|portrait=cardinal_portrait.png
+|wiki=Cardinal_(bird)}}
+{{av}}
+{{creaturedesc}}
+
+'''红雀'''是在任何有[[tree|树木]]的[[temperate|温带]]区域发现的一种[[vermin|害虫]]。它们可以用[[animal trap|动物陷阱]]捕获并变成[[pet|宠物]]。所有红雀都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人因为红雀的''色彩''而[[Preferences|喜欢]]它们。
+
+[[File:Northern Cardinal 01.jpg|thumb|center|400px|因其''色彩''而受到赞赏。]]
+
+{{D for Dwarf}}
+红雀是以其愤怒脾气和对[[pig|猪]]的深仇大恨而闻名的[[building destroyer|建筑破坏者]]，当猪的数量足够多时，它们会对你的要塞发起[[siege|围攻]]。
+
+
+{{gamedata}}
+{{vermin}}

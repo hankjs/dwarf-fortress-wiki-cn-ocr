@@ -1,0 +1,34 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=blind_cave_ogre_sprites.png
+|portrait=blind_cave_ogre_portrait.png
+|wiki=no
+|contrib=no
+|death=nobutcher
+}}
+{{av}}
+{{Distinguish|Ogre}}
+{{creaturedesc}}
+
+'''盲眼洞穴食人魔'''是在深层[[caverns|洞穴]]中发现的巨大、暴力的类人生物。它们极具攻击性，会兴高采烈地[[Building destroyer|摧毁]]它们与你的[[dwarves|矮人]]之间除了[[wall|墙壁]]或[[fortification|防御工事]]以外的任何东西。盲眼洞穴食人魔会以一到三个热衷于制造混乱的个体为一组到达你的要塞，尽管它们"盲眼"，但它们有{{token|EXTRAVISION|c}}，因此完全能够感知到你的[[door|门]]在哪里。令人难以置信的是，它们能够[[swim|游泳]]。
+
+你'''不'''想低估这些怪物。它们几乎和[[giant|巨人]]一样大，明显大于[[elephant|大象]]，甚至可以轻易在单人战斗中杀死最老练的战士矮人。如果可能，用[[trap|陷阱]]、[[crossbow|弩]]和大量人数对付它们。盲眼洞穴食人魔的破坏倾向可以被用来对付它。如果你想捕获一个用于[[stupid dwarf trick|狡猾的计划]]，在守卫你主要要塞的狭窄通道中放置一些笼子陷阱，食人魔很快就会被抓住。此外，已知它们会从尸体上装备武器和盔甲。一个有武器和盔甲的食人魔比没有的要致命得多。
+
+盲眼洞穴食人魔拥有500的[[pet|宠物]]价值，但缺乏必要的标签来[[Animal trainer|训练]]（即使修改为可训练，它们是智能生物这一事实也会导致[[Animal trainer#Taming_intelligent_creatures|奇怪的行为]]）。它们足够聪明，矮人拒绝屠宰它们，并且能够以文明生物的一半速度学习[[skill|技能]]，尽管它们不能说话。它们无法在[[object testing arena|物体测试场]]中生成。
+
+尽管是盲眼的，它们仍然可以"看到"或"感知"附近的尸体。{{cite|1|https://www.reddit.com/r/dwarffortress/comments/zsl5eu/now_hold_on_just_a_minute/}}
+一些矮人因其''回响的嚎叫''而[[Preferences|喜欢]]盲眼洞穴食人魔。
+
+{{D for Dwarf}}
+盲眼洞穴食人魔喜欢在残忍地粉碎受害者的同时更新他们的时尚。它们可以从你刚被粉碎的矮人身上抓取武器，但更多时候，它们会抓取一只时髦的手套或一条裤子。然后，穿着新的行头，它们开始更加凶残地殴打受害者。有时这些时髦的食人魔会享受殴打一个残废的矮人数月，让你的其他矮人相对平静。至少直到它们的玩物死亡。
+
+==画廊==
+<gallery widths="300px" heights="300px">
+File:blind_cave_ogre_preview.jpg|''Arne的艺术作品。''
+File:Notebook_08_BlindCaveOgre.jpg|"巨大的双趾盲眼[[troll|巨魔]]怪物。"用于比例的[[Dwarf|矮人]]。<br>''Bay 12 Games的概念艺术。''
+File:Blind cave ogre sprites old.png|[[Release_information/53.04|53.04]]之前的精灵图。
+</gallery>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

@@ -1,0 +1,26 @@
+{{Quality|Unrated}}
+{{av}}
+{{v50_skill
+| color      = 2:0
+| graphic    = [[File:green_sprite_icon.png]]
+| graphicmargin = 106px
+| skill      = Animal Caretaker
+| profession = [[Ranger]]
+| job name   = [[Animal care]]
+| attributes =
+* Agility
+* Analytical Ability
+* Memory
+* Empathy
+}}
+{{Buggy|withoutbugsection=1}}
+
+'''动物护理'''''应该是''[[dwarves|矮人]]用来治疗任何分配给他们的受伤[[pet|宠物]]的[[skill|技能]]（只要他们启用了[[labor|劳动]]），以及喂养链锁上的任何饥饿/口渴的动物（默认情况下，仅限食草动物）。
+
+然而，目前第一部分对动物无效（见下文），但矮人可以在世界生成期间获得该技能的经验，导致动物护理员出现在[[migrant|移民]]浪潮中。第二部分，喂养链锁的食草动物，不提供经验，但可以满足"保持忙碌"和"帮助某人"的[[need|需求]]。请注意，矮人不会喂养松散（储存在）笼子里的动物，但会喂养建造的笼子里的动物（如果食物有种子，种子将留在笼子里；只能通过倾倒移除）。
+
+兽医是一个预期的功能，尚未实施到游戏中，因此动物护理目前还没有真正发挥其医疗保健目的。{{bug|349}} 受伤的动物将自行愈合 - 或者根本不愈合，这使得即使是你最伟大的动物护理员也相当于[[peasant|农民]]。动物护理[http://www.bay12forums.com/smf/index.php?msg=7312290 不计划在近期实施]，因此，在移民浪潮中到达的动物护理员应该立即重新分配到其他实际有用的职业。
+
+虽然在原版游戏中无法使用，但实用工具[[Utility:DFHack|DFHack]]可以通过{{DFtext|dwarfvet enable|white}}命令使动物护理工作；当插件激活时，受伤的宠物将在任何标记为'''医院和训练区'''的[[activity zone|活动区域]]休息，矮人将在那里为它们提供必要的护理。如果需要，可以使用{{DFtext|dwarfvet disable|white}}命令禁用该插件。
+
+{{skills}}

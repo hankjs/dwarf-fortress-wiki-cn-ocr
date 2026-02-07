@@ -1,0 +1,34 @@
+{{Quality|Exceptional}}
+{{v50_skill
+| color      = 6:1
+| graphic    = [[File:carpenter_sprite_icon.png]]
+| graphicmargin = 107px
+| skill      = Carpenter
+| profession = [[Woodworker]]
+| job name   = [[Carpentry]]
+| tasks      =
+* 木质[[construction|建筑]]
+* 木匠工坊的任何工作（除了[[Animal trap|陷阱]]）
+| workshop = * [[Carpenter's workshop|木匠工坊]]
+| attributes =
+* 力量
+* 敏捷
+* 创造力
+* 空间感
+* 动觉感
+}}
+{{av}}
+'''木匠'''使用[[wood|木材]]制作物品。他们建造[[bed|床]]、[[bin|箱子]]、[[barrel|桶]]和各种其他[[furniture|家具]]，以及木制[[training weapon|训练武器]]、[[shield|盾牌]]和[[buckler|圆盾]]，还有5种标准[[trap component|陷阱部件]]中的3种。木匠的技能等级影响其工作速度和[[quality|质量]]。在图形模式下，木匠会穿着黄色束腰外衣。
+
+木匠还负责建造某些用木材、木块或[[soap|肥皂]]棒设计的建筑物。这些建筑包括[[trade depot|贸易站]]、[[bridge|桥梁]]和[[well|水井]]，它们的建造质量和价值受木匠技能的影响。
+
+要雇用木匠，在[[carpenter's workshop|木匠工坊]]创建任务。
+
+建议你的[[embark|出征]]矮人中至少有一个具有木匠技能 - [[bed|床]]、[[bin|箱子]]和[[cage|笼子]]是典型的早期必需品。
+
+== 冒险模式 ==
+{{migrated section}}
+木匠技能在[[adventurer mode|冒险模式]]中也可用。要在木匠工坊进行木工工作，按{{k|x}}，然后在{{k|c}}制作菜单中选择第一个选项即为木工。
+[[File:dwarf_builder.jpg|thumb|230px|center|造床的速度赶不上移民到来的速度。<br><small>''Art by RDMP''</small>]]
+
+{{Skills}}

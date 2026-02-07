@@ -1,0 +1,1502 @@
+{{migrated article}}
+{{Quality|Superior}}
+{{av}}
+:''本文包含高级世界生成的信息。有关基础世界生成的信息，请参见[[World generation]]。'' ''参见[[World token]]以通过world_gen.txt文件中使用的名称更轻松地查找信息，[[World rejection]]以了解解决与世界总是被拒绝相关的问题的信息，以及[[Worldgen examples]]以查看示例世界。''
+
+[[File:adv_worldgen_v50.png|thumb|400px|right|高级世界生成界面。<br><small>''(点击放大)''</small>]]'''高级世界生成'''，也被标记为'''详细模式'''，允许比标准基础世界生成更多面向细节的自定义选项。这使玩家对世界的生成方式有了更多的控制。为了更好地理解本文，建议首先阅读关于[[World generation|'''基础世界生成''']]的内容。
+
+高级世界生成界面通过在主菜单点击"Create new world"，然后点击"Detailed mode"进入。在该界面上，点击"Basic options"将使用户返回到标准世界生成界面。
+
+== 参数集 ==
+''Dwarf Fortress''中硬编码了多个默认的高级世界生成参数集，如果存在<tt>prefs/world_gen.txt</tt>文件，这些默认值将被该文件覆盖。该文件默认不存在，你必须创建它，可以通过保存默认集，或从[[world_gen.txt]] wiki页面或其他地方保存副本。然后可以使用文本编辑器编辑此文件，并且可以将其他玩家的参数集复制粘贴到其中。有关此类参数集的来源，请参见下面的[[Advanced_world_generation#Parameter_set_examples|参数集示例]]。
+
+要恢复默认集，请将现有的<tt>prefs/world_gen.txt</tt>移动到其他位置（如Documents），或者如果不想保留更改，可以删除它，然后在游戏中加载这些集合，它将使用硬编码的默认值。
+
+== 用户界面 ==
+首先，屏幕顶部有一行文本输入和按钮，从左到右：
+* 当前定义的参数集的下拉菜单，点击向下箭头选择要使用的集合。可以通过点击当前名称或[[File:Quill.png]]按钮来重命名当前选择的集合。文件中的第一个集合默认被选中，通常是"LARGE ISLAND"。参见[[#Parameter set title|参数集标题]]。
+* 所选集合的世界尺寸，参见[[#World dimensions|世界尺寸]]。
+* 一个文本输入框，用于将所有种子选项设置为相同的种子，将显示"Random seed"、"Various seeds"，或者如果所有四个种子都设置为使用相同的值，则显示该值。参见[[Advanced_world_generation#Seed_values|种子值]]和[[Advanced_world_generation#Seed_values|种子注释]]。
+* 复制按钮，用于复制当前选择的集合并将其附加到列表底部。
+* 红色删除按钮，用于删除当前选择的集合，系统会提示确认删除。
+* 新参数集，用于创建新参数集并将其附加到列表底部。这似乎只是复制默认的"LARGE REGION"集合。
+* 保存按钮，用于将所有当前集合保存到<tt>prefs/world_gen.txt</tt>文件。
+* 加载按钮，用于从同一文件加载，没有确认提示，'''任何未保存的更改都将丢失'''。如果该文件不存在，这将把所有集合重置为默认值。
+
+
+中间的大部分是参数本身，右侧有一个滚动条。列表的每一行可以包括：
+* 选项的名称
+* 接受的值范围；并非每个选项都有此项，并且不总是与显示的值匹配，例如"0 to 1"可能显示为"No"和"Yes"。
+:* 有时范围可能最初不会显示在应该显示的行上，使用加载按钮重新加载集合有时可以解决此问题。{{bug|13176}}
+* 一个加号按钮，用于增加值或循环选项（如果适用）（如果范围缺失，此按钮将不存在）。
+* 当前值；可以点击进行编辑，要实际设置值，必须按{{k|enter}}，如果不这样做，点击另一个输入框或右键单击将重置为当前设置的值。
+* 一个编辑按钮，表示前一个框可编辑，与点击文本框相同。
+* 一个减号按钮，用于减少值或循环选项（如果适用）（如果范围缺失，此按钮将不存在）。
+* 一个红色按钮，用于禁用此参数（如果适用），通常将值设置为0或-1。
+
+{{notice bar|bgcolor=#faa|bordercolor=#f00|以下所有按钮都会离开此界面，并且不会提示保存集合，因此未保存的更改可能会丢失。}}
+右下角还有3或4个按钮：
+* 创建世界按钮，使用当前选择的集合创建世界，'''未保存的更改将丢失'''。
+* 基本选项按钮，返回到正常的世界生成界面，如果直接返回详细模式，未保存的更改不会丢失。
+* [[Mods]]按钮，进入mod选择界面，如果直接返回详细模式，未保存的更改不会丢失。仅在有可用mod时显示。
+* 返回主菜单按钮，返回主菜单，'''未保存的更改将丢失'''。
+
+=== 世界画家 ===
+:''主文章：[[World painter]]
+'''世界画家'''工具不在当前版本的''Dwarf Fortress''中；它允许你在地图上绘制特征。'''但是'''，通过将旧版本中创建的世界画家参数集地图粘贴到<tt>prefs/world_gen.txt</tt>文件中，这些地图在生成世界时仍然可以使用。[[Utilities#Perfect_World_DF|Perfect World DF]]是一个使用与世界画家相同参数功能来绘制地图的实用程序，它也可以与当前版本的''Dwarf Fortress''一起使用。
+
+== 生成世界 ==
+你可以使用已定义的参数集，或者可以编辑它们，尽管强烈建议编辑默认参数集之一的副本。一旦你对参数感到满意，应该在点击创建世界按钮之前保存刚刚编辑的值。下面记录了每个参数的信息。
+
+世界生成过程的阶段如下（此顺序不完全正确）：
+* 准备海拔...
+* 设置温度...
+* 运行河流...
+* 形成湖泊和矿物...
+* 生长植被...
+* 验证地形...
+* 导入野生动物...
+* 重新计算传说...
+* 放置文明...
+* 制作洞穴文明...
+* 制作洞穴人口...
+* 放置其他野兽...
+* 放置巨兽...
+* 放置善/恶...
+* 放置洞穴...
+* 史前生成
+* 完成文明材料...
+* 完成艺术...
+* 完成制服...
+* 完成遗址...
+
+== 种子注释 ==
+世界生成过程使用PRNG（伪随机数生成器）算法。PRNG会产生一个"看起来"随机的数字序列，即使实际的数字序列在PRNG以相同的种子值启动时总是相同的。基本上，这意味着如果你在计算机上使用特定的种子值运行世界生成，而其他人在他们的计算机上使用相同的种子值运行世界生成，两台计算机上将生成相同的随机数序列。这样做的实际影响是，其他人可以通过输入你使用的相同种子值来生成与你生成的完全相同的世界。
+
+在当前版本中，世界本身和名称的种子值似乎产生相同的结果，但你会在事件中得到变化，这将导致非常不同的世界历史。{{bug|6934}}如果你想重新生成特定世界，请记住这一点。
+
+世界的生成方式也可能受到某些世界标记的影响。更改它们会导致该代码使用更多或更少的PRNG值，从而导致以后的使用获得序列的不同部分。因此，例如，你不能更改最小和最大降雨量并获得"相同的世界但更干或更湿"，而是会生成不同的世界。也就是说，似乎对这些世界标记的某些小改动偶尔也可以生成非常相似的世界，但是，其他标记更敏感。有关更多信息，请参见论坛帖子[http://www.bay12forums.com/smf/index.php?topic=112132.msg3404199#msg3404199 这里]。
+
+以下是使用PRNG值的标记，更改它们可能会导致更广泛的变化：
+
+* [DIM:X:X]
+* [ELEVATION:X:X:X:X]
+* [RAINFALL:X:X:X:X]
+* [TEMPERATURE:X:X:X:X]
+* [DRAINAGE:X:X:X:X]
+* [VOLCANISM:X:X:X:X]
+* [SAVAGERY:X:X:X:X]
+* [ELEVATION_FREQUENCY:X:X:X:X:X:X]
+* [RAIN_FREQUENCY:X:X:X:X:X:X]
+* [DRAINAGE_FREQUENCY:X:X:X:X:X:X]
+* [TEMPERATURE_FREQUENCY:X:X:X:X:X:X]
+* [SAVAGERY_FREQUENCY:X:X:X:X:X:X]
+* [VOLCANISM_FREQUENCY:X:X:X:X:X:X]
+* [PARTIAL_OCEAN_EDGE_MIN:X]
+* [COMPLETE_OCEAN_EDGE_MIN:X]
+* [HAVE_BOTTOM_LAYER_1:X]
+* [MINERAL_SCARCITY:X] {{cite talk/this|Mineral scarcity}}
+
+然而，许多其他世界参数，如结束年份和出发点数，可以在不对从种子值生成的世界地理产生任何影响的情况下进行更改。
+
+通常，你不需要输入这些种子值，游戏会根据当前日期和时间等其他类型的伪随机信息提供值。
+
+生成世界时，''Dwarf Fortress''会在[[gamelog.txt]]中记录它使用的种子。
+
+== 高级参数 ==
+基本上有4种类型的地表地图生成控制：
+
+'''地形参数'''：如下所述，这5个变量定义了基本的背景世界，它有多热或多冷，降雨量有多少，山脉有多高。世界会沿Y轴自动经历温度范围，尽管有时北方会更热，有时南方会更热，或者两端都冷。最小值、最大值和X、Y变化可以极大地改变世界。
+
+'''加权网格'''：这是一种微调地图上5个基本变量数量的方法。例如，它们可用于设置不同海拔或降雨区域的特定分布。
+
+'''特征参数'''：如河流、山峰、火山和海洋，如果地形参数不允许有足够的合适位置来放置特征，可能会导致拒绝。
+
+'''拒绝参数'''：''Dwarf Fortress''在世界生成中使用"双保险"方法。上述控制允许你塑造世界，然后拒绝参数会在不符合特定标准时将其丢弃。对于5个基本变量的数量和程度、生物群系类型等，有许多拒绝参数。如果世界不满足任何一个拒绝参数的要求，世界将被拒绝并重新随机化。另请参见[[World rejection]]。
+
+在<tt>world_gen.txt</tt>中省略集合中的标记将导致游戏使用未针对较小世界大小调整的默认值，这可能会导致较小的世界总是被拒绝。
+
+如果你正在进行世界设计实验，还有一个[[Settings#Feature_toggles|游戏设置]]可以将拒绝原因记录到``[[map_rejection_log.txt]]``。有了该信息，你就可以调整拒绝参数以允许这些世界，或调整其他参数以防止它们尝试生成。''Dwarf Fortress''会不断添加到文件中，因此你可能需要偶尔修剪或删除它。
+
+下面的参数按照它们在游戏列表中出现的顺序描述，这不一定是它们在<tt>world_gen.txt</tt>中出现的顺序。有关按标记名称查找的索引，请参见[[world token]]。<tt>world_gen.txt</tt>中使用的标记位于以下每个参数描述的底部。
+
+=== 参数集标题 ===
+这设置参数集本身的名称，如集合列表中使用的（这与生成的世界的名称无关）。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[TITLE:<name>]</nowiki></tt>
+| <tt><nowiki>[TITLE:MEDIUM ISLAND]</nowiki></tt>
+| 必需
+|}
+
+=== 世界尺寸 ===
+可以通过更改集合标题旁边顶部的宽度和高度值来更改当前集合的地图大小。你需要确认这一点，因为更改世界的尺寸会更改其他参数，因为许多参数根据可用的表面积具有不同的默认值。
+
+较大的地图通常需要更长的时间来生成，并且可能会降低游戏内的[[Frames per second|FPS]]，尽管这实际上是因为较大的世界通常有更多的文明、遗址、历史人物和事件；限制这些数量可以加快过程。非正方形地图可能会导致崩溃{{bug|2928}}。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[DIM:<width>:<height>]</nowiki></tt>
+| <tt><nowiki>[DIM:257:257]</nowiki></tt>
+| 有效值为17、33、65、129和257，其他值将使用其中之一。在不调整其他参数的情况下在文件中更改大小可能会导致许多拒绝。
+|}
+
+=== 种子值 ===
+启用并指定世界生成过程不同部分的种子值。仅输入特定种子不会启用它，必须单独启用，尽管使用顶部的框将所有种子设置为相同的值会启用它们。启用种子会使用文本框中的任何内容放入标记。如果启用种子但不输入种子，将使用字符串"Seed text"（<tt><nowiki>[SEED:Seed text]</nowiki></tt>）。尝试在文件的字符串中使用<tt><nowiki>]</nowiki></tt>将在那里结束种子，因为它会关闭标记，之后的任何文本都将被忽略。通常，只需将这些设置为随机，除非尝试重现以前世界生成的结果。另请参见上面的[[Advanced_world_generation#Seed_notes|种子注释]]部分。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SEED:<text>]</nowiki></tt>
+| <tt><nowiki>[SEED:31337]</nowiki></tt>
+| rowspan="4" |
+对于配置文件中不存在的每一个，将使用随机种子，并且第一个种子不用于生成其他种子。使用的种子在世界生成开始时输出到[[gamelog.txt]]。
+|-
+| <tt><nowiki>[HISTORY_SEED:<text>]</nowiki></tt>
+| <tt><nowiki>[HISTORY_SEED:31337]</nowiki></tt>
+|-
+| <tt><nowiki>[NAME_SEED:<text>]</nowiki></tt>
+| <tt><nowiki>[NAME_SEED:31337]</nowiki></tt>
+|-
+| <tt><nowiki>[CREATURE_SEED:<text>]</nowiki></tt>
+| <tt><nowiki>[CREATURE_SEED:31337]</nowiki></tt>
+|}
+
+=== 世界名称 ===
+如前所述，参数集的标题不影响世界的名称。你可以为你的世界指定一个特定的名称，或者留空以获得随机名称。（[[DFHack]]实用程序添加了使用游戏内语言重命名世界的选项。）
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CUSTOM_NAME:<name>]</nowiki></tt>
+| <tt><nowiki>[CUSTOM_NAME:Realm of Cheese Engravings]</nowiki></tt>
+| 对于随机名称，只需不使用此标记。
+|}
+
+=== 出发点数 ===
+在要塞模式下出发时装备和动物的点数（冒险模式没有等效设置）。通常，默认值1504就可以了，但可以增加用于各种目的，如实验或帮助矮人在特别邪恶的世界中生存，或减少用于某些[[challenges|挑战]]。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[EMBARK_POINTS:<number>]</nowiki></tt>
+| <tt><nowiki>[EMBARK_POINTS:1504]</nowiki></tt>
+| 0到10,000
+|}
+
+=== 结束年份 ===
+为世界生成的最大年数，尽管在第二年之后的任何时候都可以暂停生成并按原样使用世界；与基础世界生成中的[[World_generation#History|历史]]参数相同，只是你可以输入确切的值。历史太短可能会限制文明可用的材料，并且[[Chosen|某些冒险模式特性]]仅在某些遗址事件之后才可用，而历史太长通常会导致文明死亡。
+
+有关游戏历史方面的更多信息，请参见[[Legends]]和[[Calendar#Ages|纪元]]。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[END_YEAR:<number>]</nowiki></tt>
+| <tt><nowiki>[END_YEAR:250]</nowiki></tt>
+| 2到10,000
+|}
+
+=== 文明创建后的人口上限 ===
+对生成期间所有文明中同时存活的[[historical figure|历史人物]]总数的软限制，仅防止新历史人物的出生。{{cite forum|140544/5701667}}每个文明根据其控制的遗址百分比分配总数的百分比。{{cite forum|159164/7553641}}文明也有非历史人口，并且没有设置来限制这些人口（在早期版本中，所有文明成员都是历史人物，这也是此设置名称具有误导性的原因）。每个[[entity|实体]]的原始定义中也有限制，请参见[[Entity_token#Population|人口]]实体标记，将此设置为无限制不会删除这些限制。
+
+巨大的历史人物人口会减慢生成和游戏的速度。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[TOTAL_CIV_POPULATION:<number>]</nowiki></tt>
+| <tt><nowiki>[TOTAL_CIV_POPULATION:15000]</nowiki></tt>
+| -1到100,000，-1表示无限制
+|}
+
+=== 文明创建后的遗址上限 ===
+所有文明合计可以直接创建的[[site|遗址]]总数，如[[hillocks|小丘]]、[[hamlet|村庄]]、[[dark pits|黑暗深坑]]、[[forest retreat|森林隐居地]]等。不会阻止初始文明遗址的放置，但它们随后会计入限制。不影响生物遗址，如[[cave|洞穴]]或[[lair|巢穴]]，团体遗址如[[castle|城堡]]、[[monastery|修道院]]、[[tower_(necromancy)|塔楼]]、[[fort|堡垒]]或[[camp|营地]]，或无人遗址如[[tomb|坟墓]]。达到此限制后，任何文明都无法放置新遗址。有关可以限制文明遗址放置的其他方式，请参见[[Entity_token#Placement|放置]]实体标记。
+
+增加此值将减慢生成速度并减少玩家遗址的可用位置。由于{{token|MAX_SITE_POP_NUMBER|entity}}实体标记限制每个遗址的历史人物人口，此遗址上限也可以限制所有文明合计的历史人物总人口，并且某些文明的扩张速度比其他文明快，在达到限制之前获得更多遗址。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SITE_CAP:<number>]</nowiki></tt>
+| <tt><nowiki>[SITE_CAP:1500]</nowiki></tt>
+| -1到100,000，-1表示无限制
+|}
+
+=== 野兽控制 ===
+
+这些参数通常不太重要，但对于少量野兽可能很重要。
+
+==== 巨兽和泰坦死亡以停止的百分比 ====
+
+世界开始时存在一定数量的强大巨兽和泰坦实体。如果在历史生成期间巨兽和泰坦人口的一定百分比死亡，那么历史生成将提前停止。例如，如果消灭值为80%，并且生成的历史以200个实体开始，在达到结束年份之前，历史事件消灭了这200个实体中的160个，历史生成将立即停止。
+
+如果你想在某个纪元开始时结束世界的创建，请选择以下值：
+* 传奇纪元：~34%
+* 英雄纪元：~67%
+如果你的世界中有三个或更少的泰坦或巨兽，该纪元将被赋予反映剩余巨兽/泰坦的特殊名称。
+
+==== 开始检查巨兽百分比的年份 ====
+
+在历史生成中达到此年份之前，不会检查停止的死亡[[megabeast|巨兽]]和[[titan|泰坦]]百分比。这可用于确保即使世界中的所有巨兽在更早时被杀死，世界也能达到某个年份。
+
+如果活着的[[megabeast|巨兽]]和[[titan|泰坦]]的数量开始时或降至少于四个，那么如果当前年份等于或大于开始检查巨兽百分比的年份，世界生成将始终停止，''无论''有多少[[megabeast|巨兽]]和[[titan|泰坦]]死亡——停止的巨兽和泰坦死亡百分比将被忽略。世界开始时的巨兽和泰坦数量由[[Advanced_world_generation#Max_Megabeasts_Caves|最大巨兽洞穴]]和[[Advanced_world_generation#Titan_Parameters|泰坦数量]]参数之和设置。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[BEAST_END_YEAR:<year>:<percentage or -1>]</nowiki></tt>
+| <tt><nowiki>[BEAST_END_YEAR:200:80]</nowiki></tt>
+| 使用-1作为百分比来禁用。年份仍必须至少为2。
+|}
+
+=== 剔除不重要的历史人物 ===
+{{main|Historical figure}}
+是否在历史生成后删除不重要的死亡历史人物；这是一个短暂的CPU密集型步骤，但可以节省空间，从而加快加载、保存和运行具有大量历史的游戏的速度。传奇模式将剔除的生物称为"未知生物"，它们不会出现在雕刻中，但无论如何可能也不会出现。
+
+确切地说什么被认为是重要的尚不清楚。抽象团体的成员杀死命名生物不是。创建神器不是，即使该神器有重要的历史也不是。<!--52.05, silver war hammer created and claimed as family heirloom by an unknown creature in a dwarven fortress that later breached, named demon killed 55 with it, including 9 histfigs. If it were just a normal war hammer that got named, it would say that, not created and claimed.-->未剔除的历史人物可以将父母身份描述为"The identity of"该父母"has been lost to time"，因此仅仅有孩子不是，尽管有活着的直系亲属似乎可以防止剔除。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CULL_HISTORICAL_FIGURES:<0 or 1>]</nowiki></tt>
+| <tt><nowiki>[CULL_HISTORICAL_FIGURES:0]</nowiki></tt>
+| 0 = 否，1 = 是
+|}
+
+=== 揭示所有历史事件 ===
+
+将此设置为是将允许访问[[Legends mode|传奇模式]]中有关世界历史的大部分信息。所有事件都将被揭示，但某些[[historical figure|历史人物]]、[[site|遗址]]、[[region|区域]]和[[civilization|文明]]及其他实体可能不会被揭示，可能是因为它们不为任何文明所知。如果设置为否，那么你将不得不在[[adventure mode|冒险模式]]中发现历史信息或指示矮人制作雕刻。{{Verify}}
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[REVEAL_ALL_HISTORY:<0 or 1>]</nowiki></tt>
+| <tt><nowiki>[REVEAL_ALL_HISTORY::1]</nowiki></tt>
+| 0 = 否，1 = 是
+|}
+
+=== 地形参数 ===
+
+这些设置地形海拔、降雨、温度、排水、火山活动和野蛮程度的限制和变化，决定如何生成这些值。然后，当这些因素彼此重叠时，确定存在哪些生物群系。
+
+==== 最小值和最大值 ====
+这些是特定地图方块特征可能生成的绝对最小值和最大值。通过''巧妙地''调整最小值和最大值，可以制作出截然不同的地图。更改这些可能会导致某些[[Biome|生物群系]]的出现变得不可能，因此你可能需要改用[[#Terrain Mesh Sizes and Weights|加权范围]]。
+
+==== X和Y变化 ====
+这些控制海拔和降雨等事物在相邻地图方块之间的变化程度。例如，如果这些值对于海拔设置为最大值3,200，那么你最终会在非常低的区域旁边有更多非常高的区域。X的数字决定东西方差，Y的数字决定南北方差。通过仅将其中一个设置为高值，你可以例如创建水平或垂直带状区域，这些区域彼此更相似。
+
+一般来说，提高这两个值将创建一个由许多小生物群系组成的更随机的"拼凑"，而将x和y值都设置为0将导致地图上的每个方块对给定特征使用单个随机值。
+
+对于"拼凑"世界以避免被拒绝，可能需要从默认值增加[[#Maximum Number of Subregions|最大子区域数]]。
+
+==== 海拔 ====
+这控制世界中可能出现的地形海拔范围。通常，你只想保持最小/最大值不变。例如，提高最小海拔可能会使海洋无法存在。这'''不会'''直接控制特定遗址的可用Z级数，尽管高最大值可能会导致山峰，这可能会增加地上Z级的数量——换句话说，最大海拔400和最小海拔1并不意味着你得到400个Z级，但与其他区域相比，它可能会在某些区域略微增加Z级数。提高方差将导致更崎岖不平的景观。
+
+一些受海拔影响的生物群系/特征：
+* 高最小值（高于99）意味着没有海洋，因为海洋需要低于100的海拔。
+* 低最大值（低于300）意味着没有山脉，因为山脉需要高于300的海拔。
+* 当海拔最大值为104或更高时，将放置河流。因此，将两个值都保持在100以上且低于104将防止所有水瓦片出现。
+* 山峰只能在海拔400处形成。
+
+==== 降雨 ====
+控制每个地图方块/区域的降雨量。将最小值或最大值设置得太高或太低可能会使某些生物群系的形成变得不可能。降雨会导致特定区域[[rain|下雨]]更多，这可能会产生各种影响。还会使更多河流出现在世界地图上。
+
+请注意，如果[[#Do Orographic Precipitation and Rain Shadows|地形降水和雨影]]开启，那么山脉将导致降雨的额外变化，因此（例如）山影中可能会出现低于指定最小值的降雨。如果你希望绝对遵守此参数的最小值和最大值，则必须关闭地形降水选项。
+
+此外，当"地形降水"开启时，地形降水和雨影仅在排水大于或等于50的区域发生。[http://www.bay12forums.com/smf/index.php?topic=139916.0 [报告，2022年重现]]
+
+==== 温度 ====
+{{main|Climate|Temperature}}
+这些参数控制各个区域的冷热程度。例如，如果降低最小值和最大值，世界整体上会更冷。与其他参数一样，过度更改这些值可能会使某些生物群系无法存在。此设置中使用的温度标度通过方程"local temp = world temp * 0.75 + 10000"与常规度数Urist相关。{{cite forum|169696/8395484}}这个标度似乎在游戏的其他地方没有使用。有关更多信息，请参见[[Climate]]。
+
+这些参数形成区域的"基础"温度，并描述在游戏其他地方未使用的标度中的盛夏峰值温度。这个数字也不与最终气候1:1对应。[[Temperature|温度]]总是受许多变量的影响，包括海拔、一年中的时间、茂密的森林，以及如果[[Advanced_world_generation#Poles|极点]]启用，纬度。这些其他变量在应用温度网格后被计入，并经常使温度高于和低于其设置的最小值和最大值。''包含极点在这方面特别强，因为它允许纬度将温度升高和/或降低超过75摄氏度！也就是说，温度不会升高或降低超过设置的最小值和最大值约65度以上。此外，对于典型范围，温度永远不会升高超过最大值约25度以上（但仍会下降到最小值以下约65摄氏度）。''（不确定确切值，需要研究）
+
+精灵可以在温度为10度或更高的地方生成，人类可以在温度为0度或更高的地方生成。
+
+==== 排水 ====
+更改排水参数将改变受水影响的生物群系的形成方式。低排水将有助于形成[[Lake|湖泊]]、[[River|河流]]和[[Swamp|沼泽]]。高排水将导致水渗入地下而不是停留在地表，这对于形成丘陵很重要。
+
+据报道，较低的排水值有助于形成更厚的土壤层，尽管目前尚不清楚其他因素（如海拔或可能的降雨）如何影响土壤形成。
+
+==== 火山活动 ====
+火山活动控制火成[[layer|层]]的出现和火山的形成。要形成火山，方块必须具有100的火山活动值，因此将最大值从100降低将使火山变得不可能。提高最小值将增加非火成层的稀有性。
+
+将最小值设置为高值并不是产生多个火山的好方法，因为你可能会得到"火山活动分布不均"的拒绝。相反，使用最小火山数参数，并可能调整下面描述的火山活动加权范围。
+
+==== 野蛮程度 ====
+这些参数控制地图上的[[Surroundings#Savage|野蛮]]程度。将最小野蛮程度提高得太高可能会使某些种族无法存在，类似地，将最大值降低得太远可能会使某些生物无法存在。无法使用的地图的最大机会来自野蛮程度值过高。
+
+==== 配置标记 ====
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ELEVATION:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[ELEVATION:1:400:401:401]</nowiki></tt>
+| 范围：0到400<br/>山峰需要最大值400。<br/>方差范围：0-3200
+|-
+| <tt><nowiki>[RAINFALL:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[RAINFALL:0:100:200:200]</nowiki></tt>
+| 范围：0到100<br/>方差范围：0-3200
+|-
+| <tt><nowiki>[TEMPERATURE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[TEMPERATURE:25:75:200:200]</nowiki></tt>
+| 范围：-1000到1000<br/>方差范围：0-3200
+|-
+| <tt><nowiki>[DRAINAGE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[DRAINAGE:0:100:200:200]</nowiki></tt>
+| 范围：0到100<br/>方差范围：0-3200
+|-
+| <tt><nowiki>[VOLCANISM:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[VOLCANISM:1:100:200:200]</nowiki></tt>
+| 范围：0到100<br/>火山需要最大值100。<br/>方差范围：0-3200
+|-
+| <tt><nowiki>[SAVAGERY:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
+| <tt><nowiki>[SAVAGERY:1:100:200:200]</nowiki></tt>
+| 范围：0到100<br/>方差范围：0-3200
+|}
+
+=== 地形网格大小和权重 ===
+
+这些参数可以影响特定范围内的方块数量，而不会使该范围之外的条件变得不可能。例如，你可以使更多的低海拔方块存在，而不会使高海拔无法形成。更改这些参数通常比简单更改最小/最大值更可取。
+
+应用加权范围的基本步骤如下：
+
+# 在X和Y方向上创建一个具有2<sup>''MeshSize'' - 1</sup>个瓦片的网格。
+# 在每个网格交叉点，根据加权范围设置值。
+# 平滑交叉点之间的区域。
+# 根据方差参数添加噪声。
+
+其中''MeshSize''是world_gen.txt中找到的原始参数值。有关示例，请参见右侧的图像。
+
+[[File:World_map-large-32x32-elevation-mesh.png|thumb|300px|使用32×32的海拔网格大小和设置为1:0:0:0:1的范围权重（即仅极端高海拔和低海拔）生成的大型世界。请注意网格交叉点如何设置为非常高或非常低，它们之间的空间被平滑。]]
+
+==== 网格大小/加权范围 ====
+
+网格大小决定将有多少个网格瓦片。将此设置为忽略将导致该地形特征的加权范围设置被忽略。例如，将其设置为2×2意味着网格将是2乘2个瓦片大小，总共有3×3个交叉点，共9个。在袖珍世界上，这意味着一个网格瓦片将是8×8个世界瓦片大小，而在大型世界上，一个网格瓦片将是128×128个世界瓦片。请注意，对于给定的世界大小，最高可能值将始终使网格瓦片为8×8个世界瓦片大小。
+
+
+如果网格大小设置为忽略以外的值，这些权重将以所选网格大小的粒度应用，以便在每个范围内生成随机值。这允许给定地形特征的随机数生成为非线性。
+
+例如，如果海拔加权范围参数设置为（从0-20范围开始）60:10:10:10:10（这些值不必加起来为任何特定数字），并且海拔最小值和最大值分别设置为1和400，那么大约60%的网格线交叉点（平均而言）将被设置为1-80范围内的海拔（0%到20%），其他范围将各由大约10%的交叉点表示。确切的分布仍然取决于机会，尽管''平均而言''它将接近此规范。
+
+加权范围不进行拒绝检查，尽管如果你忽略调整或禁用某些[[#Minimum Number of Mid/Low/High Characteristic Squares|最小中/低/高特征方块数]]，它们可能会导致许多拒绝。
+
+==== 网格大小和方差之间的交互 ====
+
+最终结果可能因相应的[[#X_and_Y_Variance|X和Y方差]]参数的设置方式而大不相同。首先，如果方差太大，它添加的噪声可以完全抵消加权范围的影响。例如，使用2×2网格，默认方差参数足够高，通常几乎无法识别网格。方差影响的强度也取决于网格大小。具有较大的网格大小（即较小的网格瓦片）意味着方差也必须更高才能产生可见效果。例如，方差为400时，效果在2×2网格中清晰可见，在8×8网格中几乎看不到。请注意，此效果直接取决于网格大小，而不是像人们可能预期的那样取决于网格瓦片的实际大小。这意味着，具有32×32网格的大型世界看起来基本上与具有2×2网格的袖珍世界相同，只是拉伸到256倍大小。
+
+另请参见此[http://www.bay12forums.com/smf/index.php?topic=139916.0 论坛帖子]以获取更多详细信息。
+
+==== 配置标记 ====
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ELEVATION_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[ELEVATION_FREQUENCY:2:1:2:3:4:5]</nowiki></tt>
+| rowspan="6" | 有效网格值：
+
+1 = 忽略
+
+2 = 2x2
+
+3 = 4x4
+
+4 = 8x8
+
+5 = 16x16
+
+6 = 32x32
+
+（受世界大小限制）
+|-
+| <tt><nowiki>[RAIN_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[RAIN_FREQUENCY:3:1:2:3:4:5]</nowiki></tt>
+|-
+| <tt><nowiki>[DRAINAGE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[DRAINAGE_FREQUENCY:4:1:2:3:4:5]</nowiki></tt>
+|-
+| <tt><nowiki>[TEMPERATURE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[TEMPERATURE_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
+|-
+| <tt><nowiki>[SAVAGERY_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[SAVAGERY_FREQUENCY:5:1:2:3:4:5]</nowiki></tt>
+|-
+| <tt><nowiki>[VOLCANISM_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
+| <tt><nowiki>[VOLCANISM_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
+|}
+
+=== 极点 ===
+
+通过此选项，你可以影响如何添加极地区域。极点可以在北边或南边边缘，赤道将在相反的边缘，或者如果有两个极点，则在中间。如果极点设置为NONE，则天气中将没有季节性变化（例如，温带生物群系中没有冬雪）。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[POLE:<placement>]</nowiki></tt>
+| <tt><nowiki>[POLE:NORTH]</nowiki></tt>
+| 可行选项：NONE、NORTH_OR_SOUTH、NORTH_AND_OR_SOUTH、NORTH、SOUTH、NORTH_AND_SOUTH
+|}
+
+=== 最小山峰数 ===
+
+如果地图上出现的山峰（基于海拔）少于这个数量，将导致世界被拒绝。例如：必须可能出现海拔400才能出现山峰。如果设置为零，则不会基于山峰数量拒绝世界。
+
+你可能需要调整海拔参数，例如最高加权范围，以获得更多山峰所需的海拔400方块数量。像火山一样，山峰可以使出发区域更有趣，但除此之外，它们似乎不会"做"任何特殊的事情。据报道，它们确实会增加同一区域中所有出发区域的地上最高Z级，即使所选出发区域不包括山峰。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[PEAK_NUMBER_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[PEAK_NUMBER_MIN:20]</nowiki></tt>
+| 必须出现海拔400才能形成山峰。
+|}
+
+=== 最小部分边缘海洋 ===
+
+除非至少有这么多海洋接触地图边缘，否则将导致世界被拒绝。如果设置为零，则不会基于此标准拒绝世界。将此参数和最小完全边缘海洋都设置为相加总计超过4的值可能会导致所有世界被拒绝，因为你不能在给定边缘上同时拥有部分和完全边缘海洋。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:2]</nowiki></tt>
+| 最大值为4
+|}
+
+=== 最小完全边缘海洋 ===
+
+除非至少有这么多海洋完全覆盖地图的一条边缘，否则将导致世界被拒绝。由于正方形地图只有4条边，因此可能的最大值为4。如果设置为零，则不会基于此标准拒绝世界，但仍然可能偶然出现完全边缘海洋。
+
+请注意，这么多边缘海洋存在的能力将受到海拔的限制。因此，要实际创建大型海洋，你可能需要更改诸如海拔网格大小和加权范围之类的东西，以增加地图上非常低海拔方块的数量和分布。此外，如果完全边缘海洋设置为除0或4以外的任何值，你可能需要降低至少一个轴的海拔方差：如果设置得太高，例如X和Y轴的变化都为1600（大岛和中岛参数集的默认值），游戏可能会非常缓慢地生成世界，甚至挂起。{{bug|565}}
+
+给定海拔、范围和方差等适当的权重值，设置为：1会导致一个看起来像一块海岸线的世界。地图的一条边缘将完全在水下，该侧将有大量海洋占据地图（想想美国的东海岸或西海岸、加拿大的北海岸或南欧）。如果你的边缘海洋碰巧选择了你世界的冰冻侧，其中大部分将是冰川。
+
+*2会导致另一条海岸线与第一条一起出现——如果海洋选择地图的相对侧，地图最终可能看起来像巴拿马。
+*3会导致一个半岛，就像美国的佛罗里达州。地图的3侧将被海洋包围，只有地图的一侧接触陆地。
+*4会导致一个或多个岛屿，具体取决于海拔方差和权重等因素。无论你得到一个岛还是多个岛，整个地图都将被水包围。
+
+不幸的是，除了可能将X/Y方差设置为不同的值之外，没有简单的方法来控制哪些海洋最终出现在哪些边缘上。
+
+边缘海洋也会占据其他边缘的一部分。例如，东侧的完全边缘海洋将使北侧和南侧的一部分在水下，但这''不会''增加''部分''边缘海洋计数。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:0]</nowiki></tt>
+| 最大值为4
+|}
+
+=== 最小火山数 ===
+
+游戏将尝试放置这么多火山，但必须至少有这么多火山活动为100的方块，如果没有，世界将被拒绝。因此，上面的[[Advanced_world_generation#Volcanism|最大火山活动]]必须设置为100，并且调整上面[[Advanced_world_generation#Configuration_Tokens_2|火山活动加权范围]]中80-100的值为更高值可以增加这些方块的数量。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[VOLCANO_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[VOLCANO_MIN:15]</nowiki></tt>
+| 火山需要火山活动为100才能出现。
+|}
+
+=== 矿物稀缺性 ===
+控制矿物出现的频率；将此值设置得更高将减少地图上存在的矿石和宝石的不同类型的数量和数量。默认值将导致许多金属矿石，而旧的默认值''稀疏''将只有几种矿石，这可能会受到限制，直到可以请求和交易其他金属。
+
+[[World_generation#Basic_world_generation_menu|基础世界生成菜单]]中的"Very Rare"、"Rare"、"Sparse"、"Frequent"和"Everywhere"选项分别使用值50000、10000、2500、500和100。
+
+根据Shandra在v0.31.25中的[http://www.bay12forums.com/smf/index.php?topic=79018.msg2063804#msg2063804 研究]，这是此设置值与宝石和矿石的大致数量之间的关系：
+
+[[File:MineralSetting_v25_limit10k.png]]
+
+这是针对同一个8x8出发区域在世界中的情况，除了矿物稀缺性参数之外，其他方面都相同（尽管大部分详细信息来自早期版本的实验）。（图表图例有一个错误，第一个"Pot.(Types)"应该读作"Pot.(Amount)"。）
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[MINERAL_SCARCITY:<number>]</nowiki></tt>
+| <tt><nowiki>[MINERAL_SCARCITY:100]</nowiki></tt>
+| 范围：100到100,000
+|}
+
+=== 最大巨兽洞穴 ===
+
+这是历史开始时放置的[[megabeast|巨兽]]数量。巨兽是[[hydra|九头蛇]]、[[bronze colossus|青铜巨像]]、[[roc|大鹏]]和[[dragon|龙]]，它们以相等的比例放置[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415177#msg3415177 <sup>数据</sup>]。
+
+增加此值可能会导致文明的早期灭绝。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[MEGABEAST_CAP:<number>]</nowiki></tt>
+| <tt><nowiki>[MEGABEAST_CAP:75]</nowiki></tt>
+| 巨兽计入BEAST_END_YEAR计算。
+|}
+
+=== 最大半巨兽洞穴 ===
+
+这是历史开始时放置的[[semi-megabeast|半巨兽]]数量。半巨兽是[[giant|巨人]]、[[ettin|双头巨人]]、[[minotaur|牛头人]]和[[cyclops|独眼巨人]]，它们以相等的比例放置[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415188#msg3415188 <sup>数据</sup>]。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SEMIMEGABEAST_CAP:<number>]</nowiki></tt>
+| <tt><nowiki>[SEMIMEGABEAST_CAP:150]</nowiki></tt>
+| 半巨兽不计入BEAST_END_YEAR计算。
+|}
+
+=== 泰坦参数 ===
+
+==== 数量 ====
+
+这控制历史开始时存在的[[titan|泰坦]]数量[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415203#msg3415203 <sup>数据</sup>]。遗忘兽的数量不受此参数影响[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415155#msg3415155 <sup>数据</sup>]。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[TITAN_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[TITAN_NUMBER:33]</nowiki></tt>
+| 泰坦计入BEAST_END_YEAR计算。
+|}
+
+==== 攻击人口要求 ====
+
+一旦至少有这么多矮人居住在你的要塞中，[[Titan|泰坦]]就会开始攻击你的要塞，无论是否满足任何其他攻击标准。
+
+此数字默认为80，通常不太难处理。
+
+==== 出口财富要求 ====
+
+一旦你出口了至少这么多[[Currency|矮人币]]价值的货物，泰坦就会开始攻击你的要塞，无论是否满足任何其他标准。此参数默认为无（禁用）。
+
+==== 创造财富要求 ====
+
+一旦要塞的总财富达到这么多[[Currency|矮人币]]价值，泰坦就会开始攻击你的要塞。这发生时无论是否满足任何其他标准，如人口；因此，即使只有1个矮人，如果要塞至少值这个价值，要塞也可能被攻击。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[TITAN_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
+| <tt><nowiki>[TITAN_ATTACK_TRIGGER:80:0:100000]</nowiki></tt>
+| 0 = 无（禁用）。只需满足一个要求即可发动攻击。
+|}
+
+=== 恶魔类型数量 ===
+
+[[Demon|恶魔]]类似于[[titan|泰坦]]和[[forgotten beast|遗忘兽]]，它们是程序生成的，但大多数不是唯一的。因此，许多不同类型的恶魔可以存在，但大多数类型也会有许多个体。由于[[Underworld spire|某些有趣的事情]]，较少的恶魔类型也意味着较少的哥布林文明。{{cite forum|112465/7392706}}你至少需要2种恶魔类型，否则哥布林文明最初不会存在，尽管如果矮人在世界生成期间突破地下世界，至少会在那时生成一个。<!-- May be 1 per underworld region? -->
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[DEMON_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[DEMON_NUMBER:52]</nowiki></tt>
+| 0到1000
+|}
+
+=== 夜巨魔类型数量 ===
+
+世界中将存在的不同[[night troll|夜巨魔]]的数量，也是程序生成的。将此设置为零意味着世界将没有夜巨魔，无论是自定义的还是其他的。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[NIGHT_TROLL_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[NIGHT_TROLL_NUMBER:77]</nowiki></tt>
+| 0到1000
+|}
+
+=== 夜魔类型数量 ===
+世界中将存在的不同[[bogeyman|夜魔]]形态的数量。夜魔是程序生成的，尽管它们的形态变化不大。将此设置为零意味着世界将没有夜魔，无论是自定义的还是其他的。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[BOGEYMAN_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[BOGEYMAN_NUMBER:27]</nowiki></tt>
+| 0到1000
+|}
+
+=== 梦魇类型数量 ===
+世界中将存在的不同[[nightmare|梦魇]]形态的数量。梦魇是程序生成的。将此设置为零意味着世界将没有梦魇，无论是自定义的还是其他的。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[NIGHTMARE_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[NIGHTMARE_NUMBER:27]</nowiki></tt>
+| 0到1000
+|}
+
+=== 吸血鬼诅咒类型数量 ===
+
+世界中将存在的不同类型[[Vampire|吸血鬼]]的数量。虽然它们是在新世界开始时生成的，但它们彼此之间并无不同。将此设置为零意味着不会存在吸血鬼。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[VAMPIRE_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[VAMPIRE_NUMBER:72]</nowiki></tt>
+| 0到1000
+|}
+
+=== 兽人参数 ===
+
+==== 兽人诅咒类型数量 ====
+
+世界中可以存在的不同类型[[werebeast|兽人]]的数量。与吸血鬼不同，兽人通常会呈现许多不同的形态和变体，其中最著名的相当于不同种类的动物，从蜥蜴到狼，甚至熊。将此设置为零意味着不会存在兽人，也会从游戏中移除大量[[fun|乐趣]]。
+
+在原版中，只有82种可能的独特兽人物种。任何进一步的物种都将生成为兽团。{{bug|13308}}
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[WEREBEAST_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[WEREBEAST_NUMBER:58]</nowiki></tt>
+| 0到1000
+|}
+
+==== 攻击人口要求 ====
+
+一旦至少有这么多矮人居住在你的要塞中，兽人就会开始攻击你的要塞，无论是否满足任何其他攻击标准。此数字默认为50，通常会在要塞的第二年达到。
+
+==== 出口财富要求 ====
+一旦你出口了至少这么多[[Currency|矮人币]]价值的货物，兽人就会开始攻击你的要塞，无论是否满足任何其他标准。此参数默认为5000。
+
+==== 创造财富要求 ====
+
+一旦要塞的总财富达到这么多[[Currency|矮人币]]价值，兽人就会开始攻击你的要塞。这发生时无论是否满足任何其他标准，如人口；因此，即使只有1个矮人，如果要塞至少值这个价值，要塞也可能被攻击。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
+| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:50:5000:50000]</nowiki></tt>
+| 0 = 无（禁用）。只需满足一个要求即可发动攻击。
+|}
+
+=== 秘密类型数量 ===
+
+世界中存在的秘密数量。目前，所有秘密都是生死秘密，持有这些秘密的是[[necromancer|死灵法师]]，因此，将此设置为零意味着不会出现死灵法师。
+非死灵法师塔楼仍然可以（极其罕见地）在零秘密的情况下出现，由独立的不死团体建造。
+拥有1个或1000个秘密之间的主要区别是你的世界根本拥有任何死灵法师塔楼的机会。使用1，这种机会很低。使用默认数字，这似乎是有保证的。
+即使只有1个秘密，如果你根本有任何死灵法师塔楼，很可能会在世界生成中迅速出现大量塔楼（尽管这不能保证）。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SECRET_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[SECRET_NUMBER:52]</nowiki></tt>
+| 0到1000
+|}
+
+=== 区域交互类型数量 ===
+
+可在区域中引起的交互数量，可能包括邪恶雨和云类型。目前，只有邪恶区域交互以这种方式生成。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:20]</nowiki></tt>
+| 0到1000
+|}
+
+=== 扰动交互类型数量 ===
+世界中可以存在的不同[[Mummy|受扰亡者]]的数量。将此设置为零应该可以防止任何木乃伊出现{{verify}}，但不会防止[[tomb|坟墓]]的创建。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:10]</nowiki></tt>
+| 0到1000
+|}
+
+=== 邪恶云/邪恶雨类型数量 ===
+
+此数字指定你的世界中可能出现多少[[Weather#Evil weather|各种融脸、煮眼、僵尸化乐趣]]的纯邪恶云。将此设置为零意味着你将不再需要在该世界中处理逼近的末日尘墙。通常建议将此值保持较低...
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[EVIL_CLOUD_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[EVIL_CLOUD_NUMBER:45]</nowiki></tt>
+| 0到1000
+|}
+
+后者数字说明你的世界中可能出现多少种不同类型的绿色粘液淋浴、令人不安的血雨和病态的黄色粘液浴。然而，与邪恶云相比，这个通常不值得担心....将此设置为零意味着从天空落下的唯一半固态到全液态流体将是纯H2O。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[EVIL_RAIN_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[EVIL_RAIN_NUMBER:352]</nowiki></tt>
+| 0到1000
+|}
+
+=== 生成神圣材料 ===
+这会打开或关闭[[Divine_metal|神圣金属]]的生成。不影响[[vault|金库]]的创建。可能决定使用占卜骰子是否生成武器。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 生成神话材料 ===
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 允许神话治疗 ===
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 允许占卜、实验和死灵术类型 ===
+这些允许或禁止[[die|占卜]]、恶魔或死灵法师[[experiment|实验]]以及更高级的[[necromancer|死灵法师]]能力。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ALLOW_DIVINATION:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_DIVINATION:1]</nowiki></tt>
+| 1/0 = 是/否
+|-
+| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:1]</nowiki></tt>
+| 1/0 = 是/否
+|-
+| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:1]</nowiki></tt>
+| 1/0 = 是/否
+|-
+| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:1]</nowiki></tt>
+| 1/0 = 是/否
+|-
+| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:1]</nowiki></tt>
+| 1/0 = 是/否
+|-
+| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 期望的善/恶方块数 ===
+
+这些值根据正在考虑的区域大小改变地图上[[Surroundings#Good|善或恶]]瓦片的数量。计数是针对给定大小的所有子区域中的所有瓦片一起考虑的，''而不是''针对单独考虑的每个子区域的计数（同一子区域中的所有瓦片共享相同的[[surroundings|环境]]值）。
+
+如此处使用的，"子区域"是一个命名的世界区域。生成世界的子区域名称和位置可在传奇模式的"Regions"下查看。对于所有地图大小，子区域按大小分类的方式相同：1-24个瓦片为小，25-99个瓦片为中，100+个瓦片为大。
+
+此处使用的计数将始终限制于给定大小的区域，无论计数有多大。此外，计数更多的是一个目标而不是最小值或最大值。因此，在某些情况下，你最终可能会得到远多于或远少于请求数量的方块。特别是，如果你有类似的情况，世界中只有3个大区域存在，并且你在大区域中请求"1个邪恶方块"，你最终会得到其中一个大区域''完全邪恶''。因此，这些设置中的任何非零值基本上意味着"强制至少一个此大小的区域为全善/全恶"。
+
+请注意，邪恶生物群系的"邪恶程度"也受野蛮程度的影响。某些文明不能存在于善和/或恶方块中，因此太多的一种或另一种可能会限制某些类型文明的规模——例如矮人需要非对齐的生物群系。创建太多邪恶生物群系似乎会导致许多文明早期灭绝的危险。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[GOOD_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
+| <tt><nowiki>[GOOD_SQ_COUNTS:100:1000:2000]</nowiki></tt>
+| rowspan="2" | 将计数设置为零以禁用该区域大小。
+|-
+| <tt><nowiki>[EVIL_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
+| <tt><nowiki>[EVIL_SQ_COUNTS:100:1000:2000]</nowiki></tt>
+|}
+
+=== 最小生物群系方块数 ===
+
+这些数字控制是否基于缺少不同[[biome|生物群系]]而拒绝世界。提高这些数字'''不会'''自动生成给定生物群系的给定数量的方块！要使生物群系存在，必须存在某些条件，如海拔和降雨。
+
+这些参数只是过滤掉（例如）随机未能有足够高海拔方块以支持给定数量山脉等的世界。某些设置可能会导致世界总是被拒绝。例如，如果由于某种原因，最大海拔参数设置为低于支持山地生物群系的值，则将无法满足山地方块的非零要求。同样的原则适用于其他条件和生物群系，如低海拔和海洋等。
+
+某些文明需要不同的生物群系才能存在（例如矮人和山脉），因此消除某些生物群系将使某些文明无法形成。
+
+这些参数通常会导致无限世界拒绝问题。有关解决由于这些参数中的一个或多个而导致世界总是被拒绝的问题的信息，请参见[[World rejection]]。
+
+0表示拒绝时没有最小值——将其设置为0并不保证该生物群系有0个方块。
+
+==== 生物群系类型要求表 ====
+
+各种生物群系的地形要求如下所述。{{Verify}}请注意，某些确切范围未知。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! rowspan="2" | 生物群系
+! colspan="4" | 地形要求
+|-
+! 海拔
+! 降雨
+! 温度
+! 排水
+|-
+| 沼泽/湿地
+| 100-299
+| 33-100
+| 非冰冻
+| 0-32
+|-
+| 沙漠/荒地
+| 100-299
+| 0-9
+| 非冰冻
+| 注释<sup>1</sup>
+|-
+| 森林
+| 100-299
+| 66-100
+| 非冰冻
+| 66-100
+|-
+| 山脉
+| 300-400
+| 不适用
+| 不适用
+| 不适用
+|-
+| 海洋
+| 0-99
+| 不适用
+| 不适用
+| 不适用
+|-
+| 冰川
+| 100-299
+| 不适用
+| 冰冻
+| 80(?)-100
+|-
+| 苔原
+| 100-299
+| 不适用
+| 冰冻
+| 0-66
+|-
+| 草原
+| 100-299
+| 0-66
+| 非冰冻
+| 0-66
+|-
+| 丘陵
+| 100-299
+| 0-66
+| 非冰冻
+| 66-100
+|}
+注释<sup>1</sup> 排水：00-32沙漠，33-49岩石荒地，50-65岩石荒地但不同的字符/外观，66-100荒地
+
+==== 最小初始方块数 ====
+
+'''注意：这些参数的唯一目的是导致世界拒绝。'''
+
+这是在发生侵蚀等事情之前必须存在的给定生物群系的最小方块数。需要记住的一件事是给定大小地图上的最大方块数——如果地图上的总方块数低于所有方块数参数的总和，那么你将获得无限世界拒绝。
+
+要确定地图上的方块数，只需将尺寸相乘即可。实际上，这些参数需要总和低于最大值，因为需要一些"松弛"空间。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 地图大小
+! 方块数
+|-
+| 17×17
+| 289
+|-
+| 33×33
+| 1089
+|-
+| 65×65
+| 4225
+|-
+| 129×129
+| 16614
+|-
+| 257×257
+| 66049
+|}
+
+==== 最小初始区域数 ====
+
+这是在侵蚀和类似生成阶段发生之前必须存在的连续生物群系方块区域的最小数量。
+
+==== 最小最终区域数 ====
+
+在侵蚀和类似生成阶段完成后，必须存在这么多给定生物群系的区域。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+|-
+| <tt><nowiki>[REGION_COUNTS:SWAMP:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:SWAMP:1032:7:6]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:DESERT:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:DESERT:1032:7:6]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:FOREST:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:FOREST:4128:13:12]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:8256:9:9]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:OCEAN:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:OCEAN:8256:7:6]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:GLACIER:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:GLACIER:0:0:0]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:TUNDRA:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:TUNDRA:0:0:0]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:GRASSLAND:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:GRASSLAND:8256:13:12]</nowiki></tt>
+|-
+| <tt><nowiki>[REGION_COUNTS:HILLS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
+| <tt><nowiki>[REGION_COUNTS:HILLS:8256:13:12]</nowiki></tt>
+|}
+
+=== 侵蚀周期数 ===
+
+告诉世界生成器在世界创建的"运行河流..."阶段，世界必须侵蚀其高峰到山坡多长时间。这个数字越高，世界越不崎岖，主要河流越宽。如果使用最大数字，你的山脉将在你眼前溶解成平原，如果没有足够的山脉用于河流起点和矮人文明起源点，这可能会导致拒绝。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[EROSION_CYCLE_COUNT:<number>]</nowiki></tt>
+| <tt><nowiki>[EROSION_CYCLE_COUNT:250]</nowiki></tt>
+| 范围：0到1000
+|}
+
+=== 最小/期望河流起点位置 ===
+
+这是侵蚀发生之前和之后必须存在的最小河源数。如果未能满足这些数字，世界将被拒绝。与最小生物群系数一样，提高这个数字不会自动创建这么多河源。必须存在其他条件，如地形和降雨，河流才能形成。
+
+极高的侵蚀前值会大大加快侵蚀速度，而低的侵蚀后值对于限制由于缺乏河流起点而导致的拒绝很有用。可以尝试800值以获得更多湖泊。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[RIVER_MINS:<min pre-erosion>:<des post-erosion>]</nowiki></tt>
+| <tt><nowiki>[RIVER_MINS:200:400]</nowiki></tt>
+| 范围：0到800
+|}
+
+=== 定期侵蚀极端悬崖 ===
+
+如果启用，使每个无法通行的岩壁变成一系列坡道。有些人喜欢将侵蚀提高到大约250，并将"期望的侵蚀前河流数"设为0，以获得良好的侵蚀而没有额外的峡谷。
+
+通常设置为是(1)。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 进行地形降水和雨影 ===
+
+切换允许地形高度影响降雨。例如，来自海洋的潮湿空气吹过陆地。随着地形升高，它迫使潮湿空气上升，导致它在山的迎风侧下雨。最终，如果山足够高，所有的雨都下了。因此，当微风越过顶部时，另一侧没有水分可以下落，形成雨影。在当前版本中，排水高于50的区域也会创建雨影，无论底层生物群系和海拔如何。{{cite forum|140685/5484064}}
+
+打开此选项应该会在区域中创建更极端降雨的趋势，创建更多森林、沙漠、湿地和草原。还要注意，它可以在最小-最大降雨设置之外创建降雨，因此即使在最大降雨为0的世界中，你也可能获得降雨生物群系。关闭它应该会根据降雨参数导致更可控、更不复杂的降雨条件，因为它添加了一个可以扭曲或以其他方式弄乱预生成地图上的气候的随机元素。
+
+如果你正在导入地图或使用具有天气的预设地图文件，应禁用此功能。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 最大子区域数 ===
+
+这是整个地图上允许存在的单独生物群系的数量（当出发位置上有多个生物群系时，按F1、F2等时看到的闪烁区域）。
+
+将此设置为非常低的值将导致许多拒绝，具体取决于[[#X and Y Variance|方差参数]]。如果方差值设置为高数字，将创建许多小生物群系，如果此参数值未从默认值增加，则会导致拒绝。
+
+增加此标记的值通常是生成具有大量生物群系方差的"拼凑"世界时的必须，但仅增加它而不增加方差参数不会保证更多生物群系。
+
+还有趣的是，最大子区域是5000，这超过了袖珍或小地图的总方块数。然而，对于中型或大型地图（16641或66049个方块），它很快就成为可能子区域总数的一小部分。实际上，在大地图上很容易最终出现太多子区域并获得此类型的无尽拒绝。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SUBREGION_MAX:<number>]</nowiki></tt>
+| <tt><nowiki>[SUBREGION_MAX:2750]</nowiki></tt>
+| 范围：1到5000
+|}
+
+=== 洞穴参数 ===
+[[Caverns|洞穴]]是地下的空心区域，矮人在挖掘时往往会遇到。'''洞穴层数'''参数确定将生成多少洞穴系统，不包括岩浆层或底层。默认为三——将其设置为较低值可以帮助FPS。将其设置为2会将洞穴3物种合并到第二洞穴中，将其设置为1会将所有物种合并到一个洞穴中。然而，通过将其设置为0完全禁用它们将使无法种植任何地下植物，因为不会有任何植物供你的文明培育，也不会在出发时可用。
+
+*将洞穴设置为小于3的数字（剧透，突出显示查看）<span style='color:#f8f8f8;'>删除大约三分之一的HFS尖塔{{Bug|10267}}并防止深挖灾难。</span>此外，随机植物或动物物种可能更频繁地缺失。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CAVERN_LAYER_COUNT:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_COUNT:3]</nowiki></tt>
+| 范围：0到3
+|}
+
+==== 洞穴布局参数 ====
+
+开放洞穴和密集通道并不互斥。当两者都提高时，可能会出现奇异的结果，例如显示开放洞穴、网络通道集群和洒在原本开放洞穴内部的天然墙壁的组合的层。[http://www.bay12forums.com/smf/index.php?topic=76355.msg1936859#msg1936859 参考]
+
+如果你想要尽可能大的开放空间，那么降低密度并增加开放度。如果你想要一个通道迷宫，降低开放度并提高通道密度。
+
+关于洞穴层的另一个有趣的注意事项是，种子和恶魔类型的数量会影响洞穴的布局。
+
+<gallery widths=200 heights=200 perrow=2>
+File:Open00Density100.jpg|开放度为0且密度为100的洞穴切片
+File:Open100Density00.jpg|开放度为100且密度为0的洞穴切片
+File:Open100Density100.jpg|开放度为100且密度为100的洞穴切片
+File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
+</gallery>
+
+===== 层开放度最小/最大 =====
+
+决定洞穴通道的大小。当通道密度（见下文）设置为最小值(0)时，洞穴将是开放的广阔区域。提高最大值将增加洞穴的大小。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:0]</nowiki></tt>
+| rowspan="2" | 范围：0到100
+|-
+| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:100]</nowiki></tt>
+|}
+
+===== 层通道密度最小/最大 =====
+
+决定形成洞穴的通道数量。如果开放度（见上文）设置为最小值并增加密度，那么你将获得一个由小的交叉通道组成的迷宫般的网络。进一步提高值会增加迷宫般通道的数量。
+
+洞穴在0时将是大的开放空间，在100时由许多小的垂直岩石竖井组成。将两个值设置为相同会导致洞穴外观统一。{{Verify}}
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:0]</nowiki></tt>
+| rowspan="2" | 范围：0到100
+|-
+| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:100]</nowiki></tt>
+|}
+
+===== 层水最小/最大 =====
+
+决定每个洞穴可以包含的最小和最大水百分比。
+
+水位为10或更高的洞穴可以支持来自"地下水域"生物群系的生物和植物，水位为90或更低的洞穴可以支持"地下深渊"生物群系；10-90级支持''两种''生物群系，而低于10或高于90的级别仅支持一种。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:0]</nowiki></tt>
+| rowspan="2" | 范围：0到100
+|-
+| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:100]</nowiki></tt>
+|}
+
+==== 岩浆层 ====
+
+此参数控制[[magma sea|岩浆海]]是否存在。
+
+设置1/是会导致岩浆层存在，值0/否会阻止它。似乎对火山或火山活动没有任何影响，因此即使0/否，仍然会有带有岩浆的出发位置。如果存在[[volcano|火山]]，它似乎总是连接到岩浆海，但通过揭示火山不会揭示岩浆海。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+|-
+| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:1]</nowiki></tt>
+|}
+
+==== 底层 ====
+
+决定岩浆海下方的空间是否存在。如果是，"HFS"层始终存在。通常你想将此设置为是以获得最大乐趣。
+
+如果启用，这将强制其上方的岩浆层。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+|-
+| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:1]</nowiki></tt>
+|}
+
+=== Z级（深度）设置 ===
+
+这些参数控制地图上各种"层"的"厚度"。请注意，这里的"层"不是指一个Z级，而是指许多相关Z级，如"地上级"。
+
+下表假设你有3个洞穴层。（最少0-3个）上层设置控制每层上方有多少个Z级。一层本身可能由多个Z级组成（并且几乎总是如此）。
+
+{|style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable"
+|-style="background:#F2F2F2;text-align:center;"
+!style="border:1px #AAA solid;padding:0.2em;" width="120"|设置名称
+!style="border:1px #AAA solid;padding:0.2em;" width="200"|标记
+!style="border:1px #AAA solid;padding:0.2em;"| 描述
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 地上
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_GROUND:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 最高地表级上方的空气Z级数。<br />对地表层有多少个Z级深度没有影响。
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 层1上方
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_1:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 第一洞穴层上方的石头Z级。将此值设置得更高将保证''至少''那么多级别来建造你的要塞，但不会影响地表层有多少个z级厚度。此外，洞穴的顶部可能比洞穴的其余部分更高，因此实际上在洞穴上方会有比这更多的"固体"级别。
+截至0.31.25版本，此设置不准确。实际的z级数可能在大约±5的范围内变化，这可能导致地表层和第一洞穴层之间不存在任何固体z级。
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 层2上方
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_2:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 第二洞穴顶部和第一洞穴底部之间的泥土Z级。
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 层3上方
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_3:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 第三洞穴顶部和第二洞穴底部之间的泥土Z级。
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 层4上方
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_4:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 最高岩浆和第三洞穴底部之间的泥土Z级。<br />剧透隐藏（选择不可见文本阅读）：<span style='color:#eee;'>将此值设置得很高将为HFS矿脉提供大面积，使其永远不会接触洞穴，如果之前影响洞穴，则提供更多可开采的'''如果'''。</span>
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 层5上方
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_5:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 不确定。可能控制HFS和岩浆之间的"半熔岩"级别数，可能控制岩浆级别数，可能影响两者。<br />在实验中，所有岩浆海和半熔岩级别的总深度似乎增加了，但不够一致，无法确定。<br />仅在存在岩浆层时有效。<br />剧透隐藏：<span style='color:#eee;'>通常HFS矿脉只会延伸到最高岩浆一样高，使这成为增加可开采HFS量的唯一保证方法，但不幸的是也会创建巨大的无用半熔岩z级</span>
+|-
+|style="border:1px #AAA solid;padding:0.2em;"| 底部
+|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_AT_BOTTOM:<number>]</nowiki>
+|style="border:1px #AAA solid;padding:0.2em;"| 似乎是HFS室的级别数。仅在存在底层时有效，通常没有影响。大于默认值的值会导致奇怪的事情。
+|}
+
+一些影响：
+* 目前无法控制地表层（例如土壤）的数量。例如，在一个有1层泥炭、然后一层淤泥、然后一层黑曜石的地图上，没有控制让你增加其中任何一个到，比如说，20个z级。（尽管你可能幸运地得到黑曜石）。
+* 洞穴和地表之间可以有多个石层，因此，增加层1上方的级别可能会给你更多砾岩或更多花岗岩，并且你无法控制哪个石层跨越这些Z级。
+* 出发时显示的层以未知和不一致的方式跨越洞穴层。有时那10层不同的石头均匀分布在你400个z级深的地图上，有时前9层各得到1个z级，最后一层得到其他391级。尚未找到控制方法。
+* HFS室（如果存在）将始终延伸到岩层中，并且似乎总是与底部洞穴接触。层5上方和层4的大值可能导致巨大的室，但顶部的级别数（有不死生物的部分）似乎不受影响。
+* 未确认洞穴之间的级别数是否对洞穴高度有任何影响。无论它们之间有多少级别，洞穴层之间都会有连接坡道和/或竖井。
+* '''非常重要'''：这些值似乎适用于整个16x16区域，而不仅仅是出发区域。这意味着如果16x16区域完全平坦，但在一个远角有一座高山，即使你将地上级别设置得很低（例如2个z级），你仍然在每个出发瓦片中拥有最高山的所有空气（例如200个z级）。也可能发生在半熔岩层上，并可能导致意外行为。
+* 非常大或小的值可能会导致奇怪的事情发生。
+
+=== 最小/最大天然洞穴大小 ===
+目前尚不清楚这些有什么影响，只是更改它们可以在一定程度上改变洞穴的位置。{{verify}}
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[CAVE_MIN_SIZE:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVE_MIN_SIZE:5]</nowiki></tt>
+| rowspan="2" | 范围：1到500
+|-
+| <tt><nowiki>[CAVE_MAX_SIZE:<number>]</nowiki></tt>
+| <tt><nowiki>[CAVE_MAX_SIZE:25]</nowiki></tt>
+|}
+
+=== 洞穴数量 ===
+在多山和非多山区域生成的洞穴数量，山地洞穴将始终在山脉边缘靠近非多山区域的地方生成。潜伏的[[kobold|狗头人]]在洞穴中建立据点，并在那里存储他们偷来的物品——在两者中设置为0将阻止狗头人文明出现。特别注意：洞穴最初不是[[lair|巢穴]]，尽管野兽以后可以将它们用作巢穴。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[MOUNTAIN_CAVE_MIN:100]</nowiki></tt>
+| rowspan="2" | 范围：0到800
+|-
+| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
+| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:200]</nowiki></tt>
+|}
+
+=== 神话遗址数量 ===
+在世界各地生成的[[mysterious dungeon|神秘遗址]]数量。将此设置为0的扩展影响尚未确定{{verify|chosen是否仍然可用？任务是否仍然给出？等}}。
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[MYTHICAL_SITE_NUM:<number>]</nowiki></tt>
+| <tt><nowiki>[MYTHICAL_SITE_NUM:200]</nowiki></tt>
+| rowspan="2" | 范围：0到800
+|}
+
+=== 使洞穴可见 ===
+如果设置为否（默认），则洞穴的位置不会在地图上标记。如果设置为是，洞穴将出现在地图上，以便可以根据需要寻找或避免它们。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ALL_CAVES_VISIBLE:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[ALL_CAVES_VISIBLE:0]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 允许初始化选项显示隧道 ===
+
+如果启用，你将能够在世界地图上看到矮人经常建造的地下隧道，它们将显示为黑线，类似于道路。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[SHOW_EMBARK_TUNNEL:<0-2>]</nowiki></tt>
+| <tt><nowiki>[SHOW_EMBARK_TUNNEL:2]</nowiki></tt>
+| 0 = 否<br/>1 = 仅在查找器中<br/>2 = 始终
+|}
+
+=== 文明数量 ===
+
+在历史生成开始之前，将在地图上放置这个数量的[[civilization|文明]]。这些文明可能后来因历史事件而消亡。值得注意的是，任何给定文明通过巨兽被摧毁的机会随着存在的文明总数的增加而减少[http://www.bay12forums.com/smf/index.php?PHPSESSID=7348f68f41a9659443c05b2acf534e6c&topic=112465.15 <sup>数据</sup>]。这五个种族是矮人、精灵、人类、哥布林和狗头人；它们通常以相等的数量放置，直到达到配额。如果没有足够的生物群系或其他世界生成先决条件以实现均匀分布，某些文明将比其他文明更频繁或更少见[http://www.bay12forums.com/smf/index.php?PHPSESSID=7348f68f41a9659443c05b2acf534e6c&topic=112465.15 <sup>数据</sup>]。如果有奇数个文明（不能被5整除），那么余数会随机分配。狗头人文明需要洞穴才能放置；如果不存在洞穴，则跳过狗头人，它们不会出现。这不会导致拒绝[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415125#msg3415125 <sup>数据</sup>]。哥布林文明需要多个恶魔，请参见上面的[[#Number_of_Demon_Types|恶魔类型数量]]部分。
+
+请注意，这里的高值可能会导致大量地图拒绝，特别是在较小的地图上，因为根本没有足够的空间或区域来放置所有这些文明。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[TOTAL_CIV_NUMBER:<number>]</nowiki></tt>
+| <tt><nowiki>[TOTAL_CIV_NUMBER:40]</nowiki></tt>
+| 范围：0到300
+|}
+
+=== 需要可玩文明 ===
+
+如果此项设置为是（默认），那么如果没有带有[[Entity token|CIV_CONTROLLABLE]]的文明可以放置，世界将被拒绝。在未修改的游戏中，只有矮人有此标记。
+
+如果设置为否，结果可能是一个无法在要塞模式下玩的世界。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:<1 or 0>]</nowiki></tt>
+| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:1]</nowiki></tt>
+| 1/0 = 是/否
+|}
+
+=== 最小中/低/高特征方块数 ===
+
+设置每个区域质量（如海拔、降雨、排水、火山活动、野蛮程度和温度）的某些范围的最小可能方块数。这些需要更改以反映你的区域网格和权重，并且是导致大量地图拒绝的原因。对于更古怪、非标准的地图，所有这些值都可以设置为0，以减少地图拒绝，特别是在这种情况下。
+
+除非随机生成至少给定数量的给定类型方块，否则这些值将导致世界被拒绝。将这些值设置得太高可能会导致世界总是被拒绝，如果诸如海拔等的最大/最小值等其他参数不允许生成足够多的这些方块。
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+! 标记
+! 示例
+! 注释
+|-
+| <tt><nowiki>[ELEVATION_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
+| <tt><nowiki>[ELEVATION_RANGES:8256:16512:8256]</nowiki></tt>
+| rowspan="5" | 必须具有给定属性的低、中、高量的最小方块数。<br/>
+0 = 无最小值
+|-
+| <tt><nowiki>[RAIN_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
+| <tt><nowiki>[RAIN_RANGES:8256:16512:8256]</nowiki></tt>
+|-
+| <tt><nowiki>[DRAINAGE_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
+| <tt><nowiki>[DRAINAGE_RANGES:8256:16512:8256]</nowiki></tt>
+|-
+| <tt><nowiki>[SAVAGERY_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
+| <tt><nowiki>[SAVAGERY_RANGES:8256:16512:8256]</nowiki></tt>
+|-
+| <tt><nowiki>[VOLCANISM_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
+| <tt><nowiki>[VOLCANISM_RANGES:8256:16512:8256]</nowiki></tt>
+|}
+
+==世界拒绝==
+
+:''主文章：[[World rejection]]''
+
+如果你遇到世界生成器总是拒绝生成的世界的常见问题，请参见[[v0.31:World rejection|解决世界拒绝问题（v0.31页面）]]，因为它包含许多关于如何排除故障和解决这些问题的详细建议。
+
+== 参数集示例 ==
+
+如果你想做一些特定的事情，那么[[Worldgen examples|世界生成示例]]——可以直接复制到你的''world_gen.txt''文件并根据需要自定义的完整参数集——可能会有所帮助。
+如果没有一个示例适合你的需求，[[Worldgen tricks|世界生成技巧]]有制作一个正适合你的世界的策略和技巧。
+
+有关更多、更多示例，请参见：
+* [http://www.bay12forums.com/smf/index.php?topic=101280 DF2012（v0.34）世界生成"食谱"帖子]
+* [http://www.bay12forums.com/smf/index.php?topic=140180 DF2014（v0.40）世界生成"食谱"帖子]
+* [http://www.bay12forums.com/smf/index.php?topic=168543.0 DF2014（v0.44.02+）世界生成"食谱"帖子]
+* [http://www.bay12forums.com/smf/index.php?topic=175538 DF2014（v0.47.01+）世界生成"食谱"帖子]
+* [http://www.bay12forums.com/smf/index.php?topic=180805.0 DF2022（v0.50.01+）世界生成"食谱"帖子]
+
+{{World}}

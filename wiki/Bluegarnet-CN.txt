@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_blue_garnet_sprite.png
+|graphic2=rough_blue_garnet_sprite.png
+|wiki=garnet}}
+{{av}}
+
+'''蓝榴石'''是一种[[Material value|珍贵的]]蓝色[[gem|宝石]]，可以在[[stone layer|变质岩层]]和[[granite|花岗岩]]中找到。
+
+[[File:blue_garnet.jpg|thumb|220px|center|蓝榴石]]
+
+{{gamedata}}
+{{gems}}

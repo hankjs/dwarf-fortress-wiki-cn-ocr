@@ -1,0 +1,24 @@
+{{Quality|Exceptional}}
+{{av}}
+
+{{For/see|冶炼的金属条或其他条状材料|[[Bar]]}}
+{{For/see|指定的酒馆位置|[[Tavern]]}}
+
+[[File:vertical_bars_sprite_preview.png|right]]'''竖栏'''和'''地板栏'''由坚固的栏杆格子组成，可以阻止除了发射（不是掉落）的[[ammunition|弹药]]、[[liquid|液体]]、被液体推动的物品和[[Tile attributes|低水平的光线]]之外的一切通过。栏可以垂直用作透明墙壁或在平坦表面上用作地板格栅。请注意，[[grate|格栅]]在功能上几乎与栏相同。
+
+栏最常用于密封打开的[[aqueduct|渡槽]]，用于[[water|水]]的通道，或者如果它们由[[magma-safe|防岩浆]]材料建造，则用于[[magma|岩浆]]，无论是为了防止矮人掉进去还是防止[[fire imp|火焰小鬼]]通过它们入侵。在这个角色中，它们类似于[[fortification|防御工事]]，也可以用于相同的目的，除了栏可以被[[building destroyer|建筑破坏者]]摧毁（防御工事不能）。建议用栏覆盖任何暴露的水道（地板栏不会阻止[[fishing|钓鱼]]或直接从[[activity zone#Water_Source|水源]]取水）以防止[[insanity|精神失常]]的矮人污染你的水供应，尽管这可能帮助不大：不幸的是，[[well|井]]不能加栏（但是，可以加[[grate|格栅]]！如果格栅在井和水之间的一层）。
+
+栏也可以像防御工事一样被[[Marksman|弩手]]和[[siege|敌人]]射穿，并且对双方都不提供保护（不像[[fortification|防御工事]]）。警告：[[building destroyer|建筑破坏者]]可以并且将会摧毁任何阻挡他们进入要塞路径的竖栏。由于一个漏洞，任何生物都可以简单地不受惩罚地穿过防御工事，栏和格栅成为阻止敌人进入（并让你自杀式近战痴迷的弩手留在里面）的最佳手段；尽管有漏洞，它们相对于防御工事只有一个小优势，即它们可以连接到[[lever|拉杆]]或[[pressure plate|压力板]]，允许它们在[[mechanism|机械]]被激活时缩回。
+
+地板栏，像地板格栅一样，会捕获已经在掉落的弹药。未击中目标的弹药不会开始掉落，除非它在空旷空间上方时击中墙壁。换句话说，栏或格栅（或简单的地板）可以用来从洞下方的一个z层捕获弹药，但如果格栅或栏放置在洞的表面，弹药将简单地被摧毁而不是掉落。
+
+== 放置 ==
+栏可以通过{{menu icon|b|n}}菜单由具有[[Hauling#Furniture_hauling|家具搬运]]劳动的矮人建造，并且需要一[[bar|条]]任何[[metal|金属]]来建造。它们可以构建为"竖栏"{{menu icon|b|n|M}}或水平的"地板栏"{{menu icon|b|n|m}}。地板栏旨在建在开放空间上，尽管可以直接建在现有地板上（主要用于增加[[room value|房间价值]]）。
+
+==参见==
+*[[Grate|格栅]]
+[[File:vertical_bars_preview.png|thumb|300px|center|没有什么比金属栏更能说"你出不去"了。]]
+{{Translation| dwarven = ish | elvish = emu | goblin = zak | human = tod}}
+
+{{Buildings}}
+{{Category|Constructions}}

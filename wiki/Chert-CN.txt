@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{stonelookup/0
+|graphic=chert_sprite.png}}
+{{av}}
+
+'''燧石'''是一种[[magma-safe|耐岩浆]]但在其他方面并不起眼的棕色[[stone|石头]]，在[[sedimentary layer|沉积层]]中发现。
+
+==现实生活中==
+燧石在[[limestone|石灰岩]]、[[chalk|白垩]]和[[dolomite|白云岩]]地层中以[[Vein|卵形到不规则结核]]的形式出现。一种特定的高质量燧石被称为打火石，用于石器工具，因为它碎裂时边缘锋利。将打火石磨尖以制造箭等武器的技术被称为[[knapping|打制石器]]。
+
+[[File:PP Pazderna, výstup buližníku (003).JPG|thumb|center|300px|燧石[[boulder|巨石]]。]]
+
+{{gamedata}}
+{{stones}}

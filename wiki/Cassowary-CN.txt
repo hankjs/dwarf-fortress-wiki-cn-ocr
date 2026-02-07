@@ -1,0 +1,39 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=cassowary_sprites.png
+|portrait=cassowary_portrait_anim.gif
+|bone=19
+|meat=14
+|fat=13
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|skull=1
+|skin=hide
+|contrib=no
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''鹤鸵'''是只在[[tropical|热带]]潮湿阔叶[[forest|森林]]中发现的不会飞的[[Creature|鸟]]。尽管被描述为小型，但实际上它们几乎和成年[[dwarf|矮人]]一样重，不过它们是温和的，如果被激怒通常会逃跑。如果它们对矮人进行反击，它们会更喜欢用踢来自卫。
+
+鹤鸵可以用[[cage|笼子]][[trap|陷阱]]捕获，并[[Animal trainer|训练]]成异国[[pet|宠物]]。它们在[[butcher|屠宰]]时给予可接受的回报量，也可以放在[[nest box|巢箱]]上产下少量[[egg|蛋]]。在不会飞的鸟类中，鹤鸵寿命最长，比[[ostrich|鸵鸟]]和[[emu|鸸鹋]]长约三倍。
+
+一些矮人[[preferences|喜欢]]鹤鸵，因为它们的''头盔''。
+
+
+[[Image:Jurong Southern Cassowary.jpg|thumb|center|300px|因其''头盔''而受到赞赏。]]
+
+
+{{D for Dwarf}}
+人类经常讲述极具攻击性的鹤鸵的故事，它们可以踢碎并撕裂几乎任何看起来不顺眼的东西。据他们说，这些鸟有一个脚趾实际上是一根矛，专门用来杀害无辜者。矮人作为动物王国的大师驯兽师，嘲笑鹤鸵不过是颜色花哨的家禽的想法，尽管将它们的矛趾武器化（并可能用它们的头盔作为斧头）的提议是很有吸引力的。
+
+{{gamedata}}
+{{creatures}}

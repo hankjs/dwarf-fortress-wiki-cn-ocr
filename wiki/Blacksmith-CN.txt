@@ -1,0 +1,49 @@
+{{Quality|Exceptional}}
+{{v50_skill
+| color      = 0:1
+| graphic    = [[File:metal_sprite_icon.png]]
+| graphicmargin = 106px
+| skill      = Blacksmith
+| specialty  = Blacksmith
+| profession = [[Metalsmith]]
+| job name   = [[Blacksmithing]]
+| tasks      =
+* Construct [[furniture]]
+* Construct [[cage]]
+* Construct [[bucket]]
+* Construct [[bin]]
+* Construct [[barrel]]
+* Construct [[pipe section]]
+* Construct [[anvil]]
+* Build certain metal [[building]]s
+| workshop =
+* [[Metalsmith's forge]]
+* [[Magma forge]]
+| attributes =
+* Strength
+* Agility
+* Endurance
+* Creativity
+* Spatial Sense
+* Kinesthetic Sense
+}}
+{{av}}{{Buggy}}
+
+'''铁匠'''[[skill|技能]]用于在[[metalsmith's forge|金属锻造炉]]制作[[furniture|家具]]（包括放置的[[tools|工具]]如[[bookcase|书架]]）、[[bucket|桶]]、[[bin|箱子]]、[[block|方块]]、[[cage|笼子]]和[[anvil|铁砧]]。它也用于建造使用材料相关劳动的金属建筑，例如[[trade depot|贸易站]]。
+
+尽管两者都在[[forge|熔炉]]的"家具"菜单下，[[chain|链条]]是由[[metal crafter|金属工艺师]]制作的，而[[animal trap|动物陷阱]]是由[[trapper|捕兽者]]制作的。金属[[mechanism|机械装置]]可以在[[metalsmith's forge|金属锻造炉]]用金属条制作，但使用的是[[mechanic|机械师]]技能。
+
+虽然对于新开局来说不是必需的技能，但随着你的要塞越来越成熟，铁匠技能变得极其重要。你最终会想开始用金属条而不是石头制作家具，以提高[[nobles|贵族]]和[[guildhall|行会大厅]]的房间价值。例如，用普通石头制作的大师级王座价值为50（10基础价值 * 1普通石头 * 2大师级 + 30大师级奖励），而用铂金制作的大师级王座价值为830（10基础 * 40铂金 * 2 + 30）。即使是用中等价值金属如[[brass|黄铜]]制作的最低质量物品，也比任何用石头制作的大师级物品价值高得多（当然不包括神器！）同样，如果你想让（一些）矮人更快乐，用他们[[preference|喜欢的]]金属制作家具（如果他们喜欢的石头不易获得）会是可取的。
+
+提升你的铁匠技能相当简单。让他们反复锻造使用铁匠技能的物品。训练的最优物品是金属桶，因为矮人每个桶获得60经验值，然后桶可以熔化回金属条，100%回收你的材料。如果你可以使用岩浆熔炉，你可以反复这样做而不使用任何燃料。小心不要熔化你的铁匠可能制作的任何大师级桶，因为这会导致负面想法，建议将你的大师级物品放在单独的储物堆中，这样你就不会意外熔化它们。一个没有铁匠技能的矮人需要锻造整整300个金属桶才能达到传奇技能水平。你还可以建立一个铁匠行会大厅，通过观看演示来提高矮人学习铁匠技能的速度。
+
+[[File:dwarf_blacksmith.gif|thumb|340px|center|如果他知道有多少哥布林的头会被那东西砍下来就好了。<br><small>''绘画作者：vertibirdo''</small>]]
+
+
+==漏洞==
+* 使用材料相关劳动建造的建筑（例如贸易站）可能需要"任何金属锻造技能"，但只会检查和提升铁匠技能，而不是任何其他符合条件的技能（例如武器锻造）。任何此类建筑的[[quality|质量]]仅基于此技能。{{Bug|4899}} {{verify|对于"铁匠"技能这是否仍然成立？}}
+
+{{Translation| dwarven = udir-eshtân | elvish = opa-macame | goblin = ogur-am | human = oth-semod}}
+
+{{Skills}}
+{{Category|Professions}}

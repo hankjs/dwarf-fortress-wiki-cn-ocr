@@ -1,0 +1,23 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Buggy}}
+[[File:arrow_preview.png|right]]'''箭'''是一种与[[bow|弓]]一起使用的[[ammunition|弹药]]。它们由[[wood|木质]]、[[bone|骨质]]或[[metal|金属]]箭杆顶端配有尖头组成（与现实生活不同，箭只由一种[[material|材料]]制成）。箭只适合与弓一起使用；它们不能从[[crossbow|弩]]中发射。在要塞模式中弓很少使用（如果有的话），因为高[[quality|质量]]的本地[[crossbow|弩]]和[[bolt|弩箭]]表现相当或更好。因此，箭的用途有限，尽管它们可以作为装满弓的武器[[trap|陷阱]]的弹药。箭也可以被[[thrower|投掷]]或用于近战，尽管有更好的武器。[[Dwarf|矮人]]不能制作箭，使潜在的弓矮人别无选择，只能从[[invader|入侵者]]和[[caravan|商队]]那里搜刮低[[quality|质量]]的箭。
+
+与所有抛射物一样，箭几乎可以穿透任何材料，并且在几乎任何情况下都非常危险。如果箭在撞击时没有折断，可以从地上或任何不幸成为有价值目标的生物的身体中回收。
+
+在[[adventure mode|冒险模式]]中，[[elf|精灵]]和[[human|人类]]玩家可以使用弓（因此使用箭），而矮人玩家不能。
+
+==漏洞==
+*如果一个小队被分配了多种弹药类型，拥有"个人选择远程"的矮人会携带错误类型的弹药{{bug|1374}}。
+
+{{Translation
+| dwarven = feb
+| elvish  = lari
+| goblin  = ost
+| human   = nek
+}}
+
+{{gamedata|{{raw|v50:item_ammo.txt|ITEM_AMMO|ITEM_AMMO_ARROWS}}}}
+{{Weapons}}
+
+{{Category|Ammo}}

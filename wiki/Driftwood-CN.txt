@@ -1,0 +1,13 @@
+{{Quality|Unrated}}
+{{av}}
+[[File:driftwood_sprite_preview.png|right]]'''Driftwood'''（浮木）是[[Ocean|海滩]]地图的一个特征。它会随时间补充，可以随机出现在[[ocean|海洋]]生物群系的任何非水域地块上。它不能被采集作为[[wood|木材]]，也不能被[[smoothing|平滑化]]。请注意，当浮木存在时，你无法看到该地块的岩石类型。
+
+可以通过{{k|b}}建造[[Road|道{{k|o}}路]]或建筑{{k|n}}（如[[Wall|墙{{k|l}}壁]]）在该地块上来移除浮木，这将把该地块转变为基础[[Stone|岩石]]类型的普通地块。移除建筑将留下普通的岩石或土壤地块。然而，[[Furniture|家具]]可以建在浮木上而不影响它。此外，浮木对[[dwarven atom smasher|矮人原子粉碎机]]免疫。只有当天然[[wall|墙壁]]落在上面时，[[Cave-in|坍塌]]才会摧毁浮木。
+
+当挖掘直接位于岩石或土壤层（即海底）上方的冰冻[[ocean|海洋]]部分时，浮木可能会出现，但不会出现在[[glacier|冰川]]中。
+
+浮木不会被[[magma|岩浆]]接触摧毁，但会被铸造的[[obsidian|黑曜石]]摧毁。
+[[File:driftwood2.jpg|thumb|330px|center|有时被无人称为"海岸木"。]]
+[[Category:Ocean]]
+{{Category|Map tiles}}
+[[Ru:Driftwood]]

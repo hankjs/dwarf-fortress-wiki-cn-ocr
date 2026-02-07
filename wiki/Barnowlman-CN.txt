@@ -1,0 +1,21 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=barn_owl_man_sprite.png
+|portrait=barn_owl_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+'''仓鸮人'''是普通[[barn owl|仓鸮]]的人形版本，是不起眼的[[animal people|兽人]]的一个[[Creature|物种]]，可在各种各样的[[savage|野蛮]][[biome|生物群系]]中找到。它们的体型略大于成年[[dwarf|矮人]]的一半，以5-10个个体为一组生成，除非被激怒，否则不太可能对你的要塞构成任何危险。所有仓鸮人天生拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮兽人一样，仓鸮人可能偶尔加入[[civilization|文明]]，成为完全成熟的公民，可能作为[[visitor|访客]]出现在你的要塞中，或在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]仓鸮人，因为它们的''颜色''。
+
+[[File:owl_man.png|thumb|200px|center|白天睡觉，但把它归咎于他的猫头鹰基因。而不是他的懒惰。]]
+
+{{D for Dwarf}}
+
+尽管有一些人类对年轻人讲述的神话和故事，但仓鸮人并没有被观察到比其他生物更聪明，尽管它们天生被博物馆和学术职业所吸引，可能会让人相信这样的事情是真的，尤其是当这些猫头鹰在谈话中提到任何文物时喋喋不休地说个不停。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

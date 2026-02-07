@@ -1,0 +1,12 @@
+{{Quality|Unrated}}
+{{av}}
+
+{{removed feature}}
+
+'''建筑列表屏幕'''是一个列出已建造建筑及其价值的屏幕。
+
+在当前版本中，'''[[Places|地点]]'''{{Menu icon|P}}菜单提供类似的信息，但不包括价值。
+
+{{Category|Interface}}
+
+[[ru:Building list]]

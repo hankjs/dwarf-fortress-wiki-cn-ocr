@@ -1,0 +1,12 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_black_opal_sprite.png
+|graphic2=rough_black_opal_sprite.png}}
+{{av}}
+
+'''黑欧泊'''是珍贵的[[gem|宝石]]，几乎可以在任何地方找到。它们在所有欧泊中拥有最高的[[material value|材料价值]]。
+
+[[File:Opal-black1.jpg|center|thumb|300px|黑欧泊。]]
+
+{{gamedata}}
+{{gems}}

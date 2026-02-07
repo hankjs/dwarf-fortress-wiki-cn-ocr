@@ -1,0 +1,34 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=capybara_sprites.png
+|portrait=capybara_portrait_anim.gif
+|contrib=no
+|bone=11
+|skin=hide
+|skull=1
+|fat=11
+|meat=11
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''水豚'''是[[amphibious|两栖]][[creature|生物]]，可以在[[wetland|湿地]]中找到，以5-10个个体为一组出现。它们比[[Dwarf|矮人]]小，虽然不完全无害，但很少对平民构成威胁，如果可能的话更倾向于避免冲突（但它们会攻击宠物狗之类的动物，甚至可能因在你的牧场上的杀戮而获得名号）。它们拥有成为少数几种在[[adventurer mode|冒险模式]]中发出[[noise|声音]]的生物之一（与[[kakapo|鸮鹦鹉]]一样）的特殊地位，游戏会在你接近它们时描述它们的口哨声、吠叫声、咔嗒声、咕噜声和呼噜声。新生的水豚被称为''幼崽''。
+
+水豚可以用[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|驯兽师]]驯化成[[pet|宠物]]。鉴于它们的大群数量，捕获大量水豚相对容易，而且它们在被[[butcher|屠宰]]时提供大量回报，使它们成为[[meat industry|肉类产业]]的理想目标。请注意，被驯化的水豚是[[grazer|食草动物]]，因此需要[[pasture|牧场]]才能生存。由水豚部位制成的产品价值是由普通家畜制成的产品的[[Multiply value|两倍]]。
+
+一些矮人因为水豚的''巨大的啮齿性''、''优雅的游泳''或''洪亮的吠叫''而[[preference|喜欢]]它们。
+
+[[Image:capybara.jpg|thumb|400px|center|因其''巨大的啮齿性''而受到赞赏]]
+
+{{Gamedata}}
+{{Creatures}}
+{{Category|Animals}}

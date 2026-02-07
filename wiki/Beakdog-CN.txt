@@ -1,0 +1,42 @@
+{{Quality|Superior}}
+{{Creaturelookup/0
+|image=beak_dog_sprites.png
+|portrait=beak_dog_portrait.png
+|bone=16
+|meat=11-13
+|fat=11
+|lung=2|
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|skull=1
+|skin=hide
+|gizzard_stone=1
+|wiki=no
+|contrib=no
+}}
+{{av}}
+{{creaturedesc}}
+'''Beak dogs'''（喙犬）是一种怪异的[[Creature|生物]]物种，大小如[[gorilla|大猩猩]]，像鸟一样的群居猎手，在[[surroundings#evil|邪恶]][[Wetland|沼泽地]]中被发现。它们成群出现，数量为三到七只，占据着与[[Wolf|狼]]在更正常的[[surroundings|环境]]中相同的生态位。在要塞出发风味屏幕中，有时会警告您快速挖掘大地"在狼变饿之前"，但在实际游戏中，狼太小了，不会机会性地攻击[[dwarves|矮人]]，而是更喜欢捕食较小的生物。相比之下，喙犬不受这种缺陷的限制：它们几乎是狼的四倍大（平均矮人[[size|大小]]的两倍半），它们[[raw file|原始文件]]中的{{token|LARGE_PREDATOR}}[[creature token|标记]]与狼共享，意味着如果有机会，它们会吃掉出现在它们面前的任何矮人。这显然使它们非常危险。
+
+喙犬可以在[[cage|笼子]][[trap|陷阱]]中捕获，并[[Animal trainer|训练]]成[[pet|宠物]]。它们在[[goblin|哥布林]][[civilization|文明]]中被视为[[domestic animal|家畜]]，因此总是与它们一起被发现，经常在[[siege|围攻]]期间被用作攻击动物或[[mount|坐骑]]。[[Mission|突袭]]哥布林定居点可能会导致您的矮人将大量驯服的喙犬作为战利品带到您的要塞，这是获得这些生物的最简单方法 - 它们在[[meat industry|肉类产业]]中表现良好，也可以用于[[egg production|蛋类生产]]，比任何传统的产蛋牲畜都要大得多。此外，它们的部位[[Item value|价值]]是无聊的狗部位的两倍。
+
+[[Main:Toady One|Toady One]]曾说过它们基于[http://www.bay12forums.com/smf/index.php?topic=32985.msg485243#msg485243 各种来源]。
+
+一些矮人[[Preferences|喜欢]]喙犬的''大喙''、''驼背''以及它们的''喋喋声和咔嗒声''。
+
+{{Translation| dwarven = emuth idar | elvish = etini macetha | goblin = gosma anot | human = kes sheka}}
+<gallery widths="250px" heights="300px">
+File:GoblinAndBeakDog.jpg|喙犬和它的哥布林骑手，由[[Main:Bay 12 Games|Bay 12 Games]]用蜡笔绘制。
+File:beak_dog_killed.jpeg|Urist也喜欢喙犬的可压碎的头部。<br><small>''Art by kruggsmash''</small>
+File:beakdog_art.png|喙犬的另一种艺术诠释。<br><small>''Art by King Agrian''</small>
+</gallery>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

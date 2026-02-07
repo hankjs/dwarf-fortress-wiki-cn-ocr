@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{verminlookup/0
+|image=blood_gnat_sprite.png
+|portrait=blood_gnat_portrait.png
+|wiki=no}}
+{{av}}
+{{creaturedesc}}
+
+'''血蚋'''是一种[[hateable|令人讨厌的]][[above ground|地上]][[vermin|害虫]]，在[[evil|邪恶]]地区的[[pool|水池]]附近成群出现。它们可能在[[rot|腐烂的]][[food|食物]]附近生成，并会在对它们特别反感的[[dwarves|矮人]]中激发不愉快的[[thought|想法]]。尽管有描述，它们除了上述不愉快的想法外不会对矮人造成伤害。
+
+一些矮人[[preference|喜欢]]血蚋，因为它们的''对血液的渴望''和''搏动的肿块状身体''。
+
+[[File:Vermin-BloodGnat.jpg|thumb|center|329px|因其''对血液的渴望''而受赞赏。]]
+
+{{gamedata}}
+{{Vermin}}

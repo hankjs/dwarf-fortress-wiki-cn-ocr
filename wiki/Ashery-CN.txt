@@ -1,0 +1,44 @@
+{{Quality|Exceptional}}
+{{V50 workshop
+|name=灰烬作坊
+|icon=[[File:ashery_icon.png]]
+|key=y
+|job=
+* [[Potash maker|草木灰制作]]
+* [[Lye maker|碱液制作]]
+|construction=
+* [[Block|块]]
+* [[Barrel|桶]]（空的）
+* [[Bucket|水桶]]（无碱液/牛奶）
+|construction_job=
+* [[Potash maker|草木灰制作]]
+* [[Lye maker|碱液制作]]
+|use=
+* [[Ash|灰烬]]
+* [[Lye|碱液]]
+* [[Quicklime|生石灰]]
+* 空[[Bucket|水桶]]
+|production=
+* [[Lye|碱液]]
+* [[Potash|草木灰]]
+* [[Milk of lime|石灰乳]]
+}}{{av}}
+'''灰烬作坊'''是一个用于制作[[lye|碱液]]、[[potash|草木灰]]和[[milk of lime|石灰乳]]的[[workshop|作坊]]。要建造灰烬作坊，你需要一个[[block|块]]*、一个[[barrel|桶]]、一个[[bucket|水桶]]，以及启用了[[potash maker|草木灰制作]]或[[Lye maker|碱液制作]][[labor|劳动]]的人。
+
+: (* 值得注意的是，这与大多数其他作坊不同，你不能使用粗糙的[[stone|石头]]或[[log|原木]]来建造灰烬作坊，它''必须''是某种块。该块不需要[[fire-safe|防火]]。)
+
+碱液是[[soap|肥皂]]的主要成分之一，肥皂用于[[cleaning|清洁]][[wound|伤口]]和要塞，而石灰乳则用于将生[[skin|皮]]制成[[parchment|羊皮纸]][[sheet|页]]供[[paper industry|造纸业]]使用。[[Potash|草木灰]]用于给[[farm plot|农场]]施肥，从而提高[[plants|植物]]的产量，也用于制作[[pearlash|珍珠灰]]，这是制作[[clear glass|透明玻璃]]和[[crystal glass|水晶玻璃]]的必需品。
+
+==任务==
+
+*制作碱液
+*用碱液制作草木灰
+*用灰烬制作草木灰
+*制作石灰乳
+
+==另见==
+
+*[[Soap|肥皂]]
+*[[Farming|农业]]
+
+{{Workshops}}

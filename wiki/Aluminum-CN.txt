@@ -1,0 +1,39 @@
+{{Quality|Fine}}
+{{Metal
+|name=Aluminum
+|graphic=aluminum_bar_sprite.png
+|sample=
+[[File:AluminumSample.png|256px|center|frameless]]
+|color=7:7:1
+|uses=
+* [[Metalsmith's forge|金属制作]]
+|ore=
+* [[File:ore_dullgrey_sprite.png]] [[Native aluminum|天然铝]]
+|properties=
+* [[Material value|材料价值]] 40☼
+* [[Material science|冲击强度]] 175 MPa
+* [[Material science|剪切强度]] 50 MPa
+{{firemagmasafe|yes|no}}
+* [[Melting point|熔点]] {{ct|11188}}
+* [[Boiling point|沸点]] {{ct|14534}}
+* [[Ignition point|燃点]] 无
+* [[Solid density|固体密度]] 2700 kg/m³
+* 液体[[density|密度]] 2375 kg/m³
+* [[Specific heat|比热容]] 900 J/kg·K
+* [[Color|颜色]] 白色
+}}{{av}}
+
+
+'''铝'''是一种高价值的装饰性金属，用于制作[[furniture|家具]]和其他物品，但不能锻造成[[weapon|武器]]或[[armor|盔甲]]。
+
+铝的[[material value|材料价值]]为40，与[[platinum|铂]]并列为游戏中第二高价值的[[metal|金属]]，仅次于无与伦比且极其罕见的[[adamantine|精金]]。它也是第二轻的金属，同样仅次于[[adamantine|精金]]。它唯一的[[ore|矿石]]是[[native aluminum|天然铝]]，而且只能极其罕见地找到，仅以小[[cluster|簇]]的形式出现在[[igneous extrusive|喷出岩]][[stone layer|岩层]]中。
+
+[[File:Statue of Saint Florian, Lend.jpg|thumb|left|300px|铝雕像。]]
+
+==现实世界 vs. 矮人要塞：==
+铝实际上是地壳中最丰富的金属，也是第三丰富的元素，但在《矮人要塞》世界中只能从纯矿床中获取；由于铝具有高度反应性，这些矿床极其罕见。这与金属的现实情况相符，因为在1886/1888年[[wikipedia:Hall–Héroult process|霍尔-埃鲁法]]（利用电解，因此超出了游戏设定的技术水平）发明之前以及从[[bauxite|铝土矿]]中轻松提取金属之前，铝的价值是黄金的许多倍。
+
+据说拿破仑三世曾举办过一次宴会，他的贵宾获得了铝制餐具，而其他人则只能使用普通的[[gold|黄金]]餐具。当华盛顿特区华盛顿纪念碑的尖顶用纯铝锻造时，它是（并且在上述工艺发明之前一直是）最大的单个金属铝物品。
+
+{{gamedata}}
+{{metals}}

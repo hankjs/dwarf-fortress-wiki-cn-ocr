@@ -1,0 +1,33 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=peafowls_sprites_anim.gif
+|portrait=peacock_portrait_anim.gif
+|meat=6-9
+|fat=6-8
+|intestine=1
+|bone=4-6
+|skull=1
+|skin=hide
+|contrib=no
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+'''蓝孔雀'''是[[goose|鹅]]大小的[[Domestic animal|家养]][[Creature|鸟类]]，出现在[[tropical|热带]]阔叶[[forest|森林]]中。雄性（''孔雀''）有明亮的蓝色羽毛和尾羽，形成大型的"眼状"扇形。雌性（''孔雀母''）有棕色羽毛，并在[[nest box|巢箱]]中产[[egg|蛋]]。如果有雄孔雀存在且蛋没有被[[food hauling|收集]]，它们最终可能孵化成''小孔雀''。小孔雀在孵化后1年成长为成年。
+
+孔雀可以作为家禽业的基础。它们通常可以在[[embark|出征]]时购买或从[[trader|商人]]处购买。孔雀、[[duck|鸭子]]、[[goose|鹅]]和[[turkey|火鸡]]是唯一可以在野生种群中找到的常见家养产蛋动物，如果你的要塞包含适当的[[biome|生物群系]]，可以用[[cage trap|笼式陷阱]]收集并[[animal trainer|驯服]]，而不是从商人处或在出征时购买。
+
+[[Domestic_animal#Comparison of domestic poultry|平均而言]]，孔雀母产的蛋比[[chicken|母鸡]]稍少，但更稳定（因此可预测），每窝产6到8个蛋。此外，作为[[meat industry|肉类产业]]的一部分，孔雀在屠宰时比鸡产生更多的[[meat|肉]]、[[fat|脂肪]]和[[bone|骨头]]。然而，[[turkey|火鸡]]产的蛋更多，产生的肉、脂肪和骨头也比孔雀多，尽管火鸡需要两倍的时间才能长到完全体型。孔雀也是所有家养鸟类中寿命最长的；这使它们非常适合家养动物的其他用途，例如将它们封在"[[defense_guide#Animals|瞭望塔]]"中。由于它们不吃不喝，可以在1×1的区域中放牧，连续盯着窗户和/或防御工事长达15年，它们成为有用的监视鸟，可以防止哥布林伏击悄悄溜过去。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]蓝孔雀，因为它们的''色彩''和''巨大的扇形尾巴''。
+
+[[File:Common Peafowl (Pavo cristatus) RWD2.jpg|thumb|400px|center|因其''巨大的扇形尾巴''而受赞赏。]]
+
+
+{{D for Dwarf}}
+
+蓝孔雀的所有品质都表明它将是[[egg production|产蛋]]和[[meat industry|肉类产业]]的绝佳选择。然而，有一个小问题。在晚上，蓝孔雀喜欢在[[tree|树]]上栖息。这种精灵式的行为对于矮人拥有的任何生物来说都是不合适的（尽管有些人认为吃"树栖息者"会向<s>喜欢树的嬉皮士</s>精灵们传递正确的信息）。
+
+{{Gamedata}}
+{{Creatures}}
+{{Category|Animals}}

@@ -1,0 +1,32 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=beetle_man_sprite.png
+|portrait=beetle_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''甲虫人'''是普通[[beetle|甲虫]]的[[animal people|兽人]]变种，能够栖息在大多数[[savage|野蛮]][[biome|生物群系]]中，以2-5个个体为一组出现，通常满足于独处，但如果被激怒可能会挑起战斗。就体型而言，它们略超过普通[[dwarf|矮人]]体重的一半。像普通甲虫一样，它们有一对翅膀，但无法用它们飞行。所有甲虫人天生就拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮兽人一样，甲虫人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]甲虫人，因为它们的''保护性外壳''。
+==Gallery==
+<center>
+<gallery widths="250px" heights="250px">
+File:beetle_man.jpg|Sort of "comes with" armor.
+File:Beettleman png.png|Art by [[User:Jeff Agudelo|Jeff Agudelo]]''
+</gallery></center>
+{{D for Dwarf}}
+如果允许在要塞中居住，甲虫人可能会组建极受欢迎的摇滚乐队。已知这些乐队会引起一种[[strange mood|奇异心情]]，主要影响年轻的女性矮人。
+
+戴着面具的甲虫人曾被目击与[[slug man|蛞蝓人]]互动，对红色成员表现出特别的攻击性。
+
+<!-- warning: massive amounts of cope, mald, and seethe incoming -->
+已知成群结队的五个甲虫人是肮脏、卑鄙、令人厌恶的作弊渣滓，永远不应该被给予幸福的结局。
+
+{{Translation| dwarven = ngárak udos | elvish = pama onino | goblin = strog ngorûg | human = agthreb abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

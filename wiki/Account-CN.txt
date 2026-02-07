@@ -1,0 +1,7 @@
+{{Quality|Unrated}}
+{{av}}
+
+'''账户'''（Account）是一个抽象数字，追踪给定实体（[[Company|公司]]、[[guild|行会]]等）或[[historical figure|历史人物]]的财富数量。虽然游戏还没有适当的[[economy|经济]]，但账户系统为腐败机制提供了一些目标，例如挪用公款（将"资金"从站点转移到个人）或破坏（抽象地减少站点的资金）。此外，拥有大量账户的富有[[historical figure|历史人物]]可能会抢占[[town|城镇]]中的[[house|房屋]]或塔楼。[[Mercenary|雇佣兵]]公司也从他们的账户中提取资金来升级他们的武器，如果破产可能会解散。
+
+{{Category|Game mechanics}}
+[[ru:Account]]

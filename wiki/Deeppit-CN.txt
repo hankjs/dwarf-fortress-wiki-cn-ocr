@@ -1,0 +1,12 @@
+{{migrated article}}
+{{av}}
+{{Quality|Unrated}}
+
+'''深坑'''是一种地下空洞特征，基本上是从一个[[caverns|洞穴]]层向下延伸到下一层的固定形状的洞。深坑与洞穴相交的顶层[[z-level|Z层]]是未泥化的粗糙岩石地面，正常的深坑空间与洞穴的随机岩石尖塔在此碰撞。
+
+深坑充当了下层生物通往你堡垒的飞行者专用通道，这<strike>是件坏事</strike>可能会很[[fun|有趣]]。另一方面，它们可以用于垃圾处理和收缩[[bridge|桥梁]][[trap design|陷阱]]，因为从上到下的距离很长很长，会将任何掉下去的东西变成血淋淋的碎片。
+
+{{Translation| dwarven = thol gor | elvish = èna nimo | goblin = sodor slömod | human = galka uta}}
+
+{{Category|World}}
+{{world}}

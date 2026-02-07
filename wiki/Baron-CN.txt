@@ -1,0 +1,76 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Noble
+| noble= Baron
+| office= Decent Office
+| quarters= Decent Quarters
+| dining= Decent Dining Room
+| tomb= Tomb
+| chests=2
+| cabinets=1
+| racks=1
+| stands=1
+| mandates=1
+| demands=2
+| arrival=
+* 20人口
+* 100 000☼生产[[wealth|财富]]
+* 10 000☼出口[[wealth|财富]]
+| function=
+* 会见[[diplomat|外交官]]
+* 任命一名[[Champion|冠军]]
+}}{{av}}
+
+当要塞满足某些要求时，[[liaison|联络官]]将提议使其成为男爵领地。玩家随后将可以选择一名公民晋升为'''男爵'''，当联络官离开地图时生效（"你有任何矮人推荐晋升吗？"）。这个提议可以被暂时拒绝（通过选择"我们宁愿保持距离"选项或在同意后取消选择屏幕），将选择推迟到联络官下次访问。在提议被接受并提名候选人之前，联络官将不会协商贸易协定。晋升屏幕（见下面的示例）仅显示潜在候选人的姓名和头衔。自v0.50起，可以按{{k|esc}}关闭外交窗口，在{{menu icon|u}}单位菜单中搜索潜在候选人，然后回到外交窗口相应地任命新男爵。男爵是你的要塞在矮人和人类[[caravan|商队]]中接收[[wagon|货车]]所必需的。如果男爵被杀或在异地任务中失踪，你将不再获得货车（bug?）。
+
+公民也有可能继承男爵（或女男爵）头衔，即使来自另一个地点，立即使该公民获得贵族地位。这可能导致要塞被从未离开他们所统治地点的男爵（或女男爵）所淹没。
+
+如果被任命的男爵（或女男爵）已[[marriage|结婚]]，那么配偶将成为男爵（或女男爵）配偶，并被视为未列出的贵族（不出现在{{menu icon|n}}贵族菜单中，但在{{menu icon|u}}单位菜单中被列为[[noble|贵族]]）。
+
+一旦被任命，当地男爵（或女男爵）可以发布[[mandate|命令]]和[[demand|要求]]，这些将受到他或她个人[[preference|偏好]]的强烈影响。特别值得注意的是，没有物品偏好的男爵（或女男爵）将永远不会发布任何命令（但仍可能提出要求）。如果任命了一个不发命令的人，提供额外的快乐[[thought|想法]]来替代满足命令所获得的想法可能是个好主意。
+
+被选中的男爵（或女男爵）仍可能执行他/她正常生活中的有用劳动（例如作为矿工）。然而，由于男爵应该是一个[[Noble#Notes|懒惰的贵族]]，这在所有0.50.xx之前的版本中（到目前为止）似乎是一个意外的、损坏的行为，可能会在未来的版本中修复。
+
+如果男爵死亡、发疯或发生[[unfortunate accident|不幸事故]]，玩家将无法任命新男爵{{bug|2960}}，因此无法获得从男爵升级的其他贵族，即[[count|伯爵]]和[[duke|公爵]]。然而，在至少某些情况下，要塞仍然可以最终成为其文明[[monarch|君主]]的所在地，在这种情况下，男爵（或伯爵/公爵）至少有时会作为君主随从的一部分到达要塞。你可以在[[Utility:DFHack|这里]]找到[[Wagon#When_do_caravans_bring_wagons.3F|DFhack]]解决方法。
+
+[[File:Barony appointment.PNG|200px|thumb|right|详细说明如何任命男爵的图片。ASCII模式。]]
+
+{{gamedata|	[POSITION:BARON]
+		[NAME_MALE:baron:barons]
+		[NAME_FEMALE:baroness:baronesses]
+		[SPOUSE_MALE:baron consort:barons consort]
+		[SPOUSE_FEMALE:baroness consort:baronesses consort]
+		[NUMBER:AS_NEEDED]
+		[LAND_HOLDER:1]
+		[LAND_NAME:a barony]
+		[RESPONSIBILITY:LAW_MAKING]
+		[RESPONSIBILITY:RECEIVE_DIPLOMATS]
+		[SUCCESSION:BY_HEIR]
+		[APPOINTED_BY:MONARCH]
+		[REPLACED_BY:COUNT]
+		[PRECEDENCE:40]
+		[SPECIAL_BURIAL]
+		[MENIAL_WORK_EXEMPTION]
+		[MENIAL_WORK_EXEMPTION_SPOUSE]
+		[SLEEP_PRETENSION]
+		[PUNISHMENT_EXEMPTION]
+		[FLASHES]
+		[BRAG_ON_KILL]
+		[CHAT_WORTHY]
+		[DO_NOT_CULL]
+		[KILL_QUEST]
+		[COLOR:5:0:0]
+		[ACCOUNT_EXEMPT]
+		[DUTY_BOUND]
+		[DEMAND_MAX:2]
+		[MANDATE_MAX:1]
+		[REQUIRED_BOXES:2]
+		[REQUIRED_CABINETS:1]
+		[REQUIRED_RACKS:1]
+		[REQUIRED_STANDS:1]
+		[REQUIRED_OFFICE:500]
+		[REQUIRED_BEDROOM:500]
+		[REQUIRED_DINING:500]
+		[REQUIRED_TOMB:500]}}
+{{Nobles}}
+{{Category|Aristocrats}}

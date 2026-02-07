@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_amber_opal_sprite.png
+|graphic2=rough_amber_opal_sprite.png
+|wiki=Opal
+}}
+{{av}}
+
+'''琥珀欧泊'''是装饰品质的[[gem|宝石]]，可以以小[[cluster|簇]]的形式在任何[[stone|石头]]中找到。在欧泊中，它的[[material value|价值]]不是很高；[[bone opal|骨]]、[[cherry opal|樱桃]]、[[gold opal|金]]、[[jasper opal|碧玉]]、[[milk opal|乳]]、[[moss opal|苔藓]]、[[onyx opal|玛瑙]]、[[pineapple opal|菠萝]]、[[pipe opal|管]]、[[prase opal|葱绿]]、[[resin opal|树脂]]、[[shell opal|贝壳]]、[[wax opal|蜡]]和[[wood opal|木]]欧泊的价值都相同。
+
+[[File:10.95cts Grey Opal Landscape.JPG|center|thumb|290px|琥珀欧泊。]]
+
+{{gamedata}}
+{{gems}}

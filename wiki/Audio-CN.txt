@@ -1,0 +1,213 @@
+[[File:audio_preview.png|right]]
+:''关于干扰矮人睡眠的"声音"，请参见[[Noise|噪音]]。
+
+''矮人要塞''包含在游戏中各个时刻播放的[[soundtrack|音乐曲目]]，包括主菜单主题。某些类型的'''音频'''似乎由事件触发，而其他则在满足某些条件时随机播放。这些似乎包括一些[[weather|天气]]声音、野外环境音、建筑声音、河流等。
+
+根据[[Toady One|Tarn]]的说法，每个曲目都有不同的设置。一个取决于洞穴是否开放，一个只在第二年之后播放，一个是第一年的曲目。Strike the Earth在你第一次开拓时播放，然后之后与其他曲目混合播放。等等；有一个原始格式可以让你根据喜好更改它。[http://www.bay12forums.com/smf/index.php?topic=169696.msg8403423#msg8403423]
+
+游戏音频设置可以在[[Settings#Audio|设置]]菜单中调整。
+== 模组==
+<div id="test1" style="margin-bottom:-20px;">{{main|modding}}</div>{{Modding}}
+''矮人要塞''使用的所有声音和[[Soundtrack|音乐]]文件都以[https://en.wikipedia.org/wiki/Ogg .ogg]格式存储在<code>[[Game folder|<Dwarf Fortress>]]/data/sound/</code>子文件夹中。你可以用不同的ogg文件替换现有的。这必须手动执行，并且游戏实际上不支持。你也可以使用[[raw file|原始文件]]中可用的音乐标记和声音标记来更改某些音乐提示播放时间的某些定义，这些文件位于<code>[[Game folder|<Dwarf Fortress>]]\data\vanilla\vanilla_music\</code>。你可以在sound文件夹中使用原始文件添加新音乐和声音{{version|0.50.09}}，格式如下：
+
+==标识符==
+为了让游戏一致地读取音频文件，必须给它们一个标识符。标识符可以是任何任意字符串，就像任何其他原始对象一样。
+
+标识符文件存储在模组的<code>sound/</code>目录中（不是<code>objects/</code>目录，播放它们的逻辑存储在那里），它们的名称必须以<code>sound_file_</code>或<code>music_file_</code>开头。
+
+它们的第一行必须是文件名，后跟<code> [OBJECT:SOUND_FILE]</code>或<code>[OBJECT:MUSIC_FILE]</code>。
+
+ sound_file_example
+ [OBJECT:SOUND_FILE]
+ [SOUND_FILE:<identifier>]
+     [FILE:file name]
+
+ music_file_example
+ [OBJECT:MUSIC_FILE]
+ [MUSIC_FILE:<identifier>]
+     [FILE:file name]
+     [AUTHOR:author name]
+     [LOOPS] optional
+     [TITLE:piece title]
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+!标记
+!参数
+!额外信息
+|-
+| {{text anchor|FILE}}
+|
+* 音频路径
+| （必需）通常存储为<code>sound/...ogg</code>。
+|-
+| {{text anchor|AUTHOR}}
+|
+* 字符串
+| （仅限音乐）在暂停菜单上显示为歌曲作者。
+|-
+| {{text anchor|LOOPS}}
+|
+| （仅限音乐）如果设置，应该持续播放直到被中断。{{verify}}
+|-
+| {{text anchor|TITLE}}
+|
+* 字符串
+| （仅限音乐）在暂停菜单上显示为曲目标题。
+|}
+
+==音效==
+
+所有原版声音标记都在<code>objects/sound_standard.txt</code>中找到。所有声音定义原始文件必须以<code>sound_</code>开头，后跟<code>[OBJECT:SOUND]</code>标记，告诉游戏该文件包含声音定义。
+
+ [SOUND:<identifier>]
+     [FILE:<[[Audio#Identifiers|file identifier]]>]
+     [ANNOUNCEMENT:<announcement>]
+     ...
+     [ANNOUNCEMENT:<announcement n>]
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+!标记
+!参数
+!额外信息
+|-
+| {{text anchor|FILE}}
+|
+* [[Audio#Identifiers|声音文件]]
+| （必需）[[Audio#Identifiers|文件标识符]]可以是各种硬编码声音（全部存在于原版原始文件中）或自定义[SOUND_FILE]对象中的任何一个。
+|-
+| {{text anchor|ANNOUNCEMENT}}
+|
+* [[Announcements.txt|公告]]
+| 触发条件，可以在列表中使用多个公告。
+|-
+| {{text anchor|SAVAGE_AREA}}
+|
+| 在[[Surroundings#Savage|野蛮]]区域中随机播放。
+|}
+
+==音乐曲目==
+所有原版音乐标记都在<code>objects/music_standard.txt</code>中找到。所有音乐逻辑原始文件必须以<code>music_</code>开头，后跟<code>[OBJECT:MUSIC]</code>标记，告诉游戏该文件包含音乐定义。
+
+ [MUSIC:TRACK_02]
+ 	[FILE:EXPANSIVE_CAVERN]
+ 		[CARD:EXPANSIVE_CAVERN_CARD_1] for the shuffled deck of short bits
+ 		[CARD:EXPANSIVE_CAVERN_CARD_2]
+ 		[CARD:EXPANSIVE_CAVERN_CARD_3]
+ 		[CARD:EXPANSIVE_CAVERN_CARD_4]
+ 	[EVENT:FIRST_CAVERN_OPENED]
+ 	[CONTEXT:CAVERNS_OPENED]
+ 	[FREQUENCY:UNCOMMON]
+
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+!标记
+!参数
+!额外信息
+|-
+| {{text anchor|FILE}}
+|
+* [[Audio#Identifiers|音乐文件]]
+| （必需）可以是[[soundtrack|配乐]]的许多硬编码[[Audio#Identifiers|文件]]中的任何一个，也可以是自定义[MUSIC_FILE]对象。
+|-
+| {{text anchor|CARD}}
+|
+* [[Audio#Identifiers|音乐文件]]
+| 大部分未探索，列为"洗牌的短片段"。似乎只在当前没有歌曲播放时播放？在歌曲正式开始之前，游戏将以随机顺序播放其中的几个。你可以在...\common\Dwarf Fortress\data\sound\tracks文件夹的子文件夹中找到这些部分。
+|-
+| {{text anchor|CONTEXT}}
+| [[Audio#Contexts|上下文]]
+| 如果满足任何上下文，这首歌可以随机播放。
+|-
+| {{text anchor|EVENT}}
+| [[Audio#Events|事件]]
+| 当选择的事件发生时，这首歌会自动播放并覆盖当前歌曲。如果多首歌曲匹配该事件，将从中随机播放一首歌曲。
+|-
+| {{text anchor|FREQUENCY}}
+|
+* UNCOMMON或RARE
+| 可以设置为'UNCOMMON'，将频率设置为其他候选者的一半，或'RARE'，使其成为其他候选者的1/5。
+|}
+
+===上下文===
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+!标记
+!额外信息
+|-
+| {{text anchor|ANY}}
+| 可以在任何时候播放，包括在菜单中。
+|-
+| {{text anchor|MAIN}}
+| 游戏模式是[[Fortress Mode|要塞模式]]。
+|-
+| {{text anchor|FIRST_YEAR}}
+| 你正在控制一个不到一年的要塞。
+|-
+| {{text anchor|SECOND_YEAR_PLUS}}
+| 你的要塞已经存在了一年以上。
+|-
+| {{text anchor|CAVERNS_OPENED}}
+| 你的要塞可以进入[[cavern|洞穴]]。
+|-
+| {{text anchor|SPRING}}
+| 当前季节是[[spring|春季]]。似乎也在传奇模式和主菜单中播放。
+|-
+| {{text anchor|SUMMER}}
+| 当前季节是[[summer|夏季]]。似乎也在传奇模式和主菜单中播放。
+|-
+| {{text anchor|AUTUMN}}
+| 当前季节是[[autumn|秋季]]。似乎也在传奇模式和主菜单中播放。
+|-
+| {{text anchor|WINTER}}
+| 当前季节是[[winter|冬季]]。
+|}
+
+===事件===
+{| {{prettytable}}
+|- bgcolor="#dddddd"
+!标记
+!额外信息
+|-
+| {{text anchor|JUST_EMBARKED}}
+| 在[[embark|建立]]新要塞时播放。
+|-
+| {{text anchor|SIEGE}}
+| 宣布[[siege|围城]]。
+|-
+| {{text anchor|FIRST_CAVERN_OPENED}}
+| 发现新洞穴层{{verify}}
+|-
+| {{text anchor|MEGABEAST_ATTACK}}
+| 在宣布[[megabeast|巨兽]]到来时播放。不知道是否也与[[Semi-megabeast|半巨兽]]或[[Titan|泰坦]]相关。
+|-
+| {{text anchor|FORGOTTEN_BEAST_ATTACK}}
+| 在宣布[[forgotten beast|被遗忘的野兽]]到来时播放。
+|-
+| {{text anchor|DEATH_SPIRAL}}
+| 在短时间内发生了许多公民死亡。
+|-
+| {{text anchor|TAVERN_MUSIC_PRESENT}}
+| 许多单位聚集在一起表演或观看[[Performer#Music|音乐形式]]。
+|-
+| {{text anchor|TAVERN_DANCE_PRESENT}}
+| 许多单位聚集在一起表演或观看[[Performer#Dance|舞蹈]]。
+|-
+| {{text anchor|LOST_FORT}}
+| 结束游戏：一个要塞刚刚被[[Reclaim fortress mode|放弃或退役]]，或者你的[[adventurer|冒险者]]已经死亡。
+|-
+| {{text anchor|FORT_LEVEL}}{{v|51.01-beta28}}
+| 可能与达到更高的[[Fortress#Nomenclature|要塞]]等级有关。{{verify}}
+|-
+| {{text anchor|FIRST_GHOST}}{{v|51.01-beta28}}
+| [[ghost|幽灵]]第一次攻击。{{verify}}
+|}
+
+== 另见==
+* [[Soundtrack|配乐]]
+* [https://www.youtube.com/watch?v=mJyMhgadpcQ 环境音和音乐片段]
+* [[Soundsense]]
+* [https://github.com/Putnam3145/dwarf-fortress-example-sound-mod 示例声音模组]，由[[User:Putnam3145|Putnam]]制作
+
+[[Category:game]]

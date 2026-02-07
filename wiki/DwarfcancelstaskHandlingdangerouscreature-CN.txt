@@ -1,0 +1,12 @@
+{{Quality|Fine}}
+{{av}}
+
+{{DFtext|Dwarf cancels task: Handling dangerous creature.}}
+
+当正在处理任何大于[[vermin|害虫]]的[[creature|生物]]的矮人被分配另一个非生物处理任务时，会出现此消息。请注意，这通常是"软取消"（意味着任务最终会重新分配给另一个矮人），但是，建造可能会被[[suspend|暂停]]，需要玩家干预。
+
+此错误在[[milking|挤奶]]和[[shearing|剪毛]]任务中相对常见，但可以通过限制动物处理矮人启用的劳动，并专门指定一个[[farmer's workshop|农民工坊]]仅用于生物处理任务来减少和/或消除。
+
+{{Category|Errors}}
+{{Errors FAQ}}
+[[ru:Dwarf_cancels_task: Handling_dangerous_creature]]

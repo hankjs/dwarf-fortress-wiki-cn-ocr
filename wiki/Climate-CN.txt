@@ -1,0 +1,96 @@
+{{Quality|Exceptional}}
+{{av}}'''气候'''在《矮人要塞》中是一种[[temperature|温度]]等级，用作定义区域[[weather|天气]]模式的工具。最重要的是，这将决定一个地区的天气模式如何影响地表水源。了解一个地区的温度概况对于你的矮人和动物的生命很重要，因为过冷或过热的温度会使有机生物感到不适或死亡。气候仅是温度等级；实际的地表覆盖物被称为[[Biome|生物群系]]。
+
+''注意：如果温度被关闭，上述所有效果都不会发生。''
+
+== 气候类型 ==
+{| class=wikitable
+| rowspan=4 style="width:5px; background-color:black; text-align:center;"| <span style="color:{{fgcolor|4:1}}; font-family:Courier New;">Scorching</span>
+|-
+! 夏季峰值温度：
+| 122°F (50°C)及以上（对应世界生成温度120+？）
+|-
+! 水源可用性：
+| 任何现有的[[murky pool|浑水池]]会立即干涸。[[River|河流]]不受影响。
+|-
+! 在此区域定居时：
+| 如果没有河流或[[ocean|海洋]]，在这种气候下很难生存。你唯一的机会是找到一个有水的洞穴。
+在极热地区（高于{{ct|10078}}（或世界生成最高温度设置中的104？）），如果[[dwarves|矮人]]和牲畜长时间待在户外，可能会死于高温（具体来说，他们体内的脂肪会''融化''，导致失血而死）。
+
+|-
+| rowspan=4 style="background-color:black; text-align:center;"| <span style="color:{{fgcolor|4:1}}; font-family:Courier New;">Hot</span>
+|-
+! 夏季峰值温度
+| 107-121°F (41-49°C)（世界生成中为100-118？）
+|-
+! 水源可用性
+| 在干燥的生物群系中，[[murky pool|浑水池]]可能在干旱[[season|季节]]（通常是[[summer|夏季]]）蒸发，但可以通过[[rain|降雨]]重新填满。
+[[River|河流]]不受影响。
+|-
+! 在此区域定居时
+| 如果你缺少[[river|河流]]，请确保在夏季到来之前挖出一个[[reservoir|蓄水池]]。
+
+|-
+| rowspan=4 style="background-color:black; text-align:center;"| <span style="color:{{fgcolor|6:1}}; font-family:Courier New;">Warm</span>
+|-
+! 夏季峰值温度
+| 82-106°F (28-41°C)（世界生成中为67-98？）
+|-
+! 水源可用性
+| 任何水源都可以全年使用。这使其成为最容易定居的气候。极少数情况下，特别是在非常接近温带生物群系边缘时，可能会有极短暂的水结冰期，通常只持续几天，因此不会有死于干渴的危险。
+|-
+! 在此区域定居时
+| 请记住，浑水池仍然可能因反复使用而干涸，特别是在人口众多的情况下。如果该地区干燥，请尝试找到替代水源。
+
+|-
+| rowspan=4 style="background-color:black; text-align:center;"| <span style="color:{{fgcolor|2:0}}; font-family:Courier New;">Temperate</span>
+|-
+! 夏季峰值温度
+| 47-82°F (8-27°C)（世界生成中为20-66？）
+|-
+! 水源可用性
+| 地表[[pool|池塘]]和河流可能一年中有部分时间结冰。冻结时间长度不一：池塘和河流可能在[[spring|春季]]某个时候解冻，保持液态直到[[winter|冬季]]；或者它们可能在春季开始时已经是液态，只在冬季冻结一个月左右。
+|-
+! 在此区域定居时
+| 如果你缺少[[river|河流]]，可以在非冻结季节挖出一个[[reservoir|蓄水池]]。你也可以使用热源（例如[[magma|岩浆]]）来获取液态[[water|水]]。如果你到达时地面被雪覆盖，请务必侦察地表池塘，以免你的矮人在春季晚些时候池塘解冻时[[Swimming|突然落水]]。
+
+|-
+| rowspan=4 style="background-color:black; text-align:center;"| <span style="color:{{fgcolor|1:1}}; font-family:Courier New;">Cold</span>
+|-
+! 夏季峰值温度
+| 33-46°F (1-8°C)（世界生成中为2-18？）
+|-
+! 水源可用性
+| 地表池塘和河流通常处于冻结状态，但每年可能解冻几个月。
+|-
+! 在此区域定居时
+| 可以采取与温带生物群系相同的措施。
+
+|-
+| rowspan=4 style="background-color:black; text-align:center;"| <span style="color:{{fgcolor|3:1}}; font-family:Courier New;">Freezing</span>
+|-
+! 夏季峰值温度：
+| 32°F (0°C)或更低（世界生成中为0或以下）
+|-
+! 水源可用性：
+| 淡水地表池塘和河流全年保持冰冻状态。
+|-
+! 在此区域定居时：
+| 你必须使用热源（[[magma|岩浆]]）来获取液态[[water|水]]。冰川冰也可以融化。另一个选择是地下水源。''详见[[Freezing|冰冻]]。''
+
+在极寒地区（低于{{ct|9964}}，世界生成尺度中的-48），如果[[dwarves|矮人]]和牲畜长时间待在户外，可能会遭受冻伤。留在户外的[[trade goods|货物]]可能会以加速的速度经历[[wear|磨损]]。[[Embark|出征]]货物应尽快储存在地下，[[trade depot|贸易站]]应建在地下。
+|}
+
+==另见==
+*[[Weather|天气]]
+*[[Biome|生物群系]]
+
+{{Translation
+| dwarven = darùd
+| elvish  = eslo
+| goblin  = lang
+| human   = quinbor
+}}
+
+{{World}}
+{{Category|World}}

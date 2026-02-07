@@ -1,0 +1,26 @@
+{{Quality|Superior}}
+{{v50_skill
+| color      = 6:0
+| graphic    = [[File:farmer_sprite_icon.png]]
+| graphicmargin = 106px
+| skill      = Cheese Maker
+| profession = [[Farmer]]
+| job name   = [[Cheese making]]
+| workshop = [[Farmer's workshop]]
+| tasks      =
+* Make cheese
+| attributes =
+* Strength
+* Agility
+* Endurance
+* Analytical Ability
+* Creativity
+* Kinesthetic Sense
+}}
+{{av}}
+'''奶酪制作者'''是与'''奶酪制作'''[[labor|劳动]]相关联的技能。奶酪制作者在[[farmer's workshop|农民工坊]]将[[milk|牛奶]]转化为[[cheese|奶酪]]。由于奶酪没有[[quality|品质]]修正，高[[skill|技能]]的奶酪制作者<s>并不特别有价值</s>与[[peasant|农民]]一样有价值。
+
+{{D for Dwarf}}
+传奇奶酪制作者以其多功能性而为玩家所知。他们能够熟练地布置[[Trap design|陷阱]]、探索充满[[fun|乐趣]]的[[caverns|洞穴]]、挖开[[Magma pool|岩浆池]]、<s>当肉盾</s>勇敢地保卫要塞抵御[[goblin|哥布林]]部落，甚至还能制作奶酪。人类甚至发现拥有大量奶酪与拥有大量朋友之间存在正相关关系，奶酪制作者将大部分时间花在社交上这一事实进一步证明了这一点。奶酪制作者是有福的。
+
+{{Skills}}

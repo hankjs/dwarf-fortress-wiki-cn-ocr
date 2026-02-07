@@ -1,0 +1,199 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Modding}}
+
+所有槽位上所有类型[[armor|盔甲]]的[[token|标记]]，包括[[shield|盾牌]]。使用列提供有关该标记可能限制于哪些类型的'''盔甲'''的信息。
+
+这些标记只能放置在ITEM_ARMOR、ITEM_GLOVES、ITEM_SHOES、ITEM_SHIELD、ITEM_HELM或ITEM_PANTS对象定义中，大多数在武器对象中不起作用。
+{{clear}}
+
+==标记==
+{| {{prettytable}}
+|- bgcolor="#999999"
+! 标记
+! 参数
+! 使用
+! 描述
+
+|-
+| {{text anchor|NAME}}
+| singular:plural
+| {{tc|red|必需}}
+| 该物品在游戏中的名称。
+
+|-
+| {{text anchor|ADJECTIVE}}
+| adjective
+| 所有服装和盾牌
+| 出现在服装材料名称之前。例如 "long cow leather skirt"
+
+|-
+| {{text anchor|MATERIAL_SIZE}}
+| value
+| {{tc|red|必需}}
+| 制作该物品所需的材料量。对金属锭最为重要。制作物品所需的金属锭数量是该值除以三。
+
+|-
+| {{text anchor|ARMORLEVEL}}
+|
+0 - 服装<br>
+1 - 远程<br>
+2 - 近战<br>
+3 - 仅限制服
+| 所有服装和盾牌
+| 决定服装的一般用途。盾牌默认为1，其他所有物品默认为0。
+
+{{token|ARMORLEVEL|armor|0}}物品被平民认领并用作普通[[clothing|服装]]，并受到[[wear|磨损]]。
+
+远程战士会生成一套{{token|ARMORLEVEL|armor|1}}装备，而近战战士使用{{token|ARMORLEVEL|armor|2}}。{{token|ARMORLEVEL|armor|3}}头盔和身体盔甲只作为[[civilization|文明]]制服的一部分生成。
+
+每个文明实例从它们可以访问的非服装物品中随机选择一个头盔和一件盔甲作为其制服。作为该文明一部分生成的所有士兵都将使用这些装备，如果可能的话，将其与适合其[[Unit type token|单位类型]]的第二件装备叠加。
+
+在以前的版本中，盔甲等级分别称为皮革、锁链和板甲。
+
+|-
+| {{text anchor|METAL_ARMOR_LEVELS}}
+|
+| 所有服装
+| 该物品的金属版本被视为高一级的{{token|ARMORLEVEL|armor}}，通常用于将其排除在平民之外。除非明确声明{{token|ARMORLEVEL|armor}}，否则此标记不起作用：如果省略{{token|ARMORLEVEL|armor}}，即使是金属盔甲也会默认为级别0。
+
+|-
+| {{text anchor|CHAIN_METAL_TEXT}}
+|
+| 所有服装
+| 该物品的金属版本将在材料和物品名称之间添加"chain"。
+
+|-
+| {{text anchor|PREPLURAL}}
+| <phrase> of
+| ITEM_ARMOR<br />ITEM_PANTS
+| 将该物品的复数形式更改为"<phrase of> item"。主要涉及库存屏幕。例如，"suits of" 板甲，"pairs of" 长裤等。
+
+|-
+| {{text anchor|MATERIAL_PLACEHOLDER}}
+| adjective
+| ITEM_ARMOR<br />ITEM_PANTS
+| 如果该物品没有关联的材料（例如储藏区菜单和贸易谈判），则将显示此内容。用于皮革盔甲。
+
+|-
+| {{text anchor|VALUE}}
+| value
+|
+| 定义盔甲的物品价值。默认为10。
+
+|-
+| {{text anchor|UPSTEP}}
+| value, MAX
+| ITEM_GLOVES<br />ITEM_SHOES<br />ITEM_SHIELD
+| 手套或鞋类的长度，以[LIMB]身体部位朝向躯干计算。值为1让手套覆盖小臂，值为2将靴子一直延伸到大腿等。无论该值如何，这些物品都不能延伸到覆盖上身或下身。盾牌也有此标记，但它似乎只影响重量。
+
+|-
+| {{text anchor|UBSTEP}}
+| value, MAX
+| ITEM_ARMOR
+| 袖子的长度，以[LIMB]身体部位朝向手计算。值为0只保护躯干的上下两半，1延伸到上臂等。无论该值如何，身体盔甲永远不能延伸到覆盖手或头。
+
+当前存在漏洞{{bug|1821}}，UBSTEP的高值将导致物品保护面部特征、手指和脚趾，而使那些它无法保护的部位保持未受保护（但仍将它们计为步数）。
+
+|-
+| {{text anchor|LBSTEP}}
+| value or MAX
+| ITEM_ARMOR<br />ITEM_PANTS
+| 腿部/下摆的长度，以[LIMB]身体部位朝向脚计算。值为0只覆盖下身，1延伸到大腿等。无论该值如何，身体盔甲或裤子永远不能延伸到覆盖脚。
+
+|-
+| {{text anchor|BLOCKCHANCE}}
+| value
+| ITEM_SHIELD
+| 影响盾牌的格挡几率。默认为10。
+
+|-
+| {{text anchor|SOFT}}
+|
+| 所有服装
+| 裁缝可以用各种布料制作此物品。如果与[LEATHER]配对，该物品在随机生成的服装中有同等几率成为任一种。此标记的进一步用途未知。
+
+|-
+| {{text anchor|HARD}}
+|
+| 所有服装
+| 在没有[SOFT]标记的情况下的默认状态。实际效果未知。
+
+|-
+| {{text anchor|METAL}}
+|
+| 所有服装
+| 物品可以由金属制成。如果ARMORLEVEL允许，在随机生成的服装中覆盖[SOFT]和[LEATHER]。拥有[[Entity_token#WOOD_ARMOR|[WOOD_ARMOR]]]的文明将改为用木材制作此物品。
+
+|-
+| {{text anchor|BARRED}}
+|
+| 所有服装
+| 工匠可以用骨头制作此物品。随机生成的服装不包括骨制盔甲。
+
+|-
+| {{text anchor|SCALED}}
+|
+| 所有服装
+| 工匠可以用贝壳制作此物品。随机生成的服装不包括贝壳盔甲。
+
+|-
+| {{text anchor|LEATHER}}
+|
+| 所有服装
+| 皮革工可以用皮革制作此物品。如果与[SOFT]配对，此物品在随机生成的服装中有同等几率成为任一种。
+
+|-
+| {{text anchor|SHAPED}}
+|
+| 所有服装
+| 在单个身体槽位上一次只能穿戴一件成型服装。
+
+|-
+| {{text anchor|STRUCTURAL_ELASTICITY_CHAIN_ALL}}
+|
+| 所有服装
+| 如果较低，将盔甲材料的*_STRAIN_AT_YIELD属性增加到50000。这使服装弯曲和让步，而不是在力作用下破碎。抗切割的强材料会将锋利攻击钝化为破骨击打。
+
+|-
+| {{text anchor|STRUCTURAL_ELASTICITY_CHAIN_METAL}}
+|
+| 所有服装
+| 将盔甲材料的*_STRAIN_AT_YIELD属性增加到50000，但仅当服装由金属制成时。
+
+|-
+| {{text anchor|STRUCTURAL_ELASTICITY_WOVEN_THREAD}}
+|
+| 所有服装
+| 将盔甲材料的SHEAR_YIELD降低到20000，SHEAR_FRACTURE降低到30000，并将*_STRAIN_AT_YIELD属性增加到50000，但仅当服装由布料制成时。这使物品对锋利攻击非常脆弱，即使线材材料通常非常坚固。
+
+|-
+| {{text anchor|LAYER_SIZE}}
+| value
+| 所有服装
+| 穿着时物品的厚重程度。除了层限制外，它是服装厚度和重量（因此价格）的主要贡献者。有关物品尺寸和分层的更多信息，请参阅[[Armor|盔甲]]。默认为10。
+
+|-
+| {{text anchor|LAYER_PERMIT}}
+| value
+| 所有服装
+| 可以放在服装下方的最大物品尺寸。有关物品尺寸和分层的更多信息，请参阅[[Armor|盔甲]]。默认为10。
+
+|-
+| {{text anchor|LAYER}}
+| UNDER<br />OVER<br />ARMOR<br />COVER
+| 所有服装
+| 物品相对于其他衣物的位置。袜子不能穿在靴子上面！
+给定身体部位上最高层的LAYER_PERMIT被使用——你可以在长袍下面穿很多衬衫和其他内衣，但如果你在上面穿皮革短上衣就不行，你仍然可以在整套装备上穿一件斗篷。默认为UNDER。
+
+|-
+| {{text anchor|COVERAGE}}
+| % value
+| 所有服装
+| 服装阻挡污染物或攻击的频率。例如，覆盖率为5%的盔甲几乎无用，因为95%的攻击会完全绕过它。温度效果和盔甲厚度也受影响。默认为100。
+
+|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Armor token]]

@@ -1,0 +1,12 @@
+{{migrated article}}
+{{av}}
+{{Quality|Fine}}
+[[File:DevlogCatacombsLargeScale.png|thumb|250px|right|Largescale view of catacombs from Bay12 devlog.]]'''地下墓穴'''是[[human|人类]]建造的地下[[structure|建筑]]，用于埋葬其文明中已故的成员。它们位于[[town|城镇]]中，可通过[[temple|神庙]]下方进入。地下墓穴偶尔会连接到[[tomb|坟墓]]，那里特别存放着死去统治者的遗骸。
+
+岩石通道和房间散落着[[corpse|骷髅]]。有些房间包含多个[[coffin|棺材]]，里面安放着历史人物的尸体，并附有标记死者信息的墓[[slab|碑]]。[[clothing|衣物]]等战利品散落在地板上。还可以找到[[Statue|雕像]]。推倒它们不会激怒任何神灵；那必须在神庙做。
+
+在地下墓穴中可能会遇到各种敌对和邪恶的生物，如[[kobold|狗头人]]。[[Town#Criminal organizations|犯罪组织]]可能会将总部迁至地下墓穴。
+[[File:How we wither.jpg|thumb|230px|center|Where we wither? Or mummies' dinner table?]]
+{{World}}
+
+{{Category|Adventurer mode}}

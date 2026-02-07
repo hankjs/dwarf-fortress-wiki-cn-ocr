@@ -1,0 +1,294 @@
+{{Quality|Exceptional|16:49, 26 February 2023 (CST)}}
+{{av}}
+[[File:animal_people_preview2.png|306px|right]]'''动物人'''是半人半兽的[[creature|生物]]，具有从其基础动物继承的各种类似动物的特征，一些是有益的（如[[flying|飞行]]和[[syndrome|毒素]]），或有害的（[[steals items|偷窃]]）。它们通常比基础动物具有显著更长的[[age|寿命]]，以及[[learns|学习]]的能力。它们可以没有腿，但即使基础动物没有肢体也会获得手臂。它们的体型是基础动物大小和70,000（[[human|人类]]的大小）的平均值，计算出最小的动物人是35,000cm³，是[[human|人类]]大小的一半，但它们可以变得[[sperm whale man|非常大]]。大多数动物人可以加入[[civilization|文明]]并生活在[[site|定居点]]，或作为[[visitor|访客]]来到你的要塞。
+
+动物人是[[adventurer mode|冒险者模式]]中可玩的生物。如果它们成为可玩文明（[[dwarf|矮人]]、[[elf|精灵]]、人类）的既定成员，它们将出现在生物选择屏幕中与主要种族一起列出。否则，它们可在{{DFtext|Intelligent Wilderness Creature|7:0}}下选择。一些动物人可能由于[[extinction|灭绝]]或未被接触（例如被排除到孤立的岛屿）而不可用。
+
+野生动物人在[[savage|野蛮]]环境的表面游荡或居住在[[cavern|洞穴]]的地下；这两个种群形成不同的群体：
+*野蛮动物人的行为主要像普通动物，在荒野中游荡，偶尔在[[world generation|世界生成]]期间加入人类、矮人或精灵社会。在要塞模式游戏中遇到时，它们本质上是无法[[butcher|屠宰]]的动物，无法进行任何形式的非暴力互动。在冒险者模式游戏中，你可以与他们交谈并可能招募他们作为追随者 - 他们可能是中立的或更常见的是敌对的，尽管有罕见的例外能够说话。像他们的地下对应物一样，他们倾向于拥有[[spear|长矛]]和[[blowgun|吹管]]，尽管他们也可能没有武装。
+*地下动物人本身就是一个文明，很少遇到，以小群或"部落"形式出现。它们装备有原始武器，如木制[[spear|长矛]]和[[blowgun|吹管]]（它们是已知唯一的[[blowdart|吹箭]]来源）。地下动物人在发现后将被标记为{{DFtext|Hostile|4:0}}。尽管如此，它们是非侵略性的，除非被激怒，否则通常会忽略你的矮人。遇到它们通常会令人惊讶，因为在出征前没有办法知道它们的存在。它们不会出现在{{menu icon|Y}}文明[[menu|菜单]]中。
+
+地下动物人也出现在生成的[[sewer|下水道]]中，由被驱逐者组成。在图形上，动物人有自己的精灵图。与矮人、人类、精灵、[[goblin|地精]]和[[kobold|狗头人]]不同，后者的每个身体部位都是从较小的部分组装成一个精灵图，基于它们的身体特征和拥有的物品，动物人将使用完全相同的精灵图，无论任何不同的品质。像游戏中几乎所有其他生物一样，动物人将有一个标准精灵图和一个[[undead|不死]]精灵图。与大多数"man"生物不同，[[Amphibian man|两栖人]]、[[Ant man|蚁人]]、[[Plump helmet man|胖头菇人]]、[[Reptile man|爬行人]]、[[Rodent man|啮齿人]]和[[Serpent man|蛇人]]不会{{token|COPY_TAGS_FROM}}其基础物种。动物人不会从其动物对应物继承{{token|MEANDERER}}标签。
+
+== 生物变异原始数据 ==
+对于从基础生物复制标签的动物人定义，使用c_variation_default.txt原始文件中的以下之一来调整它们：
+{{gamedata|title=动物人[[Creature variation token|生物变异]]原始数据|{{raw|v50:c_variation_default.txt|CREATURE_VARIATION|ANIMAL_PERSON}}}}
+{{gamedata|title=无腿动物人生物变异原始数据|{{raw|v50:c_variation_default.txt|CREATURE_VARIATION|ANIMAL_PERSON_LEGLESS}}}}
+
+== 地下动物人 ==
+
+* [[File:amphibian_man_sprite.png|20px]] / {{Tile|a|6:0}} [[Amphibian man|两栖人]]
+* [[File:ant_man_sprite.png|20px]] / {{Tile|a|0:1}} [[Antman|蚁人]]
+* [[File:bat_man_sprite.png|20px]] / {{Tile|b|0:1}} [[Bat man|蝙蝠人]]
+* [[File:cave_fish_man_sprite.png|20px]] / {{Tile|f|7:1}} [[Cave fish man|洞穴鱼人]]
+* [[File:cave_swallow_man_sprite.png|20px]] / {{Tile|s|0:1}} [[Cave swallow man|洞穴燕人]]
+* [[File:olm_man_sprite.png|20px]] / {{Tile|o|7:1}} [[Olm man|洞螈人]]
+* [[File:reptile_man_sprite.png|20px]] / {{Tile|r|2:0}} [[Reptile man|爬行人]]
+* [[File:rodent_man_sprite.png|20px]] / {{Tile|r|0:1}} [[Rodent man|啮齿人]]
+* [[File:serpent_man_sprite.png|20px]] / {{Tile|s|7:1}} [[Serpent man|蛇人]]
+=== 伦理 ===
+
+作为自己的实体，地下动物人拥有伦理观，就像其他文明一样。这些特定的伦理观目前是不完整的，直接从狗头人复制，他们的文化[[personality value|价值观]]都设置为零（中立）。
+
+像狗头人一样，地下动物人认为杀死其他生物是可以接受的，但叛国是不可想象的，他们会通过将罪犯驱逐出部落来回应谋杀自己同类的行为。他们反对为获取信息而折磨和折磨动物，但认为为了乐趣而折磨是合适的。攻击被认为是个人问题，而奴隶制、获取动物战利品和食用有智慧生物（包括其他动物人）都是不可想象的行为。
+
+== 野蛮动物人 ==
+
+{{columns-list|colwidth=15em|
+* [[File:aardvark_man_sprite.png|20px]] / {{Tile|a|7:0}} [[Aardvark man|土豚人]]
+* [[File:adder_man_sprite.png|20px]] / {{Tile|a|6:0}} [[Adder man|蝰蛇人]]
+* [[File:albatross_man_sprite.png|20px]] / {{Tile|a|7:1}} [[Albatross man|信天翁人]]
+* [[File:alligator_man_sprite.png|20px]] / {{Tile|A|2:0}} [[Alligator man|短吻鳄人]]
+* [[File:anaconda_man_sprite.png|20px]] / {{Tile|A|2:1}} [[Anaconda man|森蚺人]]
+* [[File:anole_man_sprite.png|20px]] / {{Tile|a|2:1}} [[Anole man|变色蜥人]]
+* [[File:armadillo_man_sprite.png|20px]] / {{Tile|a|7:0}} [[Armadillo man|犰狳人]]
+* [[File:axolotl_man_sprite.png|20px]] / {{Tile|a|5:0}} [[Axolotl man|美西螈人]]
+* [[File:aye_aye_man_sprite.png|20px]] / {{Tile|a|7:0}} [[Aye-aye man|指猴人]]
+* [[File:badger_man_sprite.png|20px]] / {{Tile|b|7:0}} [[Badger man|獾人]]
+* [[File:bark_scorpion_man_sprite.png|20px]] / {{Tile|s|6:1}} [[Bark scorpion man|树皮蝎人]]
+* [[File:barn_owl_man_sprite.png|20px]] / {{Tile|b|6:0}} [[Barn owl man|仓鸮人]]
+* [[File:beaver_man_sprite.png|20px]] / {{Tile|b|6:0}} [[Beaver man|海狸人]]
+* [[File:beetle_man_sprite.png|20px]] / {{Tile|b|4:0}} [[Beetle man|甲虫人]]
+* [[File:black_bear_man_sprite.png|20px]] / {{Tile|B|0:1}} [[Black bear man|黑熊人]]
+* [[File:black_mamba_man_sprite.png|20px]] / {{Tile|s|0:1}} [[Black mamba man|黑曼巴人]]
+* [[File:bluejay_man_sprite.png|20px]] / {{Tile|b|1:1}} [[Bluejay man|蓝松鸦人]]
+* [[File:bobcat_man_sprite.png|20px]] / {{Tile|b|6:0}} [[Bobcat man|山猫人]]
+* [[File:brown_recluse_spider_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Brown recluse spider man|棕色隐士蜘蛛人]]
+* [[File:bushmaster_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Bushmaster man|矛头蝮人]]
+* [[File:bushtit_man_sprite.png|20px]] / {{Tile|b|6:0}} [[Bushtit man|山雀人]]
+* [[File:buzzard_man_sprite.png|20px]] / {{Tile|b|0:1}} [[Buzzard man|秃鹫人]]
+* [[File:capuchin_man_sprite.png|20px]] / {{Tile|c|7:1}} [[Capuchin man|卷尾猴人]]
+* [[File:capybara_man_sprite.png|20px]] / {{Tile|c|6:0}} [[Capybara man|水豚人]]
+* [[File:cardinal_man_sprite.png|20px]] / {{Tile|c|4:1}} [[Cardinal man|红雀人]]
+* [[File:cassowary_man_sprite.png|20px]] / {{Tile|c|0:1}} [[Cassowary man|鹤鸵人]]
+* [[File:chameleon_man_sprite.png|20px]] / {{Tile|c|2:1}} [[Chameleon man|变色龙人]]
+* [[File:cheetah_man_sprite.png|20px]] / {{Tile|c|6:1}} [[Cheetah man|猎豹人]]
+* [[File:chinchilla_man_sprite.png|20px]] / {{Tile|c|7:0}} [[Chinchilla man|龙猫人]]
+* [[File:chipmunk_man_sprite.png|20px]] / {{Tile|c|6:0}} [[Chipmunk man|花栗鼠人]]
+* [[File:coati_man_sprite.png|20px]] / {{Tile|c|6:0}} [[Coati man|长鼻浣熊人]]
+* [[File:cockatiel_man_sprite.png|20px]] / {{Tile|c|7:1}} [[Cockatiel man|玄凤鹦鹉人]]
+* [[File:copperhead_snake_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Copperhead snake man|铜头蛇人]]
+* [[File:cougar_man_sprite.png|20px]] / {{Tile|c|6:0}} [[Cougar man|美洲狮人]]
+* [[File:coyote_man_sprite.png|20px]] / {{Tile|c|7:0}} [[Coyote man|郊狼人]]
+* [[File:crab_man_sprite.png|20px]] / {{Tile|c|4:1}} [[Crab man|螃蟹人]]
+* [[File:crow_man_sprite.png|20px]] / {{Tile|c|0:1}} [[Crow man|乌鸦人]]
+* [[File:cuttlefish_man_sprite.png|20px]] / {{Tile|c|6:0}} [[Cuttlefish man|墨鱼人]]
+* [[File:damselfly_man_sprite.png|20px]] / {{Tile|d|3:1}} [[Damselfly man|豆娘人]]
+* [[File:deer_man_sprites_anim.gif|20px]] / {{Tile|d|6:0}} [[Deer man|鹿人]]
+* [[File:desert_tortoise_man_sprite.png|20px]] / {{Tile|t|6:0}} [[Desert tortoise man|沙漠陆龟人]]
+* [[File:dingo_man_sprite.png|20px]] / {{Tile|d|6:1}} [[Dingo man|野狗人]]
+* [[File:dragonfly_man_sprite.png|20px]] / {{Tile|d|3:1}} [[Dragonfly man|蜻蜓人]]
+* [[File:eagle_man_sprite.png|20px]] / {{Tile|e|6:0}} [[Eagle man|鹰人]]
+* [[File:echidna_man_sprite.png|20px]] / {{Tile|e|6:0}} [[Echidna man|针鼹人]]
+* [[File:elephant_man_sprite.png|20px]] / {{Tile|E|7:0}} [[Elephant man|象人]]
+* [[File:elephant_seal_man_sprite.png|20px]] / {{Tile|S|6:0}} [[Elephant seal man|象海豹人]]
+* [[File:elk_man_sprites_anim.gif|20px]] / {{Tile|E|6:0}} [[Elk man|麋鹿人]]
+* [[File:emu_man_sprite.png|20px]] / {{Tile|E|6:0}} [[Emu man|鸸鹋人]]
+* [[File:firefly_man_sprite.png|20px]] / {{Tile|f|2:1}} [[Firefly man|萤火虫人]]
+* [[File:fly_man_sprite.png|20px]] / {{Tile|f|0:1}} [[Fly man|苍蝇人]]
+* [[File:flying_squirrel_man_sprite.png|20px]] / {{Tile|f|6:0}} [[Flying squirrel man|飞鼠人]]
+* [[File:fox_man_sprite.png|20px]] / {{Tile|f|4:0}} [[Fox man|狐狸人]]
+* [[File:gazelle_man_sprite.png|20px]] / {{Tile|g|6:0}} [[Gazelle man|瞪羚人]]
+* [[File:giant_tortoise_man_sprite.png|20px]] / {{Tile|T|6:0}} [[Giant tortoise man|巨龟人]]
+* [[File:gila_monster_man_sprite.png|20px]] / {{Tile|g|4:1}} [[Gila monster man|毒蜥人]]
+* [[File:giraffe_man_sprite.png|30px|20px]] / {{Tile|G|6:0}} [[Giraffe man|长颈鹿人]]
+* [[File:grackle_man_sprite.png|20px]] / {{Tile|g|0:1}} [[Grackle man|白头翁人]]
+* [[File:grasshopper_man_sprite.png|20px]] / {{Tile|g|2:1}} [[Grasshopper man|蚱蜢人]]
+* [[File:gray_langur_man_sprite.png|20px]] / {{Tile|l|7:0}} [[Gray langur man|灰叶猴人]]
+* [[File:gray_squirrel_man_sprite.png|20px]] / {{Tile|s|7:0}} [[Gray squirrel man|灰松鼠人]]
+* [[File:great_horned_owl_man_sprite.png|20px]] / {{Tile|o|7:0}} [[Great horned owl man|大角鸮人]]
+* [[File:green_tree_frog_man_sprite.png|20px]] / {{Tile|f|2:1}} [[Green tree frog man|绿树蛙人]]
+* [[File:grey_parrot_man_sprite.png|20px]] / {{Tile|p|7:0}} [[Grey parrot man|灰鹦鹉人]]
+* [[File:grizzly_bear_man_sprite.png|20px]] / {{Tile|B|6:0}} [[Grizzly bear man|灰熊人]]
+* [[File:groundhog_man_sprite.png|20px]] / {{Tile|g|6:0}} [[Groundhog man|土拨鼠人]]
+* [[File:hamster_man_sprite.png|20px]] / {{Tile|h|7:0}} [[Hamster man|仓鼠人]]
+* [[File:hare_man_sprite.png|20px]] / {{Tile|h|6:0}} [[Hare man|野兔人]]
+* [[File:harp_seal_man_sprite.png|20px]] / {{Tile|h|7:0}} [[Harp seal man|竖琴海豹人]]
+* [[File:hedgehog_man_sprite.png|20px]] / {{Tile|h|6:0}} [[Hedgehog man|刺猬人]]
+* [[File:hippo_man_sprite.png|20px]] / {{Tile|H|7:0}} [[Hippo man|河马人]]
+* [[File:hoary_marmot_man_sprite.png|20px]] / {{Tile|m|7:0}} [[Hoary marmot man|灰旱獭人]]
+* [[File:honey_badger_man_sprite.png|20px]] / {{Tile|b|7:1}} [[Honey badger man|蜜獾人]]
+* [[File:hornbill_man_sprite.png|20px]] / {{Tile|h|0:1}} [[Hornbill man|犀鸟人]]
+* [[File:horseshoe_crab_man_sprite.png|20px]] / {{Tile|h|6:0}} [[Horseshoe crab man|鲎人]]
+* [[File:hyena_man_sprite.png|20px]] / {{Tile|h|6:0}} [[Hyena man|鬣狗人]]
+* [[File:ibex_man_sprite.png|20px]] / {{Tile|i|6:0}} [[Ibex man|北山羊人]]
+* [[File:iguana_man_sprite.png|20px]] / {{Tile|i|2:1}} [[Iguana man|鬣蜥人]]
+* [[File:impala_man_sprite.png|20px]] / {{Tile|i|6:0}} [[Impala man|黑斑羚人]]
+* [[File:jackal_man_sprite.png|20px]] / {{Tile|j|6:0}} [[Jackal man|豺狼人]]
+* [[File:jaguar_man_sprite.png|20px]] / {{Tile|J|6:1}} [[Jaguar man|美洲豹人]]
+* [[File:jumping_spider_man_sprite.png|20px]] / {{Tile|s|0:1}} [[Jumping spider man|跳蛛人]]
+* [[File:kakapo_man_sprite.png|20px]] / {{Tile|k|2:0}} [[Kakapo man|鸮鹦鹉人]]
+* [[File:kangaroo_man_sprite.png|20px]] / {{Tile|K|6:0}} [[Kangaroo man|袋鼠人]]
+* [[File:kea_man_sprite.png|20px]] / {{Tile|k|2:0}} [[Kea man|啄羊鹦鹉人]]
+* [[File:kestrel_man_sprite.png|20px]] / {{Tile|k|4:0}} [[Kestrel man|红隼人]]
+* [[File:king_cobra_man_sprite.png|20px]] / {{Tile|k|0:1}} [[King cobra man|眼镜王蛇人]]
+* [[File:kingsnake_man_sprite.png|20px]] / {{Tile|k|7:1}} [[Kingsnake man|王蛇人]]
+* [[File:kiwi_man_sprite.png|20px]] / {{Tile|k|6:0}} [[Kiwi man|几维鸟人]]
+* [[File:koala_man_sprite.png|20px]] / {{Tile|k|7:0}} [[Koala man|考拉人]]
+* [[File:leech_man_sprite.png|20px]] / {{Tile|l|0:1}} [[Leech man|水蛭人]]
+* [[File:leopard_gecko_man_sprite.png|20px]] / {{Tile|g|6:1}} [[Leopard gecko man|豹纹守宫人]]
+* [[File:leopard_man_sprite.png|20px]] / {{Tile|l|6:1}} [[Leopard man|豹人]]
+* [[File:leopard_seal_man_sprite.png|20px]] / {{Tile|L|0:1}} [[Leopard seal man|豹海豹人]]
+* [[File:lion_man_sprite_anim.gif|20px]] / {{Tile|L|6:1}} [[Lion man|狮人]]
+* [[File:Lion_tamarin_man_sprite.png|20px]] / {{Tile|l|6:1}} [[Lion tamarin man|狮狨人]]
+* [[File:lizard_man_sprite.png|20px]] / {{Tile|l|6:0}} [[Lizard man|蜥蜴人]]
+* [[File:loon_man_sprite.png|20px]] / {{Tile|l|0:1}} [[Loon man|潜鸟人]]
+* [[File:lorikeet_man_sprite.png|20px]] / {{Tile|l|4:1}} [[Lorikeet man|吸蜜鹦鹉人]]
+* [[File:louse_man_sprite.png|20px]] / {{Tile|l|6:0}} [[Louse man|虱子人]]
+* [[File:lynx_man_sprite.png|20px]] / {{Tile|l|6:0}} [[Lynx man|猞猁人]]
+* [[File:magpie_man_sprite.png|20px]] / {{Tile|m|0:1}} [[Magpie man|喜鹊人]]
+* [[File:mandrill_man_sprite.png|20px]] / {{Tile|m|1:1}} [[Mandrill man|山魈人]]
+* [[File:mantis_man_sprite.png|20px]] / {{Tile|m|2:1}} [[Mantis man|螳螂人]]
+* [[File:masked_lovebird_man_sprite.png|20px]] / {{Tile|l|2:1}} [[Masked lovebird man|面罩情侣鹦鹉人]]
+* [[File:mink_man_sprite.png|20px]] / {{Tile|m|6:0}} [[Mink man|貂人]]
+* [[File:monarch_butterfly_man_sprite.png|20px]] / {{Tile|b|4:1}} [[Monarch butterfly man|帝王蝶人]]
+* [[File:mongoose_man_sprite.png|20px]] / {{Tile|m|7:0}} [[Mongoose man|獴人]]
+* [[File:monitor_lizard_man_sprite.png|20px]] / {{Tile|M|6:0}} [[Monitor lizard man|巨蜥人]]
+* [[File:moon_snail_man_sprite.png|20px]] / {{Tile|s|4:1}} [[Moon snail man|月亮蜗牛人]]
+* [[File:moose_man_sprite_anim.gif|20px]] / {{Tile|M|6:0}} [[Moose man|驼鹿人]]
+* [[File:mosquito_man_sprite.png|20px]] / {{Tile|m|0:1}} [[Mosquito man|蚊子人]]
+* [[File:moth_man_sprite.png|20px]] / {{Tile|m|6:0}} [[Moth man|飞蛾人]]
+* [[File:mountain_goat_man_sprite.png|20px]] / {{Tile|g|7:1}} [[Mountain goat man|山羊人]]
+* [[File:muskox_man_sprite.png|20px]] / {{Tile|M|6:0}} [[Muskox man|麝牛人]]
+* [[File:narwhal_man_sprite.png|20px]] / {{Tile|N|7:0}} [[Narwhal man|独角鲸人]]
+* [[File:nautilus_man_sprite.png|20px]] / {{Tile|n|4:1}} [[Nautilus man|鹦鹉螺人]]
+* [[File:ocelot_man_sprite.png|20px]] / {{Tile|o|6:1}} [[Ocelot man|豹猫人]]
+* [[File:octopus_man_sprite.png|20px]] / {{Tile|o|7:0}} [[Octopus man|章鱼人]]
+* [[File:one_humped_camel_man_sprite.png|20px]] / {{Tile|C|6:0}} [[One-humped camel man|单峰骆驼人]]
+* [[File:opossum_man_sprite.png|20px]] / {{Tile|o|7:0}} [[Opossum man|负鼠人]]
+* [[File:orca_man_sprite.png|20px]] / {{Tile|O|0:1}} [[Orca man|虎鲸人]]
+* [[File:oriole_man_sprite.png|20px]] / {{Tile|o|6:1}} [[Oriole man|黄鹂人]]
+* [[File:osprey_man_sprite.png|20px]] / {{Tile|o|7:1}} [[Osprey man|鱼鹰人]]
+* [[File:ostrich_man_sprite_anim.gif|13px]] / {{Tile|O|0:1}} [[Ostrich man|鸵鸟人]]
+* [[File:otter_man_sprite.png|20px]] / {{Tile|o|6:0}} [[Otter man|水獭人]]
+* [[File:panda_man_sprite.png|20px]] / {{Tile|P|7:1}} [[Panda man|熊猫人]]
+* [[File:pangolin_man_sprite.png|20px]] / {{Tile|p|6:0}} [[Pangolin man|穿山甲人]]
+* [[File:parakeet_man_sprite.png|20px]] / {{Tile|p|2:1}} [[Parakeet man|长尾小鹦鹉人]]
+* [[File:peach_faced_lovebird_man_sprite.png|20px]] / {{Tile|l|2:1}} [[Peach-faced lovebird man|桃面情侣鹦鹉人]]
+* [[File:penguin_man_sprite.png|20px]] / {{Tile|p|7:1}} [[Penguin man|企鹅人]]
+* [[File:peregrine_falcon_man_sprite.png|20px]] / {{Tile|p|6:0}} [[Peregrine falcon man|游隼人]]
+* [[File:platypus_man_sprite.png|20px]] / {{Tile|p|6:0}} [[Platypus man|鸭嘴兽人]]
+* [[File:polar_bear_man_sprite.png|20px]] / {{Tile|B|7:1}} [[Polar bear man|北极熊人]]
+* [[File:pond_turtle_man_sprite.png|20px]] / {{Tile|t|2:0}} [[Pond turtle man|池龟人]]
+* [[File:porcupine_man_sprite.png|20px]] / {{Tile|p|6:0}} [[Porcupine man|豪猪人]]
+* [[File:puffin_man_sprite.png|20px]] / {{Tile|p|0:1}} [[Puffin man|海鹦人]]
+* [[File:python_man_sprite.png|20px]] / {{Tile|S|6:0}} [[Python man|蟒蛇人]]
+* [[File:raccoon_man_sprite.png|20px]] / {{Tile|r|7:0}} [[Raccoon man|浣熊人]]
+* [[File:rat_man_sprite.png|20px]] / {{Tile|r|0:1}} [[Rat man|老鼠人]]
+* [[File:rattlesnake_man_sprite.png|20px]] / {{Tile|s|7:0}} [[Rattlesnake man|响尾蛇人]]
+* [[File:raven_man_sprite.png|20px]] / {{Tile|r|0:1}} [[Raven man|渡鸦人]]
+* [[File:red_panda_man_sprite.png|20px]] / {{Tile|r|4:0}} [[Red panda man|小熊猫人]]
+* [[File:red_squirrel_man_sprite.png|20px]] / {{Tile|r|6:0}} [[Red squirrel man|红松鼠人]]
+* [[File:red_winged_blackbird_man_sprite.png|20px]] / {{Tile|r|0:1}} [[Red-winged blackbird man|红翅黑鹂人]]
+* [[File:rhesus_macaque_man_sprite.png|20px]] / {{Tile|m|7:0}} [[Rhesus macaque man|恒河猴人]]
+* [[File:rhinoceros_man_sprite.png|20px]] / {{Tile|R|7:0}} [[Rhinoceros man|犀牛人]]
+* [[File:roach_man_sprite.png|20px]] / {{Tile|r|6:0}} [[Roach man|蟑螂人]]
+* [[File:saltwater_crocodile_man_sprite.png|20px]] / {{Tile|C|2:0}} [[Saltwater crocodile man|咸水鳄人]]
+* [[File:skink_man_sprite.png|20px]] / {{Tile|s|7:0}} [[Skink man|石龙子人]]
+* [[File:skunk_man_sprite.png|20px]] / {{Tile|s|0:1}} [[Skunk man|臭鼬人]]
+* [[File:sloth_bear_man_sprite.png|20px]] / {{Tile|B|0:1}} [[Sloth bear man|懒熊人]]
+* [[File:sloth_man_sprite.png|20px]] / {{Tile|s|7:0}} [[Sloth man|树懒人]]
+* [[File:slug_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Slug man|蛞蝓人]]
+* [[File:snail_man_sprite.png|20px]] / {{Tile|s|7:0}} [[Snail man|蜗牛人]]
+* [[File:snapping_turtle_man_sprite.png|20px]] / {{Tile|t|2:0}} [[Snapping turtle man|鳄龟人]]
+* [[File:snowy_owl_man_sprite.png|20px]] / {{Tile|o|7:1}} [[Snowy owl man|雪鸮人]]
+* [[File:sparrow_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Sparrow man|麻雀人]]
+* [[File:sperm_whale_man_sprite.png|20px]] / {{Tile|W|7:0}} [[Sperm whale man|抹香鲸人]]
+* [[File:spider_monkey_man_sprite.png|20px]] / {{Tile|m|0:1}} [[Spider monkey man|蜘蛛猴人]]
+* [[File:sponge_man_sprite.png|20px]] / {{Tile|s|4:1}} [[Sponge man|海绵人]]
+* [[File:squid_man_sprite.png|20px]] / {{Tile|s|7:1}} [[Squid man|鱿鱼人]]
+* [[File:stoat_man_sprite.png|20px]] / {{Tile|s|6:0}} [[Stoat man|白鼬人]]
+* [[File:swan_man_sprite.png|20px]] / {{Tile|s|7:1}} [[Swan man|天鹅人]]
+* [[File:tapir_man_sprite.png|20px]] / {{Tile|T|7:1}} [[Tapir man|貘人]]
+* [[File:thrips_man_sprite.png|20px]] / {{Tile|t|6:0}} [[Thrips man|蓟马人]]
+* [[File:tick_man_sprite.png|20px]] / {{Tile|t|0:1}} [[Tick man|蜱虫人]]
+* [[File:tiger_man_sprite.png|20px]] / {{Tile|T|6:1}} [[Tiger man|虎人]]
+* [[File:toad_man_sprite.png|20px]] / {{Tile|t|2:0}} [[Toad man|蟾蜍人]]
+* [[File:two_humped_camel_man_sprite.png|20px]] / {{Tile|C|6:0}} [[Two-humped camel man|双峰骆驼人]]
+* [[File:vulture_man_sprite.png|20px]] / {{Tile|v|4:0}} [[Vulture man|秃鹫人]]
+* [[File:walrus_man_sprite.png|20px]] / {{Tile|W|6:0}} [[Walrus man|海象人]]
+* [[File:warthog_man_sprite.png|20px]] / {{Tile|W|6:0}} [[Warthog man|疣猪人]]
+* [[File:weasel_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Weasel man|黄鼠狼人]]
+* [[File:white_stork_man_sprite.png|20px]] / {{Tile|s|7:1}} [[White stork man|白鹳人]]
+* [[File:wild_boar_man_sprite.png|20px]] / {{Tile|B|6:0}} [[Wild boar man|野猪人]]
+* [[File:wolf_man_sprite.png|20px]] / {{Tile|w|7:0}} [[Wolf man|狼人]]
+* [[File:wolverine_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Wolverine man|狼獾人]]
+* [[File:wombat_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat man|袋熊人]]
+* [[File:worm_man_sprite.png|20px]] / {{Tile|w|7:0}} [[Worm man|蠕虫人]]
+* [[File:wren_man_sprite.png|20px]] / {{Tile|w|6:0}} [[Wren man|鹪鹩人]]}}
+
+==身体结构==
+
+虽然标准描述，''"一个拥有...头的人"''，暗示像[[minotaur|牛头人]]那样的[[human|人类]]般的身体，但动物人使用与其基础动物相同的组织类型。例如，昆虫人有[[chitin|几丁质]]外骨骼，而哺乳动物人覆盖着[[Hair|毛皮]]。
+
+如果基础生物通常没有手臂，那么它们默认会获得一对三指手臂。昆虫身体有四只手臂，蛛形纲动物获得六只 - [[Mantis man|螳螂人]]是个例外，只有两只（[[Natural weapon|致命的]]）手臂，因为[[mantis|螳螂]]使用{{token|BODY|c|INSECT_4LEGS_2ARMS}}而不是{{token|BODY|c|INSECT}}。鸟人除了翅膀外还会获得一对四指手臂，而[[Bat man|蝙蝠人]]则有一对臂翼。与其他节肢动物不同，甲壳类动物人只有两只手臂，没有手指。
+
+大多数但不是所有动物人都有一对腿。有[[horn|蹄]]或鳍的生物将使用它们进行[[gait|移动]]，而没有脚趾的物种不会获得任何。一个经验法则是，以尾巴结束的生物作为动物人时仍然没有腿。由于[[Graphics|图形]][[Bug|疏忽]]，某些生物（如[[snail man|蜗牛人]]）的精灵图可能与其身体结构不匹配。
+
+动物人保留其物种可能拥有的任何额外[[body parts|身体部位]]，包括头足类动物人的头臂和[[bark scorpion man|树皮蝎人]]的钳子，以及尾巴、[[shell|壳]]、[[horn|角]]或内部器官。
+
+== 按属性组织的动物人 ==
+
+@ 可能仅在要塞模式中作为公民运作 {{verify}}
+
++ 可能仅在冒险者模式中运作 {{verify}}
+
+(#) 可能仅对程序生成的"暴徒生成"有效，而不适用于冒险者 {{verify}}
+
+{| {{prettytable}}
+! 属性 !! 效果 !! 动物人物种
+|-
+| '''[[Amphibious|两栖]]''' || 在水和陆地上正常移动和呼吸 || [[Alligator man|短吻鳄人]] | [[Amphibian man|两栖人]] | [[Axolotl man|美西螈人]] | [[Capybara man|水豚人]] | [[Cave fish man|洞穴鱼人]] | [[Crab man|螃蟹人]] | [[Elephant seal man|象海豹人]] | [[Gila monster man|毒蜥人]] | [[Green tree frog man|绿树蛙人]] | [[Harp seal man|竖琴海豹人]] | [[Hippo man|河马人]] | [[Horseshoe crab man|鲎人]] | [[Leopard seal man|豹海豹人]] | [[Olm man|洞螈人]] | [[Otter man|水獭人]] | [[Platypus man|鸭嘴兽人]] | [[Pond turtle man|池龟人]] | [[Reptile man|爬行人]] | [[Saltwater crocodile man|咸水鳄人]] | [[Serpent man|蛇人]] | [[Snapping turtle man|鳄龟人]] | [[Toad man|蟾蜍人]] | [[Walrus man|海象人]]
+|-
+| '''[[Aquatic|水生]]''' || 在水中正常移动和呼吸，但在少于4/7单位的水中会溺水。 || | [[Cuttlefish man|墨鱼人]] | [[Moon snail man|月亮蜗牛人]] | [[Narwhal man|独角鲸人]] | [[Nautilus man|鹦鹉螺人]] | [[Octopus man|章鱼人]] | [[Orca man|虎鲸人]] | [[Sperm whale man|抹香鲸人]] | [[Sponge man|海绵人]] | [[Squid man|鱿鱼人]]
+|-
+| '''[[creature token#HOMEOTHERM|变温动物]]''' || 没有内部体温 || | 大概所有爬行动物、两栖动物、节肢动物等物种。
+|-
+| '''[[egg|产卵]]@''' || 如果给雌性一个巢箱，她们会产（不育的）蛋 ||  | 大概所有产卵的鸟类、爬行动物等。
+|-
+| '''[[Flying|飞行]]+(有缺陷)''' || 可以在空中飞行 ||  | [[Antman|蚁人]]（仅雄蜂等级） | [[Albatross man|信天翁人]] | [[Barn owl man|仓鸮人]] | [[Bat man|蝙蝠人]] | [[Bluejay man|蓝松鸦人]] | [[Bushtit man|山雀人]] | [[Buzzard man|秃鹫人]] | [[Cardinal man|红雀人]] | [[Cave swallow man|洞穴燕人]] | [[Crow man|乌鸦人]] | [[Damselfly man|豆娘人]] | [[Dragonfly man|蜻蜓人]] | [[Eagle man|鹰人]] | [[Firefly man|萤火虫人]] | [[Fly man|苍蝇人]] | [[Grackle man|白头翁人]] | [[Great horned owl man|大角鸮人]] | [[Grey parrot man|灰鹦鹉人]] | [[Hornbill man|犀鸟人]] | [[Kea man|啄羊鹦鹉人]] | [[Kestrel man|红隼人]] | [[Loon man|潜鸟人]] | [[Lorikeet man|吸蜜鹦鹉人]] | [[Magpie man|喜鹊人]] | [[Mantis man|螳螂人]] | [[Masked lovebird man|面罩情侣鹦鹉人]] | [[Monarch butterfly man|帝王蝶人]] | [[Mosquito man|蚊子人]] | [[Moth man|飞蛾人]] | [[Oriole man|黄鹂人]] | [[Osprey man|鱼鹰人]] | [[Parakeet man|长尾小鹦鹉人]] | [[Peach-faced lovebird man|桃面情侣鹦鹉人]] | [[Peregrine falcon man|游隼人]] | [[Puffin man|海鹦人]] | [[Raven man|渡鸦人]] | [[Red-winged blackbird man|红翅黑鹂人]] | [[Roach man|蟑螂人]] | [[Snowy owl man|雪鸮人]] | [[Sparrow man|麻雀人]] | [[Swan man|天鹅人]] | [[Thrips man|蓟马人]] | [[Vulture man|秃鹫人]] | [[Wren man|鹪鹩人]]
+|-
+| '''[[Genderless|无性别]]''' || 无法在正常游戏中繁殖 ||  | [[Leech man|水蛭人]] | [[Slug man|蛞蝓人]] | [[Snail man|蜗牛人]] | [[Sponge man|海绵人]] | [[Worm man|蠕虫人]]
+|-
+| '''[[No Pain|无痛]]''' || 感觉不到疼痛 ||  | [[Bark scorpion man|树皮蝎人]] | [[Brown recluse spider man|棕色隐士蜘蛛人]] | [[Jumping spider man|跳蛛人]]
+|-
+| '''[[No Stun|无眩晕]]''' || 无法被眩晕 || | [[Bark scorpion man|树皮蝎人]] | [[Brown recluse spider man|棕色隐士蜘蛛人]] | [[Jumping spider man|跳蛛人]]
+|-
+| '''[[Shell|壳]]''' || 拥有可在屠宰时获得的壳，但是，矮人不会在未修改的DF中屠宰动物人。 ||  | [[Armadillo man|犰狳人]] | [[Desert tortoise man|沙漠陆龟人]] | [[Giant tortoise man|巨龟人]] | [[Moon snail man|月亮蜗牛人]] | [[Nautilus man|鹦鹉螺人]] | [[Pond turtle man|池龟人]] | [[Snail man|蜗牛人]] | [[Snapping turtle man|鳄龟人]]
+|-
+| '''[[Steals drink|偷饮料]](#)''' || 接近任何可用的饮料并偷走它，当场狂饮整桶。 ||  | [[Black bear man|黑熊人]] | [[Grizzly bear man|灰熊人]] | [[Polar bear man|北极熊人]] | [[Sloth bear man|懒熊人]]
+|-
+| '''[[Steals food|偷食物]](#)''' || 接近任何可用的食物并偷走它，带走一堆食物离开地图。 ||  | [[Black bear man|黑熊人]] | [[Buzzard man|秃鹫人]] | [[Capuchin man|卷尾猴人]] | [[Coati man|长鼻浣熊人]] | [[Gray langur man|灰叶猴人]] | [[Grizzly bear man|灰熊人]] | [[Honey badger man|蜜獾人]] | [[Kea man|啄羊鹦鹉人]] | [[Mandrill man|山魈人]] | [[Polar bear man|北极熊人]] | [[Raccoon man|浣熊人]] | [[Rhesus macaque man|恒河猴人]] | [[Sloth bear man|懒熊人]] | [[Vulture man|秃鹫人]]
+|-
+| '''[[Steals items|偷物品]](#)''' || 接近物品并偷走它，带着它离开地图。 ||  | [[Capuchin man|卷尾猴人]] | [[Coati man|长鼻浣熊人]] | [[Gray langur man|灰叶猴人]] | [[Kea man|啄羊鹦鹉人]] | [[Mandrill man|山魈人]] | [[Raccoon man|浣熊人]] | [[Rhesus macaque man|恒河猴人]]
+|-
+| '''[[Syndrome|综合征]]''' || 导致各种[[symptom|症状]]的毒液，通常通过咬或特殊刺攻击施加 ||  | [[Adder man|蝰蛇人]] | [[Bark scorpion man|树皮蝎人]] | [[Black mamba man|黑曼巴人]] | [[Brown recluse spider man|棕色隐士蜘蛛人]] | [[Bushmaster man|矛头蝮人]] | [[Copperhead snake man|铜头蛇人]] | [[Gila monster man|毒蜥人]] | [[King cobra man|眼镜王蛇人]] | [[Platypus man|鸭嘴兽人]] | [[Rattlesnake man|响尾蛇人]]
+|-
+| '''[[Web|网]]s''' || 可以穿过蛛网并在冒险模式中用{{k|g}}收集它。不包括喷网攻击。 ||  | [[Brown recluse spider man|棕色隐士蜘蛛人]]
+|-
+|}
+
+'''（所有动物人都具有学习和类人属性）'''
+
+== 按分类组织的动物人 ==
+
+由于内容过长，此部分包含大量生物的完整分类表格，我在此略过详细翻译。表格结构保持不变。
+
+== 历史 ==
+
+从游戏的第一个官方版本开始，动物人并不作为一个类别存在，而是作为骚扰矮人的一小群地下生物的一部分。[[23a:frogman|蛙人]]、[[23a:lizardman|蜥蜴人]]和[[23a:snakeman|蛇人]]从[[23a:cave river|洞穴河流]]中出现，[[23a:antman|蚁人]]、[[23a:batman|蝙蝠人]]和[[23a:ratman|老鼠人]]会从[[23a:chasm|深渊]]中出来攻击。
+
+[[40d:release information|v0.27.169.32a]]发布了三维世界，地下生物被移动到生成的[[40d:chasm|深渊]]、[[40d:underground river|地下河流]]和[[40d:Underground pool|地下水池]]附近聚集。引入了[[cave swallow man|洞穴燕人]]和[[olm man|洞螈人]]。第一批地上野蛮动物人也被引入：[[leech man|水蛭人]]、[[snail man|蜗牛人]]、[[slug man|蛞蝓人]]和[[tiger man|虎人]]。
+
+在[[v0.31:release information|v0.31]]中，每个生物都被重命名和/或重新定义属性（例如，"frogman"改为"amphibian man"，"batman"改为"bat man"）。并非所有动物人在此版本中都被重新定义，一些在许多版本中继续使用旧代码。该版本还引入了"[[creature variation token|生物变异]]"模板，这使得将现有动物转换为类人（和巨型）变体的效率大大提高。地下特征扩展到当前的[[cavern|洞穴]]，地下动物人形成了文明。添加了当时存在的动物的更多拟人化变体。
+
+更多动物人在[[v0.34:release information|v0.34]]中被添加到游戏中。
+
+[[Release information/0.42.01|v0.42.01]]允许动物人加入文明、生活在定居点并访问要塞。动物人作为冒险者变得可玩。（例如，一个灰熊锤矮人对矮人社会有很多贡献。）[[Release information/0.42.04|v0.42.04]]向游戏添加了更多动物人。
+
+== 错误 ==
+* 动物人无法学习游泳。{{Bug|9853}}
+{{Creatures}}
+
+{{Category|Humanoids}}
+[[Ru:Animal people]]

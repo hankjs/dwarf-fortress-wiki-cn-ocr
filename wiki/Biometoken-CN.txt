@@ -1,0 +1,184 @@
+{{Quality|Superior}}
+{{av}}
+{{Modding}}
+
+'''生物群系标记'''用于表示[[creature|生物]]、[[plant|植物]]和[[civilisation|实体]]的[[biome|生物群系]]。
+
+所有使用生物群系标记的对象可以接受多个条目，因此它们可以在许多不同的位置找到。
+
+==单个生物群系==
+{| {{prettytable}}
+|- bgcolor="#ddd"
+! ID !! 标记 !! 描述
+|-
+| 0 || {{text anchor|MOUNTAIN}} or {{text anchor|MOUNTAINS}} || 山脉
+|-
+| 1 || {{text anchor|GLACIER}} || 冰川
+|-
+| 2 || {{text anchor|TUNDRA}} || 苔原
+|-
+| 3 || {{text anchor|SWAMP_TEMPERATE_FRESHWATER}} || 温带淡水沼泽
+|-
+| 4 || {{text anchor|SWAMP_TEMPERATE_SALTWATER}} || 温带咸水沼泽
+|-
+| 5 || {{text anchor|MARSH_TEMPERATE_FRESHWATER}} || 温带淡水沼地
+|-
+| 6 || {{text anchor|MARSH_TEMPERATE_SALTWATER}} || 温带咸水沼地
+|-
+| 7 || {{text anchor|SWAMP_TROPICAL_FRESHWATER}} || 热带淡水沼泽
+|-
+| 8 || {{text anchor|SWAMP_TROPICAL_SALTWATER}} || 热带咸水沼泽
+|-
+| 9 || {{text anchor|SWAMP_MANGROVE}} || 红树林沼泽
+|-
+| 10 || {{text anchor|MARSH_TROPICAL_FRESHWATER}} || 热带淡水沼地
+|-
+| 11 || {{text anchor|MARSH_TROPICAL_SALTWATER}} || 热带咸水沼地
+|-
+| 12 || {{text anchor|FOREST_TAIGA}} or {{text anchor|TAIGA}} || 泰加林
+|-
+| 13 || {{text anchor|FOREST_TEMPERATE_CONIFER}} || 温带针叶林
+|-
+| 14 || {{text anchor|FOREST_TEMPERATE_BROADLEAF}} || 温带阔叶林
+|-
+| 15 || {{text anchor|FOREST_TROPICAL_CONIFER}} || 热带针叶林
+|-
+| 16 || {{text anchor|FOREST_TROPICAL_DRY_BROADLEAF}} || 热带干燥阔叶林
+|-
+| 17 || {{text anchor|FOREST_TROPICAL_MOIST_BROADLEAF}} || 热带湿润阔叶林
+|-
+| 18 || {{text anchor|GRASSLAND_TEMPERATE}} || 温带草原
+|-
+| 19 || {{text anchor|SAVANNA_TEMPERATE}} || 温带热带草原
+|-
+| 20 || {{text anchor|SHRUBLAND_TEMPERATE}} || 温带灌木丛
+|-
+| 21 || {{text anchor|GRASSLAND_TROPICAL}} || 热带草原
+|-
+| 22 || {{text anchor|SAVANNA_TROPICAL}} || 热带热带草原
+|-
+| 23 || {{text anchor|SHRUBLAND_TROPICAL}} || 热带灌木丛
+|-
+| 24 || {{text anchor|DESERT_BADLAND}} || 荒地
+|-
+| 25 || {{text anchor|DESERT_ROCK}} || 岩石荒原
+|-
+| 26 || {{text anchor|DESERT_SAND}} || 沙漠
+|-
+| 27 || {{text anchor|OCEAN_TROPICAL}} || 热带海洋
+|-
+| 28 || {{text anchor|OCEAN_TEMPERATE}} || 温带海洋
+|-
+| 29 || {{text anchor|OCEAN_ARCTIC}} || 北极海洋
+|-
+| 30 || {{text anchor|POOL_TEMPERATE_FRESHWATER}} || 温带淡水池
+|-
+| 31 || {{text anchor|POOL_TEMPERATE_BRACKISHWATER}} || 温带半咸水池
+|-
+| 32 || {{text anchor|POOL_TEMPERATE_SALTWATER}} || 温带咸水池
+|-
+| 33 || {{text anchor|POOL_TROPICAL_FRESHWATER}} || 热带淡水池
+|-
+| 34 || {{text anchor|POOL_TROPICAL_BRACKISHWATER}} || 热带半咸水池
+|-
+| 35 || {{text anchor|POOL_TROPICAL_SALTWATER}} || 热带咸水池
+|-
+| 36 || {{text anchor|LAKE_TEMPERATE_FRESHWATER}} || 温带淡水湖
+|-
+| 37 || {{text anchor|LAKE_TEMPERATE_BRACKISHWATER}} || 温带半咸水湖
+|-
+| 38 || {{text anchor|LAKE_TEMPERATE_SALTWATER}} || 温带咸水湖
+|-
+| 39 || {{text anchor|LAKE_TROPICAL_FRESHWATER}} || 热带淡水湖
+|-
+| 40 || {{text anchor|LAKE_TROPICAL_BRACKISHWATER}} || 热带半咸水湖
+|-
+| 41 || {{text anchor|LAKE_TROPICAL_SALTWATER}} || 热带咸水湖
+|-
+| 42 || {{text anchor|RIVER_TEMPERATE_FRESHWATER}} || 温带淡水河
+|-
+| 43 || {{text anchor|RIVER_TEMPERATE_BRACKISHWATER}} || 温带半咸水河
+|-
+| 44 || {{text anchor|RIVER_TEMPERATE_SALTWATER}} || 温带咸水河
+|-
+| 45 || {{text anchor|RIVER_TROPICAL_FRESHWATER}} || 热带淡水河
+|-
+| 46 || {{text anchor|RIVER_TROPICAL_BRACKISHWATER}} || 热带半咸水河
+|-
+| 47 || {{text anchor|RIVER_TROPICAL_SALTWATER}} || 热带咸水河
+|-
+| 48 || {{text anchor|SUBTERRANEAN_WATER}} || 地下洞穴（在水中）
+|-
+| 49 || {{text anchor|SUBTERRANEAN_CHASM}} || 地下洞穴（在水外）
+|-
+| 50 || {{text anchor|SUBTERRANEAN_LAVA}} || 岩浆海
+|}
+
+
+==生物群系集==
+{| {{prettytable}}
+|- bgcolor="#ddd"
+! 标记 !! 生物群系 !! 描述
+|-
+| {{text anchor|ALL_MAIN}} || 0-29, 36-41 || 所有生物群系，不包括水池、河流和地下特征
+|-
+| {{text anchor|ANY_LAND}} || 0-26 || 所有主要生物群系，不包括海洋和湖泊
+|-
+| {{text anchor|ANY_OCEAN}} || 27-29 || 所有海洋生物群系
+|-
+| {{text anchor|ANY_LAKE}} || 36-41 || 所有湖泊生物群系
+|-
+| {{text anchor|ANY_TEMPERATE_LAKE}} || 36-38 || 所有温带湖泊生物群系
+|-
+| {{text anchor|ANY_TROPICAL_LAKE}} || 39-41 || 所有热带湖泊生物群系
+|-
+| {{text anchor|ANY_RIVER}} || 42-47 || 所有河流生物群系
+|-
+| {{text anchor|ANY_TEMPERATE_RIVER}} || 42-44 || 所有温带河流生物群系
+|-
+| {{text anchor|ANY_TROPICAL_RIVER}} || 45-47 || 所有热带河流生物群系
+|-
+| {{text anchor|ANY_POOL}} || 30-35 || 所有水池生物群系
+|-
+| {{text anchor|NOT_FREEZING}} || 3-26 || 所有陆地生物群系，不包括山脉、冰川和苔原
+|-
+| {{text anchor|ANY_TEMPERATE}} || 3-6, 13-14, 18-20 || 所有温带陆地生物群系 - 沼地、沼泽、森林、草原、热带草原和灌木丛
+|-
+| {{text anchor|ANY_TROPICAL}} || 7-11, 15-17, 21-23 || 所有热带陆地生物群系 - 沼地、沼泽（包括红树林）、森林、草原、热带草原和灌木丛
+|-
+| {{text anchor|ANY_FOREST}} || 13-17 || 所有森林生物群系（不包括泰加林）
+|-
+| {{text anchor|ANY_SHRUBLAND}} || 20, 23 || 温带和热带灌木丛
+|-
+| {{text anchor|ANY_GRASSLAND}} || 18, 21 || 温带和热带草原
+|-
+| {{text anchor|ANY_SAVANNA}} || 19, 22 || 温带和热带热带草原
+|-
+| {{text anchor|ANY_TEMPERATE_FOREST}} || 13-14 || 温带针叶林和阔叶林
+|-
+| {{text anchor|ANY_TROPICAL_FOREST}} || 15-17 || 热带针叶林和干燥/湿润阔叶林
+|-
+| {{text anchor|ANY_TEMPERATE_BROADLEAF}} || 3-6, 14, 18-20 || 温带阔叶林、草原/热带草原/灌木丛、沼泽和沼地
+|-
+| {{text anchor|ANY_TROPICAL_BROADLEAF}} || 7-11, 16-17, 21-23 || 热带干燥/湿润阔叶林、草原/热带草原/灌木丛、沼泽（包括红树林）和沼地
+|-
+| {{text anchor|ANY_WETLAND}} || 3-11 || 所有沼泽和沼地
+|-
+| {{text anchor|ANY_TEMPERATE_WETLAND}} || 3-6 || 所有温带沼泽和沼地
+|-
+| {{text anchor|ANY_TROPICAL_WETLAND}} || 7-11 || 所有热带沼泽和沼地
+|-
+| {{text anchor|ANY_TROPICAL_MARSH}} || 10-11 || 所有热带沼地
+|-
+| {{text anchor|ANY_TEMPERATE_MARSH}} || 5-6 || 所有温带沼地
+|-
+| {{text anchor|ANY_TROPICAL_SWAMP}} || 7-9 || 所有热带沼泽（包括红树林）
+|-
+| {{text anchor|ANY_TEMPERATE_SWAMP}} || 3-4 || 所有温带沼泽
+|-
+| {{text anchor|ANY_DESERT}} || 24-26 || 荒地、岩石荒原和沙漠
+|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Biome token]][[zh:Biome token]]

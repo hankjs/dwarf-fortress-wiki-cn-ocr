@@ -1,0 +1,17 @@
+'''商队弧线'''是矮人要塞[[Development arc|开发弧线]]之一。这个弧线主要集中在充实矮人模式和整个世界的贸易和经济。
+
+初始版本是[[DF2010:Release information/0.31.19|0.31.19]]，它开始在世界生成中模拟食物使用和贸易，并在矮人模式中添加了新的贸易商品和技能。
+
+==矮人要塞综合开发==
+虽然已经过时，Toady已经解释了从这个弧线可以期待什么：
+<blockquote>
+作为军队的前奏，我们将让商队实际在世界地图上移动，而不是只出现在你的前哨。他们将在地图上的每个城市之间移动，尽管我们会尽量避免暂时支持真正的经济。你应该能够在冒险模式中找到你在要塞中交易的物品，商队可能会带着冒险模式物品来到你的要塞。
+</blockquote>
+
+==另见==
+* [[Caravan]]
+* [http://www.bay12games.com/dwarves/dev_single.html Dwarf Fortress Consolidated Development]
+
+[[Category:Arcs]]
+{{unversioned}}
+[[ru:Caravan arc]]

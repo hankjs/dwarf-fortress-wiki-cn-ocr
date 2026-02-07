@@ -1,0 +1,36 @@
+{{Quality|Superior}}
+{{av}}
+{{Modding}}
+用于定义描述符图案的标记，可以代替[[Color#Color_tokens|描述性颜色]]使用。例如，描述符图案STRIPES_ORANGE_BLACK就是让老虎拥有条纹的原因。
+{{clear}}
+
+==标记==
+{| {{prettytable}}
+|- bgcolor="#999999"
+! 标记
+! 参数
+! 用法
+! 描述
+
+|-
+| {{text anchor|PATTERN}}
+| SPOTS, STRIPES, MOTTLED, IRIS_EYE or PUPIL_EYE
+| {{tc|red|必需}}
+| 图案的类型，决定描述。
+* SPOTS：如果没有给出CP_COLOR会导致崩溃{{bug|11806}}，否则可以接受任意数量。
+* STRIPES：接受任意数量的CP_COLOR标记。
+* MOTTLED：接受任意数量的CP_COLOR标记。
+* IRIS_EYE：只显示给出的第三个CP_COLOR；技术上接受任意数量。如果没有给出CP_COLOR会导致崩溃{{bug|11806}}。如果只给出一个或两个CP_COLOR，组织被描述为"透明的"。
+* PUPIL_EYE：只显示给出的第二个CP_COLOR；技术上接受任意数量。如果没有给出CP_COLOR会导致崩溃{{bug|11806}}。如果只给出一个CP_COLOR，组织被描述为"透明的"。
+未定义的图案类型会导致描述根本不显示。
+
+|-
+| {{text anchor|CP_COLOR}}
+| [[Color#Color_tokens|color token]]
+| {{tc|red|必需（大多数情况下）}}
+| 要在图案中使用的颜色。有关需要多少个CP_COLOR标记以及如何使用它们，请参见[[Descriptor_pattern_token#PATTERN|PATTERN]]。可以使用[[descriptor color token|模组颜色标记]]。
+|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Descriptor pattern token]]

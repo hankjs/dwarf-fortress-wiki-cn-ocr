@@ -1,0 +1,19 @@
+{{Quality|Fine}}
+{{Treelookup/0
+|graphic=carambola_trunk_sprite.png
+|product=carambola_sprite.png
+|sapling=carambola_sapling.png}}
+{{av}}
+
+'''杨桃'''（也称为星果）是地面上发现的众多树属之一。像绝大多数地面树木一样，杨桃[[wood|木材]]是棕色的，产出棕色产品。
+
+杨桃树结出杨桃[[fruit|果实]]，可以通过设置采集[[zone|区域]]来收获。它们可以生吃、烹饪，或酿造成[[alcohol|杨桃酒]]。
+
+一些[[Dwarf|矮人]]因为杨桃树的''果实''而[[Preferences|喜欢]]它们。
+
+
+[[File:Averrhoa carambola ARS k5735-7.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

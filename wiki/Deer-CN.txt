@@ -1,0 +1,42 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=deer_couple_sprite_anim.gif
+|portrait=deer_portrait_anim.gif
+|contrib=no
+|bone=13
+|meat=10
+|fat=9
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1|
+|skull=1
+|skin=hide
+|hoof=4
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''鹿'''是一种可以在[[temperate|温带]][[forest|森林]]和[[taiga|针叶林]]中找到的[[Creature|动物]]，它们以1-4只的群体出现。它们是温和的食草动物，只会在你的周围漫无目的地游荡，遇到任何试图接近它们的[[dwarf|矮人]]就会逃跑，很少反击。雄鹿的特点是拥有一对可用于顶撞攻击的鹿角，而雌鹿则完全没有。新生的鹿被称为''小鹿''。
+
+鹿可以用[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|训练]]成异域[[pet|宠物]]。由于它们的体型是矮人的两倍多一点，[[butcher|屠宰]]时能提供相当多的产物，使它们成为[[meat industry|肉类产业]]的选择。它们在被训练后是[[Grazer|食草]]动物，因此需要[[pasture|牧场]]才不会饿死。
+
+一些矮人因为鹿的''优雅''而[[Preferences|喜欢]]它们。
+
+{{Translation
+| dwarven = kizbiz
+| elvish  = liyìÿi
+| goblin  = unes
+| human   = keth
+}}
+[[File:White-tailed deer.jpg|thumb|400px|center|因其''优雅''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}
