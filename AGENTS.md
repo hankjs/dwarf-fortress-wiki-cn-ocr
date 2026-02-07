@@ -24,11 +24,17 @@ This is a **Dwarf Fortress Wiki OCR and Translation Tool** designed to help Chin
 
 ```
 df-ocr/
-├── ocr_tool.py                    # Main GUI application entry point
+├── src/                           # Source code directory
+│   ├── __init__.py
+│   ├── ocr_tool.py                # Main GUI application entry point
+│   └── wiki_to_html.py            # Wiki format to HTML converter
+├── tests/                         # Unit tests directory
+│   ├── __init__.py
+│   ├── test_translation.py        # Translation functionality tests
+│   └── test_wiki_to_html.py       # Wiki to HTML conversion tests
 ├── split_wiki.py                  # MediaWiki XML splitter
 ├── build_translation_map.py       # Build translation dictionary from wiki_cn
 ├── translate_large_files.py       # Large file translation rules (placeholder)
-├── test_translation.py            # Translation functionality tests
 ├── requirements.txt               # Python dependencies
 ├── translation_map.json           # Generated translation dictionary
 ├── Dwarf+Fortress+Wiki-*.xml      # Raw MediaWiki XML export (source data)
@@ -47,7 +53,7 @@ df-ocr/
 
 ## Core Modules
 
-### 1. `ocr_tool.py`
+### 1. `src/ocr_tool.py`
 Main application module with PyQt5 GUI.
 
 **Key Classes:**
@@ -65,7 +71,25 @@ Main application module with PyQt5 GUI.
 5. Matching wiki entries displayed in `ResultDialog`
 6. User can toggle between English/Chinese content
 
-### 2. `split_wiki.py`
+### 2. `src/wiki_to_html.py`
+Converts MediaWiki markup to HTML for display.
+
+**Key Function:**
+- `wiki_to_html(content)` - Converts wiki markup to HTML
+
+**Supported Syntax:**
+- Wiki links: `[[Link]]` → `<a href="wiki:Link">`
+- Wiki links with display: `[[Link|Display]]` → `<a href="wiki:Link">Display</a>`
+- Images: `[[File:Image.png|widthpx]]` → `<img>`
+- Bold: `'''text'''` or `**text**` → `<b>`
+- Italic: `*text*` or `_text_` → `<i>`
+- Headings: `==text==` (H2), `=text=` (H3)
+- Code blocks: \`\`\`code\`\`\` → `<pre><code>`
+- Inline code: \`code\` → `<code>`
+- Tables: `{| ... |}` → `<table>`
+- Lists: `- item`, `* item`, `1. item` → `<ul>`, `<ol>`
+
+### 3. `split_wiki.py`
 Parses MediaWiki XML export into individual `.txt` files.
 
 **Usage:**
@@ -80,7 +104,7 @@ python split_wiki.py [input_xml] [output_dir]
 - Skips files ending with "raw" suffix
 - Organizes by namespace subdirectories
 
-### 3. `build_translation_map.py`
+### 4. `build_translation_map.py`
 Builds translation mapping from existing Chinese translations.
 
 **Output:** `translation_map.json`
@@ -101,7 +125,7 @@ Builds translation mapping from existing Chinese translations.
 2. Build normalized key mapping (lowercase alphanumeric only)
 3. Include extensive hardcoded vocabulary map for game terminology
 
-### 4. `wiki/` and `wiki_cn/` Data Directories
+### 5. `wiki/` and `wiki_cn/` Data Directories
 
 **File Naming Convention:**
 - English: `{Title}.txt`
@@ -123,8 +147,8 @@ pip install -r requirements.txt
 
 ### Run Application
 ```bash
-# Run the OCR tool
-python ocr_tool.py
+# Run the OCR tool (from project root)
+python src/ocr_tool.py
 ```
 
 ### Build Translation Map
@@ -141,8 +165,12 @@ python split_wiki.py Dwarf+Fortress+Wiki-20260206192244.xml wiki
 
 ### Run Tests
 ```bash
-# Test translation functionality
-python test_translation.py
+# Run all tests
+python -m pytest tests/
+
+# Or run individual test files
+python tests/test_translation.py
+python tests/test_wiki_to_html.py
 ```
 
 ## Translation System Architecture
