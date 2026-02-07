@@ -338,10 +338,9 @@ class ResultDialog(QDialog):
             # 基于MD5哈希构造真实图片URL
             h = hashlib.md5(filename.encode()).hexdigest()
             base = f"https://dwarffortresswiki.org/images"
-            if width:
-                img_url = f"{base}/thumb/{h[0]}/{h[:2]}/{filename}/{width}px-{filename}"
-            else:
-                img_url = f"{base}/{h[0]}/{h[:2]}/{filename}"
+            # 始终使用原始图片URL，用HTML width属性控制显示大小
+            # (缩略图路径/thumb/对某些图片不存在，会返回404)
+            img_url = f"{base}/{h[0]}/{h[:2]}/{filename}"
             w_attr = f' width="{width}"' if width else ""
             placeholder = f"__FILE_PLACEHOLDER_{len(file_placeholders)}__"
             file_placeholders[placeholder] = f'<br><img src="{img_url}"{w_attr}><br>'
