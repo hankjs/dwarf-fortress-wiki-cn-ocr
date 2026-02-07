@@ -48,7 +48,45 @@ def translate_content_by_vocab(content, vocab_map):
     """
     使用词汇映射表进行简单文本替换翻译
     按词长度降序排列，避免短词替换干扰长词
+    保护 Wiki 语法（[[File:...]]、[[link]] 等）不被破坏
     """
+    # 先提取并保护 Wiki 语法
+    placeholders = {}
+    placeholder_id = 0
+
+    def protect_wiki_syntax(match):
+        nonlocal placeholder_id
+        placeholder = f"__WIKI_PROTECT_{placeholder_id}__"
+        placeholder_id += 1
+        placeholders[placeholder] = match.group(0)
+        return placeholder
+
+    # 保护 [[File:...]] 和 [[Image:...]] 语法
+    content = re.sub(
+        r"\[\[(File|Image):[^\]]+\]\]",
+        protect_wiki_syntax,
+        content,
+        flags=re.IGNORECASE,
+    )
+    # 保护 [[link|display]] 和 [[link]] 语法
+    content = re.sub(
+        r"\[\[[^\]]+\]\]",
+        protect_wiki_syntax,
+        content,
+    )
+    # 保护模板语法 {{...}}
+    content = re.sub(
+        r"\{\{[^}]+\}\}",
+        protect_wiki_syntax,
+        content,
+    )
+    # 保护 URL
+    content = re.sub(
+        r"https?://[^\s\]]+",
+        protect_wiki_syntax,
+        content,
+    )
+
     # 按词长度降序排序，确保长词先被替换
     sorted_vocab = sorted(vocab_map.items(), key=lambda x: len(x[0]), reverse=True)
 
@@ -57,6 +95,10 @@ def translate_content_by_vocab(content, vocab_map):
         # 使用正则表达式进行整词匹配（忽略大小写）
         pattern = r"\b" + re.escape(en_word) + r"\b"
         result = re.sub(pattern, cn_word, result, flags=re.IGNORECASE)
+
+    # 还原受保护的 Wiki 语法
+    for placeholder, original in placeholders.items():
+        result = result.replace(placeholder, original)
 
     return result
 
@@ -124,6 +166,50 @@ class ScreenshotWindow(QWidget):
             self.close()
 
 
+class ImageUrlResolver(QThread):
+    """后台解析图片真实URL的线程（处理Wikimedia Commons等外部图片）"""
+
+    finished = pyqtSignal(str, str)  # original_url, resolved_url
+
+    def __init__(self, filename, parent=None):
+        super().__init__(parent)
+        # filename 已经是 MediaWiki 格式（空格转为下划线，首字母大写）
+        self.filename = filename
+
+    def run(self):
+        """查询 MediaWiki API 获取真实图片 URL"""
+        try:
+            # 使用 MediaWiki API 查询图片信息
+            # filename 中可能包含引号等特殊字符，需要 URL 编码
+            from urllib.parse import quote
+
+            encoded_name = quote(self.filename)
+            api_url = f"https://dwarffortresswiki.org/api.php?action=query&titles=File:{encoded_name}&prop=imageinfo&iiprop=url&format=json"
+
+            print(f"[DEBUG] 查询API: {api_url}")
+            req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                data = json.loads(response.read().decode())
+
+            # 解析 API 响应
+            pages = data.get("query", {}).get("pages", {})
+            for page_id, page_info in pages.items():
+                imageinfo = page_info.get("imageinfo", [])
+                if imageinfo:
+                    real_url = imageinfo[0].get("url", "")
+                    if real_url:
+                        print(f"[DEBUG] 解析到真实URL: {real_url}")
+                        self.finished.emit(self.filename, real_url)
+                        return
+
+            # 如果 API 没有返回 URL，使用本地构造的 URL
+            print(f"[DEBUG] API未返回URL，使用本地URL")
+            self.finished.emit(self.filename, "")
+        except Exception as e:
+            print(f"[DEBUG] 解析URL失败: {e}")
+            self.finished.emit(self.filename, "")
+
+
 class ImageDownloader(QThread):
     """后台下载图片的线程"""
 
@@ -138,9 +224,12 @@ class ImageDownloader(QThread):
             req = urllib.request.Request(
                 self.url, headers={"User-Agent": "Mozilla/5.0"}
             )
-            data = urllib.request.urlopen(req, timeout=10).read()
+            # 增加超时时间，SSL 握手可能需要更长时间
+            data = urllib.request.urlopen(req, timeout=30).read()
+            print(f"[DEBUG] 下载成功: {self.url}, 大小: {len(data)} bytes")
             self.finished.emit(self.url, data)
-        except Exception:
+        except Exception as e:
+            print(f"[DEBUG] 下载失败: {self.url}, 错误: {e}")
             self.finished.emit(self.url, b"")
 
 
@@ -154,12 +243,20 @@ class WikiTextBrowser(QTextBrowser):
     def __init__(self, parent=None):
         super().__init__(parent)
         self._downloaders = []
+        self._url_resolvers = []
+        # 存储原始URL到文件名的映射，用于404后解析
+        self._url_to_filename = {}
+        self._pending_resolved_urls = {}  # 解析后的真实URL -> 原URL
 
     def loadResource(self, type, url):
         if type == 2:  # QTextDocument.ImageResource
             url_str = url.toString()
             if url_str in _image_cache:
-                return _image_cache[url_str]
+                cached = _image_cache[url_str]
+                if cached is None:
+                    return QPixmap()
+                print(f"[DEBUG] 使用缓存图片: {url_str}")
+                return cached
             if url_str.startswith("http") and url_str not in _image_cache:
                 _image_cache[url_str] = None  # 标记为下载中
                 downloader = ImageDownloader(url_str, self)
@@ -170,13 +267,68 @@ class WikiTextBrowser(QTextBrowser):
         return super().loadResource(type, url)
 
     def _on_image_downloaded(self, url_str, data):
+        print(f"[DEBUG] 图片下载完成: {url_str}, 数据大小: {len(data)} bytes")
         if data:
             pixmap = QPixmap()
             pixmap.loadFromData(data)
             if not pixmap.isNull():
+                print(
+                    f"[DEBUG] 图片加载成功: {url_str}, 尺寸: {pixmap.width()}x{pixmap.height()}"
+                )
                 _image_cache[url_str] = pixmap
                 self.document().addResource(2, QUrl(url_str), pixmap)
                 # 刷新显示
+                self.setHtml(self.toHtml())
+            else:
+                print(f"[DEBUG] 图片加载失败 (pixmap.isNull()): {url_str}")
+        else:
+            print(f"[DEBUG] 图片下载失败 (无数据): {url_str}")
+            # 下载失败，尝试通过 API 解析真实 URL（可能是 Wikimedia Commons 图片）
+            if url_str in self._url_to_filename:
+                filename = self._url_to_filename[url_str]
+                print(f"[DEBUG] 尝试解析真实URL: {filename}")
+                resolver = ImageUrlResolver(filename, self)
+                resolver.finished.connect(self._on_url_resolved)
+                self._url_resolvers.append(resolver)
+                resolver.start()
+
+    def _on_url_resolved(self, filename, real_url):
+        """当通过 API 解析到真实 URL 后的回调"""
+        if real_url:
+            # 找到原 URL（用于文档资源）
+            original_url = None
+            for url, fn in self._url_to_filename.items():
+                if fn == filename:
+                    original_url = url
+                    break
+            if original_url:
+                self._pending_resolved_urls[real_url] = original_url
+            # 更新缓存和下载
+            _image_cache[real_url] = None
+            downloader = ImageDownloader(real_url, self)
+            # 注意：finished 信号是 (url, data) 顺序
+            downloader.finished.connect(
+                lambda url, data, orig=original_url: self._on_real_image_downloaded(
+                    url, data, orig
+                )
+            )
+            self._downloaders.append(downloader)
+            downloader.start()
+
+    def _on_real_image_downloaded(self, url_str, data, original_url=None):
+        """从真实 URL 下载完成后的回调"""
+        if data:
+            pixmap = QPixmap()
+            pixmap.loadFromData(data)
+            if not pixmap.isNull():
+                # 同时缓存到真实 URL 和原 URL
+                _image_cache[url_str] = pixmap
+                if original_url:
+                    _image_cache[original_url] = pixmap
+                    # 使用原 URL 注册资源，这样 HTML 中的 img src 才能匹配
+                    self.document().addResource(2, QUrl(original_url), pixmap)
+                else:
+                    self.document().addResource(2, QUrl(url_str), pixmap)
                 self.setHtml(self.toHtml())
 
 
@@ -350,10 +502,15 @@ class ResultDialog(QDialog):
             QPushButton:hover { background-color: #c0c0c0; }
         """
 
-    @staticmethod
-    def _wiki_to_html(content):
-        """将wiki格式内容转为HTML，[[link]] 变为可点击链接，[[File:...]] 变为图片"""
+    def _wiki_to_html(self, content):
+        """将wiki格式内容转为HTML，[[link]] 变为可点击链接，[[File:...]] 变为图片
+        返回 (html_content, url_to_filename_dict)
+        """
         import html
+        from urllib.parse import quote
+
+        # 存储 URL 到文件名的映射，用于 404 后解析真实 URL
+        url_to_filename = {}
 
         # 先提取 [[File:...]] 替换为占位符（避免被 html.escape 和后续正则干扰）
         file_placeholders = {}
@@ -375,19 +532,27 @@ class ResultDialog(QDialog):
             base = f"https://dwarffortresswiki.org/images"
             # 始终使用原始图片URL，用HTML width属性控制显示大小
             # (缩略图路径/thumb/对某些图片不存在，会返回404)
-            img_url = f"{base}/{h[0]}/{h[:2]}/{filename}"
+            # 对文件名进行URL编码，处理空格等特殊字符
+            encoded_filename = quote(filename)
+            img_url = f"{base}/{h[0]}/{h[:2]}/{encoded_filename}"
             w_attr = f' width="{width}"' if width else ""
             placeholder = f"__FILE_PLACEHOLDER_{len(file_placeholders)}__"
             file_placeholders[placeholder] = f'<br><img src="{img_url}"{w_attr}><br>'
+            # 保存映射关系
+            url_to_filename[img_url] = filename
+            # 调试日志
+            print(f"[DEBUG] Wiki图片: filename={filename}")
+            print(f"[DEBUG] Wiki图片: img_url={img_url}")
             return placeholder
 
         content = re.sub(
             r"\[\[File:([^\]]+)\]\]", replace_file, content, flags=re.IGNORECASE
         )
 
+        # 先对普通文本内容进行HTML转义
         content = html.escape(content)
 
-        # 还原图片占位符
+        # 还原图片占位符（图片HTML已经安全，不需要再次转义）
         for placeholder, img_html in file_placeholders.items():
             content = content.replace(placeholder, img_html)
 
@@ -409,7 +574,7 @@ class ResultDialog(QDialog):
         )
         # 保留换行
         content = content.replace("\n", "<br>")
-        return content
+        return content, url_to_filename
 
     def _has_cn_content(self, index):
         """判断指定索引的词条是否有中文内容（有翻译文件或可进行临时翻译）"""
@@ -455,7 +620,9 @@ class ResultDialog(QDialog):
                 # 添加临时翻译提示
                 content = "⚠️ [临时翻译]\n\n" + content
 
-        html_content = self._wiki_to_html(content)
+        html_content, url_to_filename = self._wiki_to_html(content)
+        # 将 URL 映射传递给 text_browser，用于 404 后解析真实 URL
+        self.text_browser._url_to_filename = url_to_filename
         self.text_browser.setHtml(html_content)
         self.text_browser.moveCursor(self.text_browser.textCursor().Start)
         self.setWindowTitle(f"Wiki: {entry_name.replace('_', ' ')}")
@@ -541,6 +708,8 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("DFWiki识别")
         self.setMinimumSize(300, 150)
+        # 默认置顶
+        self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
 
         # 构建wiki索引
         self.build_wiki_index()
@@ -580,6 +749,7 @@ class MainWindow(QMainWindow):
 
         self.pin_btn = QPushButton("置顶")
         self.pin_btn.setCheckable(True)
+        self.pin_btn.setChecked(True)  # 默认置顶
         self.pin_btn.setFixedSize(40, 25)
         self.pin_btn.setStyleSheet("""
             QPushButton {
