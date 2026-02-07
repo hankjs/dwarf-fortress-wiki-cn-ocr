@@ -14,6 +14,7 @@ from PyQt5.QtWidgets import (
     QApplication,
     QHBoxLayout,
     QLabel,
+    QLineEdit,
     QMainWindow,
     QPushButton,
     QVBoxLayout,
@@ -41,60 +42,129 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(central_widget)
 
         layout = QVBoxLayout(central_widget)
+        layout.setContentsMargins(8, 8, 8, 8)
+        layout.setSpacing(6)
 
-        # 截图按钮
-        capture_btn = QPushButton("截图并识别词条")
-        capture_btn.setMinimumHeight(50)
-        capture_btn.setStyleSheet("""
+        # 第一行：置顶 + 重新打开 + 识别按钮
+        top_widget = QWidget()
+        top_layout = QHBoxLayout(top_widget)
+        top_layout.setContentsMargins(0, 0, 0, 0)
+        top_layout.setSpacing(6)
+
+        self.pin_btn = QPushButton("置顶")
+        self.pin_btn.setCheckable(True)
+        self.pin_btn.setChecked(True)  # 默认置顶
+        self.pin_btn.setFixedHeight(30)
+        self.pin_btn.setStyleSheet("""
             QPushButton {
-                font-size: 16px;
+                font-size: 12px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                background-color: #e0e0e0;
+                color: #333;
+                padding: 0 12px;
+            }
+            QPushButton:checked {
                 background-color: #4CAF50;
                 color: white;
                 border: none;
-                border-radius: 5px;
+            }
+        """)
+        self.pin_btn.clicked.connect(self.toggle_pin)
+        top_layout.addWidget(self.pin_btn)
+
+        self.reopen_btn = QPushButton("重新打开")
+        self.reopen_btn.setFixedHeight(30)
+        self.reopen_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                background-color: #e0e0e0;
+                color: #333;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background-color: #d0d0d0;
+            }
+        """)
+        self.reopen_btn.clicked.connect(self.reopen_result)
+        self.reopen_btn.hide()
+        top_layout.addWidget(self.reopen_btn)
+
+        top_layout.addStretch()
+
+        # 截图识别按钮
+        capture_btn = QPushButton("识别")
+        capture_btn.setFixedHeight(30)
+        capture_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                padding: 0 12px;
             }
             QPushButton:hover {
                 background-color: #45a049;
             }
         """)
         capture_btn.clicked.connect(self.start_capture)
-        layout.addWidget(capture_btn)
+        top_layout.addWidget(capture_btn)
 
-        pin_widget = QWidget()
-        pin_widget.setFixedHeight(30)
-        pin_layout = QHBoxLayout(pin_widget)
-        pin_layout.setContentsMargins(0, 0, 0, 0)
-        pin_layout.setSpacing(4)
+        layout.addWidget(top_widget)
 
-        # 状态标签
-        self.status_label = QLabel("")
-        self.status_label.setAlignment(Qt.AlignCenter)
+        # 第二行：输入框 + 搜索按钮
+        search_widget = QWidget()
+        search_layout = QHBoxLayout(search_widget)
+        search_layout.setContentsMargins(0, 0, 0, 0)
+        search_layout.setSpacing(6)
 
-        self.pin_btn = QPushButton("置顶")
-        self.pin_btn.setCheckable(True)
-        self.pin_btn.setChecked(True)  # 默认置顶
-        self.pin_btn.setFixedSize(40, 25)
-        self.pin_btn.setStyleSheet("""
-            QPushButton {
-                font-size: 12px; border: 1px solid #ccc; border-radius: 3px;
-                background-color: #e0e0e0; color: #333;
+        # 输入框
+        self.search_input = QLineEdit()
+        self.search_input.setPlaceholderText("输入wiki词条名...")
+        self.search_input.setFixedHeight(30)
+        self.search_input.setStyleSheet("""
+            QLineEdit {
+                font-size: 12px;
+                padding: 0 10px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
             }
-            QPushButton:checked {
-                background-color: #4CAF50; color: white; border: none;
+            QLineEdit:focus {
+                border: 2px solid #4CAF50;
             }
         """)
-        self.pin_btn.clicked.connect(self.toggle_pin)
-        pin_layout.addWidget(self.pin_btn)
+        self.search_input.returnPressed.connect(self.search_wiki)
+        search_layout.addWidget(self.search_input, stretch=1)
 
-        self.reopen_btn = QPushButton("重新打开")
-        self.reopen_btn.setFixedHeight(25)
-        self.reopen_btn.setFixedWidth(self.reopen_btn.sizeHint().width())
-        self.reopen_btn.clicked.connect(self.reopen_result)
-        self.reopen_btn.hide()
-        pin_layout.addWidget(self.reopen_btn)
+        # 搜索按钮
+        search_btn = QPushButton("搜索")
+        search_btn.setFixedHeight(30)
+        search_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                background-color: #2196F3;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background-color: #0b7dda;
+            }
+        """)
+        search_btn.clicked.connect(self.search_wiki)
+        search_layout.addWidget(search_btn)
 
-        pin_layout.addWidget(self.status_label)
-        layout.addWidget(pin_widget)
+        layout.addWidget(search_widget)
+
+        # 第三行：状态标签
+        self.status_label = QLabel("")
+        self.status_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+        self.status_label.setStyleSheet("font-size: 12px; color: #666;")
+        layout.addWidget(self.status_label)
 
     @staticmethod
     def _normalize(text):
@@ -204,6 +274,59 @@ class MainWindow(QMainWindow):
         else:
             self.setWindowFlags(self.windowFlags() & ~Qt.WindowStaysOnTopHint)
         self.show()
+
+    def search_wiki(self):
+        """从输入框搜索wiki词条"""
+        query_text = self.search_input.text().strip()
+        if not query_text:
+            self.status_label.setText("请输入搜索内容")
+            return
+
+        self.status_label.setText("搜索中...")
+        QApplication.processEvents()
+
+        # 匹配wiki词条
+        matches = self.match_wiki_entries(query_text)
+        if matches:
+            # 读取匹配到的wiki内容（按词条名去重）
+            wiki_entries = []
+            wiki_cn_entries = []
+            seen_names = set()
+            for display_name, file_path in matches:
+                redirected_name, content = self.read_wiki_content(file_path)
+                entry_name = redirected_name if redirected_name else display_name
+                dedup_key = self._normalize(entry_name)
+                if dedup_key in seen_names:
+                    continue
+                seen_names.add(dedup_key)
+                wiki_entries.append((entry_name, content))
+                # 查找对应的中文内容
+                if dedup_key in self.wiki_cn_index:
+                    cn_file_path = self.wiki_cn_index[dedup_key][1]
+                    try:
+                        with open(cn_file_path, "r", encoding="utf-8") as f:
+                            cn_content = f.read()
+                        wiki_cn_entries.append((entry_name, cn_content))
+                    except Exception:
+                        wiki_cn_entries.append((entry_name, content))
+                else:
+                    wiki_cn_entries.append((entry_name, content))
+
+            self.status_label.setText(f"找到 {len(wiki_entries)} 条 wiki!")
+            dialog = ResultDialog(
+                query_text,
+                self,
+                wiki_entries=wiki_entries,
+                wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
+                wiki_index=self.wiki_index,
+                wiki_cn_index=self.wiki_cn_index,
+                read_wiki_func=self.read_wiki_content,
+            )
+            self._result_dialog = dialog
+            self.reopen_btn.show()
+            dialog.show()
+        else:
+            self.status_label.setText("未找到匹配的wiki词条")
 
     def reopen_result(self):
         if hasattr(self, "_result_dialog") and self._result_dialog:
