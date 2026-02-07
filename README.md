@@ -6,6 +6,7 @@
 
 - **截图识别**: 截取屏幕区域，自动识别英文文字
 - **Wiki 匹配**: 自动匹配 Dwarf Fortress Wiki 词条
+- **英语词典**: 基于 ECDICT 的英汉词典支持（150万+词汇，可选）
 - **双语显示**: 支持中英文切换显示
 - **离线访问**: 本地 Wiki 数据库，无需联网即可查阅
 - **图片支持**: 异步加载 Wiki 中的图片
@@ -46,7 +47,23 @@ pip install -r requirements.txt
 - pytesseract >= 0.3.10
 - Pillow >= 9.0.0
 
-### 2. 启动程序
+### 2. 下载英语词典（可选）
+
+如果需要英汉词典功能，可以下载 ECDICT 数据库：
+
+```bash
+python scripts/download_ecdict.py
+```
+
+这将下载约 450MB 的词典数据库到项目根目录。**如果跳过此步骤，程序仍可正常使用 Wiki 查询功能。**
+
+**词典功能包括：**
+- 150万+ 英语词汇
+- 音标、释义、词源等详细信息
+- 自动词形还原（running → run）
+- 模糊搜索支持
+
+### 3. 启动程序
 
 **方式一：双击启动**
 ```
@@ -58,11 +75,13 @@ pip install -r requirements.txt
 python src/ocr_tool.py
 ```
 
-### 3. 使用方法
+### 4. 使用方法
 
 1. 点击「截图并识别词条」按钮
 2. 拖动鼠标选择要识别的屏幕区域
-3. 程序自动识别英文文字并显示匹配到的 Wiki 词条
+3. 程序自动识别英文文字并显示匹配的结果：
+   - 📖 Wiki 词条（绿色按钮）
+   - 📚 词典释义（蓝色按钮，需下载词典）
 4. 点击「中/EN」按钮切换中英文显示
 5. 点击 Wiki 链接可跳转到相关词条
 
@@ -115,6 +134,7 @@ python scripts/split_wiki.py Dwarf+Fortress+Wiki-20260206192244.xml wiki
 
 - **英文 Wiki**: [Dwarf Fortress Wiki](https://dwarffortresswiki.org/)
 - **中文翻译**: 社区贡献（目前约 16% 词条有中文翻译）
+- **英语词典**: [ECDICT](https://github.com/skywind3000/ECDICT) - 开源英汉词典数据库（150万+词汇）
 
 ## 许可证
 
@@ -124,3 +144,4 @@ python scripts/split_wiki.py Dwarf+Fortress+Wiki-20260206192244.xml wiki
 
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) - 开源 OCR 引擎
 - [Dwarf Fortress Wiki](https://dwarffortresswiki.org/) - 词条数据来源
+- [ECDICT](https://github.com/skywind3000/ECDICT) - 开源英汉词典数据库
