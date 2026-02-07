@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=alpaca_sprites.png
-|portrait=alpaca_portrait_anim.gif
-|contrib=no
-|bone=16
-|meat=12
-|fat=12
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|wool=7
-|nerves=1
-|wiki=yes
-}}
+{{Creaturelookup/0|image=alpaca_sprites.png|portrait=alpaca_portrait_anim.gif|contrib=no|bone=16|meat=12|fat=12|skull=1|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|wool=7|nerves=1|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

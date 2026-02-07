@@ -1,0 +1,17 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|biome=None|death=nobutcher|contrib=no|wiki=Chimera (mythology)}}
+{{av}}
+'''奇美拉'''是[[fanciful|幻想]][[creature|生物]]，仅仅是[[legends|传说]]的素材。它们实际上并不存在，只出现在[[engraving|雕刻]]中作为艺术家的幻想。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]奇美拉的''可怕特征''。
+
+{{D for Dwarf}}
+奇美拉以其不可思议的能力而闻名，即写出故意糟糕到幽默程度的故事。它们最著名的作品讲述了战士对抗[[Hidden Fun Stuff|隐藏有趣事物]]和研究人员回收不寻常形式的冶炼[[pitchblende|沥青铀矿]]。
+[[File:Chimera2.png|thumb|300px|center|Half-lion, half-reptile and half-goat. That equals six halves of pure evil!]]
+==另见==
+* [[Centaur|半人马]]
+* [[Griffon|狮鹫]]
+{{gamedata}}
+{{Creatures}}
+{{Category|Myth}}
+[[ru:Chimera]]

@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_fire_agate_sprite.png|graphic2=rough_fire_agate_sprite.png|wiki=Agate}}
+{{av}}
+
+'''火玛瑙'''是在[[sedimentary layer|沉积层]]中发现的普通低价值[[gem|宝石]]。
+
+[[File:High Grade Slaughter Mountain Arizona Fire Agate Rough.jpg|thumb|center|未抛光的火玛瑙]]
+
+{{gamedata}}
+{{gems}}

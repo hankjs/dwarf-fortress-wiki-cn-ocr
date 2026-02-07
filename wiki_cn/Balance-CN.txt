@@ -1,13 +1,6 @@
 {{Quality|Fine}}
-{{Skill
-| color      = 3:0
-| skill      = Balance
-| profession = Unknown
-| job name   = None
-| tasks      = None
-| attributes =
-* Unknown
-}}
+{{Skill| color      = 3:0| skill      = Balance| profession = Unknown| job name   = None| tasks      = None| attributes =
+* Unknown}}
 {{av}}
 
 '''平衡'''是一个已编入游戏代码但缺乏用途或改进方法的占位符[[skill|技能]]。它与任何[[labor|劳动]]或[[profession|职业]]都没有关联，是一个占位符，将作为未来某个版本正在进行的战斗改革的一部分实现。
@@ -19,11 +12,6 @@
 因此，你试图同时处理的不同动作越多，你就会变得越失衡。同样，防守或闪避会让你失去平衡，这会对进一步的闪避或攻击造成惩罚，使后续的闪避变得不太可能。任何给定动作的平衡"成本"，以及它恢复的速度，可以作为运动感知和敏捷性的衡量标准(尽管分离敏捷性和灵巧性可能是有必要的)。"
 </blockquote>
 
-{{Translation
-| dwarven = neth
-| elvish  = rame
-| goblin  = olos
-| human   = zostra
-}}
+{{Translation| dwarven = neth| elvish  = rame| goblin  = olos| human   = zostra}}
 
 {{Skills}}

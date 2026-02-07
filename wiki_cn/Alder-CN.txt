@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|sapling=alder_sapling.png}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|sapling=alder_sapling.png}}
 {{av}}
 
 '''赤杨'''是在地面上发现的众多[[tree|树木]]属之一。作为落叶[[tree|树木]]，它在[[calendar|秋季]]落叶，尽管这对[[wood cutting|砍伐]]它产生的木材没有影响。像绝大多数地面树木一样，赤杨[[wood|木材]]是棕色的，生产棕色产品。与其他地面树木相比，这种树木的木材相对较轻，这使其在搬运方面稍好一些，在[[crossbow|弩]]近战和[[ballista|投石机]]弹药方面稍差一些。原木可以在[[dyer's shop|染坊]]中加工成赤褐色[[dye|染料]]，球果可以加工成深褐色染料。

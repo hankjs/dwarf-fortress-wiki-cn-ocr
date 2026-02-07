@@ -1,0 +1,18 @@
+{{removed feature}}
+{{Quality|Unrated}}
+{{av}}
+{{Modding}}
+
+这些是在graphics.txt文件中的[CREATURE_GRAPHICS]下添加条目时使用的标记。
+高级版的图形使用更新的[[Graphics token|图形标记]]系统。
+
+{{clear}}
+
+==标记==
+{| {{prettytable}}|- bgcolor="#ddd"
+! 标记
+! 备注|-| {{text anchor|DEFAULT}}| 标准生物|-| {{text anchor|ADVENTURER}}| 作为冒险者扮演该生物时使用（？）|-| {{text anchor|LAW_ENFORCE}}| 可能由负责LAW_ENFORCEMENT的职位领导的小队成员使用（即要塞卫队）|-| {{text anchor|TAX_ESCORT}}| 可能由负责ESCORT_TAX_COLLECTOR的职位领导的小队成员使用（目前无人）|-| {{text anchor|ANIMATED}}| 生物的动画版本（僵尸/骷髅）|-| {{text anchor|GHOST}}| 生物的幽灵版本|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Creature texture token]]

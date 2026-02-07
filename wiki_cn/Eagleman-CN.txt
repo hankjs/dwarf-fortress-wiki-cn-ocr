@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=eagle_man_sprite.png
-|portrait=eagle_man_portrait.png}}
+{{Creaturelookup/0|image=eagle_man_sprite.png|portrait=eagle_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

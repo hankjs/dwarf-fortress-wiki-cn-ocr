@@ -1,14 +1,8 @@
 {{av}}{{Quality|Superior}}
-{{v50_furniture|name=Bed
-|graphic=[[File:bed_sprite_prototype.png]]
-|tile=Θ|col=6:0:0
-|wood=y
-|zones=
+{{v50_furniture|name=Bed|graphic=[[File:bed_sprite_prototype.png]]|tile=Θ|col=6:0:0|wood=y|zones=
 * [[Bedroom]]
 * [[Barracks]]
-* [[Dormitory]]
-|value=10
-|size=30,000}}
+* [[Dormitory]]|value=10|size=30,000}}
 '''床'''是在[[carpenter's workshop|木匠工坊]]制造的一件[[furniture|家具]]。一旦建造完成，床可以通过{{Menu icon|b|f|b|sep=-}}来放置。不在[[zone|区域]]内的床将被任何没有房间的[[dwarf|矮人]]使用。矮人因没有床[[sleep|睡觉]]而产生不满[[thoughts|想法]]，并因拥有自己的高质量卧室而产生快乐想法，因此建造床通常是幸福要塞的必需品。
 
 [[File:beds v50.png|left|从上到下：木质、石质和金属床架。一旦在[[carpenter's workshop|木匠工坊]]制作完成，它将配备一个枕头和一条彩色毯子！]]与许多其他家具不同，标准的床只能用[[wood|木材]]制作（由其他材料如[[metal|金属]]、[[stone|石头]]、[[gem|宝石]]或[[bone|骨头]]制成的床只存在于[[strange mood|奇异心情]]期间创造的[[legendary artifact|传奇神器]]形式）。如果你的要塞没有地表[[tree|树木]]，你将不得不携带木材，或依靠[[subterranean|地下]]树木或[[trading|贸易]]来获得制作床的木材。制造一张床需要一块[[wood|木材]]。要建造一张床，点击[[carpenter's workshop|木匠工坊]]，点击"添加新任务"，然后点击"制作床"。
@@ -34,11 +28,6 @@
 ==See also==
 *[[Bedroom design]]
 
-{{Translation
-| dwarven = zust
-| elvish  = sira
-| goblin  = zozax
-| human   = ina
-}}
+{{Translation| dwarven = zust| elvish  = sira| goblin  = zozax| human   = ina}}
 {{Buildings}}
 {{Category|Furniture|Bed}}

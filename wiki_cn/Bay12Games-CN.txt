@@ -50,38 +50,7 @@
 
 ==Games==
 {| class = "wikitable sortable"
-!Title !! Year !! Platform !! Genre(s)
-|-
-|''[[Dwarf Fortress]]''
-|2006
-|Windows, Mac OS X, Linux
-|建造与管理模拟，Roguelike
-|-
-|''[http://www.bay12games.com/games/ Kobold Quest]''
-|2006
-|Windows, Mac OS X
-|
-|-
-|''[http://www.bay12games.com/games/ Squiggles]''
-|2005
-|
-|
-|-
-|''[http://www.bay12games.com/ww1medic/ WWI Medic]''
-|2004
-|Windows
-|
-|-
-|''[http://www.bay12games.com/lcs/ Liberal Crime Squad]''
-|2002
-|Windows, Linux
-|Roguelike政治讽刺
-|-
-|''[http://www.bay12games.com/armok/ Slaves to Armok: God of Blood]''
-|2000
-|Windows
-|单人奇幻RPG
-|}
+!Title !! Year !! Platform !! Genre(s)|-|''[[Dwarf Fortress]]''|2006|Windows, Mac OS X, Linux|建造与管理模拟，Roguelike|-|''[http://www.bay12games.com/games/ Kobold Quest]''|2006|Windows, Mac OS X||-|''[http://www.bay12games.com/games/ Squiggles]''|2005|||-|''[http://www.bay12games.com/ww1medic/ WWI Medic]''|2004|Windows||-|''[http://www.bay12games.com/lcs/ Liberal Crime Squad]''|2002|Windows, Linux|Roguelike政治讽刺|-|''[http://www.bay12games.com/armok/ Slaves to Armok: God of Blood]''|2000|Windows|单人奇幻RPG|}
 
 ==See also==
 * [[Bay 12 Forums]]

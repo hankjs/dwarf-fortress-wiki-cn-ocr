@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_demantoid_sprite.png|graphic2=rough_demantoid_sprite.png}}
+{{av}}
+
+'''翠榴石'''是一种相对稀有的半宝石[[gem|宝石]],仅在[[chromite|铬铁矿]]中发现,而铬铁矿本身仅在[[olivine|橄榄石]]中发现。
+
+==现实世界中==
+'''翠榴石'''实际上是石榴石的一个变种,其绿色和黄色是铬和三价铁(3+氧化态的铁)的结果。
+
+[[File:Demantoid brooch-pendant.jpg|center|thumb|280px|This is a well-crafted brass amulet, studded with demantoid.]]
+
+{{gamedata}}
+{{gems}}

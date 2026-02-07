@@ -1,0 +1,53 @@
+{{Quality|Superior}}
+{{Noble| noble= Count| office= Throne Room| quarters= Great Bedroom| dining= Great Dining Room| tomb= Mausoleum| chests=3| cabinets=2| racks=2| stands=2| mandates=2| demands=3| arrival=
+* 20 Population
+* 200 000☼ Produced [[wealth]]
+* 20 000☼ Exported [[wealth]]| function=
+* Promote [[fortress]] to County
+* Appoints a [[Champion]]}}{{av}}
+
+'''伯爵'''职位是从[[baron|男爵]]向上的下一步;一旦玩家达到某些要求,[[outpost liaison|前哨联络官]]将宣布晋升为伯爵领地,当联络官离开地图时,晋升将正式生效。换句话说,领地必须是男爵领地才能成为伯爵领地。与男爵领地提议不同,伯爵领地的升级是自动的,不能拒绝(尽管,如果联络官遭遇[[unfortunate accident|不幸事故]],晋升将被推迟)。伯爵将在适当条件下升级为[[duke|公爵]]。
+
+{{D for Dwarf}}
+
+据知伯爵有长期而传奇的拉杆职业生涯,尽管有些在[[unfortunate accident|地质航天员]]职业道路上失败了。不知道吸血鬼伯爵是否是出色的簿记员。
+
+{{gamedata|	[POSITION:COUNT]
+	[NAME_MALE:count:counts]
+	[NAME_FEMALE:countess:countesses]
+	[SPOUSE_MALE:count consort:counts consort]
+	[SPOUSE_FEMALE:countess consort:countesses consort]
+	[NUMBER:AS_NEEDED]
+	[LAND_HOLDER:2]
+	[LAND_NAME:a county]
+	[RESPONSIBILITY:LAW_MAKING]
+	[RESPONSIBILITY:RECEIVE_DIPLOMATS]
+	[SUCCESSION:BY_HEIR]
+	[APPOINTED_BY:MONARCH]
+	[REPLACED_BY:DUKE]
+	[PRECEDENCE:30]
+	[SPECIAL_BURIAL]
+	[MENIAL_WORK_EXEMPTION]
+	[MENIAL_WORK_EXEMPTION_SPOUSE]
+	[SLEEP_PRETENSION]
+	[PUNISHMENT_EXEMPTION]
+	[FLASHES]
+	[BRAG_ON_KILL]
+	[CHAT_WORTHY]
+	[DO_NOT_CULL]
+	[KILL_QUEST]
+	[COLOR:5:0:0]
+	[ACCOUNT_EXEMPT]
+	[DUTY_BOUND]
+	[DEMAND_MAX:3]
+	[MANDATE_MAX:2]
+	[REQUIRED_BOXES:3]
+	[REQUIRED_CABINETS:2]
+	[REQUIRED_RACKS:2]
+	[REQUIRED_STANDS:2]
+	[REQUIRED_OFFICE:1500]
+	[REQUIRED_BEDROOM:1500]
+	[REQUIRED_DINING:1500]
+	[REQUIRED_TOMB:1500]}}
+{{Nobles}}
+{{Category|Aristocrats}}

@@ -18,12 +18,7 @@
 
 自动或手动攻击可以是武器打击、盾牌猛击、用身体部位打击（如拳击、踢、抓、咬等）或[[wrestling|摔跤]]动作。摔跤动作从抓取开始，接着可以进行摔倒、投掷、锁定、折断、窒息、勒死等，具体取决于抓取方式。
 
-{{Translation
-| dwarven = rashgur
-| elvish  = irithe
-| goblin  = umuz
-| human   = nashra
-}}
+{{Translation| dwarven = rashgur| elvish  = irithe| goblin  = umuz| human   = nashra}}
 
 {{Military}}
 {{Category|Military}}{{Category|Guides}}{{Category|Interface}}

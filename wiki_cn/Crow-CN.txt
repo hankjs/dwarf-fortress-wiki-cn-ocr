@@ -1,0 +1,16 @@
+{{Quality|fine}}
+{{verminlookup/0|image=crow_sprite.png|portrait=crow_portrait.png}}
+{{av}}
+:''不要与[[raven|渡鸦]]混淆。''
+
+{{creaturedesc}}
+
+'''乌鸦'''是一种栖息于各种[[temperate|温带]][[biome|生物群系]]以及[[taiga|针叶林]]的[[above ground|地上]][[vermin|害虫]]物种。它们可以被[[animal trap|动物陷阱]]捕获并变成[[pet|宠物]]。所有乌鸦都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+有些矮人因其''聪明''而[[Preferences|喜欢]]乌鸦。
+
+{{Translation| dwarven = ustir| elvish  = minaro| goblin  = osok| human   = erthok}}
+[[File:Corvus corone -near Canford Cliffs, Poole, England-8.jpg|thumb|300px|center|因其''聪明''而受赞赏。]]
+
+{{gamedata}}
+{{vermin}}

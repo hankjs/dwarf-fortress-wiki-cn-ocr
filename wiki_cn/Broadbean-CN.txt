@@ -1,10 +1,6 @@
 {{Quality|Exceptional}}
-{{plantlookup
-|graphic=broad_bean_shrub_sprite.png
-|seedimage=broad_bean_seeds_sprite.png
-|uses=
-* [[Food|食物]]|wiki=Vicia_faba
-}}
+{{plantlookup|graphic=broad_bean_shrub_sprite.png|seedimage=broad_bean_seeds_sprite.png|uses=
+* [[Food|食物]]|wiki=Vicia_faba}}
 {{av}}
 
 '''蚕豆'''是一种[[aboveground|地面]][[crop|园艺植物]]。它们可以在所有季节种植。只有种子在[[cooking|烹饪]]后才可食用。

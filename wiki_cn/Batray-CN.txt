@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=bat_ray_sprite.png
-|portrait=bat_ray_portrait.png}}
+{{verminlookup/0|image=bat_ray_sprite.png|portrait=bat_ray_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

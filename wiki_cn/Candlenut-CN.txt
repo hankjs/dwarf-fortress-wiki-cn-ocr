@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=candlenut_trunk_sprite.png
-|product=candlenut_sprite.png
-|sapling=candlenut_sapling.png}}
+{{Treelookup/0|graphic=candlenut_trunk_sprite.png|product=candlenut_sprite.png|sapling=candlenut_sapling.png}}
 {{av}}
 
 '''石栗'''是一种仅在[[biome|热带]]森林中发现的[[tree|树木]]。像绝大多数地表树木一样，石栗[[carpenter|木材]]是棕色的，生产棕色产品。石栗是第三轻的木材，仅次于[[papaya|木瓜]]和[[feather tree|羽毛树]]。
@@ -13,8 +10,7 @@
 
 {|style="margin: 0 auto;"
 [[File:Starr 020803-0119 Aleurites moluccana.jpg|thumb|left|300px|因其''坚果''而受赞赏。]]
-[[File:Aleur moluc 080717 1199 H ayot.JPG|thumb|center|250px|Aleurites moluccana.]]
-|}
+[[File:Aleur moluc 080717 1199 H ayot.JPG|thumb|center|250px|Aleurites moluccana.]]|}
 
 {{Translation| dwarven = tílgil-ishlum | elvish = erela-apasi | goblin = gunsmom-stasoz | human = kofi-sas}}
 

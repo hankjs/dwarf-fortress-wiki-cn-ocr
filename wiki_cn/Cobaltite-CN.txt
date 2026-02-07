@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=cobalite_sprite.png}}
+{{stonelookup/0|graphic=cobalite_sprite.png}}
 {{av}}
 
 '''钴华'''是Premium模式中的一种黑色石头，或在ASCII模式中为亮蓝色石头。其特别高的[[density|密度]]使其适用于[[trap#Stone-fall_Trap|落石陷阱]]和作为[[catapult|投石机]]弹药，其颜色使其非常适合各种美学用途（''即主要用于非物品装饰''）。

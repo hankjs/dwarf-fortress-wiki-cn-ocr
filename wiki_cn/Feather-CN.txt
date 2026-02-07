@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{av}}
+[[File:feather_preview.png|right]]
+'''羽毛(Feathers)'''是通过[[butcher|屠宰]]有羽毛生物产生的原材料。虽然在现实世界中，羽毛传统上用于装饰、隔热填充、书写工具以及[[arrow|箭]]和[[bolt|弩箭]]的羽翼，但目前在《矮人要塞》中羽毛没有任何用途，使其成为通过[[refuse|垃圾]]堆、焚化炉、[[atom smasher|原子粉碎机]]等处理的主要候选对象。
+
+幸运的是（或不幸的是，对于那些喜欢[[modding|模组]]为羽毛添加用途的人），大量鸟类一开始就无法屠宰。
+
+[[Feather tree|羽毛树]]有羽毛而不是[[Tree#Growths|叶子]]。
+
+{{gamedata}}
+{{materials}}
+
+{{Category|Body parts}}
+[[ru:Feather]]

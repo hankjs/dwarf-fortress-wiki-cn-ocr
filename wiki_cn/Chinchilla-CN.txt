@@ -1,0 +1,15 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=chinchillas_sprite.png|portrait=chinchilla_portrait_anim.gif|skull=1|contri=no|wiki=yes}}
+{{av}}
+{{Creaturedesc}}
+'''龙猫'''是可以在[[mountain|山脉]]中发现居住的微小[[creature|生物]]。它们是温和的，并且是游戏中不是[[vermin|害虫]]的最小动物之一，使它们对[[Dwarf|矮人]]完全无害。因为它们太小，试图攻击它们可能会导致大多数打击无害地弹开，尽管攻击的力量通常足以杀死它们。小龙猫被称为''龙猫幼崽''。
+
+龙猫可以在[[cage|笼子]][[trap|陷阱]]中捕获并[[Animal trainer|训练]]成[[pet|宠物]]，与[[rabbit|兔子]]和[[Cavy|豚鼠]]并列为游戏中[[List of creatures by pet value|价值最低]]的动物。如果被猎杀，它们太小而无法[[butcher|屠宰]]，屠宰训练过的只会得到一个[[skull|头骨]]作为回报。由于寿命为10年或更长，它们为收养它们的矮人提供了不错的长期伴侣。
+
+一些矮人[[Preferences|喜欢]]龙猫的''毛皮''。
+
+[[File:Chinchilla-Soelvmarmorert.jpg|thumb|center|400px|Admired for their ''fur''.]]
+
+{{Gamedata}}
+
+{{Creatures}}

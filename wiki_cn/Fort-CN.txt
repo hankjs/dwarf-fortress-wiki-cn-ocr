@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{av}}
+{{stub}}
+:''不要与[[Fortress|要塞]]混淆。''
+
+[[File:Df bandit fort map.png|thumb|从两个旅行界面看到的堡垒。堡垒中有三个结构。]]
+[[File:Df fort with shrine.png|thumb|在游戏中和旅行地图上看到的堡垒。注意这个堡垒的神殿在旅行地图上标记为白色。]]
+
+'''堡垒'''（[[File:icon_site_fort.png]]、[[File:icon_site_fort2.png]] / {{Raw Tile|○|0:6:0}}）是一个由[[Mercenary|雇佣兵]]或[[bandit|强盗]]居住的[[site|地点]]。
+
+堡垒是被高墙包围的地点。它们通常有餐厅和宿舍。如果一个致力于某个[[religion|宗教]]的雇佣兵公司负责堡垒，也可能有一个献给他们神祇的[[temple|神殿]]。由于只有雇佣兵公司才能拥有这样的神殿，而强盗相当暴力，因此在中级旅行地图上寻找白色结构会有所帮助，它标记了神殿的位置。
+
+
+{{world}}
+{{category|Religion}}
+[[ru:Fort]]

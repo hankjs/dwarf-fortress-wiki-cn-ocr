@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{creaturelookup/0|image=aye_aye_sprite.png|portrait=aye_aye_portrait_anim.gif|contrib=no|bone=4|meat=6|fat=6|skull=1|skin=hide|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''指猴'''是一种小型独居[[Creature|动物]]，不常见于[[tropical|热带]]阔叶[[forest|森林]]中。体型只有[[cat|猫]]的一半大，性情温和，会逃离任何试图接近的[[dwarf|矮人]]，即使最缺乏经验的[[hunter|猎人]]也能轻松处理。虽然被描述为夜行性动物，但其原始数据设定为昼行性，因此在[[adventurer mode|冒险模式]]中它们主要在白天活动。所有指猴天生拥有传奇级[[skill|技能]]的[[Climber|攀爬]]能力。
+
+指猴可以用[[cage|笼子]][[trap|陷阱]]捕获并[[Animal trainer|训练]]成廉价的异国[[pet|宠物]]。由于体型小且稀有，它们不适合作为[[meat industry|肉类产业]]的目标。
+
+一些矮人[[Preferences|喜欢]]指猴的''有趣的手指''。
+
+[[File:Wild aye aye.jpg|thumb|400px|center|Admired for its ''interesting fingers''.]]
+
+{{gamedata}}
+{{creatures}}
+{{Category|Animals}}

@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{creaturelookup/0|image=snapping_turtle_sprites.png|vary= [[Common snapping turtle]] - [[Snapping turtle man]] - [[Giant snapping turtle]]|portrait=snapping_turtle_portrait_anim.gif|shell=1|bone=12|skull=1|brain=1|scale=1|kidney=2|spleen=1|sweetbread=1|tripe=1|liver=1|intestine=1|heart=1|lung=2|meat=13|fat=13
+|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''普通鳄龟'''是[[alligator snapping turtle|鳄鱼鳄龟]]的较小表亲。它们单独出现在温带[[lake|湖泊]]和[[river|河流]]中。大约是普通矮人体型的一半,它们具有攻击性,被激怒时会反击,尽管如果有机会它们更喜欢逃跑。
+
+它们可以在[[cage trap|笼子陷阱]]中捕获,如果你捕获一对繁殖对,它们是[[egg|蛋]]和[[meat|肉]]的不错来源,但请记住你无法完全驯化它们。它们相当长寿,在一岁时达到完整体型,应该在那时屠宰以获得最大收益。普通鳄龟的[[pet|宠物]]价值低,所以你不应该考虑将它们作为宠物出售。它们的所有产品价值与家养动物的相同。
+
+一些矮人[[preferences|喜欢]]普通鳄龟的''强大咬合力''和它们的''长脖子''。
+
+[[File:Common Snapping Turtle Close Up.jpg|thumb|center|400px|Admired for their ''powerful bites''.]]
+
+{{gamedata}}
+{{creatures}}

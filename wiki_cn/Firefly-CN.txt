@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=firefly_sprite.png|portrait=firefly_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''萤火虫'''是一种[[above ground|地面]][[vermin|害虫]]，在除冬季外任何非[[biome|冰冻]]地区的空中飞行，无法用建造的[[animal trap|动物陷阱]]捕获。在[[adventurer mode|冒险模式]]的夜晚，它们会发光。所有萤火虫都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。萤火虫有独特的图形设置，一个精灵图是萤火虫本身，另一个只是光。
+
+一些矮人因萤火虫的''迷人光芒''而[[Preferences|喜欢]]它们。
+
+{{Translation| dwarven = ziril-fenglel | elvish = inira-yetine | goblin = zedan-atu | human = usmok-ngáthi}}
+[[File:Vermin-Firefly.jpg|thumb|center|400px|因其''迷人光芒''而受赞赏。]]
+
+{{gamedata}}
+{{vermin}}

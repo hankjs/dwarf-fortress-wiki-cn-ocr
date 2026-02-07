@@ -1,0 +1,66 @@
+'''矮人要塞维基'''是一个[[wikipedia:gratis|免费访问]]、[[wikipedia:free content|自由内容]]的《[[Dwarf Fortress|矮人要塞]]》[[wikipedia:wiki|维基]],由<s>[[User:Briess|一个叫Briess的家伙]]</s> [[User:Emi|Emi]]和[[User:Lethosor|Lethosor]]支持和托管。在网站上[http://dwarffortresswiki.org/index.php?title=Special:UserLogin&type=signup 创建账户]的用户可以编辑其大部分文章。矮人要塞维基位列十大最受欢迎的《矮人要塞》相关网站之一<sup>a</sup>,并构成[[wikipedia:Internet|互联网]]上最大和最受欢迎的《矮人要塞》参考资料<sup>b</sup>。
+
+它于2007年10月29日启动,目前有[[Special:Statistics|{{NUMBEROFARTICLES}}]]篇文章。
+
+自2022年11月以来,维基的托管费用由[https://www.kitfoxgames.com Kitfox Games]慷慨提供。
+
+==历史==
+===40d时代===
+Briess于2007年10月29日启动了矮人要塞维基。
+
+===v0.31时代===
+为2010年发布克隆了新版本的维基。似乎在此期间追溯创建了23a版本的维基。
+
+===v0.34时代===
+为2012年发布克隆了新版本的维基。
+
+===DF2014时代===
+为2014年发布克隆了新版本的维基。
+
+===v50时代===
+为2022年首次[[Premium|付费版]]发布克隆了新版本的维基。这是最新版本。
+
+==政策和法律==
+{{main|Dwarf Fortress Wiki:Community Portal}}
+
+矮人要塞维基的政策以规则列表的形式存在。每条规则以字母表的一个字母开头。
+
+==治理==
+有几位[http://dwarffortresswiki.org/index.php?title=Special%3AListUsers&group=sysop 管理员]维护秩序。
+
+==社区==
+矮人要塞维基有[[Special:ActiveUsers|{{NUMBEROFUSERS}}]]名注册编辑者,以及[[Special:ActiveUsers|{{NUMBEROFACTIVEUSERS}}]]名活跃编辑者。如果编辑者在当月进行一次或多次编辑,则被视为活跃。
+
+==运营==
+===软件运营和支持===
+矮人要塞维基的运营依赖于[[wikipedia:MediaWiki|MediaWiki]],这是一个定制的、[[wikipedia:free software|自由]]和[[wikipedia:open source software|开源]]的[[wikipedia:wiki software|维基软件]]平台,用[[wikipedia:PHP|PHP]]编写,构建在[[wikipedia:MySQL|MySQL]]数据库系统之上。
+
+===硬件运营和支持===
+去问Briess。
+
+==内容许可==
+{{main|Dwarf Fortress Wiki:Copyrights}}
+所有编辑者在[[wikipedia:GNU Free Documentation License|GNU自由文档许可证]]和[[wikipedia:MIT License|MIT许可证]]下发布他们的贡献。这不包括图像,图像有各自的许可证标签。
+
+维基还包含来自《[[Dwarf Fortress|矮人要塞]]》的内容,包括其游戏文件。此类内容的版权归:"''版权所有 (c) 2002-{{CURRENTYEAR}}。所有权利由Tarn Adams保留''"<!-- copyright information from readme.txt 2022 -->
+
+==影响==
+===读者群===
+很多玩《矮人要塞》的人使用矮人要塞维基。
+
+===姊妹项目===
+几个不同语言的维基已经出现:
+* [http://www.dwarffortress.fr/wiki 法语维基]
+* [http://wikiwiki.jp/dwarffort/ 日语维基(日本語)]
+* [http://www.dfwk.ru 俄语维基]
+* [http://pl.dwarffortress.wikia.com/ 波兰语维基]
+* [http://español.dwarf-fortress.info/wiki 西班牙语维基]
+* [http://cdf.wikidot.com/start 中文维基(Wikidot)]
+* [https://dfzh.huijiwiki.com 中文维基(灰机)]
+
+==注释==
+:a. 大概。
+:b. 几乎肯定。
+
+[[Category:Community]]
+{{unversioned}}

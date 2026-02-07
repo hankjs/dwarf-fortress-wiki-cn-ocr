@@ -1,0 +1,66 @@
+'''Dwarf Fortress Wiki'''(矮人要塞维基)是一个[[wikipedia:gratis|免费访问]]、[[wikipedia:free content|自由内容]]的''[[Dwarf Fortress]]'' [[wikipedia:wiki|维基]],由<s>[[User:Briess|一个叫Briess的人]]</s> [[User:Emi|Emi]]和[[User:Lethosor|Lethosor]]支持和托管。那些在该网站上[http://dwarffortresswiki.org/index.php?title=Special:UserLogin&type=signup 创建了账户]的人可以编辑其大部分文章。Dwarf Fortress Wiki在十大最受欢迎的''Dwarf Fortress''相关网站中排名<sup>a</sup>,并构成了[[wikipedia:Internet|互联网]]上最大和最受欢迎的''Dwarf Fortress''参考资料<sup>b</sup>。
+
+它于2007年10月29日启动,目前有[[Special:Statistics|{{NUMBEROFARTICLES}}]]篇文章。
+
+自2022年11月以来,[https://www.kitfoxgames.com Kitfox Games]慷慨地为该维基提供了托管费用。
+
+==历史==
+===40d时代===
+Briess于2007年10月29日启动了Dwarf Fortress Wiki。
+
+===v0.31时代===
+为2010年发布克隆了新版本的维基。似乎23a版本的维基是在此期间追溯创建的。
+
+===v0.34时代===
+为2012年发布克隆了新版本的维基。
+
+===DF2014时代===
+为2014年发布克隆了新版本的维基。
+
+===v50时代===
+为2022年首次[[Premium|付费版]]发布克隆了新版本的维基。这是最新版本。
+
+==政策和法律==
+{{main|Dwarf Fortress Wiki:Community Portal}}
+
+Dwarf Fortress维基的政策以规则列表的形式存在。每条规则都以字母表中的一个字母开头。
+
+==管理==
+有一些[http://dwarffortresswiki.org/index.php?title=Special%3AListUsers&group=sysop 管理员]维持一些秩序。
+
+==社区==
+Dwarf Fortress Wiki有[[Special:ActiveUsers|{{NUMBEROFUSERS}}]]名注册编辑者,以及[[Special:ActiveUsers|{{NUMBEROFACTIVEUSERS}}]]名活跃编辑者。如果编辑者在当月进行一次或多次编辑,则被视为活跃编辑者。
+
+==运营==
+===软件运营和支持===
+Dwarf Fortress Wiki的运营依赖于[[wikipedia:MediaWiki|MediaWiki]],这是一个定制的、[[wikipedia:free software|自由]]和[[wikipedia:open source software|开源]]的[[wikipedia:wiki software|维基软件]]平台,用[[wikipedia:PHP|PHP]]编写,并建立在[[wikipedia:MySQL|MySQL]]数据库系统之上。
+
+===硬件运营和支持===
+去问Briess。
+
+==内容许可==
+{{main|Dwarf Fortress Wiki:Copyrights}}
+所有编辑者在[[wikipedia:GNU Free Documentation License|GNU自由文档许可证]]和[[wikipedia:MIT License|MIT许可证]]下发布他们的贡献。这不包括图像,图像标有单独的许可证。
+
+维基还包含来自''[[Dwarf Fortress]]''的内容,包括其游戏文件。此类内容的版权由以下持有:"''Copyright (c) 2002-{{CURRENTYEAR}}.  All rights are retained by Tarn Adams''"<!-- copyright information from readme.txt 2022 -->
+
+==影响==
+===读者群===
+许多玩''Dwarf Fortress''的人使用Dwarf Fortress Wiki。
+
+===姊妹项目===
+一些其他语言的不同维基已经出现:
+* [http://www.dwarffortress.fr/wiki Le Wiki Français]
+* [http://wikiwiki.jp/dwarffort/ The Japanese (日本語) Wiki]
+* [http://www.dfwk.ru The Russian Wiki ]
+* [http://pl.dwarffortress.wikia.com/ The Polish Wiki]
+* [http://español.dwarf-fortress.info/wiki The Spanish Wiki]
+* [http://cdf.wikidot.com/start The Chinese Wiki (Wikidot)]
+* [https://dfzh.huijiwiki.com The Chinese Wiki (huiji)]
+
+==注释==
+:a. 可能。
+:b. 几乎可以肯定。
+
+[[Category:Community]]
+{{unversioned}}

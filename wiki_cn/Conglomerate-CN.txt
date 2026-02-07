@@ -1,0 +1,13 @@
+{{Quality|Exceptional}}
+{{stonelookup/0|graphic=conglomerate_sprite.png}}
+{{av}}
+
+'''砾岩'''是许多[[sedimentary layer|沉积层]][[stone|岩石]]之一。它的显著特点不仅支持[[aquifer|含水层]],而且还经常包含大型[[cluster|簇]]的[[puddingstone|布丁石]],这也会'''同样'''支持含水层。
+
+==现实生活中==
+砾岩是一种碎屑沉积岩,由大的、圆润的颗粒组成,直径至少2毫米;如果颗粒有棱角,它被称为角砾岩(在''矮人要塞''中不存在)。如果颗粒是圆形卵石,砾岩被称为[[puddingstone|布丁石]]。
+
+[[File:Aubergfelsen.jpg|center|thumb|290px|Conglomerate.]]
+
+{{gamedata}}
+{{stones}}

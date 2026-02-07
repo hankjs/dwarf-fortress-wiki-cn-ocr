@@ -1,0 +1,20 @@
+{{Quality|fine}}
+{{verminlookup/0|image=clownfish_sprite.png|portrait=clownfish_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''小丑鱼'''是[[vermin|害虫]]大小的鱼,可以被[[fisherdwarf|渔夫矮人]]捕获并在[[fishery|渔场]]加工。它们在[[biome|热带]][[ocean|海洋]]中发现,可以全年捕获。
+
+虽然[[dwarves|矮人]]捕获雄性或雌性的概率相同,但现实生活中并非如此。在现实生活中,小丑鱼的性别比例并不均衡,因为所有小丑鱼出生时都是雄性,后来才变成雌性。生活在海葵周围的小丑鱼群主要由雄性组成,只有最具优势的鱼是雌性。当族群女族长死亡时,最具优势的雄性改变性别并成为新的女族长。
+
+一些矮人[[Preferences|喜欢]]小丑鱼的''色彩''。
+
+
+[[File:Vermin-ClownFish.jpg|thumb|center|300px|Admired for its ''coloration''.]]
+
+{{D for Dwarf}}
+
+据说有一条名叫马林的勇敢小丑鱼曾与整个[[ocean|海洋]]战斗以找到他的[[children|儿子]],击败了[[great white shark|三条]][[hammerhead shark|致命的]][[longfin mako shark|鲨鱼]]和一群[[sea nettle jellyfish|水母]]。然而,他不太像个[[comedian|喜剧演员]],他的[[Adventurer mode#Companions|同伴]]记忆力[[Attribute#Memory|很差]]。
+
+{{gamedata}}
+{{Vermin}}

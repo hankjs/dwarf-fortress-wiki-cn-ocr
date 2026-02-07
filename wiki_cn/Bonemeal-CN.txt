@@ -1,0 +1,20 @@
+{{Quality|Superior}}
+{{av}}
+[[File:Tannin heap.jpeg|thumb|220px|right|It's like cocaine for plants.]]
+'''骨粉'''是将[[bone|骨头]]研磨后得到的粉末。
+
+==要塞模式==
+目前，骨粉无法在要塞模式中获得。它存在的唯一迹象是自定义[[Stockpile#Food|食物仓库]]中的骨粉选项，实际上什么也不做，只会偶尔让迷路的玩家感到困惑；也许这就是你最初来到这个页面的原因。实际游戏中的骨粉不能正确地存放，除非你修改骨头使其具有POWDER_MISC_CREATURE标记。
+
+然而，[http://www.bay12forums.com/smf/index.php?topic=13513.msg123926#msg123926 Toady曾建议]它最终可能会被用作[[farming|施肥]]组件，类似于[[potash|草木灰]]。在未来版本的''矮人要塞''中生产它将非常简单：只需在[[millstone|磨石]]或[[quern|手推磨]]上[[miller|研磨]]剩余的[[bone|骨头]]即可。
+
+==冒险模式==
+骨粉经常出现在[[adventurer mode|冒险模式]]中的[[night troll|夜巨魔]]巢穴和[[minotaur|牛头人]]迷宫中。目前没有用途，似乎只是一个道具。尽管显然由骨头制成，但从未观察到{{token|BONECARN}}生物食用它。
+
+==现实生活==
+在现实中，骨粉是通过将动物骨头研磨成粉末制成的，用作植物肥料和动物营养补充剂。
+
+{{Translation| dwarven = osod inob | elvish = one thethéfa | goblin = mudo xanë | human = sut pode}}
+
+{{Category|Items}}
+[[ru:Bone meal]]

@@ -1,26 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=draltha_sprites.png
-|portrait=draltha_portrait.png
-|wiki=no
-|contrib=no
-|bone=28-40
-|meat=25-108
-|fat=12-36
-|eye=2
-|lung=4-6
-|heart=1
-|intestine=7-10
-|liver=2-3
-|tripe=2-3
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=2-3
-|skull=1
-|skin=hide
-|teeth=1
-}}
+{{Creaturelookup/0|image=draltha_sprites.png|portrait=draltha_portrait.png|wiki=no|contrib=no|bone=28-40|meat=25-108|fat=12-36|eye=2|lung=4-6|heart=1|intestine=7-10|liver=2-3|tripe=2-3|sweetbread=1|spleen=1|kidney=2|brain=2-3|skull=1|skin=hide|teeth=1}}
 {{av}}
 {{creaturedesc}}
 

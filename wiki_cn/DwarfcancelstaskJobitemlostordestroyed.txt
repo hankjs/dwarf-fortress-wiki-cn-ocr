@@ -1,0 +1,14 @@
+{{Quality|Fine}}{{av}}
+
+
+{{DFtext|矮人取消任务:工作物品丢失或被摧毁。}}
+
+当矮人的任务物品不再位于分配工作时所在的同一方格时,矮人将取消工作并显示此消息。通常,"丢失的"物品会在几个方格之外,可以重新发布工作并引用其新位置。偶尔,物品会'''实际上'''被摧毁(可能是[[cave-in|塌方]]或[[Dwarven atom smasher|原子粉碎机]]的结果)。
+
+虽然矮人[[Main:Dwarf cancels Construct Building: Item blocking site|不会直接移动任务物品]],但他们可能会''间接''移动它们(例如通过[[channel|挖槽]]物品下方的地板,拆除包含物品的[[building|建筑]],或移除物品下方的[[construction|建造]])。物品也可能被自然力量移动,如[[cave-in|塌方]]和[[flow|流动]]的液体,或被《矮人要塞》中众多偷窃生物之一移动。
+
+如果任务物品改变状态,也可能发生此错误——例如[[leather|生皮]]变[[rot|腐烂]],或[[ice|冰]]巨石融化。
+
+{{Category|Errors}}
+{{Errors FAQ}}
+[[ru:Dwarf_cancels_task:_Job_item_lost_or_destroyed]]

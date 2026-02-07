@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_chrysoberyl_sprite.png
-|graphic2=rough_chrysoberyl_sprite.png}}
+{{gemlookup/0|graphic=cut_chrysoberyl_sprite.png|graphic2=rough_chrysoberyl_sprite.png}}
 {{av}}
 
 '''金绿宝石'''是一种绿色的半宝石[[gem|宝石]]，以小型[[cluster|簇]]的形式存在于[[metamorphic layer|变质岩层]]和[[igneous layer|火成岩层]]中。

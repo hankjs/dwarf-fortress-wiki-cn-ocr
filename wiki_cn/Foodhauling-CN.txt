@@ -1,0 +1,11 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Labor| labor      = Food Hauling| tasks      =
+* Store [[food]] in stockpile}}
+{{av}}
+
+启用了'''食物搬运'''[[labor|劳动]]（默认开启）的[[Dwarves|矮人]]将参与将食物和饮料物品（出于某些原因还包括[[lye|碱液]]）搬运到适当的食物[[stockpile|储物区]]。请注意，某些食物搬运情况'''不'''需要此劳动，特别是在喝完饮料后将酒桶送回储物区（如果酒桶最初不在储物区上，且刚刚有新位置空出）以及在[[herbalist|采集]]或[[grower|收获]]后储存植物。
+
+参见[[Hauling|搬运]]以获取更多信息。
+
+{{labors}}

@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=coffee_trunk_sprite.png
-|product=bitter_orange_sprite.png
-|sapling=bitter_orange_sapling.png
-|wiki=Trifoliate orange}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=bitter_orange_sprite.png|sapling=bitter_orange_sapling.png|wiki=Trifoliate orange}}
 {{av}}
 
 '''苦橙'''是地面上发现的众多树木属之一。像绝大多数地上树木一样，苦橙[[wood|木材]]是棕色的，并产出棕色制品。

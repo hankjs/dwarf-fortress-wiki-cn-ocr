@@ -1,0 +1,28 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+
+[[File:Dark_pits_map_43.png|thumb|300px|从传奇模式导出的典型黑暗坑地图。<br>
+兴趣点：<br>
+<span style="color:rgb(128,128,128)">█</span> 哨塔<br>
+<span style="color:rgb(50,30,20)">█</span> 地下工作坑<br>
+<span style="color:rgb(20,50,40)">█</span> 地下生活坑]]
+{{Translation| dwarven = umom gor | elvish = mari nimo | goblin = ustro slömod | human = tuth uta}}
+
+'''黑暗坑'''（[[File:icon_site_dark_fortress_2.png]]）是[[goblin|哥布林]]的[[hamlet|小村庄]]和[[hillock|小丘]]等价物。在ASCII模式下，它们在世界地图上标记为{{Raw Tile|º|5:0:0}}，标记为{{Raw Tile|º|0:0:1}}的意味着它们已被遗弃或[[ruin|毁坏]]。
+
+与[[dark fortress|黑暗要塞]]非常相似，它们由许多简单的塔楼组成，塔楼被战壕网络交错，大部分人口生活在这些塔楼的顶层。其中一些塔楼也有向下的楼梯，通向地点的地下部分。通常只有一两座塔楼会有这些楼梯，与大多数塔楼都相连的黑暗要塞不同。
+
+地点的地下部分由所谓的"坑"组成（据推测"黑暗坑"的名称就是由此而来）。这些坑有两种变体："生活坑"由走廊和小房间组成，"工作坑"由可能包含[[troll|巨魔]]、物品和哥布林骨架的大厅组成。据推测，生活坑用作[[bedroom|住所]]，而工作坑用作[[industry|工业]]区和[[tomb|墓地]]。
+
+
+<gallery>
+Dark pit 1.png|环绕一些地上塔楼基座的战壕
+Dark pit 2.png|地上塔楼顶部
+Dark pit 5.png|一系列地下房间
+Dark pit 8.png|更多地下房间（在下方层）
+Dark pit 6.png|坑的顶部（有各种[[bone|骨制]][[crafts|工艺品]]）
+Dark pit 7.png|坑
+</gallery>
+
+{{World}}

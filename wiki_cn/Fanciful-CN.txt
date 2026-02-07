@@ -1,0 +1,47 @@
+{{Quality|Superior}}
+{{av}}
+{{catbox}}
+<onlyinclude>
+{{minorspoiler}}
+'''奇幻生物(Fanciful creature)''' 是传说中的东西。奇幻[[生物]]包括[[巨兽]]、[[恶魔]]和神秘生物,如[[仙女]] - 它们可以出现在[[雕刻]]和其他艺术作品中。一些奇幻生物会在某些生物群系中生成;仙女在善良地区很常见,神秘的[[大脚怪]]偶尔可以在野蛮森林中被发现。其他生物只能在特殊情况下出现,例如在[[要塞模式]]中偶尔攻击你的巨兽。此外,有几种奇幻生物实际上并不存在,只存在于特别富有想象力的人的脑海中。
+
+奇幻生物可以被认为是平凡生物的对立面。
+
+游戏对象数据中的奇幻生物由 {{token|FANCIFUL|c}} 标记定义。
+</onlyinclude>
+==可以遇到的奇幻生物==
+
+{{Columns-list|
+*[[File:beast_sprites_preview_anim.gif|25px]] / {{Tile|Ä|7:1}} [[天使]]
+*[[File:Bogeyman_sprite.png|20px]] / {{Tile|ñ|0:1}} [[妖怪]]
+*[[File:Bronze_colossus_sprite.png|20px]] / {{Tile|C|6:0}} [[青铜巨像]]
+*[[File:Cyclops_sprite.png|20px]] / {{Tile|C|4:1}} [[独眼巨人]]
+*[[File:beast_sprites_preview_anim.gif|25px]] / {{Tile|&|7:1}} [[恶魔]]
+*[[File:Dragon_sprite.png|20px]] / {{Tile|D|2:0}} [[龙]]
+*[[File:Ettin_sprite.png|20px]] / {{Tile|E|6:1}} [[双头巨人]]
+*[[File:beast_sprites_preview_anim.gif|25px]] / {{Tile|A|4:1}} [[实验体]]
+*[[File:Fairy_sprite.png|20px]] / {{Tile|∙|6:1}} [[仙女]]
+*[[File:Foul_blendec_sprite.png|20px]] / {{Tile|b|0:1}} [[邪恶搅拌兽]]
+*[[File:Giant_sprite.png|20px]] / {{Tile|G|3:0}} [[巨人]]
+*[[File:Harpy_sprite.png|20px]] / {{Tile|h|6:0}} [[鹰身女妖]]
+*[[File:Hydra_sprite.png|20px]] / {{Tile|H|4:1}} [[九头蛇]]
+*[[File:Merperson_sprite_anim.gif|20px]] / {{Tile|M|3:1}} [[人鱼]]
+*[[File:Minotaur_sprite.png|20px]] / {{Tile|M|6:0}} [[牛头怪]]
+*[[File:Night_troll_sprite.png|20px]] / {{Tile|Ñ|2:0}} [[夜魔]]
+*[[File:beast_sprites_preview_anim.gif|25px]] / {{Tile|Ñ|0:1}} [[梦魇兽]]
+*[[File:Nightwing_sprite.png|20px]] / {{Tile|N|0:1}} [[夜翼]]
+*[[File:Pixie_sprite.png|20px]] / {{Tile|·|3:1}} [[小精灵]]
+*[[File:Roc_sprite.png|20px]] / {{Tile|R|7:1}} [[大鹏]]
+*[[File:Sasquatch_sprite.png|20px]] / {{Tile|S|6:0}} [[大脚怪]]
+*[[File:Satyr_sprite.png|20px]] / {{Tile|s|6:0}} [[萨堤尔]]
+*[[File:Yeti_sprite.png|20px]] / {{Tile|Y|7:1}} [[雪人]]
+*[[File:Werebeast_sprite.png|20px]] / {{Tile|Ñ|6:0}} [[兽人]]}}
+
+==实际上不存在的奇幻生物==
+
+*{{Tile|C|2:1}} [[奇美拉]]
+*{{Tile|C|6:0}} [[半人马]]
+*{{Tile|G|7:1}} [[狮鹫]]
+
+{{Category|Creature attributes}}
+[[ru:Fanciful]]

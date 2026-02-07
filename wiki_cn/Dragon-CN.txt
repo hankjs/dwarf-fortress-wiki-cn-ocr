@@ -1,0 +1,75 @@
+{{Quality|Exceptional|16:09, 7 March 2023 (CST)}}
+{{Creaturelookup/0|image=dragon_sprites.png|portrait=dragon_portrait.png|bone=66-110|tooth=3|meat=113-173|fat=42-65|nail=1|lung=8-18|heart=2-4|intestine=14-27|liver=4-9|tripe=4-9|sweetbread=2-4|spleen=2-4|kidney=4-8|brain=4-8|skull=1|skin=scale|eye=2|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+'''龙'''是巨大的、喷[[fire|火]]的[[megabeast|巨兽]],在其完全体型时,是世界上[[List_of_creatures_by_adult_size#end_of_list|第二大]]陆地[[creature|生物]](仅次于[[giant elephant|巨象]])。它们是贪婪的怪物,寻求从你的要塞[[Steals items|偷取物品]]带回它们的巢穴。龙通常在[[World generation|世界生成]]时成功偷窃,但当它们攻击玩家要塞时,它们会简单地摧毁这个地方或拼死一战。
+
+龙最显著的特点是能够快速且频繁地喷出长达(20+格)的[[dragonfire|龙焰]]射流,这是一种温度更高(理论上为{{ct|50000}},是[[magma|岩浆]]热度的四倍以上)的火焰版本,可以迅速杀死路径上的任何生物,甚至可以杀死通常免疫火焰的生物,尽管可以被装备[[shield|盾牌]]的敌人阻挡。所有龙在[[skill|技能]][[Combat skill|战斗、撕咬、踢腿、闪避]]和[[Observer|观察]]方面天生具有熟练等级,结合它们的体型和龙焰,使它们成为未受训[[military|军队]][[squad|小队]]的可怕对手。
+
+虽然基于西方龙模型,但龙既不会飞也没有翅膀,也不智能(尽管有空间解决这个问题;见[[#Irregularities, bugs, and future plans|漏洞和未来计划]])。它们经常被描述为[http://tvtropes.org/pmwiki/pmwiki.php/Main/GlassCannon 玻璃大炮],因为它们不是特别耐久,可以相对容易地被熟练的士兵或[[trap|陷阱]]击败,但这只是与其他巨兽相比;一条龙可以轻易地摧毁一个没有准备的要塞。龙与[[sphere|领域]]火和财富相关联,它们的名字通常会反映这一点。
+
+它们不应与[[cave dragon|洞穴龙]]混淆,后者是一个单独的、非巨兽物种。
+
+一些矮人[[preferences|喜欢]]龙,因为它们的''可怕威严''。
+
+==龙的体型==
+龙缓慢成长,成为游戏中最大的生物之一,最终在1000年后达到成年体型25,000,000 cm<sup>3</sup>。作为幼龙,龙非常小,恰好是成年矮人体型的1/10,但它们成长非常迅速,每年约500,000 cm<sup>3</sup>,直到10岁,此时它们减慢到每年20202。龙在出生后不久就达到矮人大小,5岁时是驮牛的大小,10岁时成为大象大小。
+
+*出生时,龙的大小相当于[[fox|狐狸]]。
+*2岁时,龙的大小相当于[[water buffalo|水牛]]。
+*10岁时,龙的大小相当于[[elephant|大象]]并成年。
+*100岁时,龙的大小相当于[[blind cave ogre|盲洞食人魔]]。
+*200岁时,龙比[[hydra|九头蛇]]大。
+*800岁时,龙的大小相当于[[bronze colossus|青铜巨人]]或成年[[roc|大鹏]]。
+*1000年后,龙是陆地上发现的第二大生物。([[giant elephant|巨象]]是最大的陆地生物,而[[giant sperm whale|巨抹香鲸]]是任何地方发现的最大生物。)
+
+==防御策略==
+如果受害者使用盾牌,龙焰可以被阻挡,而且会在99%以上的时间被阻挡。尽管它们是巨兽中身体最弱的,但龙在近战中仍然非常强大,所以没有优秀的军队很难打败它们。它们永远不应该在覆盖[[grass|草]]或[[cave moss|洞穴苔藓]]的区域交战,因为它们的呼吸攻击会导致火焰在该区域的'''所有'''草地上蔓延,在火焰中吞噬你的地图,导致[[tree|树木]]倒塌,最重要的是,杀死你的[[FPS]]。当被龙攻击时,将它引诱到地下,最好是远离任何[[farm plot|农田]]的石质地板区域。虽然它们免疫火焰伤害,但如果浸没在岩浆中,龙仍然可以[[swimmer|溺水]]。
+
+龙焰可以通过在覆盖4/7水深的走廊中与龙战斗来避免,在这里龙无法喷火,使其容易受到近战攻击。
+
+可能最好的防御是使用穿刺武器,如弩,特别是矛,并希望你运气好,击中重要器官,这可以立即将其击倒。另一个选择是建造一个或多个笼子陷阱,可能是事先建造的,这可能会笼住龙,使其无害。你应该知道,除非用纯黑曜石建造,否则笼子和机械会被龙焰摧毁,所以要么确保笼子(或武器,或支撑物)和机械都不受龙焰影响,或者,更简单地;通过从陷阱区域移除动物和矮人,确保龙没有理由喷火。虽然它们通常不会向建筑物喷火,但一次误射(比如对你的户外牲畜或诱饵动物)如果击中任何不是龙焰安全材料制成的陷阱、门或桥梁,将会熔化并使它们失效。这可以用来对你有利,因为龙会摧毁它们站立的桥梁,即使它们不是瞄准它。此外,如果你能作为[[necromancer|死灵法师]]复活它们,龙会成为好伙伴。
+
+==驯化==
+[[File:dragonprev.png|thumb|260px|right|多么威严!<br><small>''艺术作者:Olivitree''</small>]]
+如果你足够幸运抓到一条龙,可以在[[cage|笼子]][[trap|陷阱]]中捕获并[[Animal trainer|训练]]龙。目前,动物行为知识基于文明等级,部分取决于特定文明地点可接触的动物。像龙这样罕见的巨兽不太可能与文明有任何接触,除了试图杀死它们的冒险者和其他暴力接触;因此,你的要塞必须从头开始建立知识库,使龙训练成为一项极其困难的任务。请记住,即使有熟练的动物训练师在手,你控制如此强大和难以捉摸的野兽的第一次尝试可能会导致[[Fun|你的一半要塞在龙焰中燃烧]]。(过时:作为巨兽,训练过的龙仍然会对商队、外交官和其他访客敌对。)似乎这在Steam版本中已被修补,至少根据[https://www.reddit.com/r/dwarffortress/comments/111mnh1/tame_dragon_not_attacking_military/ 这个] Reddit帖子。至少假设导致它攻击客人的同样的事情也使它攻击守卫。
+
+如果你能设法忍受其长期未驯服的愤怒,你将拥有一只可以下[[egg|蛋]]的极有价值的宠物。龙也可以在[[Activity_zone#Animal_Training|动物训练区]]训练成战斗或狩猎动物。虽然训练过的龙是你手中极具破坏力的工具,但它也非常渴望对敌人使用龙焰,如果发生在你的[[Pasture|草地]]、[[Alcohol|酒]][[stockpile|储存区]]或[[meeting area|聚会区]],这可能会''极其''[[fun|有趣]]。
+
+如果你足够幸运地捕获一对不同性别的龙,你可以用[[nest box|巢箱]][[Egg#Hatching Conditions|繁殖]]它们。孵化的龙需要经过1,000年的成长才能达到完整大小,但在10岁时达到其完整大小的20%。
+
+==不规则性、漏洞和未来计划==
+[[File:Dragon_Size.png|frame|完全成长的龙和矮人之间的估计大小比较。]]
+已观察到龙偶尔会穿一些[[armor|盔甲]](胸甲、胫甲、护腿和靴子)。这种盔甲被指定为"大型[金属][盔甲类型]",为龙提供与任何其他物种从中获得的相同保护。这是一个漏洞,因为龙通常无法装备物品。
+
+[[Main:Toady One|Toady One]]提到他计划最终扩展游戏的随机生物生成器,在某些约束条件下创建不同种类和品种的龙,称之为"半随机",变体想法包括文学中赋予龙的几乎任何东西,如酸性血液,同时保持基本的龙形结构。<sup>([http://www.bay12forums.com/smf/index.php?topic=30026.msg1012311#msg1012311])</sup> 他还评论了游戏目前对龙的描绘为无翅膀不智能生物,引用他的原因是现实生活来源中龙的许多描绘方式。(<sup>[http://www.bay12forums.com/smf//index.php?topic=159164.msg7156980#msg7156980]</sup>)
+
+[[Main:Consolidated_development#Power_Goals|旧权力目标]]之一将偷龙蛋作为[[adventurer mode|冒险者模式]]任务的一部分。
+
+[[File:Dragon2.png|thumb|300px|center|龙;因其可怕威严而受到赞赏]]
+
+{{D for Dwarf}}
+
+<!-- Reference: "Toothless", fictional dragon from "How To Train Your Dragon" film -->
+与流行的信念相反,龙实际上并非没有牙齿,会把你撕成碎片,导致[[fun|乐趣]]。
+
+<!-- Reference: "Trogdor the Burninator", fictional dragon from "Homestar Runner" -->
+然而,根据流行的信念,它们会点燃乡村,以及恰好在附近的任何[[peasant|农民]]和茅草屋顶小屋。
+幸运的是,没有龙人。否则它们可能会在夜里来。
+
+<!-- Reference: Toothless again? -->
+也与流行的信念相反,龙焰实际上不是真正的火,而是由各种金属(如:银、铜、钢等)的沸腾、熔融云组成... 所以有人可能会争辩说龙以矿物和装甲冒险者为食来产生它们的呼吸,或者龙可以呼吸等离子体。
+
+<!-- Reference: "Lake-town" trade city from "Lord of the Rings"/"The Hobbit" book series  -->
+龙焰也已知会使贸易站爆炸。
+
+<!-- Reference: "Dungeons & Dragons" Tabletop RPG -->
+虽然龙被认为在地下城中筑巢,但"龙在地下城"的实际目击非常罕见。
+
+
+
+{{Translation| dwarven = måmgoz| elvish  = vutheni| goblin  = kusnath| human   = tamun}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Megabeasts}}

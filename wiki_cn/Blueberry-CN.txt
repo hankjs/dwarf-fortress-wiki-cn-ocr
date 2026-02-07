@@ -1,10 +1,6 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=blueberry_shrub_sprite.png
-|seedimage=blueberry_seeds_sprite.png
-|uses=
-* [[Food]]
-}}
+{{plantlookup|graphic=blueberry_shrub_sprite.png|seedimage=blueberry_seeds_sprite.png|uses=
+* [[Food]]}}
 {{av}}
 
 '''蓝莓'''是一种生长在[[tundra|苔原]]环境中的[[aboveground|地上]][[crop|园艺蔬菜]]。它们可以在所有季节种植，果实可以生吃或[[cooking|烹饪]]，也可以在[[brewing|酿造]]成[[alcohol|蓝莓酒]]或在[[dyer's shop|染坊]]中加工成薰衣草色[[dye|染料]]。

@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=alunite_sprite.png}}
+{{stonelookup/0|graphic=alunite_sprite.png}}
 {{av}}
 
 '''明矾石'''是一种[[magma-safe|耐岩浆]]的[[stone|石头]]，以[[vein|簇]]的形式在[[igneous extrusive layer|喷出岩]]和[[kaolinite|高岭石]][[stone layers|岩层]]中被发现。除了在控制[[magma|岩浆]]方面的潜在适用性外，明矾石完全平平无奇，与其他所有常见石头的价值相同。

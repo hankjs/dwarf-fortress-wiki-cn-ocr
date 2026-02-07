@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{creaturelookup/0|image=emu_couple_sprites.png|portrait=emu_portrait_anim.gif|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|gizzard=1|brain=1|skull=1|fat=12|skin=hide|meat=14|bone=14|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''鸸鹋'''是栖息在[[temperate|温带]][[shrubland|灌木丛]]和[[forest|森林]]的[[Creature|鸟类]],以2-10只个体为一组出现。它们的体型是[[human|人类]]的一半(略大于成年[[dwarf|矮人]]的一半大小),完全无害,除了漫无目的地闲逛外几乎什么都不做。如果在战斗中遭遇,它们通常会逃跑,但在极少数情况下可能会试图保卫自己,主要使用踢击攻击。
+
+鸸鹋可以在[[cage|笼子]][[trap|陷阱]]中捕获并被[[Animal trainer|驯化]]成奇异的[[pet|宠物]]。它们在[[butcher|屠宰]]时产生大量回报,如果放在[[nest box|巢箱]]中会产下相当多的[[egg|蛋]],为鸸鹋养殖场提供了机会。在游戏中的走禽类鸟类(鸸鹋、[[ostrich|鸵鸟]]和[[Cassowary|食火鸡]])中,鸸鹋是三者中体型最小、寿命最短的。
+
+一些矮人[[Preferences|喜欢]]鸸鹋,因为它们的''体型''和''好奇的天性''。
+
+[[File:Emu-wild.jpg|thumb|400px|center|因其''好奇的天性''而受到赞赏。]]
+
+{{D for Dwarf}}
+
+<!-- Reference: Australian [https://en.wikipedia.org/wiki/Emu_War| 'mythology'] -->
+一个人类王国在历史上因输掉了一场与鸸鹋的血腥战争而闻名,尽管他们拥有将[[saltwater crocodile|咸水鳄]]摔倒在地并徒手杀死[[dingo|野狗]]的名声。然而,他们处理失败的方式相当好,考虑到他们喜欢向矮人朋友开玩笑。尽管许多矮人[[scholar|学者]]不相信这些说法中的大部分(任何自尊的科学家都会嘲笑小型手持弩炮能够每分钟发射500次的想法),这只是另一个证明,证明人类比那些该死的精灵好得多。
+
+{{gamedata}}
+{{creatures}}

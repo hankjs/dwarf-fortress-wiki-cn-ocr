@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=fox_squirrel_sprite.png|portrait=foxsquirrel_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''狐松鼠'''是一种[[above ground|地上]][[vermin|害虫]]，出现在[[savage|野蛮]]的[[temperate|温带]][[forest|森林]]中。它们既是体型最大的害虫之一(与[[fluffy wambler|蓬松晃鼠]]并列)，也是最有价值的害虫之一(与[[knuckle worm|指节虫]]并列)。它们可以被[[trapper|捕兽者]]捕获并变成[[pet|宠物]]。所有狐松鼠都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]狐松鼠的''顽强性''。
+
+
+[[File:Vermin-FoxSquirrel.jpg|thumb|center|300px|Admired for its ''tenacity''.]]
+
+{{gamedata}}
+{{Vermin}}

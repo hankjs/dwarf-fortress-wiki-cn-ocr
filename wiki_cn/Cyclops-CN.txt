@@ -1,8 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=cyclops_sprites.png
-|portrait=cyclops_portrait.png
-|wiki=yes}}
+{{Creaturelookup/0|image=cyclops_sprites.png|portrait=cyclops_portrait.png|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

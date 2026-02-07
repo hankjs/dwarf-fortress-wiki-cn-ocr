@@ -1,6 +1,4 @@
-{{Creaturelookup/0
-|image=black_bear_man_sprite.png
-|portrait=black_bear_man_portrait.png}}
+{{Creaturelookup/0|image=black_bear_man_sprite.png|portrait=black_bear_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''黑熊人'''是普通[[black bear|黑熊]]的[[animal people|兽人]]变体，可以在[[savage|野蛮]][[temperate|温带]][[forest|森林]]和[[taiga|泰加林]]中发现，成群出现，数量在2-10个之间，并保留其动物对应物的[[Thief|偷窃]]倾向，只要有机会就会带走你的食物和喝掉你的酒。它们比[[dwarf|矮人]]大得多，如果被激怒，可以轻易将[[peasant|农民]]撕成碎片。

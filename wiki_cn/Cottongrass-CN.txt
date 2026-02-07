@@ -1,0 +1,10 @@
+{{Quality|Fine}}{{grasslookup/0}}{{av}}
+
+'''棉草'''是一种专门生长在原本荒凉的[[tundra|苔原]]和[[mountain|山区]]地区的草类。在春末它会产生生长物,白色的棉草簇。与[[cotton|棉花]]不同,它不能用于生产[[thread|线]]。
+
+{{Translation| dwarven = îkeng-isin | elvish = ethe-enena | goblin = ongu-struxe | human = thixil-kege}}
+
+[[File:Cottongrass on Selawik Refuge Wetlands.jpg|thumb|center|400px|Cottongrass.]]
+
+{{gamedata}}
+{{Plants}}

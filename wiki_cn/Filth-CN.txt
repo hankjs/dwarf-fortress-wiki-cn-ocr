@@ -1,0 +1,26 @@
+{{Quality|Superior}}
+{{av}}
+
+[[File:Filth preview.png|right]]
+
+'''污秽'''是游戏代码中较为隐晦的[[material|材料]]之一,也是一种[[smell|气味]]。它有两种变体:棕色固态污秽和黄色液态污秽。随机生成的生物如[[forgotten beast|遗忘之兽]]偶尔可能由[[grime|污垢]]和污秽组成,目前尚不清楚污秽还可以在哪里遇到。
+
+== 棕色污秽 ==
+这种类型的污秽是棕色固体。它不会融化,但会在{{ct|10180}}以上的[[temperature|温度]]下逐渐分解。它的[[density|密度]]为1200,略高于[[water|水]]。
+
+{{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|FILTH_B}}}}
+
+== 黄色污秽 ==
+黄色污秽是一种液体,在{{ct|10000}}时冻结,在{{ct|10180}}时沸腾。它在冻结时的[[density|密度]]为920,液态时为1000,与[[water|水]]完全相同。
+
+{{d for dwarf}}
+
+===矮人的排泄物===
+
+矮人确实不会排便,但他们确实有其他方法来...呃...排除废物。一位著名的矮人医生乌里斯特·麦克艾利德希不出名发现,普通矮人拥有极其高效的消化系统。任何通过消化的微量废物都会转化为——你猜对了——胡须毛发。
+
+{{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|FILTH_Y}}}}
+{{materials}}
+
+{{Category|Materials}}
+[[ru:Filth]]

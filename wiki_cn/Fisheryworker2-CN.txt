@@ -1,0 +1,18 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+
+'''渔业工人'''（Fishery worker）是一个类别职业。它包含与捕捞、清理和准备鱼类供消费相关的技能。技能最高在此类别的矮人将被称为渔业工人。
+
+渔业工人技能包括：
+
+{{Skill Box|Fishery Worker|1:0|1:0|
+* [[Fish cleaner|清鱼工]]
+* [[Fish dissector|解剖鱼工]]
+* [[Fisherdwarf|渔夫矮人]]}}
+
+;另见：
+:* [[Fishery|渔业]]
+{{skills}}
+
+{{Category|Professions}}

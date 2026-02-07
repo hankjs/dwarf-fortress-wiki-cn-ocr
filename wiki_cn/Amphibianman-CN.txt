@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=Amphibian_man_sprite.png
-|portrait=amphibian_man_portrait.png
-|vary=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=Amphibian_man_sprite.png|portrait=amphibian_man_portrait.png|vary=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 '''两栖人'''是地下部落[[Creature|种族]]之一（本质上是[[animal people|兽人]]，但设计选择显然使他们失去了该地位），生活在任何[[cavern|洞穴]]层级的小群体中。他们的体型与[[kobold|狗头人]]相当，但敏捷性较低。

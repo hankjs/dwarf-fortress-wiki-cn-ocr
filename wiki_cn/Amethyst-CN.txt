@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_amethyst_sprite.png
-|graphic2=rough_amethyst_sprite.png}}
+{{gemlookup/0|graphic=cut_amethyst_sprite.png|graphic2=rough_amethyst_sprite.png}}
 {{av}}
 
 '''紫水晶'''是半宝石级的紫色石英[[gem|晶体]]，作为小簇在任何地方都能找到，它们还具有在死亡时被[[amethyst man|紫水晶人]]掉落的特殊之处。
@@ -17,12 +15,7 @@ File:Amethyst_3.jpg|原生紫水晶
 File:Amethyst_4.jpg|抛光紫水晶
 </gallery>
 
-{{Translation
-| dwarven = alron
-| elvish  = fece
-| goblin  = exost
-| human   = zebna
-}}
+{{Translation| dwarven = alron| elvish  = fece| goblin  = exost| human   = zebna}}
 
 {{gamedata}}
 {{gems}}

@@ -190,8 +190,7 @@
 * [[File:termite_sprite.png]] / {{Tile|·|7:1}} [[Termite|白蚁]]
 * [[File:thrips_sprite.png]] / {{Tile|·|6:0}} [[Thrips|蓟马]]
 * [[File:tick_sprite.png]] / {{Tile|·|0:1}} [[Tick|蜱虫]]
-* [[File:wren_sprite.png]] / {{Tile|∙|6:0}} [[Wren|鹪鹩]]
-}}
+* [[File:wren_sprite.png]] / {{Tile|∙|6:0}} [[Wren|鹪鹩]]}}
 
 '''在野蛮沙漠中：'''
 * [[File:two_legged_rhino_lizard_sprite.png|20px]] / {{Tile|∙|7:0}} [[Two-legged rhino lizard|两足犀牛蜥]]
@@ -210,123 +209,49 @@
 
 === 灌木 ===
 {| class="wikitable"
-! 名称
-|-
-| [[File:alfalfa_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Alfalfa|苜蓿]]
-|-
-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Barley|大麦]]
-|-
-| [[File:blade_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Blade weed|刃草]]
-|-
-| [[File:caper_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Caper|刺山柑]]
-|-
-| [[File:fisher_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Fisher berry|渔夫浆果]]
-|-
-| [[File:hide_root_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Hide root|隐藏根]]
-|-
-| [[File:lentil_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Lentil|小扁豆]]
-|-
-| [[File:longland_grass_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Longland grass|长地草]]
-|-
-| [[File:potato_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Potato|土豆]]
-|-
-| [[File:prickle_berries_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Prickle berry|刺莓]]
-|-
-| [[File:rat_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rat weed|鼠草]]
-|-
-| [[File:red_spinach_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Red spinach|红菠菜]]
-|-
-| [[File:reed_rope_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rope reed|绳芦苇]]
-|-
-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rye|黑麦]]
-|-
-| [[File:strawberry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Strawberry|草莓]]
-|}
+! 名称|-| [[File:alfalfa_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Alfalfa|苜蓿]]|-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Barley|大麦]]|-| [[File:blade_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Blade weed|刃草]]|-| [[File:caper_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Caper|刺山柑]]|-| [[File:fisher_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Fisher berry|渔夫浆果]]|-| [[File:hide_root_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Hide root|隐藏根]]|-| [[File:lentil_shrub_sprite.png|20px]] / {{Tile|"|2:1}} [[Lentil|小扁豆]]|-| [[File:longland_grass_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Longland grass|长地草]]|-| [[File:potato_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Potato|土豆]]|-| [[File:prickle_berries_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Prickle berry|刺莓]]|-| [[File:rat_weed_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rat weed|鼠草]]|-| [[File:red_spinach_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Red spinach|红菠菜]]|-| [[File:reed_rope_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rope reed|绳芦苇]]|-| [[File:generic_wheat_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Rye|黑麦]]|-| [[File:strawberry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Strawberry|草莓]]|}
 
 '''在野蛮沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:whip_vine_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Whip vine|鞭藤]]
-|}
+! 名称|-| [[File:whip_vine_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Whip vine|鞭藤]]|}
 
 '''在善良沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:sun_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Sun berry|阳光浆果]]
-|}
+! 名称|-| [[File:sun_berry_shrub_sprite.png|20px]] / {{Tile|"|2:0}} [[Sun berry|阳光浆果]]|}
 
 '''在邪恶沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:sliver_barb_shrub_sprite.png|12px]] / {{Tile|"|2:0}} [[Sliver barb|细刺]]
-|}
+! 名称|-| [[File:sliver_barb_shrub_sprite.png|12px]] / {{Tile|"|2:0}} [[Sliver barb|细刺]]|}
 
 === 树木 ===
 {| class="wikitable"
-! 名称
-|-
-| [[File:saguaro_sapling.png |12px]] / [[File:saguaro_trunk_sprite.png |12px]] / {{Tile|╞|2:0}} [[Saguaro|巨人柱]]
-|}
+! 名称|-| [[File:saguaro_sapling.png |12px]] / [[File:saguaro_trunk_sprite.png |12px]] / {{Tile|╞|2:0}} [[Saguaro|巨人柱]]|}
 
 '''在野蛮沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:highwood_sapling.png |12px]] / [[File:highwood_trunk_sprite.png |12px]] / {{Tile|¶|2:0}} [[Highwood|高木]]
-|}
+! 名称|-| [[File:highwood_sapling.png |12px]] / [[File:highwood_trunk_sprite.png |12px]] / {{Tile|¶|2:0}} [[Highwood|高木]]|}
 
 '''在善良沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:feather_sapling.png |12px]] / [[File:feather_trunk_sprite.png |12px]] / {{Tile|♣|7:1}} [[Feather tree|羽毛树]]
-|}
+! 名称|-| [[File:feather_sapling.png |12px]] / [[File:feather_trunk_sprite.png |12px]] / {{Tile|♣|7:1}} [[Feather tree|羽毛树]]|}
 
 '''在邪恶沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| [[File:glumprong_sapling.png |12px]] / [[File:glumprong_trunk_sprite.png |12px]] / {{Tile|┤|5:0}} [[Glumprong|阴郁树]]
-|}
+! 名称|-| [[File:glumprong_sapling.png |12px]] / [[File:glumprong_trunk_sprite.png |12px]] / {{Tile|┤|5:0}} [[Glumprong|阴郁树]]|}
 
 === 草 ===
 {| class="wikitable"
-! 名称
-|-
-| {{Tile|.|2:1}} [[Baby toes succulent|婴儿脚趾多肉]]
-|-
-| {{Tile|.|2:1}} [[Needle grass|针草]]
-|-
-| {{Tile|.|2:1}} [[Pebble plant|卵石植物]]
-|}
+! 名称|-| {{Tile|.|2:1}} [[Baby toes succulent|婴儿脚趾多肉]]|-| {{Tile|.|2:1}} [[Needle grass|针草]]|-| {{Tile|.|2:1}} [[Pebble plant|卵石植物]]|}
 
 '''在善良沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| {{Tile|O|3:1}} [[Bubble bulb|泡泡球茎]]
-|-
-| {{Tile|.|7:1}} [[Downy grass|绒毛草]]
-|}
+! 名称|-| {{Tile|O|3:1}} [[Bubble bulb|泡泡球茎]]|-| {{Tile|.|7:1}} [[Downy grass|绒毛草]]|}
 
 '''在邪恶沙漠中：'''
 {| class="wikitable"
-! 名称
-|-
-| {{Tile|O|7:1}} [[Staring eyeball|凝视眼球]]
-|-
-| {{Tile|≥|5:1}} [[Wormy tendril|虫状卷须]]
-|}
+! 名称|-| {{Tile|O|7:1}} [[Staring eyeball|凝视眼球]]|-| {{Tile|≥|5:1}} [[Wormy tendril|虫状卷须]]|}
 
-{{Translation
-| dwarven = zareth
-| elvish  = avetho
-| goblin  = slosno
-| human   = asto
-}}
+{{Translation| dwarven = zareth| elvish  = avetho| goblin  = slosno| human   = asto}}
 
 {{World|Biomes}}
 {{Category|Biomes}}

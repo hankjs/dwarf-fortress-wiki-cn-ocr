@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=chameleon_sprite.png
-|portrait=chameleon_portrait.png
-|wiki=Chameleon}}
+{{verminlookup/0|image=chameleon_sprite.png|portrait=chameleon_portrait.png|wiki=Chameleon}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

@@ -1,0 +1,100 @@
+{{Quality|Masterwork|08:57, 21 February 2023 (CST)}}
+{{av}}
+[[File:calender_v50_preview.png|thumb|350px|right|The game getting itself ready for how you're gonna eventually lose it.]]'''矮人日历'''用于显示任何给定日期的日、月和年，并在主视图顶部可见。矮人年份有12个月，分为4个季节，每个季节3个月。与传统的公历不同，每个矮人月份正好是4周，即28天，因此一年总共有336天。新年和春天的第一天都是在花岗岩月1日。除夕和冬天的最后一天都是在黑曜石月28日。月份以各种[[stone|石头]]、[[ore|矿石]]、[[gem|宝石]]和[[wood|木材]]命名。
+
+游戏的第一个可玩年份从世界停止生成时开始 - 默认情况下，这将是第100年，但在选择''创建世界''时，世界生成可以设置为在几个不同的年份停止 - 范围从5到500年 - 或在''使用高级参数/详细模式设计新世界''屏幕中编辑高级选项''结束年份''，或通过中断世界生成来设置为任意年份。
+
+== 月份和季节 ==
+世界遵循季节循环 - 每个季节影响气候、可以耕种的作物以及贸易的潮起潮落。每年的某些固定日期也有满月；[[werebeasts|兽人]]将在这些日子变身为兽人形态。
+
+: {| class=wikitable| rowspan=2 style="background: #aaa"  |
+! colspan=2 rowspan=2 style="background: #ccc;" | 月份
+! colspan=2 style="background: #ccc;" | 公历对应
+! colspan=2 rowspan=2 style="background: #ccc;" | 季节
+! rowspan=2 style="background: #ccc;" | [[Caravan|商队]]
+! rowspan=2 style="background: #ccc;" | [[Werebeast#Full Moons .2F Transformation dates|满月 <br>	&#x26AA; <br> ]]
+|-
+! style="background: #ccc;" | 北<br>半球
+! style="background: #ccc;" | 南<br>半球|-| style="background: #8f8"  | {{tile|•|grey|#8f8}}
+! style="background: #cfc;" | 1
+! style="background: #cfc;" | [[Granite|花岗岩月]]| style="background: #cfc;" | 三月| style="background: #cfc;" | 九月| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | 早-| style="background: #cfc" rowspan="3" | 春| style="background: #cfc; text-align: center" rowspan="3"| [[Elf|精灵]]| style="background: #cfc;" | 25日|-| style="background: #8f8"  | {{tile|•|grey|#8f8}}
+! style="background: #cfc;" | 2
+! style="background: #cfc;" | [[Slate|板岩月]]| style="background: #cfc;" | 四月| style="background: #cfc;" | 十月| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | 中-| style="background: #cfc;" | 23日|-| style="background: #8f8"  | {{tile|•|grey|#8f8}}
+! style="background: #cfc;" | 3
+! style="background: #cfc;" | [[Felsite|长石月]]| style="background: #cfc;" | 五月| style="background: #cfc;" | 十一月| style="background: #cfc; font-size: 80%; vertical-align: middle; text-align: right" | 晚-| style="background: #cfc;" | 21日|-| style="background: #ff8"  | {{tile|*|#800|#ff8}}
+! style="background: #ffc;" | 4
+! style="background: #ffc;" | [[Hematite|赤铁矿月]]| style="background: #ffc;" | 六月| style="background: #ffc;" | 十二月| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | 早-| style="background: #ffc;" rowspan="3" | 夏| style="background: #ffc; text-align: center" rowspan="3"| [[Human|人类]]| style="background: #ffc;" | 19日|-| style="background: #ff8"  | {{tile|*|green|#ff8}}
+! style="background: #ffc;" | 5
+! style="background: #ffc;" | [[Malachite|孔雀石月]]| style="background: #ffc;" | 七月| style="background: #ffc;" | 一月| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | 中-| style="background: #ffc;" | 17日|-| style="background: #ff8"  | {{tile|*|grey|#ff8}}
+! style="background: #ffc;" | 6
+! style="background: #ffc;" | [[Galena|方铅矿月]]| style="background: #ffc;" | 八月| style="background: #ffc;" | 二月| style="background: #ffc; font-size: 80%; vertical-align: middle; text-align: right" | 晚-| style="background: #ffc;" | 15日|-| style="background: #f88"  | {{tile|•|white|#f88}}
+! style="background: #fcc;" | 7
+! style="background: #fcc;" | [[Limestone|石灰岩月]]| style="background: #fcc;" | 九月| style="background: #fcc;" | 三月| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | 早-| style="background: #fcc" rowspan="3" | 秋| style="background: #fcc; text-align: center" rowspan="3" | [[Dwarf|矮人]]| style="background: #fcc;" | 13日|-| style="background: #f88" | {{tile|•|#770|#f88}}
+! style="background: #fcc;" | 8
+! style="background: #fcc;" | [[Sandstone|砂岩月]]| style="background: #fcc;" | 十月| style="background: #fcc;" | 四月| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | 中-| style="background: #fcc;" | 10日|-| style="background: #f88" | {{tile|▬|#770|#f88}}
+! style="background: #fcc;" | 9
+! style="background: #fcc;" | [[wood|木材月]]| style="background: #fcc;" | 十一月| style="background: #fcc;" | 五月| style="background: #fcc; font-size: 80%; vertical-align: middle; text-align: right" | 晚-| style="background: #fcc;" | 8日|-| style="background: #88f" | {{tile|♦|white|#88f}}
+! style="background: #ccf;" | 10
+! style="background: #ccf;" | [[Moonstone|月长石月]]| style="background: #ccf;" | 十二月| style="background: #ccf;" | 六月| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | 早-| style="background: #ccf" rowspan="3" | 冬| style="background: #ccf; text-align: center" rowspan="3" | ''无*''| style="background: #ccf;" | 6日|-| style="background: #88f" | {{tile|♦|white|#88f}}
+! style="background: #ccf;" | 11
+! style="background: #ccf;" | [[Opal|蛋白石月]]| style="background: #ccf;" | 一月| style="background: #ccf;" | 七月| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | 中-| style="background: #ccf;" | 4日|-| style="background: #88f" | {{tile|•|#444|#88f}}
+! style="background: #ccf;" | 12
+! style="background: #ccf;" | [[Obsidian|黑曜石月]]| style="background: #ccf;" | 二月| style="background: #ccf;" | 八月| style="background: #ccf; font-size: 80%; vertical-align: middle; text-align: right" | 晚-| style="background: #ccf;" | 2日和28日 |}
+: <nowiki>*</nowiki> 如果你已经[[modding|修改]]游戏使其不与[[goblin|地精]]或[[kobold|狗头人]]交战，那么他们会向你派遣商队，你将能够与他们交易，但前提是你还修改了他们拥有驮兽或拉车动物。如果你这样做了，那么他们会在每个季节派遣商队，包括冬天。
+
+=== 季节对耕种的影响 ===
+{{main|Farming}}
+
+季节对应于[[farm plot|农田]]{{k|q}}菜单中的生长季节，决定了一年中何时可以种植什么作物。（参见[[crop|作物]]列表。）需要注意的是，作物在季节期间生长，无论实际天气如何，因此任何在春季生长的作物都会这样做，无论你的地区降雨量如何。
+
+=== 季节对贸易的影响 ===
+{{main|Trading}}
+
+文明将根据当前季节访问你的要塞。每个种族的贸易商队在每年的特定季节出现，精灵在春季到来，人类在夏季到来，以及你的矮人同胞在秋季到来。冬季没有商队到来，因此明智的做法是在秋季储备食物和饮料。
+
+== 时代 ==
+
+除了年份之外，世界的历史也分为时代。时代可以被视为一个纪元，定义了它所描述的年份时期。时代本身除了在[[Legends|传奇]]模式中作为分类之外，对游戏玩法没有影响，尽管如果玩家的行为导致当前时代结束，他们可能会目睹时代的变化（并伴随着公告）。在杀死大量[[megabeast|巨兽]]后可能会发生这种情况。
+
+[[File:age_notify_preview.png]]
+
+时代由世界生成期间世界的状态决定。世界从神话时代开始，尽管如果对世界生成参数进行更改，这可能并不总是成立。影响时代的一些已知因素包括当前活着的巨兽数量和主导文明。如果满足适当条件，世界也可能多次进入特定时代（例如，''第二个传奇时代''）。
+
+=== 已知时代 ===
+[[File:GiantDwarfs.jpg|thumb|A time when Heroes, Mega-beasts and Titans walked the earth]]
+
+以下是可能出现的"时代"列表、解释及其（可能的）触发器，以及它们的游戏内描述。[[World_generation#World_Size|世界大小]]可能影响时代持续多长时间。因为时代取决于巨兽数量、文明生物数量等变量，较小的世界往往更频繁地改变时代。相反，较大的世界往往更稳定。
+
+==== 大能者掌控 ====
+
+这一时期的进程由大能者塑造；拥有[POWER]或[MEGABEAST]/[TITAN] [[creature token|生物标记]]的[[historical figure|历史人物]]。如果世界开始时有3个以上的大能者，那么它将经历神话、传奇和英雄时代；如果3个或更少，那么它将经历各种大能者时代。
+
+{| style="border-left: 10px solid #ccc; margin: 0.5em 10px; padding: 0.5em 10px;" |
+'''神话时代'''：活着的大能者和巨兽的数量至少是世界开始时的2/3。
+:''"神话时代是一个活神和强大野兽仍然统治的时代。"''
+
+'''传奇时代'''：活着的大能者和巨兽的数量至少是世界开始时的1/3。
+:''"传奇时代是一个世界力量正在衰退的时代。"''
+
+'''英雄时代'''：活着的大能者和巨兽的数量大于三。
+:''"英雄时代是最后的大能者进行最终战斗的时代。"''|}
+
+在较大的世界中，世界生成期间[[necromancer|死灵法师]]、[[vampire|吸血鬼]]和[[werebeast|兽人]]的增殖（和消灭）可能导致时代"倒退"回英雄、传奇，或者在稍微极端的情况下，甚至回到神话时代，有时多次。这些将被称为"第三个神话时代"，例如。
+
+如果一个世界以3个大能者开始并设法超越它，它将进入神话时代。
+
+{| style="border-left: 10px solid #ccc; margin: 0.5em 10px; padding: 0.5em 10px;" |
+'''三大能者时代'''：世界中正好有三个大能者活着。
+:''"三大能者时代是龙Flarrgh、恶魔Blarrgh和泰坦Glarrgh是世界上仅有的伟大力量的时代。"''
+
+'''两个（种族）时代'''或'''（种族）与（种族）时代'''：世界中正好有两个大能者活着。
+:''"龙与恶魔时代是龙Flarrgh和恶魔Blarrgh是世界上仅有的伟大力量的时代。"''
+:''"两龙时代是龙Flarrgh和龙Blarrgh是世界上仅有的伟大力量的时代。"''
+
+'''（名字/物种）时代'''：世界中正好有一个大能者活着。名称风格是随机选择的。
+:''"九头蛇时代是九头蛇Flarrgh是世界上唯一伟大力量的时代。"''
+:''"Flarrgh时代是泰坦Flarrgh是世界上唯一伟大力量的时代。"''
+:''"龙族时代是龙Flarrgh是世界上唯一伟大力量的时代。"''|}
+
+==== 无大能者 ====
+一旦大能者倒下，凡人文明的状态将决定时代。时代将按如下方式进行。

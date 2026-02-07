@@ -1,0 +1,25 @@
+{{Quality|Unrated}}
+{{V50 workshop|name=Bowyer's workshop|icon=[[File:bowyers_workshop_icon.png]]|key=b|job=*[[Crossbow-making|制弩]]|construction=
+* [[Building material|建筑材料]]（非[[economic|经济]]类）|construction_job=
+*[[Crossbow-making|制弩]]|use=
+*[[Bone|骨头]]
+*[[Wood|木材]]|production=
+*[[Crossbow|弩]]}}{{av}}
+'''制弓作坊'''是一个[[Workshop#Tier_1_Workshops|一级]][[workshop|作坊]]，用于制作[[wood|木制]]或[[bone|骨制]][[crossbow|弩]]。建造需要任何[[stone|石头]]、[[wood|木材]]或[[block|方块]]，必须由启用了[[bowyer|制弩]][[labor|劳动]]的[[dwarf|矮人]]建造。
+
+==任务==
+*制作[[bone|骨制]][[crossbow|弩]]
+*制作[[wood|木制]][[crossbow|弩]]
+
+==常见用途==
+*装备[[archer|射手]]、[[military|军事]][[squad|小队]]或[[hunter|猎人]]。
+
+==备注==
+*如果你的要塞主要种族为{{token|PROFESSION_NAME|c|BOWYER}}标记提供了自定义值，此作坊的名称将会改变。
+*使用[[crossbow|弩]]还需要[[bolt|弩箭]]（在[[craftsdwarf's workshop|工匠作坊]]或[[forge|锻造坊]]制作）和[[quiver|箭袋]]（在[[leather works|皮革坊]]制作）。
+
+==另见==
+* [[Weapon|武器]]
+* [[Craftsdwarf's workshop|工匠作坊]]用于制作弩箭
+
+{{Workshops}}

@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|product=custard_apple_sprite.png
-|sapling=custard_apple_sapling.png
-|wiki=annona cherimola}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=custard_apple_sprite.png|sapling=custard_apple_sapling.png|wiki=annona cherimola}}
 {{av}}
 
 '''Custard-apple（番荔枝）'''是在地面上发现的众多[[tree|树木]]属之一。与绝大多数地面树木一样，番荔枝[[wood|木材]]是棕色的，并产出棕色产品。

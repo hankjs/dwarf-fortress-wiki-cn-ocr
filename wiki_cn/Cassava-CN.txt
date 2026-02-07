@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=cassava_shrub_sprite.png
-|seedimage=cassava_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=cassava_shrub_sprite.png|seedimage=cassava_seeds_sprite.png|uses=
 *[[Alcohol|酒精]]
-*[[Food|食物]]
-}}
+*[[Food|食物]]}}
 {{av}}
 
 '''木薯'''是一种[[aboveground|地上]][[crop|园圃植物]]。它们可以在所有季节种植，只有植物在[[cooking|烹饪]]后才可食用，也可以[[brewing|酿造]]成[[alcohol|木薯啤酒]]。

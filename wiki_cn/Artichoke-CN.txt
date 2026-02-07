@@ -1,11 +1,7 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=artichoke_shrub_sprite.png
-|seedimage=artichoke_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=artichoke_shrub_sprite.png|seedimage=artichoke_seeds_sprite.png|uses=
 * [[Food]]
-* [[Alcohol]]
-}}
+* [[Alcohol]]}}
 {{av}}
 
 '''朝鲜蓟'''是一种[[aboveground|地上]][[crop|园艺蔬菜]]。它们可以在所有季节种植，会开出紫色的花、叶子和朝鲜蓟心。朝鲜蓟心可以生吃或[[cooking|烹饪]]，也可以[[brewing|酿造]]成[[alcohol|朝鲜蓟酒]]。[[Seed|种子]]只能通过酿造获得，而不能通过生吃朝鲜蓟心获得。

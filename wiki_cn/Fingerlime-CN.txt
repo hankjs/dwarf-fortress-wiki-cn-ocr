@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=finger_lime_sprite.png|sapling=finger_lime_sapling.png}}
+{{av}}
+
+'''指橙'''是地上发现的众多[[tree|树木]]属之一。像绝大多数地上树木一样,指橙[[wood|木材]]是棕色的,并生产棕色产品。
+
+指橙树会结出[[fruit|指橙果实]]。指橙果实不能酿造,但可以食用或烹饪。由于它们无法酿造,除非你非常迫切需要食物,否则这些树最好用作[[bed|床]]、[[cage|笼子]]和[[block|方块木材]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]指橙树的''果实''。
+
+[[File:Citrus australasica green fruit1.JPG|thumb|center|300px|因其''果实''而受赞赏。]]
+
+{{Translation| dwarven = ók rômab | elvish = elera quidole | goblin = zugstrux xar | human = diso vuli}}
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

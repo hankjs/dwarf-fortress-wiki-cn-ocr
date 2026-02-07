@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=chicory_shrub_sprite.png
-|seedimage=chicory_seeds_sprite.png
-|uses=
-*[[Food]]
-}}
+{{plantlookup|graphic=chicory_shrub_sprite.png|seedimage=chicory_seeds_sprite.png|uses=
+*[[Food]]}}
 {{av}}
 
 '''菊苣'''是一种[[aboveground|地上]][[crop|园艺植物]]。它可以在所有季节种植，可以生吃或[[cooking|烹饪]]。

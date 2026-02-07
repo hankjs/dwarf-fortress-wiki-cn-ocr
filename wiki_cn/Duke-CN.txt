@@ -1,24 +1,10 @@
 {{Quality|Fine}}
-{{Noble
-| noble=Duke
-| quarters=Grand Bedroom
-| dining=Grand Dining Room
-| office=Opulent Throne Room
-| tomb=Grand Mausoleum
-| chests=5
-| cabinets=3
-| racks=3
-| stands=3
-| mandates=3
-| demands=5
-| arrival=
+{{Noble| noble=Duke| quarters=Grand Bedroom| dining=Grand Dining Room| office=Opulent Throne Room| tomb=Grand Mausoleum| chests=5| cabinets=3| racks=3| stands=3| mandates=3| demands=5| arrival=
 * 20 Population
 * 300 000☼ Produced [[wealth]]
-* 30 000☼ Exported [[wealth]]
-| function=
+* 30 000☼ Exported [[wealth]]| function=
 * Promote [[fortress]] to Duchy capital
-* Appoints a [[Champion]]
-}}{{av}}
+* Appoints a [[Champion]]}}{{av}}
 '''Duke'''（公爵）（或Duchess女公爵）是[[Count|伯爵]]的下一个晋升阶段。在满足某些要求并与[[liaison|联络官]]会面后，你的伯爵领将成为公爵领；一旦联络官离开地图，你的[[Count|伯爵]]将被晋升。与升级为伯爵领一样，这是自动的，无法拒绝。
 
 {{D for Dwarf}}

@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=fox_couple_sprites.png|portrait=fox_portrait_anim.gif|bone=4|meat=6|fat=6|intestine=1|skin=hide|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''狐狸'''是经常在[[temperate|温带]][[forest|森林]]中游荡的小型食肉动物。它们是独居动物,一次只出现一只。虽然是肉食性的,但它们也很温和,通常会避免对抗,由于体型只比[[cat|猫]]稍大一点,因此相当没有威胁性。拥有[[battle axe|战斧]]或[[pick|镐]]的伐木工或[[miner|矿工]]可以轻松解决一只狐狸,但非军事矮人可能会取消工作并逃跑。新生的狐狸被称为''幼崽''。
+
+野生狐狸可以被[[animal trainer|驯兽师]]训练并作为低价值[[pet|宠物]]饲养,尽管它们不能进一步训练成战斗或狩猎野兽。狐狸可以被[[butcher|屠宰]]获得一些肉,但通常有更好的生物可以养殖用于[[meat industry|肉类产业]]。虽然狐狸皮毛在现实生活中具有显著价值,但在''矮人要塞''中,狐狸皮革与大多数其他动物皮革具有相同的默认价值。
+
+一些矮人因其''狡猾''而[[Preferences|喜欢]]狐狸。
+
+[[Image:Rød ræv (Vulpes vulpes).jpg|thumb|center|400px|因其''狡猾''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

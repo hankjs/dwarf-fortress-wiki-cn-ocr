@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=cashew_trunk_sprite.png
-|product=cashew_sprite.png
-|sapling=cashew_sapling.png}}
+{{Treelookup/0|graphic=cashew_trunk_sprite.png|product=cashew_sprite.png|sapling=cashew_sapling.png}}
 {{av}}
 
 '''腰果树'''是地面上发现的众多树属之一。像绝大多数地面树木一样，腰果[[wood|木材]]是棕色的，生产棕色产品。

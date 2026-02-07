@@ -1,23 +1,10 @@
 {{Quality|Exceptional}}
 {{av}}
-{{V50_item
-|graphic=[[File:Animal_Trap_Premium.png]]
-|name  = Animal trap
-|tile  = ⌂
-|col   = 6:0:0
-|wood  = yes
-|metal = yes
-|bars  = 1
-|labors=<span></span>
+{{V50_item|graphic=[[File:Animal_Trap_Premium.png]]|name  = Animal trap|tile  = ⌂|col   = 6:0:0|wood  = yes|metal = yes|bars  = 1|labors=<span></span>
 * [[Trapping]]<br /><br />
-* [[Trapping]]
-|used for=
+* [[Trapping]]|used for=
 * Capture a live [[Vermin|land animal]]
-* Storing small animals
-|value=10
-|size=3,000
-|capacity=30,000
-}}
+* Storing small animals|value=10|size=3,000|capacity=30,000}}
 <!-- needs more infobox info -->
 [[File:TrappedRat 4448.jpg|thumb|220px|困得像只老- 嗯... 是的...]]'''动物陷阱'''是用于捕捉活[[vermin|害虫]]的[[furniture|家具]]。它们在[[carpenter's workshop|木匠工坊]]用1个原木制作，或在[[metalsmith's forge|金属工匠熔炉]]（在家具菜单中）用1个金属条制作，由启用了[[trapping|捕猎]]劳动的矮人制作。动物陷阱可以由[[wood|木头]]或[[metal|金属]]制成。动物陷阱与其他[[trap|陷阱]]无关。要捕获[[creature|生物]]大小的动物，需要[[cage|笼子]]。
 
@@ -42,29 +29,11 @@
 有诱饵的动物陷阱可能会被抢劫，陷阱将需要捕猎者重新下饵。[[item quality|物品质量]]会影响捕获害虫的成功几率。相比之下，普通陷阱有50%的失败几率，而大师级陷阱永远不会失败。
 
 {| class="wikitable"
-! 质量 !! 成功几率
-|-
-| （无） || 50%
-|-
-| -精心制作- || 65%
-|-
-| +精细制作+ || 75%
-|-
-| *优质* || 85%
-|-
-| ≡卓越≡ || 95%
-|-
-| ☼大师级☼ || 100%
-|}
+! 质量 !! 成功几率|-| （无） || 50%|-| -精心制作- || 65%|-| +精细制作+ || 75%|-| *优质* || 85%|-| ≡卓越≡ || 95%|-| ☼大师级☼ || 100%|}
 
 ==另见==
 * [[Terrarium|生态缸]]和水族馆 – 用于展示害虫。水族馆是储存水生害虫所必需的，否则它们会死亡。
 
-{{Translation
-| dwarven = emär ïggal
-| elvish  = fela abola
-| goblin  = slulasp stoslo
-| human   = dik losric
-}}
+{{Translation| dwarven = emär ïggal| elvish  = fela abola| goblin  = slulasp stoslo| human   = dik losric}}
 
 {{buildings}}

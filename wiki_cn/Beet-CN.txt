@@ -1,0 +1,17 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=beet_shrub_sprite.png|seedimage=beet_seeds_sprite.png|uses=
+* [[Food|食物]]
+* [[Alcohol|酒精]]}}
+{{av}}
+
+'''甜菜'''是一种[[aboveground|地面]][[crop|菜园蔬菜]]。它们可以在所有季节种植，可以生吃或[[cooking|烹饪]]食用，也可以[[brewing|酿造]]成[[alcohol|甜菜根酒]]。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]甜菜植物的''可食用根''。
+
+
+[[File:Detroitdarkredbeets.png|thumb|center|300px|Admired for its ''edible roots''.]]
+
+{{D for Dwarf}}一个[[human|人类]][[doctor|医生]]以销售广受追捧的甜菜闻名。大多数矮人不理解Dre医生对甜菜的需求。
+
+{{gamedata}}
+{{Plants}}

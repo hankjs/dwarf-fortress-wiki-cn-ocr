@@ -1,16 +1,7 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Dyer
-| profession = [[Farmer|农民]]
-| job name   = [[Dyeing|染色]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Dyer| profession = [[Farmer|农民]]| job name   = [[Dyeing|染色]]| tasks      =
 * 染色[[cloth|布料]]
-* 染色[[thread|线]]
-| workshop   = [[Dyer's shop|染坊]]
-| attributes =
+* 染色[[thread|线]]| workshop   = [[Dyer's shop|染坊]]| attributes =
 * Strength
 * Agility
 * Endurance

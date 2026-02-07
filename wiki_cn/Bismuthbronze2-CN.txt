@@ -1,24 +1,15 @@
 {{Quality|Superior}}
-{{Alloy3|name=Bismuth bronze
-|sample=
-[[File:BismuthBronzeSample.png|center|frameless]]
-|graphic=bismuth_bronze_bar_sprite.png
-|color=6:6:1
-|color1=7:3:0
-|color2=6:4:0
-|color3=5:5:1
-|recipe=
+{{Alloy3|name=Bismuth bronze|sample=
+[[File:BismuthBronzeSample.png|center|frameless]]|graphic=bismuth_bronze_bar_sprite.png|color=6:6:1|color1=7:3:0|color2=6:4:0|color3=5:5:1|recipe=
 * 1 [[Tin|锡]]
 * 2 [[Copper|铜]]
-* 1 [[Bismuth|铋]]
-|uses=
+* 1 [[Bismuth|铋]]|uses=
 * [[weapon|近战武器]]
 * [[Crossbow|弩]]
 * [[Bolt|弩箭]]
 * [[Pick|镐]]
 * [[Armor|盔甲]]
-* [[Metalsmith's forge|金属制品]]
-|properties=
+* [[Metalsmith's forge|金属制品]]|properties=
 * [[Material value|材料价值]] 6☼
 * [[Material science|冲击强度]] 843.5 MPa
 * [[Material science|剪切强度]] 241 MPa
@@ -29,8 +20,7 @@
 * [[Solid density|固体密度]] 8250 kg/m³
 * 液体[[density|密度]] 8020 kg/m³
 * [[Specific heat|比热容]] 435 J/kg·K
-* [[Color|颜色]] 棕褐色
-}}{{av}}
+* [[Color|颜色]] 棕褐色}}{{av}}
 
 '''铋青铜'''是[[copper|铜]]、[[tin|锡]]和[[bismuth|铋]]的合金，与普通[[bronze|青铜]]具有完全相同的[[weapon|武器]]和[[armor|盔甲]]属性。然而，它的价值略高（×6 vs ×5）于普通青铜。
 

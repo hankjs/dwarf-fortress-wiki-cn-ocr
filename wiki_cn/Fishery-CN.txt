@@ -1,0 +1,33 @@
+
+{{Quality|Fine}}
+{{v50 workshop|name=Fishery|key=f|key2=y|job=[[Fish cleaner|清理鱼]]|icon=[[File:fishery_icon.png]]|construction=
+* [[Building material|建筑材料]](非[[economic|经济]])|construction_job=
+1 of
+* [[Fishing|钓鱼]]
+* [[Fish cleaner|清理鱼]]|use=
+* 生[[fish|鱼]]|production=
+* [[Meat|鱼肉]]
+* [[Shell|贝壳]]
+* [[Captured live fish|捕获的活鱼]]}}{{av}}
+
+'''渔场'''[[workshop|工坊]]处理生[[fish|鱼]]的准备工作。这个过程会产出准备好的鱼、[[turtle|龟]]和[[cave lobster|洞穴龙虾]],对于龟、牡蛎和其他有壳动物,还会额外提供[[shell|贝壳]]。它还允许使用[[animal trap|动物陷阱]]捕获活的害虫鱼,以收集[[extract|提取物]]。
+
+==菜单==
+'''渔场'''
+
+*处理一条生鱼
+*从生鱼中提取
+*捕获一条活鱼
+
+==捕获活鱼任务==
+'''捕获活鱼'''任务需要一名启用了钓鱼劳动的矮人和一个活跃的[[Zone#Fishing|钓鱼区]]。但当一名矮人启用了钓鱼并且有一个有鱼的活跃钓鱼区时,他们可能更喜欢去钓鱼,只是偶尔被分配到活鱼任务。要强制执行捕获活鱼任务,制作一个内陆钓鱼区,从[[Standing_orders#Other|指定区域]]设置仅限钓鱼,并停用或删除所有其他钓鱼区。一旦任务被分配,在你想让渔夫捕获活鱼的水域旁激活一个钓鱼区。
+
+==注意事项==
+*准备任务默认是自动化的,可以通过{{key|y}}劳动、[[Standing orders|常规命令]]、自动化工坊、自动清理鱼/不自动清理鱼来更改此程序
+* 当水源结冰时使用捕获活鱼任务会导致渔夫(或任何"自愿"帮助可怜的、可怜的农民来帮助社区的[[Noble|贵族]])整个季节在外面拿着陷阱。
+* 没有可用的动物陷阱时,捕获活鱼任务会停止自动化的鱼类准备工作。
+
+
+[[File:fishery_preview.jpg|thumb|300px|center|古代的渔场绘图。]]
+{{Workshops}}
+{{Category|Farming Workshops}}

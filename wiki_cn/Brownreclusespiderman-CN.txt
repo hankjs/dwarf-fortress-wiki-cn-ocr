@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=brown_recluse_spider_man_sprite.png
-|portrait=brown_recluse_spider_man_portrait.png}}
+{{Creaturelookup/0|image=brown_recluse_spider_man_sprite.png|portrait=brown_recluse_spider_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''褐遁蛛人'''是普通[[brown recluse spider|褐遁蛛]]的人形版本，也是[[animal people|动物人]]的一个物种，出现在[[savage|野蛮]]的[[temperate|温带]]阔叶[[forest|森林]]中。它们的体型略超过成年[[dwarf|矮人]]的一半，以1-3个个体为一组出现。它们的存在以散布在地表的[[web|蛛网]]为标志，但这些生物本身并不常见。

@@ -1,10 +1,5 @@
 {{D for Dwarf}}
-{{Translation
-| english = Pelt Apebalded, the Immortal Onslaught
-| dwarven = Rodem Izegroder Kudarmothdast
-| goblin  = Uxo Ozsebor Ostsnotutu
-| human   = Therset Tunemrostfen Athrigencesh
-}}
+{{Translation| english = Pelt Apebalded, the Immortal Onslaught| dwarven = Rodem Izegroder Kudarmothdast| goblin  = Uxo Ozsebor Ostsnotutu| human   = Therset Tunemrostfen Athrigencesh}}
 [[File:Cacame Fault elfking.jpg|200px|thumb|right|"光荣的精灵国王" by Fault]]
 矮人的[[Elf|精灵]]国王，'''Cacame Awemedinade Monípalóthi'''（[[wikipedia:english|英语]]：''Cacame Apebalded, the Immortal Onslaught''，卡卡米·秃顶猿，不朽突袭者）是世界上<s>最</s>唯一的强悍精灵。
 

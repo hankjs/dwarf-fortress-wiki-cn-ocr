@@ -1,0 +1,19 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=fly_sprite.png|portrait=fly_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''苍蝇'''(Flies)是一种[[vermin|可憎的]][[above ground|地上]][[vermin]],成群出现在[[pool|水池]]附近、有未采摘的[[decay|腐烂]][[food|食物]]的农场和食物[[stockpile|储存区]]。由于[[cat|猫]]无法杀死苍蝇,对抗它们的最佳方法是确保食物不要在容器外放置太久。此外,确保你有足够的[[barrel|木桶]]和[[large pot|大罐]]来储存食物,并有人准备好在食物成熟后从[[farm|农场]]采摘。如果容器外没有食物,苍蝇就会离开。
+
+苍蝇有一个可疑的荣誉:它们是唯一能引起两种不同负面[[thought|想法]]的害虫:"被苍蝇烦扰",影响一般民众,以及"被可怕的害虫骚扰",影响对苍蝇有特定[[Preferences|偏好|反感]]的个别[[dwarf|矮人]]。所有苍蝇在[[climber|攀爬]]方面都拥有传奇[[skill|技能]]。
+
+奇怪的是,一些矮人喜欢苍蝇,因为它们''具有烦人的能力''。
+
+{{Translation| dwarven = fenglel| elvish  = yetine| goblin  = atu| human   = ngáthi}}
+[[File:Vermin-Fly.jpg|thumb|center|288px|Admired for its ''ability to annoy''.]]
+==画廊==
+<gallery widths="90px">
+fly_swarm_sprites.png|Swarm of flies sprite.
+</gallery>
+{{gamedata}}
+{{vermin}}

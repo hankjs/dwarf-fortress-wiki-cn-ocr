@@ -1,0 +1,24 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|image=firefly_man_sprite.png|portrait=firefly_man_portrait.png|contrib=no}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''萤火虫人'''是普通[[firefly|萤火虫]]的[[animal people|动物人]]变体，可以栖息在大多数[[savage|野蛮]][[biome|生物群系]]中。他们以2-5个个体的群体出现，通常满足于保持独立，但如果被激怒可能会挑起战斗。在体型方面，他们的体重略超过普通[[dwarf|矮人]]的一半。所有萤火虫人天生具有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮动物人一样，萤火虫人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并可在[[adventurer mode|冒险模式]]中游玩。
+
+一些矮人因萤火虫人的''迷人光芒''而[[Preferences|喜欢]]他们。
+
+[[File:firefly_man.png|thumb|237px|center|谁需要手电筒？]]
+
+{{D for Dwarf}}
+
+与一些错误引用的名言相反，他们并不喜欢被称为船长，而且由于他们的躯干很弱，他们不惜一切代价避免穿紧身裤。
+
+{{Translation| dwarven = ziril-fenglel udos | elvish = inira-yetine onino | goblin = zedan-atu ngorûg | human = usmok-ngáthi abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

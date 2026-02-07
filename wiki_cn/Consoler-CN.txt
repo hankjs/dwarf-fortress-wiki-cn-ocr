@@ -1,0 +1,11 @@
+
+{{Quality|Tattered}}
+{{av}}
+
+'''安慰者'''是矮人在交谈时使用的[[social skill|社交技能]]。特别擅长这一点的矮人往往很容易交朋友,并经常上升到[[mayor|市长]]职位。
+
+要训练这项技能,让矮人闲置并相互聊天。[[personality facet#DISCORD|混乱]]的矮人、[[personality facet#CRUELTY|残忍]]的矮人、[[personality value#STOICISM|坚忍]]的矮人和[[personality facet#SWAYED_BY_EMOTIONS|不受情绪影响]]的矮人永远不会获得这项技能的[[experience|经验]]。
+
+当不快乐的矮人与[[mayor|市长]]会面时,安慰者技能可能很重要。{{verify}}
+
+{{skills}}

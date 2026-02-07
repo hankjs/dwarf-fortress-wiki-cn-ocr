@@ -1,0 +1,142 @@
+{{Quality|Exceptional}}
+{{av}}
+[[File:poultry_sprites_preview.png|right]]'''蛋生产'''，像[[meat industry|肉类产业]]、[[beekeeping industry|养蜂业]]、[[fishing industry|渔业]]和[[farming|农业]]一样，创造[[food|食物]]。在蛋生产中，收集和烹饪[[egg|蛋]]是主要活动，因为随着时间的推移，家禽如[[chicken|鸡]]可以产生比屠宰时同一动物产生的肉多得多的食物（1个蛋 = 1份肉 = 1餐）。当开始一个新堡垒时，饲养家禽可以是一种极好的方式来快速填满你的食物[[barrel|桶]]，因为它对你的矮人来说只需要很少的准备工作。作为蛋生产的副产品，老年或多余的动物可以作为[[meat industry|肉类产业]]的一部分被屠宰。
+
+== 获取产蛋动物 ==
+有几种获取产蛋[[animal|动物]]的来源，如下所述。
+
+===出征===
+你可以在[[embark|出征]]时购买[[Domestic_animal#Comparison_of_domestic_poultry|家禽]]，甚至可以决定每种动物带多少雄性和雌性。由于你不需要雄性来产蛋，只需要一只雄性来繁殖，你可以带三到四只母鸡和一只公鸡出征。家禽动物在出征时购买非常经济，每只只需6[[currency|☼]]。
+
+在家禽中，[[turkey|火鸡]]平均每窝产蛋最多，其次是[[duck|鸭]]，然后是[[chicken|鸡]]和[[guineafowl|珍珠鸡]]。火鸡也是最大的家禽动物，如果作为肉类产业的一部分被屠宰，会产生最多的肉和其他产品，[[goose|鹅]]和[[blue peafowl|蓝孔雀]]只略小一些。所有家禽在孵化后一年成年，但鹅、蓝孔雀和珍珠鸡在一年时长到完全大小；其他家禽只有在两年后才达到完全大小。
+
+===移民===
+家禽可能会随着一波[[migrant|移民]]到达你的堡垒。这些动物可能是流浪动物或[[pet|宠物]]。
+
+===交易===
+''需要：一个[[trade depot|贸易站]]、一个[[Broker|经纪人]]、一个[[merchant|商人]]和一些可交易的货物''
+
+你可以从[[caravan|商队]]购买产蛋动物。虽然[[human|人类]]和矮人商人通常会带来标准家禽，[[elf|精灵]]商人可能会带来驯服的奇异产蛋动物，这可能对[[alligator|价值]]或[[giant eagle|防御]]目的很有用。
+
+===笼子陷阱===
+''需要：[[Cage|笼子]]、[[mechanism|机械]]、一个[[mechanic|机械师]]、动物训练[[zone|区域]]和一个[[animal trainer|动物训练师]]''
+
+也可以通过明智地使用[[cage trap|笼子陷阱]]来捕获产蛋动物。当然，这涉及在这些动物将要行走或飞行的地方建造笼子陷阱。一旦它们被困住，被笼子困住的动物（或[[invader|入侵者]]）将被送到动物储物堆，陷阱将用一个新笼子重新设置。
+
+笼子陷阱应该建在动物''将''行走的地方，而不是当你决定捕获它们时它们所在的地方。任何被派出去在动物中间创建和武装陷阱的矮人都会把它们吓跑，或触发它们的攻击性。要成功捕获大型动物，在离它们一定距离的地方形成一个瓶颈：建造墙壁，可能有几个z层高，以创建一个持续的移动障碍。
+
+留下一个一到两格宽的小缺口（取决于你想捕获多少只生物），并在那里建造你的笼子陷阱。如果到你完成时动物还没有移开或被吓跑，并且它们足够温顺，一旦看到你的矮人就不会攻击，使用军事命令派遣一个矮人（或几个）绕到动物后面，将它们赶向瓶颈。
+
+还要注意笼子陷阱不能建在地图边缘一定格数内，所以在规划你的漏斗和瓶颈时，确保留出四到五格作为缓冲区。
+
+什么野生产蛋动物可用很大程度上取决于[[biome|生物群系]]。一般来说，大多数地图都有某种飞鸟，但它们往往呆在空中，笼子陷阱无法抓到它们。几种地下生物是产蛋的，因此在每张地图上都可用，如[[crundle|克伦德尔]]、[[elk bird|麋鸟]]或稀有且危险的[[jabberer|喋喋不休者]]。
+
+在笼子陷阱中捕获的产蛋动物需要在动物训练[[zone|区域]]由[[animal trainer|动物训练师]]驯服，然后才能安全用于产蛋。请注意，你不限于标准家禽；一些最[[cave crocodile|有利可图和多产]]的产蛋动物是爬行动物。
+
+===繁殖===
+''需要：每个物种的一只或多只成年雌性和一只成年雄性、一个或多个[[nest box|巢箱]]，以及时间''
+
+如果一个[[breeding|兼容]]的雄性和同一物种的雌性彼此相邻，并且有一个开放的已建造[[nest box|巢箱]]供雌性占据并在其中产下一窝蛋，那么迟早（可能更早）雄性会"使"雌性怀孕，这将使其能够产下受精的蛋。雌性可以在上一窝孵化后立即再次产下一窝蛋。无法占据巢箱的雌性''不会''产下一窝蛋。
+
+受精的窝只有在它们留在巢箱中不受干扰时才会孵化。收集蛋或解构巢箱将防止蛋孵化。用于繁殖的一窝蛋应该在仍在巢箱中时被[[forbidden|禁止]]，以防止它们被收集。或者，你可以把巢箱放在[[door|门]]后面的房间里，并锁上门以防止你的矮人靠近蛋。为了保险起见，你可以设置不允许任何[[stockpile|储物堆]]接受该类型的蛋，并在[[labor|劳动]]菜单的厨房标签中禁止[[cooking|烹饪]]该类型的蛋。即使蛋留在不受干扰的地方，那窝蛋也可能没有受精。两个季节后不孵化的蛋可能永远不会孵化，需要收集蛋以允许雌性产下另一窝（希望是受精的）蛋，否则雌性将继续无限期地孵化未受精的窝。
+
+由于大量自由漫游的动物会降低你的游戏速度，一个常见的策略是将所有年轻家禽笼养直到它们成熟。但请记住，一些驯服的野生物种需要一年以上才能成熟，不像大多数家养动物。例如，立即屠宰[[saltwater crocodile|咸水鳄]]幼体可能是可以原谅的，而不是等待3年让它成熟并产生更多的肉和骨头。
+
+明智地使用[[cage trap|笼子陷阱]]（或利用[[elf|精灵]]交易的动物）有时可以为你抓到一对野生动物。驯服一些不寻常的东西并开始一些疯狂的事情，比如[[cave crocodile|洞穴鳄鱼]]农场！
+
+===捕获===
+通过使用远征，玩家可以捕获其他方式无法获得的动物。例如，[[raid|袭击]][[goblin|地精]]定居点可能会产生[[beak dog|喙犬]]，奇怪的是，它们会产蛋。
+
+==蛋收集==
+''需要：一只驯服的成年雌性产蛋动物、一个[[nest box|巢箱]]和[[food hauling|食物搬运]]''
+
+一旦你有至少一只驯服的成年雌性产蛋动物，你需要建造一个[[nest box|巢箱]]以开始生产美味和营养的[[egg|蛋]]。每隔一段时间，成年雌性会占据一个巢箱并产下一窝蛋。然后，一个[[food hauling|食物搬运工]]会收集蛋并将它们移动到食物[[stockpile|储物堆]]。食物搬运是一种非技能劳动，所以堡垒中的任何矮人都可以做。蛋收集是使用那些否则只是在堡垒周围移动巨石的[[peasant|农民]]的好方法。
+这是一个针对养蛋业的小指南，我希望这有助于并使其易于理解蛋产业...同样，蛋产业可以随时通过耐心实施到肉类/皮革/骨头产业。
+这是指南：https://steamcommunity.com/sharedfiles/filedetails/?id=2975716340
+
+蛋必须在[[kitchen|厨房]][[cook|烹饪]]成[[prepared meal|预制餐]]，然后才能被矮人食用。
+
+==产蛋动物==
+{{catbox|Egglaying}}
+{| border="1px #AAA solid;" style="text-align:center;" class="wikitable sortable"|+style="border:1px #AAA solid;background:#EEE;"| '''户外动物'''|-
+!style="border:1px #AAA solid;background:#DDD;"| 动物
+!style="border:1px #AAA solid;background:#DDD;"| 图像
+!style="border:1px #AAA solid;background:#DDD;"| 体型（最大）
+!style="border:1px #AAA solid;background:#DDD;"| 成熟时间（年）
+!style="border:1px #AAA solid;background:#DDD;"| 最大年龄（年）
+!style="border:1px #AAA solid;background:#DDD;"| 蛋数量
+!style="border:1px #AAA solid;background:#DDD;"| 蛋大小**
+!style="border:1px #AAA solid;background:#DDD;"| 备注|-|[[Adder|蝰蛇]]|[[File:adder_sprite.png]]|150|0*|15-20|3-10|16||-|[[Albatross|信天翁]]|[[File:albatross_sprite.png]]|8,000|1|40-50|1|305||-|[[Alligator|短吻鳄]]|[[File:alligator_sprite.png]]|400,000|1|60-100|10-30|80||-|[[Alligator snapping turtle|鳄龟]]|[[File:alligator_snapping_turtle_sprite.png]]|80,000|0*|30-70|5-10|70||-|[[Barn owl|仓鸮]]|[[File:barn_owl_sprite.png]]|500|1|10-20|3-6|32||-|[[Beak dog|喙犬]]|[[File:beak_dog_sprite.png]]|150,000|1|10-20|5-10|1600|在[[goblin|地精]]文明中是家畜。<br>直到[[Release information/0.44.07|v0.44.07]]才可驯服。|-|[[Black mamba|黑曼巴]]|[[File:black_mamba_sprite.png]]|5,000|0*|10-15|10-30|50||-|[[Blue peafowl|蓝孔雀]]|[[File:peafowls_sprite_anim.gif]]|4,000|1|15-30|6-8|102|[[Domestic animal|家畜]]|-|[[Bushmaster|丛林响尾蛇]]|[[File:bushmaster_sprite.png]]|8,500|0*|12-24|10-20|22||-|[[Buzzard|秃鹫]]|[[File:buzzard_sprite.png]]|1,400|1|10-20|2-3|60||-|[[Cassowary|鹤鸵]]|[[File:cassowary_sprite.png]]|50,000|1|40-50|3-6|550||-|[[Chicken|鸡]]|[[File:chickens_sprite_anim.gif]]|3,000|1|7-15|4-15|62|[[Domestic animal|家畜]]|-|[[Common snapping turtle|普通鳄龟]]|[[File:snapping_turtle_sprite.png]]|30,000|0*|30-50|5-10|50||-|[[Desert tortoise|沙漠陆龟]]|[[File:desert_tortoise_sprite.png]]|5,500|1|80-100|3-5|40||-|[[Duck|鸭]]|[[File:ducks_sprite_anim.gif]]|1,000|1|7-9|8-13|52|[[Domestic animal|家畜]]|-|[[Eagle|鹰]]|[[File:eagle_sprite.png]]|4,000|1|20-30|1-3|142||-|[[Echidna|针鼹]]|[[File:echidna_sprite.png]]|10,000|1|10-20|1|1||-|[[Emperor penguin|帝企鹅]]|[[File:emperor_penguin_sprite.png]]|30,000|1|20-50|1|465|不可驯服|-|[[Emu|鸸鹋]]|[[File:emu_sprite.png]]|35,000|1|15-25|5-15|805||-|[[Giant adder|巨型蝰蛇]]|[[File:giant_adder_sprite.png]]|201,049|0*|15-20|3-10|16||-|[[Giant albatross|巨型信天翁]]|[[File:giant_albatross_sprite.png]]|256,320|1|40-50|1|305||-|[[Giant alligator|巨型短吻鳄]]|[[File:giant_alligator_sprite.png]]|3,268,000|1|60-100|10-30|80||-|[[Giant anole|巨型变色蜥]]|[[File:giant_anole_sprite.png]]|200,629|0*|5-7|1-2|10||-|[[Giant barn owl|巨型仓鸮]]|[[File:giant_barn_owl_sprite.png]]|203,500|1|10-20|3-6|32||-|[[Giant black mamba|巨型黑曼巴]]|[[File:giant_black_mamba_sprite.png]]|235,100|0*|10-15|10-30|50||-|[[Giant bluejay|巨型蓝松鸦]]|[[File:giant_bluejay_sprite.png]]|200,700|1|10-20|2-7|11||-|[[Giant bushmaster|巨型丛林响尾蛇]]|[[File:giant_bushmaster_sprite.png]]|259,845|0*|12-24|10-20|22||-|[[Giant bushtit|巨型丛山雀]]|[[File:giant_bushtit_sprite.png]]|200,035|1|1-2|5-13|1||-|[[Giant buzzard|巨型秃鹫]]|[[File:giant_buzzard_sprite.png]]|209,804|1|10-20|2-3|60||-|[[Giant cardinal|巨型红雀]]|[[File:giant_cardinal_sprite.png]]|200,350|1|10-20|2-5|9||-|[[Giant cassowary|巨型鹤鸵]]|[[File:giant_cassowary_sprite.png]]|560,000|1|40-50|3-6|550||-|[[Giant chameleon|巨型变色龙]]|[[File:giant_chameleon_sprite.png]]|201,049|0*|5-10|40-50|10||-|[[Giant cockatiel|巨型玄凤鹦鹉]]|[[File:giant_cockatiel_sprite.png]]|200,629|1|15-30|2-8|11||-|[[Giant crow|巨型乌鸦]]|[[File:giant_crow_sprite.png]]|203,500|1|10-15|4-6|21||-|[[Giant desert tortoise|巨型沙漠陆龟]]|[[File:giant_desert_tortoise_sprite.png]]|238,645|1|80-100|3-5|40||-|[[Giant eagle|巨鹰]]|[[File:giant_eagle_sprite.png]]|228,040|1|20-30|1-3|142||-|[[Giant echidna|巨型针鼹]]|[[File:giant_echidna_sprite.png]]|270,500|1|10-20|1|1||-|[[Giant emu|巨型鸸鹋]]|[[File:giant_emu_sprite.png]]|450,100|1|15-25|5-15|805||-|[[Giant gila monster|巨型毒蜥]]|[[File:giant_gila_monster_sprite.png]]|214,020|1|20-30|2-12|32||-|[[Giant grackle|巨型白头翁]]|[[File:giant_grackle_sprite.png]]|200,840|1|10-20|1-7|12||-|[[Giant great horned owl|巨型大角鸮]]|[[File:giant_great_horned_owl_sprite.png]]|214,020|1|15-20|1-5|51||-|[[Giant grey parrot|巨型灰鹦鹉]]|[[File:giant_grey_parrot_sprite.png]]|202,800|1|40-60|1-5|40||-|[[Giant hornbill|巨型犀鸟]]|[[File:giant_hornbill_sprite.png]]|217,525|1|35-40|1-4|50||-|[[Giant iguana|巨型鬣蜥]]|[[File:giant_iguana_sprite.png]]|228,040|1|10-20|40-50|15||-|[[Giant kakapo|巨型鸮鹦鹉]]|[[File:giant_kakapo_sprite.png]]|221,040|7|60-120|1-4|52||-|[[Giant kea|巨型啄羊鹦鹉]]|[[File:giant_kea_sprite.png]]|207,010|1|30-50|2-5|62||-|[[Giant kestrel|巨型隼]]|[[File:giant_kestrel_sprite.png]]|201,750|1|10-20|3-6|32||-|[[Giant king cobra|巨型眼镜王蛇]]|[[File:giant_king_cobra_sprite.png]]|242,160|0*|15-25|10-30|5||-|[[Giant kingsnake|巨型王蛇]]|[[File:giant_kingsnake_sprite.png]]|210,510|0*|20-30|5-12|20||-|[[Giant kiwi|巨型几维鸟]]|[[File:giant_kiwi_sprite.png]]|217,525|1|20-50|1-2|450||-|[[Giant loon|巨型潜鸟]]|[[File:giant_loon_sprite.png]]|242,160|1|25-30|2-4|152||-|[[Giant lorikeet|巨型吸蜜鹦鹉]]|[[File:giant_lorikeet_sprite.png]]|201,400|1|15-30|2|11||-|[[Giant magpie|巨型喜鹊]]|[[File:giant_magpie_sprite.png]]|201,400|1|10-20|2-5|11||-|[[Giant masked lovebird|巨型黑脸情侣鹦鹉]]|[[File:giant_masked_lovebird_sprite.png]]|200,629|1|10-15|4-5|7||-|[[Giant monitor lizard|巨型巨蜥]]|[[File:giant_monitor_lizard_sprite.png]]|933,000|1|20-30|15-25|70||-|[[Giant oriole|巨型黄鹂]]|[[File:giant_oriole_sprite.png]]|200,280|1|10-20|3-7|8||-|[[Giant osprey|巨型鱼鹰]]|[[File:giant_osprey_sprite.png]]|214,020|1|20-30|2-4|60||-|[[Giant ostrich|巨型鸵鸟]]|[[File:giant_ostrich_sprite.png]]|857,700|1|35-45|10-15|2000||-|[[Giant parakeet|巨型长尾小鹦鹉]]|[[File:giant_parakeet_sprite.png]]|200,840|1|15-25|2-4|11||-|[[Giant peach-faced lovebird|巨型桃面情侣鹦鹉]]|[[File:giant_peach_faced_lovebird_sprite.png]]|200,419|1|10-15|4-6|9||-|[[Giant peregrine falcon|巨型游隼]]|[[File:giant_peregrine_falcon_sprite.png]]|113,292|1|12-15|3-4|46||-|[[Giant platypus|巨型鸭嘴兽]]|[[File:giant_platypus_sprite.png]]|214,020|1|10-20|1-3|11||-|[[Giant pond turtle|巨型池龟]]|[[File:giant_pond_turtle_sprite.png]]|203,500|0*|40-100|1-15|6||-|[[Giant puffin|巨型海雀]]|[[File:giant_puffin_sprite.png]]|205,252|1|15-20|1|30||-|[[Giant python|巨蟒]]|[[File:giant_python_sprite.png]]|1,700,000|0*|10-20|10-30|50||-|[[Giant raven|巨型渡鸦]]|[[File:giant_raven_sprite.png]]|208,404|1|20-40|3-7|52||-|[[Giant red-winged blackbird|巨型红翅黑鹂]]|[[File:giant_red-winged_blackbird_sprite.png]]|200,350|1|10-20|2-4|11||-|[[Giant saltwater crocodile|巨型咸水鳄]]|[[File:giant_saltwater_crocodile_sprite.png]]|6,440,000|3|60-100|20-70|100||-|[[Giant skink|巨型石龙子]]|[[File:giant_skink_sprite.png]]|203,500|0*|15-20|10-30|10||-|[[Giant snapping turtle|巨型鳄龟]]|[[File:giant_snapping_turtle_sprite.png]]|414,000|0*|30-50|5-10|50||-|[[Giant snowy owl|巨型雪鸮]]|[[File:giant_snowy_owl_sprite.png]]|214,020|1|10-30|5-10|62||-|[[Giant sparrow|巨型麻雀]]|[[File:giant_sparrow_sprite.png]]|200,210|1|5-10|2-7|3||-|[[Giant swan|巨型天鹅]]|[[File:giant_swan_sprite.png]]|270,500|1|10-25|5-7|340||-|[[Giant tortoise|巨型陆龟]]|[[File:giant_tortoise_sprite.png]]|300,000|1|100-200|5-10|82||-|[[Giant vulture|巨型秃鹰]]|[[File:giant_vulture_sprite.png]]|263,430|1|10-20|1-3|60||-|[[Giant white stork|巨型白鹳]]|[[File:giant_white_stork_sprite.png]]|221,040|1|20-40|1-7|110||-|[[Giant wren|巨型鹪鹩]]|[[File:giant_wren_sprite.png]]|200,280|1|5-7|3-10|5||-|[[Gigantic tortoise|超巨型陆龟]]|[[File:gigantic_tortoise_sprite.png]]|2,478,000|1|100-200|5-10|82||-|[[Gila monster|毒蜥]]|[[File:gila_monster_sprite.png]]|2,000|1|20-30|2-12|32||-|[[Goose|鹅]]|[[File:goose_sprite.png]]|4,500|1|10-24|3-8|152|[[Domestic animal|家畜]]|-|[[Great horned owl|大角鸮]]|[[File:great_horned_owl_sprite.png]]|2,000|1|15-20|1-5|51||-|[[Grey parrot|灰鹦鹉]]|[[File:grey_parrot_sprite.png]]|400|1|40-60|1-5|40||-|[[Guineafowl|珍珠鸡]]|[[File:guineafowl_sprite.png]]|1,500|1|10-15|4-15|42|[[Domestic animal|家畜]]|-|[[Hornbill|犀鸟]]|[[File:hornbill_sprite.png]]|2,500|1|35-40|1-4|50||-|[[Iguana|鬣蜥]]|[[File:iguana_sprite.png]]|4,000|1|10-20|40-50|15||-|[[Kakapo|鸮鹦鹉]]|[[File:kakapo_sprite.png]]|3,000|7|60-120|1-4|52||-|[[Kea|啄羊鹦鹉]]|[[File:kea_sprite.png]]|1,000|1|30-50|2-5|62||-|[[Kestrel|隼]]|[[File:kestrel_sprite.png]]|250|1|10-20|3-6|32||-|[[King cobra|眼镜王蛇]]|[[File:king_cobra_sprite.png]]|6,000|0*|15-25|10-30|5||-|[[Kingsnake|王蛇]]|[[File:kingsnake_sprite.png]]|1,500|0*|20-30|5-12|20||-|[[Kiwi|几维鸟]]|[[File:kiwi_sprite.png]]|2,500|1|20-50|1-2|450||-|[[Kobold|狗头人]]|[[File:kobold_sprite.png]]|20,000|12|150-170|1-2|1100|形成粗糙文明，不可驯服|-|[[Little penguin|小企鹅]]|[[File:little_penguin_sprite.png]]|1,500|1|20-30|2|53|不可驯服|-|[[Loon|潜鸟]]|[[File:loon_sprite.png]]|6,000|1|25-30|2-4|152||-|[[Monitor lizard|巨蜥]]|[[File:monitor_lizard_sprite.png]]|100,000|1|20-30|15-25|70||-|[[Osprey|鱼鹰]]|[[File:osprey_sprite.png]]|2,000|1|20-30|2-4|60||-|[[Ostrich|鸵鸟]]|[[File:ostrich_sprite_anim.gif]]|90,000|1|35-45|10-15|2,000||-|[[Penguin|企鹅]]|[[File:penguin_sprite.png]]|4,000|1|20-30|2|125|不可驯服|-|[[Peregrine falcon|游隼]]|[[File:peregrine_falcon_sprite.png]]|600|1|12-15|3-4|46||-|[[Platypus|鸭嘴兽]]|[[File:platypus_sprite.png]]|2,000|1|10-20|1-3|11||-|[[Puffin|海雀]]|[[File:puffin_sprite.png]]|750|1|15-20|1|30||-|[[Python|蟒蛇]]|[[File:python_sprite.png]]|200,000|0*|10-20|10-30|50||-|[[Raven|渡鸦]]|[[File:raven_sprite.png]]|1,200|1|20-40|3-7|52||-|[[Saltwater crocodile|咸水鳄]]|[[File:saltwater_crocodile_sprite.png]]|800,000|3|60-100|20-70|100||-|[[Sea serpent|海蛇]]|[[File:sea_serpent_sprite.png]]|9,000,000|6|150-175|1|6100|[[Aquatic|水生]]，由于错误无法产蛋。{{bug|4105}}|-|[[Snowy owl|雪鸮]]|[[File:snowy_owl_sprite.png]]|2,000|1|10-30|5-10|62||-|[[Swan|天鹅]]|[[File:swan_sprite.png]]|10,000|1|10-25|5-7|340||-|[[Turkey|火鸡]]|[[File:turkey_sprite.png]]|5,000|1|7-10|10-14|87|[[Domestic animal|家畜]]|-|[[Vulture|秃鹰]]|[[File:vulture_sprite.png]]|9,000|1|10-20|1-3|60||-|[[White stork|白鹳]]|[[File:white_stork_sprite.png]]|3,000|1|20-40|1-7|110||}
+
+:&#42; ''该生物无法被矮人完全驯服，因此需要频繁训练。''
+:&#42;&#42; ''蛋大小目前不影响食物数量。''
+
+
+
+{| border="1px #AAA solid;" style="text-align:center;" class="wikitable sortable"|+style="border:1px #AAA solid;background:#EEE;"| '''地下动物'''|-
+!style="border:1px #AAA solid;background:#DDD;"| 动物
+!style="border:1px #AAA solid;background:#DDD;"| 图像
+!style="border:1px #AAA solid;background:#DDD;"| 体型（最大）
+!style="border:1px #AAA solid;background:#DDD;"| 成熟时间（年）
+!style="border:1px #AAA solid;background:#DDD;"| 最大年龄（年）
+!style="border:1px #AAA solid;background:#DDD;"| 蛋数量
+!style="border:1px #AAA solid;background:#DDD;"| 蛋大小**
+!style="border:1px #AAA solid;background:#DDD;"| 备注|-|[[Cave crocodile|洞穴鳄鱼]]|[[File:cave_crocodile_sprite.png]]|600,000|3|60-100|20-60|80||-|[[Cave dragon|洞穴龙]]|[[File:cave_dragon_sprite_anim.gif]]|15,000,000|0*|不朽|1-3|6100||-|[[Crundle|克伦德尔]]|[[File:crundle_sprite.png]]|10,000|0*|10-20|5-20|60||-|[[Elk bird|麋鸟]]|[[File:elk_bird_sprite.png]]|100,000|1|10-20|2-10|60|[[Grazer|食草动物]]，孵蛋时可能饿死。{{Bug|4637}}|-|[[Giant cave swallow|巨型洞燕]]|[[File:giant_cave_swallow_sprite.png]]|200,000|1|10-20|2-3|2100||-|[[Helmet snake|盔蛇]]|[[File:helmet_snake_sprite.png]]|50,000|0*|40-60|10-30|50||-|[[Jabberer|喋喋不休者]]|[[File:jabberer_sprite_anim.gif]]|4,500,000|1|10-20|1-2|5100||}
+
+:&#42; ''该生物无法被矮人完全驯服，因此需要频繁训练。''
+:&#42;&#42; ''蛋大小目前不影响食物数量。''
+
+
+
+{| border="1px #AAA solid;" style="text-align:center;" class="wikitable sortable"|+style="border:1px #AAA solid;background:#EEE;"| '''[[:Megabeast|巨兽]]'''|-
+!style="border:1px #AAA solid;background:#DDD;"| 动物
+!style="border:1px #AAA solid;background:#DDD;"| 图像
+!style="border:1px #AAA solid;background:#DDD;"| 体型（最大）
+!style="border:1px #AAA solid;background:#DDD;"| 成熟时间（年）
+!style="border:1px #AAA solid;background:#DDD;"| 最大年龄（年）
+!style="border:1px #AAA solid;background:#DDD;"| 蛋数量
+!style="border:1px #AAA solid;background:#DDD;"| 蛋大小**
+!style="border:1px #AAA solid;background:#DDD;"| 备注|-|[[Dragon|龙]]|[[File:dragon_sprite.png]]|25,000,000|10|不朽|1-3|6100||-|[[Roc|大鹏鸟]]|[[File:roc_sprite.png]]|20,000,000|1|不朽|1-2|201000||}
+
+:&#42; ''该生物无法被矮人完全驯服，因此需要频繁训练。''
+:&#42;&#42; ''蛋大小目前不影响食物数量。''
+
+
+== 动物人 ==
+
+{| border="1px #AAA solid;" style="text-align:center;" class="wikitable sortable"|+style="border:1px #AAA solid;background:#EEE;"| '''[[Animal people|动物人]]*'''|-
+!style="border:1px #AAA solid;background:#DDD;"| 动物
+!style="border:1px #AAA solid;background:#DDD;"| 图像
+!style="border:1px #AAA solid;background:#DDD;"| 体型（最大）
+!style="border:1px #AAA solid;background:#DDD;"| 成熟时间（年）
+!style="border:1px #AAA solid;background:#DDD;"| 最大年龄（年）
+!style="border:1px #AAA solid;background:#DDD;"| 蛋数量
+!style="border:1px #AAA solid;background:#DDD;"| 蛋大小**
+!style="border:1px #AAA solid;background:#DDD;"| 备注|-|[[Adder man|蝰蛇人]]|[[File:adder_man_sprite.png]]|35,075|0|60-80|3-10|16||-|[[Albatross man|信天翁人]]|[[File:albatross_man_sprite.png]]|39,000|1|60-80|1|305||-|[[Alligator man|短吻鳄人]]|[[File:alligator_man_sprite.png]]|235,000|1|60-80|10-30|80||-|[[Anole man|变色蜥人]]|[[File:anole_man_sprite.png]]|35,045|0|60-80|1-2|10||-|[[Barn owl man|仓鸮人]]|[[File:barn_owl_man_sprite.png]]|35,250|1|60-80|3-6|32||-|[[Black mamba man|黑曼巴人]]|[[File:black_mamba_man_sprite.png]]|37,500|0|60-80|10-30|50||-|[[Bluejay man|蓝松鸦人]]|[[File:bluejay_man_sprite.png]]|35,050|1|60-80|2-7|11||-|[[Bushmaster man|丛林响尾蛇人]]|[[File:bushmaster_man_sprite.png]]|39,250|0|60-80|10-20|22||-|[[Bushtit man|丛山雀人]]|[[File:bushtit_man_sprite.png]]|35,002|1|60-80|5-13|1||-|[[Buzzard man|秃鹫人]]|[[File:buzzard_man_sprite.png]]|35,700|1|60-80|2-3|60||-|[[Cardinal man|红雀人]]|[[File:cardinal_man_sprite.png]]|35,025|1|60-80|2-5|9||-|[[Cassowary man|鹤鸵人]]|[[File:cassowary_man_sprite.png]]|60,000|1|60-80|3-6|550||-|[[Cave swallow man|洞燕人]]|[[File:cave_swallow_man_sprite.png]]|35,050|1|20-30|4-5|11||-|[[Chameleon man|变色龙人]]|[[File:chameleon_man_sprite.png]]|35,075|0|60-80|40-50|10||-|[[Cockatiel man|玄凤鹦鹉人]]|[[File:cockatiel_man_sprite.png]]|35,045|1|60-80|2-8|11||-|[[Crow man|乌鸦人]]|[[File:crow_man_sprite.png]]|35,250|1|60-80|4-6|21||-|[[Desert tortoise man|沙漠陆龟人]]|[[File:desert_tortoise_man_sprite.png]]|37,750|1|60-89|3-5|40||-|[[Eagle man|鹰人]]|[[File:eagle_man_sprite.png]]|37,000|1|60-80|1-3|142||-|[[Echidna man|针鼹人]]|[[File:echidna_man_sprite.png]]|40,000|1|60-80|1|1||-|[[Emu man|鸸鹋人]]|[[File:emu_man_sprite.png]]|52,500|1|60-80|5-15|805||-|[[Giant tortoise man|巨型陆龟人]]|[[File:giant_tortoise_man_sprite.png]]|185,000|1|60-80|5-10|82||-|[[Gila monster man|毒蜥人]]|[[File:gila_monster_man_sprite.png]]|36,000|1|60-80|2-12|32||-|[[Grackle man|白头翁人]]|[[File:grackle_man_sprite.png]]|35,060|1|60-80|1-7|12||-|[[Great horned owl man|大角鸮人]]|[[File:great_horned_owl_man_sprite.png]]|36,000|1|60-80|1-5|51||-|[[Grey parrot man|灰鹦鹉人]]|[[File:grey_parrot_man_sprite.png]]|35,200|1|60-80|1-5|40||-|[[Hornbill man|犀鸟人]]|[[File:hornbill_man_sprite.png]]|36,250|1|60-80|1-4|50||-|[[Iguana man|鬣蜥人]]|[[File:iguana_man_sprite.png]]|37,000|1|60-80|40-50|15||-|[[Kakapo man|鸮鹦鹉人]]|[[File:kakapo_man_sprite.png]]|36,500|7|60-80|1-4|52||-|[[Kea man|啄羊鹦鹉人]]|[[File:kea_man_sprite.png]]|35,500|1|60-80|2-5|62||-|[[Kestrel man|隼人]]|[[File:kestrel_man_sprite.png]]|35,125|1|60-80|3-6|32||-|[[King cobra man|眼镜王蛇人]]|[[File:king_cobra_man_sprite.png]]|38,000|0|60-80|10-30|5||-|[[Kingsnake man|王蛇人]]|[[File:kingsnake_man_sprite.png]]|35,750|0|60-80|5-12|20||-|[[Kiwi man|几维鸟人]]|[[File:kiwi_man_sprite.png]]|36,250|1|60-80|1-2|450||-|[[Loon man|潜鸟人]]|[[File:loon_man_sprite.png]]|38,000|1|60-80|2-4|152||-|[[Lorikeet man|吸蜜鹦鹉人]]|[[File:lorikeet_man_sprite.png]]|35,100|1|60-80|2|11||-|[[Magpie man|喜鹊人]]|[[File:magpie_man_sprite.png]]|35,100|1|60-80|2-5|11||-|[[Masked lovebird man|黑脸情侣鹦鹉人]]|[[File:masked_lovebird_man_sprite.png]]|35,045|1|60-80|4-5|7||-|[[Monitor lizard man|巨蜥人]]|[[File:monitor_lizard_man_sprite.png]]|85,000|1|60-80|15-25|70||-|[[Oriole man|黄鹂人]]|[[File:oriole_man_sprite.png]]|35,020|1|60-80|3-7|8||-|[[Osprey man|鱼鹰人]]|[[File:osprey_man_sprite.png]]|36,000|1|60-80|2-4|60||-|[[Ostrich man|鸵鸟人]]|[[File:ostrich_man_sprite_anim.gif]]|80,000|1|60-80|10-15|2000||-|[[Parakeet man|长尾小鹦鹉人]]|[[File:parakeet_man_sprite.png]]|35,060|1|60-80|2-4|11||-|[[Peach-faced lovebird man|桃面情侣鹦鹉人]]|[[File:peach_faced_lovebird_man_sprite.png]]|35,030|1|60-80|4-6|9||-|[[Peregrine falcon man|游隼人]]|[[File:peregrine_falcon_man_sprite.png]]|35,300|1|60-80|3-4|46||-|[[Platypus man|鸭嘴兽人]]|[[File:platypus_man_sprite.png]]|36,000|1|60-80|1-3|11||-|[[Pond turtle man|池龟人]]|[[File:pond_turtle_man_sprite.png]]|35,250|0|60-80|1-15|6||-|[[Puffin man|海雀人]]|[[File:puffin_man_sprite.png]]|35,375|1|60-80|1|30||-|[[Python man|蟒蛇人]]|[[File:python_man_sprite.png]]|135,000|0|60-80|10-30|50||-|[[Raven man|渡鸦人]]|[[File:raven_man_sprite.png]]|35,600|1|60-80|3-7|52||-|[[Red-winged blackbird man|红翅黑鹂人]]|[[File:red_winged_blackbird_man_sprite.png]]|35,025|1|60-80|2-4|11||-|[[Reptile man|爬行人]]|[[File:reptile_man_sprite.png]]|50,000|12|60-80|1-3|1600||-|[[Saltwater crocodile man|咸水鳄人]]|[[File:saltwater_crocodile_man_sprite.png]]|435,000|3|60-80|20-70|100||-|[[Serpent man|蛇人]]|[[File:serpent_man_sprite.png]]|50,000|12|60-80|1-3|1600||-|[[Skink man|石龙子人]]|[[File:skink_man_sprite.png]]|35,250|0|60-80|10-30|10||-|[[Snapping turtle man|鳄龟人]]|[[File:snapping_turtle_man_sprite.png]]|50,000|0|60-80|5-10|50||-|[[Snowy owl man|雪鸮人]]|[[File:snowy_owl_man_sprite.png]]|36,000|1|60-80|5-10|62||-|[[Sparrow man|麻雀人]]|[[File:sparrow_man_sprite.png]]|35,015|1|60-80|2-7|3||-|[[Swan man|天鹅人]]|[[File:swan_man_sprite.png]]|40,000|1|60-80|5-7|340||-|[[Vulture man|秃鹰人]]|[[File:vulture_man_sprite.png]]|39,500|1|60-80|1-3|60||-|[[White stork man|白鹳人]]|[[File:white_stork_man_sprite.png]]|36,500|1|60-80|1-7|110||-|[[Wren man|鹪鹩人]]|[[File:wren_man_sprite.png]]|35,020|1|60-80|3-10|5||}
+
+:&#42; ''动物人无法被驯服，但他们可以在世界生成期间加入文明并随后作为访客到达。''
+:&#42;&#42; ''蛋大小目前不影响食物数量。'
+
+
+
+{| border="1px #AAA solid;" style="text-align:center;" class="wikitable sortable"|+style="border:1px #AAA solid;background:#EEE;"| '''[[Vermin|害虫]]*'''|-
+!style="border:1px #AAA solid;background:#DDD;"| 动物
+!style="border:1px #AAA solid;background:#DDD;"| 图像
+!style="border:1px #AAA solid;background:#DDD;"| 体型（最大）
+!style="border:1px #AAA solid;background:#DDD;"| 成熟时间（年）
+!style="border:1px #AAA solid;background:#DDD;"| 最大年龄（年）
+!style="border:1px #AAA solid;background:#DDD;"| 蛋数量
+!style="border:1px #AAA solid;background:#DDD;"| 蛋大小**
+!style="border:1px #AAA solid;background:#DDD;"| 备注|-|[[Anole|变色蜥]]|[[File:anole_sprite.png]]|90|0|5-7|1-2|10||-|[[Blue jay|蓝松鸦]]|[[File:blue_jay_sprite.png]]|100|1|10-20|2-7|11||-|[[Bushtit|丛山雀]]|[[File:bushtit_sprite.png]]|5|1|1-2|5-13|1||-|[[Cardinal|红雀]]|[[File:cardinal_sprite.png]]|50|1|10-20|2-5|9||-|[[Cave swallow|洞燕]]|[[File:cave_swallow_sprite.png]]|100|1|10-20|4-5|11||-|[[Chameleon|变色龙]]|[[File:chameleon_sprite.png]]|150|0|5-10|40-50|10||-|[[Cockatiel|玄凤鹦鹉]]|[[File:cockatiel_sprite.png]]|90|1|15-30|2-8|11||-|[[Crow|乌鸦]]|[[File:crow_sprite.png]]|500|1|10-15|4-6|21||-|[[Grackle|白头翁]]|[[File:grackle_sprite.png]]|120|1|10-20|1-7|12||-|[[Lorikeet|吸蜜鹦鹉]]|[[File:lorikeet_sprite.png]]|200|1|15-30|2|11||-|[[Magpie|喜鹊]]|[[File:magpie_sprite.png]]|200|1|10-20|2-5|11||-|[[Masked lovebird|黑脸情侣鹦鹉]]|[[File:masked_lovebird_sprite.png]]|90|1|10-15|4-5|7||-|[[Oriole|黄鹂]]|[[File:oriole_sprite.png]]|40|1|10-20|3-7|8||-|[[Parakeet|长尾小鹦鹉]]|[[File:parakeet_sprite.png]]|120|1|15-25|2-4|11||-|[[Peach-faced lovebird|桃面情侣鹦鹉]]|[[File:peach_faced_lovebird_sprite.png]]|60|1|10-15|4-6|9||-|[[Pond turtle|池龟]]|[[File:pond_turtle_sprite.png]]|500|0|40-100|1-15|6||-|[[Red-winged blackbird|红翅黑鹂]]|[[File:red-winged_blackbird_sprite.png]]|50|1|10-20|2-4|11||-|[[Skink|石龙子]]|[[File:skink_sprite.png]]|500|0|15-20|10-30|10||-|[[Sparrow|麻雀]]|[[File:sparrow_sprite.png]]|30|1|5-10|2-7|3||-|[[Two-legged rhino lizard|双足犀牛蜥]]|[[File:two_legged_rhino_lizard_sprite.png]]|1,000|1|2-3|10-30|40||-|[[Wren|鹪鹩]]|[[File:wren_sprite.png]]|40|1|5-7|3-10|5||-|}
+
+:&#42; ''害虫目前无法在堡垒模式中用于蛋生产。''
+:&#42;&#42; ''蛋大小目前不影响食物数量。'
+
+==错误==
+水生产蛋动物不会占据巢箱。无论箱子是建在水下还是陆地上都没关系。{{Bug|4105}}
+
+{{Category|Food}}
+{{Category|Guides}}
+{{Category|Industry}}
+{{Industry}}
+[[ru:Egg production]]

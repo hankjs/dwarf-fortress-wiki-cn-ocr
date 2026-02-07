@@ -1,0 +1,32 @@
+{{Quality|Exceptional}}
+{{Ceramic|name=陶器|sample=EarthenwareSample.png|color=6:0:0|uses=
+* [[Statue|雕像]]
+* [[Block|砖块]]
+* [[Craft|工艺品]]
+* [[Hive|蜂箱]]
+* [[Jug|水壶]]
+* 大[[pot|罐]]|ingredients=* 以下之一
+** [[clay|粘土]]
+** [[silty clay|粉砂质粘土]]
+** [[sandy clay|砂质粘土]]
+** [[clay loam|粘壤土]]
+* 1 [[fuel|燃料]]|properties=
+* [[Material value|材料价值]] 3
+{{firemagmasafe|yes|no}}
+* [[Melting point|熔点]] {{ct|11500}}
+* [[Boiling point|沸点]] {{ct|14000}}
+* [[Ignition point|燃点]] 无
+* [[Solid density|固体密度]] 1360
+* 液体[[density|密度]] 3300
+* [[Specific heat|比热]] 800}}{{av}}
+
+'''陶器'''是一种由普通[[clay|粘土]](以及[[silty clay|粉砂质粘土]]、[[sandy clay|砂质粘土]]或[[clay loam|粘壤土]])制成的[[ceramic|陶瓷]]。就像[[green glass|绿玻璃]](以及在较小程度上的[[clear glass|透明玻璃]]),只要你的要塞中有粘土来源,陶器物品就可以无限量生产。它们呈棕色,材料价值为3,与[[obsidian|黑曜石]]相同。
+
+除了潜在的丰富性外,陶器也非常轻,使其成为制作容器的完美材料。然而,陶器容器必须[[glaze|上釉]]才能储存液体。
+<gallery heights=420px widths=300px>
+File:Black-glaze oinochoe BM B632.jpg|Black-glaze oinochoe BM B632|上釉陶器
+File:Jug animals Louvre MAO390.jpg|Jug animals Louvre MAO390|未上釉陶器
+</gallery>
+{{gamedata}}
+{{Materials}}
+[[ru:Earthenware]]

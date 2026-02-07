@@ -1,0 +1,12 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_fire_opal_sprite.png|graphic2=rough_fire_opal_sprite.png}}
+{{av}}
+
+'''火欧泊'''是在几乎所有地方都能以小簇形式发现的半宝石[[gem|宝石]]。
+
+火欧泊在名称和外观上与[[precious fire opal|珍贵火欧泊]]相似，后者具有更高的材料价值。
+
+[[File:Feueropal2 mineralogisches museum bonn.jpg|center|thumb|300px|因其''色彩''而受赞赏。]]
+
+{{gamedata}}
+{{gems}}

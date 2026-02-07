@@ -1,0 +1,18 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=gabbro_man_sprite.png|portrait=gabbro_man_portrait.png|vary=no|contrib=no|death=item|item=[[Gabbro|辉长岩]] boulder}}
+{{av}}
+{{creaturedesc}}
+'''辉长岩人'''（Gabbro men）是极其罕见的由坚固[[gabbro|辉长岩]]构成的[[construct creature|构装生物]]，只能在[[caverns|洞穴]]的第三层找到。与其他构装生物一样，它们没有感知能力，[[No Pain|感觉不到疼痛]]或恐惧，[[No Stun|无法被击晕]]，也不需要呼吸。它们和[[human|人类]]一样大，是2级[[building destroyer|建筑破坏者]]。辉长岩人不会老死，只会死于暴力。
+
+辉长岩人对普通[[dwarf|矮人]]来说是致命的，通常会杀死手无寸铁的平民。拳打脚踢会从它们的石质皮肤上滑开，但有些幸运的撕咬可能会使它们骨折。尽管如此，仍应在辉长岩人对矮人和建筑造成破坏之前，用装备齐全的[[military|军队]]与之交战。被杀死后，辉长岩人会变成一块粗糙的辉长岩巨石，可供你的[[mason|石匠]]或[[stone crafter|石工]]使用。它们不能在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]辉长岩人，因为它们的''岩石特性''。
+
+{{D for dwarf}}
+<!-- Reference: Thing from the Fantastic Four -->
+尽管有许多传闻目击和艺术描绘，但并没有[[human|人类]]通过传送实验变成橙色辉长岩人。据说这个特定的辉长岩人与其他三个拥有超自然能力的人类结盟。
+<br />
+[[File:gabbro_man_preview.png|thumb|300px|center|我想我们知道他最喜欢的音乐类型是什么...<br><small>''Art by Tomáš Hanzík''</small>]]
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

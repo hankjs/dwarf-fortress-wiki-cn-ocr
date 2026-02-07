@@ -1,25 +1,15 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 1:1
-| graphic    = [[File:indigo_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Clothier
-| profession = [[Craftsdwarf]]
-| job name   = [[Clothesmaking]]
-| tasks      =
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Clothier| profession = [[Craftsdwarf]]| job name   = [[Clothesmaking]]| tasks      =
 * Make [[Clothing|Clothes]]
 * Construct [[Bag]]
 * Make [[Rope]]
 * Sew [[Image]]
-* Make [[Craft]]s
-| workshop = * [[Clothier's shop]]
-* [[Craftsdwarf's workshop]]
-| attributes =
+* Make [[Craft]]s| workshop = * [[Clothier's shop]]
+* [[Craftsdwarf's workshop]]| attributes =
 * Agility
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''裁缝'''是与'''制衣'''[[labor|劳动]]相关的技能。裁缝在[[clothier's shop|裁缝铺]]制作[[cloth|植物纤维]]、[[yarn|纱线]]和[[silk|丝绸]]衣物，并可以在物品上缝制植物纤维图案和丝绸图案。
 

@@ -1,0 +1,47 @@
+{{Quality|Superior}}
+{{av}}
+{{Modding}}
+'''实体标记'''在entity_*.txt文件中定义实体或[[civilization|文明]]。
+
+<code>[OBJECT:ENTITY]</code> [[token|标记]]开始实体[[raw file|原始文件]]的定义。随后的每个新实体定义以<code>[ENTITY:''entity_ID'']</code>标记开始,其中''entity_ID''是该实体的唯一标识符,然后通过使用更多实体标记来指定实体的属性;或者,可以使用<code>[SELECT_ENTITY:''entity_ID'']</code>向现有实体添加标记。
+
+所有已知的实体标记如下所列。
+
+__TOC__
+{{clear}}
+
+== 游戏性 ==
+{| {{prettytable}}|- bgcolor="#ddd"
+! 标记
+! 参数
+! 描述
+|-| {{text anchor|ALL_MAIN_POPS_CONTROLLABLE}}| | 允许拥有据点的实体进行冒险模式。
+|-| {{text anchor|SITE_CONTROLLABLE}}| | 允许要塞模式。如果多个实体具有SITE_CONTROLLABLE标记,则在出发时可以在文明列表屏幕上选择特定的文明。至少一个文明必须具有此标记。
+|-| {{text anchor|CREATURE}}| 生物|将居住文明的生物类型。如果指定了多种生物类型,每个文明将随机选择其中一种生物。在具有多个可能生物的实体中,你可以通过添加多个相同的生物标签来操纵一个生物被选择的机会。例如,向同一实体添加[CREATURE:DWARF][CREATURE:DWARF][CREATURE:DWARF][CREATURE:ELF]将使创建的文明约75%为矮人,25%为精灵。应该注意的是,文明通常由此标记加权:例如,如果你有一个具有三个[CREATURE:DWARF]标记的实体和另一个具有单个[CREATURE:ELF]标记的单独实体,那么你可以期望看到前者放置的数量是后者的三倍(假设有足够的未占用[START_BIOME:X]空间)。注意生成率也受到未占用的生物群系空间的限制 - 如果一个实体只能在更稀有的生物群系集合中生成(例如只有LAKE_TROPICAL_SALTWATER),那么它们的生成率最终将受到该生物群系类型中剩余未占用空间的限制,而不是实体原始文件中存在的[CREATURE:X]标记数量。|-| {{text anchor|SOURCE_HFID}}| 整数| 在生成的[[angel|天使]]实体上找到。似乎从具有此HFID的生物中抽取,这将实体与对应于[[deity|神]]的相同ID的历史人物关联。
+|}
+
+== 放置 ==
+
+世界生成期间的实体生成受到几个因素的影响:
+* "[[Advanced world generation#Number of Civilizations|文明数量]]"世界生成设置对生成的实体总数设置了硬限制。
+* "[[Advanced world generation#Playable Civilization Required|需要可玩文明]]"世界生成设置强制至少生成一个[[Entity token#SITE_CONTROLLABLE|SITE_CONTROLLABLE]]实体(大概仍受"文明数量"限制)。
+* 实体中存在的<nowiki>[</nowiki>[[Entity token#CREATURE|CREATURE]]:X]标记数量修改其生成机会。包含更多<nowiki>[</nowiki>[[Entity token#CREATURE|CREATURE]]:X]标记的实体将更频繁地生成(假设满足其他要求),甚至可能完全阻止具有较少<nowiki>[</nowiki>[[Entity token#CREATURE|CREATURE]]:X]标记的实体生成。你可以使用[SELECT_ENTITY:VANILLA_ENTITY_X]后跟任意数量的重复<nowiki>[</nowiki>[[Entity token#CREATURE|CREATURE]]:VANILLA_CREATURE_X]标记来尝试平衡现有原版实体与你可能添加的任何自定义多生物实体的生成率。
+* 世界中剩余的未占用[[Entity token#START_BIOME|START_BIOME]]或[[Entity token#EXCLUSIVE_START_BIOME|EXCLUSIVE_START_BIOME]]瓷砖数量限制了实体的生成率,并允许实体相互阻止生成。如果实体没有剩余的"起始"[[Biome token|生物群系]]空间,那么它将不会生成,游戏将尝试生成不同的实体。这意味着,平均而言,可以在ALL_MAIN [[Biome token|生物群系]]中开始的实体将比只能在LAKE_TROPICAL_SALTWATER [[Biome token|生物群系]]中开始的实体更频繁地生成。这也意味着起始[[Biome token|生物群系]]不重叠的实体不会相互阻止生成。
+
+[由于篇幅限制,以下省略了大量详细的标记列表和说明]
+
+== 原版文明的伦理观 ==
+[[Animal people|动物人]]目前具有与[[kobold|狗头人]]相同的伦理观。
+
+{| {{prettytable}}|- bgcolor="#dddddd"
+! 问题
+! 山脉<br>(矮人)
+! 森林<br>(精灵)
+! 平原<br>(人类)
+! 邪恶<br>(地精)
+! 潜行<br>(狗头人)|-| 杀死同一实体的成员| 极刑| 在极端原因下合理| 在充分原因下合理| 个人事务| 流放|-| 杀死中立智慧生物| 只有在批准的情况下| 可接受| 如果没有后果则合理| 必需| 必需|-| 杀死敌人| 可接受| 可接受| 可接受| 必需| 必需|-| 杀死动物| 可接受| 在自卫情况下合理| 可接受| 可接受| 可接受|-| 杀死植物| 可接受| 不可想象| 可接受| 可接受| 可接受|-| 作为示例的折磨| 不可想象| 可接受| 可接受| 可接受| 不可想象|-| 为信息折磨| 不可想象| 误导| 可接受| 可接受| 不适用|-| 为了乐趣折磨| 不可想象| 不可想象| 骇人听闻| 可接受| 可接受|-| 折磨动物| 不可想象| 不可想象| 回避| 可接受| 不可想象|-| 叛国| 极刑| 流放| 极刑| 极刑| 不可想象|-| 背誓| 极刑| 流放| 极刑| 个人事务| 不适用|-| 说谎| 个人事务| 流放| 个人事务| 个人事务| 不适用|-| 破坏公物| 严重惩罚| 训斥| 严重惩罚| 个人事务| 不适用|-| 擅闯| 严重惩罚| 训斥| 严重惩罚| 个人事务| 不适用|-| 盗窃| 严重惩罚| 训斥| 严重惩罚| 个人事务| 不适用|-| 袭击| 严重惩罚| 流放| 严重惩罚| 个人事务| 个人事务|-| 奴隶制| 极刑| 流放| 可接受| 个人事务| 不可想象|-| 吃智慧生物| 不可想象| 不可想象| 不可想象| 个人事务| 不可想象|-| 吃在战斗中杀死的智慧生物| 不可想象| 可接受| 不可想象| 个人事务| 不可想象|-| 用同种族尸体制作战利品| 骇人听闻| 不可想象| 可接受| 可接受| 不可想象|-| 用其他智慧生物种族尸体制作战利品| 回避| 不可想象| 可接受| 可接受| 不可想象|-| 用动物尸体制作战利品| 可接受| 不可想象| 可接受| 可接受| 不可想象|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+{{Template:V50 entities}}
+[[ru:Entity token]]

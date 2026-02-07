@@ -1,0 +1,22 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=feather_tree_trunk_sprite.png|product=feather_eggs_sprite.png|sapling=feather_sapling.png|wiki=no}}
+
+{{av}}
+
+'''羽毛树(feather tree)'''是一种特殊的[[tree|树]]，只生长在[[Surroundings#Good|善良]]阵营的地区。与其他[[above ground|地上]]树木不同，它在被砍伐时会产生奶油色的木材。它有羽毛状的"叶子"，而且奇怪的是，它产出[[egg|蛋]]而不是果实。当心可能在它周围游荡的[[unicorn|独角兽]]，或者干脆从[[Elf|精灵]][[trade|商队]]进口它。
+
+羽毛木是游戏中最轻的木材，因此应该用于经常被搬运的东西，如[[bin|箱]]、[[barrel|桶]]和[[bucket|水桶]]，因为它们携带这些物品的重量更轻，从而减少了[[dwarf|矮人]]的速度降低。羽毛木[[shield|盾牌]]也非常有效，因为盾牌的重量不会影响其阻挡攻击的能力；不过，它会使盾牌的次要猛击攻击效果降低。它对[[ammunition|弹药]]极其无用——弩箭和投石机弩箭由于几乎没有重量，会简单地从敌人身上弹开。由于[[gravity|坠落]]造成的伤害受着陆区域材料的影响，羽毛木[[floor|地板]]可以缓冲坠落并防止严重伤害。
+
+一些矮人[[Preferences|喜欢]]羽毛树的''羽毛状叶子''。
+<div style="margin-left:250px;"><gallery widths="170px" heights="170px">
+ft.png|游戏v50版本中雄伟的羽毛树
+feather_tree.png|只长B级蛋。<br><small>''由Zippy粗略绘制''</small>
+</gallery></div>
+
+{{D for Dwarf}}
+
+观察到这些所谓的"树"被羽毛覆盖并产出蛋而不是果实，越来越多的矮人[[scholar|自然学家]]正在推进这样的立场：羽毛树更恰当地被归类为鸟类而不是植物。虽然并未普遍接受，但这一重新分类的提议在矮人和人类学术界都获得了一些支持，一些最近修订的动物志现在包括了该物种，它被暂时重命名为"普通木质根禽"。精灵学者完全驳斥了这条新颖科学探究的途径，认为这是一种有组织的、出于玩世不恭动机的努力，旨在规避对传统精灵领土毗邻森林中砍伐树木的条约限制。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

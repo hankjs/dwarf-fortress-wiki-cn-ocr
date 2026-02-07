@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{creaturelookup/0|image=elephant_seal_sprites.png|portrait=elephant_seal_portrait_anim.gif|bone=13-26|tooth=0-1|meat=22-107|fat=8-21|brain=1-8|lung=2-16|heart=1-4|intestine=5-26|liver=1-8|tripe=1-8|sweetbread=1-4|spleen=1-4|kidney=2-8|eye=2|skull=1|skin=hide|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''象海豹'''是[[amphibious|两栖]][[Creature|哺乳动物]]，体型明显大于常见的[[Domestic animal|家畜]]（是标准[[cow|牛]]体型的2-5倍）。它们栖息在[[arctic ocean|极地海洋]]中，成群5-10只，生活在[[ice|冰]]面和下方的[[water|水]]中。
+
+象海豹可以被[[animal trainer|驯化]]并作为[[pet|宠物]]饲养，但它们的真正价值在于[[butcher|屠宰]]收益。通过繁殖象海豹，你的[[meat industry|肉类产业]]可以维持整个要塞的食物供应，甚至还有剩余。但是，请注意，象海豹幼崽需要五年时间才能长到完全成年的体型。
+
+与大多数动物不同，象海豹的雌雄之间存在显著的体型差异。雄性的体型是雌性的三倍以上，导致屠宰收益差异很大。只有雄性在屠宰时才会掉落牙齿。
+
+一些矮人[[preference|喜欢]]象海豹，因为它们''巨大松软的鼻子''和它们的''巨大体型''。
+
+[[Image:See elefanten edit.jpg|thumb|center|400px|雄性和雌性象海豹；因其''巨大松软的鼻子''和''巨大体型''而受到赞赏。]]
+
+{{gamedata}}
+{{creatures}}

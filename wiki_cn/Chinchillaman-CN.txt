@@ -1,0 +1,12 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=chinchilla_man_sprite.png|portrait=chinchilla_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+'''龙猫人'''是普通[[chinchilla|龙猫]]的[[animal people|动物人]]变种，可以居住在[[savage|野蛮]][[mountain|山脉]]中，以3-5个个体的群体生成，通常满足于保持自己。在体型方面，它们的体重略超过普通[[dwarf|矮人]]的一半。
+
+像其他野蛮动物人一样，龙猫人可以加入[[civilization|文明]]，成为[[visitor|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险者模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]龙猫人的''毛皮''。
+[[File:chinchilla_man_preview.png|thumb|300px|center|No one takes him seriously because of his cuteness.<br><small>''Art by AssasinMonkey''</small>]]
+{{gamedata}}
+{{Creatures}}

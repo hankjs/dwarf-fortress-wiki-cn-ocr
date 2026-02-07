@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_bone_opal_sprite.png|graphic2=rough_bone_opal_sprite.png|wiki=Opal}}
+{{av}}
+
+'''骨蛋白石'''是当[[opal|蛋白石]]替代化石化骨骼中的有机物质时形成的，是装饰品级的[[gem|宝石]]，可以在任何[[stone|石头]]中以小[[cluster|簇]]被发现。
+
+[[File:Opalized fossil plesiosaur vertebra (Australia).jpg|center|thumb|290px|Opalized bone.]]
+
+{{gamedata}}
+{{gems}}

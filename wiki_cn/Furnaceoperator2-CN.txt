@@ -1,0 +1,22 @@
+{{Quality|Exceptional}}
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Furnace Operator| profession = [[Metalsmith]]| job name   = [[Furnace operating]]| tasks      =
+* 制作[[Pearlash|珍珠灰]]
+* 制作[[Plaster powder|灰泥粉]]
+* [[Melt|熔化]][[metal|金属]]物品
+* 冶炼[[Ore|矿石]]和[[metal#Alloys|合金]]| workshop   =
+* [[Smelter|冶炼炉]]
+* [[Magma smelter|岩浆冶炼炉]]
+* [[Kiln|窑]]
+* [[Magma kiln|岩浆窑]]| attributes =
+* 力量
+* 坚韧
+* 耐力
+* 分析能力
+* 动觉感知}}
+{{av}}
+
+'''熔炉操作员'''技能用于[[furnace|熔炉]]任务，例如将金属矿石熔炼成条、[[melt|熔化]]金属物品和创建金属[[alloy|合金]]。它还用于[[kiln|窑]]中创建[[pearlash|珍珠灰]]和[[Gypsum_plaster|灰泥粉]]。拥有更高的技能等级不会以任何方式改善输出；它只能让任务执行得更快。在图形上，熔炉操作员穿着深灰色衣服。
+
+[[wood burner|烧木]]是一项单独的劳动，用于从[[wood|木材]]制作[[fuel|燃料]]。
+
+{{Skills}}

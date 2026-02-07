@@ -1,0 +1,12 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_aventurine_sprite.png|graphic2=rough_aventurine_sprite.png}}
+{{av}}
+'''砂金石'''是在[[sedimentary layer|沉积层]]中发现的深绿色[[gem|宝石]]。它们价值不高，[[value|价值]]倍数仅为×3。
+
+==现实中==
+严格来说，砂金石是一类更广泛的石英岩和长石，因矿物包裹体而呈现金属光泽。''矮人要塞''中的砂金石描绘的是典型的由铬白云母（一种[[mica|白云母]]的变种）着色的砂金石石英。它最常见于印度和挪威。
+
+[[Image:Aventurine.jpg|thumb|center|250px|''砂金石'']]
+
+{{gamedata}}
+{{gems}}

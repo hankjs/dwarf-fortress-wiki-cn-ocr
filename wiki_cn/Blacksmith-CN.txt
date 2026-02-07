@@ -1,13 +1,5 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Blacksmith
-| specialty  = Blacksmith
-| profession = [[Metalsmith]]
-| job name   = [[Blacksmithing]]
-| tasks      =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Blacksmith| specialty  = Blacksmith| profession = [[Metalsmith]]| job name   = [[Blacksmithing]]| tasks      =
 * Construct [[furniture]]
 * Construct [[cage]]
 * Construct [[bucket]]
@@ -15,18 +7,15 @@
 * Construct [[barrel]]
 * Construct [[pipe section]]
 * Construct [[anvil]]
-* Build certain metal [[building]]s
-| workshop =
+* Build certain metal [[building]]s| workshop =
 * [[Metalsmith's forge]]
-* [[Magma forge]]
-| attributes =
+* [[Magma forge]]| attributes =
 * Strength
 * Agility
 * Endurance
 * Creativity
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}{{Buggy}}
 
 '''铁匠'''[[skill|技能]]用于在[[metalsmith's forge|金属锻造炉]]制作[[furniture|家具]]（包括放置的[[tools|工具]]如[[bookcase|书架]]）、[[bucket|桶]]、[[bin|箱子]]、[[block|方块]]、[[cage|笼子]]和[[anvil|铁砧]]。它也用于建造使用材料相关劳动的金属建筑，例如[[trade depot|贸易站]]。

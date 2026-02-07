@@ -1,0 +1,36 @@
+{{Quality|Superior}}
+{{av}}
+:''本文介绍[[creature|生物]]年龄。关于世界生成的"纪元"，请参阅[[Calendar#Ages]]。''
+[[File:Young Man and Old Woman MET DP801451.jpg|thumb|260px|right|One of them has their whole life ahead of them.]]'''年龄'''是一个[[creature|生物]]属性，描述该生物存活了多长时间，包括在[[world generation|世界生成]]（零年）时间之前出生的生物。年龄决定了生物的生命阶段，在完全成长之前，它是生物体型[[size|大小]]最重要的因素。所有生物都有与之相关的年龄，但在要塞模式中，只有你自己的[[dwarf|矮人]]才能在[[thoughts and preferences|想法与偏好]]界面中观察到年龄。生物的年龄基于其出生的确切时间确定，但在游戏中显示为一个整数，每到一个生日就增加一次。
+
+== 影响 ==
+生物的年龄对其整体[[size|体型]]和成熟度有重要影响。游戏中最鲜明的例子是[[dragon|龙]]的情况，它出生时体型为6,000 cm<sup>3</sup>，然后需要一千年才能达到25,000,000 cm<sup>3</sup>的完整体型。然而，你的矮人遇到的绝大多数非智慧生物需要一年成熟到成年，两年达到完整体型；[[elephant|大象]]和[[giraffe|长颈鹿]]是显著的例外，它们的幼崽需要十年才能成熟（尽管只需5年就能达到完整体型）。到达成年后，非智慧生物可以[[breeding|繁殖]]、被[[trained|训练]]、[[milk|挤奶]]、[[shearable|剪毛]]、恢复为[[Animal trainer|野生]]状态，以及各种其他效果。
+
+[[dwarves|矮人]]的生命周期稍微复杂一些：零到一岁的幼崽被视为婴儿，必须由母亲抱着；一到十八岁之间被视为[[children|儿童]]，可以执行一些有限的任务；一旦达到18岁，就被视为成年人。其他[[creature#civilized|文明]]种族、原始[[animal people|动物人]]和类人[[semi-megabeast|半巨兽]]的过程相同。
+
+受年龄控制的另一个方面是寿命。这由{{token|MAXAGE}}标记决定，如果存在，它确定给定生物可能因衰老而死亡的最小年龄，以及保证死亡之前可以达到的最大年龄。大多数有机生物最终会因衰老而死亡（包括幸运的要塞矮人），通常在1-100年的范围内。[[Savage|巨型]]版本的动物继承其正常大小同类的寿命，而[[animal people|动物人]]通常比其代表生物的寿命略长。少数物种，如[[elf|精灵]]、[[goblin|哥布林]]和一些无智慧和非自然的生物，会一直活到被杀死。[[Megabeast|巨兽]]、[[undead|不死生物]]、[[night creature|夜间生物]]以及程序生成的[[forgotten beast|遗忘之兽]]和[[titan|泰坦]]同样是不朽的。这种不朽是因为这些生物要么缺少{{tt|[MAXAGE]}}标记，要么获得了[[Syndrome#CE_ADD_TAG|NO_AGING]]综合症标签。移民有时可能以不正确的年龄（未来出生日期）{{Bug|3945}}或不正确的生命阶段（4个月大的儿童）{{Bug|3752}}出现。这通常不会造成问题，生命阶段会在每个生日重新检查。请注意，只有易受衰老死亡影响的智慧文明生物才会寻求[[necromancer|死灵术]]，这意味着哥布林和精灵永远不会成为黑暗技艺的从业者。
+
+年龄不会干扰生物的身体或精神[[skill|技能]]、属性或行为；一个150岁的矮人和一个18岁的一样能干。尽管大多数[[vermin|害虫]]拥有标注的{{tt|[MAXAGE]}}，它们似乎不受衰老影响；一个被驯化的害虫生物将永远存活，即使它本来会在一年后死亡。
+
+游戏在每个新年开始时，花岗岩月1日，检查生物是否会因衰老而死亡。在运行时间较长的要塞中，几只寿命较短的动物和牲畜可能同时死亡。生物的寿命在出生时确定，因此从之前的季节性自动存档恢复''不会''给它们更长寿的机会。
+
+存在于第1年的历史人物出生在"时间之前的时间"，描述为"外表看起来像X岁的人"。这包括你在年轻世界中的初始七人组。
+
+== 年龄特征示例列表 ==
+{| class="wikitable sortable" style="text-align:center"
+! style="text-align:left" | 名称
+! width="20%" | 成年年龄
+! width="20%" | 完整体型年龄
+! width="20%" | 最小死亡年龄
+! width="20%" | 最大死亡年龄|-| style="text-align:left" | [[Ant]]| 0| 0| 1| 1|-| style="text-align:left" | [[Bat]]| 0| 0| 2| 3|-| style="text-align:left" | [[Antman]]| 0| 2| 5| 8|-| style="text-align:left" | [[Dog]]| 1| 2| 10| 20|-| style="text-align:left" | [[Lion]]| 3| 2| 10| 20|-| style="text-align:left" | [[Unicorn]]| 1| 2| 10| 20|-| style="text-align:left" | [[Elephant seal]]| 1| 5| 15| 25|-| style="text-align:left" | [[Sponge]]| 0| 0| 20| 30|-| style="text-align:left" | [[Carp]]| 1| 5| 20| 30|-| style="text-align:left" | [[Ogre]]| 10| 20| 20| 30|-| style="text-align:left" | [[Elephant]]| 10| 5| 50| 70|-| style="text-align:left" | [[Serpent man]]| 12| 12| 60| 80|-| style="text-align:left" | [[Sperm whale]]| 1| 10 | 70| 80|-| style="text-align:left" | [[Human]]| 18| 18| 60| 120|-| style="text-align:left" | [[Sea serpent]]| 6| 20| 150| 170|-| style="text-align:left" | [[Dwarf]]| 18| 18| 150| 170|-| style="text-align:left" | [[Kobold]]| 18| 18| 150| 170|-| style="text-align:left" | [[Troll]]| 10| 20| 800| 1,000|-| style="text-align:left" | [[Elf]]| 18| 18| <span style="display:none">99999</span>&mdash;| <span style="display:none">99999</span>Immortal|-| style="text-align:left" | [[Goblin]]| 18| 18| <span style="display:none">99999</span>&mdash;| <span style="display:none">99999</span>Immortal|-| style="text-align:left" | [[Dragon]]| 10| 1,000| <span style="display:none">99999</span>&mdash;| <span style="display:none">99999</span>Immortal|-| style="text-align:left" | [[Minotaur]]| 18| 18| <span style="display:none">99999</span>&mdash;| <span style="display:none">99999</span>Immortal|}
+
+== 机制 ==
+衰老机制由生物[[raw file|原始文件]]中的[[creature token|生物标记]]定义，想要修改游戏的人可以轻松修改。
+*{{tt|[CHILD:#]}}：儿童变为成年人的年龄。大多数生物设为1，少数（[[giraffe|长颈鹿]]、[[elephant|大象]]）最高为10，大多数智慧生物设为18。
+*{{tt|[BABY:#]}}：对于智慧生物，婴儿变为[[children|儿童]]的年龄。始终设为1。
+*{{tt|[BODY_SIZE:#:#:#]}}：控制生物的体型大小，通常使用两个或更多值来约束其生长模式。第一个数字是以年为单位的年龄；第二个是额外的天数年龄。第三个数字是以cm<sup>3</sup>为单位的大小。体型大小点与动物的成年年龄无关：例如，许多动物一年成年，但需要两年才能达到完整体型。
+*{{tt|[MAXAGE:#:#]}}：给出的第一个数字是生物的最小自然寿命，第二个是最大值。两个值之间自然原因导致的死亡分布是线性的（你可以使用[https://gist.github.com/Putnam3145/acd1a457c65ac315719f713677e6c13d this script]自行测试）；生物因衰老死亡的时刻从出生时就已确定。如果此标记完全不存在，则该生物在生物学上是不朽的。
+
+{{Translation| dwarven = anam| elvish  = eyo| goblin  = abo| human   = thad}}
+{{Category|Game mechanics}}
+[[ru:Age]]

@@ -1,0 +1,21 @@
+{{Quality|Fine}}
+{{av}}
+{{dftext|This visitor has come to slay beasts.|7:1}}
+[[File:beast_hunter_preview.png|thumb|260px|right|Kills monsters for a heavy price. Tames bears for fun.<br><small>''Art by DiegoGisbertLlorens''</small>]]
+'''猎兽人'''是会造访并[[petition|请愿]]留下来在你的地上[[surroundings|周围环境]]中猎杀[[creature|生物]]的[[visitor|访客]]。无论要塞是否有任何[[location|场所]]，他们都可能随时到达你的要塞。他们的地下对应是[[monster slayer|怪物猎手]]。
+
+==行为==
+猎兽人自带[[weapon|武器]]和[[armor|盔甲]]，以及一定程度的基本[[combat skill|战斗技能]]。如果你接受他们的服务，他们将像普通市民一样生活在你的矮人中间，尽管他们会把所有时间花在[[meeting hall|会议大厅]]闲逛或在地面巡逻寻找要杀的动物上。猎兽人无法被分配任何劳动，不会[[haul|搬运]]任何东西，无法接受命令，也无法被[[burrow|洞穴区域]]或其他方式控制——他们的行为等同于要塞自己的[[hunter|猎人]]，不过与后者不同的是，如果他们使用近战武器，不会因为[[crossbow|弩]][[bolt|弩箭]]耗尽而立即逃离战斗。
+
+允许这些访客定期在你的地面领域横冲直撞，偶尔会产生免费的[[meat|肉]]、[[bone|骨头]]和[[hide|兽皮]]；然而，因为你无法指挥他们杀死特定单位，他们可能决定与无用的东西搏斗，比如一群[[buzzard|秃鹫]]，或者一头冲向一只能一秒踩扁他们的[[giant elephant|巨象]]。他们也经常不适合战斗生活；有些到来的猎兽人厌恶一切军事事务，在暴力出现的第一个迹象就惊慌失措，而其他人的技能毫无成效，最终不可避免地被他们本应猎杀的动物所杀。考虑驱逐那些看起来注定要发脾气的猎兽人，或者如果他们碰巧携带有趣的装备，为他们安排"意外"。毕竟，[[Steel|钢]]就是钢。
+
+==注意事项==
+
+猎兽人的效率与你要塞定居的地点有关；一个最常见动物是[[barn owl|仓鸮]]和[[kiwi|几维鸟]]的平静环境不太可能给你带来太多成果，但拥有更大或[[fanciful|奇异]]生物的更危险区域可能带来更好的结果。当然，如果你的周围环境中有例如[[undead|不死]][[giant tiger|巨虎]]，那么猎人充其量只能充当诱饵。让他们在附近可以让你无需太多微操就能在地面狩猎，但对付真正危险的野兽，还是首选一支正规的矮人[[military|军事]][[squad|小队]]。
+
+==另见==
+*[[Monster slayer|怪物猎手]]
+<br>
+{{V50 misc professions}}
+{{Category|Occupation}}{{Category|Non-player characters}}
+[[ru:Beast hunter]]

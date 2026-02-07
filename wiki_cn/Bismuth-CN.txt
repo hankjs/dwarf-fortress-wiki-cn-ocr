@@ -1,14 +1,8 @@
 {{Quality|Superior}}
-{{Metal|name=Bismuth|
-|graphic=bismuth_bar_sprite.png
-|sample=
-[[File:BismuthSample.png|center]]
-|color=5:5:1
-|uses=
-* 在[[smelter|冶炼厂]]制作[[bismuth bronze|铋青铜]]
-|ore=
-* [[File:ore_darkbrown_sprite.png]] [[Bismuthinite|辉铋矿]]
-|properties=
+{{Metal|name=Bismuth||graphic=bismuth_bar_sprite.png|sample=
+[[File:BismuthSample.png|center]]|color=5:5:1|uses=
+* 在[[smelter|冶炼厂]]制作[[bismuth bronze|铋青铜]]|ore=
+* [[File:ore_darkbrown_sprite.png]] [[Bismuthinite|辉铋矿]]|properties=
 * [[Material value|材料价值]] 2☼
 * [[Material science|冲击强度]] 175 MPa
 * [[Material science|剪切强度]] 50 MPa
@@ -19,8 +13,7 @@
 * [[Solid density|固体密度]] 9780 kg/m³
 * 液体[[density|密度]] 10050 kg/m³
 * [[Specific heat|比热容]] 123 J/kg·K
-* [[Color|颜色]] 紫罗兰色
-}}{{av}}
+* [[Color|颜色]] 紫罗兰色}}{{av}}
 '''铋'''是一种从[[bismuthinite|辉铋矿]]中冶炼出来的金属。铋锭通常只能用来制作[[alloy|合金]]铋青铜（尽管[[Strange mood|心情古怪]]的矮人显然可以用铋制作几乎任何东西）。
 
 *1× 铋锭 + 1× [[Tin|锡]]锭 + 2× [[Copper|铜]]锭 = 4× [[Bismuth bronze|铋青铜]]锭

@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{av}}
+{{buggy}}
+:''这些设置在[[设置]]中更详细地介绍。''
+{{file|prefs/d_init.txt}}
+其中大多数可以在游戏内设置中更改,当前设置存储在文件``prefs/d_init.txt``中,默认设置及每个的解释在``data/init/d_init_default.txt``中;``prefs``[[游戏文件夹和文件|文件夹]]的位置取决于[[Settings#Portable mode|便携模式设置]](那里也有一个``data``文件夹,但如果你在那里放一个``data/init/d_init_default.txt``它不会被读取)。直接对这些文件所做的更改在下次运行''矮人要塞''时生效,并应用于所有世界。当''矮人要塞''启动时,``data/init/``和``prefs/``中的文件都会被读取,按该顺序,使用为选项读取的最后一个值。
+
+默认的'''d_init_default.txt'''文件的内容可以在下面找到。
+
+==默认设置==
+{{gamedata|title=d_init_default.txt|whitespace=pre-wrap}}
+
+== Bugs ==
+* 文件中的文本说你需要80的人口才能获得[[君主]],但实际上你需要[[Difficulty#Fortress_rank|110]],从技术上讲,那是为了成为[[Fortress#Nomenclature|城市]],这是君主所需的。
+
+{{files}}
+[[ru:d_init.txt]]

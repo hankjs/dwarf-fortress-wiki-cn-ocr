@@ -1,0 +1,29 @@
+{{Quality|Exceptional|21:37, 1 March 2023 (CST)}}
+{{Creaturelookup/0|image=flesh_ball_sprite.png|portrait=flesh_ball_portrait.png|meat=2|wiki=no|contrib=no}}
+{{av}}
+{{creaturedesc}}
+
+'''肉球(flesh ball)'''是一种两栖[[creature|生物]]，完全由[[meat|肌肉]]和[[blood|血液]]组成，在地面上移动相当缓慢。它们以2-5只的集群出现在[[caverns|洞穴]]的第三层，重量与[[human|人类]]相当，但对[[dwarf|矮人]]无害，除了微弱的[[push|推挤]]之外没有任何攻击手段，而这种推挤几乎会被任何东西弹开。
+
+肉球没有特征，无皮无骨。作为简单的肌肉球，它们不需要呼吸或睡眠，没有思想，不能呕吐、眩晕或被击昏，但仍然很容易被杀死。当被[[butcher|屠宰]]时会产出两块肉。肉球拥有10点[[pet|宠物]]价值，但缺少必要的标记来[[Animal trainer|驯化]]。它们无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]肉球的''温暖''和''平静的圆润''。
+
+{{D for Dwarf}}
+<!-- Joke: Meatballs -->
+*一个!!肉球!!是传说中的矮人烧烤中著名的美味佳肴！
+*不要与[https://doomwiki.org/wiki/Cacodemon 恶魔球]混淆。
+*也是披萨上著名的配料，其特点是完全没有骨头。
+*已知喜欢巫毒娃娃。
+<!-- Reference: Aqua Teen Hunger Force -->
+*曾被发现与一个会说话的[[bin|薄切]][[potato|土豆]][[bin|箱]]和一个装有[[temperature|冰冻]]混合[[milk|牛奶]]和[[sugar|糖]]的[[goblet|高脚杯]]生活在一起，后者被称为[[master|主人]]。
+{{Translation| dwarven = ar biban | elvish = leci èle | goblin = etkûk enu | human = ammen ohe}}
+==图集==
+<gallery widths="200px" heights="200px">
+fleshball.jpg|''Art by Arne''.
+Notebook_10_FleshBall.jpg|"在水边缓慢移动并吸收碎屑的肉球。"<br>''Concept art by Bay 12 Games.''
+</gallery>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

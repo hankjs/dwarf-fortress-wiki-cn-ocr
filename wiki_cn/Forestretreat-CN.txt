@@ -1,0 +1,10 @@
+{{Quality|Fine}}{{av}}
+
+[[File:Fort_embark.png|thumb|出发界面上的森林隐居地]]
+'''森林隐居地'''（[[File:icon_site_forest_retreat_1.png]]、[[File:icon_site_forest_retreat_2.png]]或{{Raw Tile|î|#FFFF00|#000000}}、{{Raw Tile|¶|#FFFF00|#000000}}在ASCII模式下）是由[[elf|精灵]][[civilizations|文明]]创建的[[site|地点]]，不过是各种大型、看起来不自然的树木，被居民赋予[[religion|特殊重要性]]，精灵在树冠上生活和经商。它们也往往有果园。森林隐居地废墟显示为[[File:icon_site_ruin_forest_retreat1.png]]和[[File:icon_site__ruin_forest_retreat2.png]]（或在ASCII模式下为{{Raw Tile|μ|6:1}}和{{Raw Tile|₧|6:1}}）。
+
+隐居地的特征包括树屋、塑形树、市场树、酒馆树和家园树。树屋确实就是字面意思，大树带有类似地板的树枝结构，精灵居民在那里闲逛。塑形树用于生产自然生长的木制[[finished goods|成品]]，树冠上往往散落着各种进口物品，甚至包括对它们来说太大而无法穿的外国服装。市场树是它们的商店等价物。与大多数特征不同，市场树往往在树下而非树冠上设有各种市场摊位。酒馆树类似于市场树，在从单个树干长出的巨大平坦树冠下有桌子、椅子、乐器和酒馆老板（它们可以真的非常巨大）。家园树是可以找到当地宗教领袖和其他[[noble|贵族]]的地方，它包含从树上延伸出的大型圆形"节点状"结构，树枝小径连接它们。遗憾的是，你不能通过占领地点并将所有人赶出家园树来征服这些讨厌的小树拥抱者，不像接管[[hamlet|村庄]]那样。{{bug|8001}}
+
+[[File:Df43_05_elventree.PNG|thumb|center|500px|精灵森林隐居地中的树屋及一些居民。可以站在树枝和树干上。可能需要[[Climb|攀爬]]或[[jump|跳跃]]才能与当地人交谈。]]
+
+{{World}}

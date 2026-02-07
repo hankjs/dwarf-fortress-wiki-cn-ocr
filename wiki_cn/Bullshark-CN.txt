@@ -1,0 +1,16 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=bull_shark_sprites.png|portrait=bull_shark_portrait.png|contrib=no|skull=1|skin=hide|fat=8|meat=9|intestine=1|kidney=2|heart=1|sweetbread=1|spleen=1|liver=1|tripe=1|brain=1|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''公牛鲨'''是可以在[[tropical|热带]][[ocean|海洋]]中发现的[[Cartilage|软骨]][[Creature#Aquatic|鱼类]]。体型是普通[[dwarf|矮人]]的2.5倍，它们是相当大的鱼，[[butcher|屠宰]]后产生大量[[meat|肉]]。作为全尺寸生物，它们不能被[[Fisherdwarf|渔夫]]钓到，但可以用[[drowning chamber|溺水室]]捕获。幼年公牛鲨被称为''公牛鲨幼崽''。
+
+作为软骨鱼类，公牛鲨屠宰后不会产生[[bone|骨头]]（尽管仍会提供[[skull|头骨]]）。
+
+一些矮人[[Preferences|喜欢]]公牛鲨的''攻击性''。
+
+[[File:Bullshark.JPG|thumb|400px|center|Admired for its ''aggressive nature''.]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

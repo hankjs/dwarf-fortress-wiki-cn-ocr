@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{Treelookup/0|wiki=Avocado|graphic=avocado_trunk_sprite.png|product=avocado_sprite.png|sapling=avocado_sapling.png}}
+{{av}}
+
+'''鳄梨'''树是地面上发现的众多树种之一。与绝大多数地面树木一样，鳄梨[[wood|木材]]为棕色，生产棕色产品。果实可以生吃或[[cooking|烹饪]]食用，也可以在[[dyer's shop|染坊]]中加工成桃色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]鳄梨树的''果实''。
+
+
+[[File:Persea americana fruit 2.JPG|thumb|center|300px|Admired for its ''fruit''.]]
+
+
+{{D for Dwarf}}
+遗憾的是，矮人烹饪无法制作出包含所有配料的鳄梨酱。由于鳄梨烤制只能包含除鳄梨外的三种配料，矮人厨师们对此进行了激烈的讨论。传统派厨师坚持认为切碎的[[lime|酸橙]]和切碎的[[pepper|辣椒]]最为重要，而其他人则认为切碎的[[tomato|番茄]]、[[onion|洋葱]]和[[garlic|大蒜]]都是有效的替代品。尽管如此，所有变体都非常适合蘸[[maize|玉米]]饼干食用。
+
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

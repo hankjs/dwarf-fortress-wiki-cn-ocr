@@ -1,12 +1,8 @@
 {{Quality|Superior}}
-{{Noble
-| noble=Champion
-| function=
-*建立士气
-| arrival=
+{{Noble| noble=Champion| function=
+*建立士气| arrival=
 *在[[nobles screen]]上任命
-*需要[[baron]]
-}}{{av}}
+*需要[[baron]]}}{{av}}
 
 '''斗士'''是一个任命的[[noble]]职位，在要塞成为[[baron]]领地后可用。他们没有[[Zone|房间]]要求。斗士类似于文化斗士，宣传他们[[civilization]]的价值观，并寻求鼓励要塞的居民。
 
@@ -14,12 +10,7 @@
 
 [[File:champ_dwarf.jpg|thumb|320px|center|''艺术创作：Shabazik'']]
 
-{{Translation
-| dwarven = akur
-| elvish  = atafo
-| goblin  = umal
-| human   = zilar
-}}
+{{Translation| dwarven = akur| elvish  = atafo| goblin  = umal| human   = zilar}}
 
 {{gamedata|	[POSITION:CHAMPION]
 		[NAME:champion:champions]

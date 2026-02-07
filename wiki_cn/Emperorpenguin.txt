@@ -1,0 +1,16 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=emperor_penguin_sprites.png|portrait=emperor_penguin_portrait_anim.gif|kidney=2|fat=11|lung=2|heart=1|intestines=1|liver=1|tripe=1|sweetbread=1|spleen=1|gizzard=1|brain=1|skull=1|skin=hide|meat=13|bone=13|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''帝企鹅'''是栖息在北极[[ocean|海洋]]的[[creature|生物]],它们以5-10只个体为一组出现。这些不会飞的鸟类站立时有[[dwarf|矮人]]一半的大小,受到威胁时会逃跑,使它们成为[[hunter|猎人]]或[[military|军队]]小队的容易目标。[[Butcher|屠宰]]它们将为要塞返回可观数量的[[food|食物]]和[[bone|骨头]]。
+
+帝企鹅拥有10的[[pet|宠物]]价值,但与大多数动物不同,它们不能被[[Animal trainer|驯化]]。
+
+一些矮人[[Preferences|喜欢]]帝企鹅,因为它们的''大体型''、''着色''、''摇摆的步态''和''在水中飞行的方式''。
+
+[[File:Aptenodytes forsteri -Snow Hill Island, Antarctica -adults and juvenile-8.jpg|thumb|300px|center|因其''大体型''而受到赞赏。]]
+
+{{Gamedata}}
+{{Creatures}}
+{{Category|Animals}}

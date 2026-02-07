@@ -1,0 +1,11 @@
+{{Quality|Fine}}
+{{soillookup/0|wiki=Pelagic sediment}}
+{{av}}
+
+'''钙质软泥'''是可以在深[[ocean|海洋]]底部发现的几种[[soil|土壤]]类型之一。不出所料，这样的地层偶尔会包含[[aquifer|含水层]]。
+
+钙质软泥是一种[[soil|远洋沉积物]]。它由[[flux|碳酸钙]]颗粒形成，与由硅藻和其他微生物中的二氧化硅形成的[[siliceous ooze|硅质软泥]]相反。
+[[File:Calcareous_Soil_Profile,_Seven_Sisters_Country_Park_-_geograph.org.uk_-_1280181.jpg|thumb|300px|center|Said soil, once the water is gone.]]
+{{gamedata}}
+
+{{DF2014 soil}}

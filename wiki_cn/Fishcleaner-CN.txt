@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{v50_skill| color      = 1:0| graphic    = [[File:fish_sprite_icon.png]]| graphicmargin = 106px| skill      = Fish Cleaner| profession = [[Fishery worker|渔业工人]]| job name   = [[Fish cleaning|清理鱼]]| tasks      =
+* 准备一条生鱼| workshop = [[Fishery|渔场]]| attributes =
+* 敏捷
+* 耐力
+* 动觉}}
+{{av}}
+'''清鱼工'''是与清理鱼[[labor|劳动]]相关的技能。清鱼工在[[fishery|渔场]]处理[[raw fish|生鱼]]。
+
+清鱼工的[[skill|技能等级]]用于决定完成劳动的速度。清鱼工可以为要塞生产食物和[[shell|贝壳工艺材料]],作为[[fishing industry|渔业]]的一部分。在图形模式下,他们穿着深蓝色衣服,配有绿色内衣、手套和鞋子。
+
+通常建议将[[fishing|钓鱼]]和[[fish cleaning|清理鱼]]任务分配给不同的矮人:当一个矮人在钓鱼时,另一个矮人正忙于准备鱼。对于位于[[brook|小溪]]附近的要塞来说,一到两名清鱼工就足够了。
+
+{{skills}}

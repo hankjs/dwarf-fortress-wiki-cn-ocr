@@ -1,0 +1,430 @@
+{{Quality|Exceptional}}
+{{av}}
+{{spoiler}}
+
+[[File:demon_preview.png|right]]'''恶魔'''{{Tile|&|7:0}}是居住在[[地下世界]]的程序化生成的[[生物]]。这些巨大、恶毒且极其强大的野兽是游戏中[[要塞模式]]和[[冒险者模式]]中最强大的敌人之一。它们无法在[[物品测试竞技场]]中生成。
+
+从图形上看,恶魔使用的精灵图将是随机生成的生物,具有随机颜色,类似于它们被赋予的生成外观。同样的设置用于其他程序化生成的生物,如[[巨兽]]、[[天使]]和一些[[实验体]]。
+
+== 概述 ==
+{{imagefix|[[File:demon_icon.png|left]]|8}}[[File:Assdemon.png|thumb|right|300px|"Etar Patternedtombs是一只薄荷绿色的恶魔。它是独一无二的。一只扭曲成人形的巨大有羽毛的驴。它有节奏地起伏。它的薄荷绿色羽毛斑驳不全。小心它的致命气体!"([http://www.bay12forums.com/smf/index.php?topic=76346.msg2667300#msg2667300 帖子]).]]恶魔居住在地下世界。它们在世界生成时随机生成,为每个玩家创造独特的[[乐趣]]。可能的恶魔包括由灰烬制成的嗜血巨型蜈蚣、喷射毒素的无眼蚊子,以及长有巨大咔嗒作响下颚的瘦骨嶙峋的果蝠。世界生成期间创建的不同类型恶魔的数量与世界大小密切相关,并且可以通过[[高级世界生成]]直接控制——在高级世界生成中将"{{tt|恶魔类型数量}}"设置为{{tt|0}}生成的世界将不会有任何恶魔。
+
+[[File:demon_desc_v50_preview.png|thumb|300px|right|恶魔的描述。]]所有恶魔都有某些共同特征。它们是[[生物标记#SUPERNATURAL|超自然]]的、[[奇幻]]的、邪恶阵营的生物,由随机[[颜色]]的&符号表示。它们都能在水和岩浆中游泳和[[两栖生物|呼吸]],并能[[建筑破坏者|破坏建筑物]]。此外,它们[[陷阱规避|免疫陷阱]]、[[无痛]]、恐惧、恶心、[[无晕眩]]、[[无疲劳]]、眩晕、发热、火焰,以及任何类型的毒素,并且具有固定体温,因此不受极端高温和低温的影响(即使它们由暗示应该受影响的材料制成)。大约一半拥有[[生物标记#EXTRAVISION|超视力]]。它们体型非常大(大小10,000,000,比[[巨兽]]小,但比[[巨人]]大,是[[矮人]]大小的167倍)。它们不需要睡眠、食物或饮料。所有非独特恶魔在以下战斗技能方面以熟练[[技能]]等级开始:摔跤、咬、打击、踢、战斗、射箭、闪避和观察。独特恶魔以同样技能的宗师等级开始。所有独特恶魔和大约一半的非独特恶魔拥有智能([[生物标记#CAN_LEARN|<code>[CAN_LEARN]</code>]] + [[生物标记#CAN_SPEAK|<code>[CAN_SPEAK]</code>]]),因此你面对的恶魔很可能已经将其技能发展到比开始时更高的水平;但是,它们的技能不能锈蚀到更低的水平。初始波在你打开地下世界后正好一帧生成;生成数量可以从10到100多个不等。居住在地下世界的恶魔以1-5个个体为一组生成。它们的种群规模在原始数据中指定为5-10,似乎不相关,因为游戏使地下世界的所有居民以无限数量生成。只要地下世界未被封印,恶魔就会无限期地从地图边缘继续徘徊,因为它们的种群(在功能上)是无限的。
+
+恶魔在除敏捷之外的每个物理[[属性]]上都获得大量加成,以及专注和意志力的精神属性(还有分析能力、记忆力、语言能力和社会意识,但这些不太相关)。许多(但不是全部)能够飞行。它们可能拥有各种特殊攻击,包括结网、喷火、有毒附肢、毒液唾液或毒气呼吸。无机或僵尸恶魔特别难以杀死;它们可以通过切断、斩首或用钝器粉碎来杀死(无机软泥只能以这种方式杀死),但这远远超出了普通矮人的能力。
+
+每个物种的恶魔可以全部无性别、全雄性或全雌性,或者同时拥有雄性和雌性种姓。后者如果有足够的时间可以繁殖。所有恶魔生来就是成年,出生后立即达到其完整大小。它们的[[宠物|宠物价值]]为2000☼,但无法驯服,你也不太可能捕获一只。如果你停用了压缩保存,给定世界的恶魔(以及[[遗忘的野兽]]、[[泰坦]]、[[兽人]]等)的原始数据可以在其保存文件夹的[[保存的游戏文件夹|world.dat]]中找到。软泥/无机恶魔往往是无性别和非智能的,但这需要更多研究。
+
+由于它们具有某种剧透性质——新玩家不太可能知道它们的存在,当它们不可避免地挖得太深时会产生[[乐趣|很大惊喜]]——资深''矮人要塞''玩家倾向于通过给它们起昵称来隐藏恶魔的存在,最著名的是'''隐藏的有趣东西'''和'''小丑''',地下世界是它们的"马戏团"。独特恶魔(见下文)因此通常被称为'''领头者'''。
+
+矮人可能因为其''恐怖的特征''、''有节奏的起伏''或''臃肿的外表''而[[偏好|喜欢]]某种恶魔。
+
+== 它们与世界的互动 ==
+某些类型的恶魔,那些被描述为"扭曲成人形"并在world.dat中用{{token|UNIQUE_DEMON|c}}而不是{{token|DEMON|c}}标记的,偶尔会逃离地下世界。这是通过[[神祇]]借助[[神器]][[石板]]进行的仪式实现的。最常见的是恶魔和神祇共享一个领域,尽管这不是必需的。一旦它们进入凡间世界,它们将获得对[[哥布林]][[文明]]的统治——世界上的每个哥布林派系都将由一个独特恶魔领导,试图通过[[高级世界生成]]创建一个没有恶魔的世界将导致哥布林被锁在地下世界,直到矮人文明挖得太深。如[[传说]]模式中所述,这些恶魔偶尔会前往[[洞穴|世界的深处]]并驯服居住在其中的生物——最具体的是具有{{token|PET_EXOTIC}}标记的物种——从[[巨鼠]]到[[贪婪洞穴爬行者]]和[[洞穴龙]]。据推测,这就是哥布林文明如何获得这些生物以在[[围攻]]中使用它们的方式。
+
+当矮人文明在[[世界生成]]中挖得太深时,恶魔也可能出现——矮人有机会击退它们,但在大多数情况下,要塞将被恶魔统治者下的哥布林占领。
+
+在哥布林的[[黑暗堡垒]]中发现的是由[[熔岩钢]]制成的恶魔[[地下世界尖塔|尖塔]],其最底层直接通向地下世界。它们还会创建熔岩钢[[地窖]],其宝藏由极其强大和危险的[[天使]]守卫。如果你能设法击退那些异常强大的生物([[乐趣|顺便说一句,别指望了]]),你可以在地窖中心找到包含恶魔真名的石板。学习这个名字可以让你的冒险者将其放逐回地下世界或将其束缚为你的仆人。尽管如果你选择后者,你将拥有一个几乎无法杀死的超级士兵,但这更像是一个吹嘘的权利奖励,如果有的话——通过天使已经需要几乎是人中之神。
+
+<gallery class="center" widths="400px" heights="184px">
+File:Demon banish.png|将恶魔放逐回地下世界
+File:Demon compel service.png|从恶魔强制服务
+</gallery>
+
+在[[要塞模式]]中,哥布林立法者恶魔可能作为哥布林围攻的一部分到达,并且在大多数情况下非常危险。{{verify}}
+
+恶魔可以(而且在大多数情况下会)从它们控制的地点传播与领域对齐的邪恶。梦魇或黑暗恶魔会传播充满[[怪物]]的区域,死亡恶魔会传播复活邪恶区域,等等。如果恶魔被杀或其地点被征服或夷平(例如通过[[突袭]]),邪恶传播可以被逆转。
+
+根据它们的领域,恶魔也可能被授予类似于[[死灵法师]]的能力。死亡恶魔能够创造[[实验体]]并复活尸体和[[智能亡灵]],尽管它们在世界生成中不会复活尸体,因为它们会对它们统治的哥布林怀有敌意。梦魇恶魔可能能够召唤[[梦魇]]和[[怪物]]。
+
+== 恶魔生成 ==
+尽管用于产生恶魔的确切算法未知,但可以从字符串转储和恶魔分析中收集一些算法信息。在生成恶魔时,游戏首先从预定义列表中选择一种生物,该列表是固定的,包括原版DF中未找到的生物(如食蚁兽、甲龙类)和更一般的形状(软泥、四足动物和人形)。它被授予领域,偏好"负面"领域,如苦难、死亡和折磨。如果是无机的,将选择一种材料,可以是硬编码的材料之一(如盐、灰烬、冰或呕吐物)、火焰或随机选择的原始定义的无机物(任何类型的石头、土壤、宝石、金属或其他,如石膏灰泥)。如果是有机的,它将获得某种随机颜色的覆盖物(如羽毛或毛发)和/或删除某些特征(如眼睛、鼻子或皮肤)。它将被授予一些"额外"特征,如尾巴、鼻子或壳,以及富有风味的描述符(如"它知道并吟诵它遇到的所有人的名字")。它可能会获得某种特殊攻击(如有毒的刺、毒气呼吸、喷火)。最后,它将被赋予一个由形容词和名词组成的名称。形容词将基于生物的颜色、其材料(如"地狱"或"雪")、它的形状像什么动物,或描述符(如"有翼的"、"三眼的"或"无皮的"),名词从以下列表中选择:demon(恶魔)、devil(魔鬼)、fiend(恶鬼)、brute(野兽)、monster(怪物)、spirit(精灵)、ghost(鬼魂)、banshee(女妖)、haunt(幽灵)、phantom(幻影)、specter(鬼怪)或wraith(怨灵)。
+
+== 策略 ==
+[[File:Demon_Size.png|thumb|right|200px|典型恶魔与矮人之间的估计大小比较。]]
+
+在所有面临玩家的挑战中,击败恶魔部落可能是最困难的,除非你使用某些[[陷阱]]方案——即使如此,你也需要采取特殊的预防措施。
+
+=== 遏制 ===
+遏制是处理恶魔的最简单策略。一堵简单的建造墙将阻挡任何恶魔。由于它们的建筑破坏者状态,恶魔无法通过锁定的门来遏制。但是,无法破坏的神器质量传送门可以阻止它们,某些桥梁也可以。由于建筑破坏者只能破坏同一z层的物体,楼梯/通道上的[[地板格栅]]或禁止的[[舱口盖]]也将阻止移动。如果该区域需要访问以重置陷阱,可能很难将恶魔从神器家具引开。如果使用[[桥梁]],请注意落在恶魔上的任何升降桥都会解构,并且恶魔可以很容易地拥有大大超过[[钢]]或[[铁]]熔点的内部温度,导致它们经过时解构。由于它们的数量庞大,遏制是任何试图击败它们的重要部分——对抗两组25只恶魔比对抗一组50只恶魔容易得多。
+
+在Bay12论坛上,一位名为AussieGuy的特别绅士找到了一次性处理整个恶魔入侵的巧妙方法:一个被称为"矮人棋盘"的[[巨型项目|愚蠢的矮人技巧]]。([http://www.bay12forums.com/smf/index.php?topic=94140.0 来源])
+
+当使用禁止的舱口来控制恶魔的流动时,请注意某些恶魔可能生成时CANOPENDOORS未设置,因此一旦你解除舱口的禁止,只有能够开门的恶魔才会通过门。那些不能开门的恶魔将留在舱口后面,即使它是可通行的。
+
+=== 陷阱 ===
+因为所有恶魔都避免陷阱,诱捕恶魔可能非常困难——但并非不可能。当恶魔被网住时,它们会变得容易受到陷阱的影响,因此如果你能找到一种方法将网放到你的陷阱上,恶魔将像任何其他生物(包括你自己的矮人!)一样受到影响。
+
+或者,可以使用高级触发陷阱。恶魔不会触发[[压力板]],但如果你能遏制它们,收回直立尖刺、将它们浇铸到[[黑曜石]]中或将一部分山脉塌陷到它们身上都是有效的。任何涉及这类陷阱的计划都必须包括一种方法来将恶魔诱饵到你想要它们去的地方,以及一种方法来将恶魔保持在你想要它们在的地方。驯服的动物似乎可以很好地作为诱饵,但需要在它们被杀时更换。桥梁可用于遏制恶魔,但要注意上述解构的风险。
+
+许多陷阱需要考虑极端温度的可能性来设计。黑曜石诱捕器可能会发现在浇铸过程中使用的水在接触岩浆之前沸腾成蒸汽。经常,由火或蒸汽制成的恶魔在死亡时爆炸,烤焦附近的生物和家具。这种效果可以破坏直立尖刺,让你面对一个满是恶魔的陷阱室而你没有办法处理。恶魔不会直接破坏支撑物,但足够热的恶魔可能会通过热损伤导致附近支撑物的破坏。聪明的矮人可能会找到一种方法将其转化为优势,如果只有这样的东西存在的话。
+
+=== 远程战斗 ===
+远程战斗听起来很吸引人,特别是面对在死亡时以难以想象的高温爆炸的恶魔,但应该仔细考虑。大多数恶魔拥有比弩手更强大的远程攻击。由弱材料制成的恶魔可以很容易地被箭矢杀死或肢解,但由更坚固材料制成的无机恶魔只会遭受碎裂的"骨头"。
+
+[[防御工事]]很有吸引力,因为它们可以直接挖入[[金刚石]]而不会将你的要塞暴露于通往恶魔的路径。即使由蒸汽制成的恶魔也无法通过防御工事,除非它被7/7的水或岩浆淹没。具有综合征攻击的恶魔可能会在没有路径的情况下通过防御工事攻击,尽管它们这样做的频率似乎低于有路径时。
+
+尽管如此,如果你遏制一群由较弱材料组成的恶魔,弩手可能非常有效。
+
+=== 近战 ===
+恶魔可能是非常可怕的近战对手,因为每一只单独的恶魔几乎都有[[巨兽]]的大小,速度极快,并且拥有巨大的天然战斗技能。这已经够糟糕了,但往往有几页而不是个体。但是,恶魔仍然可以在近战中被击败。
+
+尽管它们有强大的攻击,但许多恶魔由非常脆弱的材料组成,如盐、雪、蒸汽或污垢。强有力的一拳可以斩首这样的生物。然而,一些恶魔可以由更坚硬的材料制成,击倒由矿物或盔甲级金属组成的恶魔可能非常困难。钝器对较弱材料的恶魔通过切断肢体和身体部位(尽管是钝性状态)可以合理有效,但对恶魔的效果不如对地球上的敌人那么有效,因为它们不会遭受疼痛和失血;没有内脏器官或失血,穿刺武器相对无效。优质的斩击武器可以可靠地击倒任何材料类型的恶魔。
+
+近战的挑战是如何在保护免受区域效果综合征攻击和死亡爆炸的同时处理大量强大的战斗者。通过迷宫式战场限制可见性是一个好的开始。区域效果表明用连续的小波近战矮人来迎接它们,但如果矮人太少,它们将在造成任何伤害之前被数百个愤怒的恶魔屠杀。
+
+在所有情况下,你的恶魔战斗近战矮人应该装备精良(钢和金刚石)并且在一些(如果不是全部)相关战斗技能方面达到传奇。
+
+=== 清理 ===
+不幸的是,一旦恶魔波被处理,还没有结束。带有[[综合征]]的灰尘和血液可能散落在战场和你的幸存者身上,并且可能非常难以隔离和遏制。一些矮人可能会从与非常热的恶魔的遭遇中携带燃烧的物品回来。幸存者都应该通过浅水池以清洗他们和他们的装备上的任何危险物并扑灭任何火焰。任何用于战斗的路径最好放弃并围起来。恶魔将继续从地下世界的地图边缘进入,就像地表的野生动物一样,但与初始波的路径不同,即使存在简单的畅通无阻的路径进入你的要塞,也满足于在地下世界中徘徊。
+
+== 被杀的恶魔 ==
+只有非智能恶魔可以屠宰,屠宰它们会产生类似于[[遗忘的野兽]]的产品,包括大量[[肉]]和[[骨头]]、鲜艳的[[毛发]]、[[羽毛]]、[[鳞片]]或[[甲壳]],以及[[壳]](如果恶魔有的话)。从恶魔获得的所有材料的价值乘数为1,并不比它们的普通对应物明显更好。
+
+无机恶魔无法屠宰,杀死它们后你只能获得一具巨大的恶魔尸体,用于你的[[愚蠢的矮人技巧]]。
+
+{{D for Dwarf}}
+
+恶魔们几乎不知道,尽管它们的爪子和火焰无法穿透封印它们的[[金刚石]],但一把简单的[[铜]][[镐]](或任何其他类型的镐,就此而言)可以轻松地挖穿它。Armok禁止这些邪恶的生物手中拿到一把。
+
+{{gamedata|title=示例原始数据(从world.sav提取)|[OBJECT:CREATURE]
+
+[CREATURE:DEMON_1]
+[NAME:brine brute:brine brutes:brine brute]
+[CASTE_NAME:brine brute:brine brutes:brine brute]
+[GENERATED]
+[DEMON]
+[NATURAL_SKILL:WRESTLING:10]
+[NATURAL_SKILL:BITE:10]
+[NATURAL_SKILL:GRASP_STRIKE:10]
+[NATURAL_SKILL:STANCE_STRIKE:10]
+[NATURAL_SKILL:MELEE_COMBAT:10]
+[NATURAL_SKILL:RANGED_COMBAT:10]
+[NATURAL_SKILL:DODGING:10]
+[NATURAL_SKILL:SITUATIONAL_AWARENESS:10]
+[LARGE_ROAMING]
+[LARGE_PREDATOR]
+[DIFFICULTY:10]
+[BIOME:SUBTERRANEAN_CHASM]
+[UNDERGROUND_DEPTH:5:5]
+[POPULATION_NUMBER:5:10]
+[CLUSTER_NUMBER:1:5]
+[FEMALE]
+[PHYS_ATT_RANGE:STRENGTH:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:TOUGHNESS:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:ENDURANCE:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:RECUPERATION:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:DISEASE_RESISTANCE:700:1300:1400:1500:1600:1800:2500]
+[MENT_ATT_RANGE:ANALYTICAL_ABILITY:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:FOCUS:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:WILLPOWER:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:PATIENCE:0:333:666:1000:2333:3666:5000]
+[MENT_ATT_RANGE:MEMORY:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:LINGUISTIC_ABILITY:450:1050:1150:1250:1350:1550:2250]
+[MENT_ATT_RANGE:MUSICALITY:0:333:666:1000:2333:3666:5000]
+[MENT_ATT_RANGE:SOCIAL_AWARENESS:700:1300:1400:1500:1600:1800:2500]
+[PERSONALITY:ANXIETY_PROPENSITY:0:0:0]
+[PERSONALITY:DEPRESSION_PROPENSITY:0:0:0]
+[PERSONALITY:BASHFUL:0:0:0]
+[PERSONALITY:STRESS_VULNERABILITY:0:0:0]
+[PERSONALITY:FRIENDLINESS:0:0:0]
+[PERSONALITY:ASSERTIVENESS:100:100:100]
+[PERSONALITY:DISDAIN_ADVICE:100:100:100]
+[PERSONALITY:CHEER_PROPENSITY:0:0:0]
+[PERSONALITY:GRATITUDE:0:0:0]
+[PERSONALITY:TRUST:0:0:0]
+[PERSONALITY:ALTRUISM:0:0:0]
+[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]
+[PERSONALITY:CRUELTY:100:100:100]
+[PERSONALITY:PRIDE:100:100:100]
+[PERSONALITY:GREED:100:100:100]
+[NO_DRINK]
+[NO_EAT]
+[NO_SLEEP]
+[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
+[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+[MAGMA_VISION]
+[EVIL]
+[FANCIFUL]
+[SUPERNATURAL]
+[AMPHIBIOUS]
+[PETVALUE:2000]
+[GRASSTRAMPLE:20]
+[BUILDINGDESTROYER:2]
+[ALL_ACTIVE]
+[SWIMS_INNATE]
+[TRAPAVOID]
+[NOPAIN]
+[NOSTUN]
+[NONAUSEA]
+[NOFEAR]
+[NOEXERT]
+[NO_DIZZINESS]
+[NO_FEVERS]
+[LARGE_PREDATOR]
+[SPHERE:FISHING]
+[SPHERE:HUNTING]
+[SPHERE:MISERY]
+[SPHERE:TORTURE]
+[BODY_SIZE:0:0:10000000]
+[CREATURE_TILE:'&']
+[NO_THOUGHT_CENTER_FOR_MOVEMENT]
+[BODY:RCP_BASIC_BODY_STANCE_WITH_HEAD_FLAG:RCP_TWO_FLIGHTLESS_WINGS]
+[TISSUE:UNIFORM_TIS]
+[TISSUE_NAME:tissue:NP]
+[TISSUE_MATERIAL:SALT]
+[TISSUE_MAT_STATE:SOLID_POWDER]
+[MUSCULAR]
+[FUNCTIONAL]
+[STRUCTURAL]
+[RELATIVE_THICKNESS:1]
+[CONNECTS]
+[TISSUE_SHAPE:LAYER]
+[TISSUE_LAYER:BY_CATEGORY:ALL:UNIFORM_TIS]
+[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
+[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
+[BODY_DETAIL_PLAN:HUMANOID_RELSIZES]
+[NOT_LIVING]
+[NOT_BUTCHERABLE]
+[COLOR:7:0:1]
+[NOBREATHE]
+[EXTRAVISION]
+[FLIER]
+[FIXED_TEMP:10040]
+[FIREIMMUNE]
+[GAIT:SWIM:Maximum Swim Speed:725:10:3:2175:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:SWIM:Faster Swim:1450:5:3:2175:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:SWIM:Fast Swim:2175:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:SWIM:Swim:2900:NO_BUILD_UP:0]( [GAIT:SWIM:Slow Swim:3900:NO_BUILD_UP:0]
+[GAIT:SWIM:Creeping Swim:5900:NO_BUILD_UP:0]
+[GAIT:FLY:Maximum Flight Speed:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:FLY:Faster Flight:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:FLY:Fast Flight:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:FLY:Fly:900:NO_BUILD_UP:0]) [GAIT:FLY:Slow Flight:1900:NO_BUILD_UP:0]
+[GAIT:FLY:Hover:2900:NO_BUILD_UP:0]
+[GAIT:WALK:Scramble:725:10:3:2175:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:WALK:Faster Crawl:1450:5:3:2175:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:WALK:Fast Crawl:2175:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:WALK:Crawl:2900:NO_BUILD_UP:0]
+[GAIT:WALK:Slow Crawl:5900:NO_BUILD_UP:0]
+[GAIT:WALK:Creep:8900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Scramble:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:CRAWL:Faster Crawl:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:CRAWL:Fast Crawl:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:CRAWL:Crawl:900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
+[DESCRIPTION:A towering slug composed of salt.  It has wings and it has a gaunt appearance.]
+[PREFSTRING:horrifying features]}}
+
+{{gamedata|title=示例[UNIQUE_DEMON]原始数据(从world.sav提取)|[OBJECT:CREATURE]
+
+[CREATURE:DEMON_3]
+[NAME:clear devil:clear devils:clear devilish]
+[CASTE_NAME:clear devil:clear devils:clear devilish]
+[GENERATED]
+[UNIQUE_DEMON]
+[SPREAD_EVIL_SPHERES_IF_RULER]
+[NATURAL_SKILL:WRESTLING:14]
+[NATURAL_SKILL:BITE:14]
+[NATURAL_SKILL:GRASP_STRIKE:14]
+[NATURAL_SKILL:STANCE_STRIKE:14]
+[NATURAL_SKILL:MELEE_COMBAT:14]
+[NATURAL_SKILL:RANGED_COMBAT:14]
+[NATURAL_SKILL:DODGING:14]
+[NATURAL_SKILL:SITUATIONAL_AWARENESS:14]
+[CAN_LEARN]
+[CAN_SPEAK]
+[DIFFICULTY:10]
+[NO_GENDER]
+[PHYS_ATT_RANGE:STRENGTH:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:TOUGHNESS:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:ENDURANCE:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:RECUPERATION:450:1050:1150:1250:1350:1550:2250]
+[PHYS_ATT_RANGE:DISEASE_RESISTANCE:700:1300:1400:1500:1600:1800:2500]
+[MENT_ATT_RANGE:ANALYTICAL_ABILITY:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:FOCUS:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:WILLPOWER:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:PATIENCE:0:333:666:1000:2333:3666:5000]
+[MENT_ATT_RANGE:MEMORY:1250:1500:1750:2000:2500:3000:5000]
+[MENT_ATT_RANGE:LINGUISTIC_ABILITY:450:1050:1150:1250:1350:1550:2250]
+[MENT_ATT_RANGE:MUSICALITY:0:333:666:1000:2333:3666:5000]
+[MENT_ATT_RANGE:SOCIAL_AWARENESS:700:1300:1400:1500:1600:1800:2500]
+[PERSONALITY:ANXIETY_PROPENSITY:0:0:0]
+[PERSONALITY:DEPRESSION_PROPENSITY:0:0:0]
+[PERSONALITY:BASHFUL:0:0:0]
+[PERSONALITY:STRESS_VULNERABILITY:0:0:0]
+[PERSONALITY:FRIENDLINESS:0:0:0]
+[PERSONALITY:ASSERTIVENESS:100:100:100]
+[PERSONALITY:DISDAIN_ADVICE:100:100:100]
+[PERSONALITY:CHEER_PROPENSITY:0:0:0]
+[PERSONALITY:GRATITUDE:0:0:0]
+[PERSONALITY:TRUST:0:0:0]
+[PERSONALITY:ALTRUISM:0:0:0]
+[PERSONALITY:SWAYED_BY_EMOTIONS:0:0:0]
+[PERSONALITY:CRUELTY:100:100:100]
+[PERSONALITY:PRIDE:100:100:100]
+[PERSONALITY:GREED:100:100:100]
+[NO_DRINK]
+[NO_EAT]
+[NO_SLEEP]
+[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
+[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+[MAGMA_VISION]
+[EVIL]
+[FANCIFUL]
+[SUPERNATURAL]
+[AMPHIBIOUS]
+[PETVALUE:2000]
+[GRASSTRAMPLE:20]
+[BUILDINGDESTROYER:2]
+[ALL_ACTIVE]
+[SWIMS_INNATE]
+[TRAPAVOID]
+[NOPAIN]
+[NOSTUN]
+[NONAUSEA]
+[NOFEAR]
+[NOEXERT]
+[NO_DIZZINESS]
+[NO_FEVERS]
+[LARGE_PREDATOR]
+[SPHERE:BLIGHT]
+[SPHERE:DEATH]
+[SPHERE:MURDER]
+[SPHERE:TWILIGHT]
+[BODY_SIZE:0:0:10000000]
+[CREATURE_TILE:'&']
+[BODY:RCP_UPPER_BODY:RCP_LOWER_BODY:RCP_NECK:RCP_HEAD:RCP_TWO_PART_ARMS:RCP_TWO_PART_LEGS:RCP_TAIL:RCP_4_FINGERS:RCP_4_TOES:RCP_LUNGS:RCP_HEART:RCP_GUTS:RCP_THROAT:RCP_SPINE:RCP_UPPER_SPINE:RCP_BRAIN:RCP_SKULL:RCP_MOUTH:RCP_TONGUE:RCP_TEETH:RCP_RIBS]
+[CANOPENDOORS]
+[EQUIPS]
+[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
+[REMOVE_MATERIAL:SKIN]
+[REMOVE_MATERIAL:HAIR]
+[USE_MATERIAL_TEMPLATE:SCALE:SCALE_TEMPLATE]
+[BODY_DETAIL_PLAN:STANDARD_TISSUES]
+[REMOVE_TISSUE:SKIN]
+[REMOVE_TISSUE:HAIR]
+[USE_TISSUE_TEMPLATE:SCALE:SCALE_TEMPLATE]
+[BODY_DETAIL_PLAN:VERTEBRATE_TISSUE_LAYERS:SCALE:FAT:MUSCLE:BONE:CARTILAGE]
+[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
+[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
+[BODY_DETAIL_PLAN:HUMANOID_RIBCAGE_POSITIONS]
+[BODY_DETAIL_PLAN:HUMANOID_RELSIZES]
+[USE_MATERIAL_TEMPLATE:SINEW:SINEW_TEMPLATE]
+[TENDONS:LOCAL_CREATURE_MAT:SINEW:200]
+[LIGAMENTS:LOCAL_CREATURE_MAT:SINEW:200]
+[HAS_NERVES]
+[NOBREATHE]
+[EXTRAVISION]
+[FIXED_TEMP:10040]
+[SELECT_MATERIAL:SCALE]
+[STATE_COLOR:ALL_SOLID:CLEAR]
+[COLOR:0:0:1]
+[SELECT_TISSUE_LAYER:HEART:BY_CATEGORY:HEART]
+[PLUS_TISSUE_LAYER:SCALE:BY_CATEGORY:THROAT]
+[TL_MAJOR_ARTERIES]
+[USE_MATERIAL_TEMPLATE:GOO:GOO_TEMPLATE]
+[BLOOD:LOCAL_CREATURE_MAT:GOO:LIQUID]
+[USE_MATERIAL_TEMPLATE:CLAW:NAIL_TEMPLATE]
+[USE_TISSUE_TEMPLATE:CLAW:CLAW_TEMPLATE]
+[TISSUE_LAYER:BY_CATEGORY:FINGER:CLAW:FRONT]
+[TISSUE_LAYER:BY_CATEGORY:TOE:CLAW:FRONT]
+[USE_MATERIAL_TEMPLATE:POISON:CREATURE_EXTRACT_TEMPLATE]
+[ENTERS_BLOOD]
+[SYNDROME]
+[SYN_NAME:demon sickness]
+[SYN_AFFECTED_CLASS:GENERAL_POISON]
+[SYN_IMMUNE_CREATURE:DEMON_3:ALL]
+[SYN_INJECTED]
+[SYN_CONTACT]
+[SYN_INHALED]
+[SYN_INGESTED]
+[CE_DROWSINESS:SEV:100:PROB:100:START:565:PEAK:1649:END:4938:RESISTABLE:SIZE_DELAYS:SIZE_DILUTES]
+[SECRETION:LOCAL_CREATURE_MAT:POISON:LIQUID:BY_CATEGORY:ALL:SCALE]
+[FIREIMMUNE]
+[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
+[ATTACK_SKILL:GRASP_STRIKE]
+[ATTACK_VERB:punch:punches]
+[ATTACK_CONTACT_PERC:100]
+[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK_FLAG_WITH]
+[ATTACK_PRIORITY:MAIN]
+[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
+[ATTACK_SKILL:STANCE_STRIKE]
+[ATTACK_VERB:kick:kicks]
+[ATTACK_CONTACT_PERC:100]
+[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK_FLAG_WITH]
+[ATTACK_PRIORITY:MAIN]
+[ATTACK_FLAG_BAD_MULTIATTACK]
+[ATTACK:BITE:CHILD_BODYPART_GROUP:BY_CATEGORY:HEAD:BY_CATEGORY:TOOTH]
+[ATTACK_SKILL:BITE]
+[ATTACK_VERB:bite:bites]
+[ATTACK_CONTACT_PERC:100]
+[ATTACK_PENETRATION_PERC:100]
+[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK_FLAG_EDGE]
+[ATTACK_PRIORITY:MAIN]
+[ATTACK_FLAG_CANLATCH]
+[ATTACK:FSCRATCH:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:GRASP:BY_CATEGORY:ALL:CLAW]
+[ATTACK_SKILL:GRASP_STRIKE]
+[ATTACK_VERB:scratch:scratches]
+[ATTACK_CONTACT_PERC:100]
+[ATTACK_PENETRATION_PERC:100]
+[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK_FLAG_EDGE]
+[ATTACK_PRIORITY:MAIN]
+[ATTACK:TSCRATCH:CHILD_TISSUE_LAYER_GROUP:BY_TYPE:STANCE:BY_CATEGORY:ALL:CLAW]
+[ATTACK_SKILL:STANCE_STRIKE]
+[ATTACK_VERB:scratch:scratches]
+[ATTACK_CONTACT_PERC:100]
+[ATTACK_PENETRATION_PERC:100]
+[ATTACK_PREPARE_AND_RECOVER:2:2]
+[ATTACK_FLAG_EDGE]
+[ATTACK_PRIORITY:MAIN]
+[ATTACK_FLAG_BAD_MULTIATTACK]
+[SELECT_MATERIAL:ALL]
+[MAT_FIXED_TEMP:10040]
+[HEATDAM_POINT:NONE]
+[COLDDAM_POINT:NONE]
+[IGNITE_POINT:NONE]
+[GAIT:SWIM:Maximum Swim Speed:725:10:3:2175:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:SWIM:Faster Swim:1450:5:3:2175:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:SWIM:Fast Swim:2175:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:SWIM:Swim:2900:NO_BUILD_UP:0]
+[GAIT:SWIM:Slow Swim:3900:NO_BUILD_UP:0]
+[GAIT:SWIM:Creeping Swim:5900:NO_BUILD_UP:0]
+[GAIT:WALK:Sprint:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:WALK:Run:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:WALK:Jog:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:WALK:Walk:900:NO_BUILD_UP:0]
+[GAIT:WALK:Stroll:1900:NO_BUILD_UP:0]
+[GAIT:WALK:Creep:2900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Scramble:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:CRAWL:Faster Crawl:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:CRAWL:Fast Crawl:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:CRAWL:Crawl:900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
+[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
+[GAIT:CLIMB:Scramble:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+[GAIT:CLIMB:Faster Climb:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+[GAIT:CLIMB:Fast Climb:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+[GAIT:CLIMB:Climb:900:NO_BUILD_UP:0]
+[GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
+[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
+[DESCRIPTION:A gigantic eyeless chameleon twisted into humanoid form.  It squirms and fidgets.  Its clear scales are large and set far apart.  Beware its noxious secretions!]}}
+
+{{Creatures}}
+{{Category|Amphibious}}
+{{Category|Building destroyer}}
+{{Category|HFS}}
+{{Category|Fanciful}}
+{{Category|Fire immune}}
+{{Category|Learns}}
+{{Category|No Exert}}
+{{Category|No Pain}}
+{{Category|No Stun}}
+[[ru:Demon]]
+
+{{Translation| dwarven = uthgúr| elvish  = slevina| goblin  = arstruk| human   = rohir}}

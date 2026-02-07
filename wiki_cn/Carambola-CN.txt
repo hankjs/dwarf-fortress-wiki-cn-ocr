@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=carambola_trunk_sprite.png
-|product=carambola_sprite.png
-|sapling=carambola_sapling.png}}
+{{Treelookup/0|graphic=carambola_trunk_sprite.png|product=carambola_sprite.png|sapling=carambola_sapling.png}}
 {{av}}
 
 '''杨桃'''（也称为星果）是地面上发现的众多树属之一。像绝大多数地面树木一样，杨桃[[wood|木材]]是棕色的，产出棕色产品。

@@ -1,0 +1,29 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=crundle_sprite.png|portrait=crundle_portrait.png|wiki=no|contrib=no|bone=2-4|meat=2-6|fat=2-6|skull=1|intestine=1|skin=scale}}
+{{av}}
+{{creaturedesc}}
+
+'''克朗德'''是一种小型的、像小恶魔的爬行[[creature|生物]],在地下的[[caverns|洞穴]]中成群游荡。它们倾向于大群抵达要塞(一次15到20只),并且非常常见,可能比其他任何地下野生动物都更常见,除了可能的[[elk bird|麋鸟]]。所有克朗德生来就是成年个体,并拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+它们往往相当虚弱和胆小,即使成群结队,也不是特别有攻击性。然而,它们'''可以'''在幸运一击时使手无寸铁的[[dwarf|矮人]]致残甚至致死,但通常是所有地下生物中最不危险的。它们仍然很烦人,因为它们经常打断在洞穴中执行有用工作的矮人。由于它们的数量,野生克朗德可用于[[Live training|训练]]你的[[military|军队]]。
+
+克朗德似乎有机会在[[adventure mode|冒险模式]]的程序性[[fortress|要塞]]中生成。如果你[[No Exert|免疫疲劳]],有[[copper|铜]]制[[armor|盔甲]]并能以某种方式[[wrestling|抓住]]它们中的几只,你可以通过让它们攻击你来非常快速地提升各种战斗[[attribute|属性]],更重要的是闪避和盾牌技能,如果你因为[[site|地点]]将自己与地表隔离而无法进入地表的话。基本上,它们就像[[cavern|洞穴]]的不会飞的鸟类。
+
+如果你依靠陷阱来防御要塞,应该注意[[trap design|坑陷阱]]对克朗德相当无效。它们需要长距离坠落才能摔死,除非当然地面被[[syndrome|毒药]]、[[Trap#Upright_Spear.2FSpike|尖刺]]或最好的[[magma|岩浆]]淹没。它们可以被[[cage trap|笼陷阱]]捕获,而带有基本武器的[[weapon trap|武器陷阱]]通常足以严重伤害或杀死它们。然而,由于它们的庞大数量,克朗德容易使你的陷阱防御饱和,允许更[[giant cave spider|危险]]的[[jabberer|野兽]]通过。
+
+克朗德可以被训练,并且是相当多产的[[egg|产蛋者]],使它们适合[[egg production|蛋生产]]。它们也可以被繁殖用于[[meat|肉类]],尽管有更好的动物可选,因为克朗德不提供[[leather|皮革]]。由于它们生来就是成年个体,它们永远无法被驯化。训练过的克朗德可用于要塞防御设计,但它们应该只被用作肉盾和/或分散注意力,因为它们是非常糟糕的战士。总的来说,当洞穴中有[[giant cave spider|许多]][[cave crocodile|更]][[jabberer|有趣]]的[[rutherer|生物]]时,克朗德是训练的糟糕选择(但为你的[[animal trainer|动物训练师]]提供良好经验,因为它们需要频繁重新训练)。
+
+与大多数生物不同,它们无法在[[object testing arena|物体测试竞技场]]中生成。
+
+有些矮人因其''紧张能量''而[[Preferences|喜欢]]克朗德。
+
+==画廊==
+<gallery widths="200px" heights="200px" position="center">
+Crundles.png|克朗德对有经验的[[adventurer|冒险者]]应该不成问题。
+crundle_preview.jpg|许多讨厌的克朗德。<br><small>''Art by kruggsmash''</small>
+crundle_preview2.png|一只几乎上镜的克朗德。<br><small>''Art by Arne''</small>
+crundle_preview3.png|一只更大、更凶恶的克朗德。<br><small>''Art by Quinmael''</small>
+Notebook_09_Crundle.jpg|''Concept art by Bay 12 Games.''</gallery>
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

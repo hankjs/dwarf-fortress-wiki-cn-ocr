@@ -1,23 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=beaver premium.png
-|portrait=beaver_portrait_anim.gif
-|contrib=no
-|lung=2
-|heart=0-1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=0-1
-|spleen=0-1
-|kidney=0-2
-|brain=1
-|skull=1
-|fat=12-13
-|meat=12-13
-|bone=10-12
-|skin=hide
-|wiki=yes}}
+{{creaturelookup/0|image=beaver premium.png|portrait=beaver_portrait_anim.gif|contrib=no|lung=2|heart=0-1|intestine=1|liver=1|tripe=1|sweetbread=0-1|spleen=0-1|kidney=0-2|brain=1|skull=1|fat=12-13|meat=12-13|bone=10-12|skin=hide|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

@@ -1,19 +1,11 @@
 {{Quality|fine}}
-{{Alloy|name=Brass|c
-|sample=
-[[File:BrassSample.png|center|frameless]]
-|graphic=brass_bar_sprite.png
-|color=6:6:1
-|color1=7:3:0
-|color2=6:4:0
-|uses=* [[Metalsmith's forge|金属锻造]]
-|recipe=
+{{Alloy|name=Brass|c|sample=
+[[File:BrassSample.png|center|frameless]]|graphic=brass_bar_sprite.png|color=6:6:1|color1=7:3:0|color2=6:4:0|uses=* [[Metalsmith's forge|金属锻造]]|recipe=
 * 1 [[zinc|锌]] [[bar|锭]]
 * 1 [[copper|铜]] [[bar|锭]]
 - 或 -
 * 1 [[zinc|锌]] [[ore|矿石]]
-* 1 [[copper|铜]] [[ore|矿石]]
-|properties=
+* 1 [[copper|铜]] [[ore|矿石]]|properties=
 * [[Material value|材料价值]] 7☼
 * [[Material science|冲击强度]] 101.5 MPa
 * [[Material science|剪切强度]] 290 MPa
@@ -24,8 +16,7 @@
 * [[Solid density|固体密度]] 8550 kg/m³
 * 液体[[density|密度]] 8000 kg/m³
 * [[Specific heat|比热容]] 377 J/kg·K
-* [[Color|颜色]] 黄铜色
-}}{{av}}
+* [[Color|颜色]] 黄铜色}}{{av}}
 
 '''黄铜'''是[[zinc|锌]]和[[copper|铜]]的[[metal|合金]]。黄铜可以在[[metalsmith's forge|金属锻造炉]]用于制作[[furniture|家具]]和[[metal crafter|其他物品]]。
 
@@ -37,12 +28,7 @@
 
 [[File:Zoroastrian temple doors in Yazd.jpg|thumb|center|400px|这是一扇精细制作的黄铜门。它镶嵌着黄铜。物品上有两个人类和两支长矛的黄铜图像。人类正握着长矛。]]
 
-{{Translation
-| dwarven = konos
-| elvish  = irìci
-| goblin  = orbuk
-| human   = athod
-}}
+{{Translation| dwarven = konos| elvish  = irìci| goblin  = orbuk| human   = athod}}
 
 {{gamedata}}
 {{metals}}

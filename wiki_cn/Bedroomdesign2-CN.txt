@@ -68,28 +68,10 @@ FOR SPECIFIC EXAMPLES, USE ===LEVEL 3===
 
 这种受分形启发的设计将空间效率与更宽的通道走廊相结合，以缓解交通堵塞。楼梯放置在中间，设计可以无限扩展。要减小尺寸，请移除最外围的走廊及所有连接的卧室。要增加尺寸，请使用图片作为指南并遵循相同的径向模式。
 
-{| class="wikitable" style="padding:"
-|-
+{| class="wikitable" style="padding:"|-
 ! style="text-align:left;" | 尺寸
 ! style="text-align:left;" | 容量
-! style="text-align:left;" | 从中心的最大步行距离
-|-
-| style="padding-right:26px;" | 29×29格
-| style="padding-right:26px;" | 48个矮人
-| style="padding-right:26px;" | 23步
-|-
-| style="padding-right:26px;" | 45×45格
-| style="padding-right:26px;" | 120个矮人
-| style="padding-right:26px;" | 39步
-|-
-| style="padding-right:26px;" | 61×61格
-| style="padding-right:26px;" | 224个矮人
-| style="padding-right:26px;" | 55步
-|-
-| style="padding-right:26px;" | 77×77格
-| style="padding-right:26px;" | 360个矮人
-| style="padding-right:26px;" | 71步
-|}
+! style="text-align:left;" | 从中心的最大步行距离|-| style="padding-right:26px;" | 29×29格| style="padding-right:26px;" | 48个矮人| style="padding-right:26px;" | 23步|-| style="padding-right:26px;" | 45×45格| style="padding-right:26px;" | 120个矮人| style="padding-right:26px;" | 39步|-| style="padding-right:26px;" | 61×61格| style="padding-right:26px;" | 224个矮人| style="padding-right:26px;" | 55步|-| style="padding-right:26px;" | 77×77格| style="padding-right:26px;" | 360个矮人| style="padding-right:26px;" | 71步|}
 
 <br style="clear:both" />
 

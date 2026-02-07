@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=ore_silvery2_sprite.png}}
+{{stonelookup/0|graphic=ore_silvery2_sprite.png}}
 {{av}}
 
 '''锡石'''是[[tin|锡]]的唯一[[ore|矿石]]。这种矿石也可以熔炼成[[alloy|合金]][[bronze|青铜]]、[[trifle pewter|次等白镴]]和[[fine pewter|精制白镴]]。

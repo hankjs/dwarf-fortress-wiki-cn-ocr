@@ -1,0 +1,37 @@
+{{Quality|Superior}}
+{{av}}
+'''农夫(Farmer)'''是一个用于生产和使用[[plants|植物]]、[[meat|肉类]]、[[Cloth|植物纤维布料]]和[[honey bee|养蜂产品]]的职业。技能等级最高属于该类别的矮人被称为农夫。从图形上看，被分配到农夫工作的矮人会穿着棕色衣服。
+
+令人困惑的是，与[[Farming|农耕(田地)]][[labor|劳动]]相关的技能实际上是[[Planter|种植者]]。
+
+农业技能包括：
+
+{{Skill Box|Farmer|6:0|6:0|
+* [[Beekeeper|养蜂人]]
+* [[Brewer|酿酒师]]
+* [[Butcher|屠夫]]
+* [[Cheese maker|制酪师]]
+* [[Cook|厨师]]
+* [[Dyer|染色工]]
+* [[Gelder|阉割师]]
+* [[Planter|种植者]]
+* [[Herbalist|草药师]]
+* [[Lye maker|碱液制造者]]
+* [[Milker|挤奶工]]
+* [[Miller|磨坊主]]
+* [[Potash maker|草木灰制造者]]
+* [[Presser|压榨工]]
+* [[Shearer|剪毛工]]
+* [[Soaper|制皂师]]
+* [[Spinner|纺纱工]]
+* [[Tanner|制革工]]
+* [[Thresher|打谷工]]
+* [[Wood burner|木炭烧制工]]}}
+
+;另见:
+:* [[Farming|农业]]
+:* [[Farmer's workshop|农夫工坊]]
+
+{{skills}}
+
+{{Category|Professions}}

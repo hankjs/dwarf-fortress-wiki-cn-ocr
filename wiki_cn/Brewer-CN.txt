@@ -1,21 +1,11 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Brewer
-| profession = [[Farmer|农夫]]
-| job name   = [[Brewing|酿造]]
-| tasks      =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Brewer| profession = [[Farmer|农夫]]| job name   = [[Brewing|酿造]]| tasks      =
 * 从植物酿造[[alcohol|饮料]]
 * 从水果酿造[[alcohol|饮料]]
-* 制作蜂蜜酒
-| workshop = [[Still|蒸馏器]]
-| attributes =
+* 制作蜂蜜酒| workshop = [[Still|蒸馏器]]| attributes =
 * 力量
 * 敏捷
-* 动觉感知
-}}
+* 动觉感知}}
 {{av}}
 
 每个[[dwarf|矮人]]最好的朋友,而且确实是要塞中的摇滚巨星!'''酿酒师'''将各种[[crop|植物]]和[[honey|蜂蜜]]酿造成[[alcohol|酒精]]饮料,如麦芽酒、啤酒和蜂蜜酒。

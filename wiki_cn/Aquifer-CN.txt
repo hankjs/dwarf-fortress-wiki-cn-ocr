@@ -56,8 +56,7 @@
 * [[siliceous ooze|硅质软泥]]
 * [[sandstone|砂岩]]
 * [[conglomerate|砾岩]]
-* [[puddingstone|布丁石]]
-}}
+* [[puddingstone|布丁石]]}}
 <!-- Note: only layers with the [AQUIFER] token can support aquifers. Other layers can appear directly below an aquifer and will blink "damp", but they are not actually part of the aquifer - digging into them will still cause water to come from above. Please check the raws for the [AQUIFER] token before adding to this list. -->
 
 '''不能'''包含含水层的层，尽管它们的名字暗示相反：
@@ -68,8 +67,7 @@
 * [[clay loam|粘壤土]]
 * [[siltstone|粉砂岩]]
 * [[mudstone|泥岩]]
-* [[claystone|粘土岩]]
-}}
+* [[claystone|粘土岩]]}}
 
 == 在含水层中工作 ==
 需要记住的几点：

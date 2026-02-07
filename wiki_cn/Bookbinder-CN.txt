@@ -1,0 +1,17 @@
+{{Quality|Superior}}
+{{av}}
+
+:''此处重定向"装订"。关于物品，请参阅[[Book binding|书籍装订]]。''
+
+{{v50_skill| color      = 1:1| graphic    = [[File:indigo_sprite_icon.png]]| graphicmargin = 106px| skill      = Bookbinder| profession = [[Craftsdwarf]]| job name   = [[Bookbinding]]| tasks      =
+* 制作卷轴
+* 制作活页
+* 装订书籍| workshop = * [[Craftsdwarf's workshop|工匠作坊]]| attributes =
+* Agility
+* Spatial Sense
+* Kinesthetic Sense}}'''装订师'''是与[[bookbinding|装订]][[labor|劳动]]相关的技能。装订师在[[craftsdwarf's workshop|工匠作坊]]制作[[scroll|卷轴]]、[[quire|活页]]和[[book|书籍]]。
+
+[[File:inquisitor_dwarf.jpg|thumb|400px|center|"Don't mind me, just reading about a goblin siege that took place in this very library."<br><small>''Art by Vukasin Ivkovic''</small>]]
+{{Skills}}
+
+[[Fr:Relieur (bookbinder)]]

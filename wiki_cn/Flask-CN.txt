@@ -1,0 +1,35 @@
+{{Quality|Superior}}
+{{av}}
+{{v50_item | name=Flask|graphic=[[File:flask_icon.png]] [[File:vial_icon.png]] [[File:waterskin_icon.png]]|tile=¡|col=3:0:1|metal=y|leather=y|glass=y|bars=1|used for=
+* Storing [[liquid|液体]]|value=10|size=1,000|capacity=1,800}}
+'''瓶子'''（Flasks）是矮人在狩猎或执行军事任务时用来携带[[alcohol|酒精]]或[[water|水]]的容器。
+有三种不同的物品属于这个定义：
+
+{| class="wikitable"|-
+! 物品 !! 图形 !! 材料 !! 工人 !! 工坊|-| 瓶子（Flask） || style="text-align:center;"|[[File:flask_icon.png]] || [[Metal|金属]] || [[Metal crafter|金属工匠]] || [[metalsmith's forge|金属锻造炉]]或[[magma forge|岩浆锻造炉]]|-| 水袋（Waterskin） || style="text-align:center;"|[[File:waterskin_icon.png]] || [[Leather|皮革]] || [[Leatherworker|皮革工]] || [[Leather works|皮革作坊]]|-| 小瓶（Vial） || style="text-align:center;"|[[File:vial_icon.png]] || [[Glass|玻璃]] || [[Glassmaker|玻璃制造商]] || [[glass furnace|玻璃熔炉]]或[[magma glass furnace|岩浆玻璃熔炉]]|}
+
+一次工作创建三个瓶子、水袋或小瓶。
+
+瓶子和水袋在功能上是等效的。小瓶可以用作瓶子或水袋，也用于制作[[extracts|提取物]]；然而，士兵有时会选择使用装满的小瓶来储存饮料。{{bug|3116}}瓶子和水袋''不能''用于制作提取物。瓶子可以容纳多达三单位的酒精或水——酒精比水更可取，因为它可以防止不快乐的想法，并且不会在低温下冻结。可以从{{menu icon|q}}[[squad|小队]]界面->装备->补给中告诉士兵如何填充他们的瓶子。不使用时，瓶子将存放在[[finished good|成品]]储物区。
+
+== 冒险模式 ==
+[[File:Leather Waterskin, Cave of the Letters, Judean Desert, 132-135 AD (28349539727).jpg|thumb|300px|right|古代皮革水袋。]]
+如上所述，瓶子和水袋在功能上是等效的，除了由于材料，瓶子在角色创建中更昂贵。任何一个最初都会装满水。
+
+要从容器中喝水，按{{Adv menu icon|e}}并选择"water"（或装满的任何东西）。要填充任何容器，站在液态水源旁边，{{Adv menu icon|i}}与容器互动并选择"fill"；它们也可以从其他液体的[[contaminant|污染]]池中填充，如血液；或用雪填充，但不能用[[ice|冰]]；或从同一方块中的容器填充，如桶或罐。
+
+在冒险者模式下，任何容器中的水在足够冷的天气下经过一段时间后会冻结。产生的冰可以舔而不是喝，但不会解渴或从这个动作中融化；然而，冰可以使用[[campfire|篝火]]融化，通过{{Adv menu icon|I}}与容器或冰互动。
+
+瓶子或水袋可以{{Adv menu icon|w}}穿在身体服装的内部，默认为上身。如果冒险者在上身和下身什么都没穿，他们将无法穿戴任何一个。如果从穿着瓶子或水袋的身体部位移除所有其他物品，当时间流逝时它将被丢弃。穿戴任何一个似乎不会影响其内容物的冻结。''Be extravagant''[[need|需求]]不会通过穿戴改进[[quality|品质]]的瓶子或水袋得到满足，可能是因为它们穿在服装'''内部'''而不是身体部位上。
+
+[[mysterious dungeon|神秘地下城]]中的[[Dungeon guardian|地下城守护者]]携带装有[[mythical substance|神话物质]]的水袋，可以治愈消费它的人，甚至再生肢体。
+
+== 另见 ==
+
+* [[Barrel|桶]]
+* [[Bucket|水桶]]
+* [[Goblet|高脚杯]]
+* [[Jug|罐]]
+
+{{Category|Items}}
+[[ru:Flask]]

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=black-cap_trunk_sprite.png
-|sapling=Black-cap_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=black-cap_trunk_sprite.png|sapling=Black-cap_sapling.png|wiki=no}}
 {{av}}
 
 '''黑帽菇'''是一种[[underground|地下]][[tree|树木]]，生长在靠近[[water|水]]的[[caverns|洞穴]]下层。不出所料，它们被砍倒时会产生黑色的原木。由于它们的颜色，活的黑帽菇树苗与被践踏的树苗无法区分。

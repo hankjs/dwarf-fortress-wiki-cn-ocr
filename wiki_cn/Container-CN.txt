@@ -1,0 +1,27 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Move|Box}}
+
+{{V50_furniture|name=Container|graphic=[[File:Chest_Premium.png]]|tile=Æ|wood=y|stonecarve=y|metal=y|bars=3|glass=y|cloth=n|leather=n|rooms=
+* [[Barracks]]
+* [[Hospital]]
+* [[Library]]
+* [[Tavern]]
+* [[Temple]]|value=10|size=20,000|capacity=60,000}}
+{{Translation| dwarven = etost | elvish = thale | goblin = ustêx | human = puti}}
+:''本文是关于可建造的容器,对于所有"包含"其他物品的储存物品类型,请参见:[[storage|储存]]''。
+
+'''容器'''是用于各种类似类型[[item|物品]]的通用术语,用于[[storage|储存]]。容器根据它们的材料有不同的名称(见下表),但它们都具有相同的功能。它们是[[noble|贵族]]的常见要求,它们也有助于增加[[room value|房间价值]]。每种不同类型的容器容纳不同数量的物品。矮人可以穿过有容器的方块。
+
+如果矮人在[[bedroom|卧室]]中没有容器,他们会将任何财物留在地板上。容器也用于[[barracks|兵营]]储存[[squad|小队]]装备,[[tavern|酒馆]]和[[temple|神殿]]储存乐器(以及[[tavern keeper|酒馆老板]]的杯子),[[library|图书馆]]储存空白书写材料如[[quire|纸张]]。注意''已写''[[book|材料]]需要[[bookcase|书架]]。
+
+容器在某些菜单中列在"工具"下。
+
+;按材料类型的容器名称:
+{| class = "wikitable unsortable"
+! 名称 !! 材料 !! 所需材料|-|'''盒子(Box)'''|[[Glass|玻璃]]| 1袋沙子(+如果制作透明玻璃则需草木灰),或1颗未切割的水晶宝石+1草木灰|-|'''箱子(Coffer)'''|[[Stone|石头]]| 1块岩石|-|'''柜子(Chest)'''|[[Wood|木材]]、[[Metal|金属]]| 1原木或3金属条|}
+
+==另见==
+* [[Storage|储存]]
+
+{{buildings}}

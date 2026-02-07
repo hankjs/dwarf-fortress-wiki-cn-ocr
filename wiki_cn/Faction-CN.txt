@@ -1,0 +1,146 @@
+{{Quality|Exceptional}}
+{{av}}
+'''派系'''管理[[creature|生物]]在彼此存在时的反应方式——世界充满了对你不幸的矮人的危险，似乎几乎所有东西都在试图杀死他们；幸运的是，这些危险在大多数时候也互相敌对。这种对立派系之间的对抗发生在要塞和[[adventurer mode|冒险者模式]]中；明智的玩家会确保它们互相削弱而不是联合起来对抗自己的要塞或冒险者。
+
+在[[object testing arena|对象测试竞技场]]中，创建的每个生物都可以绑定到一个派系（在游戏中称为"方"）。生物将对其派系内的其他生物友好，并对任何其他生物敌对。总共有9999个派系，以及一个对所有其他生物敌对的"独立"选项。
+
+==派系相对敌意==
+
+下表显示了不同派系在对抗时的行为：
+
+{| class="wikitable"|- bgcolor="#dddddd"|| '''[[Dwarf|矮人]]'''| '''[[Elf|精灵]]'''| '''[[Human|人类]]'''| '''[[Goblin|地精]]'''| '''[[Kobold|狗头人]]'''| '''[[Necromancer|死灵法师]]'''| '''[[Undead|不死生物]]'''| '''[[Surroundings|野生动物]]'''| '''[[Animal people|洞穴文明]]'''<sup>2</sup>| '''[[Semi-megabeast|(半)]][[Megabeast|巨兽]]'''| '''[[Demon|HFS]]'''| '''[[Werebeast|兽人]]'''<sup>3</sup>
+|-| '''矮人'''|style="background-color:#cfc"| 友好|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''精灵'''|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#cfc"| 友好|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''人类'''|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#cfc"| 友好<sup>1</sup>|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对<sup>4</sup>|style="background-color:#fcc"| 敌对
+|-| '''地精'''|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#fcc"| 敌对<sup>1</sup>|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对<sup>4</sup>|style="background-color:#fcc"| 敌对
+|-| '''狗头人'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''死灵法师'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''不死生物'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''野生动物'''|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对| 可变<sup>5</sup>|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|- | '''洞穴文明'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''(半)巨兽'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对
+|-| '''HFS'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#cfc"| 友好|style="background-color:#fcc"| 敌对
+|-| '''兽人'''|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对|style="background-color:#fcc"| 敌对| 可变<sup>3</sup>|}
+
+<sup>1</sup><small>先进文明受[[diplomat|外交]]机制的约束，可能根据[[World generation|世界生成]]和根据每个文明的[[ethics|伦理]]定期进行[[war|战争]]或缔结和平条约。一方面，与精灵或人类的战争并不罕见；另一方面，地精几乎总是对其他所有人敌对。</small>
+
+<sup>2</sup><small>洞穴文明对冒险者总是敌对的，对你的矮人通常也是敌对的。当面对[[megabeast|巨兽]]时，它们通常会变得友好。请注意，此行为不适用于大多数[[animal people|动物人]]，他们只是被视为野生动物。</small>
+
+<sup>3</sup><small>[[Werebeast|兽人]]将在满月时从其正常形式下属于的任何文明切换到特殊的、依赖于物种的派系。不同物种的兽人将互相敌对。</small>
+
+<sup>4</sup><small>[[HFS|HFS]]居民通常控制地精文明，有时通过冒充他们的神成为人类文明的统治者。其他HFS居民通常是敌对的。</small>
+
+<sup>5</sup><small>[LARGE_PREDATOR]会攻击任何明显比自己小的东西。在大多数其他情况下，野生动物会逃离非[BENIGN]野生动物。两个[BENIGN]野生动物会互相忽略。</small>
+
+==实体和文明==
+
+在''矮人要塞''中可以创建四个实体"派系"，尽管原版只使用其中三个。这些派系由[[Entity token#BABYSNATCHER]]或[[Entity token#ITEM_THIEF]]标记的存在或不存在决定，因此四个派系可以称为文明（没有标记）、婴儿[[snatcher|绑架者]]、物品[[Thief|盗贼]]和婴儿绑架物品盗贼（在原版DF中不存在）。同一派系的成员将在要塞模式下与你[[trade|贸易]]，所有其他派系的成员可能[[invader|入侵]]你。这与处于[[war|战争]]状态的文明是分开的，后者由相反的[[ethics|伦理]]决定。（来自相反派系且*也*与你交战的文明只会更多地围攻你。）
+
+通常，[[civilization|文明]]关系覆盖生物最初可能拥有的任何忠诚度。因此：
+
+* 来自外国文明的被征服和以其他方式合并的人口将始终忠于该文明，无论是在要塞还是冒险模式中，*除了*[[insurrection|叛乱]]的情况，没有其他例外。
+
+* 被地精绑架并由他们抚养的外国生物将忠于他们的地精文明并对非地精文明（包括你的要塞）敌对。这也包括他们的后代，这意味着一些地精文明可能''耗尽''地精，但仍向你的要塞发送围攻（由人类、矮人、精灵等组成）和伏击。
+
+* 更有趣的是，因任何原因（例如，冒充神以控制人类文明的恶魔，统治地精文明的恶魔法律制定者，或死灵法师国王）在文明中占据[[noble|贵族]]职位的外国生物将以与任何其他文明成员相同的方式对待你的矮人或冒险者。因此，恶魔作为[[diplomat|外交官]]访问你的要塞（或加入你的冒险）或友好的死灵法师无意中通过在可能的情况下复活尸体对你的要塞造成严重破坏的荒谬可能性。
+
+一些警告：没有沟通能力的智慧生物将始终敌对，即使他们在技术上被视为同一派系。他们也会发动无休止的战争，因为他们缺乏形成条约的能力。这包括没有CAN_SPEAK（或INTELLIGENT，在功能上是CAN_LEARN和CAN_SPEAK的组合）的生物。具有UTTERANCES的生物无法与其他文明沟通，但是，如果它们同时具有UTTERANCES和CAN_SPEAK，它们将能够沟通。例如：[[kobold|狗头人]]除了[[Creature token#UTTERANCES|话语]]外无法说话，因此与其他所有人交战——请注意，如果你在冒险模式下可用时作为狗头人开始，你将无法与任何人交谈，其他狗头人会一见到你就攻击你，因为他们也无法与你交谈。
+
+具有[KILL_NEUTRAL:REQUIRED][[ethics|伦理]]（原版DF中的[[goblin|地精]]）的文明将对外国文明成员敌对。如果你在冒险模式下遇到地精，他们通常会要求你"表明身份"。如果你不是来自他们的文明（你通常不是）的常见解决方法是假设一个虚假的[[name|身份]]，以便他们相信你是他们自己的人（请记住，由于征服、绑架等，多种族文明是常态，来自另一个种族不会被认为是可疑的）。
+
+==[[Undead|不死生物]]和[[night creature|夜行生物]]==
+
+不死生物和夜行生物的忠诚度取决于它们是否有[[soul|灵魂]]。即使是不死生物，有灵魂的生物也会保留它们"转化"时拥有的现有忠诚链接，可能会有改变或更邪恶的议程。例如，死灵法师、夜魔、木乃伊等与文明分离并形成具有自己忠诚度集的单独实体。这意味着它们可以而且会互相冲突（例如，如果它们在围攻你的要塞时相遇）。另一方面，无灵魂的不死生物（僵尸和奴仆）对每个活着的生物都是敌对的（夜行生物如[[vampires|吸血鬼]]被认为是{{token|NOT_LIVING|c}}，即使他们确实会死），因为它们的{{token|OPPOSED_TO_LIFE|c}}标记，这覆盖了所有其他关系。
+
+吸血鬼，尽管他们吸血谋杀，仍然忠于他们的父文明，包括你的要塞。在要塞模式下，你可以利用它们对不死生物的中立性，命令它们在面对围攻时杀死死灵法师；吸血鬼可以而且会毫无阻碍地向死灵法师行进，通常会将他们打死。你也可以命令吸血鬼一个接一个地杀死僵尸，因为除非被攻击，它们不会反应。在冒险模式下，当它们没有暴露时，它们会像任何文明成员一样行事。偶尔，它们会伴随着围绕其"不朽崇拜"形成单独团体的狂热者：如果你对抗吸血鬼,它们会转而对抗你。
+
+[[Werebeasts|兽人]]是一个显著的例外：尽管名义上是夜行生物，它们不算作不死生物。兽人互相敌对（以及其他所有人），除非它们属于同一个兽类（婴儿兽人通常对每个人都是中立的）。
+
+[[Intelligent undead|智能不死生物]]是由死灵法师复活以充当其副官的生物。它们保留灵魂，不反对生命，但它们的忠诚度将在世界生成中转移到死灵法师。在要塞模式下，由你文明的死灵法师复活的智能不死生物如果死亡时是公民，则被视为公民，如果死亡时是入侵者，则可能敌对（或只是"友好"并闲逛什么也不做）。由你的冒险者复活的智能不死生物将保留其忠诚链接，因此如果你是首先杀死他们的人，他们会记住并一见到你就攻击你。解决方法是通过首先将它们复活为常规不死生物来摧毁它们的灵魂，杀死它们，然后将它们复活为智能不死生物——它们的灵魂将是一个没有预先存在冲突忠诚度的白板。
+
+在冒险模式下，如果你学习生死秘密或自己成为夜行生物，所有僵尸将对你变为中立，让你抓住机会快速杀死它们柔软且手无寸铁的主人。你复活的不死生物会像伴侣一样跟随你；但是，如果你故意攻击其中一个，它们''全部''会变为中立。一般来说，夜行生物之间似乎存在全球团结，如果你的父实体与它们中的任何一个没有牛肉，成为夜行生物将允许你与各种死灵法师或[[mummy|木乃伊]]聊天，接受它们的任务，并将它们作为伴侣。
+
+偶尔，一些生物（梦魇对齐的恶魔或从也是梦魇对齐的死亡神那里以某种方式收到秘密的死灵法师）会在攻击你的要塞时召唤[[bogeymen|怪物]]和[[nightmare|梦魇]]。这些通常会是友好的。
+
+==冲突级别==
+{{Main|Level of conflict}}
+
+在冒险模式下，虽然所有敌对的非智慧生物默认都是不留活口（因为它们不理解投降的概念），能够说话的智慧生物（这意味着同时具有[CAN_LEARN]和[CAN_SPEAK]或[INTELLIGENT]的生物）可以通过向它们投降或使它们屈服来脱离致命战斗。一个显著的例外是来自具有[KILL_NEUTRAL:REQUIRED]或[KILL_ENEMY:REQUIRED][[Ethics|伦理]]的文明的生物，它们对中立者和敌人始终是不留活口。非致命及以下类型的战斗（通常发生在[[tavern|酒馆]]或由于价值观不同或其他怨恨而发生的争吵）也可以轻松降级。这使得与其他敌对智慧生物的冲突更容易管理。
+
+在要塞模式下，入侵者和你的矮人互相不留活口（唯一的例外是精灵或人类外交官提供和平条约）。如果非矮人喝的酒精超过他们的肝脏能够处理的量，你的酒馆也可能发生斗殴，但这些不会升级为全面战争，尽管它们确实会导致有时致命的伤害。
+
+==土匪和[[criminal|罪犯]]==
+
+[[Bandits|土匪]]是由从乡村[[camp|营地]]骚扰[[town|城镇]]（包括你的要塞）的团体组成的实体，它们对文明成员敌对。如果你不希望它们对你的冒险者敌对，你应该作为没有与现有实体链接的[[outsider|外来者]]开始游戏，或假设其中一个的身份。土匪可能会在要塞模式下对你进行（小规模）围攻，在冒险模式下经常作为任务目标给出。但是，由于它们实际上拥有据点（营地，[[boss|老板]]充当领主），这意味着你可以尝试降级你可能与它们的任何[[level of conflict|冲突级别]]，与老板交谈，并作为[[Hearthperson|副官]]加入它们，并接受它们的任务，有效地转移你的忠诚度。
+
+另一方面，[[Criminal#Criminal Organization|犯罪组织]]居住在城镇的[[dungeon|地牢]]中，尽管它们参与各种[[intrigue|阴谋]]，但它们名义上对任何人都不敌对（除了偶尔的侮辱或吐痰）。它们的成员与城镇中现有团体有联系，作为[[quest|任务]]的一部分杀死它们中的一些人可能不会被市民接受。
+
+==叛乱==
+{{Main|Insurrection}}
+
+几个文明可能声称拥有单个据点。当属于一个文明的据点被另一个文明占领时，该据点的居民有可能反抗，将其当前的父文明视为敌人（将其前文明视为友好）。这种忠诚度的转变通常转化为在冒险模式下无处不在地爆发的一系列战斗。
+
+==智能野生动物==
+
+随机的非文明智能生物（戈拉克、小鬼、动物人）在要塞模式下是敌对的（就像野生动物一样）。在冒险模式下，它们的行为取决于它们的对齐——邪恶对齐的如[[troll|巨魔]]或[[ogre|食人魔]]会攻击你，而中立和善良对齐的如动物人或戈拉克可以与你开始对话。（一个显著的例外是在洞穴中发现的''文明''动物人，与之前的版本不同，它们对冒险者是敌对的。）如果它们不是文明的一部分，它们不会有太多可说的。[[Gremlin|小鬼]]是特殊的，因为它们可以在要塞模式下驯化，这意味着它们能够成为宠物公民，这反过来触发各种怪异。
+
+温和的野生动物并不真正敌对，因为如果可能，它们通常会逃避冲突，但如果被逼入绝境，它们''会''反击。
+
+==驯化的敌人==
+{{Main|Animal trainer}}
+
+在要塞模式下，任何被标记为你文明敌人的生物''将''对你的要塞敌对，无论如何。生物通过杀死你文明的成员（例如你的矮人之一，但即使宠物也有资格）或首先属于敌对文明或以其他方式敌对实体而成为你文明的敌人。在实践中，这意味着以下生物将始终敌对，''尽管''它们的可驯服状态：
+
+*[[Megabeast|巨兽]]（[[Roc|大鹏]]、[[Hydra|九头蛇]]、[[Dragon|龙]]是可驯服的巨兽）
+*[[siege|围攻]]中带来的敌对[[Mount|坐骑]]
+*杀死你的矮人或宠物之一的野生动物。通常，它们会因此壮举获得[[name|名字]]。
+
+你可以关笼并尝试[[Animal training|训练]]这些生物，提高它们的训练等级，当然，这会为你的训练师产生经验，并提高文明层面对动物的知识。但你''永远''不应该在你的要塞内释放它们，因为它们会咀嚼你的矮人''并''在此过程中触发忠诚级联。有关具体情况，请参见下文。
+
+有趣的是，这些生物的后代''不''算作你文明的敌人。这意味着你可以尝试在同一物种的敌人之间或敌人和野生对应物之间进行繁殖计划，后者可能更容易处理。在实践中，这导致极其令人不安的情况，母亲在分娩后立即屠杀她的后代，或者后代一从她身上出来就压倒她。请注意，只有当物种不产卵时才会发生这种情况——敌人不使用你的[[nest box|巢箱]]（如果它们是[[building destroyer|建筑破坏者]]，将简单地拆除它们），如果你为它们提供一些。
+
+==杂项==
+
+[[Megabeast|巨兽]]和[[semi-megabeast|半巨兽]]互相中立，但会尝试杀死它们能找到的其他所有东西——无论是在[[World generation|世界生成]]、[[adventurer mode|冒险者模式]]还是[[fortress mode|要塞模式]]中。[[Forgotten beast|遗忘野兽]]和[[titan|泰坦]]对每个人都敌对，包括其他遗忘野兽和泰坦。
+
+[[Insanity|狂暴]]矮人对每个人都敌对，包括彼此。[[Visitors|访客]]如果其父文明与你交战,则会与其父文明站在一起。没有从[[Underworld|地下世界]]逃脱的[[Demon|恶魔]]对每个非恶魔都敌对，[[Angel|天使]]对每个非天使都敌对。这显然不适用于你的冒险者束缚为奴役的恶魔，也不适用于统治（人类或地精）文明的恶魔。
+
+如果由于某种原因给恶魔授予贵族头衔，它们将对来自同一派系的生物变为中立。如果它们被授予[[religion|宗教]]头衔，它们将屠杀所有信仰不同宗教的人。授予贵族头衔可以是将通常敌对的生物如[[night troll|夜魔]]甚至[[bogeymen|怪物]]变为对贵族所涉及的父文明友好的一种方法。
+
+==忠诚级联==
+{{Translation| dwarven = uzlir| elvish  = anoni| goblin  = osmrur| human   = ozo}}
+忠诚级联是实体成员互相攻击的结果。冲突将升级为全面内战（因此Toady One将其称为"内战漏洞"），直到冲突的一方被消灭才会解决。忠诚级联可以在要塞和冒险模式下触发。
+
+===攻击来自你山地家园的[[Trade|商人]]===
+
+如果你命令你的军队杀死来自你自己文明的商人，忠诚度处理方式的奇怪结果使攻击商人的军队成员成为你文明的敌人，但仍然是你要塞政府的成员（此派系的矮人此后将被称为''分裂分子''）。作为敌人，它们攻击你的其他矮人（''公民''），但作为要塞的成员，它们仍然遵循命令。允许公民民兵矮人攻击分裂分子将使它们获得与分裂分子相反的忠诚度（即忠于文明，不忠于要塞），或''忠诚分子''，他们''不''遵循命令。然后，如果分裂分子或忠诚分子杀死公民，它们成为文明'''和'''要塞的敌人，使它们成为''叛徒''，本质上是公民的完全敌人。
+
+===试图驯化敌对[[mount|坐骑]]===
+
+如果你对地精围攻使用[[cage|笼子]][[trap|陷阱]]，你可能会从[[Giant bat|各]][[Cave crocodile|种]][[Giant cave swallow|物]][[Rutherer|种]][[Jabberer|中]][[Voracious cave crawler|捕获]][[Giant bat|一]][[Cave crocodile|些]][[Giant cave swallow|坐骑]]。你可以将它们分配给你的[[animal trainer|动物训练师]]并尝试驯化它们，从而获得有关每个特定物种的一些事实；但在任何情况下你都不应该从笼子中释放它们，因为它们总是被视为你文明的敌人，一旦自由就会造成严重破坏。不仅如此，一旦它们攻击你的公民，它们将触发类似的忠诚级联，通过永无休止的内战导致你的要塞毁灭——以及，例如，一些大量的jabberer-chomping。最佳行动方案是在笼子中反复重新训练坐骑，从而促进未来驯化它们的'''野生'''对应物。
+
+===在矮人形式下攻击[[werebeast|兽人]]===
+
+如果你的矮人之一变成[[werebeast|兽人]]，你派遣军队在变形时杀死他们，他们未能这样做（并允许矮人恢复正常）可能会导致忠诚级联。
+
+===攻击狂暴公民或兽形兽人===
+
+矮人军队不能再依靠结束公民[[insane|狂暴]]或变成野兽的暴行。对抗这种威胁被视为攻击公民，将导致''你要塞的防御者''失去忠诚并被作为叛徒追捕。{{bug|7107}} 在0.42中似乎部分修复{{Verify}}。
+
+===如何处理忠诚级联===
+
+为防止级联扩散，命令原始分裂分子远离要塞，让它们互相战斗。如果结果是叛徒，允许其他矮人杀死它们（通过在附近驻扎它们）是可以的。如果结果是分裂分子/忠诚分子，那么你需要以某种方式分离它们。来自这些不同"派系"的矮人如果遇到彼此会取消工作，每个人都逃跑。这可能会导致大量工作中断公告，读作''Urist McDwarf cancels Eat: Interrupted by Farmer''
+
+'''注意：'''由于错误，驯化的动物无限期地忠于文明和要塞，因此它们可以用来杀死分裂分子/忠诚分子而没有后果。
+
+截至0.50，忠诚级联应该定期自行结束[http://www.bay12games.com/dwarves/#2022-03-20]；将你的矮人彼此分开，直到战斗停止。
+
+{{mod}}
+
+====DFHack====
+对于那些使用[[Utility:DFHack|DFHack]]的人，命令{{DFtext|fix/loyaltycascade|white}}可用于立即结束大多数忠诚级联。
+
+{{V50 entities}}
+{{Category|Game mechanics}}{{Category|World}}
+[[ru:Faction]]
+[[zh:Faction]]

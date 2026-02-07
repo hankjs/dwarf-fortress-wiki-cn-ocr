@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=pomelo_trunk_sprite.png
-|product=citron_sprite.png
-|sapling=citron_sapling.png}}
+{{Treelookup/0|graphic=pomelo_trunk_sprite.png|product=citron_sprite.png|sapling=citron_sapling.png}}
 {{av}}
 
 '''香橼'''是地面上发现的众多树木属之一。像绝大多数地面树木一样，香橼[[wood|木材]]是棕色的，生产棕色产品。香橼果实不能酿造。

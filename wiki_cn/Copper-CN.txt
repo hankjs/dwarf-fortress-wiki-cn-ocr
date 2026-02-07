@@ -1,0 +1,76 @@
+{{Quality|Exceptional}}
+{{Metal|name=Copper|
+sample=
+[[File:CopperSample.png|256px|center|frameless]]|color=6:4:0|graphic=copper_bar_sprite.png|uses=
+* Make [[Brass]] at [[smelter]]
+* Make [[Bronze]] at [[smelter]]
+* Make [[Billon]] at [[smelter]]
+* Make [[Fine pewter]] at [[smelter]]
+* Make [[Trifle pewter]] at [[smelter]]
+* Make [[Lay pewter]] at [[smelter]]
+* Make [[Nickel silver]] at [[smelter]]
+* Make [[Black bronze]] at [[smelter]]
+* Make [[Sterling silver]] at [[smelter]]
+* Make [[Rose gold]] at [[smelter]]
+* Make [[Bismuth bronze]] at [[smelter]]
+* [[weapon|Melee Weapons]]
+* [[Crossbow]]s
+* [[Bolt]]s
+* [[Pick]]s
+* [[Armor]]
+* [[Metalsmith's forge|Metal crafting]]|ore=
+* [[File:ore_copper_sprite.png]] [[Native copper]]
+* [[File:ore_cyan_sprite.png]] [[Malachite]]
+* [[File:ore_silvery_sprite.png]] [[Tetrahedrite]]|properties=
+* [[Material value]] 2☼
+* [[Material science|Impact strength]] 770 MPa
+* [[Material science|Shear strength]] 220 MPa
+{{firemagmasafe|yes|no}}
+* [[Melting point]] {{ct|11952}}
+* [[Boiling point]] {{ct|14611}}
+* [[Ignition point]] none
+* [[Solid density]] 8930 kg/m³
+* Liquid [[density]] 8020 kg/m³
+* [[Specific heat]] 385 J/kg·K
+* [[Color]] copper}}{{av}}
+
+'''铜'''是一种用于大量合金的[[metal|金属]],其中包括[[bronze|青铜]],在锻造[[weapon|武器]]和[[armor|盔甲]]方面几乎和[[iron|铁]]一样好,还有[[brass|黄铜]],具有所有非[[steel|钢]]合金中最大的价值增长。铜本身是一种常见的低价值金属,作为武器材料不太理想——更具体地说,它是可用于砍击武器的第二差金属,但对于钝器相当不错。
+
+铜是[[fire-safe|防火]]的,但''不是''[[magma-safe|防岩浆]]的。
+
+== 主要用途 ==
+
+*早期近战武器和盔甲生产,如果你没有[[tin|锡]]制作[[bronze|青铜]]或没有[[iron|铁]]。不过你最好找到更好的金属。
+*制作[[pick|镐]](自更新53.07起,镐材料影响挖掘速度,铜镐是最慢的。)
+*制作[[bronze|青铜]],在军事应用方面总体上比铜更好。
+*训练金属加工矮人:铜通常很丰富。如果你有更好的金属,这可能是铜的最佳用途。
+*铜[[crossbow|弩]]和铜[[bolts|弩箭]]。如果你的[[marksdwarves|弩手]]被迫进行近战,铜弩是最好的弩——[[silver|银]]弩只有人类带来,没有质量修正。铜弩箭足够重且足够锋利,可以作为良好的抛射物,铁/钢通常太稀有而无法用于弩箭。这两种用途也训练你的[[weaponsmith|武器匠]],这总是好事。
+*箱子、笼子和桶:虽然木制的通常更便宜更轻,但铜容器防火且抗[[vermin|害虫]]。在木材稀缺的地图上,铜可以作为合适的替代品。
+*铜巨型尖球用于武器[[trap|陷阱]]。
+
+== 合金 ==
+
+铜从[[native copper|自然铜]]、[[malachite|孔雀石]]或[[tetrahedrite|四面体矿]]熔炼(在[[smelter|熔炉]])。
+
+铜可以在[[smelter|熔炉]]与其他金属组合。以下是涉及铜的配方列表:
+*[[Brass|黄铜]] = 铜 + [[Zinc|锌]]
+*[[Bronze|青铜]] = 铜 + [[Tin|锡]]
+*[[Billon|铜银合金]] = 铜 + [[Silver|银]]
+*[[Fine pewter|精锡镴]] = 铜 + 3× [[Tin|锡]]
+*[[Trifle pewter|次锡镴]] = 铜 + 2× [[Tin|锡]]
+*[[Lay pewter|普通锡镴]] = 铜 + 2× [[Tin|锡]] + [[Lead|铅]]
+*[[Nickel silver|镍银]] = 铜 + 2× [[Nickel|镍]] + [[Zinc|锌]]
+*[[Black bronze|黑青铜]] = 2× 铜 + [[Silver|银]] + [[Gold|金]]
+*[[Sterling silver|纯银]] = 铜 + 3× [[Silver|银]]
+*[[Rose gold|玫瑰金]] = 铜 + 3× [[Gold|金]]
+*[[Bismuth bronze|铋青铜]] = 2× 铜 + [[Tin|锡]] + [[Bismuth|铋]]
+
+
+<gallery>
+File:Copper_2.jpg|A copper ingot, coin and rod.
+</gallery>
+
+{{Translation| dwarven = gusil| elvish  = canò| goblin  = saxo| human   = gugir}}
+
+{{gamedata}}
+{{metals}}

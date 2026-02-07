@@ -1,0 +1,4 @@
+{{disambig}}
+'''生物（Creatures）'''可能指：
+* [[Unit list|单位列表]]，列出要塞中生物的菜单。
+* 被称为[[Creature|生物]]的通用游戏实体

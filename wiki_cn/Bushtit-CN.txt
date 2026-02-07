@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=bushtit_sprite.png
-|portrait=bushtit_portrait.png
-|wiki=Aegithalidae
-}}
+{{verminlookup/0|image=bushtit_sprite.png|portrait=bushtit_portrait.png|wiki=Aegithalidae}}
 {{av}}
 {{creaturedesc}}
 

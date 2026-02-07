@@ -1,22 +1,12 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 6:1
-| graphic    = [[File:carpenter_sprite_icon.png]]
-| graphicmargin = 107px
-| skill      = Carpenter
-| profession = [[Woodworker]]
-| job name   = [[Carpentry]]
-| tasks      =
+{{v50_skill| color      = 6:1| graphic    = [[File:carpenter_sprite_icon.png]]| graphicmargin = 107px| skill      = Carpenter| profession = [[Woodworker]]| job name   = [[Carpentry]]| tasks      =
 * 木质[[construction|建筑]]
-* 木匠工坊的任何工作（除了[[Animal trap|陷阱]]）
-| workshop = * [[Carpenter's workshop|木匠工坊]]
-| attributes =
+* 木匠工坊的任何工作（除了[[Animal trap|陷阱]]）| workshop = * [[Carpenter's workshop|木匠工坊]]| attributes =
 * 力量
 * 敏捷
 * 创造力
 * 空间感
-* 动觉感
-}}
+* 动觉感}}
 {{av}}
 '''木匠'''使用[[wood|木材]]制作物品。他们建造[[bed|床]]、[[bin|箱子]]、[[barrel|桶]]和各种其他[[furniture|家具]]，以及木制[[training weapon|训练武器]]、[[shield|盾牌]]和[[buckler|圆盾]]，还有5种标准[[trap component|陷阱部件]]中的3种。木匠的技能等级影响其工作速度和[[quality|质量]]。在图形模式下，木匠会穿着黄色束腰外衣。
 

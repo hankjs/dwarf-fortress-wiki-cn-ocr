@@ -1,16 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=bobcat_sprites.png
-|portrait=bobcat_portrait_anim.gif
-|bone=4
-|meat=8
-|fat=7
-|intestine=1
-|skin=hide
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=bobcat_sprites.png|portrait=bobcat_portrait_anim.gif|bone=4|meat=8|fat=7|intestine=1|skin=hide|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

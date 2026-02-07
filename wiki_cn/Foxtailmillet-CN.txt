@@ -1,0 +1,15 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=foxtail_millet_shrub_sprite.png|seedimage=foxtail_millet_seeds_sprite.png|uses=
+*[[Alcohol|酒精]]
+*[[Flour|面粉]]}}
+{{av}}
+
+'''谷子'''是一种[[aboveground|地上]][[crop|作物]]。它可以被[[milling|碾磨]]成[[flour|谷子面粉]]或[[brewing|酿造]]成[[alcohol|谷子啤酒]]。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]谷子植物的''谷粒''。
+
+
+[[File:Japanese Foxtail millet 01.jpg|thumb|center|300px|Admired for its ''grain''.]]
+
+{{gamedata}}
+{{Plants}}

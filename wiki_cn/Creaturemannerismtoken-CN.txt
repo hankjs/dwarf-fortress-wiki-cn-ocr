@@ -1,0 +1,36 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{merge|Mannerism|target=Mannerism|date=18 February 2021‎}}
+{{Modding}}
+怪癖（Mannerisms）是硬编码的，不会出现在[[raw]]中，它给每个[[caste|种姓]]成员包含个性怪癖的可能性。与怪癖标记一起放置的词是用于该特定部位的怪癖字符串（例如，将"finger"替换为"toe"将给你"when she gets exasperated, she often points and shakes her toe"）。
+
+已知怪癖列表：
+
+*[{{text anchor|MANNERISM_LAUGH}}]
+*[{{text anchor|MANNERISM_SMILE}}]
+*[{{text anchor|MANNERISM_WALK}}]
+*[{{text anchor|MANNERISM_SIT}}]
+*[{{text anchor|MANNERISM_BREATH}}]
+*[{{text anchor|MANNERISM_POSTURE}}]
+*[{{text anchor|MANNERISM_STRETCH}}]
+*[{{text anchor|MANNERISM_EYELIDS}}]
+*[{{text anchor|MANNERISM_FINGERS}}:finger:fingers]
+*[{{text anchor|MANNERISM_NOSE}}:nose]
+*[{{text anchor|MANNERISM_EAR}}:ear]
+*[{{text anchor|MANNERISM_HEAD}}:head]
+*[{{text anchor|MANNERISM_EYES}}:eyes]
+*[{{text anchor|MANNERISM_MOUTH}}:mouth]
+*[{{text anchor|MANNERISM_HAIR}}:hair]
+*[{{text anchor|MANNERISM_KNUCKLES}}:knuckles]
+*[{{text anchor|MANNERISM_LIPS}}:lips]
+*[{{text anchor|MANNERISM_CHEEK}}:cheek]
+*[{{text anchor|MANNERISM_NAILS}}:nails]
+*[{{text anchor|MANNERISM_FEET}}:feet]
+*[{{text anchor|MANNERISM_ARMS}}:arms]
+*[{{text anchor|MANNERISM_HANDS}}:hands]
+*[{{text anchor|MANNERISM_TONGUE}}:tongue]
+*[{{text anchor|MANNERISM_LEG}}:leg]
+
+{{Category|Tokens}}
+[[ru:Creature mannerism token]]

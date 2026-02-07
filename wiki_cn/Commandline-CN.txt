@@ -1,0 +1,37 @@
+''命令行''用于通过[[wikipedia:cmd.exe|Windows命令提示符]]或[[wikipedia:Unix shell|Linux终端窗口]]从[[world_gen.txt|prefs/world_gen.txt]]快速进行[[advanced world generation|高级世界生成]]。
+
+这是来自"command line.txt"的文本:
+
+<pre>
+有关该版本的一般信息,请参见readme.txt。
+有关处理存档和本版本更改的简要说明,请参见release_notes.txt。
+有关新的init/interface信息,请参见file_changes.txt。
+
+
+矮人要塞命令行选项
+
+
+矮人要塞目前提供一个命令行选项,一个世界生成器,由genmac建议。你可以这样使用它:
+
+格式:	"Dwarf Fortress.exe" -gen <id number> <seed> <world gen param title>
+示例:	"Dwarf Fortress.exe" -gen 1 3498 "MEDIUM ISLAND"
+示例:	"Dwarf Fortress.exe" -gen 2 RANDOM CUSTOM6
+
+这将打开一个静默、无介绍的矮人要塞,用给定的id号和种子生成一个世界,导出区域文件和图片,最后退出。窗口保持打开状态,所以你可以看到发生了什么。你仍然可以在世界生成运行时中止它。如果你尝试创建一个已经存在的世界编号,它将立即中止。
+</pre>
+
+在Linux上,确保在将'''df'''shell脚本放入路径之前将其重命名为其他名称,因为'''df'''命令已经存在,用''矮人要塞''启动器脚本替换它可能会搞乱你的系统。
+
+===模组===
+在第一次gen之后,将创建一个默认的'''Dwarf Fortress/gen_modlist.txt''',其中包含原版模组ID的有序列表,这将在所有未来的gen中使用。
+
+===示例===
+要在Windows上生成'''32767'''个地图,在游戏文件夹中创建一个"generate.bat"文件,包含此内容并运行。
+<pre>
+--------------------------------------------------------
+:loop
+"Dwarf Fortress.exe" -gen %RANDOM% RANDOM "SMALL REGION"
+goto loop
+--------------------------------------------------------
+</pre>
+[[Category:Interface]]

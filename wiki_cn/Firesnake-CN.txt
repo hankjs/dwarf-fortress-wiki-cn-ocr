@@ -1,0 +1,24 @@
+{{Quality|Exceptional}}
+{{verminlookup/0|image=Fire_snake_sprite.png|portrait=fire_snake_portrait.png|wiki=no}}
+{{av}}
+{{creaturedesc}}
+
+'''火焰蛇'''是完全由[[fire|火焰]]构成的[[fire-safe|防火]][[vermin|害虫]]。它们只在[[magma|岩浆]]场所周围产卵，这些场所被定义为原始[[biome|生物群系]]，不包括任何将岩浆从岩浆管道或岩浆池引走的[[channel|沟渠]]。它们可能会引发火灾，所以将[[fuel|燃料]]或[[graphite|石墨]][[stockpile|储物堆]]放置在岩浆附近（或通往岩浆的通道）是有风险的。如果[[dwarf|矮人]][[Hateable|讨厌]]它们并遇到它们，它们也会激发不愉快的[[thought|想法]]。
+
+火焰蛇的体温为{{ct|14000}}，比岩浆更热，比几乎所有[[magma-safe|耐岩浆]]材料的熔点都要高。它可以熔化或烧穿几乎任何[[animal trap|动物陷阱]]（甚至[[nether-cap|地狱菌盖]]，尽管陷阱本身不会受损），除了[[adamantine|精金]]。幸运的是，像大多数其他害虫一样，一只[[cat|猫]]会轻松杀死它们，特别是如果在受侵扰地区放牧的话。
+
+尽管火焰蛇在岩浆附近产卵，但执行捕猎任务的矮人可能会在不知不觉中将火焰蛇运送到你的要塞其他地方的动物储物堆。一旦被[[trapper|陷阱手]]放下，火焰蛇的高温可以摧毁装着它的动物陷阱。一旦自由，火焰蛇可能会对你的松散物品造成各种[[fun|乐趣]]，包括破坏[[Item quality|杰作]]，导致其创造者的不愉快想法，以及[[cage|笼子]]，释放其中饲养的任何生物。
+
+作为害虫，火焰蛇不会"吐"任何形式的火 - 它们唯一做的就是破坏它们"踩"到的木制物品。
+
+在阴森的[[strange mood|怪异心情]]中制作的火焰蛇害虫遗骸制成的神器将继承火焰蛇的静态温度属性。这将为任何试图偷走要塞辛辣新宝藏的盗窃[[kea|啄羊鹦鹉]]或[[kobolds|狗头人]]带来高水平的!![[fun|乐趣]]!!。同样，这种!![[fun|乐趣]]!!也将适用于任何试图穿戴它的矮人。
+
+[[Liquid fire|液态火]]是从捕获的火焰蛇中提取的有价值的[[extracts|提取物]]。
+
+一些矮人因火焰蛇的''神秘''而[[Preferences|喜欢]]它们。
+{{Translation| dwarven = ziril therleth | elvish = inira imaza | goblin = zedan slorust | human = usmok rosha}}
+[[File:fire_snake.png|thumb|260px|center|谁需要毒液？]]
+
+{{gamedata}}
+{{Vermin}}
+{{category|Fire immune}}

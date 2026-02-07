@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+<!--{{grasslookup/0|wiki=no}}-->{{av}}
+[[File:fungus_growth_v50.png|thumb|270px|right|地板真菌是黄色的那种。]]
+'''地板真菌(Floor fungus)'''是一种地下地面覆盖真菌，原生于第一层[[cavern|洞穴]]。由于它在功能上是一种[[grass|草]]，[[grazer|食草动物]]可以以它为食。
+
+与[[Caverns#Benefits|其他地下草类]]一样，地板真菌只在包含它的[[cavern|洞穴]]被发现后才会出现。发生这种情况后，它可能会在任何地下[[soil|土壤]]表面传播，或在未被平滑的泥泞石头表面上传播。表面上的泥浆量不会影响地下植物的分布或生长速度[http://www.bay12forums.com/smf/index.php?topic=122150]。
+
+虽然看起来[[plump helmet|其他]][[sweet pod|类型]][[cave wheat|的]][[dimple cup|真菌]]是从地板真菌上生长出来的，但实际上它们也只是生长在同样泥泞的地板上。
+
+[[File:yellow_moss.jpg|thumb|250px|center|不是鸟粪。]]
+
+{{Translation| dwarven = dakost muz | elvish = mere arari | goblin = ublu ësmor | human = dolak meplul}}
+
+{{gamedata}}
+{{Plants}}
+[[ru:Floor fungus]]

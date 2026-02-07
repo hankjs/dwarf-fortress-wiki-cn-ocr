@@ -1,0 +1,24 @@
+{{Quality|Fine}}
+{{av}}
+{{V50_furniture|graphic=[[File:ropes_preview.png|35x23px]]|name=Chain|tile=§|col=7:0:0|metalcraft=y|bars=1|cloth=y|leather=n|rooms=
+* [[Jail]]
+* [[Zoo]]|value=10|size=5,000}}
+[[File:ropes_preview.png|right]]'''链条'''和'''绳索'''是用于制作[[Traction_bench|牵引床]]、[[well|井]]、[[restraint|束缚]]和[[minecart|矿车]]滚轮的物品。绳索实际上不是一个独特的物品类型 - 它们只是用布料制成的链条的称呼。
+
+它们都列在k-库存菜单中的"链条"标题下，存储在成品[[stockpile|仓库]]中，并且通常可以互换。
+
+链条在[[metalsmith's forge|金属匠熔炉]]中用一根[[metal|金属]][[bar|锭]]（或四个[[adamantine|精金]]薄片）制作，使用[[metal crafter|金属工匠]][[skill|技能]]（但在该菜单中列在"家具"而不是"其他物品"下）。绳索在[[clothier's shop|裁缝店]]中用一块[[cloth|布料]]制作，使用[[clothier|裁缝]][[skill|技能]]。
+
+在[[embark|出发]]时带上绳索可以让你更快地建造[[well|井]]。虽然带原材料并在出发后生产成品通常便宜得多，但纤维绳索的[[item value|物品价值]]为20，而[[thread|线]]为12。矮人不会像享受高质量物品那样享受使用基本质量物品，但从成本角度来看，它比机械装置少3倍。另一方面，你可以在熔炉启动并运行后将一个铜矿石（成本6）冶炼成4根锭后制作4条金属链，但这不会发生得那么快 - 有很多要考虑的。
+
+链条和绳索被认为优于[[cage|笼子]]用于矮人[[justice|司法]]，因为你可以在束缚周围建造卧室，并允许囚犯有一定的移动能力使用床、在桌子和椅子上吃饭，以及享受你在那里安装的他们"牢房"的任何固定装置。
+
+* '''漏洞'''：从束缚中释放生物时，如果你先拆除链条/绳索，动物仍将有那个在脖子上 - 没有办法移除它，也没有办法在其他地方重新建造它。如果你重视链条或绳索，请花时间先释放动物，''然后''从其当前位置拆除链条。另一方面，如果你想要一条漂亮的≡黄金链条≡作为你最喜欢的守卫老虎脖子上的永久项圈，这就是你获得它的方法。
+{{Translation| dwarven = nicat| elvish  = oséfi| goblin  = ugo| human   = ekul}}
+<gallery widths="200px">
+File:Metal chain.jpg|thumb|Ready for holding people against their wills.
+File:SuperMacro Rope.JPG|thumb|Also ready for... that same thing.
+File:Chains and ropes stockpile.png|Different chains and ropes in a stockpile.
+</gallery>
+{{Category|Items}}
+[[ru:Chain]]

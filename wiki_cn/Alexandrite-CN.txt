@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_alexandrite_sprite.png
-|graphic2=rough_alexandrite_sprite.png}}
+{{gemlookup/0|graphic=cut_alexandrite_sprite.png|graphic2=rough_alexandrite_sprite.png}}
 {{av}}
 
 '''亚历山大石'''是一种半宝石[[gem|宝石]]，以小型[[cluster|簇状]]形式存在于[[granite|花岗岩]]、[[marble|大理石]]和[[schist|片岩]]中。

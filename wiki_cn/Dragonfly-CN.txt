@@ -1,0 +1,14 @@
+{{Quality|fine}}
+{{verminlookup/0|image=dragonfly_sprite.png|portrait=dragonfly_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''蜻蜓'''是一种[[above ground|地上]][[vermin|害虫]],出没于[[pool|水池]]附近,可以在除冬季外的任何季节看到。它们无法被建造的[[animal trap|动物陷阱]]捕获。所有蜻蜓都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。在现实生活中,它们有四只翅膀,但在RAW中只有两只翅膀。
+
+一些矮人[[Preferences|喜欢]]蜻蜓的''多面复眼''。
+
+{{Translation| dwarven = måmgoz-fenglel | elvish = vutheni-yetine | goblin = kusnath-atu | human = tamun-ngáthi}}
+[[File:Vermin-Dragonfly.jpg|thumb|center|400px|因其''多面复眼''而受到赞赏。]]
+
+{{gamedata}}
+{{vermin}}

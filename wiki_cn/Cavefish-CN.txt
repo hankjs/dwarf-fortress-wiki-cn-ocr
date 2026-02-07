@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=cave_fish_sprite.png
-|portrait=cave_fish_portrait.png
-|wiki=Cavefish
-}}
+{{verminlookup/0|image=cave_fish_sprite.png|portrait=cave_fish_portrait.png|wiki=Cavefish}}
 {{av}}
 {{creaturedesc}}
 

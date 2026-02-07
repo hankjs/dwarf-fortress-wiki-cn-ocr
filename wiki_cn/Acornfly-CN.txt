@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=acorn_fly_sprite.png
-|portrait=fly_acorn_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=acorn_fly_sprite.png|portrait=fly_acorn_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 

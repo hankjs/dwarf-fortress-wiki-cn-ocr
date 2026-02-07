@@ -2,20 +2,9 @@
 {{av}}
 {{buggy}}
 
-{{V50_furniture
-|graphic=[[File:Cage_Premium.png]]
-|name=Cage
-|tile=‼|col=0:6:0
-|wood=y
-|metal=y
-|glass=y
-|rooms=
+{{V50_furniture|graphic=[[File:Cage_Premium.png]]|name=Cage|tile=‼|col=0:6:0|wood=y|metal=y|glass=y|rooms=
 * [[Dungeon]] (if metal)
-* [[Zoo]] (Meeting Area)
-|value=10
-|size=30,000
-|capacity=60,000
-}}
+* [[Zoo]] (Meeting Area)|value=10|size=30,000|capacity=60,000}}
 :''关于笼子陷阱的信息，请参见[[Trap#Cage_Trap|陷阱]]。''
 
 '''笼子'''用于[[cage trap|笼子陷阱]]、[[jail|监狱]]、[[zoo|动物园]]、[[Activity_zone#Pit/Pond|坑/池塘]]和水族箱。玻璃笼子被称为'''玻璃容器'''，或者如果装满[[water|水]]用于容纳[[Captured live fish|捕获的]]活水生[[vermin|害虫]]，则称为'''水族箱'''。
@@ -139,12 +128,7 @@
 * 水族箱不能用于存储大型鱼（它们会溺水），尽管害虫鱼完全没问题。{{Bug|1590}}
 * 被困在笼子里的矮人无法直接释放。它们只能通过建造笼子并将[[lever|拉杆]]连接到它，或命令将笼子带到贸易站来释放。{{bug|3070}}
 
-{{Translation
-| dwarven = mokez
-| elvish  = ofúru
-| goblin  = obtux
-| human   = tin
-}}
+{{Translation| dwarven = mokez| elvish  = ofúru| goblin  = obtux| human   = tin}}
 
 
 

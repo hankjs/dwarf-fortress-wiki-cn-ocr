@@ -1,28 +1,10 @@
 {{Quality|Exceptional}}
 <div id="unique1" style="margin-right:295px;">{{av}}</div>
 <div id="unique2" style="float:right; margin-top:-111px;">
-{{V50_furniture
-|graphic=[[File:Pedestal_Premium.png]]
-|name=Pedestal
-|tile=ï
-|wood=y
-|stonecarve=y
-|glass=y
-|metal=y
-|bars=2
-|rooms=
-[[Museum]]
-|value=10
-|size=500}}{{clear}}
-{{V50_furniture
-|graphic=[[File:Display_Case_Premium.png]]
-|name=Display case
-|tile=π	|col=0:6:0
-|wood=y
-|rooms=
-[[Museum]]
-|value=10
-|size=1,000}}</div>
+{{V50_furniture|graphic=[[File:Pedestal_Premium.png]]|name=Pedestal|tile=ï|wood=y|stonecarve=y|glass=y|metal=y|bars=2|rooms=
+[[Museum]]|value=10|size=500}}{{clear}}
+{{V50_furniture|graphic=[[File:Display_Case_Premium.png]]|name=Display case|tile=π	|col=0:6:0|wood=y|rooms=
+[[Museum]]|value=10|size=1,000}}</div>
 一件'''展示[[furniture|家具]]'''可用于展示其他物品。有两种可用的展示家具类型：底座和展示柜。
 
 底座可以在[[carpenter's workshop|木匠作坊]]、[[stoneworker's workshop|石匠作坊]]、[[glass furnace|玻璃熔炉]]或[[forge|熔炉]]中分别用[[wood|木材]]、[[stone|石头]]、[[glass|玻璃]]或[[metal|金属]]制作；木材、石头和玻璃只需要1个材料来制作，而金属需要2根金属条。作为工具，它们在熔炉中被列在"[[Other large tools|其他大型工具]]"而不是"家具"下，但仍然使用[[blacksmithing|锻造]]技能。

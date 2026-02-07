@@ -1,25 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=beak_dog_sprites.png
-|portrait=beak_dog_portrait.png
-|bone=16
-|meat=11-13
-|fat=11
-|lung=2|
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1
-|skull=1
-|skin=hide
-|gizzard_stone=1
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=beak_dog_sprites.png|portrait=beak_dog_portrait.png|bone=16|meat=11-13|fat=11|lung=2||heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|gizzard_stone=1|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''Beak dogs'''（喙犬）是一种怪异的[[Creature|生物]]物种，大小如[[gorilla|大猩猩]]，像鸟一样的群居猎手，在[[surroundings#evil|邪恶]][[Wetland|沼泽地]]中被发现。它们成群出现，数量为三到七只，占据着与[[Wolf|狼]]在更正常的[[surroundings|环境]]中相同的生态位。在要塞出发风味屏幕中，有时会警告您快速挖掘大地"在狼变饿之前"，但在实际游戏中，狼太小了，不会机会性地攻击[[dwarves|矮人]]，而是更喜欢捕食较小的生物。相比之下，喙犬不受这种缺陷的限制：它们几乎是狼的四倍大（平均矮人[[size|大小]]的两倍半），它们[[raw file|原始文件]]中的{{token|LARGE_PREDATOR}}[[creature token|标记]]与狼共享，意味着如果有机会，它们会吃掉出现在它们面前的任何矮人。这显然使它们非常危险。

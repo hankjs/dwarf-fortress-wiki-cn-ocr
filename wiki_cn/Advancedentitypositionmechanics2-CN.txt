@@ -33,56 +33,25 @@
 
 左列显示被引用的职位类型。
 示例：
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! 被引用的职位类型
-! LAND_HOLDER
-|-
-| civilization
-|  <span style="color:green">(男爵)被君主任命 APPOINTED_BY:MONARCH</span>
-|}
+! LAND_HOLDER|-| civilization|  <span style="color:green">(男爵)被君主任命 APPOINTED_BY:MONARCH</span>|}
 颜色编码：</br>
 * <span style="color:green">在原版中存在</span></br>
 * <span style="color:blue">通过模组可能</span></br>
 * <span style="color:red">不可能</span></br>
 * <span style="color:orange">在某种程度上可能。</span></br>
 * <span style="color:gray">尚未充分研究。</span></br>
-{| {{prettytable}}
-|- bgcolor="#ddd"
+{| {{prettytable}}|- bgcolor="#ddd"
 ! 被引用的职位类型
 ! Civilization
 ! SITE
 ! LAND_HOLDER
 ! CONQUERED_SITE
-
-|-
-| Civilization
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:blue">REPLACED_BY</span> </br> <span style="color:green">SUCCESSION</span>
-| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(1)'''</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| SITE
-| <span style="color:red">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(2)'''</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:green">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:red">APPOINTED_BY '''(3)'''</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(4)'''</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| LAND_HOLDER
-| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY '''(6)'''</span> </br> <span style="color:blue">SUCCESSION</span>
-| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(5)'''</span>
-| <span style="color:orange">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:green">REPLACED_BY '''(7)'''</span> </br> <span style="color:orange">SUCCESSION '''(8)'''</span>
-| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
-
-|-
-| <span style="color:gray">CONQUERED_SITE</span>
-| <span style="color:red">APPOINTED_BY</span> </br><span style="color:gray"> COMMANDER </br> REPLACED_BY </br><span style="color:orange"> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>
-|}
+|-| Civilization| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:blue">REPLACED_BY</span> </br> <span style="color:green">SUCCESSION</span>| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(1)'''</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| SITE| <span style="color:red">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(2)'''</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:green">COMMANDER</span> </br> <span style="color:green">REPLACED_BY</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:red">APPOINTED_BY '''(3)'''</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(4)'''</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| LAND_HOLDER| <span style="color:blue">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY '''(6)'''</span> </br> <span style="color:blue">SUCCESSION</span>| <span style="color:green">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:red">REPLACED_BY</span> </br> <span style="color:orange">SUCCESSION '''(5)'''</span>| <span style="color:orange">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:green">REPLACED_BY '''(7)'''</span> </br> <span style="color:orange">SUCCESSION '''(8)'''</span>| <span style="color:gray">APPOINTED_BY</span> </br> <span style="color:gray">COMMANDER</span> </br> <span style="color:gray">REPLACED_BY</span> </br> <span style="color:gray">SUCCESSION</span>
+|-| <span style="color:gray">CONQUERED_SITE</span>| <span style="color:red">APPOINTED_BY</span> </br><span style="color:gray"> COMMANDER </br> REPLACED_BY </br><span style="color:orange"> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>| <span style="color:gray">APPOINTED_BY </br> COMMANDER </br> REPLACED_BY </br> SUCCESSION</span>|}
 
 备注：
 # 仅在世界生成中有效，如果持有该文明职位的单位存在于该站点。
@@ -366,39 +335,8 @@ LAND_HOLDERS和其他站点或文明职位之间的替换在任何方式中都�
 
 === 技能 ===
 在选举中，职位标记的技能会被考虑。
-{| class="wikitable"
-|+ 每个职位标记的相关技能
-|-
-! 职位标记 !! 相关技能
-|-
-| 责任 [[Position_token#DELIVER_MESSAGES|[DELIVER_MESSAGES]]] || [[Ambusher|潜行者]]、[[Observer|观察者]]和[[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#ACCOUNTING|[ACCOUNTING]]] || [[Record_keeper|记录保管员]]
-|-
-| 责任 [[Position_token#ESPIONAGE|[ESPIONAGE]]] || [[Schemer|阴谋家]]
-|-
-| 责任 [[Position_token#HEALTH_MANAGEMENT|[HEALTH_MANAGEMENT]]] || [[Diagnostician|诊断师]]
-|-
-| 责任 [[Position_token#MAKE_INTRODUCTIONS|[MAKE_INTRODUCTIONS]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#MAKE_PEACE_AGREEMENTS|[MAKE_PEACE_AGREEMENTS]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#MAKE_TOPIC_AGREEMENTS|[MAKE_TOPIC_AGREEMENTS]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#MANAGE_PRODUCTION|[MANAGE_PRODUCTION]]] || [[Organizer|组织者]]
-|-
-| 责任 [[Position_token#MEET_WORKERS|[MEET_WORKERS]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#RECEIVE_DIPLOMATS|[RECEIVE_DIPLOMATS]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#RELIGION|[RELIGION]]] || [[Social_skill|社交技能]]
-|-
-| 责任 [[Position_token#TAME_EXOTICS|[TAME_EXOTICS]]] || [[Animal_trainer|动物训练师]]
-|-
-| 责任 [[Position_token#TRADE|[TRADE]]] || [[Social_skill|社交技能]]和[[Appraiser|鉴定师]]
-|-
-| [[Position_token#SQUAD|[SQUAD]]]标记 || [[Tactician|战术家]]和[[Leader|领导者]]
-|}
+{| class="wikitable"|+ 每个职位标记的相关技能|-
+! 职位标记 !! 相关技能|-| 责任 [[Position_token#DELIVER_MESSAGES|[DELIVER_MESSAGES]]] || [[Ambusher|潜行者]]、[[Observer|观察者]]和[[Social_skill|社交技能]]|-| 责任 [[Position_token#ACCOUNTING|[ACCOUNTING]]] || [[Record_keeper|记录保管员]]|-| 责任 [[Position_token#ESPIONAGE|[ESPIONAGE]]] || [[Schemer|阴谋家]]|-| 责任 [[Position_token#HEALTH_MANAGEMENT|[HEALTH_MANAGEMENT]]] || [[Diagnostician|诊断师]]|-| 责任 [[Position_token#MAKE_INTRODUCTIONS|[MAKE_INTRODUCTIONS]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#MAKE_PEACE_AGREEMENTS|[MAKE_PEACE_AGREEMENTS]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#MAKE_TOPIC_AGREEMENTS|[MAKE_TOPIC_AGREEMENTS]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#MANAGE_PRODUCTION|[MANAGE_PRODUCTION]]] || [[Organizer|组织者]]|-| 责任 [[Position_token#MEET_WORKERS|[MEET_WORKERS]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#RECEIVE_DIPLOMATS|[RECEIVE_DIPLOMATS]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#RELIGION|[RELIGION]]] || [[Social_skill|社交技能]]|-| 责任 [[Position_token#TAME_EXOTICS|[TAME_EXOTICS]]] || [[Animal_trainer|动物训练师]]|-| 责任 [[Position_token#TRADE|[TRADE]]] || [[Social_skill|社交技能]]和[[Appraiser|鉴定师]]|-| [[Position_token#SQUAD|[SQUAD]]]标记 || [[Tactician|战术家]]和[[Leader|领导者]]|}
 
 ==假设==
 
@@ -675,8 +613,7 @@ GENDER标记在这里不起作用：具有错误性别（抱歉）的单位也�
 	[PRECEDENCE:200]
 	非APPOINTED_BY
 	非ELECTED
-	可选：添加责任以使游戏选择具有某些技能的单位。
-}}
+	可选：添加责任以使游戏选择具有某些技能的单位。}}
 ===婚姻栏===
 矮人女主人受到极大的尊重。结婚后，女性矮人不再被期望从事体力劳动。所有矮人男性默认持有此职位，授予其配偶免除体力劳动的权利。
 
@@ -700,8 +637,7 @@ GENDER标记在这里不起作用：具有错误性别（抱歉）的单位也�
 	[MENIAL_WORK_EXEMPTION_SPOUSE]
 	[REQUIRES_POPULATION:8]
 	[SUCCESSION:BY_POSITION:MONARCH]
-	[SQUAD:1:member:members]
-}}
+	[SQUAD:1:member:members]}}
 {{Category|Modding}}
 {{Category|Entities}}
 {{Category|Guides}}

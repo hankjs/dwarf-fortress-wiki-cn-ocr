@@ -1,21 +1,12 @@
 {{Quality|Superior}}
 {{av}}
-{{Skill
-| color      = 5:0
-| graphic    = [[File:appraiser_sprite.png]]
-| skill      = Appraiser
-| specialty  = [[Trader]]
-| profession = [[Administrator]]
-| job name   = Admin/Noble
-| tasks      =
+{{Skill| color      = 5:0| graphic    = [[File:appraiser_sprite.png]]| skill      = Appraiser| specialty  = [[Trader]]| profession = [[Administrator]]| job name   = Admin/Noble| tasks      =
 * Value items at [[Depot]]
 * Value items in the fortress
-* Track wealth and trade info
-| attributes =
+* Track wealth and trade info| attributes =
 * Analytical Ability
 * Memory
-* Intuition
-}}
+* Intuition}}
 '''鉴定师'''[[skill]]与[[trading]]和物品[[value]]估价以及[[zone]]价值估价有关。为了在[[status]]栏中查看您要塞的货币价值估计，以及从[[Record keeper|库存记录]]中查看任何单个物品的价值，您的[[broker]]必须至少是[[Skill#Skill level names|新手]]（1级）鉴定师。（请注意，这对于显示物品[[quality]]不是必需的，后者始终可以通过物品名称两侧的指示符看到。）
 
 [[trade depot]]的当前操作员在每次商队访问时首次打开交易屏幕时获得鉴定师技能的[[experience]]，但贸易站的物品估价是由您的经纪人的鉴定师技能决定的，而不是当前贸易站操作员的。（但是，您可以将经纪人职位重新分配给您的要塞代表，以在贸易站显示物品价值。）鉴定师没有相关的可分配[[labor]]。在图形上，他们穿着全黑色的衣服，使用默认[[Settings#Dye_display|设置]]。

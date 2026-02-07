@@ -1,0 +1,17 @@
+{{Quality|fine}}
+{{verminlookup/0|image=chipmunk_sprite.png|portrait=chipmunk_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''花栗鼠'''是在除冬季外所有季节的[[temperate|温带]][[forest|森林]]中发现的一种[[vermin|害虫]]。它们可以被[[trapper|捕猎者]]捕获并变成[[pet|宠物]]。所有花栗鼠都拥有传奇[[skill|技能]]的[[Climber|攀爬]]。
+
+一些矮人[[Preferences|喜欢]]花栗鼠的''条纹''。
+
+[[File:Vermin-Chipmunk.jpg|thumb|center|400px|Admired for its ''stripes''.]]
+
+{{D for Dwarf}}
+
+一些矮人观察到会唱歌的花栗鼠，通常在[[winter|冬季]]
+
+{{gamedata}}
+{{Vermin}}

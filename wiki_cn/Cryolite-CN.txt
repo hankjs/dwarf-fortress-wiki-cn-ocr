@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{stonelookup/0|graphic=cryolite_sprite.png}}
+{{av}}
+
+'''冰晶石'''是一种不起眼的白色石头,可以在[[granite|花岗岩]]中找到。
+
+==现实生活中==
+它曾被用作[[aluminum|铝]]的矿石,今天用作加工[[bauxite|铝土矿]]的助熔剂。
+
+[[File:Cryolite-114128.jpg|center|thumb|290px|冰晶石。]]
+
+{{gamedata}}
+{{stones}}

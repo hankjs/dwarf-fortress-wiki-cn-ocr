@@ -1,0 +1,22 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=flax_shrub_sprite.png|seedimage=flax_seeds_sprite.png|uses=
+* [[Flour|面粉]]
+* [[Oil|油]]
+* [[Thread|线]]}}
+{{av}}
+
+'''亚麻(Flax)'''是一种[[aboveground|地上]][[crop|作物]]，可以在[[farmer's workshop|农民作坊]]中加工成[[thread|线]]，或[[milling|研磨]]成[[flour|亚麻面粉]]。
+
+'''亚麻籽'''可以生吃，或在[[quern|手磨]]或[[millstone|磨石]]上研磨成糊状，然后可以在[[screw press|螺旋压榨机]]上压榨成[[oil|亚麻籽油]]和[[press cake|压榨饼]]。
+
+亚麻和[[hemp|大麻]]是唯一可以储存在由其自身纤维制成的容器中的可研磨植物。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]亚麻植物的''花朵''。
+
+
+[[File:Flax flowers.jpg|thumb|center|300px|因其''花朵''而受到赞赏。]]
+
+{{Translation| dwarven = engig| elvish  = quithe| goblin  = nonû| human   = cegad}}
+
+{{gamedata}}
+{{Plants}}

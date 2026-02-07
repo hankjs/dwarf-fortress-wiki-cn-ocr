@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=axolotl man premium.png|portrait=axolotl_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''美西螈人'''是普通[[axolotl|美西螈]]的类人版本，是一种不起眼的[[animal people|动物人]][[Creature|物种]]，出没于[[savage|蛮荒]][[tropical|热带]][[lake|湖泊]]。成年后体型略超[[dwarf|矮人]]的一半，以1-5个为一群出现。除非被激怒，否则不会对[[Dwarf|矮人]]构成威胁。
+
+像其他蛮荒动物人一样，美西螈人可能偶尔加入[[civilization|文明]]，成为正式公民，可能作为[[visitor|访客]]出现在你的要塞中，或者在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]美西螈人的''鳃''。
+
+{{D for Dwarf}}
+尽管外表可爱，美西螈人以脾气暴躁闻名，很容易暴走。
+
+
+[[File:Axolotl_man.jpg|thumb|center|310px|An Axolotl man armed with an [[obsidian]] short sword.<br><small>''Drawn by Albino Axolotl''</small>]].
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

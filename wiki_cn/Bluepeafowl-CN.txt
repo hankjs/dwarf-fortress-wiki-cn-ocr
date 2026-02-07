@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=peafowls_sprites_anim.gif
-|portrait=peacock_portrait_anim.gif
-|meat=6-9
-|fat=6-8
-|intestine=1
-|bone=4-6
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=peafowls_sprites_anim.gif|portrait=peacock_portrait_anim.gif|meat=6-9|fat=6-8|intestine=1|bone=4-6|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 '''蓝孔雀'''是[[goose|鹅]]大小的[[Domestic animal|家养]][[Creature|鸟类]]，出现在[[tropical|热带]]阔叶[[forest|森林]]中。雄性（''孔雀''）有明亮的蓝色羽毛和尾羽，形成大型的"眼状"扇形。雌性（''孔雀母''）有棕色羽毛，并在[[nest box|巢箱]]中产[[egg|蛋]]。如果有雄孔雀存在且蛋没有被[[food hauling|收集]]，它们最终可能孵化成''小孔雀''。小孔雀在孵化后1年成长为成年。

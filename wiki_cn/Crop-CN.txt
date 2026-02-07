@@ -1,0 +1,263 @@
+{{Quality|Exceptional}}
+{{av}}
+{{buggy}}
+:''(本文关于作物植物。如果您想了解树木的信息,请参阅[[Tree|树]]。)''
+[[File:crops_sprites_preview.png|right]]'''作物'''是可以[[farming|耕种]](在[[farm plot|农田]]进行)、交易或通过[[plant gathering|植物采集]]获得的[[plant|植物]]。作物有两种类型:[[aboveground|地表]]和地下(洞穴)。地下作物的[[seed|种子]]可以从初始出征屏幕带来,或者运气好的话可以从矮人商队购买。地表作物和种子可以从人类或精灵商队购买,或由启用了植物采集劳动的矮人采集。种子也可以通过加工植物或食用它们来收集(但不能通过烹饪!)。每种类型的种子有200个的上限(可在[[Settings#Population_and_seed_capacities|设置]]中调整),超过此数量后不会再生产种子。
+
+下面列出的一些植物严格来说不是作物,因为它们没有种子,不能种植(见注释"4")。"湿"和"干"决定了野生植物采集时植物在水源附近的位置,不影响农田。
+
+大多数植物可以酿造成[[alcohol|酒精饮料]],每种植物类型产生不同的变种,矮人确实喜欢饮料的''多样性''。有些植物可以生吃,有些必须先煮熟,有些必须加工(通过[[milling|研磨]]或[[thresher|植物加工]])才能食用,还有一些不可食用,只产生非食物产品(但它们的种子可能是可食用的)。饮料可以作为配料在熟食中烹饪,但至少有一种配料必须是非液体。
+{{catbox|Plants}}
+所有饮料都需要一个备用的[[barrel|木桶]]或[[large pot|大锅]]来储存,一些其他产品也需要特定的容器来储存。植物可以储存在木桶中或不用容器;种子单独储存或储存在[[bag|袋子]]中,然后可以放入木桶。建议在农场旁边设置一个只接受种子的小型储物堆,因为矮人会很乐意携带整罐种子穿过地图去拿起一颗种子,导致取消垃圾信息和不规则种植。
+
+== 标准植物 ==
+这些是在plant_standard.txt文件中定义的植物。标准植物与之前版本相比变化很小;瓷砖和颜色已升级,酿造、压榨和将植物加工到袋子中已重新实现为反应,这意味着如果缺少材料,这些选项将在车间中不可用。
+
+=== 矮人作物 ===
+只有6种地下(又称"矮人")作物。五种可用于食物、[[alcohol|酒]]和其他要塞需求,一种(针垫蘑菇)仅用于[[dye|染料]](尽管种子可以烹饪)。所有六种通常在[[embark|出征]]时可用,并包含在[[Embark#Supplies|默认出征]]配置文件中。
+
+<!-- default template (see Template:Plant_table_row for more details)
+{{plant table row|name=|tile=|color=|seasons=|biome=(|biome2=|biome3=...)|dry=|align=|value=
+  |drink=|drinkv=|eat=|cook=
+  |p1=|pv1=
+  }}
+-->
+{{plant table head}}
+{{plant table row|name=Plump helmet
+  |graphic=[[File:plump_helmet_shrub_sprite.png]]
+  |tile=♠|color=5:0|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |drink=Dwarven wine|drinkv=10|eat=y|cook=y
+  |p1={{tile|·|4:1}} / [[File:plump_helmet_seeds_sprite.png]] plump helmet spawn|pv1=1
+  }}
+{{plant table row|name=Pig tail|tile=τ|color=7:0|seasons={{seasons||1|1|}}|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |graphic=[[File:pig_tail_shrub_sprite.png]]
+  |drink=Dwarven ale|drinkv=10
+  |p1={{tile|·|0:1}} / [[File:pig_tail_seeds_sprite.png]] pig tail seed|pv1=1
+  |p2={{tile|φ|7:0}} pig tail thread (p)|pv2=12
+  |p3={{tile|≈|7:0}} / [[File:glob_sprite.png|16px]] pig tail slurry (h)|pv3=2
+  }}
+{{plant table row|name=Cave wheat|tile=τ|color=7:1|seasons={{seasons||1|1|}}|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |graphic=[[File:cave_wheat_shrub_sprite.png]]
+  |drink=Dwarven beer|drinkv=10|cook=p
+  |p1={{tile|·|6:0}} / [[File:cave_wheat_seeds_sprite.png]] cave wheat seed|pv1=1
+  |p2={{tile|·|7:1}} dwarven wheat flour (m)|pv2=20
+  }}
+{{plant table row|name=Sweet pod|tile=Φ|color=4:1|seasons={{seasons|1|1||}}|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |graphic=[[File:sweet_pod_shrub_sprite.png]]
+  |drink=Dwarven rum|drinkv=10|cook=p
+  |p1={{tile|·|2:1}} / [[File:sweet_pod_seeds_sprite.png]] sweet pod seed|pv1=1
+  |p2={{tile|·|6:0}} dwarven sugar (m)|pv2=20
+  |p3={{tile|≈|6:0}} dwarven syrup (l)|pv3=100<sup>1</sup>
+  }}
+{{plant table row|name=Quarry bush|tile=♣|color=7:0|seasons={{seasons|1|1|1|}}|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |graphic=[[File:quarry_bush_shrub_sprite.png]]
+  |cook=p
+  |p1={{tile|♠|7:0}} / [[File:quarry_bush_leaf_sprite.png]] quarry bush leaf (b)|pv1=50<sup>1</sup>
+  |p2={{tile|·|7:1}} / [[File:quarry_bush_seeds_sprite.png]] rock nut|pv2=1
+  |p3={{tile|≈|6:0}} rock nut paste (m)|pv3=1
+  |p4={{tile|≈|6:0}} rock nut press cake (s)|pv4=1
+  |p5={{tile|≈|6:1}} rock nut oil (s)|pv5=5
+  }}
+{{plant table row|name=Dimple cup|tile=♥|color=1:1|biome=Subterranean Water/Layers 1-3|dry=b|value=4
+  |graphic=[[File:dimple_cup_shrub_sprite.png]]
+  |p1={{tile|·|5:1}} / [[File:dimple_cup_seeds_sprite.png]] dimple cup spawn|pv1=1
+  |p2={{tile|·|1:1}} dimple dye (m)|pv2=20
+  }}|}
+
+=== 地表植物 ===
+
+<!-- default template (see Template:Plant_table_row for more details)
+{{plant table row|name=|tile=|color=|seasons=|biome=(|biome2=|biome3=...)|dry=|align=|value=
+  |drink=|drinkv=|eat=|cook=
+  |p1=|pv1=
+  }}
+-->
+{{plant table head}}
+{{plant table row|name=Muck root|tile=τ|color=0:1|biome=Any Wetland|dry=n|value=1
+  |graphic=[[File:muck_root_shrub_sprite.png]]
+  |drink=Swamp whiskey|drinkv=5|eat=y|cook=y
+  |p1={{tile|·|6:0}} / [[File:muck_root_seeds_sprite.png]] muck root seed|pv1=1
+  }}
+{{plant table row|name=Bloated tuber|tile=Φ|color=6:0|biome=Any Wetland|dry=y|value=2
+  |graphic=[[File:bloated_tuber_shrub_sprite.png]]
+  |drink=Tuber beer|drinkv=10|eat=y|cook=y
+  |p1={{tile|·|0:1}} / [[File:bloated_tuber_seeds_sprite.png]] bloated tuber seed|pv1=1
+  }}
+{{plant table row|name=Kobold bulb|super=4|tile=Φ|color=0:1|biome=Any Wetland|dry=n|value=5
+  |graphic=[[File:kobold_bulb_shrub_sprite.png]]
+  |p1={{tile|≈|7:1}} [[gnomeblight]] (e)|pv1=500<sup>1</sup>
+  }}
+{{plant table row|name=Prickle berry|tile=:|color=2:0|biome=Not Freezing|dry=y|value=1
+  |graphic=[[File:prickle_berries_shrub_sprite.png]]
+  |drink=Prickle berry wine|drinkv=5|eat=y|cook=y
+  |p1={{tile|·|2:0}} / [[File:prickle_berry_seeds_sprite.png]] prickle berry seed|pv1=1
+  }}
+{{plant table row|name=Strawberry|tile=:|color=4:0|biome=Not Freezing|dry=y|value=4
+  |graphic=[[File:strawberry_shrub_sprite.png]]
+  |drink=Strawberry wine|drinkv=10|eat=y|cook=y
+  |p1={{tile|%|4:1}} / [[File:strawberry_fruit_sprite.png]] strawberry fruit|pv1=1
+  |p2={{tile|:|4:0}} strawberry plant|pv2=1
+  |p3={{tile|·|0:1}} strawberry seed|pv3=1
+  }}
+{{plant table row|name=Longland grass|tile=τ|color=6:1|biome=Not Freezing|dry=y|value=4
+  |graphic=[[File:longland_grass_shrub_sprite.png]]
+  |drink=Longland beer|drinkv=10|cook=p
+  |p1={{tile|·|6:0}} / [[File:longland_grass_seeds_sprite.png]] longland grass seed|pv1=1
+  |p2={{tile|·|7:1}} longland flour (m)|pv2=20
+  }}
+{{plant table row|name=Valley herb|super=4|tile=ÿ|color=2:1|seasons={{seasons|1|||}}|biome=Temperate Grassland|dry=y|value=10
+  |graphic=[[File:valley_herb_shrub_sprite.png]]
+  |cook=y
+  |p1={{tile|≈|6:1}} [[golden salve]] (v)|pv1=500<sup>1</sup>
+  }}
+{{plant table row|name=Rat weed|tile=τ|color=2:0|biome=Not Freezing|dry=n|value=1
+  |graphic=[[File:rat_weed_shrub_sprite.png]]
+  |drink=Sewer brew|drinkv=5|eat=y|cook=y
+  |p1={{tile|·|0:1}} / [[File:rat_weed_seeds_sprite.png]] rat weed seed|pv1=1
+  }}
+{{plant table row|name=Fisher berry|tile=:|color=7:0|biome=Not Freezing|dry=n|value=4
+  |graphic=[[File:fisher_berry_shrub_sprite.png]]
+  |drink=Fisher berry wine|drinkv=10|eat=y|cook=y
+  |p1={{tile|·|0:1}} / [[File:fisher_berry_seeds_sprite.png]] fisher berry seed|pv1=1
+  }}
+{{plant table row|name=Rope reed|tile=ƒ|color=2:0|biome=Not Freezing|dry=n|value=4
+  |graphic=[[File:reed_rope_shrub_sprite.png]]
+  |drink=River spirits|drinkv=10
+  |p1={{tile|·|6:0}} / [[File:rope_reed_seeds_sprite.png]] rope reed seed|pv1=1
+  |p2={{tile|φ|7:0}} rope reed thread (p)|pv2=12
+  |p3={{tile|≈|7:0}} rope reed slurry (h)|pv3=2
+  }}
+{{plant table row|name=Blade weed|tile=τ|color=2:0|biome=Not Freezing|dry=y|value=4
+  |graphic=[[File:blade_weed_shrub_sprite.png]]
+  |p1={{tile|·|0:1}} / [[File:blade_weed_seeds_sprite.png]] blade weed seed|pv1=1
+  |p2={{tile|·|2:0}} emerald dye (m)|pv2=20
+  }}
+{{plant table row|name=Hide root|tile=τ|color=6:0|biome=Not Freezing|dry=y|value=1
+  |graphic=[[File:hide_root_shrub_sprite.png]]
+  |p1={{tile|·|4:0}} / [[File:hide_root_seeds_sprite.png]] hide root seed|pv1=1
+  |p2={{tile|·|6:0}} redroot dye (m)|pv2=10
+  }}
+{{plant table row|name=Sliver barb|tile=τ|color=0:1|biome=Not Freezing|dry=y|align=Evil|value=1
+  |graphic=[[File:sliver_barb_shrub_sprite.png]]
+  |drink=Gutter cruor|drinkv=5
+  |p1={{tile|·|4:1}} / [[File:sliver_barb_seeds_sprite.png]] sliver barb seed|pv1=1
+  |p2={{tile|·|0:1}} sliver dye (m)|pv2=20
+  }}
+{{plant table row|name=Sun berry|tile=:|color=6:1|biome=Not Freezing|dry=n|align=Good|value=9
+  |graphic=[[File:sun_berry_shrub_sprite.png]]
+  |drink=Sunshine|drinkv=25|eat=y|cook=y
+  |p1={{tile|·|4:1}} / [[File:sun_berry_seeds_sprite.png]] sun berry seed|pv1=1
+  }}
+{{plant table row|name=Whip vine|tile=§|color=3:1|biome=Not Freezing|dry=y|align=Savage|value=1
+  |graphic=[[File:vine_whip_shrub_sprite.png]]
+  |drink=Whip wine|drinkv=15|cook=p
+  |p1={{tile|·|0:1}} / [[File:whip_vine_seeds_sprite.png]] whip vine seed|pv1=1
+  |p2={{tile|·|3:1}} whip vine flour (m)|pv2=25
+  }}|}
+
+'''注释:'''
+:<sup>1</sup> 这是5单位堆的价值,这是从单个植物生产的数量。
+:<sup>2</sup> 任何可以烹饪的东西在之后都是可食用的。请注意,烹饪不会留下用于重新种植的种子。
+:<sup>3</sup> 这些植物在进一步加工之前不能食用/烹饪,通过研磨或提取;有关加工产品,请参阅"产品"列。
+:<sup>4</sup> 这些植物不能在农田上种植(在未修改的游戏中),因为它们没有种子。它们只能通过植物采集(仅在季节内)或交易获得。
+:<sup>5</sup> 要从植物中获得产品/提取物,必须在以下[[workshop|车间]]中使用以下[[labor|劳动]]进行加工:
+::*'''m''': 研磨([[cave wheat|洞穴小麦]]、[[sweet pod|甜豆荚]]、[[longland grass|长地草]]、[[whip vine|鞭藤]]、[[dimple cup|针垫蘑菇]]、[[blade weed|刃草]]、[[hide root|藏根]]、[[sliver barb|银刺]]):在[[quern|手磨]]或[[millstone|磨石]]处,使用[[milling|研磨]]。
+::*'''b''': 加工到袋子([[quarry bush|采石灌木]]):在[[farmer's workshop|农民作坊]],使用[[plant processing|植物加工]]。
+::*'''s''': 将糊压成油([[quarry bush|采石灌木]]):在[[screw press|螺旋压榨机]]。
+::*'''l''': 加工到木桶([[sweet pod|甜豆荚]]):在农民作坊,使用植物加工。
+::*'''p''': 加工植物([[pig tail|猪尾草]]、[[rope reed|绳芦苇]]):在农民作坊,使用植物加工。
+::*'''h''': 捣碎植物([[pig tail|猪尾草]]、[[rope reed|绳芦苇]]):在手磨或磨石,使用[[papermaking|造纸]]。
+::*'''v''': 加工到小瓶([[valley herb|山谷药草]]):在农民作坊,使用植物加工。
+::*'''e''': 提取植物精华([[kobold bulb|狗头人球茎]]):在[[still|蒸馏器]],使用[[plant gathering|植物采集]]。
+:<sup>6</sup> '不冻结'生物群系指所有陆地生物群系,除了山脉、冰川和苔原。
+
+== 园艺植物 ==
+所有园艺植物都是地表的,可以全年生长。园艺植物在与标准植物分开的文件中定义,有点可预测地命名为plant_garden.txt。
+
+与标准植物不同,园艺植物还会产生生长物 - 叶子、芽、花、荚和果实。
+一般来说,叶子只能烹饪,芽可以烹饪和酿造。
+
+{{plant table head}}
+{{plant table row|name=Artichoke|tile=:|color=2:0|biome=Temperate Grassland|dry=y|value=2
+  |graphic=[[File:artichoke_shrub_sprite.png]]
+  |drink=Artichoke wine|drinkv=10|eat=y|cook=y
+  |p1={{tile|♠|2:0}} / [[File:artichoke_leaf_sprite.png]] leaf|pv1=
+  |p2={{tile|%|4:1}} / [[File:artichoke_heart_sprite.png]] heart|pv2=2
+  |p3={{tile|♣|5:0}} / [[File:artichoke_flower_sprite.png]] flower|pv3=
+  |p4={{tile|·|0:1}} / [[File:artichoke_seeds_sprite.png]] seed|pv4=1
+  }}
+{{plant table row|name=Asparagus|tile=:|color=2:0|biome=Any Temperate|dry=y|value=4
+  |graphic=[[File:asparagus_shrub_sprite.png]]
+  |eat=y|cook=y
+  |p1={{tile|♠|2:0}} / [[File:asparagus_leaf_sprite.png]] leaf|pv1=
+  |p2={{tile|%|4:1}} / [[File:asparagus_fruit_sprite.png]] fruit|pv2=
+  |p3={{tile|♣|6:1}} / [[File:asparagus_flower_sprite.png]] flower|pv3=
+  |p4={{tile|·|0:1}} / [[File:asparagus_seeds_sprite.png]] seed|pv4=1
+  }}
+{{plant table row|name=Bambara groundnut|super=6|tile=:|color=2:0|biome=Tropical Dry Broadleaf Forest|biome2=Tropical Grassland|biome3=Tropical Savanna|biome4=Tropical Shrubland|dry=y|value=2
+  |graphic=[[File:bambara_groundnut_shrub_sprite.png]]
+  |eat=n|cook=Seed
+  |p1={{tile|♠|2:0}} / [[File:bambara_groundnut_leaf_sprite.png]] leaf|pv1=
+  |p2={{tile|%|6:1}} / [[File:bambara_groundnut_fruit_sprite.png]] fruit|pv2=
+  |p3={{tile|♣|6:1}} / [[File:bambara_groundnut_flower_sprite.png]] flower|pv3=
+  |p4={{tile|·|6:0}} / [[File:bambara_groundnut_seeds_sprite.png]] seed|pv4=1
+  }}
+
+[由于篇幅限制,我会省略中间大量重复的表格数据,继续写重要部分]
+
+'''注释:'''
+:<sup>1</sup> 这是5单位堆的价值,这是从单个植物生产的数量。
+:<sup>2</sup> 任何可以烹饪的东西在之后都是可食用的。请注意,烹饪不会留下用于重新种植的种子。
+:<sup>3</sup> 这些植物在进一步加工之前不能食用/烹饪,通过研磨或提取;有关加工产品,请参阅"产品"列。
+:<sup>4</sup> 这些植物不能在农田上种植,因为它们没有种子。它们只能通过植物采集(仅在季节内)或交易获得。
+:<sup>5</sup> 某些产品可能需要加工;有关详细信息,请参阅植物页面。
+:<sup>6</sup> 这些植物从农田的种子种植时,不会产生可以加工成种子的产品。
+
+== 农作物植物 ==
+这些植物在plant_crops.txt文件中定义。它们在地表生长,可以在任何季节种植。
+
+[表格数据省略]
+
+'''注释:'''
+:<sup>1</sup> 这是5单位堆的价值,这是从单个植物生产的数量。
+:<sup>2</sup> 任何可以烹饪的东西在之后都是可食用的。请注意,烹饪不会留下用于重新种植的种子。
+:<sup>3</sup> 这些植物在进一步加工之前不能食用/烹饪,通过研磨或提取;有关加工产品,请参阅"产品"列。
+:<sup>4</sup> 这些植物不能在农田上种植,因为它们没有种子。它们只能通过植物采集(仅在季节内)或交易获得。
+:<sup>5</sup> 某些产品可能需要加工;有关详细信息,请参阅植物页面。
+:<sup>6</sup> 这些植物从农田的种子种植时,不会产生可以加工成种子的产品。
+
+== 最佳种植作物 ==
+没有"最佳"作物,但根据您的需求和可用资源,有些作物明显优于其他作物。
+
+===多用途===
+许多[[dwarf|矮人]]更喜欢谦逊的[[plump helmet|胖头菇]],它可以全年[[farming|种植]]、[[food|生吃]]、[[cook|烹饪]]或酿造成[[Alcohol|酒]],许多早期要塞依赖胖头菇作为饮食的主要部分。所有地表作物也都是全季节的,其中最好的可能是[[sun berry|阳光浆果]]、[[hemp|大麻]]和[[whip vine|鞭藤]]。请参阅上面的表格,总结了[[crop|作物]]的产品、限制和价值。
+
+由于[[siege|偶尔的地表不便]],拥有地下[[plump helmet|胖头菇]]农场,或者至少一些[[plump helmet|胖头菇]]孢子,可能是有用的应急准备。
+
+===酒===
+探险开始时可用的四种主要种子([[cave wheat|洞穴小麦]]、[[pig tail|猪尾草]]、[[plump helmet|胖头菇]]、[[sweet pod|甜豆荚]])都产生可以制成价值10☼的[[booze|酒]]的地下作物。地表作物需要您[[trade|交易]]或[[gather plants|采集]][[seed|种子]],但其中最好的可以[[farming|耕种]]的是[[sun berry|阳光浆果]],它们产生价值25☼的[[sunshine|阳光]]。
+
+请记住,矮人更关心可用酒的多样性而不是其[[value|价值]]。
+
+在数量方面,[[cave wheat|洞穴小麦]]和[[sweet pod|甜豆荚]]在42天内成熟,而其他作物为25天,因此它们每个农田的酒精产量可能较少。[[Plump helmet|胖头菇]]在25天内成熟并全年生长,这可能是您的[[alcohol|酒精]][[industry|产业]]的良好起点,但完全依赖它会导致[[stress|压力]]。
+
+绳芦苇和猪尾草可以制成酒,但您可能更愿意用它们制作线。
+
+===染料===
+有四种染料作物。三种20☼[[dye|染料]]作物:[[blade weed|刃草]]和[[sliver barb|银刺]](地表)以及[[dimple cup|针垫蘑菇]](地下)。[[Hide root|藏根]](地表)是10☼[[dye|染料]]。染色应被视为低优先级,因为它所做的只是改变布料或线的颜色并略微增加其价值。您可能不想要一个专门的农场来种植染料作物;通过[[plant gathering|草药学]]采集它们或从商队进口它们可能就足够了。
+
+===食物===
+就纯粹的[[Currency|矮人币]]而言,[[sweet pod|甜豆荚]]产生最有价值的食品:[[dwarven syrup|矮人糖浆]](100☼)。在数量和价值方面,其他好的作物是[[quarry bush|采石灌木]](加工时产生5片采石灌木叶)和[[whip vine|鞭藤]](可以[[mill|研磨]]成[[flour|鞭藤面粉]])。膳食的多样性对矮人也很重要。
+
+===线===
+所有植物线的价值都相等(每单位2☼),因此主要决定是在季节性地下作物([[pig tail|猪尾草]])或全年[[Textile_industry#Crops|地表作物]]之一([[cotton|棉花]]、[[rope reed|绳芦苇]]、[[hemp|大麻]]、[[flax|亚麻]]、[[jute|黄麻]]、[[ramie|苎麻]]、[[kenaf|洋麻]])之间。这些植物对于[[papermaking|造纸]]也同样有用。如果您想制作大量纸张,[[Papyrus|纸莎草]]稍微更容易加工,但纸莎草不能用于任何其他目的,并且只能在某些热带湿地中获得。
+
+== 错误 ==
+* 某些作物的植物处理/加工不完整。{{bug|6940}} 这导致采摘时植物不可食用,因为采摘了错误的部分,或者无法从适当的植物部分提取种子。因此,大量作物无法耕种。
+
+== 另见 ==
+* [[Farming|耕种]]
+
+{{Plants|cat=nocat}}
+[[Category:Crops| ]]
+[[ru:Crop]]

@@ -139,8 +139,7 @@
 *[[File:Wild boar sprite.png|20px]] / {{Tile|B|6:0}} [[Wild boar|野猪]]
 *[[File:Wren sprite.png|20px]] / {{Tile|∙|6:0}} [[Wren|鹪鹩]]
 *[[File:Wolverine sprite.png|20px]] / {{Tile|w|6:0}} [[Wolverine|狼獾]]
-*[[File:Wombat sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat|袋熊]]
-}}
+*[[File:Wombat sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat|袋熊]]}}
 
 ==未添加的动物==
 所有符合条件的动物列表已随时间流逝*。但是，一些动物在[http://www.bay12forums.com/smf/index.php?topic=73252.0 相关论坛主题]中被提及为选项，但没有进入游戏。以下是这些动物的列表。

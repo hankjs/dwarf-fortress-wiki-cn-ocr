@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=brook_lamprey_sprite.png
-|portrait=brook_lamprey_portrait.png}}
+{{verminlookup/0|image=brook_lamprey_sprite.png|portrait=brook_lamprey_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

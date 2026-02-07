@@ -1,0 +1,34 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|image=fire_man_sprite.png|portrait=fire_man_portrait.png|vary=no|wiki=no|contrib=no|death=item|item=[[Ash]]}}
+{{av}}
+{{creaturedesc}}
+'''火焰人'''是由[[fire|火焰]]构成的极其罕见的[[construct creature|构造生物]]，在[[magma sea|岩浆海]]中发现。它们的体型与[[human|人类]]相当，没有情感，[[No Exert|不会疲劳]]，不需要呼吸，[[No Pain|免疫疼痛]]并且[[No Stun|无法被击晕]]。当火焰人被杀死时，它会留下一块[[bar|条]][[ash|灰烬]]，可以制成[[lye|碱液]]或[[potash|草木灰]]。因为它们生活在岩浆海中并且是[[building destroyer|建筑破坏者]]，在设置[[magma forge|岩浆熔炉]]时应该谨慎，以防其中一个真的出现。尽管由火焰构成，它们可以安全地捕获并储存在木制[[cage|笼子]]中，并且不会因接触[[water|水]]而受伤。火焰人是不朽的，只会因暴力而死亡。
+
+火焰人只因其自然热量和火焰攻击（火球投掷和火焰喷射）而危险。它们的拳打脚踢本身是无害的，它们的火焰身体极其脆弱，所以如果一个婴儿把火焰人打死了，不要惊讶。然而，实际杀死一个火焰人可能会非常[[fun|有趣]]，因为由此产生的火焰爆发往往会点燃附近的生物。
+
+一些[[dwarves|矮人]]因火焰人的''火焰舔舐''而[[Preferences|喜欢]]他们。
+
+[[File:Man-on-fire.jpg|thumb|center|300px|因其''火焰舔舐''而[[preference|受赞赏]]。]]
+
+{{Translation| dwarven = ziril udos | elvish = inira onino | goblin = zedan ngorûg | human = usmok abo}}
+
+{{D for Dwarf}}
+
+<!-- Reference: Fahrenheit 451 by Ray Bradbury -->
+在冒险模式中面对火焰人时，请确保移除你拥有的任何书籍。看到书会让火焰人陷入杀气腾腾的狂暴状态！
+
+<!-- Reference: Mega Man: Powered Up boss Fire Man -->
+火焰人往往痴迷于扭曲的正义观，无情地攻击他们视为恶人的人。
+
+<!-- Reference: Metal Gear Solid V: The Phantom Pain -->
+非常罕见的是，已知无意识的人类会转化为特殊类型的火焰人。这些是不可摧毁的，盲目攻击性的，只能由外部来源控制。
+
+<!-- Reference: Human Torch from Marvel Comics -->
+一些火焰人以其英雄事迹而闻名，加入最多四名成员的团队，以保护无辜者免受外界威胁。
+
+== 现实生活中 ==
+
+"Fire man"，也拼写为"fireman"，是消防员的古英语术语。在现实生活中，他们不是由火构成的{{Verify}}，实际上倾向于扑灭而不是传播火焰。
+
+{{gamedata}}
+{{Creatures}}

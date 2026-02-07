@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=andesite_sprite.png}}
+{{stonelookup/0|graphic=andesite_sprite.png}}
 {{av}}
 
 '''安山岩'''是一种不起眼的[[Igneous extrusive layer|火成喷出岩]][[stone|石头]]。它可以形成整个岩层，在功能上与[[dacite|英安岩]]和[[rhyolite|流纹岩]]相同。它不是[[magma-safe|耐岩浆]]的。

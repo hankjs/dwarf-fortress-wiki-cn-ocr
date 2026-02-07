@@ -1,0 +1,20 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{new in v0.42}}
+
+'''碳酸钙'''[[stone|石头]]是石头的一个子类别，在生产[[quicklime|生石灰]]时很有用。以下石头属于此反应类别：
+
+:* {{Raw Tile|"|7:7:1}} {{Raw Tile|•|7:1}} [[File:calcite_sprite.png|14px]] [[Calcite|方解石]]
+:* {{Raw Tile|░|7:7:1}} {{Raw Tile|•|7:1}} [[File:chalk_sprite.png|14px]] [[Chalk|白垩]]
+:* {{Raw Tile|▓|7:7:1}} {{Raw Tile|•|7:1}} [[File:limestone_sprite.png|14px]] [[Limestone|石灰岩]]
+:* {{Raw Tile|▓|7:7:1}} {{Raw Tile|•|7:1}} [[File:marble_sprite.png|14px]] [[Marble|大理石]]
+
+==获取碳酸钙石==
+这些石头可以像其他石头一样被开采，但只在特定条件下形成：白垩和石灰岩在靠近地表的[[sedimentary layer|沉积层]]中形成，而大理石是[[metamorphic layer|变质岩]]，使其在更深的Z层中很常见。方解石只在石灰岩和大理石层内的簇中形成。碳酸钙层通常可以在[[embark|出发]]时通过查看站点描述中的"助熔层"来发现 - 只要有问题的助熔石不是[[dolomite|白云石]]，你就可以在非常接近地表的地方获得碳酸钙。[[Dwarf|矮人]][[caravan|商队]]可以带来任何碳酸钙石作为贸易商品，但不会大量带来。
+
+==用途==
+碳酸钙石的唯一独特特性是它可以在[[kiln|窑炉]]或[[magma kiln|岩浆窑炉]]中转化为[[quicklime|生石灰]]粉末。这个反应需要一个空袋子，以及操作窑炉所需的任何[[fuel|燃料]]。然而，所有碳酸钙石也符合[[flux|助熔]]资格，这是[[steel|钢]]生产中的关键元素。钢铁无疑是更有价值和实用的产品，因为生石灰只能用于生产[[milk of lime|石灰乳]]和[[parchment|羊皮纸]]，但一般来说，获得多层碳酸钙石将为你的要塞提供足够的材料来运营这两个产业。此外，所有碳酸钙石的[[value|价值]]是大多数石头的两倍，使其成为用于石质[[furniture|家具]]或[[crafts|工艺品]]的良好候选。
+
+{{Category|Materials}}
+[[ru:Calcium carbonate]]

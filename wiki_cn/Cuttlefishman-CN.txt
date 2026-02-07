@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=cuttlefish_man_sprite.png
-|portrait=cuttlefish_man_portrait.png}}
+{{Creaturelookup/0|image=cuttlefish_man_sprite.png|portrait=cuttlefish_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

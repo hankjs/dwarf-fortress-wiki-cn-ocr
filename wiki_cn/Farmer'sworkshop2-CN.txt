@@ -1,0 +1,50 @@
+{{Quality|Superior}}{{v50 workshop|name=Farmer's workshop|key=f|key2=f|image=Farmer's_workshop|job=[[Thresher|植物加工]], [[Milker|挤奶]], [[Cheese maker|制作奶酪]], [[Shearer|剪毛]], [[Spinner|纺纱]], [[Papermaker|造纸]]|icon=[[File:Farmer's_workshop_icon.png]]|construction=
+* [[Building material|建筑材料]] (非[[economic|经济型]])|construction_job=
+任何工坊农业：
+* [[Thresher|植物加工]]
+* [[Milker|挤奶]]
+* [[Cheese maker|制作奶酪]]
+* [[Spinning|纺纱]]
+* [[Shearing|剪毛]]
+* [[Papermaking|造纸]]|use=
+* 各种[[crop|农作物]]
+* 用于各自任务的[[Bag|袋子]]、[[barrel|桶]]和[[vial|小瓶]]
+* 各种动物和[[milk|牛奶]]
+* [[Wool|羊毛]]/[[Hair|毛发]]|production=
+* 植物[[thread|线]]（加工植物）
+* [[Quarry bush|采石灌木]]叶子和[[rock nut|岩坚果]]（将植物加工到[[bag|袋子]]）
+* [[Dwarven syrup|矮人糖浆]]和[[sweet pod|甜豆荚]]种子（将植物加工到[[barrel|桶]]）
+* [[Golden salve|金色药膏]]（将植物加工到[[vial|小瓶]]）
+* [[Milk|牛奶]]
+* [[Cheese|奶酪]]
+* [[Wool|羊毛]]
+* [[Yarn|毛线]]
+* [[Hair|毛发]][[thread|线]]
+* [[Sheet|纸张]]}}{{av}}
+
+'''农夫工坊(Farmer's workshop)'''是用于任何涉及加工[[plant|植物]]或[[animal|动物]]产品的[[job|工作]]的[[workshop|工坊]]。它由任何建筑材料建造，必须由启用了[[Thresher|植物加工]]、[[Milker|挤奶]]、[[Shearer|剪毛]]、[[Spinner|纺纱]]或[[Cheese maker|制作奶酪]][[labor|劳动]]的[[dwarf|矮人]]建造。[[Gelding|阉割]]也在农夫工坊进行。这不是一个可选择的菜单选项：相反，任何被指定要阉割的动物都会自动在农夫工坊分配一个阉割工作。
+
+==菜单==
+'''农夫工坊'''
+
+* 加工植物 - 从[[Plant_fiber|某些植物]]制作[[thread|线]]，或将其他一些植物加工成生长物，两者都使用[[thresher|打谷工]]技能并产生[[seed|种子]]
+* 加工植物（桶） - 用空[[barrel|桶]]将[[sweet pod|甜豆荚]]变成[[dwarven syrup|矮人糖浆]]和[[seed|种子]]
+* 加工植物（小瓶） - 用空[[vial|小瓶]]将[[valley herb|山谷草药]]变成[[golden salve|金色药膏]]
+* 制作奶酪 - 用任何[[milk|牛奶]]制作[[cheese|奶酪]]
+* 挤奶生物 - 用空[[bucket|桶]][[Milker|挤]]可挤奶生物的奶
+* 剪毛生物 - 从[[alpaca|羊驼]]、[[llama|美洲驼]]和[[sheep|绵羊]]（或驯服的[[troll|巨魔]]）身上剪[[wool|羊毛]]
+* 纺线 - 从羊毛（见上）或其他生物的毛发制作[[thread|线]]
+* 将植物加工到袋子 - 用空[[bag|袋子]]将[[quarry bush|采石灌木]]加工成[[leaves|叶子]]和岩坚果
+* 从植物制作纸张 - 从[[papyrus sedge|纸莎草]]植物制作纸莎草[[sheet|纸张]]
+:: 如果{{DFtext|文本是红色的|4:0:1}}，则表示你缺少执行该任务的原材料。
+
+==常见用途==
+*将植物变成[[thread|线]]，用于在[[loom|织布机]]上[[weaving|编织]]。
+*将某些植物变成[[food|食物]]和[[extracts|提取物]]
+*收获[[milk|牛奶]]并将其变成[[cheese|奶酪]]。
+
+==另见==
+*[[Textile industry|纺织业]]
+
+{{Workshops}}
+{{Category|Farming Workshops}}

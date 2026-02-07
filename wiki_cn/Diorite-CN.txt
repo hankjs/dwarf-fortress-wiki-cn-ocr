@@ -1,0 +1,14 @@
+{{Quality|SUperior}}
+{{layerlookup/0|graphic=diorite_sprite.png}}
+{{av}}
+
+'''闪长岩'''是一种[[igneous intrusive layer|侵入火成岩]],非[[magma-safe|耐岩浆]]的[[stone|石头]],可以形成整个[[stone layers|岩层]]。
+
+因为闪长岩不包含多种大型簇和[[vein|矿脉]],所以对于坚持颜色统一的玩家来说,它是一个有趣的岩层。在闪长岩层内挖掘和雕刻将产生均匀的深灰色区域,偶尔有[[native gold|金]]矿脉和小[[gem|宝石]]簇。
+
+<gallery>
+File:diorite.jpg|闪长岩
+</gallery>
+
+{{gamedata}}
+{{stones}}

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=almond_trunk_sprite.png
-|product=almond_sprite.png
-|sapling=almond_sapling.png}}
+{{Treelookup/0|graphic=almond_trunk_sprite.png|product=almond_sprite.png|sapling=almond_sapling.png}}
 {{av}}
 
 '''杏仁树（Almond）'''是众多生长在[[地表]]的[[树木]]之一。与绝大多数地表树木一样，杏仁树的[[木材]]呈棕色，制成的产品也是棕色的。它们的坚果可以在[[染坊]]中加工成浅棕色的[[染料]]。

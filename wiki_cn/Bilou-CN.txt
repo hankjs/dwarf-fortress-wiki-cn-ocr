@@ -1,17 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=bilou_sprites.png
-|portrait=bilou_gibbon_portrait.png
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=Kloss's gibbon
-}}
+{{Creaturelookup/0|image=bilou_sprites.png|portrait=bilou_gibbon_portrait.png|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|skin=hide|contrib=no|wiki=Kloss's gibbon}}
 {{av}}
 {{creaturedesc}}
 

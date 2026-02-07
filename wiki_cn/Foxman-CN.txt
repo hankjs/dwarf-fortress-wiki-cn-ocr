@@ -1,0 +1,27 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|image=fox_man_sprite.png|portrait=fox_man_portrait.png}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''狐人'''是普通[[fox|狐狸]]的[[animal people|兽人]]变种,栖息在[[savage|野蛮]][[temperate|温带]][[forest|森林]]和[[taiga|针叶林]]中,以2-10个个体为一组生成,通常满足于独善其身。就体型而言,它们的体重大约是普通[[dwarf|矮人]]的一半。
+
+像其他野蛮兽人一样,狐人可以加入[[civilization|文明]],成为历史人物,作为[[visitor|访客]]出现,并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人因其''狡猾''而[[Preferences|喜欢]]狐人。
+
+[[File:fox_man.png|thumb|251px|center|不是驾驶阿文翼战机的那种。]]
+
+{{D for Dwarf}}
+他们似乎不擅长[https://en.wikipedia.org/wiki/Star_Fox 驾驶战斗机],与普遍看法相反。
+
+狐人的文化高度重视传统、家庭和民族自豪感。他们偏好的经济模式是自由市场资本主义,与矮人的中央计划经济形成鲜明对比。
+
+他们不是[[muskox man|麝牛人]]。(如果你不注意的话,很容易犯这个错误。)如有疑问,麝牛人往往有更强的体味。
+
+狐人更喜欢通过一对一徒手战斗在平地上解决与其他狐人的冲突。他们认为用武器或在不完全平坦的地面上进行这些决斗是不可想象的。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

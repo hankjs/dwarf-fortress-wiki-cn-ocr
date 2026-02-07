@@ -1,0 +1,28 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=foul_blendec_sprite.png|portrait=foul_blendec_portrait.png|contrib=no|death=nobutcher|wiki=no}}
+{{av}}
+{{creaturedesc}}
+'''污秽混合兽'''是一种[[fanciful|幻想]]、智能的[[creature|生物]],出现在某些[[evil|邪恶]]阵营的[[forest|森林]]中。它们的体型与[[dwarf|矮人]]相当,这些骷髅头生物罕见地生成,以3到5个个体为一组,会威胁所有比它们小的生物。它们会攻击激怒它们的矮人,除非用[[military|军队]]小队来对抗,否则可能造成重大伤害。它们是纯雄性种族——不存在雌性污秽混合兽——而且是不朽的,只会死于暴力和疾病。
+
+污秽混合兽具有智慧,可以打开未上锁的[[door|门]],尽管除非追赶矮人,否则它们不太可能进入要塞。如前所述,它们完全没有眼睛,但仍然可以通过{{token|EXTRAVISION}}看到东西(这意味着无法使它们失明)。它们的[[pet|宠物]]价值为250,但缺少[[Animal trainer|驯化]]所需的必要标记(即使通过[[Modding|模组]]将其设为可驯化,由于它们是智能生物,也会导致[[Animal trainer#Taming_intelligent_creatures|奇怪的行为]])。由于前述的智能,矮人不会[[butcher|屠宰]]、食用或使用由污秽混合兽制成的产品,它们的用途仅限于占据你的[[refuse|垃圾]][[stockpile|储物区]]空间、[[live training|活体训练]]或者如果你在[[cage|笼子]][[trap|陷阱]]中捕获了一只,可以把它放在你更喜欢的地方。
+
+它们的[[good|善良]]阵营对应物是[[satyr|萨特]]。
+
+一些矮人因其''羊头''、''羊腿''和''腐烂的眼窝''而[[Preferences|喜欢]]污秽混合兽。
+<div style="margin-left: 10%;">
+<gallery widths="180px" heights="280px" captionalign="right">
+File:FoulBlendec.jpg|一只污秽混合兽,由[[Main:Bay 12 Games|Bay 12 Games]]用蜡笔绘制
+File:blendec_preview.png|这种污秽生物的更详细版本。<br><small>''艺术作品来自kough_noises''</small>
+File:foul_blendec_preview2.jpg|这种污秽生物的另一个详细视图。<br><small>''艺术作品来自Salasti''</small>
+</gallery></div>
+{{D for Dwarf}}
+
+污秽混合兽让人想起另一个[http://darksouls.wikidot.com/capra-demon 羊头骷髅怪物]。目睹它们携带大砍刀并使用[[dog|狗]]的矮人建议先杀死狗。
+==趣闻==
+*[[File:foul_blendec_sprites.png|right]]最初,高级版中有幼年污秽混合兽的精灵图。后来从游戏中移除了,因为污秽混合兽一出生就是成年体。
+*[[ThreeToe]]的故事[http://www.bay12games.com/dwarves/story/tt_forest_befouled.html "森林被污染"]代表了污秽混合兽从萨特腐化而来的一个可能起源故事。
+
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

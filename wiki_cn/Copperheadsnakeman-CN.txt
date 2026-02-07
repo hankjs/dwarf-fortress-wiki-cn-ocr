@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=copperhead_snake_man_sprite.png
-|portrait=copperhead_snake_man_portrait.png}}
+{{Creaturelookup/0|image=copperhead_snake_man_sprite.png|portrait=copperhead_snake_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

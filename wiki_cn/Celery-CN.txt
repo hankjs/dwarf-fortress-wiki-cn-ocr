@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=celery_shrub_sprite.png|seedimage=celery_seeds_sprite.png|uses=
+* [[Food]]}}
+{{av}}
+
+'''芹菜'''是一种[[aboveground|地面]][[crop|园艺蔬菜]]。它可以在所有季节种植，可以生吃或[[cooking|烹饪]]。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]芹菜的''味道''。
+
+
+[[File:Snijselderij Apium graveolens.jpg|thumb|center|300px|Admired for its ''taste''.]]
+
+{{gamedata}}
+{{Plants}}

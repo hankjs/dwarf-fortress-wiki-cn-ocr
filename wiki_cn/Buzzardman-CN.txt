@@ -1,0 +1,19 @@
+{{Creaturelookup/0|image=buzzard_man_sprite.png|portrait=buzzard_man_portrait.png}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+如果你不喜欢[[buzzard|秃鹫]]，因为这些飞行害虫会偷走要塞里所有他们能抓到的食物……那你肯定会讨厌它们更大、更强壮、更聪明的亲戚——'''秃鹫人'''。
+
+虽然这些动物人通常对直接攻击你的矮人兴趣不大，但它们的存在会严重干扰要塞的运作；它们不介意攻击任何不愿意"捐赠"所运食物的食物搬运工；把你的牲畜吓得要死等等。它们甚至会"帮助"你收获室外作物，当然是为了它们自己的利益。
+
+真正糟糕的是，这些智能生物无法被驯服，而且矮人拒绝屠宰和食用它们。
+
+一些矮人[[Preferences|喜欢]]秃鹫人的''醒目的红脸''。
+[[File:buzzard_man.jpg|thumb|310px|center|''Art by Tiffany Chung'']]
+
+{{Translation| dwarven = setnek udos | elvish = acithe onino | goblin = âng ngorûg | human = jozi abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

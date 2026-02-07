@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_faint_yellow_diamond_sprite.png|graphic2=rough_faint_yellow_diamond_sprite.png|wiki=Diamond}}
+{{av}}
+
+'''浅黄色钻石(Faint yellow diamonds)''' 是在[[金伯利岩]]中以小[[簇]]形式发现的珍贵[[宝石]]。[[黄钻|黄色]]、[[红钻|红色]]、[[黑钻|黑色]]、[[蓝钻|蓝色]]、[[透明钻石|透明]]和[[绿钻|绿色]]钻石可以在浅黄色钻石簇中作为单个宝石被发现。
+
+{{Minorspoiler}}
+像所有珍贵和稀有宝石一样,它们也可能构成[[异常火山岩壁]]墙壁的一部分。
+
+[[File:faint_yellow_diamond.jpg|thumb|240px|center|老式欧洲切割宝石。]]
+
+{{Translation| dwarven = losis inol doren | elvish = ací yame akera | goblin = êl stoko tusnung | human = saquo sutad palath}}
+
+{{gamedata}}
+{{gems}}

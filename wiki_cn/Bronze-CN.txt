@@ -1,0 +1,51 @@
+{{Quality|Exceptional}}
+{{Alloy|name=Bronze|sample=
+[[File:BronzeSample.png|center|frameless]]|graphic=bronze_bar_sprite.png|color=6:4:0|color1=7:3:0|color2=6:4:0|uses=
+* [[weapon|近战武器]]
+* [[Crossbow|弩]]
+* [[Bolt|弩箭]]
+* [[Pick|镐]]
+* [[Armor|盔甲]]
+* [[Metalsmith's forge|金属工艺]]|recipe=
+* 1 [[tin|锡]][[bar|锭]]
+* 1 [[copper|铜]][[bar|锭]]
+- 或 -
+* 1 [[cassiterite|锡石]]
+* 1 [[copper|铜]][[ore|矿]]|properties=
+* [[Material value|材料价值]] 5☼
+* [[Material science|冲击强度]] 843.5 MPa
+* [[Material science|剪切强度]] 241 MPa
+{{firemagmasafe|yes|no}}
+* [[Melting point|熔点]] {{ct|11868}}
+* [[Boiling point|沸点]] {{ct|14140}}
+* [[Ignition point|燃点]] 无
+* [[Solid density|固体密度]] 8250 kg/m³
+* 液体[[density|密度]] 8020 kg/m³
+* [[Specific heat|比热]] 435 J/kg·K
+* [[Color|颜色]] 青铜色}}{{av}}
+
+'''青铜'''是[[tin|锡]]和[[copper|铜]]的[[alloy|合金]]，可用于制造游戏中所有的金属物品。
+
+== 冶炼 ==
+青铜可以在[[Smelter|冶炼炉]]或[[Magma smelter|岩浆冶炼炉]]中使用以下配方之一制作：
+
+* 从[[ore|矿石]]：1 [[Cassiterite|锡石]] + 1 [[Native copper|自然铜]]、[[Malachite|孔雀石]]或[[Tetrahedrite|黝铜矿]] = 8 青铜锭
+* 从[[bar|金属锭]]：1 [[Tin|锡]]锭 + 1 [[Copper|铜]]锭 = 2 青铜锭
+== 用途 ==
+青铜可以锻造成[[weapon|武器]]和[[armor|盔甲]]，其[[Weapon#Material|材料属性]]与[[iron|铁]]非常接近。青铜还可以在[[metalsmith's forge|金属匠锻造坊]]用来制作[[furniture|家具]]和其他物品。它的[[value|价值]]为5，使用与[[fine pewter|精锡]]相同的原料（精锡价值也为5）。如果你发现[[tin|锡]]短缺，可以用这种金属来制作你的艺术品，而不是使用[[fine pewter|精锡]]。如果你使用矿石冶炼青铜，你可以用一单位[[fuel|燃料]]生产8锭武器级金属，使其成为极其有用的材料。
+
+或者，铜和锡也可以与[[bismuth|铋]]合金化，制成合金[[bismuth bronze|铋青铜]]。虽然这不会改善材料的属性，但确实会适度增加[[value|价值]]并将锡的成本减半。
+
+与铁相比，青铜的一个主要缺点是它不能用来制作[[anvil|铁砧]]。
+
+== 材料属性 ==
+如前所述，青铜的材料属性与[[iron|铁]]非常相似，是对[[copper|铜]]的显著改进，除了钝器武器中其优越的锋利属性几乎无关紧要。如果你的要塞位于没有大量铁矿石的地区，那么青铜是一个很好的替代品。然而，青铜的材料属性几乎在所有方面都不如[[steel|钢]]。
+
+[[bismuth bronze|铋青铜]]的属性在各方面与标准青铜完全相同，唯一的区别是铋青铜制成的物品[[value|价值]]高20%（×6 对比 ×5），且铋青铜物品在游戏中的[[color|颜色]]为黄色而非棕色。
+
+{{Translation| dwarven = kilrud| elvish  = dagi| goblin  = susäl| human   = zobsha}}
+
+[[File:AMGR - Helm Sehlsdorf.jpg|thumb|center|230px|Bronze helm.]]
+
+{{gamedata}}
+{{metals}}

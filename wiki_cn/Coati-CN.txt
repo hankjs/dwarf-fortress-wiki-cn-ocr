@@ -1,0 +1,15 @@
+{{Quality|fine}}
+{{creaturelookup/0|image=coati_sprites.png|portrait=coati_portrait_anim.gif|bone=4|meat=6|fat=2-6|skull=1|intestine=1|skin=hide|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''长鼻浣熊'''是居住在[[tropical|热带]]和[[temperate|温带]][[forest|森林]]中的小型独居[[creature|生物]]。略大于普通[[cat|猫]],长鼻浣熊会试图从你的要塞偷走无人看守的[[steals food|食物]]和[[steals items|物品]],因此应该远离你的[[stockpile|储存区]]。[[Dwarf|矮人]]会对它们的存在做出攻击性反应,你可能会看到你的农民在没有任何输入的情况下攻击并将它们打死,而且它们的小体型意味着它们通常是无害的。新生的长鼻浣熊被称为''幼崽''。
+
+长鼻浣熊可以在[[cage|笼子]][[trap|陷阱]]中捕获并[[Animal trainer|训练]]成异国[[pet|宠物]]。它们的小体型意味着[[butcher|屠宰]]时收益很低,使它们作为牲畜不太理想。考虑寻找更大、更多肉的动物为你的矮人生产食物。
+
+一些矮人[[Preferences|喜欢]]长鼻浣熊的''好奇心''。
+
+[[Image:Coati.jpg|thumb|center|400px|Admired for its ''curiosity''.]]
+
+{{gamedata}}
+{{creatures}}

@@ -1,12 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=blood_man_sprite.png
-|portrait=blood_man_portrait.png
-|death=item
-|item=Puddle of corrupted blood
-|vary=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=blood_man_sprite.png|portrait=blood_man_portrait.png|death=item|item=Puddle of corrupted blood|vary=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 '''血人'''是极其罕见的、[[evil|邪恶]]阵营的[[construct creature|构造生物]]，由[[blood|血液]]组成，只在第三层[[cavern|洞穴]]中发现。它们有[[human|人类]]的身高，不感受情感或[[No Exert|劳累]]，[[No Pain|免疫疼痛]]且[[No Stun|无法被击晕]]。虽然这在纸面上听起来很可怕，但由液体构成意味着你会很容易失去肢体。它们是你在洞穴中会遇到的最弱、最无害的生物之一，因为即使是平民[[dwarf|矮人]]和[[children|儿童]]也能迅速打掉它们的肢体。此外，它们的拳头足够软，甚至无法对裸体矮人造成真正的伤害。

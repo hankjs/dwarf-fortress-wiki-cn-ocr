@@ -1,0 +1,17 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=eggplant_shrub_sprite.png|seedimage=eggplant_seeds_sprite.png|uses=
+* [[Food|食物]]}}
+{{av}}
+
+'''茄子'''是一种[[aboveground|地上]][[crop|园艺植物]]。它们可以在所有季节种植,种子和果实可以生吃或[[cooking|烹饪]]食用。果实也可以在[[dyer's shop|染坊]]中加工成淡紫色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]茄子,因为它们的''果实''。
+
+[[File:Solanum melongena 24 08 2012 (1).JPG|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+{{Translation| dwarven = acöb-erok | elvish = amira-mana | goblin = donsmok-tusnas | human = edi-ona}}
+
+{{gamedata}}
+{{Plants}}
+
+[[Category:Dye sources]]

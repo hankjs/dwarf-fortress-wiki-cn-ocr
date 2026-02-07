@@ -6,9 +6,7 @@
 
 厨师只会在万不得已时才烹饪糖浆和其他液体，而更喜欢用固体食物烹饪固体食物。{{Bug|2393}}更多信息，请参见[[Kitchen#Bugs|厨房]]页面。
 
-{{gamedata
-|title=[[Sweet pod/raw|Raws]]
-|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+{{gamedata|title=[[Sweet pod/raw|Raws]]|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
 	[STATE_NAME_ADJ:ALL_SOLID:frozen dwarven syrup]
 	[STATE_NAME_ADJ:LIQUID:dwarven syrup]
 	[STATE_NAME_ADJ:GAS:boiling dwarven syrup]
@@ -17,8 +15,7 @@
 	[EDIBLE_RAW]
 	[EDIBLE_COOKED]
 	[EXTRACT_STORAGE:BARREL]
-	[PREFIX:NONE]
-}}
+	[PREFIX:NONE]}}
 {{materials}}
 {{Category|Food}}
 {{Category|Extracts}}

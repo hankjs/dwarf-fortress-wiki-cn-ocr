@@ -1,0 +1,65 @@
+{{Quality|Superior|03:00, 22 February 2023 (CST)}}
+{{av}}
+[[File:flour_preview.png|right]]'''面粉'''(Flour)是[[cooking|烹饪]]中的一种食材,通过在[[millstone|磨石]]或[[quern|手磨]]上[[milling|研磨]]众多可用[[Crops|谷物]]之一制成。研磨涉及在轮下碾碎谷物,将其从不可食用的植物转化为适合烹饪的可食用[[powder|粉末]]。研磨植物每次工作需要一个[[bag|袋子]],一株植物将被加工成一袋面粉。装在[[bag|袋子]]或[[barrel|磨坊桶]]中的面粉不会像作物那样[[Wear|枯萎]],如果不受[[vermin|害虫]]侵扰,可以无限期保存。它的空间利用率也非常高,因为一个桶最多可以存放十袋面粉。鉴于这些特性,面粉是一种优秀的食品储备。一个相对较小的[[stockpile|库存区]]就可以在[[siege|围攻]]或新前哨的头几个月维持许多矮人。
+
+储存在袋子中的面粉不会被[[Manager|管理员]]的工作订单条件识别,除非给它添加"可烹饪"形容词。如果不在物品规格中添加该形容词,物品计数将始终被视为0(意味着所有小于X的比较都将为真,导致无限生产)。示例:如果你希望藜麦面粉库存始终保持在50,则需要在工作订单中添加以下条件:[[File:Button new condition.png]]添加物品条件,[[File:Button condition type.png]]物品类型"粉末",[[File:Button condition material.png]]材料"藜麦面粉",[[File:Button condition adjective.png]]形容词"可烹饪物品",[[File:Button input number.png]]数量50。
+
+== 价值 ==
+如果在[[Labor#Kitchen|劳动菜单]]中的[[kitchen|厨房]]标签{{menu icon|y}}启用了面粉,当排队"准备食物"任务时,面粉将在厨房中使用。面粉比可研磨的生[[crop|作物]]更有价值,这意味着用面粉制作的预制餐点将具有更高的价值。袋装和桶装面粉通常[[Item value|价值]]很高,适合与[[caravan|商队]]出口或进口;一桶面粉的价值很容易超过200☼。通常,2株植物会被研磨产生一个袋子,里面有2单位面粉和2颗种子。
+
+== 面粉种类 ==
+以下作物可以制成面粉:
+
+{| class="wikitable sortable collapsible"|-
+! 作物名称
+!
+! 作物价值
+! 面粉
+! 面粉价值
+{{flour table row|name=Cave wheat|tile=τ|colour=7:0|fname=Dwarven wheat flour}}
+{{flour table row|name=Longland grass|tile=τ|colour=6:1|fname=Longland flour}}
+{{flour table row|name=Whip vine|tile=§|colour=3:1|cprice=1|fprice=25}}
+{{flour table row|name=Single-grain wheat|tile=t|colour=2:0}}
+{{flour table row|name=Two-grain wheat|tile=t|colour=2:0}}
+{{flour table row|name=Soft wheat|tile=t|colour=2:0}}
+{{flour table row|name=Hard wheat|tile=t|colour=2:0}}
+{{flour table row|name=Spelt|tile=t|colour=2:0}}
+{{flour table row|name=Barley|tile=t|colour=2:0}}
+{{flour table row|name=Buckwheat|tile=t|colour=2:0}}
+{{flour table row|name=Oats|tile=t|colour=2:0|fname=Oat flour}}
+{{flour table row|name=Rye|tile=t|colour=2:0}}
+{{flour table row|name=Sorghum|tile=t|colour=2:0}}
+{{flour table row|name=Rice|tile=t|colour=2:0}}
+{{flour table row|name=Maize|tile=t|colour=2:0}}
+{{flour table row|name=Quinoa|tile=t|colour=2:0}}
+{{flour table row|name=Kaniwa|tile=t|colour=2:0}}
+{{flour table row|name=Pendant amaranth|tile=t|colour=2:0}}
+{{flour table row|name=Blood amaranth|tile=t|colour=2:0}}
+{{flour table row|name=Purple amaranth|tile=t|colour=2:0}}
+{{flour table row|name=Pearl millet|tile=t|colour=2:0}}
+{{flour table row|name=White millet|tile=t|colour=2:0}}
+{{flour table row|name=Finger millet|tile=t|colour=2:0}}
+{{flour table row|name=Foxtail millet|tile=t|colour=2:0}}
+{{flour table row|name=Fonio|tile=t|colour=2:0}}
+{{flour table row|name=Teff|tile=t|colour=2:0}}
+{{flour table row|name=Flax|tile=t|colour=2:0}}
+{{flour table row|name=Hemp|tile=t|colour=2:0}}|}
+
+[[Flax|亚麻]]和[[hemp|大麻]]在产面粉植物中是独特的,因为它们还生产[[plant fiber|植物纤维]];也就是说,可以从一种植物中同时制作面粉和装面粉的容器。它们的[[seed|种子]]也可以用来生产[[oil|油]]。其他大多数列出的植物都可以改为酿造成[[alcohol|酒精]],功能上大致相同。[[Blood amaranth|血苋]]和[[purple amaranth|紫苋]]值得特别提及,因为它们还长有可食用的[[leaves|叶子]]。[[Whip vine|鞭藤]]面粉比其他面粉更贵,而[[oats|燕麦]]不如其他选择,因为它们不能酿造。
+
+[[Dwarven sugar|矮人糖]],从[[sweet pod|甜荚]]中研磨而来,在机制上也类似于面粉,只是它(理论上{{verify|矮人不能吃生粉末,对吧?}})可以生吃。
+
+== 相关技术 ==
+{{D for dwarf}}
+矮人科学继续研究研磨工艺的改进。矮人历史记载了许多新颖创新的[[Artifact|手磨和磨石设计]],其中很少能在工业规模上复制,还有[[Stupid dwarf trick|精巧的机械方案]]。学者矮人继续预测面粉技术的下一个重大进步将是一种新的高级食品,被称为"面包"——某种固体啤酒——但他们多年来一直承诺生产这种神奇物质,却尚未显示出任何进展。
+
+没有一个自重的矮人(即使在饥饿的驱使下)会降低自己的身份去吃那种有望成为完美啤酒的东西。然而,山地家园的许多狡猾厨师以向搬运工和贵族提供完全由这种材料制成的餐食而闻名,声称这是"精湛研磨"的洞穴小麦。精灵和人类商人也同样受骗,这让厨房工作人员非常高兴。
+
+少数将洞穴小麦面粉饼干与近乎传奇的固体啤酒进行比较的人类商人发现自己[[unfortunate accident|遭遇了可怕的突发不幸]]。
+
+另外,关于人类,有人可能会看到他们对剁碎的面粉餐表示喜悦,显然相信这是另一种形式的固体酒精。
+[[Image:cave-wheat-flour.jpg|thumb|360px|center|一个装满面粉的[[jute|黄麻]][[bag|袋子]]。]]
+{{materials}}
+
+{{Category|Food}}
+[[ru:Flour]]

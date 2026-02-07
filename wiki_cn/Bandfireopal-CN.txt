@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_bandfire_opal_sprite.png
-|graphic2=rough_bandfire_opal_sprite.png
-|wiki=Opal}}
+{{gemlookup/0|graphic=cut_bandfire_opal_sprite.png|graphic2=rough_bandfire_opal_sprite.png|wiki=Opal}}
 {{av}}
 
 '''带火欧泊'''是一种半宝石[[gems|宝石]]，在所有类型的岩层中以小簇形式被发现。

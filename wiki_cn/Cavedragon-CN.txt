@@ -1,26 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=cave_dragon_sprite_anim.gif
-|portrait=cave_dragon_portrait.png
-|wiki=no
-|contrib=no
-|bone=174-225
-|meat=247-622
-|fat=35-195
-|eye=2
-|lung=24-32
-|heart=6-8
-|intestine=37-48
-|liver=12-16
-|tripe=12-16
-|sweetbread=6-8
-|spleen=6-8
-|kidney=12-14
-|brain=12-15
-|teeth=3
-|skull=1
-|skin=scale
-}}
+{{Creaturelookup/0|image=cave_dragon_sprite_anim.gif|portrait=cave_dragon_portrait.png|wiki=no|contrib=no|bone=174-225|meat=247-622|fat=35-195|eye=2|lung=24-32|heart=6-8|intestine=37-48|liver=12-16|tripe=12-16|sweetbread=6-8|spleen=6-8|kidney=12-14|brain=12-15|teeth=3|skull=1|skin=scale}}
 {{av}}
 {{creaturedesc}}
 '''洞穴龙'''是巨型的邪恶[[Creature|野兽]]，曾经是[[dragon|龙]]，但现在已经适应了[[Caverns|地下]]生活。与地上的同类不同，它们不会喷[[dragonfire|龙焰]]，但确实具有免疫被点[[fire|燃]]的能力。令人高兴的是，它们并不能免疫[[magma|矮人最好的朋友]]或一般的极端高温的影响。它们有翅膀（缺乏飞行能力）和白色鳞片，但除此之外并不像地上的表亲那样危险（因为体型较小且不喷火）。奇怪的是，尽管有描述，普通龙并没有翅膀，更不用说功能性的翅膀，但洞穴龙却有。所有洞穴龙出生时都具有熟练级的[[skill|技能]]：[[Combat skill|战斗、撕咬、踢击]]和[[dodging|闪避]]。

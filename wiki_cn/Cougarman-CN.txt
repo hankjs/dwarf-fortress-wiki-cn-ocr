@@ -1,0 +1,23 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=cougar_man_sprite.png|portrait=cougar_man_portrait.png}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''美洲狮人'''是普通[[cougar|美洲狮]]的[[animal people|动物人]]变种,可以在[[savage|野蛮]][[temperate|温带]]和[[tropical|热带]]地区找到。它们以1-5个个体的群体生成,可能会与激怒它们的[[dwarves|矮人]]打架,如果矮人只是[[peasant|农民]],可能会导致死亡。在体型方面,它们介于矮人和[[human|人类]]之间。
+
+像其他野蛮动物人一样,它们可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并在[[adventurer mode|冒险者模式]]中可玩。美洲狮人能够穿戴人类尺寸和矮人尺寸的装备,使它们成为冒险者的相当好的选择。
+
+与美洲狮一样,美洲狮人是[[Creature token#CARNIVORE|肉食性]]的,如果不允许获得[[meat|肉]]将会饿死。
+
+一些矮人[[Preferences|喜欢]]美洲狮人的''狡猾''。
+
+{{D for Dwarf}}
+与流行的信念相反,'''美洲狮人''',或如他们有时被称呼的美洲豹人,不能飞行,像傻瓜或其他方式。
+
+据说美洲狮女人非常密切地跟随年轻雄性矮人。尽管没有美洲狮人攻击和吃掉矮人的案例,但他们仍倾向于称它们为捕食者。
+[[File:cougar_man.jpg|thumb|230px|center|The female variants heard all the jokes.<br><small>''Art by Nora Potwora''</small>]]
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

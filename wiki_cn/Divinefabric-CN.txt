@@ -22,85 +22,8 @@
 神圣织物似乎具有与标准[[silk|丝绸]][[cloth|布料]]相同的[[Material definition token|材料属性]]，除了缺少燃点。虽然它们不能着[[fire|火]]，但它们仍然会受到高温的损伤，并且不是[[fire-safe|防火]]的。不同类型的神圣织物之间的唯一区别是它们的名称和颜色{{verify}}，两者都由参与其创造的神祇选择的[[sphere|领域]]决定。
 [[File:divine_fabric_preview.jpg|thumb|300px|center|它的质地可以治愈抑郁。它的颜色可以消除痛苦。它的光泽可以产生幸福。]]
 == 类型 ==
-{| class="wikitable" style="text-align: left;"
-|+ <!-- caption -->
-|-
-! 领域     !! 名称               !! 颜色*
-|-
-| Beauty     || dancing wisps      || style="background: {{fgcolor|6:1}};"|黄色
-|-
-| Blight     || rotted fabric      || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Chaos      || never-still cloth  || style="background: {{fgcolor|4:1}}; color: #fff;"|红色
-|-
-| Darkness   || liquid darkness    || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Dawn       || shining cloth      || style="background: {{fgcolor|6:1}};"|橙色
-|-
-| Day        || bright cloth       || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Death      || pale fabric        || style="background: {{fgcolor|3:1}};"|淡蓝色
-|-
-| Deformity  || twisted fabric     || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Disease    || patchy cloth       || style="background: {{fgcolor|7:0}};"|灰色
-|-
-| Dreams     || wispy cloth        || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色
-|-
-| Dusk       || translucent cloth  || style="background: {{fgcolor|3:1}};"|透明
-|-
-| Fire       || flickering cloth   || style="background: {{fgcolor|6:1}};"|黄色
-|-
-| Jewels     || faceted cloth      || style="background: {{fgcolor|2:1}};"|绿色
-|-
-| Lakes      || still blue fabric  || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色
-|-
-| Lies       || heavy cloth        || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Light      || glowing cloth      || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Lightning || flashing sparks || style="background: {{fgcolor|6:1}};"|黄色
-|-
-| Mist      || misty cloth     || style="background: {{fgcolor|7:0}};"|透明
-|-
-| Moon       || white cloth        || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Muck       || dirty fabric       || style="background: {{fgcolor|6:0}}; color: #fff;"|棕色
-|-
-| Music      || sonorous lines     || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Night    || pitch-black fabric || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Nightmares || screaming mouths   || style="background: {{fgcolor|5:0}}; color: #fff;"|中灰褐色
-|-
-| Oceans     || undulating cloth   || style="background: {{fgcolor|3:0}}; color: #fff;"|海绿色
-|-
-| Rain       || moist fabric       || style="background: {{fgcolor|3:1}};"|透明
-|-
-| Rainbows   || multicolored cloth || style="background: {{fgcolor|2:1}};"|透明
-|-
-| Rivers     || flowing fabric     || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色
-|-
-| Sky        || clear blue cloth   || style="background: {{fgcolor|3:1}};"|天蓝色
-|-
-| Stars      || motes of light     || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Storms     || flowing cloth      || style="background: {{fgcolor|7:0}};"|灰色
-|-
-| Sun        || blazing cloth      || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Thunder    || shining cloth      || style="background: {{fgcolor|7:1}};"|白色
-|-
-| Trickery   || shimmering cloth   || style="background: {{fgcolor|3:1}};"|透明
-|-
-| Twilight   || shadow stuff       || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色
-|-
-| Volcanos   || molten liquid      || style="background: {{fgcolor|4:1}}; color: #fff;"|红色
-|-
-| Water      || liquid cloth       || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色
-|-
-| Wind       || rustling fabric    || style="background: {{fgcolor|7:0}};"|灰色
-|}
+{| class="wikitable" style="text-align: left;"|+ <!-- caption -->|-
+! 领域     !! 名称               !! 颜色*|-| Beauty     || dancing wisps      || style="background: {{fgcolor|6:1}};"|黄色|-| Blight     || rotted fabric      || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Chaos      || never-still cloth  || style="background: {{fgcolor|4:1}}; color: #fff;"|红色|-| Darkness   || liquid darkness    || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Dawn       || shining cloth      || style="background: {{fgcolor|6:1}};"|橙色|-| Day        || bright cloth       || style="background: {{fgcolor|7:1}};"|白色|-| Death      || pale fabric        || style="background: {{fgcolor|3:1}};"|淡蓝色|-| Deformity  || twisted fabric     || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Disease    || patchy cloth       || style="background: {{fgcolor|7:0}};"|灰色|-| Dreams     || wispy cloth        || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色|-| Dusk       || translucent cloth  || style="background: {{fgcolor|3:1}};"|透明|-| Fire       || flickering cloth   || style="background: {{fgcolor|6:1}};"|黄色|-| Jewels     || faceted cloth      || style="background: {{fgcolor|2:1}};"|绿色|-| Lakes      || still blue fabric  || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色|-| Lies       || heavy cloth        || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Light      || glowing cloth      || style="background: {{fgcolor|7:1}};"|白色|-| Lightning || flashing sparks || style="background: {{fgcolor|6:1}};"|黄色|-| Mist      || misty cloth     || style="background: {{fgcolor|7:0}};"|透明|-| Moon       || white cloth        || style="background: {{fgcolor|7:1}};"|白色|-| Muck       || dirty fabric       || style="background: {{fgcolor|6:0}}; color: #fff;"|棕色|-| Music      || sonorous lines     || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Night    || pitch-black fabric || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Nightmares || screaming mouths   || style="background: {{fgcolor|5:0}}; color: #fff;"|中灰褐色|-| Oceans     || undulating cloth   || style="background: {{fgcolor|3:0}}; color: #fff;"|海绿色|-| Rain       || moist fabric       || style="background: {{fgcolor|3:1}};"|透明|-| Rainbows   || multicolored cloth || style="background: {{fgcolor|2:1}};"|透明|-| Rivers     || flowing fabric     || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色|-| Sky        || clear blue cloth   || style="background: {{fgcolor|3:1}};"|天蓝色|-| Stars      || motes of light     || style="background: {{fgcolor|7:1}};"|白色|-| Storms     || flowing cloth      || style="background: {{fgcolor|7:0}};"|灰色|-| Sun        || blazing cloth      || style="background: {{fgcolor|7:1}};"|白色|-| Thunder    || shining cloth      || style="background: {{fgcolor|7:1}};"|白色|-| Trickery   || shimmering cloth   || style="background: {{fgcolor|3:1}};"|透明|-| Twilight   || shadow stuff       || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色|-| Volcanos   || molten liquid      || style="background: {{fgcolor|4:1}}; color: #fff;"|红色|-| Water      || liquid cloth       || style="background: {{fgcolor|1:1}}; color: #fff;"|蓝色|-| Wind       || rustling fabric    || style="background: {{fgcolor|7:0}};"|灰色|}
 *颜色名称代表其任意颜色标记，而背景是其ASCII颜色。参见[[color|颜色]]。
 
 {{gamedata|title=示例原始数据（从0.47.05版本的world.dat中提取）|
@@ -158,8 +81,7 @@
 	[MATERIAL_VALUE:300]
 	[SOLID_DENSITY:1]
 	[MOLAR_MASS:1]
-	[SPHERE:RAIN]
-}}
+	[SPHERE:RAIN]}}
 
 {{Category|Materials}}
 [[ru:Divine fabric]]

@@ -1,12 +1,8 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=blood_amaranth_shrub_sprite.png
-|seedimage=blood_amaranth_seeds_sprite.png
-|uses=
+{{plantlookup|graphic=blood_amaranth_shrub_sprite.png|seedimage=blood_amaranth_seeds_sprite.png|uses=
 *[[Alcohol]]
 *[[Flour]]
-*[[Food]]
-}}
+*[[Food]]}}
 {{av}}
 
 '''血苋菜'''是一种[[aboveground|地上]][[crop|作物]]。它可以被[[milling|研磨]]成[[flour|血苋菜粉]]或[[brewing|酿造]]成[[alcohol|血苋菜啤酒]]。它的叶子可以生吃或[[cooking|烹饪]]食用。

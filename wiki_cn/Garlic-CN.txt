@@ -1,0 +1,20 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=garlic_shrub_sprite.png|seedimage=garlic_seeds_sprite.png|uses=
+*[[Food|食物]]}}
+{{av}}
+
+'''大蒜'''（Garlic）是一种[[aboveground|地上]][[crop|园艺植物]]。它们可以在所有季节种植，蒜头可以生吃或[[cooking|烹饪]]食用，种子可以烹饪食用。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]大蒜植物，因为它们的''蒜瓣''。
+
+
+[[File:GarlicBasket.jpg|thumb|center|300px|因其''蒜瓣''而受到赞赏。]]
+
+
+{{Translation| dwarven = goral| elvish  = nefefi| goblin  = ot| human   = imec}}
+{{D for Dwarf}}
+
+不幸的是，它不能用来对付[[vampire|吸血鬼]]。
+
+{{gamedata}}
+{{Plants}}

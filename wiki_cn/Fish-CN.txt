@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{av}}
+'''鱼'''可能指的是：
+* 小型水生[[vermin|害虫]]
+* 较大的[[Creature#Aquatic|水生生物]]
+* 整个[[fishing industry|捕鱼业]]
+
+{{Vermin|cat=nocat}}
+{{Creatures|cat=nocat}}
+
+<!-- Many articles link here, including almost every fish creature but this article is a mess and doesn't cover the steps as fully as fisherdwarf industry. How many readers where misdirected here thinking it contained information it doesn't? Recommend either leaving it a stub or reworking as a category of vermin and creatures. Posting here in absence of talk page --Antropax -->
+
+{{Translation| dwarven = tatlosh | elvish = thaci | goblin = otu | human = amsir}}
+
+{{disambig}}
+[[ru:Fish]]

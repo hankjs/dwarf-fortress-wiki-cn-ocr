@@ -1,10 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=cavy_sprites.png
-|portrait=cavy_portrait_anim.gif
-|skull=1
-|wiki=Guinea pig|contrib=no
-}}
+{{Creaturelookup/0|image=cavy_sprites.png|portrait=cavy_portrait_anim.gif|skull=1|wiki=Guinea pig|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

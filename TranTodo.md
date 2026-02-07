@@ -14,34 +14,34 @@
 - [x] Adderman.txt
 - [x] Adiplomathasleftunhappy.txt
 - [x] Administrator.txt
-- [ ] Advancedentitypositionmechanics2.txt
-- [ ] Advancedmarksdwarftrainingguide2.txt
-- [ ] Advancedworldgeneration.txt
-- [ ] Adventuremodequickreference3.txt
+- [x] Advancedentitypositionmechanics2.txt
+- [x] Advancedmarksdwarftrainingguide2.txt
+- [x] Advancedworldgeneration.txt
+- [x] Adventuremodequickreference3.txt
 - [ ] Adventuremodequickstart.txt
 - [ ] Adventurermode.txt
 - [ ] Adventurermodecharactercreation.txt
 - [ ] AdventurermodeF.A.Q.txt
 - [ ] Adventurermodegameplay.txt
-- [ ] Age.txt
+- [x] Age.txt
 - [x] Agent.txt
-- [ ] Alabaster.txt
-- [ ] Albatross.txt
-- [ ] Albatrossman.txt
+- [x] Alabaster.txt
+- [x] Albatross.txt
+- [x] Albatrossman.txt
 - [x] Alchemist'slaboratory2.txt
 - [x] Alcohol.txt
 - [x] Alcoholplantstockpile.txt
 - [x] Alder.txt
-- [ ] Alexandrite.txt
-- [ ] Alfalfa.txt
-- [ ] Alliance.txt
-- [ ] Alligator.txt
+- [x] Alexandrite.txt
+- [x] Alfalfa.txt
+- [x] Alliance.txt
+- [x] Alligator.txt
 - [x] Alligatorman.txt
 - [x] Alligatorsnappingturtle.txt
-- [ ] Alluviallayer.txt
+- [x] Alluviallayer.txt
 - [x] Almandine.txt
-- [ ] Almond.txt
-- [ ] Alpaca.txt
+- [x] Almond.txt
+- [x] Alpaca.txt
 - [x] Altar.txt
 - [x] Alternatecreaturesorting.txt
 - [x] Aluminum.txt
@@ -52,26 +52,26 @@
 - [x] Ambusher.txt
 - [x] Amethyst.txt
 - [x] Amethystman.txt
-- [ ] Ammotoken.txt
-- [ ] Ammunition.txt
-- [ ] Amphibianman.txt
-- [ ] Amphibious.txt
-- [ ] Anaconda.txt
-- [ ] Anacondaman.txt
-- [ ] Anatomy.txt
-- [ ] Anchovy.txt
-- [ ] Andesite.txt
-- [ ] Angel.txt
-- [ ] Angelshark.txt
-- [ ] Angrylivingflamethrowers.txt
-- [ ] Anhydrite.txt
+- [x] Ammotoken.txt
+- [x] Ammunition.txt
+- [x] Amphibianman.txt
+- [x] Amphibious.txt
+- [x] Anaconda.txt
+- [x] Anacondaman.txt
+- [x] Anatomy.txt
+- [x] Anchovy.txt
+- [x] Andesite.txt
+- [x] Angel.txt
+- [x] Angelshark.txt
+- [x] Angrylivingflamethrowers.txt
+- [x] Anhydrite.txt
 - [x] Animalcaretaker.txt
-- [ ] Animaldissector2.txt
-- [ ] Animallogic.txt
-- [ ] Animalperson.txt
-- [ ] Animalsponsorshipdrive.txt
-- [ ] Animaltrainer.txt
-- [ ] Animaltrap2.txt
+- [x] Animaldissector2.txt
+- [x] Animallogic.txt
+- [x] Animalperson.txt
+- [x] Animalsponsorshipdrive.txt
+- [x] Animaltrainer.txt
+- [x] Animaltrap2.txt
 - [x] Announcement.txt
 - [x] Announcements.txt.txt
 - [x] Anole.txt
@@ -82,36 +82,36 @@
 - [x] Apple.txt
 - [x] Appraiser.txt
 - [x] Apprentice.txt
-- [ ] Apricot.txt
-- [ ] Aquamarine.txt
-- [ ] Aquatic.txt
-- [ ] Aqueduct.txt
-- [ ] Aquifer.txt
-- [ ] Archery.txt
-- [ ] Archerytarget.txt
-- [ ] Archerytower.txt
-- [ ] Architect.ahk.txt
-- [ ] Arctic.txt
-- [ ] Arena.txt
-- [ ] Armadillo.txt
-- [ ] Armadilloman.txt
-- [ ] Armok.txt
+- [x] Apricot.txt
+- [x] Aquamarine.txt
+- [x] Aquatic.txt
+- [x] Aqueduct.txt
+- [x] Aquifer.txt
+- [x] Archery.txt
+- [x] Archerytarget.txt
+- [x] Archerytower.txt
+- [x] Architect.ahk.txt
+- [x] Arctic.txt
+- [x] Arena.txt
+- [x] Armadillo.txt
+- [x] Armadilloman.txt
+- [x] Armok.txt
 - [ ] Armor.txt
-- [ ] Armorsmith.txt
-- [ ] Armorstand2.txt
-- [ ] Armortoken.txt
-- [ ] Armsindustry.txt
-- [ ] Army.txt
-- [ ] Armyarc2.txt
-- [ ] Arrow.txt
-- [ ] Arrowbamboo.txt
-- [ ] Art.txt
-- [ ] Artichoke.txt
-- [ ] Âsax.txt
-- [ ] ASCIIartreward2.txt
-- [ ] ASCIIartrewardA-F2.txt
-- [ ] ASCIIartrewardG-L2.txt
-- [ ] ASCIIartrewardM-S2.txt
+- [x] Armorsmith.txt
+- [x] Armorstand2.txt
+- [x] Armortoken.txt
+- [x] Armsindustry.txt
+- [x] Army.txt
+- [x] Armyarc2.txt
+- [x] Arrow.txt
+- [x] Arrowbamboo.txt
+- [x] Art.txt
+- [x] Artichoke.txt
+- [x] Âsax.txt
+- [x] ASCIIartreward2.txt
+- [x] ASCIIartrewardA-F2.txt
+- [x] ASCIIartrewardG-L2.txt
+- [x] ASCIIartrewardM-S2.txt
 - [x] ASCIIartrewardRooteditnotice2.txt
 - [ ] ASCIIartrewardT-Z2.txt
 - [x] Ash(tree).txt
@@ -122,36 +122,36 @@
 - [x] Astronomer.txt
 - [x] Attachment.txt
 - [x] Attack.txt
-- [ ] Attacktypes.txt
-- [ ] Attribute.txt
-- [ ] Audio.txt
-- [ ] Aventurine.txt
-- [ ] Avocado.txt
-- [ ] Axe.txt
-- [ ] Axle.txt
-- [ ] Axolotl.txt
-- [ ] Axolotlman.txt
-- [ ] Aye-aye.txt
-- [ ] Aye-ayeman.txt
-- [ ] Babytoessucculent.txt
-- [ ] Badger.txt
-- [ ] Badgerman.txt
-- [ ] Bag.txt
-- [ ] Balance.txt
-- [ ] Ballistaarrow.txt
-- [ ] Bambaragroundnut.txt
-- [ ] Bamboo.txt
-- [ ] Banana.txt
-- [ ] Bandedagate.txt
-- [ ] Bandedknifefish.txt
-- [ ] Bandfireopal.txt
-- [ ] Bar.txt
-- [ ] Barkscorpion.txt
-- [ ] Barkscorpionman.txt
-- [ ] Barley.txt
-- [ ] Barnowl.txt
-- [ ] Barnowlman.txt
-- [ ] Baron.txt
+- [x] Attacktypes.txt
+- [x] Attribute.txt
+- [x] Audio.txt
+- [x] Aventurine.txt
+- [x] Avocado.txt
+- [x] Axe.txt
+- [x] Axle.txt
+- [x] Axolotl.txt
+- [x] Axolotlman.txt
+- [x] Aye-aye.txt
+- [x] Aye-ayeman.txt
+- [x] Babytoessucculent.txt
+- [x] Badger.txt
+- [x] Badgerman.txt
+- [x] Bag.txt
+- [x] Balance.txt
+- [x] Ballistaarrow.txt
+- [x] Bambaragroundnut.txt
+- [x] Bamboo.txt
+- [x] Banana.txt
+- [x] Bandedagate.txt
+- [x] Bandedknifefish.txt
+- [x] Bandfireopal.txt
+- [x] Bar.txt
+- [x] Barkscorpion.txt
+- [x] Barkscorpionman.txt
+- [x] Barley.txt
+- [x] Barnowl.txt
+- [x] Barnowlman.txt
+- [x] Baron.txt
 - [x] Barracks.txt
 - [x] Barrel.txt
 - [x] Bars.txt
@@ -163,36 +163,36 @@
 - [x] Battleaxe.txt
 - [ ] Battleaxeraw.txt
 - [x] Bauxite.txt
-- [ ] Bay12Forums.txt
-- [ ] Bay12Games.txt
-- [ ] Bayberry.txt
-- [ ] Beaching.txt
-- [ ] Beak.txt
-- [ ] Beakdog.txt
-- [ ] Bean.txt
-- [ ] Bear.txt
-- [ ] Beard.txt
-- [ ] Beasthunter.txt
-- [ ] Beaver.txt
-- [ ] Beaverman.txt
-- [ ] Bed.txt
-- [ ] Bedroom.txt
-- [ ] Bedroomdesign2.txt
-- [ ] Bee.txt
-- [ ] Beekeeper.txt
-- [ ] Beekeepingindustry2.txt
-- [ ] Beet.txt
-- [ ] Beetle.txt
-- [ ] Beetleman.txt
-- [ ] Bentgrass.txt
-- [ ] Beryl.txt
-- [ ] Bestiary.txt
-- [ ] Bilberry.txt
-- [ ] Billon.txt
-- [ ] Bilou.txt
-- [ ] Bin.txt
-- [ ] Biome.txt
-- [ ] Biometoken.txt
+- [x] Bay12Forums.txt
+- [x] Bay12Games.txt
+- [x] Bayberry.txt
+- [x] Beaching.txt
+- [x] Beak.txt
+- [x] Beakdog.txt
+- [x] Bean.txt
+- [x] Bear.txt
+- [x] Beard.txt
+- [x] Beasthunter.txt
+- [x] Beaver.txt
+- [x] Beaverman.txt
+- [x] Bed.txt
+- [x] Bedroom.txt
+- [x] Bedroomdesign2.txt
+- [x] Bee.txt
+- [x] Beekeeper.txt
+- [x] Beekeepingindustry2.txt
+- [x] Beet.txt
+- [x] Beetle.txt
+- [x] Beetleman.txt
+- [x] Bentgrass.txt
+- [x] Beryl.txt
+- [x] Bestiary.txt
+- [x] Bilberry.txt
+- [x] Billon.txt
+- [x] Bilou.txt
+- [x] Bin.txt
+- [x] Biome.txt
+- [x] Biometoken.txt
 - [x] Birch.txt
 - [x] Bismuth.txt
 - [x] Bismuthbronze2.txt
@@ -202,7 +202,7 @@
 - [x] Bittervetch.txt
 - [x] Bituminouscoal.txt
 - [x] Blackbear.txt
-- [ ] Blackbearman.txt
+- [x] Blackbearman.txt
 - [x] Blackberry.txt
 - [x] Blackbronze.txt
 - [x] Blackbullhead.txt
@@ -213,26 +213,26 @@
 - [x] Blackmamba.txt
 - [x] Blackmambaman.txt
 - [x] Blackopal.txt
-- [ ] Blackpyrope.txt
-- [ ] Blacksand.txt
-- [ ] Blacksmith.txt
-- [ ] Blacktipreefshark.txt
-- [ ] Blackzircon.txt
-- [ ] Bladeweed.txt
-- [ ] Blindcavebear.txt
-- [ ] Blindcaveogre.txt
-- [ ] Blizzardman.txt
-- [ ] Bloatedtuber2.txt
-- [ ] Block.txt
-- [ ] Blood.txt
-- [ ] Bloodamaranth.txt
-- [ ] Bloodgnat.txt
-- [ ] Bloodline.txt
-- [ ] Bloodman.txt
-- [ ] Bloodstone.txt
-- [ ] Bloodthorn.txt
-- [ ] Blowdart.txt
-- [ ] Blowgun.txt
+- [x] Blackpyrope.txt
+- [x] Blacksand.txt
+- [x] Blacksmith.txt
+- [x] Blacktipreefshark.txt
+- [x] Blackzircon.txt
+- [x] Bladeweed.txt
+- [x] Blindcavebear.txt
+- [x] Blindcaveogre.txt
+- [x] Blizzardman.txt
+- [x] Bloatedtuber2.txt
+- [x] Block.txt
+- [x] Blood.txt
+- [x] Bloodamaranth.txt
+- [x] Bloodgnat.txt
+- [x] Bloodline.txt
+- [x] Bloodman.txt
+- [x] Bloodstone.txt
+- [x] Bloodthorn.txt
+- [x] Blowdart.txt
+- [x] Blowgun.txt
 - [x] Blowgunraw.txt
 - [x] Blueberry.txt
 - [x] Bluediamond.txt
@@ -243,46 +243,46 @@
 - [x] Bluejay.txt
 - [x] Bluejayman.txt
 - [x] Bluepeafowl.txt
-- [ ] Blueprintlibrary2.txt
-- [ ] Bluesedge.txt
-- [ ] Blueshark.txt
-- [ ] Boar.txt
-- [ ] Bobcat.txt
-- [ ] Bobcatman.txt
-- [ ] Bodydetailplantoken.txt
-- [ ] Bodygloss.txt
-- [ ] Bodyparts.txt
-- [ ] Bodytoken.txt
-- [ ] Bogeyman.txt
-- [ ] Bolt.txt
-- [ ] Bone.txt
-- [ ] Bonecarver.txt
-- [ ] Bonedoctor.txt
-- [ ] Bonemeal.txt
-- [ ] Boneopal.txt
-- [ ] Bonobo.txt
-- [ ] Book.txt
-- [ ] Bookbinder.txt
-- [ ] Bookbinding.txt
-- [ ] Bookcase.txt
-- [ ] Bookkeeper3.txt
-- [ ] Borax.txt
-- [ ] Boss.txt
-- [ ] Boulder.txt
-- [ ] Bow.txt
+- [x] Blueprintlibrary2.txt
+- [x] Bluesedge.txt
+- [x] Blueshark.txt
+- [x] Boar.txt
+- [x] Bobcat.txt
+- [x] Bobcatman.txt
+- [x] Bodydetailplantoken.txt
+- [x] Bodygloss.txt
+- [x] Bodyparts.txt
+- [x] Bodytoken.txt
+- [x] Bogeyman.txt
+- [x] Bolt.txt
+- [x] Bone.txt
+- [x] Bonecarver.txt
+- [x] Bonedoctor.txt
+- [x] Bonemeal.txt
+- [x] Boneopal.txt
+- [x] Bonobo.txt
+- [x] Book.txt
+- [x] Bookbinder.txt
+- [x] Bookbinding.txt
+- [x] Bookcase.txt
+- [x] Bookkeeper3.txt
+- [x] Borax.txt
+- [x] Boss.txt
+- [x] Boulder.txt
+- [x] Bow.txt
 - [ ] Bowraw.txt
-- [ ] Bowyer.txt
-- [ ] Bowyer'sworkshop2.txt
-- [ ] Brass.txt
-- [ ] Breeding.txt
-- [ ] Brewer.txt
-- [ ] Bridge.txt
-- [ ] Brimstone.txt
-- [ ] Broadbean.txt
-- [ ] Broker.txt
-- [ ] Bronze.txt
-- [ ] Bronzecolossus.txt
-- [ ] BronzecolossusEditnotice.txt
+- [x] Bowyer.txt
+- [x] Bowyer'sworkshop2.txt
+- [x] Brass.txt
+- [x] Breeding.txt
+- [x] Brewer.txt
+- [x] Bridge.txt
+- [x] Brimstone.txt
+- [x] Broadbean.txt
+- [x] Broker.txt
+- [x] Bronze.txt
+- [x] Bronzecolossus.txt
+- [x] BronzecolossusEditnotice.txt
 - [x] Brook.txt
 - [x] Brooklamprey.txt
 - [x] Brownbullhead.txt
@@ -293,38 +293,38 @@
 - [x] Bubblebulb.txt
 - [x] Bucket.txt
 - [x] Buckwheat.txt
-- [ ] Bugbat.txt
-- [ ] Building.txt
-- [ ] Buildingdesigner.txt
-- [ ] Buildingdestroyer2.txt
-- [ ] Buildinglist.txt
-- [ ] Buildingmaterial.txt
-- [ ] Buildingtoken.txt
-- [ ] Bullhead.txt
-- [ ] Bullshark.txt
-- [ ] Bumblebee.txt
-- [ ] Burrow.txt
-- [ ] Bushmaster.txt
-- [ ] Bushmasterman.txt
-- [ ] Bushtit.txt
-- [ ] Bushtitman.txt
-- [ ] Butcher.txt
-- [ ] Butcher'sshop2.txt
-- [ ] Buzzard.txt
-- [ ] Buzzardman.txt
-- [ ] Cabbage.txt
-- [ ] Cabinet.txt
-- [ ] CacameAwemedinade.txt
-- [ ] Cacaotree.txt
-- [ ] Cage.txt
-- [ ] Calcareousooze.txt
-- [ ] Calcite.txt
-- [ ] Calciumcarbonate.txt
-- [ ] Calendar.txt
-- [ ] Camel.txt
-- [ ] Camp.txt
-- [ ] Campfire.txt
-- [ ] Candlenut.txt
+- [x] Bugbat.txt
+- [x] Building.txt
+- [x] Buildingdesigner.txt
+- [x] Buildingdestroyer2.txt
+- [x] Buildinglist.txt
+- [x] Buildingmaterial.txt
+- [x] Buildingtoken.txt
+- [x] Bullhead.txt
+- [x] Bullshark.txt
+- [x] Bumblebee.txt
+- [x] Burrow.txt
+- [x] Bushmaster.txt
+- [x] Bushmasterman.txt
+- [x] Bushtit.txt
+- [x] Bushtitman.txt
+- [x] Butcher.txt
+- [x] Butcher'sshop2.txt
+- [x] Buzzard.txt
+- [x] Buzzardman.txt
+- [x] Cabbage.txt
+- [x] Cabinet.txt
+- [x] CacameAwemedinade.txt
+- [x] Cacaotree.txt
+- [x] Cage.txt
+- [x] Calcareousooze.txt
+- [x] Calcite.txt
+- [x] Calciumcarbonate.txt
+- [x] Calendar.txt
+- [x] Camel.txt
+- [x] Camp.txt
+- [x] Campfire.txt
+- [x] Candlenut.txt
 - [x] Cap.txt
 - [x] Caper.txt
 - [x] Caphopper.txt
@@ -333,16 +333,16 @@
 - [x] Capturedcreatures.txt
 - [x] Capturedlivefish.txt
 - [x] Capuchin.txt
-- [ ] Capuchinman.txt
-- [ ] Capybara.txt
-- [ ] Capybaraman.txt
-- [ ] Carambola.txt
-- [ ] Caravan.txt
-- [ ] Caravanarc2.txt
-- [ ] Cardinal.txt
-- [ ] Cardinalman.txt
-- [ ] Carnelian.txt
-- [ ] Carp.txt
+- [x] Capuchinman.txt
+- [x] Capybara.txt
+- [x] Capybaraman.txt
+- [x] Carambola.txt
+- [x] Caravan.txt
+- [x] Caravanarc2.txt
+- [x] Cardinal.txt
+- [x] Cardinalman.txt
+- [x] Carnelian.txt
+- [x] Carp.txt
 - [x] Carpenter.txt
 - [x] Carpenter'sworkshop2.txt
 - [x] Carpetgrass.txt
@@ -353,46 +353,46 @@
 - [x] Cassowary.txt
 - [x] Cassowaryman.txt
 - [x] Caste.txt
-- [ ] Castle.txt
-- [ ] Cat.txt
-- [ ] Catacombs.txt
-- [ ] Cat'seye.txt
-- [ ] Catsplosion.txt
-- [ ] Cattail.txt
-- [ ] Cave.txt
-- [ ] Caveadaptation.txt
-- [ ] Caveblob.txt
-- [ ] Cavecrocodile.txt
-- [ ] Cavedragon.txt
-- [ ] Cavefish.txt
-- [ ] Cavefishman.txt
-- [ ] Cavefloater.txt
-- [ ] Cave-in.txt
-- [ ] Cavelobster.txt
-- [ ] Cavemoss.txt
-- [ ] Cavern.txt
-- [ ] Cavespider.txt
-- [ ] Caveswallow.txt
-- [ ] Caveswallowman2.txt
-- [ ] Cavewheat2.txt
-- [ ] Cavy.txt
-- [ ] Cedar.txt
-- [ ] Celery.txt
-- [ ] Centaur.txt
-- [ ] Ceramic.txt
-- [ ] Ceramicindustry.txt
-- [ ] Chain.txt
-- [ ] Chalk.txt
-- [ ] Challenge.txt
-- [ ] Chameleon.txt
-- [ ] Chameleonman.txt
-- [ ] Champion.txt
-- [ ] Channel.txt
-- [ ] Char.txt
-- [ ] Charactertable2.txt
-- [ ] Chasm.txt
+- [x] Castle.txt
+- [x] Cat.txt
+- [x] Catacombs.txt
+- [x] Cat'seye.txt
+- [x] Catsplosion.txt
+- [x] Cattail.txt
+- [x] Cave.txt
+- [x] Caveadaptation.txt
+- [x] Caveblob.txt
+- [x] Cavecrocodile.txt
+- [x] Cavedragon.txt
+- [x] Cavefish.txt
+- [x] Cavefishman.txt
+- [x] Cavefloater.txt
+- [x] Cave-in.txt
+- [x] Cavelobster.txt
+- [x] Cavemoss.txt
+- [x] Cavern.txt
+- [x] Cavespider.txt
+- [x] Caveswallow.txt
+- [x] Caveswallowman2.txt
+- [x] Cavewheat2.txt
+- [x] Cavy.txt
+- [x] Cedar.txt
+- [x] Celery.txt
+- [x] Centaur.txt
+- [x] Ceramic.txt
+- [x] Ceramicindustry.txt
+- [x] Chain.txt
+- [x] Chalk.txt
+- [x] Challenge.txt
+- [x] Chameleon.txt
+- [x] Chameleonman.txt
+- [x] Champion.txt
+- [x] Channel.txt
+- [x] Char.txt
+- [x] Charactertable2.txt
+- [x] Chasm.txt
 - [ ] Cheating.txt
-- [ ] Cheese.txt
+- [x] Cheese.txt
 - [x] Cheesemaker.txt
 - [x] Cheetah.txt
 - [x] Cheetahman.txt
@@ -403,380 +403,380 @@
 - [x] Chestnut.txt
 - [x] Chicken.txt
 - [x] Chickpea.txt
-- [ ] Chicory.txt
-- [ ] Chiefmedicaldwarf.txt
-- [ ] Children.txt
-- [ ] Chimera.txt
-- [ ] Chimpanzee.txt
-- [ ] Chinchilla.txt
-- [ ] Chinchillaman.txt
-- [ ] Chipmunk.txt
-- [ ] Chipmunkman.txt
-- [ ] Chosen.txt
-- [ ] Chromite.txt
-- [ ] Chrysoberyl.txt
-- [ ] Chrysocolla.txt
-- [ ] Chrysoprase.txt
-- [ ] Cinnabar.txt
-- [ ] Cinnamongrossular.txt
-- [ ] Citizenship.txt
-- [ ] Citrine.txt
-- [ ] Citron.txt
-- [ ] Civilian.txt
-- [ ] Civilianalert.txt
-- [ ] Civilization.txt
-- [ ] CivilizationandWorldInfo.txt
-- [ ] Claim.txt
-- [ ] Claroopal.txt
-- [ ] Clay.txt
-- [ ] Clayloam.txt
-- [ ] Claystone.txt
-- [ ] Cleaning.txt
-- [ ] Cleaningupmacros.txt
-- [ ] Cleanself.txt
-- [ ] Cleardiamond.txt
-- [ ] Cleargarnet.txt
-- [ ] Cleartourmaline.txt
-- [ ] Clearzircon.txt
-- [ ] Cliff.txt
-- [ ] Climate.txt
+- [x] Chicory.txt
+- [x] Chiefmedicaldwarf.txt
+- [x] Children.txt
+- [x] Chimera.txt
+- [x] Chimpanzee.txt
+- [x] Chinchilla.txt
+- [x] Chinchillaman.txt
+- [x] Chipmunk.txt
+- [x] Chipmunkman.txt
+- [x] Chosen.txt
+- [x] Chromite.txt
+- [x] Chrysoberyl.txt
+- [x] Chrysocolla.txt
+- [x] Chrysoprase.txt
+- [x] Cinnabar.txt
+- [x] Cinnamongrossular.txt
+- [x] Citizenship.txt
+- [x] Citrine.txt
+- [x] Citron.txt
+- [x] Civilian.txt
+- [x] Civilianalert.txt
+- [x] Civilization.txt
+- [x] CivilizationandWorldInfo.txt
+- [x] Claim.txt
+- [x] Claroopal.txt
+- [x] Clay.txt
+- [x] Clayloam.txt
+- [x] Claystone.txt
+- [x] Cleaning.txt
+- [x] Cleaningupmacros.txt
+- [x] Cleanself.txt
+- [x] Cleardiamond.txt
+- [x] Cleargarnet.txt
+- [x] Cleartourmaline.txt
+- [x] Clearzircon.txt
+- [x] Cliff.txt
+- [x] Climate.txt
 - [x] Climber.txt
-- [ ] Cloth.txt
+- [x] Cloth.txt
 - [x] Clothier.txt
-- [ ] Clothier'sshop.txt
-- [ ] Clothing.txt
-- [ ] Cloudberry.txt
-- [ ] Clownfish.txt
-- [ ] Clownloach.txt
-- [ ] Clowns.txt
-- [ ] Clutter.txt
-- [ ] CMV.txt
-- [ ] Coati.txt
-- [ ] Coatiman.txt
-- [ ] Cobaltite.txt
-- [ ] Cockatiel.txt
-- [ ] Cockatielman.txt
-- [ ] Coconutpalm.txt
-- [ ] Cod.txt
-- [ ] Coelacanth.txt
-- [ ] Coffee.txt
-- [ ] Coffin.txt
+- [x] Clothier'sshop.txt
+- [x] Clothing.txt
+- [x] Cloudberry.txt
+- [x] Clownfish.txt
+- [x] Clownloach.txt
+- [x] Clowns.txt
+- [x] Clutter.txt
+- [x] CMV.txt
+- [x] Coati.txt
+- [x] Coatiman.txt
+- [x] Cobaltite.txt
+- [x] Cockatiel.txt
+- [x] Cockatielman.txt
+- [x] Coconutpalm.txt
+- [x] Cod.txt
+- [x] Coelacanth.txt
+- [x] Coffee.txt
+- [x] Coffin.txt
 - [ ] Color.txt
-- [ ] Colors.txt.txt
-- [ ] Colorscheme.txt
+- [x] Colors.txt.txt
+- [x] Colorscheme.txt
 - [ ] Combat.txt
-- [ ] Combatdrills.txt
-- [ ] Combathardening.txt
-- [ ] Combatskill.txt
-- [ ] Comedian.txt
-- [ ] Commandline.txt
-- [ ] Commonreed.txt
-- [ ] Commonskate.txt
-- [ ] Commonsnappingturtle.txt
-- [ ] CommunityofDwarfFortress.txt
-- [ ] Company.txt
-- [ ] Computing.txt
-- [ ] Concentration.txt
-- [ ] Congereel.txt
-- [ ] Conglomerate.txt
-- [ ] Consoler.txt
+- [x] Combatdrills.txt
+- [x] Combathardening.txt
+- [x] Combatskill.txt
+- [x] Comedian.txt
+- [x] Commandline.txt
+- [x] Commonreed.txt
+- [x] Commonskate.txt
+- [x] Commonsnappingturtle.txt
+- [x] CommunityofDwarfFortress.txt
+- [x] Company.txt
+- [x] Computing.txt
+- [x] Concentration.txt
+- [x] Congereel.txt
+- [x] Conglomerate.txt
+- [x] Consoler.txt
 - [ ] Consolidateddevelopment2.txt
-- [ ] Consort.txt
-- [ ] Constructcreature.txt
-- [ ] Construction.txt
-- [ ] Constructionremoval.txt
-- [ ] Container.txt
-- [ ] Contaminant.txt
-- [ ] Controls.txt
-- [ ] Controlsguide.txt
-- [ ] Conversationalist.txt
-- [ ] Cook.txt
-- [ ] Coordination.txt
-- [ ] Copper.txt
-- [ ] Copperheadsnake.txt
-- [ ] Copperheadsnakeman.txt
-- [ ] Coral.txt
-- [ ] Corpse.txt
-- [ ] Cotton.txt
-- [ ] Cottongrass.txt
-- [ ] Cougar.txt
-- [ ] Cougarman.txt
-- [ ] Count.txt
-- [ ] Countinghouse.txt
-- [ ] County.txt
-- [ ] Countyarc.txt
-- [ ] Cow.txt
-- [ ] Cowpea.txt
-- [ ] Coyote.txt
-- [ ] Coyoteman.txt
-- [ ] Crab.txt
-- [ ] Crabman.txt
-- [ ] Craftsdwarf.txt
-- [ ] Craftsdwarf'sworkshop2.txt
-- [ ] Cranberry.txt
-- [ ] Creature.txt
-- [ ] CreatureEditnotice.txt
-- [ ] Creatureexamples.txt
-- [ ] CreatureflagsinDFmemory.txt
-- [ ] Creaturelogic.txt
-- [ ] Creaturemannerismtoken.txt
-- [ ] Creatures.txt
-- [ ] Creaturetexturetoken.txt
-- [ ] Creaturetoken2.txt
-- [ ] Creaturevariationtoken.txt
-- [ ] Creepingeye.txt
-- [ ] Creepycrawler.txt
-- [ ] Criminal.txt
-- [ ] Criticalthinker.txt
-- [ ] Crocodile.txt
-- [ ] Crop.txt
-- [ ] Crossbow.txt
-- [ ] Crossbowman.txt
+- [x] Consort.txt
+- [x] Constructcreature.txt
+- [x] Construction.txt
+- [x] Constructionremoval.txt
+- [x] Container.txt
+- [x] Contaminant.txt
+- [x] Controls.txt
+- [x] Controlsguide.txt
+- [x] Conversationalist.txt
+- [x] Cook.txt
+- [x] Coordination.txt
+- [x] Copper.txt
+- [x] Copperheadsnake.txt
+- [x] Copperheadsnakeman.txt
+- [x] Coral.txt
+- [x] Corpse.txt
+- [x] Cotton.txt
+- [x] Cottongrass.txt
+- [x] Cougar.txt
+- [x] Cougarman.txt
+- [x] Count.txt
+- [x] Countinghouse.txt
+- [x] County.txt
+- [x] Countyarc.txt
+- [x] Cow.txt
+- [x] Cowpea.txt
+- [x] Coyote.txt
+- [x] Coyoteman.txt
+- [x] Crab.txt
+- [x] Crabman.txt
+- [x] Craftsdwarf.txt
+- [x] Craftsdwarf'sworkshop2.txt
+- [x] Cranberry.txt
+- [x] Creature.txt
+- [x] CreatureEditnotice.txt
+- [x] Creatureexamples.txt
+- [x] CreatureflagsinDFmemory.txt
+- [x] Creaturelogic.txt
+- [x] Creaturemannerismtoken.txt
+- [x] Creatures.txt
+- [x] Creaturetexturetoken.txt
+- [x] Creaturetoken2.txt
+- [x] Creaturevariationtoken.txt
+- [x] Creepingeye.txt
+- [x] Creepycrawler.txt
+- [x] Criminal.txt
+- [x] Criticalthinker.txt
+- [x] Crocodile.txt
+- [x] Crop.txt
+- [x] Crossbow.txt
+- [x] Crossbowman.txt
 - [ ] Crossbowraw.txt
-- [ ] Cross-training.txt
-- [ ] Crow.txt
-- [ ] Crowman.txt
-- [ ] Crundle.txt
-- [ ] Crutch.txt
-- [ ] Crutch-walker.txt
-- [ ] Cryolite.txt
-- [ ] Crystalopal.txt
-- [ ] Cucumber.txt
-- [ ] Currency.txt
-- [ ] Currentresident.txt
-- [ ] Cursed.txt
-- [ ] Custard-apple.txt
-- [ ] Cuttlefish.txt
-- [ ] Cuttlefishman.txt
-- [ ] Cyclops.txt
-- [ ] Dacite.txt
-- [ ] Dagger.txt
-- [ ] Daggerraw.txt
-- [ ] Dallisgrass.txt
-- [ ] Dam.txt
-- [ ] Damselfly.txt
-- [ ] Damselflyman.txt
-- [ ] Dancer.txt
-- [ ] Dangerroom.txt
-- [ ] Darkfortress.txt
-- [ ] Darkgnome.txt
-- [ ] Darkpits.txt
-- [ ] Datepalm.txt
-- [ ] Decoration.txt
-- [ ] Deeppit.txt
-- [ ] Deer.txt
-- [ ] Deerman.txt
-- [ ] Defenseguide.txt
-- [ ] Deity.txt
-- [ ] Demand.txt
-- [ ] Demantoid.txt
-- [ ] Demon.txt
-- [ ] Demonicfortress.txt
-- [ ] Demonrat.txt
-- [ ] Dendriticagate.txt
-- [ ] Density.txt
-- [ ] Descriptorcolortoken.txt
-- [ ] Descriptorpatterntoken.txt
-- [ ] Descriptorshapetoken.txt
-- [ ] Desert.txt
-- [ ] Desertlime.txt
-- [ ] Deserttortoise.txt
-- [ ] Deserttortoiseman.txt
-- [ ] DesignationflagsinDFmemory.txt
-- [ ] Designationsmenu2.txt
-- [ ] Designstrategies2.txt
-- [ ] Developmentarc2.txt
-- [ ] Devlogs.txt
-- [ ] Diagnostician.txt
-- [ ] Diamond.txt
-- [ ] Die.txt
-- [ ] Difficulty.txt
-- [ ] Diggingdesignationcanceled.txt
-- [ ] Dimplecup.txt
-- [ ] Dingo.txt
-- [ ] Dingoman.txt
-- [ ] Diningroom2.txt
-- [ ] Dinit.txt.txt
-- [ ] Dinit.txtraw.txt
-- [ ] Diorite.txt
-- [ ] Diplomacy.txt
-- [ ] Diplomat.txt
-- [ ] Dipscript.txt
-- [ ] Discipline.txt
-- [ ] Displayfurniture.txt
-- [ ] Divineequipment.txt
-- [ ] Divinefabric.txt
-- [ ] Divinelanguage.txt
-- [ ] Divinemetal.txt
-- [ ] Doctor.txt
+- [x] Cross-training.txt
+- [x] Crow.txt
+- [x] Crowman.txt
+- [x] Crundle.txt
+- [x] Crutch.txt
+- [x] Crutch-walker.txt
+- [x] Cryolite.txt
+- [x] Crystalopal.txt
+- [x] Cucumber.txt
+- [x] Currency.txt
+- [x] Currentresident.txt
+- [x] Cursed.txt
+- [x] Custard-apple.txt
+- [x] Cuttlefish.txt
+- [x] Cuttlefishman.txt
+- [x] Cyclops.txt
+- [x] Dacite.txt
+- [x] Dagger.txt
+- [x] Daggerraw.txt
+- [x] Dallisgrass.txt
+- [x] Dam.txt
+- [x] Damselfly.txt
+- [x] Damselflyman.txt
+- [x] Dancer.txt
+- [x] Dangerroom.txt
+- [x] Darkfortress.txt
+- [x] Darkgnome.txt
+- [x] Darkpits.txt
+- [x] Datepalm.txt
+- [x] Decoration.txt
+- [x] Deeppit.txt
+- [x] Deer.txt
+- [x] Deerman.txt
+- [x] Defenseguide.txt
+- [x] Deity.txt
+- [x] Demand.txt
+- [x] Demantoid.txt
+- [x] Demon.txt
+- [x] Demonicfortress.txt
+- [x] Demonrat.txt
+- [x] Dendriticagate.txt
+- [x] Density.txt
+- [x] Descriptorcolortoken.txt
+- [x] Descriptorpatterntoken.txt
+- [x] Descriptorshapetoken.txt
+- [x] Desert.txt
+- [x] Desertlime.txt
+- [x] Deserttortoise.txt
+- [x] Deserttortoiseman.txt
+- [x] DesignationflagsinDFmemory.txt
+- [x] Designationsmenu2.txt
+- [x] Designstrategies2.txt
+- [x] Developmentarc2.txt
+- [x] Devlogs.txt
+- [x] Diagnostician.txt
+- [x] Diamond.txt
+- [x] Die.txt
+- [x] Difficulty.txt
+- [x] Diggingdesignationcanceled.txt
+- [x] Dimplecup.txt
+- [x] Dingo.txt
+- [x] Dingoman.txt
+- [x] Diningroom2.txt
+- [x] Dinit.txt.txt
+- [x] Dinit.txtraw.txt
+- [x] Diorite.txt
+- [x] Diplomacy.txt
+- [x] Diplomat.txt
+- [x] Dipscript.txt
+- [x] Discipline.txt
+- [x] Displayfurniture.txt
+- [x] Divineequipment.txt
+- [x] Divinefabric.txt
+- [x] Divinelanguage.txt
+- [x] Divinemetal.txt
+- [x] Doctor.txt
 - [ ] Dog.txt
-- [ ] Dog'stoothgrass.txt
-- [ ] Dolomite.txt
+- [x] Dog'stoothgrass.txt
+- [x] Dolomite.txt
 - [ ] Domesticanimal.txt
-- [ ] Donation.txt
-- [ ] Donkey.txt
-- [ ] Door.txt
-- [ ] Dormitory.txt
-- [ ] Double-slitmethod.txt
-- [ ] Downygrass.txt
+- [x] Donation.txt
+- [x] Donkey.txt
+- [x] Door.txt
+- [x] Dormitory.txt
+- [x] Double-slitmethod.txt
+- [x] Downygrass.txt
 - [ ] Dragon.txt
-- [ ] Dragonfire.txt
-- [ ] Dragonfly.txt
-- [ ] Dragonflyman.txt
-- [ ] Draltha.txt
-- [ ] Driftwood.txt
-- [ ] Dropseedgrass.txt
-- [ ] Drowningchamber.txt
-- [ ] Druid.txt
-- [ ] Drunian.txt
-- [ ] Drunk.txt
-- [ ] Dryland.txt
-- [ ] Duck.txt
-- [ ] Duke.txt
-- [ ] Dungeon(zone)2.txt
-- [ ] Dungeon.txt
-- [ ] Dungeonguardian.txt
-- [ ] Dungeonmaster2.txt
+- [x] Dragonfire.txt
+- [x] Dragonfly.txt
+- [x] Dragonflyman.txt
+- [x] Draltha.txt
+- [x] Driftwood.txt
+- [x] Dropseedgrass.txt
+- [x] Drowningchamber.txt
+- [x] Druid.txt
+- [x] Drunian.txt
+- [x] Drunk.txt
+- [x] Dryland.txt
+- [x] Duck.txt
+- [x] Duke.txt
+- [x] Dungeon(zone)2.txt
+- [x] Dungeon.txt
+- [x] Dungeonguardian.txt
+- [x] Dungeonmaster2.txt
 - [ ] Duplicatedraws.txt
-- [ ] Durian.txt
+- [x] Durian.txt
 - [ ] Dwarf.txt
-- [ ] DwarfcancelsConstructBuildingcannotreachsite.txt
-- [ ] DwarfcancelsConstructBuildingItemblockingsite.txt
-- [ ] DwarfcancelsconstructionofWallCreatureoccupyingsite.txt
-- [ ] DwarfcancelsconstructRockobjectNeedsnon-economicrock.txt
-- [ ] DwarfcancelsfillpondInappropriatebuilding.txt
-- [ ] DwarfcancelsStoreItemIteminaccessible.txt
-- [ ] DwarfcancelsStoreItemJobitemmisplaced.txt
-- [ ] DwarfcancelstaskCouldnotfindpath.txt
-- [ ] DwarfcancelstaskDangerousterrain.txt
-- [ ] DwarfcancelstaskDropoffinaccessible.txt
-- [ ] DwarfcancelstaskForbiddenarea.txt
-- [ ] DwarfcancelstaskHandlingdangerouscreature.txt
-- [ ] DwarfcancelstaskHuntingverminforfood.txt
-- [ ] DwarfcancelstaskInterrupted.txt
-- [ ] DwarfcancelstaskJobitemlostordestroyed.txt
+- [x] DwarfcancelsConstructBuildingcannotreachsite.txt
+- [x] DwarfcancelsConstructBuildingItemblockingsite.txt
+- [x] DwarfcancelsconstructionofWallCreatureoccupyingsite.txt
+- [x] DwarfcancelsconstructRockobjectNeedsnon-economicrock.txt
+- [x] DwarfcancelsfillpondInappropriatebuilding.txt
+- [x] DwarfcancelsStoreItemIteminaccessible.txt
+- [x] DwarfcancelsStoreItemJobitemmisplaced.txt
+- [x] DwarfcancelstaskCouldnotfindpath.txt
+- [x] DwarfcancelstaskDangerousterrain.txt
+- [x] DwarfcancelstaskDropoffinaccessible.txt
+- [x] DwarfcancelstaskForbiddenarea.txt
+- [x] DwarfcancelstaskHandlingdangerouscreature.txt
+- [x] DwarfcancelstaskHuntingverminforfood.txt
+- [x] DwarfcancelstaskInterrupted.txt
+- [x] DwarfcancelstaskJobitemlostordestroyed.txt
 - [ ] DwarfFortress.txt
-- [ ] DwarfFortressDevelopment.txt
+- [x] DwarfFortressDevelopment.txt
 - [ ] DwarfFortressItalia.txt
 - [ ] Dwarffortressmode2.txt
-- [ ] DwarfFortressRPG.txt
-- [ ] DwarfFortressTalk.txt
-- [ ] DwarfFortresswebcomics.txt
-- [ ] DwarfFortressWiki.txt
-- [ ] Dwarvenatomsmasher2.txt
-- [ ] Dwarveneconomy.txt
-- [ ] Dwarvenlanguage.txt
-- [ ] Dwarvenmilk.txt
-- [ ] Dwarvensugar.txt
-- [ ] Dwarvensyrup.txt
-- [ ] Dye.txt
-- [ ] Dyer.txt
-- [ ] Dyer'sshop.txt
-- [ ] Eagle.txt
-- [ ] Eagleman.txt
-- [ ] Earthenware.txt
-- [ ] Eastereggs2.txt
-- [ ] Echidna.txt
-- [ ] Echidnaman.txt
-- [ ] Economics.txt
-- [ ] Economicstone.txt
-- [ ] Edge.txt
-- [ ] Egg.txt
-- [ ] Eggplant.txt
-- [ ] Eggproduction.txt
-- [ ] Elections.txt
-- [ ] Electrum.txt
-- [ ] Elephant.txt
-- [ ] Elephant-headamaranth.txt
-- [ ] Elephantman.txt
-- [ ] Elephantseal.txt
-- [ ] Elephantsealman.txt
-- [ ] Elf.txt
-- [ ] Elite.txt
-- [ ] Elk.txt
-- [ ] Elkbird.txt
-- [ ] Elkman.txt
-- [ ] Elvenlanguage.txt
-- [ ] Embark.txt
-- [ ] Embarkprofilerepository.txt
-- [ ] Embarkprofiles.txt.txt
-- [ ] Embarkprofiles.txtLNPprofiles.txt
-- [ ] Emerald.txt
-- [ ] Emigration.txt
-- [ ] Emotion.txt
-- [ ] Emperorpenguin.txt
-- [ ] Emu.txt
-- [ ] Emuman.txt
-- [ ] Engineer.txt
-- [ ] Engraver.txt
-- [ ] Engraving.txt
-- [ ] Entityexamples.txt
-- [ ] Entitytoken.txt
-- [ ] Equipment.txt
-- [ ] Equipmentmismatch.txt
-- [ ] Errorlog.txt.txt
-- [ ] Ethic.txt
-- [ ] Ettin.txt
-- [ ] Exoticpet.txt
-- [ ] Expeditionleader.txt
-- [ ] Experience.txt
-- [ ] Experiment.txt
-- [ ] Exploit.txt
-- [ ] Exploratorymining.txt
-- [ ] Extinction.txt
-- [ ] Extracts.txt
-- [ ] Faction.txt
-- [ ] Faintyellowdiamond.txt
-- [ ] Fairy.txt
-- [ ] Fall.txt
-- [ ] Fanciful.txt
-- [ ] Farmer.txt
-- [ ] Farmer'sworkshop2.txt
-- [ ] Farming.txt
-- [ ] Farmsizecalculations.txt
-- [ ] Fat.txt
-- [ ] Feather.txt
-- [ ] Feathertree.txt
-- [ ] Felsite.txt
-- [ ] Fescuegrass.txt
-- [ ] Festival.txt
-- [ ] Fieldsedge.txt
-- [ ] Figurine.txt
-- [ ] Filth.txt
-- [ ] Finepewter.txt
-- [ ] Fingerlime.txt
-- [ ] Fingermillet.txt
-- [ ] Finishedgoods2.txt
-- [ ] Fire.txt
-- [ ] Fireagate.txt
-- [ ] Fireclay.txt
-- [ ] Firefly.txt
-- [ ] Fireflyman.txt
-- [ ] Fireimp2.txt
-- [ ] Fireman.txt
-- [ ] Fireopal.txt
-- [ ] Fire-safe.txt
-- [ ] Firesnake.txt
-- [ ] Fish.txt
-- [ ] Fishcleaner.txt
-- [ ] Fishdissector.txt
-- [ ] Fisherberry.txt
-- [ ] Fisherdwarf.txt
-- [ ] Fishery.txt
-- [ ] Fisheryworker2.txt
-- [ ] Fishingindustry.txt
-- [ ] FixedCreatureRAWs.txt
-- [ ] Flail.txt
+- [x] DwarfFortressRPG.txt
+- [x] DwarfFortressTalk.txt
+- [x] DwarfFortresswebcomics.txt
+- [x] DwarfFortressWiki.txt
+- [x] Dwarvenatomsmasher2.txt
+- [x] Dwarveneconomy.txt
+- [x] Dwarvenlanguage.txt
+- [x] Dwarvenmilk.txt
+- [x] Dwarvensugar.txt
+- [x] Dwarvensyrup.txt
+- [x] Dye.txt
+- [x] Dyer.txt
+- [x] Dyer'sshop.txt
+- [x] Eagle.txt
+- [x] Eagleman.txt
+- [x] Earthenware.txt
+- [x] Eastereggs2.txt
+- [x] Echidna.txt
+- [x] Echidnaman.txt
+- [x] Economics.txt
+- [x] Economicstone.txt
+- [x] Edge.txt
+- [x] Egg.txt
+- [x] Eggplant.txt
+- [x] Eggproduction.txt
+- [x] Elections.txt
+- [x] Electrum.txt
+- [x] Elephant.txt
+- [x] Elephant-headamaranth.txt
+- [x] Elephantman.txt
+- [x] Elephantseal.txt
+- [x] Elephantsealman.txt
+- [x] Elf.txt
+- [x] Elite.txt
+- [x] Elk.txt
+- [x] Elkbird.txt
+- [x] Elkman.txt
+- [x] Elvenlanguage.txt
+- [x] Embark.txt
+- [x] Embarkprofilerepository.txt
+- [x] Embarkprofiles.txt.txt
+- [x] Embarkprofiles.txtLNPprofiles.txt
+- [x] Emerald.txt
+- [x] Emigration.txt
+- [x] Emotion.txt
+- [x] Emperorpenguin.txt
+- [x] Emu.txt
+- [x] Emuman.txt
+- [x] Engineer.txt
+- [x] Engraver.txt
+- [x] Engraving.txt
+- [x] Entityexamples.txt
+- [x] Entitytoken.txt
+- [x] Equipment.txt
+- [x] Equipmentmismatch.txt
+- [x] Errorlog.txt.txt
+- [x] Ethic.txt
+- [x] Ettin.txt
+- [x] Exoticpet.txt
+- [x] Expeditionleader.txt
+- [x] Experience.txt
+- [x] Experiment.txt
+- [x] Exploit.txt
+- [x] Exploratorymining.txt
+- [x] Extinction.txt
+- [x] Extracts.txt
+- [x] Faction.txt
+- [x] Faintyellowdiamond.txt
+- [x] Fairy.txt
+- [x] Fall.txt
+- [x] Fanciful.txt
+- [x] Farmer.txt
+- [x] Farmer'sworkshop2.txt
+- [x] Farming.txt
+- [x] Farmsizecalculations.txt
+- [x] Fat.txt
+- [x] Feather.txt
+- [x] Feathertree.txt
+- [x] Felsite.txt
+- [x] Fescuegrass.txt
+- [x] Festival.txt
+- [x] Fieldsedge.txt
+- [x] Figurine.txt
+- [x] Filth.txt
+- [x] Finepewter.txt
+- [x] Fingerlime.txt
+- [x] Fingermillet.txt
+- [x] Finishedgoods2.txt
+- [x] Fire.txt
+- [x] Fireagate.txt
+- [x] Fireclay.txt
+- [x] Firefly.txt
+- [x] Fireflyman.txt
+- [x] Fireimp2.txt
+- [x] Fireman.txt
+- [x] Fireopal.txt
+- [x] Fire-safe.txt
+- [x] Firesnake.txt
+- [x] Fish.txt
+- [x] Fishcleaner.txt
+- [x] Fishdissector.txt
+- [x] Fisherberry.txt
+- [x] Fisherdwarf.txt
+- [x] Fishery.txt
+- [x] Fisheryworker2.txt
+- [x] Fishingindustry.txt
+- [x] FixedCreatureRAWs.txt
+- [x] Flail.txt
 - [ ] Flailraw.txt
-- [ ] Flask.txt
-- [ ] Flatterer.txt
-- [ ] Flax.txt
-- [ ] Fleshball.txt
-- [ ] Floatingguts.txt
-- [ ] Flood.txt
-- [ ] Floodgate2.txt
-- [ ] Floor.txt
-- [ ] Floorfungus.txt
+- [x] Flask.txt
+- [x] Flatterer.txt
+- [x] Flax.txt
+- [x] Fleshball.txt
+- [x] Floatingguts.txt
+- [x] Flood.txt
+- [x] Floodgate2.txt
+- [x] Floor.txt
+- [x] Floorfungus.txt
 - [ ] Flounder.txt
 - [ ] Flour.txt
 - [ ] Flow.txt

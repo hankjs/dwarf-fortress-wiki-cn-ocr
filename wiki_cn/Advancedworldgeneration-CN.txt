@@ -122,125 +122,68 @@
 
 === 参数集标题 ===
 这设置参数集本身的名称，如集合列表中使用的（这与生成的世界的名称无关）。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[TITLE:<name>]</nowiki></tt>
-| <tt><nowiki>[TITLE:MEDIUM ISLAND]</nowiki></tt>
-| 必需
-|}
+! 注释|-| <tt><nowiki>[TITLE:<name>]</nowiki></tt>| <tt><nowiki>[TITLE:MEDIUM ISLAND]</nowiki></tt>| 必需|}
 
 === 世界尺寸 ===
 可以通过更改集合标题旁边顶部的宽度和高度值来更改当前集合的地图大小。你需要确认这一点，因为更改世界的尺寸会更改其他参数，因为许多参数根据可用的表面积具有不同的默认值。
 
 较大的地图通常需要更长的时间来生成，并且可能会降低游戏内的[[Frames per second|FPS]]，尽管这实际上是因为较大的世界通常有更多的文明、遗址、历史人物和事件；限制这些数量可以加快过程。非正方形地图可能会导致崩溃{{bug|2928}}。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[DIM:<width>:<height>]</nowiki></tt>
-| <tt><nowiki>[DIM:257:257]</nowiki></tt>
-| 有效值为17、33、65、129和257，其他值将使用其中之一。在不调整其他参数的情况下在文件中更改大小可能会导致许多拒绝。
-|}
+! 注释|-| <tt><nowiki>[DIM:<width>:<height>]</nowiki></tt>| <tt><nowiki>[DIM:257:257]</nowiki></tt>| 有效值为17、33、65、129和257，其他值将使用其中之一。在不调整其他参数的情况下在文件中更改大小可能会导致许多拒绝。|}
 
 === 种子值 ===
 启用并指定世界生成过程不同部分的种子值。仅输入特定种子不会启用它，必须单独启用，尽管使用顶部的框将所有种子设置为相同的值会启用它们。启用种子会使用文本框中的任何内容放入标记。如果启用种子但不输入种子，将使用字符串"Seed text"（<tt><nowiki>[SEED:Seed text]</nowiki></tt>）。尝试在文件的字符串中使用<tt><nowiki>]</nowiki></tt>将在那里结束种子，因为它会关闭标记，之后的任何文本都将被忽略。通常，只需将这些设置为随机，除非尝试重现以前世界生成的结果。另请参见上面的[[Advanced_world_generation#Seed_notes|种子注释]]部分。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[SEED:31337]</nowiki></tt>
-| rowspan="4" |
-对于配置文件中不存在的每一个，将使用随机种子，并且第一个种子不用于生成其他种子。使用的种子在世界生成开始时输出到[[gamelog.txt]]。
-|-
-| <tt><nowiki>[HISTORY_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[HISTORY_SEED:31337]</nowiki></tt>
-|-
-| <tt><nowiki>[NAME_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[NAME_SEED:31337]</nowiki></tt>
-|-
-| <tt><nowiki>[CREATURE_SEED:<text>]</nowiki></tt>
-| <tt><nowiki>[CREATURE_SEED:31337]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[SEED:<text>]</nowiki></tt>| <tt><nowiki>[SEED:31337]</nowiki></tt>| rowspan="4" |
+对于配置文件中不存在的每一个，将使用随机种子，并且第一个种子不用于生成其他种子。使用的种子在世界生成开始时输出到[[gamelog.txt]]。|-| <tt><nowiki>[HISTORY_SEED:<text>]</nowiki></tt>| <tt><nowiki>[HISTORY_SEED:31337]</nowiki></tt>|-| <tt><nowiki>[NAME_SEED:<text>]</nowiki></tt>| <tt><nowiki>[NAME_SEED:31337]</nowiki></tt>|-| <tt><nowiki>[CREATURE_SEED:<text>]</nowiki></tt>| <tt><nowiki>[CREATURE_SEED:31337]</nowiki></tt>|}
 
 === 世界名称 ===
 如前所述，参数集的标题不影响世界的名称。你可以为你的世界指定一个特定的名称，或者留空以获得随机名称。（[[DFHack]]实用程序添加了使用游戏内语言重命名世界的选项。）
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CUSTOM_NAME:<name>]</nowiki></tt>
-| <tt><nowiki>[CUSTOM_NAME:Realm of Cheese Engravings]</nowiki></tt>
-| 对于随机名称，只需不使用此标记。
-|}
+! 注释|-| <tt><nowiki>[CUSTOM_NAME:<name>]</nowiki></tt>| <tt><nowiki>[CUSTOM_NAME:Realm of Cheese Engravings]</nowiki></tt>| 对于随机名称，只需不使用此标记。|}
 
 === 出发点数 ===
 在要塞模式下出发时装备和动物的点数（冒险模式没有等效设置）。通常，默认值1504就可以了，但可以增加用于各种目的，如实验或帮助矮人在特别邪恶的世界中生存，或减少用于某些[[challenges|挑战]]。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[EMBARK_POINTS:<number>]</nowiki></tt>
-| <tt><nowiki>[EMBARK_POINTS:1504]</nowiki></tt>
-| 0到10,000
-|}
+! 注释|-| <tt><nowiki>[EMBARK_POINTS:<number>]</nowiki></tt>| <tt><nowiki>[EMBARK_POINTS:1504]</nowiki></tt>| 0到10,000|}
 
 === 结束年份 ===
 为世界生成的最大年数，尽管在第二年之后的任何时候都可以暂停生成并按原样使用世界；与基础世界生成中的[[World_generation#History|历史]]参数相同，只是你可以输入确切的值。历史太短可能会限制文明可用的材料，并且[[Chosen|某些冒险模式特性]]仅在某些遗址事件之后才可用，而历史太长通常会导致文明死亡。
 
 有关游戏历史方面的更多信息，请参见[[Legends]]和[[Calendar#Ages|纪元]]。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[END_YEAR:<number>]</nowiki></tt>
-| <tt><nowiki>[END_YEAR:250]</nowiki></tt>
-| 2到10,000
-|}
+! 注释|-| <tt><nowiki>[END_YEAR:<number>]</nowiki></tt>| <tt><nowiki>[END_YEAR:250]</nowiki></tt>| 2到10,000|}
 
 === 文明创建后的人口上限 ===
 对生成期间所有文明中同时存活的[[historical figure|历史人物]]总数的软限制，仅防止新历史人物的出生。{{cite forum|140544/5701667}}每个文明根据其控制的遗址百分比分配总数的百分比。{{cite forum|159164/7553641}}文明也有非历史人口，并且没有设置来限制这些人口（在早期版本中，所有文明成员都是历史人物，这也是此设置名称具有误导性的原因）。每个[[entity|实体]]的原始定义中也有限制，请参见[[Entity_token#Population|人口]]实体标记，将此设置为无限制不会删除这些限制。
 
 巨大的历史人物人口会减慢生成和游戏的速度。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[TOTAL_CIV_POPULATION:<number>]</nowiki></tt>
-| <tt><nowiki>[TOTAL_CIV_POPULATION:15000]</nowiki></tt>
-| -1到100,000，-1表示无限制
-|}
+! 注释|-| <tt><nowiki>[TOTAL_CIV_POPULATION:<number>]</nowiki></tt>| <tt><nowiki>[TOTAL_CIV_POPULATION:15000]</nowiki></tt>| -1到100,000，-1表示无限制|}
 
 === 文明创建后的遗址上限 ===
 所有文明合计可以直接创建的[[site|遗址]]总数，如[[hillocks|小丘]]、[[hamlet|村庄]]、[[dark pits|黑暗深坑]]、[[forest retreat|森林隐居地]]等。不会阻止初始文明遗址的放置，但它们随后会计入限制。不影响生物遗址，如[[cave|洞穴]]或[[lair|巢穴]]，团体遗址如[[castle|城堡]]、[[monastery|修道院]]、[[tower_(necromancy)|塔楼]]、[[fort|堡垒]]或[[camp|营地]]，或无人遗址如[[tomb|坟墓]]。达到此限制后，任何文明都无法放置新遗址。有关可以限制文明遗址放置的其他方式，请参见[[Entity_token#Placement|放置]]实体标记。
 
 增加此值将减慢生成速度并减少玩家遗址的可用位置。由于{{token|MAX_SITE_POP_NUMBER|entity}}实体标记限制每个遗址的历史人物人口，此遗址上限也可以限制所有文明合计的历史人物总人口，并且某些文明的扩张速度比其他文明快，在达到限制之前获得更多遗址。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SITE_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[SITE_CAP:1500]</nowiki></tt>
-| -1到100,000，-1表示无限制
-|}
+! 注释|-| <tt><nowiki>[SITE_CAP:<number>]</nowiki></tt>| <tt><nowiki>[SITE_CAP:1500]</nowiki></tt>| -1到100,000，-1表示无限制|}
 
 === 野兽控制 ===
 
@@ -261,16 +204,10 @@
 
 如果活着的[[megabeast|巨兽]]和[[titan|泰坦]]的数量开始时或降至少于四个，那么如果当前年份等于或大于开始检查巨兽百分比的年份，世界生成将始终停止，''无论''有多少[[megabeast|巨兽]]和[[titan|泰坦]]死亡——停止的巨兽和泰坦死亡百分比将被忽略。世界开始时的巨兽和泰坦数量由[[Advanced_world_generation#Max_Megabeasts_Caves|最大巨兽洞穴]]和[[Advanced_world_generation#Titan_Parameters|泰坦数量]]参数之和设置。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[BEAST_END_YEAR:<year>:<percentage or -1>]</nowiki></tt>
-| <tt><nowiki>[BEAST_END_YEAR:200:80]</nowiki></tt>
-| 使用-1作为百分比来禁用。年份仍必须至少为2。
-|}
+! 注释|-| <tt><nowiki>[BEAST_END_YEAR:<year>:<percentage or -1>]</nowiki></tt>| <tt><nowiki>[BEAST_END_YEAR:200:80]</nowiki></tt>| 使用-1作为百分比来禁用。年份仍必须至少为2。|}
 
 === 剔除不重要的历史人物 ===
 {{main|Historical figure}}
@@ -278,31 +215,19 @@
 
 确切地说什么被认为是重要的尚不清楚。抽象团体的成员杀死命名生物不是。创建神器不是，即使该神器有重要的历史也不是。<!--52.05, silver war hammer created and claimed as family heirloom by an unknown creature in a dwarven fortress that later breached, named demon killed 55 with it, including 9 histfigs. If it were just a normal war hammer that got named, it would say that, not created and claimed.-->未剔除的历史人物可以将父母身份描述为"The identity of"该父母"has been lost to time"，因此仅仅有孩子不是，尽管有活着的直系亲属似乎可以防止剔除。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:<0 or 1>]</nowiki></tt>
-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:0]</nowiki></tt>
-| 0 = 否，1 = 是
-|}
+! 注释|-| <tt><nowiki>[CULL_HISTORICAL_FIGURES:<0 or 1>]</nowiki></tt>| <tt><nowiki>[CULL_HISTORICAL_FIGURES:0]</nowiki></tt>| 0 = 否，1 = 是|}
 
 === 揭示所有历史事件 ===
 
 将此设置为是将允许访问[[Legends mode|传奇模式]]中有关世界历史的大部分信息。所有事件都将被揭示，但某些[[historical figure|历史人物]]、[[site|遗址]]、[[region|区域]]和[[civilization|文明]]及其他实体可能不会被揭示，可能是因为它们不为任何文明所知。如果设置为否，那么你将不得不在[[adventure mode|冒险模式]]中发现历史信息或指示矮人制作雕刻。{{Verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[REVEAL_ALL_HISTORY:<0 or 1>]</nowiki></tt>
-| <tt><nowiki>[REVEAL_ALL_HISTORY::1]</nowiki></tt>
-| 0 = 否，1 = 是
-|}
+! 注释|-| <tt><nowiki>[REVEAL_ALL_HISTORY:<0 or 1>]</nowiki></tt>| <tt><nowiki>[REVEAL_ALL_HISTORY::1]</nowiki></tt>| 0 = 否，1 = 是|}
 
 === 地形参数 ===
 
@@ -356,36 +281,10 @@
 这些参数控制地图上的[[Surroundings#Savage|野蛮]]程度。将最小野蛮程度提高得太高可能会使某些种族无法存在，类似地，将最大值降低得太远可能会使某些生物无法存在。无法使用的地图的最大机会来自野蛮程度值过高。
 
 ==== 配置标记 ====
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ELEVATION:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION:1:400:401:401]</nowiki></tt>
-| 范围：0到400<br/>山峰需要最大值400。<br/>方差范围：0-3200
-|-
-| <tt><nowiki>[RAINFALL:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[RAINFALL:0:100:200:200]</nowiki></tt>
-| 范围：0到100<br/>方差范围：0-3200
-|-
-| <tt><nowiki>[TEMPERATURE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[TEMPERATURE:25:75:200:200]</nowiki></tt>
-| 范围：-1000到1000<br/>方差范围：0-3200
-|-
-| <tt><nowiki>[DRAINAGE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE:0:100:200:200]</nowiki></tt>
-| 范围：0到100<br/>方差范围：0-3200
-|-
-| <tt><nowiki>[VOLCANISM:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM:1:100:200:200]</nowiki></tt>
-| 范围：0到100<br/>火山需要最大值100。<br/>方差范围：0-3200
-|-
-| <tt><nowiki>[SAVAGERY:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY:1:100:200:200]</nowiki></tt>
-| 范围：0到100<br/>方差范围：0-3200
-|}
+! 注释|-| <tt><nowiki>[ELEVATION:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[ELEVATION:1:400:401:401]</nowiki></tt>| 范围：0到400<br/>山峰需要最大值400。<br/>方差范围：0-3200|-| <tt><nowiki>[RAINFALL:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[RAINFALL:0:100:200:200]</nowiki></tt>| 范围：0到100<br/>方差范围：0-3200|-| <tt><nowiki>[TEMPERATURE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[TEMPERATURE:25:75:200:200]</nowiki></tt>| 范围：-1000到1000<br/>方差范围：0-3200|-| <tt><nowiki>[DRAINAGE:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[DRAINAGE:0:100:200:200]</nowiki></tt>| 范围：0到100<br/>方差范围：0-3200|-| <tt><nowiki>[VOLCANISM:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[VOLCANISM:1:100:200:200]</nowiki></tt>| 范围：0到100<br/>火山需要最大值100。<br/>方差范围：0-3200|-| <tt><nowiki>[SAVAGERY:<min>:<max>:<x variance>:<y variance>]</nowiki></tt>| <tt><nowiki>[SAVAGERY:1:100:200:200]</nowiki></tt>| 范围：0到100<br/>方差范围：0-3200|}
 
 === 地形网格大小和权重 ===
 
@@ -421,15 +320,10 @@
 
 ==== 配置标记 ====
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ELEVATION_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION_FREQUENCY:2:1:2:3:4:5]</nowiki></tt>
-| rowspan="6" | 有效网格值：
+! 注释|-| <tt><nowiki>[ELEVATION_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[ELEVATION_FREQUENCY:2:1:2:3:4:5]</nowiki></tt>| rowspan="6" | 有效网格值：
 
 1 = 忽略
 
@@ -443,38 +337,16 @@
 
 6 = 32x32
 
-（受世界大小限制）
-|-
-| <tt><nowiki>[RAIN_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[RAIN_FREQUENCY:3:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[DRAINAGE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE_FREQUENCY:4:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[TEMPERATURE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[TEMPERATURE_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
-|-
-| <tt><nowiki>[SAVAGERY_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY_FREQUENCY:5:1:2:3:4:5]</nowiki></tt>
-|-
-| <tt><nowiki>[VOLCANISM_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>
-|}
+（受世界大小限制）|-| <tt><nowiki>[RAIN_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[RAIN_FREQUENCY:3:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[DRAINAGE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[DRAINAGE_FREQUENCY:4:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[TEMPERATURE_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[TEMPERATURE_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>|-| <tt><nowiki>[SAVAGERY_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[SAVAGERY_FREQUENCY:5:1:2:3:4:5]</nowiki></tt>|-| <tt><nowiki>[VOLCANISM_FREQUENCY:<mesh>:<0-20 weight>:<20-40 weight>:<40-60 weight>:<60-80 weight>:<80-100 weight>]</nowiki></tt>| <tt><nowiki>[VOLCANISM_FREQUENCY:1:1:1:1:1:1]</nowiki></tt>|}
 
 === 极点 ===
 
 通过此选项，你可以影响如何添加极地区域。极点可以在北边或南边边缘，赤道将在相反的边缘，或者如果有两个极点，则在中间。如果极点设置为NONE，则天气中将没有季节性变化（例如，温带生物群系中没有冬雪）。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[POLE:<placement>]</nowiki></tt>
-| <tt><nowiki>[POLE:NORTH]</nowiki></tt>
-| 可行选项：NONE、NORTH_OR_SOUTH、NORTH_AND_OR_SOUTH、NORTH、SOUTH、NORTH_AND_SOUTH
-|}
+! 注释|-| <tt><nowiki>[POLE:<placement>]</nowiki></tt>| <tt><nowiki>[POLE:NORTH]</nowiki></tt>| 可行选项：NONE、NORTH_OR_SOUTH、NORTH_AND_OR_SOUTH、NORTH、SOUTH、NORTH_AND_SOUTH|}
 
 === 最小山峰数 ===
 
@@ -482,31 +354,19 @@
 
 你可能需要调整海拔参数，例如最高加权范围，以获得更多山峰所需的海拔400方块数量。像火山一样，山峰可以使出发区域更有趣，但除此之外，它们似乎不会"做"任何特殊的事情。据报道，它们确实会增加同一区域中所有出发区域的地上最高Z级，即使所选出发区域不包括山峰。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[PEAK_NUMBER_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[PEAK_NUMBER_MIN:20]</nowiki></tt>
-| 必须出现海拔400才能形成山峰。
-|}
+! 注释|-| <tt><nowiki>[PEAK_NUMBER_MIN:<number>]</nowiki></tt>| <tt><nowiki>[PEAK_NUMBER_MIN:20]</nowiki></tt>| 必须出现海拔400才能形成山峰。|}
 
 === 最小部分边缘海洋 ===
 
 除非至少有这么多海洋接触地图边缘，否则将导致世界被拒绝。如果设置为零，则不会基于此标准拒绝世界。将此参数和最小完全边缘海洋都设置为相加总计超过4的值可能会导致所有世界被拒绝，因为你不能在给定边缘上同时拥有部分和完全边缘海洋。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:2]</nowiki></tt>
-| 最大值为4
-|}
+! 注释|-| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[PARTIAL_OCEAN_EDGE_MIN:2]</nowiki></tt>| 最大值为4|}
 
 === 最小完全边缘海洋 ===
 
@@ -524,31 +384,19 @@
 
 边缘海洋也会占据其他边缘的一部分。例如，东侧的完全边缘海洋将使北侧和南侧的一部分在水下，但这''不会''增加''部分''边缘海洋计数。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:0]</nowiki></tt>
-| 最大值为4
-|}
+! 注释|-| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[COMPLETE_OCEAN_EDGE_MIN:0]</nowiki></tt>| 最大值为4|}
 
 === 最小火山数 ===
 
 游戏将尝试放置这么多火山，但必须至少有这么多火山活动为100的方块，如果没有，世界将被拒绝。因此，上面的[[Advanced_world_generation#Volcanism|最大火山活动]]必须设置为100，并且调整上面[[Advanced_world_generation#Configuration_Tokens_2|火山活动加权范围]]中80-100的值为更高值可以增加这些方块的数量。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[VOLCANO_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[VOLCANO_MIN:15]</nowiki></tt>
-| 火山需要火山活动为100才能出现。
-|}
+! 注释|-| <tt><nowiki>[VOLCANO_MIN:<number>]</nowiki></tt>| <tt><nowiki>[VOLCANO_MIN:15]</nowiki></tt>| 火山需要火山活动为100才能出现。|}
 
 === 矿物稀缺性 ===
 控制矿物出现的频率；将此值设置得更高将减少地图上存在的矿石和宝石的不同类型的数量和数量。默认值将导致许多金属矿石，而旧的默认值''稀疏''将只有几种矿石，这可能会受到限制，直到可以请求和交易其他金属。
@@ -560,16 +408,10 @@
 [[File:MineralSetting_v25_limit10k.png]]
 
 这是针对同一个8x8出发区域在世界中的情况，除了矿物稀缺性参数之外，其他方面都相同（尽管大部分详细信息来自早期版本的实验）。（图表图例有一个错误，第一个"Pot.(Types)"应该读作"Pot.(Amount)"。）
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[MINERAL_SCARCITY:<number>]</nowiki></tt>
-| <tt><nowiki>[MINERAL_SCARCITY:100]</nowiki></tt>
-| 范围：100到100,000
-|}
+! 注释|-| <tt><nowiki>[MINERAL_SCARCITY:<number>]</nowiki></tt>| <tt><nowiki>[MINERAL_SCARCITY:100]</nowiki></tt>| 范围：100到100,000|}
 
 === 最大巨兽洞穴 ===
 
@@ -577,31 +419,19 @@
 
 增加此值可能会导致文明的早期灭绝。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[MEGABEAST_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[MEGABEAST_CAP:75]</nowiki></tt>
-| 巨兽计入BEAST_END_YEAR计算。
-|}
+! 注释|-| <tt><nowiki>[MEGABEAST_CAP:<number>]</nowiki></tt>| <tt><nowiki>[MEGABEAST_CAP:75]</nowiki></tt>| 巨兽计入BEAST_END_YEAR计算。|}
 
 === 最大半巨兽洞穴 ===
 
 这是历史开始时放置的[[semi-megabeast|半巨兽]]数量。半巨兽是[[giant|巨人]]、[[ettin|双头巨人]]、[[minotaur|牛头人]]和[[cyclops|独眼巨人]]，它们以相等的比例放置[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415188#msg3415188 <sup>数据</sup>]。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SEMIMEGABEAST_CAP:<number>]</nowiki></tt>
-| <tt><nowiki>[SEMIMEGABEAST_CAP:150]</nowiki></tt>
-| 半巨兽不计入BEAST_END_YEAR计算。
-|}
+! 注释|-| <tt><nowiki>[SEMIMEGABEAST_CAP:<number>]</nowiki></tt>| <tt><nowiki>[SEMIMEGABEAST_CAP:150]</nowiki></tt>| 半巨兽不计入BEAST_END_YEAR计算。|}
 
 === 泰坦参数 ===
 
@@ -609,16 +439,10 @@
 
 这控制历史开始时存在的[[titan|泰坦]]数量[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415203#msg3415203 <sup>数据</sup>]。遗忘兽的数量不受此参数影响[http://www.bay12forums.com/smf/index.php?topic=112465.msg3415155#msg3415155 <sup>数据</sup>]。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[TITAN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[TITAN_NUMBER:33]</nowiki></tt>
-| 泰坦计入BEAST_END_YEAR计算。
-|}
+! 注释|-| <tt><nowiki>[TITAN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[TITAN_NUMBER:33]</nowiki></tt>| 泰坦计入BEAST_END_YEAR计算。|}
 
 ==== 攻击人口要求 ====
 
@@ -634,89 +458,53 @@
 
 一旦要塞的总财富达到这么多[[Currency|矮人币]]价值，泰坦就会开始攻击你的要塞。这发生时无论是否满足任何其他标准，如人口；因此，即使只有1个矮人，如果要塞至少值这个价值，要塞也可能被攻击。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:80:0:100000]</nowiki></tt>
-| 0 = 无（禁用）。只需满足一个要求即可发动攻击。
-|}
+! 注释|-| <tt><nowiki>[TITAN_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>| <tt><nowiki>[TITAN_ATTACK_TRIGGER:80:0:100000]</nowiki></tt>| 0 = 无（禁用）。只需满足一个要求即可发动攻击。|}
 
 === 恶魔类型数量 ===
 
 [[Demon|恶魔]]类似于[[titan|泰坦]]和[[forgotten beast|遗忘兽]]，它们是程序生成的，但大多数不是唯一的。因此，许多不同类型的恶魔可以存在，但大多数类型也会有许多个体。由于[[Underworld spire|某些有趣的事情]]，较少的恶魔类型也意味着较少的哥布林文明。{{cite forum|112465/7392706}}你至少需要2种恶魔类型，否则哥布林文明最初不会存在，尽管如果矮人在世界生成期间突破地下世界，至少会在那时生成一个。<!-- May be 1 per underworld region? -->
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[DEMON_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[DEMON_NUMBER:52]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[DEMON_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[DEMON_NUMBER:52]</nowiki></tt>| 0到1000|}
 
 === 夜巨魔类型数量 ===
 
 世界中将存在的不同[[night troll|夜巨魔]]的数量，也是程序生成的。将此设置为零意味着世界将没有夜巨魔，无论是自定义的还是其他的。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[NIGHT_TROLL_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[NIGHT_TROLL_NUMBER:77]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[NIGHT_TROLL_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[NIGHT_TROLL_NUMBER:77]</nowiki></tt>| 0到1000|}
 
 === 夜魔类型数量 ===
 世界中将存在的不同[[bogeyman|夜魔]]形态的数量。夜魔是程序生成的，尽管它们的形态变化不大。将此设置为零意味着世界将没有夜魔，无论是自定义的还是其他的。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[BOGEYMAN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[BOGEYMAN_NUMBER:27]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[BOGEYMAN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[BOGEYMAN_NUMBER:27]</nowiki></tt>| 0到1000|}
 
 === 梦魇类型数量 ===
 世界中将存在的不同[[nightmare|梦魇]]形态的数量。梦魇是程序生成的。将此设置为零意味着世界将没有梦魇，无论是自定义的还是其他的。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[NIGHTMARE_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[NIGHTMARE_NUMBER:27]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[NIGHTMARE_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[NIGHTMARE_NUMBER:27]</nowiki></tt>| 0到1000|}
 
 === 吸血鬼诅咒类型数量 ===
 
 世界中将存在的不同类型[[Vampire|吸血鬼]]的数量。虽然它们是在新世界开始时生成的，但它们彼此之间并无不同。将此设置为零意味着不会存在吸血鬼。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[VAMPIRE_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[VAMPIRE_NUMBER:72]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[VAMPIRE_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[VAMPIRE_NUMBER:72]</nowiki></tt>| 0到1000|}
 
 === 兽人参数 ===
 
@@ -726,16 +514,10 @@
 
 在原版中，只有82种可能的独特兽人物种。任何进一步的物种都将生成为兽团。{{bug|13308}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[WEREBEAST_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[WEREBEAST_NUMBER:58]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[WEREBEAST_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[WEREBEAST_NUMBER:58]</nowiki></tt>| 0到1000|}
 
 ==== 攻击人口要求 ====
 
@@ -748,16 +530,10 @@
 
 一旦要塞的总财富达到这么多[[Currency|矮人币]]价值，兽人就会开始攻击你的要塞。这发生时无论是否满足任何其他标准，如人口；因此，即使只有1个矮人，如果要塞至少值这个价值，要塞也可能被攻击。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>
-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:50:5000:50000]</nowiki></tt>
-| 0 = 无（禁用）。只需满足一个要求即可发动攻击。
-|}
+! 注释|-| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:<population>:<exp wealth>:<created wealth>]</nowiki></tt>| <tt><nowiki>[WEREBEAST_ATTACK_TRIGGER:50:5000:50000]</nowiki></tt>| 0 = 无（禁用）。只需满足一个要求即可发动攻击。|}
 
 === 秘密类型数量 ===
 
@@ -766,146 +542,72 @@
 拥有1个或1000个秘密之间的主要区别是你的世界根本拥有任何死灵法师塔楼的机会。使用1，这种机会很低。使用默认数字，这似乎是有保证的。
 即使只有1个秘密，如果你根本有任何死灵法师塔楼，很可能会在世界生成中迅速出现大量塔楼（尽管这不能保证）。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SECRET_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[SECRET_NUMBER:52]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[SECRET_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[SECRET_NUMBER:52]</nowiki></tt>| 0到1000|}
 
 === 区域交互类型数量 ===
 
 可在区域中引起的交互数量，可能包括邪恶雨和云类型。目前，只有邪恶区域交互以这种方式生成。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:20]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[REGIONAL_INTERACTION_NUMBER:20]</nowiki></tt>| 0到1000|}
 
 === 扰动交互类型数量 ===
 世界中可以存在的不同[[Mummy|受扰亡者]]的数量。将此设置为零应该可以防止任何木乃伊出现{{verify}}，但不会防止[[tomb|坟墓]]的创建。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:10]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[DISTURBANCE_INTERACTION_NUMBER:10]</nowiki></tt>| 0到1000|}
 
 === 邪恶云/邪恶雨类型数量 ===
 
 此数字指定你的世界中可能出现多少[[Weather#Evil weather|各种融脸、煮眼、僵尸化乐趣]]的纯邪恶云。将此设置为零意味着你将不再需要在该世界中处理逼近的末日尘墙。通常建议将此值保持较低...
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[EVIL_CLOUD_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[EVIL_CLOUD_NUMBER:45]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[EVIL_CLOUD_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[EVIL_CLOUD_NUMBER:45]</nowiki></tt>| 0到1000|}
 
 后者数字说明你的世界中可能出现多少种不同类型的绿色粘液淋浴、令人不安的血雨和病态的黄色粘液浴。然而，与邪恶云相比，这个通常不值得担心....将此设置为零意味着从天空落下的唯一半固态到全液态流体将是纯H2O。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[EVIL_RAIN_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[EVIL_RAIN_NUMBER:352]</nowiki></tt>
-| 0到1000
-|}
+! 注释|-| <tt><nowiki>[EVIL_RAIN_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[EVIL_RAIN_NUMBER:352]</nowiki></tt>| 0到1000|}
 
 === 生成神圣材料 ===
 这会打开或关闭[[Divine_metal|神圣金属]]的生成。不影响[[vault|金库]]的创建。可能决定使用占卜骰子是否生成武器。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[GENERATE_DIVINE_MATERIALS:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 生成神话材料 ===
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[GENERATE_MYTHICAL_MATERIALS:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 允许神话治疗 ===
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_MYTHICAL_HEALING:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 允许占卜、实验和死灵术类型 ===
 这些允许或禁止[[die|占卜]]、恶魔或死灵法师[[experiment|实验]]以及更高级的[[necromancer|死灵法师]]能力。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ALLOW_DIVINATION:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_DIVINATION:1]</nowiki></tt>
-| 1/0 = 是/否
-|-
-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:1]</nowiki></tt>
-| 1/0 = 是/否
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:1]</nowiki></tt>
-| 1/0 = 是/否
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:1]</nowiki></tt>
-| 1/0 = 是/否
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:1]</nowiki></tt>
-| 1/0 = 是/否
-|-
-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[ALLOW_DIVINATION:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_DIVINATION:1]</nowiki></tt>| 1/0 = 是/否|-| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_DEMONIC_EXPERIMENTS:1]</nowiki></tt>| 1/0 = 是/否|-| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_EXPERIMENTS:1]</nowiki></tt>| 1/0 = 是/否|-| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_LIEUTENANTS:1]</nowiki></tt>| 1/0 = 是/否|-| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_GHOULS:1]</nowiki></tt>| 1/0 = 是/否|-| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALLOW_NECROMANCER_SUMMONS:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 期望的善/恶方块数 ===
 
@@ -917,19 +619,10 @@
 
 请注意，邪恶生物群系的"邪恶程度"也受野蛮程度的影响。某些文明不能存在于善和/或恶方块中，因此太多的一种或另一种可能会限制某些类型文明的规模——例如矮人需要非对齐的生物群系。创建太多邪恶生物群系似乎会导致许多文明早期灭绝的危险。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[GOOD_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
-| <tt><nowiki>[GOOD_SQ_COUNTS:100:1000:2000]</nowiki></tt>
-| rowspan="2" | 将计数设置为零以禁用该区域大小。
-|-
-| <tt><nowiki>[EVIL_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>
-| <tt><nowiki>[EVIL_SQ_COUNTS:100:1000:2000]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[GOOD_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>| <tt><nowiki>[GOOD_SQ_COUNTS:100:1000:2000]</nowiki></tt>| rowspan="2" | 将计数设置为零以禁用该区域大小。|-| <tt><nowiki>[EVIL_SQ_COUNTS:<small region>:<med region>:<lg region>]</nowiki></tt>| <tt><nowiki>[EVIL_SQ_COUNTS:100:1000:2000]</nowiki></tt>|}
 
 === 最小生物群系方块数 ===
 
@@ -947,70 +640,13 @@
 
 各种生物群系的地形要求如下所述。{{Verify}}请注意，某些确切范围未知。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! rowspan="2" | 生物群系
-! colspan="4" | 地形要求
-|-
+! colspan="4" | 地形要求|-
 ! 海拔
 ! 降雨
 ! 温度
-! 排水
-|-
-| 沼泽/湿地
-| 100-299
-| 33-100
-| 非冰冻
-| 0-32
-|-
-| 沙漠/荒地
-| 100-299
-| 0-9
-| 非冰冻
-| 注释<sup>1</sup>
-|-
-| 森林
-| 100-299
-| 66-100
-| 非冰冻
-| 66-100
-|-
-| 山脉
-| 300-400
-| 不适用
-| 不适用
-| 不适用
-|-
-| 海洋
-| 0-99
-| 不适用
-| 不适用
-| 不适用
-|-
-| 冰川
-| 100-299
-| 不适用
-| 冰冻
-| 80(?)-100
-|-
-| 苔原
-| 100-299
-| 不适用
-| 冰冻
-| 0-66
-|-
-| 草原
-| 100-299
-| 0-66
-| 非冰冻
-| 0-66
-|-
-| 丘陵
-| 100-299
-| 0-66
-| 非冰冻
-| 66-100
-|}
+! 排水|-| 沼泽/湿地| 100-299| 33-100| 非冰冻| 0-32|-| 沙漠/荒地| 100-299| 0-9| 非冰冻| 注释<sup>1</sup>|-| 森林| 100-299| 66-100| 非冰冻| 66-100|-| 山脉| 300-400| 不适用| 不适用| 不适用|-| 海洋| 0-99| 不适用| 不适用| 不适用|-| 冰川| 100-299| 不适用| 冰冻| 80(?)-100|-| 苔原| 100-299| 不适用| 冰冻| 0-66|-| 草原| 100-299| 0-66| 非冰冻| 0-66|-| 丘陵| 100-299| 0-66| 非冰冻| 66-100|}
 注释<sup>1</sup> 排水：00-32沙漠，33-49岩石荒地，50-65岩石荒地但不同的字符/外观，66-100荒地
 
 ==== 最小初始方块数 ====
@@ -1021,26 +657,9 @@
 
 要确定地图上的方块数，只需将尺寸相乘即可。实际上，这些参数需要总和低于最大值，因为需要一些"松弛"空间。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 地图大小
-! 方块数
-|-
-| 17×17
-| 289
-|-
-| 33×33
-| 1089
-|-
-| 65×65
-| 4225
-|-
-| 129×129
-| 16614
-|-
-| 257×257
-| 66049
-|}
+! 方块数|-| 17×17| 289|-| 33×33| 1089|-| 65×65| 4225|-| 129×129| 16614|-| 257×257| 66049|}
 
 ==== 最小初始区域数 ====
 
@@ -1050,53 +669,18 @@
 
 在侵蚀和类似生成阶段完成后，必须存在这么多给定生物群系的区域。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
-! 示例
-|-
-| <tt><nowiki>[REGION_COUNTS:SWAMP:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:SWAMP:1032:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:DESERT:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:DESERT:1032:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:FOREST:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:FOREST:4128:13:12]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:8256:9:9]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:OCEAN:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:OCEAN:8256:7:6]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:GLACIER:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:GLACIER:0:0:0]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:TUNDRA:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:TUNDRA:0:0:0]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:8256:13:12]</nowiki></tt>
-|-
-| <tt><nowiki>[REGION_COUNTS:HILLS:<init sq>:<init rg>:<final rg>]</nowiki></tt>
-| <tt><nowiki>[REGION_COUNTS:HILLS:8256:13:12]</nowiki></tt>
-|}
+! 示例|-| <tt><nowiki>[REGION_COUNTS:SWAMP:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:SWAMP:1032:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:DESERT:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:DESERT:1032:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:FOREST:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:FOREST:4128:13:12]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:MOUNTAINS:8256:9:9]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:OCEAN:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:OCEAN:8256:7:6]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:GLACIER:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:GLACIER:0:0:0]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:TUNDRA:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:TUNDRA:0:0:0]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:GRASSLAND:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:GRASSLAND:8256:13:12]</nowiki></tt>|-| <tt><nowiki>[REGION_COUNTS:HILLS:<init sq>:<init rg>:<final rg>]</nowiki></tt>| <tt><nowiki>[REGION_COUNTS:HILLS:8256:13:12]</nowiki></tt>|}
 
 === 侵蚀周期数 ===
 
 告诉世界生成器在世界创建的"运行河流..."阶段，世界必须侵蚀其高峰到山坡多长时间。这个数字越高，世界越不崎岖，主要河流越宽。如果使用最大数字，你的山脉将在你眼前溶解成平原，如果没有足够的山脉用于河流起点和矮人文明起源点，这可能会导致拒绝。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[EROSION_CYCLE_COUNT:<number>]</nowiki></tt>
-| <tt><nowiki>[EROSION_CYCLE_COUNT:250]</nowiki></tt>
-| 范围：0到1000
-|}
+! 注释|-| <tt><nowiki>[EROSION_CYCLE_COUNT:<number>]</nowiki></tt>| <tt><nowiki>[EROSION_CYCLE_COUNT:250]</nowiki></tt>| 范围：0到1000|}
 
 === 最小/期望河流起点位置 ===
 
@@ -1104,16 +688,10 @@
 
 极高的侵蚀前值会大大加快侵蚀速度，而低的侵蚀后值对于限制由于缺乏河流起点而导致的拒绝很有用。可以尝试800值以获得更多湖泊。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[RIVER_MINS:<min pre-erosion>:<des post-erosion>]</nowiki></tt>
-| <tt><nowiki>[RIVER_MINS:200:400]</nowiki></tt>
-| 范围：0到800
-|}
+! 注释|-| <tt><nowiki>[RIVER_MINS:<min pre-erosion>:<des post-erosion>]</nowiki></tt>| <tt><nowiki>[RIVER_MINS:200:400]</nowiki></tt>| 范围：0到800|}
 
 === 定期侵蚀极端悬崖 ===
 
@@ -1121,16 +699,10 @@
 
 通常设置为是(1)。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:<1 or 0>]</nowiki></tt>| <tt><nowiki>[PERIODICALLY_ERODE_EXTREMES:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 进行地形降水和雨影 ===
 
@@ -1140,16 +712,10 @@
 
 如果你正在导入地图或使用具有天气的预设地图文件，应禁用此功能。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:<1 or 0>]</nowiki></tt>| <tt><nowiki>[OROGRAPHIC_PRECIPITATION:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 最大子区域数 ===
 
@@ -1161,32 +727,20 @@
 
 还有趣的是，最大子区域是5000，这超过了袖珍或小地图的总方块数。然而，对于中型或大型地图（16641或66049个方块），它很快就成为可能子区域总数的一小部分。实际上，在大地图上很容易最终出现太多子区域并获得此类型的无尽拒绝。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SUBREGION_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[SUBREGION_MAX:2750]</nowiki></tt>
-| 范围：1到5000
-|}
+! 注释|-| <tt><nowiki>[SUBREGION_MAX:<number>]</nowiki></tt>| <tt><nowiki>[SUBREGION_MAX:2750]</nowiki></tt>| 范围：1到5000|}
 
 === 洞穴参数 ===
 [[Caverns|洞穴]]是地下的空心区域，矮人在挖掘时往往会遇到。'''洞穴层数'''参数确定将生成多少洞穴系统，不包括岩浆层或底层。默认为三——将其设置为较低值可以帮助FPS。将其设置为2会将洞穴3物种合并到第二洞穴中，将其设置为1会将所有物种合并到一个洞穴中。然而，通过将其设置为0完全禁用它们将使无法种植任何地下植物，因为不会有任何植物供你的文明培育，也不会在出发时可用。
 
 *将洞穴设置为小于3的数字（剧透，突出显示查看）<span style='color:#f8f8f8;'>删除大约三分之一的HFS尖塔{{Bug|10267}}并防止深挖灾难。</span>此外，随机植物或动物物种可能更频繁地缺失。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CAVERN_LAYER_COUNT:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_COUNT:3]</nowiki></tt>
-| 范围：0到3
-|}
+! 注释|-| <tt><nowiki>[CAVERN_LAYER_COUNT:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_COUNT:3]</nowiki></tt>| 范围：0到3|}
 
 ==== 洞穴布局参数 ====
 
@@ -1207,19 +761,10 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 决定洞穴通道的大小。当通道密度（见下文）设置为最小值(0)时，洞穴将是开放的广阔区域。提高最大值将增加洞穴的大小。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:0]</nowiki></tt>
-| rowspan="2" | 范围：0到100
-|-
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:100]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MIN:0]</nowiki></tt>| rowspan="2" | 范围：0到100|-| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_OPENNESS_MAX:100]</nowiki></tt>|}
 
 ===== 层通道密度最小/最大 =====
 
@@ -1227,19 +772,10 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 洞穴在0时将是大的开放空间，在100时由许多小的垂直岩石竖井组成。将两个值设置为相同会导致洞穴外观统一。{{Verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:0]</nowiki></tt>
-| rowspan="2" | 范围：0到100
-|-
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:100]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MIN:0]</nowiki></tt>| rowspan="2" | 范围：0到100|-| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_PASSAGE_DENSITY_MAX:100]</nowiki></tt>|}
 
 ===== 层水最小/最大 =====
 
@@ -1247,19 +783,10 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 水位为10或更高的洞穴可以支持来自"地下水域"生物群系的生物和植物，水位为90或更低的洞穴可以支持"地下深渊"生物群系；10-90级支持''两种''生物群系，而低于10或高于90的级别仅支持一种。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:0]</nowiki></tt>
-| rowspan="2" | 范围：0到100
-|-
-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:100]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_WATER_MIN:0]</nowiki></tt>| rowspan="2" | 范围：0到100|-| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:<number>]</nowiki></tt>| <tt><nowiki>[CAVERN_LAYER_WATER_MAX:100]</nowiki></tt>|}
 
 ==== 岩浆层 ====
 
@@ -1267,14 +794,9 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 设置1/是会导致岩浆层存在，值0/否会阻止它。似乎对火山或火山活动没有任何影响，因此即使0/否，仍然会有带有岩浆的出发位置。如果存在[[volcano|火山]]，它似乎总是连接到岩浆海，但通过揭示火山不会揭示岩浆海。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
-! 示例
-|-
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:1]</nowiki></tt>
-|}
+! 示例|-| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:<1 or 0>]</nowiki></tt>| <tt><nowiki>[HAVE_BOTTOM_LAYER_1:1]</nowiki></tt>|}
 
 ==== 底层 ====
 
@@ -1282,14 +804,9 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 如果启用，这将强制其上方的岩浆层。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
-! 示例
-|-
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:1]</nowiki></tt>
-|}
+! 示例|-| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:<1 or 0>]</nowiki></tt>| <tt><nowiki>[HAVE_BOTTOM_LAYER_2:1]</nowiki></tt>|}
 
 === Z级（深度）设置 ===
 
@@ -1297,41 +814,11 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 下表假设你有3个洞穴层。（最少0-3个）上层设置控制每层上方有多少个Z级。一层本身可能由多个Z级组成（并且几乎总是如此）。
 
-{|style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable"
-|-style="background:#F2F2F2;text-align:center;"
+{|style="margin:1em 1em 1em 0;background:#F9F9F9;border:1px #AAA solid;border-collapse:collapse;" class="wikitable"|-style="background:#F2F2F2;text-align:center;"
 !style="border:1px #AAA solid;padding:0.2em;" width="120"|设置名称
 !style="border:1px #AAA solid;padding:0.2em;" width="200"|标记
-!style="border:1px #AAA solid;padding:0.2em;"| 描述
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 地上
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_GROUND:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 最高地表级上方的空气Z级数。<br />对地表层有多少个Z级深度没有影响。
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 层1上方
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_1:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 第一洞穴层上方的石头Z级。将此值设置得更高将保证''至少''那么多级别来建造你的要塞，但不会影响地表层有多少个z级厚度。此外，洞穴的顶部可能比洞穴的其余部分更高，因此实际上在洞穴上方会有比这更多的"固体"级别。
-截至0.31.25版本，此设置不准确。实际的z级数可能在大约±5的范围内变化，这可能导致地表层和第一洞穴层之间不存在任何固体z级。
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 层2上方
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_2:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 第二洞穴顶部和第一洞穴底部之间的泥土Z级。
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 层3上方
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_3:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 第三洞穴顶部和第二洞穴底部之间的泥土Z级。
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 层4上方
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_4:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 最高岩浆和第三洞穴底部之间的泥土Z级。<br />剧透隐藏（选择不可见文本阅读）：<span style='color:#eee;'>将此值设置得很高将为HFS矿脉提供大面积，使其永远不会接触洞穴，如果之前影响洞穴，则提供更多可开采的'''如果'''。</span>
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 层5上方
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_5:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 不确定。可能控制HFS和岩浆之间的"半熔岩"级别数，可能控制岩浆级别数，可能影响两者。<br />在实验中，所有岩浆海和半熔岩级别的总深度似乎增加了，但不够一致，无法确定。<br />仅在存在岩浆层时有效。<br />剧透隐藏：<span style='color:#eee;'>通常HFS矿脉只会延伸到最高岩浆一样高，使这成为增加可开采HFS量的唯一保证方法，但不幸的是也会创建巨大的无用半熔岩z级</span>
-|-
-|style="border:1px #AAA solid;padding:0.2em;"| 底部
-|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_AT_BOTTOM:<number>]</nowiki>
-|style="border:1px #AAA solid;padding:0.2em;"| 似乎是HFS室的级别数。仅在存在底层时有效，通常没有影响。大于默认值的值会导致奇怪的事情。
-|}
+!style="border:1px #AAA solid;padding:0.2em;"| 描述|-|style="border:1px #AAA solid;padding:0.2em;"| 地上|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_GROUND:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 最高地表级上方的空气Z级数。<br />对地表层有多少个Z级深度没有影响。|-|style="border:1px #AAA solid;padding:0.2em;"| 层1上方|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_1:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 第一洞穴层上方的石头Z级。将此值设置得更高将保证''至少''那么多级别来建造你的要塞，但不会影响地表层有多少个z级厚度。此外，洞穴的顶部可能比洞穴的其余部分更高，因此实际上在洞穴上方会有比这更多的"固体"级别。
+截至0.31.25版本，此设置不准确。实际的z级数可能在大约±5的范围内变化，这可能导致地表层和第一洞穴层之间不存在任何固体z级。|-|style="border:1px #AAA solid;padding:0.2em;"| 层2上方|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_2:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 第二洞穴顶部和第一洞穴底部之间的泥土Z级。|-|style="border:1px #AAA solid;padding:0.2em;"| 层3上方|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_3:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 第三洞穴顶部和第二洞穴底部之间的泥土Z级。|-|style="border:1px #AAA solid;padding:0.2em;"| 层4上方|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_4:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 最高岩浆和第三洞穴底部之间的泥土Z级。<br />剧透隐藏（选择不可见文本阅读）：<span style='color:#eee;'>将此值设置得很高将为HFS矿脉提供大面积，使其永远不会接触洞穴，如果之前影响洞穴，则提供更多可开采的'''如果'''。</span>|-|style="border:1px #AAA solid;padding:0.2em;"| 层5上方|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_ABOVE_LAYER_5:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 不确定。可能控制HFS和岩浆之间的"半熔岩"级别数，可能控制岩浆级别数，可能影响两者。<br />在实验中，所有岩浆海和半熔岩级别的总深度似乎增加了，但不够一致，无法确定。<br />仅在存在岩浆层时有效。<br />剧透隐藏：<span style='color:#eee;'>通常HFS矿脉只会延伸到最高岩浆一样高，使这成为增加可开采HFS量的唯一保证方法，但不幸的是也会创建巨大的无用半熔岩z级</span>|-|style="border:1px #AAA solid;padding:0.2em;"| 底部|style="border:1px #AAA solid;padding:0.2em;"| <nowiki>[LEVELS_AT_BOTTOM:<number>]</nowiki>|style="border:1px #AAA solid;padding:0.2em;"| 似乎是HFS室的级别数。仅在存在底层时有效，通常没有影响。大于默认值的值会导致奇怪的事情。|}
 
 一些影响：
 * 目前无法控制地表层（例如土壤）的数量。例如，在一个有1层泥炭、然后一层淤泥、然后一层黑曜石的地图上，没有控制让你增加其中任何一个到，比如说，20个z级。（尽管你可能幸运地得到黑曜石）。
@@ -1345,77 +832,41 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 === 最小/最大天然洞穴大小 ===
 目前尚不清楚这些有什么影响，只是更改它们可以在一定程度上改变洞穴的位置。{{verify}}
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[CAVE_MIN_SIZE:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVE_MIN_SIZE:5]</nowiki></tt>
-| rowspan="2" | 范围：1到500
-|-
-| <tt><nowiki>[CAVE_MAX_SIZE:<number>]</nowiki></tt>
-| <tt><nowiki>[CAVE_MAX_SIZE:25]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[CAVE_MIN_SIZE:<number>]</nowiki></tt>| <tt><nowiki>[CAVE_MIN_SIZE:5]</nowiki></tt>| rowspan="2" | 范围：1到500|-| <tt><nowiki>[CAVE_MAX_SIZE:<number>]</nowiki></tt>| <tt><nowiki>[CAVE_MAX_SIZE:25]</nowiki></tt>|}
 
 === 洞穴数量 ===
 在多山和非多山区域生成的洞穴数量，山地洞穴将始终在山脉边缘靠近非多山区域的地方生成。潜伏的[[kobold|狗头人]]在洞穴中建立据点，并在那里存储他们偷来的物品——在两者中设置为0将阻止狗头人文明出现。特别注意：洞穴最初不是[[lair|巢穴]]，尽管野兽以后可以将它们用作巢穴。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:100]</nowiki></tt>
-| rowspan="2" | 范围：0到800
-|-
-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>
-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:200]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[MOUNTAIN_CAVE_MIN:100]</nowiki></tt>| rowspan="2" | 范围：0到800|-| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:<number>]</nowiki></tt>| <tt><nowiki>[NON_MOUNTAIN_CAVE_MIN:200]</nowiki></tt>|}
 
 === 神话遗址数量 ===
 在世界各地生成的[[mysterious dungeon|神秘遗址]]数量。将此设置为0的扩展影响尚未确定{{verify|chosen是否仍然可用？任务是否仍然给出？等}}。
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[MYTHICAL_SITE_NUM:<number>]</nowiki></tt>
-| <tt><nowiki>[MYTHICAL_SITE_NUM:200]</nowiki></tt>
-| rowspan="2" | 范围：0到800
-|}
+! 注释|-| <tt><nowiki>[MYTHICAL_SITE_NUM:<number>]</nowiki></tt>| <tt><nowiki>[MYTHICAL_SITE_NUM:200]</nowiki></tt>| rowspan="2" | 范围：0到800|}
 
 === 使洞穴可见 ===
 如果设置为否（默认），则洞穴的位置不会在地图上标记。如果设置为是，洞穴将出现在地图上，以便可以根据需要寻找或避免它们。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ALL_CAVES_VISIBLE:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[ALL_CAVES_VISIBLE:0]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[ALL_CAVES_VISIBLE:<1 or 0>]</nowiki></tt>| <tt><nowiki>[ALL_CAVES_VISIBLE:0]</nowiki></tt>| 1/0 = 是/否|}
 
 === 允许初始化选项显示隧道 ===
 
 如果启用，你将能够在世界地图上看到矮人经常建造的地下隧道，它们将显示为黑线，类似于道路。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:<0-2>]</nowiki></tt>
-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:2]</nowiki></tt>
-| 0 = 否<br/>1 = 仅在查找器中<br/>2 = 始终
-|}
+! 注释|-| <tt><nowiki>[SHOW_EMBARK_TUNNEL:<0-2>]</nowiki></tt>| <tt><nowiki>[SHOW_EMBARK_TUNNEL:2]</nowiki></tt>| 0 = 否<br/>1 = 仅在查找器中<br/>2 = 始终|}
 
 === 文明数量 ===
 
@@ -1423,16 +874,10 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 请注意，这里的高值可能会导致大量地图拒绝，特别是在较小的地图上，因为根本没有足够的空间或区域来放置所有这些文明。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[TOTAL_CIV_NUMBER:<number>]</nowiki></tt>
-| <tt><nowiki>[TOTAL_CIV_NUMBER:40]</nowiki></tt>
-| 范围：0到300
-|}
+! 注释|-| <tt><nowiki>[TOTAL_CIV_NUMBER:<number>]</nowiki></tt>| <tt><nowiki>[TOTAL_CIV_NUMBER:40]</nowiki></tt>| 范围：0到300|}
 
 === 需要可玩文明 ===
 
@@ -1440,16 +885,10 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 如果设置为否，结果可能是一个无法在要塞模式下玩的世界。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:<1 or 0>]</nowiki></tt>
-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:1]</nowiki></tt>
-| 1/0 = 是/否
-|}
+! 注释|-| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:<1 or 0>]</nowiki></tt>| <tt><nowiki>[PLAYABLE_CIVILIZATION_REQUIRED:1]</nowiki></tt>| 1/0 = 是/否|}
 
 === 最小中/低/高特征方块数 ===
 
@@ -1457,29 +896,11 @@ File:Open50Density50.jpg|开放度为50且密度为50的洞穴切片
 
 除非随机生成至少给定数量的给定类型方块，否则这些值将导致世界被拒绝。将这些值设置得太高可能会导致世界总是被拒绝，如果诸如海拔等的最大/最小值等其他参数不允许生成足够多的这些方块。
 
-{| {{prettytable}}
-|- bgcolor="#dddddd"
+{| {{prettytable}}|- bgcolor="#dddddd"
 ! 标记
 ! 示例
-! 注释
-|-
-| <tt><nowiki>[ELEVATION_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[ELEVATION_RANGES:8256:16512:8256]</nowiki></tt>
-| rowspan="5" | 必须具有给定属性的低、中、高量的最小方块数。<br/>
-0 = 无最小值
-|-
-| <tt><nowiki>[RAIN_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[RAIN_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[DRAINAGE_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[DRAINAGE_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[SAVAGERY_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[SAVAGERY_RANGES:8256:16512:8256]</nowiki></tt>
-|-
-| <tt><nowiki>[VOLCANISM_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>
-| <tt><nowiki>[VOLCANISM_RANGES:8256:16512:8256]</nowiki></tt>
-|}
+! 注释|-| <tt><nowiki>[ELEVATION_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[ELEVATION_RANGES:8256:16512:8256]</nowiki></tt>| rowspan="5" | 必须具有给定属性的低、中、高量的最小方块数。<br/>
+0 = 无最小值|-| <tt><nowiki>[RAIN_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[RAIN_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[DRAINAGE_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[DRAINAGE_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[SAVAGERY_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[SAVAGERY_RANGES:8256:16512:8256]</nowiki></tt>|-| <tt><nowiki>[VOLCANISM_RANGES:<low sq>:<mid sq>:<high sq>]</nowiki></tt>| <tt><nowiki>[VOLCANISM_RANGES:8256:16512:8256]</nowiki></tt>|}
 
 ==世界拒绝==
 

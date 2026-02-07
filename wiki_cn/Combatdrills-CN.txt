@@ -1,0 +1,17 @@
+{{migrated article}}
+{{av}}
+{{Quality|Unrated}}
+属于[[squad|小队]]但当前未被命令进入"战斗模式"(''杀死{怪物}/驻扎{位置}'')的[[dwarf|矮人]]将在无事可做时"训练"。如果没有其他人一起训练,矮人将启动"个人战斗演习"。(个性中有"自我激励"的士兵在不活动时也经常启动个人战斗演习。)为了实现这一点,你必须有一个[[Barracks|兵营]]([[zone|区域]]从[[bed|床]]/[[cabinet|柜子]]划分)或军械库(从[[Weapon rack|武器架]]/[[Armor stand|盔甲架]]划分),并将其设置为"训练"模式(使用{{k|t}})。
+
+默认情况下,所有小队都设置为"活跃/训练"警报,在其中他们被分配训练[[calendar|整年]]。要更改此设置,进入[[Scheduling|警报]]屏幕({{k|m}} {{k|a}}),选择你想设置的新警报,然后使用右箭头切换到小队列表,并按{{k|enter}}更改高亮小队的警报。或者,你可以从游戏主菜单使用{{k|s}},然后通过其分配的字母选择你想编辑的小队,并重复按{{k|t}}在警报之间循环。
+
+在[[Squads#Equipping_Soldiers|装备]][[weapon|武器]]时,[[Shield user|盾牌使用]]和[[Dodging|闪避]]的练习将慢得多,如果有的话。如果你试图练习生存[[skills|技能]],暂时完全不用武器演习可能是个好主意。
+
+成功的对练将生成战斗日志[[reports|报告]],在主视图中显示新对练报告的{{Raw Tile|S|3:7:1}}标志(类似于狩猎报告)。
+
+如果你的军队只是站着做个人战斗演习,请仔细检查上述步骤,并确保你有一个设置为训练的兵营,你有训练时间表设置,并且小队被设置为在[[Scheduling|警报]]屏幕({{k|m}} {{k|a}})中遵循该时间表。
+
+{{Translation| dwarven = zoluth thosbut | elvish = moÿira ecefe | goblin = nur ruspzuz | human = thec arat}}
+
+{{Category|Military|Combat drills}}
+[[ru:Combat drills]]

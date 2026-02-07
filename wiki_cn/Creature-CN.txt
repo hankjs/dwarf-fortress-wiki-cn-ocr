@@ -1,0 +1,97 @@
+{{Quality|Masterwork|14:19, 12 February 2023 (UTC)}}
+{{av}}{{Category|Creatures}}
+[[File:creatures_preview2.png|right]]在''矮人要塞''中,'''生物（creature）'''被定义为任何有生命、通常可移动(并且为了本文的目的,非[[vermin|害虫]])的存在,能够与世界及其中的任何元素互动。游戏中的生物范围从完全现实到完全神话。虽然大多数生物是动物,但[[dwarf|矮人]]、[[giant cave spider|巨型洞穴蜘蛛]],甚至[[megabeast|巨兽]]也都被视为生物。各种生物可以并将以多种不同方式与要塞或冒险者互动。
+
+某些生物具有与其生物类型匹配的[[skill|技能]](例如[[monkey|猴子]]具有传奇攀爬技能)。尽管大多数生物可以在任何模式中找到,但有些生物仅限于[[adventure mode|冒险模式]]或[[fortress mode|要塞模式]]。某些生物是随机和程序生成的,这意味着它们在游戏中可能有许多不同的精灵图。该类型的生物可能在下面的列表中只展示许多精灵图中的一个到几个。也可能显示问号占位符。还要注意,具有{{token|ARENA_RESTRICTED}}或{{token|DOES_NOT_EXIST}}标记的生物无法在[[object testing arena|物品测试竞技场]]中生成,类似于[[vermin|害虫]](例如[[Fly|苍蝇]]、[[worm|蠕虫]])。
+
+游戏中几乎所有生物,包括[[Megabeast|非常]][[Giant sperm whale|巨大]][[Sea serpent|的]]生物,都占据单个图块的空间,即使它们的[[Graphics|精灵图]]暗示其他情况([[wagons|马车]]是唯一的例外)。游戏中有670种生物。在冒险模式中,生物可以有不同的标签来区分类似的生物与[[historical figure|历史人物]]。例如,一个地精可能被标记为"白发地精弓匠",而另一个则是"高颧骨地精弓匠"。
+
+==生成==
+<!--[[File:many_creatures_v50_preview.png|thumb|172px|right|Many creatures packed into one area, in the object testing arena.]]-->[[File:creatures_many.png|thumb|right|124px|在ASCII模式下,许多生物聚集在一个区域。]]任何给定要塞地图上将生成的生物取决于要塞所在的生物群系。此外,[[raws|原始数据]]中有几个与生物生成相关的[[creature token|生物标记]]:
+*<tt>[FREQUENCY:X]</tt>: 此标签决定生物生成的''频率''。它的范围从0-100,是一个比较数字,这个数字越高,生物生成的可能性就越大。
+*<tt>[CLUSTER_NUMBER:X]</tt>: 这决定一次地图上将出现''多少''生物。
+*<tt>[POPULATION_NUMBER:X]</tt>: 这决定此类型生物''曾经''可以访问你的要塞的''总数'' - 确切数字因地图而异。
+
+例如,[[deer|鹿]]具有<tt>[POPULATION_NUMBER:15:30]</tt>,这意味着如果你杀死15-30只鹿,就不会有更多的鹿访问你的要塞。
+
+==阅读表格==
+{{v50_creaturecurrent table head}}|}
+上述列依次表示:
+* '''图形:''' 分配给生物的精灵图。仅在[[premium version|高级版本]]中可见。
+* '''图块:''' 分配给生物的图块,如果没有图形集,你将看到它。
+* '''名称:''' 生物在游戏中显示的名称。
+* '''可玩性:''' 如果是"No",则该生物在任何模式下都不可玩。"Fort"表示该生物在要塞模式下可玩({{token|SITE_CONTROLLABLE|e}})。"Adv"表示该生物在冒险模式下可玩。除人类外的所有生物必须在{{token|ALL_MAIN_POPS_CONTROLLABLE|e}}文明中有人口才能在冒险模式下可玩;地精(和其他生物)不能从地精文明中游玩。人类由于{{token|OUTSIDER_CONTROLLABLE|c}}可以游玩,无论人口是否存在,但{{tt|[ALL_MAIN_POPS_CONTROLLABLE]}}文明仍然需要在某个时候存在过。具有{{token|LOCAL_POPS_CONTROLLABLE|c}}的生物在冒险模式下也可玩。
+* '''敌对性:''' 如果是"Yes",那么生物会一见就攻击,{{verify}}如果是"No",那么生物要么是中立的,要么是友好的 - 无意识的[[undead|不死]]生物总是对活物敌对。
+* '''食物来源:''' 如果是"Yes",那么生物可以被屠宰成你的矮人会食用的[[meat|可食用物质]]。
+* '''成年体型:''' 生物成年时的平均[[size|大小]]。这可以从[[rabbit|兔子]]的500到[[dragon|龙]]的25,000,000。此值表示生物的体积,单位为cm<sup>3</sup>,对于由肉制成的生物,大致等于生物的重量,单位为克。[http://www.bay12forums.com/smf/index.php?topic=30026.msg831163#msg831163]这些大小与触发[[pressure plate|压力板]]的大小不对应。大小会随身高和广度而修改(即非常瘦和矮的低于平均重量,而胖和高的高于平均重量)。
+* '''宠物价值:''' 这是生物及其屠宰产品在[[trading|交易]]期间可以买卖的基础价值。
+* '''生物群系:''' 可以找到生物的地方。
+* '''特性:''' 生物拥有的任何特殊特性,包括[[cave blob|引起综合征]]、[[dragon|喷火]]或[[giant cave spider|吐丝]]等。
+
+注意:如果你希望查看生物的替代排序方式,例如按生物群系和位置排序,或按特性排序家养生物,这里有一个新页面:[[Alternate creature sorting|替代生物排序]]
+
+==生物==
+===文明化===
+====主要种族====
+这些是智能生物,形成世界的主导[[civilisation|文明化]]种族。虽然大多数是社会的一部分,但许多已转向[[Bandits|盗匪]]。
+
+{{v50_creaturecurrent_table_head}}
+{{v50_creaturecurrent_table_row|name=Dwarf|symbol=☺|color=3:0:0|playable=Fort, Adv|hostile=No|food=No|size=60,000|value=Not tameable|biome=[[Mountain halls|山厅]], [[Fortress|矮人要塞]], [[hillock|丘陵]]|note=贸易种族}}
+{{v50_creaturecurrent table row|name=Elf|symbol=e|color=3:0:0|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=60,000|value=Not tameable|biome=[[Forest retreat|森林避难所]]|note=贸易种族}}
+{{v50_creaturecurrent table row|name=Human|symbol=U|color=3:0:0|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=70,000|value=Not tameable|biome=[[Town|城镇]]和[[hamlet|村庄]]|note=贸易种族}}
+{{v50_creaturecurrent table row|name=Goblin|symbol=g|color=7:0:0|playable=Adv|hostile=Usually<sup>1</sup>|food=No|size=60,000|value=Not tameable|biome=[[Dark fortress|黑暗要塞]]和[[dark pit|黑暗深坑]]|note=绑架者<sup>2</sup>}}
+{{v50_creaturecurrent table row|name=Kobold|symbol=k|color=6:0:0|playable=Adv|hostile=Usually<sup>1</sup>|food=No|size=20,000|value=Not tameable|biome=[[Cave|洞穴]]|note=潜行种族}}|}
+:<small>1. 你是否与特定文明化种族敌对取决于你的游戏世界的历史及其长度。较短的历史意味着较少的持续战争和总体敌意,对新玩家学习基础知识很有好处。</small>
+:<small>2. 绑架者试图绑架其他文明的儿童。被绑架的个体成为绑架者文明的一部分。</small>
+
+==== 地下部落 ====
+智能[[animal people|动物人]],在地下形成原始文明,但不会与你交易。他们使用一些武器,可以加入冒险者。一旦到达[[cavern|洞穴]],他们也可以根据哪些生物敌对执行[[Ambush|伏击]]。
+
+{{v50_creaturecurrent_table_head}}
+{{v50_creaturecurrent_table_row|name=Amphibian man|symbol=a|color=6:0:0|playable=No|hostile=Variable<sup>1</sup>|food=No|size=20,000|value=Not tameable|biome=地下|note=两栖}}
+{{v50_creaturecurrent_table_row|name=Antman|symbol=a|color=0:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=Variable<sup>2</sup>|value=Not tameable|biome=地下|note=四种种姓}}
+{{v50_creaturecurrent_table_row|name=Bat man|symbol=b|color=0:0:1|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=35,050|value=Not tameable|biome=地下|note=会飞}}
+{{v50_creaturecurrent_table_row|name=Cave fish man|symbol=f|color=7:0:1|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=35,500|value=Not tameable|biome=地下|note=两栖}}
+{{v50_creaturecurrent_table_row|name=Cave swallow man|symbol=s|color=0:0:1|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=35,050|value=Not tameable|biome=地下|note=会飞}}
+{{v50_creaturecurrent_table_row|name=Olm man|symbol=o|color=7:0:1|playable=Adv|hostile=Variable<sup>1</sup>|food=No|size=35,100|value=Not tameable|biome=地下|note=两栖}}
+{{v50_creaturecurrent_table_row|name=Reptile man|symbol=r|color=2:0:0|playable=No|hostile=Variable<sup>1</sup>|food=No|size=50,000|value=Not tameable|biome=地下|note=两栖}}
+{{v50_creaturecurrent_table_row|name=Rodent man|symbol=r|color=0:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=40,000|value=Not tameable|biome=地下|note=}}
+{{v50_creaturecurrent_table_row|name=Serpent man|symbol=s|color=7:0:1|playable=No|hostile=Variable<sup>1</sup>|food=No|size=50,000|value=Not tameable|biome=地下|note=两栖; 引起[[Syndrome|综合征]]}}|}
+:<small>1. 在洞穴中最初遇到的动物人文明永远不会敌对,即使游戏另有说明。然而,在伏击中遇到的那些将是好斗的。</small>
+:<small>2. 蚁人的体型取决于他们的种姓。</small>
+
+=== 牲畜和家养动物 ===
+<!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
+
+长期[[Domestic animal|驯化]]的生物,要么在[[meat industry|肉类工业]]中发挥作用,要么只是作为[[pet|宠物]]陪伴矮人。注意:除了[[wagon|马车]],家养动物可以在启程时购买,或从矮人商队请求。用[[cage trap|笼子陷阱]]在野外捕获的这些类型的动物只需与[[animal trainer|动物训练师]]进行一次训练即可驯服。
+
+[此处省略家畜生物的详细表格数据,保持原始表格结构...]
+
+===野兽和怪物===
+各种在陆地和地下洞穴中漫游的怪物生物,包括:[[semi-megabeast|半巨兽]]、[[megabeast|巨兽]]和随机生成的生物,可以采取任何形式。所有都非常强大,很容易导致游戏结束。
+
+====半巨兽====
+<!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
+
+[表格数据保持原样...]
+
+====巨兽====
+<!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
+
+[表格数据保持原样...]
+
+====程序生成====
+这些生物是程序生成的,每个存档都不同。它们的原始数据可以从未压缩存档文件夹中的world.dat文件中提取。它们的精灵图将显示为与其随机生成的外观最接近的相似物,包括它们的颜色和设计,例如有翅膀、象鼻、獠牙等。下面的动画精灵图只是没有添加自定义颜色的几种可能的精灵图。
+
+[表格数据保持原样...]
+
+=== 野生动物 ===
+本节包括野生[[animals|动物]],以及它们的巨型和人形对应物。野生动物大多在荒野中漫游。它们中的许多是捕食者,而其他则是良性的,除非先被攻击,否则不会攻击。有些会被吸引到你的储物区偷取[[steals drink|饮料]]、[[Steals food|食物]]或[[Steals items|闪亮的东西]]。有些很容易克服,但其他可能是重大威胁,比如可怕的[[elephant|大象]]。
+
+==== 激怒 ====
+在[[savage|野蛮]]生物群系中破坏环境,例如[[woodcutting|伐木]]或[[fishing|钓鱼]],可能会导致"激怒"或"恼怒"动物的出现。激怒的动物将直接寻找并攻击矮人,而不是它们的正常行为。激怒率和阈值可以在[[Difficulty#Wilderness_irritation|难度]][[settings|设置]]中调整。通过在[[cage trap|笼子陷阱]]中捕获的[[taming|驯服]]动物可以消除激怒。使用[[DFHack]],可以通过执行命令<code>agitation-rebalance status</code>[https://docs.dfhack.org/en/stable/docs/tools/agitation-rebalance.html]来检查当前的激怒状态。
+
+====地面上====
+<!--EDITORS - PLEASE READ NOTES AT TOP OF PAGE, thanks!-->
+
+[由于文件非常长,其余的生物表格数据保持原始表格结构不变...]

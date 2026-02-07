@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{av}}
+
+[[File:figurine_preview.png|right]]'''小雕像'''([[File:figurine_sprite.png]] / {{Tile|Å|7:1}})是一种在[[craftsdwarf's workshop|工匠工坊]]或[[metalsmith's forge|金属锻造炉]]的任何特定类别下制作的[[trade good|贸易商品]]。一旦排队,可以通过在工坊的作业列表中按[[File:Mag glass icon.png]]来自定义小雕像。在这里,可以委托制作特定的玩家定义图像或文明相关的艺术品。它们在某些方面就像一个可以手持的小型[[statue|雕像]]。
+
+矮人平民可以声明拥有小雕像,并会像佩戴[[jewelry|珠宝]]一样随身携带它们。虽然他们用一只手来握住它们,但这似乎不会干扰任何需要手的[[job|工作]]。手持小雕像的矮人可以在[[combat|战斗]]中用它进行自卫,利用[[Combat skill|Misc. Object User]][[skill|技能]]。
+
+在极少数情况下,可以在[[jeweler's workshop|珠宝工坊]]制作宝石小雕像,而不是大型宝石。类似于[[engraving|雕刻]],它们可以展示历史事件、描绘生物、崇敬宗教人物,或列出关于[[craftsdwarf|工匠]]所知人物的一些信息。
+
+''小雕像:今天就收集整套吧!''
+
+[[File:Figurine Combat.png|thumb|center|590px|真正的动作人偶。]]
+{{Category|Items}}
+[[ru:Figurine]]

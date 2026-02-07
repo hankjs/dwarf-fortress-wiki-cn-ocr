@@ -1,14 +1,11 @@
 
 {{Quality|Exceptional}}
 {{av}}
-{{Noble
-| noble=Broker
-| function=
+{{Noble| noble=Broker| function=
 * 在贸易站评估物品价值
 * 显示物品[[value|价值]]
 * 在[[status|状态]]弹出窗口上<br>显示要塞[[wealth|财富]]
-* 报告[[wealth|财富]]以吸引[[Immigration|移民]]
-|arrival=在[[nobles screen|贵族界面]]上任命。}}
+* 报告[[wealth|财富]]以吸引[[Immigration|移民]]|arrival=在[[nobles screen|贵族界面]]上任命。}}
 '''经纪人'''是一个有用的[[noble|贵族]],没有[[demand|要求]]或[[Noble#Needs|需求]]。经纪人在管理有组织的要塞方面有几项职责。
 
 通过{{menu icon|n}}贵族界面任命一个具有[[appraiser|鉴定师]]技能的经纪人后,你可以在将鼠标悬停在要塞UI左上角的文明名称上时,在[[status|状态]]弹出窗口中看到要塞[[wealth|财富]]和贸易信息。(这种显示的准确性由[[bookkeeper|簿记员]]的职责决定。)你的经纪人的鉴定师技能也用于确定是否显示物品价值,一般情况下以及在[[trade depot|贸易站]]。
@@ -22,22 +19,7 @@
 
 ==相关技能==
 在社交技能中,粗体字的会改变经纪人的效果(并通过贸易训练),其他的则不会:
-{| class="wikitable"
-| '''[[Judge of intent|意图判断]]'''
-| '''[[Liar|说谎者]]'''
-| 健谈者
-| '''[[Intimidator|威吓者]]'''
-|-
-| '''[[Appraiser|鉴定师]]'''
-| '''[[Comedian|喜剧演员]]'''
-| '''[[Persuader|说服者]]'''
-| 安抚者
-|-
-| '''[[Negotiator|谈判者]]'''
-| '''[[Flatterer|奉承者]]'''
-| 安慰者
-|
-|}
+{| class="wikitable"| '''[[Judge of intent|意图判断]]'''| '''[[Liar|说谎者]]'''| 健谈者| '''[[Intimidator|威吓者]]'''|-| '''[[Appraiser|鉴定师]]'''| '''[[Comedian|喜剧演员]]'''| '''[[Persuader|说服者]]'''| 安抚者|-| '''[[Negotiator|谈判者]]'''| '''[[Flatterer|奉承者]]'''| 安慰者||}
 
 在选择经纪人时,上述所有技能都会显示为相关,但并非全部都是。粗体字的技能会改变商人对你行动的响应方式,例如提出还价或接受报价,而利润率尚未变绿。
 

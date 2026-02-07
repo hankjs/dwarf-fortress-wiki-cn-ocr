@@ -1,0 +1,227 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+'''家具工业'''涉及[[furniture|家具]]的创建和处置，家具是存储在[[stockpile|家具储物堆]]中的任何物品。家具可以由非常广泛的材料制成：[[wood|木材]]、[[stone|石头]]、[[metal|金属]]、[[glass|玻璃]]，以及用于袋子的[[cloth|布料]]或[[leather|皮革]]（[[artifact|神器]]家具可能由不寻常的材料制成，如[[bone|骨头]]）。各种各样的选项起初可能会让许多玩家感到困惑和畏惧，但随着时间的推移，您会欣赏这种方法为游戏带来的巨大灵活性和潜力，无论是在美学还是实用目的方面。许多玩家受到启发，采取[[stupid dwarf trick|新颖方法]]来放置和[[mega construction|设计]]要塞。
+
+所有家具都有[[item value|基础价值]]，由其物品类型（[[bed|床]]、[[barrel|木桶]]、[[anvil|铁砧]]等）决定，该价值乘以其'''材料乘数'''（[[silver|银]]、[[orthoclase|正长石]]、[[glumprong|格伦普隆]]等）和其'''质量修正值'''（精良、卓越等）来确定其'''最终价值'''（家具上的任何'''装饰'''单独计算并添加到最终价值中）。所有家具都有材料乘数和质量修正值。质量取决于完成建造家具[[job|工作]]的矮人的相对[[skill|技能]]：[[experience|技能高超]]的矮人将生产更高质量的家具，增加您要塞的[[wealth|财富]]。[[zone|房间]]中家具的数量和价值决定了房间的价值；对于空间有问题的要塞，拥有更有价值家具的较小房间可能更有用于满足[[noble|贵族]]的要求。
+
+为了便于参考，家具工业按基本材料（[[wood|木材]]、[[stone|石头]]等）分解讨论，然后按[[workshop|工坊]]分类。
+
+==木制家具==
+:''另见：[[Wood industry|木材工业]]''
+[[Wood|木制]]家具相对较轻，比石头、金属或玻璃制成的家具更容易损坏，因为木材既[[fire|可燃]]，在[[barrel|木桶]]的情况下，也容易受到[[vermin|害虫]]的侵害。木材的巨大优势在于其易于获取性以及[[tree|树木]]随时间再生的趋势，使木材成为易于再生的资源。在要塞生命的早期，在[[metal industry|金属]]或[[glass industry|玻璃]]工业启动和运行之前，木材是制作[[barrel|木桶]]的唯一可用材料，木桶是[[food|食物]]和[[booze|酒]]的必需存储设备。除了某些[[artifact|神器]]，木材仍然是可以制成[[bed|床]]或[[siege engine|攻城器械]]的唯一材料。
+
+对于大多数目的，不同类型的木材是可互换的。然而，某些异国木材具有使其更适合或不太适合不同类型家具的特性。例如，[[feather tree|羽树]]木是游戏中最轻的木材，非常适合需要经常移动的家具，如[[bucket|桶]] - 但它是游戏中制作[[ballista arrow|弩箭]]最差的木材，因为弩箭伤害由[[weight|重量]]决定。理想情况下，弩箭应该由游戏中最重的木材制成：[[glumprong|格伦普隆]]或[[blood thorn|血荆]]。
+
+大多数木材是棕色的，生产棕色家具。然而，异国木材可用于制作红色（[[goblin-cap|哥布林帽]]）、深红色（[[blood thorn|血荆]]）、白色（[[tower-cap|塔帽]]、[[feather tree|羽树]]）、黄色（[[fungiwood|真菌木]]）、青色（[[spore tree|孢子树]]）、靛蓝色（[[nether-cap|下界帽]]）、黑色（[[black-cap|黑帽]]）、紫色（[[glumprong|格伦普隆]]）或紫罗兰色（[[tunnel tube|隧道管]]）木制家具。
+
+===木匠工坊===
+[[carpenter's workshop|木匠工坊]]用于制作大多数木制家具，并需要启用[[carpentry|木工]]劳动的矮人。消耗一根[[log|原木]]来制作每件木制家具。以下家具可以在木匠工坊制作：[[armor stand|盔甲架]]、[[barrel|木桶]]、[[bed|床]]、[[bin|箱子]]、[[bucket|桶]]、[[cabinet|柜子]]、[[casket|棺材]]、[[door|门]]、[[floodgate|水闸]]、[[grate|格栅]]、[[hatch cover|舱门盖]]、[[table|桌子]]、[[throne|王座]]、[[weapon rack|武器架]]。
+
+===攻城工坊===
+[[siege workshop|攻城工坊]]用于生产[[siege engine|投石机部件]]、[[siege engine|弩车部件]]和[[ballista arrow|弩箭]]，并需要启用[[siege engineer|攻城工程师]]劳动的矮人。消耗一根[[log|原木]]来制作攻城器械部件或一支弩箭。
+
+==石制家具==
+:''另见：[[Stone industry|石头工业]]''
+[[Stone|石制]]家具与[[wood|木材]]相比又重又耐用，可用于制作大多数家具物品，而且在大多数地图上通过[[mining|采矿]]可获得大量粗糙石头，使其成为大多数矮人要塞的主要家具材料。它不如[[metal|金属]]或[[glass|玻璃]]多功能，但也不消耗[[fuel|燃料]]来制作一件家具。
+
+一些石头，特别是[[graphite|石墨]]，非常[[fire|可燃]]，由此类材料制成的任何家具都不应位于[[magma|岩浆]]、[[fire snake|火蛇]]、[[fire imp|火焰小鬼]]、[[dragon|龙]]或任何其他[[fire|火焰]]源附近。其他石头被指定为[[magma-safe|岩浆安全]]，由此类材料制成的家具也将是[[fire-safe|防火]]的。
+
+特别有价值的[[economic stone|经济石]]被指定为禁止[[mason|石匠]]等用于制作石制家具或工艺品的一般用途，保留给[[furnace|熔炉]]。然而，在某些情况下，可能需要或必要从经济石制作家具。贵族可能要求在他们的房间放置[[native silver|天然银]][[table|桌子]]，或者其他岩浆安全材料用尽时，可能需要[[bauxite|铝土矿]][[floodgate|水闸]]来控制岩浆流。[[Native gold|天然金]]是一个特殊情况，其中[[ore|矿石]]具有与[[gold|金属金]]相同的[[material value|材料价值]]，直接从天然金制作家具可以节省时间和[[fuel|燃料]]（尽管总价值减少25%）。无论如何，如果您确实希望在家具中使用经济石，您必须从劳动菜单{{menu icon|y}}中的[[Labor#Stone use|石头使用选项卡]]执行此操作。
+
+建议您在[[workshop|工坊]]附近创建一个或多个石头[[stockpile|储物堆]]，以最小化两者之间的距离；矮人在完成制作石制家具的[[job|工作]]时通常会抓取离工坊最近的粗糙石头（没有[[wheelbarrow|独轮车]]的好处）。您还可以将特定的石头储物堆链接到工坊，以确保您的矮人从该储物堆中抓取石头，并防止其他矮人使用它。
+
+===石工工坊===
+[[Stoneworker's workshop|石工工坊]]用于制作大多数石制家具，并需要启用[[masonry|石工]]劳动的矮人。制作每件石制家具消耗一单位粗糙[[stone|石头]]。以下家具可以在石工工坊制作：[[armor stand|盔甲架]]、[[cabinet|柜子]]、[[chair|椅子]]、[[chest|箱子]]、[[coffin|棺材]]、[[door|门]]、[[floodgate|水闸]]、[[grate|格栅]]、[[hatch cover|舱门盖]]、[[millstone|磨石]]、[[quern|手磨]]、[[statue|雕像]]、[[table|桌子]]、[[weapon rack|武器架]]、[[slab|石板]]。
+
+===机械师工坊===
+[[mechanic's workshop|机械师工坊]]用于制作[[mechanism|机械装置]]和[[traction bench|牵引床]]，并需要启用[[mechanic|机械师]]劳动的矮人。制作每个机械装置消耗一单位粗糙石头。将用于[[magma|岩浆]][[floodgate|水闸]]等的机械装置应由[[magma-safe|岩浆安全]]材料制成。
+
+==金属家具==
+:''另见：[[Metal industry|金属工业]]''
+[[Metal|金属]]家具比[[stone|石头]]更耐用，可用于制作更广泛的家具。制作金属家具不仅需要金属[[bar|条]]，还需要熔炉的[[fuel|燃料]]或[[magma|岩浆]]。由[[adamantine|精金]]、[[platinum|铂]]、[[aluminum|铝]]、[[gold|金]]和[[steel|钢]]制成的金属家具是游戏中最[[item value|有价值]]的，仅基于材料乘数（质量修正值和[[decoration|装饰]]会有所不同）。由金属制成的[[Barrel|木桶]]，即使是低价值金属如[[nickel|镍]]或[[lead|铅]]，在防止[[vermin|害虫]][[wear|啃咬]]食物供应方面也明显更有效。
+
+熔点低的金属，如[[copper|铜]]及其[[alloy|合金]]，不是[[magma-safe|岩浆安全]]的，不应用于制作会接触[[magma|岩浆]]的家具。
+
+与木材或石头一样，您可以指定用于制作金属家具物品的精确金属类型，尽管对于金属，它是在创建任务时选择的，而不是之后。调整[[manager|工坊配置文件]]以将某些工坊及其相关任务限制给您最有[[experience|经验]]的[[blacksmith|铁匠]]，并在尝试创建高价值家具之前安排使用低价值金属进行练习，这可能仍然是个好主意。此外，对特定金属或家具类型有[[preference|偏好]]的铁匠在使用该金属或创建该类型家具时会产生更高质量的结果。
+
+===金属工匠熔炉===
+[[metalsmith's forge|金属工匠熔炉]]和[[magma forge|岩浆熔炉]]用于制作所有金属家具，并需要启用[[blacksmith|铁匠]]劳动的矮人。制作大多数金属家具物品消耗三条指定[[metal|金属]]的[[bar|条]]；金属工匠熔炉每个[[job|工作]]还将消耗一单位[[fuel|燃料]]。以下家具可以在熔炉中用任何金属制成：[[armor stand|盔甲架]]、[[barrel|木桶]]、[[bin|箱子]]、[[bucket|桶]]、[[cabinet|柜子]]、[[chest|箱子]]、[[door|门]]、[[floodgate|水闸]]、[[grate|格栅]]、[[hatch cover|舱门盖]]、[[coffin|石棺]]、[[statue|雕像]]、[[table|桌子]]、[[throne|王座]]、[[weapon rack|武器架]]。
+
+[[Copper|铜]]、[[silver|银]]、[[bronze|青铜]]、[[bismuth bronze|铋青铜]]、[[iron|铁]]、[[steel|钢]]和[[adamantine|精金]]可以制成[[mechanism|机械装置]]；此选项位于"陷阱组件"选项下。
+
+[[Iron|铁]]、[[steel|钢]]和[[adamantine|精金]]可以制成[[anvil|铁砧]]；此选项位于"其他物品"选项下。
+
+尽管在熔炉的家具下列出，[[chain|链条]]、[[animal trap|动物陷阱]]、[[cage|笼子]]、[[pipe section|管道部分]]、[[splint|夹板]]、[[crutch|拐杖]]和[[block|方块]]''不是''家具。它们不需要铁匠劳动来创建，并且创建后不会进入家具[[stockpile|储物堆]]。
+
+==玻璃家具==
+:''另见：[[Glass industry|玻璃工业]]''
+[[Glass|玻璃]]家具在大多数方面与[[stone|石头]]家具相当，但具有比普通石头更高的[[value|材料乘数]]（[[economic stone|经济石]]完全是另一回事）。制作玻璃家具不仅需要[[sand|沙子]]，还需要[[fuel|燃料]]或[[magma|岩浆]]。然而，[[magma glass furnace|岩浆玻璃熔炉]]和沙层可以无限量生产[[green glass|绿色玻璃]]家具，而不消耗任何材料。
+
+玻璃是[[magma-safe|岩浆安全]]的，玻璃家具可以与[[magma|岩浆]]接触放置。由于一旦您可以使用岩浆它基本上是免费的，这在规划大型项目时非常有用。
+
+===玻璃熔炉===
+[[glass furnace|玻璃熔炉]]和[[magma glass furnace|岩浆玻璃熔炉]]用于制作所有玻璃家具，并需要启用[[glassmaker|玻璃工]]劳动的矮人。制作每件绿色玻璃家具消耗一单位[[sand|沙子]]，而透明玻璃消耗沙子和[[pearlash|珍珠灰]]，水晶玻璃消耗[[rock crystal|水晶石]]和珍珠灰；玻璃熔炉每个工作还将消耗一单位[[fuel|燃料]]。以下家具可以在熔炉中用任何玻璃制成：[[armor stand|盔甲架]]、[[box|盒子]]、[[cabinet|柜子]]、[[coffin|棺材]]、[[floodgate|水闸]]、[[grate|格栅]]、[[hatch cover|舱门盖]]、[[door|入口]]、[[statue|雕像]]、[[table|桌子]]、[[throne|王座]]、[[weapon rack|武器架]]、[[window|窗户]]。
+
+==布料家具==
+:''另见：[[Textile industry|纺织工业]]''
+[[Cloth|布料]][[bag|袋子]]被算作家具，通常会存放在家具[[stockpile|储物堆]]中{{verify}}，除非它们用作[[seed|种子]]、[[flour|面粉]]等的[[Storage|容器]]。[[Giant cave spider|巨型洞穴蜘蛛]]丝绸布料是游戏中最有价值的，指定一个特殊的[[stockpile|储物堆]]和[[workshop|工坊]]来处理它可能是明智的，[[manager|限制]]给您最高技能的布料工以确保更高的[[value|质量修正值]]。
+
+===裁缝店===
+[[clothier's shop|裁缝店]]用于制作布料袋子，并需要启用[[clothesmaking|制衣]]劳动的矮人。制作每个袋子将消耗一单位指定的布料（[[silk|丝绸]]、[[yarn|毛线]]或[[plant|植物]]）。
+
+==皮革家具==
+:''另见：[[Meat industry|肉类工业]]''
+[[Leather|皮革]][[bag|袋子]]被算作家具，通常会存放在家具[[stockpile|储物堆]]中，除非它们用作[[seed|种子]]、[[flour|面粉]]等的[[Storage|容器]]。您无法指定用于制作袋子的特定皮革类型，来自稀有和危险生物的皮革可能特别[[value|有价值]]，因此指定一个特殊的[[stockpile|储物堆]]和[[workshop|工坊]]来处理它可能是明智的，[[manager|限制]]给您最高技能的皮革工以确保更高的[[value|质量修正值]]。
+
+[[Giant cave spider|巨型洞穴蜘蛛]]和[[giant desert scorpion|巨型沙漠蝎子]]给出[[chitin|甲壳素]]而不是皮革，并且不能制成袋子。
+
+[[Dragon|龙]]和[[fire imp|火焰小鬼]]皮革似乎是[[magma-safe|岩浆安全]]的，由它们制成的任何袋子也应该是岩浆安全的。如果这样的物品卡在，比如说，一个让[[magma|岩浆]]洪流通过的[[floodgate|水闸]]中，这可能是件坏事。
+
+===皮革作坊===
+[[leather works|皮革作坊]]用于制作皮革袋子，并需要启用[[leatherworking|皮革加工]]劳动的矮人。制作每个袋子将消耗一单位皮革。
+
+==装饰家具==
+家具可以用许多不同的材料[[decorate|装饰]]，以提高其[[value|价值]]，记录要塞的历史，并让矮人从观看它们中获得快乐[[thought|想法]]。家具只有在储物堆中时才会被装饰，而不是在当前使用时。要确保给定的家具得到装饰，请在[[workshop|工坊]]附近为家具指定一个特殊的[[stockpile|储物堆]]并将其链接到工坊（确保矮人仍然可以通过链接该储物堆来访问装饰的原材料）。
+
+==买卖家具==
+家具通常很重，会减少您在[[caravan|商队]]到达时可以[[trade|交易]]的数量；由有价值材料制成的精心制作和装饰的家具会为您的[[currency|矮人币]]带来更多收益。交易[[booze|酒]]、[[leather|皮革]]、[[cloth|布料]]、[[flour|面粉]]等通常会导致在[[barrel|木桶]]、[[bag|袋子]]和[[bin|箱子]]中进行一定数量的交换。注意与[[elves|精灵]]交易任何来自[[wood|木材]]的家具，因为这可能引发[[war|战争]]。矮人和[[human|人类]]商队偶尔会携带[[anvil|铁砧]]。
+
+==工业概览==
+{| style="border-spacing: 0; width: 49em"|-
+
+{{Industry Block|industry=Wood industry
+  |background=#fff|}}
+
+{{Industry Block|industry=Metal industry
+  |background=#fff|}}
+
+{{Industry Block|industry=Stone industry
+  |background=#fff|}}
+
+{{Industry Block|industry=Glass industry
+  |background=#fff|}}
+|-
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+|-
+
+{{Extended Item Block|title=木制家具
+  |background=#000|
+  |÷|#000|#770|π|#770|#000|÷|#000|#770|X|#000|#770|
+  |÷|#000|#770|╤|#770|#000|X|#000|#770|û|#770|#000|}}
+
+{{Item Block|title=金属家具
+  |background=#000|
+  |π|#770|π|#555|Ω|#fff|Ω|#ff0|
+  |Ω|#770|╤|#fff|╤|#fff|Ω|#0ff|}}
+
+{{Item Block|title=石制家具
+  |background=#000|
+  |π|#999|π|#999|Ω|#555|Ω|#fff|
+  |Ω|#fff|╤|#999|╤|#999|╤|#555|}}
+
+{{Item Block|title=玻璃家具
+  |background=#000|
+  |π|#090|π|#090|Ω|#099|Ω|#fff|
+  |Ω|#090|╤|#099|╤|#099|╤|#fff|}}
+
+{{Arrow Block|
+  |      |E|#fff|      |
+  |A|#dfd|C|#dfd|L|#dfd|
+  |      |E|#fff|      |}}
+
+{{Item Block|title=装饰家具
+  |background=#000|
+  |╤|#090|Ω|#099|Ω|#fff|Ω|#ff0|
+  |π|#999|π|#999|Ω|#555|╤|#fff|
+}}
+|-
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|L|    |
+  |      |L|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |L|    |C|#fff|L|#fff|
+  |      |L|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |L|#fff|C|#fff|L|#fff|
+  |      |L|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |L|#fff|C|#fff|L|#fff|
+  |      |L|#fff|      |}}
+
+{{Arrow Block|
+  |      |E|    |      |
+  |L|#fff|C|#fff|L|#fff|
+  |      |E|    |      |}}
+
+{{Arrow Block|
+  |      |A|#fff|      |
+  |L|#fff|T|#fff|E|    | [[decorate|装饰]]
+  |      |E|    |      |}}
+|-
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |C|#fff|E|    |
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |T|#fff|E|    | 建造房间和建筑
+  |      |A|#fff|      |}}
+
+{{Arrow Block|
+  |      |L|#fff|      |
+  |E|    |T|#fff|E|    | 出售给[[trade|商人]]
+  |      |A|#fff|      |}}
+|-
+
+{{Use Block|item=[[Barrel|木桶]]、[[Bin|箱子]]|use=存储[[food|食物]]、[[Alcohol|饮料]]和物品
+  |background=#fff|}}
+
+{{Use Block|item=[[Bucket|桶]]|use=用于搬运液体
+  |background=#fff|}}
+
+{{Industry Block|industry=Construction
+  |background=#fff|}}
+
+{{Industry Block|industry=Export industry
+  |background=#fff|}}
+|}
+{{Category|Furniture}}
+{{Category|Industry}}
+
+{{buildings}}
+{{Industry}}

@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=cherry_trunk_sprite.png
-|product=cherry_sprite.png
-|sapling=cherry_sapling.png
-|wiki=prunus avium}}
+{{Treelookup/0|graphic=cherry_trunk_sprite.png|product=cherry_sprite.png|sapling=cherry_sapling.png|wiki=prunus avium}}
 {{av}}
 
 '''樱桃'''是地面上发现的众多[[tree|树木]]属之一。像绝大多数地面树木一样，樱桃[[wood|木材]]是棕色的，并生产棕色产品。

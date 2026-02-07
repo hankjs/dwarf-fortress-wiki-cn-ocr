@@ -7,12 +7,7 @@
 
 [[File:amber2.png|thumb|230px|center|化石的材料。]]
 
-{{Translation
-| dwarven = thukkan
-| elvish  = ilí
-| goblin  = rud
-| human   = kuppo
-}}
+{{Translation| dwarven = thukkan| elvish  = ilí| goblin  = rud| human   = kuppo}}
 
 {{D for Dwarf}}
 <!-- Reference: Amber alerts for missing children -->

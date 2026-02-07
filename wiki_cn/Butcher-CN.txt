@@ -1,22 +1,11 @@
 {{Quality|Masterwork}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| graphicmargin = 107px
-| skill      = Butcher
-| profession = [[Farmer]]
-| job name   = [[Butchery]]
-| tasks      =
-* Butcher [[animal]]
-| workshop =
-* [[Butcher's shop]]
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| graphicmargin = 107px| skill      = Butcher| profession = [[Farmer]]| job name   = [[Butchery]]| tasks      =
+* Butcher [[animal]]| workshop =
+* [[Butcher's shop]]| attributes =
 * Strength
 * Agility
 * Endurance
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 [[File:dwarf_butcher_preview.jpg|thumb|210px|right|当他闻起来像死羊羔时，你就知道他没有缺勤。]]'''屠夫（Butchers）'''在[[Butcher's Shop|屠宰场]]做杀死驯养动物和处理动物[[corpse|尸体]]、骨架和身体部位以获取[[meat|肉]]、[[fat|脂肪]]、[[skin|皮肤]]、[[bone|骨头]]、[[skull|头骨]]和许多其他物品的脏活。
 
@@ -143,11 +132,6 @@
 ==另见==
 *[[Meat industry|肉类产业]]
 
-{{Translation
-| dwarven = lokast
-| elvish  = uwale
-| goblin  = slust
-| human   = rashcat
-}}
+{{Translation| dwarven = lokast| elvish  = uwale| goblin  = slust| human   = rashcat}}
 
 {{Skills}}

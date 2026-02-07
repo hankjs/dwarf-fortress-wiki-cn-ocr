@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_chrysocolla_sprite.png
-|graphic2=rough_chrysocolla_sprite.png}}
+{{gemlookup/0|graphic=cut_chrysocolla_sprite.png|graphic2=rough_chrysocolla_sprite.png}}
 {{av}}
 
 

@@ -1,0 +1,79 @@
+{{Quality|Exceptional}}
+{{av}}
+
+[[File:finished_goods_preview.png|right]]'''成品'''（Finished goods）是指制作时会存放到成品[[stockpile|储物区]]的物品。这些物品中的许多经常被称为贸易品，因为它们重量轻且具有适合[[trading|贸易]]的价值。它们包括'''工艺品'''、'''高脚杯'''、'''乐器'''、'''玩具'''和'''图腾'''，其中一些有几个子类型。
+
+具有几个子类型的成品类型可能有通用的工坊订单来生产随机子类型物品，例如"制作工艺品"。此外，某些特定子类型的物品可以直接在适当的工坊或通过[[manager|管理员]]订购。如果你有制作戒指的委托，你可以直接订购戒指，而不是等待通用的"工艺品"工作来生产戒指；但其他的，如拼图盒，只能通过通用工作（"玩具"）生产。
+
+某些类型的贸易品（工艺品和高脚杯）可以批量生产。单个资源可能生产多达三个工艺品。技能不影响生产倍数的机会。
+
+==贸易品类型==
+
+===服装===
+{{main|Clothing}}
+所有服装都存放在成品堆中。矮人会自动更换他们磨损的服装。服装也可以出口，但它们不是特别有价值，除非它们是由异国材料制成的，如[[giant cave spider|巨型洞穴蜘蛛]][[silk|丝绸]]。
+
+===工艺品===
+{{imagefix|[[File:figurine_sprite.png|left]]|11}}工艺品包括所有'''[[jewelry|珠宝]]'''（特别是'''项链'''、'''手镯'''、'''王冠'''、'''耳环'''和'''戒指'''）、'''[[figurine|雕像]]'''和'''[[scepter|权杖]]'''。如果生产特定子类型（例如"制作戒指"或"制作权杖"），从一个资源材料生产一个物品。如果选择通用的非特定工作订单，"制作工艺品"，则消耗一个资源，但这会生产一到三个随机物品（平均两个）。在这种情况下，所有可以从所选材料生产的子类型都有相同的百分比机会被生产。
+
+珠宝物品（包括项链）可以被矮人认领和佩戴，类似于任何服装。[[Figurine|雕像]]可能被认领并作为个人物品携带，[[scepter|权杖]]可以通过[[Noble|贵族]]屏幕分配作为职位象征。没有手持工艺品物品会干扰[[labor|劳动]]。
+
+某些工艺品子类型可以引用[[historical figure|历史人物]]和事件（例如雕像）；这对工艺品的价值没有任何实质性影响。
+
+宝石和玻璃工艺品不能直接制作。它们只能通过宝石切割工作随机生产。
+
+===瓶子===
+{{main|Flask}}
+金属瓶子在[[metalsmith's forge|金属锻造炉]]制作。皮革瓶子称为'''水袋'''，在[[leather works|皮革作坊]]制作。玻璃瓶子称为'''小瓶'''，在[[glass furnace|玻璃熔炉]]制作。任何这些都可以被士兵和猎人使用，允许他们在执行战斗任务时运输水或酒精饮用。只有玻璃小瓶还可以用来制作[[extract|提取物]]。
+
+===高脚杯===
+[[File:goblet_sprite.png]] / {{Tile|¶|7:1}}高脚杯没有子类型，但根据制作材料有不同的名称：[[metal|金属]]和[[glass|玻璃]]高脚杯简称为'''高脚杯'''，[[stone|石头]]高脚杯称为'''杯子'''，[[wood|木制]]高脚杯称为'''木杯'''。
+
+高脚杯总是以3:1的比例生产。金属高脚杯在[[metalsmith's forge|金属锻造炉]]制作。玻璃高脚杯在[[glass furnace|玻璃熔炉]]制作。岩石杯子和木杯在[[craftsdwarf's workshop|工艺矮人工坊]]制作。
+
+高脚杯可以被矮人用于[[drink|饮用]]。如果餐厅储物区或[[tavern|酒馆]]的箱子中没有高脚杯，口渴的矮人可以直接从[[barrel|桶]]中喝[[alcohol|酒精]]，但这会导致不快乐的[[thought|想法]]。如果矮人无法使用他们的手臂，他们会在拿起高脚杯时停滞，而不是直接从桶中饮用{{bug|9440}}。高脚杯也可以在[[adventurer mode|冒险模式]]中用于运输液体。
+
+===乐器===
+{{main|Instruments}}
+[[File:instrument_sprite.png]] / {{Tile|¿|7:1}}乐器可以由一个或多个由特定材料制成的组件组成。多个高价值组件的存在可以将乐器的贸易价值提高到远超任何其他成品。乐器也可以被[[tavern|酒馆]]或[[temple|神殿]]中的[[performer|表演者]]使用。
+
+===玩具===
+[[File:toys_sprites.png]] / {{Tile|æ|7:1}}玩具包括在工艺矮人工坊制作的'''迷你锻造炉'''、'''玩具锤子'''、'''玩具斧头'''、'''玩具船'''和'''拼图盒'''。矮人儿童可以玩玩具。
+
+===图腾===
+[[File:skull_sprite.png]] / {{Tile|ç|7:1}}图腾由[[bone carver|骨雕师]]在[[craftsdwarf's workshop|工艺矮人工坊]]用[[skull|头骨]]制作。尽管图腾的基础[[value|价值]]与所有其他工艺品相同，但由更有价值的动物（如[[unicorn|独角兽]]）的头骨制成的图腾将卖出高价。
+
+===大宝石===
+[[File:large_rock_gem_sprite.png]] / {{Tile|♦|7:1}}大宝石没有子类型。大宝石可以订购从大多数材料切割，宝石和玻璃是两个显著的例外。对于标准[[gem|宝石]]，宝石切割工作将有5%的时间生产大宝石；对于[[glass|玻璃]]宝石，是33%。可以假设这代表了大宝石级粗宝石的稀有性，以及创造厚实、均匀结构的玻璃件的难度。
+
+大宝石目前除了贸易之外几乎没有用处。一些矮人（偏好大宝石）可能会认领大宝石以满足他们获取物品的需求。它们也被列为[[animal trap|动物陷阱]]中可能的"诱饵"，但不起作用。它们可以放在1方块储物区中充当[[Thief|盗窃]]生物的诱饵，附近设置标准[[trap|陷阱]]或[[Trap_design#Trap_Designs|更复杂的欢迎系统]]。*
+
+: * 请注意，虽然盗窃动物，如[[macaque|猕猴]]和[[kea|啄羊鹦鹉]]，会触发标准陷阱，智能[[thief|小偷]]如狗头人或哥布林可以绕过这些陷阱。然而，任何小偷都会触发已设置为检测适当大小生物的[[pressure plate|压力板]]（包括"飞行"或"游泳"的通过该方块的生物）。
+
+==材料==
+大多数材料都可以用来制作贸易品——偶尔，[[strange mood|奇异心情]]中的[[dwarf|矮人]]会用通常不适合它的材料制作贸易品（例如，骨玩具）。
+
+{| class="wikitable"| align="center" style="background:#f0f0f0;"|'''材料'''| align="center" style="background:#f0f0f0;"|'''劳动'''| align="center" style="background:#f0f0f0;"|'''工坊'''| align="center" style="background:#f0f0f0;"|'''工艺品'''| align="center" style="background:#f0f0f0;"|'''高脚杯'''| align="center" style="background:#f0f0f0;"|'''玩具'''| align="center" style="background:#f0f0f0;"|'''大宝石'''| align="center" style="background:#f0f0f0;"|'''乐器'''|-| [[Stone|石头]]||[[Stone crafter|石匠]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||Y||Y||Y||Y<sup>1</sup>|-| [[Wood|木头]]||[[Wood crafter|木工]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||Y||Y<sup>2</sup>||Y||Y<sup>1</sup>|-| [[Leather|皮革]]||[[Leatherworker|皮革工]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y<sup>4</sup>||N||N||N||Y<sup>1</sup>|-| [[Cloth|布料]]<sup>3</sup>||[[Clothier|裁缝]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y<sup>4</sup>||N||N||N||N|-| [[Bone|骨头]]<sup>5</sup>||[[Bone carving|骨雕]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Shell|贝壳]]||[[Bone carving|骨雕]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Horn|角]]||[[Bone carving|骨雕]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||Y||Y<sup>1</sup>|-| [[Ivory|象牙]]||[[Bone carving|骨雕]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||Y||N|-| [[Pearl|珍珠]]||[[Bone carving|骨雕]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||Y||N|-| [[Ceramic|陶瓷]]||[[Potter|制陶]]||[[Kiln|窑]]或[[Magma kiln|岩浆窑]]||Y||N||N||N||Y<sup>1</sup>|-| [[Wax|蜡]]||[[Wax worker|制蜡]]||[[Craftsdwarf's workshop|工艺矮人工坊]]||Y||N||N||N||N|-| [[Metal|金属]]||[[Metalcrafting|金属工艺]]||[[Metalsmith's forge|金属锻造炉]]或[[Magma forge|岩浆锻造炉]]||Y||Y||Y||Y||Y<sup>1</sup>|-| [[Glass|玻璃]]||[[Glassmaker|玻璃制造]]||[[Glass furnace|玻璃熔炉]]或[[Magma glass furnace|岩浆玻璃熔炉]]||Y<sup>6</sup>||Y||Y||Y<sup>6</sup>||Y<sup>1</sup>|-| [[Gem|宝石]]||[[Gem cutting|宝石切割]]||[[Jeweler's workshop|珠宝匠工坊]]||Y<sup>6</sup>||N||N||Y<sup>6</sup>||N|}
+<sup>1</sup>乐器及其组件是程序生成的物品；它们可以制作的材料取决于特定世界。
+
+<sup>2</sup>木制玩具只能使用[[manager|管理员]]制作，因为工艺矮人工坊界面不允许选择它们。{{bug|3119}}
+
+<sup>3</sup>[[Adamantine|精金]]布料不能用来制作工艺品。（精金工艺品可以在[[metalsmith's forge|金属锻造炉]]制作）。
+
+<sup>4</sup>项链、耳环和手镯是唯一可以从[[leather|皮革]]、[[plant|植物]]布和[[silk|丝绸]]布生产的工艺品。所有工艺品都可以从[[yarn|毛线]]布生产。
+
+<sup>5</sup>头骨图腾，像骨工艺品一样，由骨雕师在工艺矮人工坊制作。
+
+<sup>6</sup>在v50之前，工艺品和大宝石是通过在[[jeweler's workshop|珠宝匠工坊]]的切割工作随机生产的，使用[[gem cutting|宝石切割]]劳动。粗玻璃可能有33%的机会被切割成大宝石或工艺品（每16个大宝石有11个工艺品）。粗宝石有5%的机会被切割成大宝石或工艺品（每8个大宝石有1个工艺品）。
+
+{{D for Dwarf}}
+
+<!-- Reference: the fact that boats cannot be built in Dwarf Fortress because of cave-ins -->
+玩具船的存在表明矮人文明确实有使用专门车辆在水上旅行的概念。然而，由于[[Physics|尤里斯特原理]]的性质，将它们放大到可用级别存在一些困难。
+
+<!-- Reference: Nintendo "GameCube" video game console -->
+一些矮人儿童坚持称拼图盒为"游戏立方体"。学者们还没有确定原因。
+
+{{Category|Items}}
+{{Industry}}
+[[ru:Finished goods]]

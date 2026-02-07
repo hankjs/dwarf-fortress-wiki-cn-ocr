@@ -1,0 +1,22 @@
+{{Quality|Exceptional|19:36, 2 March 2023 (CST)}}
+{{Creaturelookup/0|image=buzzard_sprites.png|portrait=buzzard_portrait.png|meat=0-2|fat=0-2|skull=1|skin=hide|contrib=no|wiki=Turkey_Vulture}}
+{{av}}
+{{creaturedesc}}
+
+'''秃鹫'''是极其弱小且极其烦人的[[Creature|动物]]，在[[embark|出发]]到任何有它们存在的[[biome|生物群系]]时都应该做好准备。单个秃鹫可以偷一叠[[food|食物]]，它们以5-10只为一组旅行。对于尚未种植[[farm|农场]]的新建要塞来说，它们可能特别具有破坏性；当秃鹫盛宴享用准备好的疣猪肾脏时，你将搜寻[[vermin|害虫]]作为食物。它们也毫不犹豫地直接从你的地面农场偷窃，咬你的[[farmer|农民]]，并从他们鼻子底下抓走草莓。
+
+可以在笼子[[trap|陷阱]]中捕获它们，为你的动物园提供一只漂亮的鸟。它们可以被[[Animal trainer|训练]]成[[pet|宠物]]，但由于宠物价值低通常不值得。如果你希望为最新项目创建一群秃鹫，秃鹫会在可用的[[nest box|巢箱]]中认领并产[[egg|蛋]]，尽管它们一次只产2-3个蛋，与所有家养家禽相比[[egg production|产蛋]]相当差。秃鹫蛋像所有蛋一样，在整整3个月后孵化。
+
+秃鹫屠宰后留下的东西很少。其中大约一半被剥离后只剩下一个[[skull|头骨]]供你的[[bone carver|骨雕师]]使用。
+
+游戏中使用的生物在现实生活中被称为火鸡秃鹫，在北美俗称秃鹫（buzzard），尽管它们实际上与普通秃鹫无关。
+
+一些矮人喜欢秃鹫的''醒目的红脸''。
+
+[[File:Urubu_a_tete_rouge_-_Turkey_Vulture.jpg|thumb|400px|center|Admired for its ''striking red face''.]]
+
+{{Translation| dwarven = setnek| elvish  = acithe| goblin  = âng| human   = jozi}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

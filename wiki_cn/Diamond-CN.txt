@@ -1,0 +1,28 @@
+{{av}}
+{{catbox}}
+'''钻石'''是特别珍贵的碳基[[gems|宝石]],通常在[[gabbro|辉长岩]][[cv:Stone layers|岩层]]中发现。更稀有的钻石类型是''矮人要塞''中最有价值的宝石,与[[star sapphire|星彩蓝宝石]]和[[star ruby|星彩红宝石]]并列。
+== 钻石列表 ==
+{{Gem table head}}
+{{Gem table row|rarity=Semi-Precious|name=[[light yellow diamond|浅黄钻石]]|value=30|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|graphic=[[File:rough_light_yellow_diamond_sprite.png]] [[File:cut_light_yellow_diamond_sprite.png]]|fwhere=[[Kimberlite]]|fhow=Small clusters}}
+{{Gem table row|rarity=Precious|name=[[faint yellow diamond|淡黄钻石]]|value=40|color={{Raw Tile|☼|6:7:0}}{{Raw Tile|♦|6:0}}<span style="display:none">6:0</span>|graphic=[[File:rough_faint_yellow_diamond_sprite.png]] [[File:cut_faint_yellow_diamond_sprite.png]]|fwhere=[[Kimberlite]]|fhow=Small clusters}}
+{{Gem table row|rarity=Rare|name=[[black diamond|黑钻石]]|value=60|color={{Raw Tile|☼|0:7:1}}{{Raw Tile|♦|0:1}}<span style="display:none">0:1</span>|graphic=[[File:rough_black_diamond_sprite.png]] [[File:cut_black_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
+{{Gem table row|rarity=Rare|name=[[blue diamond|蓝钻石]]|value=60|color={{Raw Tile|☼|1:7:0}}{{Raw Tile|♦|1:0}}<span style="display:none">1:0</span>|graphic=[[File:rough_blue_diamond_sprite.png]] [[File:cut_blue_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
+{{Gem table row|rarity=Rare|name=[[clear diamond|透明钻石]]|value=60|color={{Raw Tile|☼|7:7:1}}{{Raw Tile|♦|7:1}}<span style="display:none">7:1</span>|graphic=[[File:rough_clear_diamond_sprite.png]] [[File:cut_clear_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
+{{Gem table row|rarity=Rare|name=[[green diamond|绿钻石]]|value=60|color={{Raw Tile|☼|2:7:0}}{{Raw Tile|♦|2:0}}<span style="display:none">2:0</span>|graphic=[[File:rough_green_diamond_sprite.png]] [[File:cut_green_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
+{{Gem table row|rarity=Rare|name=[[red diamond|红钻石]]|value=60|color={{Raw Tile|☼|4:7:0}}{{Raw Tile|♦|4:0}}<span style="display:none">4:0</span>|graphic=[[File:rough_red_diamond_sprite.png]] [[File:cut_red_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}
+{{Gem table row|rarity=Rare|name=[[yellow diamond|黄钻石]]|value=60|color={{Raw Tile|☼|6:7:1}}{{Raw Tile|♦|6:1}}<span style="display:none">6:1</span>|graphic=[[File:rough_yellow_diamond_sprite.png]] [[File:cut_yellow_diamond_sprite.png]]|fwhere=[[Faint yellow diamond]]|fhow=Single gem}}|}
+
+完整的宝石列表,见[[Gem|宝石]]。
+
+==现实生活中==
+
+历史上,钻石被列为五大名贵宝石之一。其他包括[[amethyst|紫水晶]](由于新大陆的矿藏而不再那么有价值)、[[emerald|祖母绿]]、[[ruby|红宝石]]和[[sapphire|蓝宝石]]。自19世纪以来,它的价值已经超过了其他贵重宝石,最著名的是广告宣传活动的结果。
+
+[[File:diamonds_many_colors.jpg|thumb|300px|center|Urist(和[[humans|人类]])因其令人眩目的美丽闪光而喜爱钻石。]]
+
+{{Translation| dwarven = doren| elvish  = akera| goblin  = tusnung| human   = palath}}
+
+{{Gems}}
+{{Category|Diamond| }}
+{{disambig}}
+[[ru:Diamond]]

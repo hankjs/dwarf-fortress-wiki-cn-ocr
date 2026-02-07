@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=duck_couple_sprites_anim.gif
-|portrait=duck_portrait_anim.gif
-|meat=0-2
-|skull=1
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=duck_couple_sprites_anim.gif|portrait=duck_portrait_anim.gif|meat=0-2|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

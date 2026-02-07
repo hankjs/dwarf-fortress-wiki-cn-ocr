@@ -1,0 +1,38 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{file|prefs/embark_profiles.txt}}
+{{av}}
+:''详细信息请参见[[Starting build|初始建设]]以了解如何规划开局。''
+:''参见[[Embark profile repository|开局配置文件库]]以获取开局配置文件集合。''
+
+'''embark_profiles.txt'''文件包含您创建的任何[[embark|开局]]配置文件（或[[starting build|初始建设]]）。它位于<code>prefs/</code>[[Game_folders_and_files|文件夹]]中，该位置取决于[[Settings#Portable_mode|便携模式]]设置，但该文件仅在您保存配置文件后才存在。大多数配置文件可以在次要版本之间转移（例如从v0.34.10到v0.34.11），但您需要记住手动转移。
+
+== 格式 ==
+每个配置文件以[PROFILE]标签开始，后跟[TITLE:''名称'']标签。
+
+=== 技能 ===
+技能通过其[[skill token|技能标记]]识别。技能的语法是：
+ [SKILL:''#'':''技能名称'':''等级'']
+其中#是矮人编号（1-7），"技能名称"是技能，"等级"是表示矮人熟练程度的数字。
+
+请注意，技能上限为熟练级（5），游戏在开局时会检查此限制，因此无法从传奇矮人开始。还有其他方法可以做到这一点（更多信息请参见[[Cheating#All Skills Legendary|作弊]]或[[User:Vjek]]）。
+
+=== 物品 ===
+物品通过其材料和物品标记识别，格式与[[reaction|反应]]相同：
+ [ITEM:''数量'':''(材料标记)'':''(物品标记)'']
+示例请参见[[reaction|反应]]、[[item token|物品标记]]、[[material token|材料标记]]或[[Utility:DFHack/createitem|DFHack createitem]]。
+
+请注意，配置文件不能添加玩家[[civilization|文明]]无法访问的任何物品。如果开局配置文件指定了铁砧，但主国尚未发现铁，则不会包含该砧。可以通过指定更昂贵的钢砧（始终可用）来解决此特定问题。对于木材，[[tunnel tube|管道管木材]]也始终可用，并且（截至DF v0.44）是可用的最轻的木材。
+
+=== 宠物 ===
+ [PET:''数量'':''生物名称'':''性别'':''年龄'']
+* "生物"是在原始数据中找到的生物ID（例如[[Cat/raw|猫]]的CAT）。
+* "性别"是性别ID，也可以在原始数据中找到。大多数生物都有MALE和FEMALE性别。
+* "年龄"可以是STANDARD（成年）或CHILD（幼年）。
+
+==获取新配置文件==
+* 参见[[Embark profile repository|开局配置文件库]]以获取开局配置文件集合。
+* [[Masterwork:Main Page|Masterwork模组]]也包含一套开局配置文件。
+
+{{files}}
+[[ru:Embark profiles.txt]]

@@ -10,12 +10,7 @@
 ==漏洞==
 *如果一个小队被分配了多种弹药类型，拥有"个人选择远程"的矮人会携带错误类型的弹药{{bug|1374}}。
 
-{{Translation
-| dwarven = feb
-| elvish  = lari
-| goblin  = ost
-| human   = nek
-}}
+{{Translation| dwarven = feb| elvish  = lari| goblin  = ost| human   = nek}}
 
 {{gamedata|{{raw|v50:item_ammo.txt|ITEM_AMMO|ITEM_AMMO_ARROWS}}}}
 {{Weapons}}

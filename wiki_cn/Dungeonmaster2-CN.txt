@@ -1,0 +1,17 @@
+{{Quality|Superior}}
+{{Noble| noble=Dungeon Master| office=Office| quarters=Quarters| dining=Dining Room| chests=1| cabinets=1| racks=1| stands=1| arrival=
+* Appointed by player
+* Requires [[mayor]]| function=
+* [[Intrigue]] target}}{{av}}
+'''地牢主人'''是一位[[Dwarf|矮人]][[noble|贵族]],可以在你的要塞拥有[[mayor|市长]]后任命。他们是[[intrigue|阴谋]]系统的一部分,已被观察到招募[[agent|特工]],或者更少见的是发现他们 - 然而,需要更多研究。他们有适度的[[zone|房间]]要求,青睐拥有[[Schemer|阴谋家]][[skill|技能]]的公民。因为他们不会发布命令或要求,他们的存在没有任何缺点,可以仅仅为了在你的要塞中增添风味而任命他们。
+
+他们的原始数据注明他们负责间谍活动和管理动物。在游戏的旧版本中,地牢主人负责驯服异国生物,这一功能在当前版本中由任何启用了[[animal training|动物训练]]劳动的矮人完成,无论要塞是否有地牢主人。间谍活动职责在阴谋系统中使用,但在要塞模式中没有实际用途。
+
+{{D for Dwarf}}
+许多地牢主人拥有很高的讲故事技能,并对龙和骰子情有独钟。
+
+{{Translation| dwarven = edir kôn | elvish = nuwetha ithera | goblin = bosa âs | human = thudel siñur}}
+
+{{gamedata}}
+{{Nobles}}
+{{Category|Appointed Nobles}}

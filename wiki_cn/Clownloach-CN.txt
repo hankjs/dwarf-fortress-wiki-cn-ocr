@@ -1,0 +1,14 @@
+{{Quality|fine}}
+{{verminlookup/0|image=clown_loach_sprite.png|portrait=clown_loach_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''小丑泥鳅'''是一种在[[tropical|热带]][[water|淡水]][[river|河流]]和[[lake|湖泊]]中全年发现的水生[[vermin|害虫]],在[[fishery|渔场]][[fish cleaning|清理]]后是现成的[[food|食物]]来源。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]小丑泥鳅的''色彩''。
+
+
+[[File:Vermin-ClownLoach.jpg|thumb|center|300px|Admired for its ''coloration''.]]
+
+{{gamedata}}
+{{Vermin}}

@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=asparagus_shrub_sprite.png
-|seedimage=asparagus_seeds_sprite.png
-|uses=
-* [[Food|食物]]
-}}
+{{plantlookup|graphic=asparagus_shrub_sprite.png|seedimage=asparagus_seeds_sprite.png|uses=
+* [[Food|食物]]}}
 {{av}}
 
 '''芦笋'''是一种[[aboveground|地面]][[crop|园艺蔬菜]]。它可以在所有季节种植，生吃或[[cooking|烹饪]]后食用。

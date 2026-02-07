@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{av}}
+
+{{removed feature}}
+
+:''本文是关于生物群系的。你可能在寻找某个无底特征，可以在[[Hell|这里]]找到（剧透！）。
+
+无底'''深渊'''作为地理特征不存在。然而，深渊作为SUBTERRANEAN_CHASM[[biome|生物群系]]标记存在于[[raw file|原始文件]]中。此标签似乎暗示在[[cavern|洞穴层]]的非水域部分生成生物，与SUBTERRANEAN_WATER生物群系相对。
+
+无底深渊'''瓦片'''可以使用字符"C"放置在竞技场模式布局（arena.txt）中。当某物掉入这些瓦片之一时，该瓦片有{{DFtext|■∙·|7:1}}的动画（请注意，在游戏中使用默认瓦片集时，第一个点将显得更大）。深渊上方的开放空间将始终使用{{DFtext|▓|3:0:0}}瓦片，永远不会使用{{DFtext|∙}}瓦片。
+[[File:Chasm (16304859706).jpg|thumb|370px|center|Many, many rocky chasms. And then some. And even more.]]
+{{Translation| dwarven = takùth| elvish  = nimi| goblin  = smatru| human   = ustres}}
+
+{{World|Biomes}}
+{{Category|Biomes}}

@@ -1,0 +1,30 @@
+{{Quality|Superior}}
+{{Alloy|name=Electrum|sample=
+[[File:ElectrumSample.png|256px|center|frameless]]|graphic=electrum_bar_sprite.png|color=6:6:1|color1=7:7:1|color2=6:6:1|uses=* [[Metalsmith's forge|金属锻造]]|recipe=
+* 1 [[Silver|银]] [[bar|锭]]
+* 1 [[Gold|金]] [[bar|锭]]
+- 或 -
+* 1 [[Silver|银]] [[ore|矿石]]
+* 1 [[Native gold|天然金]]|properties=
+* [[Material value|材料价值]] 20☼
+* [[Material science|冲击强度]] 350 MPa
+* [[Material science|剪切强度]] 100 MPa
+{{firemagmasafe|yes|no}}
+* [[Melting point|熔点]] {{ct|11828}}
+* [[Boiling point|沸点]] {{ct|14968}}
+* [[Ignition point|燃点]] 无
+* [[Solid density|固体密度]] 14905 kg/m³
+* 液体[[density|密度]] 13000 kg/m³
+* [[Specific heat|比热容]] 180 J/kg·K
+* [[Color|颜色]] 赭石色}}{{av}}
+
+'''银金合金'''是等份[[gold|金]]和[[silver|银]]的[[alloy|合金]]。银金合金[[bar|锭]]可以由激活了[[furnace operating|熔炉操作]]劳动的矮人在[[smelter|冶炼炉]]中制作。银金合金可用于制作高价值的[[crafts|工艺品]]、[[furniture|家具]]和[[decoration|装饰品]]。
+
+一根[[gold|金]]锭和一根[[silver|银]]锭将产生两根银金合金锭。一块金块和一块含银[[ore|矿石]]将产生八根银金合金锭。
+
+将锭熔炼在一起消耗一个价值30的材料和一个价值10的材料来生产两个价值20的单位,因此不产生净收益(或损失);你是在用一个高价值物品和一个中等价值物品平均它们的价值。然而,相对于密度的价值大大提高,使得搬运工作更加高效。直接熔炼矿石可以节省五个单位的[[fuel|燃料]](如果你无法使用[[magma|岩浆]])。此外,低价值的[[galena|方铅矿]]或[[tetrahedrite|黝铜矿]]可以替代[[native silver|天然银]]或[[horn silver|角银矿]],产生的总价值比分别熔炼矿石产生的价值更多。因此,如果你能获得方铅矿或黝铜矿,生产银金合金锭就能创造价值。
+
+[[File:Gobelet Monstres Electrum Marlik Louvre AO 20281 14012018 2.jpg|thumb|center|300px|这是一个x+银金合金酒杯+x。物品上有两只遗忘之兽和两只瞪羚的图像。两只遗忘之兽正在举起两只瞪羚。两只遗忘之兽正在尖叫。两只瞪羚看起来很恐惧。]]
+
+{{gamedata}}
+{{metals}}

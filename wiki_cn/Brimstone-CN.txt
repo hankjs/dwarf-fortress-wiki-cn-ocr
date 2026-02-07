@@ -1,7 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=brimstone_sprite.png
-|wiki=sulfur}}
+{{stonelookup/0|graphic=brimstone_sprite.png|wiki=sulfur}}
 {{av}}
 
 '''硫磺'''是一种黄色[[stone|石头]],'''既不'''[[fire-safe|耐火]]也不[[magma-safe|耐岩浆]],在[[igneous extrusive|喷出火成岩]]层中以及[[gypsum|石膏]]内以小簇形式发现。

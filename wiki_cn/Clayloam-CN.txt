@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{soillookup/0|graphic=clay_loam_sprite.png}}
+{{av}}
+'''粘壤土'''是可以在[[soil layer|土层]]中找到的多种[[soil|土壤]]类型之一。[[Aquifer|含水层]]永远不会出现在粘壤土中。
+
+粘壤土可以用作生产[[earthenware|陶器]]的[[clay|粘土]]来源。
+
+{{gamedata}}
+
+{{DF2014 soil}}

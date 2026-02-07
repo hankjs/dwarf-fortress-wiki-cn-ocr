@@ -1,0 +1,13 @@
+{{Quality|Exceptional}}
+{{av}}
+
+:''关于不同武器的比较，请参见[[Weapon|武器]]。''
+
+[[File:flail_sprite_preview.png|right]]
+'''连枷'''（flail）是一种[[attack types|钝器]][[weapon|武器]]，由通过一段链条连接到手柄的圆形重物组成。连枷的尺寸与[[morningstar|晨星]]相同，但接触面积是更大的[[maul|大锤]]的两倍。对于[[Creature#Civilized|文明生物]]尺寸范围内的软目标，它们的大表面积、深穿透和高速度修正使它们比许多其他钝器更容易击碎身体部位。
+
+连枷使用并训练[[macedwarf|锤矮人]]技能。作为外国武器，矮人无法[[forge|锻造]]连枷，供应限于可以从人类[[caravan|商队]]交易和从入侵者那里搜刮的任何低[[quality|品质]]样品。几乎所有矮人都可以装备连枷，尽管[[Weapon#Size|有些必须双手使用]]。
+[[File:dwarf_flail_preview.png|thumb|250px|center|用那东西意外击中自己的次数比击中敌人的次数多。<br><small>''Art by Dan1004''</small>]]
+{{gamedata}}
+{{Weapons}}
+{{Category|Weapons}}

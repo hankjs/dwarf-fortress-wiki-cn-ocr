@@ -1,0 +1,18 @@
+{{Quality|fine}}
+{{creaturelookup/0|image=coyote_sprites.png|portrait=coyote_portrait_anim.gif|meat=7-11|bone=6-10|fat=7-11|skin=hide|skull=1|tripe=1|intestines=2|brain=1|lung=2|liver=1|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''郊狼'''是在大多数[[biome|生物群系]]中以2-10只的群体发现的小型罕见犬科[[Creature|动物]],热带和冰冻生物群系除外。体型是[[dog|狗]]或[[wolf|狼]]的一半,郊狼并不具有攻击性,尽管是肉食性的,但通常会避开[[Dwarf|矮人]],更喜欢在该地区漫无目的地闲逛。幼年郊狼被称为''幼崽''。
+
+郊狼可以在[[cage|笼子]][[trap|陷阱]]中捕获并[[Animal trainer|训练]]成异国[[pet|宠物]]。它们不能训练用于战争或狩猎,[[butcher|屠宰]]时比狗产生的收益少,但它们的部位价值是普通动物的[[Multiply value|两倍]]。然而,由于它们的低频率,它们是牲畜的不良选择,因为你可能根本不会遇到它们。
+
+一些矮人[[Preferences|喜欢]]郊狼的''嚎叫''。
+
+[[Image:Coyote-948817 960 720.jpg|thumb|center|400px|Admired for its ''howling''.]]
+
+{{D for Dwarf}}
+郊狼以只吃非常快的鸟类而闻名,它们经常尝试布置稍微夸张的[[trap|陷阱]]来捕捉它们,结果陷阱失败得很惨,反而打到郊狼,这与一些矮人定居点发生的事情不无相似。因此,一些矮人倾向于将郊狼视为同类,如果你愿意,一种坏运气的兄弟情谊。
+
+{{gamedata}}
+{{creatures}}

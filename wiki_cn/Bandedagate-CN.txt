@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_banded_agate_sprite.png
-|graphic2=rough_banded_agate_sprite.png
-|wiki=Agate}}
+{{gemlookup/0|graphic=cut_banded_agate_sprite.png|graphic2=rough_banded_agate_sprite.png|wiki=Agate}}
 {{av}}
 
 '''条纹玛瑙'''是一种不起眼的低价值[[gem|宝石]]，可在[[sedimentary|沉积岩]]层中找到。所有玛瑙的[[material value|材料价值]]都相同：2，这是任何宝石可以拥有的最低价值。

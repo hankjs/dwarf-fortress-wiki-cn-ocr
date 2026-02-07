@@ -1,0 +1,24 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=elephant_man_sprite.png|portrait=elephant_man_portrait.png}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+'''象人'''是[[elephant|象]]的人形变体，出现在[[savage|野蛮]][[tropical|热带]][[forest|森林]]和[[shrubland|灌木丛]]中。他们是陆地[[animal people|动物人]]中体型最大的，并且在体型上与[[orca man|虎鲸人]]并列第二，仅次于[[aquatic|水生]]的[[sperm whale man|抹香鲸人]]。然而，他们的体型仍然小于一些其他陆地人形生物，如[[giant|巨人]]和[[cyclops|独眼巨人]]。
+
+与其他智能荒野生物一样，玩家可以在[[adventurer mode|冒险模式]]中扮演象人。他们的巨大体型使他们在[[combat|战斗]]中特别有效。他们的负重能力也显著高于其他冒险者，使他们能够轻松携带许多物品而不会减速。
+
+在战斗中，象人的体型使他们很容易挣脱摔跤者的擒抱，跳向对手产生的冲击力可以轻易将不幸的目标击飞平均七格距离（在没有障碍物的情况下）。当成功执行此操作以获得主动权时，这特别有用，因为目标很可能会撞到树木、墙壁或其他不可通过的障碍物，造成额外伤害，并可能使他们失能足够长的时间让你进入近战范围。像大象一样，象人也有两根象牙可以刺伤敌人，当玩家的武器卡在敏捷的敌人身上时（大多数飞行生物），这会非常有用。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]象人，因为他们的''力量''、他们''令人惊叹的鼻子''、他们''幼崽的欢闹行为''、他们的''象牙''、他们的''巨大体重''、他们的''社会行为''、他们的''扑打的耳朵''、他们''连根拔起树木的行为''、他们''好斗的争斗''、他们的''号角声''、他们的''工具使用''以及他们的''自我意识''。
+
+[[File:elephant_man.jpg|thumb|270px|center|你不会想让他的鼻子伸进你的事务。<br><small>''Art by Loxodon''</small>]]
+
+{{D for Dwarf}}
+
+<!-- Reference: Joseph Merrick, the "Elephant Man" -->
+与流行的看法相反，象人并不是患有身体畸形并被当作展品的[[human|人类]]；不过，有些象人''确实''有很多畸形和伤疤，这是因为他们在没有盔甲的情况下硬抗敌人的致命攻击（如今很难找到象人尺寸的盔甲）。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

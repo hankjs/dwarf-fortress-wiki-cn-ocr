@@ -1,0 +1,10 @@
+{{av}}
+{{removed feature}}
+
+'''外交脚本'''（dipscript，或"diplomat script"）是在《矮人要塞》旧版本中控制来访[[diplomat|外交官]]与你的[[noble|贵族]]会面时行为的脚本。从50.01版本开始，此功能已嵌入到可执行文件中，不再可由用户修改。
+
+关于外交脚本在游戏先前版本中的结构，参见[[DF2014:Dipscript]]。
+
+{{Category|Files}}
+{{Category|Modding}}
+[[ru:Dipscript]]

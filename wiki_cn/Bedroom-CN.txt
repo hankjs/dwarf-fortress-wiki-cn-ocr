@@ -10,35 +10,9 @@
 没有卧室的矮人会在睡在无主卧室时自动认领它。玩家也可以手动分配卧室([[File:UI add worker.png|28px]])或将所有权从一个矮人更改为另一个矮人。已婚夫妇共同拥有一间卧室并睡在同一张床上；[[children|婴儿]]也会与母亲共享卧室，直到他们长成儿童。为矮人分配新卧室'''不会'''取消分配他们的旧卧室；如果你想让他们只拥有一间卧室，你需要找到他们的旧卧室并取消分配。
 
 根据[[Zone#Quality_and_value|区域价值]]，卧室会获得一个等级：
-{| class = "wikitable"
-|-
+{| class = "wikitable"|-
 ! 名称
-! 价值
-|-
-| 简陋住所
-| style="text-align:right;"| 0
-|-
-| 朴素住所
-| style="text-align:right;"| 100
-|-
-| 住所
-| style="text-align:right;"| 250
-|-
-| 体面住所
-| style="text-align:right;"| 500
-|-
-| 精致住所
-| style="text-align:right;"| 1000
-|-
-| 出色卧室
-| style="text-align:right;"| 1500
-|-
-| 华丽卧室
-| style="text-align:right;"| 2500
-|-
-| 皇家卧室
-| style="text-align:right;"| 10000
-|}
+! 价值|-| 简陋住所| style="text-align:right;"| 0|-| 朴素住所| style="text-align:right;"| 100|-| 住所| style="text-align:right;"| 250|-| 体面住所| style="text-align:right;"| 500|-| 精致住所| style="text-align:right;"| 1000|-| 出色卧室| style="text-align:right;"| 1500|-| 华丽卧室| style="text-align:right;"| 2500|-| 皇家卧室| style="text-align:right;"| 10000|}
 
 ===其他家具===
 放置在区域内的其他[[furniture|家具]]（如[[cabinet|橱柜]]和[[coffer|箱子]]）可供拥有卧室的矮人使用。拥有家具（特别是高质量的家具）会给矮人带来快乐的[[thought|想法]]，橱柜和箱子给他们一个存放财物的地方。

@@ -25,12 +25,7 @@
 *大师级弩箭在被带离地图或熔化时会引起不愉快的想法{{bug|3169}}。解决方案是制作更多弩箭，因为"艺术品亵渎"引起的不愉快想法随着矮人制作的杰作数量的增加而变得不那么重要。
 *弩箭不会存储在兵营中，尽管"存储小队装备"图标有工具提示。弩箭会被丢在矮人放下箭袋的地方，并立即被运送到任何允许它们的储藏处。
 
-{{Translation
-| dwarven = alåth
-| elvish  = ene
-| goblin  = okom
-| human   = thora
-}}
+{{Translation| dwarven = alåth| elvish  = ene| goblin  = okom| human   = thora}}
 
 {{gamedata|{{raw|v50:item_ammo.txt|ITEM_AMMO|ITEM_AMMO_BOLTS}}}}
 {{Weapons}}

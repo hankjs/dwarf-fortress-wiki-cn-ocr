@@ -33,11 +33,6 @@
 :无监督地挖掘大面积区域往往会导致塌方。就像卡通人物不假思索地锯掉他坐着的树枝一样，你的矮人会愉快地打穿他们站立的区域的唯一剩余墙壁或地板的支撑。这''大部分''可以通过从上到下一次挖一层来避免，但是在挖掘已经在下面挖过的地板时，可能需要进一步的微观管理。
 
 '''你不能在打开的吊桥下挖掘，你必须在挖掘它会打开的砖块之前拆除吊桥。'''
-{{Translation
-| dwarven = catten
-| elvish  = teze
-| goblin  = osnaz
-| human   = innah
-}}
+{{Translation| dwarven = catten| elvish  = teze| goblin  = osnaz| human   = innah}}
 
 {{category|designations}}[[ru:Channel]]

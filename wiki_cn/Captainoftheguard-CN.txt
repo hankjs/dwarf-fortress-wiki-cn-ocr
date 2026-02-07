@@ -1,21 +1,10 @@
 {{Quality|Superior}}
 {{av}}
-{{Noble
-| noble= Captain of the Guard
-| office= Office
-| quarters= Quarters
-| dining= Dining Room
-| stands=1
-| racks=1
-| chests=1
-| cabinets=1
-|arrival=
+{{Noble| noble= Captain of the Guard| office= Office| quarters= Quarters| dining= Dining Room| stands=1| racks=1| chests=1| cabinets=1|arrival=
 *Appointed on [[nobles screen]] or military screen
-*Requires [[mayor]]
-| function=
+*Requires [[mayor]]| function=
 * Law enforcement
-* Leading the [[fortress guard]]
-}}
+* Leading the [[fortress guard]]}}
 
 '''卫队队长'''是负责[[fortress|要塞]]内部安全的任命[[noble|贵族]]职位。他们有简单的[[zone|房间]]要求。
 

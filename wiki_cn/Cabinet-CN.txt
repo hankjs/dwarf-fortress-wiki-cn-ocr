@@ -1,19 +1,8 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_furniture|name=Cabinet
-|graphic=[[File:Cabinet_Premium.png]]
-|tile=π
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=3
-|glass=y
-|rooms=
+{{V50_furniture|name=Cabinet|graphic=[[File:Cabinet_Premium.png]]|tile=π|wood=y|stonecarve=y|metal=y|bars=3|glass=y|rooms=
 * [[Barracks]]
-* [[Bedroom]]
-|value=10
-|size=30,000
-|capacity=60,000}}
+* [[Bedroom]]|value=10|size=30,000|capacity=60,000}}
 '''橱柜'''是一种用于储存[[clothes|衣物]]的[[furniture|家具]]。它们是[[noble|贵族]]的常见需求，也有助于提高[[Zone#Quality_and_value|房间的价值]]。一个橱柜可以容纳接近20件衣物。橱柜不会阻挡移动；矮人和其他生物能够穿过有橱柜的格子。
 
 如果矮人的卧室里没有橱柜，他们会把衣服留在地板上。

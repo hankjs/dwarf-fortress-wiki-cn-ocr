@@ -1,18 +1,10 @@
 {{Quality|Exceptional}}
-{{V50 workshop
-|name=Carpenter's workshop
-|key=p
-|job=*[[Carpentry|木工]]
-*[[Trapping|陷阱制作]]（见[[Carpenter's_workshop#Notes|注释]]）
-|icon=[[File:carpenter_workshop_icon.png]]
-|construction=
-* [[Building material|建筑材料]]（非[[economic|经济]]）
-|construction_job=
+{{V50 workshop|name=Carpenter's workshop|key=p|job=*[[Carpentry|木工]]
+*[[Trapping|陷阱制作]]（见[[Carpenter's_workshop#Notes|注释]]）|icon=[[File:carpenter_workshop_icon.png]]|construction=
+* [[Building material|建筑材料]]（非[[economic|经济]]）|construction_job=
 *[[Carpentry|木工]]
-*[[Trapping|陷阱制作]]
-|use=
-*[[Wood|木材]]
-|production=
+*[[Trapping|陷阱制作]]|use=
+*[[Wood|木材]]|production=
 *[[Animal trap|动物陷阱]]
 *[[Armor stand|盔甲架]]
 *[[Barrel|桶]]
@@ -45,8 +37,7 @@
 *[[Training weapon|训练剑]]
 *[[Training weapon|训练矛]]
 *[[Training weapon|训练斧]]
-*[[Weapon rack|武器架]]
-}}{{av}}
+*[[Weapon rack|武器架]]}}{{av}}
 
 '''木匠工坊'''是一个[[Workshop#Tier_1_Workshops|一级]][[workshop|工坊]]，由[[carpenter|木匠]]用来制作大多数类型的[[furniture|家具]]，但不包括[[statue|雕像]]。该工坊还可以制作木制[[block|方块]]或诸如[[bucket|水桶]]、[[crutch|拐杖]]、[[shield|盾牌]]和[[training weapon|训练武器]]等物品。[[Bed|床]]只能在木匠工坊制作。
 

@@ -10,12 +10,7 @@
 ==漏洞==
 * 如果[[squad|小队]]被分配了多种弹药类型，具有"个人选择远程"的矮人可能会携带错误的弹药{{bug|1374}}。
 
-{{Translation
-| dwarven = egdoth
-| elvish  = ramí
-| goblin  = uneg
-| human   = ethro
-}}
+{{Translation| dwarven = egdoth| elvish  = ramí| goblin  = uneg| human   = ethro}}
 
 {{gamedata}}
 {{Weapons}}

@@ -1,0 +1,31 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|biome=None|death=nobutcher|contrib=no|wiki=yes}}
+{{av}}
+'''半人马'''是[[fanciful|幻想]][[creature|生物]]，仅仅是[[legends|传说]]的素材。它们实际上并不存在，只出现在[[engraving|雕刻]]中作为艺术家的幻想。雌性半人马被称为''半人马女''。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]半人马的''力量''。
+
+==《半人马》问题==
+
+''"我们有'半人马'问题，或者类似的问题，我想把任何东西的任何部分拼接到其他东西上...这在材料、身体部位等方面有复杂性，需要解决。"'' - [[Toady One]]，[[Dwarf Fortress Talk]] #28 [38:26]
+<br><br>
+自''矮人要塞''的前身''[[Armok|阿莫克的奴隶]]''时代以来，程序性[[Creature token#GENERATED|生成]]半人马一直在讨论中。结合两个生物对象，例如[[human|人类]]与[[horse|马]]的下半身，并尊重每个组件的[[raw file|原始文件]]和身体结构，是不存在的半人马和其他[[fanciful|幻想]]混合生物所暗示的考虑因素。
+
+尽管像[[Merperson|人鱼]]和[[satyr|萨特]]这样的[[creature|生物]]在概念上是混合体，但它们是单一的手动实现，而不是可以基于组合现有生物生成任意数量[[Chimera|奇美拉]]生物的系统。[[Experiment|实验体]]是从独立的[[random creature profile|随机生物档案]]生成的，而不是基于它们的输入生物。
+
+{{D for Dwarf}}
+
+<!-- Reference: Equius Zahhak from Homestuck -->
+一些[[Troll|巨魔]]喜欢半人马的
+{{#splitrand:
+[[milk|牛奶]]
+[[Strength|力量]]}}。
+[[File:Brooklyn Museum - Centauress - John La Farge - overall.jpg|thumb|center|300px|Admired for its ''strength''.]]
+
+==另见==
+* [[Chimera|奇美拉]]
+* [[Griffon|狮鹫]]
+{{gamedata}}
+{{Creatures}}
+{{Category|Myth}}
+[[ru:Centaur]]

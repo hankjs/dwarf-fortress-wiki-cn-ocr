@@ -1,0 +1,62 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{V50 workshop|name=Craftsdwarf's workshop|key=r|job=Craftsworking|icon=[[File:Craftdwarfs_workshop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+1 of
+* [[Bone carving]]
+* [[Stonecrafting]]
+* [[Woodcrafting]]|use=
+* [[Stone]]
+* [[Wood]]
+* [[Bone]]
+* [[Shell]]
+* [[Ivory]]
+* [[Tooth]]
+* [[Horn]]
+* [[Pearl]]
+* [[Cloth]]
+* [[Thread]]
+* [[Wax]]
+* [[Leather]]
+* [[Skull]]|production=
+
+* Rock [[Craft]]s, [[Mug]]s, [[Instrument]]s, [[Toy]]s, [[Jug]]s, [[Large pot|Large Pots]], [[Hive]]s, and [[Nest box|Nest Boxes]]
+* Wood, Plant Fiber Cloth, Silk, Shell, Ivory, Tooth, Horn, Pearl, Bone and, Leather [[Craft]]s
+* Rock [[Short sword|Short Sword]]s
+* Wooden and Bone [[Bolt]]s
+* Bone, Shell, Ivory, Tooth, Horn, and Pearl [[Decoration]]s
+* [[Totem]]s
+* Bone [[Legging]]s, [[Greave]]s, [[Gauntlet]]s, and [[Helm]]s
+* Shell [[Legging]]s, [[Gauntlet]]s, and [[Helm]]s
+* [[Adamantine]] Strands
+* [[Scroll]], [[Quire]], and [[Book]]
+* Wood and Stone [[Scroll rollers]] and [[Book binding]]
+* [[Instrument]]s and instrument pieces}}{{av}}
+
+'''工艺矮人工坊'''用于制作许多不同种类的[[craft|工艺品]]并执行一些专门的工作。它可以由启用了[[Bone carver|骨雕]]、[[Stonecrafting|石工]]或[[Woodcrafting|木工]][[labor|劳动]]的矮人用任何建筑材料建造。
+
+工艺矮人工坊是''矮人要塞''中[[trading|贸易]]的基石。所有工艺品都可以交易为[[food|食物]]、[[alcohol|酒]]、[[weapon|武器]]和其他商品。许多工艺品也可以被矮人获得作为个人物品,在[[pedestal|基座]]上展示,或用于饮酒、音乐和游戏等活动。各种商品、[[furniture|家具]]和[[bolt|弩箭]]也可以用[[bone|骨头]]、[[pearl|珍珠]]、[[horn|角]]、[[ivory|象牙]]或[[shell|壳]][[decoration|装饰]]以增加其[[value|价值]]。
+
+其他工艺品对你的要塞更直接有用:可以在此工坊创建[[tool|工具]],如[[large pot|大罐]]、[[jug|水壶]]和[[nest box|巢箱]]。特别是大罐,在大多数情况下可以作为[[wood|木制]][[barrel|桶]]的充足替代品。
+
+工艺矮人工坊还可以用于从骨头或壳制作[[armor|盔甲]],从[[wood|木材]]或骨头制作[[bolt|弩箭]],从[[obsidian|黑曜石]]和[[wood|木材]]组装岩石[[short sword|短剑]],以及提取[[adamantine|精金]]丝线以供精炼。
+
+==弹药==
+树木和屠宰或宰杀动物的骨头提供了充足且可再生的弹药材料来源。制作[[wood|木制]]弩箭时,单根原木产生25支弩箭。制作[[bone|骨制]]弩箭时,将整堆骨头带到工坊,然后该堆中的''一根''骨头变成5支弩箭。
+
+==盔甲==
+骨头或壳盔甲,虽然远不如[[metal|金属]][[armor|盔甲]],但仍比没有好。只有4种盔甲部件可以用骨头制作:护腿、胫甲、手套和头盔。只有3种部件可以用壳制作:护腿、手套和头盔。
+
+制作骨护腿或胫甲需要3堆骨头,但只消耗每堆中的1根骨头。(你不能使用一堆3根骨头。必须有3个单独的堆。)制作骨手套消耗1堆中的1根骨头,并产生右手和左手手套。制作骨头盔消耗1堆中的1根骨头。
+
+==注释==
+* 此工坊的名称实际上源自为你要塞的主要种族指定的{{token|PROFESSION_NAME|c|CRAFTSMAN}}值——例如,如果你使用[[mod|模组]]作为[[human|人类]]游戏,这将被称为"Craftsman's Workshop"。
+*大多数工艺工作需要相应的劳动,然而;[[shell|壳]]、[[ivory|象牙]]、tooth、[[horn|角]]和[[pearl|珍珠]]都由[[Bone carver|骨雕师]]加工。
+*[[Metal|金属]]工艺品在[[metalsmith's forge|金属匠熔炉]]制作。但是,你可以通过在{{K|z}}[[Stone|石头]]菜单中启用适当的矿块使用,用金属'''矿石'''制作工艺品。这将产生更少的工艺品,但[[quality|质量]]修正可能会抵消价值差异。
+*其他[[cloth|布料]]和[[leather|皮革]]物品分别在[[clothier's shop|裁缝店]]或[[leather works|皮革厂]]制作。
+*没有可心情技能的[[strange mood|心情]]矮人会认领工艺矮人工坊并产生一个传奇石头、木材或骨头工艺品。
+*多部件[[Instrument|乐器]]可以在这里组装(假设单部件骨/线/石乐器也可以)
+* 乐器部件可以在这里用骨头、线和石头制作。
+
+
+{{Workshops}}

@@ -1,25 +1,7 @@
 {{Quality|Exceptional}}
 {{av}}
-{{v50_item|
-|graphic = [[File:bag_sprite.png]]
-|name=Bag
-|tile=♂|col=6:0:0
-|wood=n
-|stone=n
-|metal=n
-|glass=n
-|cloth=y
-|leather=y
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* Storage
-|value=10
-|size=1,000
-|capacity=60,000}}
+{{v50_item||graphic = [[File:bag_sprite.png]]|name=Bag|tile=♂|col=6:0:0|wood=n|stone=n|metal=n|glass=n|cloth=y|leather=y|ceramic=n|bone=n|shell=n|gem=n|wax=n|used for=
+* Storage|value=10|size=1,000|capacity=60,000}}
 '''袋子'''是[[Storage|储存]]物品，像[[Barrel|桶]]和[[Bin|箱]]一样，通过容纳最多100个同类种子来节省仓库空间，还可以收集和储存采石场灌木叶以及可食用和不可食用的粉末：面粉、糖、染料、石膏、生石灰和沙子。袋子可以在[[Clothier's shop|裁缝铺]]用1单位植物、丝绸或纱线布料制作；或者可以在[[Leather works|皮革作坊]]用1单位皮革制作。它们也可以接受所有类型的装饰。
 
 装有植物衍生物品和粉末(种子、采石场灌木叶、面粉、糖和染料)的袋子储存在食物仓库中，实际上只要袋子中包含的物品被允许，就无法阻止它们被使用。矮人总是会尽可能将种子储存在袋子里。如果食物仓库也允许桶，那么装有植物衍生物品的袋子也可以储存在桶中，进一步节省空间。

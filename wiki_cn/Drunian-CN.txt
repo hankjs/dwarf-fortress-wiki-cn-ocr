@@ -1,24 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=drunian_sprites.png
-|portrait=drunian_portrait.png
-|bone=10
-|meat=12
-|fat=12
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|wiki=no
-|contrib=no
-}}
+{{Creaturelookup/0|image=drunian_sprites.png|portrait=drunian_portrait.png|bone=10|meat=12|fat=12|skull=1|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|wiki=no|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

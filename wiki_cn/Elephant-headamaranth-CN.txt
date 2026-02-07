@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=elephant_head_amaranth_shrub_sprite.png|seedimage=elephant_head_amaranth_seeds_sprite.png|uses=
+*[[Food|食物]]|wp=Amaranthus_tricolor}}
+{{av}}
+
+'''象头苋'''是一种[[aboveground|地上]][[crop|作物]]。它们可以在所有季节种植,叶子可以生吃或[[cooking|烹饪]]食用,种子烹饪后可食用。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]象头苋,因为它们的''叶子颜色''。
+
+
+[[File:Amaranthus tricolor6.jpg|thumb|center|300px|因其''叶子颜色''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

@@ -1,25 +1,14 @@
 {{Quality|Superior}}
 {{av}}
-{{V50_item
-|graphic=[[File:Cloth_sprite.png|32px]]
-|name=Cloth
-|tile=º
-|materials=<span></span>
+{{V50_item|graphic=[[File:Cloth_sprite.png|32px]]|name=Cloth|tile=º|materials=<span></span>
 * [[Web]]
 * [[Yarn]]
-* [[Plant fiber]]
-|workshops=<span></span>
-* [[Loom]]
-|labors=<span></span>
-* [[Weaver]]
-|used for=
+* [[Plant fiber]]|workshops=<span></span>
+* [[Loom]]|labors=<span></span>
+* [[Weaver]]|used for=
 * [[Textile industry]]
 * [[Wound dresser|Wound dressing]]
-* Can be worn
-|value=7
-|size=1-200
-|dimension=1-15000[[Cloth#Uses|*]]
-}}
+* Can be worn|value=7|size=1-200|dimension=1-15000[[Cloth#Uses|*]]}}
 '''布料'''是一种多功能的手工艺和[[health care|医疗]]用品，对几乎任何要塞的长期健康都至关重要。
 
 ==用途==

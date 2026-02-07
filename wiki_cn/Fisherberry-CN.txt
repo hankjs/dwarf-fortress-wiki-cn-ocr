@@ -1,0 +1,15 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=fisher_berry_shrub_sprite.png|seedimage=fisher_berry_seeds_sprite.png|uses=
+* [[Food|食物]]
+* [[Alcohol|酒精]]|wiki=no}}
+{{av}}
+
+'''渔人果'''是一种[[above ground|地上]][[crop|作物]]。可以通过[[Plant gathering|采集]]或贸易获得,或在地表[[farm plot|农田]]上[[Farming|种植]]。它们可以直接[[food|食用]],或[[brewing|酿造]]成[[Alcohol|渔人果酒]],储存在食物仓库的"植物"区域。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]渔人果,因为它们''圆圆的形状''。
+
+[[File:Red-currant.jpg|thumb|300px|center|为浆果而来,为它们有多圆而留。]]
+{{Translation| dwarven = ngitkar lisig | elvish = nenití ada | goblin = sposm smug | human = edin tikbo}}
+
+{{gamedata}}
+{{Plants}}

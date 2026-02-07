@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=fungiwood_trunk_sprite.png|sapling=Fungiwood_sapling.png|wiki=no}}
+{{av}}
+
+'''真菌木'''是一种地下[[tree|树木]]，可能与[[tower-cap|塔帽蘑菇]]有关。
+
+它生长在[[underground|地下]][[caverns|洞穴]]中，提供柠檬色的[[wood|木材]]，也可以在[[soil|土壤]]或[[mud|泥泞的]][[rock|岩石]]上生长。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]真菌木的''细腻纹理''。
+
+{{Translation| dwarven = muz-lolum | elvish = arari-ave | goblin = ësmor-dôr | human = meplul-pado}}
+
+{{gamedata}}
+{{Plants}}
+{{Category|Subterranean trees}}

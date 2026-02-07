@@ -1,18 +1,8 @@
 {{Quality|Exceptional}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:green_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Animal dissector
-| profession = [[Ranger]]
-| job name   = [[Small animal dissection]]
-| tasks      =
-* Extract from a dead animal
-| workshop = [[Butcher's shop]]
-| attributes =
+{{v50_skill| color      = 2:0| graphic    = [[File:green_sprite_icon.png]]| graphicmargin = 106px| skill      = Animal dissector| profession = [[Ranger]]| job name   = [[Small animal dissection]]| tasks      =
+* Extract from a dead animal| workshop = [[Butcher's shop]]| attributes =
 * Agility
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 
 '''动物解剖者'''是与动物解剖[[labor|劳动]]相关的[[skill|技能]]。动物解剖者在[[butcher's shop|屠宰场]]从某些笼装[[vermin|害虫]]中制作[[extracts|提取物]]，这些害虫包括[[fire snake|火蛇]]、[[cave spider|洞穴蜘蛛]]或[[phantom spider|幻影蜘蛛]]，提取物储存在合适的[[vial|小瓶]]中。解剖者的[[skill|技能等级]]决定了完成劳动的速度，而使用的小瓶的[[quality|质量]]和材料增加了最终产品的价值。害虫本身必须由[[trapper|捕猎者]]用[[animal trap|动物陷阱]]捕获，并且在提取过程中不会存活。

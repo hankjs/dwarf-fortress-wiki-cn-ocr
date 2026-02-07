@@ -47,12 +47,7 @@
 
 只要你成功狩猎动物，这将为你带来大量的财富进行交易，特别是一旦PC的[[bone carving|骨雕]]技能提高，他们开始生产更高质量的物品。如果你有足够的力量来处理一点额外的重量，珠宝也是值得的，作为一种非常次要的护甲形式，并可能偏转敌人的攻击。目前在冒险模式中无法生产''实际的''骨质护甲。
 
-{{Translation
-| dwarven = osod
-| elvish = one
-| goblin = mudo
-| human = sut
-}}
+{{Translation| dwarven = osod| elvish = one| goblin = mudo| human = sut}}
 
 {{gamedata}}
 {{materials}}

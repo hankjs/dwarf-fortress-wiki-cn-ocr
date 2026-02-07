@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=chestnut_trunk_sprite.png
-|product=chestnut_sprite.png
-|sapling=chestnut_sapling.png}}
+{{Treelookup/0|graphic=chestnut_trunk_sprite.png|product=chestnut_sprite.png|sapling=chestnut_sapling.png}}
 {{av}}
 
 '''栗子'''是在[[biome|温带森林]]干燥地区发现的一种[[tree|树木]]。像绝大多数陆地树木一样，栗子[[carpenter|木材]]是棕色的，并生产棕色产品。
@@ -14,12 +11,7 @@
 
 [[File:Châtaignier 120807 1.jpg|thumb|center|300px|因其''刺球''而受到钦佩。]]
 
-{{Translation
-| dwarven = gingik
-| elvish  = bisi
-| goblin  = ukad
-| human   = cubra
-}}
+{{Translation| dwarven = gingik| elvish  = bisi| goblin  = ukad| human   = cubra}}
 
 {{gamedata}}
 {{Plants}}

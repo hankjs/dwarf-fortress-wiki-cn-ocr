@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=orange_trunk_sprite.png|product=date_palm_sprite.png|sapling=date_palm_sapling.png}}
+{{av}}
+
+'''海枣树'''是众多[[tree|树木]]属之一,生长在[[Tile attributes|地面之上]]。与绝大多数地上树木一样,海枣树的[[wood|木材]]呈棕色,并产出棕色产品。
+
+海枣树会结出'''海枣''',可以通过设置采集[[zone|区域]]来收获。海枣可以生食、烹饪或酿造成[[alcohol|海枣酒]]。花梗也可以在春季收获,但只能食用或烹饪。由于海枣树狭窄的外形和较高的生长高度,除非别无选择,否则收获海枣树可能并不值得。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]海枣树,因为它的''果实''。
+
+[[File:Dates on date palm.jpg|thumb|center|300px|Admired for its ''fruit''.]]
+
+{{Translation| dwarven = dëm kulin | elvish = iÿi mimi | goblin = xenak luböm | human = begu esme}}
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

@@ -1,0 +1,11 @@
+{{Quality|Fine}}
+{{av}}
+{{Removed feature}}
+''主文章: [[v0.34:Demonic fortress]]''
+
+在旧版本的游戏中,可以找到由光滑[[slade|冥岩]]制成的恶魔堡垒。这些已在0.40.01版本发布后正式移除,但[http://www.bay12forums.com/smf/index.php?topic=174649.msg8053864#msg8053864 仍可使用(实验性的)DFhack脚本手动添加]。
+
+[[File:Curious structure inside.png|center|thumb|The inside of a curious structure.]]
+
+{{Category|HFS}}
+[[ru:Demonic fortress]]

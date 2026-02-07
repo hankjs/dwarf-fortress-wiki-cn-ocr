@@ -1,9 +1,6 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
-* [[Food]]
-|graphic=bambara_groundnut_shrub_sprite.png
-|seedimage=bambara_groundnut_seeds_sprite.png
-|wiki=Vigna subterranea}}
+* [[Food]]|graphic=bambara_groundnut_shrub_sprite.png|seedimage=bambara_groundnut_seeds_sprite.png|wiki=Vigna subterranea}}
 {{av}}
 
 '''班巴拉花生'''是一种[[aboveground|地面]][[crop|园艺植物]]。它们可以在所有季节种植。只有[[cooking|烹饪]]的种子可以食用。

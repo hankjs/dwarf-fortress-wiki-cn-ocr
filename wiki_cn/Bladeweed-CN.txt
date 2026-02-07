@@ -1,9 +1,6 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
-* [[Dye]]
-|graphic=blade_weed_shrub_sprite.png
-|seedimage=blade_weed_seeds_sprite.png
-|wiki=no}}
+* [[Dye]]|graphic=blade_weed_shrub_sprite.png|seedimage=blade_weed_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''叶片草'''是一种[[plant|植物]]，仅用于在[[millstone|磨坊]]或[[quern|手磨]]制作翡翠色[[dye|染料]]。它们可以在一年中的任何时候在户外种植，并可以在任何干燥、[[Temperature|不结冰]]的[[biome|生物群系]]中通过[[Herbalist|采集植物]]收集。

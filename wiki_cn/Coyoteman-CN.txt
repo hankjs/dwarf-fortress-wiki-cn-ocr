@@ -1,0 +1,18 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=coyote_man_sprite.png|portrait=coyote_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''郊狼人'''是普通[[coyote|郊狼]]的[[animal people|动物人]]变种,可以在广泛的[[savage|野蛮]]地区找到。它们以2-10个个体的群体生成,通常满足于保持自己,但如果接近可能会攻击。在体型方面,它们的体重略超过普通[[dwarf|矮人]]的一半。
+
+像其他野蛮动物人一样,它们可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并在[[adventurer mode|冒险者模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]郊狼人的''嚎叫''。
+
+[[File:coyote_man.jpg|thumb|252px|center|Her howling is hypnotic.<br><small>''Art by Kuhl''</small>]]
+
+{{D for Dwarf}}
+郊狼人并不专注于捕捉和消费走鹃,也不会购买或创建任何种类的[[cv:trap|陷阱]]来这样做。
+
+{{gamedata}}
+{{Creatures}}

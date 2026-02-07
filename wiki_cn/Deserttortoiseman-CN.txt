@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=desert_tortoise_man_sprite.png|portrait=desert_tortoise_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''沙漠陆龟人'''是普通[[desert tortoise|沙漠陆龟]]的人形版本,是一种不起眼的[[animal people|兽人]][[Creature|物种]],出现在[[savage|野蛮]][[desert|沙漠]][[biome|生物群系]]中。它们的体型略大于成年[[dwarf|矮人]]的一半,以1-5个个体为一组出现,不太可能对你的要塞构成任何危险。
+
+像其他野蛮兽人一样,沙漠陆龟人可能偶尔会加入[[civilization|文明]],成为正式公民,可能作为[[visitor|访客]]出现在你的要塞中,或在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]沙漠陆龟人,因为它们的''壳''和''长寿''。
+
+{{gamedata}}
+{{Creatures}}

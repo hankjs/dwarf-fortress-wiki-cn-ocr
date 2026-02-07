@@ -1,25 +1,14 @@
 {{Quality|Fine}}
-{{v50_skill
-| color      = 0:1
-| graphic    = [[File:metal_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Armorsmith
-| specialty  = Armorer
-| profession = [[Metalsmith|金属工匠]]
-| job name   = [[Armoring|盔甲制造]]
-| tasks      =
-* 锻造[[armor|盔甲]]
-| workshop   =
+{{v50_skill| color      = 0:1| graphic    = [[File:metal_sprite_icon.png]]| graphicmargin = 106px| skill      = Armorsmith| specialty  = Armorer| profession = [[Metalsmith|金属工匠]]| job name   = [[Armoring|盔甲制造]]| tasks      =
+* 锻造[[armor|盔甲]]| workshop   =
 * [[Metalsmith's forge|金属锻造炉]]
-* [[Magma forge|岩浆锻造炉]]
-| attributes =
+* [[Magma forge|岩浆锻造炉]]| attributes =
 * 力量
 * 敏捷
 * 耐力
 * 创造力
 * 空间感
-* 动觉感
-}}
+* 动觉感}}
 {{av}}
 
 '''盔甲锻造师'''（armorsmith）技能用于在[[metalsmith's forge|金属锻造炉]]（或[[magma forge|岩浆锻造炉]]）制作所有[[metal|金属]][[armor|盔甲]]和[[shield|盾牌]]。对应的[[labor|劳动]]是[[armoring|盔甲制造]]。[[leather|皮革]]盔甲的制作由[[leatherworker|皮革工]]完成。

@@ -1,0 +1,15 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=finger_millet_shrub_sprite.png|seedimage=finger_millet_seeds_sprite.png|uses=
+* [[Alcohol]]
+* [[Flour]]}}
+{{av}}
+
+'''龙爪稷'''是一种[[aboveground|地上]][[crop|作物]]。它可以被[[milling|碾磨]]成[[flour|龙爪稷粉]]或[[brewing|酿造]]成[[alcohol|龙爪稷啤酒]]。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]龙爪稷植物的''谷物''。
+
+
+[[File:Finger millet 3 11-21-02.jpg|thumb|center|300px|因其''谷物''而受赞赏。]]
+
+{{gamedata}}
+{{Plants}}

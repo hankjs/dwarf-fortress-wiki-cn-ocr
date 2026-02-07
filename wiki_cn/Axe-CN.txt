@@ -1,0 +1,14 @@
+{{av}}
+
+'''斧'''可以指：
+* [[Battle axe|战斧]]
+* [[Great axe|巨斧]]
+* [[Training weapon|训练斧]]，一种训练武器
+* 石斧，一种可在冒险模式中制作的[[tool|工具]]
+
+斧是[[weapon|武器]]。除训练斧外，所有斧都可以作为伐木的[[equipment|装备]]使用。
+
+{{Translation| dwarven = libash| elvish  = cuthefi| goblin  = agun| human   = osp}}
+
+{{disambig}}
+[[ru:Axe]]

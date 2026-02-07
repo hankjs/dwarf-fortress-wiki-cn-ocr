@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=chert_sprite.png}}
+{{stonelookup/0|graphic=chert_sprite.png}}
 {{av}}
 
 '''燧石'''是一种[[magma-safe|耐岩浆]]但在其他方面并不起眼的棕色[[stone|石头]]，在[[sedimentary layer|沉积层]]中发现。

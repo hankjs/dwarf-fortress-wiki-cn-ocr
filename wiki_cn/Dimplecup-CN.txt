@@ -1,0 +1,28 @@
+{{Quality|Exceptional}}
+{{plantlookup|uses=
+* [[Dye|染料]]|graphic=dimple_cup_shrub_sprite.png|seedimage=dimple_cup_seeds_sprite.png|wiki=no}}
+{{av}}
+
+'''酒窝杯'''是一种[[underground|地下]][[crop|作物]]。它可以全年[[farming|种植]],并可以[[milling|研磨]]成[[dye|蓝色酒窝染料]]。
+* 生长时间: 500
+* 植物价值: 2
+* 研磨价值: 20
+* 染料颜色: 午夜蓝
+* 季节: 全年
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]酒窝杯,因为它们''舒缓的颜色''。
+==画廊==
+<gallery>
+DimpleCups.png|酒窝杯农场地块。
+</gallery>
+
+==另见==
+*[[List of crops|作物列表]]
+*[[Textile industry|纺织业]]
+
+{{Translation| dwarven = storlut ôfid | elvish = thace dima | goblin = nor kux | human = lapip wem}}
+
+{{gamedata}}
+{{Plants}}
+
+[[Category:Dye sources]]

@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{layerlookup/0|graphic=claystone_sprite.png}}
+{{av}}
+
+'''粘土岩'''是一种普通的[[sedimentary|沉积]][[stone|岩石]]。与[[clay|粘土]]类似,它不会维持[[aquifer|含水层]]。与粘土不同,粘土岩不能用于[[ceramic industry|陶瓷]]。
+
+==现实生活中==
+[http://en.wikipedia.org/wiki/Claystone '''粘土岩''']主要由[[clay|粘土]]大小的颗粒组成。它不应与[[shale|页岩]]混淆,页岩可以分裂成薄层,并且与[[mudstone|泥岩]]不同,因为它是完全硬化的。
+<gallery>
+File:Museo de La Plata - Arcilita.jpg|Some claystone
+</gallery>
+
+{{gamedata}}
+{{stones}}

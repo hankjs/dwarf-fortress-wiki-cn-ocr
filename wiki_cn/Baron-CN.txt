@@ -1,25 +1,11 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Noble
-| noble= Baron
-| office= Decent Office
-| quarters= Decent Quarters
-| dining= Decent Dining Room
-| tomb= Tomb
-| chests=2
-| cabinets=1
-| racks=1
-| stands=1
-| mandates=1
-| demands=2
-| arrival=
+{{Noble| noble= Baron| office= Decent Office| quarters= Decent Quarters| dining= Decent Dining Room| tomb= Tomb| chests=2| cabinets=1| racks=1| stands=1| mandates=1| demands=2| arrival=
 * 20人口
 * 100 000☼生产[[wealth|财富]]
-* 10 000☼出口[[wealth|财富]]
-| function=
+* 10 000☼出口[[wealth|财富]]| function=
 * 会见[[diplomat|外交官]]
-* 任命一名[[Champion|冠军]]
-}}{{av}}
+* 任命一名[[Champion|冠军]]}}{{av}}
 
 当要塞满足某些要求时，[[liaison|联络官]]将提议使其成为男爵领地。玩家随后将可以选择一名公民晋升为'''男爵'''，当联络官离开地图时生效（"你有任何矮人推荐晋升吗？"）。这个提议可以被暂时拒绝（通过选择"我们宁愿保持距离"选项或在同意后取消选择屏幕），将选择推迟到联络官下次访问。在提议被接受并提名候选人之前，联络官将不会协商贸易协定。晋升屏幕（见下面的示例）仅显示潜在候选人的姓名和头衔。自v0.50起，可以按{{k|esc}}关闭外交窗口，在{{menu icon|u}}单位菜单中搜索潜在候选人，然后回到外交窗口相应地任命新男爵。男爵是你的要塞在矮人和人类[[caravan|商队]]中接收[[wagon|货车]]所必需的。如果男爵被杀或在异地任务中失踪，你将不再获得货车（bug?）。
 

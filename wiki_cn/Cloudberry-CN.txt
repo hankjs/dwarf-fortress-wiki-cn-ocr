@@ -1,0 +1,10 @@
+{{Quality|Fine}}{{grasslookup/0}}{{av}}
+
+'''云莓'''是一种专门生长在原本荒凉的苔原和山区以及泰加林地区的草类。它有白色的花,但与现实生活中的对应物不同,它不会产生可食用的浆果。
+
+{{Translation| dwarven = lun-lisig | elvish = atera-ada | goblin = ëstraz-smug | human = atal-tikbo}}
+
+[[File:Golden Cloudberry.jpg|thumb|center|300px|Cloudberry.]]
+
+{{gamedata}}
+{{Plants}}

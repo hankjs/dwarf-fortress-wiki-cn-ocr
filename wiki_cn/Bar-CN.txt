@@ -6,21 +6,7 @@
 作为中间产品，金属条从不具有质量等级，并且除肥皂外，不会被矮人直接使用。除建筑外，金属条的用途包括：
 
 {| class="wikitable"
-! 金属条 !! 用途
-|-
-| [[ash|灰烬]] || 制作[[lye|碱液]]或[[potash|草木灰]]
-|-
-| [[fuel|木炭<br />或焦炭]]|| 为标准[[forge|锻炉]]、[[smelter|熔炉]]、[[kiln|窑]]和[[glass furnace|玻璃熔炉]]提供动力，<br />以及制作[[pig iron|生铁]]和[[steel|钢]]
-|-
-| [[metal|金属]] || [[blacksmith|锻造]]
-|-
-| [[pearlash|珍珠灰]] || 制作透明或水晶[[glass|玻璃]]
-|-
-| [[potash|草木灰]] || [[potash|施肥]][[farming|农场]]或制作[[pearlash|珍珠灰]]
-|-
-| [[soap|肥皂]] || [[health care|医疗保健]]和[[cleaning|清洁自身]]
-|-
-|}
+! 金属条 !! 用途|-| [[ash|灰烬]] || 制作[[lye|碱液]]或[[potash|草木灰]]|-| [[fuel|木炭<br />或焦炭]]|| 为标准[[forge|锻炉]]、[[smelter|熔炉]]、[[kiln|窑]]和[[glass furnace|玻璃熔炉]]提供动力，<br />以及制作[[pig iron|生铁]]和[[steel|钢]]|-| [[metal|金属]] || [[blacksmith|锻造]]|-| [[pearlash|珍珠灰]] || 制作透明或水晶[[glass|玻璃]]|-| [[potash|草木灰]] || [[potash|施肥]][[farming|农场]]或制作[[pearlash|珍珠灰]]|-| [[soap|肥皂]] || [[health care|医疗保健]]和[[cleaning|清洁自身]]|-|}
 
 所有"金属条"物品的[[size|尺寸]]为6000 cm<sup>3</sup>，这意味着最多10个可以装入一个[[Storage#Quick_Reference|60000容量]]的[[bin|箱子]]。唯一的例外是可能部分使用过的肥皂条。在现实世界中，一块[http://upload.wikimedia.org/wikipedia/commons/c/c6/Gold_bullion_2.jpg 400金衡盎司的金条]是645 cm<sup>3</sup>，这表明矮人要塞的"金属条"物品由多块金属条组成（因为单个"金属条"物品重115公斤）。
 
@@ -49,8 +35,7 @@
 
 {{v50 metal bars table row|name=Tin|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Cassiterite]]|density=7.28|mp=10417|val=2|valinc=+0|notes=}}
 
-{{v50 metal bars table row|name=Zinc|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Sphalerite]]|density=7.13|mp=10755|val=2|valinc=+0|notes=}}
-|}
+{{v50 metal bars table row|name=Zinc|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Sphalerite]]|density=7.13|mp=10755|val=2|valinc=+0|notes=}}|}
 ''图例：''
 :* '''方块颜色'''对应于由该金属制成的物品在游戏中显示的方式，前景色和背景色。
 :*'''来源'''表示可以提供金属的特定矿石。如果不保证生产金属，则在矿石后标注百分比机会。
@@ -88,8 +73,7 @@
 
 {{v50 metal bars table row|name=Sterling silver|tile={{Tile|≡|7:1}}|image=[[File:platinum_bar_sprite.png]]|source=3 [[Silver]]<br>+ 1  [[Copper]]*|density=10.49|mp=11602|val=8|valinc=+0|notes=}}
 
-{{v50 metal bars table row|name=Trifle pewter|tile={{Tile|≡|7:0}}|image=[[File:lead_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=4|valinc=+2|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+1.67。}}
-|}
+{{v50 metal bars table row|name=Trifle pewter|tile={{Tile|≡|7:0}}|image=[[File:lead_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=4|valinc=+2|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+1.67。}}|}
 
 ; 注释：
 : 1) '''比隆合金'''可以用[[tetrahedrite|四面体矿]]或[[galena|方铅矿]]矿石（而不是[[silver|银]]条）制作以增加价值：（铜矿 + 四面体矿：+3.5；四面体矿 + 四面体矿：+3；铜矿 + 方铅矿：+ 2.5；四面体矿 + 方铅矿：+ 2）。
@@ -108,8 +92,7 @@
 {{minorspoiler}}
 {{v50 pure metal bars table head}}
 {{v50 metal bars table row|name=Adamantine|tile={{Tile|≡|3:1}}|image=[[File:adamantine_bar_sprite.png]]|source=[[Raw adamantine]]|density=0.200|mp=25000|val=300|valinc=+50|notes=（见下文）}}
-{{v50 metal bars table row|name=Divine metal|tile={{Tile|≡|7:0}}|image=[[File:Divine metal anim.gif]]|source=None|density=1|mp=None|val=300|valinc=|notes=（见下文）}}
-|}
+{{v50 metal bars table row|name=Divine metal|tile={{Tile|≡|7:0}}|image=[[File:Divine metal anim.gif]]|source=None|density=1|mp=None|val=300|valinc=|notes=（见下文）}}|}
 '''精金'''不能直接熔炼，必须先[[Strand extractor|提取]]。
 * 可用于锻造除床以外的任何物品
 * 刀刃的锋利度是标准金属的10倍，结合其极高的剪切断裂/屈服值，使其对于刀刃武器的效果是钢的100多倍
@@ -124,12 +107,7 @@
 * [[Block|方块]]
 * [[Stack|堆叠]]
 
-{{Translation
-| dwarven = ish
-| elvish  = emu
-| goblin  = zak
-| human   = tod
-}}
+{{Translation| dwarven = ish| elvish  = emu| goblin  = zak| human   = tod}}
 
 {{Category|Materials}}
 [[ru:Bar]]

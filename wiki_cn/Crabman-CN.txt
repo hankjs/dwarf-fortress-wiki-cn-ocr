@@ -1,0 +1,20 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=Crab_man_sprite.png|portrait=crab_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''螃蟹人'''是普通[[crab|螃蟹]]的[[animal people|动物人]]变种,可以在[[savage|野蛮]][[ocean|海洋]]中找到。它们以1-5个个体的群体生成,通常满足于保持自己。在体型方面,它们的体重略超过普通[[dwarf|矮人]]的一半。
+
+像其他野蛮动物人一样,它们可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并在[[adventurer mode|冒险者模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]螃蟹人的''钳子''和它们的''横向行走''。
+[[File:crab_man.png|thumb|250px|center|Tastes equally as good as standard crab.<br><small>''Art by wallsofwoe''</small>]]
+{{D for Dwarf}}
+由于基于海洋的要塞进行的广泛研究,我们可以得出结论,螃蟹人实际上'''不'''与臭名昭著的洞穴居住蟹人有关——也就是说,那些尝起来像螃蟹,但说话像[[humans|人]]的。它们也被认为偶尔会举办极端的过夜[[party|派对]]。螃蟹人通常不愿意放弃他们获得的任何[[currency|硬币]],并经常征召[[sponge_man|海绵人]]和[[squid_man|鱿鱼人]]的工作来准备[[food|食物]]。
+
+螃蟹人[[Agent|间谍]]似乎是它们自己的亚种,被认为非常稀有。
+
+{{Translation| dwarven = ozsit udos | elvish = ditari onino | goblin = slalsto ngorûg | human = julosm abo}}
+
+{{gamedata}}
+{{Creatures}}

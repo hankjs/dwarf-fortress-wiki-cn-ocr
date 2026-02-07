@@ -1,0 +1,25 @@
+{{Quality|Fine}}
+{{av}}
+'''工程师'''是一个类别职业。它包含与[[Mechanism|机械]]和[[Machine component|机械装置]]的建造和操作相关的技能,包括[[Siege engine|攻城器械]]。
+
+一个成年[[Dwarf|矮人]],如果其最佳[[Skill|技能]]属于这个类别,并且在其他工程技能中积累了等级(具体多少不清楚),将被称为工程师,或者一旦他们在这些技能之一中达到了"大师"技能,但在其他技能中没有达到。
+
+如果一个矮人只在一种工程师技能上有[[Experience|经验]],他们将以其最高技能而闻名。
+
+工程技能包括:
+
+{{Skill Box|Engineer|4:1|4:1|
+* [[Mechanic|机械师]]
+* [[Pump operator|泵操作员]]
+* [[Siege engineer|攻城工程师]]
+* [[Siege operator|攻城操作员]]}}
+
+[[optics engineer|光学工程]]和[[fluid engineer|流体工程]]技能不算作工程技能,但无论如何都会为工程师头衔做出贡献,并与[[Student|学生]]技能一起在各自的行会大厅教授。
+
+{{D for Dwarf}}
+众所周知,工程师是最不容易不诚实的。
+
+<!--;See also:
+:* [[Main:Skill#Professions.2C_colors.2C_.26_skill_categories|Skill categories]]-->
+{{Skills}}
+{{Category|Professions}}{{Category|Scholarship}}

@@ -1,10 +1,7 @@
 {{Quality|Fine}}
 {{plantlookup|uses=
 * [[Food]]
-* [[Alcohol]]
-|graphic=bloated_tuber_shrub_sprite.png
-|seedimage=bloated_tuber_seeds_sprite.png
-|wiki=no}}
+* [[Alcohol]]|graphic=bloated_tuber_shrub_sprite.png|seedimage=bloated_tuber_seeds_sprite.png|wiki=no}}
 {{av}}
 '''膨胀块茎'''是一种[[above ground|地上]][[plant|植物]]。它们可以[[food|生吃]]、[[cooking|烹饪]]或[[brewing|酿造]]成<strike>伏特加</strike>[[tuber beer|块茎啤酒]]。
 

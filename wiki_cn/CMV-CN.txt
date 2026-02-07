@@ -1,0 +1,27 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+'''CMV'''文件格式用于在''矮人要塞''中录制电影。可以通过从游戏内任何地方按{{key|;}}并按照说明在游戏中录制电影。CMV文件可以在游戏中从同一个{{key|;}}菜单播放(可从任何屏幕使用,包括开场菜单屏幕),或使用第三方播放器(在游戏的整个存在期间只有两个)。
+
+还存在将CMV文件转换为动画.gif格式的工具,例如milo christiansen的[http://www.bay12forums.com/smf/index.php?topic=147803.0 CMV to GIF]命令行实用程序。
+
+==电影档案==
+自2007年9月以来,DF社区的成员能够通过[[Utility:Dwarf_Fortress_Map_Archive|DF地图档案]]的电影页面与社区中的其他玩家[http://mkv25.net/dfma/addmovie.php 分享]和[http://mkv25.net/dfma/browsemovies.php 观看]CMV电影。这部分归功于'''gonbon''',他编写并提供了基于flash的CMV播放器供社区使用。
+
+==历史注释==
+2008年8月,[[Main:Toady One|Toady One]]升级了''矮人要塞''的录制能力,以支持大于标准80x25的网格大小。
+
+==CCMV文件格式==
+为了提高CMV文件的压缩率,SL引入了压缩CMV文件格式(CCMV),对最终文件数据使用zlib进行单次传递。这种压缩与DFMA上的Flash播放器兼容。较小的文件大小意味着更快的下载,但破坏了标准CMV文件格式可能具有的任何流式传输功能。
+
+==文件格式==
+* Jifodus的用户页面有一个描述[[User:Jifodus/CMV_file_format|CMV文件格式]]的表格。
+* Markavian的用户页面有一个更新的版本,表示为[[User:Markavian/CMV_file_format|C# CMV类]],基于[http://shadowlord13.googlepages.com/dfmap-index.html SL]编写的优化代码和Toady One转发的头信息。
+
+
+
+{{D for Dwarf}}
+一些矮人声称看到Armok拿着一个带有红灯的奇怪装置,尽管这些仅仅被当作谣言传播。
+
+{{Category|Interface}}
+[[ru:CMV]]

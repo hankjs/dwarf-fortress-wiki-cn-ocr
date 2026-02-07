@@ -1,12 +1,7 @@
 {{Quality|Superior}}{{av}}
 
-{{Noble
-|noble=Bookkeeper
-|office=Meager Office
-|arrival=Appointed on the [[nobles screen]].
-|function=
-* Accurate accounting of [[stocks]] and [[wealth]].
-}}
+{{Noble|noble=Bookkeeper|office=Meager Office|arrival=Appointed on the [[nobles screen]].|function=
+* Accurate accounting of [[stocks]] and [[wealth]].}}
 
 '''簿记员'''是一位任命的[[noble|贵族]]，负责以更准确的信息更新[[stocks|库存]]和[[wealth|创造财富]]界面。簿记员需要在[[office|办公室]]工作才能完成这项任务。簿记员使用[[record keeper|记录保管员]]技能，该技能授予[[clerk|职员]]职业。对[[record keeper|记录保管员]]技能来说，重要的属性是分析能力、记忆力和专注力。
 

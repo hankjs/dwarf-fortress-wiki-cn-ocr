@@ -1,0 +1,19 @@
+{{Quality|fine}}
+{{verminlookup/0|image=creepy_crawler_sprite.png|portrait=creepy_crawler_portrait.png|wiki=no}}
+{{av}}
+{{creaturedesc}}
+
+'''诡异爬虫（Creepy crawlers）'''是一种[[evil|邪恶]]的地下[[vermin|害虫]]。它们出现在深层[[caverns|洞穴]]中，可能在[[miasma|腐烂]]的[[food|食物]]附近生成。它们可以被[[trapper|捕猎者]]捕获并变成低价值[[pet|宠物]]。当它们栖息的洞穴层被突破时，它们会开始出现在地表，通常在[[food|食物]]或[[refuse|垃圾]]储物堆顶部徘徊。
+
+与所有其他害虫不同，诡异爬虫可以被屠宰以获得少量[[meat|肉]]和器官（由于''没有''{{token|NOT_BUTCHERABLE|c}}、{{token|MILKABLE|c}}或{{token|CAN_LEARN|c}}）。被[[trapper|捕猎者]]用[[animal trap|动物陷阱]]捕获的活诡异爬虫会自动排队在屠宰场屠宰，但前提是它们尚未被驯化。如果被杀死，例如被[[cat|猫]]杀死，只会留下无用的[[remains|残骸]]。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]诡异爬虫的''怪异蠕动''。
+==画廊==
+<center>
+<gallery widths="300px" heights="300px">
+creepy_crawler.png|You could almost paint those nails.<br>''Art by Arne''
+Notebook_12_CreepyCrawler.jpg|''Concept art by Bay 12 Games.''
+</gallery></center>
+
+{{gamedata}}
+{{vermin}}

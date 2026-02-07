@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=blood_thorn_trunk_sprite.png
-|sapling=Blood_thorn_sapling.png
-|wiki=no}}
+{{Treelookup/0|graphic=blood_thorn_trunk_sprite.png|sapling=Blood_thorn_sapling.png|wiki=no}}
 {{av}}
 
 '''血棘'''是外观可怕的[[tree|树木]]，只生长在最深的[[cavern|洞穴]]层。它们与同类的区别在于是游戏中[[density|密度]]最大的树（尽管[[glumprong|忧郁枝]]接近），密度约为大多数石头的一半，以及它们独特的深红色。当被[[wood cutter|砍伐]]时，它们会产生极其沉重的深红色[[wood|木材]]，这在其他任何地方都找不到，可以制作沉重但色彩鲜艳的家具，以及稍微不那么无用的木质[[ballista|弩炮]]箭矢。奇怪的是，被踩踏的幼年血棘是''紫色''而不是深灰色，大概是因为植物被"瘀伤"了——这是模仿它们名字中的"[[blood|血液]]"。

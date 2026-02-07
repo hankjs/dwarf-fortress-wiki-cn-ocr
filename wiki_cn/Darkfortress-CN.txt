@@ -1,0 +1,50 @@
+{{migrated article}}
+{{Quality|Exceptional}}
+{{av}}
+
+<div style='margin: 1em 2em'>''你可能在寻找[[Dwarf fortress mode|矮人要塞模式]]。''</div>
+[[File:dark_fortress_preview.png|thumb|300px|right|一座不值得攀登的山峰。]]
+[[File:Dark_fortress_map_43.png|thumb|300px|从传奇模式导出的发达黑暗要塞地图。<br>
+兴趣点：<br>
+<span style="color:rgb(255,0,255)">█</span> 主塔<br>
+<span style="color:rgb(128,128,128)">█</span> 哨塔<br>
+<span style="color:rgb(50,30,20)">█</span> 地下工作坑<br>
+<span style="color:rgb(20,50,40)">█</span> 地下生活坑]]
+
+'''黑暗要塞'''（[[File:icon_site_dark_fortress_1.png]]）是由[[goblin|哥布林]]文明创建的[[site|地点]]。它们与[[dark pits|黑暗坑]]一样，采用简单的塔楼形式，周围环绕着蔓延的战壕网络。在ASCII模式下，起始的黑暗要塞在世界地图上标记为{{Raw Tile|Π|5:0:1}}，而后续的则标记为{{Raw Tile|Π|0:0:1}}。
+
+黑暗要塞的大部分人口位于塔楼顶部。塔楼还有向下的楼梯，通向要塞的地下部分，由所谓的"坑"组成（不要与[[dark pits|黑暗坑]]混淆）。这些坑有两种变体："生活坑"由走廊和小房间组成，"工作坑"由可能包含[[troll|巨魔]]、物品和哥布林骨架的大厅组成。据推测，生活坑用作[[bedroom|住所]]，而工作坑用作[[industry|工业]]区和[[tomb|墓地]]。
+
+黑暗要塞和黑暗坑之间的主要区别是地点中央存在一个要塞结构。黑暗要塞往往比黑暗坑更发达和人口更多，导致更多的战壕、哨塔以及通过地下区域在塔楼之间有更多的互连。黑暗要塞也可能建在外来起源的[[underworld spire|某种结构]]周围。
+
+中央黑暗要塞结构在顶部包含一个王座室，几层通往王座的迷宫般楼层，底层和2-4层以上的地下迷宫般监狱楼层，其中可能包含被[[thief|绑架]]的[[children|儿童]]。据观察，发现自己在牢房外的囚犯会自愿返回牢房。通常，监狱楼层之间的一些上下楼梯隐藏在开关下。像黑暗坑一样，结构和入口附近的区域可能栖息着许多[[troll|巨魔]]和[[beak dog|喙犬]]。
+
+在冒险模式中访问发达的黑暗要塞和坑可能会导致极端的延迟，因为居民数量可能达到数千。通过在要塞（或外面）睡觉直到夜晚，当大多数生物都睡着时，可以大大减少延迟和对FPS的影响。改用更快的步态或骑上快速坐骑也会有所帮助，因为它减少了其他生物在再次轮到你之前进行的计算量。
+
+<gallery>
+Dark pit 1.png|环绕哨塔的战壕
+Dark pit 2.png|哨塔顶部
+Dark pit 3.png|主塔地面层
+Dark pit 5.png|小型生活坑区域
+Dark pit 6.png|工作坑
+Dark pit 7.png|工作坑下方
+Dark pit 8.png|生活坑
+</gallery>
+
+{{clear}}
+
+== 可能连接的地点 ==
+{{spoiler}}
+
+初始的黑暗要塞{{Raw Tile|Π|5:0:1}}下方有一个[[underworld spire|地下世界尖塔]]，将塔楼连接到地下世界本身。这些要塞创建于时间之前的时代，由[[slade|板岩]]而不是普通石头类型建造。
+
+一个巨大的开放式圆形楼梯构成了尖塔的大部分。这个楼梯通常分为两层或三层多层楼层，但有时多达六层或七层。有时这些楼梯会故障打开到洞穴或岩浆海。楼梯下方是地下世界入口层。如果有地下世界之门，它将在这里。有时它会故障嵌入板岩墙中。地下世界之门之后是最低的一系列房间，最终直接通向[[underworld|地下世界]]。在到达地下世界的实际出口之前，有很多上下楼梯迷宫。
+
+<gallery>
+Dark_Fortress_guide.png|描述带有地下世界尖塔的黑暗要塞各部分的简短指南。
+Dark pit 4.png|地下世界之门
+</gallery>
+
+{{Translation| dwarven = umom geshud | elvish = mari abeco | goblin = ustro snusp | human = tuth thrathdad}}
+
+{{World}}

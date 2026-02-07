@@ -1,0 +1,25 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=echidna_couple_sprite.png|portrait=echidna_portrait_anim.gif|bone=4|meat=7|fat=7|lung=2|intestine=1|liver=0-1|tripe=0-1|brain=1|skull=1|skin=hide|wiki=yes|contrib=no}}
+{{av}}
+{{creaturedesc}}
+{{buggy|bugsection=Bugs}}
+
+'''针鼹'''是在大多数[[temperate|温带]][[biome|生物群系]]和[[desert|沙漠]]中发现的小型独居[[creature|生物]]。它们是良性漫步者,会逃离任何试图与之对抗的[[dwarf|矮人]],通常即使是最没有经验的[[hunter|猎人]]也能对付。它们的身体被刺覆盖(实际上触摸并不会疼),当受到威胁时,它们会蜷缩成球来保护自己。针鼹宝宝被称为''针鼹仔'',它们出生时小得像[[ant|蚂蚁]]。
+
+针鼹可以在[[cage|笼子]][[trap|陷阱]]中捕获,并被[[Animal trainer|驯兽师]]训练成异国[[pet|宠物]]。作为单孔类动物,它们产[[egg|蛋]]生育,因此可以放在[[nest box|巢箱]]中,尽管它们一次只产一个蛋。就[[butcher|屠宰]]收益而言,它们仅比[[cat|猫]]略好,使其总体上成为[[meat industry|肉类产业]]或[[egg production|蛋类生产]]的差劲动物。
+
+一些矮人[[Preferences|喜欢]]针鼹是因为它们的''刺''和''产卵''特性。
+
+== 漏洞 ==
+如果蜷缩或缩回的生物死亡,然后被死灵法师复活,它会保留蜷缩的效果,但可以正常移动和攻击。因此,例如不死针鼹是无法摧毁的{{bug|11463}}。这与允许蜷缩的不死生物攻击的另一个漏洞相结合{{bug|10519}}。
+
+因此,不死针鼹可能同时蜷缩(使其无法杀死)并移动/攻击。同样的问题也影响[[echidna man|针鼹人]]、[[giant echidna|巨型针鼹]]、[[giant hedgehog|巨型刺猬]]、[[hedgehog man|刺猬人]]和[[Armadillo|犰狳]]。
+
+修改游戏并从受影响动物的刺身体部位中移除[PREVENTS_PARENT_COLLAPSE]将允许它们在蜷缩时被打成泥并杀死。虽然这会使普通针鼹变弱,但这不是一个大问题,因为针鼹本来就不应该很难杀死。这个解决方法[http://www.bay12forums.com/smf/index.php?topic=175473.msg8111524#msg8111524 可能会恢复原本无法游玩的游戏]。
+
+还有报告称,在冒险者模式中"我最终能够通过在他下面/周围点火然后等待很长时间来杀死僵尸;最终他'死于高温'。"{{bug|10519}}。
+
+[[File:Long-beakedEchidna.jpg|thumb|center|400px|因其''刺''而受到赞赏。]]
+
+{{gamedata}}
+{{creatures}}

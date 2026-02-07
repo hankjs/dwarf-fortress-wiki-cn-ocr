@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_claro_opal_sprite.png|graphic2=rough_claro_opal_sprite.png|wiki=opal}}
+{{av}}
+
+'''透明蛋白石'''是一种中等价值的半宝石[[gem|宝石]],在所有[[stone layer|岩石层]]中以[[cluster|簇]]的形式发现。
+
+[[File:Claro Opal.jpg|thumb|center|300px|Claro opal.]]
+
+{{gamedata}}
+{{gems}}

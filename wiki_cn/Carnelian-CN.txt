@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_carnelian_sprite.png
-|graphic2=rough_carnelian_sprite.png}}
+{{gemlookup/0|graphic=cut_carnelian_sprite.png|graphic2=rough_carnelian_sprite.png}}
 {{av}}
 
 '''红玉髓'''是在[[sedimentary layer|沉积层]]中发现的不起眼的低价值[[gem|宝石]]。

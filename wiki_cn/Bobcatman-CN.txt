@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=bobcat_man_sprite.png
-|portrait=bobcat_man_portrait.png}}
+{{Creaturelookup/0|image=bobcat_man_sprite.png|portrait=bobcat_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

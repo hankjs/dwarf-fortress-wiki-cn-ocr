@@ -1,28 +1,15 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_item | name=Block
-|graphic=[[File:block_sprite.png]]
-|tile=■
-|wood=y
-|stone=y
-|ceramic=y
-|glass=y
-|metal=y
-|bars=1
-|labors=<span></span>
+{{v50_item | name=Block|graphic=[[File:block_sprite.png]]|tile=■|wood=y|stone=y|ceramic=y|glass=y|metal=y|bars=1|labors=<span></span>
 * [[Carpentry]]<br><br>
 * [[Stonecutting]]<br><br>
 * [[Blacksmithing]]<br><br>
 * [[Glassmaking]]<br><br>
-* [[Pottery]]
-|used for=
+* [[Pottery]]|used for=
 * [[Building]]
 * [[Well]]
 * [[Screw pump]]
-* [[Ashery]]
-|value=5
-|size=6,000
-}}
+* [[Ashery]]|value=5|size=6,000}}
 
 :''关于战斗中的"格挡"，参见[[Armor]]。''
 
@@ -48,12 +35,7 @@
 
 金属矿石和经济石头在石匠工坊切割时仍会产生多个石头方块。然而，这会破坏除建筑和[[strange mood|奇异心情]]之外的任何用途，例如[[reaction|反应]]：[[flux|熔剂]]方块'''不能'''用于制作[[pig iron|生铁]]或[[steel|钢铁]]，矿石方块也不能在[[smelter|冶炼厂]]中[[smelter|冶炼]]成金属（除非修改反应）。请注意，[[raw adamantine|原始精金]]的"填充"方块非常适合增加[[artifact|神器]]的价值，而不会在传奇门、桌子等上浪费太多精金。
 
-{{Translation
-| dwarven = kastar
-| elvish  = epuba
-| goblin  = zobo
-| human   = xugot
-}}
+{{Translation| dwarven = kastar| elvish  = epuba| goblin  = zobo| human   = xugot}}
 
 == See Also ==
 * [[Stoneworker]]

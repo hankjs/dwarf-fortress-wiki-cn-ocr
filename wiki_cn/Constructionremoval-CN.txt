@@ -1,8 +1,6 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{Labor
-| labor      = Mining
-| tasks      =
+{{Labor| labor      = Mining| tasks      =
 * {{k|x}} 移除[[construction|建筑]]}}
 {{av}}
 从v50.01版本开始，'''建筑移除'''[[labor|劳动]]已更改为[[mining|采矿]]劳动中的一项工作。更具体地说，它已被纳入移除坡道/楼梯的指定中。

@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=bonobo_sprites.png|portrait=bonobo_portrait_anim.gif|bone=10|meat=12-13|fat=12-12|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''倭黑猩猩'''是与[[dwarf|矮人]]体型相当的[[Creature|猿类]]，罕见于[[tropical|热带]][[shrubland|灌木丛]]和湿润阔叶[[forest|森林]]中，以五到十个个体成群出现。它们在所有方面几乎与[[chimpanzee|黑猩猩]]完全相同，只是名字不同；它们是温和的漫游者，只有在被逼到极限时才会攻击矮人，通常会简单地避免接触。该物种的所有成员天生拥有传奇级[[skill|技能]]的[[Climber|攀爬]]能力。
+
+倭黑猩猩可以用[[cage|笼子]][[trap|陷阱]]捕获并[[Animal trainer|训练]]成有价值的异国[[pet|宠物]]。由于体型略小于矮人，倭黑猩猩[[butcher|屠宰]]后产出很少，考虑到它们的稀有性，将它们用作牲畜是一种浪费。倭黑猩猩幼崽需要两年才能长到完整体型，十年才能达到成年。像其他猿类一样，它们是游戏中少数不能自然游泳的野生动物之一，因此如果被扔进[[water|水]]中可能会溺水。
+
+一些矮人[[Preferences|喜欢]]倭黑猩猩的''滑稽动作''。
+
+[[Image:Bonobo-04.jpg|thumb|center|400px|Admired for their ''antics''.]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

@@ -1,0 +1,17 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=cougar_sprites.png|portrait=cougar_portrait_anim.gif|contrib=no|meat=13|fat=13|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|bone=11-15|skull=1|skin=hide|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''美洲狮'''是生活在灌木地和林地的有些罕见的独居大型猫科动物。虽然[[size|体型]]与普通[[dwarf|矮人]]相当,但它们很少攻击你的矮人,更喜欢在远离你要塞的地方徘徊。美洲狮可以被[[animal trainer|动物训练师]]捕获和训练。虽然美洲狮部位的价值是[[domestic animal|家养动物]]部位的两倍,但除非[[elf|精灵]]碰巧带来一对繁殖对,否则很难建立繁殖计划。不幸的是,与许多大型猫科动物不同,它们不能接受战争/狩猎训练(尽管这很容易用一些[[modding|模组]]修复)。
+
+一些矮人[[preferences|喜欢]]美洲狮的''狡猾''。
+
+[[File:Cougar sitting.jpg|thumb|400px|center|Admired for its ''cunning''.]]
+
+{{D for Dwarf}}
+游戏后期,美洲狮可能会更频繁地出现,取决于你的要塞有多少年轻雄性矮人。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

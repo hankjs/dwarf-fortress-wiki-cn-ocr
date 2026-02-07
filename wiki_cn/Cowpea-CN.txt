@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=cowpea_shrub_sprite.png|seedimage=cowpea_seeds_sprite.png|uses=
+*[[Food]]}}
+{{av}}
+
+'''豇豆'''是一种[[aboveground|地上]][[crop|花园植物]]。它们可以在所有季节种植,只有种子在[[cooking|烹饪]]时可食用。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]豇豆植物的''豆荚''。
+
+
+[[File:Lobia.jpg|thumb|center|300px|Admired for its ''pods''.]]
+
+{{gamedata}}
+{{Plants}}

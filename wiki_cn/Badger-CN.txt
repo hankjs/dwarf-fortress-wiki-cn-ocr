@@ -1,20 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=badger_sprite.png
-|portrait=badger_portrait_anim.gif
-|fat=11
-|intestine=1
-|liver=1
-|tripe=1
-|nervous tissue=1
-|brain=1
-|bone=10
-|meat=11
-|lung=2
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=yes}}
+{{Creaturelookup/0|image=badger_sprite.png|portrait=badger_portrait_anim.gif|fat=11|intestine=1|liver=1|tripe=1|nervous tissue=1|brain=1|bone=10|meat=11|lung=2|skull=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

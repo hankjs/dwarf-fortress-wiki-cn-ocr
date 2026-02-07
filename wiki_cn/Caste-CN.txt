@@ -13,17 +13,7 @@
 通过修改可能产生一些错误，例如通过在生物级别定义{{token|BODY|c}}标签，然后创建生物的新种姓级定义来创建"分形身体"。这会生成重复的身体部位，其数量随着它们离上身部位越远而增加，有六个上臂、八个下臂和十只手。请负责任地修改。
 
 ;选择种姓：
-{|
-|<code>[CASTE:<CASTE_NAME>]</code> ||定义一个名为<CASTE_NAME>的种姓。此后的标签仅影响此种姓。
-|-
-|<code>[SELECT_CASTE:ALL]</code>   ||声明以下标签影响所有种姓
-|-
-|<code>[SELECT_CASTE:<CASTE_1>]</code>||...
-|-
-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_2>]</code>||...
-|-
-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_3>]</code>||等，用于指定标签影响种姓的子集
-|}
+{||<code>[CASTE:<CASTE_NAME>]</code> ||定义一个名为<CASTE_NAME>的种姓。此后的标签仅影响此种姓。|-|<code>[SELECT_CASTE:ALL]</code>   ||声明以下标签影响所有种姓|-|<code>[SELECT_CASTE:<CASTE_1>]</code>||...|-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_2>]</code>||...|-|<code>[SELECT_ADDITIONAL_CASTE:<CASTE_3>]</code>||等，用于指定标签影响种姓的子集|}
 
 {{Category|Game mechanics}}
 [[ru:Caste]]

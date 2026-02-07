@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=cardinal_sprite.png
-|portrait=cardinal_portrait.png
-|wiki=Cardinal_(bird)}}
+{{verminlookup/0|image=cardinal_sprite.png|portrait=cardinal_portrait.png|wiki=Cardinal_(bird)}}
 {{av}}
 {{creaturedesc}}
 

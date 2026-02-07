@@ -1,0 +1,12 @@
+{{Quality|Tattered}}
+{{Skill| color      = 3:0| skill      = Dancer| profession = | job name   = | tasks      = | attributes =
+* Strength
+* Agility
+* Spatial Sense
+* Musicality
+* Kinesthetic Sense}}
+{{av}}
+{{stub}}
+'''舞者'''是一种[[performance|表演]]技能，在表演舞蹈时使用。舞者可能会像吟游诗人和[[poet|诗人]]一样访问你的要塞，有时会请愿留下来娱乐。观看表演的矮人有时会获得积极的想法。舞者通常会在[[taverns|酒馆]]中表演。
+
+{{Skills}}

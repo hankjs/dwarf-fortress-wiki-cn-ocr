@@ -1,0 +1,74 @@
+{{Quality|Superior}}
+{{av}}
+:''不要与[[Cavern|洞穴层]]混淆。''
+
+[[File:Cave_entrance.png|thumb|upright|洞穴入口。]]
+[[File:Cave_inside.png|thumb|upright|洞穴内部。]]
+
+'''洞穴'''是一个小型的自然[[site|站点]]，拥有一个大型[[rock|岩石]]土丘，有几个[[z-level|z层]]高，沿着土丘的侧面任何地方开始有一条向下的通道。该通道通常深入通向一个[[cavern|洞穴层]]。很少情况下，洞穴可能缺少任何通道，甚至没有进入土丘的入口。
+
+大多数洞穴有地下动物的自然种群，如[[cave swallow|洞穴燕]]和[[bat|蝙蝠]]。某些[[megabeast|巨兽]]、[[semi-megabeast|半巨兽]]和[[night creature|夜行生物]]会在洞穴中定居。如果洞穴被喜欢从附近站点[[Steals items|偷物品]]的生物居住，它们的囤积物将散落在整个站点。[[Dragon|龙]]以囤积珠宝而闻名；[[ettin|双头巨人]]和[[giant|巨人]]囤积[[jewelry|珠宝]]、[[food|食物]]和[[alcohol|酒精]]。
+
+文明种族也可以在未被占领的洞穴中定居。洞穴是[[kobold|狗头人]]的起始站点。狗头人洞穴有一个延伸的地下隧道和房间网络，连接到自然通道。像其他站点一样，洞穴可能被入侵者或怪物攻击。它们是玩家可以在没有第三方工具的情况下[[embark|出发]]的少数已知站点之一。
+
+== 生成 ==
+
+该站点包含3×3出发[[tile|瓦片]]，尽管洞穴土丘本身只占用一个出发瓦片，或48×48瓦片。土丘可以位于任何出发瓦片中，因此它并不总是在站点中心找到。
+
+洞穴有两种生成方式：山地洞穴出现在[[mountain|山脉]]地区瓦片旁边，而非山地洞穴出现在除山脉以外的任何陆地生物群系中。每个世界的洞穴数量由参数{{DFtext|Number of Mountain Caves}}和{{DFtext|Number of Non-Mountain Caves}}决定。这两个参数都可以在[[advanced world generation|高级世界生成]]中配置。
+
+在世界地图上，洞穴显示为[[File:icon_site_cave.png]] / {{Raw Tile|•|0:0:1}}。然而，默认情况下，它们是隐藏的，直到被[[Adventurer_mode|冒险者]]发现。在高级世界生成中，将选项{{DFtext|Make Caves Visible}}设置为{{DFtext|Yes}}将使洞穴从一开始就可见。
+
+在洞穴内部，每个z层有两个斜坡，一个向上，一个向下。斜坡构成从地表到地下的路径。路径并不总是直线；在某些z层，通道可以扩展成一个小画廊。
+
+物品（包括[[artifact|神器]]）的分布散布在站点边界内，从地表到任何可步行到达的地下层，即，在无斜坡的下降或淹没的通道之外将找不到战利品，即使囤积物的主人是飞行或两栖生物。
+
+=== 狗头人洞穴 ===
+
+由潜行小偷居住的洞穴有额外的复杂地下通道网络，从单个入口连接到洞穴土丘的自然通道。地下网络位于地表附近并在洞穴层之上；有时它位于地面下方仅一个z层。[[Kobold|狗头人]]、有毒小动物和被盗宝藏可以在这里找到。
+
+很容易在隧道网络中迷路，隧道只有一个瓦片宽，向各个方向蜿蜒。斜坡和楼梯上下几个z层。路径包含隐藏的[[weapon trap|武器陷阱]]和带有武装狗头人的3×3警卫哨。隧道还点缀着小坑，底部有陷阱。该站点的一个独特特征是每个武器陷阱都涂有[[syndrome|综合症]]诱发毒液，范围从大黄蜂毒液到响尾蛇毒液，再到[[giant cave spider|巨型洞穴蜘蛛]]的危险致命毒液。如果陷阱成功击中，涂层武器会将毒液注入入侵者体内。由于在洞穴中通常不可能快速旅行或休息，你很可能被迫忍受（或屈服于）毒液的影响。
+
+通道网络连接五个主要房间：战利品室、用于驯化动物的大坑室、蛋室、充满尸体的房间和生活区。被盗神器与其他被盗物品堆放在战利品室。生活区是包含许多敌对狗头人的不规则洞穴。动物坑室是最大的房间，跨越几个z层深的渐进斜坡，侧面有3×3围栏。此房间可以包括任何有毒的非哺乳动物生物。
+
+<gallery>
+File:Kobold cave entrance.png|Kobold cave entrance. Several levels needed to be traversed down from the natural cave mouth to reach this point.
+File:Kobold cave passage.png|First tunnel portion
+File:Kobold cave passage 2 (z3).png|Second tunnel portion (z-level 0)
+File:Kobold cave passage 2 (z2).png|Second tunnel portion (z-level -1)
+File:Kobold cave passage 2 (z1).png|Second tunnel portion (z-level -2)
+File:Kobold cave passage 2 (z0).png|Second tunnel portion (bottom)
+File:Kobold cave pit (z4).png|Pit room (z-level 0)
+File:Kobold cave pit (z3).png|Pit room (z-level -1)
+File:Kobold cave pit (z2).png|Pit room (z-level -2)
+File:Kobold cave pit (z1).png|Pit room (z-level -3)
+File:Kobold cave pit (z0).png|Pit room (z-level -4)
+File:Kobold cave living.png|Living chambers (the "l" and "g" are [[animal people]])
+File:Kobold cave trophy.png|Trophy room
+File:Kobold cave eggs.png|Room with eggs
+File:Kobold cave corpses.png|Room with corpses
+</gallery>
+
+== 要塞模式 ==
+
+[[File:Cave embark screen.png|thumb|出发选择地图屏幕上的洞穴]]
+
+在[[fortress mode|要塞模式]]中，当你[[World generation|设计]]将要玩的世界时，你可以选择是否在[[embark|出发]]屏幕上使洞穴可见。{{DFtext|Make Caves Visible}}的默认选项设置为{{DFtext|No}}。如果设置为是，洞穴将出现在地图上，以便可以根据需要寻找或避免它们。洞穴有一个奇怪的特征，即它们制成的[[stone|石头]]与挖掘后留下的材料不匹配；例如，岩壁会留下[[clay|粘土]]地板。
+
+== 冒险者模式 ==
+
+洞穴是在[[adventurer mode|冒险者模式]]中进入[[cavern|洞穴层]]的一种方式。有多种方法可以了解它们的位置。
+
+例如，如果一个文明控制了一个洞穴，那么该洞穴的位置就成为该文明内的常识。作为该文明的冒险者，你可以在你的[[quest|任务]]日志中找到有关洞穴及其位置的信息{{verify}}；你甚至可能在那里开始你的冒险。
+
+冒险者开始时知道在他们的文明中是常识的传闻，但他们通常不知道位置。你可以在对话中{{DFtext|Bring up specific incident or rumor}}，然后{{DFtext|Ask for directions to}}该位置。这将把位置添加到你的任务日志中，然后你可以检查它是否是洞穴。同样，洞穴可以是你不知道的传闻中涉及的位置，可以通过{{DFtext|Inquire about any troubles}}提出。
+
+它们有时可以通过反复询问NPC{{DFtext|about the surrounding area}}找到；如果一个地区的NPC没有告诉你任何洞穴，请移动到另一个地区再试（但请注意，NPC提到的一些地名对应于地区，而不是站点）。当NPC确实提到一个站点时，它将被添加到你可以询问方向的地点列表中。
+[[File:Homo floresiensis cave.jpg|thumb|500px|center|Did anyone bring a light?]]
+
+{{Translation| dwarven = äs| elvish  = garetho| goblin  = omo| human   = ngethac}}
+
+{{World}}
+
+{{Category|Fortress mode}}
+{{Category|Adventurer mode}}

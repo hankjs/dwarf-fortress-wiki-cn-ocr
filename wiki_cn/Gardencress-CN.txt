@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{plantlookup|graphic=garden_cress_shrub_sprite.png|seedimage=garden_cress_seeds_sprite.png|uses=
+*[[Food|食物]]}}
+{{av}}
+
+'''园水芥'''（Garden cress）是一种[[aboveground|地上]][[crop|园艺植物]]。它们可以在所有季节种植，叶子和果实可以生吃或[[cooking|烹饪]]食用。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]园水芥，因为它的''味道''。
+
+
+[[File:Img 0717 garden cress.jpg|thumb|center|300px|因其''味道''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

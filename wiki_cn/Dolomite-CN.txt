@@ -1,0 +1,27 @@
+{{Quality|fine}}
+{{layerlookup/0|graphic=dolomite_sprite.png}}
+{{av}}
+
+'''白云石'''是一种中等[[value|价值]]的经济型[[sedimentary layer|沉积]][[stone|岩石]]，形成整个地层。它也是一种[[flux|熔剂]]岩石，意味着它可以用于生产[[pig iron|生铁]]和[[steel|钢]]。此外，它是[[magma safe|抗岩浆]]的，具有极高的熔点{{ct|16507}}。在[[premium|高级]]图形中呈淡粉色，在[[classic|经典]]图形中呈白色。
+
+事实上，白云石在所有常见*岩石和金属中具有最高的[[Temperature#Melting point|熔点]]。它无法抵挡{{ct|50000}}高温的[[dragon|龙]]火的炙烤，不过它的持续时间会比大多数矿物更长。
+
+（* 不常见的例外是[[raw adamantine|原始精金]]矿石、[[adamantine|精金]]金属，以及因为无法熔化的[[slade|岩泥]]。）
+
+由于其丰富性和实用性，白云石是最出色的非[[ore|矿石]]岩石之一，比许多其他熔剂岩石有用得多。
+
+白云石的密度略高于平均岩石，会阻碍[[hauling|搬运]]。由于其作为熔剂岩石的地位，在[[steel|钢]]的制造中需求量很大，[[wheelbarrow|手推车]]对于运输白云石很有用。
+
+==现实生活中==
+
+白云石由碳酸钙镁（CaMg(CO<sub>3</sub>)<sub>2</sub>）组成，与[[limestone|石灰石]]、[[chalk|白垩]]和[[marble|大理石]]有关。其离子和晶体性质导致了其高熔点。它是白云石，宝贝！
+
+[[File:Dolomit - panoramio.jpg|center|thumb|250px|Dolomite.]]
+
+{{D for Dwarf}}
+<!-- Reference: Bender, character from "Futurama" animated TV series -->
+一些[[Iron man|铁人]]声称他们由40%的白云石组成。然而，铁人以经常对其成分做出不合逻辑、夸张和矛盾的声明而闻名，特别是那些内部机制由酒精驱动的铁人。由于白云石具有抗岩浆性，它有时被年长的人类[[scholar|学者]]吹捧为"当周围有热量时不会退缩"。
+
+{{gamedata}}
+{{stones}}
+{{Category|Economic Stone}}

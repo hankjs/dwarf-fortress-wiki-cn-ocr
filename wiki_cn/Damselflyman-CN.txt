@@ -1,0 +1,14 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|image=damselfly_man_sprite.png|portrait=damselfly_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''豆娘人'''是普通[[damselfly|豆娘]]的[[animal people|动物人]]变体，可能出现在[[savage|野蛮]]的[[lake|湖泊]]中。它们以2-5个个体为一组生成，通常满足于独处，但如果被激怒可能会挑起争斗。在体型上，它们的体重略超过平均[[dwarf|矮人]]的一半。所有豆娘人生来就拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+
+一些矮人[[Preferences|喜欢]]豆娘人，因为它们的''色彩''。
+==冷知识==
+*豆娘人使用与[[dragonfly man|蜻蜓人]]完全相同的精灵图。
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

@@ -23,12 +23,7 @@
 
 [[File:ash_preview.jpg|thumb|260px|center|第一步 - 向任何东西加火即可。]]
 
-{{Translation
-| dwarven = ibruk
-| elvish  = imeri
-| goblin  = usmdas
-| human   = cish
-}}
+{{Translation| dwarven = ibruk| elvish  = imeri| goblin  = usmdas| human   = cish}}
 
 {{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|ASH}}}}
 {{materials}}

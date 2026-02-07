@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_black_diamond_sprite.png
-|graphic2=rough_black_diamond_sprite.png
-|wiki=Carbonado}}{{av}}
+{{gemlookup/0|graphic=cut_black_diamond_sprite.png|graphic2=rough_black_diamond_sprite.png|wiki=Carbonado}}{{av}}
 
 '''黑钻石'''是特别罕见的[[gem|宝石]]，与[[yellow diamond|黄]]、[[red diamond|红]]、[[blue diamond|蓝]]、[[green diamond|绿]]和[[clear diamond|透明]][[diamond|钻石]]类似——它们仅作为单独的宝石出现在现有的[[faint yellow diamond|淡黄钻石]][[vein|矿脉]]中，而淡黄钻石本身仅在[[kimberlite|金伯利岩]]中发现，金伯利岩本身仅在[[gabbro|辉长岩]][[stone layers|岩层]]中发现。相应地，它们是''矮人要塞''中能找到的最[[item value|珍贵]]的宝石之一。
 

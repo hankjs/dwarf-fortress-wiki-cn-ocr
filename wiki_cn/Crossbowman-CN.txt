@@ -1,0 +1,33 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill| color      = 0:0| skill      = Crossbowman| profession = [[Military|军事]]| job name   = None| tasks      = *在远程战斗中使用十字弓| attributes = Unknown}}
+{{av}}
+{{buggy|bugsection=Bugs}}
+
+[[File:dwarf_crossbow.jpg|thumb|250px|right|偏好铁箭矢。]]'''十字弓手'''是与在战斗中使用[[crossbow|十字弓]]相关的[[combat skill|战斗技能]]。更高的技能等级能提供更好的精准度和更高的射速。此外,它们显著降低敌人闪避的概率。拥有此技能的[[dwarf|矮人]]被称为'''神射手'''。
+
+虽然造成不错的一般[[Weapon#Weapon statistics|伤害]],[[bolt|箭矢]]在刺穿[[creature|生物]]的内脏器官方面表现出色,这可能导致器官衰竭、即死、[[unconscious|昏迷]]或任何体型目标的残废。这对没有内脏器官的生物用处有限,如[[Magma man|岩浆人]],但对大多数其他生物效果良好。偶尔箭矢会卡在目标体内;唯一已知的用途是[[wrestling|摔跤]]矮人可能抓住箭矢并在[[wound|伤口]]中扭转它。功能上,[[arrow|箭]]遵循相同的规律,但它们使用弓手技能。
+
+神射手通常会在距离目标20格左右的距离开火,但箭矢可能飞行30格或更远。注意高度差(z层)会''损害''射程,而不是帮助它。被迫进行近战的神射手会使用[[hammerdwarf|战锤手]]技能用他们的十字弓猛击敌人。
+
+[[Immigrant|移民]]神射手会带来他们自己的十字弓和一个装有30-40支箭矢的箭袋。移民[[ranger|游侠]]经常带着神射手技能到达,但只有在他们同时拥有[[ambusher|伏击者]]技能时才会带来十字弓和箭矢。
+
+==训练==
+
+提升十字弓手技能需要向目标射击(不需要命中),用"[[Vulture|活]][[Buzzard|靶]]"训练获得的经验远多于[[archery target|射箭靶]]。差异巨大,大约需要在练习中射出~67支箭矢(~7.5[[experience|经验]]/箭)对比对活敌射出17支箭矢(30[[experience|经验]]/箭)来达到新手等级。
+
+==注意事项==
+
+据信神射手如果技能低于某个等级,除非直接相邻,否则不会通过防御工事射击。这意味着对于使用2宽对角防御工事的实弹训练演习(见[[mass pitting|群坑]]),未熟练的神射手不会通过防御工事射击。
+
+==漏洞==
+
+* 如果在小队创建时没有可用的箭矢,神射手可能不会拿箭矢。{{bug|0012008}}
+
+==另见==
+*[[Archery|射箭]]
+*[[Advanced Marksdwarf Training|高级神射手训练]]
+
+{{Skills}}
+{{Category|Combat Skills}}
+{{Category|Military}}

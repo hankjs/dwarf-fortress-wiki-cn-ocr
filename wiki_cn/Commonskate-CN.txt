@@ -1,0 +1,16 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=common_skate_sprites.png|portrait=common_skate_portrait.png|contrib=no|skin=hide|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|skull=1|meat=8-10|fat=7|brain=1|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''普通鳐'''是可以在[[temperate|温带]]和[[tropical|热带]][[ocean|海洋]]中发现的软骨[[Creature#Aquatic|鱼类]]。体型几乎是[[dwarf|矮人]]的两倍,[[butcher|屠宰]]时提供大量收益。作为完整体型的生物,它们不能被[[Fisherdwarf|渔夫矮人]]捕鱼,但可以用[[drowning chamber|溺水室]]捕获。幼年普通鳐被称为''普通鳐幼崽''。
+
+作为软骨鱼类,普通鳐屠宰时不会产生[[bone|骨头]](尽管它们仍会提供[[skull|头骨]])。
+
+一些矮人[[Preferences|喜欢]]普通鳐的''扁平身体''。
+
+[[File:Vangst van een vleet.jpg|thumb|400px|center|Admired for their ''flat bodies''.]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

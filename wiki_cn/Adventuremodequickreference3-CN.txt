@@ -1,0 +1,83 @@
+{{Quality|Exceptional}}
+{{av}}
+这些是[[Adventurer mode|冒险模式]]中使用的[[controls|控制]]（''或者你可能在寻找[[Adventure mode quick start|快速入门]]''）。
+==按键绑定==
+{| class="wikitable"|-| valign='top' style="width: 50%; padding: 0 1em" |
+{{KReference|移动|
+*{{k|8|2|4|6|7|9|1|3|↑|↓|←|→}} - 移动
+*{{k|Alt}}+(移动键) - 小心移动或进入危险地形
+*{{k|Shift}}+(移动键) - 向某方向移动并上升
+*{{k|Ctrl}}+(移动键) - 向某方向移动并下降
+*[[File:Adv ui ascend.png]]{{k|<}} 或 {{k-|Shift|5}} (关闭数字锁) - 上升
+*[[File:Adv ui descend.png]]{{k|>}} 或 {{k-|Ctrl|5}} (关闭数字锁) - 下降
+*{{k|.}} - 等待10个瞬间
+*{{k|,}} - 等待1个瞬间
+*{{Adv menu icon|j}} - 跳跃。在移动选项中冲刺以奔跑和跳跃。
+*{{Adv menu icon|h}} - 通过抓{{k|h}}住墙壁或树木开始攀爬；骑乘和牵引宠物
+*{{Adv menu icon|s}} - 站立或躺下*
+*{{Adv menu icon|S}} - 潜行
+*{{Adv menu icon|T}} - 快速旅行
+*{{Adv menu icon|m}} - 打开移动偏好界面}}
+<nowiki>*</nowiki>使用{{k|s}}躺下，然后爬过挡住你路的NPC。
+
+{{KReference|战斗|
+*{{k|8|2|4|6|7|9|1|3|↑|↓|←|→}} - 随机攻击相邻生物
+*{{Adv menu icon|A}} - 攻击相邻生物
+*{{Adv menu icon|W}} - 摔跤相邻生物
+*{{Adv menu icon|f}} - 发射弹药
+*{{k|t}} - 投掷物品
+*{{Adv menu icon|X}} - 使用能力（抚摸动物，向某人吐口水...）
+*{{Adv menu icon|C}} - 打开战斗偏好界面}}
+
+{{KReference|环境|
+*{{k|l}} - 环顾四周
+*{{Adv menu icon|L}} - 非常仔细地搜索附近区域（发现[[Vermin|小生物]]的机会）
+*{{Adv menu icon|k}} - 与某人交谈
+*{{Adv menu icon|P}} - 表演或作曲
+*{{Adv menu icon|K}} - 显示足迹
+*{{k-|Alt|k}} - 描述脚下的足迹。
+*{{Adv menu icon|c}} - 查看同伴界面
+*{{Adv menu icon|E}} - 队伍战术设置。
+*{{k|o}} - 描述[[Smell|气味]]。
+*{{k|O}} - 显示最强烈的气味。
+*{{k|u}} - 与杠杆、建筑、家具或机械装置互动。
+*{{Adv menu icon|y}} - 采取或放弃顺从姿态（屈服）。}}| valign='top' |
+{{KReference|物品|
+*{{Adv menu icon|i}} - 物品栏
+*{{Adv menu icon|d}} - 丢弃物品
+*{{Adv menu icon|g}} - 抓取/收集（拾取）物品
+*{{Adv menu icon|p}} - 将物品放入容器；或放到驮兽上
+*{{Adv menu icon|r}} - 移除你正穿戴的物品或从容器中取出
+*{{Adv menu icon|w}} - 穿戴物品*
+*{{Adv menu icon|I}} - 与物品栏中的物体互动（拔出武器，重新装满水袋等）
+*{{Adv menu icon|x}} - 制作（屠宰，创建物品）
+*{{Adv menu icon|b}} - 建立据点并建造
+*{{Adv menu icon|q}} - 收起你的武器}}
+<nowiki>*</nowiki>如果你想从背包中取出特定物品到手中（挥舞武器），{{k|p}}将当前物品放入背包，然后{{k|r}}从背包中取出另一物品。
+
+{{KReference|信息|
+*{{Adv menu icon|z}} - 状态
+*{{k|Space}} - 前进/清除消息
+*{{Menu icon|a}} - 查看公告
+*{{Adv menu icon|Q}} - 冒险日志（任务，地图等...）}}
+
+{{KReference|食物/睡眠|
+*{{Adv menu icon|Z}} - 睡眠
+*{{Adv menu icon|e}} - 吃或喝东西}}
+
+{{KReference|旅行键|
+*{{k|8|2|4|6|7|9|1|3|↑|↓|←|→}} - 移动。
+*[[File:Adv ui descend.png]]{{k|<}} 或 [[File:Adv ui ascend.png]]{{k|>}} - 进入/离开隧道（分别）。
+*{{Adv menu icon|T|c|num=1}} - 开始/停止云层查看。
+*{{Adv menu icon|T|d|num=1}} - 访问位置。
+*{{k|h}} - 显示/隐藏说明
+*[[File:Adv ui T.png]]{{k|m}} - 显示/隐藏地图。
+*{{Adv menu icon|S}} - 潜行。
+*{{Adv menu icon|T|K|num=1}} - 显示所有附近的足迹和最强烈的气味。
+*{{Adv menu icon|Q}} - 冒险日志/信息。
+*{{Adv menu icon|T|Z|num=1}} - 睡眠/等待。}}
+|}
+{{Getting Started}}
+{{Category|Guides}}
+{{Category|Adventurer mode}}
+[[ru:Adventure Mode quick reference]]

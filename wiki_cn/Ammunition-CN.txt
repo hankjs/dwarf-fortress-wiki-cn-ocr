@@ -13,8 +13,7 @@
 
 《矮人要塞》中有三种类型的弹药：弩箭、箭矢和吹箭，每种弹药由不同的武器发射。
 
-{| class="wikitable" border="border"
-|-
+{| class="wikitable" border="border"|-
 ! 类型
 ! 尺寸
 ! 接触面积
@@ -22,35 +21,7 @@
 ! 使用武器
 ! 使用技能
 ! 可制造
-! 使用者
-|-
-| [[Bolt|弩箭]]
-| 150
-| 5
-| 1000
-| [[Crossbow|弩]]
-| [[Crossbowman|弩手]]
-| 是（[[Weaponsmith|金属]]、[[Wood crafter|木材]]、[[Bone carver|骨头]]）
-| [[Dwarf|矮人]]、[[Goblin|哥布林]]、[[Human|人类]]
-|-
-| [[Arrow|箭矢]]
-| 150
-| 5
-| 1000
-| [[Bow|弓]]
-| [[Bowman|弓箭手]]
-| 否
-| [[Elf|精灵]]、[[Goblin|哥布林]]、[[Human|人类]]、[[Kobold|狗头人]]
-|-
-| [[Blowdart|吹箭]]
-| 20
-| 1
-| 50
-| [[Blowgun|吹箭筒]]
-| [[Blowgunner|吹箭手]]
-| 否
-| [[Animal people|动物人]]
-|}
+! 使用者|-| [[Bolt|弩箭]]| 150| 5| 1000| [[Crossbow|弩]]| [[Crossbowman|弩手]]| 是（[[Weaponsmith|金属]]、[[Wood crafter|木材]]、[[Bone carver|骨头]]）| [[Dwarf|矮人]]、[[Goblin|哥布林]]、[[Human|人类]]|-| [[Arrow|箭矢]]| 150| 5| 1000| [[Bow|弓]]| [[Bowman|弓箭手]]| 否| [[Elf|精灵]]、[[Goblin|哥布林]]、[[Human|人类]]、[[Kobold|狗头人]]|-| [[Blowdart|吹箭]]| 20| 1| 50| [[Blowgun|吹箭筒]]| [[Blowgunner|吹箭手]]| 否| [[Animal people|动物人]]|}
 
 == 效能 ==
 由不同[[material|材料]]制成的弹射物具有不同的效能水平，这取决于具体情况。可能的影响因素包括弹药的[[weight|重量]]以及材料在战斗中的[[material science|物理特性]]。弹药的类型和发射弹药所使用的武器也可能对潜在伤害产生影响。

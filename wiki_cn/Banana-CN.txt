@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=banana_trunk_sprite.png
-|product=banana_sprite.png
-|sapling=banana_sapling.png
-|wiki=musa acuminata}}
+{{Treelookup/0|graphic=banana_trunk_sprite.png|product=banana_sprite.png|sapling=banana_sapling.png|wiki=musa acuminata}}
 {{av}}
 
 '''香蕉树'''是在热带生物群系中发现的地面众多[[tree|树]]属之一。与大多数树不同，它不产生木材(''由于这种'树'实际上是一种[https://en.wikipedia.org/wiki/Musa_(genus) 夸大的][[shrub|灌木]]'')，但它确实产生一种著名的[[fruit|水果]]，可以生吃、烹饪或酿造成[[alcohol|香蕉啤酒]]。由于这些水果有种子，它们很可能是鲜为人知的[[wikipedia:wild banana|野生香蕉]]。叶子和果实可以在[[dyer's shop|染色工坊]]加工成赭石色[[dye|染料]]。

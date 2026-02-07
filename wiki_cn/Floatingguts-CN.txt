@@ -1,0 +1,21 @@
+{{Quality|Superior}}
+{{Creaturelookup/0|image=floating_guts_sprite.png|portrait=floating_guts_portrait.png|intestine=1|heart=1|meat=1|fat=1|skin=hide|contrib=no|wiki=no}}
+{{av}}
+{{creaturedesc}}
+'''漂浮内脏(Floating guts)'''是令人不安的地下[[creature|生物]]，看起来只不过是包裹着一组器官的史莱姆，出现在[[cavern|洞穴]]的第二层和第三层。由于这种缺少身体部位的特性，它们的器官极易受损，因此相对容易被杀死。它们除了默认的[[push|推挤]]之外没有其他攻击手段，有时可能会伤害无护甲的[[dwarves|矮人]]。
+
+这些生物可以通过[[animal trainer|驯兽师]]训练为稀有[[pet|宠物]]，价值为10。不过它们是无性别的，寿命最长只有30年，所以你的供应仅限于在出发时找到的数量。屠宰一只会给你少量的[[meat|肉]]类物品和一些生皮，所以它们的用途非常有限。
+
+与大多数生物不同，它们无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]漂浮内脏的''怪异外观''。
+==图集==
+<gallery widths="300px" heights="300px">
+File:Floating guts drawing.png|''Art by Arne.''
+File:Notebook_07_FloatingGuts.jpg|''Concept art by Bay 12 Games.''
+</gallery>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

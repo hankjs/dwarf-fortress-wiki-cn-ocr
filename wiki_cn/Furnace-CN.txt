@@ -1,0 +1,62 @@
+{{Quality|Unrated}}
+{{av}}
+
+[[File:furnace_preview.png|right]]'''熔炉'''是不同相关[[workshop|工坊]]的统称术语，这些工坊为不同目的加热材料。虽然"[[wood furnace|木炭炉]]"可能是其中最基本的，但列表还包括冶炼炉和窑。这些不同的工坊通常只生产中间产品，即然后用于创建最终产品的物品。
+
+每个熔炉类型的工坊'''必须'''用[[fire-safe|防火]]材料建造。
+
+熔炉的工作通常需要[[fuel|燃料]]，或者在岩浆熔炉的情况下，来自[[magma|岩浆]]的热量——如果是后者，它们不会消耗任何岩浆，只需要放置在岩浆上方。要运行，岩浆版本熔炉'''必须'''将其一个边缘瓦片放置在深度为4或更多的岩浆上方。这可以通过为岩浆挖掘通道来完成，或者直接悬挂在开放的[[Magma#Magma_sources|岩浆源]]上方。
+
+请注意，岩浆版本在没有岩浆的情况下'''无法'''运行。如果岩浆源失效，它们不能使用[[fuel|燃料]]。如果岩浆深度在操作过程中的任何时候（即使只是一瞬间）降至"深度 = 4"以下，该工坊中的任何和所有当前工作将被取消。
+
+所有熔炉都使用熔炉子菜单（通过{{menu icon|b|o|u}}）构建。
+
+请参阅主要文章，全面讨论特定工坊，特别是岩浆版本。
+
+
+== [[Wood furnace|木炭炉]] ==
+将[[wood|木材]][[log|原木]]转化为[[ash|灰烬]]或[[charcoal|木炭]]。
+:*''快捷键：'' {{menu icon|b|o|u|f}}
+:*''使用材料：'' [[wood|木材]]
+:*''制造物品：'' [[ash|灰烬]]、[[charcoal|木炭]]
+::*''用于：'' 其他熔炉的燃料、[[steel|钢]]制造、[[Ashery|灰烬厂]]和[[soap|肥皂]]生产
+
+== [[Smelter|冶炼炉]] ==
+从[[ore|矿石]]中提取[[metal|金属]]，并从原始[[coal|煤]]中生产[[coke|焦炭]]。
+:*''快捷键：'' {{menu icon|b|o|u|l}}
+:*''使用材料：'' [[bituminous coal|烟煤]]、[[lignite|褐煤]]、[[ore|矿石]]、[[metal|金属]][[bar|条]]、[[flux|助熔剂]]、[[fuel|燃料]]（以及要[[melt|熔化]]的金属物品）
+:*''制造物品：'' [[coke|焦炭]]、金属[[bar|条]]
+::*''用于：'' [[Forge|熔炉]]
+
+===[[Magma smelter|岩浆冶炼炉]]===
+:*''快捷键：'' {{menu icon|b|o|u|L}}
+注意：岩浆版本使用[[charcoal|木炭]]或[[coke|焦炭]]的唯一情况是在[[pig iron|生铁]]和[[steel|钢]]生产的配方中。
+
+== [[Glass furnace|玻璃熔炉]] ==
+将原始[[sand|沙子]]转化为[[glass|玻璃]]物品。
+:*''快捷键：'' {{menu icon|b|o|u|g}}
+:*''使用材料：'' [[sand|沙子]]、[[pearlash|珍珠灰]]、[[rock crystal|水晶石]]、[[fuel|燃料]]
+:*''制造物品：'' [[glass|玻璃]]物品
+::*玻璃物品是最终产品
+
+===[[Magma glass furnace|岩浆玻璃熔炉]]===
+:*''快捷键：'' {{menu icon|b|o|u|G}}
+岩浆玻璃熔炉仅使用岩浆作为热源，不需要额外的[[fuel|燃料]]。它们生产与常规玻璃熔炉相同的物品。
+
+== [[Kiln|窑]] ==
+用于将[[clay|粘土]]烧制成物品，并对某些类型的粘土物品进行上釉。它还用于生产[[gypsum plaster|石膏灰泥]]、[[pearlash|珍珠灰]]和[[quicklime|生石灰]]。
+:*''快捷键：'' {{menu icon|b|o|u|k}}
+:*''使用材料：'' [[potash|碳酸钾]]、[[ash|灰烬]]、[[cassiterite|锡石]]、[[clay|粘土]]、[[clay loam|粘壤土]]、[[sandy clay|砂质粘土]]、[[silty clay|粉质粘土]]、[[fire clay|耐火粘土]]、[[kaolinite|高岭石]]、[[gypsum|石膏]]、[[alabaster|雪花石膏]]、[[selenite|透明石膏]]、[[satinspar|纤维石膏]]、[[fuel|燃料]]
+:*''制造物品：'' [[ceramic|陶瓷/粘土物品]]、[[pearlash|珍珠灰]]和[[plaster powder|灰泥粉]]
+::*''用于：'' 珍珠灰用于更高质量的[[glass|玻璃]]生产
+::*灰泥粉是医疗专业人员使用的最终产品。
+::*陶瓷/粘土（陶器、炻器和瓷器）物品是最终产品。
+
+===[[Magma kiln|岩浆窑]]===
+:*''快捷键：'' {{menu icon|b|o|u|K}}
+功能与常规窑相同，但使用岩浆而不是[[fuel|燃料]]。
+
+{{Translation| dwarven = sarvesh| elvish  = lethari| goblin  = usmza| human   = nganiz}}
+
+{{Workshops}}
+{{Buildings}}

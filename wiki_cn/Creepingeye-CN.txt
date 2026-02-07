@@ -1,0 +1,26 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=creeping_eye_sprite.png|portrait=creeping_eye_portrait.png|meat=13|fat=13|heart=1|intestine=1|skin=hide|wiki=no|contrib=no}}
+{{av}}
+{{creaturedesc}}
+'''爬行眼（Creeping eyes）'''是可以在最深的[[caverns|洞穴]]中成群发现的小型四臂[[evil|邪恶]][[creature|怪物]]。它们除了标准的[[push|推]]攻击外没有任何攻击手段，但它们太小了，几乎不会伤害[[dwarf|矮人]]。
+
+[[Trap design|溺水室]]对爬行眼无效，因为它们有{{token|NOBREATHE|c}}。同样的5层高度陷阱能够以流水线效率杀死数十只[[blind cave ogre|盲洞食人魔]]，却连这些顽强的生物都无法伤害。你的最佳选择是你的[[military|军队]]，尽管爬行眼有很多多余的可定位身体部位，只有一个弱点：心脏。
+
+爬行眼的[[pet|宠物]]价值为50，但缺少必要的标记使其可被[[animal trainer|驯化]]。所有爬行眼都拥有传奇级的[[climber|攀爬]][[skill|技能]]，并且在生物学上不朽，只会死于暴力或疾病。在[[adventurer mode|冒险模式]]中遇到时，它们会在黑暗中发光。它们无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preference|喜欢]]爬行眼的''令人不安的凝视''。
+
+{{D for dwarf}}
+有趣的是，尽管仅以邪恶为食，爬行眼却有肠道，这意味着邪恶可以被代谢。因此，人们普遍认为从爬行眼饱含邪恶的脂肪中提取的[[soap|肥皂]]是强效的矮人春药（胡须强化剂）。
+
+{{Translation| dwarven = shadkik ker| elvish  = coni evi| goblin  = gudo mangdu| human   = sagam ape}}
+
+==画廊==
+<gallery widths="300px" heights="300px">
+File:creeping_eye_preview.png|''Art by Arne.''
+File:Notebook_08_CreepingEye.jpg|"Scurries on walls. Can blend into stone. Bioluminescence. Feeds on evil emanations from [[Underworld|below]]."<br>''Concept art by Bay 12 Games.''
+</gallery>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

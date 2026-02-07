@@ -1,0 +1,19 @@
+{{Quality|Superior}}
+{{av}}
+
+'''陶瓷'''是通过加热和随后冷却作用制备的无机非金属固体。在矮人要塞中，有3种类型的陶瓷材料 - [[earthenware|陶器]]、[[stoneware|炻器]]和[[porcelain|瓷器]]。
+
+陶瓷产品在[[kiln|窑炉]]中使用[[fuel|燃料]]和[[clay|粘土]]/[[clay loam|粘壤土]]/[[sandy clay|砂质粘土]]/[[silty clay|粉质粘土]]（陶器）、[[fire clay|火粘土]]（炻器）或[[kaolinite|高岭石]]（瓷器）生产。[[magma kiln|岩浆窑炉]]也可以使用，在这种情况下不需要燃料。在矮人要塞中，没有不需要窑炉的粘土产品。
+
+陶瓷是[[fire-safe|防火]]的但不是[[magma-safe|岩浆安全]]的（熔点：{{ct|11500}}），并且[[dragonfire|龙火]]能够熔化和沸腾陶瓷材料。
+
+== 用途 ==
+陶瓷可用于制作[[statue|雕像]]、[[block|方块]]（标记为"砖块"）、[[trade good|工艺品]]、用于[[Beekeeping industry|养蜂业]]的[[hive|蜂箱]]、用于储存液体的[[jug|罐子]]和用于储存食物的[[large pot|大罐]]。一些[[instruments|乐器]]或乐器部件可以由陶瓷制成，具体取决于世界生成。由陶器制成的罐子和大罐在可以用于储存液体之前必须先[[glaze|上釉]]，而由其他材料制成的容器天然耐水。
+
+高岭石在大多数地图上相当有限。你可能想要使用粘土训练你的陶工并保存高岭石，直到你的陶工达到高技能水平。你可以通过在库存菜单中禁止所有高岭石间接实现这一点，或通过将窑炉链接到不接受高岭石的仓库。
+
+有关陶瓷使用的更多信息，请参阅[[Ceramic industry|陶瓷工业]]页面。
+[[File:ceramic.jpg|thumb|280px|center|Many ceramic jugs and pots.]]
+{{materials}}
+
+[[ru:Ceramic]]

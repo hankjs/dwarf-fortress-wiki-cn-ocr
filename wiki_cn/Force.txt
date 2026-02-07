@@ -1,0 +1,22 @@
+{{Quality|Superior}}
+{{av}}
+
+
+[[force|原力]]是一个抽象实体,相当于[[Civilization#Forest|森林文明]]的[[Deity|神祇]]。
+
+这些文明各自崇拜渗透其周围区域的对应原力。虽然不能围绕原力建立新的[[religion|宗教]],但每个国家都由一位[[druid|德鲁伊]]领导。
+
+原力通常与自然相关的[[sphere|领域]]相关联,如[[river|河流]]。未修改的游戏只有基于[[forest|森林]]的原力:它们和大多数[[biome|生物群系]]一样,也与自然和河流相关。如果生物群系没有植物(树木、草等),原力将与动物而不是自然相关联。原力的第二领域由其地形特征定义,在大多数生物群系中是河流,但在山地生物群系中是山脉,在任何湖泊生物群系中是湖泊,在任何海洋中是海洋,而冰川和苔原没有第二领域。
+
+与神祇不同,原力在当前版本中从不以任何方式行动 - 它们永远不会诅咒任何人、授予[[slab|石板]]等。[[Elf|精灵]]通常向原力祈祷,有时写[[book|书籍]]来赞美它们。这可能导致一个原力有数百本以它们命名的书。有趣的是,变成[[night troll|夜魔]]的精灵会继续崇拜原力,并从它们的[[lair|巢穴]]中写关于它们的书。
+
+==另见==
+*[[Forest retreat|森林营地]]
+*[[Titan|泰坦]]
+
+[[File:Gica-sarasti.png|400px|thumb|center|''"Gica Seasonpanther"是一种据说渗透The Mellow Silky-Forests的原力。Gica与河流和自然相关联。'' ([http://www.bay12forums.com/smf/index.php?topic=169691.msg7701761#msg7701761 帖子])]]
+
+{{Category|World}}
+{{Category|Relationships}}
+{{Category|Religion}}
+[[ru:Force]]

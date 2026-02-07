@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=durian_sprite.png|sapling=durian_sapling.png|wiki=Durio zibethinus}}
+{{av}}
+
+'''榴莲'''是在地面上发现的众多[[tree|树木]]属之一。像绝大多数地上树木一样,榴莲[[wood|木材]]是棕色的,生产棕色产品。
+
+榴莲树会掉落榴莲[[fruit|水果]],有时会出现在[[Elf|精灵]][[caravan|商队]]中。它可以被烹饪、酿造成[[alcohol|榴莲酒]]或生吃。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]榴莲树的''芳香果实''。
+
+
+[[File:Durian.jpg|thumb|center|300px|因其''芳香果实''而受到赞赏。]]
+
+
+==在现实生活中==
+*榴莲果以其气味而闻名,通常被认为是令人作呕的。奇怪的是,尽管有极其难闻的气味,它被认为味道非常好。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

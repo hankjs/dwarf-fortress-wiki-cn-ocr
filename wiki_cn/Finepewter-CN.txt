@@ -1,0 +1,34 @@
+{{Quality|Exceptional}}
+{{Alloy|name=Fine pewter|sample=
+[[File:FinePewterSample.png|center|frameless]]|graphic=generic_grey_bar_sprite.png|color=7:7:1|color1=7:3:0|color2=6:4:0|uses=* [[Metalsmith's forge|Metal crafting]]|recipe=
+* 3 [[Tin]] [[bar]]s
+* 1 [[Copper]] [[bar]]
+- or -
+* 3 [[Cassiterite]]
+* 1 [[Copper]] [[ore]]|properties=
+* [[Material value]] 5☼
+* [[Material science|Impact strength]] 350 MPa
+* [[Material science|Shear strength]] 100 MPa
+{{firemagmasafe|no|no}}
+* [[Melting point]] {{ct|10417}}
+* [[Boiling point]] {{ct|14648}}
+* [[Ignition point]] none
+* [[Solid density]] 7280 kg/m³
+* Liquid [[density]] 6990 kg/m³
+* [[Specific heat]] 210 J/kg·K
+* [[Color]] silver}}{{av}}
+
+'''精锡'''是[[tin|锡]]和[[copper|铜]]的[[alloy|合金]]。
+
+精锡可以使用以下配方之一制作:
+*3个[[Tin|锡]]锭 + 1个[[Copper|铜]]锭 = 4个精锡锭
+*3个[[Cassiterite|锡石]] + 1个[[Native copper|自然铜]]、[[Malachite|孔雀石]]或[[Tetrahedrite|黝铜矿]] = 16个精锡锭
+
+精锡的材料价值为5。这比其组成部分(全部价值为2)有显著提升,使精锡适合制作中等价值的家具和物品。如果你有大量的锡,这是制作[[pewter|锡器]]的最佳形式。
+
+请注意,[[bronze|青铜]]使用相同的成分(尽管比例不同),具有相同的材料价值,并且也可用作中级[[weapon|武器]]材料,而[[bismuth bronze|铋青铜]]则更有价值。然而,你可以用一单位[[fuel|燃料]]生产16个精锡锭(从[[ore|矿石]]冶炼时),如果燃料受限,这使精锡比青铜略有优势。
+
+[[File:State Gifts Ewer.JPG|thumb|center|300px|精锡水壶。]]
+
+{{gamedata}}
+{{metals}}

@@ -1,10 +1,6 @@
 {{Quality|Fine}}
-{{plantlookup
-|graphic=bilberry_shrub_sprite.png
-|seedimage=bilberry_seeds_sprite.png
-|uses=
-* [[Food|食物]]|wiki=vaccinium myrtillus
-}}
+{{plantlookup|graphic=bilberry_shrub_sprite.png|seedimage=bilberry_seeds_sprite.png|uses=
+* [[Food|食物]]|wiki=vaccinium myrtillus}}
 {{av}}
 
 '''越橘'''是一种[[aboveground|地上]][[crop|园艺蔬菜]]，与蓝莓非常相似。它们可以在所有季节种植，果实可以生吃或[[cooking|烹饪]]，也可以在[[brewing|酿造]]成[[alcohol|越橘酒]]，或者在[[dyer's shop|染坊]]加工成紫罗兰色[[dye|染料]]。

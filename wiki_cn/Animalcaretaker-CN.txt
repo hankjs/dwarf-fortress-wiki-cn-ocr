@@ -1,18 +1,10 @@
 {{Quality|Unrated}}
 {{av}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:green_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Animal Caretaker
-| profession = [[Ranger]]
-| job name   = [[Animal care]]
-| attributes =
+{{v50_skill| color      = 2:0| graphic    = [[File:green_sprite_icon.png]]| graphicmargin = 106px| skill      = Animal Caretaker| profession = [[Ranger]]| job name   = [[Animal care]]| attributes =
 * Agility
 * Analytical Ability
 * Memory
-* Empathy
-}}
+* Empathy}}
 {{Buggy|withoutbugsection=1}}
 
 '''动物护理'''''应该是''[[dwarves|矮人]]用来治疗任何分配给他们的受伤[[pet|宠物]]的[[skill|技能]]（只要他们启用了[[labor|劳动]]），以及喂养链锁上的任何饥饿/口渴的动物（默认情况下，仅限食草动物）。

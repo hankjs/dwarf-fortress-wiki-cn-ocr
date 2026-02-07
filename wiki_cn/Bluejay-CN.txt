@@ -1,8 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=blue_jay_sprite.png
-|portrait=bluejay_portrait.png
-|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]}}
+{{verminlookup/0|image=blue_jay_sprite.png|portrait=bluejay_portrait.png|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]}}
 {{av}}
 {{creaturedesc}}
 

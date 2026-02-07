@@ -393,8 +393,7 @@
 		[CDI:USAGE_HINT:DEFEND]
 		[CDI:WAIT_PERIOD:100]
 	[DESCRIPTION:A small humanoid with lidless eyes.  It has thin wings of stretched skin and it hurls vicious insults constantly.  Its slate gray skin is sleek and smooth.  Now you will know why you fear the night.]
-	[PREFSTRING:terror-inspiring antics]
-}}
+	[PREFSTRING:terror-inspiring antics]}}
 {{Scriptdata}}
 {{Creatures}}
 

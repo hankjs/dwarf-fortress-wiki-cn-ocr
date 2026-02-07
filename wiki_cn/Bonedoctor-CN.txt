@@ -1,19 +1,11 @@
 {{Quality|Exceptional}}
-{{Skill
-| color      = 5:0
-| graphic    = [[File:doctor_sprite_icon.png]]
-| graphicmargin = 106px
-| profession = Doctor
-| job name   = Setting bones
-| tasks      =
-* Fixing bone injuries
-| attributes =
+{{Skill| color      = 5:0| graphic    = [[File:doctor_sprite_icon.png]]| graphicmargin = 106px| profession = Doctor| job name   = Setting bones| tasks      =
+* Fixing bone injuries| attributes =
 * Strength
 * Agility
 * Focus
 * Spatial Sense
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 {{buggy}}
 '''正骨医生'''是与[[healthcare|医疗保健]]中使用的"正骨"[[labor|劳动]]相关的技能，以及与之相关的医院[[occupation|职业]]。正骨医生固定骨折和断骨，然后使用[[splint|夹板]]和[[plaster cast|石膏]]固定受伤的身体部位，使骨头保持在原位，直到完全愈合。重叠的骨折伤害需要在[[hospital|医院]]使用[[traction bench|牵引床]]。

@@ -1,0 +1,8 @@
+{{Quality|Fine}}{{grasslookup/0|wiki=Fescue}}{{av}}
+
+'''羊茅草(Fescue grass)'''是一种常见类型的草，生长在大多数干燥温带地区，以及其他不宜居住的苔原和山区。它与大多数其他类型的草无法区分。
+
+[[File:Festuca idahoensis (3811039793).jpg|thumb|center|300px|羊茅草。]]
+
+{{gamedata}}
+{{Plants}}

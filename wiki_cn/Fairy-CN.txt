@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=fairy_sprite.png|portrait=fairy_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''仙女(Fairies)''' 是一种生活在[[善良]]地区的[[奇幻生物]]地上[[害虫]]。它们与[[小精灵]]一起,是游戏中唯一的智能害虫,尽管由于是害虫而无法与之互动。在[[冒险模式]]中遇到时,它们会在黑暗中发光(''或者应该发光;见下文'')。它们的[[宠物]]价值为 10。由于它们具有 VERMIN_NOTRAP 标记,无法通过放置[[动物陷阱]]捕获它们,但仍然可以使用''捕捉活的陆地动物''任务捕获它们。
+
+与它们的 {{token|DESCRIPTION|c}} 和 {{token|PREFSTRING|c}}(以及 Premium 图形)相反,仙女在它们的 {{token|BODY|c}} 定义中实际上根本没有翅膀,蕾丝翅膀也没有,尽管它们仍然能够飞行。原始数据中附近的注释表明[[Main:Toady One|Toady]]计划最终给它们蕾丝翅膀。
+
+虽然它们生物原始数据中的标记应该使它们能够产生光,但它们不能,因为它们缺乏必要的图形标记和精灵生物图形。
+
+一些[[矮人]][[偏好|喜欢]]仙女,因为它们有''蕾丝翅膀''和''婴儿般的咯咯笑''。
+
+[[File:fairy_preview.jpg|thumb|269px|center|注意:翅膀在游戏中可能无法正常工作。]]
+
+{{gamedata}}
+{{vermin}}

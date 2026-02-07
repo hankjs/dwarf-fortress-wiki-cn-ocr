@@ -1,0 +1,49 @@
+'''Dwarf Fortress Talk'''是官方的''[[Dwarf Fortress]]''播客，[[Rainseeker]]、[[Capntastic]]和[[Toady One]]在其中谈论''Dwarf Fortress''并回答论坛上的问题。
+
+== Dwarf Fortress Talk列表 ==
+
+有关演职员表、预告片和更多信息，请参见''[http://www.bay12games.com/dwarves/df_talk.html 官方bay12网站上的Dwarf Fortress Talk页面]''。
+{| class="wikitable"|-
+! #
+! 日期
+! 摘要
+! 下载
+! 文字稿|-
+! 1| 2009年8月6日| 在我们的第一次节目中，Toady One回答了Rainseeker和Capntastic从论坛上收集的各种问题。| ''[http://www.bay12games.com/media/b12_call_1.mp3 链接]''| ''[http://www.bay12games.com/media/b12_call_1_transcript.html 链接]''|-
+! 2| 2009年9月1日| 在本集中，Rainseeker、Capntastic、Ampersand和Toady One讨论了围攻，以及一些巨兽和其他话题，然后是论坛问答环节。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_2.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_2_transcript.html 链接]''|-
+! 3| 2009年10月15日| 在本集中，Rainseeker、Capntastic和Toady One讨论了地下洞穴，然后是来自论坛的问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_3.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_3_transcript.html 链接]''|-
+! 4| 2009年11月3日| 在本集中，Rainseeker和Toady One讨论了世界生成、传说、制作，并做了一些论坛问题，同时思考Capntastic与打击犯罪相关的缺席。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_4.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_4_transcript.html 链接]''|-
+! 5| 2009年12月5日| 在本集中，Rainseeker、Capntastic和Toady One讨论了游戏文化的未来，并做了一些论坛问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_5.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_5_transcript.html 链接]''|-
+! 6| 2010年1月7日| 在本集中，Rainseeker、Capntastic和Toady One讨论了冒险模式的未来，并回答了一些电子邮件问题。还有一个额外的片段，Rainseeker和Toady One讨论了生物原始数据。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_6.mp3 链接]'' ''[http://www.bay12games.com/media/Creature%20Tags.mp3 关于生物原始数据片段的链接]''| ''[http://www.bay12games.com/media/df_talk_6_transcript.html 链接]''|-
+! 7| 2010年2月22日| 在本集中，Rainseeker、Capntastic和Toady One讨论了神器。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_7.mp3 链接]'' ''[http://www.bay12games.com/media/df_7_missing_segment.mp3 缺失片段链接]''| ''[http://www.bay12games.com/media/df_talk_7_transcript.html 链接]'' ''[http://www.bay12games.com/media/df_talk_7_transcript_2.html 缺失片段文字稿链接]''|-
+! 8| 2010年4月17日| 在本集中，Rainseeker、Capntastic和Toady One讨论了与Dwarf Fortress有关的一些科学，并回答了一些电子邮件问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_8.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_8_transcript.html 链接]''|-
+! 9| 2010年8月4日| 在本集中，Rainseeker、Capntastic和Toady One讨论了新的开发页面、个人战斗，并回答了一些电子邮件问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_9.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_9_transcript.html 链接]''|-
+! 9b| 2010年8月4日| 还有一个额外的一小时高温版本，Capn和Toady讨论了开发页面的部分内容，这是我们之后录制的，当时温度已经开始产生影响。| ''[http://www.bay12games.com/media/df_talk_9_extra.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_9_transcript_2.html 链接]''|-
+! 10| 2010年10月11日| 在本集中，Rainseeker、Capntastic和Toady One讨论了即将发布的版本、回答问题并继续。我们在安排这次录制的时间时遇到了困难，所以我们在不同的星期录制了两个片段，Toady和每位共同主持人，我们没有尝试涵盖听众建议的主题。Toady还在第二个片段结束时忘记了演职员表，所以这里在描述中放大了：Ollieh做了音乐。mallocks做了文字稿。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_10.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_10_transcript.html 链接]''|-
+! 11| 2011年2月22日| 在本集中，Rainseeker、Capntastic和Toady One稍微谈论了一下个性，回答问题，并详细讨论了即将发布的版本。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_11.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_11_transcript.html 链接]''|-
+! 12| 2011年3月24日| 在本集中，Rainseeker、Capntastic和Toady One讨论了旅馆、谈论了DF的过去和未来，并回答问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_12.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_12_transcript.html 链接]''|-
+! 13| 2011年4月23日| 在本集中，Rainseeker、Capntastic和Toady One讨论了城市并回答问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_13.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_13_transcript.html 链接]''|-
+! 14| 2011年5月31日| 在本集中，Rainseeker、Capntastic和Toady One讨论了新的夜间生物并回答问题。前半部分在5月中旬录制，但仍然相关。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_14.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_14_transcript.html 链接]''|-
+! 15| 2011年7月6日| 在这个短集中，Rainseeker、Capntastic和Toady One执行了提醒听众Redding聚会（7月16日星期六！）的主要任务，然后稍微讨论了最近的发展。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_15_Mini.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_15_transcript.html 链接]''|-
+! 16| 2011年9月25日| 在本集中，于8月录制，Rainseeker、Capntastic和Toady One讨论了堡垒和冒险者的遗产，以及关于存在位面的一些内容。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_16.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_16_transcript.html 链接]''|-
+! 17| 2011年11月13日| 在本集中，Rainseeker、Capntastic和Toady One讨论了Dwarf Fortress游戏风格并回答你的问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_17.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_17_transcript.html 链接]''|-
+! 18| 2012年4月21日| 在本集中，Rainseeker、Capntastic和Toady One讨论了Dwarf Fortress的最新版本以及接下来会发生什么。Threetoe首次出现与Toady一起回答问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_18.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_18_transcript.html 链接]''|-
+! 19| 2012年11月14日| 在本集中，Rainseeker、Capntastic和Toady One回来讨论Dwarf Fortress的开发。Threetoe再次出现在问答环节。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_19.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_19_transcript.html 链接]''|-
+! 20| 2013年2月13日| 在本集中，Rainseeker、Capntastic和Toady One讨论了Dwarf Fortress的持续开发（至少直到我在录制期间正在进行的继承工作）。Threetoe和Toady回答了你们问题的一小部分，这些问题大量出现。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_20.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_20_transcript.html 链接]''|-
+! 21| 2013年5月23日| 在本集中，Rainseeker、Capntastic和Toady One讨论了战斗和对话的最新发展，以及其他内容。Threetoe和Toady在继续处理堆积的问题时回答了二到三打问题。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_21.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_21_transcript.html 链接]''|-
+! 22| 2014年11月13日| 在这个紧急集中，Threetoe和Toady One讨论了新的开发计划并回答了整个巨大的问题积压。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_22.mp3 链接]''| ''[http://www.bay12games.com/media/df_talk_22_transcript.html 链接]''|-
+! 23| 2020年6月28日| 在本集中，Capntastic和Toady One在几年后回归，讨论即将推出的图形版本和其他发展。| ''[https://www.bay12games.com/media/Dwarf_Fortress_Talk_23.mp3 链接]''| ''[https://www.bay12games.com/media/df_talk_23_transcript.html 链接]''|-
+! 24| 2020年7月17日| 在本集中，Rainseeker回归加入Capntastic和Toady One，预告UI开发并玩神话生成器原型。特别感谢Quatch事先帮助解决一些持续的音频问题。| ''[https://www.bay12games.com/media/Dwarf_Fortress_Talk_24.mp3 链接]''| ''[https://www.bay12games.com/media/df_talk_24_transcript.html 链接]''|-
+! 25| 2020年8月11日| 在本集中，Rainseeker、Capntastic和Toady One讨论了几篇reddit帖子、人类堡垒的可能性和其他话题，并回答问题。感谢u/Count_Triple、u/Cabbagetroll和u/NZSloth提供reddit帖子，感谢recon1o6和Fieari提供问题。| ''[https://www.bay12games.com/media/Dwarf_Fortress_Talk_25.mp3 链接]''| ''[https://www.bay12games.com/media/df_talk_25_transcript.html 链接]''|-
+! 26| 2020年9月1日| 在本集中，特邀嘉宾Freehold Games的Brian Bucklew加入Rainseeker、Capntastic和Toady One，讨论Caves of Qud的开发和其他事项。你可以在[https://www.cavesofqud.com/ 他们的网站]上找到Caves of Qud。| ''[http://www.bay12games.com/media/Dwarf_Fortress_Talk_26.mp3 链接]''| ''不可用''|-
+! 27| 2020年10月9日| 在本集中，Rainseeker、Capntastic和Toady One讨论了游戏内矮人艺术，回答了许多问题，并查看了Arne的一些粉丝艺术。如果你在听的时候可以的话，请访问[http://www.androidarts.com/df/dorf.htm Arne的页面]并与我们一起欣赏。如果你不能，之后再访问。或者现在就去！还要感谢为本集提出问题的许多人。[http://www.bay12forums.com/smf/index.php?topic=44597.0 请再发送一些！]| ''[https://bay12games.com/media/Dwarf_Fortress_Talk_27.mp3 链接]''| ''不可用''|-
+! 28| 2021年2月4日|  在本集中，Rainseeker、Capntastic和Toady One回答了许多问题并不时离题。感谢为本集提出问题的许多人。[http://www.bay12forums.com/smf/index.php?topic=44597.0 欢迎更多！]集中提到的：[https://www.twitch.tv/risingsunz RisingSunZ (Twitch)]、[https://store.steampowered.com/app/1256230/Hyperbolica/ Hyperbolica (Steam)]、[http://quixotic.adamantyr.com/roa.htm Realms of Antiquity]。
+
+Capntastic的Twitch频道是[https://www.twitch.tv/goodmorsel goodmorsel]。你可以在[https://twitter.com/Capntastic Twitter上关注Capntastic]并在[https://www.patreon.com/Capntastic Patreon上支持Capntastic]。 | ''[https://bay12games.com/media/Dwarf_Fortress_Talk_28.mp3 链接]''| ''不可用''|-|}
+
+== 另见 ==
+* [[List of Dwarf Fortress developer interviews]]
+* [[Future of the Fortress]] 与Toady的问答
+
+[[Category:Game development]]
+{{unversioned}}

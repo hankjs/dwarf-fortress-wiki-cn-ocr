@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|wiki=Dactyloidae|image=anole_sprite.png
-|portrait=anole_portrait.png}}
+{{verminlookup/0|wiki=Dactyloidae|image=anole_sprite.png|portrait=anole_portrait.png}}
 {{av}}
 {{new in v0.42}}
 {{creaturedesc}}

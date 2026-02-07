@@ -1,12 +1,5 @@
 {{Quality|Exceptional}}
-{{Skill
-| color      = 0:0
-| skill      = Archer
-| profession = [[Military|军事]]
-| job name   = None
-| tasks      = *在战斗中使用任何远程武器
-| attributes = Unknown
-}}
+{{Skill| color      = 0:0| skill      = Archer| profession = [[Military|军事]]| job name   = None| tasks      = *在战斗中使用任何远程武器| attributes = Unknown}}
 {{av}}
 [[File:dwarf_archer.jpg|thumb|229px|right|一个矮人弓箭手。<br><small>''艺术作者Artigas''</small>]]'''弓箭术'''是与所有远程战斗相关的[[combat skill|战斗技能]]，也是使用远程武器的统称。其确切功能未知，除了已显示它会降低敌人躲避远程攻击的概率。它作为战士技能的远程对应物。
 

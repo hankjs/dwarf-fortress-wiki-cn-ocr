@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=black_mamba_man_sprite.png
-|portrait=black_mamba_man_portrait.png}}
+{{Creaturelookup/0|image=black_mamba_man_sprite.png|portrait=black_mamba_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

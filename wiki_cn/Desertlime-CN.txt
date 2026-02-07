@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=guava_trunk_sprite.png
-|product=desert_lime_sprite.png
-|sapling=desert_lime_sapling.png}}
+{{Treelookup/0|graphic=guava_trunk_sprite.png|product=desert_lime_sprite.png|sapling=desert_lime_sapling.png}}
 {{av}}
 
 '''沙漠酸橙'''是地上发现的众多[[tree|树木]]属之一。与绝大多数地上树木一样，沙漠酸橙[[wood|木材]]是棕色的，生产棕色产品。

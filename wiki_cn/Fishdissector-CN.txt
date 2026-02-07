@@ -1,0 +1,13 @@
+{{Quality|Exceptional}}
+{{v50_skill| color      = 1:0| graphic    = [[File:fish_sprite_icon.png]]| graphicmargin = 106px| skill      = Fish Dissector| profession = [[Fishery worker|渔业工人]]| job name   = [[Fish dissection|解剖鱼]]| tasks      =
+* 从生鱼中提取| workshop = [[Fishery|渔场]]| attributes =
+* 敏捷
+* 动觉}}
+{{av}}
+
+'''解剖鱼工'''是与解剖鱼[[labor|劳动]]相关的技能。他们唯一的用途是在[[fishery|渔场]]从捕获的[[moghopper|跳蝇]]中制作[[mog juice|蝇汁]][[extract|提取物]]。由于跳蝇相当罕见,这个技能在当前状态下几乎完全无用。
+
+解剖鱼工的[[skill|技能等级]]用于决定完成劳动的速度。使用的[[barrel|木桶]]的[[quality|品质]]和材料会增加最终产品的价值。
+
+
+{{skills}}

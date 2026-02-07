@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=borax_sprite.png}}
+{{stonelookup/0|graphic=borax_sprite.png}}
 {{av}}
 
 '''硼砂'''是一种不起眼的白色石头，可以在[[rock salt|岩盐]]中大量发现，在[[gypsum|石膏]]中少量发现。

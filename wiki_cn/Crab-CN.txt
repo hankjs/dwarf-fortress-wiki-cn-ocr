@@ -1,0 +1,23 @@
+{{Quality|Exceptional}}
+{{creaturelookup/0|image=crab_sprites.png|portrait=crab_portrait_anim.gif|meat=10|fat=10|brain=1|skin=chitin|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''螃蟹'''是在[[Ocean|海洋]][[beaches|海滩]]上发现的多腿[[Creature|小动物]],通常会从任何威胁中逃跑。[[Butcher|屠宰]]它们会产生令人惊讶的大量[[meat|肉]]——尽管被描述为"微小",但它们实际上比成年[[cat|猫]]大得多。所有螃蟹都拥有传奇[[skill|技能]]的[[Climber|攀爬]],以及蓝色的[[blood|血液]]。
+
+注意,尽管它们的描述,屠宰时它们不会产生[[shell|壳]],而是掉落"甲壳素"。与大多数动物不同,它们不能被[[animal trainer|训练]]。此外,与现实生活中的螃蟹不同,它们不产[[egg|蛋]],而是直接产活崽。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]螃蟹的''钳子''和它们的''横向行走''。
+
+[[File:Gecarcinus quadratus (Nosara).jpg|thumb|center|400px|Admired for its ''sideways walk''.]]
+
+
+{{D for Dwarf}}
+
+<!-- Reference: Crab Rave -->
+据知螃蟹会成群结队地聚集在海滩上,举起爪子,表演某种快节奏的摇摆舞蹈,仿佛在庆祝什么。
+
+{{Translation| dwarven = ozsit| elvish  = ditari| goblin  = slalsto| human   = julosm}}
+
+{{gamedata}}
+{{creatures}}

@@ -1,0 +1,29 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Noble| noble = Consort| office= None| quarters= None| dining= None| tomb= None| arrival =
+* Being married to a [[baron]], [[count]], [[duke]] or [[monarch]]}}
+'''配偶'''是一种特殊类型的[[noble|贵族]],作为拥有土地贵族的[[Marriage|配偶]]。他们没有[[zone|房间]]要求(尽管他们会共享配偶的房间并间接获得其好处),也不会在{{menu icon|n}}贵族屏幕上显示。
+
+配偶可以作为[[baron|男爵]]、[[count|伯爵]]、[[duke|公爵]]或[[monarch|君主]]的配偶出现。他们不执行任何有意义的功能(除了与配偶互动和生育[[children|孩子]]),也不会发布[[mandate|命令]]或[[demand|要求]]。配偶不保证存在于要塞中,因为贵族可能碰巧未婚,但任何未来的婚姻都会导致他们的配偶自动晋升为配偶贵族。
+
+如果配偶去世,那么在原贵族本人[[marriage|再婚]]之前,不能创建同类型的新配偶。强制[[social skill|社交]]可以用来导致这种情况。如果当前贵族去世,配偶也会根据继承王位的继承人的[[relationship|婚姻状况]]被替换或移除。在某些情况下,可能不存在继承人,或继承人不在要塞,无法继承王位——当这种情况发生时,配偶的职位将在你的要塞中消失。选择继承人的确切机制尚不清楚,因此目前通过为贵族安排[[unfortunate accident|不幸事故]]来选择配偶是不可行的。
+
+配偶的命名可能令人困惑;例如,''国王配偶''总是君主的丈夫,''王后配偶''同样总是君主的妻子。有趣的是,配偶的复数形式并不像看起来那么明显,即不是"king consorts",而是"kings consort"。这是因为"consort"充当定语形容词而不是名词短语的名词部分。
+
+== 要塞模式 ==
+在[[fortress mode|要塞模式]]中,当符合条件的贵族晋升到统治职位时,他们当前的配偶,作为该职位持有者的[https://en.wiktionary.org/wiki/consort#Noun 配偶],被授予相应的头衔。例如,如果已婚矮人成为男爵,该矮人的配偶就成为''男爵配偶''(如果是男性)或''男爵夫人配偶''(如果是女性)。或者,如果配偶碰巧与配偶一起[[Immigration|移民]]到你的要塞,他们可以陪伴配偶,这可能是君主到来的情况。这个矮人总是[[historical figure|历史人物]],因此可能是[[night creature|夜间生物]]。通过山地家园的演变,配偶可以多次更改或消失。
+
+作为历史人物,配偶也有资格在没有配偶的情况下到达。这可能是或可能不是漏洞。
+
+== 外观 ==
+[[File:King-consort.PNG|thumb|200px|right|Consorts are sometimes displayed like a noble, and sometimes like a citizen. Note the lack of a purple name.]]
+
+配偶将在{{menu icon|u}}单位屏幕上显示为紫色文本的工作"贵族",但他们不会有所有贵族特有的紫色。相反,他们在单位屏幕和显示中都显示为他们最高职业的颜色。
+
+当单位屏幕上的光标放在配偶的名字上时,名字的前景变为紫色(类似于大多数贵族),但在其他方面保持其职业的颜色(类似于[[militia commander|民兵指挥官]])。这表明游戏可能有时将配偶视为贵族,有时不视为贵族。这是否对贵族特定的[[thought|想法]]有任何影响尚不清楚。
+
+有趣的是,配偶与配偶具有完全相同的优先级。这意味着没有其他贵族身份会覆盖配偶的身份,明显不可能的例外是也是同类型的贵族。这除了影响该单位获得的头衔及其在各种屏幕上的显示外,对任何事情都没有影响。
+
+[[File:Endok-sarasti.jpg|thumb|center|300px|Artist rendering of a queen consort by Mechlin ([http://www.bay12forums.com/smf/index.php?topic=169691.msg7701761#msg7701761 post])]]
+
+{{Nobles}}

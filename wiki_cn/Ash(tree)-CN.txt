@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=macadamia_trunk_sprite.png
-|product=ash_sprite.png
-|sapling=ash_sapling.png
-|wiki=Fraxinus}}
+{{Treelookup/0|graphic=macadamia_trunk_sprite.png|product=ash_sprite.png|sapling=ash_sapling.png|wiki=Fraxinus}}
 {{av}}
 
 {{distinguish|ash}}

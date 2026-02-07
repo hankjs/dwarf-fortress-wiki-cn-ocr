@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_bloodstone_sprite.png
-|graphic2=rough_bloodstone_sprite.png
-|wiki=Heliotrope (mineral)}}
+{{gemlookup/0|graphic=cut_bloodstone_sprite.png|graphic2=rough_bloodstone_sprite.png|wiki=Heliotrope (mineral)}}
 {{av}}
 
 '''血石'''是在[[sedimentary layer|沉积层]]中以小簇形式发现的不起眼的[[Gem#Value|低价值]][[gem|宝石]]。与其名称所暗示的相反，血石是绿色而不是红色。在现实世界中，血石（也称为日光石）是一种玉髓，因其类似血斑的红色氧化铁内含物而得名。

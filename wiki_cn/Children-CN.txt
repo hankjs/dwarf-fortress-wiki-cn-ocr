@@ -10,12 +10,7 @@
 [[goblin|地精]]社会的很大一部分都围绕着[[thief|偷窃其他种族的孩子]]。对地图上出现的偷婴贼的适当回应是明智地使用[[magma|矮人外交]]。
 
 类人生物（五个主要种族）如果是儿童或婴儿，会显示为独特的较小精灵图，如果禁用了显示穿戴服装染色的选项，他们会显示为红色。幼年动物和其他生物的精灵图会比成年对应物小，其中一些也有婴儿精灵图。奇怪的是，肖像仍然可以显示长着胡须的矮人儿童。
-{{Translation
-| dwarven = tilat
-| elvish  = imi
-| goblin  = tox
-| human   = shin
-}}
+{{Translation| dwarven = tilat| elvish  = imi| goblin  = tox| human   = shin}}
 ==婴儿==
 [[File:dwarf_children.jpg|thumb|260px|right|在他们长大意识到自己身处一场无法获胜的游戏之前。<br><small>''Art by Devilingo''</small>]][[File:df_baby_list.png|thumb|260px|right|在公民信息菜单中看到的许多儿童和一个婴儿。]][[File:dwarf_child_portrait.png|thumb|96px|right|一个矮人儿童的肖像。]]婴儿不必在[[bed|床]]上出生，而是在母亲所在的任何地方出生，这会中断母亲当前的大多数行动。游戏会播放出生音效并[[announcement|宣布]]婴儿的到来。母亲会取消她正在做的任何任务去寻找她的婴儿，然后''通常''会恢复她在孩子出生前正在做的任何任务。矮人母亲也可以生双胞胎或三胞胎，尽管这极其罕见（500分之一），因为它们有[MULTIPLE_LITTER_RARE]标记。婴儿由母亲照顾，母亲会在携带婴儿的同时继续工作。
 

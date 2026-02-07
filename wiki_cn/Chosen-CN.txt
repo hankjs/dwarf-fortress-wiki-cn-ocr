@@ -1,0 +1,25 @@
+{{av}}
+{{Under construction}}
+
+'''天选者'''是一个从守护[[deity|神祇]]那里获得援助和指引的[[adventurer|冒险者]]。它是半神(现在被称为简单)难度模式的后继者。
+
+== 游戏玩法 ==
+
+天选者[[Adventurer mode#Destiny|命运]]可以在创建冒险者时选择,只要可玩文明已经建立了[[temple|神殿]]。它作为游戏内[[Tutorials|教程]],提供特定于每个[[world|世界]]的指导。
+
+在天选者冒险开始时,他们的守护神会指示他们去寻找同一[[religion|宗教]]的[[priest|祭司]]。与祭司交谈允许玩家{{Adv menu icon|k}} {{DFtext|提供服务}}并接受一个从[[Mysterious dungeon|神秘巢穴]]获取[[primordial remnant|原初遗物]]的[[quest|任务]]。要完成任务,需要将[[artifact|神器]]交给祭司。
+
+== 能力 ==
+
+天选者冒险者开始时只是普通生物,没有非凡的能力。很少情况下,他们的守护神会通过"神圣干预"偏转即将到来的攻击,就像被[[Armor#Shield|盾牌]]格挡一样,同时还会[[Status icon|眩晕]]该生物,尽管这一事件的触发条件尚不清楚。
+[[File:Ngq0bba1l6fe1.png|frame|center|A god helping their chosen one out.]]
+
+== 另见 ==
+* [[Necromancer|死灵法师]]
+* [[Prophet|先知]]
+
+[[Category:Getting started]]
+[[Category:Adventurer mode]]
+[[Category:Religion]]
+[[Category:Myth]]
+[[ru:Chosen]]

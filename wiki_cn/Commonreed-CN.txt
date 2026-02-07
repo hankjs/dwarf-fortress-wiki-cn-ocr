@@ -1,0 +1,10 @@
+{{Quality|Fine}}{{grasslookup/0}}{{av}}
+
+''不要与[[rope reed|绳芦苇]]混淆。''
+
+'''普通芦苇'''是一种只在湿地生长的草类。它与大多数其他类型的草无法区分。
+
+[[File:Phragmites australis Schilfrohr.jpg|thumb|center|upright=1.25|Common reed.]]
+
+{{gamedata}}
+{{Plants}}

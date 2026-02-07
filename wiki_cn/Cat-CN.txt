@@ -1,16 +1,5 @@
 {{Quality|Exceptional}}
-{{Creaturelookup/0
-|image=cat_sprites.png
-|portrait=cat_portrait_anim.gif
-|bone=0-4
-|meat=0-7
-|fat=0-7
-|intestine=0-1
-|skin=hide
-|skull=1
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=cat_sprites.png|portrait=cat_portrait_anim.gif|bone=0-4|meat=0-7|fat=0-7|intestine=0-1|skin=hide|skull=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -39,12 +28,7 @@
 
 小猫不能被屠宰获得骨头：只会产生[[skull|头骨]]。未成年的成年猫（不到2岁）可能返回约2单位肉、脂肪和骨头，1张皮和1个头骨，或者可能只返回一个头骨，而完全成年的猫（>2岁）会稳定返回约6-7单位肉和脂肪。不幸的是，游戏中没有办法确定某个特定动物是未成年还是完全成年。（请注意，其他动物也有较小的未成年尺寸和屠宰收益，但大多数其他未成年家畜返回更合理的成年收益百分比；例如，未成年狗稳定返回约50%的成年收益并包括副产品（如骨头和皮肤），而猫只有0-30%并且有时除了头骨外没有副产品。）如果你有一堆不想要的小猫，它们有很多用途。例如，如果[[forgotten beast|遗忘之兽]]有某种毒药，就用它们作为诱饵，以确定毒药的作用。如果迫切需要最大化猫屠宰收益，可以通过在单位或动物屏幕中逐一屠宰排在第一位（因此通常是最老的）的猫来部分解决缺少年龄信息的问题，直到收益下降到未成年规模的收益，然后等待几个月或一年让剩余的小猫<s>炖</s>成熟一段时间。
 
-{{Translation
-| dwarven = kun
-| elvish  = linì
-| goblin  = sest
-| human   = usa
-}}
+{{Translation| dwarven = kun| elvish  = linì| goblin  = sest| human   = usa}}
 
 [[Image:Feral cat Virginia crop.jpg|thumb|center|250px|因其''冷漠''而受赞赏。]]
 

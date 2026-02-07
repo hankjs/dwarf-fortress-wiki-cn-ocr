@@ -1,0 +1,25 @@
+{{Quality|Superior}}
+{{layerlookup/0|graphic=chalk_sprite.png}}
+{{av}}
+
+'''白垩'''是在[[sedimentary layer|沉积层]]中发现的[[flux|助熔]][[stone|石头]]。因此，它的价值是大多数其他石头的两倍。
+尽管白垩在现实生活中具有相当粉笔的性质，但在''矮人要塞''中由白垩制成的[[furniture|家具]]和[[Finished goods|工艺品]]与[[granite|花岗岩]]的持续时间一样长。
+白垩'''不是'''[[magma-safe|岩浆安全]]材料。
+
+==现实生活中==
+白垩，一种柔软的白色沉积岩，是由矿物[[calcite|方解石]]组成的[[limestone|石灰岩]]的一种形式。它通常包含[[chert|燧石]]和少量[[silt|淤泥]]和[[clay|粘土]]。
+
+{{D for Dwarf}}
+
+与现实生活不同，矮人不能食用白垩[[slab|板]]来[[vomit|安抚他们的胃]]。
+
+<gallery>
+File:Mur craie et brique sur soubassement silex.png|Chalk blocks (white) in a wall
+File:Craie coniacienne avec rognons à silex recouverte par horizon lœssique.png|A layer of chalk
+File:Chalk quarry crete B.jpg|Chalk quarry
+File:Chalk samples (Steam).png|Chalk samples
+</gallery>
+
+{{gamedata}}
+{{stones}}
+{{Category|Economic Stone}}

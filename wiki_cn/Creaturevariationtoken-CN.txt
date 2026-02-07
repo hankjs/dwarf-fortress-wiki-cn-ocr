@@ -8,56 +8,27 @@
 生物变体可以添加/转换几乎所有标记，但{{token|APPLY_CREATURE_VARIATION|c}}是一个例外，因此你不能嵌套生物变体。
 {{clear}}
 
-{| {{prettytable}}
-|- bgcolor="#999999"
+{| {{prettytable}}|- bgcolor="#999999"
 ! 标记
 ! 参数
 ! 描述
-
-|-
-| {{text anchor|CV_NEW_TAG}}
-|
-*标记（包括标记参数）
-| 向目标生物添加给定的标记。例如[CV_NEW_TAG:BIOME:ANY_FOREST]给生物添加[BIOME:ANY_FOREST]。
-
-|-
-| {{text anchor|CV_ADD_TAG}}
-|
-*标记（包括标记参数）
-| CV_NEW_TAG的别名。
-
-|-
-| {{text anchor|CV_REMOVE_TAG}}
-|
-*前导标记（名称和）参数
-| 从目标生物中移除所有以给定标记参数链开头的标记。例如[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]会移除[BODY:HUMANOID_SIMPLE:3_EYES]，但[CV_REMOVE_TAG:BODY:3_EYES]不会。[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]也无法移除[BODY:HUMANOID_SIMPLE_NECK:3_EYES]，因为它查找的是完整参数。[CV_REMOVE_TAG:BODY]会移除上述两个例子，因为它们都以"BODY"开头。
-
-|-
-| {{text anchor|CV_CONVERT_TAG}}
-|
-| 开始一个转换块，包含一个{{token|CVCT_MASTER|cv}}、一个{{token|CVCT_TARGET|cv}}和一个{{token|CVCT_REPLACEMENT|cv}}。注意多个转换块的应用顺序可能看起来是"反向"的（参见[[creature_variation_token#Application|应用]]）。
-
-|-
-| {{text anchor|CVCT_MASTER}}
-|
-*前导标记（名称和）参数
-| 指定目标生物的哪些标记可以被转换，通过查看所述标记开头的完整参数（类似{{token|CV_REMOVE_TAG|cv}}）。
+|-| {{text anchor|CV_NEW_TAG}}|
+*标记（包括标记参数）| 向目标生物添加给定的标记。例如[CV_NEW_TAG:BIOME:ANY_FOREST]给生物添加[BIOME:ANY_FOREST]。
+|-| {{text anchor|CV_ADD_TAG}}|
+*标记（包括标记参数）| CV_NEW_TAG的别名。
+|-| {{text anchor|CV_REMOVE_TAG}}|
+*前导标记（名称和）参数| 从目标生物中移除所有以给定标记参数链开头的标记。例如[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]会移除[BODY:HUMANOID_SIMPLE:3_EYES]，但[CV_REMOVE_TAG:BODY:3_EYES]不会。[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]也无法移除[BODY:HUMANOID_SIMPLE_NECK:3_EYES]，因为它查找的是完整参数。[CV_REMOVE_TAG:BODY]会移除上述两个例子，因为它们都以"BODY"开头。
+|-| {{text anchor|CV_CONVERT_TAG}}|| 开始一个转换块，包含一个{{token|CVCT_MASTER|cv}}、一个{{token|CVCT_TARGET|cv}}和一个{{token|CVCT_REPLACEMENT|cv}}。注意多个转换块的应用顺序可能看起来是"反向"的（参见[[creature_variation_token#Application|应用]]）。
+|-| {{text anchor|CVCT_MASTER}}|
+*前导标记（名称和）参数| 指定目标生物的哪些标记可以被转换，通过查看所述标记开头的完整参数（类似{{token|CV_REMOVE_TAG|cv}}）。
 
 如果没有给出CVCT_MASTER，或者没有给它参数，或者给它的唯一参数是空白的（即[CVCT_MASTER:]），则选择目标生物的所有标记。
-
-|-
-| {{text anchor|CVCT_TARGET}}
-|
-*字符串
-| 在CVCT_MASTER指定的所有标记中定位指定的字符串。
+|-| {{text anchor|CVCT_TARGET}}|
+*字符串| 在CVCT_MASTER指定的所有标记中定位指定的字符串。
 
 如果没有给出CVCT_TARGET，或者没有给它参数，或者给它的唯一参数是空白的（即[CVCT_TARGET:]），游戏在加载生物时会冻结。
-
-|-
-| {{text anchor|CVCT_REPLACEMENT}}
-|
-*字符串
-| 替换CVCT_MASTER指定的标记中由CVCT_TARGET指定的字符串。这意味着标记的目标部分可以在标记的任何位置更改，例如
+|-| {{text anchor|CVCT_REPLACEMENT}}|
+*字符串| 替换CVCT_MASTER指定的标记中由CVCT_TARGET指定的字符串。这意味着标记的目标部分可以在标记的任何位置更改，例如
  [CV_CONVERT_TAG]
  	[CVCT_MASTER:BODY]
  	[CVCT_TARGET:2EYES]
@@ -76,38 +47,21 @@
 和[DESCRIPTION:This is an example creature. It is TRAIT, very very TRAIT.]，你会得到[DESCRIPTION:This is an example creature. It is modderiffic, very very modderiffic.]。
 
 如果没有给出CVCT_REPLACEMENT，目标字符串将被简单移除。
-
-|-
-| {{text anchor|CV_NEW_CTAG}}
-|
+|-| {{text anchor|CV_NEW_CTAG}}|
 *!ARG 编号
 *!ARG要匹配的值
-*标记
-| {{token|CV_NEW_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
-
-|-
-| {{text anchor|CV_ADD_CTAG}}
-|
+*标记| {{token|CV_NEW_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
+|-| {{text anchor|CV_ADD_CTAG}}|
 *!ARG 编号
 *!ARG要匹配的值
-*标记
-| CV_NEW_CTAG的别名。
-
-|-
-| {{text anchor|CV_REMOVE_CTAG}}
-|
+*标记| CV_NEW_CTAG的别名。
+|-| {{text anchor|CV_REMOVE_CTAG}}|
 *!ARG 编号
 *!ARG要匹配的值
-*标记
-| {{token|CV_REMOVE_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
-
-|-
-| {{text anchor|CV_CONVERT_CTAG}}
-|
+*标记| {{token|CV_REMOVE_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
+|-| {{text anchor|CV_CONVERT_CTAG}}|
 *!ARG 编号
-*!ARG要匹配的值
-| {{token|CV_CONVERT_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。使用{{token|CVCT_MASTER|cv}}、{{token|CVCT_TARGET|cv}}和{{token|CVCT_REPLACEMENT|cv}}，就像前者一样。
-|}
+*!ARG要匹配的值| {{token|CV_CONVERT_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。使用{{token|CVCT_MASTER|cv}}、{{token|CVCT_TARGET|cv}}和{{token|CVCT_REPLACEMENT|cv}}，就像前者一样。|}
 
 == 应用 ==
 

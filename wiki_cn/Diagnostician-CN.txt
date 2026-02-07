@@ -1,0 +1,29 @@
+{{Quality|Superior}}
+{{Skill| color      = 5:0| graphic    = [[File:doctor_sprite_icon.png]]| graphicmargin = 106px| skill      = Diagnostician| specialty  = Diagnoser| profession = [[Doctor|医生]]| job name   = [[Diagnosis|诊断]]| tasks      =
+* 诊断受伤的矮人
+* 思考
+* 讨论
+* 研究| attributes =
+* 分析能力
+* 记忆力
+* 直觉}}
+{{av}}
+{{buggy}}
+'''诊断员'''是与[[diagnosis|诊断]][[labor|劳动]]相关的技能,也是与之相关的医院[[occupation|职业]]。诊断员负责决定如何在[[hospital|医院]]治疗受伤的矮人。
+
+诊断员[[skill|技能等级]]与完成劳动的速度有关,它还影响识别任何活跃[[syndrome|综合症]]的概率。这是[[chief medical dwarf|首席医疗矮人]]贵族职位唯一相关的技能。图形上,诊断员穿着全黑色的衣服。
+
+与普遍看法相反,缺乏经验的诊断员'''不会'''误诊伤势并开出不当的治疗方案。
+
+诊断员决定你要塞受伤者所遭受的最新折磨,作为[[health care|医疗保健行业]]的一部分。诊断员技能也被[[scholars|学者]]在思考医学科学相关[[topics|主题]]时使用:
+
+{{DF2014:Topic/table/medicine}}
+
+== 漏洞 ==
+该职业受到[[Known bugs and issues#healthcare-labors-bug|医疗劳动漏洞]]的影响。
+
+{{skills}}
+{{Category|Noble Skills}}
+{{Category|Occupation}}
+{{Category|Healthcare}}
+{{Category|Scholarship}}

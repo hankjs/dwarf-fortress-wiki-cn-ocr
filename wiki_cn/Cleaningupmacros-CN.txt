@@ -1,0 +1,44 @@
+{{migrated article}}
+{{av}}
+
+此页面致力于帮助清理[[macro|宏]]。这很有用,因为录制的宏包含相当多的其他界面交互,这会真正减慢宏的执行速度。
+
+== 清理宏 ==
+因为DF缓存宏,你必须至少更改宏的名称(例如,递增计数器);否则,将使用最早加载的版本。
+
+如果你制作在单个菜单中执行重复工作的宏,你可以轻松使用[http://gnuwin32.sourceforge.net/packages/grep.htm grep]和菜单宏文件。Grep是一个GNU实用程序,它处理输入(文本)文件,并且只返回匹配过滤选项的行。这是一个非常强大的实用程序,更多信息可以在其[http://unixhelp.ed.ac.uk/CGI/man-cgi?grep 手册]中找到。请注意grep区分大小写——你需要正确指定大小写(对于宏通常是大写)或使用<code>-i</code>标志来忽略大小写。
+
+=== 使用grep ===
+因为使用grep过滤掉不需要的行也会过滤掉宏的名称,你必须手动添加它。这可以通过使用<code>echo macro_name > macro_name.mak</code>来完成。
+
+Grep可以从文件或命令行选项读取模式。文件应该每行一个模式(参见下面的[[#Useful Filters|有用过滤器]]示例)。例如,一个只返回滚动命令的文件可能如下所示:
+ SCROLL_
+ SECONDSCROLL_
+要使用此方法,创建一个具有适当模式的文件(例如,build_menu.txt),然后:
+ echo my1 > my1.mak
+ grep -f build_menu.txt my.mak >> my1.mak
+
+(my.mak是原始宏,my1.mak是"清理"后的宏。)
+不要忘记从模式文件中清理任何空行;否则,什么都不会被过滤掉。
+
+或者,每个模式可以在命令行上用<code>-e</code>指定:
+ echo my2 > my2.mak
+ grep -e line_1_from_file -e line_2_from_file -e line_3_from_file my.mak >> my2.mak
+
+在这两种情况下,第一行是将"my2"(宏的名称)写入文件。'''如果文件存在,此操作将覆盖文件的现有内容''',所以确保此文件不存在或不重要。第二行实际上是进行过滤并将宏写入文件。(此命令可以多次运行——因为它附加到文件,它可以用于在文件中制作宏的多个副本。可能需要删除文件中间的"宏结束"行。)
+== 有用过滤器 ==
+=== 建造菜单 ===
+如果你希望建造任何东西,并且你不打算离开建造菜单,并且宏不选择建筑类型,你可以使用以下文件过滤你的宏。(本质上,你手动选择第一个位置和建筑类型,然后运行宏。)
+ SELECT
+ End of group
+ CURSOR_
+ End of macro
+
+=== 调整大小菜单 ===
+如果你希望调整某些建筑的大小,你可以使用此过滤器来加速。它将保留所有调整大小命令,因此它仍然适用于其他建筑调整大小(例如,为卧室录制的宏仍然适用于雕像花园)。
+ SELECT
+ SECONDSCROLL_
+ CURSOR_
+ _SIZE
+ End of group
+ End of macro

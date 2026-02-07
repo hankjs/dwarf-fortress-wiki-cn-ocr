@@ -1,0 +1,12 @@
+{{distinguish|Future of the Fortress}}
+'''Dwarf Fortress Development'''(矮人要塞开发)是描述''Dwarf Fortress''预期短期开发的页面名称,尽管在实践中该页面列出了将在几年内进行的开发。它有时被称为"dev_next",因为这是网站更新之前网页HTML文件的名称。Dwarf Fortress Development现在位于"dev"。
+
+== 参见 ==
+* [[Development arc]]
+
+== 外部链接 ==
+* [http://www.bay12games.com/dwarves/dev.html Dwarf Fortress Development]
+
+[[Category:Game development]]
+{{unversioned}}
+[[ru:Dwarf Fortress Development]]

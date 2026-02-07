@@ -9,12 +9,7 @@
 * [[Cacao tree|Cacao bean]]（可可豆）
 * [[Coffee|Coffee bean]]（咖啡豆）
 
-{{Translation
-| dwarven = nangês
-| elvish  = mawada
-| goblin  = dugu
-| human   = seto
-}}
+{{Translation| dwarven = nangês| elvish  = mawada| goblin  = dugu| human   = seto}}
 
 {{disambig}}
 [[ru:Bean]]

@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{av}}
+'''喜剧演员'''是矮人在交友时使用的[[social skill|社交技能]]。特别擅长这一点的矮人往往很容易交朋友,并经常上升到[[mayor|市长]]职位。
+
+要训练这项技能,让矮人闲置并相互聊天。[[personality facet#HUMOR|没有幽默感]]的矮人无法获得喜剧技能。此外,[[personality value#MERRIMENT|厌恶欢乐]]的矮人不能获得这项技能,除非他们也有极其幽默的个性。
+==画廊==
+<gallery widths="350px" heights="50px">
+v50_am_badjoke.png|A dwarf telling a bad joke.
+v50_am_goodjoke.png|The same dwarf supposedly telling a better one.
+</gallery>
+
+{{D for dwarf}}
+喜剧演员被认为是[[Batman|蝙蝠人]]的死敌。
+{{skills}}

@@ -1,0 +1,12 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+'''建筑材料'''是可用于建造[[workshop|作坊]]、[[construction|建筑]]和其他类型[[building|建筑物]]的物品。大多数需要建筑材料的任务也要求它们是非[[economic|经济]]类的。
+
+以下物品类型可用作建筑材料：
+* [[Stone|石头]]
+* [[Bar|金属锭]]
+* [[Block|方块]]
+* [[Log|原木]]
+{{Category|Materials}}
+[[ru:Building material]]

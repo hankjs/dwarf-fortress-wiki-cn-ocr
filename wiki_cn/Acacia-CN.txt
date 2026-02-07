@@ -1,8 +1,5 @@
 {{Quality|Exceptional|13:41, 1 March 2023 (CST)}}
-{{Treelookup/0
-|graphic=pomegranate_trunk_sprite.png
-|product=acacia_sprite.png
-|sapling=acacia_sapling.png}}
+{{Treelookup/0|graphic=pomegranate_trunk_sprite.png|product=acacia_sprite.png|sapling=acacia_sapling.png}}
 {{av}}
 
 '''金合欢'''（Acacia）是在地表发现的众多[[tree|树木]]属之一，在大多数干燥的[[tropical|热带]][[biome|生物群系]]中发现，沙漠除外。

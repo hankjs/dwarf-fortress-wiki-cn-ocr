@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=flying_squirrel_sprite.png|portrait=flying_squirrel_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''飞鼠'''是一种在任何[[temperate|温带]][[forest|森林]]中发现的[[above ground|地上]][[vermin|害虫]],可以被[[trapper|捕猎者]]捕获并变成[[pet|宠物]]。它们生来就拥有传奇的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]飞鼠,因为它们''滑翔''和''大眼睛''。
+
+[[File:Glaucomys sabrinus.jpg|thumb|center|300px|Admired for its ''gliding''.]]
+
+{{gamedata}}
+{{vermin}}

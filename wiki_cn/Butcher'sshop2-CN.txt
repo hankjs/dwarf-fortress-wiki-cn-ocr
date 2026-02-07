@@ -1,20 +1,12 @@
 {{Quality|Superior}}
-{{V50 workshop
-|name=Butcher's shop
-|icon=[[File:butchers_shop_icon.png]]
-|key=f|key2=b
-|job=*[[Butcher|Butchery]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
+{{V50 workshop|name=Butcher's shop|icon=[[File:butchers_shop_icon.png]]|key=f|key2=b|job=*[[Butcher|Butchery]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
 1 of
 *[[Butchery]]
 *[[Small animal dissection]]
-*[[Trapping]]
-|use=
+*[[Trapping]]|use=
 * [[Tame animals]]
-* Corpses of untamed non-sentient animals
-|production=
+* Corpses of untamed non-sentient animals|production=
 * [[Skin]]
 * [[Fat]]
 * [[Meat]]
@@ -26,8 +18,7 @@
 * [[Ivory]]
 * [[Tooth]]
 * [[Hair]]
-* [[Wool]]
-}}{{av}}
+* [[Wool]]}}{{av}}
 
 '''屠宰场（butcher's shop）'''用于[[Butcher#Slaughtering|屠宰]][[Tame animals|驯养动物]]，或[[butcher|屠解]]被杀死的野生动物的尸体或骨架。驯养动物可以在{{k|u}}[[Unit_list|生物]]菜单下的宠物/牲畜标签中被指定为屠宰。
 
@@ -40,44 +31,7 @@
 
 {| {{prettytable}}
 !物品
-!用途
-|-
-|[[Meat|肉]]和[[prepared organs|准备好的器官]]
-|生吃或[[kitchen|烹饪]]
-|-
-|[[Fat|脂肪]]
-|[[kitchen|烹饪]]成[[tallow|油脂]]
-|-
-|[[Skull|头骨]]
-|制作头骨[[totem|图腾]]
-|-
-|[[Bone|骨头]]
-|制作骨[[armor|护甲]]、骨[[bolt|弩箭]]、骨[[crafts|工艺品]]、骨[[decoration|装饰]]和[[strange mood|奇异心情]]
-|-
-|[[Hoof|蹄]]、[[Horn|角]]、[[Tooth|牙齿]]
-|[[crafts|工艺品]]和[[decoration|装饰]]
-|-
-|[[Shell|壳]]
-|制作壳[[armor|护甲]]、壳[[crafts|工艺品]]、壳[[decoration|装饰]]和[[strange mood|奇异心情]]
-|-
-|[[Skin|皮肤]]
-|鞣制成[[Leather|皮革]]
-|-
-|[[Wool|羊毛]]
-|纺成[[Yarn|毛线]]
-|-
-|[[Hair|毛发]]
-|纺成[[thread|线]]，但不织成[[cloth|布]]
-|-
-|[[Cartilage|软骨]]
-|目前没有用途。
-|-
-|[[Nervous tissue|神经组织]]
-|目前没有用途。
-|-
-|[[Feather|羽毛]]、[[Scale|鳞片]]、[[Chitin|甲壳素]]和[[Nail|指甲]]
-|目前没有用途。
-|}
+!用途|-|[[Meat|肉]]和[[prepared organs|准备好的器官]]|生吃或[[kitchen|烹饪]]|-|[[Fat|脂肪]]|[[kitchen|烹饪]]成[[tallow|油脂]]|-|[[Skull|头骨]]|制作头骨[[totem|图腾]]|-|[[Bone|骨头]]|制作骨[[armor|护甲]]、骨[[bolt|弩箭]]、骨[[crafts|工艺品]]、骨[[decoration|装饰]]和[[strange mood|奇异心情]]|-|[[Hoof|蹄]]、[[Horn|角]]、[[Tooth|牙齿]]|[[crafts|工艺品]]和[[decoration|装饰]]|-|[[Shell|壳]]|制作壳[[armor|护甲]]、壳[[crafts|工艺品]]、壳[[decoration|装饰]]和[[strange mood|奇异心情]]|-|[[Skin|皮肤]]|鞣制成[[Leather|皮革]]|-|[[Wool|羊毛]]|纺成[[Yarn|毛线]]|-|[[Hair|毛发]]|纺成[[thread|线]]，但不织成[[cloth|布]]|-|[[Cartilage|软骨]]|目前没有用途。|-|[[Nervous tissue|神经组织]]|目前没有用途。|-|[[Feather|羽毛]]、[[Scale|鳞片]]、[[Chitin|甲壳素]]和[[Nail|指甲]]|目前没有用途。|}
 
 == 任务 ==
 

@@ -1,0 +1,20 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+
+[[File:construct_creatures_preview.png|right]]'''构造生物'''是''矮人要塞''社区一些成员使用的非官方术语{{verify}},指的是类人[[creature|生物]],虽然类似于[[animal people|动物人]],但源自非动物概念。这是一个有点模糊的术语,因为游戏本身没有构造生物的概念(即它不会单独对待它们),因此对于本页面的目的,任何名称格式为"[某物某物] man"的生物都算数(因此,例如,[[bronze colossus|青铜巨像]]不算)。
+
+以下构造生物存在:
+* [[File:amethyst_man_sprite.png|16px]] / {{Tile|M|5:0:1}} [[Amethyst man|紫水晶人]]
+* [[File:blizzard_man_sprite.png|16px]] / {{Tile|M|3:0:1}} [[Blizzard man|暴风雪人]]
+* [[File:blood_man_sprite.png|16px]] / {{Tile|M|4:0:0}} [[Blood man|血人]]
+* [[File:fire_man_sprite.png|16px]] / {{Tile|M|4:0:1}} [[Fire man|火人]]
+* [[File:gabbro_man_sprite.png|16px]] / {{Tile|M|0:0:1}} [[Gabbro man|辉长岩人]]
+* [[File:iron_man_sprite.png|16px]] / {{Tile|M|0:0:1}} [[Iron man|铁人]]
+* [[File:magma_man_sprite.png|16px]] / {{Tile|M|4:0:1}} [[Magma man|岩浆人]]
+* [[File:mud_man_sprite.png|16px]] / {{Tile|M|6:0:0}} [[Mud man|泥人]]
+* [[File:plump_helmet_man_sprite.png|16px]] / {{Tile|M|5:0:0}} [[Plump helmet man|肥头盔人]]
+
+{{Creatures}}
+{{Category|Humanoids}}
+[[ru:Construct creature]]

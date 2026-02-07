@@ -1,0 +1,15 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=coati_man_sprite.png|portrait=coati_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''长鼻浣熊人'''是普通[[coati|长鼻浣熊]]的[[animal people|动物人]]变种,可以在[[savage|野蛮]][[temperate|温带]]和[[tropical|热带]][[forest|森林]]中找到。它们以1-5个个体的群体生成,就像它们的普通先例类型标本一样,倾向于[[Thief|偷窃]]它们能找到的任何物品,并在看到时被随机平民——有时甚至是牲畜——打死。这会给你的垃圾储存区的救星带来相当严重的坏想法,就像杀死任何其他有知觉的生物一样。在体型方面,它们的体重略超过普通[[dwarf|矮人]]的一半。
+
+像其他野蛮动物人一样,它们可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并在[[adventurer mode|冒险者模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]长鼻浣熊人的''好奇心''。
+
+[[File:coati_man.png|thumb|250px|center|Less creepily awkward in-game.]]
+
+{{gamedata}}
+{{Creatures}}

@@ -1,0 +1,28 @@
+{{Quality|Superior}}
+{{av}}
+
+'''工艺矮人'''是一个与创造各种材料的[[craft|工艺品]]和[[clothing|服装]]有关的类别职业。
+
+成年[[dwarf|矮人]]的最佳技能在这个类别中,并且在其他工艺技能中积累了等级(具体多少不清楚)将被称为工艺矮人。如果矮人只有一项工艺矮人技能的经验,他将以其最高技能而闻名。在图形上,拥有这些职业之一的人将被看到穿着蓝色/靛蓝色衣服。
+
+工艺矮人技能是:
+
+{{Skill Box|Craftsdwarf|1:1|1:1|
+* [[Bone carver|骨雕师]]
+* [[Bookbinder|装订工]]
+* [[Clothier|裁缝]]
+* [[Glassmaker|玻璃匠]]
+* [[Glazer|上釉工]]
+* [[Leatherworker|皮革工]]
+* [[Papermaker|造纸工]]
+* [[Potter|陶工]]
+* [[Stone crafter|石匠]]
+* [[Wax worker|蜡工]]
+* [[Weaver|织工]]
+* [[Wood crafter|木匠]]
+* [[Strand extractor|丝线提取工]]}}
+
+{{Category|Professions}}
+
+{{skills}}
+[[Ru:Craftsdwarf]]

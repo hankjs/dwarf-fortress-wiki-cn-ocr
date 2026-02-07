@@ -1,9 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=mangrove_trunk_sprite.png
-|product=palm_sprite.png
-|sapling=palm_sapling.png
-|wiki=coconut}}
+{{Treelookup/0|graphic=mangrove_trunk_sprite.png|product=palm_sprite.png|sapling=palm_sapling.png|wiki=coconut}}
 {{av}}
 
 '''椰子树'''是一种[[above ground|地上]][[tree|树木]]，可以在任何[[tropical|热带]]生物群系的干燥地区找到。像绝大多数陆地树木一样，椰树[[carpenter|木材]]是棕色的，生产棕色产品。

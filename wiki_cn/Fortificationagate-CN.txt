@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_fortification_agate_sprite.png|graphic2=rough_fortification_agate_sprite.png|wiki=Agate}}
+{{av}}
+
+'''防御工事玛瑙'''是一种平凡的低价值[[gem|宝石]],在[[sedimentary layer|沉积层]]中发现。
+
+[[File:Fortification_Agate.jpg|thumb|230px|center|粗糙的防御工事玛瑙]]
+
+{{gamedata}}
+{{gems}}

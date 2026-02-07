@@ -1,0 +1,43 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{buggy}}
+{{Noble|noble= 远征队长|function=
+* 会见外国使节
+* 与不满的公民交谈}}
+:* ''本页面关于要塞内的行政职位。关于[[skill|技能]]，请参见[[Leader|领导者]]。''
+
+'''远征队长'''是在[[embark|出征]]时自动填补的[[Noble|行政]]职位。该官员的工作是与不满的矮人交谈、安慰或倾听他们的抱怨，并接待外国外交官。一旦人口达到50人，将选举一位[[mayor|市长]]，远征队长职位将被移除。
+
+需要远征队长或市长来任命其他管理人员；他们还能够为选举产生的职位（包括他们自己的职位）任命替代者，或移除当前的任命，使职位空缺。如果你的领导者遭遇[[unfortunate accident|不幸事故]]或被移除，你将不得不等待新领导者当选才能任命任何管理人员；这可能在一天内发生。但是，如果文明已死亡，选举将永远不会发生，你将无法任命新领导者或其他官员。
+
+有一组与远征队长相关的[[skills|技能]]。还有某些[[Personality|性格特征]]会影响是否能够获得该技能的经验。此外，还有影响技能的[[Attributes#Soul_Attributes|灵魂属性]]以及影响这些相同属性的其他技能（[[cross-training|交叉训练]]）；与远征队长相关的如下：
+{| {{prettytable}}|- style="background:#ddd"
+! rowspan="2" colspan="2"                   | 技能（与远征队长相关）
+! rowspan="2" colspan="2"                   | 性格特征（获得社交技能所需）
+!             colspan="2"                   | 属性（受社交技能影响）|-
+!                         style="width:1em" | 身体
+!                         style="width:1em" | 灵魂|-| rowspan="6" | 社交 - 其他| rowspan="3" | [[Consoler|安慰者]]| rowspan="3" | 直率（诚实）| rowspan="3" | > 39| rowspan="3" | |               语言能力|-|               同理心|-|               社交意识|-| rowspan="3" | [[Pacifier|调停者]]| rowspan="3" | 合作（妥协）| rowspan="3" | > 39| rowspan="3" | |               语言能力|-|               同理心|-|               社交意识|-| rowspan="23"                   | 社交 - 经纪人| rowspan= "3"                   | [[Comedian|喜剧演员]]| rowspan= "3" style="width:5em" | 自我意识（神经质）| rowspan= "3" style="width:1em" | < 76| rowspan= "3"                   | 敏捷|                创造力|-|                动觉感知|-|                语言能力|-| rowspan="3" | [[Conversationalist|健谈者]]| rowspan="3" | 友好性（保守）| rowspan="3" | > 39| rowspan="3" | |               语言能力|-|               同理心|-|               社交意识|-| rowspan="3" | [[Flatterer|奉承者]]| rowspan="6" | 直率（诚实）| rowspan="3" | < 61| rowspan="3" | |               语言能力|-| 同理心|-| 社交意识|-| rowspan="3" | 说谎者| rowspan="3" | < 40| rowspan="3" | |               创造力|-|               语言能力|-|               社交意识|-| rowspan="2" | [[Intimidator|威吓者]]| rowspan="2" | 合作（妥协）| rowspan="2" | < 61| rowspan="2" | 敏捷|               动觉感知|-|               语言能力|-| rowspan="3"             | 意图判断者| rowspan="3" colspan="2" | | rowspan="3"             | |                           直觉|-|                           同理心|-|                           社交意识|-| rowspan="3"             | [[Negotiator|谈判者]]| rowspan="3" colspan="2" | | rowspan="3"             | |                           语言能力|-|                           同理心|-|                           社交意识|-| rowspan="3" | [[Persuader|说服者]]| rowspan="3" | 自信（领导力）| rowspan="3" | > 39| rowspan="3" | | 语言能力|-| 同理心|-| 社交意识|-|}
+与表中的技能、特征和属性越匹配，矮人就越能成为更好的远征队长；尽量避免会阻止相关技能获得经验的特征，否则将浪费时间训练一个在该技能上永远不会变得更好的矮人。
+
+== 漏洞 ==
+* 长期以来一直存在争议，他们能够替换或移除包括自己在内的选举产生的职位是否是一个漏洞。{{bug|2512}}
+* 如果要塞人口降至1个儿童或疯狂矮人，当移民到来时无法任命或选举贵族。{{bug|5299}}
+* 超过50矮人门槛后，市长选举在对贵族屏幕进行任何更改之前不会发生。{{bug|8514}}
+* 在死亡文明中无法重新填补空缺的远征队长职位，因此也无法填补任命的职位。{{bug|11559}}
+
+{{gamedata|	[POSITION:EXPEDITION_LEADER]
+		[NAME:expedition leader:expedition leaders]
+		[SITE]
+		[NUMBER:1]
+		[REPLACED_BY:MAYOR]
+		[RULES_FROM_LOCATION]
+		[RESPONSIBILITY:MEET_WORKERS]
+		[RESPONSIBILITY:RECEIVE_DIPLOMATS]
+		[RESPONSIBILITY:MILITARY_GOALS]
+		[PRECEDENCE:110]
+		[DO_NOT_CULL]
+		[ACCOUNT_EXEMPT]
+		[DUTY_BOUND]}}
+{{Nobles}}
+{{Category|Elected Nobles}}

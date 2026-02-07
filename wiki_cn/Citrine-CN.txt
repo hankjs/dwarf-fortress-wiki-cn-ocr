@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_citrine_sprite.png
-|graphic2=rough_citrine_sprite.png}}
+{{gemlookup/0|graphic=cut_citrine_sprite.png|graphic2=rough_citrine_sprite.png}}
 {{av}}
 
 '''黄水晶'''是一种不起眼的、低价值的[[gem|宝石]]，几乎可以在任何地方找到。

@@ -1,0 +1,17 @@
+{{Quality|fine}}
+{{creaturelookup/0|image=desert_tortoise_sprites.png|skin=scale|meat=6|fat=6|bone=4|skull=1|intestine=1|shell=1|contrib=no|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''沙漠陆龟'''是在[[desert|沙漠]][[biome|生物群系]]中发现的小型[[creature|生物]]。它们单独出现,除了漫无目的地四处游荡外几乎不做任何事。它们只比普通[[cat|猫]]稍大一点,受到威胁时会逃跑,这使它们对除了最倒霉的[[dwarves|矮人]]之外的所有人都无害。它们是沙漠中少数[[shell|壳]]的来源之一,也是没有[[water|水]]时的唯一来源。
+
+沙漠陆龟可以被[[cage|笼子]][[trap|陷阱]]捕获,并[[Animal trainer|训练]]成低价值的[[pet|宠物]]。它们被[[butcher|屠宰]]时产出少量的[[food|食物]]和[[bone|骨头]],与大多数家禽相比产[[egg|蛋]]数量较少。正如陆龟所期望的那样,它们相当长寿,这使它们成为收养它们的矮人的长久伴侣。
+
+一些矮人[[Preferences|喜欢]]沙漠陆龟,因为它们的''壳''和''长寿''。
+
+
+[[File:Gopherus agassizii.jpg|thumb|center|300px|Admired for its ''longevity''.]]
+
+
+{{gamedata}}
+{{creatures}}

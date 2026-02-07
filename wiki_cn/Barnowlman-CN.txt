@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=barn_owl_man_sprite.png
-|portrait=barn_owl_man_portrait.png}}
+{{Creaturelookup/0|image=barn_owl_man_sprite.png|portrait=barn_owl_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 '''仓鸮人'''是普通[[barn owl|仓鸮]]的人形版本，是不起眼的[[animal people|兽人]]的一个[[Creature|物种]]，可在各种各样的[[savage|野蛮]][[biome|生物群系]]中找到。它们的体型略大于成年[[dwarf|矮人]]的一半，以5-10个个体为一组生成，除非被激怒，否则不太可能对你的要塞构成任何危险。所有仓鸮人天生拥有传奇级的[[Climber|攀爬]][[skill|技能]]。

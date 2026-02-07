@@ -1,0 +1,20 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=chimpanzee_sprites.png|portrait=chimpanzee_portrait_anim.gif|contrib=no|meat=12-13|fat=12|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|bone=10|skull=1|skin=hide|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+'''黑猩猩'''是很少在[[tropical|热带]][[forest|森林]][[biome|生物群系]]中发现的社交[[Creature|动物]]，以5-10个个体的群体访问你的要塞，它们实际上与[[bonobo|倭黑猩猩]]相同。黑猩猩的[[pet|宠物]]价值为500，可以与[[animal trainer|动物训练师]]一起训练；这使得捕获和驯服它们成为一项理想的活动。它们可以活到八十岁，因此将黑猩猩作为宠物的矮人将拥有它很长时间。年幼的黑猩猩只需两年就能达到完整大小，但需要整整十年才能达到成年。黑猩猩出生时都拥有传奇[[skill|技能]]的[[Climber|攀爬]]。
+
+黑猩猩是温和的漫步者，很少主动发起战斗，但如果被困或激怒，它们可能会反击矮人。在战斗中，当成群时它们可能很危险：一个手无寸铁的农民通常会战胜单独的黑猩猩，但通常会被两个或更多打败。通常，有两个或更多。简单的解决方案：不要派出手无寸铁的农民去直接与黑猩猩战斗，除非[[unfortunate accident|他们真的应得]]。黑猩猩是游戏中为数不多的不是天生游泳者的野生动物之一，因此如果被推入[[water|水]]体中，它们很可能会淹死。
+
+一些矮人[[preference|喜欢]]黑猩猩的''滑稽动作''。
+
+[[File:Schimpanse Zoo Leipzig.jpg|thumb|400px|center|Admired for its ''antics''.]]
+
+{{D for Dwarf}}
+鉴于世界上有这么多动物人，矮人就神话般的黑猩猩人的下落展开辩论。一些学者认为这可能是[[human|人类]]种族的真名，尽管他们不喜欢被直接告知这一点。
+
+对于另一种小型、尖叫的猿类生物，会咬人和抓人，请参见[[goblin|地精]]。
+
+{{gamedata}}
+{{Creatures}}
+{{category|Animals}}

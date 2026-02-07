@@ -1,8 +1,6 @@
 {{Quality|Superior}}
 
-{{Creaturelookup/0
-|image=aardvark_man_sprite.png
-|portrait=aardvark_man_portrait.png}}
+{{Creaturelookup/0|image=aardvark_man_sprite.png|portrait=aardvark_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

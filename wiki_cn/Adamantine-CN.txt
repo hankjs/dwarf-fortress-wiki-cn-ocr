@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{Metal|name=Adamantine|color=3:3:1
-|ore=
-* [[File:raw_adamantine_sprite.png]] [[Raw adamantine]]
-|sample=[[File:AdamantineSample.png|center]]
-|graphic=adamantine_bar_sprite.png
-|properties=
+{{Metal|name=Adamantine|color=3:3:1|ore=
+* [[File:raw_adamantine_sprite.png]] [[Raw adamantine]]|sample=[[File:AdamantineSample.png|center]]|graphic=adamantine_bar_sprite.png|properties=
 * [[Material value|材料价值]] 300☼
 * [[Material science|冲击强度]] 5 GPa
 * [[Material science|剪切强度]] 5 GPa&nbsp;{{Tooltip|×10|MAX_EDGE为100,000，相比金属默认的10,000}}
@@ -15,8 +11,7 @@
 * [[Solid density|固体密度]] 200 kg/m³
 * 液体[[density|密度]] 2600 kg/m³
 * [[Specific heat|比热容]] 7500 J/kg·K
-* [[Color|颜色]] 青色
-|uses=
+* [[Color|颜色]] 青色|uses=
 * [[Weapon|近战武器]]
 * [[Crossbow|十字弩]]
 * [[Bolt|弩箭]]
@@ -24,8 +19,7 @@
 * [[Armor|护甲]]
 * [[Anvil|铁砧]]
 * [[Metalsmith's forge|金属工艺]]
-* [[Clothing|衣物]]
-|wiki=Adamant}}
+* [[Clothing|衣物]]|wiki=Adamant}}
 {{av}}{{Minorspoiler}}
 '''精金（Adamantine）'''是一种稀有的高价值[[metal|金属]]，它不可思议地轻盈、坚固且锋利。精金从[[raw adamantine|粗制精金]]中提炼，可以编织成[[cloth|布料]]或在[[smelter|冶炼炉]]中[[smelter|熔炼]]成晶片，用于制作游戏中几乎任何物品。用精金制成的[[Armor|护甲]]和带刃[[weapon|武器]]价值极高且效果惊人。精金武器有特殊的图形。
 
@@ -49,12 +43,7 @@
 粗制精金无法在[[object testing arena|物品测试竞技场]]中生成，但从v50.07版本起，精金衍生装备可以生成。精金（粗制或其他）无法在[[embark|启程]]屏幕购买，大概是出于平衡性考虑。
 
 == 应用 ==
-{{Translation
-| dwarven = ebsas
-| elvish  = lire
-| goblin  = kumo
-| human   = medi
-}}
+{{Translation| dwarven = ebsas| elvish  = lire| goblin  = kumo| human   = medi}}
 精金具有极端的[[material science|材料属性]]：它几乎没有重量（重量大约相当于[[wikipedia:Cork (material)|软木]]），极其坚固且锋利如剃刀。这些特性使它成为带刃[[weapon|武器]]和[[armor|护甲]]的理想材料，但不幸的是，同样的特性使它对钝器几乎毫无用处，钝器只会从敌人身上弹开：考虑到[[hammerer|执槌者]]和[[fortress guard|要塞守卫]]殴打的致命性，这可能正是重点所在。精金制成的[[Armor|护甲]]对砍劈和穿刺攻击提供无与伦比的防护，但钝器攻击和远程武器具有很高的护甲穿透能力，因此一整套精金护甲仍然不是战斗无敌的秘诀。锁甲护甲尤其缺乏防护，因为精金令人难以置信的防护特性被锁链的灵活性所覆盖。
 
 由于金属的材料属性在其他应用中无关紧要，而且它如此稀有且难以生产，将精金用于其他用途通常是一种浪费。精金雕像的价值是[[gold|黄金]]雕像的十倍，但生产成本高得令人望而却步，每个雕像需要九个晶片。以每个晶片的价值计算，锻造精金[[flask|水壶]]可以实现普通精金产品的最高价值之一。然而，当你获得精金时，你可能已经不再急需如此有价值的出口产品。到目前为止，仅仅通过向[[artifact|神器]]添加精金就可以产生最多的[[wealth|财富]]——单块石头、晶片、方块或一块布料就可以增加数十万矮人币的价值，使你的要塞成为所有[[forgotten beast|邻居]]羡慕的对象。此外，你的[[Monarch|君主]]在抵达你的要塞时会坚持要有一个用精金制成的"真正的[[throne|王座]]"，以及七个同等价值的符号（尽管他们会接受用[[divine metal|神圣金属]]制成的，而这本身就有获取风险）。

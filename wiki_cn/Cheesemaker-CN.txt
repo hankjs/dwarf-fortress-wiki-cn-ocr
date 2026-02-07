@@ -1,22 +1,12 @@
 {{Quality|Superior}}
-{{v50_skill
-| color      = 6:0
-| graphic    = [[File:farmer_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Cheese Maker
-| profession = [[Farmer]]
-| job name   = [[Cheese making]]
-| workshop = [[Farmer's workshop]]
-| tasks      =
-* Make cheese
-| attributes =
+{{v50_skill| color      = 6:0| graphic    = [[File:farmer_sprite_icon.png]]| graphicmargin = 106px| skill      = Cheese Maker| profession = [[Farmer]]| job name   = [[Cheese making]]| workshop = [[Farmer's workshop]]| tasks      =
+* Make cheese| attributes =
 * Strength
 * Agility
 * Endurance
 * Analytical Ability
 * Creativity
-* Kinesthetic Sense
-}}
+* Kinesthetic Sense}}
 {{av}}
 '''奶酪制作者'''是与'''奶酪制作'''[[labor|劳动]]相关联的技能。奶酪制作者在[[farmer's workshop|农民工坊]]将[[milk|牛奶]]转化为[[cheese|奶酪]]。由于奶酪没有[[quality|品质]]修正，高[[skill|技能]]的奶酪制作者<s>并不特别有价值</s>与[[peasant|农民]]一样有价值。
 

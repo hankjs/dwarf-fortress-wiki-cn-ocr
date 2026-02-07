@@ -1,0 +1,17 @@
+{{Quality|fine}}
+{{verminlookup/0|image=demon_rat_sprite.png|portrait=demon_rat_portrait.png|wiki=no}}
+{{av}}
+{{creaturedesc}}
+
+'''恶魔鼠'''是一种[[above ground|地面]][[vermin|害虫]],出现在任何非[[biome|冰冻]]的[[evil|邪恶]]地区。它们可以偷窃和吃掉[[stockpiles|储物区]]中的[[food|食物]],甚至会咬穿[[barrel|容器]]来做到这一点。它们可以被[[trapper|陷阱猎人]]捕获并变成低价值的[[pet|宠物]]。尽管它们的名字如此,但它们与[[Hidden Fun Stuff|你知道的那个东西]]没有关系。
+
+关于恶魔鼠的一个奇怪之处是它们的血液是灰色的黏液。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]恶魔鼠,因为它们的''阴险本性''和''对他人食物的邪恶饥渴''。
+
+[[File:demonrat.jpg|thumb|220px|center|Two types of vermin in one.<br /><small>''Art by Arne''</small>]]
+
+{{Translation| dwarven = uthgúr atem | elvish = slevina thapa | goblin = arstruk spödgôz | human = rohir othur}}
+
+{{gamedata}}
+{{vermin}}

@@ -1,18 +1,11 @@
 {{Quality|Superior}}
-{{Skill
-| color      = 3:0
-| skill      = Druid
-| profession = N/A
-| job name   = None
-| tasks      = None
-| attributes =
+{{Skill| color      = 3:0| skill      = Druid| profession = N/A| job name   = None| tasks      = None| attributes =
 * Endurance
 * Agility
 * Toughness
 * Empathy
 * Willpower
-* Focus
-}}
+* Focus}}
 {{av}}
 
 Druid既指一个未使用的技能，也指一个贵族职位。

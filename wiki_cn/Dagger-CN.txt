@@ -8,12 +8,7 @@
 
 大匕首使用并训练[[knife user|刀具使用者]]技能，是[[kobold|狗头人]]和[[goblin|地精]]盗贼的常见武器。作为外来武器，矮人无法[[forge|锻造]]大匕首，供应仅限于从伏击者那里搜刮到的低[[quality|质量]]样本。[[Weapon#Size|即使是最小的矮人]]也能够单手装备大匕首。
 
-{{Translation
-| dwarven = [[urist]]
-| elvish  = acita
-| goblin  = ulspa
-| human   = olith
-}}
+{{Translation| dwarven = [[urist]]| elvish  = acita| goblin  = ulspa| human   = olith}}
 
 {{gamedata}}
 {{Weapons}}

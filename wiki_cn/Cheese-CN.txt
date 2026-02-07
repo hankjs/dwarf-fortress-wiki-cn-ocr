@@ -1,0 +1,35 @@
+{{Quality|Fine}}
+{{av}}
+
+[[File:cheese_sprite_preview.png|right]]'''奶酪'''是在[[farmer's workshop|农民作坊]]用[[cheese making|制奶酪]]劳动从[[milk|牛奶]]制成的[[food|食物]]物品。它可以直接食用或烹饪成[[prepared meal|备餐]]。
+
+单个"制作奶酪"工作将把一桶牛奶带到作坊，并产生几堆大小为5或更少的奶酪 - 例如，包含17单位牛奶的桶将产生3堆5个奶酪和1堆2个奶酪。一容器冷冻牛奶显然不会制成奶酪。
+
+任何产奶动物的牛奶都可以转化为奶酪。除了由[[dwarven milk|矮人牛奶]]制成的矮人奶酪外，所有奶酪的价格都是10☼。
+
+{{Translation| dwarven = shokmug| elvish  = fetha| goblin  = ursus| human   = anig}}请注意，虽然桶中的牛奶不会腐烂，但食物[[stockpile|仓库]]外的奶酪会腐烂。
+
+{| class="wikitable"|+'''奶酪定价和贸易信息'''|-
+! 名称
+! 价格
+! 矮人贸易商品
+! 人类贸易商品
+! 精灵贸易商品|-| 矮人奶酪| 20☼| 否<sup>1</sup>| 否| 否|-| 其他奶酪| 10☼| 是| 是| 否|}
+
+<sup>1</sup>：默认情况下，矮人牛奶或奶酪在出发或矮人商队中不可用{{Bug|1449}}。有关解决方法，请参阅[[Caverns#Caravan and embark item availability|此部分]]。
+
+[[File:Tilsit cheese (1).jpg|thumb|300px|center|Tilsit cheese. Tastes ''exactly'' like Tilsit cheese, because that's what it is.]]
+
+{{D for Dwarf}}
+你可能熟悉矮人对奶酪的喜爱，但你知道矮人实际上发明了奶酪吗？她试图发酵牛奶并将其变成一种新型酒精，当她最终得到完全不同的东西时感到非常惊讶。这就是为什么奶酪的矮人语是'shokmug'。她很'''sho'''c'''k'''ed（震惊）它不能从'''mug'''（杯子）里喝。同时，奶酪的地精语是'ursus'，这是一个[[Grizzly bear|全新]]的[[Black bear|can]][[Panda|of]][[Sloth bear|worms]]（一罐虫子）。
+
+一些人类已经推断出拥有大量奶酪与拥有大量朋友之间的正相关关系。
+
+<!-- ref: The Littlest Cheesemaker -->
+很少情况下，移民可能会出现，有创造[[masterwork|杰作]]奶酪轮的[[dream|梦想]]。这大概是一个漏洞，因为奶酪目前缺乏质量等级。由于永远无法实现的目标可能使矮人[[stress|情绪低落]]并容易[[tantrum|发脾气]]，解决问题的最佳方案是为他们安排与[[vampire|王室]]的[[unfortunate accident|观众]]。
+
+{{gamedata|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|CREATURE_CHEESE_TEMPLATE}}}}
+{{materials}}
+
+{{Category|Food}}
+[[ru:Cheese]]

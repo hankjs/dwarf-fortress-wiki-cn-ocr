@@ -1,16 +1,6 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_furniture|name=Altar
-|graphic=[[File:Altar_Premium.png]]
-|tile={{char|144}}
-|wood=y
-|stonecarve=y
-|metal=y
-|bars=2
-|glass=y
-|value=10
-|size=500
-
+{{v50_furniture|name=Altar|graphic=[[File:Altar_Premium.png]]|tile={{char|144}}|wood=y|stonecarve=y|metal=y|bars=2|glass=y|value=10|size=500
 }}
 
 '''祭坛'''是一种用于[[temple|神殿]]的[[furniture|家具]]物品。在要塞模式中，祭坛可以在各自的[[workshop|工坊]]中用大多数材料制作，如木材、石头、玻璃和金属。它们可以通过{{Menu icon|b|f|p}}建造，标记为'''供奉台'''，尽管它们目前除了增加[[Zone#Quality_and_value|房间价值]]和装饰外没有其他用途，因为[[temple|神殿]]不需要它们就能运作。祭坛可以存储在家具[[stockpile|储物堆]]中，属于"其他大型工具"物品类型类别。

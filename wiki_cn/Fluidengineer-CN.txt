@@ -1,0 +1,14 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill| color      = 3:0| skill      = Fluid engineer| profession = Scholar| job name   = | tasks      = * Ponder
+* Discuss
+* Research| attributes =
+*Unknown}}
+{{av}}
+
+'''流体工程师'''(Fluid engineer)是一项[[学者]]技能,学者在思考工程[[主题]]时会使用该技能,具体属于流体学分支。
+
+{{DF2014:topic/table/engineering}}
+
+{{Skills}}
+{{Category|Scholarship}}

@@ -1,0 +1,9 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_crystal_opal_sprite.png|graphic2=rough_crystal_opal_sprite.png|wiki=opal}}{{av}}
+
+'''水晶蛋白石'''是白色的半宝石[[gems|宝石]]，几乎在任何地方都能以小簇形式找到。在蛋白石中，它的[[material value|材料价值]]相对较高，但[[black opal|黑蛋白石]]在所有蛋白石中价值最高。
+
+[[File:31ct Crystal Opal Pendent set in 14k gold with Green Diamond Accents.JPG|center|thumb|290px|水晶蛋白石吊坠。]]
+
+{{gamedata}}
+{{gems}}

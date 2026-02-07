@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=elk_couple_sprites_anim.gif|portrait=elk_portrait_anim.gif|bone=13-15|meat=10-12|fat=9|hoof=4|horn=2 (males only)|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|contrib=no|skull=1|skin=hide|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''麋鹿'''是栖息在[[temperate|温带]][[grassland|草原]]和[[tundra|苔原]]的[[Creature|动物]]，以3-7只的群体出现。它们的体重是[[dwarf|矮人]]的五倍，是温和的漫游者，只会漫无目的地四处游荡，相对无害，[[hunter|猎人]]很容易击倒它们。它们具有一定的性别二态性，雄性拥有一对[[Horn|鹿角]]，但这不会赋予它们刺伤敌人的能力。它们拥有厚实的毛皮，与大多数其他动物相比具有更好的保温性，它们的幼崽被称为''小鹿''。
+
+麋鹿可以用[[cage|笼子]][[trap|陷阱]]捕获，并[[Animal trainer|驯化]]成为异域[[pet|宠物]]。鉴于它们的大体型，[[butcher|屠宰]]时可以提供大量收益，使它们成为[[meat industry|肉类产业]]的有效目标。用麋鹿部位制作的产品价值是用其他更常见动物制作的产品的[[Multiply value|两倍]]。
+
+一些矮人[[Preferences|喜欢]]麋鹿，因为它们的''优雅''。
+
+[[File:Rocky Mountain Bull Elk.jpg|thumb|400px|center|因其''优雅''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

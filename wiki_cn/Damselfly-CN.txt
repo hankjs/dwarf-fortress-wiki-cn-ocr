@@ -1,0 +1,13 @@
+{{Quality|fine}}
+{{verminlookup/0|image=damselfly_sprite.png|portrait=damselfly_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''豆娘'''是一种不起眼的[[above ground|地上]][[vermin|害虫]]，可能会在[[pool|池塘]]中发现。它们不会在[[Calendar|冬季]]期间出现在地区，也不能用[[building|建造的]][[animal trap|动物陷阱]]捕获，但如果矮人恰好发现了，可以通过"捕获活的陆地动物"工作来捕获。所有豆娘都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]豆娘，因为它们的''色彩''。
+
+[[File:Ischnura heterosticta02.jpg|thumb|center|400px|因其''色彩''而受到赞赏。]]
+
+{{gamedata}}
+{{vermin}}

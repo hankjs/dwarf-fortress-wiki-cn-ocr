@@ -1,0 +1,69 @@
+{{Quality|Exceptional}}
+{{av}}
+[[File:beard_sprites_preview.png|right]]游戏中许多生物，包括[[dwarf|矮人]]、[[human|人类]]、[[gnome|侏儒]]，以及与当前精灵图和肖像相反的[[elf|精灵]]和[[goblins|哥布林]]，都有一组统称为'''胡须'''的组织。玩家最常遇到的胡须类型是[[dwarf|矮人]]胡须。
+
+==矮人胡须==
+{{Translation| dwarven = durad| elvish  = eslome| goblin  = xubngesp| human   = resmi}}矮人的"胡须"包括脸颊须和下巴须，是雄性特有的。（启用女性胡须的代码在[[raws|creature_standard.txt]]中，但默认被注释掉。）游戏会跟踪每个组织的隐藏"长度"属性。出生时，雄性矮人婴儿的胡须长度为零。之后，他们每天增长1个长度单位，直到达到1000长度。
+
+胡须对游戏的影响不大，除了外观描述之外，因为它只能受到钝击攻击的影响，而且其材料属性太差，无法提供任何有意义的防御。有趣的是，不同的矮人、精灵和人类[[civilization|文明]]往往有不同的文化发型，包括胡须样式。
+
+===世界各地的胡须===
+{| class="wikitable sortable"|-
+! 生物 !! 面部毛发 !! 胡须名称 !! 文明胡须 !! 其他胡须|-| [[Dwarf]] || style="background-color:#cfc"|  Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.31.01}} || Beard prefstring{{version|0.21.93.19a}}|-| [[Human]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || Yes{{version|0.50.12}} || No|-| [[Elf]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || Yes{{version|0.50.12}} || No|-| [[Goblin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.50.01}} || No || No|-| [[Satyr]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Giant]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Cyclops]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Ettin]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Fairy]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Pixie]] || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Merperson]] || style="background-color:#cfc"| Yes{{version|0.31.01}} || style="background-color:#cfc"| Yes{{version|0.31.01}} || n/a || No|-| [[Gorlak]]{{version|0.31.01}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Goat]]{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || style="background-color:#cfc"| Yes{{version|0.31.19}} || n/a || Beard in description{{version|0.31.19}}|-| [[Mountain goat|Mountain Goat]]{{version|0.27.169.32a}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.27.169.32a}}|-| [[Mountain gnome|Mountain Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Dark gnome|Dark Gnome]]{{version|0.27.169.32a}} || style="background-color: #cfc"| Yes{{version|0.31.01}} || style="background-color:#fcc"| No || n/a || No|-| [[Giant mountain goat|Giant Mountain Goat]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}|-| [[Mountain goat man|Mountain Goat Man]]{{version|0.42.04}} || style="background-color: #fcc"| No || style="background-color: #fcc"| No || n/a || Beard prefstring{{version|0.42.04}}|}
+
+图例：
+
+* "面部毛发"指的是<nowiki>[</nowiki>[[Body detail plan token#BODY_DETAIL_PLAN|BODY_DETAIL_PLAN]]:FACIAL_HAIR_TISSUE_LAYERS] —— 一组面部毛发，包括胡子、下巴须、脸颊须和鬓角
+* "胡须名称"指的是<nowiki>[</nowiki>[[Creature token#TISSUE_STYLE_UNIT|TISSUE_STYLE_UNIT]]:BEARD:.*]<nowiki>[</nowiki>[[Creature token#TSU_NOUN|TSU_NOUN]]:beard:SINGULAR] —— "胡须"这个名称被应用于生物的下巴和脸颊须
+* "文明胡须"指的是其[[civilization|文明]]有[[Entity token#TS_PREFERRED_SHAPING|偏好的胡须样式]]。精灵和人类文明偏好标准胡须，而矮人文明偏好双层胡须。
+* "[[Creature token#PREFSTRING|偏好字符串]]"是某物可以被喜欢的原因（例如"喜欢山羊的胡须"）。
+* "[[Creature token#DESCRIPTION|描述]]"是生物的描述文本。
+
+{{D for Dwarf}}
+
+===特征===
+矮人的毛发极其坚韧；一根普通矮人毛发比普通人类毛发长很多倍，粗数倍。颜色范围很广；常见颜色包括深蓝色、黑色、各种灰色调、银色、白色、棕色、铜色、锈色，甚至[[Main:fire|炽焰橙红色]]。
+
+因为生长到如此惊人的长度和厚度，矮人胡须充当了抵御外部危险的额外防护层——胡须的韧性有助于保护矮人的面部免受物理打击，胡须的广度有助于保护矮人的面部和上身免受辐射源的伤害，在正常状态下，胡须几乎完全覆盖鼻腔和嘴巴，充当一种天然防毒面具，防止有毒气体和其他空气中的污染物被吸入。此外，每根毛发都涂有独特的油脂，使其能够吸引和捕获一些细菌和病菌，这些细菌随后在洗澡时被清洗掉，或者（更常见地）被不可避免的瞄准不准的豪饮中的浓[[alcohol|酒精]]浸泡掉。
+
+===矮人胡须作为感觉器官===
+雄性矮人胡须的毛发粗壮得令人惊叹，是生物学的奇迹。每根毛发包含数百万个极其多样的感觉感受器，包括但不限于测量湿度和气流的毛发、对[[alcohol|酒精]]存在高度敏感的毛发、感知气压的"[[hidden fun stuff|<s>糟糕</s>有趣决定]]"毛发（直接连接到大脑快感中枢，从化学上奖励矮人往更深处挖掘），甚至还有矮人在地下待得越久就产生越多维生素D的毛发，以至于任何太阳接触都会导致[[cave adaptation|维生素过载]]和立即[[vomit|恶心]]。矮人胡须唯一缺乏的感觉是热感应。
+
+矮人还用胡须来繁殖。
+女性矮人使用她们长长的、华丽的指关节毛发来达到同样的目的。
+
+===矮人胡须作为共生生物===
+实际上，矮人并非像人类那样的单一生物，而是由一个类人身体（为简便起见在此称为"矮人"）和一群胡须丝组成的群体生物。矮人和胡须多年来形成了共生关系，已经到了彼此无法独立存活的程度，类似于僧帽水母。
+
+奇怪的是，这个群体的高级智力、能动性和决策不是由类人部分处理的，而是由驻留在胡须中的蜂巢意识处理——这在很大程度上解释了为什么矮人的类人大脑必须用酒精浸泡才能让群体正常运作，即让胡须掌舵。虽然每根胡须丝都很小，但就像云计算一样，它们合在一起能形成复杂的思维。因为它们各自相当简单，所以倾向于同时聚焦在同一个想法上，导致矮人决定"不惜一切代价获得-巨魔毛袜-"是现在唯一值得做的事。身体本质上就是一个用来把胡须从一个地方搬到另一个地方的肉袋。
+
+矮人胡须丝曾被观察到试图与人类结合，因为身体结构相似，但这种共生对人类来说总是短命的。
+
+"矮人幽灵"实际上是当"身体"部分死亡后残留的胡须丝。这些丝像肌肉记忆一样，呈现出它们曾经栖居的身体形状，并试图执行日常事务。由于它们只是细丝呈人形，在旁观者看来显得轻薄飘渺，物体通过滑过丝间而穿过它们。这也解释了为什么幽灵会老死；虽然需要一段时间，但最终丝会耗尽营养供应，因为无法从死去的宿主中汲取。
+
+===精灵对胡须的评论===
+{{Quote|align=left|
+Elf 1: Sir! I have the report from our last attack on the dwarves!
+
+Elf 2: Ah, good. Have we wiped them out this time?
+
+Elf 1: No, sir. everyone is dead... however, we did discover something strange.
+
+Elf 2: Well, what is it...?
+
+Elf 1: While examining the mutilated corpse of one of our kin, our scout noticed that he seemed to be clutching what appears to be some rough strands of hair. I had him bring them back.
+
+Elf 2: Alright, let me see them, I suppose... *the elf examines the hairs closely for a moment*
+
+Elf 2: Oh... my... god... it's the beards...
+
+Elf 1: What was that, sir?
+
+Elf 2: IT'S THE BEEAARRDSS!!!
+
+Elf 2: *Runs to the highest tree in the forest* IT'S THE BEEEEEAAAARRRDSS!!!!!!!!
+
+Elf 2: Ready the troops! Tonight, we siege!! Not against their fortress... but against. their. CHINS.}}
+
+[[ru:Beard]]
+{{Category|Body parts}}

@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Treelookup/0
-|graphic=Abaca_trunk_sprite.png
-|sapling=Abaca_sapling.png
-|wiki=Abacá}}
+{{Treelookup/0|graphic=Abaca_trunk_sprite.png|sapling=Abaca_sapling.png|wiki=Abacá}}
 {{av}}
 
 '''蕉麻'''（Abaca）是在任何热带丛林地表发现的众多树木属之一。
@@ -11,8 +8,7 @@
 一些[[Dwarf|矮人]][[Preferences|喜欢]]蕉麻树的''叶子''。
 
 {|style="margin: 0 auto;"
-[[File:Musa textilis 7zz.jpg|thumb|center|260px|因其''叶子''而受到赞赏。]]
-|}
+[[File:Musa textilis 7zz.jpg|thumb|center|260px|因其''叶子''而受到赞赏。]]|}
 
 {{gamedata}}
 {{Plants}}

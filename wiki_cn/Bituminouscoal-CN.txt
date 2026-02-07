@@ -1,7 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=bituminous_coal_sprite.png
-|uses=
+{{stonelookup/0|graphic=bituminous_coal_sprite.png|uses=
 * 在[[smelter|冶炼厂]]创建9个[[fuel#Coke, from bituminous coal or lignite|焦炭]]}}
 {{av}}
 

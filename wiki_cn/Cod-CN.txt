@@ -1,0 +1,16 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|contrib=no|image=cod_sprites.png|portrait=cod_portrait.png|skin=scale|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|skull=1|meat=8-9|fat=7-8|brain=1|bone=12|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''鳕鱼'''是在极地和温带海洋中发现的中型[[Creature#Aquatic|鱼类]]。10-15条鳕鱼的大群可以一次出现在地图上。
+
+鳕鱼产生相当多的食物,但你的[[Fisherdwarf|渔夫矮人]]只能捕获[[vermin|害虫]]鱼。你可以创建一个[[drowning chamber|溺水室]]来获得它们的遗骸,或者如果你想要一条活的,可以在用水重新填充之前在房间中放置[[cage trap|笼子陷阱]]。用[[fishery|渔场]][[Captured live fish|捕获它们]]不起作用,因为那也仅限于害虫。它们的[[Pet#Pet_value|宠物价值]]很高,为200,但这毫无意义,因为你的矮人无法驯服它们。无论如何,当你确实在笼子中捕获一条时,请注意将它们转移到[[aquarium|水族馆]]可能会导致它们立即空气溺死。{{Bug|1590}}
+
+一些矮人[[Preference|喜欢]]鳕鱼的''鳍''。
+
+[[File:Gadus morhua Cod-2b-Atlanterhavsparken-Norway.JPG|thumb|400px|center|Admired for their ''fins''.]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

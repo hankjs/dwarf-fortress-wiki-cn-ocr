@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{Treelookup/0|graphic=coffee_trunk_sprite.png|product=coffee_sprite.png|sapling=coffee_sapling.png|wiki=coffea arabica}}
+{{av}}
+
+'''咖啡'''是在地上发现的众多[[tree|树木]]属之一。像绝大多数地上树木一样,咖啡[[wood|木材]]是棕色的,生产棕色产品。
+
+咖啡树结咖啡樱桃[[fruit|水果]]。这些水果可以食用或烹饪,食用时会产生咖啡豆。咖啡豆不能食用或酿造成咖啡,它们的樱桃也不能酿造成[[booze|酒]]。<s>所以随意砍伐每一棵这些无用的精灵房子。</s>但它们可以在[[dyer's shop|染坊]]加工成棕色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]咖啡的''美味樱桃''。
+
+
+[[File:CoffeeBerry.jpg|thumb|center|300px|Admired for its ''yummy cherries''.]]
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

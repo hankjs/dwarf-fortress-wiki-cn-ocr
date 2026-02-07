@@ -1,6 +1,5 @@
 {{Quality|Exceptional}}
-{{stonelookup/0
-|graphic=bauxite_sprite.png}}
+{{stonelookup/0|graphic=bauxite_sprite.png}}
 {{av}}
 
 '''铝土矿'''是一种深红色的[[sedimentary|沉积]][[stone|岩石]]。[[40d:Bauxite|曾经]]作为[[magma-safe|防岩浆]][[mechanism|机械装置]]的唯一实用来源而备受重视，用于创建防岩浆装置，但随着许多新的耐热岩石形式的加入，以及能够用[[iron|铁]]和[[steel|钢]]制作[[metal|金属]]机械装置的能力，它的重要性已经下降。尽管如此，它仍然被一些老玩家出于怀旧而使用，其罕见的血色外观使其成为一个有趣的美学选择。

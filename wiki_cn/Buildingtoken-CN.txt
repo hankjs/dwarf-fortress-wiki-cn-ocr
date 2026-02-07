@@ -1,0 +1,57 @@
+{{Quality|Fine}}
+{{av}}
+{{Modding}}
+
+'''建筑标记'''控制自定义[[building|建筑]]的功能。
+
+所有自定义建筑都被定义为BUILDING_WORKSHOP或BUILDING_FURNACE类型的对象;[[workshop|作坊]]会显示在建造>作坊({{Menu icon|b|o}})菜单中,而[[furnace|熔炉]]则显示在建造>作坊>熔炉({{Menu icon|b|o|u}})菜单中。
+
+你还必须将任何新的自定义建筑添加到你想使用它的[[Entity token|文明]]中。
+
+此外,熔炉在建造前必须由[[mason|石匠]]设计(并相应地获得[[quality|质量]]),尽管它们将始终使用建筑定义中指定的劳动,而不是基于所使用材料的劳动。
+
+{{Urist asks|q=是否有{{tooltip|WYSIWYG|所见即所得}}的ASCII建筑编辑器?|a=
+[http://www.bay12forums.com/smf/index.php?topic=54004 Custom Workshop Workshop]是一个为此目的设计的独立程序。
+
+还有一个[https://jose96xd.github.io/DF_Tools/Modules/BuildingASCIIVisualizer.html Building ASCII Visualizer]网页应用,包含在DFTools中。特殊字符ID可以在[[Character table|字符表]]中找到。}}
+
+{{clear}}
+
+{| {{prettytable}}|- bgcolor="#ddd"
+\! 标记
+\! 参数
+\! 描述
+|-| {{text anchor|NAME}}| 名称| 自定义建筑的名称。
+|-| {{text anchor|NAME_COLOR}}| [[Color#Modding_color|前景:背景:亮度]]| {{K|q}}查询时建筑名称的[[color|颜色]]。熔炉似乎会忽略此项,硬编码为4:0:1。
+|-| {{text anchor|DIM}}| 宽度:高度| 自定义建筑的大小,以图格数表示。默认为3:3。最大可能大小为31x31。
+|-| {{text anchor|WORK_LOCATION}}| x:y| 矮人执行任务时站立的图格(1:1为左上角)。默认为3:3(右下角)。
+|-| {{text anchor|BUILD_LABOR}}| [[labor token|劳动标记]]| 建造自定义建筑所需的劳动。如果指定了多个BUILD_LABOR标记,则可以使用任何指定的劳动来建造建筑;如果没有指定,则不需要任何劳动。
+|-| {{text anchor|BUILD_KEY}}| [[Interface.txt#Key_bindings|键位绑定]]| 在建造菜单中用于选择自定义建筑的快捷键。例如:"CUSTOM_SHIFT_S"
+|-| {{text anchor|BLOCK}}|
+* 行
+* 图格...| 指定每个作坊图格是否阻挡移动。第一个参数是行(1=顶部),每个后续参数是每列的0(不阻挡)或1(阻挡),从左到右。
+|-| {{text anchor|TILE}}|
+* 阶段
+* 行
+* 图格...| 指定用于表示自定义建筑的字符。第一个参数是建筑阶段,从0(等待建造)到N(完成),其中N在1到3之间,第二个参数是行号,每个后续参数是字符编号(或用'引号'括起来的字面字符)。
+|-| {{text anchor|COLOR}}|
+* 阶段
+* 行
+* 颜色...| 指定自定义建筑图格将显示的[[Color|颜色]]。第一个参数是建筑阶段,第二个参数是行号,后续参数是三个数字的组合(前景:背景:亮度),或使用标记"MAT"来使用主要建筑材料的颜色,用于行中的每个图格。MAT可能在BUILDING_FURNACE上不可用。{{verify}}但是,颜色设置4:0:1将转换为熔炉的MAT。
+|-| {{text anchor|BUILD_ITEM}}|
+* 数量
+* [[item token|物品标记]]
+* [[material token|材料标记]]| 指定建造自定义建筑所需的物品之一。每个BUILD_ITEM后面可以跟零个或多个修饰符。
+|-| {{text anchor|NEEDS_MAGMA}}|| 指定建筑的一个图格(除了WORK_LOCATION)必须悬挂在[[magma|岩浆]]上方才能使建筑运作。具有此标记的建筑也会忽略其反应中的[FUEL]标记。|
+|-| {{text anchor|TOOLTIP}}| 提示| 为建筑添加提示。|}
+
+==物品修饰符==
+建筑物品具有许多与自定义反应中的[[Reactions#Modifiers|试剂]]相同的修饰符。
+
+{| {{prettytable}}|- bgcolor="#dddddd"
+\! 标记
+\! 含义|-| [{{text anchor|ANY_BONE_MATERIAL}}]| 物品材料必须具有[BONE]标记。|-| [{{text anchor|ANY_HORN_MATERIAL}}]| 物品材料必须具有[HORN]标记。|-| [{{text anchor|ANY_LEATHER_MATERIAL}}]| 物品材料必须具有[LEATHER]标记。|-| [{{text anchor|ANY_PEARL_MATERIAL}}]| 物品材料必须具有[PEARL]标记。|-| [{{text anchor|ANY_PLANT_MATERIAL}}] | 物品材料必须从属于PLANT对象。|-| [{{text anchor|ANY_SHELL_MATERIAL}}]| 物品材料必须具有[SHELL]标记。|-| [{{text anchor|ANY_SILK_MATERIAL}}] | 物品材料必须具有[SILK]标记。|-| [{{text anchor|ANY_SOAP_MATERIAL}}]| 物品材料必须具有[SOAP]标记。|-| [{{text anchor|ANY_STRAND_TISSUE}}]| 物品由具有[TISSUE_SHAPE:STRANDS]的组织制成,用于匹配毛发和羊毛。必须与[USE_BODY_COMPONENT]一起使用。|-| [{{text anchor|ANY_TOOTH_MATERIAL}}]| 物品材料必须具有[TOOTH]标记。|-| [{{text anchor|ANY_YARN_MATERIAL}}] | 物品材料必须具有[YARN]标记。|-| [{{text anchor|BUILDMAT}}]| 物品必须是通用[[building material|建筑材料]] - BAR、BLOCKS、BOULDER或WOOD。|-| [{{text anchor|CAN_USE_ARTIFACT}}]| 物品可以是神器。|-| [{{text anchor|CONTAINS_LYE}}]| 物品必须是包含至少一件由LYE制成的LIQUID_MISC类型物品的BARREL或TOOL。|-| [{{text anchor|EMPTY}}]| 如果物品是容器,则必须为空。|-| [{{text anchor|FIRE_BUILD_SAFE}}]| 物品材料必须在低于11000的温度下稳定。仅适用于BAR、BLOCKS、BOULDER、WOOD和ANVIL类型的物品 - 所有其他物品都被视为不安全。|-| [{{text anchor|GLASS_MATERIAL}}] | 物品材料必须具有[IS_GLASS]标记。所有3种[[glass|玻璃]]类型都硬编码了此标记。|-| [{{text anchor|HAS_MATERIAL_REACTION_PRODUCT}}:X]| 物品的材料具有带有相应ID的[MATERIAL_REACTION_PRODUCT]标记。|-| [{{text anchor|HAS_TOOL_USE}}:X]| 物品必须是具有特定TOOL_USE值的[[tool|工具]]。物品类型必须是TOOL:NONE才有意义。|-| [{{text anchor|MAGMA_BUILD_SAFE}}]| 物品材料必须在低于12000的温度下稳定。仅适用于BAR、BLOCKS、BOULDER、WOOD和ANVIL类型的物品 - 所有其他物品都被视为不安全。|-| [{{text anchor|METAL_ORE}}:X]| 物品材料必须是指定金属的矿石。|-| [{{text anchor|MIN_DIMENSION}}:X]| 物品的尺寸必须至少这么大。物品类型必须是BAR、POWDER_MISC、LIQUID_MISC、DRINK、THREAD或CLOTH才能工作。|-| [{{text anchor|NO_EDGE_ALLOWED}}]| 物品不得有刃口,因此必须是钝的。锋利的石头(使用打制工艺生产)和大多数类型的武器/弹药不能与此标记一起使用。|-| [{{text anchor|NOT_CONTAIN_BARREL_ITEM}}]| 如果物品是容器,则不得包含[[lye|碱液]]或[[milk|牛奶]]。如果指定[EMPTY]则不需要。|-| [{{text anchor|NOT_ENGRAVED}}]| 物品不能被雕刻。例如,纪念石板不能被雕刻。|-| [{{text anchor|NOT_WEB}}]| 物品必须被收集(以区分丝线和蛛网)。仅对THREAD类型的物品有意义。|-| [{{text anchor|POTASHABLE}}] (已弃用)| [CONTAINS_LYE]的别名。|-| [{{text anchor|REACTION_CLASS}}:X]| 物品的材料具有带有相应ID的[REACTION_CLASS]标记。|-| [{{text anchor|UNROTTEN}}]| 物品不得腐烂,主要用于有机材料。|-| [{{text anchor|USE_BODY_COMPONENT}}]| 物品必须是身体部分(CORPSE或CORPSEPIECE)。|-| [{{text anchor|WEB_ONLY}}]| 物品必须未受干扰(以区分丝线和蛛网)。仅对THREAD类型的物品有意义。|-| [{{text anchor|WORTHLESS_STONE_ONLY}}]| 物品材料必须是非[[economic|经济]]价值的。|}
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Building token]]

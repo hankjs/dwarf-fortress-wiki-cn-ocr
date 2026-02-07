@@ -25,12 +25,7 @@
 
 他的纯粹平凡使他更加令人敬畏。他不是被某个强大的神选中的，也不是出身于某个古老的血统。他没有挥舞强大的神器或奥术魔法。他只是一个拿着真菌木矛和隧道管盾的洞穴燕人，敢于挑战不可言说之物……并且获胜了。
 
-{{Translation
-| english = Masterjails
-| dwarven = Kônteskom
-| elvish  = Itheralezitha
-| human   = Siñurcudal
-}}
+{{Translation| english = Masterjails| dwarven = Kônteskom| elvish  = Itheralezitha| human   = Siñurcudal}}
 
 [[Category:Humor and stories]]
 [[ru:Âsax]]

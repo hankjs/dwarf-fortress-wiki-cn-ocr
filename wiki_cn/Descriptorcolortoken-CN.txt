@@ -5,31 +5,14 @@
 用于定义游戏中使用的[[Color#Color_tokens|描述性颜色]]的标记，由染料、材料和组织使用。不要与游戏的[[color scheme|颜色方案]]混淆，后者定义了游戏中图形显示的颜色。
 
 ==标记==
-{| {{prettytable}}
-|- bgcolor="#999999"
+{| {{prettytable}}|- bgcolor="#999999"
 ! 标记
 ! 参数
 ! 用法
 ! 描述
-
-|-
-| {{text anchor|NAME}}
-| string
-| {{tc|red|必需}}
-| 这个颜色在游戏中的名称。
-
-|-
-| {{text anchor|WORD}}
-| tag
-| {{tc|red|必需}}
-| 将颜色与任意数量的[[Language token|词语]]关联。历史人物可以以其[[Creature token#TL_COLOR_MODIFIER|TL_COLOR_MODIFIER]]的颜色命名。如果该描述只能是单一颜色，似乎会更显著。
-
-|-
-| {{text anchor|RGB}}
-| red:green:blue
-| {{tc|red|必需}}
-| 使用加法RGB系统决定颜色的确切颜色值。此颜色不会在游戏中显示，但当[[forgotten beast|随机]][[titan|生成]]的[[demon|野兽]]使用此颜色时，它们的图块颜色由此颜色的近似值定义{{verify}}。每个值的范围可以从0到255。
-
+|-| {{text anchor|NAME}}| string| {{tc|red|必需}}| 这个颜色在游戏中的名称。
+|-| {{text anchor|WORD}}| tag| {{tc|red|必需}}| 将颜色与任意数量的[[Language token|词语]]关联。历史人物可以以其[[Creature token#TL_COLOR_MODIFIER|TL_COLOR_MODIFIER]]的颜色命名。如果该描述只能是单一颜色，似乎会更显著。
+|-| {{text anchor|RGB}}| red:green:blue| {{tc|red|必需}}| 使用加法RGB系统决定颜色的确切颜色值。此颜色不会在游戏中显示，但当[[forgotten beast|随机]][[titan|生成]]的[[demon|野兽]]使用此颜色时，它们的图块颜色由此颜色的近似值定义{{verify}}。每个值的范围可以从0到255。
 |}
 
 {{Category|Modding}}

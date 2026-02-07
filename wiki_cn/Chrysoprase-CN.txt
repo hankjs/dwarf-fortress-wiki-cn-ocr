@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_chrysoprase_sprite.png
-|graphic2=rough_chrysoprase_sprite.png}}
+{{gemlookup/0|graphic=cut_chrysoprase_sprite.png|graphic2=rough_chrysoprase_sprite.png}}
 {{av}}
 
 '''绿玉髓'''是一种不起眼的低价值[[gem|宝石]]，存在于[[sedimentary layer|沉积岩层]]中。

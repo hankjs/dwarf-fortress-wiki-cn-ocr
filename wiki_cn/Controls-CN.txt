@@ -1,0 +1,62 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+[[File:Controls2014.png|thumb]]
+
+这是一份'''控制'''或'''键盘快捷键'''列表,在游戏中使用。它们的功能取决于你使用的游戏模式和所在的屏幕。菜单特定的控制通常列在每个屏幕的底部,或在打开菜单时列在相应选项旁边。如果屏幕之外还有更多选项,屏幕边缘会显示箭头。使用[[#Interface|界面]]按键滚动选项列表。
+
+本文档包含v0.50版本的''矮人要塞''默认控制列表。控制可以通过{{key|}}{{k|↓}}{{k|↓}}{{k|Enter}}菜单或编辑[[interface.txt]]文件进行[[Key bindings|自定义]]以使用不同的按键序列,但不建议新玩家这样做。
+
+为游戏目的,请注意任何以大写字母指定的键意味着在点击该键时按住Shift。例如,{{key|V}}意味着按{{key|Shift}}+{{key|v}}。此外,在Caps Lock开启的情况下按键将与按住shift按键类似。例如,如果你想按{{key|C}},那么你可以通过按{{key|Shift}}+{{key|c}}或按{{key|Caps Lock}}然后按{{key|c}}来实现。
+
+== 界面 ==
+{{Under construction}}
+
+===摄像机===
+摄像机可以通过鼠标输入或按键控制。你的视野一次聚焦在一个[[Z-level|高度]]上。
+
+{| class=wikitable| {{key|w}}{{key|a}}{{key|s}}{{key|d}} 或 [[Image:Mouse-wheelpressed.png|20px|Scroll mouse wheel down.]]| 在同一高度移动摄像机。按住shift可以加倍移动距离。|-| {{key|c}}{{key|e}} 或 [[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]| 改变摄像机高度。按住{{key|Shift}}一次跳跃10层。|-| {{key|[}}{{key|]}} 或 {{key|Ctrl}}+[[Image:Mouse-wheeldown.png|20px|Scroll mouse wheel down.]][[Image:Mouse-wheelup.png|20px|Scroll mouse wheel up.]]| 摄像机的缩放放大和缩小|}
+
+: 教程注意:当你的视野在其他图块上方的空中时,你可以看到下面的图块,但你只能与当前高度的物体互动。
+: 教程注意:地下的视野在你开始挖掘之前会是黑暗的。你可以用摄像机高度按钮将摄像机移到地表。F1热键将重新居中到你的马车。
+
+===游戏速度===
+
+根据当前情况的需要,模拟可以暂停。控制按钮位于..
+
+{| class=wikitable| {{key|SPACE}} | 播放/暂停模拟 |-| {{key|Alt}}+{{key|&#61;}}| 增加FPS限制。可能加快模拟速度 |-| {{key|Alt}}+{{key|-}} | 降低FPS限制。可能减慢模拟速度 |}
+
+== 控制设置 ==
+[[File:Ui-premium-settings-keybindings.png|thumb|v50 UI]]
+
+控制设置可以在设置菜单中更改。你可以从主菜单或游戏内菜单按{{DFtext|Settings}}按钮并切换到{{DFtext|keybindings}}标签来访问它。
+
+* 控制可以[[Key bindings|自定义]]以使用不同的按键序列。
+* [[Macros and keymaps|宏和键映射]]
+
+== 冒险模式 ==
+以下快捷键用于[[Adventure mode|冒险模式]](另见[[Adventure mode quick reference|冒险模式快速参考]])
+
+{{Under construction}}
+
+== 要塞模式 ==
+以下快捷键在[[Interface|主游戏界面]]、[[Fortress mode|要塞模式]]中工作:
+
+{| class=wikitable|+ 命令工具栏|-| {{key|m}} || 设置挖掘命令。|-| {{key|l}} || 设置砍树命令。|-| {{key|g}} || 设置植物采集命令。|-| {{key|v}} || 设置墙壁平滑、雕刻、轨道雕刻和防御工事命令。|-| {{key|x}} || 移除采矿、伐木、植物采集和平滑命令。|-| {{key|b}} || 放置需要建筑材料的结构和工作区域。|-| {{key|p}} || 放置储物区用于物品存储。|-| {{key|z}} || 放置区域以建立集会区、牧场等。|-| {{key|U}} || 建立地洞以在较大的要塞中组织工作和生活空间。|-| {{key|H}} || 为矿车设置运输路线。|-| {{key|T}} || 设置高流量和低流量区域。|-| {{key|i}} || 指定物品用于倾倒和熔炼,认领被禁止的物品和建筑,并设置物品可见性。|}
+
+{| class=wikitable|+ 信息菜单栏|-| {{key|u}} || 打开市民信息菜单。|-| {{key|t}} || 打开任务信息菜单。|-| {{key|P}} || 打开地点信息菜单。|-| {{key|y}} || 打开劳动菜单。|-| {{key|o}} || 打开工作订单菜单。|-| {{key|n}} || 打开贵族和管理员菜单。|-| {{key|O}} || 打开物体菜单。|-| {{key|j}} || 打开司法菜单。|}
+
+{| class=wikitable|+ 杂项控制|-| {{key|N}} || 查看所有警报。|-| {{key|k}} || 打开要塞库存窗口。|-| {{key|Y}} || 打开世界屏幕。|-| {{key|h}} || 打开热键重新居中编辑器窗口。|-| {{key|q}} || 打开小队侧边栏。|-| {{key|f}} || 切换水和岩浆数值深度显示。|-| {{key|r}} || 切换高度变化箭头显示。|}
+{{Under construction}}
+
+== 另见 ==
+* [[Controls guide|控制指南]]
+* [[Mouse control|鼠标控制]]
+
+{{Translation| dwarven = egul | elvish = ade | goblin = ngure | human = kas}}
+
+{{Category|Interface}}
+{{Category|Fortress mode}}
+{{Category|Adventurer mode}}
+
+[[ru:Управление]]

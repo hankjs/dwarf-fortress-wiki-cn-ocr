@@ -1,0 +1,232 @@
+{{Quality|Exceptional}}
+{{av}}
+{{spoiler}}
+{{Metal|name=神圣金属|sample=[[File:DivineMetalSample.png|center]]|color=0:0:1|ore=
+* N/A|graphic=Divine metal anim.gif|properties=
+* [[材料价值]] 200☼
+* [[材料科学|冲击强度]] 2 GPa
+* [[材料科学|剪切强度]] 2 GPa&nbsp;{{Tooltip|×1.2|MAX_EDGE为12,000,相比金属的默认10,000}}
+{{firemagmasafe|yes|yes}}
+* [[熔点]] 无
+* [[沸点]] 无
+* [[燃点]] 无
+* [[固体密度]] 1000 kg/m³
+* 液体[[密度]] 1000 kg/m³
+* 摩尔质量 20000 kg/mol
+* [[比热容]] 7500 J/kg·K|uses=
+* [[武器|近战武器]]
+* [[弩]]
+* [[箭矢]]
+* [[镐]]
+* [[盔甲]]
+* [[铁砧]]
+* [[金属锻造厂|金属制作]]|wiki=List of fictional elements, materials, isotopes and atomic particles}}
+__TOC__
+'''神圣金属'''是特殊的、程序生成的[[金属]],可以在[[地窖]]以及地下深处找到。神圣金属被用作[[天使]]使用的物品、[[武器]]和[[盔甲]]的材料,天使无情地保护地窖的无价宝藏。(类似的[[神圣织物]]被地窖守卫用于服装和软物品。)由神圣金属制成的武器在精灵图上有青色带,尽管它们可能以无精灵图的[[神圣装备]]形式找到。
+
+== 特征 ==
+[[File:divine_metal_art_preview.png|thumb|247px|right|一个矮人穿着由神制造的金属制成的盔甲。<br><small>''艺术:Metadomino''</small>]]神圣金属似乎具有相同的[[材料定义标记|材料属性]]和可从它们制作的物品列表;它们之间唯一的区别是名称、颜色和[[神祇]]关联。所有神圣金属都具有1,000,000 KPa的高屈服值和2,000,000 KPa的断裂值,以及0的完美应变屈服值。它们非常轻,固体密度仅为1000 kg/m³,并且具有12000的卓越[[材料定义标记#MAX_EDGE|最大锋利度]]。它们被授予与创造金属的相关[[神祇]](以及挥舞它的守卫者)匹配的[[领域]],以及具有"(形容词)金属"公式的描述性名称——例如"多彩金属"、"苍白金属"和"扭曲金属"。
+
+总体而言,它们的材料属性比[[钢]]的相应值好得多,大多数情况下比[[金刚石]]的值差。当用于刃器时,它们由于其超锋利度而非常强大,但尽管重量轻,即使钝器也往往非常有效(不像金刚石,它对钝器毫无价值)。作为盔甲,它们是唯一对[[龙火]]免疫的金属形式,因为它无法熔化或沸腾。尽管穿作盔甲时具有这种免疫熔化的特性,但神圣金属可以在熔炼厂指定熔化。这样做将产生等于物品类型产量的若干神圣金属锭。然后可以在金属锻造厂使用锭创建武器、盔甲等,就像正常的金属锭一样。
+
+神圣金属无法常规生产。但是,由于神圣金属在熔化时给出与普通金属相同数量的锭,因此比[[金刚石]]更容易[[Melt_item#Exploit|复制]]神圣金属。
+
+[[物品测试竞技场]]允许人们测试由神圣金属制成的武器和盔甲。
+[[File:Divine_metal_preview.png|thumb|260px|center|你可以闻到这个球体上的神的气息。]]
+{{Translation| dwarven = Nabaskel 	 	 	| elvish  = Mecalalethi| goblin  = Ngungdubsnusm| human   = Nirnorigu}}
+<!--to make sure this page comes up when searching for a specific divine metal-->
+
+== 类型 ==
+每个世界将在其原始数据中有这26种金属中的随机10种。
+
+{| class="wikitable sortable" style="text-align: left;"|+ <!-- caption -->|-
+! 领域    !! 名称              !! 颜色* !! 精灵图|-| 疫病    || 生锈金属      || style="background: {{fgcolor|4:0}}; color: #fff;"|锈色 || style="text-align: center;" | [[File:Rust bar sprite.png]]|-| 混沌     || 扭曲金属    || style="background: {{fgcolor|4:1}}; color: #fff;"|红色 || style="text-align: center;" | [[File:Red bar sprite.png]]|-| 黑暗  || 黑暗金属         || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色 || style="text-align: center;" | [[File:Black bar sprite.png]]|-| 黎明     || 发光金属    || style="background: {{fgcolor|6:1}};"|黄色 || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| 白昼      || 明亮金属 || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 死亡    || 苍白金属   || style="background: {{fgcolor|3:1}};"|浅蓝色 || style="text-align: center;" | [[File:Pale blue bar sprite.png]]|-| 畸形 || 痘痕金属 || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色 || style="text-align: center;" | [[File:Black bar sprite.png]]|-| 疾病  || 起泡金属 || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色 || style="text-align: center;" | [[File:Black bar sprite.png]]|-| 大地     || 赤褐金属        || style="background: {{fgcolor|6:0}}; color: #fff;"|焦赭色 || style="text-align: center;" | [[File:Burnt sienna bar sprite.png]]|-| 火焰      || 闪烁金属   || style="background: {{fgcolor|6:1}};"|黄色 || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| 珠宝   || 多面金属    || style="background: {{fgcolor|2:1}};"|绿色 || style="text-align: center;" | [[File:Green bar sprite.png]]|-| 光明    || 闪耀金属 || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 闪电 || 闪光金属    || style="background: {{fgcolor|6:1}};"|黄色 || style="text-align: center;" | [[File:Yellow bar sprite.png]]|-| 月亮      || 半透明金属 || style="background: {{fgcolor|3:1}};"|透明 || style="text-align: center;" | [[File:Clear bar sprite.png]]|-| 山脉 || 冰霜金属      || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 淤泥      || 光滑金属        || style="background: {{fgcolor|6:0}}; color: #fff;"|棕色 || style="text-align: center;" | [[File:Brown bar sprite.png]]|-| 音乐     || 歌唱金属     || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 夜晚    || 黑色金属      || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色 || style="text-align: center;" | [[File:Black bar sprite.png]]|-| 彩虹  || 多彩金属 || style="background: {{fgcolor|2:1}};"|透明 || style="text-align: center;" | [[File:Clear bar sprite.png]]|-| 天空      || 清澈蓝色金属 || style="background: {{fgcolor|3:1}};"|天蓝色 || style="text-align: center;" | [[File:Sky blue bar sprite.png]]|-| 星星     || 闪烁金属   || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 风暴   || 碰撞金属  || style="background: {{fgcolor|7:0}};"|灰色 || style="text-align: center;" | [[File:Iron bar sprite.png]]|-| 太阳       || 炽热金属     || style="background: {{fgcolor|7:1}};"|白色 || style="text-align: center;" | [[File:Platinum bar sprite.png]]|-| 雷鸣   || 轰鸣金属      || style="background: {{fgcolor|7:0}};"|灰色 || style="text-align: center;" | [[File:Iron bar sprite.png]]|-| 折磨   || 灼烧金属      || style="background: {{fgcolor|0:1}}; color: #fff;"|黑色 || style="text-align: center;" | [[File:Black bar sprite.png]]|-| 火山  || 流动金属     || style="background: {{fgcolor|4:1}}; color: #fff;"|红色 || style="text-align: center;" | [[File:Red bar sprite.png]]|}
+<nowiki>*</nowiki>命名的颜色代表它们的{{token|STATE_COLOR|md}}标记,而背景颜色是它们在ASCII模式下的游戏内显示颜色。见[[颜色]]。
+
+{{gamedata|title=示例原始数据(从0.50.11版本的保存文件中提取)|
+[INORGANIC:DIVINE_17]
+	[GENERATED]
+	[DIVINE]
+	[DISPLAY_COLOR:7:0:1]
+	[BUILD_COLOR:7:0:1]
+	[STATE_COLOR:ALL_SOLID:WHITE]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:blazing metal]
+	[MATERIAL_VALUE:200]
+	[SPEC_HEAT:7500]
+	[MELTING_POINT:NONE]
+	[BOILING_POINT:NONE]
+	[ITEMS_WEAPON]
+	[ITEMS_WEAPON_RANGED]
+	[ITEMS_AMMO]
+	[ITEMS_DIGGER]
+	[ITEMS_ARMOR]
+	[ITEMS_ANVIL]
+	[ITEMS_HARD]
+	[ITEMS_METAL]
+	[ITEMS_BARRED]
+	[ITEMS_SCALED]
+	[SOLID_DENSITY:1000]
+	[LIQUID_DENSITY:1000]
+	[MOLAR_MASS:20000]
+	[IMPACT_YIELD:1000000]
+	[IMPACT_FRACTURE:2000000]
+	[IMPACT_STRAIN_AT_YIELD:0]
+	[COMPRESSIVE_YIELD:1000000]
+	[COMPRESSIVE_FRACTURE:2000000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:0]
+	[TENSILE_YIELD:1000000]
+	[TENSILE_FRACTURE:2000000]
+	[TENSILE_STRAIN_AT_YIELD:0]
+	[TORSION_YIELD:1000000]
+	[TORSION_FRACTURE:2000000]
+	[TORSION_STRAIN_AT_YIELD:0]
+	[SHEAR_YIELD:1000000]
+	[SHEAR_FRACTURE:2000000]
+	[SHEAR_STRAIN_AT_YIELD:0]
+	[BENDING_YIELD:1000000]
+	[BENDING_FRACTURE:2000000]
+	[BENDING_STRAIN_AT_YIELD:0]
+	[MAX_EDGE:12000]
+	[SPHERE:SUN]
+
+[INORGANIC:DIVINE_15]
+	[GENERATED]
+	[DIVINE]
+	[DISPLAY_COLOR:7:0:1]
+	[BUILD_COLOR:7:0:1]
+	[STATE_COLOR:ALL_SOLID:WHITE]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:twinkling metal]
+	[MATERIAL_VALUE:200]
+	[SPEC_HEAT:7500]
+	[MELTING_POINT:NONE]
+	[BOILING_POINT:NONE]
+	[ITEMS_WEAPON]
+	[ITEMS_WEAPON_RANGED]
+	[ITEMS_AMMO]
+	[ITEMS_DIGGER]
+	[ITEMS_ARMOR]
+	[ITEMS_ANVIL]
+	[ITEMS_HARD]
+	[ITEMS_METAL]
+	[ITEMS_BARRED]
+	[ITEMS_SCALED]
+	[SOLID_DENSITY:1000]
+	[LIQUID_DENSITY:1000]
+	[MOLAR_MASS:20000]
+	[IMPACT_YIELD:1000000]
+	[IMPACT_FRACTURE:2000000]
+	[IMPACT_STRAIN_AT_YIELD:0]
+	[COMPRESSIVE_YIELD:1000000]
+	[COMPRESSIVE_FRACTURE:2000000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:0]
+	[TENSILE_YIELD:1000000]
+	[TENSILE_FRACTURE:2000000]
+	[TENSILE_STRAIN_AT_YIELD:0]
+	[TORSION_YIELD:1000000]
+	[TORSION_FRACTURE:2000000]
+	[TORSION_STRAIN_AT_YIELD:0]
+	[SHEAR_YIELD:1000000]
+	[SHEAR_FRACTURE:2000000]
+	[SHEAR_STRAIN_AT_YIELD:0]
+	[BENDING_YIELD:1000000]
+	[BENDING_FRACTURE:2000000]
+	[BENDING_STRAIN_AT_YIELD:0]
+	[MAX_EDGE:12000]
+	[SPHERE:STARS]
+
+[INORGANIC:DIVINE_11]
+	[GENERATED]
+	[DIVINE]
+	[DISPLAY_COLOR:6:0:1]
+	[BUILD_COLOR:6:0:1]
+	[STATE_COLOR:ALL_SOLID:YELLOW]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:flashing metal]
+	[MATERIAL_VALUE:200]
+	[SPEC_HEAT:7500]
+	[MELTING_POINT:NONE]
+	[BOILING_POINT:NONE]
+	[ITEMS_WEAPON]
+	[ITEMS_WEAPON_RANGED]
+	[ITEMS_AMMO]
+	[ITEMS_DIGGER]
+	[ITEMS_ARMOR]
+	[ITEMS_ANVIL]
+	[ITEMS_HARD]
+	[ITEMS_METAL]
+	[ITEMS_BARRED]
+	[ITEMS_SCALED]
+	[SOLID_DENSITY:1000]
+	[LIQUID_DENSITY:1000]
+	[MOLAR_MASS:20000]
+	[IMPACT_YIELD:1000000]
+	[IMPACT_FRACTURE:2000000]
+	[IMPACT_STRAIN_AT_YIELD:0]
+	[COMPRESSIVE_YIELD:1000000]
+	[COMPRESSIVE_FRACTURE:2000000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:0]
+	[TENSILE_YIELD:1000000]
+	[TENSILE_FRACTURE:2000000]
+	[TENSILE_STRAIN_AT_YIELD:0]
+	[TORSION_YIELD:1000000]
+	[TORSION_FRACTURE:2000000]
+	[TORSION_STRAIN_AT_YIELD:0]
+	[SHEAR_YIELD:1000000]
+	[SHEAR_FRACTURE:2000000]
+	[SHEAR_STRAIN_AT_YIELD:0]
+	[BENDING_YIELD:1000000]
+	[BENDING_FRACTURE:2000000]
+	[BENDING_STRAIN_AT_YIELD:0]
+	[MAX_EDGE:12000]
+	[SPHERE:LIGHTNING]
+
+[INORGANIC:DIVINE_7]
+	[GENERATED]
+	[DIVINE]
+	[DISPLAY_COLOR:4:0:0]
+	[BUILD_COLOR:4:0:0]
+	[STATE_COLOR:ALL_SOLID:RUST]
+	[USE_MATERIAL_TEMPLATE:METAL_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:rusted metal]
+	[MATERIAL_VALUE:200]
+	[SPEC_HEAT:7500]
+	[MELTING_POINT:NONE]
+	[BOILING_POINT:NONE]
+	[ITEMS_WEAPON]
+	[ITEMS_WEAPON_RANGED]
+	[ITEMS_AMMO]
+	[ITEMS_DIGGER]
+	[ITEMS_ARMOR]
+	[ITEMS_ANVIL]
+	[ITEMS_HARD]
+	[ITEMS_METAL]
+	[ITEMS_BARRED]
+	[ITEMS_SCALED]
+	[SOLID_DENSITY:1000]
+	[LIQUID_DENSITY:1000]
+	[MOLAR_MASS:20000]
+	[IMPACT_YIELD:1000000]
+	[IMPACT_FRACTURE:2000000]
+	[IMPACT_STRAIN_AT_YIELD:0]
+	[COMPRESSIVE_YIELD:1000000]
+	[COMPRESSIVE_FRACTURE:2000000]
+	[COMPRESSIVE_STRAIN_AT_YIELD:0]
+	[TENSILE_YIELD:1000000]
+	[TENSILE_FRACTURE:2000000]
+	[TENSILE_STRAIN_AT_YIELD:0]
+	[TORSION_YIELD:1000000]
+	[TORSION_FRACTURE:2000000]
+	[TORSION_STRAIN_AT_YIELD:0]
+	[SHEAR_YIELD:1000000]
+	[SHEAR_FRACTURE:2000000]
+	[SHEAR_STRAIN_AT_YIELD:0]
+	[BENDING_YIELD:1000000]
+	[BENDING_FRACTURE:2000000]
+	[BENDING_STRAIN_AT_YIELD:0]
+	[MAX_EDGE:12000]
+	[SPHERE:BLIGHT]}}
+{{metals}}
+{{Category|Metals}}{{Category|Materials}}
+[[ru:Divine metal]]

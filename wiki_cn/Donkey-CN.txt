@@ -1,25 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=donkey_sprites.png
-|portrait=donkey_portrait_anim.gif
-|bone=13
-|meat=10
-|fat=9
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1|
-|skull=1
-|skin=hide
-|hoof=4
-|contrib=no
-|wiki=yes
-}}
+{{Creaturelookup/0|image=donkey_sprites.png|portrait=donkey_portrait_anim.gif|bone=13|meat=10|fat=9|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1||skull=1|skin=hide|hoof=4|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -32,12 +12,7 @@
 
 [[File:Donkey 1 arp 750px.jpg|thumb|400px|center|因其''固执''而受到欣赏。]]
 
-{{Translation
-| dwarven = nuggad
-| elvish  = ceriva
-| goblin  = usnog
-| human   = tham
-}}
+{{Translation| dwarven = nuggad| elvish  = ceriva| goblin  = usnog| human   = tham}}
 
 {{gamedata}}
 {{Creatures}}

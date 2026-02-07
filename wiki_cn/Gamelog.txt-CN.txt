@@ -1,0 +1,9 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{file|DF/gamelog.txt}}
+
+'''gamelog.txt'''是游戏的输出日志文件，位于游戏的根目录中。它存储了玩家可用的每个[[announcement|公告]]和[[report|报告]]，按从旧到新的顺序排序。这个文件在新安装的游戏中不存在，而是当游戏尝试向其中写入内容但文件不存在时自动创建的。
+
+{{files}}
+[[ru:Gamelog.txt]]

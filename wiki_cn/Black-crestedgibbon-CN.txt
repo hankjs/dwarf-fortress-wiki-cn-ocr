@@ -1,17 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=black_crested_gibbon_sprites_anim.gif
-|portrait=black_crested_gibbon_portrait_anim.gif
-|bone=4
-|meat=6-7
-|fat=6-7
-|heart=1
-|intestine=1
-|skull=1
-|skin=hide
-|contrib=no
-|wiki=Black crested gibbon
-}}
+{{Creaturelookup/0|image=black_crested_gibbon_sprites_anim.gif|portrait=black_crested_gibbon_portrait_anim.gif|bone=4|meat=6-7|fat=6-7|heart=1|intestine=1|skull=1|skin=hide|contrib=no|wiki=Black crested gibbon}}
 {{av}}
 {{creaturedesc}}
 

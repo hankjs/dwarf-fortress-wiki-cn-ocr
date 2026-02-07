@@ -1,0 +1,36 @@
+{{Quality|Superior}}
+{{av}}
+{{Modding}}
+
+'''身体词汇替换'''（bodygloss）是原始[[body token|身体标记]]和[[creature token|生物标记]]中的一个[[token|标记]]，对生物的身体部位执行简单的文字替换。例如，如果一个生物使用了"[BODYGLOSS:PAW]"标记，那么一个假设名为"second right foot"的身体部位将被重命名为"second right paw"。
+
+重要的是要区分身体标记和生物标记的版本。身体标记变体定义在任何"OBJECT:BODY"文件中，语法如下：''[BODYGLOSS:id:singular:replacement:plural:replacements]''
+
+请注意，这是对所有身体部位的简单字符串替换——替换"ear"也会替换"h'''ear'''t"中间的部分。
+
+要使用此标记，生物标记变体被包含在生物定义之下（在"OBJECT:CREATURE"文件中），语法如下：
+ [BODYGLOSS:id]
+然后，它将执行身体标记文件中bodygloss定义的文字替换；任何身体部位中出现的''singular''和''plural''单词将分别被替换为''replacement''和''replacements''。
+
+未修改的''矮人要塞''中包含的默认bodygloss列表如下，取自body_default.txt：
+
+ [BODYGLOSS:PAW:foot:paw:feet:paws]
+ [BODYGLOSS:MAW:mouth:maw:mouths:maws]
+ [BODYGLOSS:CLAW_HAND:hand:claw:hands:claws]
+ [BODYGLOSS:CLAW_FOOT:foot:claw:feet:claws]
+ [BODYGLOSS:HOOF:foot:hoof:feet:hooves]
+ [BODYGLOSS:TRUNK:body:trunk:bodies:trunks]
+ [BODYGLOSS:BRANCH_ARM:arm:branch:arms:branches]
+ [BODYGLOSS:LEG_STUMP:leg:stump:legs:stumps]
+ [BODYGLOSS:ROOTS_FOOT:foot:roots:feet:roots]
+ [BODYGLOSS:INSECT_UPPERBODY:upper body:thorax:upper bodies:thoraxes]
+ [BODYGLOSS:INSECT_LOWERBODY:lower body:abdomen:lower bodies:abdomens]
+
+以下bodygloss仅由随机生成的生物使用——[[titan|泰坦]]、[[forgotten beast|遗忘之兽]]和[[demon|恶魔]]：
+
+ [BODYGLOSS:RCP_GLOSS_HOOF:foot:hoof:feet:hooves]
+ [BODYGLOSS:RCP_GLOSS_PAW:foot:paw:feet:paws]
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Bodygloss]]

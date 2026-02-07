@@ -1,23 +1,14 @@
 {{migrated article}}
 {{Quality|Unrated}}
-{{v50 workshop|name=Clothier's shop
-|key1=l
-|key2=k
-|job=[[Clothier|Clothesmaking]]
-|icon=[[File:clothiers_shop_icon.png]]
-|construction=
-* [[Building material]] (non-[[economic]])
-|construction_job=
-* [[Clothier|Clothesmaking]]
-|use=
+{{v50 workshop|name=Clothier's shop|key1=l|key2=k|job=[[Clothier|Clothesmaking]]|icon=[[File:clothiers_shop_icon.png]]|construction=
+* [[Building material]] (non-[[economic]])|construction_job=
+* [[Clothier|Clothesmaking]]|use=
 * [[Cloth]]
 * Wool cloth (called [[Yarn]] in the job menu)
-* [[Silk]]
-|production=
+* [[Silk]]|production=
 * [[Bag]]
 * [[Clothing]] (cap, cloak, coat, glove, hood, loincloth, mitten, robe, shirt, shoe, sock, trousers, tunic and vest)
-* [[Rope]]
-}}{{av}}
+* [[Rope]]}}{{av}}
 
 '''裁缝铺'''是一个由[[Clothier|裁缝]]用来制作[[clothes|衣物]]、[[rope|绳索]]和[[bag|袋子]]的[[workshop|工坊]]。它可以使用由植物纤维制成的[[cloth|布料]]、由[[yarn|纱线]]制成的羊毛布料或由收集的蜘蛛网制成的[[silk|丝绸]]布料作为原材料。它还可以用于在[[finished goods|成品]]上[[decoration|缝制图案]]。布料和丝绸必须从[[trading|商队]]购买或在[[loom|织布机]]上[[weaver|织造]]。
 

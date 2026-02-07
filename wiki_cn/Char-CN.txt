@@ -1,0 +1,21 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=char_sprite.png|portrait=char_portrait.png|wiki=Salvelinus}}
+{{av}}
+{{creaturedesc}}
+
+'''红点鲑'''是[[vermin|害虫]]大小的鱼，可以被[[fisherdwarf|渔夫]]捕获并在[[fishery|渔场]]加工，但只能在[[biome|温带]][[river|河流]]和[[lake|湖泊]]中找到。红点鲑可以全年捕获。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]红点鲑的''色彩''。
+
+
+[[File:Vermin-Char.jpg|thumb|center|300px|Admired for its ''coloration''.]]
+
+{{D for Dwarf}}
+<!-- Reference: Mobile Suit Gundam series -->
+以驾驶单眼机器人而闻名，并在"鲁姆"摧毁了八艘战舰。
+
+<!-- Reference: C programming language -->
+一组<code>char</code>通常被称为"字符串"。
+
+{{gamedata}}
+{{Vermin}}

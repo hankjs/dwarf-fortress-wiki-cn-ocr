@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=badger_man_sprite.png
-|portrait=badger_man_portrait.png
-|death=nobutcher}}
+{{Creaturelookup/0|image=badger_man_sprite.png|portrait=badger_man_portrait.png|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 

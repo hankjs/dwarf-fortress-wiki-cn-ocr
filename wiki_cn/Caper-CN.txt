@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=caper_shrub_sprite.png
-|seedimage=caper_seeds_sprite.png
-|uses=[[Food]]
-}}
+{{plantlookup|graphic=caper_shrub_sprite.png|seedimage=caper_seeds_sprite.png|uses=[[Food]]}}
 {{av}}
 
 '''刺山柑'''是一种[[aboveground|地表]][[crop|园艺蔬菜]]。它们可以在所有季节种植，浆果和叶子可以生吃或[[cooking|烹饪]]后食用。

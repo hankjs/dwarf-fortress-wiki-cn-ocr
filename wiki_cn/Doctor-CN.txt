@@ -1,0 +1,36 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{buggy}}
+
+'''医生'''既指一个[[profession|职业]]也指一个[[occupation|职务]]。
+
+== 职业 ==
+医生职业包含与受伤矮人的恢复和治疗相关的技能。
+
+一个成年[[dwarf|矮人]]，如果其最佳[[skill|技能]]属于这个类别，并且在其他医生技能中积累了等级（具体多少不清楚），将被称为医生。一旦他们在其中一项技能中达到"宗师"级别，但在其他技能中没有，他们将以该技能的名称被称呼。
+
+然而，如果矮人只有一项医生技能的[[experience|经验]]，他们将以其最高技能被称呼。
+
+[[Health care|医疗]]技能包括：
+
+{{Skill Box|Doctor|5:0|5:0|
+* [[Bone doctor|正骨医生]]
+* [[Diagnostician|诊断师]]
+* [[Surgeon|外科医生]]
+* [[Suturer|缝合师]]
+* [[Wound dresser|包扎师]]}}
+
+== 职务 ==
+
+任何矮人都可以在[[hospital|医院]]被指定为医生职务。这将使他们能够执行[[diagnosis|诊断]]、[[surgery|手术]]和[[setting bones|正骨]]。
+
+=== 错误 ===
+这个职务受[[Known bugs and issues#healthcare-labors-bug|医疗劳动错误]]影响。
+{{v50 misc professions}}
+{{skills}}
+
+{{Category|Occupation}}
+{{Category|Professions}}
+{{Category|Healthcare}}
+{{Category|Scholarship}}

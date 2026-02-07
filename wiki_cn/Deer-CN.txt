@@ -1,25 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=deer_couple_sprite_anim.gif
-|portrait=deer_portrait_anim.gif
-|contrib=no
-|bone=13
-|meat=10
-|fat=9
-|lung=2
-|heart=1
-|intestine=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|brain=1|
-|skull=1
-|skin=hide
-|hoof=4
-|wiki=yes
-}}
+{{Creaturelookup/0|image=deer_couple_sprite_anim.gif|portrait=deer_portrait_anim.gif|contrib=no|bone=13|meat=10|fat=9|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1||skull=1|skin=hide|hoof=4|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -29,12 +9,7 @@
 
 一些矮人因为鹿的''优雅''而[[Preferences|喜欢]]它们。
 
-{{Translation
-| dwarven = kizbiz
-| elvish  = liyìÿi
-| goblin  = unes
-| human   = keth
-}}
+{{Translation| dwarven = kizbiz| elvish  = liyìÿi| goblin  = unes| human   = keth}}
 [[File:White-tailed deer.jpg|thumb|400px|center|因其''优雅''而受到赞赏。]]
 
 {{gamedata}}

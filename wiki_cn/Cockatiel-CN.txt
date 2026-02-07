@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{verminlookup/0
-|image=cockatiel_sprite.png
-|portrait=cockatiel_portrait.png}}
+{{verminlookup/0|image=cockatiel_sprite.png|portrait=cockatiel_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

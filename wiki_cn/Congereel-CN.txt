@@ -1,0 +1,14 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|contrib=no|image=conger_eel_sprites.png|portrait=conger_eel_portrait.png|skin=hide|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|skull=1|meat=6|fat=5|brain=1|bone=9|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''康吉鳗'''是一种可以在[[temperate|温带]]和[[arctic|极地]][[ocean|海洋]]中发现的[[Creature|鱼类]]。略小于[[dwarf|矮人]],[[butcher|屠宰]]时提供相当多的收益。作为非[[vermin|害虫]]鱼类,康吉鳗不能被[[Fisherdwarf|渔夫矮人]]捕鱼,但可以通过使用[[drowning chamber|溺水室]]捕获。幼年康吉鳗被称为''康吉鳗幼体''。
+
+一些矮人[[Preferences|喜欢]]康吉鳗的''长身体''。
+
+[[File:Conger oceanicus.jpg|thumb|400px|center|Admired for their ''long bodies''.]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

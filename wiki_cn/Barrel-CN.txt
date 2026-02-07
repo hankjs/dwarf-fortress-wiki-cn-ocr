@@ -1,25 +1,7 @@
 {{Quality|Superior}}
 {{av}}
-{{v50_item|name=Barrel
-|tile=÷|col=0:6:0
-|graphic=[[File:Iron barrel sprite.png|23px|metal barrel]] / [[File:Barrel_premium.png|wooden barrel]]
-|wood=y
-|stone=n
-|metal=y
-|bars=3
-|glass=n
-|cloth=n
-|leather=n
-|ceramic=n
-|bone=n
-|shell=n
-|gem=n
-|wax=n
-|used for=
-* [[Storage|储存]]（[[Stockpile#Food|食物、液体]]）
-|value=10
-|size=20,000
-|capacity=60,000}}
+{{v50_item|name=Barrel|tile=÷|col=0:6:0|graphic=[[File:Iron barrel sprite.png|23px|metal barrel]] / [[File:Barrel_premium.png|wooden barrel]]|wood=y|stone=n|metal=y|bars=3|glass=n|cloth=n|leather=n|ceramic=n|bone=n|shell=n|gem=n|wax=n|used for=
+* [[Storage|储存]]（[[Stockpile#Food|食物、液体]]）|value=10|size=20,000|capacity=60,000}}
 '''桶'''是储存单元，像[[bin|箱]]和[[bag|袋]]一样，通过容纳多个相同类型的物品来节省[[stockpile|储物区]]空间。它们可以在[[carpenter's workshop|木匠工坊]]用[[wood|木材]]制作（每个桶需要一根[[log|原木]]）或在[[forge|熔炉]]用[[metal|金属]]锻造（需要3根[[metal|金属]][[bar|条]]）。非岩浆[[forge|熔炉]]还需要一[[bar|条]][[fuel|燃料]]。从图形上看，如果桶是空的，精灵图将显示一个没有盖子的空桶；如果它装满了特定类型的物品，桶的顶部将有匹配的物品从顶部伸出。如果桶包含液体，桶将没有盖子并显示它所含液体的顶部，以及附有一个龙头，使桶看起来像一个小酒桶。如果桶包含[[slurry|浆液]]、糊状物或[[tallow|动物脂]]等内容，桶的顶部将有一个盖子：
 <div style="testB" style="margin-top: 10px; margin-left: 20px;">[[File:barrels_variants_preview.png]]</div>
 

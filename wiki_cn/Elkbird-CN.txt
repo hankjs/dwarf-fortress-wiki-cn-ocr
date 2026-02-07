@@ -1,0 +1,29 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=elk_bird_sprites.png|portrait=elk_bird_portrait.png|wiki=no|bone=23|meat=16|fat=10|horn=2|lung=2|heart=1|intestine=1|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|brain=1|skull=1|skin=hide|gizzard_stone=1|contrib=no}}
+{{av}}
+{{creaturedesc}}
+
+'''麋鹿鸟'''是大型不会飞的鸟类，是[[caverns|洞穴]]中最常见的[[creature|生物]]之一，仅次于[[crundle|克伦德尔]]。虽然它们通常不具有敌意，但它们会打断整个[[fortress|要塞]]的任务，如果被激怒，通常会在一对一战斗中杀死一个未经训练的[[dwarf|矮人]]（甚至是一只战斗[[dog|狗]]）。它们也可以被[[goblin|地精]][[siege|围攻者]]用作[[mount|坐骑]]。
+
+除了它们的[[meat|肉]]、[[bone|骨头]]、[[Prepared organs|器官]]等，屠宰麋鹿鸟时还会产生一根[[feather|羽毛]]和一块[[gizzard stone|砂囊石]]。它们是留下砂囊石的较常见生物之一。与[[elk|麋鹿]]不同，两性麋鹿鸟都有[[horn|角]]。这很好，因为麋鹿鸟部位的价值甚至比麋鹿部位更高，[[value|价值]]倍数为三。
+
+[[Animal trainer|训练]]后的麋鹿鸟需要[[pasture|牧场]]才能生存。它们的[[breed|繁殖]]非常困难，因为麋鹿鸟母鸟宁愿饿死也不愿放弃她的[[nest box|巢箱]]。一只喂养良好的母鸟可以在返回没有巢箱的牧场吃草之前孵化一窝蛋；然而，不孕的蛋或连续多窝仍然是有问题的。{{bug|4637}}作为牧场的替代方案，它们可以被拴住，然后由启用了[[animal caretaker|动物照料者]]劳动的闲置矮人喂养。它们无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]麋鹿鸟，因为它们''优雅的角''。
+
+==Gallery==
+<center>
+<gallery widths=250px heights=250px>
+Elkbird.jpg|一只麋鹿鸟雏鸟，由[[Main:Bay 12 Games|Bay 12 Games]]用蜡笔绘制
+elk_bird.png|''Art by Quinmael''
+Notebook_10_ElkBird.jpg|"蘑菇食草动物，鸟类般。"<br>''Concept art by Bay 12 Games.''
+</gallery></center>
+
+{{D for Dwarf}}
+<!-- Reference: "Don't Starve" video game -->
+一些矮人声称看到当父母被杀时，麋鹿鸟幼崽会变得极其好斗。它们似乎有一种特殊的自卫机制，旋转得如此之快以至于变成了旋风。然后，它们凶猛地冲向敌人，开始用翅膀快速拍打敌人，直到它们变成一团无法辨认的东西。然而，在用装满[[Trap component|尖刺球]]的[[minecart|矿车]]撞击麋鹿鸟父母进行了10天的实验后，具有讽刺意味的是，麋鹿鸟似乎根本不在乎父母的残忍死亡，继续啃食它们的[[Grass|洞穴真菌]]，就好像什么都没发生一样。因此，矮人[[Scholar|科学家]]打破了另一个谣言。
+
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

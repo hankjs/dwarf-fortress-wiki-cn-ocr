@@ -1,11 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=cranberry_shrub_sprite.png
-|seedimage=cranberry_seeds_sprite.png
-|uses=
-* [[Food|食物]]
-|wiki=vaccinium oxycoccos
-}}
+{{plantlookup|graphic=cranberry_shrub_sprite.png|seedimage=cranberry_seeds_sprite.png|uses=
+* [[Food|食物]]|wiki=vaccinium oxycoccos}}
 {{av}}
 
 '''蔓越莓'''是一种[[aboveground|地上]][[crop|园圃蔬菜]]。它们可以在所有季节种植，果实可以生吃或[[cooking|烹饪]]食用，也可以在[[brewing|酿造]]成[[alcohol|蔓越莓酒]]，或在[[dyer's shop|染坊]]加工成红色[[dye|染料]]。

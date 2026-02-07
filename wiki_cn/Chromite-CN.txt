@@ -1,6 +1,5 @@
 {{Quality|Superior}}
-{{stonelookup/0
-|graphic=chromite_sprite.png}}
+{{stonelookup/0|graphic=chromite_sprite.png}}
 {{av}}
 
 '''铬铁矿'''是一种深紫色的石头，以矿脉形式存在于[[olivine|橄榄石]]中，值得注意的是它是珍贵的[[demantoid|翠榴石]]宝石的唯一来源，同时也是[[native platinum|自然铂]]的潜在来源。与橄榄石一样，铬铁矿也是[[magma-safe|抗岩浆]]的。

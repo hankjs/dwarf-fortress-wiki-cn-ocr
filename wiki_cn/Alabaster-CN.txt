@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{stonelookup/0
-|graphic=alabaster_sprite.png}}
+{{stonelookup/0|graphic=alabaster_sprite.png}}
 {{av}}
 
 '''雪花石膏'''是[[gypsum|石膏]]的一种细粒变种。它在石膏中以小[[cluster|簇]]的形式出现，同样可以用来制作[[plaster|灰泥]]。除了颜色之外，这两种材料在游戏中没有区别。

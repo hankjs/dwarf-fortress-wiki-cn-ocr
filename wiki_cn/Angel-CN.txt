@@ -12,12 +12,7 @@
 [[File:Bim-sarasti.jpg|thumb|right|300px|"Mudung的怪物，一只高大的无眼蚱蜢。它有两个长长的螺旋角，似乎从不对任何事情感到不安或惊讶。它的靛蓝色外骨骼起皱。它由人类女神Mudung Deepperplexes创造，是命运的一部分。"（[http://www.bay12forums.com/smf/index.php?topic=169691.msg7701761#msg7701761 帖子]）]]
 
 天使在世界生成时随机生成，外观、手臂、盔甲甚至材料都由其创造者的[[sphere|领域]]决定。术语"天使"被宽泛使用——毕竟，它们是由明知释放[[demon|恶魔]]进入世界的神祇派遣的。因此，它们与"黑暗"或"暴力"领域（如畸形和战争）的关联不成比例，具有相应邪恶的外观，但即使是与中性或所谓积极领域相关的天使，往往也具有完全怪异的外观。WAR、VALOR和FORTRESSES领域将"'''战士'''"天使类型的自然战斗技能从6提升到10。领域对身体材料的影响与对恶魔等的影响方式相同，所以淤泥之神很可能拥有泥浆天使，彩虹之神拥有水晶天使等（约有30个有材料链接的领域）。DEATH、MISERY、DARKNESS和NIGHT领域的天使可以有深色改变。然而，所有天使都共享某些特征；它们是[[fanciful|奇幻]][[creatures|生物]]，都能够在水中游泳和[[Amphibious|呼吸]]，并[[Building destroyer|摧毁建筑物]]。此外，它们对[[Trapavoid|陷阱]]、[[No Pain|疼痛]]、恐惧、恶心、[[No Stun|眩晕]]、[[No Exert|疲劳]]、头晕、发烧和任何毒药免疫。与恶魔不同，天使似乎并非普遍对[[fire|火]]免疫。所有类人天使都能够装备物品并自由打开未锁定的[[door|门]]。一些天使可以使用一种称为"神圣疾病"的[[syndrome|综合征]]，其效果是随机的，但通常包括呕血、水泡、麻木和恶心等。其他天使可能具有[[Creature_token#EXTRAVISION|超视觉]]，它们可以是无性别的，或者具有雄性和雌性种姓。
-{{Translation
-| dwarven = sedil
-| elvish  = thili
-| goblin  = asmuk
-| human   = idla
-}}
+{{Translation| dwarven = sedil| elvish  = thili| goblin  = asmuk| human   = idla}}
 矮人永远不会对天使有[[preferences|偏好]]，因为它们没有{{token|PREFSTRING}}。它们拥有未使用的2,000[[Pet#Pet value|宠物价值]]。像其他程序化生成的生物一样，它们无法在[[object testing arena|对象测试竞技场]]中生成。
 
 即使你杀死了宝库内的所有天使，它们最终也会重生（尚未确认需要多长时间——已目睹一个被清理的宝库在不到一个月内恢复了其种群），这使宝库成为相当不错的高级物品刷取地。尝试至少杀死一个战士并拿起他们的装备——你的冒险会立即变得容易得多。请注意，天使完全有能力走出他们的宝库，屠杀任何落单者，所以在宝库附近徘徊不是个好主意。
@@ -460,8 +455,7 @@
 	[GAIT:CRAWL:Fast Crawl:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
 	[GAIT:CRAWL:Crawl:900:NO_BUILD_UP:0]
 	[GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
-	[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
-}}
+	[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]}}
 
 {{Creatures}}
 {{Category|Amphibious}}

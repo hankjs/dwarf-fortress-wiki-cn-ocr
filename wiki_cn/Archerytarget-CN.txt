@@ -1,11 +1,7 @@
 {{Quality|Exceptional}}
-{{Building|name=Archery target|key=y|key2=t
-|construction=
-* [[Building material|建筑材料]]（非[[economic|经济]]）
-|construction_job={{Template:Material-specific building labors}}
-|purpose=
-* 制作射箭场
-}}{{av}}
+{{Building|name=Archery target|key=y|key2=t|construction=
+* [[Building material|建筑材料]]（非[[economic|经济]]）|construction_job={{Template:Material-specific building labors}}|purpose=
+* 制作射箭场}}{{av}}
 
 '''射箭靶'''是一个用于训练你的[[marksdwarves|弩手]]的[[building|建筑]]。射箭靶可以用[[wood|木头]]建造，需要[[carpentry|木工]]；[[stone|石头]]或[[glass|玻璃]]，需要[[masonry|石工]]；或[[metal|金属]]，需要[[metalcrafting|金属工艺]]。它们也可以用上述材料制成的[[block|方块]]建造。
 

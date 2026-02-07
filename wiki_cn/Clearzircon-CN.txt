@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_clear_zircon_sprite.png
-|graphic2=rough_clear_zircon_sprite.png
-|wiki=zircon}}{{av}}
+{{gemlookup/0|graphic=cut_clear_zircon_sprite.png|graphic2=rough_clear_zircon_sprite.png|wiki=zircon}}{{av}}
 
 '''透明锆石'''是半宝石级的[[gems|宝石]]，以小型矿簇的形式存在于所有[[igneous|火成岩]]和[[metamorphic|变质岩]]岩层中。其[[material value|材料价值]]为25，是所有锆石类型中最高的 - 所有类型的彩色锆石虽然仍是半宝石级，但材料价值只有20。
 

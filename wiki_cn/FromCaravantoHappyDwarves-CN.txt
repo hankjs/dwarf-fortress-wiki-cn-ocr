@@ -1,0 +1,17 @@
+== 使用流程图 ==
+此流程图旨在涵盖从大篷车到一个运作良好的要塞的大致步骤，使其足以开始专注于其他项目。从"开始"节点开始，然后考虑执行必要的步骤以前往下一个红色目标。顺序不是绝对的，流程图也不声称是做事的最佳方式，但它可以作为建立第一个要塞的非线性检查清单提供帮助。
+
+要学习如何执行此图中的操作，请使用wiki、试错法或论坛。
+
+
+[[File:flowchartDF.png|thumb|center|750px|点击放大。]]
+{{clear}}
+
+{{Category|Guides}}
+
+==其他资源==
+
+[https://creately.com/diagram-community/popular/t/flowchart 流程图模板]
+
+[https://creately.com/diagram-community/examples/t/flowchart 流程图示例]
+[[ru:From Caravan to Happy Dwarves]]

@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_cinnamon_grossular_sprite.png
-|graphic2=rough_cinnamon_grossular_sprite.png}}
+{{gemlookup/0|graphic=cut_cinnamon_grossular_sprite.png|graphic2=rough_cinnamon_grossular_sprite.png}}
 {{av}}
 
 '''肉桂榴石'''是一种价值一般的罕见半宝石，存在于[[marble|大理石]]中。

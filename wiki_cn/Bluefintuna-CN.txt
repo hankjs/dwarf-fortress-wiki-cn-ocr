@@ -1,24 +1,5 @@
 {{Quality|Exceptional|01:10, 17 February 2023 (CST)}}
-{{Creaturelookup/0
-|image=bluefin_tuna_sprites.png
-|portrait=bluefin_tuna_portrait.png
-|contrib=no
-|eye=2
-|heart=1
-|intestine=4-5
-|liver=1
-|tripe=1
-|sweetbread=1
-|spleen=1
-|kidney=2
-|fat=8-10
-|brain=1
-|skull=1
-|skin=hide
-|meat=10 - 17
-|bone=12
-|wiki=Atlantic bluefin tuna
-}}
+{{Creaturelookup/0|image=bluefin_tuna_sprites.png|portrait=bluefin_tuna_portrait.png|contrib=no|eye=2|heart=1|intestine=4-5|liver=1|tripe=1|sweetbread=1|spleen=1|kidney=2|fat=8-10|brain=1|skull=1|skin=hide|meat=10 - 17|bone=12|wiki=Atlantic bluefin tuna}}
 {{av}}
 {{creaturedesc}}
 

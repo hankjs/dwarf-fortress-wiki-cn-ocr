@@ -1,0 +1,16 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+
+'''账房'''是由商人[[company|公司]]在[[site|地点]]建造的建筑。一个公司可能建造多个账房,其中一些可能在同一地点。
+
+账房由几层楼组成,一层装满货物的箱子,另一层有椅子和桌子的房间。有时,[[artifact|神器]]可能隐藏在账房中。
+
+[[File:Df counting house.png|800px|thumb|center|The two levels of a counting house. The left is the lower storage floor, filled with bins. The right is the upper socialization area, filled with chairs.]]
+
+== 商人公司 ==
+商人公司是一群[[merchant|商人]]。在世界生成中,商人公司的成员将在地点之间交易物品,作为底层经济模拟的表达。目前,商人公司的主要目的是促进不同文明地点之间的互联,并确保有足够多的富有[[historical figure|历史人物]]可能购买地点的财产,建造[[Tower_(structure)|豪华塔楼]],并资助各种[[intrigue|阴谋]]。简而言之,它主要是不可见的。
+
+商人公司将有一个领导职位(名为主人或首领),可能有一个管理员(也称为总督或代理人)职位,负责贸易和记录保管。
+
+{{world}}

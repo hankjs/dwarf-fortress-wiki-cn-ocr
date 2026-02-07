@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{plantlookup|graphic=cucumber_shrub_sprite.png|seedimage=cucumber_seeds_sprite.png|uses=
+*[[Food|食物]]}}
+{{av}}
+
+'''黄瓜'''是一种[[aboveground|地上]][[crop|花园植物]]。它们可以在所有季节种植，果实可以生吃或[[cooking|烹饪]]后食用。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]黄瓜藤，因为它的''果实''。
+
+
+[[File:ARS cucumber.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

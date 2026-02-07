@@ -1,0 +1,9 @@
+{{Quality|Superior}}
+{{av}}
+'''阿谀奉承者(Flatterer)'''是矮人在交朋友或[[Justice#Interrogation|审讯]]时使用的一种[[social skill|社交技能]]。特别擅长此技能的矮人往往容易交到朋友，并且经常能晋升到[[mayor|市长]]职位。
+
+要训练这项技能，让矮人闲置下来互相聊天即可。[[Personality value#TRUTH|诚实]]的矮人和[[Personality facet#FRIENDLINESS|不友好]]的矮人永远不会在这项技能上获得[[experience|经验]]。
+
+在[[Adventure mode|冒险模式]]中，这项技能在价值观分歧中得到训练。在NPC陈述他们的价值观后，你可以选择"奉承听众"来礼貌地结束讨论。相反，如果你更愿意粗鲁地结束对话并驳回争论，你将提升[[intimidator|威吓者]]技能。由于辩论的过程大多是随机的，在分歧期间的任何时刻都不能保证对方是否会陈述他们的价值观还是仅仅转移论点，因此这项技能非常耗时且难以用[[macro|宏]]自动化。
+
+{{skills}}

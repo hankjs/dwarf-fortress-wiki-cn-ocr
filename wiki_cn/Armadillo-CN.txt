@@ -1,17 +1,5 @@
 {{Quality|Exceptional|18:51, 6 February 2017 (UTC)}}
-{{creaturelookup/0
-|image=armadillo_sprites.png
-|portrait=armadillo_portrait_anim.gif
-|meat=7
-|fat=7
-|intestine=1
-|bone=4
-|skull=1
-|shell=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=armadillo_sprites.png|portrait=armadillo_portrait_anim.gif|meat=7|fat=7|intestine=1|bone=4|skull=1|shell=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

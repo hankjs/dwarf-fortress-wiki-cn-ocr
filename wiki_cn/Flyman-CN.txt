@@ -1,0 +1,23 @@
+{{Quality|Fine}}
+{{Creaturelookup/0|image=fly_man_sprite.png|portrait=fly_man_portrait.png|contrib=no}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+
+'''苍蝇人'''(Fly men)是普通[[fly|苍蝇]]的类人版本,是[[animal people|动物人]]的一个[[creature|物种]],几乎可以在除山脉、冰川和冻原之外的每个[[savage|蛮荒]]生物群系中找到。它们本应出现在蛮荒[[pool|水池]]中,但由于非[[vermin|害虫]]无法在水池中生成,所以这从未发生。它们的体型略超过成年[[dwarf|矮人]]的一半,不太可能对要塞居民构成威胁。所有苍蝇人生来就是完全成年的体型,并且在[[climber|攀爬]]方面拥有传奇[[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]苍蝇人,因为它们''具有烦人的能力''。
+
+{{D for Dwarf}}
+
+<!-- Reference: "The Fly", 1958/1986 sci-fi horror film -->
+尽管你可能听说过一些传言,但苍蝇人在量子传送科学方面并不那么出色。
+
+[[File:fly_man.jpg|thumb|120px|center|Still equally annoying as a normal fly.]]
+
+{{Translation| dwarven = fenglel udos | elvish = yetine onino | goblin = atu ngorûg | human = ngáthi abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

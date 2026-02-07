@@ -1,0 +1,47 @@
+{{Quality|Exceptional}}
+{{av}}
+[[File:Dragonfire v50.png|thumb|right|A dragon spewing forth dragonfire. Its blue/purple color makes it distinct from common fire.]]
+
+'''龙火''' [[File:dragonfire_preview_anim.gif|20px|]] 是[[dragon|龙]]产生的一种非常强大的[[fire|火焰]]形式。
+
+==特征==
+[[File:Dragon's Breath Spanning Z-Levels.png|thumb|The dragonfire seen here was aimed at a dwarf 1 z-level below, and can be seen affecting both that z-level and the z-level above.]]
+龙火从龙的前方形成一个粗略的锥形，射程约为20格，扩散范围为10格{{cite talk|v0.34 Talk:Fire#Dragonfire}}，可以穿越最多两个[[z-level|Z层]]，点燃半径内捕获的任何可燃物。它可以通过其鲜艳的蓝色/紫色与普通火焰区分开来，尽管它与可燃物体接触引起的任何火焰都将是火焰的常规红色。
+
+龙火可以达到{{ct|50000}}的温度。在那个温度下，几乎所有材料都应该被摧毁。然而，研究表明龙火对它影响哪些物体非常挑剔。当处于有龙火的格子中时，有机材料会燃烧，甚至包括具有固定温度的[[nether-cap|地狱菌盖]][[wood|木材]]。非易燃的普通[[stone|石头]]、[[glass|玻璃]]和[[ceramic|陶瓷]]物品会熔化并沸腾消失。龙火对[[water|水]]无效，不会产生[[steam|蒸汽]]或蒸发。受龙火影响的是其所在格子上的[[Building|建筑]]（但不是[[construction|建造物]]），这使得非抗龙火的[[door|门]]只要保持关闭就是免疫的。由[[slade|岩泥]]制成的物体和建筑（以及生物）也对龙火免疫，因为原始数据没有为岩泥定义特定的比热，尽管你实际上无法用它建造任何东西。
+
+被龙火点燃的物体会降至并继续以其标准燃烧温度燃烧。然而，重复的龙火喷射可以维持更高的燃烧温度，甚至足以最终熔化附近的[[adamantine|精金]]。
+
+==防御==
+由于其广泛的扩散可能在[[grass|草地]]或[[cave moss|洞穴苔藓]]块中引起大面积火灾，可能在瞬间吞噬并熔化[[Dwarf|矮人]]，龙火可能极其危险。龙喷射龙火的速度也相当快，允许野兽只要在战斗中就可以持续发动攻击。
+
+尽管其具有强大的破坏性，龙火可以被简单的[[shield|盾牌]]在超过99%的时间内阻挡，尽管如果生物站在可燃地面上，这无法阻止周围的火焰几乎瞬间吞噬该生物。因此，对抗龙火的最佳方法是在非易燃地形（如石头）上面对龙；此时，你只需应对龙本身，它本身可能是一个强大的对手。
+
+龙火强大到足以燃烧和杀死对常规火焰免疫的[[creature|生物]]，如[[fire imp|火焰小鬼]]或[[magma crab|岩浆蟹]]。唯一对龙火免疫的生物是龙自己（以防止它们用自己的呼吸杀死自己）、[[cave dragon|洞穴龙]]和某些[[Demon|深渊怪物]]。
+
+==抗龙火材料==
+很少有材料能够承受龙火的巨大热量。以下是完整列表：
+
+{| {{prettytable}}|- bgcolor="#ddd"
+! width="8%" | 类型
+! width="15%" | 材料
+! width="5%" | 外观
+! width="10%" | [[Melting point|熔点]]
+! width="10%" | [[Solid density|固态密度]]
+! width="10%" | [[Specific heat|比热]]
+! width="8%" | [[Value multiplier|价值乘数]]
+! width="34%" | 备注
+
+|-| 金属| [[Divine metal|神圣金属]]| 各异| 无| 1000| 7500| 300| 主要在[[vault|地窖]]中发现
+|-| 皮革| [[Fire imp|火焰小鬼]]皮革| {{Raw Tile|ß|6:0:0}}| 无| 500| 420| 3|
+|-| 骨头| [[Fire imp|火焰小鬼]]骨头| {{Raw Tile|²|7:0:1}}| 无| 500| 1000| 3|
+|-| 骨头| [[Dragon|龙]]骨头| {{Raw Tile|²|7:0:1}}| 无| 500| 30000| 15|
+|}
+
+==趣闻==
+{{Translation| dwarven = måmgoz-ziril | elvish = vutheni-inira | goblin = kusnath-zedan | human = tamun-usmok}}
+*龙火的温度{{ct|50000}}是游戏中设定的最高温度。相比之下，它比太阳表面更热，太阳表面约为{{ct|20000}}。
+*龙火是在[[object testing arena|物体测试竞技场]]中可以选择的最高温度选项。
+
+{{Category|Creature attributes}}
+[[Ru:Dragonfire]]

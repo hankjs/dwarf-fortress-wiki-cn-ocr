@@ -1,24 +1,5 @@
 {{Quality|fine}}
-{{creaturelookup/0
-|image=dingo_couple_sprite.png
-|portrait=dingo_portrait_anim.gif
-|bone=10-12
-|meat=12
-|fat=12
-|skull=1
-|lung=2
-|intestine=1
-|spleen=1
-|kidney=2
-|brain=1
-|heart=1
-|liver=1
-|tripe=1
-|sweetbread=1
-|skin=hide
-|nerves=1
-|contrib=no
-|wiki=yes}}
+{{creaturelookup/0|image=dingo_couple_sprite.png|portrait=dingo_portrait_anim.gif|bone=10-12|meat=12|fat=12|skull=1|lung=2|intestine=1|spleen=1|kidney=2|brain=1|heart=1|liver=1|tripe=1|sweetbread=1|skin=hide|nerves=1|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 

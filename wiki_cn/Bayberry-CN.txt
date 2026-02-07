@@ -1,9 +1,5 @@
 {{Quality|Superior}}
-{{Treelookup/0
-|graphic=macadamia_trunk_sprite.png
-|product=bayberry_sprite.png
-|sapling=bayberry_sapling.png
-|wiki=Myrica_rubra}}
+{{Treelookup/0|graphic=macadamia_trunk_sprite.png|product=bayberry_sprite.png|sapling=bayberry_sapling.png|wiki=Myrica_rubra}}
 {{av}}
 
 '''Bayberry'''（杨梅）是地面上发现的众多树木属之一。与绝大多数地面树木一样，杨梅[[wood|木材]]是棕色的，并产生棕色产品。

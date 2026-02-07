@@ -1,9 +1,6 @@
 {{Quality|Superior}}
 {{av}}
-{{Noble|noble=Chief Medical Dwarf
-|function=Enable use of a [[hospital]].
-|arrival=Appointed on the [[nobles screen]].
-}}
+{{Noble|noble=Chief Medical Dwarf|function=Enable use of a [[hospital]].|arrival=Appointed on the [[nobles screen]].}}
 
 '''首席医疗矮人'''是一个任命的[[noble|贵族]]职位，负责[[fortress|要塞]]的[[healthcare|医疗保健]]工作。他们负责医院，没有这个职位医院就无法运作。
 

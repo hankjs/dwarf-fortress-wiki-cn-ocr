@@ -1,0 +1,26 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=deer_man_sprites_anim.gif|portrait=deer_man_portrait_anim.gif}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+'''鹿人'''是普通[[deer|鹿]]的[[animal people|兽人]]变种,可以在[[savage|野蛮]][[temperate|温带]][[forest|森林]]和[[taiga|针叶林]]中找到。他们以1-5个个体为一组出现,通常满足于独来独往。就体型而言,他们的体重几乎是[[dwarf|矮人]]的两倍,这导致他们之间的对抗大大有利于鹿人,除非矮人有适当的护甲和装备。
+
+像其他野蛮兽人一样,他们可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]鹿人,因为他们的''优雅''。
+
+{{D for Dwarf}}
+
+他们的致命性和残忍天性可以与[[moose man|驼鹿人]]相媲美。
+
+<!-- Reference: Deltarune -->
+一些雌性鹿人能够对[[Bluejay man|蓝松鸦人]]使用冰[[magic|魔法]],但仅限于在[[human|人类]][[militia captain|民兵队长]]的指挥下。
+
+[[File:deer_man.jpg|thumb|230px|center|Still tastes like venison.<br><small>''Art by hibbary''</small>]]
+
+{{Translation| dwarven = kizbiz udos | elvish = liyìÿi onino | goblin = unes ngorûg | human = keth abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

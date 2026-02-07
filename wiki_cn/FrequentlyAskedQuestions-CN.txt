@@ -1,0 +1,292 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+
+
+本页记录常见问题和答案。其中一些问题来自Bay12游戏玩法问题页面。
+
+<!---要添加新问题,复制以下行并粘贴到本页下方的######注释之间。
+{{FAQ2||您希望其他人阅读的问题}}
+--->
+==常规==
+{{FAQ2-head|游戏基础}}
+{{FAQ2|Z-axis|什么是Z轴?}}
+{{FAQ2|Things to Do|游戏的目的是什么?}}
+{{FAQ2|Losing|乐趣}}
+{{FAQ2|Time|''矮人要塞''中时间流逝有多快?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|游戏界面}}
+{{FAQ2|Controls guide|菜单界面指南}}
+{{FAQ2|Tilesets|这些符号代表什么?}}
+{{FAQ2|Status icons|闪烁的图标是什么意思?}}
+{{FAQ2|Maximizing framerate|如何让游戏运行更快?}}
+{{FAQ2|Efficient_gameplay|如何用更少的按键完成任务?}}
+{{FAQ2|Key bindings|如果我有笔记本电脑或不寻常的键盘,什么是好的键位绑定?}}
+{{FAQ2|Color Tiles|在哪里可以获得这个游戏的彩色图形图块?}}
+{{FAQ2|Stocks#Inventory|在z库存页面上,为什么数字显示为黄色,如10? 20?等}}
+{{FAQ2|Reports|左上角边框中的{{Tile|C|4:1}} {{Tile|H|2:1}}和{{Tile|S|3:1}}是什么意思?}}
+{{FAQ2|Technical tricks|有哪些配置选项可用?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|新手指南}}
+{{FAQ2|Quickstart guide|基本入门指南}}
+{{FAQ2|Quickstart guide/Starting site|我应该在世界的哪里定居?}}
+{{FAQ2|Starting build|我应该给矮人装备什么技能和物品?}}
+{{FAQ2|Where in my area should I build my fort|我应该在我的区域的哪里建造要塞?}}
+{{FAQ2|What should I build first|我应该先建造什么?}}
+{{FAQ2|How do I assign tasks to specific dwarves|如何将任务分配给特定的矮人?}}
+{{FAQ2|Immigration|如何获得更多矮人?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+==环境==
+{{FAQ2-head|岩浆}}
+{{FAQ2|Magma|几乎所有与岩浆相关的内容}}
+{{FAQ2|Magma-safe|我可以用什么来制作防岩浆物品?}}
+{{FAQ2|Channel|如何引导岩浆?}}
+{{FAQ2|Digging designation canceled|挖掘指定已取消:发现温热的石头}}
+{{FAQ2|Magma#Finding_magma|在哪里可以找到岩浆?}}
+{{FAQ2|Garbage disposal|岩浆可以火化死去的矮人而不是埋葬他们吗?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|木材}}
+{{FAQ2|Wood|我真的需要木材吗?}}
+{{FAQ2|Wood industry|在哪里可以获得木材?}}
+{{FAQ2|Tree farming|在哪里可以获得更多木材?}}
+{{FAQ2|Tower-cap|可以在地下种植树木吗?}}
+{{FAQ2|Tree farming|塔菇需要多长时间才能生长?}}
+{{FAQ2|Tree|死树会产生新树吗?}}
+{{FAQ2|How much protection does wood armor provide?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|水}}
+{{FAQ2|Screw pump|如何将水向上移动层级?}}
+{{FAQ2|Water pressure|如何阻止水向上移动层级?}}
+{{FAQ2|Swimmer|矮人可以游到水面呼吸空气吗?}}
+{{FAQ2|Swimmer|矮人/地精/生物溺水需要多长时间?}}
+{{FAQ2|Water#Water depth|水有多深?}}
+{{FAQ2|Ice#Melting Ice|可以融化冰吗?}}
+{{FAQ2|Well|如何建造井?}}
+{{FAQ2|Channel|如何为水开凿通道?}}
+{{FAQ2|Flow|水会推动物品吗?}}
+{{FAQ2|Dam|我可以建造水坝来阻止水吗?}}
+{{FAQ2|Digging designation canceled|挖掘指定已取消:发现潮湿的石头}}
+{{FAQ2|Dryland|在没有河流的地图上最好的方法是什么?我的矮人会渴死吗?}}
+{{FAQ2|Fishing industry#Industry management|如何引导河流以允许安全(ish)的室内钓鱼?}}
+{{FAQ2|Aquifer|如何挖掘穿过含水层?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+==要塞==
+{{FAQ2-head|建筑、建造和房间}}
+{{FAQ2|Furniture|当我尝试建造床/门/椅子时,为什么它说需要床/门/椅子?}}
+{{FAQ2|Furniture#Furniture_types_with_multiple_names|如何制作和建造箱子?}}
+{{FAQ2|How do I construct a wall from a particular direction|如何从特定方向建造墙?}}
+{{FAQ2|Room|如何指定房间或区域?}}
+{{FAQ2|Door|救命!我的门卡住打开了!}}
+{{FAQ2|Furniture|放置后,家具可以移动吗?}}
+{{FAQ2|How do I increase the value of a room|如何快速轻松地增加房间的价值?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|心情}}
+{{FAQ2|What's the easiest way to check dwarves happiness|检查矮人幸福感最简单的方法是什么?}}
+{{FAQ2|Noise|如何让我的矮人安静地睡觉?}}
+{{FAQ2|Keeping your dwarves happy|如何让我的矮人保持快乐?}}
+{{FAQ2|Strange mood|"被心情控制"是什么意思?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|工坊}}
+{{FAQ2|Steel#Production chain|如何制作钢?}}
+{{FAQ2|Glass industry|如何制作玻璃?}}
+{{FAQ2|Clothing industry|如何制作布料?}}
+{{FAQ2|Soap industry|如何制作肥皂?}}
+{{FAQ2|Clutter#Remedy|我的物品"卡"在工坊里;如何阻止这种情况发生?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|错误消息}}
+{{FAQ2|Dwarf cancels Store Item: Job item misplaced}}
+{{FAQ2|Dwarf cancels Store Item: Item inaccessible}}
+{{FAQ2|Dwarf cancels Construct Building: Item blocking site}}
+{{FAQ2|Dwarf cancels task: Dropoff inaccessible}}
+{{FAQ2|Dwarf cancels task: Dangerous terrain}}
+{{FAQ2|Dwarf cancels task: Could not find path}}
+{{FAQ2|Dwarf cancels task: Forbidden area}}
+{{FAQ2|Dwarf cancels task: Job item lost or destroyed}}
+{{FAQ2|Equipment mismatch|Dwarf cancels Pickup Equipment: Equipment mismatch}}
+{{FAQ2|Dwarf cancels task: Interrupted}}
+{{FAQ2|Dwarf cancels task: Handling dangerous creature}}
+{{FAQ2|Stymied|Diplomacy Stymied - A diplomat has left unhappy}}
+{{FAQ2|Dwarf cancels construct "Rock object": Needs non-economic rock}}
+{{FAQ2|Cat cancels Store Item in Stockpile: Too injured}}
+{{FAQ2|Digging designation canceled|Digging designation canceled: Warm / Damp stone located}}
+{{FAQ2|Miner cancels dig: Inappropriate dig square}}
+{{FAQ2|Dwarf cancels fill pond: Inappropriate building}}
+{{FAQ2|Their wagons have bypassed your inaccessible site}}
+{{FAQ2|Dwarf cancels Construct Building: cannot reach site}}
+{{FAQ2|Dwarf cancels construct "Rock short sword": Needs sharpenable rock}}
+{{FAQ2|Dwarf cancels construction of Wall: Creature occupying site}}
+<!--- ########### 在此行下方插入新错误 ########### --->
+{{FAQ2|Needs butcherable unrotten nearby item.}}
+<!--- ########### 在此行上方插入新错误 ########### --->
+{{FAQ2-tail}}
+
+==技能==
+{{FAQ2-head|农业}}
+{{FAQ2|How do I build a farm?}}
+{{FAQ2|How large a farm do i need|我需要多大的农场?}}
+{{FAQ2|What is the best crop|什么是最好的作物?}}
+{{FAQ2|How do I manage my seeds and crops|如何管理我的种子和作物?}}
+{{FAQ2|Using bins and barrels|"保留的桶"和"保留的箱"是什么意思?}}
+{{FAQ2|Farming#Red_crops|为什么作物有时用红色文字显示?}}
+{{FAQ2|Clothing industry|我该如何处理这些不可食用的作物?}}
+{{FAQ2|Farming#Introduction_to_Farming|"休耕"选项是什么意思?}}
+{{FAQ2|Farming#Farm_Plots_in_Action|我的矮人只会在田地的一小部分上耕作,为什么?}}
+{{FAQ2|Farming|如何确保我的农田完全设置为生产作物?}}
+{{FAQ2|Grower|如果我没有看到任何矮人在我的农田工作,这是否意味着有问题?}}
+{{FAQ2|Stupid_dwarf_trick#Greenhouse|如果地板是玻璃的,即使玻璃上有土壤,你能在塔楼的多个z层上种植地表作物吗?}}
+{{FAQ2|What is the "seas fert" option for?}}
+{{FAQ2|How do you create a custom stockpile that accepts only prepared foods?}}
+{{FAQ2|Meat industry|如何成功繁殖和利用动物(放牧、非放牧和家禽)?}}
+{{FAQ2|Irrigation|你需要多久灌溉一次农田?}}
+{{FAQ2|How do I manage my seeds and crops|在从厨房禁止种子后,如何防止矮人生吃它们?}}
+{{FAQ2|Seed#Seed_Production|为什么我的种植者一直抱怨他们没有种子?}}
+{{FAQ2|Breeding#Bugs|为什么我的动物不繁殖?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|军事}}
+{{FAQ2|Military quickstart|如何让我的矮人战斗?}}
+{{FAQ2|Military|招募、装备和管理你的军队}}
+{{FAQ2|Sparring|如何训练我的矮人的武术技能?}}
+{{FAQ2|Cross-training|如何将平民训练成超级士兵}}
+{{FAQ2|Equipment and encumbrance|如何防止盔甲拖慢我的士兵?}}
+{{FAQ2|Assign animal|如何在需要时训练和部署动物?}}
+{{FAQ2|Help! My civilians keep running into combat!}}
+{{FAQ2|Cage|如何从笼中囚犯身上移除武器?}}
+{{FAQ2|Squad#Troubleshooting|为什么我不能让我的矮人装备上?}}
+{{FAQ2|How do I stop my marksdwarves from wrestling?}}
+{{FAQ2|Military_quickstart#invisible_uniforms|为什么我的士兵一直丢弃他们的装备?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|采矿}}
+{{FAQ2|How do I get my dwarves to haul stones only from certain areas|如何让我的矮人只从某些区域搬运石头?}}
+{{FAQ2|Exploratory mining|如何找到要开采的矿石?}}
+{{FAQ2|How do I get my dwarves to haul ores and ignore useless stones|如何让我的矮人搬运矿石而忽略无用的石头?}}
+{{FAQ2|Stone management|如何处理所有这些石头?}}
+{{FAQ2|How do I stop miners from falling in channels as they dig them|如何防止矿工在挖掘时掉进通道?}}
+{{FAQ2|cave-in|什么会导致塌方?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+{{FAQ2-head|锻造}}
+{{FAQ2|Melt item|什么是训练的最佳物品?}}
+{{FAQ2|Maximizing value#Metal|什么是交易的最佳物品?}}
+{{FAQ2|Weapon|哪些武器最好?}}
+{{FAQ2|Armor|哪些盔甲最好?}}
+{{FAQ2|Divine metal|什么是"花纹"金属、"暗黑"金属等?}}
+{{FAQ2|Armor#Special_procedurally_generated_armors|为什么我的心情盔甲匠制作了"凸起"胸甲?}}
+<!--- ########### 在此行下方插入新问题 ########### --->
+
+<!--- ########### 在此行上方插入新问题 ########### --->
+{{FAQ2-tail}}
+
+==游戏玩法:未分类==
+
+'''水的问题'''
+
+Q: ''如果你将水排入自然淹没的洞穴,它会流出地图吗?或者它们最终会开始填满?''
+
+A: 它会流出地图边缘。
+
+'''骨头'''
+
+Q: ''我有一个心情中的人,他想要骨头。嗯,要塞外面有一具死熊骨架,我有很多拴着或四处游荡的驯养动物。''
+
+A: 首先,确保你有屠宰场,并启用了屠宰劳动的矮人。
+然后进入"动物屏幕"(从{z}屏幕),并为你想杀死的动物切换"准备屠宰"。
+你的屠夫也会自动屠宰垃圾储物区中的每只死动物。这包括从"部分骨架"中提取骨头。在屠夫旁边建一个垃圾储物区,并启用从外面收集垃圾(o->r->o,如果我没记错的话)。
+
+'''采矿'''
+
+Q: ''我的要塞有3名矿工,1名是移民(他是工作的矿工),另外2名是在出发时来的。原来的2名不会挖掘任何东西。(我检查过他们拿着镐)新来的家伙一直在稳定地挖掘。怎么回事?''
+
+A: 如果你挖掘一条只有1格宽的隧道,只有1个矮人会挖掘。确保他们都装备了镐。
+你是否通过Dwarf Therapist分配采矿?
+无论如何,取消分配,取消暂停,然后重新分配采矿劳动。可能这就是所需要的。
+在我自己的一些测试中,甚至不需要取消暂停——只需进入v-p-l,选择采矿(或伐木)并按两次Enter就足以修复它。
+
+'''移民'''
+
+Q: ''有没有办法编辑加入你要塞的移民的频率或最大/最小数量?我一直收到两位数的移民,我讨厌被迫快速扩张。我知道我可以把一些人征召到军事职位,但我有一个挑剔的原则,宁可没有劳动力也不要浪费劳动力。''
+
+A: 参见[[Immigration]]
+
+'''团体'''
+
+Q: ''我最近在浏览传说时注意到我的一些矮人成立了一个团体,"无声之物"。它没有说它崇拜任何东西/任何人,但矮人''大量''加入了它(尽管我认为不是所有人)。我应该担心吗?我在这个wiki上搜索"团体"时也没有找到任何关于这个主题的内容。
+
+'''保存'''
+
+Q: ''有自动保存吗?''
+
+A: 自动保存频率可以在[[Settings#Autosaves|设置]]中配置;这在冒险模式下不会发生,并且无法配置自动保存的数量。
+
+'''声音'''
+
+Q: 每次我启动游戏时,声音都是255/255。有没有办法让它以不同的级别开始?
+
+A: 在你的初始化文件中,你可以使用[SOUND:NO]默认关闭声音,或使用[VOLUME:100]或你想要的任何级别将声音设置为特定音量。初始化文件可以在''矮人要塞''文件夹下的data/init/init.txt中找到
+
+==使用DF Wiki(编辑政策)==
+浏览wiki时,鼓励用户通过添加信息、纠正错误、改进文章之间的链接以及研究未确认或不完整的事实来做出贡献。如果你是游戏新手,你更有可能遇到错误、被不一致或措辞所困惑,或有应该在这里回答的未回答问题。当你收集答案时——从[[::Forums|论坛]]、在[[::IRC|IRC]]上、通过游戏和测试,或通过其他方式——并弄清楚事情时,你处于独特的位置,可以为下一个人改进这里的信息。
+
+一个好的wiki不仅仅是关于高质量的信息,还包括高质量的呈现和可访问性。有许多编辑习惯有助于wiki的质量和一致性。请花几分钟阅读[[DF:Community_Portal|规则]]。你还可以浏览[[DF_talk:Manual_of_Style|风格手册]]以及通过左侧导航面板找到的[[DF:Centralized_Discussion|集中讨论页面]]上的一些其他讨论。有关编辑功能的技术帮助,例如链接和格式化,请单击[[Help:Contents|帮助链接]],也在左侧导航面板上。
+
+在添加到wiki之前,应该验证事实是完整和准确的,最好在游戏中验证。如有疑问,但你认为这是有用的信息,只需添加它,稍后有人会修复它。如果一条信息未经验证,应该[[:Category:Verify|标记为验证]]。
+
+每个主题都有一个讨论页面,你可以在那里提出问题,与其他人讨论你的想法和推理,直到事实得到解决,或者说任何不属于实际主题页面的内容。请记住,这不是论坛,所以如果你没有在主题页面中使用验证标签,不要期待回复甚至被注意到。始终使用<nowiki>~~~~</nowiki>[http://en.wikipedia.org/wiki/Wikipedia:Signatures 签名]你的讨论页面评论,并阅读[[Wikipedia:Talk_page_guidelines|讨论页面指南]]。请注意,并非所有主题都有现有的讨论页面。单击验证链接或主题主页面上的讨论选项卡将创建一个(参见下面的开始新页面)。
+
+开始新页面:有多种方法可以[http://www.mediawiki.org/wiki/Help:Starting_a_new_page 开始新页面]。但是,只有"自动确认"[[Special:ListGroupRights|用户组]]可以这样做。一旦你贡献了合理数量的编辑(目前为3),你将自动添加到此组。在此之前,你可以在[[DF:Page request|此请求页面]]上请求创建新页面。
+
+==编写答案政策==
+如果你知道wiki上已经回答了问题的页面,'''不要'''只是重定向到它。编辑FAQ并更改链接以直接指向它。
+
+无论你链接到页面,还是创建新页面来回答问题,'''不要忘记'''添加模板代码!那就是:<nowiki>{{FAQ名称}}</nowiki>
+
+{{Getting Started}}
+
+[[Category:FAQ]]
+[[ru:Frequently Asked Questions]]

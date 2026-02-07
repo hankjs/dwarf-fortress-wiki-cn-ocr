@@ -1,10 +1,7 @@
 {{Quality|Superior}}
 {{plantlookup|uses=
 * [[Alcohol|酒精]]
-* [[Flour|面粉]]
-|graphic=cave_wheat_shrub_sprite.png
-|seedimage=cave_wheat_seeds_sprite.png
-|wiki=no}}
+* [[Flour|面粉]]|graphic=cave_wheat_shrub_sprite.png|seedimage=cave_wheat_seeds_sprite.png|wiki=no}}
 {{av}}
 
 '''洞穴小麦'''是一种[[underground|地下]][[crop|作物]]。它可以被[[milling|磨制]]成[[flour|矮人小麦粉]]或[[brewing|酿造]]成[[Alcohol#List_of_alcohol|矮人啤酒]]。

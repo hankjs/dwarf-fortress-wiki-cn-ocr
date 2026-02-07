@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{verminlookup/0
-|image=cap_hopper_sprite.png
-|portrait=cap_hopper_portrait.png
-|wiki=no}}
+{{verminlookup/0|image=cap_hopper_sprite.png|portrait=cap_hopper_portrait.png|wiki=no}}
 {{av}}
 {{creaturedesc}}
 '''菌盖跳虫'''是一种地下的两栖[[vermin|害虫]][[creature|生物]]，生活在[[cavern|洞穴]]的第一层和第二层。它们可以被[[trapper|陷阱猎手]]捕获并变成[[pet|宠物]]，除此之外没有什么特别之处。所有菌盖跳虫都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。

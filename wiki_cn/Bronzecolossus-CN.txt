@@ -1,0 +1,45 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0|image=bronze_colossus_sprite.png|portrait=bronze_colossus_portrait.png|death=item|item=☼[[bronze|青铜]] [[statue|雕像]]☼ (worth 280☼)|contrib=no|wiki=Colossus}}
+{{av}}
+{{creaturedesc}}
+
+[[Image:Bronze_Colossus.png|frame|Estimated size comparison between a bronze colossus, and a dwarf.]]
+
+'''青铜巨像'''（复数：'''bronze colossuses'''，来自原始数据）是一种以巨大人形构造物形态出现的[[megabeast|巨兽]]，由[[bronze|青铜]]制成。当一个青铜巨像在要塞附近定居时，要塞内的居民必须消灭它，否则它将消灭他们。当以非熔化方式死亡时，青铜巨像会变成一座自身的[[item value|杰作]]青铜[[statue|雕像]]（价值280☼），是大门厅的不错装饰。
+
+[http://www.bay12forums.com/smf/index.php?topic=64341.msg1501902#msg1501902 粗略计算]将巨像的身高定在三十五到四十英尺之间（11.53米），大约是自由女神像高度的1/4。当然，这是假设它被塑造成裸体男性的形态——穿衣或女性形态可能更矮或更高。
+
+一些矮人[[Preferences|喜欢]]青铜巨像的''高度''。
+
+==要塞模式==
+除非你使用[[whip|鞭子]]或[[Crossbowman|弩手]]（但你需要'''大量'''[[bolt|弩箭]]才能杀死青铜巨像），青铜巨像不会受到任何低于[[steel|钢]]的材料的严重伤害{{verify}}，但仍然可以通过累积伤害击败。造成累积伤害的攻击会在战斗日志中报告为''碎裂''或''凹陷''[http://www.bay12forums.com/smf/index.php?topic=59642.msg1362817#msg1362817]。[[Adamantine|精金]][[short sword|短剑]]和[[battle axe|战斧]]如果你有的话，也可以直接砍掉整条肢体和头部。
+
+与其他类构造体生物如[[amethyst man|紫晶人]]和[[gabbro man|辉长岩人]]类似，青铜巨像没有情感或[[No Exert|疲劳]]，[[No Pain|免疫疼痛]]，且[[No Stun|不能被击晕]]或恶心。像其他大型生物一样，青铜巨像不能被[[Dwarven atom smasher|原子粉碎]]。升降和可收回的[[bridge|桥]]在巨像下方也无法运作。然而，巨像的巨大重量可以通过受控[[cave-in|坍塌]]将其送入多层跌落来利用。虽然巨像可能不会因跌落而死亡，但可能会失去所有肢体和战斗力，使其变成一个[[Live training|绝佳的训练假人]]。
+
+[[Magma|岩浆]]，所有矮人问题的解决方案，对青铜巨像也很有效。不过，除非使用大量岩浆，否则融化一个可能需要极长时间。一条驯化的[[dragon|龙]]也相当有效，因为巨像可以被[[dragonfire|龙焰]]融化，这比少量岩浆快得多。冻结在[[water|水]]中、凝固在[[obsidian|黑曜石]]中和坍塌也是有效的战术。
+
+另一方面，既然你可以用木制[[cage|笼子]]捕获一个165吨的巨像，并将其作为[[zoo|动物园]]的镇园之宝，为什么要杀死它呢？或者，由于巨像不会受到[[wood|木制]]和[[bone|骨制]]弩箭的伤害，通过一点工程设计和大量弹药，它可以成为无限弩手经验的轻松来源。
+
+==冒险模式==
+青铜巨像栖息在[[shrine (megabeast)|巨兽圣殿]]中。你可以通过向当地人询问"野兽"来找到附近圣殿的位置。
+
+即使是相对弱小和缺乏技能的冒险者也可以用[[whip|鞭子]]轻松残废一个青铜巨像。其他接触面积小的武器也保留了一些效果，累积伤害最终会击倒巨像。更强大、技能更高的冒险者可以选择剑和斧，因为它们偶尔可以砍掉肢体和头部。由于青铜巨像无法学习且没有技能，它们很难发现隐藏在伏击中的冒险者，即使在近距离也是如此。可以利用这一点在战斗初期从隐蔽处攻击巨像的脚和腿，这将使其倒地，大大降低其速度并阻止其冲锋。青铜巨像对水也有独特的弱点，因为它有{{token|SWIMS_LEARNED|c}}但''没有''{{token|CAN_LEARN|c}}——青铜巨像不会在水中溺死，但会无助地挣扎，使其成为拥有良好游泳技能的冒险者（或当冒险者站在巨像所在水格旁边的陆地格上时）的简单目标。
+
+即使只有一把[[copper|铜]][[spear|矛]]，大多数冒险者如果有[[vampire|某种方法]]将力量提升到超出正常水平，也可以利用其对累积伤害的脆弱性。这实际上是唯一一种用杆身攻击比刺击更有效的情况。
+
+早期冒险者的好建议：投掷金币可以被证明是有效的，你可以轻松地从巨像囤积战利品的库存堆中抓一个。
+
+[[File:Utost-sarasti.jpg|thumb|center|400px|Artist rendering of a bronze colossus by Mechlin ([http://www.bay12forums.com/smf/index.php?topic=169691.msg7701761#msg7701761 post])]]
+
+== 雕像 ==
+{{D for Dwarf}}
+青铜巨像死后留下一座自身的杰作青铜雕像，但该雕像仅重495Γ，是巨像生前165,000Γ体重的极小部分。由于这些因素，有理论认为与巨像战斗需要用任何可用的工具慢慢将其雕刻成一个矮小的矮人大小版本，此时它羞愧地承认失败，并同意永远作为你要塞中的装饰品一动不动地站着。
+
+==琐事==
+*在游戏的早期版本中，青铜巨像在战斗中几乎无敌，除了斩首。只有一个这样的壮举在一场史诗般的战斗中被[http://www.bay12forums.com/smf/index.php?topic=56935.0 记录]。因为青铜巨像是游戏中当前{{token|DIFFICULTY}}最高的生物（15点），它确实（根据游戏设定）在挑战性上超过了[[demon|恶魔]]首领本身，也导致它们不会被分配用于任务。
+*复数形式"colossuses"被报告为一个bug{{bug|1953|cat=nocat}}，但被认为是一个可接受的替代形式，并仍然是官方术语。"Colossi"也被广泛使用，不过你不太可能遇到几个，如果能遇到的话。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Megabeasts}}

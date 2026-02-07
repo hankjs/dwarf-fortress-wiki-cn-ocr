@@ -1,8 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_cherry_opal_sprite.png
-|graphic2=rough_cherry_opal_sprite.png
-|wiki=Opal}}{{av}}
+{{gemlookup/0|graphic=cut_cherry_opal_sprite.png|graphic2=rough_cherry_opal_sprite.png|wiki=Opal}}{{av}}
 
 '''樱桃蛋白石'''是装饰品质的[[gem|宝石]]，可以在任何[[stone|石头]]中以小型[[cluster|簇]]的形式找到。
 

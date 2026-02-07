@@ -1,0 +1,13 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill| color      = 3:0| skill      = Critical thinker| profession = Scholar| job name   = | tasks      = * Ponder
+* Discuss
+* Research| attributes =
+*Unknown}}
+{{av}}
+[[File:Thomas Waterman Wood - Thinking It Over - 1919.990 - Cleveland Museum of Art.jpg|thumb|250px|right|"How do cats ''never'' care?"]]'''批判性思考者（Critical thinker）'''是一项[[scholar|学者]]技能。学者在思考历史[[topics|主题]]时使用它。它似乎对[[scholar|学者]]总体来说是一项重要技能，特别是在编写[[book|书籍]]/[[scroll|卷轴]]时。由于矮人在这项技能中[[Learning|升级]]非常缓慢，值得将已经有几级该技能的矮人指派为你的[[scholar|学者]]。
+
+{{DF2014:Topic/table/history}}
+
+{{Skills}}
+{{Category|Scholarship}}

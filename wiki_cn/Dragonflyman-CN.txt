@@ -1,0 +1,18 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=dragonfly_man_sprite.png|portrait=dragonfly_man_portrait.png|contrib=no}}
+{{av}}
+{{new in v0.42}}
+{{creaturedesc}}
+'''蜻蜓人'''是普通[[dragonfly|蜻蜓]]的[[animal people|动物人]]变体,可以在[[savage|野蛮]][[lake|湖泊]]中发现。他们以2-5个个体的群体出现,通常满足于保持独立,但如果被激怒可能会挑起战斗。在体型上,他们的重量略高于普通[[dwarf|矮人]]的一半。所有蜻蜓人天生拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]蜻蜓人的''多面复眼''。
+==冷知识==
+*蜻蜓人使用与[[damselfly man|豆娘人]]完全相同的精灵图。
+[[File:dragonfly_man.jpg|thumb|340px|center|''Art by Radharani Ribas-Valongo'']]
+
+{{Translation| dwarven = måmgoz-fenglel udos | elvish = vutheni-yetine onino | goblin = kusnath-atu ngorûg | human = tamun-ngáthi abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

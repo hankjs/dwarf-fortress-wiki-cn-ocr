@@ -1,0 +1,21 @@
+{{Quality|Fine}}
+{{gemlookup/0|graphic=cut_emerald_sprite.png|graphic2=rough_emerald_sprite.png}}
+{{av}}
+
+'''绿宝石'''(矿物绿柱石的绿色形态)是珍贵的[[gem|宝石]],在[[schist|片岩]]、[[granite|花岗岩]]和[[marble|大理石]]中以小[[cluster|簇]]的形式出现。它们的价值为40,这使它们成为出色的贸易商品或[[decoration|装饰品]]——如果它们出现在地图上,绿宝石往往比[[faint yellow diamond|所有]][[ruby|其他]][[sapphire|同等]]价值的宝石更为丰富;然而,与那些宝石不同,绿宝石簇永远不会包含更有价值的宝石内含物。
+
+由于它们所在的地层,它们通常以小簇的形式紧邻[[magma sea|岩浆海]],只有1或2颗晶体离岩浆足够远,可以被开采。
+
+{{Minorspoiler}}
+像所有珍贵和稀有宝石一样,它们也可能构成[[unusual volcanic wall|异常火山墙]]的一部分。
+
+[[File:Émeraude 1100.1.FS2014.jpg|center|thumb|250px| 一颗绿宝石。]]
+
+{{D for Dwarf}}
+<!-- Reference: Minecraft -->
+据说有些冒险者曾试图将绿宝石作为一种货币使用,尽管大多数店主坚持使用[[coin|硬币]](或简单的以物易物)。
+
+{{Translation| dwarven = sedur| elvish  = thofala| goblin  = taxasm| human   = hehan}}
+
+{{gamedata}}
+{{gems}}

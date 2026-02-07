@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_almandine_sprite.png
-|graphic2=rough_almandine_sprite.png}}
+{{gemlookup/0|graphic=cut_almandine_sprite.png|graphic2=rough_almandine_sprite.png}}
 {{av}}
 '''铁铝榴石'''是一种半珍贵的[[宝石]]，可在[[变质岩]]、[[闪长岩]]和[[辉长岩]][[地层]]中找到。
 

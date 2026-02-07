@@ -1,0 +1,14 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=flounder_sprite.png|portrait=flounder_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''比目鱼'''(Flounders)是一种水生[[vermin|害虫]],常年生活在[[temperate|温带]][[ocean|海洋]]中,在[[fishery|渔场]][[fish cleaning|清理]]后是现成的[[food|食物]]来源。
+
+一些[[dwarves|矮人]]因为它们的''奇怪眼睛''而[[Preferences|喜欢]]比目鱼。
+
+
+[[File:Flounder camo md.jpg|thumb|center|300px|因其''奇怪眼睛''而受到赞赏。]]
+
+{{gamedata}}
+{{Vermin}}

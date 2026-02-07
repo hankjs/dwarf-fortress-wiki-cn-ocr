@@ -1,0 +1,40 @@
+{{Quality|Exceptional}}
+{{av}}
+此错误消息会暂停游戏并缩放到温暖或潮湿石头所在的位置。
+
+[[File:warm_stone_preview.png|right]]温暖或潮湿的石头可能非常危险,因为它表示附近存在[[magma|岩浆]]或[[water|水]]。然而,石头可能温暖/潮湿是因为岩浆/水在图块旁边、图块正上方或图块正下方 - 而且,大多数时候,''你不知道是哪种情况''。只有当你靠近地表并在已知的[[murky pool|浑浊池塘]]或[[river|河流]]下方发现潮湿石头时,你才会知道。
+
+[[File:Damp Stone Butcher.png|thumb|right|在这种情况下,由于最后一个右下角的图块位于池塘地板下方,屠夫周围的房间挖掘被取消了。池塘是已知的,因为它在地表上。请注意,可以在上层潮湿的粘土图块下方挖掘。]]最安全的做法是后退几个图块,向上挖一个[[z-level|z层]],然后再次接近该位置。重复此操作,直到你出现在岩浆/水的表面上方。请注意,向上挖楼梯时不会收到警告。如果你计划向更高的z层挖楼梯,请确保你的路上没有大量[[aquifer|含水层]]或[[magma|岩浆]]!
+
+ 侧面图:
+
+    图块下方      图块旁边     图块上方            图例
+
+      #######     #######      #######          # 未开采的石头
+  ↑   __o<font color="blue"><b>#</b></font><font color="red">#</font>##     ###<font color="red">##</font>##      ###<font color="red">##</font>##          <font color="red">#</font> 温暖的石头
+  z   ##<font color="red">#~~#</font>#     _o<font color="blue"><b>#</b></font><font color="red">~~#</font>#      ##<font color="red">#~~#</font>#          <font color="blue"><b>#</b></font> 刚被取消的方块
+ 轴   ##<font color="red">#~~#</font>#     ##<font color="red">#~~#</font>#      ##<font color="red">#~~#</font>#          <font color="red">~</font> 岩浆
+  ↓   ###<font color="red">##</font>##     ###<font color="red">##</font>##      __o<font color="blue"><b>#</b></font><font color="red">#</font>##          _ 隧道地板
+      #######     #######      #######          o 矿工
+
+只有在中间的情况下,挖出刚刚被取消的方块才是不安全的:在第一种和最后一种情况下,你的矿工和流体之间会有一层地板。
+
+如果潮湿的石头是由于含水层,潮湿石头旁边的空图块将充满水,轻含水层会缓慢充满,或快速充满。
+
+可以在[[settings|设置]]中更改公告以添加重新定位和暂停,或者通过编辑[[announcements.txt]]。
+
+如果你安装了[[DFHack]],你将可以选择启用"潮湿挖掘"或"温暖挖掘"模式。如果你不想取消挖掘指定,例如在轻含水层中挖掘矿物时,可以在指定挖掘图块时启用适当的模式。单击工具栏图标以设置所需模式。
+
+[[File:Dfhack damp dig.png|thumb|启用DFHack潮湿挖掘的挖掘工具栏]]
+
+在此截图中,上行在没有任何特殊模式的情况下指定。第二行在启用潮湿挖掘的情况下指定。第三行在启用温暖挖掘的情况下指定。第四行在同时启用潮湿和温暖挖掘模式的情况下指定。
+
+在ASCII模式下,在温暖和/或潮湿挖掘模式下指定的图块将以适当的颜色闪烁。
+
+还有一些选项可以追溯地为z层上的现有指定启用潮湿或温暖挖掘模式。
+
+{{Errors FAQ}}
+{{Water FAQ}}
+{{Magma FAQ}}
+{{Category|Errors}}{{Category|Designations}}
+[[ru:Digging designation canceled]]

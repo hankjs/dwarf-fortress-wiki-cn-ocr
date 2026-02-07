@@ -1,8 +1,6 @@
 {{Quality|Fine}}
 {{av}}
-{{Creaturelookup/0
-|image=adder_man_sprite.png
-|portrait=adder_man_portrait.png}}
+{{Creaturelookup/0|image=adder_man_sprite.png|portrait=adder_man_portrait.png}}
 {{creaturedesc}}
 '''蝰蛇人（Adder men）'''是常见[[adder|蝰蛇]]的[[animal people|动物人]]变体，可以栖息在许多[[savage|野蛮]][[temperate|温带]]地区。它们以1-5个个体的群体出现，保留了基础毒蛇的毒咬，[[syndrome|综合征]]效果为：短期内强烈疼痛，长期内肿胀、水泡和恶心。因此，不建议你在没有多个远程武器和/或一整套[[armor|护甲]]的情况下，使用这些看似弱小的生物作为军事练习目标；如果你的[[dwarf|矮人]]因疼痛而无法战斗，他们很可能被他们的攻击者撕裂。不用说，除非有准备，否则避免激怒它们。就体型而言，它们略超过平均矮人体重的一半。
 

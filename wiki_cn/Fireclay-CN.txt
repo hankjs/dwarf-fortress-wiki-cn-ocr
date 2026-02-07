@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{soillookup/0|graphic=fire_clay_sprite.png}}
+{{av}}
+
+'''耐火黏土'''是可以在[[soil layer|土壤层]]中找到的众多[[soil|土壤]]类型之一。耐火黏土中从不存在[[Aquifer|含水层]]。
+
+耐火黏土是一种特殊的[[clay|黏土]],用于生产[[stoneware|缸器]],无需上釉即可储存液体。
+
+[[File:fire_clay.png|thumb|250px|center|耐火黏土]]
+
+{{gamedata}}
+
+{{DF2014 soil}}

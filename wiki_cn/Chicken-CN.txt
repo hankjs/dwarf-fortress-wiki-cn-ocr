@@ -1,16 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=chicken_couple_sprites_anim.gif
-|portrait=chicken_portrait_anim.gif
-|bone=0-4
-|meat=2-6
-|fat=2-6
-|intestine=1
-|skull=1
-|skin=hide
-|wiki=yes
-|contrib=no
-}}
+{{Creaturelookup/0|image=chicken_couple_sprites_anim.gif|portrait=chicken_portrait_anim.gif|bone=0-4|meat=2-6|fat=2-6|intestine=1|skull=1|skin=hide|wiki=yes|contrib=no}}
 {{av}}
 {{creaturedesc}}
 

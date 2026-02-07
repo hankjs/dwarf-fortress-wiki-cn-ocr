@@ -1,8 +1,5 @@
 {{Quality|Exceptional}}
-{{Treelookup/0
-|graphic=apple_trunk_sprite.png
-|product=apple_sprite.png
-|sapling=apple_sapling.png}}
+{{Treelookup/0|graphic=apple_trunk_sprite.png|product=apple_sprite.png|sapling=apple_sapling.png}}
 {{av}}
 
 '''苹果'''是地面上发现的许多[[tree]]属之一。像大多数树木一样，苹果[[wood]]是棕色的，生产棕色产品。
@@ -16,12 +13,7 @@
 
 [[File:Apfelbaum Winterrambour Hochstamm.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
 
-{{Translation
-| dwarven = bemòng
-| elvish  = fena
-| goblin  = slusna
-| human   = ramet
-}}
+{{Translation| dwarven = bemòng| elvish  = fena| goblin  = slusna| human   = ramet}}
 
 
 {{D for Dwarf}}

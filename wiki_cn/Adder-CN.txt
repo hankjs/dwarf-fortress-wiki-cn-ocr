@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=adder_sprites.png
-|portrait=adder_portrait_anim.gif
-|wiki=Vipera_berus
-|skull=1
-|contrib=no
-}}
+{{Creaturelookup/0|image=adder_sprites.png|portrait=adder_portrait_anim.gif|wiki=Vipera_berus|skull=1|contrib=no}}
 {{av}}
 :''有关与数字加法相关的逻辑设计，请参见[[Adder (Computing)]]。''
 {{creaturedesc}}

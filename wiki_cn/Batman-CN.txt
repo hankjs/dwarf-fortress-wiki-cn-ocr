@@ -1,11 +1,5 @@
 {{Quality|Superior}}
-{{Creaturelookup/0
-|image=bat_man_sprite.png
-|portrait=bat_man_portrait.png
-|wiki=no
-|contrib=no
-|death=nobutcher
-}}
+{{Creaturelookup/0|image=bat_man_sprite.png|portrait=bat_man_portrait.png|wiki=no|contrib=no|death=nobutcher}}
 {{av}}
 {{creaturedesc}}
 
@@ -44,8 +38,7 @@ Urist McGordon：因为我们必须追他。
 
 Urist McGordon Jr.：他没做错什么。
 
-Urist McGordon：因为他是我们要塞应得的英雄，但不是它现在需要的英雄。所以我们会追捕他。因为他能承受。因为他不是我们的英雄。他是一个沉默的守护者，一个警惕的保护者。一个黑暗的[[champion|冠军]]。
-}}
+Urist McGordon：因为他是我们要塞应得的英雄，但不是它现在需要的英雄。所以我们会追捕他。因为他能承受。因为他不是我们的英雄。他是一个沉默的守护者，一个警惕的保护者。一个黑暗的[[champion|冠军]]。}}
 
 现在你将知道为什么你害怕黑夜。
 

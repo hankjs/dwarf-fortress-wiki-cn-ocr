@@ -1,0 +1,24 @@
+{{Quality|Exceptional}}
+{{av}}
+
+'''经济[[stone|石料]]'''具有特殊用途,可作为[[ore|矿石]]、[[fuel|燃料]]、[[flux|助熔剂]]、[[plaster|石膏]]或其他用途,如制作特殊物品。从技术角度来说,经济石料是指任何可以在任何形式的[[reaction|反应]]中用作试剂的石料。[[Obsidian|黑曜石]]是一个例外,尽管它没有在任何反应中使用,但仍被归为经济石料——它的特点是足够锋利,可以用来制作剑。
+
+你可以使用{{menu icon|y}}: '''<tt>劳动菜单</tt>, <tt>石料使用</tt>'''标签来限制或取消限制它们在物品和建筑生产中的使用。如果你想将经济石料用于列出用途以外的其他用途,该石料必须在该菜单中有一个''绿色''勾选标记。这在制作[[native aluminum|天然铝]][[statue|雕像]]时至关重要,或者防止你的[[mason|石匠]]用你所有的[[flux|助熔剂]]石料制作[[furniture|家具]]。
+
+'''<tt>石料使用</tt>'''标签还会显示每种石料可以用于什么——当你想知道如何处理一堆[[tetrahedrite|黝铜矿]]时很有用。
+
+::''这只是非矿石类石料的列表;更多信息请参见[[ore|矿石]]或该特定材料的文章。''
+{| class="wikitable" cellspacing="0" border="1" cellpadding="5"|-
+!图标
+!图形
+!名称
+!发现于
+!用途|-|{{Raw Tile|▓|7:7:1}}|style="text-align:center;"|[[File:Limestone_sprite.png]]|[[Limestone|石灰岩]]|[[Sedimentary|沉积岩]] '''(E)'''|[[Flux|助熔剂]]|-|{{Raw Tile|`|7:7:1}}|style="text-align:center;"|[[File:dolomite_sprite.png]]|[[Dolomite|白云石]]|[[Sedimentary|沉积岩]] '''(E)'''|[[Flux|助熔剂]]|-|{{Raw Tile|░|7:7:1}}|style="text-align:center;"|[[File:chalk_sprite.png]]|[[Chalk|白垩]]|[[Sedimentary|沉积岩]] '''(E)'''|[[Flux|助熔剂]]|-|{{Raw Tile|▓|7:7:1}}|style="text-align:center;"|[[File:marble_sprite.png]]|[[Marble|大理石]]|[[Metamorphic|变质岩]] '''(E)'''|[[Flux|助熔剂]]|-|{{Raw Tile|"|7:7:1}}|style="text-align:center;"|[[File:calcite_sprite.png]]|[[Calcite|方解石]]|[[Limestone|石灰岩]] '''(S)''', [[Marble|大理石]] '''(S)'''|[[Flux|助熔剂]]|-|{{Raw Tile|☼|0:7:1}}|style="text-align:center;"|[[File:bituminous_coal_sprite.png]]|[[Bituminous coal|烟煤]]|[[Sedimentary|沉积岩]] '''(V)'''|[[Fuel|燃料]]|-|{{Raw Tile|*|0:7:1}}|style="text-align:center;"|[[File:lignite_sprite.png]]|[[Lignite|褐煤]]|[[Sedimentary|沉积岩]] '''(V)'''|[[Fuel|燃料]]|-|{{Raw Tile|#|6:7:0}}|style="text-align:center;"|[[File:gypsum_sprite.png]]|[[Gypsum|石膏]]|[[Sedimentary|沉积岩]] '''(L)'''|[[Plaster|灰泥]]|-|{{Raw Tile|^|7:7:1}}|style="text-align:center;"|[[File:alabaster_sprite.png]]|[[Alabaster|雪花石膏]]|[[Gypsum|石膏]] '''(S)'''|[[Plaster|灰泥]]|-|{{Raw Tile|;|7:7:1}}|style="text-align:center;"|[[File:selenite_sprite.png]]|[[Selenite|透石膏]]|[[Gypsum|石膏]] '''(S)'''|[[Plaster|灰泥]]|-|{{Raw Tile|-|7:7:1}}|style="text-align:center;"|[[File:satinspar_sprite.png]]|[[Satinspar|纤维石膏]]|[[Gypsum|石膏]] '''(S)'''|[[Plaster|灰泥]]|-|{{Raw Tile|&#61;|4:7:0}}|style="text-align:center;"|[[File:kaolinite_sprite.png]]|[[Kaolinite|高岭石]]|[[Sedimentary|沉积岩]] '''(L)'''|[[Porcelain|瓷器]]|-|{{Raw Tile|▒|0:7:1}}|style="text-align:center;"|[[File:obsidian_sprite.png]]|[[Obsidian|黑曜石]]|[[Igneous extrusive|喷出岩]] '''(E)'''|锋利刀刃|}
+:'''(E)''' - 形成整个[[layer|岩层]]
+:'''(L)''' - 以大型[[cluster|矿簇]]形式出现
+:'''(V)''' - 以[[vein|矿脉]]形式出现
+:'''(S)''' - 以小型矿簇形式出现
+{{Stones}}
+{{Category|Stone}}
+{{Category|Economic Stone| }}
+[[ru:Economic stone]]

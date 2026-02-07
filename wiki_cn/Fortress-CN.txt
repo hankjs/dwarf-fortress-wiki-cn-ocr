@@ -1,0 +1,65 @@
+{{migrated article}}
+{{Quality|Exceptional}}
+{{av}}
+[[File:Akershus fortress, drawing.jpg|thumb|300px|right|阿克斯胡斯要塞绘图,1899年。]]
+:''你可能在寻找[[Dwarf fortress mode|矮人要塞模式]]。''
+
+[[Dwarf|矮人]]居住在'''要塞'''中([[File:Icon site mountainhome.png]]/{{Raw Tile|Ω|7:0:1}});[[underground|地下]][[site|场所]]综合体,拥有矮人生活所需的所有建筑。在[[dwarf fortress mode|矮人要塞模式]]中,玩家的远征队启程以建造和运营一座要塞。参见[[quickstart guide|快速入门指南]]了解如何建立和维护你的第一座要塞。
+
+== 程序生成的 ==
+[[Dwarf|矮人]][[civilization|文明]]在[[Mountain|山脉]]边缘建造他们的要塞,它们将作为矮人文明领袖的权力中心。它们只占据3×3个本地方块,而[[hillock|小丘]]和[[mountain halls|山厅]]占据更多领土。
+
+你的冒险者可以在[[Adventurer mode|冒险模式]]中访问矮人要塞。
+
+它们由一个由石头或金属方块制成的大型矩形结构组成,一侧有一个三格宽的入口。内部(它是一个有屋顶的结构)将有一个[[trade depot|贸易站]],可能有来自其他文明的商人在周围闲逛,还有一个两层[[tavern|酒馆]],二楼有出租房间。矩形中心将有一个大洞,边缘有螺旋向下的[[ramp|斜坡]]。斜坡井非常深,但沿着它最终会带你经过多个层级,充满房间和通道,类似于[[dungeon|地牢]]但不那么广阔。一些较大的房间将充满[[metalsmith's forge|金属锻炉]],一些较小的房间有随机衣物。
+
+=== 导航 ===
+[[File:Fortress_map_43.png|thumb|300px|从传奇模式导出的典型程序生成要塞地图。中央区域(<span style="color:rgb(100,100,100)">█</span>)和周围外围区域之间的划分很明显,外围区域由生活(<span style="color:rgb(20,50,30)">█</span>)和工业(<span style="color:rgb(250,50,20)">█</span>)区域的"堆栈"组成。]]
+许多玩家发现程序生成的要塞难以导航,因为它们的迷宫式布局。一旦学会它们的规划方式,在要塞中找路就会容易得多。
+
+首先,所有要塞都布置在3×3坐标网格上,每个区域恰好占据九个方块中的一个。地面层的大型结构可用作衡量每个单独方块有多大的标准。在描述的网格中,总是有一个主区域,位于网格的中央方块。中央区域从地面层延伸到岩浆海,由几个大型大厅和走廊组成,集中成几个集群,每个在不同的深度,用于不同的功能。通常,其中一个大厅集群将用于[[stockpile|储物]],一个用作会议区域,而靠近岩浆海的那个通常包含[[magma forge|岩浆动力锻炉]]。地面层的大型结构也算作这个中央区域的一部分,并将始终包含一个向下的斜坡通道和一个[[trade depot|贸易站]]。根据场所的历史,地表区域可能还包含一个[[tavern|酒馆]]和一个[[library|图书馆]]。在地下,中央区域将分支到包含[[bedroom|卧室]]的生活区,以及工业区,可能包含[[forge|锻炉]]、[[mason's workshop|石匠工坊]]、[[carpenter's workshop|木匠工坊]]或[[tanner's shop|制革店]]。那里经常有带雕像的大厅。
+
+[[File:Df_43_05_generatedfortress.PNG|thumb|center|400px|v43.05中生成的要塞内部,工业层(可见石匠工坊、锻炉和木工工坊),带有雕塑花园。卧室和通道在更高层。]]
+
+生成的要塞中的典型卧室有4个方块,其中两个被床和柜子占据(里面有体面的皮甲和不同的衣服),并由1格宽的走廊连接。这些区域总是占据坐标网格中围绕中央方块的八个外围方块。生活和工业区通常堆叠在一起,并通过楼梯连接。此外,生活和工业区总是分隔到不同的楼层,这意味着给定楼层上的外围地图方块将全部是生活区或工业区,而下面的楼层将是相反的。有时,区域可能在没有通往地面层的楼梯的情况下生成。你可以使用快速旅行(T)离开该区域。如果地下隧道连接到要塞,它也将从中央区域可访问。
+
+== 矮人要塞模式 ==
+=== 命名法 ===
+
+要塞以[[Fortress name|特定方式命名]],通常随机分配,但可以在[[embark|启程]]时设置。要塞还根据其人口和经济获得称号,可在[[status|状态]]栏左侧,要塞名称下查看。此外,要塞可能是周围土地君主的家园并获得额外的贵族称号。
+
+[[Immigration|移民]]是人口增长的主要驱动力。每个要塞称号需要一定水平的人口、创造财富和出口财富。这些可以在[[Difficulty#Fortress_rank|设置]]中配置。默认要求如下所列。
+
+某些要塞称号是各种游戏机制所需的,例如,土地持有者的任命''不''与你的要塞等级挂钩;然而,你的要塞必须达到'''城市'''等级,你才有资格召唤你的[[monarch|君主]]。为了达到特定等级,你必须满足人口要求和两个财富要求中的'''一个''',创造的或出口的,可以通过将鼠标悬停在状态栏中的要塞名称上查看。
+
+下面列出的标准是默认值——如果你使用自定义难度设置,将使用那些"经济人口/生产/贸易触发"值。当经济难度设置为困难时,需要五倍的财富才能进入下一阶段。
+
+{| class=wikitable
+! colspan='2' | 要塞称号
+! 人口
+! 创造财富
+! 出口财富
+|- style='background-color:#eee'| style='background-color:#000; padding:2px 6px' | {{Raw Tile|Ω|#555|#000}}| '''前哨站'''| style='text-align:right' | -| -| -
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#777|#000}}| '''村落'''| style='text-align:right' | 20| {{Tooltip|5,000☼|困难难度25,000☼}}| {{Tooltip|500☼|困难难度2,500☼}}
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#999|#000}}| '''乡村'''| style='text-align:right' | 50| {{Tooltip|25,000☼|困难难度125,000☼}}| {{Tooltip|2,500☼|困难难度12,500☼}}
+|- style='background-color:#ddd'| style='background-color:#000;' | {{Raw Tile|Ω|#bbb|#000}}| '''城镇'''| style='text-align:right' | 80| {{Tooltip|100,000☼|困难难度500,000☼}}| {{Tooltip|10,000☼|困难难度50,000☼}}
+|- style='background-color:#eee'| style='background-color:#000;' | {{Raw Tile|Ω|#ddd|#000}}| '''城市'''| style='text-align:right' | 110| {{Tooltip|200,000☼|困难难度1,000,000☼}}| {{Tooltip|20,000☼|困难难度100,000☼}}
+|- style='background-color:#ddd'| style='background-color:#000;| {{Raw Tile|Ω|#fff|#000}}| '''大都市'''| style='text-align:right' | 140| {{Tooltip|300,000☼|困难难度1,500,000☼}}| {{Tooltip|30,000☼|困难难度150,000☼}}|}
+
+{| class=wikitable style='border-spacing: 0 2px'
+! colspan='2' | 贵族称号
+! 描述 |-| style='background-color: #000; padding: 2px 6px;' | {{Dwarf|5:0}}
+! style='text-align: left; background: #fdf;' | 男爵领首府|
+* [[Baron|男爵/女男爵]]之家|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | 伯爵领首府|
+* [[Count|伯爵/女伯爵]]之家|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fdf;' | 公爵领首府|
+* [[Duke|公爵/女公爵]]之家|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | 首都|
+* [[Monarch|国王/女王]]之家
+* 其文明的首都|-| style='background-color: #000;| {{Dwarf|5:0}}
+! style='text-align: left; background: #fef;' | 山脉之家|
+* [[Monarch#Becoming_a_Mountainhome|终局成就]]|}
+
+{{Translation| dwarven = geshud| elvish  = abeco| goblin  = snusp| human   = thrathdad}}
+{{World}}

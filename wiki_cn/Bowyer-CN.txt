@@ -1,0 +1,19 @@
+{{Quality|Exceptional}}
+{{v50_skill| color      = 6:1| graphic    = [[File:bowyer_sprite_icon.png]]| graphicmargin = 107px| skill      = Bowyer| profession = [[Woodworker]]| job name   = [[Crossbow-making]]| tasks      =
+* 制作[[crossbow|弩]]| workshop =
+* [[Bowyer's workshop|制弓作坊]]| attributes =
+* Agility
+* Creativity
+* Spatial Sense
+* Kinesthetic Sense}}
+{{av}}
+
+'''制弓师'''[[skill|技能]]用于在[[bowyer's workshop|制弓作坊]]制作[[wood|木制]]和[[bone|骨制]][[crossbow|弩]]。最高技能为制弩的矮人的[[profession|职业]]为''制弓师''。更高的技能等级会产生[[Item quality|更高平均品质]]的弩。
+
+虽然弩也可以由[[weaponsmith|武器匠]]在[[forge|锻造坊]]用金属制作，但弩射击时造成的伤害取决于武器的品质而非材料。材料只影响矮人在近战中将弩当作临时锤子挥舞时的伤害。
+
+此技能不用于制作[[bolt|弩箭]]，制作弩箭需要[[Wood crafter|木工]]技能（木制弩箭）、[[bone carving|骨雕]]技能（骨制弩箭）或[[weaponsmith|武器锻造]]技能（金属弩箭）。它也'''不'''用于在[[metalsmith's forge|金属匠锻造坊]]制作[[metal|金属]]弩，那同样需要[[weaponsmithing|武器锻造]]技能。
+
+虽然通常只能制作弩，但经历[[strange mood|奇异心情]]的制弓师有机会创造一把[[Legendary artifact|传奇神器]][[blowgun|吹箭筒]]；这是获得吹箭筒的唯一方式，除了从死去的洞穴[[animal people|动物人]]身上搜刮。请注意，奇异心情神器不附带弹药，因此这些吹箭筒实际上无法在战斗中使用。
+
+{{Skills}}

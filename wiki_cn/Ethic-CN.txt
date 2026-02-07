@@ -1,0 +1,49 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{Modding}}
+
+'''伦理'''标签在[[Entity token|实体原始文件]]中使用,用于确定不同文明对各种问题的看法。文明之间的关系基于它们相对于彼此的伦理反应;相似的伦理导致友谊,而冲突的伦理导致敌意。强烈冲突的伦理经常在[[world generation|世界生成]]期间触发[[war|战争]]。(在实践中,这通常会导致[[Elf|精灵]]因杀死植物和制作战利品而向其他所有人宣战,而其他所有人因吞食[[Person|智慧生物]]而向精灵宣战。)
+
+一些伦理也会影响[[fortress mode|要塞模式]]功能,如[[justice|司法]]或[[trading|贸易]]。在[[adventurer mode|冒险者模式]]中,伦理可以影响[[level of conflict|冲突级别]](致命或不留情)。在[[world generation|世界生成]]期间,伦理还会影响实体如何对待其杀戮,例如吞食它们或用它们制作战利品。
+
+== 示例 ==
+在实体的[[raw file|原始文件]]中,伦理显示如下:
+ [ETHIC:LYING:PERSONAL_MATTER]
+
+这意味着实体将把说谎视为个人事务 - 更技术性地说,其LYING伦理的值设置为PERSONAL_MATTER。
+
+== 伦理类型 ==
+{| {{prettytable}}|- bgcolor="#dddddd"
+!标记
+!额外信息|-| {{text anchor|ASSAULT}}| 要塞模式中暴怒公民攻击另一个公民的结果。其他效果未知。|-| {{text anchor|EAT_SAPIENT_KILL}}| 这决定了文明的成员是否有时会吞食被击败的敌方战斗人员。|-| {{text anchor|EAT_SAPIENT_OTHER}}| 这包括文明是否愿意[[butcher|屠宰]]其他智慧生物。注意,任何在现场死亡的智慧生物永远不会被要塞模式中的公民屠宰,如果在冒险模式中屠宰,产品是不可食用和不可使用的。然而,这适用于离线行为(商队将交付由智慧生物制成的产品等)。还要注意,如果一个物品实际上不是来自在现场死亡的智慧生物(例如,它是作为商队或据点的一部分生成的),无论伦理如何,它都是可使用和可食用的。|-| {{text anchor|KILL_ANIMAL}}| JUSTIFIED_IF_EXTREME_REASON、JUSTIFIED_IF_SELF_DEFENSE或从MISGUIDED到UNTHINKABLE(见下文)的任何响应都会导致实体拒绝贸易中的动物产品——即带有[IMPLIES_ANIMAL_KILL]的[[material token|材料]]。商队出售的动物产品将标记为"种植的",这意味着对于他们的伦理是犹太洁食的,例如种植的皮革。|-| {{text anchor|KILL_ENEMY}}| 如果是REQUIRED,所有与整个实体的敌人的致命战斗都会使生物进入[[no quarter|不留情]]模式。|-| {{text anchor|KILL_ENTITY_MEMBER}}| 如果是REQUIRED,所有与同一实体中的敌人的致命战斗都会使生物进入[[no quarter|不留情]]模式。决定实体成员是否以及多久会被谋杀。|-| {{text anchor|KILL_NEUTRAL}}| 如果是REQUIRED,所有与实体中立的敌人的致命战斗都会使生物进入[[no quarter|不留情]]模式,并且生物还会要求陌生人表明身份;它还会大大增加世界生成中的战争侵略性。|-| {{text anchor|KILL_PLANT}}| 这包括文明对木材的立场——从MISGUIDED到UNTHINKABLE(见下文)的任何响应都会导致实体拒绝贸易中的木制物品(除了"种植的"木制物品),并且还禁止他们带来商队[[wagon|货车]]。商队将出售种植的木制物品(如果文明有WOOD_PREF),甚至种植的非木制物品,但精灵拒绝购买(如果文明使用杂项加工木制品)。|-| {{text anchor|LYING}}| 提供虚假证人报告?{{verify}}|-| {{text anchor|MAKE_TROPHY_ANIMAL}}| 这决定了动物杀戮是否会导致拥有战利品的角色。[[Historical figure|历史人物]]可以携带来自被杀死的非智慧生物的皮革、角、象牙、牙齿、毛发、骨头或指甲珠宝到达你的要塞,要塞公民也可能穿上由他们的杀戮制成的[[crafts|工艺品]]。|-| {{text anchor|MAKE_TROPHY_SAME_RACE}}| 这决定了杀死自己种族是否会导致拥有战利品的角色。[[Historical figure|历史人物]]可以携带来自他们种族的皮革、牙齿、毛发、骨头或指甲珠宝到达你的要塞。例如:地精戴着-地精牙齿戒指-。|-| {{text anchor|MAKE_TROPHY_SAPIENT}}| 这决定了杀死其他智慧生物是否会导致拥有战利品的角色 - 如前所述,但关于其他种族,包括INTELLIGENT。|-| {{text anchor|OATH_BREAKING}}| 要塞模式中公民违反贵族命令的结果。其他效果未知。|-| {{text anchor|SLAVERY}}|文明将奴役被击败的敌人并将他们带回他们的据点。还影响你是否可以向商人交易笼中的智慧生物。除了外交之外,更高/更低的值似乎不会影响除了文明是否愿意完全奴役之外的任何事情。{{verify}}|-| {{text anchor|THEFT}}| 这决定了文明是否会试图偷窃物品以及它如何在被偷时回应。{{verify}}|-| {{text anchor|TORTURE_ANIMALS}}|决定文明是否会杀死被征服据点的所有动物,或保留它们以供进一步使用。|-| {{text anchor|TORTURE_AS_EXAMPLE}}|文明有时会在击败敌方防御者后处决非战斗人员。|-| {{text anchor|TORTURE_FOR_FUN}}||-| {{text anchor|TORTURE_FOR_INFORMATION}}||-| {{text anchor|TREASON}}| 保护职位持有者免于像其他人一样被谋杀——这是地精的恶魔霸主能够活几个世纪的原因,尽管地精认为互相杀害是个人事务。|-| {{text anchor|TRESPASSING}}| 忽略地洞限制{{verify}}|-| {{text anchor|VANDALISM}}| 要塞模式中暴怒公民破坏家具的结果。其他效果未知。|}
+
+==伦理价值==
+内部使用(见下文),大致按可接受性顺序:
+
+{| {{prettytable}}|- bgcolor="#dddddd"
+! 数字 !! 标记|-| 0 || {{text anchor|NOT_APPLICABLE}}|-| 1 || {{text anchor|ACCEPTABLE}}|-| 2 || {{text anchor|PERSONAL_MATTER}}|-| 3 || {{text anchor|JUSTIFIED_IF_NO_REPERCUSSIONS}}|-| 4 || {{text anchor|JUSTIFIED_IF_GOOD_REASON}}|-| 5 || {{text anchor|JUSTIFIED_IF_EXTREME_REASON}}|-| 6 || {{text anchor|JUSTIFIED_IF_SELF_DEFENSE}}|-| 7 || {{text anchor|ONLY_IF_SANCTIONED}}|-| 8 || {{text anchor|MISGUIDED}}|-| 9 || {{text anchor|SHUN}}|-| 10 || {{text anchor|APPALLING}}|-| 11 || {{text anchor|PUNISH_REPRIMAND}}|-| 12 || {{text anchor|PUNISH_SERIOUS}} || 将导致殴打或一个月监禁。参见:[[Justice#Punishments|司法#惩罚]]|-| 13 || {{text anchor|PUNISH_EXILE}} || 历史中提到:"...在刑事定罪后被流放。"|-| 14 || {{text anchor|PUNISH_CAPITAL}} || 将导致8个月监禁或50次锤击。参见:[[Justice#Punishments|司法#惩罚]]|-| 15 || {{text anchor|UNTHINKABLE}}|-| 16 || {{text anchor|REQUIRED}}|}
+
+==伦理价值数字相互之间的关系==
+下表描述了实体如何回应其他文化,观察者在垂直轴上,目标在水平轴上。
+如果一个实体对另一个实体积累的敌意超过某个阈值(由统治者的个性决定),那么它将进行风险评估检查。如果通过,这将导致宣战。
+
+一般来说,实体对违反''他们的''禁忌的行为的反应要强烈得多,而不是对在其他文明中禁止他们的习俗的反应。
+例如,文明A认为奴隶制是可接受的,但文明B认为这是极刑罪。
+* 文明A会认为文明B最不合理(-5),因为在这样的小事上处决人。
+* 文明B会对文明A从事如此堕落的活动感到震惊和厌恶(-15)。
+* 最终结果是相互的负面情绪。然而,文明B的冒犯程度是3倍''更多'',并且更有可能因此问题而开战——当然,假设他们认为他们有机会获胜。
+
+[表格内容已省略以节省空间]
+
+所有上述信息都是从Toady本人在[http://www.bay12forums.com/smf/index.php?topic=22151.msg239689]给出的数据中收集和解释的。
+
+== 原版文明的伦理观 ==
+[[Animal people|动物人]]目前具有与[[kobold|狗头人]]相同的伦理观。
+
+[详细的文明伦理观对比表已在Entitytoken-CN.txt中提供]
+
+{{Category|Modding}}
+{{Category|Tokens}}
+{{Template:V50 entities}}
+[[ru:Ethic]]

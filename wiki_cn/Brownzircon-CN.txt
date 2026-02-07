@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{gemlookup/0
-|graphic=cut_brown_zircon_sprite.png
-|graphic2=rough_brown_zircon_sprite.png}}
+{{gemlookup/0|graphic=cut_brown_zircon_sprite.png|graphic2=rough_brown_zircon_sprite.png}}
 {{av}}
 
 '''褐锆石'''是在所有[[igneous|火成岩]]和[[metamorphic|变质岩]]层中以小簇形式发现的褐色半宝石[[gems|宝石]]。在锆石中，它们具有典型的[[material value|材料价值]]；只有[[clear zircon|透明锆石]]的价值更高。

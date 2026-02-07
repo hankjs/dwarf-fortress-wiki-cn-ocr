@@ -1,7 +1,5 @@
 {{Quality|Fine}}
-{{Creaturelookup/0
-|image=beaver man premium sprite.png
-|portrait=beaver_man_portrait.png}}
+{{Creaturelookup/0|image=beaver man premium sprite.png|portrait=beaver_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

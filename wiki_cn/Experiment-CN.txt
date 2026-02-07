@@ -1,0 +1,154 @@
+{{Quality|Superior|17:50, 27 February 2023 (CST)}}
+{{av}}
+
+[[File:experiment_sprite_preview.png|right]]'''实验体''' {{Tile|A|4:1}}-{{Tile|Z|2:1}} 是程序生成的[[night creature|夜行生物]]，由[[necromancer|死灵法师]]或某些对被俘公民和牲畜进行实验的[[demon|地精领袖]]"创造"。它们可以在[[Advanced_world_generation#Allow_Divination.2C_Experiments.2C_and_Necromancy_types|高级世界生成]]中被禁用。
+
+图形上，非智能实验体使用的精灵图将是具有随机颜色的随机生成生物，类似于它们被赋予的生成外观。智能实验体根据其生成的外观被赋予自己独特的类人精灵图。
+
+==特征==
+{{imagefix|[[File:experiment_portrait_anim.gif|left]]|7|0}}[[File:Experiment janus.jpg|thumb|200px|可怕的实验是失败还是成功？<br><small>''Art by JimmyNijs''</small>]]实验体物种是死灵法师或恶魔对人或动物进行可怕实验的结果。
+
+实验体（''除初始对象外''）能够通过正常方式繁殖，假设它们有雄性和雌性等级。
+
+有失败和成功的实验，后者根据源材料有多种形式。每个实验者可能创造多达四个实验体物种：一个（有智慧的）类人生物，一个具有4条或更多腿的小型和一个大型生物类型，以及一个巨型融合体。{{cite forum|169696/8020553}} 巨型融合体是从多个生物创造的，而不仅仅是一个，并且如其名称所示，非常大。失败的实验通常以团块、蛇和蠕虫的形式出现，或者有翅膀或无翅膀的无臂双足生物。实验体的物种，甚至一般形状（除类人生物外）通常不会在实验之间保留（例如：对羊的可怕实验可能导致蛆形生物）。
+
+实验体有时会逃到野外，智能的实验体可以重新加入文明——在后一种情况下，它们可能成为冒险者模式中可玩的种族选项——实际上，你可以取消退役死亡并随后复活为死灵法师实验体的冒险者，他们的关系将被保留。否则，在[[Tower (necromancy)|死灵法师塔]]找到的实验体将忠于其创造者（遵循"表明身份！"行为，如果你给出不受欢迎的名字就会攻击）。死灵法师塔附近的实验体也可能是[[Undead|复活尸体]]，使它们具有不死生物的免疫力以及其形式可能具有的任何潜在好处。有时可以在[[dark fortress|黑暗要塞]]的监狱中找到实验体[[children|儿童]]，与其他被绑架的儿童在一起；这可能是由于儿童被绑架并转化为实验体儿童，或者繁殖产生儿童，两者都是[[Thief#Goblin_snatchers|绑架]]的有效目标。
+
+尽管形式各异，所有实验体都具有某些统一特征，是不需要任何形式的食物的[[fanciful|奇幻]]生物，具有对[[No Pain|疼痛]]、[[No Exert|疲劳]]、[[No Stun|眩晕]]、恶心、发烧或眩晕的免疫力，并且可以在陆地和[[Water|水下]]生存。它们还可以是[[building destroyer|建筑破坏者]]、[[Trapavoid|不受陷阱影响]]、[[Creature_token#EXTRAVISION|看到一切]]，甚至可能生成分泌提取物的能力，可以引起[[Syndrome|夜病]]，包括飞行能力。
+它们的大小因实验体类型而异，较小的实验体与[[dwarf|矮人]]或[[human|人类]]相当，较大的四足动物大约是[[horse|马]]或[[yak|牦牛]]的大小，融合体几乎与[[giant|巨人]]一样大。所有实验体似乎都与畸形和夜晚的[[sphere|领域]]相关。
+
+与其他夜行生物不同，实验体由常规字母表字母表示，大小写表示大小。成功的智能实验体是红色的，而失败的创造和任何其他（四足动物、融合体等）是绿色的。实验者的名字将始终包含在他们的描述中，赞扬他们的创造并告诉[[Calendar|日期]]他们被创造，即使你扮演冒险者实验体。
+
+实验体可能罕见地佩戴戒指等物品。由于其超自然本质，它们不能成为[[vampire|吸血鬼]]、[[werebeast|兽人]]或[[necromancer|死灵法师]]。它们的名字似乎基于创造者、创造地点、神灵（可能与死亡或畸形相关）或只是一个通用的、威胁性的名字。例如"Obler's Hand"、"Severesuppers's Eye"、"Demon of Night"、"Xakedkicu's Mistake"等。
+
+'''有智慧实验体的名词是：恶魔、之眼、之拳、之手、战士和勇士。'''
+
+矮人永远不会对实验体有（未修改的）[[preference|偏好]]，因为它们没有{{token|PREFSTRING}}。它们有一个未使用的[[pet|宠物]]价值2,000。
+
+{{D for Dwarf}}
+融合体以[[potato|马铃薯]]片的气味而闻名。
+
+死灵法师有时会抚摸他们可怕的失败实验。
+
+==琐事==
+*某些实验体的身体构成可能使冒险模式游戏极其困难。例如，实验体可能不断分泌沸腾的蒸汽，使自己和附近的每个人都陷入蒸汽云中，这反过来导致附近每个人陷入蒸汽云的不断消息垃圾邮件，使游戏几乎不可能进行。
+
+{| {{listboxformat|class=gamedata}}
+!colspan="2" style="border: 1px solid #72A329; font-weight:bold; background-color: #bd8; padding-left: 1em; padding-right: 1em; width:100%; display:table-cell" | 示例原始数据（从world.dat提取）|- style="text-align: left; display:table-cell; "| <div style="overflow:auto; max-width:800px"><span class="gamedata-content" style="font-family: monospace; font-size:1.25em; white-space:pre;">[OBJECT:CREATURE]
+
+[CREATURE:HFEXP47672 E_HUMG_1]
+	[NAME:hulk of Kortulon:hulks of Kortulon:hulk of Kortulon]
+	[CASTE_NAME:hulk of Kortulon:hulks of Kortulon:hulk of Kortulon]
+	[GENERATED]
+	[SOURCE_HFID:47672]
+	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
+	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+	[NO_DRINK]
+	[NO_EAT]
+	[NO_SLEEP]
+	[LARGE_PREDATOR]
+	[NIGHT_CREATURE]
+	[SUPERNATURAL]
+	[FANCIFUL]
+	[CASTE:FEMALE]
+		[FEMALE]
+	[CASTE:MALE]
+		[MALE]
+	[SELECT_CASTE:ALL]
+	[BIOME:ANY_LAND]
+	[AMPHIBIOUS]
+	[PETVALUE:2000]
+	[GRASSTRAMPLE:20]
+	[BUILDINGDESTROYER:2]
+	[ALL_ACTIVE]
+	[SWIMS_INNATE]
+	[TRAPAVOID]
+	[NOPAIN]
+	[NOSTUN]
+	[NONAUSEA]
+	[NOFEAR]
+	[NOEXERT]
+	[NO_DIZZINESS]
+	[NO_FEVERS]
+	[LARGE_PREDATOR]
+	[SPHERE:DEFORMITY]
+	[SPHERE:NIGHT]
+	[BODY_SIZE:0:0:8700000]
+	[CREATURE_TILE:72]
+	[BODY:RCP_UPPER_BODY:RCP_LOWER_BODY:RCP_NECK:RCP_HEAD:RCP_TWO_PART_ARMS:RCP_TWO_PART_LEGS:RCP_ANTENNAE:RCP_HEART:RCP_GUTS:RCP_BRAIN:RCP_MOUTH]
+	[CANOPENDOORS]
+	[EQUIPS]
+	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
+		[REMOVE_MATERIAL:HAIR]
+	[USE_MATERIAL_TEMPLATE:FEATHER:FEATHER_TEMPLATE]
+	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
+		[REMOVE_TISSUE:HAIR]
+	[USE_TISSUE_TEMPLATE:FEATHER:FEATHER_TEMPLATE]
+	[BODY_DETAIL_PLAN:EXOSKELETON_TISSUE_LAYERS:SKIN:FAT:MUSCLE]
+	[HAS_NERVES]
+	[EXTRAVISION]
+	[HOMEOTHERM:10040]
+	[BODY_DETAIL_PLAN:BODY_FEATHER_TISSUE_LAYERS:FEATHER]
+	[SELECT_MATERIAL:FEATHER]
+		[STATE_COLOR:ALL_SOLID:BLACK]
+	[NO_UNIT_TYPE_COLOR]
+	[COLOR:2:0:1]
+	[SELECT_TISSUE_LAYER:HEART:BY_CATEGORY:HEART]
+	[PLUS_TISSUE_LAYER:SCALE:BY_CATEGORY:THROAT]
+	[TL_MAJOR_ARTERIES]
+	[USE_MATERIAL_TEMPLATE:ICHOR:ICHOR_TEMPLATE]
+	[BLOOD:LOCAL_CREATURE_MAT:ICHOR:LIQUID]
+	[CREATURE_CLASS:GENERAL_POISON]
+	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
+		[ATTACK_SKILL:GRASP_STRIKE]
+		[ATTACK_VERB:punch:punches]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PREPARE_AND_RECOVER:2:2]
+		[ATTACK_FLAG_WITH]
+		[ATTACK_PRIORITY:MAIN]
+	[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
+		[ATTACK_SKILL:STANCE_STRIKE]
+		[ATTACK_VERB:kick:kicks]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PREPARE_AND_RECOVER:2:2]
+		[ATTACK_FLAG_WITH]
+		[ATTACK_PRIORITY:MAIN]
+		[ATTACK_FLAG_BAD_MULTIATTACK]
+	[ATTACK:BITE:BODYPART:BY_CATEGORY:MOUTH]
+		[ATTACK_SKILL:BITE]
+		[ATTACK_VERB:bite:bites]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PREPARE_AND_RECOVER:2:2]
+		[ATTACK_PRIORITY:MAIN]
+		[ATTACK_FLAG_CANLATCH]
+	[GAIT:SWIM:Maximum Swim Speed:725:10:3:2175:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+	[GAIT:SWIM:Faster Swim:1450:5:3:2175:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+	[GAIT:SWIM:Fast Swim:2175:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+	[GAIT:SWIM:Swim:2900:NO_BUILD_UP:0]
+	[GAIT:SWIM:Slow Swim:3900:NO_BUILD_UP:0]
+	[GAIT:SWIM:Creeping Swim:5900:NO_BUILD_UP:0]
+	[GAIT:WALK:Sprint:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+	[GAIT:WALK:Run:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+	[GAIT:WALK:Jog:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+	[GAIT:WALK:Walk:900:NO_BUILD_UP:0]
+	[GAIT:WALK:Stroll:1900:NO_BUILD_UP:0]
+	[GAIT:WALK:Creep:2900:NO_BUILD_UP:0]
+	[GAIT:CRAWL:Scramble:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+	[GAIT:CRAWL:Faster Crawl:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+	[GAIT:CRAWL:Fast Crawl:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+	[GAIT:CRAWL:Crawl:900:NO_BUILD_UP:0]
+	[GAIT:CRAWL:Slow Crawl:1900:NO_BUILD_UP:0]
+	[GAIT:CRAWL:Creep:2900:NO_BUILD_UP:0]
+	[GAIT:CLIMB:Scramble:225:10:3:675:50:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:50]
+	[GAIT:CLIMB:Faster Climb:450:5:3:675:10:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:20]
+	[GAIT:CLIMB:Fast Climb:675:NO_BUILD_UP:5:LAYERS_SLOW:STRENGTH:AGILITY:STEALTH_SLOWS:10]
+	[GAIT:CLIMB:Climb:900:NO_BUILD_UP:0]
+	[GAIT:CLIMB:Slow Climb:1900:NO_BUILD_UP:0]
+	[GAIT:CLIMB:Creep:2900:NO_BUILD_UP:0]
+	[DESCRIPTION:A great feathered humanoid.  It has a pair of long antennae.  Its black feathers are fluffed-out.  This night creature was first created by the dwarven dark stalker Momuz Rawnesscastle of Shockcrafts after horrible experiments on multitudes in Cavernroads in the year 1887.]
+
+[其余原始数据省略以节省空间...]
+</span></div>|-|}
+
+{{Creatures}}
+[[ru:Experiment]]

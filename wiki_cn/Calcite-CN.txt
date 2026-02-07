@@ -1,0 +1,16 @@
+{{Quality|Superior}}
+{{stonelookup/0|graphic=calcite_sprite.png}}
+{{av}}
+'''方解石'''是一种[[flux|助熔]]石；然而，它并不特别特殊，因为它只能在[[limestone|石灰岩]]和[[marble|大理石]]中发现，而这两者''也''是助熔石。它唯一的特征是它是一种[[magma-safe|岩浆安全]]岩石。
+
+==现实生活中==
+
+方解石是碳酸钙(CaCO<sub>3</sub>)的结晶形式。方解石极为常见，形成多种类型的岩石，如[[limestone|石灰岩]]、[[marble|大理石]]和[[chalk|白垩]]，它也已知在某些[[sandstone|砂岩]]和[[siltstone|粉砂岩]]中形成水泥。方解石以及其他碳酸钙的结晶形式如文石（在''矮人要塞''中不存在）是可以食用的（尽管不容易咀嚼，而且不太可口），并且可以在缺钙的饮食中用作钙的补充来源。
+
+<gallery>
+File:Calcite_(Mexique)_2.JPG|A sample of Calcite
+</gallery>
+
+{{gamedata}}
+{{stones}}
+{{Category|Economic Stone}}

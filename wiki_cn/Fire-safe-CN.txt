@@ -1,0 +1,11 @@
+{{Quality|Superior}}
+{{av}}
+{{Material properties}}
+'''防火材料'''是指不会被[[fire|火焰]]损坏的材料。这些材料包括[[glass|玻璃]]、''大多数''（但不是全部！）[[stone|石头]]，以及''大多数''[[metal|金属]]（除了[[bismuth|铋]]、[[lead|铅]]、[[tin|锡]]、[[zinc|锌]]和所有三种锡镴）。[[Nether-cap|地狱菌盖]]是唯一可以承受火焰（甚至[[magma|岩浆]]）的[[wood|木材]]，这要归功于其固定温度，但游戏不认为它是防火建筑材料。违反直觉的是，[[Bituminous coal|烟煤]]、[[lignite|褐煤]]、[[charcoal|木炭]]和[[coke|焦炭]]'''被'''认为是防火的，因为它们只有在足够热时才会着火（见下文）。
+
+对于工作物品要求的目的（例如在自定义[[reaction|反应]]中或构建某些建筑时），只有[[bar|条]]、[[block|块]]、[[stone|石头]]、[[log|原木]]和[[anvil|砧]]可以被分类为"防火材料" - 所有其他物品类型都被直接拒绝。只有当物体将与极热接触时才需要防火材料，例如所有传统[[furnace|熔炉]]和[[metalsmith's forge|锻炉]]。对于这些建筑的岩浆动力版本，以及任何将与岩浆直接接触的东西（例如[[floodgate|水闸]]、[[grate|格栅]]或[[pump|泵]]，但不包括建造的墙壁、地板、防御工事等），防火是不够的：它必须是[[magma-safe|<u>耐岩浆</u>]]的。
+
+就游戏而言，只有在[[temperature|温度]]{{ct|11000}}下稳定的材料（即MELTING_POINT/BOILING_POINT/IGNITE_POINT/HEATDAM_POINT大于11000且COLDDAM_POINT小于11000）才被认为是防火的。尽管这个温度被认为是防火的，实际[[fire|火焰]]可以产生显著更高的温度 - 特别是，所有燃烧物品产生的温度比其材料的着火点高200度，所以一旦"防火"物品设法被点燃（例如通过暴露在[[magma|岩浆]]中），它可以很容易地进一步传播。出于实际目的，任何具有IGNITE_POINT的东西都应该被视为不防火。
+
+{{Category|Materials}}
+{{Category|Physics}}

@@ -1,16 +1,5 @@
 {{Quality|Fine}}
-{{creaturelookup/0
-|image=eagle_couple_sprite.png
-|portrait=eagle_portrait_anim.gif
-|bone=6
-|meat=8
-|fat=8
-|skull=1
-|intestine=1
-|skin=hide
-|contrib=no
-|wiki=yes
-}}
+{{creaturelookup/0|image=eagle_couple_sprite.png|portrait=eagle_portrait_anim.gif|bone=6|meat=8|fat=8|skull=1|intestine=1|skin=hide|contrib=no|wiki=yes}}
 {{av}}
 {{creaturedesc}}
 
@@ -22,12 +11,7 @@
 
 [[Image:Adalberti_1.jpg|thumb|center|400px|因其''高飞翱翔''而受到赞赏。]]
 
-{{Translation
-| dwarven = lorsïth
-| elvish  = osime
-| goblin  = kedusm
-| human   = ica
-}}
+{{Translation| dwarven = lorsïth| elvish  = osime| goblin  = kedusm| human   = ica}}
 
 {{gamedata}}
 {{creatures}}

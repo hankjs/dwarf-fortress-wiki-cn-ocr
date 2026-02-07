@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{av}}
+{{file|prefs/colors.txt}}
+'''colors.txt'''文件定义DF使用的[[color scheme|配色方案]],采用标准RGB颜色代码。默认设置可以在``data/init/colors.txt``找到,可以通过在``prefs/colors.txt``手动放置你自己的文件来更改{{version|52.02}};``prefs``[[Game folders and files|文件夹]]的位置取决于[[Settings#Portable mode|便携模式设置]](那里也有一个``data``文件夹,但如果你在那里放置``data/init/colors.txt``它将不会被读取)。对这些文件所做的更改在下次运行''矮人要塞''时生效,并应用于所有世界。当''矮人要塞''启动时,``data/init/``和``prefs/``中的文件都会被读取,按此顺序,使用为选项读取的最后一个值。
+
+== 默认colors.txt ==
+{{color scheme|black=#000000|dgray=#a0a0a0|blue=#207df1|lblue=#8c66ff|green=#a2dc34|lgreen=#13fd65|cyan=#71bbb0|lcyan=#12fecf|red=#ff113a|lred=#ff7111|magenta=#a73cd5|lmagenta=#e811ff|brown=#d79b2d|yellow=#ffe111|lgray=#c0c0c0|white=#ffffff}}
+
+== 另见 ==
+* [[Color scheme|配色方案]]示例配色方案
+
+{{files}}
+[[ru:Colors.txt]]

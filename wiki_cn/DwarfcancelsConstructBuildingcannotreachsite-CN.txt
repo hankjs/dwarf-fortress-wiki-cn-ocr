@@ -1,0 +1,11 @@
+{{Quality|Fine}}
+{{av}}
+{{DFtext|Dwarf cancels Construct Building: Cannot reach site.}}
+
+如果[[dwarf|矮人]]无法找到通往[[construction|建筑]]工地的有效路径,将显示此错误消息。你可能需要检查工地是否以某种方式被阻挡,例如在无法到达的z层上、跨越[[water|水域]]或被[[wall|墙壁]]或建筑物阻挡。升起或收回[[bridge|桥梁]]可能导致许多这样的消息。或者,生成消息的矮人可能自己被困住了。确保他们没有把自己围在墙里或以其他方式被困住。
+
+如果矮人拒绝在对角走廊中移动阻挡物体,也可能出现此错误。你可以手动命令移动该物体,然后完成建筑 - 这种行为大概是一个漏洞。{{bug|8879}}
+
+{{Errors FAQ}}
+{{Category|Errors}}
+[[ru:Dwarf cancels Construct Building: cannot reach site]]

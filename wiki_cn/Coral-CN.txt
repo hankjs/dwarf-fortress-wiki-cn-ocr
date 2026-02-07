@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{av}}
+
+'''珊瑚'''是一种由珊瑚死亡遗骸组成的[[material|材料]],珊瑚是尚未在游戏中实现的生物。虽然珊瑚作为材料自第一个版本以来就存在于''矮人要塞''中,但它从未在游戏中发挥作用,因为你的矮人无法生产它(尽管[[furniture|家具]]和[[finished goods|成品]][[stockpile|储存区]]在"其他材料"列表中包含珊瑚)。具有{{token|OCEAN_PRODUCTS|e}}(并且靠近适当海洋)的文明可以访问这种材料并可以将其制成工艺品,尽管矮人无法自己使用这种材料。
+
+因此,对这种材料或其在游戏中的目的知之甚少,尽管未来可能仍会实现用途。[[Titan|泰坦]]、[[forgotten beast|被遗忘的野兽]]和[[demon|恶魔]]偶尔由珊瑚制成,尽管像所有非肉质程序生成的生物一样,这些在被杀死时只会留下珊瑚''碎片'',在游戏中没有用处。
+
+珊瑚是游戏中三种未实现的有机材料之一,其他是[[amber|琥珀]]和[[pearl|珍珠]]。矮人仍然可以对材料有[[preference|偏好]];更烦人的是,[[noble|贵族]]仍然可以发布涉及这些材料的[[demand|要求]]。
+
+[[File:金珊瑚108.JPG|thumb|center|200px|Coral pendant.]]
+
+{{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|CORAL}}}}
+{{materials}}
+
+{{Category|Materials}}
+[[ru:DF2012:Coral]]

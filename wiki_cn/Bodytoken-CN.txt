@@ -1,0 +1,152 @@
+{{Quality|Superior}}
+{{av}}
+{{Modding}}
+
+'''身体标记'''是生物的基本部分之一，决定了它们的身体结构。身体标记有两种主要类型：''身体模板''（BODY）和''身体部位''（BP）。
+
+生物使用{{token|BODY|c}}[[creature token|生物标记]]列出它包含的所有身体模板。然后，每个模板中列出的每个部分都包含在生物中。换句话说：生物列出它由哪些''身体模板''组成，每个''身体模板''包含一组''身体部位''。每个''身体部位''指定它附加到哪个其他身体部位。
+
+身体部位可以特定地连接到另一个身体部位，或一般地连接到某个类别的任何身体部位。这些连接分别由CON和CONTYPE身体部位标记处理。
+
+身体部位可以使用[[bodygloss|身体术语表]]重命名，允许某人重用现有模板，而不是定义一个仅更改身体部位名称的类似模板。
+{{clear}}
+
+{| {{prettytable}}|- bgcolor="#999999"
+! 标记
+! 参数
+! 描述
+|-| {{text anchor|BP}}|
+*ID
+*名称
+*复数名称| 开始定义具有给定ID、名称和复数名称的身体部位。如果复数形式只是添加's'，则可以用'STP'（代表"标准复数"）替换。
+|-| {{text anchor|APERTURE}}| | 将身体部位标记为身体中的开口。如果它是{{token|EMBEDDED|bo}}的，则无法被挖出。
+|-| {{text anchor|BREATHE}}| | 身体部位用于呼吸。如果所有带[BREATHE]的身体部位被损坏或摧毁，生物将窒息，除非它有{{token|NOBREATHE|c}}标签。注意瘀伤算作（快速愈合的）损伤。
+|-| {{text anchor|CATEGORY}}|
+*ID| 将身体部位分配给用户定义的类别。由{{token|CON_CAT|bo}}用于附加到其他身体部位。
+|-| {{text anchor|CON}}|
+*值| 将身体部位连接到特定的其他身体部位。
+|-| {{text anchor|CON_CAT}}|
+*值| 将身体部位连接到具有指定{{token|CATEGORY|bo}}的所有其他身体部位。
+|-| {{text anchor|CONTYPE}}|
+*值| 将身体部位连接到具有指定类型标记的所有其他身体部位。有效值为[[body_token#UPPERBODY|UPPERBODY]]、[[body_token#LOWERBODY|LOWERBODY]]、[[body_token#HEAD|HEAD]]、[[body_token#GRASP|GRASP]]或[[body_token#STANCE|STANCE]]。
+|-| {{text anchor|CIRCULATION}}| | 身体部位负责血液循环。确切效果未知。
+|-| {{text anchor|CONNECTOR}}| | 身体部位用于将其他身体部位连接在一起。用于颈部和下脊柱。
+|-| {{text anchor|DEFAULT_RELSIZE}}|
+*大小| 此命令建立生物内身体部位的相对大小。数字没有绝对意义或单位。
+|-| {{text anchor|DIGIT}}| | 将部位定义为手指/脚趾。是手指/脚趾的身体部位，或将它们作为直接子部位，可以在摔跤控制中执行挖眼攻击。
+|-| {{text anchor|EMBEDDED}}| | 具有此标签的身体部位嵌入在父身体部位的表面上。即：头部上的眼睛和嘴巴。它不能被砍下，不能用来摔跤敌人，也不能被他们抓住。
+|-| {{text anchor|FLIER}}| | 将身体部位标记为飞行所需。对一定数量的FLIER身体部位的损伤将阻止生物飞行。请注意，生物只有在其生物定义中具有{{token|FLIER|c}}标签时才能飞行，并且飞行生物实际上不需要任何FLIER身体部位。此标签的唯一目的是识别在损坏时将导致生物'''失去'''飞行能力的身体部位。
+|-| {{text anchor|GELDABLE}}| | 具有包含此标记的身体部位的生物可能被[[gelder|阉割]]，创造出一个不育的生物，通常标记为{{DFtext|x{{char|11}}x}}。阉割也可能在战斗中发生，如果此身体部位受到足够的损伤。
+尽管名称如此，GELDABLE不需要与[[Creature token#MALE|MALE]]结合使用。具有GELDABLE身体部位的修改[[Creature token#FEMALE|FEMALE]]生物可以通过常规阉割界面或战斗损伤被"阉割"，导致不育生物标记为{{DFtext|x{{char|12}}x}}。
+|-| {{text anchor|GRASP}}| | 生物可以用身体部位挥舞拾取的武器，并可以使用该部位发起几乎所有摔跤动作。当生物生成时带有武器和盾牌时，一个GRASP部位将持有武器，而'''所有其他'''将持有盾牌。需要可抓握的身体部位进行抓握攻击，而抓握攻击又需要开始拳斗。发脾气但缺少具有抓握属性的身体部位的生物将取消他们的拳斗，因为"受伤太重"。
+|-| {{text anchor|GUTS}}| | 身体部位容易受到低位打击。用于内脏。对此身体部位的损伤导致恶心，可能使生物失去回合，无法控制地呕吐。
+|-| {{text anchor|HEAD}}| | 将身体部位标记为能够穿戴头部服装，如帽子、头盔等。如果所有头部都被砍掉，生物死亡。多个头部'''是'''冗余的 - 例如，[[hydra|九头蛇]]可以在缺少几个头部的情况下生存。
+|-| {{text anchor|HEAR}}| | 身体部位用于听觉。可能是身体部位穿戴耳环的要求。
+|-| {{text anchor|INDIVIDUAL_NAME}}|
+*名称
+*复数| 添加个体名称告诉游戏如何称呼[[body_token#NUMBER|NUMBER]]编号身体部位中的每个个体部位。此命令替换例如"第一个上前齿"。
+|-| {{text anchor|INTERNAL}}|| 将身体部位标记为在身体内部。它在身体部位的所有其他组织后面，不能被切断，也不能用于摔跤。它不能在战斗中直接瞄准，但可以被对父身体部位的攻击损坏。
+|-| {{text anchor|JOINT}}| | 身体部位是关节。如果它所在的肢体在摔跤控制中被抓住，可以用弯曲力打断，使父肢体失能。如果关节被修改为位于身体外部，抓住并打断它会立即将整个肢体扯断。
+|-| {{text anchor|LIMB}}| | 身体部位是肢体。它可以用来发起大多数摔跤动作。如果它位于{{token|UPPERBODY|bo}}部位和{{token|GRASP|bo}}身体部位之间，它有资格被某些类型的护甲覆盖（身体护甲和手套）。如果它位于{{token|LOWERBODY|bo}}部位和{{token|STANCE|bo}}身体部位之间，它有资格被其他类型的护甲覆盖（腿部护甲如裤子等；拖尾身体护甲如锁子甲和长袍；以及高靴）。
+|-| {{text anchor|LOWERBODY}}| | 将身体部位标记为能够穿戴下身服装，如裙子、裤子等。如果所有带此标记的部位都被砍掉或捣碎，生物死亡。如果生物有多个带此标记的部位，它们不会死亡，直到所有带此标记的部位都被捣碎或切断。然而，基础游戏中不存在这样的生物。
+|-| {{text anchor|LEFT}}| | 将身体部位标记为在身体左侧并容易受到来自左侧的攻击。与b_detail_plan_default原始文件中的标签结合使用。
+|-| {{text anchor|MOUTH}}| | 身体部位是嘴巴。含义未知。
+|-| {{text anchor|NUMBER}}|
+*值| 数字让你堆叠相同的身体部位。这些可以被伤口单独损坏，但你不必一个一个地明确定义它们。如果你不给它们个体名称（见牙齿），它们将以序数（第一、第二等）开头。但实际上，它们不能被单独损坏 - 如果你打掉一颗牙齿，整个组将一次全部被打掉（并将散布在该区域）。屠宰不尊重这一点，每组只产生一个身体部位。该值上限为32。
+|-| {{text anchor|NERVOUS}}| | 身体部位是神经功能的中心。用于脊柱的部分。损伤使父身体部位及其下方的所有内容失能，在大多数情况下导致窒息死亡。
+|-| {{text anchor|PREVENTS_PARENT_COLLAPSE}}| | 身体部位必须被摧毁才能使附加的父对象被认为是被摧毁的。在头骨和脊柱上发现。
+|-| {{text anchor|RIGHT}}| | 将身体部位标记为在身体右侧并容易受到来自右侧的攻击。与b_detail_plan_default原始文件中的标签结合使用。
+|-| {{text anchor|SKELETON}}| | 身体部位是生物骨架的一部分。
+|-| {{text anchor|STANCE}}| | 允许生物站立。这些身体部位的损伤或丧失将导致生物摔倒 - 一个STANCE部位的丧失可以用拐杖代替。不像{{token|GRASP|bo}}或{{token|LIMB|bo}}那样赋予身体部位发起摔跤动作的能力。
+|-| {{text anchor|SIGHT}}| | 身体部位用于视觉。如果生物没有SIGHT身体部位，或者如果其所有视觉身体部位都被损坏或摧毁，它将无法看见，除非它在其生物定义中有{{token|EXTRAVISION|c}}标签。
+|-| {{text anchor|SMELL}}| | 身体部位用于嗅觉。目前未使用。
+|-| {{text anchor|SMALL}}| | "SMALL意味着该部位不会作为整体显示的身体部位列表的一部分显示，并且无法夹板。它们更经常被用于酷刑（尽管这些情况可能不再发生）。如果它们不是特定的骨架/关节/手指/开口，它们会在骨架中被移除。它们在世界生成决斗中更容易丢失。它们是唯一可挖出/可捏的部位''（注意：至少这不再是这种情况。）''。SMALL是一个旧标签，所以它积累了一些奇怪的功能，这些功能将随着时间的推移被分离出来。" --Toady
+|-| {{text anchor|SOCKET}}| | 身体部位如果折断会脱落并飞出，即使是钝力。用于牙齿使其容易被打掉 - 被{{token|INTERNAL|bo}}无效。
+|-| {{text anchor|THROAT}}| | 身体部位可以被勒死 - 击中头部的咬合攻击有机会改为瞄准此部位。注意：此标签不控制任何出血行为。
+|-| {{text anchor|THOUGHT}}| | 身体的中央核心，与大脑一起使用。损伤导致立即死亡，除非生物有{{token|NO_THOUGHT_CENTER_FOR_MOVEMENT|c}}/{{token|NOTHOUGHT|c}}。{{verify}}
+
+如果没有身体部位具有此标记（并且没有指定上述任何排除项），生物将生成受伤并将无法站立或飞行。如果生物是{{token|FLIER|c}}，这可能导致它在半空中生成，立即坠落到地面，并死于坠落伤害。
+|-| {{text anchor|TOTEMABLE}}| | 此身体部位可以由工匠变成图腾。无论多小，总是从屠宰的生物中掉落。
+|-| {{text anchor|UPPERBODY}}| | 将身体部位标记为能够穿戴上身服装，如外套、胸甲等。如果所有带此标记的部位都被捣碎或砍掉，生物死亡。多个UPPERBODY部位是冗余的，但基础游戏中不存在这样的生物。所有具有身体的默认生物都将上身作为身体树的根，使其无法被砍掉。
+|-| {{text anchor|UNDER_PRESSURE}}| | 使身体部位在被切穿时从身体中弹出 - 用于内脏。身体部位显示为"~"并在溢出时拖在受害者后面。
+|-| {{text anchor|VERMIN_BUTCHER_ITEM}}| | 允许从屠宰或腐烂的害虫中获得物品 - 与[[shell|壳]]一起使用。
+|}
+
+==示例==
+以下示例创建了一个从沿上背部和下背部排列的尖刺基座中突出的尖刺部件排列。这些部件以灵活的方式连接在一起，允许生物定义选择在身体上排列多少个尖刺基座，尖刺基座有多厚，以及从每个单独基座中突出多少尖刺。
+
+{{code|defines spikes that are intended to looking something like this:
+      /\          <-SPIKE
+      <nowiki>||</nowiki>
+     _<nowiki>||</nowiki>_         <-SPIKE_BASE
+____/    \____    <-SPIKE_LAYOUT (flush with existing skin)
+
+
+[BODY:SPIKE_LAYOUT_8]	arranges 8 spikes along the back
+	[BP:UBACK_SPIKE_AREA_UL:left upper back:STP][CONTYPE:UPPERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]	the SPIKE_LAYOUT category marks where our spike bases will grow out of the body later
+		[DEFAULT_RELSIZE:80]
+	[BP:UBACK_SPIKE_AREA_UR:right upper back:STP][CONTYPE:UPPERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:UBACK_SPIKE_AREA_LL:left upper middle back:STP][CONTYPE:UPPERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:UBACK_SPIKE_AREA_LR:right upper middle back:STP][CONTYPE:UPPERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_UL:left lower middle back:STP][CONTYPE:LOWERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_UR:right lower middle back:STP][CONTYPE:LOWERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_LL:left lower back:STP][CONTYPE:LOWERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_LR:right lower back:STP][CONTYPE:LOWERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+
+[BODY:SPIKE_LAYOUT_4]	arranges 4 spikes in the middle of the back
+	[BP:UBACK_SPIKE_AREA_LL:left upper middle back:STP][CONTYPE:UPPERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:UBACK_SPIKE_AREA_LR:right upper middle back:STP][CONTYPE:UPPERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_UL:left lower middle back:STP][CONTYPE:LOWERBODY][EMBEDDED][LEFT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+	[BP:LBACK_SPIKE_AREA_UR:right lower middle back:STP][CONTYPE:LOWERBODY][EMBEDDED][RIGHT][CATEGORY:SPIKE_LAYOUT]
+		[DEFAULT_RELSIZE:80]
+
+
+[BODY:SPIKE_BASE_THIN]	a small base for spike(s)
+	[BP:SB_THIN:thin spike base:STP][CON_CAT:SPIKE_LAYOUT][CATEGORY:SPIKE_BASE]	a SB_THIN will grow out of every SPIKE_LAYOUT part we have added to the body
+		[DEFAULT_RELSIZE:20]
+
+[BODY:SPIKE_BASE_MED]	a medium base for spike(s)
+	[BP:SB_MED:spike base:STP][CON_CAT:SPIKE_LAYOUT][CATEGORY:SPIKE_BASE]	a SB_MED will grow out of every SPIKE_LAYOUT part
+		[DEFAULT_RELSIZE:30]
+
+[BODY:SPIKE_BASE_THICK]	a large base for spike(s)
+	[BP:SB_THICK:thick spike base:STP][CON_CAT:SPIKE_LAYOUT][CATEGORY:SPIKE_BASE]	a SB_THICK will grow out of every SPIKE_LAYOUT part
+		[DEFAULT_RELSIZE:40]
+
+
+[BODY:SPIKE_1]	a single spike
+	[BP:S1:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]	a S1 will grow out of every SPIKE_BASE part we have added to the body
+		[DEFAULT_RELSIZE:30]
+
+[BODY:SPIKE_2]	a pair of spikes
+	[BP:S1:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]	a S1 and S2 will grow out of every SPIKE_BASE part
+		[DEFAULT_RELSIZE:30]
+	[BP:S2:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]
+		[DEFAULT_RELSIZE:30]
+
+[BODY:SPIKE_3]	a trio of spikes
+	[BP:S1:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]	a S1, S2, and S3 will grow out of every SPIKE_BASE part
+		[DEFAULT_RELSIZE:30]
+	[BP:S2:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]
+		[DEFAULT_RELSIZE:30]
+	[BP:S2:spike:STP][CON_CAT:SPIKE_BASE][CATEGORY:SPIKE]
+		[DEFAULT_RELSIZE:30]}}
+使用方法：
+
+``[BODY:QUADRUPED_NECK:SPIKE_LAYOUT_8:SPIKE_BASE_THICK:SPIKE_2]`` 将创建一个具有8个粗尖刺基座的生物，每个基座持有2个尖刺。
+
+``[BODY:QUADRUPED_NECK:SPIKE_LAYOUT_4:SPIKE_BASE_THIN:SPIKE_1]`` 将创建一个具有4个细尖刺基座的生物，每个基座持有一个尖刺。
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Body token]]

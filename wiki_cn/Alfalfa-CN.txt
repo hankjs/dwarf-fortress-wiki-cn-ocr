@@ -1,10 +1,6 @@
 {{Quality|Superior}}
-{{plantlookup
-|graphic=alfalfa_shrub_sprite.png
-|seedimage=alfalfa_seeds_sprite.png
-|uses=
-*[[Food]]
-}}
+{{plantlookup|graphic=alfalfa_shrub_sprite.png|seedimage=alfalfa_seeds_sprite.png|uses=
+*[[Food]]}}
 {{av}}
 
 '''紫花苜蓿'''是一种[[aboveground|地上]][[crop|作物]]。它可以在所有季节种植，叶子可以生吃或[[cooking|烹饪]]后食用，种子可以在烹饪后食用。

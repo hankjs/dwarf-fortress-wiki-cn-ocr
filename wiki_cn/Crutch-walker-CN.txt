@@ -1,0 +1,18 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill| color      = 3:0| skill      = Crutch-walker| specialty  = Peasant| profession = None| job name   = None| tasks      =
+* 自动,在受伤后使用拐杖行走| attributes =
+* Agility
+* Endurance
+* Willpower
+* Spatial Sense
+* Kinesthetic Sense}}
+{{av}}
+
+'''拐杖行走者'''是那些因[[wound|失去]]正常行走能力而使用[[crutch|拐杖]]时使用的[[skill|技能]],减少在地图上移动时的移动惩罚。
+
+拐杖行走者的[[skill|技能等级]]与[[gait|移动]]所受的惩罚相关。随着技能的发展,角色以更接近其步行移动速率的[[gait|速度]]移动,直到达到传奇+5等级,此时持有拐杖时移动速率不再受损。拐杖的质量或类型与结果无关。可以在[[adventure mode|冒险模式]]中通过在任一手中持有拐杖来获得此技能的[[experience|经验]]。
+
+拐杖行走者是要塞[[health care|医疗保健产业]]的自然副产品。
+
+{{skills}}

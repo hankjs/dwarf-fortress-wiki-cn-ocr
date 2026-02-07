@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{verminlookup/0|image=beetle_sprite.png|portrait=beetle_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''甲虫'''是一种不起眼的[[above ground|地面]][[vermin|害虫]]，在任何非[[biome|严寒]]地区都能找到，不能用[[animal trap|动物陷阱]]捕捉。尽管有翅膀，它们不会飞（其原始数据中的注释说这是为了让它们四处爬行）。所有甲虫都拥有传奇级[[skill|技能]]的[[Climber|攀爬]]能力。
+
+一些矮人[[Preferences|喜欢]]甲虫的''保护性外壳''。
+
+{{D for Dwarf}}
+其他一些矮人喜欢甲虫的''音乐''和''廉价''。
+[[File:Vermin-Beetle(red).jpg|thumb|center|400px|Admired for its ''protective shells''.]]
+
+{{Translation| dwarven = ngárak| elvish  = pama| goblin  = strog| human   = agthreb}}
+
+{{gamedata}}
+{{vermin}}

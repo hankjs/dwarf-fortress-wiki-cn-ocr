@@ -11,12 +11,7 @@
 == 冒险模式 ==
 在[[adventure mode|冒险模式]]中，巨石无法交互，其行为类似于任何其他开放地面。
 
-{{Translation
-| dwarven = etur
-| elvish  = saro
-| goblin  = stob
-| human   = mudi
-}}
+{{Translation| dwarven = etur| elvish  = saro| goblin  = stob| human   = mudi}}
 
 {{Category|Map tiles}}
 [[ru:Boulder]]

@@ -1,6 +1,5 @@
 {{Quality|Fine}}
-{{layerlookup/0
-|graphic=basalt_sprite.png}}
+{{layerlookup/0|graphic=basalt_sprite.png}}
 {{av}}
 
 '''玄武岩'''是一种[[magma-safe|防岩浆]]的[[igneous extrusive layer|火成喷出]][[stone|岩石]]，可以形成整个[[stone layers|岩层]]，是唯一包含[[Sunstone|日光石]]的[[igneous extrusive layer|火成喷出]][[stone|岩石]]。

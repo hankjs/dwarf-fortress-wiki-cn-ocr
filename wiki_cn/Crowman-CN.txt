@@ -1,0 +1,23 @@
+{{Quality|fine}}
+{{Creaturelookup/0|image=crow_man_sprite.png|portrait=crow_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''乌鸦人'''是普通[[crow|乌鸦]]的[[animal people|动物人]]变体,栖息于各种[[savage|野蛮]][[temperate|温带]][[biome|生物群系]]以及[[taiga|针叶林]]。它们以5-10个个体的群体出现,通常满足于保持自我。在体型方面,它们的体重略超过普通[[dwarf|矮人]]的一半。所有乌鸦人生来就拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮动物人一样,乌鸦人可以加入[[civilization|文明]],成为[[historical figure|历史人物]],作为[[visitor|访客]]出现,并可在[[adventurer mode|冒险模式]]中游玩。
+
+有些矮人因其''聪明''而[[Preferences|喜欢]]乌鸦人。
+
+{{D for Dwarf}}
+如乌鸦人飞行是某些[[Human|人类]]文化中的常见表达,因为[[Adventurer mode|他们见到的大多数乌鸦人]]似乎在几周后就确切知道自己要去哪里,甚至不会为[[Wound|不便的]][[Fun|和]][[Death|微不足道的]][[Fun|烦恼]]停留。
+
+乌鸦人似乎喜欢在废墟和神庙周围徘徊,并对任何挡路的人发出叫声。
+
+[[File:crow_man.jpg|thumb|300px|center|人们仍然将厄运与他联系在一起。<br><small>''Art by Ermine''</small>]]
+
+{{Translation| dwarven = ustir udos | elvish = minaro onino | goblin = osok ngorûg | human = erthok abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

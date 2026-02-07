@@ -1,0 +1,28 @@
+{{migrated article}}
+{{Quality|Fine}}
+{{av}}
+{{verminlookup/0|image=bumblebee_worker_sprite.png|portrait=bumblebee_portrait.png}}
+{{buggy}}
+{{creaturedesc}}
+'''大黄蜂'''是一种[[vermin|害虫]]，在任何非严寒的[[Biome|地区]]都能找到。它们可以蜇咬附近的[[dwarf|矮人]]而不杀死它，造成轻微疼痛但不会给矮人带来负面[[thought|想法]]。它们不会被[[cat|猫]]杀死。
+
+大黄蜂从"蜂群"（[[File:bee_colony_sprite.png|21px]]）中生成，是这样做的几种生物之一（唯一其他值得注意的是[[honey bee|蜜蜂]]）。然而，与后者不同，大黄蜂不能用于[[Beekeeping industry|养蜂业]]，这是[[Main:Toady One|Toady One]]的有意决定。大黄蜂[[Alcohol|蜂蜜酒]]与标准蜜蜂蜂蜜酒一起出现在食物库存中，尽管实际上无法酿造它。
+
+一些矮人[[Preferences|喜欢]]大黄蜂的''毛茸茸的外表''。
+
+[[File:Vermin-Bumblebee.jpg|thumb|center|300px|Admired for its ''woolly appearance''.]]
+
+==现实生活中==
+
+[https://ojs.ethnobiology.org/index.php/ebl/article/view/1383/679 大黄蜂采集的花蜜]传统上由斯堪的纳维亚国家的儿童采集，称为"大黄蜂蜂蜜"或"大黄蜂蜂蜜酒"；它既用作食物又用于医疗目的。然而，因为它们形成的是年度性而非多年生蜂群，所以它们不会像蜜蜂那样储存大量蜂蜜。
+
+{{D for Dwarf}}
+
+<!-- Reference: "Bumblebee" character from "Transformers" franchise -->
+一些大黄蜂被看到与一个巨大的红蓝机器人一起旅行，并经常变形为肌肉车。
+
+==Bug==
+* 大黄蜂蜂蜜/蜂蜜酒/蜂王浆可能被一些矮人偏好，因为它存在于原始数据中，但无法获得。[[modding|模组]]中存在解决方法，通过给大黄蜂添加{{token|ARTIFICIAL_HIVEABLE}}标记使其可用于养蜂，或删除其养蜂相关材料使它们一开始就不存在。{{Bug|4735}}
+
+{{gamedata}}
+{{vermin}}

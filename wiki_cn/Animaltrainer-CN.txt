@@ -1,26 +1,16 @@
 {{Quality|Fine}}
 {{av}}
-{{v50_skill
-| color      = 2:0
-| graphic    = [[File:green_sprite_icon.png]]
-| graphicmargin = 106px
-| skill      = Animal Trainer
-| profession = [[Ranger]]
-| job name   = [[Animal training]]
-| tasks      =
+{{v50_skill| color      = 2:0| graphic    = [[File:green_sprite_icon.png]]| graphicmargin = 106px| skill      = Animal Trainer| profession = [[Ranger]]| job name   = [[Animal training]]| tasks      =
 * Train [[dog|war animal]]
 * Train [[dog|hunting animal]]
 * Train large animal
-* Train small animal
-| workshop = [[Vermin catcher's shop]]
-| attributes =
+* Train small animal| workshop = [[Vermin catcher's shop]]| attributes =
 * Agility
 * Toughness
 * Endurance
 * Intuition
 * Patience
-* Empathy
-}}
+* Empathy}}
 
 '''动物训练师'''是与'''动物训练'''[[labor|劳动]]相关的技能。动物训练师与[[animal|动物]]一起工作，要么驯服野生动物，要么训练某些驯服的物种用于战争或狩猎。他们还会驯服某些捕获的活[[vermin|害虫]]。
 
@@ -39,26 +29,7 @@
 === 训练 ===
 {| style="text-align:center; float:right; margin:8px;" class=wikitable
 ! '''标识'''
-! '''描述'''
-|-
-| Wild || 未驯服
-|-
-| Semi-wild || 半野生
-|-
-| Trained || 已训练
-|-
-| -Trained- || 训练良好
-|-
-| +Trained+ || 熟练训练
-|-
-| *Trained* ||专业训练
-|-
-| ≡Trained≡ || 卓越训练
-|-
-| ☼Trained☼ || 大师级训练
-|-
-| Tame || 驯服
-|}
+! '''描述'''|-| Wild || 未驯服|-| Semi-wild || 半野生|-| Trained || 已训练|-| -Trained- || 训练良好|-| +Trained+ || 熟练训练|-| *Trained* ||专业训练|-| ≡Trained≡ || 卓越训练|-| ☼Trained☼ || 大师级训练|-| Tame || 驯服|}
 
 一旦你有了一个被捕获的可驯服生物被困在笼子里，你就可以开始驯服它。你将需要一个[[Zone#Animal Training|动物训练区域]]和一些[[plants|植物]]或[[meat|肉类]]，取决于该动物是食草动物还是食肉动物。要让你的动物训练师开始驯服野生动物，使用{{menu icon|u}}打开公民信息屏幕并选择宠物/牲畜标签。滚动浏览或过滤列表，直到选择了你捕获的野生动物，然后使用哨子图标设置训练师驯服它（光标键和{{k|Ctrl|t|sep=+}}也可以）。
 
@@ -83,27 +54,7 @@
 {|class="wikitable" style="width:80%; align:center"
 ! 公告
 ! 要塞训练知识级别
-! 生物训练级别阈值
-|-
-| {{Gametext|The dwarves of (civ) now know a few facts about (animal) training.|cyan}}
-| {{DFtext|A few facts|red}}
-| style="text-align:right;" | 20/30/40/60/70/90
-|-
-| {{Gametext|The dwarves of (civ) have attained a general familiarity with (animal) training methods.|cyan}}
-| {{DFtext|General familiarity|yellow}}
-| style="text-align:right;" | 15/20/30/50/60/80
-|-
-| {{Gametext|The dwarves of (civ) are now quite knowledgeable (animal) trainers.|cyan}}
-| {{DFtext|Knowledgeable|white}}
-| style="text-align:right;" | 10/15/25/40/50/70
-|-
-| {{Gametext|The dwarves of (civ) are now expert (animal) trainers.|cyan}}
-| {{DFtext|Expert|cyan}}
-| style="text-align:right;" | 5/10/20/30/40/60
-|-
-| {{center|(no announcement since this cannot happen in a player fortress)}}
-|{{DFtext|Domesticated|lime}}
-|}
+! 生物训练级别阈值|-| {{Gametext|The dwarves of (civ) now know a few facts about (animal) training.|cyan}}| {{DFtext|A few facts|red}}| style="text-align:right;" | 20/30/40/60/70/90|-| {{Gametext|The dwarves of (civ) have attained a general familiarity with (animal) training methods.|cyan}}| {{DFtext|General familiarity|yellow}}| style="text-align:right;" | 15/20/30/50/60/80|-| {{Gametext|The dwarves of (civ) are now quite knowledgeable (animal) trainers.|cyan}}| {{DFtext|Knowledgeable|white}}| style="text-align:right;" | 10/15/25/40/50/70|-| {{Gametext|The dwarves of (civ) are now expert (animal) trainers.|cyan}}| {{DFtext|Expert|cyan}}| style="text-align:right;" | 5/10/20/30/40/60|-| {{center|(no announcement since this cannot happen in a player fortress)}}|{{DFtext|Domesticated|lime}}|}
 技能掷骰的计算很复杂，但根据这些数字，如果你的训练师本身还不是优秀的训练师（在这种情况下，他们可能在没有帮助的情况下大多数时候会超过100），那么在专家级要塞知识下他们几乎好两倍。
 
 === 驯服幼崽 ===
@@ -155,183 +106,7 @@
 ! 动物
 ! 大小 (cm³)
 ! 宠物价值
-! 备注
-|-
-|[[Bobcat|山猫]]
-|8,000
-|75
-|太小 ≈
-|-
-|[[Mandrill|山魈]]
-|20,000
-|50
-|^
-|-
-|[[Lynx|猞猁]]
-|25,000
-|75
-|^ ≈
-|-
-|[[Ocelot|豹猫]]
-|25,000
-|100
-|^ ≈
-|-
-|[[Dog|狗]]
-|30,000
-|30
-|^ ♪
-|-
-|[[Cheetah|猎豹]]
-|50,000
-|200
-|^ ♪ ≈
-|-
-|[[Leopard|豹]]
-|50,000
-|100
-|^ ♪ ≈
-|-
-|[[Jaguar|美洲豹]]
-|75,000
-|100
-|† ♪ ≈
-|-
-|[[Gorilla|大猩猩]]
-|150,000
-|500
-|† ≈
-|-
-|[[Giant bat|巨型蝙蝠]]
-|200,000
-|750
-|♪ 仅狩猎
-|-
-|[[Giant cave swallow|巨型洞穴燕]]
-|200,000
-|700
-|♪ 仅狩猎
-|-
-|[[Grizzly bear|灰熊]]
-|200,000
-|500
-|† ♪ ≈
-|-
-|[[Lion|狮子]]
-|200,000
-|200
-|† ♪ ≈
-|-
-|[[Tiger|老虎]]
-|225,000
-|200
-|† ♪ ≈
-|-
-|[[Giant bobcat|巨型山猫]]
-|256,320
-|500
-|☼ ≈
-|-
-|[[Giant mandrill|巨型山魈]]
-|341,800
-|500
-|☼
-|-
-|[[Giant lynx|巨型猞猁]]
-|377,750
-|500
-|☼ ≈
-|-
-|[[Giant ocelot|巨型豹猫]]
-|377,750
-|500
-|☼ ≈
-|-
-|[[Polar bear|北极熊]]
-|400,000
-|500
-|☼ ≈
-|-
-|[[Giant cheetah|巨型猎豹]]
-|560,000
-|200
-|☼ ♪ ≈
-|-
-|[[Giant leopard|巨型豹]]
-|560,000
-|100
-|☼ ♪ ≈
-|-
-|[[Giant jaguar|巨型美洲豹]]
-|750,000
-|100
-|☼ ♪ ≈
-|-
-|[[Gigantic panda|巨型熊猫]]
-|1,160,900
-|1,000
-|☼ ‼ ≈
-|-
-|[[Giant grizzly bear|巨型灰熊]]
-|1,700,000
-|500
-|☼ ♪ ≈
-|-
-|[[Giant lion|巨型狮子]]
-|1,700,000
-|200
-|☼ ♪ ≈
-|-
-|[[Giant tiger|巨型老虎]]
-|1,900,000
-|200
-|☼ ♪ ≈
-|-
-|[[Rhinoceros|犀牛]]
-|3,000,000
-|500
-|☼ ♪ ‼ ≈ 仅战争
-|-
-|[[Giant polar bear|巨型北极熊]]
-|3,268,000
-|500
-|☼ ≈
-|-
-|[[Jabberer|贾伯勒]]
-|4,500,000
-|1,500
-|☼
-|-
-|[[Elephant|大象]]
-|5,000,000
-|500
-|☼ ‼ ≈
-|-
-|[[Cave dragon|洞穴龙]]
-|15,000,000
-|10,000
-|☼ ○
-|-
-|[[Roc|大鹏]]
-|20,000,000
-|10,000
-|☼ ♪ [[Megabeast|超级巨兽]]
-|-
-|[[Giant rhinoceros|巨型犀牛]]
-|24,000,000
-|500
-|☼ ♪ ‼ ≈ 仅战争
-|-
-|[[Dragon|龙]]
-|25,000,000
-|10,000
-|☼ [[Megabeast|超级巨兽]]
-|-
-|[[Giant elephant|巨型大象]]
-|40,000,000
-|500
-|☼ ‼ ≈
-|}
+! 备注|-|[[Bobcat|山猫]]|8,000|75|太小 ≈|-|[[Mandrill|山魈]]|20,000|50|^|-|[[Lynx|猞猁]]|25,000|75|^ ≈|-|[[Ocelot|豹猫]]|25,000|100|^ ≈|-|[[Dog|狗]]|30,000|30|^ ♪|-|[[Cheetah|猎豹]]|50,000|200|^ ♪ ≈|-|[[Leopard|豹]]|50,000|100|^ ♪ ≈|-|[[Jaguar|美洲豹]]|75,000|100|† ♪ ≈|-|[[Gorilla|大猩猩]]|150,000|500|† ≈|-|[[Giant bat|巨型蝙蝠]]|200,000|750|♪ 仅狩猎|-|[[Giant cave swallow|巨型洞穴燕]]|200,000|700|♪ 仅狩猎|-|[[Grizzly bear|灰熊]]|200,000|500|† ♪ ≈|-|[[Lion|狮子]]|200,000|200|† ♪ ≈|-|[[Tiger|老虎]]|225,000|200|† ♪ ≈|-|[[Giant bobcat|巨型山猫]]|256,320|500|☼ ≈|-|[[Giant mandrill|巨型山魈]]|341,800|500|☼|-|[[Giant lynx|巨型猞猁]]|377,750|500|☼ ≈|-|[[Giant ocelot|巨型豹猫]]|377,750|500|☼ ≈|-|[[Polar bear|北极熊]]|400,000|500|☼ ≈|-|[[Giant cheetah|巨型猎豹]]|560,000|200|☼ ♪ ≈|-|[[Giant leopard|巨型豹]]|560,000|100|☼ ♪ ≈|-|[[Giant jaguar|巨型美洲豹]]|750,000|100|☼ ♪ ≈|-|[[Gigantic panda|巨型熊猫]]|1,160,900|1,000|☼ ‼ ≈|-|[[Giant grizzly bear|巨型灰熊]]|1,700,000|500|☼ ♪ ≈|-|[[Giant lion|巨型狮子]]|1,700,000|200|☼ ♪ ≈|-|[[Giant tiger|巨型老虎]]|1,900,000|200|☼ ♪ ≈|-|[[Rhinoceros|犀牛]]|3,000,000|500|☼ ♪ ‼ ≈ 仅战争|-|[[Giant polar bear|巨型北极熊]]|3,268,000|500|☼ ≈|-|[[Jabberer|贾伯勒]]|4,500,000|1,500|☼|-|[[Elephant|大象]]|5,000,000|500|☼ ‼ ≈|-|[[Cave dragon|洞穴龙]]|15,000,000|10,000|☼ ○|-|[[Roc|大鹏]]|20,000,000|10,000|☼ ♪ [[Megabeast|超级巨兽]]|-|[[Giant rhinoceros|巨型犀牛]]|24,000,000|500|☼ ♪ ‼ ≈ 仅战争|-|[[Dragon|龙]]|25,000,000|10,000|☼ [[Megabeast|超级巨兽]]|-|[[Giant elephant|巨型大象]]|40,000,000|500|☼ ‼ ≈|}
 
 : ☼ — ''由于体型大，推荐用于军队。''
 : † — ''推荐用于保镖，拖延大多数生物足够长的时间，让矮人有时间安全逃脱。''

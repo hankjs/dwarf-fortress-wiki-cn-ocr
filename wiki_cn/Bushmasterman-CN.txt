@@ -1,7 +1,5 @@
 {{Quality|fine}}
-{{Creaturelookup/0
-|image=bushmaster_man_sprite.png
-|portrait=bushmaster_man_portrait.png}}
+{{Creaturelookup/0|image=bushmaster_man_sprite.png|portrait=bushmaster_man_portrait.png}}
 {{av}}
 {{creaturedesc}}
 

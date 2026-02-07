@@ -1,0 +1,25 @@
+{{Quality|Superior|10:08 11/01/2023(GMT)}}
+{{Creaturelookup/0|image=dark_gnome_sprites.png|portrait=dark_gnome_portrait.png|wiki=no|contrib=no|death=nobutcher}}
+{{av}}
+{{creaturedesc}}
+
+'''黑暗侏儒'''是栖息在[[evil|邪恶]][[mountain|山脉]]中的小型类人[[creature|生物]]。它们的智力与[[dwarf|矮人]]和其他有知觉的生物相当，但它们缺乏口头交流的能力，这可能是它们尚未形成[[civilization|文明社会]]的一个原因。它们有青绿色的皮肤、黄色的眼睛和各种各样的[[beard|胡须]]。它们是一个相当长寿的种族，最老的可以活到250岁。在[[adventurer mode|冒险者模式]]中，它们只在夜间活动。
+
+如果你把[[alcohol|酒]]留在露天，它们会成群结队地来喝光它，并吓得任何平民惊恐万分。如果它们到达你的酒精饮料，它们会以如此高效的速度狂饮，以至于你的矮人很快就会因口渴而死，除非你能稳定获得[[plants|植物]]或[[water|水]]。它们甚至能够直接从你的矮人那里偷酒：比如说，如果一个斧战士正忙于与[[goblin|哥布林]]<strike>解放者</strike>儿童绑架者战斗，黑暗侏儒会直接走上去喝掉他们的个人酒供应（如果他们有的话）。甚至有人看到它们蜂拥而至[[caravan|商队]]，在被商队卫兵砍成碎片之间痛饮酒。
+
+尽管它们表面上有恶意，黑暗侏儒并不特别暴力，在被追赶时会惊恐逃跑。它们能够装备适合它们尺寸的[[weapon|武器]]和[[armor|盔甲]]，但这种情况很少见。任何[[dwarf|矮人]]或[[dog|狗]]都可以轻易伤害它们，但要警惕在[[mountain|山坡]]上[[combat|战斗]]，矮人可能会冲向侏儒，失手，然后[[gravity|跌落很长的距离]]。[[Gnomeblight|侏儒疫病]]对黑暗侏儒极其有毒，如果以某种方式施用于它们，会导致坏死。
+
+它们的[[good|善良]]对应物是[[mountain gnome|山地侏儒]]。
+
+一些矮人[[Preferences|喜欢]]黑暗侏儒，因为它们''持酒的能力''。它们的酒精稀释因子为500，使它们能够喝下比它们体型大十倍的生物更多的酒。
+
+==图库==
+<center>
+<gallery widths="250px" heights="250px">
+File:Dark_gnome.png|''Fault的艺术作品。''
+File:Dark Gnome Dwarf Fortress a.png|''[[User:Jeff Agudelo|Jeff Agudelo]]的艺术作品。''
+</gallery></center>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

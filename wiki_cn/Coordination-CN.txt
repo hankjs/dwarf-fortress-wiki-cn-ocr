@@ -1,0 +1,10 @@
+{{Quality|Fine}}
+{{Skill| color      = 3:0| skill      = Coordination| profession = Unknown| job name   = None| tasks      = None| attributes =
+* Agility
+* Spatial Sense
+* Kinesthetic Sense}}
+{{av}}
+
+'''协调'''是一个没有已知用途的占位符技能。它存在于游戏代码中,但似乎没有实现,使矮人无法获得其经验。据推测,它会积极影响战斗行动的准确性,对快速攻击影响最大,因为这些攻击几乎没有时间瞄准。
+
+{{Skills}}

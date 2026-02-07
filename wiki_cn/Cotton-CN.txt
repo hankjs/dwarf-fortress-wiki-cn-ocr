@@ -1,0 +1,21 @@
+{{Quality|Exceptional}}
+{{plantlookup|graphic=cotton_shrub_sprite.png|seedimage=cotton_seeds_sprite.png|uses=
+*[[Oil]]
+*[[Thread]]|wp=Gossypium hirsutum}}
+{{av}}
+
+'''棉花'''是一种[[aboveground|地上]][[crop|作物]]。收获后,棉花植物可以在[[farmer's workshop|农民工坊]][[plant processing|加工]]以生产棉花植物纤维[[thread|线]]。
+
+棉籽可以在[[quern|手磨]]或[[millstone|磨石]]研磨成糊状(像岩核,[[quarry bush|采石灌木]]的种子),然后可以在[[screw press|螺旋压榨机]]压榨成棉籽[[oil|油]]和[[press cake|压榨饼]]。
+
+棉花不要与[[cottongrass|棉草]]混淆。虽然棉花是可收获的作物,但棉草是地被草。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]棉花植物的''花''。
+
+
+[[File:Cotton plant, Ware County, GA, US.jpg|thumb|center|300px|Admired for its ''flowers''.]]
+
+{{Translation| dwarven = îkeng| elvish  = ethe| goblin  = ongu| human   = thixil}}
+
+{{gamedata}}
+{{Plants}}

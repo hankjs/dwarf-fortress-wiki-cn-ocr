@@ -35,12 +35,7 @@
 一些生物受伤时可能会像正常生物流血一样留下残留物，但不是真正的血液。例如，由盐制成的[[titan|泰坦]]可能会在受伤的地方留下盐堆。
 
 ==战斗中的血液==
-{{Translation
-| dwarven = nazush
-| elvish  = cameda
-| goblin  = ogom
-| human   = cadem
-}}
+{{Translation| dwarven = nazush| elvish  = cameda| goblin  = ogom| human   = cadem}}
 
 血液在[[combat|战斗]]中产生重大影响。对主要动脉造成伤害的打击可以使其破裂，导致生物开始迅速失血。如果没有任何治疗，伤口最终可能导致生物死于失血，即使它没有被任何其他方式击倒。这在[[adventurer mode|冒险模式]]中尤为重要，在那里失血的影响在个体层面上更为明显。这种类型的死亡在四肢被从身体上切断的生物中很常见。
 

@@ -5,11 +5,6 @@
 
 冒险者可以拜访城堡，但他们不能在其中休息或快速旅行。
 
-{{Translation
-| dwarven = rimtar
-| elvish  = tayo
-| goblin  = zogast
-| human   = ithru
-}}
+{{Translation| dwarven = rimtar| elvish  = tayo| goblin  = zogast| human   = ithru}}
 
 {{World}}

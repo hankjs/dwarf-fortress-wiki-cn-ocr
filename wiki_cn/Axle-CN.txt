@@ -1,0 +1,33 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{av}}
+{{V50 machine|name=Vertical axle|key=A|icon=<div style="margin-left:12px;">[[File:vertical_axle_icon.png]]|construction=
+* 1 [[Log|原木]]|construction_job=
+* [[Mechanic|机械师]]|power=Uses 1 power per tile.}}
+{{V50 machine|name=Horizontal axle|key=a|construction=
+* [[Log|原木]]|icon=[[File:horizontal_axle_icon.png]]</div>|construction_job=
+* [[Mechanic|机械师]]|power=Uses 1 power per tile.}}
+
+'''传动轴'''用于在一定距离内传输[[power|动力]]（由[[windmill|风车]]或[[water wheel|水车]]产生）。有两种类型：垂直轴在[[z-level|Z轴层级]]之间传输动力，而水平轴在给定层级内向北、南、东或西方向传输动力。传动轴每格消耗1单位动力。
+
+''关于不同机械部件如何工作及协同运作的基本概述，请参阅[[machine component|机械组件]]。''
+
+[[File:axle_ex.jpg|thumb|260px|center|Mechanics of an axle.]]
+
+== 建造 ==
+传动轴通过[[machine component|机械组件]]界面建造：({{Menu icon|b|m|a|sep=-}})用于水平轴，({{Menu icon|b|m|A|sep=-}})用于垂直轴；传动轴不能对角放置。传动轴需要木匠劳动，使用原木，但所需原木数量随传动轴的长度和方向而变化。由于由木材制成，传动轴不耐岩浆，除了用[[nether-cap|地底帽]]制成的之外。
+
+<u>垂直</u>轴每个Z轴层级需要一根原木。<u>水平</u>轴1-3格长度需要一根原木，4-7格需要两根，8-10格需要三根。建造长链传动轴时，以7格为一组建造使用最少的原木，效率为每根原木3.5格。如果你比较随意，以10格为一组建造效率也差不多：每根原木3.33格。*水平轴默认为东西方向，但也可以建造为南北方向。
+
+: (* 14、21、24、28、31、34、35、38、41、42、44、45、48、49、51、52、54、55、58、59、61-66和68+格的距离可以节省一根或更多原木。其他距离下，每格使用的原木数相同。)
+
+改变90°方向需要在两个垂直传动轴之间的拐角处放置一个[[gear assembly|齿轮组件]]，无论是水平还是垂直方向的改变。齿轮和传动轴不会重叠在同一格内，而是在相邻格中并排或叠放。一旦相邻，[[power|动力]]传输就会自动进行；齿轮组件可以连接到拉杆（或[[Pressure plate|其他触发器]]）以停止动力传输。
+
+地板方块会阻碍Z轴层级之间的动力传输，因此需要在垂直轴通过的每层地板上挖掘[[channel|通道]]。（无法通过[[stairs|楼梯]]建造垂直轴。）确保从最底层Z轴层级向上建造垂直轴堆。你不能在开放空间（如[[windmill|风车]]正下方）建造传动轴，但可以在下方有另一根传动轴、[[gear assembly|齿轮组件]]或机械的开放空间上建造。
+
+传动轴不会阻挡单位移动，矮人和矿车可以安全通过。但请注意，为垂直轴挖掘通道通常会产生无法跨越的洞。
+此外请注意，为传动轴挖掘深层垂直竖井（例如将动力从地表的风车传送到深层地下矿井的[[roller|滚轮]]）有矮人掉入坑中的危险，后果可想而知。
+
+{{Category|Machine components}}
+
+{{buildings}}
