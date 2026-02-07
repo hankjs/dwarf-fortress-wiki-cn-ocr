@@ -153,7 +153,14 @@ class ResultDialog(QDialog):
     """OCR结果显示弹窗"""
 
     def __init__(
-        self, text, parent=None, wiki_entries=None, wiki_index=None, read_wiki_func=None
+        self,
+        text,
+        parent=None,
+        wiki_entries=None,
+        wiki_index=None,
+        read_wiki_func=None,
+        wiki_cn_entries=None,
+        wiki_cn_index=None,
     ):
         super().__init__(parent)
         self.setMinimumSize(600, 500)
@@ -161,17 +168,24 @@ class ResultDialog(QDialog):
         self.setModal(False)
         self.ocr_text = text
         self.wiki_entries = wiki_entries or []
+        self.wiki_cn_entries = wiki_cn_entries or []
         self.wiki_index = wiki_index or {}
+        self.wiki_cn_index = wiki_cn_index or {}
         self.read_wiki_func = read_wiki_func
         self.current_entry_index = 0
         self.entry_buttons = []
         self._child_dialogs = []
+        self.current_lang = "en"  # 'en' 或 'cn'
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(6, 6, 6, 6)
         layout.setSpacing(4)
 
-        # 最顶部展示OCR原始文本
+        # 最顶部：OCR文本和语言切换按钮在同一行
+        top_layout = QHBoxLayout()
+        top_layout.setContentsMargins(0, 0, 0, 0)
+        top_layout.setSpacing(6)
+
         ocr_label = QLabel(text)
         ocr_label.setWordWrap(True)
         ocr_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
@@ -185,7 +199,25 @@ class ResultDialog(QDialog):
                 color: #333;
             }
         """)
-        layout.addWidget(ocr_label)
+        top_layout.addWidget(ocr_label, 1)  # stretch=1，占据剩余空间
+
+        # 语言切换按钮（根据当前词条是否有中文动态显示）
+        self.lang_btn = QPushButton("中/EN")
+        self.lang_btn.setFixedHeight(25)
+        self.lang_btn.setFixedWidth(50)
+        self.lang_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px; border: 1px solid #ccc; border-radius: 3px;
+                background-color: #2196F3; color: white;
+            }
+            QPushButton:hover {
+                background-color: #1976D2;
+            }
+        """)
+        self.lang_btn.clicked.connect(self.toggle_language)
+        top_layout.addWidget(self.lang_btn)
+
+        layout.addLayout(top_layout)
 
         if self.wiki_entries:
             self.setWindowTitle(f"Wiki Match ({len(self.wiki_entries)} entries)")
@@ -230,6 +262,7 @@ class ResultDialog(QDialog):
         else:
             self.setWindowTitle("识别结果")
             self.text_browser.setText(text)
+            self.lang_btn.hide()  # 没有匹配到词条时隐藏语言切换按钮
 
         # 按钮区域
         btn_layout = QHBoxLayout()
@@ -344,8 +377,30 @@ class ResultDialog(QDialog):
         content = content.replace("\n", "<br>")
         return content
 
+    def _has_cn_content(self, index):
+        """判断指定索引的词条是否有中文内容"""
+        if not self.wiki_cn_entries or index >= len(self.wiki_cn_entries):
+            return False
+        # 获取英文内容作为对比
+        en_content = (
+            self.wiki_entries[index][1] if index < len(self.wiki_entries) else ""
+        )
+        cn_content = self.wiki_cn_entries[index][1]
+        # 如果中文内容与英文内容不同，则认为有中文
+        return cn_content != en_content
+
     def _show_entry(self, index):
-        entry_name, content = self.wiki_entries[index]
+        # 根据当前词条是否有中文来显示/隐藏语言切换按钮
+        has_cn = self._has_cn_content(index)
+        self.lang_btn.setVisible(has_cn)
+        # 如果当前是中文模式但没有中文内容，自动切回英文
+        if self.current_lang == "cn" and not has_cn:
+            self.current_lang = "en"
+
+        if self.current_lang == "cn" and has_cn:
+            entry_name, content = self.wiki_cn_entries[index]
+        else:
+            entry_name, content = self.wiki_entries[index]
         html_content = self._wiki_to_html(content)
         self.text_browser.setHtml(html_content)
         self.text_browser.moveCursor(self.text_browser.textCursor().Start)
@@ -357,6 +412,14 @@ class ResultDialog(QDialog):
             btn.setStyleSheet(self._entry_btn_style(selected=(i == index)))
         self.current_entry_index = index
         self._show_entry(index)
+
+    def toggle_language(self):
+        """切换中英文显示"""
+        if self.current_lang == "en":
+            self.current_lang = "cn"
+        else:
+            self.current_lang = "en"
+        self._show_entry(self.current_entry_index)
 
     def toggle_pin(self, checked):
         if checked:
@@ -382,11 +445,25 @@ class ResultDialog(QDialog):
             with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
             entry_name = display_name
+
+        # 准备中文内容
+        wiki_cn_entries = None
+        if self.wiki_cn_index and normalized in self.wiki_cn_index:
+            cn_file_path = self.wiki_cn_index[normalized][1]
+            try:
+                with open(cn_file_path, "r", encoding="utf-8") as f:
+                    cn_content = f.read()
+                wiki_cn_entries = [(entry_name, cn_content)]
+            except Exception:
+                wiki_cn_entries = [(entry_name, content)]
+
         dialog = ResultDialog(
             "",
             self,
             wiki_entries=[(entry_name, content)],
+            wiki_cn_entries=wiki_cn_entries,
             wiki_index=self.wiki_index,
+            wiki_cn_index=self.wiki_cn_index,
             read_wiki_func=self.read_wiki_func,
         )
         self._child_dialogs.append(dialog)
@@ -492,6 +569,23 @@ class MainWindow(QMainWindow):
                         name,
                         os.path.join(wiki_dir, filename),
                     )
+
+        # 构建中文wiki索引
+        wiki_cn_dir = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "wiki_cn"
+        )
+        self.wiki_cn_index = {}  # {normalized_key: (display_name, file_path)}
+        if os.path.isdir(wiki_cn_dir):
+            for filename in os.listdir(wiki_cn_dir):
+                if filename.endswith("-CN.txt"):
+                    # 去掉 -CN 后缀获取英文名
+                    name = filename[:-7]  # 去掉 -CN.txt
+                    normalized = self._normalize(name)
+                    if normalized:
+                        self.wiki_cn_index[normalized] = (
+                            name,
+                            os.path.join(wiki_cn_dir, filename),
+                        )
 
     def match_wiki_entries(self, ocr_text):
         """从OCR文本中匹配wiki词条，支持截断查询（子串匹配）"""
@@ -607,6 +701,7 @@ class MainWindow(QMainWindow):
                 if matches:
                     # 读取匹配到的wiki内容（按词条名去重）
                     wiki_entries = []
+                    wiki_cn_entries = []
                     seen_names = set()
                     for display_name, file_path in matches:
                         redirected_name, content = self.read_wiki_content(file_path)
@@ -618,12 +713,25 @@ class MainWindow(QMainWindow):
                             continue
                         seen_names.add(dedup_key)
                         wiki_entries.append((entry_name, content))
+                        # 查找对应的中文内容
+                        if dedup_key in self.wiki_cn_index:
+                            cn_file_path = self.wiki_cn_index[dedup_key][1]
+                            try:
+                                with open(cn_file_path, "r", encoding="utf-8") as f:
+                                    cn_content = f.read()
+                                wiki_cn_entries.append((entry_name, cn_content))
+                            except Exception:
+                                wiki_cn_entries.append((entry_name, content))
+                        else:
+                            wiki_cn_entries.append((entry_name, content))
                     self.status_label.setText(f"识别到 {len(wiki_entries)} 条 wiki!")
                     dialog = ResultDialog(
                         text,
                         self,
                         wiki_entries=wiki_entries,
+                        wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
                         wiki_index=self.wiki_index,
+                        wiki_cn_index=self.wiki_cn_index,
                         read_wiki_func=self.read_wiki_content,
                     )
                 else:
@@ -632,6 +740,7 @@ class MainWindow(QMainWindow):
                         text,
                         self,
                         wiki_index=self.wiki_index,
+                        wiki_cn_index=self.wiki_cn_index,
                         read_wiki_func=self.read_wiki_content,
                     )
                 self._result_dialog = dialog
