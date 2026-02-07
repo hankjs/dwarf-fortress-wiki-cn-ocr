@@ -1,0 +1,218 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Modding}}
+生物变体是生物的模板。结合{{token|COPY_TAGS_FROM|c}}，它们可以用于创建[[animal person|从其他已存在生物衍生出的生物]]（[[giant animal|巨型动物]]），因此得名，尽管它们的用途比这更广泛，在原版中还涵盖了[[gait|步态]]和[[Creature_token#ATTACK|攻击]]。它们可以嵌入到生物内部（使用{{token|APPLY_CURRENT_CREATURE_VARIATION|c}}时），也可以定义为CREATURE_VARIATION对象。默认变体定义在c_variation_default.txt中。
+
+生物变体可以与其他类型的生物模板进行对比：[[Tissue_definition_token|组织模板]]、[[Material_definition_token|材料模板]]和[[body_detail_plan_token|身体细节方案]]。生物变体是四者中最新的（[https://www.bay12games.com/dwarves/dev_2009.html#2009-12-15 来自2009年]），也是最先进的。
+
+生物变体可以添加/转换几乎所有标记，但{{token|APPLY_CREATURE_VARIATION|c}}是一个例外，因此你不能嵌套生物变体。
+{{clear}}
+
+{| {{prettytable}}
+|- bgcolor="#999999"
+! 标记
+! 参数
+! 描述
+
+|-
+| {{text anchor|CV_NEW_TAG}}
+|
+*标记（包括标记参数）
+| 向目标生物添加给定的标记。例如[CV_NEW_TAG:BIOME:ANY_FOREST]给生物添加[BIOME:ANY_FOREST]。
+
+|-
+| {{text anchor|CV_ADD_TAG}}
+|
+*标记（包括标记参数）
+| CV_NEW_TAG的别名。
+
+|-
+| {{text anchor|CV_REMOVE_TAG}}
+|
+*前导标记（名称和）参数
+| 从目标生物中移除所有以给定标记参数链开头的标记。例如[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]会移除[BODY:HUMANOID_SIMPLE:3_EYES]，但[CV_REMOVE_TAG:BODY:3_EYES]不会。[CV_REMOVE_TAG:BODY:HUMANOID_SIMPLE]也无法移除[BODY:HUMANOID_SIMPLE_NECK:3_EYES]，因为它查找的是完整参数。[CV_REMOVE_TAG:BODY]会移除上述两个例子，因为它们都以"BODY"开头。
+
+|-
+| {{text anchor|CV_CONVERT_TAG}}
+|
+| 开始一个转换块，包含一个{{token|CVCT_MASTER|cv}}、一个{{token|CVCT_TARGET|cv}}和一个{{token|CVCT_REPLACEMENT|cv}}。注意多个转换块的应用顺序可能看起来是"反向"的（参见[[creature_variation_token#Application|应用]]）。
+
+|-
+| {{text anchor|CVCT_MASTER}}
+|
+*前导标记（名称和）参数
+| 指定目标生物的哪些标记可以被转换，通过查看所述标记开头的完整参数（类似{{token|CV_REMOVE_TAG|cv}}）。
+
+如果没有给出CVCT_MASTER，或者没有给它参数，或者给它的唯一参数是空白的（即[CVCT_MASTER:]），则选择目标生物的所有标记。
+
+|-
+| {{text anchor|CVCT_TARGET}}
+|
+*字符串
+| 在CVCT_MASTER指定的所有标记中定位指定的字符串。
+
+如果没有给出CVCT_TARGET，或者没有给它参数，或者给它的唯一参数是空白的（即[CVCT_TARGET:]），游戏在加载生物时会冻结。
+
+|-
+| {{text anchor|CVCT_REPLACEMENT}}
+|
+*字符串
+| 替换CVCT_MASTER指定的标记中由CVCT_TARGET指定的字符串。这意味着标记的目标部分可以在标记的任何位置更改，例如
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:BODY]
+ 	[CVCT_TARGET:2EYES]
+ 	[CVCT_REPLACEMENT:2EYESTALKS]
+会同时影响[BODY:QUADRUPED_NECK:2EYES:NOSE:2LUNGS:...]和[BODY:INSECT:2EYES:HEART:GUTS:BRAIN:MOUTH:2WINGS]，将它们转换为[BODY:QUADRUPED_NECK:2''EYESTALKS'':NOSE:2LUNGS:...]和[BODY:INSECT:2''EYESTALKS'':HEART:GUTS:BRAIN:MOUTH:2WINGS]。
+冒号可以作为目标字符串和替换字符串的一部分，例如给定
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:BODY]
+ 	[CVCT_TARGET:BASIC_1PARTBODY:BASIC_HEAD]
+ 	[CVCT_REPLACEMENT:HUMANOID:3FINGERS]
+和[BODY:BASIC_1PARTBODY:BASIC_HEAD:HEART:GUTS:BRAIN:MOUTH:2EYESTALKS]，你会得到[BODY:HUMANOID:3FINGERS:HEART:GUTS:BRAIN:MOUTH:2EYESTALKS]。目标字符串的所有出现都会被替换，例如给定
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:DESCRIPTION]
+ 	[CVCT_TARGET:TRAIT]
+ 	[CVCT_REPLACEMENT:modderiffic]
+和[DESCRIPTION:This is an example creature. It is TRAIT, very very TRAIT.]，你会得到[DESCRIPTION:This is an example creature. It is modderiffic, very very modderiffic.]。
+
+如果没有给出CVCT_REPLACEMENT，目标字符串将被简单移除。
+
+|-
+| {{text anchor|CV_NEW_CTAG}}
+|
+*!ARG 编号
+*!ARG要匹配的值
+*标记
+| {{token|CV_NEW_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
+
+|-
+| {{text anchor|CV_ADD_CTAG}}
+|
+*!ARG 编号
+*!ARG要匹配的值
+*标记
+| CV_NEW_CTAG的别名。
+
+|-
+| {{text anchor|CV_REMOVE_CTAG}}
+|
+*!ARG 编号
+*!ARG要匹配的值
+*标记
+| {{token|CV_REMOVE_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。
+
+|-
+| {{text anchor|CV_CONVERT_CTAG}}
+|
+*!ARG 编号
+*!ARG要匹配的值
+| {{token|CV_CONVERT_TAG|cv}}的条件变体，参见[[creature_variation_token#Arguments and conditional tokens|参数和条件标记]]。使用{{token|CVCT_MASTER|cv}}、{{token|CVCT_TARGET|cv}}和{{token|CVCT_REPLACEMENT|cv}}，就像前者一样。
+|}
+
+== 应用 ==
+
+应用生物变体的两种方式是{{token|APPLY_CREATURE_VARIATION|c}}和{{token|APPLY_CURRENT_CREATURE_VARIATION}}。
+APPLY_CURRENT_CREATURE_VARIATION会获取生物原始数据中在它之前的所有生物变体标记（以及在之前的APPLY_CURRENT_CREATURE_VARIATION标记之后的，如果存在的话）并应用它们。当通过APPLY_CURRENT_CREATURE_VARIATION添加标记时，它们会在APPLY_CURRENT_CREATURE_VARIATION的位置添加。
+
+生物变体有一个不寻常的应用顺序。首先，应用移除标记（根据Toady在c_variation_default.txt中的说法是自下而上的，尽管这应该永远不重要）。然后，自下而上应用转换标记（"反向"顺序）。最后，自上而下应用添加标记。这意味着{{token|CV_REMOVE_TAG|cv}}不会移除由同一生物变体添加的任何标记。这也是为什么当使用重叠的{{token|CVCT_MASTER|cv}}时，更通用的转换可以（必须）放在更高位置。如果它们不是自下而上读取的，例如
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:BODY]
+ 	[CVCT_TARGET:QUADRUPED]
+ 	[CVCT_REPLACEMENT:HUMANOID]
+会将[BODY:QUADRUPED_FRONT_GRASP:...]和[BODY:QUADRUPED_NECK:...]转换为[BODY:HUMANOID_FRONT_GRASP:...]和[BODY:HUMANOID_NECK:...]，然后
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:BODY]
+ 	[CVCT_TARGET:QUADRUPED_FRONT_GRASP]
+ 	[CVCT_REPLACEMENT:HUMANOID]
+ [CV_CONVERT_TAG]
+ 	[CVCT_MASTER:BODY]
+ 	[CVCT_TARGET:QUADRUPED_NECK]
+ 	[CVCT_REPLACEMENT:HUMANOID_NECK:3FINGERS]
+才能将它们转换为预期的[BODY:HUMANOID:...]和[BODY:HUMANOID_NECK:3_FINGERS:...]。
+
+== 参数和条件标记 ==
+
+{{token|APPLY_CREATURE_VARIATION|cv}}可以被给予参数（除了必需的生物变体ID）。这些参数将替换"!ARG''n''"的实例，其中''n''是传递给APPLY_CREATURE_VARIATION的参数索引；第一个参数将替换任何"!ARG1"，第二个替换任何"!ARG2"，依此类推。你可以使用任意数量的参数<sup>1</sup>。
+如果你有一个"!ARG''n''"的数字大于给定的参数数量，替换将表现得很奇怪，这取决于''n''的位数是否多于给定参数的数量。例如[APPLY_CREATURE_VARIATION:EXAMPLE_CV:one:two:three]，它给出了三个参数，将保持EXAMPLE_CV中的所有"!ARG5"为"!ARG5"，但"!ARG10"将变成"one0"。
+
+管道字符"|"在插入时会变成":"，因此APPLY_CREATURE_VARIATION中的单个参数可能在输出中变成多参数段。例如给定
+ [CREATURE_VARIATION:DIMORPHIC_FEATHER_COLORS]
+ 	[CV_NEW_TAG:SELECT_CASTE:FEMALE]
+ 		[CV_NEW_TAG:SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
+ 			[CV_NEW_TAG:TL_COLOR_MODIFIER:!ARG1]
+ 				[CV_NEW_TAG:TLCM_NOUN:feathers:PLURAL]
+ 	[CV_NEW_TAG:SELECT_CASTE:MALE]
+ 		[CV_NEW_TAG:SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
+ 			[CV_NEW_TAG:TL_COLOR_MODIFIER:!ARG2]
+ 				[CV_NEW_TAG:TLCM_NOUN:feathers:PLURAL]
+ 	[CV_NEW_TAG:SELECT_CASTE:ALL]
+和[APPLY_CREATURE_VARIATION:DIMORPHIC_FEATHER_COLORS:BROWN|1:BLUE|10|GREEN|1|BLACK|1]我们得到
+ [SELECT_CASTE:FEMALE]
+ 	[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
+ 		[TL_COLOR_MODIFIER:BROWN:1]
+ 			[TLCM_NOUN:feathers:PLURAL]
+ [SELECT_CASTE:MALE]
+ 	[SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
+ 		[TL_COLOR_MODIFIER:BLUE:10:GREEN:1:BLACK:1]
+ 			[TLCM_NOUN:feathers:PLURAL]
+ [SELECT_CASTE:ALL]
+作为添加到目标生物的标记。
+
+条件标记（{{token|CV_NEW_CTAG|cv}}/{{token|CV_ADD_CTAG|cv}}、{{token|CV_REMOVE_CTAG|cv}}和{{token|CV_CONVERT_CTAG|cv}}）是CV_NEW_TAG/CV_ADD_TAG、CV_REMOVE_TAG和CV_CONVERT_TAG的副本，除了它们只在APPLY_CREATURE_VARIATION的编号参数具有任意值时才起作用。例如[CV_ADD_CTAG:2:HUMANOID:CAN_SPEAK]只有在第二个参数是"HUMANOID"时才会添加[CAN_SPEAK]。
+
+<sup>1</sup>功能上。已经测试了多达65537=2<sup>16</sup>+1个参数，除了加载时间长之外没有问题。
+
+===示例===
+
+以下是一个生物变体的示例，展示了上面提到的大多数标记和参数；并解释了如何使用它来改变牛的属性。
+
+ [CREATURE_VARIATION:CREATURE_EDIT]
+     [CV_CONVERT_CTAG:1:NAME]
+         [CVCT_MASTER:NAME]
+         [CVCT_TARGET:!ARG3:!ARG3s:!ARG4]
+         [CVCT_REPLACEMENT:!ARG5:!ARG5s:!ARG6]
+     [CV_CONVERT_CTAG:2:CNAME]
+         [CVCT_MASTER:CASTE_NAME]
+         [CVCT_TARGET:!ARG3:!ARG3s:!ARG4]
+         [CVCT_REPLACEMENT:!ARG5:!ARG5s:!ARG6]
+     [CV_NEW_CTAG:7:FC:SELECT_CASTE:FEMALE]
+     [CV_NEW_CTAG:7:FC:COLOR:!ARG8]
+     [CV_CONVERT_TAG]
+         [CVCT_MASTER:STATE_NAME:LIQUID]
+         [CVCT_TARGET:!ARG3's milk]
+         [CVCT_REPLACEMENT:!ARG5's milk]
+     [CV_CONVERT_TAG]
+         [CVCT_MASTER:STATE_ADJ:LIQUID]
+         [CVCT_TARGET:!ARG3's milk]
+         [CVCT_REPLACEMENT:!ARG5's milk]
+     [CV_NEW_CTAG:9:MRED:SELECT_CASTE:MALE]
+     [CV_NEW_CTAG:9:MREL:CASTE_COLOR:4:0:0]
+     [CV_NEW_CTAG:9:MYEL:SELECT_CASTE:MALE]
+     [CV_NEW_CTAG:9:MYEL:CASTE_COLOR:6:0:1]
+
+我们将以下内容添加到生物文件中。
+
+     [SELECT_CREATURE:COW]
+         [APPLY_CREATURE_VARIATION:CREATURE_EDIT:X:CNAME:cow:bovine:super-cow:cowtastic:FC:7|0|1:MYEL]
+
+这将改变牛生物文件，使牛现在被称为"super-cows"，可以被描述为"cowtastic"，是白色的并产生"super-cow's milk"，它还会将公牛的颜色改为黄色。
+
+这是按参数顺序发生的逐步解释：
+
+* "X"与第一个CTAG参数"NAME"不匹配，所以我们决定不改变生物的总体名称。
+* "CNAME"确实匹配第二个CTAG，所以我们正在改变与参数!ARG3和!ARG4匹配的种姓名称，以及查找包含!ARG3后跟字符"'s milk"的特定液体的状态名称。
+* 使用参数3和4，我们查找与"cow:cows:bovine"匹配的种姓名称以及与"cow's milk"匹配的任何液体名称或形容词。
+* 种姓名称和液体确实存在，所以!ARG5和!ARG6现在声明我们想要将这些名称改为什么；在这种情况下是种姓名称"super-cow:super-cows:cowtastic"和液体名称及形容词"super-cow's milk"。
+* 现在我们声明我们希望CTAG参数7匹配"FC"，这意味着我们将选择[FEMALE]种姓并为其添加一个颜色，该颜色由下一个参数!ARG8决定。
+* 我们需要选择三个数字，但它们需要用":"分隔。在这里使用这个字符会让我们进入下一个参数，所以我们用"|"分隔数字，选择"7|0|1"（白色），作为白色奶牛（不一定由图形表示）。
+* 下一个参数有多个编号为"9"的CTAG，但参数不同。任一选项都将使用[SELECT_CASTE:MALE]，但我们可以在参数MRED或MYEL之间选择。我们选择了MYEL，它为我们添加了标记[CASTE_COLOR:6:0:1]（黄色），为雄性种姓（在这种情况下是公牛）提供黄色作为种姓颜色。
+
+==另见==
+* [[Creature token]]
+* [[Tissue definition token]]
+* [[Material definition token]]
+* [[Body detail plan token]]
+
+{{Category|Modding}}
+{{Category|Tokens}}
+[[ru:Creature variation token]]

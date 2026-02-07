@@ -1,0 +1,36 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=cheetah_sprites.png
+|portrait=cheetah_portrait.png
+|bone=11
+|meat=13-14
+|fat=13
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|skull=1
+|skin=hide
+|contrib=no
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''猎豹'''是非常罕见的[[creature|生物]]，栖息在[[tropical|热带]]平地，在那里作为独行猎手四处游荡。这些食肉掠食者几乎与[[dwarf|矮人]]一样重，可能会对小型[[domestic animal|家畜]]造成问题，但它们自己可能会避开矮人。不出所料，猎豹是极其快速的奔跑者，奔跑速度达到87公里/小时（游戏处理的最大[[gait|步态]]速度），使它们成为陆地上最快的动物。刚出生的猎豹被称为''幼崽''。
+
+猎豹可以被[[cage|笼子]][[trap|陷阱]]捕获，并[[Animal trainer|训练]]成有价值的异国[[pet|宠物]]，完全驯化的猎豹有时可以从[[Elf|精灵]][[caravan|商队]]中带来。它们可以进一步训练成战斗或狩猎野兽，它们的速度使它们特别适合对付像[[kobold|狗头人]]这样的快速入侵者。它们可以被[[butcher|屠宰]]以获得可观的回报，尽管它们的稀有性使这可能浪费了一只好猎豹，除非获得一对繁殖配偶。由猎豹部位制成的产品[[Item value|价值]]是由普通生物制成的三倍。
+
+一些矮人[[Preferences|喜欢]]猎豹的''速度''。
+
+[[File:Cheetah Feb09 02.jpg|thumb|center|400px|因其''速度''而受到钦佩。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

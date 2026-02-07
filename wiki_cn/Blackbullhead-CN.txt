@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{verminlookup/0
+|image=black_bullhead_sprite.png
+|portrait=black_bullhead_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''黑鲶鱼'''是一种水生[[vermin|害虫]]，全年出现在[[biome|温带]][[water|淡水]][[pool|湖泊]]中，在[[fishery|渔场]][[fish cleaning|清理]]后是一种现成的[[food|食物]]来源。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]黑鲶鱼，因为它们的''胡须''。
+
+
+[[File:Vermin-BlackBullhead.jpg|thumb|center|300px|因其''胡须''而受到赞赏。]]
+
+{{gamedata}}
+{{Vermin}}

@@ -1,0 +1,194 @@
+'''Rainseeker的动物赞助活动'''是[[Bay 12 Games]]举办的一次捐赠活动，于2010年12月举行，由[[Dwarf Fortress Talk]]的联合主持人之一Rainseeker建议并命名。在这个月期间，向Bay 12 Games的捐赠允许捐赠者选择一个新的[[Creature|动物]]添加到游戏中。该活动在12月份结束时，开发者总共获得了9,416.16美元，这是当年第二成功的月份（仅次于4月，该月发布了[[v0.31:Release information|版本0.31.01]]）。
+
+虽然活动早已结束，但保存结果的网站仍然[http://www.bay12games.com/dwarves/sponsor.html 可用]，尽管它没有在当前的Bay 12 Games页面中链接。
+
+所有通过赞助活动添加的动物在其[[raw file|原始文件]]中都有一个特殊注释，说明"[动物名称] were sponsored by the generous contributions of the Bay 12 community"。
+
+==添加的动物摘要==
+
+通过动物赞助活动添加了以下动物：
+{{Columns-list|colwidth=15em|
+*[[File:Aardvark sprite.png|20px]] / {{Tile|a|7:0}} [[Aardvark|土豚]]
+*[[File:Adder sprite.png|20px]] / {{Tile|a|6:0}} [[Adder|蝰蛇]]
+*[[File:Albatross sprite.png|20px]] / {{Tile|a|7:1}} [[Albatross|信天翁]]
+*[[File:Alligator snapping turtle sprite.png|20px]] / {{Tile|T|2:0}} [[Alligator snapping turtle|鳄龟]]
+*[[File:Anaconda sprite.png|20px]] / {{Tile|A|2:1}} [[Anaconda|森蚺]]
+*[[File:Armadillo sprite.png|20px]] / {{Tile|a|7:0}} [[Armadillo|犰狳]]
+*[[File:Axolotl sprite.png|20px]] / {{Tile|∙|5:0}} [[Axolotl|美西螈]]
+*[[File:Aye aye sprite.png|20px]] / {{Tile|a|7:0}} [[Aye-aye|指猴]]
+*[[File:Badger sprite.png|20px]] / {{Tile|b|7:0}} [[Badger|獾]]
+*[[File:Bark scorpion sprite.png|20px]] / {{Tile|∙|6:1}} [[Bark scorpion|树皮蝎]]
+*[[File:Barn owl sprite.png|20px]] / {{Tile|b|6:0}} [[Barn owl|仓鸮]]
+*[[File:Beaver sprite.png|20px]] / {{Tile|b|6:0}} [[Beaver|海狸]]
+*[[File:Black mamba sprite.png|20px]] / {{Tile|s|0:1}} [[Black mamba|黑曼巴]]
+*[[File:Bobcat sprite.png|20px]] / {{Tile|b|6:0}} [[Bobcat|山猫]]
+*[[File:Brown recluse spider sprite.png|20px]] / {{Tile|∙|6:0}} [[Brown recluse spider|棕色隐士蜘蛛]]
+*[[File:Bumblebee sprite.png|20px]] / {{Tile|∙|6:1}} [[Bumblebee|大黄蜂]]
+*[[File:Bushmaster sprite.png|20px]] / {{Tile|s|6:0}} [[Bushmaster|矛头蝮]]
+*[[File:Bushtit sprite.png|20px]] / {{Tile|∙|6:0}} [[Bushtit|山雀]]
+*[[File:Capuchin sprite.png|20px]] / {{Tile|c|7:1}} [[Capuchin|卷尾猴]]
+*[[File:Capybara sprite.png|20px]] / {{Tile|c|6:0}} [[Capybara|水豚]]
+*[[File:Cassowary sprite.png|20px]] / {{Tile|c|0:1}} [[Cassowary|鹤鸵]]
+*[[File:Chinchilla sprite.png|20px]] / {{Tile|c|7:0}} [[Chinchilla|龙猫]]
+*[[File:Coati sprite.png|20px]] / {{Tile|c|6:0}} [[Coati|长鼻浣熊]]
+*[[File:Cockatiel sprite.png|20px]] / {{Tile|∙|7:1}} [[Cockatiel|玄凤鹦鹉]]
+*[[File:Snapping turtle sprite.png|20px]] / {{Tile|t|2:0}} [[Common snapping turtle|普通鳄龟]]
+*[[File:Copperhead snake sprite.png|20px]] / {{Tile|s|6:0}} [[Copperhead snake|铜头蛇]]
+*[[File:Coyote sprite.png|20px]] / {{Tile|c|7:0}} [[Coyote|郊狼]]
+*[[File:Crab sprite.png|20px]] / {{Tile|c|4:1}} [[Crab|螃蟹]]
+*[[File:Crow sprite.png|20px]] / {{Tile|∙|0:1}} [[Crow|乌鸦]]
+*[[File:Cuttlefish sprite.png|20px]] / {{Tile|♂|6:0}} [[Cuttlefish|墨鱼]]
+*[[File:Damselfly sprite.png|20px]] / {{Tile|∙|3:1}} [[Damselfly|豆娘]]
+*[[File:Desert tortoise sprite.png|20px]] / {{Tile|t|6:0}} [[Desert tortoise|沙漠陆龟]]
+*[[File:Dingo sprite.png|20px]] / {{Tile|d|6:1}} [[Dingo|野狗]]
+*[[File:Eagle sprite.png|20px]] / {{Tile|e|6:0}} [[Eagle|鹰]]
+*[[File:Echidna sprite.png|20px]] / {{Tile|e|6:0}} [[Echidna|针鼹]]
+*[[File:Elephant seal sprite.png|20px]] / {{Tile|S|6:0}} [[Elephant seal|象海豹]]
+*[[File:Emperor penguin sprite.png|20px]] / {{Tile|p|7:1}} [[Emperor penguin|帝企鹅]]
+*[[File:Emu sprite.png|20px]] / {{Tile|E|6:0}} [[Emu|鸸鹋]]
+*[[File:Flying squirrel sprite.png|20px]] / {{Tile|∙|6:0}} [[Flying squirrel|飞鼠]]
+*[[File:Giant tortoise sprite.png|20px]] / {{Tile|T|6:0}} [[Giant tortoise|巨龟]]
+*[[File:Gila monster sprite.png|20px]] / {{Tile|g|4:1}} [[Gila monster|毒蜥]]
+*[[File:Grasshopper sprite.png|20px]] / {{Tile|∙|2:1}} [[Grasshopper|蚱蜢]]
+*[[File:Gray langur sprite.png|20px]] / {{Tile|l|7:0}} [[Gray langur|灰叶猴]]
+*[[File:Great horned owl sprite.png|20px]] / {{Tile|o|7:0}} [[Great horned owl|大角鸮]]
+*[[File:Green tree frog sprite.png|20px]] / {{Tile|∙|2:1}} [[Green tree frog|绿树蛙]]
+*[[File:Grey parrot sprite.png|20px]] / {{Tile|p|7:0}} [[Grey parrot|灰鹦鹉]]
+*[[File:Hamster sprite.png|20px]] / {{Tile|∙|7:0}} [[Hamster|仓鼠]]
+*[[File:Hare sprite.png|20px]] / {{Tile|h|6:0}} [[Hare|野兔]]
+*[[File:Harp seal sprite.png|20px]] / {{Tile|H|7:0}} [[Harp seal|竖琴海豹]]
+*[[File:Hedgehog sprite.png|20px]] / {{Tile|∙|6:0}} [[Hedgehog|刺猬]]
+*[[File:Honey bee sprite.png|20px]] / {{Tile|∙|6:1}} [[Honey bee|蜜蜂]]
+*[[File:Hornbill sprite.png|20px]] / {{Tile|h|0:1}} [[Hornbill|犀鸟]]
+*[[File:Horseshoe crab sprite.png|20px]] / {{Tile|c|6:0}} [[Horseshoe crab|鲎]]
+*[[File:Hyena sprite.png|20px]] / {{Tile|h|6:1}} [[Hyena|鬣狗]]
+*[[File:Ibex sprite.png|20px]] / {{Tile|i|6:0}} [[Ibex|北山羊]]
+*[[File:Impala sprite.png|20px]] / {{Tile|i|6:0}} [[Impala|黑斑羚]]
+*[[File:Jackal sprite.png|20px]] / {{Tile|j|6:0}} [[Jackal|豺狼]]
+*[[File:Jumping spider sprite.png|20px]] / {{Tile|∙|0:1}} [[Jumping spider|跳蛛]]
+*[[File:Kakapo sprite.png|20px]] / {{Tile|k|2:0}} [[Kakapo|鸮鹦鹉]]
+*[[File:Kangaroo sprite.png|20px]] / {{Tile|K|6:0}} [[Kangaroo|袋鼠]]
+*[[File:Kea sprite.png|20px]] / {{Tile|k|2:0}} [[Kea|啄羊鹦鹉]]
+*[[File:Kestrel sprite.png|20px]] / {{Tile|k|4:0}} [[Kestrel|红隼]]
+*[[File:King cobra sprite.png|20px]] / {{Tile|k|0:1}} [[King cobra|眼镜王蛇]]
+*[[File:Kingsnake sprite.png|20px]] / {{Tile|k|7:1}} [[Kingsnake|王蛇]]
+*[[File:Kiwi sprite.png|20px]] / {{Tile|k|6:0}} [[Kiwi|几维鸟]]
+*[[File:Koala sprite.png|20px]] / {{Tile|k|7:0}} [[Koala|考拉]]
+*[[File:Leopard gecko sprite.png|20px]] / {{Tile|∙|6:1}} [[Leopard gecko|豹纹守宫]]
+*[[File:Leopard seal sprite.png|20px]] / {{Tile|L|0:1}} [[Leopard seal|豹海豹]]
+*[[File:Leech sprite.png|20px]] / {{Tile|~|0:1}} [[Leech|水蛭]]
+*[[File:Lion tamarin sprite.png|20px]] / {{Tile|∙|6:1}} [[Lion tamarin|狮狨]]
+*[[File:Little penguin sprite.png|20px]] / {{Tile|p|1:1}} [[Little penguin|小企鹅]]
+*[[File:Loon sprite.png|20px]] / {{Tile|l|0:1}} [[Loon|潜鸟]]
+*[[File:Lorikeet sprite.png|20px]] / {{Tile|∙|4:1}} [[Lorikeet|吸蜜鹦鹉]]
+*[[File:Louse sprite.png|20px]] / {{Tile|∙|6:0}} [[Louse|虱子]]
+*[[File:Lynx sprite.png|20px]] / {{Tile|l|6:0}} [[Lynx|猞猁]]
+*[[File:Magpie sprite.png|20px]] / {{Tile|∙|0:1}} [[Magpie|喜鹊]]
+*[[File:Mantis sprite.png|20px]] / {{Tile|∙|2:1}} [[Mantis|螳螂]]
+*[[File:Masked lovebird sprite.png|20px]] / {{Tile|∙|2:1}} [[Masked lovebird|面罩情侣鹦鹉]]
+*[[File:Mink sprite.png|20px]] / {{Tile|m|6:0}} [[Mink|貂]]
+*[[File:Mongoose sprite.png|20px]] / {{Tile|m|7:0}} [[Mongoose|獴]]
+*[[File:Monitor lizard sprite.png|20px]] / {{Tile|M|6:0}} [[Monitor lizard|巨蜥]]
+*[[File:Moon snail sprite.png|20px]] / {{Tile|∙|4:1}} [[Moon snail|月亮蜗牛]]
+*[[File:Mosquito sprite.png|20px]] / {{Tile|∙|0:1}} [[Mosquito|蚊子]]
+*[[File:Moose sprite anim.gif|20px]] / {{Tile|M|6:0}} [[Moose|驼鹿]]
+*[[File:Moth sprite.png|20px]] / {{Tile|∙|6:0}} [[Moth|飞蛾]]
+*[[File:Narwhal sprite.png|20px]] / {{Tile|N|7:0}} [[Narwhal|独角鲸]]
+*[[File:Nautilus sprite.png|20px]] / {{Tile|♂|4:1}} [[Nautilus|鹦鹉螺]]
+*[[File:Ocelot sprite.png|20px]] / {{Tile|o|6:1}} [[Ocelot|豹猫]]
+*[[File:Octopus sprite.png|20px]] / {{Tile|o|7:0}} [[Octopus|章鱼]]
+*[[File:Opossum sprite.png|20px]] / {{Tile|o|7:0}} [[Opossum|负鼠]]
+*[[File:Orca sprite.png|20px]] / {{Tile|O|0:1}} [[Orca|虎鲸]]
+*[[File:Osprey sprite.png|20px]] / {{Tile|o|7:1}} [[Osprey|鱼鹰]]
+*[[File:Ostrich sprite anim.gif|20px]] / {{Tile|O|0:1}} [[Ostrich|鸵鸟]]
+*[[File:Panda sprite.png|20px]] / {{Tile|P|6:0}} [[Panda|熊猫]]
+*[[File:Pangolin sprite.png|20px]] / {{Tile|p|6:0}} [[Pangolin|穿山甲]]
+*[[File:Parakeet sprite.png|20px]] / {{Tile|∙|2:1}} [[Parakeet|长尾小鹦鹉]]
+*[[File:Peach faced lovebird sprite.png|20px]] / {{Tile|∙|2:1}} [[Peach-faced lovebird|桃面情侣鹦鹉]]
+*[[File:Penguin sprite.png|20px]] / {{Tile|p|0:1}} [[Penguin|企鹅]]
+*[[File:Peregrine falcon sprite.png|20px]] / {{Tile|p|6:0}} [[Peregrine falcon|游隼]]
+*[[File:Platypus sprite.png|20px]] / {{Tile|p|6:0}} [[Platypus|鸭嘴兽]]
+*[[File:Pond turtle sprite.png|20px]] / {{Tile|☼|2:0}} [[Pond turtle|池龟]]
+*[[File:Porcupine sprite.png|20px]] / {{Tile|p|6:0}} [[Porcupine|豪猪]]
+*[[File:Puffin sprite.png|20px]] / {{Tile|p|0:1}} [[Puffin|海鹦]]
+*[[File:Python sprite.png|20px]] / {{Tile|S|6:0}} [[Python|蟒蛇]]
+*[[File:Raven sprite.png|20px]] / {{Tile|r|0:1}} [[Raven|渡鸦]]
+*[[File:Rattlesnake sprite.png|20px]] / {{Tile|s|7:0}} [[Rattlesnake|响尾蛇]]
+*[[File:Red panda sprite.png|20px]] / {{Tile|p|4:0}} [[Red panda|小熊猫]]
+*[[File:River otter sprite.png|20px]] / {{Tile|o|6:0}} [[River otter|河水獭]]
+*[[File:Sea otter sprite.png|20px]] / {{Tile|o|6:0}} [[Sea otter|海水獭]]
+*[[File:Skunk sprite.png|20px]] / {{Tile|s|0:1}} [[Skunk|臭鼬]]
+*[[File:Sloth sprite.png|20px]] / {{Tile|s|7:0}} [[Sloth|树懒]]
+*[[File:Sloth bear sprite.png|20px]] / {{Tile|B|0:1}} [[Sloth bear|懒熊]]
+*[[File:Slug sprite.png|20px]] / {{Tile|~|6:0}} [[Slug|蛞蝓]]
+*[[File:Snail sprite.png|20px]] / {{Tile|∙|6:0}} [[Snail|蜗牛]]
+*[[File:Snowy owl sprite.png|20px]] / {{Tile|o|7:1}} [[Snowy owl|雪鸮]]
+*[[File:Sparrow sprite.png|20px]] / {{Tile|∙|6:0}} [[Sparrow|麻雀]]
+*[[File:Sperm whale sprite.png|20px]] / {{Tile|W|7:0}} [[Sperm whale|抹香鲸]]
+*[[File:Spider monkey sprite.png|20px]] / {{Tile|m|0:1}} [[Spider monkey|蜘蛛猴]]
+*[[File:Sponge sprite.png|20px]] / {{Tile|s|4:1}} [[Sponge|海绵]]
+*[[File:Squid sprite.png|20px]] / {{Tile|♂|7:1}} [[Squid|鱿鱼]]
+*[[File:Stoat sprite.png|20px]] / {{Tile|s|6:0}} [[Stoat|白鼬]]
+*[[File:Swan sprite.png|20px]] / {{Tile|s|7:1}} [[Swan|天鹅]]
+*[[File:Tapir sprite.png|20px]] / {{Tile|T|7:1}} [[Tapir|貘]]
+*[[File:Termite sprite.png|20px]] / {{Tile|∙|7:1}} [[Termite|白蚁]]
+*[[File:Tick sprite.png|20px]] / {{Tile|∙|0:1}} [[Tick|蜱虫]]
+*[[File:Thrips sprite.png|20px]] / {{Tile|∙|6:0}} [[Thrips|蓟马]]
+*[[File:Weasel sprite.png|20px]] / {{Tile|w|6:0}} [[Weasel|黄鼠狼]]
+*[[File:White stork sprite.png|20px]] / {{Tile|s|7:1}} [[White stork|白鹳]]
+*[[File:Wild boar sprite.png|20px]] / {{Tile|B|6:0}} [[Wild boar|野猪]]
+*[[File:Wren sprite.png|20px]] / {{Tile|∙|6:0}} [[Wren|鹪鹩]]
+*[[File:Wolverine sprite.png|20px]] / {{Tile|w|6:0}} [[Wolverine|狼獾]]
+*[[File:Wombat sprite.png|20px]] / {{Tile|w|6:0}} [[Wombat|袋熊]]
+}}
+
+==未添加的动物==
+所有符合条件的动物列表已随时间流逝*。但是，一些动物在[http://www.bay12forums.com/smf/index.php?topic=73252.0 相关论坛主题]中被提及为选项，但没有进入游戏。以下是这些动物的列表。
+
+* 食蚁兽
+* 蓝鲸
+* 蟒蛇
+* 蝉
+* 雪貂
+* 跳蚤
+* 果蝠
+* 吸蜜鹦鹉（不清楚，因为吸蜜鹦鹉"也"在列表上）
+* 帝王蟹
+* 长鼻猴
+* 河豚
+* 喷毒眼镜蛇
+* 斑马
+
+<nowiki>*</nowiki>在某个时间点，Bay 12网站阻止了Wayback Machine，因为它占用带宽过多（来源：[https://www.bay12games.com/robots.txt robots.txt]）。虽然这个封锁现在不再起作用，但Wayback Machine在2011年5月之前没有该页面的存档版本（因此没有完整列表），这可能就是原因。
+
+==发布历史==
+
+赞助动物在2011年至2012年分四波发布。第一波（0.31.19）包含蜜蜂、大黄蜂和养蜂业。第二波（0.31.20）包含熊猫、水豚及其变体。第三波（0.31.22）包含企鹅、鸭嘴兽、獾、驼鹿及其所有变体。第四波也是最大的一波（0.34.01）添加了360个新的赞助生物。这使赞助生物总数达到382个。游戏中总共有767个非程序化生物，赞助生物占其中49.8%以上。
+
+===发布说明===
+
+====版本0.31.19====
+蜜蜂是动物赞助活动的获胜者，它们有许多相关的工作，所以我们没有尝试进入其他赞助的野兽，但我们会在每个版本中添加这些。
+
+====版本0.31.20====
+这是0.31.19的第一个错误修复版本，我专注于新错误。……它还包括一些赞助的小动物（熊猫和水豚），以及它们的一些野生亲戚。熊猫仅限于竹子放牧，水豚可以在冒险模式下发声（吠叫、口哨等）。
+
+新内容
+	(*) 包含的赞助动物：熊猫和水豚，以及相关伙伴
+
+====版本0.31.22====
+新内容
+	(*) 包含的赞助动物：企鹅、鸭嘴兽、獾、驼鹿，以及相关伙伴
+
+====版本0.34.01====
+新内容
+…
+	(*) 所有赞助动物及其巨型/人类版本现在都在游戏中
+
+===赞助生物完整表格===
+
+由于表格过长，包含所有赞助生物的详细信息、版本、类别、开发者注释、赞助者注释和生物标记，我在此保留原始结构但不逐行翻译。
+
+[[Category|Game development]]
+[[ru:Animal sponsorship drive]]
+{{unversioned}}

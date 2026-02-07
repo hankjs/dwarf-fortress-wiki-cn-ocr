@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{Treelookup/0
+|graphic=paradise_nut_trunk_sprite.png
+|product=apricot_sprite.png
+|sapling=apricot_sapling.png}}
+{{av}}
+
+'''杏树'''是地面上众多[[tree|树木]]属之一。像绝大多数地面树木一样，杏树的[[wood|木材]]是棕色的，并生产棕色产品。原木可以在[[dyer's shop|染坊]]中加工成粉色[[dye|染料]]。
+
+杏树显然会结出杏子[[fruit|水果]]。杏子可以被酿造成[[alcohol|酒精]]、烹饪或生吃，因此围绕本地的杏树群建立食品[[industry|产业]]可能是个好主意。
+
+一些[[Dwarf|矮人]]因为其''水果''而[[Preferences|喜欢]]杏树。
+
+
+[[File:Turkey.Pasa Baglari005.jpg|thumb|center|300px|因其''水果''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

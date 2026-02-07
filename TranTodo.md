@@ -36,10 +36,10 @@
 - [ ] Alfalfa.txt
 - [ ] Alliance.txt
 - [ ] Alligator.txt
-- [ ] Alligatorman.txt
-- [ ] Alligatorsnappingturtle.txt
+- [x] Alligatorman.txt
+- [x] Alligatorsnappingturtle.txt
 - [ ] Alluviallayer.txt
-- [ ] Almandine.txt
+- [x] Almandine.txt
 - [ ] Almond.txt
 - [ ] Alpaca.txt
 - [x] Altar.txt

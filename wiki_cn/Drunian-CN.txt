@@ -1,0 +1,43 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=drunian_sprites.png
+|portrait=drunian_portrait.png
+|bone=10
+|meat=12
+|fat=12
+|skull=1
+|lung=2
+|intestine=1
+|spleen=1
+|kidney=2
+|brain=1
+|heart=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|skin=hide
+|wiki=no
+|contrib=no
+}}
+{{av}}
+{{creaturedesc}}
+
+'''Drunians'''是[[wolf|狼]]般大小的[[creature|生物]]，可以在[[caverns|洞穴]]的第一层和第二层找到。它们成群出现，5-10个个体一组，走进无防御的要塞，[[Steals items|偷窃物品]]并[[Steals food|吃掉所有食物]]。Drunians接近普通[[dwarf|矮人]]的大小，但遇到时会逃跑，除非被逼入绝境，在这种情况下它们会用撕咬和抓挠反击，这对[[military|军队]]小队不应构成威胁。所有drunians出生时都具有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+Drunians可以用[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|训练]]成低价值的[[pet|宠物]]。它们寿命长且繁殖能力极强，这使它们成为你[[meat industry|肉类产业]]的有吸引力的目标。它们在2岁时成年，最好在那个年龄[[butcher|屠宰]]以获得最佳回报。
+
+与大多数动物不同，drunians无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]drunians，因为它们的''鬃毛''。
+
+==Gallery==
+<center>
+<gallery widths="250px" heights="250px">
+File:drunian_preview.png|''Art by Arnel''.
+File:Notebook_01_Drunian.jpg|''Concept art by Bay 12 Games.''
+File:Notebook_07_Drunian.jpg|一只drunian狂饮[[booze|酒]]，尽管它在游戏中缺乏[[Steals drink|这种行为]]。<br>''Concept art by Bay 12 Games.''
+</gallery></center>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

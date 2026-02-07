@@ -1,0 +1,8 @@
+'''血脉游戏'''，也称为"[[Succession Games|继承游戏]]"，是矮人要塞的一种游戏方式，通常在要塞模式中进行，由多个玩家依次传递。通常每个玩家都有自己独特的管理策略，因此每一轮都可以期待对要塞进行重大更改。一个经典的例子是来自早期版本矮人要塞的[[Boatmurdered]]。
+
+血脉游戏通常以故事的形式逐轮描述，最好配有截图，说明每个玩家统治下发生的一切。
+
+访问[{{fullurl:Special:PrefixIndex|namespace=100}}这里]查看维基上可用的血脉游戏列表，访问[http://www.bay12forums.com/smf/index.php?board=14.0这里]查看Bay12论坛上更大的社区故事和血脉游戏列表。
+
+[[Category:Bloodline games| ]]
+{{unversioned}}

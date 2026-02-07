@@ -1,0 +1,25 @@
+{{av}}
+{{Quality|fine}}
+'''矮人糖浆'''是一种烹饪原料，在[[farmer's workshop|农民工坊]]使用"加工植物（桶）"订单和[[plant processing|植物加工]]劳动从[[sweet pod|甜豆荚]]制成。每个甜豆荚制成五单位矮人糖浆，每个甜豆荚会剩下一颗种子。矮人糖浆不能以原始状态食用，但可以通过[[cooking|烹饪]]制成可食用的食物。
+
+== 漏洞 ==
+
+厨师只会在万不得已时才烹饪糖浆和其他液体，而更喜欢用固体食物烹饪固体食物。{{Bug|2393}}更多信息，请参见[[Kitchen#Bugs|厨房]]页面。
+
+{{gamedata
+|title=[[Sweet pod/raw|Raws]]
+|[USE_MATERIAL_TEMPLATE:EXTRACT:PLANT_EXTRACT_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:frozen dwarven syrup]
+	[STATE_NAME_ADJ:LIQUID:dwarven syrup]
+	[STATE_NAME_ADJ:GAS:boiling dwarven syrup]
+	[MATERIAL_VALUE:20]
+	[DISPLAY_COLOR:6:0:0]
+	[EDIBLE_RAW]
+	[EDIBLE_COOKED]
+	[EXTRACT_STORAGE:BARREL]
+	[PREFIX:NONE]
+}}
+{{materials}}
+{{Category|Food}}
+{{Category|Extracts}}
+[[ru:Dwarven syrup]]

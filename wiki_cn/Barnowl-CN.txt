@@ -1,0 +1,22 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=barn_owl_sprite.png
+|portrait=barn_owl_portrait_anim.gif
+|wiki=yes
+|skull=1
+|contrib=no}}
+{{av}}
+{{creaturedesc}}
+
+'''仓鸮'''是非常常见的[[creature|生物]]，可在各种各样的[[biome|生物群系]]中找到。它们单独生成并在空中飞行，其他方面不起眼。它们是良性的，不会对任何东西构成威胁，是游戏中非[[vermin|害虫]]类中最小的动物之一。所有仓鸮天生拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+仓鸮可以在[[cage|笼子]][[trap|陷阱]]中捕获，并[[Animal trainer|训练]]成低价值的[[pet|宠物]]。它们的雌性可以放在[[nest box|巢箱]]中，在那里它们会产下少量的[[egg|蛋]]。为食物而狩猎它们是毫无价值的，因为它们太小了，[[butcher|屠宰]]时除了[[skull|头骨]]什么也得不到。
+
+一些[[Dwarf|矮人]]喜欢仓鸮，因为它们的''颜色''。
+
+
+[[File:Tyto alba -British Wildlife Centre, Surrey, England-8a (1).jpg|center|thumb|300px|因其''颜色''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

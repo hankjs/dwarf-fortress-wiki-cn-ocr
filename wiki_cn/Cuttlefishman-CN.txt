@@ -1,0 +1,22 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=cuttlefish_man_sprite.png
+|portrait=cuttlefish_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''Cutteflish men（墨鱼人）'''是普通[[cuttlefish|墨鱼]]的[[animal people|动物人]]变体，可以在[[savage|野蛮]][[ocean|海洋]]中找到。它们以1-5个个体为一组出现，通常满足于保持独立。在体型方面，它们的体重略超过普通[[dwarf|矮人]]的一半。
+
+虽然它们能够学习并能够加入[[civilization|文明]]，但它们从不这样做，因为它们完全是[[aquatic|水生]]的，无法在地面上生存。
+
+一些矮人[[Preferences|喜欢]]墨鱼人，因为它们''变色的能力''和''独特的瞳孔''。
+
+{{D for Dwarf}}
+传说讲述了一个古老的'''墨鱼人'''，一个可怕的海洋生物，在体型和力量上都超越了所有其他[[Forgotten beast|遗忘之兽]]。这个墨鱼人以在附近要塞中引发随机的[[Strange mood|疯狂发作]]和激励黑暗邪教崇拜它而闻名。这些邪教普遍相信，这个古老的墨鱼人将在时间的尽头从海洋中升起，只为摧毁所有文明。只有时间能证明这是否属实，以及凡人的任何武器是否能够摧毁这样的生物。
+然而，这个可怕的生物有一个已知的弱点，可以用它将其驱赶回深海的家：不起眼的[[steam|蒸汽]]船。向[[Armok|阿莫克]]祈祷，希望在这个噩梦成为现实之前，游戏中能加入船只。
+这个怪物生活在一个传奇的地方，以异星几何构造，名为R'lyeh。
+
+一些年长的墨鱼人被观察到在帮助见习[[squid man|鱿鱼人]]士兵与[[octopus man|章鱼人]]作战。
+[[File:cuttlefish_man.jpg|thumb|260px|center|你不会想知道墨汁是从哪里出来的。<br><small>''Art by hobbaloo''</small>]]
+{{gamedata}}
+{{Creatures}}

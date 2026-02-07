@@ -1,0 +1,12 @@
+{{Quality|Exceptional}}
+{{stonelookup/0
+|graphic=ore_darkbrown_sprite.png}}
+{{av}}
+'''辉铋矿'''是[[bismuth|铋]]的唯一[[ore|矿石]]，用于制造[[bismuth bronze|铋青铜]]。它通常以小簇的形式出现，与其他[[ore|矿石]]相比相当稀有。
+
+[[File:Bismuthinite-23175.jpg|center|thumb|290px|辉铋矿。]]
+
+{{gamedata}}
+{{stones}}
+{{Category|Ore}}
+{{Category|Economic Stone}}

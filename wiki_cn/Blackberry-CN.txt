@@ -1,0 +1,22 @@
+{{Quality|Fine}}
+{{plantlookup
+|graphic=blackberry_shrub_sprite.png
+|seedimage=blackberry_seeds_sprite.png
+|uses=
+* [[Food]]
+* [[Alcohol]]
+}}
+{{av}}
+
+'''黑莓'''是一种[[aboveground|地上]][[crop|园林水果]]。它们可以在所有季节种植，果实可以生吃或[[cooking|烹饪]]，也可以[[brewing|酿造]]成[[alcohol|黑莓酒]]或在[[dyer's shop|染坊]]中加工成薰衣草色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[preferences|喜欢]]黑莓灌木，因为它们的''果实''。
+
+[[File:Ripe, ripening, and green blackberries.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+{{Translation| dwarven = udir lisig | elvish = opa ada | goblin = ogur smug | human = oth tikbo}}
+
+{{gamedata}}
+{{Plants}}
+
+[[Category:Dye sources]]

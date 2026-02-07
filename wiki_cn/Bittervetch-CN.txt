@@ -1,0 +1,18 @@
+{{Quality|Superior}}
+{{plantlookup
+|graphic=bitter_vetch_shrub_sprite.png
+|seedimage=bitter_vetch_seeds_sprite.png
+|uses=
+*[[Food|食物]]
+|wiki=vicia ervilia}}
+{{av}}
+
+'''苦野豌豆'''是一种[[aboveground|地上]][[crop|作物]]。它们可以在所有季节种植，叶子可以生吃或[[cooking|烹饪]]后食用，种子需要烹饪后食用。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]苦野豌豆，因为它的''谷物''。
+
+
+[[File:Vicia ervilia Sturm7.jpg|thumb|center|300px|因其''谷物''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

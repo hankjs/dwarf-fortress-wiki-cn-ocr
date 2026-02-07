@@ -1,0 +1,21 @@
+{{Quality|Exceptional}}
+{{Treelookup/0
+|graphic=birch_trunk_sprite.png
+|sapling=birch_sapling.png}}
+{{av}}
+
+'''桦树'''是一种生长在温带阔叶林中的[[tree|树木]]。它们是游戏中[[Highwood|第二高的树]]。在经典显示模式下，桦树具有特殊的品质——它是游戏中唯一一种树干颜色不是棕色的普通树木，具体来说是白色。不幸的是，它们产出的原木仍然是棕色的（如原始数据中所述的焦棕色）。在高级图形模式下，树干、木材和制品都使用焦棕色。原木可以在[[dyer's shop|染坊]]中加工成米黄色[[dye|染料]]。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]桦树，因为它们的''柔荑花序''、''银色树皮''和''秋季色彩''。
+
+
+[[File:Betula_pendula_Finland.jpg|thumb|center|400px|因其''银色树皮''而受到赞赏。]]
+
+== In Real Life ==
+
+桦树皮在历史上曾被用作[[parchment|羊皮纸]]的一种形式和引火物，虽然前者的用途已不再相关，但后者仍然非常实用。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

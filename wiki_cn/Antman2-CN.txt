@@ -1,0 +1,31 @@
+{{Quality|Superior}}
+{{Creaturelookup/0
+|image=Ant_man_sprite.png
+|portrait=antman_portrait.png
+|contrib=no
+|death=nobutcher
+}}
+{{av}}
+{{creaturedesc}}
+
+'''蚁人'''是在任何[[cavern]]层以小群体生活的许多地下部落[[animal people]][[Creature|种族]]之一。它们可以被视为普通[[ant]]的类人版本，但与大多数[[animal people]]的形成方式不同，不是它们基础生物的变体。蚁人在这方面更像[[serpent man]]、[[reptile man]]、[[amphibian man]]和[[rodent man]]。
+
+蚁人形成工蚁、兵蚁、雄蚁和蚁后种姓。工蚁是最常见的蚁人，不比[[kobold]]大。全雄性的雄蚁与工蚁大小相同，还能够飞行。兵蚁可以长得几乎和[[dwarf]]一样大。蚁后和[[lion]]一样大，是蚁人中唯一的繁殖雌性。奇怪的是，蚁后是胎生而不是产卵。
+
+尽管在单位列表中被标记为敌对，但最初在洞穴中发现的蚁人会忽略您的市民，除非被激怒。它们通常被观察到携带木制[[spear]]、[[blowgun]]和[[shield]]，尽管它们有时会使用金属物品。这些可以从[[copper]]到[[steel]]不等，推测是由bug引起的。根据它们可以接触到的其他地下生物，它们的[[blowdart]]会涂上不同的[[syndrome|毒药]]，可以从轻微烦人的[[cave spider]]毒液到高度[[fun|危险]]的[[giant cave spider]]毒素不等。您可以通过选择[[blowgunner]]，查看其物品选项卡并查看其吹箭来预先检查毒药。
+
+<!--Antmen may launch [[ambush|group attacks]] on your fort. When this happens, all tribesmen on the map will become hostile, even if they were peaceful minutes prior to the invasion. They may arrive with [[pet]]s and [[mount]]s, some of which will be able to fly or easily catch up to your fleeing civilians. These invaders, unlike their above-ground counterparts, will not leave after some time has passed, even if your fort is completely sealed off from the caverns, nor will they prevent migrants, caravans or other invaders from arriving; including more waves of antmen. Because of this, several unchallenged assaults from them can quickly cause your game's FPS to drop to single-digit levels, thus making your fort completely unplayable.
+-->
+与大多数类人生物相比，蚁人的寿命极短，允许耐心的玩家只需等待它们老死而不是面对它们。如前所述，雄蚁可以飞行，这意味着它们能够飞过您的墙壁，或通过地板和天花板的缝隙，因此请相应地规划您的防御。这也可以使它们比其他同等大小的生物稍难击中。
+
+一些矮人[[Preferences|喜欢]]蚁人，因为它们的''神秘性''。
+
+{{D for Dwarf}}
+尽管蚁人似乎没有任何显著的文字系统，但人类经常试图获得它们的签名，称它们是某种伟大的英雄。关于它们所谓事迹的记录仅在人类法典中发现，经常与某种蜂人对抗。迄今为止，矮人还没有发现任何蜂人。此外，许多人类相信蚁人能够缩小。也没有发现这方面的证据。
+
+[[File:ant_man.jpg|thumb|150px|center|仍然害怕巨型放大镜。<br><small>''Art by Devilingo''</small>]]
+{{gamedata}}
+{{gamedata|title=Entity ([[civilization]]) Raws|{{raw|v50:entity_default.txt|ENTITY|SUBTERRANEAN_ANIMAL_PEOPLES}}}}
+{{Creatures}}
+{{Category|Humanoids}}
+{{Category|Races}}

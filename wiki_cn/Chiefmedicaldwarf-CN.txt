@@ -1,0 +1,31 @@
+{{Quality|Superior}}
+{{av}}
+{{Noble|noble=Chief Medical Dwarf
+|function=Enable use of a [[hospital]].
+|arrival=Appointed on the [[nobles screen]].
+}}
+
+'''首席医疗矮人'''是一个任命的[[noble|贵族]]职位，负责[[fortress|要塞]]的[[healthcare|医疗保健]]工作。他们负责医院，没有这个职位医院就无法运作。
+
+该职位唯一相关的技能是[[diagnostician|诊断师]]，尽管实际上矮人并不需要具备任何医疗技能就能被任命到这个职位，甚至不需要启用诊断[[labor|劳动]]，不过出于实用性考虑，人们可能倾向于让首席医疗矮人成为一名医生。
+
+注意事项：
+* 有关医疗保健的更多提示，请参阅[[healthcare|医疗保健]]。
+* [[Noble|贵族]]职位没有要求或特殊规定。
+* 与名称所示相反，任何种族的公民都可以被任命为首席医疗''矮人''。
+
+{{gamedata|	[POSITION:CHIEF_MEDICAL_DWARF]
+		[NAME:chief medical dwarf:chief medical dwarves]
+		[SITE]
+		[REQUIRES_MARKET]
+		[NUMBER:1]
+		[RESPONSIBILITY:HEALTH_MANAGEMENT]
+		[APPOINTED_BY:EXPEDITION_LEADER]
+		[APPOINTED_BY:MAYOR]
+		[PRECEDENCE:165]
+		[DO_NOT_CULL]
+		[COLOR:5:0:0]
+		[DUTY_BOUND]}}
+{{Nobles}}
+{{Category|Appointed Nobles}}
+{{Category|Healthcare}}

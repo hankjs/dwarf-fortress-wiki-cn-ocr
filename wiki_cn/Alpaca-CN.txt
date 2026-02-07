@@ -1,0 +1,42 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=alpaca_sprites.png
+|portrait=alpaca_portrait_anim.gif
+|contrib=no
+|bone=16
+|meat=12
+|fat=12
+|skull=1
+|lung=2
+|intestine=1
+|spleen=1
+|kidney=2
+|brain=1
+|heart=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|skin=hide
+|wool=7
+|nerves=1
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''羊驼'''是常见的[[Domestic animal|家畜]]，可供[[矮人]]和[[人类]][[文明]]饲养。它们可以每300天[[shearer|剪毛]]一次以获得[[羊毛]]，用于制作低价值的[[布料]]。除了标准的[[肉类产业]]产品外，羊驼在被[[屠宰]]时也会提供羊毛。羊驼羊毛的价值与所有其他可剪毛动物的羊毛相当。
+
+作为[[食草动物]]，羊驼需要中等大小的[[牧场]]才能生存；然而它们吃的草比[[cow|牛]]少得多，是肉类、奶酪和布料产业综合发展的优秀基础动物。雌性羊驼可以产奶，这些[[奶]]可以[[烹饪]]或制成[[奶酪]]。
+
+有些矮人因为它们的''长颈''、''突出的牙齿''、''羊毛''以及''与小型[[llama|美洲驼]]的相似之处''而[[preference|喜欢]]羊驼。
+
+
+[[File:Alpacas.JPG|thumb|400px|center|Admired for their ''long necks''.]]
+
+== In real life ==
+
+在现实生活中，羊驼因其极具价值的羊毛而被饲养，这种羊毛以其柔软度和颜色而备受珍视。它因其丝绸般的触感而常被称为"神之纤维"。
+
+{{Gamedata}}
+{{Creatures}}
+{{Category|Animals}}

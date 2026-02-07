@@ -1,0 +1,21 @@
+{{Quality|Fine}}
+{{plantlookup|uses=
+* [[Food]]
+|graphic=bambara_groundnut_shrub_sprite.png
+|seedimage=bambara_groundnut_seeds_sprite.png
+|wiki=Vigna subterranea}}
+{{av}}
+
+'''班巴拉花生'''是一种[[aboveground|地面]][[crop|园艺植物]]。它们可以在所有季节种植。只有[[cooking|烹饪]]的种子可以食用。
+
+一些[[Dwarf|矮人]]因为班巴拉花生植物的''可食用的坚果''而[[preferences|喜欢]]它们。
+
+===Bugs===
+
+尽管种子材料定义将它们标记为可生吃，但矮人不会吃它们。
+
+
+[[File:Bambara in the field.JPG|thumb|center|300px|因其''可食用的坚果''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

@@ -1,0 +1,73 @@
+{{Quality|Exceptional}}
+{{av}}
+[[File:designation_icons_preview.png|right]]'''指定菜单'''可以通过屏幕底部中央访问，提供了用各种指定标记地块的方法，包括[[mining|采矿]]、[[wood cutting|砍伐木材]]、[[plant gathering|采集植物]]、[[smooth|石材精修]]以及[[removing|移除]]建筑、控制[[traffic|交通]]和其他杂项指定。
+
+要指定一个区域（{{Menu icon|m|b|num=1}}），从菜单中选择所需的指定，将光标放在第一个地块上，点击一次，然后将光标拖到另一个地块——这将创建一个矩形，然后再次点击。你也可以选择"涂刷"一个区域（{{Menu icon|m|B|num=1}}），这让你可以逐个指定地块。根据指定的类型，这也可以跨[[z-level|Z层]]工作，允许以长方体形状进行三维指定。
+
+要取消指定，使用移除指定（{{Menu icon|x}}）。
+
+所有指定都可以设置优先级，1是最高优先级，7是最低优先级。请注意，如果两个不同的指定具有相同的优先级，一种类型可能仍然比另一种更受青睐。它们也可以被指定为"仅蓝图"，这类似于工作被暂停，因为它会用蓝色方块标记地块。这对于规划指定和房间而不让矮人突然冲进来做任何事情很有用。
+
+== 指定菜单 ==
+*[[File:designations_v50_preview.png|thumb|260px|right|指定，包括普通和标记的（蓝色）。]]采矿（{{Menu icon|m|m}}）- 标记要[[Mining|挖掘]]的地块。移除石头/土壤墙壁并留下石头/土壤地板。可能会留下石头/矿石/宝石。（需要[[Mining|采矿]]劳动）
+*挖沟（{{Menu icon|m|u}}）- 标记要[[Channel|挖沟]]的地块。移除该地块上的石头/土壤墙壁、地板，并将下方的石头/土壤地板替换为斜坡。可能会留下石头/矿石/宝石。（需要[[Mining|采矿]]劳动）
+*移除向上楼梯/斜坡（{{Menu icon|m|x}}）- 标记移除自然斜坡和挖掘的斜坡/楼梯。（需要[[Mining|采矿]]劳动）
+*创建楼梯（{{Menu icon|m|t}}）- 标记要挖出并替换为向上或向下楼梯的墙壁。（需要[[Mining|采矿]]劳动）
+*向上斜坡（{{Menu icon|m|r}}）- 标记要挖出并替换为向上斜坡的墙壁（需要[[Mining|采矿]]劳动）
+
+*砍伐树木（{{Menu icon|l}}）- 标记要砍伐的[[tree|树木]]。（需要[[Wood cutting|砍树]]劳动）
+
+*采集植物（{{Menu icon|g}}）- 标记要采集的[[shrub|灌木]]。（需要[[Plant gathering|植物采集]]劳动）
+
+*平滑石材（{{Menu icon|v|m}}）- 标记要平滑的石墙。（需要[[Stonecutting|切石]]劳动）
+*雕刻石材（{{Menu icon|v|g}}）- 标记要雕刻的平滑墙壁。（需要[[Stone engraving|石材雕刻]]劳动）
+*雕刻防御工事（{{Menu icon|v|f}}）- 标记要雕刻[[fortification|防御工事]]的墙壁。（需要[[Stonecutting|切石]]劳动）
+*雕刻轨道（{{Menu icon|v|t}}）- 标记要转变为[[minecart|矿车]]轨道的石墙。（需要[[Stonecutting|切石]]劳动）
+
+*切换蓝图模式（{{Menu icon|M}}）在蓝图模式和标准模式之间切换现有指定（见[[#Blueprint Mode|下文]]）。
+*移除指定（{{Menu icon|x}}）- 移除所有指定标记。
+*移除建筑（{{Menu icon|m|x}}）- 标记要移除的[[construction|建筑]]
+*批量指定物品：（{{Menu icon|i}}）
+**{{Menu icon|i|F|num=1}}：认领物品/建筑 - 标记要[[Reclaim|认领]]的物品区域。
+**{{Menu icon|i|f|num=1}}：禁止物品/建筑 - 标记要[[forbid|禁止]]的物品区域。
+**{{Menu icon|i|m|num=1}}：熔化物品 - 标记要[[melt|熔化]]的物品区域。
+**{{Menu icon|i|M|num=1}}：移除熔化 - 从区域移除[[melt|熔化]]标记。
+**{{Menu icon|i|p|num=1}}：倾倒物品 - 标记要[[dump|倾倒]]的物品区域。
+**{{Menu icon|i|P|num=1}}：移除倾倒 - 从区域移除[[dump|倾倒]]标记。
+**{{Menu icon|i|H|num=1}}：取消隐藏物品/建筑 - 从区域移除[[Hide Items or Buildings|隐藏]]标记。
+**{{Menu icon|i|h|num=1}}：隐藏物品/建筑 - 标记要[[Hide Items or Buildings|隐藏]]的物品区域。
+*设置[[Traffic|交通区域]]（{{Menu icon|T}}）- 交通区域值决定矮人的行走路径。高成本值意味着矮人会尽可能避开该区域；较小的成本意味着他们会优先选择该路径，即使它比"正常"路径更长。
+**{{Menu icon|T|h|num=1}}：高交通区域 - 用"高交通成本"中列出的"成本"标记区域
+**{{Menu icon|T|x|num=1}}：正常交通区域 - 用"正常交通成本"中列出的"成本"标记区域
+**{{Menu icon|T|l|num=1}}：低交通区域 - 用"低交通成本"中列出的"成本"标记区域
+**{{Menu icon|T|r|num=1}}：限制交通区域 - 用"限制交通成本"中列出的"成本"标记区域
+
+== 指定修改==
+采矿{{Menu icon|m|n}}也可以修改以改变行为：
+*{{Menu icon|m|v|num=1}}：指定所有 - 标准行为。
+*{{Menu icon|m|V|num=1}}：自动采矿矿石/宝石 - 一旦处理了该地块，所有相邻地块如果包含相同的矿石或宝石将被标记为采矿。只能在已显露的矿石/宝石上指定。将显示为绿色。
+*{{Menu icon|m|o|num=1}}：指定矿石/宝石 - 如名称所示。仅适用于已显露的地块。
+*{{Menu icon|m|g|num=1}}：指定宝石 - 见上文。
+
+== 优先级 ==
+[[File:priority_anim.gif|right]]可以通过点击[[File:Designation priority 1.png|25px]]-[[File:Designation priority 7.png|25px]]为指定分配优先级。默认情况下，所有指定都以[[File:Designation priority 4.png|25px]]的优先级进行，但可以使用优先级[[File:Designation priority 1.png|25px]]-[[File:Designation priority 3.png|25px]]标记更高优先级的工作，使用[[File:Designation priority 5.png|25px]]-[[File:Designation priority 7.png|25px]]标记较低优先级的工作。请注意，[[File:Designation priority 1.png|25px]]是''最高''优先级，[[File:Designation priority 7.png|25px]]是''最低''优先级。
+当一个矮人有几个不同优先级的工作要做时，优先级较高的工作会先执行，不管对该矮人来说它们有多方便；在地图另一边标记为[[File:Designation priority 1.png|25px]]的工作将优先于就在他们旁边标记为[[File:Designation priority 2.png|25px]]的工作。
+
+应该注意不要将重要任务设置为太低的优先级，因为许多其他即将到来的和现有的任务会优先于那些最低优先级的任务，这意味着除非手动更改优先级，否则这些任务永远不会完成。
+
+== 蓝图模式 ==
+指定可以放置在默认的标准模式下——一旦游戏取消暂停，工作就有资格开始——或在蓝图模式下。使用{{Menu icon|M}}切换新指定的模式。蓝图模式指定显示为青色而不是米色。
+
+矮人实际上不会执行蓝图模式指定。这可以用来规划未来的项目，它提供了几个优势：
+* 不需要一次指定整个项目。例如，可以推迟有疑问的部分，直到附近的地形被揭示。
+* 蓝图指定不会中断已经进行中的工作。
+* 可以使用全部优先级范围，而不是通过强制低优先级来延迟项目。因此，当准备就绪时，新项目可以优先于现有指定，而无需移除旧指定。
+
+当是时候让你的矮人开始一个蓝图模式项目时，指定一个{{Menu icon|M|k|num=1}}标准切换并选择一个包含你希望的所有蓝图指定的区域，在所有三个维度上。其中的所有蓝图模式指定将更改为标准模式，反之亦然。相反的（{{Menu icon|M|L|num=1}}）也可以用于临时停用现有的标准指定。
+
+==注意==
+* 如果安装了[[DFHack]]，在采矿菜单{{Menu icon|m|Ctrl+d|num=1}}中还有一个设置可用，允许配置你的矿工是否会忽略[[Digging designation canceled|温暖或潮湿的石头]]。
+{{V50 menus}}
+{{Category|Interface}}
+{{Category|Designations|*}}
+[[ru:Designations menu]]

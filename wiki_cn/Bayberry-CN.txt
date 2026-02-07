@@ -1,0 +1,22 @@
+{{Quality|Superior}}
+{{Treelookup/0
+|graphic=macadamia_trunk_sprite.png
+|product=bayberry_sprite.png
+|sapling=bayberry_sapling.png
+|wiki=Myrica_rubra}}
+{{av}}
+
+'''Bayberry'''（杨梅）是地面上发现的众多树木属之一。与绝大多数地面树木一样，杨梅[[wood|木材]]是棕色的，并产生棕色产品。
+
+杨梅树结出杨梅果，可以通过设置采集[[zone|区域]]来收获。它们可以生吃、烹饪或酿造成[[alcohol|杨梅酒]]，因此您可以考虑利用它们，而不是砍伐它们来制作[[charcoal|木炭]]。
+
+树叶和果实可以在[[dyer's shop|染坊]]中加工成[[dye|染料]] - 树叶制成黄色，果实制成蓝色。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]杨梅树的''蜡质浆果''。
+
+[[File:Myrica rubra3.jpg|thumb|center|300px|因其''蜡质浆果''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

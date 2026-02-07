@@ -1,0 +1,28 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=Amethyst_man_sprite.png
+|portrait=amethyst_man_portrait.png
+|vary=no
+|contrib=no
+|death=item
+|item=Rough [[amethyst|紫水晶]]s
+}}
+{{av}}
+{{creaturedesc}}
+
+'''紫水晶人'''是一种极其罕见的由固体[[amethyst|紫水晶]]制成的拟人化[[creature|生物]]，本质上是[[gem|宝石]]魔像，只在最深的[[cavern|洞穴]]中被发现。它们是非智能的、攻击性的[[construct creature|构造生物]]，没有生命，[[No Pain|感觉不到疼痛]]，感觉不到恐惧，[[No Stun|无法被击晕]]，[[No Exert|永不疲倦]]，不需要呼吸，没有思维中枢，是二类[[building destroyer|建筑破坏者]]。它们与[[human|人类]]一样大。
+
+紫水晶人是体面的战士，几乎肯定会杀死手无寸铁的平民，因为普通的拳打脚踢只会从它们的岩石外壳上滑开。然而，装备的[[military|军队]]会快速解决它们，像[[short sword|短剑]]和[[battle axe|战斧]]这样的刃类武器比[[war hammer|战锤]]更可取；虽然锤矮人可以击打紫水晶人直到它的身体骨折和粉碎，但斧矮人将能够更快地砍断它们的肢体。如果玩家感到有创意，紫水晶人也可以遭受长距离坠落、[[cave-in|塌方]]或[[magma|岩浆]]。死亡时，它们会留下一颗可供你的[[jeweler|珠宝匠]]使用的粗糙[[amethyst|紫水晶]][[gem|宝石]]。它们无法在[[object testing arena|物品测试场]]中生成。
+
+一些矮人因其''岩石特性''而[[Preferences|喜欢]]紫水晶人。
+
+{{Translation| dwarven = alron udos | elvish = fece onino | goblin = exost ngorûg | human = zebna abo}}
+[[File:Amethyst man.png|thumb|200px|center|因其''岩石特性''而受赞赏。<br><small>''艺术作者：Fault''</small>]]
+
+{{D for Dwarf}}
+<!-- Reference: "Steven Universe" cartoon series -->
+据知紫水晶人是在被剥夺所有生命的巨大洞穴中创造的，可能在[[pink garnet|粉红石榴石]]、[[pearl|珍珠]]和[[rose quartz|蔷薇石英]]附近被发现。它们在战斗中挥舞镶嵌紫水晶的鞭子。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

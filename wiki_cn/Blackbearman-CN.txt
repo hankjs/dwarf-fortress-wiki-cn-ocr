@@ -1,0 +1,19 @@
+{{Creaturelookup/0
+|image=black_bear_man_sprite.png
+|portrait=black_bear_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+'''黑熊人'''是普通[[black bear|黑熊]]的[[animal people|兽人]]变体，可以在[[savage|野蛮]][[temperate|温带]][[forest|森林]]和[[taiga|泰加林]]中发现，成群出现，数量在2-10个之间，并保留其动物对应物的[[Thief|偷窃]]倾向，只要有机会就会带走你的食物和喝掉你的酒。它们比[[dwarf|矮人]]大得多，如果被激怒，可以轻易将[[peasant|农民]]撕成碎片。
+
+像其他野蛮兽人一样，黑熊人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]黑熊人，因为他们的''力量''。
+==琐事==
+*目前，黑熊人和[[grizzly bear man|灰熊人]]共享相同的精灵图。
+[[File:black_bear_woman_preview.jpg|thumb|300px|center|几乎发明了"熊舞"，精灵试图模仿。<br><small>''Art by Sarasti''</small>]]
+{{Translation| dwarven = udir uvel udos | elvish = opa atha onino | goblin = ogur ron ngorûg | human = oth rorec abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

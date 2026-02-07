@@ -1,0 +1,69 @@
+{{migrated article}}
+{{Quality|Unrated}}
+{{Skill
+| color      = 3:0
+| skill      = Astronomer
+| profession = Scholar
+| job name   =
+| tasks      = * 思考
+* 讨论
+* 研究
+| attributes =
+*记忆力
+*未知
+}}
+{{av}}
+
+'''天文学家'''是一种[[scholar|学者]]技能，学者在思考天文学[[topics|主题]]时使用：
+
+{{DF2014:Topic/table/astronomy}}
+
+也可能还有这些[[topic#Engineering|工程]]主题：
+
+{| class = "wikitable sortable" style="width: 60%"
+! scope="col" style="width: 25%;" | 主题
+! scope="col" style="width: 50%;" | 描述
+! scope="col" style="width: 25%;" | 维基百科链接
+! scope="col" style="width: 25%;" | 分支
+! scope="col" style="width: 25%;" | 研究中使用的技能
+|-
+|浑天仪
+|浑天仪的构造和使用
+|[[wikipedia:Armillary sphere|浑天仪]]
+|天文学
+|[[Mechanic|机械师]]
+|-
+|星盘
+|星盘的构造和使用
+|[[wikipedia:Astrolabe|星盘]]
+|天文学
+|[[Mechanic|机械师]]
+|-
+|测距仪
+|测距仪的构造和使用
+|[[wikipedia:Dioptra|测距仪]]
+|天文学
+|[[Mechanic|机械师]]
+|-
+|壁式仪器
+|壁式仪器或'''壁象限仪'''的构造和使用
+|[[wikipedia:Mural instrument|壁式仪器]]
+|天文学
+|[[Mechanic|机械师]]
+|-
+|太阳系仪
+|太阳系仪的构造和使用
+|[[wikipedia:Orrery|太阳系仪]]
+|天文学
+|[[Mechanic|机械师]]
+|-
+|球面星盘
+|球面星盘的构造和使用
+|[[wikipedia:Astrolabe|星盘]]
+|天文学
+|[[Mechanic|机械师]]
+|}
+
+
+{{Skills}}
+{{Category|Scholarship}}

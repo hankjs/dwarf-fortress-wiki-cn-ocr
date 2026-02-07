@@ -1,0 +1,8 @@
+{{Quality|Superior}}
+{{av}}
+{{catbox}}<onlyinclude>
+'''两栖'''生物（那些拥有{{token|AMPHIBIOUS}}[[token|标记]]的生物）可以在水下和陆地上移动和呼吸，并且可以沿着任何未屏蔽的水路进入你的要塞。它们可以在被淹没的地图边缘生成，而且在大型掠食者如[[cave crocodile|洞穴鳄鱼]]的情况下，可能对[[fishing|渔夫]]构成相当大的危险。同时拥有{{token|MOUNT}}或{{token|MOUNT_EXOTIC}}标记的两栖生物可以被（呼吸空气的）[[siege|攻城者]]骑入战斗，当整个[[squad|小队]]的[[goblin|哥布林]]因为他们的[[alligator|短吻鳄]]潜入你的[[moat|护城河]]而全部死亡时，会引起一些滑稽的场面。
+[[File:amphibious_preview.png|thumb|260px|center|青蛙，人们所知的最"典型"的两栖动物。]]
+</onlyinclude>
+{{Category|Creature attributes}}
+[[ru:Amphibious]]

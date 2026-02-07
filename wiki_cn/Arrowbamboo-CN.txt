@@ -1,0 +1,9 @@
+
+{{Quality|Fine}}
+{{grasslookup/0|wiki=Fargesia}}{{av}}
+
+'''箭竹'''是一种在[[temperate|温带]][[Forest#Temperate_coniferous_forests|针叶林]]中发现的[[grass|草]]。它是[[panda|熊猫]]可以取食的三种草之一（其他两种是[[golden bamboo|金竹]]和[[hedge bamboo|绿篱竹]]）。
+
+[[File:Pseudosasa japonica2.jpg|thumb|350px|center|箭竹]]
+{{gamedata}}
+{{Plants}}

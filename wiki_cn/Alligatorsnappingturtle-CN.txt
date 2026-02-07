@@ -1,0 +1,35 @@
+{{Quality|Fine}}
+{{creaturelookup/0
+|image=alligator_snapping_turtle_sprites.png
+|portrait=alligator_snapping_turtle_portrait_anim.gif
+|meat=12
+|fat=12
+|bone=17
+|skull=1
+|shell=1
+|brain=1
+|heart=1
+|lung=2
+|scale=1
+|kidney=2
+|spleen=1
+|sweetbread=1
+|tripe=1
+|liver=1
+|intestine=1
+|contrib=no
+|wiki=yes}}
+
+{{av}}
+{{creaturedesc}}
+
+'''大鳄龟'''是一种[[amphibious|两栖]][[creature|生物]]，为肉食性，栖息于[[temperate|温带]]地区的[[lake|湖泊]]、[[river|河流]]和[[pool|水塘]]中，通常单独出现。它们比其近亲[[common snapping turtle|普通鳄龟]]更为强大，体重超过普通鳄龟的两倍以上，体型甚至比一般的[[dwarf|矮人]]还要大。如果受到挑衅，它们会进行反击撕咬，可能导致手指或手掌丢失……甚至整个矮人。
+
+大鳄龟可以用[[cage trap|笼子陷阱]]捕捉，并通过[[Animal trainer|动物训练师]]训练成廉价的异域[[pet|宠物]]. 由于体型比[[common snapping turtle|普通鳄龟]]更大，[[butcher|屠宰]]后能提供更多的[[meat|肉]]和[[bone|骨头]]。它们还可以被放置在[[nest box|巢箱]]中产[[egg|蛋]]，用于[[cook|烹饪]]。
+
+一些矮人喜欢大鳄龟，因为它们''凶猛的咬合力''和''长长的脖子''。
+
+[[Image:Alligator snapping turtle.jpg|thumb|center|400px|Admired for their ''vicious bites''.]]
+
+{{gamedata}}
+{{creatures}}

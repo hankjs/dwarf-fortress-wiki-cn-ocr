@@ -1,0 +1,53 @@
+{{Quality|Superior}}
+{{av}}
+{{Noble
+| noble= Captain of the Guard
+| office= Office
+| quarters= Quarters
+| dining= Dining Room
+| stands=1
+| racks=1
+| chests=1
+| cabinets=1
+|arrival=
+*Appointed on [[nobles screen]] or military screen
+*Requires [[mayor]]
+| function=
+* Law enforcement
+* Leading the [[fortress guard]]
+}}
+
+'''卫队队长'''是负责[[fortress|要塞]]内部安全的任命[[noble|贵族]]职位。他们有简单的[[zone|房间]]要求。
+
+一旦要塞选出了市长并达到50人口，[[sheriff|治安官]]职位将消失（任何已任命的治安官将自动恢复为平民），卫队队长职位将在{{menu icon|n}}[[Nobles screen|贵族界面]]中可用。在{{menu icon|q}}[[Military interface|军事界面]]中，一个"卫队队长"[[squad|小队]]（尚未分配成员）将出现在中队列表的顶部。可以通过两个界面任命卫队队长。
+
+卫队队长领导[[fortress guard|要塞卫队]]，除了常规军事职责外，还协助执行[[justice|司法]]，调查犯罪、[[Dungeon (zone)|抓捕]]罪犯和施行殴打。因此，卫队队长既充当治安官又充当[[militia captain|民兵队长]]。一旦你的要塞达到中等人口，准备好挖掘并布置房间以满足中等队长的额外房间要求。参见[[fortress guard|要塞卫队]]了解为什么你可能希望你的卫兵是正义的''反面''。
+
+满足卫队队长所需的笼子和/或约束装置数量可以通过查看{{menu icon|j}}司法菜单并切换到要塞卫队标签来访问。第一行应显示所需数量。这与关于缺少笼子和约束装置的负面想法相关。
+
+当与卫队队长[[talking|交谈]]时，冒险者可以要求加入[[fortress guard|要塞卫队]]（作为矮人版的[[hearthperson|家臣]]）；他们的接受需要一定的[[reputation|声望]]和（可能{{verify}}）一个空的小队位置。
+{{gamedata|	[POSITION:CAPTAIN_OF_THE_GUARD]
+		[NAME:captain of the guard:captains of the guard]
+		[SITE]
+		[NUMBER:1]
+		[RESPONSIBILITY:LAW_ENFORCEMENT]
+		[SQUAD:10:fortress guard:fortress guards]
+		[APPOINTED_BY:EXPEDITION_LEADER]
+		[APPOINTED_BY:MAYOR]
+		[REQUIRES_POPULATION:50]
+		[REQUIRES_MARKET]
+		[PRECEDENCE:105]
+		[DO_NOT_CULL]
+		[COLOR:1:0:1]
+		[ACCOUNT_EXEMPT]
+		[DUTY_BOUND]
+		[REQUIRED_BOXES:1]
+		[REQUIRED_CABINETS:1]
+		[REQUIRED_RACKS:1]
+		[REQUIRED_STANDS:1]
+		[REQUIRED_OFFICE:250]
+		[REQUIRED_BEDROOM:250]
+		[REQUIRED_DINING:250]}}
+{{Nobles}}
+{{Category|Military Ranks}}
+{{Category|Justice}}

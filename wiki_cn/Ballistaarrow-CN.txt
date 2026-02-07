@@ -1,0 +1,16 @@
+{{Quality|Superior}}
+{{av}}
+
+[[File:ballista_arrow_preview.png|right]]'''弩炮箭'''本质上是巨型[[arrow|箭]]，在[[siege workshop|攻城工坊]]制作，被[[ballista|弩炮]]用作弹药。有两种类型：
+* 简单的木制弩炮箭，在攻城工坊由[[siege engineer|攻城工程师]]用一单位[[wood|木材]]"组装"，
+* 以及更强的金属弩炮箭，首先需要在[[metalsmith's forge|金属工匠熔炉]]由[[weaponsmith|武器工匠]]用三单位[[metal|金属]]锭制作弩炮箭头，然后在攻城工坊由[[siege engineer|攻城工程师]]用[[wood|木材]]进行最终组装。
+
+对于木制箭，使用的[[wood|木材]]类型会影响其强度，较重的木材类型如[[glumprong|暗木]]或[[blood thorn|血棘]]更好；对于金属箭，用于箭杆的木材类型无关紧要，因为游戏将整支箭视为金属制成。弩炮箭头和完成的弩炮箭都储存在家具/攻城弹药仓库的攻城弹药部分。
+
+对于这样一个大型、笨重、不准确的武器，木制弩炮箭的效果出奇地低，只造成相对较小的钝器伤害。另一方面，金属弩炮箭极其致命，如果箭矢正面击中，可以杀死排成一线的两头成年[[elephant|大象]]；你击中的任何[[goblin|哥布林]]都会被涂抹在它们站立的空间上。
+
+制作箭头既繁琐又耗费资源，而且[[catapult|投石机]]和[[ballista|弩炮]]在使用时都以相同的速度训练[[siege operator|攻城操作员]]技能。由于[[catapult|投石机]]使用你可以从地上捡起的[[stone|石头]]，它们是操作员更好的练习平台，而装有''金属''箭的弩炮则是更强大的实际武器平台。因此，几乎没有理由生产木制弩炮箭。
+
+{{Gamedata|{{raw|v50:item_siegeammo.txt|ITEM_SIEGEAMMO|ITEM_SIEGEAMMO_BALLISTA}}}}
+{{Category|Ammo}}
+[[Ru:Ballista arrow]]

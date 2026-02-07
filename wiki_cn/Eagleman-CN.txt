@@ -1,0 +1,25 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=eagle_man_sprite.png
+|portrait=eagle_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''鹰人'''是常见[[eagle|鹰]]的[[animal people|兽人]]变种，可以在大多数[[savage|野蛮]][[biome|生物群系]]中找到，会以1-3个体的群体出现，通常满足于独善其身。就体型而言，它们的体重略高于普通[[dwarf|矮人]]的一半。所有鹰人生来就拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮兽人一样，鹰人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并可在[[adventurer mode|冒险模式]]中游玩。
+
+一些矮人因为鹰人的''高空翱翔''而[[Preferences|喜欢]]它们。
+
+[[File:eagle_man.jpg|thumb|300px|center|''Art by Kitslams Art'']]
+
+{{D for Dwarf}}
+
+<!-- Reference: 'Hotel California' by, of course, The Eagles-->
+一些鹰人音乐家偶尔会唱关于一家奇怪旅店的歌曲，旅客可以随时离开那里，但却永远无法真正离去。这类歌曲总是伴随着弦乐器长达两分钟的独奏。
+
+{{Translation| dwarven = lorsïth udos | elvish = osime onino | goblin = kedusm ngorûg | human = ica abo}}
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

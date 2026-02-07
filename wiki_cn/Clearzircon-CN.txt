@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_clear_zircon_sprite.png
+|graphic2=rough_clear_zircon_sprite.png
+|wiki=zircon}}{{av}}
+
+'''透明锆石'''是半宝石级的[[gems|宝石]]，以小型矿簇的形式存在于所有[[igneous|火成岩]]和[[metamorphic|变质岩]]岩层中。其[[material value|材料价值]]为25，是所有锆石类型中最高的 - 所有类型的彩色锆石虽然仍是半宝石级，但材料价值只有20。
+
+==在现实生活中==
+在现实生活中，高质量的无色锆石通常用于制作仿制[[diamond|钻石]]。它更高的价值可能是为了反映这一点。
+
+[[File:Beau-sancy.jpg|center|thumb|290px|Pear double rose cut clear zircon.]]
+
+{{gamedata}}
+{{gems}}

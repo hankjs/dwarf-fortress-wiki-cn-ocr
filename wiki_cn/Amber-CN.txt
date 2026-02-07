@@ -1,0 +1,28 @@
+{{Quality|Fine}}
+{{av}}
+
+'''琥珀'''是一种由化石树脂制成的[[material|材料]]。尽管它从第一个版本开始就存在于《矮人要塞》中，但琥珀从未在游戏中发挥作用，因为你的矮人无法生产它（即使[[furniture|家具]]和[[finished goods|成品]][[stockpile|储物堆]]在"其他材料"列表中包含琥珀）。拥有{{token|OCEAN_PRODUCTS|e}}的文明（并且靠近适当的海洋）可以使用这种材料并将其制成工艺品。因此，关于这种材料或它在游戏中的用途知之甚少，尽管将来可能仍会实现某种用途。[[Titan|泰坦]]、[[forgotten beast|遗忘之兽]]和[[demon|恶魔]]偶尔会由琥珀制成，尽管像所有非肉质的程序生成生物一样，这些生物被杀死后只会留下琥珀的''碎片''。琥珀具有与雪、[[mud|泥]]和[[vomit|呕吐物]]完全相同的材料属性——即使用拳头打它几下也可能足以杀死由它制成的生物。
+
+琥珀是游戏中三种未实现的有机材料之一，另外两种是[[coral|珊瑚]]和[[pearl|珍珠]]。矮人仍然可以有对这些材料的[[preference|偏好]]；更令人烦恼的是，[[noble|贵族]]仍然可以发布涉及这些材料的[[demand|需求]]。
+
+[[File:amber2.png|thumb|230px|center|化石的材料。]]
+
+{{Translation
+| dwarven = thukkan
+| elvish  = ilí
+| goblin  = rud
+| human   = kuppo
+}}
+
+{{D for Dwarf}}
+<!-- Reference: Amber alerts for missing children -->
+众所周知，贵族会在收到哥布林[[thief|偷婴者]]的报告后要求琥珀制品。
+
+<!-- Reference: "Jurassic Park" science fiction media franchise -->
+一些矮人相信可以从困在琥珀中的[[mosquito|蚊子]]中重新创造古代[[megabeast|超级野兽]]。
+
+{{gamedata|{{raw|DF2014:hardcoded_materials.txt|MATERIAL|AMBER}}}}
+{{materials}}
+
+{{Category|Materials}}
+[[ru:DF2012:Amber]]

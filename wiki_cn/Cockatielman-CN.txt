@@ -1,0 +1,15 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=cockatiel_man_sprite.png
+|portrait=cockatiel_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''玄凤鹦鹉人'''是普通[[cockatiel|玄凤鹦鹉]]的[[animal people|动物人]]变种，栖息于[[savage|野蛮]][[desert|沙漠]]和[[temperate|温带]][[grassland|草原]]。它们以5-10个体的群体出现，通常满足于保持独立。就体型而言，它们的体重略超过普通[[dwarf|矮人]]的一半。所有玄凤鹦鹉人天生拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他野蛮动物人一样，玄凤鹦鹉人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]玄凤鹦鹉人，因为它们的''冠羽''。
+
+{{gamedata}}
+{{Creatures}}

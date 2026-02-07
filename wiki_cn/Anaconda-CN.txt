@@ -1,0 +1,36 @@
+{{Quality|Fine}}
+{{creaturelookup/0
+|image=anaconda_sprites.png
+|portrait=anaconda_portrait_anim.gif
+|bone=8
+|skin=scale
+|skull=1
+|fat=3
+|meat=3
+|lung=2
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=1
+|contrib=no
+|wiki=yes}}
+{{av}}
+{{creaturedesc}}
+
+'''森蚺'''是在[[tropical|热带]][[wetland|湿地]]中发现的独居[[creature|生物]]。与其他蛇不同，它们不携带毒性[[syndrome|综合征]]，但因其是游戏中最大的普通蛇类物种之一而与众不同，体型几乎是[[dwarf|矮人]]的两倍。像其他蛇一样，它们在整个生命中持续生长，在20岁时达到最大[[size|体型]]，尽管一些森蚺可能在10岁时就死于衰老，那时它们大约和[[goat|山羊]]一样大。
+
+森蚺可以用[[cage|笼子]][[trap|陷阱]]捕获，并[[Animal trainer|训练]]成珍奇[[pet|宠物]]。由于缺乏四肢，如果[[butcher|屠宰]]，它们提供的[[meat|肉]]和[[bone|骨头]]很少，但会提供大量的[[prepared organs|制备器官]]。用森蚺部件制成的产品价值是普通动物的[[Multiply value|三倍]]。与大多数爬行动物不同，它们是胎生而不是产[[egg|蛋]]。
+
+一些矮人[[Preferences|喜欢]]森蚺，因为它们的''巨大体型''。
+
+[[Image:Anaconda Loreto Peru.jpg|thumb|center|400px|因其''巨大体型''而受到赞赏。]]
+
+{{D for Dwarf}}
+它不想要任何东西，除非你有面包，所以只要你身上没有面包，你应该是安全的。
+
+{{gamedata}}
+{{creatures}}

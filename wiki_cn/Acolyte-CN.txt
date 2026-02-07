@@ -1,0 +1,26 @@
+{{Quality|Tattered}}
+{{Noble
+| noble= Acolyte
+}}
+{{av}}
+
+'''侍僧'''（Acolytes）是[[elf|精灵]]文明使用的次要[[noble|贵族]]职位，由[[druid|德鲁伊]]任命。每个文明只会有其中一个，他们没有分配的职责。关于他们唯一值得注意的是，如果当前德鲁伊遭受[[war|通常的不幸事故]]，他们会上升到[[druid|德鲁伊]]的位置。
+
+他们由德鲁伊任命，因此充当他们的指定继承人。
+
+虽然他们可以在[[adventurer mode|冒险者模式]]中遇到，但他们通常不会在[[fortress mode|要塞模式]]中出现。
+
+{{gamedata|	[POSITION:ACOLYTE]
+		[NAME:acolyte:acolytes]
+		[NUMBER:1]
+		[MENIAL_WORK_EXEMPTION]
+		[PUNISHMENT_EXEMPTION]
+		[APPOINTED_BY:DRUID]
+		[PRECEDENCE:100]
+		[FLASHES]
+		[BRAG_ON_KILL]
+		[CHAT_WORTHY]
+		[DO_NOT_CULL]
+		[COLOR:2:0:0]
+		[DUTY_BOUND]}}
+{{nobles}}

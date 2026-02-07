@@ -1,0 +1,27 @@
+{{Quality|Exceptional|18:51, 6 February 2017 (UTC)}}
+{{creaturelookup/0
+|image=armadillo_sprites.png
+|portrait=armadillo_portrait_anim.gif
+|meat=7
+|fat=7
+|intestine=1
+|bone=4
+|skull=1
+|shell=1
+|skin=hide
+|contrib=no
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''犰狳'''是栖息在大多数[[tropical|热带]][[biome|生物群系]]的小型独居[[Creature|动物]]。它们比普通的[[cat|猫]]稍大一些，是温和的漫游者，除了漫无目的地四处游荡外几乎什么都不做。当受到威胁时，犰狳会蜷缩成一个球；在这种状态下，它们既不会移动也不会攻击，这使它们类似于缩进[[shell|壳]]里的[[giant tortoise|巨龟]]。雄性犰狳称为''公兽''（boars），雌性称为''母兽''（sows），幼崽称为''幼兽''（pups）。
+
+犰狳可以被[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|驯兽师]]训练成低价值的异域[[pet|宠物]]。由于体型相当小，它们被[[butcher|屠宰]]时提供不了多少[[food|食物]]或[[bone|骨头]]，但确实会提供一个可供[[bone carver|骨雕师]]使用的壳。
+
+一些矮人[[Preferences|喜欢]]犰狳，因为它们''厚实的骨质装甲板''。
+
+[[File:Armadillo2.jpg|thumb|400px|center|因其''厚实的骨质装甲板''而受到赞赏。]]
+
+{{gamedata}}
+{{creatures}}

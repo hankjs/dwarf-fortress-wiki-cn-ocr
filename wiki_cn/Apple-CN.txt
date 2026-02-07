@@ -1,0 +1,39 @@
+{{Quality|Exceptional}}
+{{Treelookup/0
+|graphic=apple_trunk_sprite.png
+|product=apple_sprite.png
+|sapling=apple_sapling.png}}
+{{av}}
+
+'''苹果'''是地面上发现的许多[[tree]]属之一。像大多数树木一样，苹果[[wood]]是棕色的，生产棕色产品。
+
+苹果树结出苹果，可以通过设置采集[[zone]]来收获。它们可以生吃、烹饪或酿造成美味的[[alcohol|苹果酒]]，因此您可能会考虑利用它们，而不是砍伐它们来制造[[charcoal]]。它们还会掉落叶子，可以用袋子收集。苹果叶不能烹饪或酿造，但可以制成[[dye]]。
+
+原木和叶子可以在[[dyer's shop]]中加工成[[dye|染料]]——原木用于玫瑰色，叶子用于黄色。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]苹果树，因为它们的''果实''。
+
+
+[[File:Apfelbaum Winterrambour Hochstamm.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+{{Translation
+| dwarven = bemòng
+| elvish  = fena
+| goblin  = slusna
+| human   = ramet
+}}
+
+
+{{D for Dwarf}}
+
+<!-- Reference: Sir Isaac Newton -->
+一个苹果曾经落在一个[[scholar]]的头上，将他的头砸进他的身体，成为难以辨认的一团。因此，[[physics|矮人物理学]]领域诞生了。
+
+<!-- Reference: Apple, Inc. and the rivalry between macOS, Windows, and Linux -->
+苹果是由两个名叫Steve的[[human]]发明的。人类中一个有充分记录但鲜为人知的现象是，对[[window]]的[[preference]]强烈相关于对苹果的强烈厌恶，反之亦然。奇怪的是，喜欢[[penguin]]的人类往往对两者都有深刻的厌恶。
+
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

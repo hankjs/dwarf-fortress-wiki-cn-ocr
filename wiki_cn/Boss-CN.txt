@@ -1,0 +1,15 @@
+{{Quality|Superior}}
+{{av}}
+
+:''关于其他游戏中有时与"boss"混淆的巨大野兽，请参阅关于[[Megabeast|超级巨兽]]、[[Semi-megabeast|准超级巨兽]]、[[Forgotten beast|被遗忘的野兽]]和[[Titan|泰坦]]的文章，但请注意它们都包含轻微剧透。''
+
+'''首领'''是[[criminal|犯罪分子]]团伙的领导者，特别是领导犯罪组织或强盗团伙。他们也可能被称为头目、主人、军阀、酋长等。
+
+犯罪首领通常可以在[[dungeon|地牢]]中找到，而强盗头目可以在[[camp|营地]]中找到。当你遇到他们时，他们会像游戏中的其他领导者一样闪烁。他们实际上被视为各自居住地的[[Quest#Commander|领主]]，这意味着与首领交谈（如果他们还没有被激怒）将允许你作为[[Hearthperson|副官]]加入他们，声称占领他们的领土等。首领通常在某种程度上是[[intrigue|阴谋]]系统的一部分。
+
+犯罪首领及其下属偶尔可能是[[Combat skill|武器大师]]，而且通常是在[[world generation|世界生成]]期间生成的唯一人选。首都城市中的某些犯罪首领还会配备一系列随机的大师级品质物品。
+
+{{V50 misc professions}}
+[[ru:Boss]]
+{{Category|Non-player characters}}
+{{Category|Nobles}}

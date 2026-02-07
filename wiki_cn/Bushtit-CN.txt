@@ -1,0 +1,17 @@
+{{Quality|Fine}}
+{{verminlookup/0
+|image=bushtit_sprite.png
+|portrait=bushtit_portrait.png
+|wiki=Aegithalidae
+}}
+{{av}}
+{{creaturedesc}}
+
+'''长尾山雀（Bushtits）'''是一种栖息在[[temperate|温带]][[forest|森林]]的[[above ground|地上]][[vermin|害虫]]。它们可以用[[animal trap|动物陷阱]]捕获并变成[[pet|宠物]]。所有长尾山雀都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+一些矮人[[Preferences|喜欢]]长尾山雀的''小体型''和它们的''啾啾叫的群体''。
+
+[[File:Aegithalos caudatus side-on.jpg|thumb|400px|center|因其''啾啾叫的群体''而受到欣赏。]]
+
+{{gamedata}}
+{{vermin}}

@@ -1,0 +1,44 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=draltha_sprites.png
+|portrait=draltha_portrait.png
+|wiki=no
+|contrib=no
+|bone=28-40
+|meat=25-108
+|fat=12-36
+|eye=2
+|lung=4-6
+|heart=1
+|intestine=7-10
+|liver=2-3
+|tripe=2-3
+|sweetbread=1
+|spleen=1
+|kidney=2
+|brain=2-3
+|skull=1
+|skin=hide
+|teeth=1
+}}
+{{av}}
+{{creaturedesc}}
+
+'''Dralthas'''是巨大的[[creature|生物]]，栖息在第一层和第二层[[Caverns|地下]]洞穴中。它们不会主动寻找战斗，但体型巨大——大约是[[elephant|大象]]体重的一半——能够轻松杀死一个[[dwarf|矮人]]，往往会在此过程中把矮人撕成两半。建议将它们引诱进[[cage|笼子]][[trap|陷阱]]，或者如果它们进入常用通道时让矮人远离它们，因为当矮人频繁擦身而过时它们会发起攻击。
+
+一旦捕获，dralthas可以通过[[animal trainer|动物训练师]]进行训练，并拥有500的高[[pet|宠物]]价值。Draltha产品的价值是[[domestic animal|家畜]]产品的三倍，而且它们足够常见，很容易捕获一群进行繁殖。它们的大体型意味着屠宰时会产生大量的肉和骨头。请记住，它们是食草动物，一旦驯化就需要[[pasture|牧场]]才能生存。由于体型较大，每只都需要相当大的牧场。
+
+与大多数动物不同，dralthas无法在[[object testing arena|物品测试竞技场]]中生成。
+
+一些矮人[[Preferences|喜欢]]dralthas，因为它们''富有光泽的鬃毛''。
+==Gallery==
+<center>
+<gallery widths="300px" heights="300px">
+draltha.jpg|''Art by kruggsmash''
+Notebook_13_Draltha.jpg|''Concept art by Bay 12 Games.''
+Draltha human face neoriceisgood.png|''Art by Neoriceisgood.''
+</gallery></center>
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

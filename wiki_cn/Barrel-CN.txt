@@ -1,0 +1,40 @@
+{{Quality|Superior}}
+{{av}}
+{{v50_item|name=Barrel
+|tile=÷|col=0:6:0
+|graphic=[[File:Iron barrel sprite.png|23px|metal barrel]] / [[File:Barrel_premium.png|wooden barrel]]
+|wood=y
+|stone=n
+|metal=y
+|bars=3
+|glass=n
+|cloth=n
+|leather=n
+|ceramic=n
+|bone=n
+|shell=n
+|gem=n
+|wax=n
+|used for=
+* [[Storage|储存]]（[[Stockpile#Food|食物、液体]]）
+|value=10
+|size=20,000
+|capacity=60,000}}
+'''桶'''是储存单元，像[[bin|箱]]和[[bag|袋]]一样，通过容纳多个相同类型的物品来节省[[stockpile|储物区]]空间。它们可以在[[carpenter's workshop|木匠工坊]]用[[wood|木材]]制作（每个桶需要一根[[log|原木]]）或在[[forge|熔炉]]用[[metal|金属]]锻造（需要3根[[metal|金属]][[bar|条]]）。非岩浆[[forge|熔炉]]还需要一[[bar|条]][[fuel|燃料]]。从图形上看，如果桶是空的，精灵图将显示一个没有盖子的空桶；如果它装满了特定类型的物品，桶的顶部将有匹配的物品从顶部伸出。如果桶包含液体，桶将没有盖子并显示它所含液体的顶部，以及附有一个龙头，使桶看起来像一个小酒桶。如果桶包含[[slurry|浆液]]、糊状物或[[tallow|动物脂]]等内容，桶的顶部将有一个盖子：
+<div style="testB" style="margin-top: 10px; margin-left: 20px;">[[File:barrels_variants_preview.png]]</div>
+
+当桶被清空时，它可以再次使用或存储在类型为桶的家具储物区中，加上适当的材料（木材在其他材料下）和允许的质量。有关在储物区中管理桶的更多信息，请参阅[[using bins and barrels|使用箱和桶]]。
+
+对于大多数用途，桶可以被[[large pot|大锅]]替代，它具有相同的储存容量（并且不需要[[wood|木材]]或[[metal|金属]]），而且只有''相同材料制成的桶''的四分之一重。典型的石锅将比木桶重33%。火粘土"石器"锅与木桶重量相同，而陶器锅更轻但必须上釉。
+
+桶用于建造[[dyer's shop|染坊]]和[[ashery|灰烬作坊]]。使用有价值的大师作品或[[artifact|神器]]桶来建造这些建筑之一可以显著增加要塞[[wealth|财富]]。
+
+桶最多可以容纳60份准备好的餐食、植物或奶酪，30块肉或鱼，任意数量单位的酿造[[alcohol|酒精]]（但只能有一个堆叠），100单位的[[lye|碱液]]或[[milk|牛奶]]，或6000个鸡蛋，无论大小。然而，在[[embark|出发]]时带来的酒精将装在每个只包含最多5个单位的桶中；这是因为酒精桶只允许1个堆叠，而出发物品以5个单位或更少的堆叠出现。
+
+桶的名称可能因情况而异：空桶的名称是它的材料，例如"塔帽桶"，否则桶将以它所包含的内容命名，并附加其材料，例如"矮人酒桶（塔帽）"。此外，如果桶被指定用于储物区，储物区的编号将被附加，例如"矮人酒桶（塔帽）<#1>"。
+[[File:barrel_preview.png|thumb|360px|center|当涉及酒精时，一些矮人称这些为"非常大的杯子"。<br><small>''由Ivankish拍摄''</small>]]
+== 参见 ==
+* [[Large pot|大锅]]
+* [[Storage|储存]]
+* [[Using bins and barrels|使用箱和桶]]
+[[ru:Barrel]]

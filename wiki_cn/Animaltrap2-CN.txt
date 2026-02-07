@@ -1,0 +1,70 @@
+{{Quality|Exceptional}}
+{{av}}
+{{V50_item
+|graphic=[[File:Animal_Trap_Premium.png]]
+|name  = Animal trap
+|tile  = ⌂
+|col   = 6:0:0
+|wood  = yes
+|metal = yes
+|bars  = 1
+|labors=<span></span>
+* [[Trapping]]<br /><br />
+* [[Trapping]]
+|used for=
+* Capture a live [[Vermin|land animal]]
+* Storing small animals
+|value=10
+|size=3,000
+|capacity=30,000
+}}
+<!-- needs more infobox info -->
+[[File:TrappedRat 4448.jpg|thumb|220px|困得像只老- 嗯... 是的...]]'''动物陷阱'''是用于捕捉活[[vermin|害虫]]的[[furniture|家具]]。它们在[[carpenter's workshop|木匠工坊]]用1个原木制作，或在[[metalsmith's forge|金属工匠熔炉]]（在家具菜单中）用1个金属条制作，由启用了[[trapping|捕猎]]劳动的矮人制作。动物陷阱可以由[[wood|木头]]或[[metal|金属]]制成。动物陷阱与其他[[trap|陷阱]]无关。要捕获[[creature|生物]]大小的动物，需要[[cage|笼子]]。
+
+像笼子一样，动物陷阱储存在动物[[stockpile|储存区]]中。要将储存区设置为仅接受空陷阱，转到其'''Custom'''设置，点击左上角的'''None'''阻止所有物品，然后在动物标签中点击"'''Empty animal traps'''"。
+
+==使用==
+要在陆地上捕获害虫，从[[vermin catcher's shop|害虫捕捉者商店]]或[[butcher's shop|屠宰场]]订购任务"'''Capture a live land animal'''"。捕猎者将抓取一个可用的动物陷阱并开始从那里追捕和捕获野生害虫。这可能导致矮人只追捕某些害虫，例如[[cave spider|洞穴蜘蛛]]，如果那些是储存区附近唯一的害虫。或者，要[[captured live fish|在水中捕获害虫]]，从[[fishery|渔场]]订购任务"'''Capture a live fish'''"。[[fisherdwarf|渔夫矮人]]将带一个陷阱，从[[activity zone#Fishing zone|钓鱼区域]]捕获水生害虫（该区域有可捕获的鱼）。你可能想将任务设置为高优先级，以便渔夫优先考虑该任务而不是常规钓鱼。一旦矮人成功捕获活鱼，请确保立即将其分配到[[aquarium|水族馆]] - 如果过了太多时间，鱼最终会窒息而死。
+
+动物陷阱也可以使用{{Menu icon|b|r|t|sep=-}}或'''[[building|建造]]'''-"'''Cages/Restraints'''"-"'''Animal trap'''"建造在任何可行走格子旁边。放置陷阱后，必须用[[fish|鱼]]或[[meat|肉类]]作为诱饵（"大型宝石"选项目前无用）。点击已放置的陷阱以选择其诱饵类型，或将其设置为不使用诱饵。当选择诱饵时，捕猎者将自动去给陷阱下饵（之后你无法移除诱饵）。在经典图形中，有诱饵的动物陷阱在陷阱和诱饵符号之间闪烁，而Premium需要你点击陷阱以查看其内容。当它成功捕获（或未能捕获）害虫时，游戏将发出[[announcement|公告]]，在Premium中显示笼子陷阱图标，在Classic中显示{{DFtext|cd}}。有捕获害虫的陷阱将自动被标记为移除，随后被运回储存区。
+
+确保在有可用害虫的区域建造陷阱，否则陷阱将无法捕获任何东西。如果诱饵放置时间过长，它将开始[[rot|腐烂]]，必须移除建筑物以防止[[miasma|瘴气]]。
+
+建造动物陷阱相对于使用害虫捕捉者商店或屠宰场的主要优势是能够指定位置或[[biome|生物群系]]。它还允许捕猎者在陷阱设置好时执行其他任务。缺点是建造的陷阱需要诱饵才能运作，并且你不能在水下设置有诱饵的陷阱来捕获水生害虫（尽管可以将动物陷阱放置在水面上，只要它与可行走的格子相邻）。
+
+当害虫被捕获时，包含害虫的陷阱将由启用了动物[[hauling|搬运]]劳动的矮人带到接受该类型害虫的动物储存区。被捕获的害虫被视为物品。将其标记为倾倒将把它送到附近的[[garbage dump|垃圾场]]，一旦倾倒，它将消失回到野外。被捕获的害虫可在动物'''Citizens'''{{Menu icon|u}}-'''Pets/Livestock'''标签中查看。要驯服一个，转到害虫捕捉者商店并选择'''Tame a small animal'''。启用了[[animal training|动物训练]]的矮人将把包含未驯服害虫的陷阱带到害虫捕捉者商店，并用生肉或鱼训练它（尽管实际上没有消耗）。驯服后，矮人将把包含现已驯服害虫的动物陷阱运回动物储存区，除非分配到建造的[[cage|笼子或水族馆]]。
+
+任何被捕获的害虫将永久留在动物陷阱中，除非它被分配到已安装的[[cage|笼子或水族馆]]（从而释放陷阱以供重复使用）。不幸的是，害虫不能被分配到[[pasture|牧场]]，因此需要机械化笼子来将它们释放到游戏世界（例如用于[[Silk_farming#Cave_spider_silk_farm|洞穴蜘蛛丝农场]]）。对于[[hateable|可憎]]的害虫，建议将任何已安装的笼子放在远处，以减少经过的矮人获得不快[[thought|想法]]的机会。
+
+具有{{token|GNAWER|c}}的害虫可以从木制动物陷阱中挣脱。这不会破坏陷阱。游戏会在这种情况发生时发出公告；如果发生得太频繁，你最好摆脱木制陷阱，用金属陷阱替换它们。
+
+==成功几率==
+有诱饵的动物陷阱可能会被抢劫，陷阱将需要捕猎者重新下饵。[[item quality|物品质量]]会影响捕获害虫的成功几率。相比之下，普通陷阱有50%的失败几率，而大师级陷阱永远不会失败。
+
+{| class="wikitable"
+! 质量 !! 成功几率
+|-
+| （无） || 50%
+|-
+| -精心制作- || 65%
+|-
+| +精细制作+ || 75%
+|-
+| *优质* || 85%
+|-
+| ≡卓越≡ || 95%
+|-
+| ☼大师级☼ || 100%
+|}
+
+==另见==
+* [[Terrarium|生态缸]]和水族馆 – 用于展示害虫。水族馆是储存水生害虫所必需的，否则它们会死亡。
+
+{{Translation
+| dwarven = emär ïggal
+| elvish  = fela abola
+| goblin  = slulasp stoslo
+| human   = dik losric
+}}
+
+{{buildings}}

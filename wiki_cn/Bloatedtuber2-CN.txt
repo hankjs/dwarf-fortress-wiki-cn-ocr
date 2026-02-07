@@ -1,0 +1,25 @@
+{{Quality|Fine}}
+{{plantlookup|uses=
+* [[Food]]
+* [[Alcohol]]
+|graphic=bloated_tuber_shrub_sprite.png
+|seedimage=bloated_tuber_seeds_sprite.png
+|wiki=no}}
+{{av}}
+'''膨胀块茎'''是一种[[above ground|地上]][[plant|植物]]。它们可以[[food|生吃]]、[[cooking|烹饪]]或[[brewing|酿造]]成<strike>伏特加</strike>[[tuber beer|块茎啤酒]]。
+
+膨胀块茎产生[[seed|种子]]并可以[[farm|种植]]。
+
+*植物价值：2
+*饮料价值：2
+*季节：全年
+
+一些[[dwarves|矮人]]因其''粗壮的形状''而[[Preferences|喜欢]]膨胀块茎。
+
+[[File:PreparedPotatoes.jpg|thumb|center|150px|在现实生活中，块茎的一个例子是土豆。]]
+
+
+{{D for Dwarf}}[[fat|膨胀]]块茎通俗地被称为沙发土豆。
+
+{{gamedata}}
+{{Plants}}

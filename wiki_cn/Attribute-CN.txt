@@ -1,0 +1,1008 @@
+{{Quality|Exceptional}}
+{{av}}
+
+[[File:attributes_v50_preview.png|thumb|262px|right|一个石匠的属性。]]生物拥有众多影响其在各种任务中表现的'''属性'''，分为与身体相关的物理因素和与[[soul|灵魂]]相关的精神因素。
+
+身体属性可以在生物的健康 -> 描述界面查看。灵魂属性可以在生物的个性 -> 特质界面查看。正面属性显示为绿色，负面属性显示为红色，平均属性被省略。这些属性可能列举如下（可能需要高亮显示才能看到）：<br />
+{{DFtext|He is slow to tire and agile, |2:0}}{{DFtext|but he is quite susceptible to disease.|4:0}}
+
+在概览界面上，矮人最突出的六个属性和[[personality_trait|个性特质]]按照它们与平均矮人的差异程度排序总结。使用的形容词比特质界面中使用的更笼统，并且每个特质限制为两个（有创造力和无创造力，强壮和虚弱等）。例如，"无限的创造性想象力"仅列为"有创造力"，而"难以置信地虚弱"只列为"虚弱"。由于概览摘要中使用的一些形容词与特质界面中使用的一些形容词重叠，这可能会有些误导。但是，平均和高于/低于平均一级的特质永远不会在概览界面中列出，所以只有"非常虚弱"或更低的矮人才会在概览中列为"虚弱"。
+
+属性与技能相关联，因此使用盾牌会提高耐力属性，但不会提高记忆力等属性。一个技能提高的不同属性可能不会以相同的量提高。属性和技能的获得和衰退率可以在原始文件中作为[[creature token|生物标记]]进行修改。
+
+== 描述 ==
+游戏内属性描述是基于与[[creature|物种]]平均值的差异计算的<!-- caste average? -->。[[Human|人类]]的中位属性值始终为1000 - 因此，如果[[dwarf|矮人]]的中位数对某个属性高于1000，这意味着中位矮人在该属性上优于中位人类（但是，由于种内变异，个别人类可能优于个别矮人）。同样，如果中位矮人在某个属性上低于1000，那么中位人类在该竞赛中胜过中位矮人。
+
+描述更改的层级是物种中位数上方或下方的250、500、750和1000。有趣的是，如果一个物种的属性中位数低于1000，例如矮人的敏捷性，最低层级将永远不会显示。
+
+这些描述在[[adventurer mode|冒险者模式]]中不使用。
+
+== 身体属性 ==
+表中给出的属性值对应于仅针对矮人的默认种族平均值。修改后的矮人或任何其他生物将报告相同的短语，但基础数字可能非常不同，因为它们是基于物种平均值计算的。几乎在所有情况下，属性值越高越好，这与[[personality trait|个性特质]]相反，后者可能根据情况更喜欢更高或更低。
+
+=== 力量 ===
+改变近战中造成的伤害（增加武器挥舞的速度），增加肌肉质量（更厚的肌肉层也能更好地抵抗伤害，更大的体型通常会更强壮），并增加生物可以携带的重量。更高的力量还会增加大多数生物快速[[gait|步态]]的速度，包括奔跑、翱翔、疾驰和快速游泳，但是，肌肉质量的相应增加最终可能会降低速度以超过增益（对大型生物比矮人更明显）。矮人的中位数1250高于平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 难以置信地强壮
+|-
+| 2000&ndash;2249 || 强大
+|-
+| 1750&ndash;1999 || 非常强壮
+|-
+| 1500&ndash;1749 || 强壮
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000  || 虚弱
+|-
+| 501&ndash;750   || 非常虚弱
+|-
+| 251&ndash;500   || 毫无疑问地虚弱
+|-
+| 0&ndash;250 || 难以置信地虚弱
+|}
+
+===敏捷===
+该属性以与力量相同的方式影响生物快速移动[[gait|步态]]的速度 &mdash; 具有最大敏捷和力量的生物可以比具有最小敏捷和力量的生物跑得更快。中位矮人敏捷900略低于平均值。
+
+因为矮人总体上敏捷性低于平均水平，而且描述是基于与种族平均值的差异，所以没有矮人会显示为"极度笨拙"。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 1900&ndash;5000 || 惊人地敏捷
+|-
+| 1650&ndash;1899 || 极度敏捷
+|-
+| 1400&ndash;1649 || 非常敏捷
+|-
+| 1150&ndash;1399 || 敏捷
+|-
+| 651&ndash;1149  || （无描述）
+|-
+| 401&ndash;650   || 笨拙
+|-
+| 151&ndash;400   || 相当笨拙
+|-
+| 0&ndash;150     || 完全笨拙
+|-
+| （从不显示） || 极度笨拙
+|}
+
+===韧性===
+增加窒息所需的时间。矮人中位数1250高于平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 基本上坚不可摧
+|-
+| 2000&ndash;2249 || 难以置信地坚韧
+|-
+| 1750&ndash;1999 || 相当耐久
+|-
+| 1500&ndash;1749 || 坚韧
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000 || 脆弱
+|-
+| 501&ndash;750 || 非常脆弱
+|-
+| 251&ndash;500 || 显著地脆弱
+|-
+| 0&ndash;250 || 令人震惊地脆弱
+|}
+
+===耐力===
+减少生物疲惫的速度，增加疲劳恢复的速度，增加窒息所需的时间，并且如果这个属性和意志力都有效地高于1750，可以防止因疲惫而倒下。矮人中位耐力1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 绝对不知疲倦
+|-
+| 1750&ndash;1999 || 不知疲倦
+|-
+| 1500&ndash;1749 || 非常缓慢疲劳
+|-
+| 1250&ndash;1499 || 缓慢疲劳
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 容易疲劳
+|-
+| 251&ndash;500 || 非常容易疲劳
+|-
+| 1&ndash;250 || 极度容易疲劳
+|-
+| 0 || 真的容易疲劳
+|}
+
+===恢复===
+增加伤口愈合速度和脂肪流失速度。矮人中位恢复1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 拥有惊人的恢复能力
+|-
+| 1750&ndash;1999 || 难以置信地快速愈合
+|-
+| 1500&ndash;1749 || 相当快速愈合
+|-
+| 1250&ndash;1499 || 快速愈合
+|-
+| 751&ndash;1249  || （无描述）
+|-
+| 501&ndash;750   || 缓慢愈合
+|-
+| 251&ndash;500   || 非常缓慢愈合
+|-
+| 1&ndash;250 || 真的缓慢愈合
+|-
+| 0 || 令人震惊地缓慢愈合
+|}
+
+===抗病性===
+减少可抵抗综合征的效果，增加获得可抵抗综合征抗性的速度，并降低伤口感染的几率。矮人中位抗病性1000正好是人类平均值。拥有5000的抗病性不会授予免疫。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 几乎从不生病
+|-
+| 1750&ndash;1999 || 几乎从不生病
+|-
+| 1500&ndash;1749 || 非常罕见地生病
+|-
+| 1250&ndash;1499 || 罕见地生病
+|-
+| 751&ndash;1249  || （无描述）
+|-
+| 501&ndash;750   || 易患疾病
+|-
+| 251&ndash;500   || 相当易患疾病
+|-
+| 1&ndash;250 || 真的易患疾病
+|-
+| 0 || 惊人地易患疾病
+|}
+
+== 按身体属性分类的技能 ==
+{{SkillsByBodyAttribute}}
+
+==灵魂属性==
+表中给出的属性值对应于仅针对矮人的默认种族平均值。修改后的矮人或任何其他生物将报告相同的短语，但基础数字可能非常不同。几乎在所有情况下，属性值越高越好，这与[[personality trait|个性特质]]相反，后者可能根据情况更喜欢更高或更低。
+
+来自[http://www.bay12forums.com/smf/index.php?topic=60554.msg1413312#msg1413312 Toady One的帖子]：
+<blockquote>
+关于技能：大多数这些属性只影响持续时间，当这是唯一可用的技能效果时，但当适用时它们会被纳入结果。
+</blockquote>
+
+在[[#Skills By Soul Attribute|底部]]是一个列出哪些属性影响哪些技能的列表。[[:Image:DFmental.PNG|这个]]一对图表提供了对医生和士兵有用的灵魂属性的更易读摘要。
+
+===分析能力===
+矮人中位分析能力1250略高于平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 令人敬畏的智力
+|-
+| 2000&ndash;2249 || 伟大的分析能力
+|-
+| 1750&ndash;1999 || 敏锐的智力
+|-
+| 1500&ndash;1749 || 良好的智力
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000 || 差的分析能力
+|-
+| 501&ndash;750 || 非常差的分析能力
+|-
+| 251&ndash;500 || 糟糕的智力
+|-
+| 0&ndash;250 || 惊人地缺乏分析能力
+|}
+
+===专注===
+矮人中位专注1500高于平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+<!-- These values are somewhat suspect... -->
+|-
+| 2500&ndash;5000 || 坚不可摧的专注
+|-
+| 2250&ndash;2499 || 伟大的专注能力
+|-
+| 2000&ndash;2249 || 非常好的专注
+|-
+| 1750&ndash;1999 || 专注能力
+|-
+| 1251&ndash;1749 || （无描述）
+|-
+| 1001&ndash;1250 || 差的专注
+|-
+| 751&ndash;1000 || 相当差的专注
+|-
+| 501&ndash;750 || 真的差的专注
+|-
+| 0&ndash;500 || 绝对无法专注
+|}
+
+===意志力===
+如果这个属性和耐力都有效地高于1750，可以防止因疲惫而倒下。矮人中位意志力1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 坚不可摧的意志
+|-
+| 1750&ndash;1999 || 钢铁般的意志
+|-
+| 1500&ndash;1749 || 大量的意志力
+|-
+| 1250&ndash;1499 || 意志力
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 很少的意志力
+|-
+| 251&ndash;500 || 意志力的巨大缺陷
+|-
+| 1&ndash;250 || 几乎没有意志力
+|-
+| 0 || 绝对没有意志力
+|}
+
+===创造力===
+矮人中位创造力1250略高于人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 无限的创造性想象力
+|-
+| 2000&ndash;2249 || 伟大的创造力
+|-
+| 1750&ndash;1999 || 非常好的创造力
+|-
+| 1500&ndash;1749 || 好的创造力
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000 || 微薄的创造力
+|-
+| 501&ndash;750 || 差的创造力
+|-
+| 251&ndash;500 || 糟糕的创造力
+|-
+| 0&ndash;250 || 几乎没有创造才能
+|}
+
+===直觉===
+矮人中位直觉1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 不可思议的直觉
+|-
+| 1750&ndash;1999 || 伟大的直觉
+|-
+| 1500&ndash;1749 || 非常好的直觉
+|-
+| 1250&ndash;1499 || 好的直觉
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 差的直觉
+|-
+| 251&ndash;500 || 非常差的直觉
+|-
+| 1&ndash;250 || 糟糕的直觉
+|-
+| 0 || 可怕的直觉
+|}
+
+===耐心===
+一些非技能任务受耐心影响；例如，它直接影响[[adventure mode|冒险模式]]中角色在对话期间变得不耐烦的速度，从而决定讨论的长度。
+矮人中位耐心1250略高于人类平均值。
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 绝对无限的耐心
+|-
+| 2000&ndash;2249 || 深厚的耐心储备
+|-
+| 1750&ndash;1999 || 大量的耐心
+|-
+| 1500&ndash;1749 || 一些耐心
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000 || 耐心不足
+|-
+| 501&ndash;750 || 很少的耐心
+|-
+| 251&ndash;500 || 非常少的耐心
+|-
+| 0&ndash;250 || 完全没有耐心
+|}
+
+===记忆力===
+矮人中位记忆力1250略高于人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2250&ndash;5000 || 惊人的记忆力
+|-
+| 2000&ndash;2249 || 令人惊叹的记忆力
+|-
+| 1750&ndash;1999 || 伟大的记忆力
+|-
+| 1500&ndash;1749 || 好的记忆力
+|-
+| 1001&ndash;1499 || （无描述）
+|-
+| 751&ndash;1000 || 不确定的记忆力
+|-
+| 501&ndash;750 || 差的记忆力
+|-
+| 251&ndash;500 || 真的差的记忆力
+|-
+| 0&ndash;250 || 几乎没有记忆力可言
+|}
+
+===语言能力===
+矮人中位语言能力1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 惊人的语言和文字能力
+|-
+| 1750&ndash;1999 || 伟大的语言亲和力
+|-
+| 1500&ndash;1749 || 对语言的自然倾向
+|-
+| 1250&ndash;1499 || 善于辞令
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 在文字方面有点困难
+|-
+| 251&ndash;500 || 很少的语言能力
+|-
+| 1&ndash;250 || 非常少的语言能力
+|-
+| 0 || 在文字和语言方面有困难
+|}
+
+===空间感===
+矮人中位空间感1500高于人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2500&ndash;5000 || 惊人的空间关系感觉
+|-
+| 2250&ndash;2499 || 令人惊叹的空间感
+|-
+| 2000&ndash;2249 || 对周围空间的伟大感觉
+|-
+| 1750&ndash;1999 || 好的空间感
+|-
+| 1251&ndash;1749 || （无描述）
+|-
+| 1001&ndash;1250 || 有疑问的空间感
+|-
+| 751&ndash;1000 || 差的空间感
+|-
+| 501&ndash;750 || 糟糕的空间感
+|-
+| 0&ndash;500 || 没有空间关系感
+|}
+
+===音乐性===
+矮人中位音乐性1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 惊人的音乐天赋
+|-
+| 1750&ndash;1999 || 伟大的音乐感
+|-
+| 1500&ndash;1749 || 对音乐的自然能力
+|-
+| 1250&ndash;1499 || 对音乐的感觉
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 不确定的音乐感
+|-
+| 251&ndash;500 || 很少对音乐的自然倾向
+|-
+| 1&ndash;250 || 几乎没有自然音乐能力
+|-
+| 0 || 绝对没有音乐感觉
+|}
+
+===动觉===
+没有特殊效果，但应该注意的是，它是战斗中最重要的技能控制精神属性。矮人中位动觉1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 对[他/她]自己身体位置的惊人感觉
+|-
+| 1750&ndash;1999 || 伟大的动觉
+|-
+| 1500&ndash;1749 || 对[他/她]自己身体位置的非常好的感觉
+|-
+| 1250&ndash;1499 || 好的动觉
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 微薄的动觉
+|-
+| 251&ndash;500 || 差的动觉
+|-
+| 1&ndash;250 || 非常笨拙的动觉
+|-
+| 0 || 对[他/她]自己身体位置的令人难以置信的糟糕感觉
+|}
+
+===同理心===
+矮人中位同理心1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 对他人情绪的绝对卓越感知
+|-
+| 1750&ndash;1999 || 伟大的同理心
+|-
+| 1500&ndash;1749 || 非常好的同理心
+|-
+| 1250&ndash;1499 || 相当好地解读情绪的能力
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 差的同理心
+|-
+| 251&ndash;500 || 非常差的同理心
+|-
+| 1&ndash;250 || 几乎没有同理心
+|-
+| 0 || 完全无法判断他人的情绪
+|}
+
+===社交意识===
+与领导技能一起，决定冒险模式中的最大追随者数量。矮人中位社交意识1000正好是人类平均值。
+
+{| class=wikitable style="width:400px;"
+! 数值
+! 描述
+|-
+| 2000&ndash;5000 || 对社交关系令人震惊的深刻感觉
+|-
+| 1750&ndash;1999 || 对社交关系的伟大感觉
+|-
+| 1500&ndash;1749 || 对社交关系的非常好的感觉
+|-
+| 1250&ndash;1499 || 对社交关系的好感觉
+|-
+| 751&ndash;1249 || （无描述）
+|-
+| 501&ndash;750 || 微薄的社交关系能力
+|-
+| 251&ndash;500 || 管理或理解社交关系的差能力
+|-
+| 1&ndash;250 || 缺乏对社交关系的理解
+|-
+| 0 || 绝对无法理解社交关系
+|}
+
+== 按灵魂属性分类的技能 ==
+{{SkillsBySoulAttribute}}
+
+== 按相关属性分类的技能 ==
+技能具有主要属性（标记为"A"）和次要属性（标记为"B"和"C"）。主要属性每100点给予奖励，而次要属性每250点给予奖励。矮人的范围和平均值各不相同；请参见上面的描述。
+
+{| border="1" cellpadding="2" style="border-spacing: 0; border-width: 1px; border-style: solid; text-align:center;"
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+!rowspan="144"|
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Miner]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Wood cutter]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Carpenter]] || {{X|A}} || {{X|B}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Engraver]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Mason]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Animal trainer]] || || {{X|A}} || {{X|B}} || {{X|C}} || || || || || {{X|C}} || {{X|B}} || || || || || || {{X|A}} ||
+|-style="background:#f5f5f5;"
+| [[Animal caretaker]] || || {{X|A}} || || || {{X|A}} || || || || || || {{X|B}} || || || || || {{X|C}} ||
+|-
+| [[Fish dissector]] || || {{X|A}} || || || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Animal dissector]] || || {{X|A}} || || || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Fish cleaner]] || || {{X|A}} || || {{X|B}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Butcher]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Trapper]] || || {{X|A}} || || || {{X|A}} || || || {{X|B}} || || || || || {{X|C}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Tanner]] || || {{X|A}} || || || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Weaver]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Brewer]] || {{X|A}} || {{X|B}} || || || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Clothier]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Miller]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Thresher]] || {{X|B}} || {{X|A}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Cheese maker]] || {{X|B}} || {{X|A}} || || {{X|C}} || {{X|B}} || || || {{X|C}} || || || || || || || {{X|A}} || ||
+|-
+| [[Milker]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Cook]] || || {{X|A}} || || || {{X|B}} || || || {{X|C}} || || || || || || || {{X|A}} || ||
+|-
+| [[Planter]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Herbalist]] || || {{X|A}} || || || || || || || || || {{X|B}} || || || || {{X|A}} || ||
+|-
+| [[Fisherdwarf]] || {{X|B}} || {{X|A}} || || || || {{X|A}} || || || || {{X|B}} || || || || || {{X|C}} || ||
+|-style="background:#f5f5f5;"
+| [[Furnace operator]] || {{X|A}} || || {{X|B}} || {{X|C}} || {{X|B}} || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Strand extractor]] || {{X|B}} || {{X|A}} || || {{X|C}} || {{X|B}} || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Weaponsmith]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Armorsmith]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Metalsmith]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Gem cutter]] || || {{X|A}} || || || {{X|C}} || || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Gem setter]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Wood crafter]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Stone crafter]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Metal crafter]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Glassmaker]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Leatherworker]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Bone carver]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Axeman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Swordsman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-
+| [[Knife user]] || {{X|B}} || {{X|A}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Maceman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-
+| [[Hammerman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Spearman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-
+| [[Crossbowman]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-style="background:#f5f5f5;"
+| [[Shield user]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-
+| [[Armor user]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || {{X|B}} || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Siege engineer]] || {{X|A}} || {{X|B}} || || {{X|C}} || {{X|A}} || || || {{X|B}} || || || || || {{X|C}} || || || ||
+|-
+| [[Siege operator]] || {{X|A}} || || {{X|B}} || {{X|C}} || {{X|B}} || {{X|C}} || || || || || || || {{X|A}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Bowyer]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Pikeman]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Lasher]] || {{X|B}} || {{X|A}} || {{X|C}} || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || ||
+|-
+| [[Bowman]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-style="background:#f5f5f5;"
+| [[Blowgunner]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-
+| [[Thrower]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|C}} || || || || || || {{X|A}} || || {{X|B}} || ||
+|-style="background:#f5f5f5;"
+| [[Mechanic]] || {{X|B}} || {{X|A}} || || {{X|C}} || {{X|A}} || || || {{X|B}} || || || || || {{X|C}} || || || ||
+|-
+| [[Druid]] || || {{X|B}} || {{X|C}} || {{X|A}} || || {{X|C}} || {{X|B}} || || || || || || || || || {{X|A}} ||
+|-style="background:#f5f5f5;"
+| [[Ambusher]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-
+| [[Wound dresser]] || || {{X|A}} || || || || || || || || || || || {{X|B}} || || {{X|A}} || {{X|C}} ||
+|-style="background:#f5f5f5;"
+| [[Diagnostician]] || || || || || {{X|A}} || || || || {{X|C}} || || {{X|B}} || || || || || ||
+|-
+| [[Surgeon]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|B}} || || {{X|A}} || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Bone doctor]] || {{X|B}} || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Suturer]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Crutch-walker]] || || {{X|A}} || || {{X|B}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Wood burner]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Lye maker]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Soaper]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Potash maker]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Dyer]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Pump operator]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || {{X|B}} || || || || || || || || {{X|A}} || ||
+|-
+| [[Swimmer]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Persuader]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-
+| [[Negotiator]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-style="background:#f5f5f5;"
+| [[Judge of intent]] || || || || || || || || || {{X|C}} || || || || || || || {{X|A}} || {{X|B}}
+|-
+| [[Appraiser]] || || || || || {{X|A}} || || || || {{X|C}} || || {{X|B}} || || || || || ||
+|-style="background:#f5f5f5;"
+| [[Organizer]] || || || || || {{X|A}} || || || {{X|C}} || || || || || || || || || {{X|B}}
+|-
+| [[Record keeper]] || || || || || {{X|A}} || {{X|C}} || || || || || {{X|B}} || || || || || ||
+|-style="background:#f5f5f5;"
+| [[Liar]] || || || || || || || || {{X|C}} || || || || {{X|A}} || || || || || {{X|B}}
+|-
+| [[Intimidator]] || {{X|A}} || {{X|B}} || || || || || || || || || || {{X|A}} || || || {{X|B}} || ||
+|-style="background:#f5f5f5;"
+| [[Conversationalist]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-
+| [[Comedian]] || || {{X|A}} || || || || || || {{X|B}} || || || || {{X|A}} || || || {{X|C}} || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Flatterer]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-
+| [[Consoler]] || || || || || || || || || || || || {{X|B}} || || || || {{X|A}} || {{X|C}}
+|-style="background:#f5f5f5;"
+| [[Pacifier]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-
+| [[Tracker]] || || || || || {{X|A}} || || || || {{X|B}} || || || || {{X|C}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Student]] || || || || || {{X|B}} || {{X|C}} || || || || || {{X|A}} || || || || || ||
+|-
+| [[Concentration]] || || || || || || {{X|A}} || {{X|C}} || || || {{X|B}} || || || || || || ||
+|-style="background:#f5f5f5;"
+| [[Discipline]] || || || || || || {{X|B}} || {{X|A}} || || || || || || || || || ||
+|-
+| [[Observer]] || || || || || || {{X|B}} || || || {{X|C}} || || || || {{X|A}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Wordsmith]] || || || || || || || || {{X|B}} || {{X|C}} || || || {{X|A}} || || || || ||
+|-
+| [[Writer]] || || || || || || || || {{X|B}} || {{X|C}} || || || {{X|A}} || || || || ||
+|-style="background:#f5f5f5;"
+| [[Poet]] || || || || || || || || {{X|B}} || {{X|C}} || || || {{X|A}} || || || || ||
+|-
+| [[Reader]] || || || || || || {{X|B}} || || || || || {{X|C}} || {{X|A}} || || || || ||
+|-style="background:#f5f5f5;"
+| [[Speaker]] || || || || || || || || || || || || {{X|A}} || || || || {{X|C}} || {{X|B}}
+|-
+| [[Coordination]] || || {{X|A}} || || || || || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Balance]] || {{X|B}} || {{X|A}} || || || || || || || || || || || || || {{X|A}} || ||
+|-
+| [[Leader]] || || || || || || || || || || || || {{X|C}} || || || || {{X|A}} || {{X|B}}
+|-style="background:#f5f5f5;"
+| [[Teacher]] || || || || || || || || || || || || {{X|C}} || || || || {{X|A}} || {{X|B}}
+|-
+| [[Fighter]] || {{X|B}} || {{X|A}} || {{X|C}} || || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Archer]] || || {{X|A}} || || || || {{X|C}} || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-
+| [[Wrestler]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Biter]] || {{X|A}} || || {{X|B}} || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Striker]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Kicker]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Dodger]] || || {{X|A}} || {{X|B}} || {{X|C}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Misc. object user]] || {{X|A}} || {{X|B}} || {{X|C}} || || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Knapper]] || {{X|B}} || {{X|A}} || || || {{X|B}} || || || || || || || || {{X|A}} || || {{X|C}} || ||
+|-style="background:#f5f5f5;"
+| [[Tactician]] || || || || || {{X|A}} || || || {{X|B}} || {{X|C}} || || || || || || || ||
+|-
+| [[Shearer]] || {{X|B}} || {{X|A}} || || {{X|C}} || || || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Spinner]] || {{X|B}} || {{X|A}} || || {{X|C}} || || || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Potter]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Glazer]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Presser]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Beekeeper]] || {{X|B}} || {{X|A}} || || {{X|C}} || {{X|A}} || || || || || || || || {{X|B}} || || {{X|C}} || ||
+|-
+| [[Wax worker]] || || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Climber]] || {{X|B}} || {{X|C}} || || {{X|A}} || || || {{X|C}} || || || || || || {{X|B}} || || {{X|A}} || ||
+|-
+| [[Gelder]] || {{X|A}} || {{X|B}} || || {{X|C}} || || || || || || || || || || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Dancer]] || {{X|C}} || {{X|A}} || || {{X|B}} || || || || || || || || || {{X|B}} || {{X|C}} || {{X|A}} || ||
+|-
+| [[Musician]] || || || || || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|-style="background:#f5f5f5;"
+| [[Singer]] || || || || || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|-
+| [[Keyboardist]] || || {{X|A}} || || || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|- style="background:#e5e5e5;text-align:left;vertical-align:bottom;"
+! style="text-align:center;" | <br><br><br><br><br><br>技能
+{{Rotated-heading|[[#Strength|力量]]}}
+{{Rotated-heading|[[#Agility|敏捷]]}}
+{{Rotated-heading|[[#Toughness|韧性]]}}
+{{Rotated-heading|[[#Endurance|耐力]]}}
+{{Rotated-heading|[[#Analytical_Ability|分析能力]]}}
+{{Rotated-heading|[[#Focus|专注]]}}
+{{Rotated-heading|[[#Willpower|意志力]]}}
+{{Rotated-heading|[[#Creativity|创造力]]}}
+{{Rotated-heading|[[#Intuition|直觉]]}}
+{{Rotated-heading|[[#Patience|耐心]]}}
+{{Rotated-heading|[[#Memory|记忆力]]}}
+{{Rotated-heading|[[#Linguistic_Ability|语言能力]]}}
+{{Rotated-heading|[[#Spatial_Sense|空间感]]}}
+{{Rotated-heading|[[#Musicality|音乐性]]}}
+{{Rotated-heading|[[#Kinesthetic_Sense|动觉]]}}
+{{Rotated-heading|[[#Empathy|同理心]]}}
+{{Rotated-heading|[[#Social_Awareness|社交意识]]}}
+|-style="background:#f5f5f5;"
+| [[Stringed instrumentalist]] || || {{X|A}} || || || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|-
+| [[Wind instrumentalist]] || || {{X|A}} || || {{X|B}} || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|-style="background:#f5f5f5;"
+| [[Percussionist]] || {{X|C}} || {{X|A}} || || {{X|B}} || || {{X|C}} || || {{X|B}} || || || || || || {{X|A}} || || ||
+|-
+| [[Critical thinker]] || || || || || {{X|A}} || || || || || || || || || || || ||
+|-style="background:#f5f5f5;"
+| [[Logician]] || || || || || {{X|A}} || || || || || || || || || || || ||
+|-
+| [[Mathematician]] || || || || || {{X|A}} || || || || || || {{X|C}} || || {{X|B}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Astronomer]] || || || || || {{X|A}} || || || || || || {{X|C}} || || {{X|B}} || || || ||
+|-
+| [[Chemist]] || || || || || {{X|A}} || {{X|B}} || || || || || {{X|C}} || || || || || ||
+|-style="background:#f5f5f5;"
+| [[Geographer]] || || || || || {{X|B}} || || || || || || {{X|C}} || || {{X|A}} || || || ||
+|-
+| [[Optics engineer]] || || || || || {{X|B}} || {{X|C}} || || || || || || || {{X|A}} || || || ||
+|-style="background:#f5f5f5;"
+| [[Fluid engineer]] || || || || || {{X|B}} || {{X|C}} || || || || || || || {{X|A}} || || || ||
+|-
+| [[Papermaker]] || {{X|A}} || {{X|B}} || || || || || || || || || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Bookbinder]] || || {{X|A}} || || || || || || || || || || || {{X|A}} || || {{X|B}} || ||
+|-
+| [[Schemer]] || || || || || || || || {{X|C}} || {{X|B}} || || || || || || || || {{X|A}}
+|-style="background:#f5f5f5;"
+| [[Rider]] || || {{X|A}} || || || || || {{X|C}} || || || || || || || || {{X|A}} || {{X|B}} ||
+|-
+| [[Stonecutter]] || {{X|A}} || {{X|B}} || || || || || || || || {{X|C}} || || || {{X|B}} || || {{X|A}} || ||
+|-style="background:#f5f5f5;"
+| [[Stone carver]] || {{X|B}} || {{X|A}} || || || || || || {{X|C}} || || || || || {{X|B}} || || {{X|A}} || ||
+|}
+
+注释：
+*空间感和动觉几乎无处不在
+*没有任何东西训练抗病性或恢复
+*威吓者和喜剧演员，这两个社交技能，都提高敏捷。矮人喜剧是滑稽/小丑式的，而不是单口相声。
+*学生技能不会提高技能获得，除非在兵营中的师生关系
+*选择训练有用属性的高工作量劳动作为民兵的日常工作/新兵训练营
+*钓鱼、攻城操作和记录保存对弩手有用，因为它们训练专注属性
+*狩猎（伏击/潜行）具有与十字弓和弓箭手技能相同的属性增益
+
+== 矮人属性 ==
+
+每个属性是0到5000之间的数字，但在矮人术语中，低于200的任何东西都很罕见 [http://dffd.bay12games.com/file.php?id=5882]，高于2500的任何东西都是非凡的。在默认原始文件（/raw/objects/creature_standard.txt）中，矮人属性分为四个级别。
+
+专注和空间感被称为"++"，或高于默认两步。它们的范围定义为[700:1200:1400:1500:1600:1800:2500]，设置了六个范围：700-1200、1200-1400等。矮人有相等的机会落入这些范围中的任何一个，并且在该范围内获得任何数字的概率也相等。因此，你的矮人中最低的六分之一将非常低，最高的六分之一非常高，中间的三分之二聚集在平均值附近。这也意味着中位数和平均数略有不同：++的平均值为1516.66...，而中位数为1500。
+
+力量、韧性、分析能力、创造力、耐心和记忆力是+，或高于默认一步。它们的范围是[450:950:1150:1250:1350:1550:2250]，它们的平均值为1266.66...
+
+耐力、抗病性、恢复、直觉、意志力、动觉、语言能力、音乐性、同理心和社交意识是AVG，或默认值。它们的范围在原始文件中未指定，但物理属性为[200:700:900:1000:1100:1300:2000]，精神属性为[200:800:900:1000:1100:1300:2000]。
+
+敏捷是"-"，唯一低于默认值的属性。其范围为[150:600:800:900:1000:1100:1500]，平均870.83...，中位数900。
+
+== 训练属性 ==
+
+看起来各种技能以不同的速率训练各种属性。对于物理属性和意志力，军事训练效果最好 - 它相对快速地给予矮人一些额外的敏捷和力量，使他们在所有领域走得更快、工作更快（根据[http://www.bay12forums.com/smf/index.php?topic=121573.msg3944723#msg3944723]，速度是决定劳动完成速度的一个因素）。
+
+根据[https://www.reddit.com/r/dwarffortress/comments/zquv8f/psa_you_can_build_a_gym_for_your_military_with/] Reddit帖子，力量和耐力可以通过螺旋泵相当快地训练。泵不必与任何液体相邻，矮人仍然会操作它们，泵送空气。
+
+植物采集训练敏捷、动觉和记忆力的程度较小。几年后，植物采集者成为要塞中更快的矮人，并且通常适合转移到任何要求高的工作。
+
+所有属性值的上限基于其初始值、属性的{{token|MENT_ATT_CAP_PERC}}或{{token|PHYS_ATT_CAP_PERC}}值（默认为200）以及属性的''中位''值（即{{token|PHYS_ATT_RANGE}}或{{token|MENT_ATT_RANGE}}中的中间值） - 确切上限是``(起始值 * ATT_CAP_PERC) / 100``或``起始值 + ATT_RANGE.中位数``中的较高者。
+
+学习属性的速度由{{token|PHYS_ATT_RATES}}和{{token|MENT_ATT_RATES}}中的"提高成本"控制。默认情况下，属性的CTI为500，这意味着使用该属性的计数器必须增加500次才能使矮人在该属性上获得1点。CTI越低，属性增加得越快。根据[http://www.bay12forums.com/smf/index.php?topic=66525.msg3993120#msg3993120]，每十个时钟周期使用该属性的技能时，计数器就会增加一次。这意味着需要5000个时间单位或略超过4个游戏日的连续劳动才能将属性提高1点。军事训练带来的改善的属性增益可能源于这样一个事实：对练和个人战斗训练同时训练多个技能。
+
+==标准范围==
+
+游戏预装了几组属性范围，有些比其他更好。数字范围后面的符号表示该范围代表什么级别，但本身没有效果。
+
+{|
+|[0:0:0:0:0:0:0]                     || 无法达到
+|-
+|[0:100:200:300:400:450:500]         || ---
+|-
+|[0:400:600:750:800:900:1100]        || --
+|-
+|[150:600:800:900:1000:1100:1500]    || -
+|-
+|[200:700:900:1000:1100:1300:2000]   || 默认
+|-
+|[450:950:1150:1250:1350:1550:2250]  || +
+|-
+|[700:1200:1400:1500:1600:1800:2500] || ++
+|-
+|[1250:1500:1750:2000:2500:3000:5000]|| +++
+|-
+|[5000:5000:5000:5000:5000:5000:5000]|| 最大
+|}
+
+{{Category|Game mechanics}}
+[[ru:Attribute]]

@@ -1,0 +1,135 @@
+{{Quality|Exceptional}}{{av}}
+{{For/see|built horizontal and vertical bars|[[Bars]]}}
+{{For/see|designated tavern locations|[[Tavern]]}}
+[[File:metal_bars_preview.png|right]]'''金属条'''（也称为"锭"）是建筑材料的一个子类型（在此目的上可与[[block|方块]]互换），是[[metal|金属]]、[[charcoal|木炭]]、[[coke|焦炭]]、[[potash|草木灰]]、[[ash|灰烬]]、[[pearlash|珍珠灰]]和[[soap|肥皂]]的基本单位。所有[[metal|金属]]都在[[smelter|熔炉]]中作为金属条被创建，无论是从[[ore|矿石]]加工、与其他金属[[alloy|合金化]]，还是从现有金属物品[[melt|熔化]]而来。
+
+作为中间产品，金属条从不具有质量等级，并且除肥皂外，不会被矮人直接使用。除建筑外，金属条的用途包括：
+
+{| class="wikitable"
+! 金属条 !! 用途
+|-
+| [[ash|灰烬]] || 制作[[lye|碱液]]或[[potash|草木灰]]
+|-
+| [[fuel|木炭<br />或焦炭]]|| 为标准[[forge|锻炉]]、[[smelter|熔炉]]、[[kiln|窑]]和[[glass furnace|玻璃熔炉]]提供动力，<br />以及制作[[pig iron|生铁]]和[[steel|钢]]
+|-
+| [[metal|金属]] || [[blacksmith|锻造]]
+|-
+| [[pearlash|珍珠灰]] || 制作透明或水晶[[glass|玻璃]]
+|-
+| [[potash|草木灰]] || [[potash|施肥]][[farming|农场]]或制作[[pearlash|珍珠灰]]
+|-
+| [[soap|肥皂]] || [[health care|医疗保健]]和[[cleaning|清洁自身]]
+|-
+|}
+
+所有"金属条"物品的[[size|尺寸]]为6000 cm<sup>3</sup>，这意味着最多10个可以装入一个[[Storage#Quick_Reference|60000容量]]的[[bin|箱子]]。唯一的例外是可能部分使用过的肥皂条。在现实世界中，一块[http://upload.wikimedia.org/wikipedia/commons/c/c6/Gold_bullion_2.jpg 400金衡盎司的金条]是645 cm<sup>3</sup>，这表明矮人要塞的"金属条"物品由多块金属条组成（因为单个"金属条"物品重115公斤）。
+
+只有金属条可以用来建造[[workshop|工坊]]、[[road|道路]]、[[bridge|桥梁]]和其他[[construction|建筑]]。[[adamantine|精金]]金属的"金属条"被称为"薄片"，但当用作建筑材料时，它们的功能与任何其他金属条相同。
+
+<!-- I will turn this into a template when I can! Promise! -->
+==纯金属==
+{{v50 pure metal bars table head}}
+{{v50 metal bars table row|name=Aluminum|tile={{Tile|≡|7:1}}|image=[[File:aluminum_bar_sprite.png]]|source=[[Native aluminum]]|density=2.70|mp=11188|val=40|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Bismuth|tile={{Tile|≡|5:1}}|image=[[File:bismuth_bar_sprite.png]]|source=[[Bismuthinite]]|density=8.93|mp=10488|val=2|valinc=+1|notes=只对合金化为[[bismuth bronze|铋青铜]]有用。}}
+
+{{v50 metal bars table row|name=Copper|tile={{Tile|≡|6:0}}|image=[[File:bismuth_bronze_bar_sprite.png]]|source=[[Native copper]], [[Malachite]], [[Tetrahedrite]]|density=8.93|mp=11952|val=2|valinc=+0, +0, -1*|notes=可用于锻造所有武器、护甲、弹药和镐。}}
+
+{{v50 metal bars table row|name=Gold|tile={{Tile|≡|6:1}}|image=[[File:gold_bar_sprite.png]]|source=[[Native gold]]|density=19.32|mp=11915|val=30|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Iron|tile={{Tile|≡|0:1}}|image=[[File:iron_bar_sprite.png]]|source=[[Hematite]], [[Limonite]], [[Magnetite]]|density=7.85|mp=12768|val=10|valinc=+2|notes=可用于锻造所有武器、护甲、弹药、镐和砧。}}
+
+{{v50 metal bars table row|name=Lead|tile={{Tile|≡|0:1}}|image=[[File:bismuth_bronze_bar_sprite.png]]|source=[[Galena]]|density=11.34|mp=10589|val=2|valinc=-3*|notes=}}
+
+{{v50 metal bars table row|name=Nickel|tile={{Tile|≡|7:0}}|image=[[File:nickel_bar_sprite.png]]|source=[[Garnierite]]|density=8.80|mp=12619|val=2|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Platinum|tile={{Tile|≡|7:1}}|image=[[File:platinum_bar_sprite.png]]|source=[[Native platinum]]|density=21.40|mp=13182|val=40|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Silver|tile={{Tile|≡|7:1}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Native silver]], [[Horn silver]], [[Galena]] (50%), [[Tetrahedrite]] (20%)|density=10.49|mp=11731|val=10|valinc=+0, +0, +5*, +7*|notes=可用于锻造近战武器和弹药。}}
+
+{{v50 metal bars table row|name=Tin|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Cassiterite]]|density=7.28|mp=10417|val=2|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Zinc|tile={{Tile|≡|7:0}}|image=[[File:generic_grey_bar_sprite.png]]|source=[[Sphalerite]]|density=7.13|mp=10755|val=2|valinc=+0|notes=}}
+|}
+''图例：''
+:* '''方块颜色'''对应于由该金属制成的物品在游戏中显示的方式，前景色和背景色。
+:*'''来源'''表示可以提供金属的特定矿石。如果不保证生产金属，则在矿石后标注百分比机会。
+:*'''密度'''用于确定成品的不同重量。
+:*'''[[Material value|材料价值]]'''是用该金属制成的物品的基础价值乘以的倍数，以确定其价值。
+::'''*''' – 带星号标记的值表示可以产生多种金属的矿石。
+:*'''价值差异'''表示金属和矿石之间材料价值的差异，在多个矿石价值不同的情况下用逗号分隔。还要记住，每个矿石巨砾熔炼都会产生多个金属条，从而进一步增加价值差异。
+::'''*''' – 带星号标记的值表示可以产生多种金属的矿石。平均而言，从熔炼[[tetrahedrite|四面体矿]]获得的预期价值差异为+1，[[galena|方铅矿]]为+2。
+
+==合金==
+{{v50 alloy metal bars table head}}
+{{v50 metal bars table row|name=Billon|tile={{Tile|≡|7:0}}|image=[[File:billion_bar_sprite.png]]|source=[[Silver]] + [[Copper]]|density=8.93|mp=11188|val=6|valinc=+0|notes=见注1。}}
+
+{{v50 metal bars table row|name=Bismuth bronze|tile={{Tile|≡|6:1}}|image=[[File:bismuth_bronze_bar_sprite.png]]|source=1 [[Tin]] + 2 [[Copper]] + 1 [[Bismuth]]*|density=8.25|mp=11868|val=6|valinc=+4|notes=可用于锻造所有武器、护甲、弹药和镐。战斗相关属性与标准'''青铜'''相同。}}
+
+{{v50 metal bars table row|name=Black bronze|tile={{Tile|≡|5:0}}|image=[[File:black_bronze_bar_sprite.png]]|source=2 [[Copper]] + 1 [[Silver]] + 1 [[Gold]]*|density=8.93|mp=11952|val=11|valinc=+0|notes=独特的颜色。}}
+
+{{v50 metal bars table row|name=Brass|tile={{Tile|≡|6:1}}|image=[[File:brass_bar_sprite.png]]|source=[[Zinc]] + [[Copper]]|density=8.55|mp=11656|val=7|valinc=+5|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+4.5。}}
+
+{{v50 metal bars table row|name=Bronze|tile={{Tile|≡|6:0}}|image=[[File:bronze_bar_sprite.png]]|source=[[Tin]] + [[Copper]]|density=8.25|mp=11868|val=5|valinc=+3|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+2.5。可用于锻造所有武器、护甲、弹药和镐。}}
+
+{{v50 metal bars table row|name=Electrum|tile={{Tile|≡|6:1}}|image=[[File:electrum_bar_sprite.png]]|source=[[Silver]] + [[Gold]]|density=14.905|mp=11828|val=20|valinc=+0|notes=见注2。}}
+
+{{v50 metal bars table row|name=Fine pewter|tile={{Tile|≡|7:1}}|image=[[File:generic_grey_bar_sprite.png]]|source=3 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=5|valinc=+3|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+2.75。}}
+
+{{v50 metal bars table row|name=Lay pewter|tile={{Tile|≡|3:0}}|image=[[File:platinum_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]] + 1 [[Lead]]|density=7.28|mp=10417|val=5|valinc=+1|notes=独特的颜色。}}
+
+{{v50 metal bars table row|name=Nickel silver|tile={{Tile|≡|7:1}}|image=[[File:generic_grey_bar_sprite.png]]|source=2 [[Nickel]] + 1 [[Copper]] + 1 [[Zinc]]*|density=8.65|mp=11620|val=3|valinc=+1|notes=}}
+
+{{v50 metal bars table row|name=Pig iron|tile={{Tile|≡|0:1}}|image=[[File:lead_bar_sprite.png]]|source=[[Iron]] + [[flux]] stone + [[fuel]]*|density=7.85|mp=12106|val=10|valinc=+0|notes=仅用于制作[[steel|钢]]。}}
+
+{{v50 metal bars table row|name=Rose gold|tile={{Tile|≡|5:1}}|image=[[File:rose_gold_bar_sprite.png]]|source=3 [[Gold]] + 1 [[Copper]]*|density=19.32|mp=11915|val=23|valinc=+0|notes=独特的颜色。}}
+
+{{v50 metal bars table row|name=Steel|tile={{Tile|≡|7:0}}|image=[[File:steel_bar_sprite.png]]|source=[[Iron]] + [[Pig iron]] + [[flux]] stone + [[fuel]]*|density=7.85|mp=12718|val=30|valinc=+20|notes=可用于锻造所有武器、护甲、弹药、镐和砧。}}
+
+{{v50 metal bars table row|name=Sterling silver|tile={{Tile|≡|7:1}}|image=[[File:platinum_bar_sprite.png]]|source=3 [[Silver]]<br>+ 1  [[Copper]]*|density=10.49|mp=11602|val=8|valinc=+0|notes=}}
+
+{{v50 metal bars table row|name=Trifle pewter|tile={{Tile|≡|7:0}}|image=[[File:lead_bar_sprite.png]]|source=2 [[Tin]] + 1 [[Copper]]|density=7.28|mp=10417|val=4|valinc=+2|notes=如果使用[[tetrahedrite|四面体矿]]而不是[[copper|铜]]，价值差异为+1.67。}}
+|}
+
+; 注释：
+: 1) '''比隆合金'''可以用[[tetrahedrite|四面体矿]]或[[galena|方铅矿]]矿石（而不是[[silver|银]]条）制作以增加价值：（铜矿 + 四面体矿：+3.5；四面体矿 + 四面体矿：+3；铜矿 + 方铅矿：+ 2.5；四面体矿 + 方铅矿：+ 2）。
+
+: 2) '''琥珀金'''可以用[[tetrahedrite|四面体矿]]或[[galena|方铅矿]]矿石（而不是[[silver|银]]条）制作以增加价值：（金 + 四面体矿：+3.5；金 + 方铅矿：+2.5）。
+
+''图例：''
+:* '''方块颜色'''对应于由该金属制成的物品在游戏中显示的方式，前景色和背景色。
+:*'''来源'''表示合金的基本配方 – 这不包括操作熔炉所需的任何[[fuel|燃料]]。有关可能的替代品，请参见该合金或[[smelting|熔炼]]的文章。
+::<nowiki>*</nowiki> – ''在此反应中只能使用金属[[bar|条]]，不能使用矿石。
+:*'''密度'''用于确定成品的不同重量。
+:*'''[[Material value|材料价值]]'''是用该金属制成的物品的基础价值乘以的倍数，以确定其价值。
+:*'''价值差异'''表示所需金属条的平均[[value|价值]]与产生的合金条的价值之间的差异 – 投入与产出的对比，按每条金属条计量。"+0"表示产生的合金是组成金属的完全平均价值。请注意，用四面体矿替代铜矿总是导致价值降低，而用四面体矿或方铅矿替代银条总是导致价值增加。
+
+==特殊金属==
+{{minorspoiler}}
+{{v50 pure metal bars table head}}
+{{v50 metal bars table row|name=Adamantine|tile={{Tile|≡|3:1}}|image=[[File:adamantine_bar_sprite.png]]|source=[[Raw adamantine]]|density=0.200|mp=25000|val=300|valinc=+50|notes=（见下文）}}
+{{v50 metal bars table row|name=Divine metal|tile={{Tile|≡|7:0}}|image=[[File:Divine metal anim.gif]]|source=None|density=1|mp=None|val=300|valinc=|notes=（见下文）}}
+|}
+'''精金'''不能直接熔炼，必须先[[Strand extractor|提取]]。
+* 可用于锻造除床以外的任何物品
+* 刀刃的锋利度是标准金属的10倍，结合其极高的剪切断裂/屈服值，使其对于刀刃武器的效果是钢的100多倍
+* 太轻而无法制造有效的钝器武器，尽管其屈服值和断裂值几乎无与伦比。
+
+'''神圣金属'''具有与[[deity|神祇]]相关的程序生成（即半随机）名称。
+* 刀刃的锋利度是标准金属的1.2倍
+* 低密度使其在钝器方面不如所有传统金属，尽管它仍然比精金好
+* 整体属性使其比钢强但比精金弱。
+
+==另见==
+* [[Block|方块]]
+* [[Stack|堆叠]]
+
+{{Translation
+| dwarven = ish
+| elvish  = emu
+| goblin  = zak
+| human   = tod
+}}
+
+{{Category|Materials}}
+[[ru:Bar]]

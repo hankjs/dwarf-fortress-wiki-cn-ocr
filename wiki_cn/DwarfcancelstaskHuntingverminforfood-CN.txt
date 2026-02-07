@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{av}}
+
+{{DFtext|Dwarf cancels task: Hunting vermin for food.}}
+
+如果你看到此消息，或者看到一个带有"Hunt for small creature"工作的矮人，说明矮人找不到任何[[food|食物]]。
+
+矮人可能找不到任何食物，因为：
+# 所有矮人都没有食物了。（你在出发时带够了吗？你从[[trader|商人]]那里交易了足够的食物吗？你煮了所有可食用的[[seed|种子]]吗？）
+# 这个矮人饿了，但无法到达食物储备。（门锁着吗？有洪水吗？地下树木横穿路径生长了吗？你是否挖掉了不应该挖的楼梯或斜坡？）
+
+有关更多详细信息，请参阅[[starvation|饥饿]]。
+
+{{Errors FAQ}}
+{{Category|Errors}}

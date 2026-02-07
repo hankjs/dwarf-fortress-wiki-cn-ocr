@@ -1,0 +1,224 @@
+{{Quality|Exceptional}}
+{{av}}
+[[File:alcohol_barrel_sprite.png|right]]
+'''酒精饮料'''是[[dwarf|矮人]]最喜爱的饮品；矮人平均每个[[calendar|季节]]会喝五次酒来满足他们的[[thirst|口渴]]需求，虽然他们可以靠[[water|水]]维生，但如果没有酒，他们的工作速度会越来越慢。矮人喜欢饮品的多样性，如果被迫反复饮用同一种饮料，他们会产生负面想法（"最近厌倦了喝同样的老酒"）。每个矮人对各种饮料也有[[preferences|偏好]]。因此，酒精饮料对于维持你的要塞运转（至少）和（通过一些多样性投资）保持矮人快乐都很重要。
+
+酒精饮料也可以用作[[kitchen|烹饪餐点]]的原料。但是，用酒精制作的餐点不再会让矮人喝醉，也不会解渴。
+
+== 获取 ==
+[[File:drink_stockpile_v50_preview.png|thumb|300px|right|成年人喝酒的地方，也是孩子们玩耍的地方。无论年龄多大，酒精饮料总是很重要。]][[File:Thirsty Dwarves.gif|thumb|right|运作中的酒类[[stockpile|储物堆]]。ASCII模式。]]游戏中大多数[[crop|作物]]和[[fruit|水果]][[tree|树]]的产出都可以酿成饮料，因此大部分饮料都来自室内外的矮人[[farming|农业]]。大多数从野外[[plant gathering|采集]]的植物也可以用于酿造，但相对于农业，产量较低，使其成为不太理想的解决方案，尽管增加的饮料多样性可能使其值得。饮料可以在[[embark#supplies|出征]]时获得，带上至少几桶饮料可以帮助你的初始矮人撑到建造[[still|蒸馏器]]为止，这是推荐的做法。[[Caravan|商队]]也总是会带一些饮料，尽管不足以支持一个相当大的要塞。最后，通过[[beekeeping industry|养蜂业]]获得的[[honey|蜂蜜]]可以酿造成酒精蜂蜜酒，这是唯一不来自植物或水果的饮料形式。
+
+获取酒类的最直接方法是通过[[still|蒸馏器]]；大型要塞通常会有一个或多个专职[[brewer|酿酒师]]保持矮人酒窖库存充足。要酿造饮料，酿酒师需要某种空的防水容器（[[barrel|木桶]]或[[large pot|大锅]]）和一[[stack|堆]]可酿造物品。每次酿造工作为每个可酿造物品生产五单位酒精饮料，并将酒精饮料存放在容器中，同时回收任何植物[[seed|种子]]。一堆物品的大小不影响酿造所需的时间，酿造时间完全基于酿酒师的[[skill|技能]]，这使得对大堆物品进行酿造工作比对单个消耗品进行酿造要高效得多。酒精饮料堆没有质量等级，饮用酒精饮料获得的快乐想法强度完全基于饮料的价值（包括堆叠大小）和矮人的个人偏好。
+
+== 机制 ==
+矮人的口渴受到重要的{{token|ALCOHOL_DEPENDENT|c}}[[creature token|生物标记]]的约束，这会导致他们在缺乏酒精时遭受严重的性能惩罚。"戒酒"的矮人会逐渐失去[[gait|行走速度]]和[[Combat#Attack_Speed|攻击速度]]。酒精戒断出现在矮人的想法和偏好中，3个月后为"由于稀缺开始工作缓慢"，6个月后为"真的很想喝一杯"，9个月后为"很久很久没有喝过了"，最后在整整一年后为"甚至记不起上次喝酒是什么时候"。由于酒精戒断，矮人拖着脚步的程度目前未知。
+
+即使安装了[[well|水井]]，矮人也会优先选择喝酒而不是水。其他种族的[[Visitor#Petitioning|公民和居民]]也会选择酒精饮料（如果有的话），无论他们的酒精依赖性或[[personality facet#IMMODERATION|放纵程度]]如何。
+
+理论上，所有生物都可以终生只喝酒精饮料而生存，尽管由于没有像矮人一样的耐受水平，他们可能会受到[[#Alcohol poisoning|酒精中毒]]的影响。矮人和其他任何种族的生物在[[hospital|医院]]休息时都不会接受酒精配给，而必须给他们新鲜的水直到康复。水也可能给予忙碌而口渴的矮人。{{bug|2448}}
+
+[[Vampire|吸血鬼]]矮人和普通矮人一样依赖酒精。尽管如此，在[[fortress mode|要塞模式]]中，他们只会喝[[blood|血]]，确保他们最终会遭受戒断症状，即使你的食品储藏室里堆满了所有可以想象的饮料。这并不妨碍酒馆老板给他们饮料，如果酒馆内有这些饮料的话。
+
+尽管人们普遍认为，将酒类放在[[fire|火]]上不会导致其爆炸，但将其暴露在高[[temperature|温度]]下''确实''会导致其沸腾消失。如果容器易燃，它（以及随后的酒类）将被火焰吞噬；[[magma-safe|耐岩浆]]容器永远不会被[[magma|岩浆]]摧毁，但里面的任何酒类可能会由于热传递而迅速消失（除非容器是用[[nether-cap|地狱菇]]制成的）。
+
+酒精饮料与所有其他液体一样，没有质量修正。饮用[[preferences|偏好]]酒精饮料产生的快乐[[thought|想法]]等级取决于整堆酒精饮料的价值。{{cite forum|120870.msg3901346#msg3901346}})
+
+矮人更喜欢用[[Finished goods#Goblets|杯子、酒杯或高脚杯]]喝酒，如果没有这三种容器类型之一，他们会收到一个不快乐的[[thought|想法]]。如果将饮用容器放置在指定[[tavern|酒馆]]的[[coffer|保险箱]]中，[[tavern keeper|工作人员]]可以为矮人或[[visitor|访客]]提供饮料。放置在酒馆中的容器是为服务保留的，因此矮人无法自行使用。此外，酒馆饮料服务不受口渴或安全限制，因此高可用性可能导致酒精中毒。
+
+=== 酒精中毒 ===
+
+过度饮用酒精会导致有害综合症，进展为醉酒、昏迷和死亡。每个个体都有基于其体型的耐受水平（矮人的抵抗力是其体型的1.5倍），每个个体将根据其饮酒[[need|需求]]消耗或多或少的量。酒馆中神秘的窒息死亡很可能是急性酒精中毒的病例。请注意，酒精中毒的致命影响是通过损害生物肺部的功能造成的，这使得缺乏肺部或不需要呼吸的生物免于死于酒精中毒。
+
+== 酒精饮料列表 ==
+[[File:DWARF BEER.gif|256px|thumb|right|胖头菇生长缓慢，矮人在消费葡萄酒后重复使用种子。]]
+[[File:Dwarf Ale.gif|238px|thumb|right|矮人麦酒。]]
+{| class="wikitable sortable"
+|-
+! 原料
+! 生产的饮料
+! 饮料价值
+! 类型
+! 来源
+|-
+| [[Plump helmet]] || <span style="color:#a7a;">酒：</span> Dwarven wine || style="text-align:center; background-color:#cc9;" | 2☼ || rowspan="44" style="background-color:#cfc"| 植物基础 || style="background-color:#c1c1c1;" | 地下作物
+|-
+| [[Pig tail]] || <span style="color:#ba4;">啤酒：</span> Dwarven ale || style="text-align:center; background-color:#cc9;" | 2☼ || style="background-color:#c1c1c1;" | 地下作物
+|-
+| [[Cave wheat]] || <span style="color:#ba4;">啤酒：</span> Dwarven beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="background-color:#c1c1c1;" | 地下作物
+|-
+| [[Sweet pod]] || <span style="color:#889;">其他：</span> Dwarven rum || style="text-align:center; background-color:#cc9;" | 2☼ || style="background-color:#c1c1c1;" | 地下作物
+|-
+| [[Muck root]] || <span style="color:#889;">其他：</span> Swamp whiskey || style="text-align:center; background-color:#ba9;" | 1☼ || style="text-align:center;" | 地表作物
+|-
+| [[Bloated tuber]] || <span style="color:#ba4;">啤酒：</span> Tuber beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Prickle berry]] || <span style="color:#a7a;">酒：</span> Prickle berry wine || style="text-align:center; background-color:#ba9;" | 1☼ || style="text-align:center;" | 地表作物
+|-
+| [[Longland grass]] || <span style="color:#ba4;">啤酒：</span> Longland beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Rat weed]] || <span style="color:#889;">其他：</span> Sewer brew || style="text-align:center; background-color:#ba9;" | 1☼ || style="text-align:center;" | 地表作物
+|-
+| [[Fisher berry]] || <span style="color:#a7a;">酒：</span> Fisher berry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Rope reed]] || <span style="color:#889;">其他：</span> River spirits || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Sliver barb]] || <span style="color:#889;">其他：</span> Gutter cruor || style="text-align:center; background-color:#ba9;" | 1☼ || style="text-align:center;" | 地表作物
+|-
+| [[Sun berry]] || <span style="color:#889;">其他：</span> Sunshine || style="text-align:center; background-color:#bde;" | 5☼ || style="text-align:center;" | 地表作物
+|-
+| [[Whip vine]] || <span style="color:#a7a;">酒：</span> Whip wine || style="text-align:center; background-color:#beb;" | 3☼ || style="text-align:center;" | 地表作物
+|-
+| [[Beet]] || <span style="color:#a7a;">酒：</span> Beetroot wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Wild carrot]] || <span style="color:#a7a;">酒：</span> Carrot wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Cassava]] || <span style="color:#ba4;">啤酒：</span> Cassava beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Parsnip]] || <span style="color:#a7a;">酒：</span> Parsnip wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Potato]] || <span style="color:#a7a;">酒：</span> Potato wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Radish]] || <span style="color:#a7a;">酒：</span> Radish wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Sweet potato]] || <span style="color:#a7a;">酒：</span> Sweet potato wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Turnip]] || <span style="color:#a7a;">酒：</span> Turnip wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Single-grain wheat]] || <span style="color:#ba4;">啤酒：</span> Single-grain wheat beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Two-grain wheat]] || <span style="color:#ba4;">啤酒：</span> Two-grain wheat beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Soft wheat]] || <span style="color:#ba4;">啤酒：</span> Soft wheat beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Hard wheat]] || <span style="color:#ba4;">啤酒：</span> Hard wheat beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Spelt]] || <span style="color:#ba4;">啤酒：</span> Spelt beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Barley]] || <span style="color:#a7a;">酒：</span> Barley wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Buckwheat]] || <span style="color:#ba4;">啤酒：</span> Buckwheat beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Rye]] || <span style="color:#ba4;">啤酒：</span> Rye beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Sorghum]] || <span style="color:#ba4;">啤酒：</span> Sorghum beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Rice]] || <span style="color:#ba4;">啤酒：</span> Rice beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Maize]] || <span style="color:#ba4;">啤酒：</span> Maize beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Quinoa]] || <span style="color:#ba4;">啤酒：</span> Quinoa beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Kaniwa]] || <span style="color:#ba4;">啤酒：</span> Kaniwa beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Pendant amaranth]] || data-sort-value="Beer: amaranth Pendant"| <span style="color:#ba4;">啤酒：</span> Pendant amaranth beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Blood amaranth]] || data-sort-value="Beer: amaranth Blood"| <span style="color:#ba4;">啤酒：</span> Blood amaranth beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Purple amaranth]] || data-sort-value="Beer: amaranth Purple"| <span style="color:#ba4;">啤酒：</span> Purple amaranth beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Pearl millet]] || <span style="color:#ba4;">啤酒：</span> Pearl millet beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[White millet]] || <span style="color:#ba4;">啤酒：</span> White millet beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Finger millet]] || <span style="color:#ba4;">啤酒：</span> Finger millet beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Foxtail millet]] || <span style="color:#ba4;">啤酒：</span> Foxtail millet beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Fonio]] || <span style="color:#ba4;">啤酒：</span> Fonio beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Teff]] || <span style="color:#ba4;">啤酒：</span> Teff beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Apple]] || <span style="color:#f87;">苹果酒：</span> Apple cider || style="text-align:center; background-color:#cc9;" | 2☼ || rowspan="32" style="background-color: #fcc"| 水果基础
+| style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Apricot]] || <span style="color:#a7a;">酒：</span> Apricot wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Banana]] || <span style="color:#ba4;">啤酒：</span> Banana beer || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Bayberry]] || <span style="color:#a7a;">酒：</span> Bayberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Carambola]] || <span style="color:#a7a;">酒：</span> Carambola wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Cherry]] || <span style="color:#a7a;">酒：</span> Cherry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Custard-apple]] || <span style="color:#f87;">苹果酒：</span> Custard-apple cider || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Date]] || <span style="color:#a7a;">酒：</span> Date wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Durian]] || <span style="color:#a7a;">酒：</span> Durian wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Guava]] || <span style="color:#a7a;">酒：</span> Guava wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Lychee]] || <span style="color:#a7a;">酒：</span> Lychee wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Mango]] || <span style="color:#a7a;">酒：</span> Mango wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Papaya]] || <span style="color:#a7a;">酒：</span> Papaya wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Peach]] || <span style="color:#f87;">苹果酒：</span> Peach cider || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Pear]] || <span style="color:#889;">其他：</span> Perry || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Persimmon]] || <span style="color:#a7a;">酒：</span> Persimmon wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Plum]] || <span style="color:#a7a;">酒：</span> Plum wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Pomegranate]] || <span style="color:#a7a;">酒：</span> Pomegranate wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Rambutan]] || <span style="color:#a7a;">酒：</span> Rambutan wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Sand pear]] || <span style="color:#f87;">苹果酒：</span> Sand pear cider || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center; background-color:#ca9;" | 地表树木
+|-
+| [[Artichoke]] || <span style="color:#a7a;">酒：</span> Artichoke wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Tomato]] || <span style="color:#a7a;">酒：</span> Tomato wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Tomatillo]] || <span style="color:#a7a;">酒：</span> Tomatillo wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Passion fruit]] || <span style="color:#a7a;">酒：</span> Passion fruit wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Grape]] ||  <span style="color:#a7a;">酒：</span> Wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Cranberry]] ||  <span style="color:#a7a;">酒：</span> Cranberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Bilberry]] ||  <span style="color:#a7a;">酒：</span> Bilberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Blueberry]] ||  <span style="color:#a7a;">酒：</span> Blueberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Blackberry]] ||  <span style="color:#a7a;">酒：</span> Blackberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Raspberry]] ||  <span style="color:#a7a;">酒：</span> Raspberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Pineapple]] ||  <span style="color:#a7a;">酒：</span> Pineapple wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Strawberry]] ||  <span style="color:#a7a;">酒：</span> Strawberry wine || style="text-align:center; background-color:#cc9;" | 2☼ || style="text-align:center;" | 地表作物
+|-
+| [[Honey]] || <span style="color:#889;">其他：</span> Mead || style="text-align:center; background-color:#ba9;" | 2☼ || style="background-color: #ddd"| 动物基础 || style="text-align:center;" | 地表蜂场
+|}
+
+== 模组 ==
+
+{{mod}}
+
+就游戏而言，任何[[Item_token#DRINK|DRINK]]:NONE类型的物品都被视为酒精饮料，无论使用什么材料。因此，如果你制作一个生产例如[[elf|精灵]]血液饮料的[[reaction|反应]]，你的矮人会愉快地将其喝下，在此过程中满足他们的酒精依赖。请注意，DRINK物品本身不会导致醉酒症状；这些依赖于与所消费物质相关的[[syndrome|综合症]]（参见下面的PLANT_ALCOHOL_TEMPLATE原始数据作为示例）。但是，你总是可以添加这个综合症，或者你自己设计的另一个综合症到你想要使用的材料中。
+
+== 错误 ==
+
+厨师只会在最后手段时烹饪酒精和其他液体，而是更喜欢用固体食物烹饪固体食物。{{Bug|2393}}有关更多信息，请参见[[Kitchen#Bugs|厨房]]页面。
+
+== 另见 ==
+
+* [[Alcohol plant stockpile]] — 酿酒厂输入储物堆辅助页面
+* [[Brewer]]
+* [[Beekeeping industry]]
+* [[Crop]]
+* [[Thirst]]
+
+{{Gamedata|{{raw|v50:material_template_default.txt|MATERIAL_TEMPLATE|PLANT_ALCOHOL_TEMPLATE}}}}
+
+{{Industry}}
+{{materials}}
+
+{{category|Dwarves}}
+{{category|Food}}
+[[ru:Alcohol]]

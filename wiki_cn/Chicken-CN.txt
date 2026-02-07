@@ -1,0 +1,41 @@
+{{Quality|fine}}
+{{Creaturelookup/0
+|image=chicken_couple_sprites_anim.gif
+|portrait=chicken_portrait_anim.gif
+|bone=0-4
+|meat=2-6
+|fat=2-6
+|intestine=1
+|skull=1
+|skin=hide
+|wiki=yes
+|contrib=no
+}}
+{{av}}
+{{creaturedesc}}
+
+'''鸡'''是常见的[[Domestic animal|家禽]]，以其[[egg|蛋]]和肉而闻名。雄鸡被称为''公鸡''，雌鸡被称为''母鸡''，幼鸡被称为''小鸡''。像其他家禽一样，它们大部分时间在地面上刨食，吃[[vermin|害虫]]。
+
+当提供[[nest box|巢箱]]时，母鸡会产4-15个蛋。需要公鸡来使蛋受精，但受精不能保证。一旦孵化，小鸡将在1年内长成成年鸡。
+
+从经济角度来说，[[egg|蛋]]是非常好的食物来源（1个蛋=1顿饭）- 在出发时带5只母鸡和公鸡是保持新要塞有食物的简单方法，直到可以建立更大规模的食品生产。长期来看，[[egg production|蛋类生产]]仍然是可行的食品工业，尽管其他家禽（如[[turkey|火鸡]]）生产更多的蛋和肉。
+
+大多数要塞会尽快收集产下的蛋，但这将阻止扩大你的鸡群。要有意扩大种群（并为[[meat industry|肉类工业]]提供鸡），只需通过选择正在使用的巢箱并按[[File:Button forbid.png]]来禁止一个或多个蛋堆被收集。或者，用上锁的门拒绝你的矮人进入巢箱，或禁止[[stockpile|储存]]和[[cooking|烹饪]]这些蛋。请注意，大群鸡需要大量空间让它们漫游，否则它们很快就会发生[[overcrowding|打斗]]；此外，不收集蛋可能会迅速导致[[catsplosion#Birdsplosion|鸡爆炸]]。
+
+一些矮人[[Preferences|喜欢]]鸡的''咯咯叫''和''刨食''。
+
+
+[[Image:Snow cocks.jpg|thumb|400px|center|因其''咯咯叫''而受到钦佩。]]
+
+{{D for Dwarf}}
+出于某种原因，公鸡比其他任何东西更经常产出头骨；这可能是因为屠夫在切割时抓着它们的喉咙。众所周知，鸡即使在被砍头后也能奔跑。有关更多信息，请参阅[[Domestic_animal|家畜页面]]。
+
+人们经常观察到鸡穿过[[road|道路]]，[[scholar|学者]]们对它们的动机进行推测。
+
+== 参见 ==
+
+* [[Domestic_animal#Comparison_of_domestic_poultry|家禽比较]]
+
+{{Gamedata}}
+{{Creatures}}
+{{Category|Animals}}

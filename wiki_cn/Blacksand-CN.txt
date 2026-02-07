@@ -1,0 +1,21 @@
+{{Quality|Tattered}}
+{{soillookup/0}}
+{{av}}
+
+[[File:Blacksand.jpg|thumb|left|[[chalk|白垩岩]]上带有稀疏草地的黑沙。左上角可见一棵[[saguaro|巨柱仙人掌]]树干。]]
+
+'''黑沙'''是可以在[[soil layer|土壤层]]中找到的几种[[sand|沙子]]类型之一。黑沙层偶尔会含有[[aquifer|含水层]]。
+
+它可以被收集到[[bag|袋子]]中，用于[[glassmaking|玻璃制作]]的目的，也可以像任何其他[[soil|土壤]]层一样用于[[farming|农耕]]。
+
+[[File:black_sand.jpg|thumb|240px|center|一片不祥的灰黑色海滩。]]
+{{clear|left}}
+== 现实生活中 ==
+
+[[wikipedia:Black sand|黑沙]]通常由大量[[magnetite|磁铁矿]]组成。这种黑沙（也称为矿物沙或铁砂）可以在各种海滩上通过河流侵蚀发现，并通过波浪作用和水流浓缩。其他类型的黑沙包括活火山附近由[[basalt|玄武岩]]碎片组成的沉积物。
+
+{{Translation| dwarven = udir cuggán | elvish = opa polefa | goblin = ogur anga | human = oth zar}}
+
+{{gamedata}}
+
+{{DF2014 soil}}

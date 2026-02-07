@@ -1,0 +1,33 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=blacktip_reef_shark_sprites.png
+|portrait=blacktip_reef_shark_portrait.png
+|contrib=no
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|skin=hide
+|skull=1
+|meat=8
+|fat=8
+|brain=1
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''黑鳍礁鲨'''是可以在[[tropical|热带]][[ocean|海洋]]中找到的[[Cartilage|软骨]][[Creature#Aquatic|鱼类]]。它们只有[[dog|狗]]的一半大小，对[[dwarves|矮人]]没有威胁。作为完全成年的生物，它们无法被[[Fisherdwarf|渔夫矮人]]捕捞，但可以用[[drowning chamber|溺水室]]捕获。幼年黑鳍礁鲨被称为''黑鳍礁鲨幼崽''。
+
+由于是软骨生物，黑鳍礁鲨在[[butcher|屠宰]]时不会提供[[bone|骨头]]（尽管它们仍会提供[[skull|头骨]]）。
+
+一些矮人因其''好奇心''和''独特的背鳍''而[[Preferences|喜欢]]黑鳍礁鲨。
+
+[[File:Carcharhinus melanopterus mirihi.jpg|thumb|400px|center|因其''独特的背鳍''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

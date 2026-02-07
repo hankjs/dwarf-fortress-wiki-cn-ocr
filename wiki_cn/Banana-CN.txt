@@ -1,0 +1,28 @@
+{{Quality|Fine}}
+{{Treelookup/0
+|graphic=banana_trunk_sprite.png
+|product=banana_sprite.png
+|sapling=banana_sapling.png
+|wiki=musa acuminata}}
+{{av}}
+
+'''香蕉树'''是在热带生物群系中发现的地面众多[[tree|树]]属之一。与大多数树不同，它不产生木材(''由于这种'树'实际上是一种[https://en.wikipedia.org/wiki/Musa_(genus) 夸大的][[shrub|灌木]]'')，但它确实产生一种著名的[[fruit|水果]]，可以生吃、烹饪或酿造成[[alcohol|香蕉啤酒]]。由于这些水果有种子，它们很可能是鲜为人知的[[wikipedia:wild banana|野生香蕉]]。叶子和果实可以在[[dyer's shop|染色工坊]]加工成赭石色[[dye|染料]]。
+
+一些[[Dwarf|矮人]]因为香蕉树的''果实''而[[Preferences|喜欢]]它们。
+
+
+[[File:Banana Tree 01.jpg|thumb|center|300px|因其''果实''而受到赞赏。]]
+
+
+{{D for Dwarf}}
+
+<!-- Reference: Super Mario Kart video game series -->
+香蕉皮对[[wagon|马车]]特别危险，有时会看到它们拖在马车后面。
+
+<!-- Reference: Charlie the Unicorn 2 -->
+有人说，一根[[wrestling|牢牢塞]]在矮人耳朵里的香蕉可以显著减少[[stress|压力]]。到目前为止，证明这一说法的测试还没有定论，因为受试者往往在观察到效果之前就失血过多。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}
+[[Category:Dye sources]]

@@ -1,0 +1,40 @@
+{{Quality|Fine}}
+{{Alloy3|name=Black Bronze
+|sample=
+[[File:BlackBronzeSample.png|center|frameless]]
+|graphic=black_bronze_bar_sprite.png
+|color=5:6:0
+|color1=6:4:0
+|color2=7:7:1
+|color3=6:6:1
+|uses=
+* [[Metal crafter|Metal crafting]]
+|recipe=
+* 2 [[Copper]] [[bar]]s
+* 1 [[Silver]] [[bar]]
+* 1 [[Gold]] [[bar]]
+|properties=
+* [[Material value]] 11☼
+* [[Material science|Impact strength]] 770 MPa
+* [[Material science|Shear strength]] 220 MPa
+{{firemagmasafe|yes|no}}
+* [[Melting point]] {{ct|11952}}
+* [[Boiling point]] {{ct|14611}}
+* [[Ignition point]] none
+* [[Solid density]] 8930 kg/m³
+* Liquid [[density]] 8020 kg/m³
+* [[Specific heat]] 385 J/kg·K
+* [[Color]] black
+|wiki=Hepatizon
+}}{{av}}
+'''黑铜'''是一种由[[copper|铜]]、[[gold|金]]和[[silver|银]]组成的半贵重[[alloy|合金]]。与[[bronze|普通青铜]]或[[bismuth bronze|铋青铜]]不同，黑铜不能用于制造[[weapon|武器]]或[[armor|盔甲]]，其用途仅限于[[Blacksmith|锻造]]和[[Metal crafter|金属工艺]]。黑铜不能直接从[[ore|矿石]]中[[Smelter|冶炼]]，只能从纯[[metal|金属]][[bar|锭]]中制作。与某些[[alloy|合金]]不同，一块黑铜锭的[[Item value|价值]]恰好等于其组成成分的平均价值——制造这种合金不会增加材料的总价值（2个[[copper|铜]]锭每个10☼ + 1个[[silver|银]]锭50☼ + 1个[[gold|金]]锭150☼ = 220☼/4锭 = 每锭黑铜55☼）。
+
+{{Translation| dwarven = udir kilrud | elvish = opa dagi | goblin = ogur susäl | human = oth zobsha}}
+
+[[File:Armreif aus Corinthium aes.jpg|thumb|center|350px|黑铜手镯。]]
+
+== 现实中 ==
+制造黑色科林斯青铜的实际成分和工艺已经失传于历史，罗马作家老普林尼（公元23/24年 - 公元79年）曾有记载，这在前工业社会严密保守的商业秘密中很典型。在日本，一种类似的铜金合金，称为''赤铜''，在奢侈金属制品的[[decoration|装饰]]中相当常用。然而，与古希腊金属不同，这种"黑铜"从未失传，至今仍在小规模生产。
+
+{{gamedata}}
+{{metals}}

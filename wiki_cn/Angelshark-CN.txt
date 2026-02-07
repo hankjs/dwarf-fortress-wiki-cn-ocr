@@ -1,0 +1,34 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=Angelshark.png
+|portrait=angelshark_portrait.png
+|contrib=no
+|heart=1
+|intestine=1
+|liver=1
+|tripe=1
+|sweetbread=1
+|spleen=1
+|kidney=2
+|skin=hide
+|fat=8
+|meat=8
+|brain=1
+|skull=1
+|wiki=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''天使鲨'''是一种[[Cartilage|软骨质]]的[[Creature#Aquatic|鱼类]]，它们除了在[[temperate|温带]]和[[tropical|热带]][[ocean|海洋]]中懒洋洋地闲逛外，基本什么也不做。它们的体型只有[[dog|狗]]的一半大小，对[[dwarves|矮人]]不构成任何威胁。作为完全成年的生物，它们无法被[[Fisherdwarf|渔夫矮人]]钓到，但可以用[[drowning chamber|溺水室]]捕获。幼年天使鲨被称为''天使鲨幼崽''。
+
+由于是软骨质的，天使鲨在被[[butcher|屠宰]]后不会产生[[bone|骨头]]（尽管仍会提供[[skull|头骨]]）。
+
+一些矮人[[Preferences|喜欢]]天使鲨，因为它们''能够隐藏自己''。
+
+{{Translation| dwarven = sedil-taran | elvish = thili-cequova | goblin = asmuk-slångo | human = idla-gorhax}}
+[[File:Squatina squatina tenerife2.jpg|thumb|center|400px|因其''能够隐藏自己''而受到赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}

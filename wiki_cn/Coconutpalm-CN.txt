@@ -1,0 +1,26 @@
+{{Quality|Fine}}
+{{Treelookup/0
+|graphic=mangrove_trunk_sprite.png
+|product=palm_sprite.png
+|sapling=palm_sapling.png
+|wiki=coconut}}
+{{av}}
+
+'''椰子树'''是一种[[above ground|地上]][[tree|树木]]，可以在任何[[tropical|热带]]生物群系的干燥地区找到。像绝大多数陆地树木一样，椰树[[carpenter|木材]]是棕色的，生产棕色产品。
+
+椰子树生产椰子，可以通过设置采集[[zone|区域]]来收获。椰子可以生吃或煮熟食用，但不能酿造。与大多数其他果树不同，椰子没有种子（从技术上讲，椰子的可食用部分是种子，而果实本身是不可食用的，但在raws中没有这样设置，矮人仍然会吃掉整个果实）。
+
+一些[[Dwarf|矮人]][[Preferences|喜欢]]椰子树，因为它们的''叶子''。
+
+
+[[File:Coconut green.JPG|thumb|center|300px|因其''叶子''而受赞赏。]]
+
+{{D for dwarf}}
+
+<!-- Reference: "Da Coconut Nut" song composed by Ryan Cayabyab -->
+椰子果是大大的果还是椰子果，常常令人困惑。<br>
+椰子树[[wood|木材]]更适合用于为[[Relationship|家庭]]建造大[[house|房子]]。
+
+{{gamedata}}
+{{Plants}}
+{{Category|Surface trees}}

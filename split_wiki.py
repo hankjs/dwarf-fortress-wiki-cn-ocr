@@ -34,6 +34,21 @@ def sanitize_filename(title: str) -> str:
     return name
 
 
+def compact_templates(text: str) -> str:
+    """
+    Convert multi-line templates to single-line format.
+
+    Rules:
+        - Newline followed by pipe: \\n| -> |
+        - Newline followed by closing braces: \\n}} -> }}
+    """
+    # Replace \n| with |
+    text = re.sub(r"\n\|", "|", text)
+    # Replace \n}} with }}
+    text = re.sub(r"\n\}\}", "}}", text)
+    return text
+
+
 class WikiPageHandler(xml.sax.handler.ContentHandler):
     """SAX handler that streams through MediaWiki XML and writes each page to a file."""
 
@@ -108,6 +123,11 @@ class WikiPageHandler(xml.sax.handler.ContentHandler):
             self.skip_count += 1
             return
 
+        # Skip files with 'raw.txt' suffix
+        if safe_name.endswith("raw"):
+            self.skip_count += 1
+            return
+
         # Use namespace subdirectory for non-main namespace pages
         ns = self._ns.strip()
         if ns and ns != "0":
@@ -127,8 +147,11 @@ class WikiPageHandler(xml.sax.handler.ContentHandler):
                 filepath = f"{base}{counter}.txt"
                 counter += 1
 
+        # Compact multi-line templates to single-line
+        compacted_text = compact_templates(self._text)
+
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write(self._text)
+            f.write(compacted_text)
 
         self.page_count += 1
         if self.page_count % 500 == 0:
@@ -143,7 +166,9 @@ def main():
         if len(sys.argv) > 1
         else os.path.join(script_dir, "Dwarf+Fortress+Wiki-20260206192244.xml")
     )
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else os.path.join(script_dir, "wiki")
+    output_dir = (
+        sys.argv[2] if len(sys.argv) > 2 else os.path.join(script_dir, "wiki_test")
+    )
 
     if not os.path.isfile(input_xml):
         print(f"Error: input file not found: {input_xml}")

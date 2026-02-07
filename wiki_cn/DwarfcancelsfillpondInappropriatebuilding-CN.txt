@@ -1,0 +1,11 @@
+{{Quality|Superior}}
+{{av}}
+{{DFtext|Dwarf cancels fill pond: Inappropriate building}}
+
+如果[[dwarf|矮人]]试图填充[[pond|池塘]]，而池塘区域不在[[open space|开放空间]]上方，就会出现此错误。
+要修复它，在池塘区域下方[[channel|挖沟]]，或删除池塘区域并在开放空间上方创建另一个。
+
+{{Errors FAQ}}
+{{Category|Errors}}
+
+[[ru:Dwarf_cancels_fill_pond:_Inappropriate_building]]

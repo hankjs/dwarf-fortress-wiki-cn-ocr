@@ -1,0 +1,20 @@
+{{Quality|Fine}}
+{{plantlookup
+|graphic=buckwheat_shrub_sprite.png
+|seedimage=buckwheat_seeds_sprite.png
+|uses=
+* [[Alcohol]]
+* [[Flour]]
+}}
+{{av}}
+
+'''荞麦'''是一种[[aboveground|地上]][[crop|作物]]。它可以被[[milling|研磨]]成[[flour|荞麦粉]]或[[brewing|酿造]]成[[alcohol|荞麦啤酒]]。
+
+一些[[dwarves|矮人]]因其''啤酒''而[[Preferences|喜欢]]荞麦。
+
+请注意，这种植物和番茄一样，只在有极点且为中型或大型的世界中发现，因为它是热带干旱阔叶林生物群系独有的，而该生物群系由于一个错误，只在这些条件下生成。
+
+[[File:Japanese Buckwheat Flower.JPG|thumb|center|300px|因其''啤酒''而受到赞赏。]]
+
+{{gamedata}}
+{{Plants}}

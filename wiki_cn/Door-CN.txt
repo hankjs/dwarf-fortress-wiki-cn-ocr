@@ -1,0 +1,89 @@
+{{Quality|Exceptional}}
+{{av}}
+{{Buggy|withoutbugsection=1}}
+[[File:door_v50_anim.gif|right]]'''门'''是[[furniture|家具]]的一种，主要用于控制矮人、[[pet|宠物]]和液体的移动，以及定义[[zone|房间]]的出口。门必须建造在[[wall|墙壁]]或其他支撑物*旁边。门会根据其材料使用不同的[[Tilesets|图形贴图]]。
+
+: (*注意：[[tree|树根]]的方块对此目的''不''适用。)
+
+==材料==
+门可以由[[stone|石头]]（[[File:stone_door_sprite.png|23px]] / {{Raw Tile|┼|0:7:0}}）、[[metal|金属]]（[[File:metal_door_sprite.png|23px]] / {{Raw Tile|≡|6:4:0}}）、[[glass|玻璃]]（[[File:glass_door_sprite.png|23px]] / {{Raw Tile|O|2:2:1}}）和[[wood|木材]]（[[File:wood_door_sprite.png|23px]] / {{Raw Tile|║|0:6:0}}）制成。[[Artifact|神器]]门还可以由[[gem|宝石]]（[[File:gem_door_sprite.png|23px]] / {{Raw Tile|☼|7:1:0}}）和[[bone|骨头]]（[[File:bone_door_sprite.png|23px]] / {{Raw Tile|║|0:7:0}}）制成。玻璃门被称为'''传送门'''。
+
+[[stone|石头]]、[[wood|木材]]和[[glass|玻璃]]门只需要单一的建筑材料，而[[metal|金属]]门需要3根金属条来制造。
+
+==用法==
+[[Image:Doors!.png|thumb|right|拥有许多门很重要，但不要过度。]]
+门有一些设置：
+* '''[[File:Button door passable.png]] 可通行/[[File:Button door forbid.png]] 禁止通行'''：这会为（大多数）所有生物锁定或解锁门。除非再次允许或被摧毁，否则无法通过门。[[Dwarf|矮人]]、野生和驯养的[[animals|动物]]以及大多数[[invader|入侵者]]都将无法通过。然而，[[Thief|盗贼]]可以撬开禁止通行的门的锁，而[[Building destroyer|建筑破坏者]]如[[Troll|巨魔]]会直接将它们砸碎。[[Ghost|幽灵]]也可以打开禁止通行的门，在通过后将其留为可通行状态。
+
+: (注意：这不会以通常的意义"[[Forbid|禁止]]"门本身。它只是"禁止<u>通行</u>" - 也许是一个不幸的用词选择，但希望不会太混乱。只要想着锁定/解锁就好了。)
+
+<!--This was removed in v50, might return...? *'''{{k|o}} Keep Tightly Closed/Make Pet-passable''': This determines whether a door is left {{k|o}}pen to animals, allowing them to pass on their own. If set to "tightly closed", then dwarves, invaders and other sentient creatures will not be hindered, but animals will typically be unable to pass through. Note that animals may still be able to dart past the door for the short time it is open while a dwarf or other sentient creature goes through.  (Or, say, a goblin that just so happened to be one of the 50 goblins that ambushed you was to open this door and let out those 500 ravenous [[Dog|Wardogs]].]) Because of [[path]]finding issues, this setting has been known to cause game lag.{{bug|797}} Obviously, if a door is {{k|l}}ocked, neither animals nor others may pass.
+*'''{{k|s}} Set as Internal/Set as External''': A door {{k|s}}et as "internal" will not block room expansion in the [[room]]-designating interface. This setting is not available in the premium version.-->
+* '''占领/未占领'''：当入侵者通过打开的门时，他们可以占领你的门。当门被占领时，无法更改门的可通行/禁止通行设置。你堡垒的任何成员都可以通过经过门来夺回被占领的门。这包括宠物。
+
+门可以连接到[[lever|拉杆]]或[[pressure plate|压力板]]以按命令打开。连接到拉杆的门''不能''再由矮人或动物打开和关闭；它只能通过拉动拉杆来打开和关闭。
+
+门还能像[[floodgate|水闸]]一样阻止液体（[[water|水]]和[[magma|岩浆]]）的流动，如果通道足够窄，可以以相同的方式使用。门和水闸在液体容纳方面的主要区别是：
+* 使用拉杆操作水闸有延迟，但门没有延迟。
+* 未连接到拉杆的门可以被矮人或动物打开或关闭（除非锁定）；通常当门的另一边有大量液体时，这''不是''你想要的。
+
+动物只有在门/舱门解锁<!-- and tightly sealed (the latter specifically meaning "animals cannot open")-->时才会尝试错误地寻路通过，因此机械控制的门/舱门在寻路角度上也与水闸相同。
+
+大多数野生动物没有{{token|CANOPENDOORS}}标记，所以它们根本无法打开门 - 据推测，驯养生物被明确授予在你的堡垒中打开宠物可通行门的能力。
+
+==高级门建造==
+[[Image:DFwikiSteelDoor.png|thumb|right|紧邻建造的钢墙的钢门。]]
+门的''放置''要求是它必须在''放置指定时''与墙壁呈正交相邻。该墙壁在门建造时不需要存在，在门建造完成后该墙壁也不需要继续存在。考虑到这一点，人们可能会发现，只要多花一点努力，门可以并排连续排列。
+<div style="font-family: monospace; font-size: 15px; white-space: pre; line-height: 16px; float: left; margin-right: 25px; border:1px solid #000;"><nowiki>.....
+═════
+.....
+</nowiki></div>
+<div style="font-family: monospace; font-size: 15px; white-space: pre; line-height: 16px; float: left; margin-right: 25px; border:1px solid #000;"><nowiki>.....
+═Π═══
+.....
+</nowiki></div>
+<div style="font-family: monospace; font-size: 15px; white-space: pre; line-height: 16px; float: left; margin-right: 25px; border:1px solid #000;"><nowiki>.....
+═ΠΠ══
+.....
+</nowiki></div>
+<div style="font-family: monospace; font-size: 15px; white-space: pre; line-height: 16px; float: left; margin-right: 25px; border:1px solid #000;"><nowiki>.....
+═ΠΠΠ═
+.....
+</nowiki></div><br /><br /><br />
+
+你通常会通过将第一个门的放置指定锚定在'''建造的'''墙壁上来开始这个过程 -- 而不是天然的石墙。紧接着，你可以使用采矿菜单{{menu icon|m|x}}移除建筑以清理出下一个门的空间。一旦空间清理出来，即使在第一个门建造之前，你也可以指定建造第二个门。对第三、第四、第五个门等重复这个过程，直到你满意为止。只要你拥有门和建造的墙壁来锚定你的放置指定，你就可以无限期地继续这个过程。注意，天然石墙''不能''以这种方式工作；挖掉天然墙壁会解构任何相邻的不再受支撑的门。
+
+你也可以使用这个策略将门从墙壁上解钩，使它们成为独立结构。为什么你想这样做取决于你自己，但一些玩家可能会发现这对引诱[[building destroyer|建筑破坏者]]离开他们的堡垒很有用。
+
+==注意事项==
+*与门在同一方块上的任何物品都会导致门被撑开，这使得它无法锁定，并且会允许液体进入。这样的物品也会卡住机械连接的门；为了关闭门，必须清理掉物品，并且必须再次触发拉杆或压力板。
+
+* 门在关闭时会摧毁其方块上的任何液体。
+
+* 如果任何入侵者确实经过门（锁定或解锁），他们将"控制"门，你将无法更改任何锁定设置。如果你能成功地让一个小队通过那扇门，它将被夺回你的控制，但门将被返回到解锁状态。
+
+* 被幽灵解锁的锁定门，不像被入侵者占领的门，可以在幽灵通过后立即被玩家重新锁定。
+
+* 门是[[Fortress defense|堡垒防御]]的重要组成部分，尽管有些双刃剑。你可以通过用门代替墙壁来建造自己的幕府城堡，这种策略会用无限的寻路选项迷惑你的敌人，并为你的锤矮人提供出色的伏击潜力。但要小心：就像米纸墙难以阻挡成年男子一样，你将会在建筑破坏者面前体验到一些[[fun|乐趣]]。还有盗贼。你的搬运工不会介意。
+
+* 神器门是坚不可摧的，可以用来[[DF2012 Talk:Door#Artifact doors indeed indistructible|过滤建筑破坏者]]。
+
+* 无论门的设置如何，门都会阻挡[[trade depot|贸易站]]的访问。而且，不，你不能建造三格宽的门作为"商队车库门" - 你最好使用[[bridge|桥梁]]或连接的[[floodgate|水闸]]来实现这一点。
+
+* 所有的门都是防水的，但矮人在打开门通过时可能会让少量水通过。如果你需要通往水域的门，比如人工瀑布或洪水陷阱的蓄水池，你可以通过使门的每个出口成为"气闸"来限制逃逸水造成的混乱：两扇门围成一个在水箱和主走廊之间的一两个方块的房间。少量逃逸的水会被容纳在房间里并蒸发。如果水位可能太高而无法蒸发，挖掘排水沟并放置[[grate|格栅]]或地板栏杆更加有效。
+
+{{Translation
+| dwarven = tun
+| elvish  = beÿa
+| goblin  = sustgo
+| human   = as
+}}
+==趣闻==
+
+{{version|51.01}}版本中通过木头、石头、玻璃、金属、骨头、宝石，以及奇怪的[[soap|肥皂]]和[[mud|泥土]]门都有不同的声音。
+
+==另见==
+*[[Floor hatch]]
+
+{{buildings}}
+{{Category|Furniture}}

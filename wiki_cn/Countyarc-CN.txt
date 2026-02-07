@@ -1,0 +1,15 @@
+'''County arc'''（伯爵领弧线）是矮人要塞[[Development arc|发展弧线]]之一。
+
+==Dwarf Fortress Consolidated Development==
+虽然已经过时，但Toady解释了这个弧线的预期内容：
+<blockquote>
+你应该能够在直接游戏区域的范围之外开发一个更大的定居点。
+</blockquote>
+这个弧线可能已经通过场地[[holding]]（领地）功能完成了。
+
+==See also==
+* [http://www.bay12games.com/dwarves/dev_single.html Dwarf Fortress Consolidated Development]
+
+[[Category:Arcs]]
+{{unversioned}}
+[[ru:County arc]]

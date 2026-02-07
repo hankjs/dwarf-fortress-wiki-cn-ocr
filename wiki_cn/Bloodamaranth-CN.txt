@@ -1,0 +1,25 @@
+{{Quality|Fine}}
+{{plantlookup
+|graphic=blood_amaranth_shrub_sprite.png
+|seedimage=blood_amaranth_seeds_sprite.png
+|uses=
+*[[Alcohol]]
+*[[Flour]]
+*[[Food]]
+}}
+{{av}}
+
+'''血苋菜'''是一种[[aboveground|地上]][[crop|作物]]。它可以被[[milling|研磨]]成[[flour|血苋菜粉]]或[[brewing|酿造]]成[[alcohol|血苋菜啤酒]]。它的叶子可以生吃或[[cooking|烹饪]]食用。
+
+一些[[dwarves|矮人]][[Preferences|喜欢]]血苋菜，因为它们的''醒目的颜色''。
+
+
+[[File:Amaranthus cruentus Foxtail 2.jpg|thumb|center|300px|因其''醒目的颜色''而受赞赏。]]
+
+
+==现实生活中==
+
+血苋菜曾是阿兹特克人的主食，在中美洲作为谷物有着悠久的种植历史。它的种子可以作为粥食用，叶子可以像[[spinach|菠菜]]一样食用。虽然一些观赏品种有紫色的叶子，但这个名字主要来自于植物花朵的深栗色。
+
+{{gamedata}}
+{{Plants}}

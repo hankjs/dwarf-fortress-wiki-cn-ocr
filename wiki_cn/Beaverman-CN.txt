@@ -1,0 +1,23 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=beaver man premium sprite.png
+|portrait=beaver_man_portrait.png}}
+{{av}}
+{{creaturedesc}}
+
+'''海狸人'''是普通[[beaver|海狸]]的[[animal people|动物人]]变体，可以在[[savage|野蛮]][[temperate|温带]][[lake|湖泊]]和[[river|河流]]中找到，以2-5个个体的群体出现，通常满足于独处。在体型方面，它们的重量超过普通[[dwarf|矮人]]的一半。
+
+像其他野蛮动物人一样，海狸人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并且可以在[[adventurer mode|冒险模式]]中游玩。
+
+一些矮人因为海狸人的''水坝''和''以树为食的习性''而[[Preferences|喜欢]]它们。
+{{d for dwarf}}
+<!-- Reference: Angry Beavers -->
+尽管有普遍的看法，但并没有两个绰号为"诺伯特"和"达格特"的海狸兄弟。海狸人也不住在像[[human|人类]]那样既作为生活空间又作为水坝的房子里。
+
+<!-- Reference: Character "Woodie" from the game Don't Starve -->
+也没有已知的文献记载[[human|人类]]伐木工（拥有一把名为"露西"的斧头）因为砍倒足够多的树木而被诅咒成为[[werebeast|兽化海狸]]。
+[[File:beaver_man.png|thumb|400px|center|''Art by half-rose'']]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

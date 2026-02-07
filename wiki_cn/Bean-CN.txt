@@ -1,0 +1,20 @@
+{{av}}
+在Dwarf Fortress中有多种豆类：
+* [[Broad bean]]（蚕豆）
+* [[Mung bean]]（绿豆）
+* [[Red bean]]（红豆）
+* [[Soybean]]（大豆）<!-- pea? -->
+* [[String bean]]（四季豆）
+* [[Urad bean]]（黑豆）
+* [[Cacao tree|Cacao bean]]（可可豆）
+* [[Coffee|Coffee bean]]（咖啡豆）
+
+{{Translation
+| dwarven = nangês
+| elvish  = mawada
+| goblin  = dugu
+| human   = seto
+}}
+
+{{disambig}}
+[[ru:Bean]]

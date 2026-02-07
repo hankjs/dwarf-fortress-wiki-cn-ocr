@@ -1,0 +1,26 @@
+{{Quality|Exceptional}}
+{{v50_skill
+| color      = 2:0
+| graphic    = [[File:green_sprite_icon.png]]
+| graphicmargin = 106px
+| skill      = Animal dissector
+| profession = [[Ranger]]
+| job name   = [[Small animal dissection]]
+| tasks      =
+* Extract from a dead animal
+| workshop = [[Butcher's shop]]
+| attributes =
+* Agility
+* Kinesthetic Sense
+}}
+{{av}}
+
+'''动物解剖者'''是与动物解剖[[labor|劳动]]相关的[[skill|技能]]。动物解剖者在[[butcher's shop|屠宰场]]从某些笼装[[vermin|害虫]]中制作[[extracts|提取物]]，这些害虫包括[[fire snake|火蛇]]、[[cave spider|洞穴蜘蛛]]或[[phantom spider|幻影蜘蛛]]，提取物储存在合适的[[vial|小瓶]]中。解剖者的[[skill|技能等级]]决定了完成劳动的速度，而使用的小瓶的[[quality|质量]]和材料增加了最终产品的价值。害虫本身必须由[[trapper|捕猎者]]用[[animal trap|动物陷阱]]捕获，并且在提取过程中不会存活。
+
+动物解剖（以及类似的[[fish dissection|鱼类解剖]]技能）在当前版本的''矮人要塞''中只比[[cheese maker|奶酪制作]]稍微有用一些。在许多这样的物种中，只有少数几种害虫适用于该技能。由于目前没有办法专门针对捕猎作业，这使得它们难以大量实际收集。
+
+解剖[[fire snake|火蛇]]会产生[[liquid fire|液态火焰]]，这是一种[[trade good|贸易品]]，以5个为一组生产，总价值为500☼。其他害虫产生[[venom|毒液]]，不幸的是，毒液不能应用于[[weapon|武器]]，因此也作为（价值较低的）贸易品。
+
+一旦实施了[[alchemy|炼金术]]（并且捕猎者能够针对特定物种，毒药能够可靠地应用于[[weapon|武器]]），动物解剖将可能成为矮人更有用的技能。
+
+{{skills}}

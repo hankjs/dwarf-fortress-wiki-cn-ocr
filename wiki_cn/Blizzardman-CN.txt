@@ -1,0 +1,30 @@
+{{Quality|Exceptional}}
+{{Creaturelookup/0
+|image=blizzard_man_sprite.png
+|portrait=blizzard_man_portrait.png
+|vary=no
+|contrib=yes
+}}
+{{av}}
+{{creaturedesc}}
+
+'''暴风雪人'''是一种智能且非常罕见的[[creature|生物]]，出现在[[evil|邪恶]]阵营的[[tundra|冻原]]和[[glacier|冰川]]中，一次生成一个。重量超过[[troll|巨魔]]，这些野兽具有攻击性，会用拳打、脚踢、抓挠和撕咬攻击任何接近它们的[[dwarf|矮人]]，应该用装备的[[military|军队]]小队或[[trap|陷阱]]来处理。尽管名字类似，但它们与地下的[[gabbro man|辉长岩人]]或[[fire man|火焰人]]等[[construct creature|构造生物]]并没有太多共同特征。在[[adventurer mode|冒险者模式]]中杀死暴风雪人比其他普通生物获得更多经验。
+
+尽管它们的描述可能暗示，暴风雪人并不是由冰制成的，而是由正常的血肉组成。然而，它们的原始文件中的注释指出[[Main:Toady One|Toady One]]计划在未来的更新中让它们由冰制成。暴风雪人拥有{{token|NO_THOUGHT_CENTER_FOR_MOVEMENT}}标签，意味着它们的肢体不需要连接到大脑才能运作（它们没有大脑）。由于前述的智能，矮人不会[[butcher|屠宰]]、食用或使用由暴风雪人制成的产品，限制了它们的用途只能占用你的[[refuse|垃圾]][[stockpile|储物堆]]中的空间、[[live training|活体训练]]或者如果你用[[cage|笼子]]陷阱捕获一个的话，把它们放在你喜欢的地方。
+
+一些矮人因其''半透明的皮肤''、''冰柱状的牙齿''、''发光的红眼睛''和''尖尖的耳朵''而[[Preferences|喜欢]]暴风雪人。
+
+{{Translation| dwarven = zolak udos | elvish = ethela onino | goblin = xodu ngorûg | human = rismal abo}}
+[[File:BlizzardMan.jpg|thumb|300px|center|一个暴风雪人，由[[Main:Bay 12 Games|Bay 12 Games]]用蜡笔绘制。]]
+
+{{D for Dwarf}}
+<!--Reference: Game of Thrones-->
+有人认为，将暴风雪人挡在要塞外的最佳方法是建造一面特别大的[[wall|墙]]。
+
+<!--Reference: Mega Man 6 boss Blizzard Man-->
+人们经常认为暴风雪人会卷成球体进行攻击，尽管从未见过这种行为。不知道这个想法是如何产生的。
+==花絮==
+*[[File:blizzard_men_sprites.png|right]]最初，高级版本有一个幼年暴风雪人精灵图的图形。它后来从游戏中删除了，因为暴风雪人出生时就是成年的。
+{{gamedata}}
+{{Creatures}}
+{{Category|Humanoids}}

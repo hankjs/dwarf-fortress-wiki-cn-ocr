@@ -1,0 +1,28 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=bluejay_man_sprite.png
+|portrait=bluejay_man_portrait.png
+|vary=[[Blue jay]] - [[Bluejay man]] - [[Giant bluejay]]
+|contrib=no
+}}
+{{av}}
+{{creaturedesc}}
+
+'''蓝松鸦人'''是普通[[blue jay|蓝松鸦]]的[[animal people|动物人]]变体，栖息在多个[[temperate|温带]][[biome|生物群系]]中。它们以5-10个体的群体出现，通常满足于独处。在体型方面，它们的体重略超过普通[[dwarf|矮人]]的一半。所有蓝松鸦人出生时就拥有传奇级的[[Climber|攀爬]][[skill|技能]]。蓝松鸦人通常不会攻击你的矮人，但可以取消工作命令。
+
+像其他野蛮动物人一样，蓝松鸦人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并且可以在[[adventurer mode|冒险模式]]中游玩。
+
+一些矮人[[Preferences|喜欢]]蓝松鸦人，因为它们的''色彩''。
+
+[[File:bluejay_man.gif|thumb|250px|center|<small>''艺术作品来自TfProxy，显然''</small>]]
+
+{{D for Dwarf}}
+
+蓝松鸦人经常被观察到与[[Raccoon man|浣熊人]]和[[yeti|雪人]]成为朋友，同时与肥胖的[[goblin|哥布林]]和[[ghost|幽灵]]关系紧张。
+
+一些蓝松鸦人被观察到用棍棒将球击打到很远的距离。
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Creatures}}
+{{Category|Animals}}

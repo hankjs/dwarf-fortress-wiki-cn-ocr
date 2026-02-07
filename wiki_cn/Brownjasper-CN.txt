@@ -1,0 +1,13 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_brown_jasper_sprite.png
+|graphic2=rough_brown_jasper_sprite.png
+|wiki=Jasper}}
+{{av}}
+
+'''褐碧玉'''是在[[sedimentary layer|沉积层]]中发现的不起眼的低价值[[gem|宝石]]。
+
+[[File:Wielka kula jaspis krajobrazowy.jpg|thumb|center|300px|褐碧玉。]]
+
+{{gamedata}}
+{{gems}}

@@ -1,0 +1,94 @@
+[[File:bay12_logo.png|thumb|150px|right|Company logo]][http://www.bay12games.com/ Bay 12 Games]是一家由[[Toady One|Tarn Adams]]和他的兄弟[[ThreeToe|Zach Adams]]拥有的游戏公司。它目前开发和发布''[[Dwarf Fortress]]''，并且还创建了几款ASCII游戏。
+
+它的座右铭是''"Beyond Quality."''（超越质量）
+
+[[Kitfox Games]]负责为[[Premium|高级版]]更新以来的艺术、音频和编程团队招募新成员。（[https://store.steampowered.com/news/app/975370/view/4237410439220288178?l=english Summer 2024 FAQ]）他们与其他人一起被列在/data/credits.txt中。
+
+==Team Members==
+===Creators===
+* [[Toady One|Tarn Adams]]，程序员和设计师
+* [[ThreeToe|Zach Adams]]，设计师
+
+===Artwork===
+* Jacob Bowman
+:也被称为Laughing Llama，[http://www.bay12forums.com/smf/index.php?topic=53180.0 Ironhand]图形集的创建者。制作了马车图形。
+* [https://ckjong.artstation.com/ Carolyn Jong]
+:游戏和模组的像素艺术家，以主要生物[[Graphics#Portraits|肖像]]而闻名。也制作了树叶。
+* Michal Madej
+:[http://www.bay12forums.com/smf/index.php?topic=137370.0 Mayday]图形集的创建者。制作了矮人精灵。
+* Guido "[https://www.neorice.com/main Neorice]" Bos
+:业余像素艺术家，负责各种精灵，如[[animal person|动物人]]肖像。
+* Patrick Schroeder
+:也被称为Meph，[[Masterwork:Main Page|Masterwork]]的作者和同名图形集。
+:由于版权问题，在[[Premium version|高级版]]发布前离开了团队。[http://www.bay12forums.com/smf/index.php?topic=174112.msg8331428#msg8331428]
+
+===Audio===
+* Omar "Dabu" Dabbous，音频总监和音乐家
+:"Winding Worlds、Goodbye Volcano High和Gnog等游戏的作曲家，以及Boyfriend Dungeon的音频设计师。"[https://store.steampowered.com/app/2232370/]
+* [https://simonswerwer.com/ Simon Swerwer]，音乐家
+:"社区最喜爱的Dwarf Fortress作曲家，专门制作[[Dwarven language|矮人语]]歌词和人声。"[https://store.steampowered.com/app/2232370/]
+:之前为[[Utility:SoundSense]]作曲。
+* rcab，音乐家
+:[https://www.youtube.com/watch?v=kihP_-NyVkc&list=PLp1Y6qRhEmZxrN4530OKxtSCWSKXqBjSR "Into the Pits"]的客座艺术家。
+* Agueda Macias，音乐家
+:"古提琴（viola de gamba）专家演奏家，混合巴洛克和巴西风格。"[https://store.steampowered.com/app/2232370/]
+* Evan Gipson，首席音频程序员
+* Parker Bert，首席声音设计师
+
+===Programming===
+* Ana "[[User:Putnam3145|Putnam]]"
+:"基于对代码库的广泛预先了解以及与[[Toady One|Tarn]]的关系而被选中。"[https://store.steampowered.com/news/app/975370/view/4237410439220288178]
+
+===Additional Credits===
+* Pat Vance，IT帮助
+* Kornel Kisielewicz，IT帮助
+* Martin Packman，IT帮助
+* Alan Ames，初始测试员
+:"帮助我们早期未发布的许多项目，以及1996年在AOL上发布的一个项目。"（[http://www.bay12games.com/contact.html]）
+* Camilla Adams
+:"语言色彩"（[http://www.bay12games.com/armok/credits.html]）用于''[[Armok|Slaves to Armok: God of Blood]]''
+
+==Games==
+{| class = "wikitable sortable"
+!Title !! Year !! Platform !! Genre(s)
+|-
+|''[[Dwarf Fortress]]''
+|2006
+|Windows, Mac OS X, Linux
+|建造与管理模拟，Roguelike
+|-
+|''[http://www.bay12games.com/games/ Kobold Quest]''
+|2006
+|Windows, Mac OS X
+|
+|-
+|''[http://www.bay12games.com/games/ Squiggles]''
+|2005
+|
+|
+|-
+|''[http://www.bay12games.com/ww1medic/ WWI Medic]''
+|2004
+|Windows
+|
+|-
+|''[http://www.bay12games.com/lcs/ Liberal Crime Squad]''
+|2002
+|Windows, Linux
+|Roguelike政治讽刺
+|-
+|''[http://www.bay12games.com/armok/ Slaves to Armok: God of Blood]''
+|2000
+|Windows
+|单人奇幻RPG
+|}
+
+==See also==
+* [[Bay 12 Forums]]
+
+== External links ==
+*[http://www.bay12games.com/ Official website]
+
+[[Category:Game development]]
+[[ru:Bay 12 Games]]
+{{unversioned}}

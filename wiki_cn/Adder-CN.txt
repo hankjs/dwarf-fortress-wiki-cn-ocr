@@ -1,0 +1,25 @@
+{{Quality|Superior}}
+{{Creaturelookup/0
+|image=adder_sprites.png
+|portrait=adder_portrait_anim.gif
+|wiki=Vipera_berus
+|skull=1
+|contrib=no
+}}
+{{av}}
+:''有关与数字加法相关的逻辑设计，请参见[[Adder (Computing)]]。''
+{{creaturedesc}}
+
+'''蝰蛇（Adders）'''是在许多[[temperate|温带]][[biome|生物群系]]中发现的有[[syndrome|毒]][[Creature|蛇类]]。它们的咬伤会释放[[venom|毒液]]，可导致立即的强烈[[Symptom#Pain|疼痛]]，随后是长期（但非永久性）的[[syndrome|恶心、水泡和肿胀]]。虽然咬伤本身通常不致命，但这种疼痛可能导致失去知觉，这''可能''在战斗中导致致命的并发症。
+
+蝰蛇的独特之处在于它们是游戏中非[[vermin|害虫]]类[[list of creatures by adult size|最小的生物]]。
+
+蝰蛇可以被[[cage|笼子]][[trap|陷阱]]捕获，并被[[Animal trainer|训练]]成便宜的异域[[pet|宠物]]。它们生来就是成年体，因此无法被永久驯化。[[Butcher|屠宰]]一条蝰蛇只会产生一个[[skull|头骨]]，使它们对你的[[meat industry|肉类产业]]毫无价值。雌性蝰蛇是[[egg|产卵]]者，定期产生3-10个可食用的蛋，提供的食物远超从如此小的生物所预期的量。
+
+一些矮人[[Preferences|喜欢]]蝰蛇的''警告嘶嘶声''。
+
+[[Image:Loch Shin adder.JPG|thumb|center|400px|因其''警告嘶嘶声''而受赞赏。]]
+
+{{gamedata}}
+{{Creatures}}
+{{Category|Animals}}

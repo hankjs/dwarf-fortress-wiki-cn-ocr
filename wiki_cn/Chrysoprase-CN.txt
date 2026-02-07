@@ -1,0 +1,15 @@
+{{Quality|Fine}}
+{{gemlookup/0
+|graphic=cut_chrysoprase_sprite.png
+|graphic2=rough_chrysoprase_sprite.png}}
+{{av}}
+
+'''绿玉髓'''是一种不起眼的低价值[[gem|宝石]]，存在于[[sedimentary layer|沉积岩层]]中。
+
+==现实生活中==
+
+绿玉髓是绿色玉髓的正式名称，也被称为澳洲玉。它相对罕见。
+
+[[File:V and A Museum snuffbox 28072013 08.jpg|center|thumb|300px|一个绿玉髓小盒。它镶嵌着粉红碧玺、浅黄钻石和透明钻石，并环绕着黄金带。盒子上有花朵的图像。]]
+{{gamedata}}
+{{gems}}

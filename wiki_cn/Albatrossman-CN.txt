@@ -1,0 +1,16 @@
+{{Quality|Fine}}
+{{Creaturelookup/0
+|image=Albatross Man.png
+|portrait=albatross_man_portrait.png
+}}
+{{av}}
+{{creaturedesc}}
+
+'''信天翁人'''是普通[[albatross|信天翁]]的[[animal people|动物人]]变种，栖息在[[savage|蛮荒]][[ocean|海洋]]。他们以1-10个个体的群体出现，通常满足于独处。在体型方面，他们的体重略超过普通[[dwarf|矮人]]的一半。所有信天翁人出生时都拥有传奇级的[[Climber|攀爬]][[skill|技能]]。
+
+像其他蛮荒动物人一样，信天翁人可以加入[[civilization|文明]]，成为[[historical figure|历史人物]]，作为[[visitor|访客]]出现，并在[[adventurer mode|冒险模式]]中可玩。
+
+一些矮人[[Preferences|喜欢]]信天翁人，因为他们的''巨大翅膀''。
+
+{{gamedata}}
+{{Creatures}}

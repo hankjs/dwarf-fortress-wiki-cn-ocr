@@ -1,0 +1,15 @@
+{{Quality|Superior}}
+{{stonelookup/0
+|graphic=dacite_sprite.png}}
+{{av}}
+
+'''Dacite（英安岩）'''是形成整个[[stone#Stones forming entire layers|岩层]]的[[Igneous extrusive layer|火成喷出岩]][[stone|石头]]类型之一，功能上与[[andesite|安山岩]]和[[rhyolite|流纹岩]]相同。然而，它的熔点略有不同，并且不是[[magma safe|岩浆安全]]的。
+
+在现实生活中，这种石头类似于[[felsite|霏细岩]]，霏细岩是''Dwarf Fortress''中代表晚春的[[Calendar|月份]]。
+
+<gallery>
+File:Mineraly.sk_-_dacit.jpg|Dacite
+</gallery>
+
+{{gamedata}}
+{{stones}}
