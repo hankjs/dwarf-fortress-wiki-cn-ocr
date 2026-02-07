@@ -1,0 +1,14 @@
+# 代理配置文件
+# 复制此文件为 proxy.conf 并修改以下设置
+
+# 是否启用代理 (true/false)
+ENABLE_PROXY=false
+
+# 代理地址和端口
+PROXY_HOST=127.0.0.1
+PROXY_PORT=7890
+
+# 常用代理配置参考：
+# Clash: 127.0.0.1:7890
+# V2Ray/V2RayN: 127.0.0.1:10809
+# SSR: 127.0.0.1:1080

@@ -76,14 +76,25 @@ User clicks screenshot → ScreenshotWindow (region selection)
 
 ### Critical Components
 
-**`src/ocr_tool.py`** - Main application
-- `MainWindow`: Entry point with screenshot button
-- `ScreenshotWindow`: Full-screen overlay for region selection
+**`src/ocr_tool.py`** - Main application module (317 lines)
+- `MainWindow`: Entry point with screenshot button and wiki index building
+- Handles OCR processing, wiki entry matching, and redirect resolution
+
+**`src/result_dialog.py`** - Result display module (496 lines)
 - `ResultDialog`: Wiki content viewer with CN/EN toggle
 - `WikiTextBrowser`: Custom QTextBrowser with async image loading
 - `ImageDownloader`/`ImageUrlResolver`: Background threads for wiki images
+- Global `_image_cache` for sharing loaded images across windows
 
-**`src/wiki_to_html.py`** - Wiki markup parser
+**`src/screenshot.py`** - Screenshot capture module (71 lines)
+- `ScreenshotWindow`: Full-screen overlay for region selection
+- Handles mouse events and area selection with rubber band
+
+**`src/translation.py`** - Translation utilities (82 lines)
+- `load_translation_map()`: Loads translation_map.json
+- `translate_content_by_vocab()`: Word-by-word translation with wiki syntax protection
+
+**`src/wiki_to_html.py`** - Wiki markup parser (417 lines)
 - `wiki_to_html(content)`: Converts MediaWiki syntax to HTML
 - Handles: `[[links]]`, `[[File:...]]`, bold/italic, tables, lists, code blocks
 - Protects wiki syntax during HTML escaping

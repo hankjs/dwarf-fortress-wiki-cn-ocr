@@ -3,7 +3,12 @@
     "allow": [
       "mcp__acp__Write",
       "mcp__acp__Bash",
-      "mcp__acp__Edit"
+      "mcp__acp__Edit",
+      "Bash(python -c:*)",
+      "Bash(wc:*)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(python tests/test_translation.py:*)",
+      "Bash(python tests/test_wiki_to_html.py:*)"
     ]
   }
 }
