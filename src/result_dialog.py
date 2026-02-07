@@ -8,7 +8,7 @@ import re
 import urllib.request
 import webbrowser
 
-from PyQt5.QtCore import QThread, QUrl, Qt, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, QUrl, pyqtSignal
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import (
     QApplication,
@@ -24,7 +24,6 @@ from PyQt5.QtWidgets import (
 
 from translation import load_translation_map, translate_content_by_vocab
 from wiki_to_html import wiki_to_html
-
 
 # 全局图片缓存，所有窗口共享
 _image_cache = {}
@@ -237,20 +236,21 @@ class ResultDialog(QDialog):
         top_layout.setContentsMargins(0, 0, 0, 0)
         top_layout.setSpacing(6)
 
-        ocr_label = QLabel(text)
-        ocr_label.setWordWrap(True)
-        ocr_label.setTextInteractionFlags(Qt.TextSelectableByMouse)
-        ocr_label.setStyleSheet("""
-            QLabel {
-                font-size: 13px;
-                padding: 6px 10px;
-                background-color: #f5f5f5;
-                border: 1px solid #ddd;
-                border-radius: 4px;
-                color: #333;
+        self.pin_btn = QPushButton("置顶")
+        self.pin_btn.setCheckable(True)
+        self.pin_btn.setChecked(True)
+        self.pin_btn.setFixedSize(40, 25)
+        self.pin_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px; border: 1px solid #ccc; border-radius: 3px;
+                background-color: #e0e0e0; color: #333;
+            }
+            QPushButton:checked {
+                background-color: #4CAF50; color: white; border: none;
             }
         """)
-        top_layout.addWidget(ocr_label, 1)  # stretch=1，占据剩余空间
+        self.pin_btn.clicked.connect(self.toggle_pin)
+        top_layout.addWidget(self.pin_btn)
 
         # 语言切换按钮（根据当前词条是否有中文动态显示）
         self.lang_btn = QPushButton("中/EN")
@@ -267,8 +267,6 @@ class ResultDialog(QDialog):
         """)
         self.lang_btn.clicked.connect(self.toggle_language)
         top_layout.addWidget(self.lang_btn)
-
-        layout.addLayout(top_layout)
 
         # 合并所有词条（wiki + 词典）
         total_entries = len(self.wiki_entries) + len(self.dict_entries)
@@ -297,7 +295,9 @@ class ResultDialog(QDialog):
             for i, (entry_name, _content) in enumerate(self.wiki_entries):
                 btn = QPushButton("📖 " + entry_name.replace("_", " "))
                 btn.setCursor(Qt.PointingHandCursor)
-                btn.setStyleSheet(self._entry_btn_style(selected=(i == 0), is_dict=False))
+                btn.setStyleSheet(
+                    self._entry_btn_style(selected=(i == 0), is_dict=False)
+                )
                 btn.clicked.connect(lambda checked, idx=i: self.switch_entry(idx))
                 self.entry_btn_layout.addWidget(btn)
                 self.entry_buttons.append(btn)
@@ -307,17 +307,22 @@ class ResultDialog(QDialog):
             for i, (word, _entry) in enumerate(self.dict_entries):
                 btn = QPushButton("📚 " + word)
                 btn.setCursor(Qt.PointingHandCursor)
-                btn.setStyleSheet(self._entry_btn_style(
-                    selected=(wiki_count == 0 and i == 0),
-                    is_dict=True
-                ))
-                btn.clicked.connect(lambda checked, idx=wiki_count+i: self.switch_entry(idx))
+                btn.setStyleSheet(
+                    self._entry_btn_style(
+                        selected=(wiki_count == 0 and i == 0), is_dict=True
+                    )
+                )
+                btn.clicked.connect(
+                    lambda checked, idx=wiki_count + i: self.switch_entry(idx)
+                )
                 self.entry_btn_layout.addWidget(btn)
                 self.entry_buttons.append(btn)
 
             self.entry_btn_layout.addStretch()
             scroll.setWidget(btn_container)
-            layout.addWidget(scroll)
+            top_layout.addWidget(scroll, 1)
+
+        layout.addLayout(top_layout)
 
         # 内容区域
         self.text_browser = WikiTextBrowser()
@@ -341,38 +346,6 @@ class ResultDialog(QDialog):
             self.text_browser.setText(text)
             self.lang_btn.hide()  # 没有匹配到词条时隐藏语言切换按钮
 
-        # 按钮区域
-        btn_layout = QHBoxLayout()
-        btn_layout.setContentsMargins(0, 0, 0, 0)
-
-        self.pin_btn = QPushButton("置顶")
-        self.pin_btn.setCheckable(True)
-        self.pin_btn.setChecked(True)
-        self.pin_btn.setFixedSize(40, 25)
-        self.pin_btn.setStyleSheet("""
-            QPushButton {
-                font-size: 12px; border: 1px solid #ccc; border-radius: 3px;
-                background-color: #e0e0e0; color: #333;
-            }
-            QPushButton:checked {
-                background-color: #4CAF50; color: white; border: none;
-            }
-        """)
-        self.pin_btn.clicked.connect(self.toggle_pin)
-        btn_layout.addWidget(self.pin_btn)
-
-        copy_btn = QPushButton("复制识别文本")
-        copy_btn.setFixedHeight(25)
-        copy_btn.clicked.connect(self.copy_to_clipboard)
-        btn_layout.addWidget(copy_btn)
-
-        close_btn = QPushButton("关闭")
-        close_btn.setFixedHeight(25)
-        close_btn.clicked.connect(self.close)
-        btn_layout.addWidget(close_btn)
-
-        layout.addLayout(btn_layout)
-
     @staticmethod
     def _entry_btn_style(selected=False, is_dict=False):
         if selected:
@@ -393,7 +366,6 @@ class ResultDialog(QDialog):
             }
             QPushButton:hover { background-color: #c0c0c0; }
         """
-
 
     def _has_cn_content(self, index):
         """判断指定索引的词条是否有中文内容（有翻译文件或可进行临时翻译）"""
@@ -462,7 +434,9 @@ class ResultDialog(QDialog):
 
                 # 格式化为HTML
                 if self.dict_manager:
-                    html_content = self.dict_manager.format_entry_as_html(dict_entry, word)
+                    html_content = self.dict_manager.format_entry_as_html(
+                        dict_entry, word
+                    )
                 else:
                     html_content = f"<h2>{word}</h2><p>词典不可用</p>"
 
@@ -475,7 +449,9 @@ class ResultDialog(QDialog):
         wiki_count = len(self.wiki_entries)
         for i, btn in enumerate(self.entry_buttons):
             is_dict = i >= wiki_count
-            btn.setStyleSheet(self._entry_btn_style(selected=(i == index), is_dict=is_dict))
+            btn.setStyleSheet(
+                self._entry_btn_style(selected=(i == index), is_dict=is_dict)
+            )
         self.current_entry_index = index
         self._show_entry(index)
 

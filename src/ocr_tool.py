@@ -19,11 +19,15 @@ from PyQt5.QtWidgets import (
     QPushButton,
     QVBoxLayout,
     QWidget,
+    QSplitter,
 )
 
 from result_dialog import ResultDialog
 from screenshot import ScreenshotWindow
 from dictionary import get_dictionary_manager
+from entry_list_widget import EntryListWidget
+from content_display_widget import ContentDisplayWidget
+from translation import load_translation_map
 
 
 class MainWindow(QMainWindow):
@@ -32,29 +36,92 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("DFWiki识别")
-        self.setMinimumSize(300, 150)
+        self.setMinimumSize(800, 600)
         # 默认置顶
         self.setWindowFlags(self.windowFlags() | Qt.WindowStaysOnTopHint)
 
         # 构建wiki索引
         self.build_wiki_index()
 
+        # 加载翻译映射
+        translation_data = load_translation_map()
+        self.translation_map = translation_data.get("title_map", {})
+        self.vocab_map = translation_data.get("vocabulary_map", {})
+
         # 初始化词典管理器
         self.dict_manager = get_dictionary_manager()
+
+        # 缓存查询结果（用于词条切换和弹窗）
+        self._last_query_result = None
 
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
 
-        layout = QVBoxLayout(central_widget)
-        layout.setContentsMargins(8, 8, 8, 8)
-        layout.setSpacing(6)
+        main_layout = QVBoxLayout(central_widget)
+        main_layout.setContentsMargins(8, 8, 8, 8)
+        main_layout.setSpacing(6)
 
-        # 第一行：置顶 + 重新打开 + 识别按钮
-        top_widget = QWidget()
-        top_layout = QHBoxLayout(top_widget)
-        top_layout.setContentsMargins(0, 0, 0, 0)
-        top_layout.setSpacing(6)
+        # Header区域：搜索框 + 按钮
+        header_layout = QHBoxLayout()
+        header_layout.setSpacing(6)
 
+        # 搜索输入框
+        self.search_input = QLineEdit()
+        self.search_input.setPlaceholderText("输入wiki词条名或英文单词...")
+        self.search_input.setFixedHeight(30)
+        self.search_input.setStyleSheet("""
+            QLineEdit {
+                font-size: 12px;
+                padding: 0 10px;
+                border: 2px solid #ddd;
+                border-radius: 3px;
+            }
+            QLineEdit:focus {
+                border: 2px solid #4CAF50;
+            }
+        """)
+        self.search_input.returnPressed.connect(self.search_wiki)
+        header_layout.addWidget(self.search_input, stretch=1)
+
+        # 搜索按钮
+        search_btn = QPushButton("搜索")
+        search_btn.setFixedHeight(30)
+        search_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                background-color: #2196F3;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background-color: #0b7dda;
+            }
+        """)
+        search_btn.clicked.connect(self.search_wiki)
+        header_layout.addWidget(search_btn)
+
+        # 识别按钮
+        capture_btn = QPushButton("识别")
+        capture_btn.setFixedHeight(30)
+        capture_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                border-radius: 3px;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background-color: #45a049;
+            }
+        """)
+        capture_btn.clicked.connect(self.start_capture)
+        header_layout.addWidget(capture_btn)
+
+        # 置顶按钮
         self.pin_btn = QPushButton("置顶")
         self.pin_btn.setCheckable(True)
         self.pin_btn.setChecked(True)  # 默认置顶
@@ -75,9 +142,34 @@ class MainWindow(QMainWindow):
             }
         """)
         self.pin_btn.clicked.connect(self.toggle_pin)
-        top_layout.addWidget(self.pin_btn)
+        header_layout.addWidget(self.pin_btn)
 
-        self.reopen_btn = QPushButton("重新打开")
+        # 语言切换按钮
+        self.lang_btn = QPushButton("中/EN")
+        self.lang_btn.setFixedHeight(30)
+        self.lang_btn.setStyleSheet("""
+            QPushButton {
+                font-size: 12px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                background-color: #e0e0e0;
+                color: #333;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background-color: #d0d0d0;
+            }
+            QPushButton:disabled {
+                background-color: #f0f0f0;
+                color: #999;
+            }
+        """)
+        self.lang_btn.setEnabled(False)
+        self.lang_btn.clicked.connect(self.toggle_language)
+        header_layout.addWidget(self.lang_btn)
+
+        # 弹窗按钮
+        self.reopen_btn = QPushButton("弹窗")
         self.reopen_btn.setFixedHeight(30)
         self.reopen_btn.setStyleSheet("""
             QPushButton {
@@ -92,83 +184,51 @@ class MainWindow(QMainWindow):
                 background-color: #d0d0d0;
             }
         """)
-        self.reopen_btn.clicked.connect(self.reopen_result)
+        self.reopen_btn.clicked.connect(self.open_result_dialog)
         self.reopen_btn.hide()
-        top_layout.addWidget(self.reopen_btn)
+        header_layout.addWidget(self.reopen_btn)
 
-        top_layout.addStretch()
+        main_layout.addLayout(header_layout)
 
-        # 截图识别按钮
-        capture_btn = QPushButton("识别")
-        capture_btn.setFixedHeight(30)
-        capture_btn.setStyleSheet("""
-            QPushButton {
-                font-size: 12px;
-                background-color: #4CAF50;
-                color: white;
-                border: none;
-                border-radius: 3px;
-                padding: 0 12px;
-            }
-            QPushButton:hover {
-                background-color: #45a049;
-            }
-        """)
-        capture_btn.clicked.connect(self.start_capture)
-        top_layout.addWidget(capture_btn)
+        # Content区域：三栏布局（左侧词条列表 + 右侧内容显示）
+        content_splitter = QSplitter(Qt.Horizontal)
 
-        layout.addWidget(top_widget)
+        # 左侧：词条列表
+        self.entry_list = EntryListWidget()
+        self.entry_list.setFixedWidth(200)
+        content_splitter.addWidget(self.entry_list)
 
-        # 第二行：输入框 + 搜索按钮
-        search_widget = QWidget()
-        search_layout = QHBoxLayout(search_widget)
-        search_layout.setContentsMargins(0, 0, 0, 0)
-        search_layout.setSpacing(6)
+        # 右侧：内容显示
+        self.content_display = ContentDisplayWidget()
+        content_splitter.addWidget(self.content_display)
 
-        # 输入框
-        self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("输入wiki词条名...")
-        self.search_input.setFixedHeight(30)
-        self.search_input.setStyleSheet("""
-            QLineEdit {
-                font-size: 12px;
-                padding: 0 10px;
-                border: 2px solid #ddd;
-                border-radius: 3px;
-            }
-            QLineEdit:focus {
-                border: 2px solid #4CAF50;
-            }
-        """)
-        self.search_input.returnPressed.connect(self.search_wiki)
-        search_layout.addWidget(self.search_input, stretch=1)
+        # 设置比例（左:右 = 1:4）
+        content_splitter.setStretchFactor(0, 1)
+        content_splitter.setStretchFactor(1, 4)
 
-        # 搜索按钮
-        search_btn = QPushButton("搜索")
-        search_btn.setFixedHeight(30)
-        search_btn.setStyleSheet("""
-            QPushButton {
-                font-size: 12px;
-                background-color: #2196F3;
-                color: white;
-                border: none;
-                border-radius: 3px;
-                padding: 0 12px;
-            }
-            QPushButton:hover {
-                background-color: #0b7dda;
-            }
-        """)
-        search_btn.clicked.connect(self.search_wiki)
-        search_layout.addWidget(search_btn)
+        main_layout.addWidget(content_splitter)
 
-        layout.addWidget(search_widget)
-
-        # 第三行：状态标签
-        self.status_label = QLabel("")
+        # 状态栏
+        self.status_label = QLabel("就绪")
         self.status_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        self.status_label.setStyleSheet("font-size: 12px; color: #666;")
-        layout.addWidget(self.status_label)
+        self.status_label.setFixedHeight(25)
+        self.status_label.setStyleSheet("""
+            font-size: 12px;
+            color: #666;
+            padding: 0 5px;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+        """)
+        main_layout.addWidget(self.status_label)
+
+        # 连接信号
+        self.entry_list.entry_selected.connect(self.on_entry_selected)
+        self.content_display.wiki_link_clicked.connect(self.on_wiki_link_clicked)
+
+        # 注入依赖到ContentDisplayWidget
+        self.content_display.translation_map = self.translation_map
+        self.content_display.vocab_map = self.vocab_map
+        self.content_display.dict_manager = self.dict_manager
 
     @staticmethod
     def _normalize(text):
@@ -342,7 +402,25 @@ class MainWindow(QMainWindow):
             self.status_label.setText("未找到匹配结果")
             return
 
-        # 构建状态信息
+        # 3.1 缓存结果（必须在 select_first() 之前，因为信号处理需要这个数据）
+        self._last_query_result = {
+            "query": query_text,
+            "dict_entries": dict_entries,
+            "wiki_entries": wiki_entries,
+            "wiki_cn_entries": wiki_cn_entries,
+        }
+
+        # 3.2 注入中文内容到 ContentDisplayWidget
+        self.content_display.wiki_cn_entries = wiki_cn_entries
+
+        # 3.3 填充左侧列表并自动选中第一项
+        self.entry_list.set_entries(dict_entries, wiki_entries)
+        self.entry_list.select_first()
+
+        # 3.4 显示"弹窗"按钮
+        self.reopen_btn.show()
+
+        # 3.5 更新状态标签
         status_parts = []
         if wiki_count > 0:
             status_parts.append(f"{wiki_count} 条 Wiki")
@@ -350,26 +428,99 @@ class MainWindow(QMainWindow):
             status_parts.append(f"{dict_count} 个单词")
         self.status_label.setText(f"找到 {' + '.join(status_parts)}!")
 
-        # 打开结果对话框
+    def on_entry_selected(self, index: int, entry_type: str):
+        """词条选中事件"""
+        if not self._last_query_result:
+            return
+
+        try:
+            if entry_type == "dict":
+                # 显示词典词条
+                dict_entries = self._last_query_result["dict_entries"]
+                if index >= len(dict_entries):
+                    return
+
+                word, dict_entry = dict_entries[index]
+                self.content_display.show_dict_entry(word, dict_entry)
+                self.lang_btn.setEnabled(False)  # 词典不支持语言切换
+
+            elif entry_type == "wiki":
+                # 显示Wiki词条
+                wiki_entries = self._last_query_result["wiki_entries"]
+                wiki_cn_entries = self._last_query_result.get("wiki_cn_entries", [])
+
+                if index >= len(wiki_entries):
+                    return
+
+                entry_name, content = wiki_entries[index]
+                cn_content = None
+                if wiki_cn_entries and index < len(wiki_cn_entries):
+                    cn_content = wiki_cn_entries[index][1]
+
+                self.content_display.show_wiki_entry(entry_name, content, cn_content)
+
+                # 根据是否有中文内容决定是否启用语言切换
+                has_cn = self.content_display.can_toggle_language()
+                self.lang_btn.setEnabled(has_cn)
+
+        except Exception as e:
+            self.status_label.setText(f"显示词条出错: {str(e)}")
+
+    def toggle_language(self):
+        """切换中英文"""
+        self.content_display.toggle_language()
+
+    def on_wiki_link_clicked(self, target: str):
+        """Wiki内链点击处理（弹出ResultDialog）"""
+        normalized = self._normalize(target)
+        if normalized not in self.wiki_index:
+            return
+
+        display_name, file_path = self.wiki_index[normalized]
+        redirected_name, content = self.read_wiki_content(file_path)
+        entry_name = redirected_name if redirected_name else display_name
+
+        # 查找中文内容
+        wiki_cn_entries = None
+        if self.wiki_cn_index and normalized in self.wiki_cn_index:
+            cn_file_path = self.wiki_cn_index[normalized][1]
+            try:
+                with open(cn_file_path, "r", encoding="utf-8") as f:
+                    cn_content = f.read()
+                wiki_cn_entries = [(entry_name, cn_content)]
+            except Exception:
+                wiki_cn_entries = [(entry_name, content)]
+
+        # 弹出ResultDialog
         dialog = ResultDialog(
-            query_text,
+            "",
             self,
-            wiki_entries=wiki_entries,
-            wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
-            dict_entries=dict_entries,
+            wiki_entries=[(entry_name, content)],
+            wiki_cn_entries=wiki_cn_entries,
+            wiki_index=self.wiki_index,
+            wiki_cn_index=self.wiki_cn_index,
+            read_wiki_func=self.read_wiki_content,
+        )
+        dialog.show()
+
+    def open_result_dialog(self):
+        """打开ResultDialog（使用缓存的查询结果）"""
+        if not self._last_query_result:
+            return
+
+        result = self._last_query_result
+        dialog = ResultDialog(
+            result["query"],
+            self,
+            wiki_entries=result["wiki_entries"],
+            wiki_cn_entries=result["wiki_cn_entries"],
+            dict_entries=result["dict_entries"],
             wiki_index=self.wiki_index,
             wiki_cn_index=self.wiki_cn_index,
             read_wiki_func=self.read_wiki_content,
             dict_manager=self.dict_manager,
         )
-        self._result_dialog = dialog
-        self.reopen_btn.show()
         dialog.show()
-
-    def reopen_result(self):
-        if hasattr(self, "_result_dialog") and self._result_dialog:
-            self._result_dialog.show()
-            self._result_dialog.raise_()
 
     def start_capture(self):
         self.hide()
@@ -397,66 +548,100 @@ class MainWindow(QMainWindow):
 
         # 执行OCR
         try:
-            self.status_label.setText("Processing...")
+            self.status_label.setText("识别中...")
             QApplication.processEvents()
 
             # 使用Tesseract进行英文OCR
             text = pytesseract.image_to_string(pil_image, lang="eng")
             text = text.strip()
 
-            if text:
-                # 匹配wiki词条
-                matches = self.match_wiki_entries(text)
-                if matches:
-                    # 读取匹配到的wiki内容（按词条名去重）
-                    wiki_entries = []
-                    wiki_cn_entries = []
-                    seen_names = set()
-                    for display_name, file_path in matches:
-                        redirected_name, content = self.read_wiki_content(file_path)
-                        entry_name = (
-                            redirected_name if redirected_name else display_name
-                        )
-                        dedup_key = self._normalize(entry_name)
-                        if dedup_key in seen_names:
-                            continue
-                        seen_names.add(dedup_key)
-                        wiki_entries.append((entry_name, content))
-                        # 查找对应的中文内容
-                        if dedup_key in self.wiki_cn_index:
-                            cn_file_path = self.wiki_cn_index[dedup_key][1]
-                            try:
-                                with open(cn_file_path, "r", encoding="utf-8") as f:
-                                    cn_content = f.read()
-                                wiki_cn_entries.append((entry_name, cn_content))
-                            except Exception:
-                                wiki_cn_entries.append((entry_name, content))
-                        else:
-                            wiki_cn_entries.append((entry_name, content))
-                    self.status_label.setText(f"识别到 {len(wiki_entries)} 条 wiki!")
-                    dialog = ResultDialog(
-                        text,
-                        self,
-                        wiki_entries=wiki_entries,
-                        wiki_cn_entries=wiki_cn_entries if self.wiki_cn_index else None,
-                        wiki_index=self.wiki_index,
-                        wiki_cn_index=self.wiki_cn_index,
-                        read_wiki_func=self.read_wiki_content,
-                    )
-                else:
-                    self.status_label.setText("识别成功")
-                    dialog = ResultDialog(
-                        text,
-                        self,
-                        wiki_index=self.wiki_index,
-                        wiki_cn_index=self.wiki_cn_index,
-                        read_wiki_func=self.read_wiki_content,
-                    )
-                self._result_dialog = dialog
-                self.reopen_btn.show()
-                dialog.show()
-            else:
+            # 如果文本包含点号，只保留第一个点号之前的内容
+            # 例如: "WeMustDigDeeper.txt" => "WeMustDigDeeper"
+            if "." in text:
+                text = text.split(".")[0].strip()
+
+            if not text:
                 self.status_label.setText("未识别到文字")
+                return
+
+            # 1. 匹配wiki词条
+            matches = self.match_wiki_entries(text)
+            wiki_entries = []
+            wiki_cn_entries = []
+
+            if matches:
+                # 读取匹配到的wiki内容（按词条名去重）
+                seen_names = set()
+                for display_name, file_path in matches:
+                    redirected_name, content = self.read_wiki_content(file_path)
+                    entry_name = redirected_name if redirected_name else display_name
+                    dedup_key = self._normalize(entry_name)
+                    if dedup_key in seen_names:
+                        continue
+                    seen_names.add(dedup_key)
+                    wiki_entries.append((entry_name, content))
+                    # 查找对应的中文内容
+                    if dedup_key in self.wiki_cn_index:
+                        cn_file_path = self.wiki_cn_index[dedup_key][1]
+                        try:
+                            with open(cn_file_path, "r", encoding="utf-8") as f:
+                                cn_content = f.read()
+                            wiki_cn_entries.append((entry_name, cn_content))
+                        except Exception:
+                            wiki_cn_entries.append((entry_name, content))
+                    else:
+                        wiki_cn_entries.append((entry_name, content))
+
+            # 2. 查询英语词典
+            dict_entries = []
+            if self.dict_manager.is_available():
+                # 提取OCR文本中的单词
+                words = re.findall(r'\b[a-zA-Z]+\b', text)
+                seen_words = set()
+                for word in words:
+                    word_lower = word.lower()
+                    if word_lower in seen_words or len(word_lower) < 2:
+                        continue
+                    seen_words.add(word_lower)
+
+                    # 尝试查询（支持词形还原）
+                    entry = self.dict_manager.lookup_with_lemma(word)
+                    if entry:
+                        dict_entries.append((word, entry))
+
+            # 3. 显示结果
+            wiki_count = len(wiki_entries)
+            dict_count = len(dict_entries)
+
+            if wiki_count == 0 and dict_count == 0:
+                self.status_label.setText(f"识别成功「{text}」，但未找到匹配词条")
+                return
+
+            # 3.1 缓存结果（必须在 select_first() 之前，因为信号处理需要这个数据）
+            self._last_query_result = {
+                "query": text,
+                "dict_entries": dict_entries,
+                "wiki_entries": wiki_entries,
+                "wiki_cn_entries": wiki_cn_entries,
+            }
+
+            # 3.2 注入中文内容到 ContentDisplayWidget
+            self.content_display.wiki_cn_entries = wiki_cn_entries
+
+            # 3.3 填充左侧列表并自动选中第一项
+            self.entry_list.set_entries(dict_entries, wiki_entries)
+            self.entry_list.select_first()
+
+            # 3.4 显示"弹窗"按钮
+            self.reopen_btn.show()
+
+            # 3.5 更新状态标签
+            status_parts = []
+            if wiki_count > 0:
+                status_parts.append(f"{wiki_count} 条 Wiki")
+            if dict_count > 0:
+                status_parts.append(f"{dict_count} 个单词")
+            self.status_label.setText(f"识别到 {' + '.join(status_parts)}!")
 
         except Exception as e:
             self.status_label.setText(f"Error: {str(e)}")
