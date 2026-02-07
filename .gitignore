@@ -4,3 +4,4 @@ __pycache__/
 # 代理配置（用户私人配置，不提交）
 proxy.conf
 *.zip
+*.db
