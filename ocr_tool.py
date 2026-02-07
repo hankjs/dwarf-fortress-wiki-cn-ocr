@@ -4,6 +4,7 @@ Windows English OCR Tool
 """
 
 import hashlib
+import json
 import os
 import re
 import sys
@@ -28,6 +29,36 @@ from PyQt5.QtWidgets import (
     QVBoxLayout,
     QWidget,
 )
+
+
+def load_translation_map():
+    """加载翻译映射表"""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    map_path = os.path.join(script_dir, "translation_map.json")
+    if os.path.exists(map_path):
+        try:
+            with open(map_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"title_map": {}, "vocabulary_map": {}}
+
+
+def translate_content_by_vocab(content, vocab_map):
+    """
+    使用词汇映射表进行简单文本替换翻译
+    按词长度降序排列，避免短词替换干扰长词
+    """
+    # 按词长度降序排序，确保长词先被替换
+    sorted_vocab = sorted(vocab_map.items(), key=lambda x: len(x[0]), reverse=True)
+
+    result = content
+    for en_word, cn_word in sorted_vocab:
+        # 使用正则表达式进行整词匹配（忽略大小写）
+        pattern = r"\b" + re.escape(en_word) + r"\b"
+        result = re.sub(pattern, cn_word, result, flags=re.IGNORECASE)
+
+    return result
 
 
 class ScreenshotWindow(QWidget):
@@ -176,6 +207,10 @@ class ResultDialog(QDialog):
         self.entry_buttons = []
         self._child_dialogs = []
         self.current_lang = "en"  # 'en' 或 'cn'
+
+        # 加载翻译映射表
+        self.translation_map = load_translation_map()
+        self.vocab_map = self.translation_map.get("vocabulary_map", {})
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(6, 6, 6, 6)
@@ -377,29 +412,49 @@ class ResultDialog(QDialog):
         return content
 
     def _has_cn_content(self, index):
-        """判断指定索引的词条是否有中文内容"""
-        if not self.wiki_cn_entries or index >= len(self.wiki_cn_entries):
+        """判断指定索引的词条是否有中文内容（有翻译文件或可进行临时翻译）"""
+        if not self.wiki_entries or index >= len(self.wiki_entries):
             return False
-        # 获取英文内容作为对比
-        en_content = (
-            self.wiki_entries[index][1] if index < len(self.wiki_entries) else ""
-        )
-        cn_content = self.wiki_cn_entries[index][1]
-        # 如果中文内容与英文内容不同，则认为有中文
-        return cn_content != en_content
+
+        # 检查是否有翻译文件
+        if self.wiki_cn_entries and index < len(self.wiki_cn_entries):
+            en_content = self.wiki_entries[index][1]
+            cn_content = self.wiki_cn_entries[index][1]
+            # 如果中文内容与英文内容不同，则有翻译文件
+            if cn_content != en_content:
+                return True
+
+        # 即使没有翻译文件，只要有词汇映射表，也可以进行临时翻译
+        return bool(self.vocab_map)
 
     def _show_entry(self, index):
-        # 根据当前词条是否有中文来显示/隐藏语言切换按钮
+        # 语言切换按钮始终显示（只要有词条）
         has_cn = self._has_cn_content(index)
-        self.lang_btn.setVisible(has_cn)
+        self.lang_btn.setVisible(bool(self.wiki_entries))
+
         # 如果当前是中文模式但没有中文内容，自动切回英文
         if self.current_lang == "cn" and not has_cn:
             self.current_lang = "en"
 
-        if self.current_lang == "cn" and has_cn:
-            entry_name, content = self.wiki_cn_entries[index]
-        else:
-            entry_name, content = self.wiki_entries[index]
+        entry_name, content = self.wiki_entries[index]
+
+        if self.current_lang == "cn":
+            # 优先使用翻译文件
+            has_translation_file = (
+                self.wiki_cn_entries
+                and index < len(self.wiki_cn_entries)
+                and self.wiki_cn_entries[index][1] != content
+            )
+
+            if has_translation_file:
+                # 使用现有的翻译文件
+                entry_name, content = self.wiki_cn_entries[index]
+            else:
+                # 使用词汇映射表进行临时翻译
+                content = translate_content_by_vocab(content, self.vocab_map)
+                # 添加临时翻译提示
+                content = "⚠️ [临时翻译]\n\n" + content
+
         html_content = self._wiki_to_html(content)
         self.text_browser.setHtml(html_content)
         self.text_browser.moveCursor(self.text_browser.textCursor().Start)

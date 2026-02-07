@@ -1,0 +1,4858 @@
+{
+  "title_map": {
+    "aardvark": {
+      "en": "Aardvark",
+      "cn": "Aardvark"
+    },
+    "aardvarkman": {
+      "en": "Aardvarkman",
+      "cn": "Aardvarkman"
+    },
+    "abaca": {
+      "en": "Abaca",
+      "cn": "Abaca"
+    },
+    "about": {
+      "en": "About",
+      "cn": "About"
+    },
+    "acacia": {
+      "en": "Acacia",
+      "cn": "Acacia"
+    },
+    "account": {
+      "en": "Account",
+      "cn": "Account"
+    },
+    "acolyte": {
+      "en": "Acolyte",
+      "cn": "Acolyte"
+    },
+    "acornfly": {
+      "en": "Acornfly",
+      "cn": "Acornfly"
+    },
+    "acronyms": {
+      "en": "Acronyms",
+      "cn": "Acronyms"
+    },
+    "activityzones": {
+      "en": "Activityzones",
+      "cn": "Zone"
+    },
+    "adamantine": {
+      "en": "Adamantine",
+      "cn": "Adamantine"
+    },
+    "adamantineextraction": {
+      "en": "Adamantineextraction",
+      "cn": "strand extractor"
+    },
+    "addercomputing": {
+      "en": "Adder(Computing)",
+      "cn": "Adder(Computing)"
+    },
+    "adder": {
+      "en": "Adder",
+      "cn": "Adder"
+    },
+    "adderman": {
+      "en": "Adderman",
+      "cn": "Adderman"
+    },
+    "adiplomathasleftunhappy": {
+      "en": "Adiplomathasleftunhappy",
+      "cn": "Adiplomathasleftunhappy"
+    },
+    "administrator": {
+      "en": "Administrator",
+      "cn": "Administrator"
+    },
+    "advancedentitypositionmechanics2": {
+      "en": "Advancedentitypositionmechanics2",
+      "cn": "Advancedentitypositionmechanics2"
+    },
+    "advancedmarksdwarftrainingguide2": {
+      "en": "Advancedmarksdwarftrainingguide2",
+      "cn": "Advancedmarksdwarftrainingguide2"
+    },
+    "advancedworldgeneration": {
+      "en": "Advancedworldgeneration",
+      "cn": "Advancedworldgeneration"
+    },
+    "adventuremodequickreference3": {
+      "en": "Adventuremodequickreference3",
+      "cn": "Adventuremodequickreference3"
+    },
+    "adventuremodequickstart": {
+      "en": "Adventuremodequickstart",
+      "cn": "Adventuremodequickstart"
+    },
+    "age": {
+      "en": "Age",
+      "cn": "Age"
+    },
+    "agent": {
+      "en": "Agent",
+      "cn": "Agent"
+    },
+    "ages": {
+      "en": "Ages",
+      "cn": "Calendar#Ages"
+    },
+    "agile": {
+      "en": "Agile",
+      "cn": "Attribute"
+    },
+    "agility": {
+      "en": "Agility",
+      "cn": "Attribute#Agility"
+    },
+    "agitation": {
+      "en": "Agitation",
+      "cn": "Creature#Agitation"
+    },
+    "agriculture": {
+      "en": "Agriculture",
+      "cn": "Farming"
+    },
+    "alabaster": {
+      "en": "Alabaster",
+      "cn": "Alabaster"
+    },
+    "alamandine": {
+      "en": "Alamandine",
+      "cn": "Alamandine"
+    },
+    "albatross": {
+      "en": "Albatross",
+      "cn": "Albatross"
+    },
+    "albatrossman": {
+      "en": "Albatrossman",
+      "cn": "Albatrossman"
+    },
+    "alchemistslaboratory": {
+      "en": "Alchemist'sLaboratory",
+      "cn": "alchemist's laboratory"
+    },
+    "alchemistslaboratory2": {
+      "en": "Alchemist'slaboratory2",
+      "cn": "Alchemist'slaboratory2"
+    },
+    "alchemistnoble": {
+      "en": "Alchemist(noble)",
+      "cn": "23a:Alchemist (noble)"
+    },
+    "alchemist": {
+      "en": "Alchemist",
+      "cn": "DF2014:Alchemist"
+    },
+    "alchemy": {
+      "en": "Alchemy",
+      "cn": "Alchemist"
+    },
+    "alchemybasics": {
+      "en": "AlchemyBasics",
+      "cn": "Modification:Civilization Forge/Alchemy basics"
+    },
+    "alcohol": {
+      "en": "Alcohol",
+      "cn": "Alcohol"
+    },
+    "alcoholplantstockpile": {
+      "en": "Alcoholplantstockpile",
+      "cn": "Alcoholplantstockpile"
+    },
+    "alder": {
+      "en": "Alder",
+      "cn": "Alder"
+    },
+    "alexandrite": {
+      "en": "Alexandrite",
+      "cn": "Alexandrite"
+    },
+    "alfalfa": {
+      "en": "Alfalfa",
+      "cn": "Alfalfa"
+    },
+    "alliance": {
+      "en": "Alliance",
+      "cn": "Alliance"
+    },
+    "alligator": {
+      "en": "Alligator",
+      "cn": "Alligator"
+    },
+    "alligatorman": {
+      "en": "Alligatorman",
+      "cn": "Alligatorman"
+    },
+    "alligatorsnappingturtle": {
+      "en": "Alligatorsnappingturtle",
+      "cn": "Alligatorsnappingturtle"
+    },
+    "alluviallayer": {
+      "en": "Alluviallayer",
+      "cn": "Alluviallayer"
+    },
+    "almandine": {
+      "en": "Almandine",
+      "cn": "Almandine"
+    },
+    "almond": {
+      "en": "Almond",
+      "cn": "Almond"
+    },
+    "alpaca": {
+      "en": "Alpaca",
+      "cn": "Alpaca"
+    },
+    "altar": {
+      "en": "Altar",
+      "cn": "Altar"
+    },
+    "alternatecreaturesorting": {
+      "en": "Alternatecreaturesorting",
+      "cn": "Alternatecreaturesorting"
+    },
+    "aluminum": {
+      "en": "Aluminum",
+      "cn": "Aluminum"
+    },
+    "alunite": {
+      "en": "Alunite",
+      "cn": "Alunite"
+    },
+    "amber": {
+      "en": "Amber",
+      "cn": "Amber"
+    },
+    "amberopal": {
+      "en": "Amberopal",
+      "cn": "Amberopal"
+    },
+    "ambush": {
+      "en": "Ambush",
+      "cn": "Ambush"
+    },
+    "ambusher": {
+      "en": "Ambusher",
+      "cn": "Ambusher"
+    },
+    "amethyst": {
+      "en": "Amethyst",
+      "cn": "Amethyst"
+    },
+    "amethystman": {
+      "en": "Amethystman",
+      "cn": "Amethystman"
+    },
+    "ammotoken": {
+      "en": "Ammotoken",
+      "cn": "Ammotoken"
+    },
+    "ammunition": {
+      "en": "Ammunition",
+      "cn": "Ammunition"
+    },
+    "amphibianman": {
+      "en": "Amphibianman",
+      "cn": "Amphibianman"
+    },
+    "amphibious": {
+      "en": "Amphibious",
+      "cn": "Amphibious"
+    },
+    "anaconda": {
+      "en": "Anaconda",
+      "cn": "Anaconda"
+    },
+    "anacondaman": {
+      "en": "Anacondaman",
+      "cn": "Anacondaman"
+    },
+    "anatomy": {
+      "en": "Anatomy",
+      "cn": "Anatomy"
+    },
+    "anchovy": {
+      "en": "Anchovy",
+      "cn": "Anchovy"
+    },
+    "andesite": {
+      "en": "Andesite",
+      "cn": "Andesite"
+    },
+    "angel": {
+      "en": "Angel",
+      "cn": "Angel"
+    },
+    "angelshark": {
+      "en": "Angelshark",
+      "cn": "Angelshark"
+    },
+    "angrylivingflamethrowers": {
+      "en": "Angrylivingflamethrowers",
+      "cn": "Angrylivingflamethrowers"
+    },
+    "anhydrite": {
+      "en": "Anhydrite",
+      "cn": "Anhydrite"
+    },
+    "animalcaretaker": {
+      "en": "Animalcaretaker",
+      "cn": "Animalcaretaker"
+    },
+    "animaldissector2": {
+      "en": "Animaldissector2",
+      "cn": "Animaldissector2"
+    },
+    "animallogic": {
+      "en": "Animallogic",
+      "cn": "Animallogic"
+    },
+    "animalperson": {
+      "en": "Animalperson",
+      "cn": "Animalperson"
+    },
+    "animalsponsorshipdrive": {
+      "en": "Animalsponsorshipdrive",
+      "cn": "Animalsponsorshipdrive"
+    },
+    "animaltrainer": {
+      "en": "Animaltrainer",
+      "cn": "Animaltrainer"
+    },
+    "animaltrap2": {
+      "en": "Animaltrap2",
+      "cn": "Animaltrap2"
+    },
+    "announcement": {
+      "en": "Announcement",
+      "cn": "Announcement"
+    },
+    "announcementstxt": {
+      "en": "Announcements.txt",
+      "cn": "Announcements.txt"
+    },
+    "anole": {
+      "en": "Anole",
+      "cn": "Anole"
+    },
+    "anoleman": {
+      "en": "Anoleman",
+      "cn": "Anoleman"
+    },
+    "ant": {
+      "en": "Ant",
+      "cn": "Ant"
+    },
+    "antman2": {
+      "en": "Antman2",
+      "cn": "Antman2"
+    },
+    "anvil": {
+      "en": "Anvil",
+      "cn": "Anvil"
+    },
+    "apple": {
+      "en": "Apple",
+      "cn": "Apple"
+    },
+    "appraiser": {
+      "en": "Appraiser",
+      "cn": "Appraiser"
+    },
+    "apprentice": {
+      "en": "Apprentice",
+      "cn": "Apprentice"
+    },
+    "apricot": {
+      "en": "Apricot",
+      "cn": "Apricot"
+    },
+    "aquamarine": {
+      "en": "Aquamarine",
+      "cn": "Aquamarine"
+    },
+    "aquatic": {
+      "en": "Aquatic",
+      "cn": "Aquatic"
+    },
+    "aqueduct": {
+      "en": "Aqueduct",
+      "cn": "Aqueduct"
+    },
+    "aquifer": {
+      "en": "Aquifer",
+      "cn": "Aquifer"
+    },
+    "archery": {
+      "en": "Archery",
+      "cn": "Archery"
+    },
+    "archerytarget": {
+      "en": "Archerytarget",
+      "cn": "Archerytarget"
+    },
+    "archerytower": {
+      "en": "Archerytower",
+      "cn": "Archerytower"
+    },
+    "architectahk": {
+      "en": "Architect.ahk",
+      "cn": "Architect.ahk"
+    },
+    "arctic": {
+      "en": "Arctic",
+      "cn": "Arctic"
+    },
+    "arena": {
+      "en": "Arena",
+      "cn": "Arena"
+    },
+    "armadillo": {
+      "en": "Armadillo",
+      "cn": "Armadillo"
+    },
+    "armadilloman": {
+      "en": "Armadilloman",
+      "cn": "Armadilloman"
+    },
+    "armok": {
+      "en": "Armok",
+      "cn": "Armok"
+    },
+    "armorsmith": {
+      "en": "Armorsmith",
+      "cn": "Armorsmith"
+    },
+    "armorstand2": {
+      "en": "Armorstand2",
+      "cn": "Armorstand2"
+    },
+    "armortoken": {
+      "en": "Armortoken",
+      "cn": "Armortoken"
+    },
+    "armsindustry": {
+      "en": "Armsindustry",
+      "cn": "Armsindustry"
+    },
+    "army": {
+      "en": "Army",
+      "cn": "Army"
+    },
+    "armyarc2": {
+      "en": "Armyarc2",
+      "cn": "Armyarc2"
+    },
+    "arrow": {
+      "en": "Arrow",
+      "cn": "Arrow"
+    },
+    "arrowbamboo": {
+      "en": "Arrowbamboo",
+      "cn": "Arrowbamboo"
+    },
+    "art": {
+      "en": "Art",
+      "cn": "Art"
+    },
+    "artichoke": {
+      "en": "Artichoke",
+      "cn": "Artichoke"
+    },
+    "asciiartreward2": {
+      "en": "ASCIIartreward2",
+      "cn": "ASCIIartreward2"
+    },
+    "asciiartrewardaf2": {
+      "en": "ASCIIartrewardA-F2",
+      "cn": "ASCIIartrewardA-F2"
+    },
+    "asciiartrewardgl2": {
+      "en": "ASCIIartrewardG-L2",
+      "cn": "ASCIIartrewardG-L2"
+    },
+    "asciiartrewardms2": {
+      "en": "ASCIIartrewardM-S2",
+      "cn": "ASCIIartrewardM-S2"
+    },
+    "asciiartrewardrooteditnotice2": {
+      "en": "ASCIIartrewardRooteditnotice2",
+      "cn": "ASCIIartrewardRooteditnotice2"
+    },
+    "ashtree": {
+      "en": "Ash(tree)",
+      "cn": "Ash(tree)"
+    },
+    "ash": {
+      "en": "Ash",
+      "cn": "Ash"
+    },
+    "ashery": {
+      "en": "Ashery",
+      "cn": "Ashery"
+    },
+    "ashglaze": {
+      "en": "Ashglaze",
+      "cn": "Ashglaze"
+    },
+    "asparagus": {
+      "en": "Asparagus",
+      "cn": "Asparagus"
+    },
+    "astronomer": {
+      "en": "Astronomer",
+      "cn": "Astronomer"
+    },
+    "attachment": {
+      "en": "Attachment",
+      "cn": "Attachment"
+    },
+    "attack": {
+      "en": "Attack",
+      "cn": "Attack"
+    },
+    "attacktypes": {
+      "en": "Attacktypes",
+      "cn": "Attacktypes"
+    },
+    "attribute": {
+      "en": "Attribute",
+      "cn": "Attribute"
+    },
+    "audio": {
+      "en": "Audio",
+      "cn": "Audio"
+    },
+    "aventurine": {
+      "en": "Aventurine",
+      "cn": "Aventurine"
+    },
+    "avileforceofmigrantshasarrived": {
+      "en": "Avileforceofmigrantshasarrived!",
+      "cn": "Stories/Goblin_entryism:_A_threat_to_Dwarfkind"
+    },
+    "avocado": {
+      "en": "Avocado",
+      "cn": "Avocado"
+    },
+    "axe": {
+      "en": "Axe",
+      "cn": "Axe"
+    },
+    "axle": {
+      "en": "Axle",
+      "cn": "Axle"
+    },
+    "axolotl": {
+      "en": "Axolotl",
+      "cn": "Axolotl"
+    },
+    "axolotlman": {
+      "en": "Axolotlman",
+      "cn": "Axolotlman"
+    },
+    "ayeaye": {
+      "en": "Aye-aye",
+      "cn": "Aye-aye"
+    },
+    "ayeayeman": {
+      "en": "Aye-ayeman",
+      "cn": "Aye-ayeman"
+    },
+    "babytoessucculent": {
+      "en": "Babytoessucculent",
+      "cn": "Babytoessucculent"
+    },
+    "badger": {
+      "en": "Badger",
+      "cn": "Badger"
+    },
+    "badgerman": {
+      "en": "Badgerman",
+      "cn": "Badgerman"
+    },
+    "bag": {
+      "en": "Bag",
+      "cn": "Bag"
+    },
+    "balance": {
+      "en": "Balance",
+      "cn": "Balance"
+    },
+    "ballistaarrow": {
+      "en": "Ballistaarrow",
+      "cn": "Ballistaarrow"
+    },
+    "bambaragroundnut": {
+      "en": "Bambaragroundnut",
+      "cn": "Bambaragroundnut"
+    },
+    "bamboo": {
+      "en": "Bamboo",
+      "cn": "Bamboo"
+    },
+    "banana": {
+      "en": "Banana",
+      "cn": "Banana"
+    },
+    "bandedagate": {
+      "en": "Bandedagate",
+      "cn": "Bandedagate"
+    },
+    "bandedknifefish": {
+      "en": "Bandedknifefish",
+      "cn": "Bandedknifefish"
+    },
+    "bandfireopal": {
+      "en": "Bandfireopal",
+      "cn": "Bandfireopal"
+    },
+    "bar": {
+      "en": "Bar",
+      "cn": "Bar"
+    },
+    "barkscorpion": {
+      "en": "Barkscorpion",
+      "cn": "Barkscorpion"
+    },
+    "barkscorpionman": {
+      "en": "Barkscorpionman",
+      "cn": "Barkscorpionman"
+    },
+    "barley": {
+      "en": "Barley",
+      "cn": "Barley"
+    },
+    "barnowl": {
+      "en": "Barnowl",
+      "cn": "Barnowl"
+    },
+    "barnowlman": {
+      "en": "Barnowlman",
+      "cn": "Barnowlman"
+    },
+    "baron": {
+      "en": "Baron",
+      "cn": "Baron"
+    },
+    "barracks": {
+      "en": "Barracks",
+      "cn": "Barracks"
+    },
+    "barrel": {
+      "en": "Barrel",
+      "cn": "Barrel"
+    },
+    "bars": {
+      "en": "Bars",
+      "cn": "Bars"
+    },
+    "basalt": {
+      "en": "Basalt",
+      "cn": "Basalt"
+    },
+    "baskingshark": {
+      "en": "Baskingshark",
+      "cn": "Baskingshark"
+    },
+    "bat": {
+      "en": "Bat",
+      "cn": "Bat"
+    },
+    "batman": {
+      "en": "Batman",
+      "cn": "Batman"
+    },
+    "batray": {
+      "en": "Batray",
+      "cn": "Batray"
+    },
+    "battleaxe": {
+      "en": "Battleaxe",
+      "cn": "Battleaxe"
+    },
+    "bauxite": {
+      "en": "Bauxite",
+      "cn": "Bauxite"
+    },
+    "bay12forums": {
+      "en": "Bay12Forums",
+      "cn": "Bay12Forums"
+    },
+    "bay12games": {
+      "en": "Bay12Games",
+      "cn": "Bay12Games"
+    },
+    "bayberry": {
+      "en": "Bayberry",
+      "cn": "Bayberry"
+    },
+    "beaching": {
+      "en": "Beaching",
+      "cn": "Beaching"
+    },
+    "beak": {
+      "en": "Beak",
+      "cn": "Beak"
+    },
+    "beakdog": {
+      "en": "Beakdog",
+      "cn": "Beakdog"
+    },
+    "bean": {
+      "en": "Bean",
+      "cn": "Bean"
+    },
+    "bear": {
+      "en": "Bear",
+      "cn": "Bear"
+    },
+    "beard": {
+      "en": "Beard",
+      "cn": "Beard"
+    },
+    "beasthunter": {
+      "en": "Beasthunter",
+      "cn": "Beasthunter"
+    },
+    "beaver": {
+      "en": "Beaver",
+      "cn": "Beaver"
+    },
+    "beaverman": {
+      "en": "Beaverman",
+      "cn": "Beaverman"
+    },
+    "bed": {
+      "en": "Bed",
+      "cn": "Bed"
+    },
+    "bedroom": {
+      "en": "Bedroom",
+      "cn": "Bedroom"
+    },
+    "bedroomdesign2": {
+      "en": "Bedroomdesign2",
+      "cn": "Bedroomdesign2"
+    },
+    "bee": {
+      "en": "Bee",
+      "cn": "Bee"
+    },
+    "beekeeper": {
+      "en": "Beekeeper",
+      "cn": "Beekeeper"
+    },
+    "beekeepingindustry2": {
+      "en": "Beekeepingindustry2",
+      "cn": "Beekeepingindustry2"
+    },
+    "beet": {
+      "en": "Beet",
+      "cn": "Beet"
+    },
+    "beetle": {
+      "en": "Beetle",
+      "cn": "Beetle"
+    },
+    "beetleman": {
+      "en": "Beetleman",
+      "cn": "Beetleman"
+    },
+    "bentgrass": {
+      "en": "Bentgrass",
+      "cn": "Bentgrass"
+    },
+    "beryl": {
+      "en": "Beryl",
+      "cn": "Beryl"
+    },
+    "bestiary": {
+      "en": "Bestiary",
+      "cn": "Bestiary"
+    },
+    "bilberry": {
+      "en": "Bilberry",
+      "cn": "Bilberry"
+    },
+    "billon": {
+      "en": "Billon",
+      "cn": "Billon"
+    },
+    "bilou": {
+      "en": "Bilou",
+      "cn": "Bilou"
+    },
+    "bin": {
+      "en": "Bin",
+      "cn": "Bin"
+    },
+    "biome": {
+      "en": "Biome",
+      "cn": "Biome"
+    },
+    "biometoken": {
+      "en": "Biometoken",
+      "cn": "Biometoken"
+    },
+    "birch": {
+      "en": "Birch",
+      "cn": "Birch"
+    },
+    "bismuth": {
+      "en": "Bismuth",
+      "cn": "Bismuth"
+    },
+    "bismuthbronze2": {
+      "en": "Bismuthbronze2",
+      "cn": "Bismuthbronze2"
+    },
+    "bismuthinite": {
+      "en": "Bismuthinite",
+      "cn": "Bismuthinite"
+    },
+    "bittermelon": {
+      "en": "Bittermelon",
+      "cn": "Bittermelon"
+    },
+    "bitterorange": {
+      "en": "Bitterorange",
+      "cn": "Bitterorange"
+    },
+    "bittervetch": {
+      "en": "Bittervetch",
+      "cn": "Bittervetch"
+    },
+    "bituminouscoal": {
+      "en": "Bituminouscoal",
+      "cn": "Bituminouscoal"
+    },
+    "blackcap": {
+      "en": "Black-cap",
+      "cn": "Black-cap"
+    },
+    "blackcrestedgibbon": {
+      "en": "Black-crestedgibbon",
+      "cn": "Black-crestedgibbon"
+    },
+    "blackhandedgibbon": {
+      "en": "Black-handedgibbon",
+      "cn": "Black-handedgibbon"
+    },
+    "blackbear": {
+      "en": "Blackbear",
+      "cn": "Blackbear"
+    },
+    "blackbearman": {
+      "en": "Blackbearman",
+      "cn": "Blackbearman"
+    },
+    "blackberry": {
+      "en": "Blackberry",
+      "cn": "Blackberry"
+    },
+    "blackbronze": {
+      "en": "Blackbronze",
+      "cn": "Blackbronze"
+    },
+    "blackbullhead": {
+      "en": "Blackbullhead",
+      "cn": "Blackbullhead"
+    },
+    "blackdiamond": {
+      "en": "Blackdiamond",
+      "cn": "Blackdiamond"
+    },
+    "blackmamba": {
+      "en": "Blackmamba",
+      "cn": "Blackmamba"
+    },
+    "blackmambaman": {
+      "en": "Blackmambaman",
+      "cn": "Blackmambaman"
+    },
+    "blackopal": {
+      "en": "Blackopal",
+      "cn": "Blackopal"
+    },
+    "blackpyrope": {
+      "en": "Blackpyrope",
+      "cn": "Blackpyrope"
+    },
+    "blacksand": {
+      "en": "Blacksand",
+      "cn": "Blacksand"
+    },
+    "blacksmith": {
+      "en": "Blacksmith",
+      "cn": "Blacksmith"
+    },
+    "blacktipreefshark": {
+      "en": "Blacktipreefshark",
+      "cn": "Blacktipreefshark"
+    },
+    "blackzircon": {
+      "en": "Blackzircon",
+      "cn": "Blackzircon"
+    },
+    "bladeweed": {
+      "en": "Bladeweed",
+      "cn": "Bladeweed"
+    },
+    "blindcavebear": {
+      "en": "Blindcavebear",
+      "cn": "Blindcavebear"
+    },
+    "blindcaveogre": {
+      "en": "Blindcaveogre",
+      "cn": "Blindcaveogre"
+    },
+    "blizzardman": {
+      "en": "Blizzardman",
+      "cn": "Blizzardman"
+    },
+    "bloatedtuber2": {
+      "en": "Bloatedtuber2",
+      "cn": "Bloatedtuber2"
+    },
+    "block": {
+      "en": "Block",
+      "cn": "Block"
+    },
+    "blood": {
+      "en": "Blood",
+      "cn": "Blood"
+    },
+    "bloodamaranth": {
+      "en": "Bloodamaranth",
+      "cn": "Bloodamaranth"
+    },
+    "bloodgnat": {
+      "en": "Bloodgnat",
+      "cn": "Bloodgnat"
+    },
+    "bloodline": {
+      "en": "Bloodline",
+      "cn": "Bloodline"
+    },
+    "bloodman": {
+      "en": "Bloodman",
+      "cn": "Bloodman"
+    },
+    "bloodstone": {
+      "en": "Bloodstone",
+      "cn": "Bloodstone"
+    },
+    "bloodthorn": {
+      "en": "Bloodthorn",
+      "cn": "Bloodthorn"
+    },
+    "blowdart": {
+      "en": "Blowdart",
+      "cn": "Blowdart"
+    },
+    "blowgun": {
+      "en": "Blowgun",
+      "cn": "Blowgun"
+    },
+    "blowgunraw": {
+      "en": "Blowgunraw",
+      "cn": "Blowgunraw"
+    },
+    "blueberry": {
+      "en": "Blueberry",
+      "cn": "Blueberry"
+    },
+    "bluediamond": {
+      "en": "Bluediamond",
+      "cn": "Bluediamond"
+    },
+    "bluefintuna": {
+      "en": "Bluefintuna",
+      "cn": "Bluefintuna"
+    },
+    "bluefish": {
+      "en": "Bluefish",
+      "cn": "Bluefish"
+    },
+    "bluegarnet": {
+      "en": "Bluegarnet",
+      "cn": "Bluegarnet"
+    },
+    "bluejade": {
+      "en": "Bluejade",
+      "cn": "Bluejade"
+    },
+    "bluejay": {
+      "en": "Bluejay",
+      "cn": "Bluejay"
+    },
+    "bluejayman": {
+      "en": "Bluejayman",
+      "cn": "Bluejayman"
+    },
+    "bluepeafowl": {
+      "en": "Bluepeafowl",
+      "cn": "Bluepeafowl"
+    },
+    "blueprintlibrary2": {
+      "en": "Blueprintlibrary2",
+      "cn": "Blueprintlibrary2"
+    },
+    "bluesedge": {
+      "en": "Bluesedge",
+      "cn": "Bluesedge"
+    },
+    "blueshark": {
+      "en": "Blueshark",
+      "cn": "Blueshark"
+    },
+    "boar": {
+      "en": "Boar",
+      "cn": "Boar"
+    },
+    "bobcat": {
+      "en": "Bobcat",
+      "cn": "Bobcat"
+    },
+    "bobcatman": {
+      "en": "Bobcatman",
+      "cn": "Bobcatman"
+    },
+    "bodydetailplantoken": {
+      "en": "Bodydetailplantoken",
+      "cn": "Bodydetailplantoken"
+    },
+    "bodygloss": {
+      "en": "Bodygloss",
+      "cn": "Bodygloss"
+    },
+    "bodyparts": {
+      "en": "Bodyparts",
+      "cn": "Bodyparts"
+    },
+    "bodytoken": {
+      "en": "Bodytoken",
+      "cn": "Bodytoken"
+    },
+    "bogeyman": {
+      "en": "Bogeyman",
+      "cn": "Bogeyman"
+    },
+    "bolt": {
+      "en": "Bolt",
+      "cn": "Bolt"
+    },
+    "bone": {
+      "en": "Bone",
+      "cn": "Bone"
+    },
+    "bonecarver": {
+      "en": "Bonecarver",
+      "cn": "Bonecarver"
+    },
+    "bonedoctor": {
+      "en": "Bonedoctor",
+      "cn": "Bonedoctor"
+    },
+    "bonemeal": {
+      "en": "Bonemeal",
+      "cn": "Bonemeal"
+    },
+    "boneopal": {
+      "en": "Boneopal",
+      "cn": "Boneopal"
+    },
+    "bonobo": {
+      "en": "Bonobo",
+      "cn": "Bonobo"
+    },
+    "book": {
+      "en": "Book",
+      "cn": "Book"
+    },
+    "bookbinder": {
+      "en": "Bookbinder",
+      "cn": "Bookbinder"
+    },
+    "bookbinding": {
+      "en": "Bookbinding",
+      "cn": "Bookbinding"
+    },
+    "bookcase": {
+      "en": "Bookcase",
+      "cn": "Bookcase"
+    },
+    "bookkeeper3": {
+      "en": "Bookkeeper3",
+      "cn": "Bookkeeper3"
+    },
+    "borax": {
+      "en": "Borax",
+      "cn": "Borax"
+    },
+    "boss": {
+      "en": "Boss",
+      "cn": "Boss"
+    },
+    "boulder": {
+      "en": "Boulder",
+      "cn": "Boulder"
+    },
+    "bow": {
+      "en": "Bow",
+      "cn": "Bow"
+    },
+    "bows": {
+      "en": "Bows",
+      "cn": "Bow"
+    },
+    "bowyersworkshop2": {
+      "en": "Bowyer'sworkshop2",
+      "cn": "Bowyer'sworkshop2"
+    },
+    "bowyer": {
+      "en": "Bowyer",
+      "cn": "Bowyer"
+    },
+    "brass": {
+      "en": "Brass",
+      "cn": "Brass"
+    },
+    "breeding": {
+      "en": "Breeding",
+      "cn": "Breeding"
+    },
+    "brewer": {
+      "en": "Brewer",
+      "cn": "Brewer"
+    },
+    "bridge": {
+      "en": "Bridge",
+      "cn": "Bridge"
+    },
+    "brimstone": {
+      "en": "Brimstone",
+      "cn": "Brimstone"
+    },
+    "broadbean": {
+      "en": "Broadbean",
+      "cn": "Broadbean"
+    },
+    "broker": {
+      "en": "Broker",
+      "cn": "Broker"
+    },
+    "bronze": {
+      "en": "Bronze",
+      "cn": "Bronze"
+    },
+    "bronzecolossus": {
+      "en": "Bronzecolossus",
+      "cn": "Bronzecolossus"
+    },
+    "bronzecolossuseditnotice": {
+      "en": "BronzecolossusEditnotice",
+      "cn": "BronzecolossusEditnotice"
+    },
+    "brook": {
+      "en": "Brook",
+      "cn": "Brook"
+    },
+    "brooklamprey": {
+      "en": "Brooklamprey",
+      "cn": "Brooklamprey"
+    },
+    "brownbullhead": {
+      "en": "Brownbullhead",
+      "cn": "Brownbullhead"
+    },
+    "brownjasper": {
+      "en": "Brownjasper",
+      "cn": "Brownjasper"
+    },
+    "brownreclusespider": {
+      "en": "Brownreclusespider",
+      "cn": "Brownreclusespider"
+    },
+    "brownreclusespiderman": {
+      "en": "Brownreclusespiderman",
+      "cn": "Brownreclusespiderman"
+    },
+    "brownzircon": {
+      "en": "Brownzircon",
+      "cn": "Brownzircon"
+    },
+    "bubblebulb": {
+      "en": "Bubblebulb",
+      "cn": "Bubblebulb"
+    },
+    "bucket": {
+      "en": "Bucket",
+      "cn": "Bucket"
+    },
+    "buckwheat": {
+      "en": "Buckwheat",
+      "cn": "Buckwheat"
+    },
+    "bugbat": {
+      "en": "Bugbat",
+      "cn": "Bugbat"
+    },
+    "building": {
+      "en": "Building",
+      "cn": "Building"
+    },
+    "buildingdesigner": {
+      "en": "Buildingdesigner",
+      "cn": "Buildingdesigner"
+    },
+    "buildingdestroyer2": {
+      "en": "Buildingdestroyer2",
+      "cn": "Buildingdestroyer2"
+    },
+    "buildinglist": {
+      "en": "Buildinglist",
+      "cn": "Buildinglist"
+    },
+    "buildingmaterial": {
+      "en": "Buildingmaterial",
+      "cn": "Buildingmaterial"
+    },
+    "buildingtoken": {
+      "en": "Buildingtoken",
+      "cn": "Buildingtoken"
+    },
+    "bullhead": {
+      "en": "Bullhead",
+      "cn": "Bullhead"
+    },
+    "bullshark": {
+      "en": "Bullshark",
+      "cn": "Bullshark"
+    },
+    "bumblebee": {
+      "en": "Bumblebee",
+      "cn": "Bumblebee"
+    },
+    "burrow": {
+      "en": "Burrow",
+      "cn": "Burrow"
+    },
+    "bushmaster": {
+      "en": "Bushmaster",
+      "cn": "Bushmaster"
+    },
+    "bushmasterman": {
+      "en": "Bushmasterman",
+      "cn": "Bushmasterman"
+    },
+    "bushtit": {
+      "en": "Bushtit",
+      "cn": "Bushtit"
+    },
+    "bushtitman": {
+      "en": "Bushtitman",
+      "cn": "Bushtitman"
+    },
+    "butchersshop2": {
+      "en": "Butcher'sshop2",
+      "cn": "Butcher'sshop2"
+    },
+    "butcher": {
+      "en": "Butcher",
+      "cn": "Butcher"
+    },
+    "buzzard": {
+      "en": "Buzzard",
+      "cn": "Buzzard"
+    },
+    "buzzardman": {
+      "en": "Buzzardman",
+      "cn": "Buzzardman"
+    },
+    "cabbage": {
+      "en": "Cabbage",
+      "cn": "Cabbage"
+    },
+    "cabinet": {
+      "en": "Cabinet",
+      "cn": "Cabinet"
+    },
+    "cacameawemedinade": {
+      "en": "CacameAwemedinade",
+      "cn": "CacameAwemedinade"
+    },
+    "cacaotree": {
+      "en": "Cacaotree",
+      "cn": "Cacaotree"
+    },
+    "cage": {
+      "en": "Cage",
+      "cn": "Cage"
+    },
+    "calcareousooze": {
+      "en": "Calcareousooze",
+      "cn": "Calcareousooze"
+    },
+    "calcite": {
+      "en": "Calcite",
+      "cn": "Calcite"
+    },
+    "calciumcarbonate": {
+      "en": "Calciumcarbonate",
+      "cn": "Calciumcarbonate"
+    },
+    "calendar": {
+      "en": "Calendar",
+      "cn": "Calendar"
+    },
+    "camel": {
+      "en": "Camel",
+      "cn": "Camel"
+    },
+    "camp": {
+      "en": "Camp",
+      "cn": "Camp"
+    },
+    "campfire": {
+      "en": "Campfire",
+      "cn": "Campfire"
+    },
+    "candlenut": {
+      "en": "Candlenut",
+      "cn": "Candlenut"
+    },
+    "cap": {
+      "en": "Cap",
+      "cn": "Cap"
+    },
+    "caper": {
+      "en": "Caper",
+      "cn": "Caper"
+    },
+    "caphopper": {
+      "en": "Caphopper",
+      "cn": "Caphopper"
+    },
+    "captain": {
+      "en": "Captain",
+      "cn": "Captain"
+    },
+    "captainoftheguard": {
+      "en": "Captainoftheguard",
+      "cn": "Captainoftheguard"
+    },
+    "capturedcreatures": {
+      "en": "Capturedcreatures",
+      "cn": "Capturedcreatures"
+    },
+    "capturedlivefish": {
+      "en": "Capturedlivefish",
+      "cn": "Capturedlivefish"
+    },
+    "capuchin": {
+      "en": "Capuchin",
+      "cn": "Capuchin"
+    },
+    "capuchinman": {
+      "en": "Capuchinman",
+      "cn": "Capuchinman"
+    },
+    "capybara": {
+      "en": "Capybara",
+      "cn": "Capybara"
+    },
+    "capybaraman": {
+      "en": "Capybaraman",
+      "cn": "Capybaraman"
+    },
+    "carambola": {
+      "en": "Carambola",
+      "cn": "Carambola"
+    },
+    "caravan": {
+      "en": "Caravan",
+      "cn": "Caravan"
+    },
+    "caravanarc2": {
+      "en": "Caravanarc2",
+      "cn": "Caravanarc2"
+    },
+    "cardinal": {
+      "en": "Cardinal",
+      "cn": "Cardinal"
+    },
+    "cardinalman": {
+      "en": "Cardinalman",
+      "cn": "Cardinalman"
+    },
+    "carnelian": {
+      "en": "Carnelian",
+      "cn": "Carnelian"
+    },
+    "carp": {
+      "en": "Carp",
+      "cn": "Carp"
+    },
+    "carpentersworkshop2": {
+      "en": "Carpenter'sworkshop2",
+      "cn": "Carpenter'sworkshop2"
+    },
+    "carpenter": {
+      "en": "Carpenter",
+      "cn": "Carpenter"
+    },
+    "carpetgrass": {
+      "en": "Carpetgrass",
+      "cn": "Carpetgrass"
+    },
+    "cartilage": {
+      "en": "Cartilage",
+      "cn": "Cartilage"
+    },
+    "cashew": {
+      "en": "Cashew",
+      "cn": "Cashew"
+    },
+    "cassava": {
+      "en": "Cassava",
+      "cn": "Cassava"
+    },
+    "cassiterite": {
+      "en": "Cassiterite",
+      "cn": "Cassiterite"
+    },
+    "cassowary": {
+      "en": "Cassowary",
+      "cn": "Cassowary"
+    },
+    "cassowaryman": {
+      "en": "Cassowaryman",
+      "cn": "Cassowaryman"
+    },
+    "caste": {
+      "en": "Caste",
+      "cn": "Caste"
+    },
+    "castle": {
+      "en": "Castle",
+      "cn": "Castle"
+    },
+    "catseye": {
+      "en": "Cat'seye",
+      "cn": "Cat'seye"
+    },
+    "cat": {
+      "en": "Cat",
+      "cn": "Cat"
+    },
+    "catacombs": {
+      "en": "Catacombs",
+      "cn": "Catacombs"
+    },
+    "catsplosion": {
+      "en": "Catsplosion",
+      "cn": "Catsplosion"
+    },
+    "cattail": {
+      "en": "Cattail",
+      "cn": "Cattail"
+    },
+    "cave": {
+      "en": "Cave",
+      "cn": "Cave"
+    },
+    "cavein": {
+      "en": "Cave-in",
+      "cn": "Cave-in"
+    },
+    "caveadaptation": {
+      "en": "Caveadaptation",
+      "cn": "Caveadaptation"
+    },
+    "cavedragon": {
+      "en": "Cavedragon",
+      "cn": "Cavedragon"
+    },
+    "cavefish": {
+      "en": "Cavefish",
+      "cn": "Cavefish"
+    },
+    "cavefishman": {
+      "en": "Cavefishman",
+      "cn": "Cavefishman"
+    },
+    "cavefloater": {
+      "en": "Cavefloater",
+      "cn": "Cavefloater"
+    },
+    "cavelobster": {
+      "en": "Cavelobster",
+      "cn": "Cavelobster"
+    },
+    "caveswallowman2": {
+      "en": "Caveswallowman2",
+      "cn": "Caveswallowman2"
+    },
+    "cavewheat2": {
+      "en": "Cavewheat2",
+      "cn": "Cavewheat2"
+    },
+    "cavy": {
+      "en": "Cavy",
+      "cn": "Cavy"
+    },
+    "cedar": {
+      "en": "Cedar",
+      "cn": "Cedar"
+    },
+    "celery": {
+      "en": "Celery",
+      "cn": "Celery"
+    },
+    "centaur": {
+      "en": "Centaur",
+      "cn": "Centaur"
+    },
+    "ceramic": {
+      "en": "Ceramic",
+      "cn": "Ceramic"
+    },
+    "chain": {
+      "en": "Chain",
+      "cn": "Chain"
+    },
+    "chalk": {
+      "en": "Chalk",
+      "cn": "Chalk"
+    },
+    "challenge": {
+      "en": "Challenge",
+      "cn": "Challenge"
+    },
+    "chameleon": {
+      "en": "Chameleon",
+      "cn": "Chameleon"
+    },
+    "chameleonman": {
+      "en": "Chameleonman",
+      "cn": "Chameleonman"
+    },
+    "champion": {
+      "en": "Champion",
+      "cn": "Champion"
+    },
+    "channel": {
+      "en": "Channel",
+      "cn": "Channel"
+    },
+    "char": {
+      "en": "Char",
+      "cn": "Char"
+    },
+    "chasm": {
+      "en": "Chasm",
+      "cn": "Chasm"
+    },
+    "cheese": {
+      "en": "Cheese",
+      "cn": "Cheese"
+    },
+    "cheesemaker": {
+      "en": "Cheesemaker",
+      "cn": "Cheesemaker"
+    },
+    "cheetah": {
+      "en": "Cheetah",
+      "cn": "Cheetah"
+    },
+    "cheetahman": {
+      "en": "Cheetahman",
+      "cn": "Cheetahman"
+    },
+    "chemist": {
+      "en": "Chemist",
+      "cn": "Chemist"
+    },
+    "cherry": {
+      "en": "Cherry",
+      "cn": "Cherry"
+    },
+    "cherryopal": {
+      "en": "Cherryopal",
+      "cn": "Cherryopal"
+    },
+    "chert": {
+      "en": "Chert",
+      "cn": "Chert"
+    },
+    "chestnut": {
+      "en": "Chestnut",
+      "cn": "Chestnut"
+    },
+    "chicken": {
+      "en": "Chicken",
+      "cn": "Chicken"
+    },
+    "chickpea": {
+      "en": "Chickpea",
+      "cn": "Chickpea"
+    },
+    "chicory": {
+      "en": "Chicory",
+      "cn": "Chicory"
+    },
+    "chiefmedicaldwarf": {
+      "en": "Chiefmedicaldwarf",
+      "cn": "Chiefmedicaldwarf"
+    },
+    "children": {
+      "en": "Children",
+      "cn": "Children"
+    },
+    "chimera": {
+      "en": "Chimera",
+      "cn": "Chimera"
+    },
+    "chimpanzee": {
+      "en": "Chimpanzee",
+      "cn": "Chimpanzee"
+    },
+    "chinchilla": {
+      "en": "Chinchilla",
+      "cn": "Chinchilla"
+    },
+    "chinchillaman": {
+      "en": "Chinchillaman",
+      "cn": "Chinchillaman"
+    },
+    "chipmunk": {
+      "en": "Chipmunk",
+      "cn": "Chipmunk"
+    },
+    "chosen": {
+      "en": "Chosen",
+      "cn": "Chosen"
+    },
+    "chromite": {
+      "en": "Chromite",
+      "cn": "Chromite"
+    },
+    "chrysoberyl": {
+      "en": "Chrysoberyl",
+      "cn": "Chrysoberyl"
+    },
+    "chrysocolla": {
+      "en": "Chrysocolla",
+      "cn": "Chrysocolla"
+    },
+    "chrysoprase": {
+      "en": "Chrysoprase",
+      "cn": "Chrysoprase"
+    },
+    "cinnabar": {
+      "en": "Cinnabar",
+      "cn": "Cinnabar"
+    },
+    "cinnamongrossular": {
+      "en": "Cinnamongrossular",
+      "cn": "Cinnamongrossular"
+    },
+    "citizenship": {
+      "en": "Citizenship",
+      "cn": "Citizenship"
+    },
+    "citrine": {
+      "en": "Citrine",
+      "cn": "Citrine"
+    },
+    "citron": {
+      "en": "Citron",
+      "cn": "Citron"
+    },
+    "civilian": {
+      "en": "Civilian",
+      "cn": "Civilian"
+    },
+    "civilianalert": {
+      "en": "Civilianalert",
+      "cn": "Civilianalert"
+    },
+    "civilization": {
+      "en": "Civilization",
+      "cn": "Civilization"
+    },
+    "civilizationandworldinfo": {
+      "en": "CivilizationandWorldInfo",
+      "cn": "CivilizationandWorldInfo"
+    },
+    "claim": {
+      "en": "Claim",
+      "cn": "Claim"
+    },
+    "claroopal": {
+      "en": "Claroopal",
+      "cn": "Claroopal"
+    },
+    "clay": {
+      "en": "Clay",
+      "cn": "Clay"
+    },
+    "clayloam": {
+      "en": "Clayloam",
+      "cn": "Clayloam"
+    },
+    "claystone": {
+      "en": "Claystone",
+      "cn": "Claystone"
+    },
+    "cleaning": {
+      "en": "Cleaning",
+      "cn": "Cleaning"
+    },
+    "cleaningupmacros": {
+      "en": "Cleaningupmacros",
+      "cn": "Cleaningupmacros"
+    },
+    "cleanself": {
+      "en": "Cleanself",
+      "cn": "Cleanself"
+    },
+    "cleardiamond": {
+      "en": "Cleardiamond",
+      "cn": "Cleardiamond"
+    },
+    "cleargarnet": {
+      "en": "Cleargarnet",
+      "cn": "Cleargarnet"
+    },
+    "cleartourmaline": {
+      "en": "Cleartourmaline",
+      "cn": "Cleartourmaline"
+    },
+    "clearzircon": {
+      "en": "Clearzircon",
+      "cn": "Clearzircon"
+    },
+    "cliff": {
+      "en": "Cliff",
+      "cn": "Cliff"
+    },
+    "climate": {
+      "en": "Climate",
+      "cn": "Climate"
+    },
+    "climber": {
+      "en": "Climber",
+      "cn": "Climber"
+    },
+    "cloth": {
+      "en": "Cloth",
+      "cn": "Cloth"
+    },
+    "clothiersshop": {
+      "en": "Clothier'sshop",
+      "cn": "Clothier'sshop"
+    },
+    "clothier": {
+      "en": "Clothier",
+      "cn": "Clothier"
+    },
+    "clothing": {
+      "en": "Clothing",
+      "cn": "Clothing"
+    },
+    "cloudberry": {
+      "en": "Cloudberry",
+      "cn": "Cloudberry"
+    },
+    "clownfish": {
+      "en": "Clownfish",
+      "cn": "Clownfish"
+    },
+    "clownloach": {
+      "en": "Clownloach",
+      "cn": "Clownloach"
+    },
+    "clowns": {
+      "en": "Clowns",
+      "cn": "Clowns"
+    },
+    "clutter": {
+      "en": "Clutter",
+      "cn": "Clutter"
+    },
+    "cmv": {
+      "en": "CMV",
+      "cn": "CMV"
+    },
+    "coati": {
+      "en": "Coati",
+      "cn": "Coati"
+    },
+    "coatiman": {
+      "en": "Coatiman",
+      "cn": "Coatiman"
+    },
+    "cobaltite": {
+      "en": "Cobaltite",
+      "cn": "Cobaltite"
+    },
+    "cockatiel": {
+      "en": "Cockatiel",
+      "cn": "Cockatiel"
+    },
+    "cockatielman": {
+      "en": "Cockatielman",
+      "cn": "Cockatielman"
+    },
+    "coconutpalm": {
+      "en": "Coconutpalm",
+      "cn": "Coconutpalm"
+    },
+    "cod": {
+      "en": "Cod",
+      "cn": "Cod"
+    },
+    "coelacanth": {
+      "en": "Coelacanth",
+      "cn": "Coelacanth"
+    },
+    "coffee": {
+      "en": "Coffee",
+      "cn": "Coffee"
+    },
+    "coffin": {
+      "en": "Coffin",
+      "cn": "Coffin"
+    },
+    "colorstxt": {
+      "en": "Colors.txt",
+      "cn": "Colors.txt"
+    },
+    "colorscheme": {
+      "en": "Colorscheme",
+      "cn": "Colorscheme"
+    },
+    "combatdrills": {
+      "en": "Combatdrills",
+      "cn": "Combatdrills"
+    },
+    "combathardening": {
+      "en": "Combathardening",
+      "cn": "Combathardening"
+    },
+    "combatskill": {
+      "en": "Combatskill",
+      "cn": "Combatskill"
+    },
+    "comedian": {
+      "en": "Comedian",
+      "cn": "Comedian"
+    },
+    "commandline": {
+      "en": "Commandline",
+      "cn": "Commandline"
+    },
+    "commonreed": {
+      "en": "Commonreed",
+      "cn": "Commonreed"
+    },
+    "commonskate": {
+      "en": "Commonskate",
+      "cn": "Commonskate"
+    },
+    "commonsnappingturtle": {
+      "en": "Commonsnappingturtle",
+      "cn": "Commonsnappingturtle"
+    },
+    "communityofdwarffortress": {
+      "en": "CommunityofDwarfFortress",
+      "cn": "CommunityofDwarfFortress"
+    },
+    "company": {
+      "en": "Company",
+      "cn": "Company"
+    },
+    "computing": {
+      "en": "Computing",
+      "cn": "Computing"
+    },
+    "concentration": {
+      "en": "Concentration",
+      "cn": "Concentration"
+    },
+    "congereel": {
+      "en": "Congereel",
+      "cn": "Congereel"
+    },
+    "conglomerate": {
+      "en": "Conglomerate",
+      "cn": "Conglomerate"
+    },
+    "consoler": {
+      "en": "Consoler",
+      "cn": "Consoler"
+    },
+    "consort": {
+      "en": "Consort",
+      "cn": "Consort"
+    },
+    "constructcreature": {
+      "en": "Constructcreature",
+      "cn": "Constructcreature"
+    },
+    "construction": {
+      "en": "Construction",
+      "cn": "Construction"
+    },
+    "constructionremoval": {
+      "en": "Constructionremoval",
+      "cn": "Constructionremoval"
+    },
+    "container": {
+      "en": "Container",
+      "cn": "Container"
+    },
+    "contaminant": {
+      "en": "Contaminant",
+      "cn": "Contaminant"
+    },
+    "controls": {
+      "en": "Controls",
+      "cn": "Controls"
+    },
+    "controlsguide": {
+      "en": "Controlsguide",
+      "cn": "Controlsguide"
+    },
+    "conversationalist": {
+      "en": "Conversationalist",
+      "cn": "Conversationalist"
+    },
+    "cook": {
+      "en": "Cook",
+      "cn": "Cook"
+    },
+    "coordination": {
+      "en": "Coordination",
+      "cn": "Coordination"
+    },
+    "copper": {
+      "en": "Copper",
+      "cn": "Copper"
+    },
+    "copperheadsnake": {
+      "en": "Copperheadsnake",
+      "cn": "Copperheadsnake"
+    },
+    "copperheadsnakeman": {
+      "en": "Copperheadsnakeman",
+      "cn": "Copperheadsnakeman"
+    },
+    "coral": {
+      "en": "Coral",
+      "cn": "Coral"
+    },
+    "corpse": {
+      "en": "Corpse",
+      "cn": "Corpse"
+    },
+    "cotton": {
+      "en": "Cotton",
+      "cn": "Cotton"
+    },
+    "cottongrass": {
+      "en": "Cottongrass",
+      "cn": "Cottongrass"
+    },
+    "cougar": {
+      "en": "Cougar",
+      "cn": "Cougar"
+    },
+    "cougarman": {
+      "en": "Cougarman",
+      "cn": "Cougarman"
+    },
+    "count": {
+      "en": "Count",
+      "cn": "Count"
+    },
+    "countinghouse": {
+      "en": "Countinghouse",
+      "cn": "Countinghouse"
+    },
+    "county": {
+      "en": "County",
+      "cn": "County"
+    },
+    "countyarc": {
+      "en": "Countyarc",
+      "cn": "Countyarc"
+    },
+    "cow": {
+      "en": "Cow",
+      "cn": "Cow"
+    },
+    "cowpea": {
+      "en": "Cowpea",
+      "cn": "Cowpea"
+    },
+    "coyote": {
+      "en": "Coyote",
+      "cn": "Coyote"
+    },
+    "coyoteman": {
+      "en": "Coyoteman",
+      "cn": "Coyoteman"
+    },
+    "crab": {
+      "en": "Crab",
+      "cn": "Crab"
+    },
+    "crabman": {
+      "en": "Crabman",
+      "cn": "Crabman"
+    },
+    "craftsdwarfsworkshop2": {
+      "en": "Craftsdwarf'sworkshop2",
+      "cn": "Craftsdwarf'sworkshop2"
+    },
+    "craftsdwarf": {
+      "en": "Craftsdwarf",
+      "cn": "Craftsdwarf"
+    },
+    "cranberry": {
+      "en": "Cranberry",
+      "cn": "Cranberry"
+    },
+    "creature": {
+      "en": "Creature",
+      "cn": "Creature"
+    },
+    "creatureeditnotice": {
+      "en": "CreatureEditnotice",
+      "cn": "CreatureEditnotice"
+    },
+    "creatureexamples": {
+      "en": "Creatureexamples",
+      "cn": "Creatureexamples"
+    },
+    "creatureflagsindfmemory": {
+      "en": "CreatureflagsinDFmemory",
+      "cn": "CreatureflagsinDFmemory"
+    },
+    "creaturelogic": {
+      "en": "Creaturelogic",
+      "cn": "Creaturelogic"
+    },
+    "creaturemannerismtoken": {
+      "en": "Creaturemannerismtoken",
+      "cn": "Creaturemannerismtoken"
+    },
+    "creatures": {
+      "en": "Creatures",
+      "cn": "Creatures"
+    },
+    "creaturetexturetoken": {
+      "en": "Creaturetexturetoken",
+      "cn": "Creaturetexturetoken"
+    },
+    "creaturetoken2": {
+      "en": "Creaturetoken2",
+      "cn": "Creaturetoken2"
+    },
+    "creaturevariationtoken": {
+      "en": "Creaturevariationtoken",
+      "cn": "Creaturevariationtoken"
+    },
+    "creepingeye": {
+      "en": "Creepingeye",
+      "cn": "Creepingeye"
+    },
+    "creepycrawler": {
+      "en": "Creepycrawler",
+      "cn": "Creepycrawler"
+    },
+    "criminal": {
+      "en": "Criminal",
+      "cn": "Criminal"
+    },
+    "criticalthinker": {
+      "en": "Criticalthinker",
+      "cn": "Criticalthinker"
+    },
+    "crocodile": {
+      "en": "Crocodile",
+      "cn": "Crocodile"
+    },
+    "crop": {
+      "en": "Crop",
+      "cn": "Crop"
+    },
+    "crosstraining": {
+      "en": "Cross-training",
+      "cn": "Cross-training"
+    },
+    "crossbow": {
+      "en": "Crossbow",
+      "cn": "Crossbow"
+    },
+    "crossbowman": {
+      "en": "Crossbowman",
+      "cn": "Crossbowman"
+    },
+    "crow": {
+      "en": "Crow",
+      "cn": "Crow"
+    },
+    "crowman": {
+      "en": "Crowman",
+      "cn": "Crowman"
+    },
+    "crundle": {
+      "en": "Crundle",
+      "cn": "Crundle"
+    },
+    "crutch": {
+      "en": "Crutch",
+      "cn": "Crutch"
+    },
+    "crutchwalker": {
+      "en": "Crutch-walker",
+      "cn": "Crutch-walker"
+    },
+    "cryolite": {
+      "en": "Cryolite",
+      "cn": "Cryolite"
+    },
+    "crystalopal": {
+      "en": "Crystalopal",
+      "cn": "Crystalopal"
+    },
+    "cucumber": {
+      "en": "Cucumber",
+      "cn": "Cucumber"
+    },
+    "currency": {
+      "en": "Currency",
+      "cn": "Currency"
+    },
+    "currentresident": {
+      "en": "Currentresident",
+      "cn": "Currentresident"
+    },
+    "cursed": {
+      "en": "Cursed",
+      "cn": "Cursed"
+    },
+    "custardapple": {
+      "en": "Custard-apple",
+      "cn": "Custard-apple"
+    },
+    "cuttlefish": {
+      "en": "Cuttlefish",
+      "cn": "Cuttlefish"
+    },
+    "cuttlefishman": {
+      "en": "Cuttlefishman",
+      "cn": "Cuttlefishman"
+    },
+    "cyclops": {
+      "en": "Cyclops",
+      "cn": "Cyclops"
+    },
+    "dacite": {
+      "en": "Dacite",
+      "cn": "Dacite"
+    },
+    "dagger": {
+      "en": "Dagger",
+      "cn": "Dagger"
+    },
+    "daggerraw": {
+      "en": "Daggerraw",
+      "cn": "Daggerraw"
+    },
+    "dallisgrass": {
+      "en": "Dallisgrass",
+      "cn": "Dallisgrass"
+    },
+    "dam": {
+      "en": "Dam",
+      "cn": "Dam"
+    },
+    "damselfly": {
+      "en": "Damselfly",
+      "cn": "Damselfly"
+    },
+    "damselflyman": {
+      "en": "Damselflyman",
+      "cn": "Damselflyman"
+    },
+    "dancer": {
+      "en": "Dancer",
+      "cn": "Dancer"
+    },
+    "dangerroom": {
+      "en": "Dangerroom",
+      "cn": "Dangerroom"
+    },
+    "darkfortress": {
+      "en": "Darkfortress",
+      "cn": "Darkfortress"
+    },
+    "darkgnome": {
+      "en": "Darkgnome",
+      "cn": "Darkgnome"
+    },
+    "darkpits": {
+      "en": "Darkpits",
+      "cn": "Darkpits"
+    },
+    "datepalm": {
+      "en": "Datepalm",
+      "cn": "Datepalm"
+    },
+    "decoration": {
+      "en": "Decoration",
+      "cn": "Decoration"
+    },
+    "deeppit": {
+      "en": "Deeppit",
+      "cn": "Deeppit"
+    },
+    "deer": {
+      "en": "Deer",
+      "cn": "Deer"
+    },
+    "deerman": {
+      "en": "Deerman",
+      "cn": "Deerman"
+    },
+    "defenseguide": {
+      "en": "Defenseguide",
+      "cn": "Defenseguide"
+    },
+    "deity": {
+      "en": "Deity",
+      "cn": "Deity"
+    },
+    "demand": {
+      "en": "Demand",
+      "cn": "Demand"
+    },
+    "demantoid": {
+      "en": "Demantoid",
+      "cn": "Demantoid"
+    },
+    "demon": {
+      "en": "Demon",
+      "cn": "Demon"
+    },
+    "demonicfortress": {
+      "en": "Demonicfortress",
+      "cn": "Demonicfortress"
+    },
+    "demonrat": {
+      "en": "Demonrat",
+      "cn": "Demonrat"
+    },
+    "dendriticagate": {
+      "en": "Dendriticagate",
+      "cn": "Dendriticagate"
+    },
+    "density": {
+      "en": "Density",
+      "cn": "Density"
+    },
+    "descriptorcolortoken": {
+      "en": "Descriptorcolortoken",
+      "cn": "Descriptorcolortoken"
+    },
+    "descriptorpatterntoken": {
+      "en": "Descriptorpatterntoken",
+      "cn": "Descriptorpatterntoken"
+    },
+    "descriptorshapetoken": {
+      "en": "Descriptorshapetoken",
+      "cn": "Descriptorshapetoken"
+    },
+    "desert": {
+      "en": "Desert",
+      "cn": "Desert"
+    },
+    "desertlime": {
+      "en": "Desertlime",
+      "cn": "Desertlime"
+    },
+    "deserttortoise": {
+      "en": "Deserttortoise",
+      "cn": "Deserttortoise"
+    },
+    "deserttortoiseman": {
+      "en": "Deserttortoiseman",
+      "cn": "Deserttortoiseman"
+    },
+    "designationflagsindfmemory": {
+      "en": "DesignationflagsinDFmemory",
+      "cn": "DesignationflagsinDFmemory"
+    },
+    "designationsmenu2": {
+      "en": "Designationsmenu2",
+      "cn": "Designationsmenu2"
+    },
+    "designstrategies2": {
+      "en": "Designstrategies2",
+      "cn": "Designstrategies2"
+    },
+    "developmentarc2": {
+      "en": "Developmentarc2",
+      "cn": "Developmentarc2"
+    },
+    "devlogs": {
+      "en": "Devlogs",
+      "cn": "Devlogs"
+    },
+    "diagnostician": {
+      "en": "Diagnostician",
+      "cn": "Diagnostician"
+    },
+    "diamond": {
+      "en": "Diamond",
+      "cn": "Diamond"
+    },
+    "die": {
+      "en": "Die",
+      "cn": "Die"
+    },
+    "difficulty": {
+      "en": "Difficulty",
+      "cn": "Difficulty"
+    },
+    "diggingdesignationcanceled": {
+      "en": "Diggingdesignationcanceled",
+      "cn": "Diggingdesignationcanceled"
+    },
+    "dimplecup": {
+      "en": "Dimplecup",
+      "cn": "Dimplecup"
+    },
+    "dingo": {
+      "en": "Dingo",
+      "cn": "Dingo"
+    },
+    "dingoman": {
+      "en": "Dingoman",
+      "cn": "Dingoman"
+    },
+    "diningroom2": {
+      "en": "Diningroom2",
+      "cn": "Diningroom2"
+    },
+    "dinittxt": {
+      "en": "Dinit.txt",
+      "cn": "Dinit.txt"
+    },
+    "dinittxttxt": {
+      "en": "Dinit.txt.txt",
+      "cn": "Dinit.txt.txt"
+    },
+    "diorite": {
+      "en": "Diorite",
+      "cn": "Diorite"
+    },
+    "diplomacy": {
+      "en": "Diplomacy",
+      "cn": "Diplomacy"
+    },
+    "diplomat": {
+      "en": "Diplomat",
+      "cn": "Diplomat"
+    },
+    "dipscript": {
+      "en": "Dipscript",
+      "cn": "Dipscript"
+    },
+    "discipline": {
+      "en": "Discipline",
+      "cn": "Discipline"
+    },
+    "displayfurniture": {
+      "en": "Displayfurniture",
+      "cn": "Displayfurniture"
+    },
+    "divineequipment": {
+      "en": "Divineequipment",
+      "cn": "Divineequipment"
+    },
+    "divinefabric": {
+      "en": "Divinefabric",
+      "cn": "Divinefabric"
+    },
+    "divinelanguage": {
+      "en": "Divinelanguage",
+      "cn": "Divinelanguage"
+    },
+    "divinemetal": {
+      "en": "Divinemetal",
+      "cn": "Divinemetal"
+    },
+    "doctor": {
+      "en": "Doctor",
+      "cn": "Doctor"
+    },
+    "dogstoothgrass": {
+      "en": "Dog'stoothgrass",
+      "cn": "Dog'stoothgrass"
+    },
+    "dog": {
+      "en": "Dog",
+      "cn": "Dog"
+    },
+    "dolomite": {
+      "en": "Dolomite",
+      "cn": "Dolomite"
+    },
+    "domesticanimal": {
+      "en": "Domesticanimal",
+      "cn": "Domesticanimal"
+    },
+    "donation": {
+      "en": "Donation",
+      "cn": "Donation"
+    },
+    "donkey": {
+      "en": "Donkey",
+      "cn": "Donkey"
+    },
+    "door": {
+      "en": "Door",
+      "cn": "Door"
+    },
+    "dormitory": {
+      "en": "Dormitory",
+      "cn": "Dormitory"
+    },
+    "doubleslitmethod": {
+      "en": "Double-slitmethod",
+      "cn": "Double-slitmethod"
+    },
+    "downygrass": {
+      "en": "Downygrass",
+      "cn": "Downygrass"
+    },
+    "dragon": {
+      "en": "Dragon",
+      "cn": "Dragon"
+    },
+    "dragonfire": {
+      "en": "Dragonfire",
+      "cn": "Dragonfire"
+    },
+    "dragonfly": {
+      "en": "Dragonfly",
+      "cn": "Dragonfly"
+    },
+    "dragonflyman": {
+      "en": "Dragonflyman",
+      "cn": "Dragonflyman"
+    },
+    "draltha": {
+      "en": "Draltha",
+      "cn": "Draltha"
+    },
+    "driftwood": {
+      "en": "Driftwood",
+      "cn": "Driftwood"
+    },
+    "dropseedgrass": {
+      "en": "Dropseedgrass",
+      "cn": "Dropseedgrass"
+    },
+    "drowningchamber": {
+      "en": "Drowningchamber",
+      "cn": "Drowningchamber"
+    },
+    "druid": {
+      "en": "Druid",
+      "cn": "Druid"
+    },
+    "drunian": {
+      "en": "Drunian",
+      "cn": "Drunian"
+    },
+    "drunk": {
+      "en": "Drunk",
+      "cn": "Drunk"
+    },
+    "dryland": {
+      "en": "Dryland",
+      "cn": "Dryland"
+    },
+    "duck": {
+      "en": "Duck",
+      "cn": "Duck"
+    },
+    "duke": {
+      "en": "Duke",
+      "cn": "Duke"
+    },
+    "dungeonzone2": {
+      "en": "Dungeon(zone)2",
+      "cn": "Dungeon(zone)2"
+    },
+    "dungeon": {
+      "en": "Dungeon",
+      "cn": "Dungeon"
+    },
+    "dungeonguardian": {
+      "en": "Dungeonguardian",
+      "cn": "Dungeonguardian"
+    },
+    "dungeonmaster2": {
+      "en": "Dungeonmaster2",
+      "cn": "Dungeonmaster2"
+    },
+    "duplicatedraws": {
+      "en": "Duplicatedraws",
+      "cn": "Duplicatedraws"
+    },
+    "durian": {
+      "en": "Durian",
+      "cn": "Durian"
+    },
+    "dwarf": {
+      "en": "Dwarf",
+      "cn": "Dwarf"
+    },
+    "dwarfcancelsconstructbuildingcannotreachsite": {
+      "en": "DwarfcancelsConstructBuildingcannotreachsite",
+      "cn": "DwarfcancelsConstructBuildingcannotreachsite"
+    },
+    "dwarfcancelsconstructbuildingitemblockingsite": {
+      "en": "DwarfcancelsConstructBuildingItemblockingsite",
+      "cn": "DwarfcancelsConstructBuildingItemblockingsite"
+    },
+    "dwarfcancelsconstructionofwallcreatureoccupyingsite": {
+      "en": "DwarfcancelsconstructionofWallCreatureoccupyingsite",
+      "cn": "DwarfcancelsconstructionofWallCreatureoccupyingsite"
+    },
+    "dwarfcancelsconstructrockobjectneedsnoneconomicrock": {
+      "en": "DwarfcancelsconstructRockobjectNeedsnon-economicrock",
+      "cn": "DwarfcancelsconstructRockobjectNeedsnon-economicrock"
+    },
+    "dwarfcancelsfillpondinappropriatebuilding": {
+      "en": "DwarfcancelsfillpondInappropriatebuilding",
+      "cn": "DwarfcancelsfillpondInappropriatebuilding"
+    },
+    "dwarfcancelsstoreitemiteminaccessible": {
+      "en": "DwarfcancelsStoreItemIteminaccessible",
+      "cn": "DwarfcancelsStoreItemIteminaccessible"
+    },
+    "dwarfcancelsstoreitemjobitemmisplaced": {
+      "en": "DwarfcancelsStoreItemJobitemmisplaced",
+      "cn": "DwarfcancelsStoreItemJobitemmisplaced"
+    },
+    "dwarfcancelstaskcouldnotfindpath": {
+      "en": "DwarfcancelstaskCouldnotfindpath",
+      "cn": "DwarfcancelstaskCouldnotfindpath"
+    },
+    "dwarfcancelstaskdangerousterrain": {
+      "en": "DwarfcancelstaskDangerousterrain",
+      "cn": "DwarfcancelstaskDangerousterrain"
+    },
+    "dwarfcancelstaskdropoffinaccessible": {
+      "en": "DwarfcancelstaskDropoffinaccessible",
+      "cn": "DwarfcancelstaskDropoffinaccessible"
+    },
+    "dwarfcancelstaskforbiddenarea": {
+      "en": "DwarfcancelstaskForbiddenarea",
+      "cn": "DwarfcancelstaskForbiddenarea"
+    },
+    "dwarfcancelstaskhandlingdangerouscreature": {
+      "en": "DwarfcancelstaskHandlingdangerouscreature",
+      "cn": "DwarfcancelstaskHandlingdangerouscreature"
+    },
+    "dwarfcancelstaskhuntingverminforfood": {
+      "en": "DwarfcancelstaskHuntingverminforfood",
+      "cn": "DwarfcancelstaskHuntingverminforfood"
+    },
+    "dwarfcancelstaskinterrupted": {
+      "en": "DwarfcancelstaskInterrupted",
+      "cn": "DwarfcancelstaskInterrupted"
+    },
+    "dwarfcancelstaskjobitemlostordestroyed": {
+      "en": "DwarfcancelstaskJobitemlostordestroyed",
+      "cn": "DwarfcancelstaskJobitemlostordestroyed"
+    },
+    "dwarffortressdevelopment": {
+      "en": "DwarfFortressDevelopment",
+      "cn": "DwarfFortressDevelopment"
+    },
+    "dwarffortressrpg": {
+      "en": "DwarfFortressRPG",
+      "cn": "DwarfFortressRPG"
+    },
+    "dwarffortresstalk": {
+      "en": "DwarfFortressTalk",
+      "cn": "DwarfFortressTalk"
+    },
+    "dwarffortresswebcomics": {
+      "en": "DwarfFortresswebcomics",
+      "cn": "DwarfFortresswebcomics"
+    },
+    "dwarffortresswiki": {
+      "en": "DwarfFortressWiki",
+      "cn": "DwarfFortressWiki"
+    },
+    "dwarvenatomsmasher2": {
+      "en": "Dwarvenatomsmasher2",
+      "cn": "Dwarvenatomsmasher2"
+    },
+    "dwarveneconomy": {
+      "en": "Dwarveneconomy",
+      "cn": "Dwarveneconomy"
+    },
+    "dwarvenlanguage": {
+      "en": "Dwarvenlanguage",
+      "cn": "Dwarvenlanguage"
+    },
+    "dwarvenmilk": {
+      "en": "Dwarvenmilk",
+      "cn": "Dwarvenmilk"
+    },
+    "dwarvensugar": {
+      "en": "Dwarvensugar",
+      "cn": "Dwarvensugar"
+    },
+    "dwarvensyrup": {
+      "en": "Dwarvensyrup",
+      "cn": "Dwarvensyrup"
+    },
+    "dye": {
+      "en": "Dye",
+      "cn": "Dye"
+    },
+    "dyersshop": {
+      "en": "Dyer'sshop",
+      "cn": "Dyer'sshop"
+    },
+    "dyer": {
+      "en": "Dyer",
+      "cn": "Dyer"
+    },
+    "eagle": {
+      "en": "Eagle",
+      "cn": "Eagle"
+    },
+    "eagleman": {
+      "en": "Eagleman",
+      "cn": "Eagleman"
+    },
+    "earthenware": {
+      "en": "Earthenware",
+      "cn": "Earthenware"
+    },
+    "eastereggs2": {
+      "en": "Eastereggs2",
+      "cn": "Eastereggs2"
+    },
+    "echidna": {
+      "en": "Echidna",
+      "cn": "Echidna"
+    },
+    "echidnaman": {
+      "en": "Echidnaman",
+      "cn": "Echidnaman"
+    },
+    "economics": {
+      "en": "Economics",
+      "cn": "Economics"
+    },
+    "economicstone": {
+      "en": "Economicstone",
+      "cn": "Economicstone"
+    },
+    "edge": {
+      "en": "Edge",
+      "cn": "Edge"
+    },
+    "egg": {
+      "en": "Egg",
+      "cn": "Egg"
+    },
+    "eggplant": {
+      "en": "Eggplant",
+      "cn": "Eggplant"
+    },
+    "eggproduction": {
+      "en": "Eggproduction",
+      "cn": "Eggproduction"
+    },
+    "elections": {
+      "en": "Elections",
+      "cn": "Elections"
+    },
+    "electrum": {
+      "en": "Electrum",
+      "cn": "Electrum"
+    },
+    "elephant": {
+      "en": "Elephant",
+      "cn": "Elephant"
+    },
+    "elephantheadamaranth": {
+      "en": "Elephant-headamaranth",
+      "cn": "Elephant-headamaranth"
+    },
+    "elephantman": {
+      "en": "Elephantman",
+      "cn": "Elephantman"
+    },
+    "elephantseal": {
+      "en": "Elephantseal",
+      "cn": "Elephantseal"
+    },
+    "elephantsealman": {
+      "en": "Elephantsealman",
+      "cn": "Elephantsealman"
+    },
+    "elf": {
+      "en": "Elf",
+      "cn": "Elf"
+    },
+    "elite": {
+      "en": "Elite",
+      "cn": "Elite"
+    },
+    "elk": {
+      "en": "Elk",
+      "cn": "Elk"
+    },
+    "elkbird": {
+      "en": "Elkbird",
+      "cn": "Elkbird"
+    },
+    "elkman": {
+      "en": "Elkman",
+      "cn": "Elkman"
+    },
+    "elvenlanguage": {
+      "en": "Elvenlanguage",
+      "cn": "Elvenlanguage"
+    },
+    "embark": {
+      "en": "Embark",
+      "cn": "Embark"
+    },
+    "embarkprofilerepository": {
+      "en": "Embarkprofilerepository",
+      "cn": "Embarkprofilerepository"
+    },
+    "embarkprofilestxt": {
+      "en": "Embarkprofiles.txt",
+      "cn": "Embarkprofiles.txt"
+    },
+    "embarkprofilestxtlnpprofiles": {
+      "en": "Embarkprofiles.txtLNPprofiles",
+      "cn": "Embarkprofiles.txtLNPprofiles"
+    },
+    "emotion": {
+      "en": "Emotion",
+      "cn": "Emotion"
+    },
+    "engraving": {
+      "en": "Engraving",
+      "cn": "Engraving"
+    },
+    "entityexamples": {
+      "en": "Entityexamples",
+      "cn": "Entityexamples"
+    },
+    "entitytoken": {
+      "en": "Entitytoken",
+      "cn": "Entitytoken"
+    },
+    "equipment": {
+      "en": "Equipment",
+      "cn": "Equipment"
+    },
+    "errorlogtxt": {
+      "en": "Errorlog.txt",
+      "cn": "Errorlog.txt"
+    },
+    "ethic": {
+      "en": "Ethic",
+      "cn": "Ethic"
+    },
+    "ettin": {
+      "en": "Ettin",
+      "cn": "Ettin"
+    },
+    "exoticpet": {
+      "en": "Exoticpet",
+      "cn": "Exoticpet"
+    },
+    "expeditionleader": {
+      "en": "Expeditionleader",
+      "cn": "Expeditionleader"
+    },
+    "experience": {
+      "en": "Experience",
+      "cn": "Experience"
+    },
+    "experiment": {
+      "en": "Experiment",
+      "cn": "Experiment"
+    },
+    "exploit": {
+      "en": "Exploit",
+      "cn": "Exploit"
+    },
+    "exploratorymining": {
+      "en": "Exploratorymining",
+      "cn": "Exploratorymining"
+    },
+    "extinction": {
+      "en": "Extinction",
+      "cn": "Extinction"
+    },
+    "extracts": {
+      "en": "Extracts",
+      "cn": "Extracts"
+    },
+    "faction": {
+      "en": "Faction",
+      "cn": "Faction"
+    },
+    "faintyellowdiamond": {
+      "en": "Faintyellowdiamond",
+      "cn": "Faintyellowdiamond"
+    },
+    "fairy": {
+      "en": "Fairy",
+      "cn": "Fairy"
+    },
+    "fall": {
+      "en": "Fall",
+      "cn": "Fall"
+    },
+    "fanciful": {
+      "en": "Fanciful",
+      "cn": "Fanciful"
+    },
+    "farmersworkshop2": {
+      "en": "Farmer'sworkshop2",
+      "cn": "Farmer'sworkshop2"
+    },
+    "farmer": {
+      "en": "Farmer",
+      "cn": "Farmer"
+    },
+    "farming": {
+      "en": "Farming",
+      "cn": "Farming"
+    },
+    "farmsizecalculations": {
+      "en": "Farmsizecalculations",
+      "cn": "Farmsizecalculations"
+    },
+    "fat": {
+      "en": "Fat",
+      "cn": "Fat"
+    },
+    "feather": {
+      "en": "Feather",
+      "cn": "Feather"
+    },
+    "feathertree": {
+      "en": "Feathertree",
+      "cn": "Feathertree"
+    },
+    "felsite": {
+      "en": "Felsite",
+      "cn": "Felsite"
+    },
+    "fescuegrass": {
+      "en": "Fescuegrass",
+      "cn": "Fescuegrass"
+    },
+    "festival": {
+      "en": "Festival",
+      "cn": "Festival"
+    },
+    "fieldsedge": {
+      "en": "Fieldsedge",
+      "cn": "Fieldsedge"
+    },
+    "figurine": {
+      "en": "Figurine",
+      "cn": "Figurine"
+    },
+    "filth": {
+      "en": "Filth",
+      "cn": "Filth"
+    },
+    "finepewter": {
+      "en": "Finepewter",
+      "cn": "Finepewter"
+    },
+    "fingerlime": {
+      "en": "Fingerlime",
+      "cn": "Fingerlime"
+    },
+    "fingermillet": {
+      "en": "Fingermillet",
+      "cn": "Fingermillet"
+    },
+    "finishedgoods2": {
+      "en": "Finishedgoods2",
+      "cn": "Finishedgoods2"
+    },
+    "fire": {
+      "en": "Fire",
+      "cn": "Fire"
+    },
+    "firesafe": {
+      "en": "Fire-safe",
+      "cn": "Fire-safe"
+    },
+    "fireagate": {
+      "en": "Fireagate",
+      "cn": "Fireagate"
+    },
+    "fireclay": {
+      "en": "Fireclay",
+      "cn": "Fireclay"
+    },
+    "firefly": {
+      "en": "Firefly",
+      "cn": "Firefly"
+    },
+    "fireflyman": {
+      "en": "Fireflyman",
+      "cn": "Fireflyman"
+    },
+    "fireimp2": {
+      "en": "Fireimp2",
+      "cn": "Fireimp2"
+    },
+    "fireman": {
+      "en": "Fireman",
+      "cn": "Fireman"
+    },
+    "fireopal": {
+      "en": "Fireopal",
+      "cn": "Fireopal"
+    },
+    "firesnake": {
+      "en": "Firesnake",
+      "cn": "Firesnake"
+    },
+    "fish": {
+      "en": "Fish",
+      "cn": "Fish"
+    },
+    "fishcleaner": {
+      "en": "Fishcleaner",
+      "cn": "Fishcleaner"
+    },
+    "fishdissector": {
+      "en": "Fishdissector",
+      "cn": "Fishdissector"
+    },
+    "fisherberry": {
+      "en": "Fisherberry",
+      "cn": "Fisherberry"
+    },
+    "fisherdwarf": {
+      "en": "Fisherdwarf",
+      "cn": "Fisherdwarf"
+    },
+    "fishery": {
+      "en": "Fishery",
+      "cn": "Fishery"
+    },
+    "fisheryworker2": {
+      "en": "Fisheryworker2",
+      "cn": "Fisheryworker2"
+    },
+    "fishing": {
+      "en": "Fishing",
+      "cn": "Fisherdwarf|渔夫"
+    },
+    "fishingindustry": {
+      "en": "Fishingindustry",
+      "cn": "Fishingindustry"
+    },
+    "fixedcreatureraws": {
+      "en": "FixedCreatureRAWs",
+      "cn": "FixedCreatureRAWs"
+    },
+    "flail": {
+      "en": "Flail",
+      "cn": "Flail"
+    },
+    "flask": {
+      "en": "Flask",
+      "cn": "Flask"
+    },
+    "flatterer": {
+      "en": "Flatterer",
+      "cn": "Flatterer"
+    },
+    "flax": {
+      "en": "Flax",
+      "cn": "Flax"
+    },
+    "fleshball": {
+      "en": "Fleshball",
+      "cn": "Fleshball"
+    },
+    "floatingguts": {
+      "en": "Floatingguts",
+      "cn": "Floatingguts"
+    },
+    "flood": {
+      "en": "Flood",
+      "cn": "Flood"
+    },
+    "floodgate2": {
+      "en": "Floodgate2",
+      "cn": "Floodgate2"
+    },
+    "floor": {
+      "en": "Floor",
+      "cn": "Floor"
+    },
+    "floorfungus": {
+      "en": "Floorfungus",
+      "cn": "Floorfungus"
+    },
+    "flounder": {
+      "en": "Flounder",
+      "cn": "Flounder"
+    },
+    "flour": {
+      "en": "Flour",
+      "cn": "Flour"
+    },
+    "flow": {
+      "en": "Flow",
+      "cn": "Flow"
+    },
+    "fluffywambler": {
+      "en": "Fluffywambler",
+      "cn": "Fluffywambler"
+    },
+    "fluidengineer": {
+      "en": "Fluidengineer",
+      "cn": "Fluidengineer"
+    },
+    "fluidlogic": {
+      "en": "Fluidlogic",
+      "cn": "Fluidlogic"
+    },
+    "flux2": {
+      "en": "Flux2",
+      "cn": "Flux2"
+    },
+    "fluxboxmacros": {
+      "en": "Fluxboxmacros",
+      "cn": "Fluxboxmacros"
+    },
+    "fly": {
+      "en": "Fly",
+      "cn": "Fly"
+    },
+    "flying": {
+      "en": "Flying",
+      "cn": "Flying"
+    },
+    "flyingsquirrel": {
+      "en": "Flyingsquirrel",
+      "cn": "Flyingsquirrel"
+    },
+    "flyingsquirrelman": {
+      "en": "Flyingsquirrelman",
+      "cn": "Flyingsquirrelman"
+    },
+    "flyman": {
+      "en": "Flyman",
+      "cn": "Flyman"
+    },
+    "fonio": {
+      "en": "Fonio",
+      "cn": "Fonio"
+    },
+    "food": {
+      "en": "Food",
+      "cn": "Food"
+    },
+    "foodguide": {
+      "en": "Foodguide",
+      "cn": "Foodguide"
+    },
+    "foodhauling": {
+      "en": "Foodhauling",
+      "cn": "Foodhauling"
+    },
+    "forbid": {
+      "en": "Forbid",
+      "cn": "Forbid"
+    },
+    "force": {
+      "en": "Force",
+      "cn": "Force"
+    },
+    "forest": {
+      "en": "Forest",
+      "cn": "Forest"
+    },
+    "forestretreat": {
+      "en": "Forestretreat",
+      "cn": "Forestretreat"
+    },
+    "forgottenbeast": {
+      "en": "Forgottenbeast",
+      "cn": "Forgottenbeast"
+    },
+    "forgottenbeastgallery": {
+      "en": "Forgottenbeastgallery",
+      "cn": "Forgottenbeastgallery"
+    },
+    "fort": {
+      "en": "Fort",
+      "cn": "Fort"
+    },
+    "fortification": {
+      "en": "Fortification",
+      "cn": "Fortification"
+    },
+    "fortificationagate": {
+      "en": "Fortificationagate",
+      "cn": "Fortificationagate"
+    },
+    "fortress": {
+      "en": "Fortress",
+      "cn": "Fortress"
+    },
+    "fortressguard": {
+      "en": "Fortressguard",
+      "cn": "Fortressguard"
+    },
+    "fortresslocation": {
+      "en": "FortressLocation",
+      "cn": "FortressLocation"
+    },
+    "foulblendec": {
+      "en": "Foulblendec",
+      "cn": "Foulblendec"
+    },
+    "fox": {
+      "en": "Fox",
+      "cn": "Fox"
+    },
+    "foxman": {
+      "en": "Foxman",
+      "cn": "Foxman"
+    },
+    "foxsquirrel": {
+      "en": "Foxsquirrel",
+      "cn": "Foxsquirrel"
+    },
+    "foxtailmillet": {
+      "en": "Foxtailmillet",
+      "cn": "Foxtailmillet"
+    },
+    "framespersecond": {
+      "en": "Framespersecond",
+      "cn": "Framespersecond"
+    },
+    "freezing": {
+      "en": "Freezing",
+      "cn": "Freezing"
+    },
+    "frequentlyaskedquestions": {
+      "en": "FrequentlyAskedQuestions",
+      "cn": "FrequentlyAskedQuestions"
+    },
+    "friend": {
+      "en": "Friend",
+      "cn": "Friend"
+    },
+    "frillshark": {
+      "en": "Frillshark",
+      "cn": "Frillshark"
+    },
+    "frog": {
+      "en": "Frog",
+      "cn": "Frog"
+    },
+    "fromcaravantohappydwarves": {
+      "en": "FromCaravantoHappyDwarves",
+      "cn": "FromCaravantoHappyDwarves"
+    },
+    "fuel": {
+      "en": "Fuel",
+      "cn": "Fuel"
+    },
+    "fuelindustry": {
+      "en": "Fuelindustry",
+      "cn": "Fuelindustry"
+    },
+    "fungiwood": {
+      "en": "Fungiwood",
+      "cn": "Fungiwood"
+    },
+    "furnace": {
+      "en": "Furnace",
+      "cn": "Furnace"
+    },
+    "furnaceoperator2": {
+      "en": "Furnaceoperator2",
+      "cn": "Furnaceoperator2"
+    },
+    "furniture": {
+      "en": "Furniture",
+      "cn": "Furniture"
+    },
+    "furnitureindustry2": {
+      "en": "Furnitureindustry2",
+      "cn": "Furnitureindustry2"
+    },
+    "gabbroman": {
+      "en": "Gabbroman",
+      "cn": "Gabbroman"
+    },
+    "galena": {
+      "en": "Galena",
+      "cn": "Galena"
+    },
+    "gamelogtxt": {
+      "en": "Gamelog.txt",
+      "cn": "Gamelog.txt"
+    },
+    "garbagedisposal": {
+      "en": "Garbagedisposal",
+      "cn": "Garbagedisposal"
+    },
+    "garbagedump": {
+      "en": "Garbagedump",
+      "cn": "Garbagedump"
+    },
+    "gardencress": {
+      "en": "Gardencress",
+      "cn": "Gardencress"
+    },
+    "garlic": {
+      "en": "Garlic",
+      "cn": "Garlic"
+    },
+    "garnet": {
+      "en": "Garnet",
+      "cn": "Garnet"
+    },
+    "sax": {
+      "en": "Âsax",
+      "cn": "Âsax"
+    },
+    "science": {
+      "en": "‼SCIENCE‼",
+      "cn": "‼SCIENCE‼"
+    }
+  },
+  "vocabulary_map": {
+    "dwarf": "矮人",
+    "dwarves": "矮人",
+    "fortress": "要塞",
+    "adventure": "冒险",
+    "mode": "模式",
+    "world": "世界",
+    "generation": "生成",
+    "game": "游戏",
+    "player": "玩家",
+    "unit": "单位",
+    "creature": "生物",
+    "item": "物品",
+    "material": "材料",
+    "ore": "矿石",
+    "metal": "金属",
+    "stone": "石头",
+    "wood": "木头",
+    "food": "食物",
+    "drink": "饮料",
+    "alcohol": "酒精",
+    "water": "水",
+    "weapon": "武器",
+    "armor": "护甲",
+    "clothing": "衣物",
+    "tool": "工具",
+    "furniture": "家具",
+    "building": "建筑",
+    "construction": "建造",
+    "workshop": "工坊",
+    "room": "房间",
+    "bedroom": "卧室",
+    "dining": "餐厅",
+    "hospital": "医院",
+    "barracks": "兵营",
+    "stockpile": "储存区",
+    "zone": "区域",
+    "activity": "活动",
+    "designation": "指定",
+    "job": "工作",
+    "labor": "劳动",
+    "profession": "职业",
+    "skill": "技能",
+    "attribute": "属性",
+    "trait": "特质",
+    "preference": "偏好",
+    "thought": "想法",
+    "emotion": "情绪",
+    "stress": "压力",
+    "happiness": "幸福",
+    "sadness": "悲伤",
+    "anger": "愤怒",
+    "fear": "害怕",
+    "surprise": "惊讶",
+    "disgust": "厌恶",
+    "mood": "心情",
+    "insane": "疯狂",
+    "depressed": "沮丧",
+    "ecstatic": "狂喜",
+    "fine": "精美",
+    "unhappy": "不开心",
+    "happy": "开心",
+    "very": "非常",
+    "quite": "很",
+    "rather": "相当",
+    "somewhat": "有点",
+    "military": "军事",
+    "civilian": "平民",
+    "squad": "小队",
+    "schedule": "日程",
+    "alert": "警戒",
+    "order": "命令",
+    "command": "命令",
+    "training": "训练",
+    "combat": "战斗",
+    "attack": "攻击",
+    "defend": "防御",
+    "kill": "杀死",
+    "die": "死亡",
+    "dead": "死亡的",
+    "death": "死亡",
+    "corpse": "尸体",
+    "body": "身体",
+    "bone": "骨头",
+    "blood": "血液",
+    "wound": "伤口",
+    "injury": "伤害",
+    "heal": "治疗",
+    "recover": "恢复",
+    "sick": "生病",
+    "disease": "疾病",
+    "syndrome": "综合征",
+    "poison": "毒药",
+    "toxin": "毒素",
+    "trap": "陷阱",
+    "mechanism": "机械",
+    "lever": "杠杆",
+    "pressure": "压力",
+    "plate": "盘子",
+    "spike": "尖刺",
+    "bridge": "桥梁",
+    "door": "门",
+    "hatch": "舱口",
+    "grate": "格栅",
+    "bars": "栅栏",
+    "wall": "建造墙壁",
+    "floor": "地板",
+    "ramp": "建造斜坡",
+    "stair": "建造楼梯",
+    "up": "向上",
+    "down": "向下",
+    "north": "北",
+    "south": "南",
+    "east": "东",
+    "west": "西",
+    "above": "在上面",
+    "below": "在下面",
+    "level": "水平",
+    "z-level": "Z层",
+    "surface": "地表",
+    "underground": "地下",
+    "cavern": "洞穴",
+    "depth": "深处",
+    "hell": "地狱",
+    "heaven": "天堂",
+    "sky": "天空",
+    "sun": "太阳",
+    "moon": "月亮",
+    "star": "星星",
+    "weather": "天气",
+    "rain": "雨",
+    "snow": "雪",
+    "storm": "风暴",
+    "wind": "风",
+    "temperature": "温度",
+    "hot": "热",
+    "cold": "冷",
+    "warm": "温暖",
+    "frozen": "冰冻",
+    "magma": "岩浆",
+    "lava": "熔岩",
+    "fire": "火",
+    "smoke": "烟",
+    "steam": "蒸汽",
+    "ice": "冰",
+    "gas": "气体",
+    "solid": "固体",
+    "liquid": "液体",
+    "mine": "挖掘",
+    "channel": "挖掘渠道",
+    "remove": "移除",
+    "cancel": "取消",
+    "suspend": "暂停",
+    "resume": "继续",
+    "repeat": "重复",
+    "close": "关闭",
+    "open": "打开",
+    "lock": "锁定",
+    "unlock": "解锁",
+    "forbid": "禁止",
+    "claim": "声称",
+    "dump": "倾倒",
+    "melt": "熔化",
+    "tan": "鞣制",
+    "butcher": "屠宰",
+    "cook": "烹饪",
+    "brew": "酿造",
+    "farm": "种植",
+    "harvest": "收获",
+    "chop": "砍",
+    "cut": "切割",
+    "carve": "雕刻",
+    "engrave": "雕刻",
+    "smooth": "光滑",
+    "build": "建造",
+    "construct": "建造",
+    "place": "位置",
+    "move": "移动",
+    "haul": "搬运",
+    "store": "存储",
+    "bin": "箱子",
+    "barrel": "桶",
+    "bag": "袋子",
+    "bucket": "水桶",
+    "cart": "推车",
+    "wagon": "货车",
+    "minecart": "矿车",
+    "track": "追踪",
+    "roller": "滚筒",
+    "screw": "螺旋",
+    "pump": "泵",
+    "windmill": "风车",
+    "waterwheel": "水车",
+    "gear": "齿轮",
+    "assembly": "组装",
+    "axle": "轴",
+    "horizontal": "水平",
+    "vertical": "垂直",
+    "power": "力量",
+    "source": "来源",
+    "transfer": "转移",
+    "generate": "产生",
+    "consume": "消耗",
+    "animal": "动物",
+    "plant": "植物",
+    "tree": "树木",
+    "shrub": "灌木",
+    "grass": "草",
+    "seed": "种子",
+    "fruit": "果实",
+    "vegetable": "蔬菜",
+    "meat": "肉",
+    "fish": "鱼",
+    "egg": "卵",
+    "milk": "牛奶",
+    "cheese": "奶酪",
+    "bread": "面包",
+    "meal": "餐食",
+    "leather": "皮革",
+    "cloth": "布料",
+    "silk": "丝绸",
+    "yarn": "故事",
+    "thread": "线",
+    "dye": "染料",
+    "pigment": "颜料",
+    "gem": "宝石",
+    "rough": "粗糙",
+    "cabochon": "圆雕",
+    "faceted": "刻面",
+    "Artifact": "神器",
+    "masterwork": "杰作",
+    "quality": "质量",
+    "legendary": "传奇",
+    "exceptional": "卓越",
+    "well-crafted": "精良",
+    "masterfully": "精湛地",
+    "created": "创造了",
+    "engraved": "雕刻了",
+    "decorated": "装饰了",
+    "encrusted": "镶嵌了",
+    "image": "图像",
+    "depicting": "描绘",
+    "menacing": "威胁的",
+    "spikes": "尖刺",
+    "bands": "带子",
+    "rings": "环",
+    "of": "的",
+    "and": "和",
+    "or": "或",
+    "the": "",
+    "a": "",
+    "an": "",
+    "is": "是",
+    "are": "是",
+    "was": "曾是",
+    "were": "曾是",
+    "has": "有",
+    "have": "有",
+    "had": "曾有",
+    "will": "将",
+    "be": "是",
+    "been": "已被",
+    "can": "可以",
+    "could": "可以",
+    "may": "可能",
+    "might": "威力",
+    "must": "必须",
+    "shall": "应当",
+    "should": "应该",
+    "would": "将会",
+    "this": "这个",
+    "that": "那个",
+    "these": "这些",
+    "those": "那些",
+    "with": "带有",
+    "without": "没有",
+    "for": "为了",
+    "from": "从",
+    "by": "通过",
+    "to": "到",
+    "in": "在",
+    "on": "在",
+    "at": "在",
+    "over": "越过",
+    "under": "在...之下",
+    "between": "在...之间",
+    "among": "在...之中",
+    "through": "穿过",
+    "into": "进入",
+    "onto": "到...之上",
+    "upon": "在...之上",
+    "within": "在...之内",
+    "outside": "在...之外",
+    "around": "大约",
+    "near": "靠近",
+    "beside": "在旁边",
+    "behind": "在后面",
+    "before": "之前",
+    "after": "之后",
+    "left": "左",
+    "right": "右",
+    "center": "中心",
+    "middle": "中间",
+    "side": "侧面",
+    "edge": "边缘",
+    "corner": "角落",
+    "end": "结束",
+    "start": "开始",
+    "beginning": "开始",
+    "front": "前面",
+    "back": "背部",
+    "top": "顶部",
+    "bottom": "底部",
+    "base": "基地",
+    "foundation": "基础",
+    "point": "点",
+    "line": "线",
+    "area": "区域",
+    "space": "空间",
+    "site": "地点",
+    "location": "位置",
+    "position": "位置",
+    "direction": "方向",
+    "distance": "距离",
+    "size": "大小",
+    "shape": "形状",
+    "form": "形式",
+    "color": "颜色",
+    "red": "红色",
+    "blue": "蓝色",
+    "green": "绿色",
+    "yellow": "黄色",
+    "white": "白色",
+    "black": "黑色",
+    "brown": "棕色",
+    "gray": "灰色",
+    "grey": "灰色",
+    "purple": "紫色",
+    "orange": "橙色",
+    "pink": "粉色",
+    "clear": "透明",
+    "dark": "黑暗",
+    "light": "光",
+    "bright": "明亮",
+    "dim": "昏暗",
+    "shadow": "尾随",
+    "shade": "阴凉",
+    "glow": "发光",
+    "shine": "闪耀",
+    "sparkle": "闪烁",
+    "gleam": "微光",
+    "glitter": "闪光",
+    "heavy": "重",
+    "large": "大",
+    "small": "小",
+    "huge": "巨大",
+    "tiny": "微小",
+    "long": "长",
+    "short": "短",
+    "wide": "宽",
+    "narrow": "窄",
+    "thick": "厚",
+    "thin": "薄",
+    "deep": "深",
+    "shallow": "浅",
+    "high": "高",
+    "low": "低",
+    "fast": "快",
+    "slow": "慢",
+    "quick": "迅速",
+    "swift": "敏捷",
+    "slowly": "缓慢地",
+    "rapidly": "快速地",
+    "instant": "瞬间",
+    "moment": "时刻",
+    "second": "第二",
+    "minute": "分钟",
+    "hour": "小时",
+    "day": "天",
+    "week": "周",
+    "month": "月",
+    "year": "年",
+    "season": "季节",
+    "spring": "春天",
+    "summer": "夏天",
+    "autumn": "秋天",
+    "fall": "掉落",
+    "winter": "冬天",
+    "time": "时间",
+    "period": "时期",
+    "age": "年龄",
+    "era": "时代",
+    "epoch": "纪元",
+    "date": "日期",
+    "history": "历史",
+    "past": "过去",
+    "present": "现在",
+    "future": "未来",
+    "during": "期间",
+    "while": "当...时",
+    "until": "直到",
+    "since": "自从",
+    "ago": "以前",
+    "now": "现在",
+    "then": "然后",
+    "soon": "很快",
+    "later": "稍后",
+    "early": "早期",
+    "late": "晚期",
+    "always": "总是",
+    "never": "从不",
+    "often": "经常",
+    "sometimes": "有时",
+    "rarely": "很少",
+    "usually": "通常",
+    "frequently": "频繁地",
+    "occasionally": "偶尔",
+    "once": "一次",
+    "twice": "两次",
+    "again": "再次",
+    "first": "第一",
+    "last": "最后",
+    "next": "下一个",
+    "previous": "上一个",
+    "final": "最终",
+    "initial": "初始",
+    "original": "原始",
+    "new": "新",
+    "old": "旧",
+    "ancient": "古老",
+    "modern": "现代",
+    "current": "当前",
+    "recent": "最近",
+    "young": "年轻",
+    "elder": "年长",
+    "one": "一",
+    "two": "二",
+    "three": "三",
+    "four": "四",
+    "five": "五",
+    "six": "六",
+    "seven": "七",
+    "eight": "八",
+    "nine": "九",
+    "ten": "十",
+    "eleven": "十一",
+    "twelve": "十二",
+    "twenty": "二十",
+    "hundred": "百",
+    "thousand": "千",
+    "million": "百万",
+    "third": "第三",
+    "fourth": "第四",
+    "fifth": "第五",
+    "number": "数字",
+    "amount": "数量",
+    "count": "计数",
+    "quantity": "数量",
+    "total": "总计",
+    "sum": "总和",
+    "part": "部分",
+    "piece": "碎片",
+    "portion": "份额",
+    "half": "一半",
+    "quarter": "四分之一",
+    "whole": "整个",
+    "full": "满的",
+    "empty": "空的",
+    "none": "没有",
+    "zero": "零",
+    "nothing": "无",
+    "something": "某物",
+    "anything": "任何事物",
+    "everything": "一切",
+    "all": "所有",
+    "each": "每个",
+    "every": "每一",
+    "both": "两者",
+    "either": "任一",
+    "neither": "两者都不",
+    "other": "其他",
+    "another": "另一个",
+    "same": "相同",
+    "different": "不同",
+    "similar": "相似",
+    "various": "各种",
+    "several": "几个",
+    "many": "许多",
+    "few": "很少",
+    "much": "很多",
+    "more": "更多",
+    "most": "最多",
+    "less": "更少",
+    "least": "最少",
+    "enough": "足够",
+    "plenty": "充足",
+    "lack": "缺乏",
+    "shortage": "短缺",
+    "excess": "过量",
+    "extra": "额外",
+    "spare": "备用",
+    "only": "只有",
+    "just": "仅仅",
+    "merely": "只不过",
+    "simply": "简单地",
+    "barely": "几乎不",
+    "hardly": "几乎不",
+    "almost": "几乎",
+    "nearly": "将近",
+    "approximately": "大约",
+    "about": "关于",
+    "roughly": "粗略地",
+    "exactly": "精确地",
+    "precisely": "准确地",
+    "specifically": "具体地",
+    "particularly": "特别",
+    "especially": "尤其",
+    "mainly": "主要",
+    "mostly": "大部分",
+    "largely": "很大程度上",
+    "partly": "部分地",
+    "entirely": "完全地",
+    "completely": "彻底地",
+    "totally": "完全",
+    "fully": "充分地",
+    "absolutely": "绝对",
+    "relatively": "相对地",
+    "fairly": "相当",
+    "pretty": "相当",
+    "extremely": "极其",
+    "incredibly": "难以置信地",
+    "extraordinarily": "非凡地",
+    "remarkably": "显著地",
+    "notably": "显著地",
+    "significantly": "显著地",
+    "considerably": "相当地",
+    "substantially": "实质上",
+    "greatly": "大大地",
+    "highly": "高度地",
+    "deeply": "深深地",
+    "strongly": "强烈地",
+    "weakly": "微弱地",
+    "slightly": "轻微地",
+    "kind": "种类",
+    "type": "类型",
+    "sort": "种类",
+    "class": "类别",
+    "category": "分类",
+    "group": "组",
+    "set": "集合",
+    "collection": "集合",
+    "series": "系列",
+    "list": "列表",
+    "array": "数组",
+    "range": "范围",
+    "variety": "多样性",
+    "mixture": "混合物",
+    "combination": "组合",
+    "composition": "构成",
+    "structure": "结构",
+    "system": "系统",
+    "network": "网络",
+    "chain": "链",
+    "sequence": "序列",
+    "arrangement": "排列",
+    "pattern": "模式",
+    "design": "设计",
+    "plan": "计划",
+    "scheme": "方案",
+    "method": "方法",
+    "way": "方式",
+    "manner": "方式",
+    "means": "手段",
+    "process": "过程",
+    "procedure": "程序",
+    "operation": "操作",
+    "action": "行动",
+    "task": "任务",
+    "work": "工作",
+    "function": "功能",
+    "role": "角色",
+    "purpose": "目的",
+    "goal": "目标",
+    "aim": "目标",
+    "objective": "目标",
+    "target": "目标",
+    "result": "结果",
+    "outcome": "结果",
+    "effect": "效果",
+    "consequence": "后果",
+    "product": "产物",
+    "output": "输出",
+    "yield": "产量",
+    "return": "返回",
+    "value": "价值",
+    "worth": "价值",
+    "benefit": "好处",
+    "advantage": "优势",
+    "gain": "收益",
+    "profit": "利润",
+    "cost": "成本",
+    "price": "价格",
+    "expense": "费用",
+    "loss": "损失",
+    "damage": "损坏",
+    "harm": "伤害",
+    "hurt": "受伤",
+    "risk": "风险",
+    "danger": "危险",
+    "threat": "威胁",
+    "hazard": "危害",
+    "safety": "安全",
+    "security": "安全",
+    "protection": "保护",
+    "defense": "防御",
+    "guard": "守卫",
+    "shield": "盾牌",
+    "cover": "覆盖",
+    "screen": "屏幕",
+    "barrier": "屏障",
+    "obstacle": "障碍",
+    "block": "阻挡",
+    "prevent": "阻止",
+    "stop": "停止",
+    "halt": "暂停",
+    "avoid": "避免",
+    "escape": "逃避",
+    "flee": "逃跑",
+    "hide": "隐藏",
+    "conceal": "隐藏",
+    "secret": "秘密",
+    "private": "私人",
+    "public": "公共",
+    "free": "自由",
+    "safe": "安全",
+    "secure": "安全",
+    "stable": "稳定",
+    "steady": "稳固",
+    "firm": "牢固",
+    "hard": "硬",
+    "soft": "软",
+    "sharp": "锋利",
+    "blunt": "钝",
+    "pointed": "尖的",
+    "round": "圆",
+    "square": "方",
+    "flat": "平",
+    "even": "均匀",
+    "uneven": "不均匀",
+    "regular": "规则",
+    "irregular": "不规则",
+    "uniform": "统一",
+    "consistent": "一致",
+    "constant": "恒定",
+    "continuous": "连续",
+    "continual": "持续",
+    "persistent": "持久",
+    "permanent": "永久",
+    "temporary": "临时",
+    "brief": "简短",
+    "lasting": "持久",
+    "enduring": "耐久",
+    "durable": "耐用",
+    "strong": "强",
+    "strength": "强度",
+    "weak": "弱",
+    "weakness": "弱点",
+    "feeble": "虚弱",
+    "fragile": "脆弱",
+    "delicate": "精致",
+    "brittle": "易碎",
+    "flexible": "灵活",
+    "rigid": "刚性",
+    "stiff": "僵硬",
+    "tight": "紧",
+    "loose": "松",
+    "speed": "速度",
+    "velocity": "速率",
+    "pace": "步伐",
+    "rate": "比率",
+    "frequency": "频率",
+    "interval": "间隔",
+    "cycle": "循环",
+    "phase": "阶段",
+    "stage": "阶段",
+    "step": "步骤",
+    "degree": "程度",
+    "extent": "范围",
+    "scope": "范围",
+    "scale": "秤",
+    "magnitude": "量级",
+    "intensity": "强度",
+    "force": "力量",
+    "energy": "能量",
+    "vigor": "活力",
+    "life": "生命",
+    "live": "活着",
+    "living": "活的",
+    "alive": "活着的",
+    "destroy": "摧毁",
+    "ruin": "毁坏",
+    "break": "休息",
+    "crack": "裂缝",
+    "split": "分裂",
+    "tear": "撕裂",
+    "rip": "撕开",
+    "shred": "切碎",
+    "crush": "压碎",
+    "smash": "粉碎",
+    "shatter": "打碎",
+    "fragment": "碎片",
+    "bit": "一点",
+    "section": "节",
+    "segment": "段",
+    "division": "分割",
+    "separation": "分离",
+    "slice": "切片",
+    "dice": "切丁",
+    "hack": "劈",
+    "slash": "砍",
+    "stab": "刺",
+    "pierce": "刺穿",
+    "puncture": "刺破",
+    "hole": "洞",
+    "gap": "缺口",
+    "opening": "开口",
+    "entrance": "入口",
+    "exit": "出口",
+    "path": "路径",
+    "route": "路线",
+    "course": "路线",
+    "trail": "追踪",
+    "trace": "追踪",
+    "mark": "标记",
+    "sign": "迹象",
+    "signal": "信号",
+    "symbol": "符号",
+    "character": "字符",
+    "letter": "字母",
+    "word": "词",
+    "phrase": "短语",
+    "sentence": "句子",
+    "paragraph": "段落",
+    "chapter": "章节",
+    "page": "页",
+    "sheet": "张",
+    "leaf": "叶",
+    "paper": "纸",
+    "document": "文档",
+    "record": "记录",
+    "file": "文件",
+    "data": "数据",
+    "information": "信息",
+    "message": "消息",
+    "news": "新闻",
+    "story": "故事",
+    "tale": "传说",
+    "legend": "传说",
+    "myth": "神话",
+    "rumor": "谣言",
+    "report": "报告",
+    "account": "描述",
+    "description": "描述",
+    "explanation": "解释",
+    "definition": "定义",
+    "meaning": "意思",
+    "sense": "感知",
+    "idea": "想法",
+    "concept": "概念",
+    "notion": "概念",
+    "theory": "理论",
+    "hypothesis": "假设",
+    "assumption": "假设",
+    "belief": "信念",
+    "faith": "信仰",
+    "trust": "信任",
+    "confidence": "信心",
+    "hope": "希望",
+    "wish": "愿望",
+    "desire": "渴望",
+    "want": "想要",
+    "need": "需要",
+    "require": "要求",
+    "demand": "要求",
+    "request": "请求",
+    "ask": "问",
+    "question": "问题",
+    "query": "询问",
+    "inquiry": "询问",
+    "answer": "回答",
+    "reply": "回复",
+    "response": "回应",
+    "reaction": "反应",
+    "feedback": "反馈",
+    "comment": "评论",
+    "remark": "评论",
+    "note": "笔记",
+    "notice": "注意",
+    "warning": "警告",
+    "caution": "警告",
+    "advice": "建议",
+    "suggestion": "建议",
+    "recommendation": "推荐",
+    "tip": "提示",
+    "hint": "暗示",
+    "clue": "线索",
+    "evidence": "证据",
+    "proof": "证明",
+    "fact": "事实",
+    "truth": "真相",
+    "reality": "现实",
+    "existence": "存在",
+    "being": "存在",
+    "entity": "实体",
+    "object": "对象",
+    "thing": "事物",
+    "stuff": "东西",
+    "matter": "物质",
+    "substance": "物质",
+    "element": "元素",
+    "component": "组件",
+    "constituent": "成分",
+    "ingredient": "原料",
+    "factor": "因素",
+    "aspect": "方面",
+    "feature": "特点",
+    "characteristic": "特征",
+    "property": "属性",
+    "nature": "性质",
+    "essence": "本质",
+    "core": "核心",
+    "heart": "心脏",
+    "soul": "灵魂",
+    "spirit": "精神",
+    "mind": "思想",
+    "brain": "大脑",
+    "head": "头",
+    "face": "脸",
+    "eye": "眼睛",
+    "ear": "耳朵",
+    "nose": "鼻子",
+    "mouth": "嘴",
+    "lip": "嘴唇",
+    "tooth": "牙齿",
+    "tongue": "舌头",
+    "throat": "喉咙",
+    "neck": "脖子",
+    "shoulder": "肩膀",
+    "arm": "武装",
+    "hand": "手",
+    "finger": "手指",
+    "palm": "手掌",
+    "wrist": "手腕",
+    "elbow": "肘部",
+    "chest": "胸部",
+    "waist": "腰部",
+    "hip": "臀部",
+    "leg": "腿",
+    "knee": "膝盖",
+    "foot": "脚",
+    "feet": "脚",
+    "toe": "脚趾",
+    "skin": "皮",
+    "hair": "头发",
+    "nail": "指甲",
+    "muscle": "肌肉",
+    "nerve": "神经",
+    "vein": "静脉",
+    "artery": "动脉",
+    "flesh": "肉",
+    "fat": "脂肪",
+    "organ": "器官",
+    "lung": "肺",
+    "liver": "肝脏",
+    "kidney": "肾脏",
+    "stomach": "胃",
+    "bowel": "肠",
+    "gut": "肠道",
+    "bladder": "膀胱",
+    "womb": "子宫",
+    "sperm": "精子",
+    "root": "根",
+    "stem": "茎",
+    "branch": "分支",
+    "twig": "细枝",
+    "flower": "花",
+    "petal": "花瓣",
+    "blossom": "花朵",
+    "nut": "坚果",
+    "berry": "浆果",
+    "grain": "谷物",
+    "kernel": "核",
+    "shell": "壳",
+    "husk": "外皮",
+    "peel": "皮",
+    "bark": "树皮",
+    "trunk": "树干",
+    "log": "原木",
+    "timber": "木材",
+    "plank": "木板",
+    "board": "板",
+    "stick": "棍",
+    "rod": "杆",
+    "pole": "杆",
+    "post": "柱",
+    "pillar": "柱子",
+    "column": "圆柱",
+    "beam": "梁",
+    "rafter": "椽",
+    "joist": "托梁",
+    "support": "支撑",
+    "brace": "支架",
+    "prop": "支柱",
+    "strut": "支撑",
+    "tie": "绑",
+    "bond": "结合",
+    "link": "连接",
+    "connection": "连接",
+    "joint": "关节",
+    "junction": "连接点",
+    "intersection": "交叉点",
+    "crossing": "十字路口",
+    "crossroad": "十字路口",
+    "fork": "分叉",
+    "divide": "分割",
+    "separate": "分离",
+    "depart": "离开",
+    "leave": "离开",
+    "go": "去",
+    "come": "来",
+    "arrive": "到达",
+    "reach": "到达",
+    "get": "得到",
+    "obtain": "获得",
+    "acquire": "获得",
+    "earn": "赚取",
+    "win": "赢得",
+    "lose": "失去",
+    "lost": "丢失",
+    "find": "找到",
+    "found": "发现",
+    "discover": "发现",
+    "detect": "检测",
+    "see": "看见",
+    "look": "看起来",
+    "watch": "观看",
+    "observe": "观察",
+    "view": "查看",
+    "sight": "视线",
+    "vision": "视觉",
+    "appear": "出现",
+    "seem": "似乎",
+    "sound": "听起来",
+    "feel": "感觉",
+    "touch": "触摸",
+    "taste": "品尝",
+    "smell": "闻",
+    "perceive": "感知",
+    "experience": "经历",
+    "know": "知道",
+    "understand": "理解",
+    "comprehend": "理解",
+    "grasp": "掌握",
+    "learn": "学习",
+    "study": "学习",
+    "research": "研究",
+    "investigate": "调查",
+    "explore": "探索",
+    "search": "搜索",
+    "seek": "寻找",
+    "hunt": "狩猎",
+    "chase": "追逐",
+    "pursue": "追求",
+    "follow": "跟随",
+    "accompany": "陪伴",
+    "escort": "护送",
+    "guide": "引导",
+    "lead": "领导",
+    "direct": "指挥",
+    "instruct": "指示",
+    "teach": "教导",
+    "educate": "教育",
+    "train": "训练",
+    "practice": "练习",
+    "drill": "操练",
+    "exercise": "锻炼",
+    "toil": "辛苦",
+    "effort": "努力",
+    "attempt": "尝试",
+    "try": "尝试",
+    "endeavor": "努力",
+    "struggle": "奋斗",
+    "strive": "努力",
+    "fight": "战斗",
+    "battle": "战斗",
+    "war": "战争",
+    "conflict": "冲突",
+    "clash": "冲突",
+    "collision": "碰撞",
+    "impact": "影响",
+    "strike": "打击",
+    "hit": "击中",
+    "beat": "击打",
+    "pound": "重击",
+    "bash": "猛击",
+    "slam": "猛撞",
+    "bang": "猛敲",
+    "knock": "敲",
+    "tap": "轻敲",
+    "pat": "轻拍",
+    "stroke": "抚摸",
+    "rub": "摩擦",
+    "scratch": "抓",
+    "scrape": "刮",
+    "mold": "模制",
+    "cast": "铸造",
+    "forge": "锻造",
+    "smith": "铁匠",
+    "hammer": "锤",
+    "anvil": "铁砧",
+    "furnace": "熔炉",
+    "kiln": "窑",
+    "oven": "烤炉",
+    "stove": "炉子",
+    "fireplace": "壁炉",
+    "hearth": "炉床",
+    "chimney": "烟囱",
+    "smokestack": "烟筒",
+    "vent": "通风口",
+    "duct": "管道",
+    "pipe": "管",
+    "tube": "管子",
+    "cylinder": "圆柱",
+    "drum": "鼓",
+    "cask": "木桶",
+    "keg": "小桶",
+    "tank": "罐",
+    "vat": "大桶",
+    "tub": "浴盆",
+    "basin": "盆",
+    "bowl": "碗",
+    "dish": "盘子",
+    "tray": "托盘",
+    "saucer": "茶碟",
+    "cup": "杯子",
+    "mug": "马克杯",
+    "glass": "玻璃杯",
+    "bottle": "瓶子",
+    "jar": "罐子",
+    "pot": "壶",
+    "pan": "平底锅",
+    "kettle": "水壶",
+    "jug": "壶",
+    "pitcher": "大水罐",
+    "flask": "烧瓶",
+    "vial": "小瓶",
+    "phial": "小瓶",
+    "container": "容器",
+    "holder": "支架",
+    "carrier": "载体",
+    "bearer": "持票人",
+    "porter": "搬运工",
+    "messenger": "信使",
+    "courier": "快递员",
+    "runner": "信使",
+    "scout": "侦察兵",
+    "spy": "间谍",
+    "agent": "特工",
+    "operative": "操作人员",
+    "worker": "工人",
+    "laborer": "劳动者",
+    "employee": "雇员",
+    "employer": "雇主",
+    "boss": "老板",
+    "master": "主人",
+    "chief": "首领",
+    "leader": "领导者",
+    "captain": "船长",
+    "commander": "指挥官",
+    "officer": "军官",
+    "official": "官员",
+    "authority": "权威",
+    "ruler": "统治者",
+    "king": "国王",
+    "queen": "女王",
+    "prince": "王子",
+    "princess": "公主",
+    "lord": "领主",
+    "lady": "女士",
+    "duke": "公爵",
+    "duchess": "公爵夫人",
+    "countess": "伯爵夫人",
+    "baron": "男爵",
+    "baroness": "男爵夫人",
+    "knight": "骑士",
+    "warrior": "战士",
+    "soldier": "士兵",
+    "protector": "保护者",
+    "defender": "防御者",
+    "hero": "英雄",
+    "champion": "冠军",
+    "victor": "胜利者",
+    "winner": "获胜者",
+    "conqueror": "征服者",
+    "vanquisher": "战胜者",
+    "enemy": "敌人",
+    "foe": "敌人",
+    "opponent": "对手",
+    "adversary": "对手",
+    "rival": "竞争对手",
+    "competitor": "竞争者",
+    "contender": "竞争者",
+    "contestant": "参赛者",
+    "participant": "参与者",
+    "member": "成员",
+    "associate": "伙伴",
+    "partner": "伙伴",
+    "ally": "盟友",
+    "companion": "同伴",
+    "friend": "朋友",
+    "pal": "伙伴",
+    "buddy": "伙伴",
+    "mate": "伙伴",
+    "chum": "密友",
+    "comrade": "同志",
+    "colleague": "同事",
+    "peer": "同辈",
+    "equal": "等于",
+    "equivalent": "等价",
+    "match": "匹配",
+    "counterpart": "对应物",
+    "opposite": "相反",
+    "reverse": "反转",
+    "inverse": "相反",
+    "contrary": "相反",
+    "contrast": "对比",
+    "compare": "比较",
+    "comparison": "比较",
+    "measure": "测量",
+    "weigh": "称重",
+    "balance": "平衡",
+    "equate": "等同",
+    "fit": "适合",
+    "suit": "适合",
+    "adapt": "适应",
+    "adjust": "调整",
+    "modify": "修改",
+    "alter": "改变",
+    "change": "改变",
+    "transform": "转变",
+    "convert": "转换",
+    "turn": "转动",
+    "shift": "转移",
+    "transport": "运输",
+    "carry": "携带",
+    "bring": "带来",
+    "take": "拿走",
+    "fetch": "取",
+    "send": "发送",
+    "deliver": "递送",
+    "dispatch": "派遣",
+    "ship": "运送",
+    "export": "出口",
+    "import": "进口",
+    "trade": "交易",
+    "exchange": "交换",
+    "barter": "交换",
+    "buy": "购买",
+    "sell": "出售",
+    "purchase": "购买",
+    "give": "给予",
+    "donate": "捐赠",
+    "contribute": "贡献",
+    "provide": "提供",
+    "supply": "供应",
+    "furnish": "提供",
+    "equip": "装备",
+    "prepare": "准备",
+    "ready": "准备好",
+    "make": "制作",
+    "create": "创造",
+    "produce": "生产",
+    "manufacture": "制造",
+    "assemble": "组装",
+    "fabricate": "制造",
+    "synthesize": "合成",
+    "originate": "起源",
+    "initiate": "发起",
+    "begin": "开始",
+    "commence": "开始",
+    "launch": "启动",
+    "finish": "完成",
+    "complete": "完成",
+    "conclude": "结束",
+    "terminate": "终止",
+    "cease": "停止",
+    "pause": "暂停",
+    "rest": "休息",
+    "relax": "放松",
+    "sleep": "睡觉",
+    "slumber": "睡眠",
+    "dream": "梦想",
+    "wake": "醒来",
+    "awake": "醒着",
+    "arise": "起身",
+    "rise": "上升",
+    "raise": "举起",
+    "lift": "抬起",
+    "elevate": "抬高",
+    "hoist": "吊起",
+    "heave": "举起",
+    "boost": "促进",
+    "lower": "降低",
+    "drop": "落下",
+    "descend": "下降",
+    "decline": "下降",
+    "decrease": "减少",
+    "reduce": "减少",
+    "diminish": "减少",
+    "lessen": "减少",
+    "increase": "增加",
+    "grow": "增长",
+    "expand": "扩展",
+    "extend": "延伸",
+    "stretch": "伸展",
+    "spread": "传播",
+    "distribute": "分配",
+    "share": "分享",
+    "join": "加入",
+    "unite": "联合",
+    "combine": "结合",
+    "merge": "合并",
+    "integrate": "整合",
+    "mix": "混合",
+    "blend": "混合",
+    "stir": "搅动",
+    "shake": "摇动",
+    "agitate": "搅动",
+    "switch": "切换",
+    "replace": "替换",
+    "substitute": "替代",
+    "swap": "交换",
+    "deal": "交易",
+    "transaction": "交易",
+    "negotiation": "谈判",
+    "bargain": "讨价还价",
+    "contract": "合同",
+    "agreement": "协议",
+    "treaty": "条约",
+    "pact": "公约",
+    "alliance": "联盟",
+    "union": "联盟",
+    "association": "协会",
+    "society": "社会",
+    "community": "社区",
+    "organization": "组织",
+    "institution": "机构",
+    "establishment": "建立",
+    "basis": "基础",
+    "ground": "土地",
+    "earth": "地球",
+    "land": "陆地",
+    "soil": "土壤",
+    "dirt": "泥土",
+    "mud": "泥",
+    "clay": "粘土",
+    "sand": "沙子",
+    "dust": "灰尘",
+    "ash": "灰烬",
+    "soot": "煤烟",
+    "grime": "污垢",
+    "filth": "污秽",
+    "pollution": "污染",
+    "contamination": "污染",
+    "infection": "感染",
+    "illness": "疾病",
+    "sickness": "疾病",
+    "ailment": "小病",
+    "malady": "疾病",
+    "disorder": "紊乱",
+    "condition": "条件",
+    "state": "状态",
+    "status": "地位",
+    "situation": "情况",
+    "circumstance": "环境",
+    "environment": "环境",
+    "surroundings": "周围环境",
+    "setting": "设置",
+    "background": "背景",
+    "context": "上下文",
+    "framework": "框架",
+    "project": "项目",
+    "program": "程序",
+    "policy": "政策",
+    "strategy": "策略",
+    "tactic": "战术",
+    "fashion": "时尚",
+    "style": "风格",
+    "model": "模型",
+    "example": "例子",
+    "sample": "样本",
+    "instance": "实例",
+    "case": "案例",
+    "illustration": "插图",
+    "demonstration": "演示",
+    "exhibition": "展览",
+    "display": "展示",
+    "show": "展示",
+    "presentation": "演示",
+    "representation": "代表",
+    "portrayal": "描绘",
+    "depiction": "描述",
+    "narrative": "叙述",
+    "anecdote": "轶事",
+    "episode": "插曲",
+    "event": "事件",
+    "incident": "事件",
+    "occurrence": "发生",
+    "happening": "发生的事",
+    "phenomenon": "现象",
+    "enterprise": "企业",
+    "undertaking": "事业",
+    "venture": "风险",
+    "gamble": "赌博",
+    "bet": "打赌",
+    "wager": "赌注",
+    "stake": "赌注",
+    "chance": "机会",
+    "opportunity": "机会",
+    "possibility": "可能性",
+    "probability": "概率",
+    "likelihood": "可能性",
+    "odds": "几率",
+    "prospect": "前景",
+    "expectation": "期望",
+    "anticipation": "预期",
+    "prediction": "预测",
+    "forecast": "预测",
+    "prophecy": "预言",
+    "omen": "预兆",
+    "portent": "征兆",
+    "admonition": "告诫",
+    "counsel": "建议",
+    "guidance": "指导",
+    "instruction": "指示",
+    "directive": "指令",
+    "mandate": "授权",
+    "decree": "法令",
+    "edict": "法令",
+    "proclamation": "公告",
+    "announcement": "公告",
+    "declaration": "声明",
+    "statement": "陈述",
+    "utterance": "说话",
+    "observation": "观察",
+    "mention": "提到",
+    "reference": "参考",
+    "allusion": "暗示",
+    "implication": "暗示",
+    "insinuation": "影射",
+    "innuendo": "讽刺",
+    "slur": "诽谤",
+    "insult": "侮辱",
+    "affront": "冒犯",
+    "offense": "冒犯",
+    "indignity": "侮辱",
+    "outrage": "暴行",
+    "atrocity": "暴行",
+    "abomination": "厌恶",
+    "horror": "恐惧",
+    "terror": "恐怖",
+    "dread": "恐惧",
+    "fright": "惊吓",
+    "alarm": "警报",
+    "panic": "恐慌",
+    "scare": "惊吓",
+    "startle": "吓一跳",
+    "shock": "震惊",
+    "astonishment": "惊讶",
+    "amazement": "惊奇",
+    "wonder": "惊奇",
+    "awe": "敬畏",
+    "admiration": "钦佩",
+    "respect": "尊重",
+    "esteem": "尊重",
+    "regard": "关心",
+    "consideration": "考虑",
+    "concern": "关心",
+    "care": "关心",
+    "attention": "注意",
+    "heed": "注意",
+    "vigilance": "警惕",
+    "alertness": "警觉",
+    "wakefulness": "清醒",
+    "consciousness": "意识",
+    "awareness": "意识",
+    "perception": "感知",
+    "recognition": "识别",
+    "identification": "识别",
+    "diagnosis": "诊断",
+    "analysis": "分析",
+    "examination": "检查",
+    "inspection": "检查",
+    "scrutiny": "审查",
+    "investigation": "调查",
+    "review": "审查",
+    "survey": "调查",
+    "assessment": "评估",
+    "evaluation": "评价",
+    "appraisal": "评估",
+    "estimate": "估计",
+    "calculation": "计算",
+    "computation": "计算",
+    "reckoning": "计算",
+    "enumeration": "列举",
+    "catalog": "目录",
+    "directory": "目录",
+    "index": "索引",
+    "register": "登记",
+    "archive": "档案",
+    "chronicle": "编年史",
+    "annals": "史册",
+    "records": "记录",
+    "minutes": "纪要",
+    "proceedings": "诉讼程序",
+    "transactions": "交易",
+    "affairs": "事务",
+    "business": "业务",
+    "matters": "事项",
+    "concerns": "关切",
+    "issues": "问题",
+    "problems": "问题",
+    "questions": "问题",
+    "difficulties": "困难",
+    "troubles": "麻烦",
+    "predicaments": "困境",
+    "plights": "困境",
+    "dilemmas": "困境",
+    "quandaries": "窘境",
+    "crises": "危机",
+    "emergencies": "紧急情况",
+    "exigencies": "紧急",
+    "necessities": "必需品",
+    "needs": "需要",
+    "requirements": "要求",
+    "demands": "要求",
+    "wants": "欲望",
+    "desires": "愿望",
+    "wishes": "希望",
+    "hopes": "希望",
+    "dreams": "梦想",
+    "aspirations": "抱负",
+    "ambitions": "抱负",
+    "goals": "目标",
+    "aims": "目标",
+    "objectives": "目标",
+    "ends": "结束",
+    "purposes": "目的",
+    "intentions": "意图",
+    "motives": "动机",
+    "incentives": "激励",
+    "inducements": "诱因",
+    "encouragements": "鼓励",
+    "inspirations": "灵感",
+    "stimuli": "刺激",
+    "spurs": "刺激",
+    "goads": "刺激",
+    "prompts": "提示",
+    "cues": "提示",
+    "signals": "信号",
+    "signs": "标志",
+    "indications": "指示",
+    "verification": "验证",
+    "confirmation": "确认",
+    "validation": "验证",
+    "authentication": "认证",
+    "certification": "认证",
+    "accreditation": "认可",
+    "acknowledgment": "承认",
+    "admission": "承认",
+    "acceptance": "接受",
+    "receipt": "收据",
+    "reception": "接待",
+    "admittance": "入场",
+    "access": "访问",
+    "entry": "进入",
+    "ingress": "进入",
+    "introduction": "介绍",
+    "insertion": "插入",
+    "inclusion": "包含",
+    "incorporation": "合并",
+    "assimilation": "同化",
+    "absorption": "吸收",
+    "digestion": "消化",
+    "consumption": "消费",
+    "use": "使用",
+    "usage": "使用",
+    "utilization": "利用",
+    "employment": "就业",
+    "application": "应用",
+    "service": "服务",
+    "duty": "职责",
+    "responsibility": "责任",
+    "obligation": "义务",
+    "commitment": "承诺",
+    "engagement": "参与",
+    "involvement": "参与",
+    "participation": "参与",
+    "attendance": "出席",
+    "presence": "存在",
+    "appearance": "外观",
+    "manifestation": "表现",
+    "performance": "表现",
+    "production": "生产",
+    "creation": "创造",
+    "formation": "形成",
+    "erection": "建造",
+    "genesis": "起源",
+    "origin": "起源",
+    "commencement": "开始",
+    "inception": "开端",
+    "outset": "开始",
+    "onset": "开始",
+    "dawn": "黎明",
+    "birth": "出生",
+    "conception": "概念",
+    "procreation": "生育",
+    "reproduction": "繁殖",
+    "breeding": "繁殖",
+    "raising": "养育",
+    "rearing": "养育",
+    "nurturing": "培育",
+    "cultivation": "培养",
+    "development": "发展",
+    "growth": "成长",
+    "evolution": "进化",
+    "progress": "进步",
+    "advancement": "进步",
+    "improvement": "改进",
+    "enhancement": "增强",
+    "augmentation": "增加",
+    "expansion": "扩张",
+    "extension": "延伸",
+    "enlargement": "扩大",
+    "addition": "增加",
+    "acquisition": "获得",
+    "procurement": "采购",
+    "obtainment": "获得",
+    "attainment": "达到",
+    "achievement": "成就",
+    "accomplishment": "成就",
+    "fulfillment": "履行",
+    "realization": "实现",
+    "actualization": "实现",
+    "materialization": "物化",
+    "expression": "表达",
+    "assertion": "断言",
+    "allegation": "指控",
+    "accusation": "指责",
+    "charge": "收费",
+    "indictment": "起诉",
+    "arraignment": "传讯",
+    "prosecution": "起诉",
+    "trial": "审判",
+    "hearing": "听证会",
+    "inquest": "调查",
+    "probe": "探针",
+    "quest": "探索",
+    "pursuit": "追求",
+    "attend": "参加",
+    "convoy": "护送",
+    "protect": "保护",
+    "shelter": "庇护",
+    "harbor": "港口",
+    "refuge": "避难所",
+    "asylum": "庇护",
+    "sanctuary": "圣地",
+    "haven": "避风港",
+    "retreat": "撤退",
+    "resort": "度假胜地"
+  },
+  "metadata": {
+    "total_titles": 817,
+    "total_vocabulary": 1579,
+    "version": "1.0"
+  }
+}
