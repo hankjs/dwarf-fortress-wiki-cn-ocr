@@ -180,20 +180,34 @@ def wiki_to_html(content):
 
         # 处理 {{prettytable}} 模板
         table_attrs = ""
-        if "{{prettytable}}" in table_content:
-            table_attrs = ' class="prettytable anchortable" border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"'
-            # 移除模板标记
-            table_content = table_content.replace("{{prettytable}}", "")
-
+        caption = ""
         html_rows = []
         current_row = None
         row_attrs = ""
 
-        # 首先，将内容按行分割，但处理行内 |- 的情况
-        # 先统一处理行内 |-
-        # 例如：! LAND_HOLDER|-| civilization| ...
-        # 应该变成：! LAND_HOLDER\n|-| civilization| ...
-        table_content = re.sub(r"(^|!)([^\n|]+)\|-", r"\1\2\n|-", table_content)
+        if "{{prettytable}}" in table_content:
+            table_attrs = ' class="prettytable anchortable" border="1" cellpadding="4" cellspacing="0" style="margin: 1em 1em 1em 0; background: #f9f9f9; border: 1px #aaa solid; border-collapse: collapse;"'
+            table_content = table_content.replace("{{prettytable}}", "")
+
+        # 预处理：处理紧凑格式的 wikitable
+        # 注意：此时 html.escape() 已经执行，引号被转义为 &quot;
+        
+        # 1. 处理行内的 |+ caption（在 {|... 后紧跟 |+ 的情况）
+        # 例如：{| class=&quot;wikitable&quot;|+ caption text|- -> ...\n|+ caption text\n|-
+        table_content = re.sub(r'(\{\|[^\n]*)\|\+\s*([^|\n-]*)', r'\1\n|+ \2\n', table_content)
+        
+        # 2. 处理所有在行尾的 |-| 和 |-（循环处理直到没有匹配）
+        max_iter = 100  # 防止无限循环
+        for _ in range(max_iter):
+            new_content = re.sub(r'([^\n])\|-\|\s*([^\n|])', r'\1\n|-\n| \2', table_content)
+            new_content = re.sub(r'([^\n])\|-\s*\n([^|!\n])', r'\1\n|-\n| \2', new_content)
+            if new_content == table_content:
+                break
+            table_content = new_content
+        
+        # 3. 处理同一行内的 |-（没有换行的情况）
+        # 例如：...skills|-|Responsibility...（在同一行）
+        table_content = re.sub(r'([^\n])\|-\|([^\n])', r'\1\n|-\n| \2', table_content)
 
         lines = table_content.split("\n")
         i = 0
@@ -209,7 +223,16 @@ def wiki_to_html(content):
                 stripped = line.strip()
                 attrs = stripped[2:].strip()
                 if attrs and "{{" not in attrs:
+                    # 反转义引号（因为 html.escape 已经执行过）
+                    attrs = attrs.replace("&quot;", '"').replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
                     table_attrs = f" {attrs}{table_attrs}"
+                i += 1
+                continue
+
+            # 表格标题 |+
+            if line.strip().startswith("|+"):
+                caption_text = line.strip()[2:].strip()
+                caption = f"<caption>{caption_text}</caption>"
                 i += 1
                 continue
 
@@ -281,11 +304,11 @@ def wiki_to_html(content):
         if current_row:
             html_rows.append(f"<tr{row_attrs}>{''.join(current_row)}</tr>")
 
-        table_html = f"<table{table_attrs}><tbody>{''.join(html_rows)}</tbody></table>"
+        table_html = f"<table{table_attrs}>{caption}<tbody>{''.join(html_rows)}</tbody></table>"
         return table_html
 
     content = re.sub(
-        r"\{\|(.*?)\|\}",
+        r"(\{\|.*?)\|\}",
         process_table,
         content,
         flags=re.DOTALL,
@@ -387,123 +410,6 @@ def wiki_to_html(content):
         process_ol,
         content,
         flags=re.MULTILINE,
-    )
-
-    # 11. MediaWiki 表格 {| ... |}
-    # 表格处理需要在换行转换之前，因为表格包含多行
-    def process_table2(match):
-        table_content = match.group(1)
-
-        # 解析表格属性（如 {{prettytable}}）
-        table_attrs = ""
-        if "{{prettytable}}" in table_content:
-            table_attrs = (
-                ' class="prettytable" style="border-collapse:collapse;width:100%;"'
-            )
-
-        html_rows = []
-        current_row = None
-        row_attrs = ""
-
-        # 按行分割处理
-        lines = table_content.split("\n")
-        i = 0
-        while i < len(lines):
-            line = lines[i].strip()
-
-            # 跳过空行
-            if not line:
-                i += 1
-                continue
-
-            # 跳过表格开始标记和模板
-            if line.startswith("{|"):
-                # 提取表格属性
-                attrs = line[2:].strip()
-                if attrs and "{{" not in attrs:
-                    table_attrs = f" {attrs}"
-                i += 1
-                continue
-
-            # 表格结束
-            if line.startswith("|}"):
-                if current_row:
-                    html_rows.append(f"<tr{row_attrs}>{''.join(current_row)}</tr>")
-                    current_row = None
-                i += 1
-                continue
-
-            # 新行开始 |-
-            if line.startswith("|-"):
-                if current_row:
-                    html_rows.append(f"<tr{row_attrs}>{''.join(current_row)}</tr>")
-                current_row = []
-                # 提取行属性
-                row_attrs = line[2:].strip()
-                if row_attrs:
-                    row_attrs = f" {row_attrs}"
-                else:
-                    row_attrs = ""
-                i += 1
-                continue
-
-            # 表头单元格 ! 或 !!
-            if line.startswith("!"):
-                # 自动开始新行（如果没有当前行）
-                if current_row is None:
-                    current_row = []
-                    row_attrs = ' bgcolor="#ddd"'  # 默认表头行背景色
-                # 处理 !! 分隔的多个表头
-                cells = line[1:].split("!!")
-                for cell in cells:
-                    cell = cell.strip()
-                    # 分离单元格内容和属性（如果有 | 分隔）
-                    if "|" in cell and not cell.startswith("[["):
-                        parts = cell.split("|", 1)
-                        attrs = f" {parts[0].strip()}" if parts[0].strip() else ""
-                        cell_content = parts[1].strip() if len(parts) > 1 else ""
-                    else:
-                        attrs = ""
-                        cell_content = cell
-                    current_row.append(
-                        f"<th{attrs} style='border:1px solid #ddd;padding:8px;background:#f5f5f5;'>{cell_content}</th>"
-                    )
-                i += 1
-                continue
-
-            # 普通单元格 | 或 ||
-            if line.startswith("|"):
-                # 自动开始新行（如果没有当前行）
-                if current_row is None:
-                    current_row = []
-                    row_attrs = ""
-                # 处理 || 分隔的多个单元格
-                cells = line[1:].split("||")
-                for cell in cells:
-                    cell = cell.strip()
-                    # 处理单元格中的颜色标记（如 <span style="color:green">）
-                    # 这些已经是 HTML，直接保留
-                    current_row.append(
-                        f"<td style='border:1px solid #ddd;padding:8px;'>{cell}</td>"
-                    )
-                i += 1
-                continue
-
-            i += 1
-
-        # 结束最后一行
-        if current_row:
-            html_rows.append(f"<tr{row_attrs}>{''.join(current_row)}</tr>")
-
-        table_html = f"<table{table_attrs}>{''.join(html_rows)}</table>"
-        return table_html
-
-    # 匹配 MediaWiki 表格（多行模式）
-    content = re.sub(
-        r"\{\|(.*?)\|\}",
-        process_table2,
-        content,
-        flags=re.DOTALL,
     )
 
     # 保留换行
